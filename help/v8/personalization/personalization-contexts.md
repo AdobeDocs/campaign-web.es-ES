@@ -1,0 +1,49 @@
+---
+title: Contextos de personalización
+description: Obtenga más información sobre las formas de personalizar el contenido y la visualización de los mensajes.
+feature: Personalization
+topic: Personalization
+role: Data Engineer
+level: Intermediate
+source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 0%
+
+---
+
+# Contextos de personalización{#personalization-areas}
+
+>[!NOTE]
+>
+>Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+
+## Personalización de los correos electrónicos {#personalize-emails}
+
+Al crear un correo electrónico, puede añadir personalización en la variable **[!UICONTROL Línea de asunto]** del mensaje.
+
+![](assets/perso_subject.png)
+
+En el Diseñador de correo electrónico, puede personalizar el contenido:
+
+* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo .
+
+   ![](assets/perso_insert.png)
+
+* Para un **vínculo**: seleccione texto o imagen dentro de un bloque de texto, haga clic en el botón **Insertar vínculo** de la barra de herramientas contextual. En la ventana , puede añadir un bloque personalizado haciendo clic en el botón **Añadir personalización** icono.
+
+   ![](assets/perso_link.png)
+
+En ambos casos, se accede al editor de personalización.
+
+![](assets/perso_ee.png)
+
+## Personalización de las ofertas {#personalize-offers}
+
+También puede acceder al editor de personalización cuando añada contenido de tipo texto a las representaciones de sus ofertas.
+
+## Crear direcciones URL personalizadas{#personalize-urls}
+
+Las direcciones URL personalizadas llevan a los destinatarios a páginas específicas de un sitio web o a un micrositio personalizado, según los atributos del perfil. En Adobe Journey Optimizer, puede añadir personalización a las direcciones URL en el contenido del mensaje. La personalización de URL se puede aplicar a texto e imágenes, y utilizar datos de perfil o datos contextuales.
+
+

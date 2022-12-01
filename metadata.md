@@ -1,0 +1,21 @@
+---
+cloud: Experience Cloud
+version: v8
+solution: Campaign
+product: adobe campaign-web
+feature-set: Campaign
+type: Documentation
+hide: true
+source-git-commit: d9b053519a1d01a36a524b3fc48a9e37b2817f5b
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 100%
+
+---
+
+
+# Metadatos para uso interno
+
+El archivo metadata.md incluye metadatos de nivel de repo que pasan a los archivos TOC.md de la guía del usuario en la repo. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
+
+Consulte [Metadatos](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=es) para obtener una lista de valores válidos para **solución**, **producto** y **tipo**.
