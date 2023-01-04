@@ -2,7 +2,8 @@
 audience: end-user
 title: Creación de informes
 description: Documentación web de Campaign v8
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 39%
@@ -54,6 +55,3 @@ Rechazos y no entregables: Este informe muestra el desglose de no entregables, a
 **Hotclicks**
 
 Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los bloques personalizados, los vínculos de cancelación de suscripción, los vínculos de páginas espejo y los vínculos de ofertas se tienen en cuenta en el total de clics acumulados, pero no se muestran en el informe.
-
-
-

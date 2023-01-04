@@ -2,7 +2,8 @@
 keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web v8
 title: Documentación del producto Adobe Campaign Web v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

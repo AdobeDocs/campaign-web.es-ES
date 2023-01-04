@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: Previsualizar y probar el correo electrónico
+title: Acerca de la vista previa y las pruebas
 description: Documentación web de Campaign v8
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
-# Previsualizar y probar el correo electrónico {#preview-test-send}
+# Acerca de la vista previa y las pruebas {#about-preview-proofs}
 
 >[!NOTE]
 >
 >Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
-## Previsualización del contenido
+Una vez definido el contenido del correo electrónico, puede comprobar cómo se mostrará antes de enviarlo. Esto le permite probar el correo electrónico para detectar posibles errores en la configuración de contenido o personalización.
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+Para ello, Adobe Campaign le permite:
 
-![](assets/preview.png)
+* [Vista previa del contenido y la personalización del correo electrónico](#preview) uso de datos de perfil,
 
-1. seleccionar perfiles para probar (perfiles de destino/perfiles de prueba/audiencia)
-1. previsualización del contenido
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Envío de pruebas](#send-proofs) a destinatarios específicos para probar y validar el correo electrónico.
 
-## Envío de pruebas
+Estas acciones se realizan desde la variable **[!UICONTROL Simular contenido]** botón al que se puede acceder al crear el contenido del correo electrónico de desde el Diseñador de correo electrónico:
 
-pasos detallados para enviar una prueba
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)

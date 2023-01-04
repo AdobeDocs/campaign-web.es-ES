@@ -2,10 +2,11 @@
 audience: end-user
 title: Configuración avanzada
 description: Documentación web de Campaign v8
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
+source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 34%
+source-wordcount: '899'
+ht-degree: 53%
 
 ---
 
@@ -40,24 +41,47 @@ Según los permisos, los practicantes no deben modificarlo, tenga cuidado. Compr
 >title="Tipología"
 >abstract="La tipología permite controlar, filtrar y monitorizar los envíos."
 
-### Parámetro de presión {#pressure-parameter}
+Las tipologías son conjuntos de reglas de tipología que se ejecutan durante la fase de análisis de mensajes. Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidoras o clientes que no sean fieles).
+
+Al asociar una tipología con una plantilla de mensaje o un mensaje, las reglas de tipología incluidas en ella se ejecutarán para comprobar la validez del mensaje.
+
+### Parámetros de presión {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Peso del envío"
 >abstract="El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios."
 
+En esta sección, los parámetros de presión permiten definir un umbral. Es el número máximo de mensajes que se pueden enviar a un perfil durante un periodo determinado. Una vez alcanzado este umbral, no se pueden realizar más entregas hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de una entrega si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
+
+Los valores de umbral pueden ser constantes o variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un perfil a otro o incluso en un mismo perfil.
+
+En el **Tipo de peso** , hay tres opciones disponibles:
+
+La variable **Peso de la entrega** field le permite
+
+La variable **Modo de envío** campo.
+
 ### Configuración de capacidad {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="Importancia del destinatario"
->abstract="TBC"
+>abstract="La importancia del destinatario es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad."
 
+En esta sección, puede seleccionar una regla de capacidad definida en la consola de Adobe Campaign v8. Esta regla está asociada al canal de correo electrónico.
+
+La variable **importancia del destinatario** field es una fórmula utilizada para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad.
 
 ## Audiencia {#audience}
 
+En esta sección, puede elegir una asignación de destino definida en la consola de Adobe Campaign v8. La creación de la asignación de destino es necesaria en el caso de que se utilice una tabla de destinatarios distinta de la proporcionada por Adobe Campaign.
+
 ## Envío {#delivery}
+
+Prueba de entrega SMTP: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+
+Correo electrónico CCO: utilice esta opción para almacenar correos electrónicos en un sistema externo a través de CCO simplemente añadiendo una dirección de correo electrónico CCO al destino del mensaje.
 
 ### Reintentos {#retries}
 
@@ -66,16 +90,22 @@ Según los permisos, los practicantes no deben modificarlo, tenga cuidado. Compr
 >title="Número máximo de reintentos"
 >abstract="Si un mensaje falla debido a un error temporal, los reintentos se realizan durante la duración del envío."
 
+Para los mensajes que no se hayan enviado temporalmente debido a un error leve o ignorado, se realiza un reintento automático. De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de entrega, que se define en la pestaña Validez .
+
 ## Aprobación {#approval}
+
+**Manual**
+
+**Semiautomático**
+
+**Automático**
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Aprobación mode"
+>title="Modo de aprobación"
 >abstract="Cada paso de una entrega puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos."
 
 ## Validez {#validity}
-
-### Período de validez {#validity-period}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
@@ -88,6 +118,16 @@ Según los permisos, los practicantes no deben modificarlo, tenga cuidado. Compr
 >abstract="El campo Límite de validez se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado."
 
 
+El campo Duración de la entrega permite introducir el límite de los reintentos de entrega global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.
+
+Asimismo, puede especificar fechas. Para ello, seleccione Establecer explícitamente las fechas de validez. En este caso, las fechas de entrega y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
+
+Límite de validez de los recursos: El campo Límite de validez se utiliza para los recursos cargados, principalmente para la página de reflejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
+
+### Administración de página espejo {#mirror}
+
+**Administración de página espejo**
+
 ### Seguimiento {#tracking}
 
 >[!CONTEXTUALHELP]
@@ -95,16 +135,19 @@ Según los permisos, los practicantes no deben modificarlo, tenga cuidado. Compr
 >title="Período de validez"
 >abstract="Esta opción define la duración durante la cual se activará el seguimiento en las direcciones URL."
 
+**Límite de validez de seguimiento**: Esta opción define la duración durante la cual se activará el seguimiento en las direcciones URL.
+
+**URL de sustitución para URL caducadas**: TBC
 
 
+## Configuración de la prueba{#test-setttings}
 
+**Mantener doble**
 
+**Mantener direcciones incluidas en la lista de bloqueados**
 
+**Mantener direcciones en cuarentena**
 
+**Mantenga el código de envío de la prueba**
 
-
-
-
-
-
-
+**Prefijo de etiqueta**

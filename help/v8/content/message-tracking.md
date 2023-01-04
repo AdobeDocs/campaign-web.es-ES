@@ -2,13 +2,13 @@
 audience: end-user
 title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '525'
 ht-degree: 3%
 
 ---
-
 
 # Adición de vínculos y seguimiento de mensajes {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 3%
 >
 >Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
-Uso [!DNL Journey Optimizer] para añadir vínculos al contenido y realizar un seguimiento de los mensajes enviados para controlar el comportamiento de los destinatarios.
-
-## Habilitar seguimiento {#enable-tracking}
-
-Puede habilitar el seguimiento a nivel de mensaje de correo electrónico comprobando la variable **[!UICONTROL Aperturas de correo electrónico]** y/o **[!UICONTROL Haga clic en el correo electrónico]** al crear el mensaje.
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->Ambas opciones están habilitadas de forma predeterminada.
-
-Esto le permite hacer un seguimiento del comportamiento de sus destinatarios a través de:
-
-* **[!UICONTROL Aperturas de correo electrónico]**: Mensajes que se han abierto.
-* **[!UICONTROL Haga clic en el correo electrónico]**: Haga clic en los vínculos de un correo electrónico.
+Utilice el Diseñador de correo electrónico para añadir vínculos al contenido y realizar un seguimiento de los mensajes enviados para controlar el comportamiento de los destinatarios.
 
 ## Insertar vínculos {#insert-links}
 
@@ -39,7 +24,7 @@ Al diseñar un mensaje, puede agregar vínculos al contenido.
 
 >[!NOTE]
 >
->When [el seguimiento está habilitado](#enable-tracking), se rastrearán todos los vínculos incluidos en el contenido del mensaje.
+>Cuando el seguimiento está habilitado, se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje.
 
 Para insertar vínculos en el contenido del correo electrónico, siga los pasos a continuación:
 
@@ -47,29 +32,13 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    ![](assets/message-tracking-insert-link.png)
 
-1. Elija el tipo de vínculo que desea crear:
-
-   * **[!UICONTROL Vínculo externo]**: Inserte un vínculo a una URL externa.
-
-   * **[!UICONTROL Página de aterrizaje]**: Inserte un vínculo a una página de aterrizaje.
-
-   * **[!UICONTROL Opción de exclusión de un clic]**: Inserte un vínculo para permitir a los usuarios cancelar rápidamente la suscripción a sus comunicaciones sin necesidad de confirmar la exclusión.
-
-   * **[!UICONTROL Inclusión/suscripción externa]**: Inserte un vínculo para aceptar la recepción de comunicaciones de su marca.
-
-   * **[!UICONTROL Exclusión/baja externa]**: Inserte un vínculo para cancelar la suscripción a la recepción de comunicaciones de su marca.
-
-   * **[!UICONTROL Página espejo]**: Inserte un vínculo para mostrar el contenido del correo electrónico en un explorador web. Obtenga más información en [esta sección](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. Puede personalizar los vínculos.
+1. Agregue un **[!UICONTROL Etiqueta]** y **[!UICONTROL Vínculo]**.
 
 1. Guarde los cambios.
 
 1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Configuración de componentes]** a la derecha.
 
-   * Puede editar el vínculo y cambiar su tipo.
+   * Puede editar el vínculo y cambiar su **[!UICONTROL Target]**.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
 
-Para añadir un vínculo a una página espejo en el correo electrónico, [insertar un vínculo](#insert-links) y seleccione **[!UICONTROL Página espejo]** como tipo de vínculo.
+Para añadir un vínculo a una página espejo en el correo electrónico:
 
-![](assets/message-tracking-mirror-page.png)
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. Seleccione el **[!UICONTROL Insertar vínculo]** para acceder al menú de personalización.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. En el **[!UICONTROL Bloque de contenido]** seleccione **[!UICONTROL URL de página espejo]** y haga clic en **[!UICONTROL Agregar]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 La página espejo se crea automáticamente.
 
@@ -123,4 +102,3 @@ La variable [Diseñador de correo electrónico](create-email-content.md) le perm
    * **[!UICONTROL Página espejo]**: Considera que esta URL es una URL de página espejo.
    * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Los informes sobre aperturas y clics están disponibles en el informe Activo y en el informe Global .

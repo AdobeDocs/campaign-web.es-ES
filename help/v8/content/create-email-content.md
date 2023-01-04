@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: Diseño de correos electrónicos en Journey Optimizer
+title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 3%
+source-wordcount: '527'
+ht-degree: 0%
 
 ---
-
 
 # Empezar desde cero {#create-email-content}
 
@@ -59,23 +59,23 @@ ht-degree: 3%
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su correo electrónico en cuestión de segundos.
 
-Para empezar a crear el contenido del correo electrónico con el diseñador de correo electrónico, siga los pasos a continuación:
+Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación:
 
 1. En la página de inicio del Diseñador de correo electrónico, seleccione la opción **[!UICONTROL Diseño desde cero]** .
 
    ![](assets/email_designer.png)
 
-1. Empiece a diseñar el contenido del correo electrónico arrastrando y soltando **[!UICONTROL Componentes de estructura]** para definir el diseño del correo electrónico.
+1. Empiece a diseñar el contenido del correo electrónico arrastrando y soltando **[!UICONTROL Componentes de estructura]** en el lienzo para definir el diseño del correo electrónico.
 
    >[!NOTE]
    >
-   >Tenga en cuenta que la pila de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
-   >
-   >Una vez colocados en el correo electrónico, no puede mover ni eliminar los componentes a menos que ya haya un componente de contenido o un fragmento colocado en él.
+   >El apilamiento de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admita, las columnas no se apilarán.
+
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
    ![](assets/email_designer_2.png)
 
-1. Agregar tantos **[!UICONTROL Componentes de estructura]** según sea necesario.
+1. Agregar tantos **[!UICONTROL Componentes de estructura]** según sea necesario y edite su configuración en el panel dedicado de la derecha.
 
    Seleccione el **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
 
@@ -83,47 +83,27 @@ Para empezar a crear el contenido del correo electrónico con el diseñador de c
    >
    >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. No se puede quitar una columna que no esté vacía.
 
-1. En el **[!UICONTROL Componentes de contenido]** , puede agregar **[!UICONTROL Componentes de contenido]** según sus necesidades en el componente de estructura. [Descubra más información sobre los componentes de contenido](content-components.md).
+1. Expanda el **[!UICONTROL Componentes de contenido]** y añada tantos elementos como necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
 
-   ![](assets/email_designer_3.png)
-
-1. Cada componente se puede personalizar aún más con el **[!UICONTROL Configuración de componentes]** para obtener más información. Por ejemplo, puede cambiar el estilo del texto, el relleno o el margen del componente. [Obtenga más información sobre la alineación y el relleno](adjusting-vertical-alignment-and-padding.md).
-
-   ![](assets/email_designer_4.png)
-
-1. En el **[!UICONTROL Selector de recursos]**, puede añadir directamente los recursos almacenados en la variable **[!UICONTROL Biblioteca de activos]** a su correo electrónico.
-
-   Haga doble clic en la carpeta que contiene los recursos y arrastre y suelte el recurso que desea agregar al correo electrónico.
+1. Cada componente se puede personalizar aún más mediante el **[!UICONTROL Configuración de componentes]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer_5.png)
 
-1. Agregue campos de personalización para personalizar el contenido de los datos de perfil.
+1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
 
-   ![](assets/email_designer_6.png)
-
-1. Añada contenido dinámico para adaptar el contenido a los perfiles de destino según las reglas condicionales.
-
-   ![](assets/email_designer_dynamic-content.png)
-
-1. En el **[!UICONTROL Vínculos]** en el panel izquierdo, compruebe la lista de todas las direcciones URL del contenido que se rastrearán. Puede modificar sus **[!UICONTROL Tipo de seguimiento]**, **[!UICONTROL Etiqueta]** y **[!UICONTROL Etiquetas]** si es necesario.
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se rastreará. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Etiquetas]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
-   >[!NOTE]
+1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. [Obtenga más información sobre el editor de código](code-content.md)
+
+   >[!CAUTION]
    >
-   >Obtenga más información sobre los vínculos y el seguimiento de mensajes en [esta página](message-tracking.md).
+   >No podrá volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
 
-1. Si es necesario, puede cambiar al editor de código para personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. Para obtener más información sobre el editor de código, consulte [esta página](code-content.md#).
+1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >No podrá utilizar el diseñador visual para este correo electrónico después de cambiar al editor de código.
+   ![](assets/email_designer_28.png)
 
-   ![](assets/email_designer_26.png)
-
-1. Haga clic en **[!UICONTROL Mostrar vista previa]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil.
-
-   ![](assets/email_designer_8.png)
-
-1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar y cerrar]**.
+1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Documentación web de Campaign v8
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 13%
+source-wordcount: '540'
+ht-degree: 8%
 
 ---
 
@@ -33,44 +34,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Preparación del envío
+## Preparación del envío{#prepare}
 
-Durante la preparación, se calcula la población objetivo y el contenido del mensaje generado para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas. Las reglas de validación utilizadas durante el análisis se describen en [sección](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=en#validation-process-with-typologies).
+Cuando haya definido el contenido, la audiencia y la programación, estará listo para preparar el mensaje. Durante la preparación, se calcula la población objetivo y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas. Las reglas de validación utilizadas durante el análisis se describen en [sección](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies).
 
-1. Haga clic en el **Preparación** situado en la esquina superior derecha.
+Siga estos pasos:
 
-1. Se muestra el progreso de la preparación. En función del tamaño de la población de destino, esta operación puede tardar algún tiempo.
+1. En el panel de envío, haga clic en el botón **Preparación** situado en la esquina superior derecha y confirme.
+
+   ![](assets/prepare.png)
+
+   Se muestra el progreso de la preparación. En función del tamaño de la población de destino, esta operación puede tardar algún tiempo.
 
    >[!NOTE]
    >
    >Puede detener la preparación en cualquier momento utilizando la variable **Detener preparación** botón. Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede iniciar o detener esto sin riesgo de afectar a nada.
 
-1. Cuando finalice la preparación, compruebe la **Segmentado**, **Para entregar** y **Para excluir** KPI. Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique la audiencia y reinicie la preparación.
+1. Cuando finalice la preparación, compruebe los KPI. Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique la audiencia y reinicie la preparación.
 
-1. Haga clic en el **Registros** y compruebe que no hay error. Se muestran todos los pasos, advertencias y errores de validación. Los iconos de color muestran el tipo de mensaje:
+   ![](assets/prepare2.png)
 
-   * El icono gris indica un mensaje informativo.
-   * El icono amarillo indica un error de procesamiento no crítico.
-   * El icono rojo indica un error crítico que impide realizar el envío.
+   Estos son los diferentes KPI mostrados:
 
-1. Después de realizar los cambios, reinicie la preparación.
+   * **Segmentado**: el número de destinatarios objetivo
+   * **Para entregar**: el número de mensajes que se enviarán
+   * **Para excluir**: el número de mensajes excluidos por una regla de tipología
 
-Una vez finalizada la preparación, el mensaje está listo para enviarse. Para obtener más información, consulte Confirmación de envío.
+1. Haga clic en el **Registros** y compruebe que no hay error. El último mensaje de “log” muestra los mensajes de error y el número de errores. Para obtener más información, consulte esta [sección](#send).
 
+   ![](assets/prepare-logs.png)
 
-## Envío del mensaje
+Si la preparación detecta un error crítico que impide que se envíe la entrega, el estado de preparación aparece como fallido en el panel de envío.
 
-Una vez finalizada la preparación, siga los pasos a continuación para enviar el mensaje.
+![](assets/prepare-error.png)
 
-1. Haga clic en el **Botón Enviar** en la esquina superior derecha y confirme.
+Si necesita realizar cambios en el envío después de la preparación, debe reiniciar la preparación para que se tengan en cuenta esos cambios.
 
-1. El progreso de envío se muestra junto con tres KPI: Entregado, Aperturas, Clics.
+Una vez finalizada la preparación sin errores, el mensaje está listo para enviarse. Para obtener más información, consulte esta [sección](#send).
 
-1. Finalice el envío haciendo clic en el botón OK .
+## Envío del mensaje{#send}
 
-REGISTROS
+Una vez finalizada la preparación, ahora puede enviar el mensaje. Este paso solo es necesario para los mensajes enviados inmediatamente. Si el mensaje está programado, se envía en la fecha definida.
 
->[!NOTE]
->
->Si el mensaje está programado, se envía cuando se llega a la hora de envío. Para obtener más información sobre la programación de mensajes, consulte esta sección.
+Siga estos pasos:
 
+1. En el panel de envío, haga clic en el botón **Enviar** en la esquina superior derecha y confirme.
+
+   ![](assets/send.png)
+
+1. Se muestra el progreso de envío. Compruebe los KPI mostrados. También puede comprobar los registros. Para obtener más información, consulte esta [sección](#send).
+
+   ![](assets/send2.png)
+
+   Estos son los diferentes KPI mostrados:
+
+   * **Entrega**: el número de mensajes enviados correctamente. El porcentaje se basa en el número total de destinatarios objetivo.
+   * **Aperturas**: el número de mensajes abiertos. El porcentaje se basa en el número de mensajes enviados.
+   * **Clics**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje se basa en el número de mensajes enviados.
+
+   >[!NOTE]
+   >
+   >La variable **Aperturas** y **Clics** los indicadores se actualizarán en tiempo real.
+
+   Puede pausar el envío en cualquier momento y luego reanudarlo. Si detiene la entrega mientras se realiza, no podrá reanudarla.

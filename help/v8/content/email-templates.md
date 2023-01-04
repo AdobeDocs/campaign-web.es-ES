@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: Trabajar con plantillas de correo electrónico
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 6%
 
 ---
-
 
 # Trabajar con plantillas de contenido de correo electrónico {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 7%
 Utilice la variable **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 
 ![](assets/email_designer-templates.png)
-
-Puede elegir entre:
-* 20 plantillas de correo electrónico predeterminadas.
-* Plantillas guardadas. [Más información](#save-as-template)
 
 ## Save as template {#save-as-template}
 

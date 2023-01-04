@@ -1,50 +1,64 @@
 ---
 audience: end-user
-title: Configuración del contenido del correo electrónico
+title: Editar el contenido del correo electrónico
 description: Documentación web de Campaign v8
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
+# Editar el contenido del correo electrónico {#configure-content}
 
-# Configuración del contenido del correo electrónico {#configure-content}
-
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
-
-Botón Editar contenido : mostrar caso de uso con línea de asunto, datos adjuntos, añadir una oferta, seguimiento habilitado (+ nota sobre el botón simular contenido con vínculo a la sección de prueba de vista previa )
-
-![](assets/content-dashboard.png)
-
-## Encabezado de correo electrónico
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="Creación del contenido del correo electrónico"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Encabezado de correo electrónico"
 >abstract="TBC"
 
-## Archivo adjunto de correo electrónico
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Adjuntar correo electrónico"
 >abstract="TBC"
-
-## Seguimiento de correo electrónico
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Opciones de seguimiento"
 >abstract="TBC"
 
+>[!NOTE]
+>
+>Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
+Para empezar a crear el contenido de un correo electrónico, haga clic en el botón **[!UICONTROL Editar contenido]** botón. Esta pantalla le permite definir el contenido del correo electrónico y acceder al Diseñador de correo electrónico para diseñarlo.
 
+![](assets/content-dashboard.png)
 
-<!--
-Offers same as campaign (no design, only selection)
-Diff from AJO:  attachement
--->
+Los pasos para definir el contenido del correo electrónico son los siguientes:
+
+1. Marque la **[!UICONTROL De nombre]** y **[!UICONTROL De correo electrónico]** información. Estos campos son de solo lectura, se configuran en la plantilla de correo electrónico seleccionada al crear el correo electrónico.
+
+1. Definir el correo electrónico **[!UICONTROL Línea de asunto]**. Para ello, abra el Editor de expresiones para definir su contenido y añadir personalización mediante varios atributos, bloques de contenido u ofertas. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
+
+1. Si desea enviar ofertas con el correo electrónico, selecciónelas utilizando la variable **[!UICONTROL Ofertas]** botón. A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](offers.md)
+
+1. Haga clic en el **[!UICONTROL Diseñador de correo electrónico]** para estructurar y diseñar el contenido del correo electrónico. En estas secciones encontrará información adicional sobre cómo diseñar contenido de correo electrónico:
+
+   * [Aprenda a diseñar correos electrónicos](create-email-content.md)
+   * [Estilos del contenido](get-started-email-style.md)
+
+1. Si desea adjuntar un archivo al correo electrónico, haga clic en el botón **[!UICONTROL Agregar datos adjuntos]** a continuación, seleccione uno o varios archivos.
+
+   <!--limitation on size + number of files?-->
+
+1. De forma predeterminada, el seguimiento de correo electrónico está habilitado para las aperturas y los clics. Para desactivar estas opciones, anule la selección de las que se encuentran en la sección **[!UICONTROL Funciones opcionales]** para obtener más información. [Aprenda a añadir vínculos y administrar el seguimiento](message-tracking.md)
+
+Una vez definido el contenido del correo electrónico, utilice la variable **[!UICONTROL Simular contenido]** para comprobar cómo se mostrará antes de enviarlo. [Obtenga información sobre cómo previsualizar y probar el correo electrónico](../preview-test/preview-test.md)
+
+<!-- show screenshot showing an email fully configured + highlight the simulate content button-->

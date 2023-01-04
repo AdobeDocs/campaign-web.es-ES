@@ -2,10 +2,11 @@
 audience: end-user
 title: Introducción
 description: Documentación web de Campaign v8
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 18%
+source-wordcount: '332'
+ht-degree: 20%
 
 ---
 
@@ -14,8 +15,6 @@ ht-degree: 18%
 >[!NOTE]
 >
 >Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
-
-## Adobe Campaign V8 Web {#web-interface}
 
 <!--
 V8 web overview
@@ -34,31 +33,31 @@ only existing customers
 
 >[!NOTE]
 >
->La web de Campaign v8 está actualmente en la versión Alpha. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que tanto la interfaz de producto como las capacidades y los flujos de uso pueden cambiar sin previo aviso.
+>La web de Campaign v8 está actualmente en la versión Alpha. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso.
 
 Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-Además de todas las funciones disponibles con la consola, hemos creado una interfaz web para los practicantes que ofrece una experiencia de usuario integrada, intuitiva y coherente.
+Además de todas las funciones disponibles con la consola, hemos creado una interfaz web para ofrecer a los profesionales una experiencia de usuario integrada, intuitiva y coherente.
 
 ## Funciones alfa
 
-Actualmente, esta IU moderna basada en web solo está disponible para los practicantes alfa con las siguientes capacidades:
+Actualmente, esta moderna interfaz basada en web solo está disponible para los practicantes alfa con las siguientes capacidades:
 
 **Experiencia moderna, intuitiva y unificada**
 
 * Acceso a la nueva interfaz y a otras aplicaciones con una sola sesión de usuario compartida
-* Integración de shell unificado: acceso a aprendizaje de la comunidad, centro de ayuda, conmutador de soluciones
+* Integración con Unified Shell: acceso a aprendizaje de la comunidad, centro de ayuda, conmutador de soluciones
 <!--
 No search and pulse notifications in Alpha
 -->
 * Experimente la nueva navegación con menús y carpetas izquierdos
 
-**Cree, inicie y mida su campaña de correo electrónico único**
+**Cree, inicie y mida su campaña de correo electrónico**
 
 * Diseñe contenido de correo electrónico personalizado con el editor de correo electrónico
-* Definir audiencias con el generador de segmentos
+* Definición de audiencias con el Generador de segmentos
 * Previsualización, prueba y envío de los mensajes de correo electrónico
-* Monitorizar el envío y medir resultados con informes integrados
+* Monitorizar el envío y medir los resultados con informes integrados
 
 <!--
 add info somewhere to remind users that
@@ -68,7 +67,7 @@ add info somewhere to remind users that
 
 ## La consola del cliente
 
-Si necesita utilizar una función de Campaign v8 que no esté disponible en la interfaz de usuario web, puede utilizar la consola del cliente. Para obtener más información sobre el uso de Campaign v8, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=en).
+Si necesita utilizar una función de Campaign v8 que no esté disponible en la interfaz de usuario web, puede utilizar la consola del cliente. Para obtener más información sobre el uso de Campaign v8, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es).
 
 Los datos se comparten entre la consola y la interfaz de usuario web. Por ejemplo, si ha creado una plantilla de envío mediante la consola, esta estará disponible en la interfaz web.
 
@@ -76,8 +75,8 @@ Los datos se comparten entre la consola y la interfaz de usuario web. Por ejempl
 
 ![](assets/connect.png)
 
-1. Conectar a [Adobe Experience Cloud](http://experience.adobe.com)
-1. Inicie sesión con sus credenciales de Adobe IMS
+1. Conectar a [Adobe Experience Cloud](http://experience.adobe.com).
+1. Inicie sesión con sus credenciales de Adobe IMS.
 1. En el **Acceso rápido** , haga clic en **Campaign**.
 
 <!--

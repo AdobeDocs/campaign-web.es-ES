@@ -2,13 +2,13 @@
 audience: end-user
 title: Importar el contenido del correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
-
 
 # Importar el contenido del correo electrónico {#existing-content}
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 >
 >Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
-Journey Optimizer le permite importar contenido de HTML existente para diseñar sus correos electrónicos. Este contenido puede ser:
+El diseñador de correo electrónico le permite importar contenido de HTML existente. Este contenido puede ser:
 
 * Un **archivo HTML** con una hoja de estilo incorporada,
 * A **Carpeta .zip** con el archivo HTML, la hoja de estilo (.css) y las imágenes.
@@ -31,14 +31,8 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación:
 
    ![](assets/import-html_2.png)
 
-1. Arrastre y suelte el HTML o el archivo .zip que contiene el contenido del HTML.
+1. Arrastre y suelte el HTML o el archivo .zip que contiene el contenido del HTML y haga clic en **[!UICONTROL Importar]**.
 
 1. Una vez cargado el contenido del HTML, puede aprovechar las funcionalidades del Diseñador de correo electrónico para editar y previsualizar el correo electrónico. [Obtenga más información en esta sección](create-email-content.md).
 
    ![](assets/html-imported.png)
-
-## Vídeo explicativo {#video}
-
-Obtenga información sobre cómo importar contenido de HTML existente, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
-
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
