@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración avanzada
 description: Documentación web de Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
+source-git-commit: 66a1a324d671bd8ef2847005a3ab75d113110117
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 53%
+source-wordcount: '1077'
+ht-degree: 47%
 
 ---
 
@@ -31,8 +31,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 Todos los parámetros técnicos de envío de la plantilla.
-Cambie solo los parámetros, no cree aquí.
-Según los permisos, los practicantes no deben modificarlo, tenga cuidado. Comprobar y cambiar solo la regla de tipología -> resto definido en la plantilla
+
+>[!NOTE]
+>
+> Cambie solo los parámetros, no cree aquí. Según los permisos.
+
+>[!NOTE]
+>
+> Los practicantes no deben modificarlo, tenga cuidado. Compruebe y cambie solo la regla de tipología.
 
 ## Tipología {#typology}
 
@@ -56,11 +62,11 @@ En esta sección, los parámetros de presión permiten definir un umbral. Es el 
 
 Los valores de umbral pueden ser constantes o variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un perfil a otro o incluso en un mismo perfil.
 
-En el **Tipo de peso** , hay tres opciones disponibles:
+En el **Tipo de peso** , hay tres opciones disponibles: (falta la fórmula en función de la opción.)
 
-La variable **Peso de la entrega** field le permite
+La variable **Peso de la entrega** field : Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de una entrega se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso se puede establecer o calcular mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de una entrega en función de los intereses del destinatario.
 
-La variable **Modo de envío** campo.
+La variable **Modo de envío** campo. ??
 
 ### Configuración de capacidad {#capacity-settings}
 
@@ -75,13 +81,15 @@ La variable **importancia del destinatario** field es una fórmula utilizada par
 
 ## Audiencia {#audience}
 
-En esta sección, puede elegir una asignación de destino definida en la consola de Adobe Campaign v8. La creación de la asignación de destino es necesaria en el caso de que se utilice una tabla de destinatarios distinta de la proporcionada por Adobe Campaign.
+En esta sección, puede elegir una **asignación de destino** definida en la consola de Adobe Campaign v8. La creación de la asignación de destino es necesaria en el caso de que se utilice una tabla de destinatarios distinta de la proporcionada por Adobe Campaign.
 
 ## Envío {#delivery}
 
-Prueba de entrega SMTP: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+**Enrutamiento** selección: seleccione la cuenta externa....
 
-Correo electrónico CCO: utilice esta opción para almacenar correos electrónicos en un sistema externo a través de CCO simplemente añadiendo una dirección de correo electrónico CCO al destino del mensaje.
+**Prueba de entrega SMTP**: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+
+**Email BCC**: utilice esta opción para almacenar correos electrónicos en un sistema externo a través de CCO simplemente añadiendo una dirección de correo electrónico CCO al destino del mensaje.
 
 ### Reintentos {#retries}
 
@@ -94,16 +102,17 @@ Para los mensajes que no se hayan enviado temporalmente debido a un error leve o
 
 ## Aprobación {#approval}
 
-**Manual**
-
-**Semiautomático**
-
-**Automático**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprobación"
+>title="Aprobación mode"
 >abstract="Cada paso de una entrega puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos."
+
+**Manual**: al final de la fase de análisis, el usuario debe confirmar la entrega para iniciarlo.
+
+**Semiautomático**: El envío comienza automáticamente si la fase de análisis no genera mensajes de advertencia.
+
+**Automatic**: la entrega comienza automáticamente al final de la fase de análisis, independientemente de su resultado.
+
 
 ## Validez {#validity}
 
@@ -118,15 +127,16 @@ Para los mensajes que no se hayan enviado temporalmente debido a un error leve o
 >abstract="El campo Límite de validez se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado."
 
 
-El campo Duración de la entrega permite introducir el límite de los reintentos de entrega global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.
+El campo **Duración de la entrega** permite introducir el límite de los reintentos de entrega global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.
 
-Asimismo, puede especificar fechas. Para ello, seleccione Establecer explícitamente las fechas de validez. En este caso, las fechas de entrega y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
+Asimismo, puede especificar fechas. Para ello, seleccione **Establecer explícitamente las fechas de validez**. En este caso, las fechas de entrega y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
 
-Límite de validez de los recursos: El campo Límite de validez se utiliza para los recursos cargados, principalmente para la página de reflejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
+**Límite de validez de los recursos** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
 ### Administración de página espejo {#mirror}
 
-**Administración de página espejo**
+**Administración de páginas espejo** contiene cuatro opciones :
+
 
 ### Seguimiento {#tracking}
 
@@ -140,14 +150,14 @@ Límite de validez de los recursos: El campo Límite de validez se utiliza para 
 **URL de sustitución para URL caducadas**: TBC
 
 
-## Configuración de la prueba{#test-setttings}
+## Configuración de la prueba {#test-setttings}
 
-**Mantener doble**
+**Mantener doble** permite autorizar varios envíos a destinatarios que cumplan varios criterios de objetivo.
 
 **Mantener direcciones incluidas en la lista de bloqueados**
 
-**Mantener direcciones en cuarentena**
+**Mantener direcciones en cuarentena** permite evitar que el destinatario tenga perfiles con una dirección que no responde.
 
-**Mantenga el código de envío de la prueba**
+**Mantener el código de entrega de la prueba** permite dar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona.
 
-**Prefijo de etiqueta**
+De forma predeterminada, el asunto de la prueba lleva el prefijo &quot;Proof #&quot;, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **Label prefix**.
