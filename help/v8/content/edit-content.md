@@ -3,9 +3,9 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Documentación web de Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 >
 >Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
-Para empezar a crear el contenido de un correo electrónico, haga clic en el botón **[!UICONTROL Editar contenido]** botón. Esta pantalla le permite definir el contenido del correo electrónico y acceder al Diseñador de correo electrónico para diseñarlo.
+Para empezar a crear el contenido de un correo electrónico, haga clic en el botón **[!UICONTROL Editar contenido]** en la pantalla de creación del correo electrónico.
+
+![](assets/edit-content.png)
+
+Esta pantalla le permite definir el contenido del correo electrónico y acceder al Diseñador de correo electrónico para diseñarlo.
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ Los pasos para definir el contenido del correo electrónico son los siguientes:
 
 1. Marque la **[!UICONTROL De nombre]** y **[!UICONTROL De correo electrónico]** información. Estos campos son de solo lectura, se configuran en la plantilla de correo electrónico seleccionada al crear el correo electrónico.
 
-1. Definir el correo electrónico **[!UICONTROL Línea de asunto]**. Para ello, abra el Editor de expresiones para definir su contenido y añadir personalización mediante varios atributos, bloques de contenido u ofertas. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
+1. Definir el correo electrónico **[!UICONTROL Línea de asunto]**. Para ello, escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para definir y añadir personalización mediante varios atributos y bloques de contenido u ofertas. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
 1. Si desea enviar ofertas con el correo electrónico, selecciónelas utilizando la variable **[!UICONTROL Ofertas]** botón. A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](offers.md)
 
