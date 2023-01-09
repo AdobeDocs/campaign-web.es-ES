@@ -3,9 +3,9 @@ audience: end-user
 title: Vista previa del contenido del correo electrónico
 description: Documentación web de Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Campaign le permite utilizar perfiles para previsualizar el contenido del 
 
 Los mensajes se pueden previsualizar mediante:
 
-* **Perfiles de prueba**: previsualice el correo electrónico con direcciones semilla, que son destinatarios adicionales de la base de datos que no forman parte del destinatario de correo electrónico,
+* **Perfiles de prueba**: previsualice el correo electrónico con direcciones semilla, que son destinatarios ficticios y adicionales de la base de datos,
 * **Perfiles**: previsualice el correo electrónico con un perfil existente.
 
 Para obtener una vista previa del contenido del correo electrónico, siga estos pasos:
@@ -36,5 +36,7 @@ Para obtener una vista previa del contenido del correo electrónico, siga estos 
 1. Una vez seleccionados los perfiles, se muestra una vista previa del correo electrónico en el panel derecho. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo.
 
    Si ha añadido varios perfiles, puede cambiar entre cada uno de ellos en la lista para obtener una vista previa del correo electrónico correspondiente.
+
+   También puede obtener una vista previa del procesamiento del contenido en distintos dispositivos (escritorio, móvil, tableta...).
 
    ![](assets/preview.png)
