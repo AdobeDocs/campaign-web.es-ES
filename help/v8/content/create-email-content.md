@@ -3,7 +3,7 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="Definición de columnas de plantilla"
 >abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
 
-El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su correo electrónico en cuestión de segundos.
+El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación:
 
@@ -91,7 +91,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
 
-1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se rastreará. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Etiquetas]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se rastreará. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
