@@ -3,9 +3,9 @@ audience: end-user
 title: Crear el primer correo electrónico
 description: Documentación web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1174'
 ht-degree: 2%
 
 ---
@@ -116,9 +116,11 @@ En este caso de uso, se envía el correo electrónico a una audiencia existente.
 
    >[!NOTE]
    >
-   >Las audiencias disponibles en la lista proceden de la instancia de Campaign V8 o de Adobe Experience Platform si la integración Destino / Fuentes se ha implementado en la instancia.
+   >Las audiencias disponibles en la lista proceden de la instancia de Campaign V8 o de Adobe Experience Platform si la integración Destino / Fuentes se ha configurado en la instancia.
+   >
+   >La integración Destino / Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y enviar los registros de envío y seguimiento de Campaign a Adobe Experience Platform. [Descubra cómo funciona Campaign y Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Una vez seleccionada la audiencia, puede editar su regla si es necesario.
+1. Una vez seleccionada la audiencia, puede refinar el objetivo con reglas adicionales.
 
    También puede establecer un grupo de control para analizar el comportamiento de los destinatarios de correo electrónico en comparación con el comportamiento de los perfiles que no estaban segmentados. [Aprenda a trabajar con grupos de control](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ En este caso de uso, se envía el correo electrónico a una audiencia existente.
 
 Para programar el envío del correo electrónico, haga clic en **[!UICONTROL Habilitar]** a continuación, especifique la fecha y la hora deseadas para el envío.
 
-De forma predeterminada, la variable **[!UICONTROL Confirme antes de enviar]** está activada, lo que significa que deberá confirmar la entrega en la fecha y hora especificadas para enviar el correo electrónico. Desactive esta opción para permitir que el correo electrónico se envíe en la fecha y hora programadas sin necesidad de confirmación.
+De forma predeterminada, la variable **[!UICONTROL Confirme antes de enviar]** está activada, lo que significa que deberá confirmar la entrega para permitir que el correo electrónico se envíe en la fecha y hora especificadas. Desactive esta opción para permitir que el correo electrónico se envíe en la fecha y hora programadas sin necesidad de confirmación.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ De forma predeterminada, la variable **[!UICONTROL Confirme antes de enviar]** e
 
 Una vez que el correo electrónico esté listo, puede obtener una vista previa y probarlo antes de iniciar su envío.
 
-En este caso de uso, se obtiene una vista previa del correo electrónico utilizando perfiles existentes y se envía una prueba a un perfil de prueba que no forma parte del destinatario.
+En este caso de uso, se obtiene una vista previa del correo electrónico y se envía una prueba con perfiles existentes.
 
 Encontrará información adicional sobre cómo previsualizar y probar correos electrónicos en [esta sección](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
 
 1. Para enviar pruebas del correo electrónico, haga clic en el **[!UICONTROL Prueba]** a continuación, seleccione los perfiles que recibirán la prueba.
 
-   En este ejemplo, deseamos enviar las pruebas a un perfil de prueba específico, que es una dirección semilla que no forma parte del objetivo. [Aprenda a trabajar con direcciones semilla](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
