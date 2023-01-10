@@ -3,14 +3,19 @@ audience: end-user
 title: Vista previa del contenido del correo electrónico
 description: Documentación web de Campaign v8
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # Vista previa del contenido del correo electrónico {#preview}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Previsualización inteligente del contenido"
+>abstract="Adobe Campaign permite utilizar perfiles para previsualizar el contenido del correo electrónico antes de enviarlo para comprobar la personalización y cómo los destinatarios los verán."
 
 >[!NOTE]
 >
