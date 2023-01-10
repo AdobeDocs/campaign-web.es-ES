@@ -3,9 +3,9 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -102,3 +102,8 @@ La variable [Diseñador de correo electrónico](create-email-content.md) le perm
    * **[!UICONTROL Página espejo]**: Considera que esta URL es una URL de página espejo.
    * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Agregue un **[!UICONTROL Categoría]** al vínculo para agrupar los vínculos rastreados y hacer clic en **[!UICONTROL Guardar]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. Después de realizar la entrega, acceda al informe de entrega. En el **[!UICONTROL Seguimiento]** , el **[!UICONTROL URL y flujos de clics]** muestra las direcciones URL de su envío más visitadas. [Más información](../reporting/reports.md)
