@@ -3,7 +3,7 @@ audience: end-user
 title: Añadir una audiencia
 description: Documentación web de Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 6%
@@ -43,7 +43,7 @@ En esta sección se explica cómo seleccionar una audiencia existente al definir
 
    ![](assets/create-audience3.png)
 
-1. Con el generador de segmentos, puede enriquecer la audiencia con filtros adicionales o combinando distintas audiencias. Consulte esta [sección](segment-builder.md).
+1. Con el generador de reglas, puede enriquecer la audiencia con filtros adicionales o combinando distintas audiencias. Consulte esta [sección](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

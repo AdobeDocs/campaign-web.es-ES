@@ -3,10 +3,10 @@ audience: end-user
 title: Establecer un grupo de control
 description: Documentación web de Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 47%
+source-wordcount: '545'
+ht-degree: 40%
 
 ---
 
@@ -56,6 +56,28 @@ En el **Extraer de target** , elija un **Tipo de exclusión**:
 
 A continuación, defina la variable **Límite de tamaño**: debe definir cómo va a limitar el número de perfiles que extraiga del destinatario principal.
 
+**Ejemplo**
+
+Puede ver los registros para comprobar e identificar los perfiles excluidos. Veamos el ejemplo de una exclusión aleatoria en cinco perfiles.
+
+![](assets/control-group4.png)
+
+Después de la preparación de la entrega, puede ver las exclusiones en las pantallas siguientes:
+
+* La variable **Para excluir** KPI en el panel de envío, antes del envío.
+
+   ![](assets/control-group5.png)
+
+* La variable **Registros de exclusión** mostrar cada perfil y la ejecución relacionada **Razón**.
+
+   ![](assets/control-group6.png)
+
+* La variable **Causas de exclusión** muestra el número de perfiles ejecutados para cada regla de tipología.
+
+   ![](assets/control-group7.png)
+
+Para obtener más información sobre los registros de envío, consulte esta [sección](../monitor/delivery-logs.md).
+
 ## Población adicional {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ En el **Población adicional** de la sección **Grupo de control** pantalla de d
 
 * Para usar una audiencia existente, haga clic en **Seleccionar la audiencia**. Consulte esta [sección](add-audience.md).
 
-* Para definir una nueva consulta, seleccione **Cree sus propios** y defina los criterios de exclusión mediante el generador de segmentos. Consulte esta [sección](segment-builder.md).
+* Para definir una nueva consulta, seleccione **Cree sus propios** y defina los criterios de exclusión mediante el generador de reglas. Consulte esta [sección](segment-builder.md).
 
 Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta se excluirán del destinatario.

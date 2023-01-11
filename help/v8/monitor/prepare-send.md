@@ -3,7 +3,7 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Documentación web de Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 8%
@@ -60,7 +60,7 @@ Siga estos pasos:
    * **Para entregar**: el número de mensajes que se enviarán
    * **Para excluir**: el número de mensajes excluidos por una regla de tipología
 
-1. Haga clic en el **Registros** y compruebe que no hay error. El último mensaje de “log” muestra los mensajes de error y el número de errores. Para obtener más información, consulte esta [sección](#send).
+1. Haga clic en el **Registros** y compruebe que no hay error. El último mensaje de “log” muestra los mensajes de error y el número de errores. Para obtener más información, consulte esta [sección](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ Siga estos pasos:
 
    ![](assets/send.png)
 
-1. Se muestra el progreso de envío. Compruebe los KPI mostrados. También puede comprobar los registros. Para obtener más información, consulte esta [sección](#send).
+1. Se muestra el progreso de envío. Compruebe los KPI mostrados. También puede comprobar los registros. Para obtener más información, consulte esta [sección](delivery-logs.md).
 
    ![](assets/send2.png)
 

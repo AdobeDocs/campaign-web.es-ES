@@ -3,7 +3,7 @@ audience: end-user
 title: Crear el primer correo electrónico
 description: Documentación web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -104,7 +104,7 @@ En este caso de uso, se diseña el correo electrónico con una plantilla predefi
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definición de la audiencia"
->abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o bien puede elegir crear una nueva audiencia con el Generador de segmentos."
+>abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o bien puede elegir crear una nueva audiencia con el generador de reglas."
 
 En este caso de uso, se envía el correo electrónico a una audiencia existente. Encontrará información adicional sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
 
