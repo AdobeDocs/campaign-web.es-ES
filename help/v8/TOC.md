@@ -5,7 +5,7 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 14%
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # Documentación web de Adobe Campaign v8 {#v8}
 
-+ [Documentación web de Campaign v8](campaign-web-home.md)
++ [Documentación de Campaign Web v8](campaign-web-home.md)
 + Novedades {#whats-new}
    + [Últimas notas de la versión](rn/release-notes.md)
    + [Actualizaciones de documentación](rn/documentation-updates.md)

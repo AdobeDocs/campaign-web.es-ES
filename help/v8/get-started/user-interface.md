@@ -3,7 +3,7 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Examine los vínculos de la izquierda para acceder a las funciones web de Campai
 
 ### Inicio
 
-Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las principales funciones web de Campaign v8. La variable **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de creación y modificación y su estado.
+Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las funciones web principales de Campaign v8. La variable **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de creación y modificación y su estado.
 
 <!--
 * Banner
@@ -54,7 +54,7 @@ Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las
 * Learning cards
 -->
 
-Acceda a las páginas de ayuda de clave web de Campaign v8 desde la sección inferior de la página principal.
+Acceda a las páginas de ayuda de la clave web de Campaign v8 desde la sección inferior de la página principal.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -156,7 +156,7 @@ Hay disponible una ayuda contextual en la interfaz de . Cuando esté disponible,
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-También hay disponible una guía de integración para ayudarle a empezar a utilizar la web de Campaign v8. Haga clic en el icono en la esquina inferior derecha, elija uno de los escenarios paso a paso disponibles y simplemente siga las instrucciones.
+También hay disponible una guía de integración para ayudarle a empezar a utilizar Campaign v8 Web. Haga clic en el icono en la esquina inferior derecha, elija uno de los escenarios paso a paso disponibles y simplemente siga las instrucciones.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

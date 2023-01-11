@@ -3,10 +3,10 @@ audience: end-user
 title: Acerca de las audiencias
 description: Acerca de las audiencias
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 12%
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-En esta sección, aprenderá a definir la audiencia del correo electrónico. Este es el objetivo de la entrega, los destinatarios que recibirán el correo electrónico. El tipo de audiencia depende de la asignación de destino.
+En esta sección, aprenderá a definir la audiencia del correo electrónico. Este es el objetivo de la entrega, los destinatarios que recibirán el correo electrónico. El tipo de audiencia depende de la asignación de destino definida en la plantilla de envío. Consulte esta [sección](../email/create-email.md).
 
 Para definir la audiencia, puede:
 
