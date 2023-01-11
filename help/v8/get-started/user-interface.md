@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="Interfaz"
 >abstract="La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario integrada, intuitiva y coherente."
 
-La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario moderna, integrada e intuitiva para simplificar los flujos de trabajo, el diseño y la entrega de las campañas de marketing, y es coherente con la experiencia de las aplicaciones nativas de Adobe Experience Platform.
+La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menú de navegación izquierda
 
-Examine los vínculos de la izquierda para acceder a las funciones web de Campaign v8. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en Alpha.
+Examine los vínculos de la izquierda para acceder a las funciones web de Campaign v8. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en Alpha. Todas las listas se podrán editar en versiones beta y GA. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario.
 
 ![](assets/home.png)
 
 ### Inicio
 
-Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las principales funciones web de Campaign v8. La variable **Recientes** proporciona accesos directos a los envíos creados recientemente. Esta lista muestra sus fechas de creación y modificación y su estado.
+Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las principales funciones web de Campaign v8. La variable **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de creación y modificación y su estado.
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 La barra superior de la interfaz le permite:
 
-* comparta sus comentarios como cliente de Alpha
-* cambiar entre organizaciones IMS
+* comparta sus comentarios como evaluador alfa
+* cambiar entre organizaciones e instancias
 * cambiar entre las aplicaciones de Adobe Experience Cloud
 * acceda a páginas de ayuda, póngase en contacto con el servicio de asistencia técnica y comparta sus comentarios. Puede buscar artículos de ayuda y vídeos desde el campo de búsqueda .
 

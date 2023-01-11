@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción
 description: Documentación web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 15%
+source-wordcount: '332'
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ only existing customers
 
 Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-Además de todas las funciones existentes disponibles con la consola, hemos creado una nueva interfaz de usuario moderna basada en web para simplificar el diseño y el envío de las campañas de marketing, y coherente con la experiencia de las aplicaciones nativas de Adobe Experience Platform.
+Además de todas las funciones existentes disponibles con la consola, hemos creado una nueva interfaz de usuario moderna basada en web para simplificar el diseño y el envío de las campañas de marketing, y coherente con Adobe Experience Platform.
 
 ## Funciones alfa
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **Cree, inicie y mida su campaña de correo electrónico**
 
-* Diseñe contenido de correo electrónico personalizado con el editor de correo electrónico
-* Definir audiencias de destino con el Generador de segmentos
+* Diseñe contenido de correo electrónico personalizado con el creador de correo electrónico
+* Definir audiencias de destino con el generador de reglas
 * Previsualización, prueba y envío de los mensajes de correo electrónico
 * Monitorizar el envío y medir los resultados con informes integrados
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>Tenga en cuenta que las campañas en canales múltiples y las capacidades de administración de flujos de trabajo estarán disponibles en el programa beta.
 
 ## La consola del cliente
 
@@ -71,7 +75,7 @@ Los datos se comparten entre la consola y la interfaz de usuario web. Por ejempl
 ![](assets/connect.png)
 
 1. Conectar a [Adobe Experience Cloud](http://experience.adobe.com).
-1. Inicie sesión con sus credenciales de Adobe IMS.
+1. Inicie sesión con sus credenciales de Adobe.
 1. En el **Acceso rápido** , haga clic en **Campaign**.
 
 <!--
