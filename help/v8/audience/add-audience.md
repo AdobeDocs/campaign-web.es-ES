@@ -3,23 +3,21 @@ audience: end-user
 title: Añadir una audiencia
 description: Documentación web de Campaign v8
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
 # Seleccionar una audiencia {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Seleccionar una audiencia existente"
 >abstract="Las audiencias se definen en la consola Adobe Campaign v8. Si tiene una integración de Adobe Experience Platform disponible, también debería poder ver las audiencias definidas por Platform."
-
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega de correo electrónico. Si desea crear una audiencia nueva, consulte esta [sección](segment-builder.md).
 

@@ -3,20 +3,16 @@ audience: end-user
 title: Configuración avanzada
 description: Documentación web de Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 49%
+source-wordcount: '1222'
+ht-degree: 50%
 
 ---
 
 # Configuración avanzada {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
 Esta configuración es **parámetros técnicos de entrega** que se definen en la plantilla de correo electrónico. Si desea modificar cualquiera de ellos para un envío específico, tenga cuidado.
 

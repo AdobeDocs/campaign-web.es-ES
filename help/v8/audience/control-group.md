@@ -3,18 +3,14 @@ audience: end-user
 title: Establecer un grupo de control
 description: Documentación web de Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 40%
+source-wordcount: '526'
+ht-degree: 41%
 
 ---
 
 # Establecer un grupo de control {#control-group}
-
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
 Puede utilizar grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de sus campañas.
 

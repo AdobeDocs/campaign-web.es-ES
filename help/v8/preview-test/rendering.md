@@ -3,18 +3,16 @@ audience: end-user
 title: Probar el procesamiento de correo electrónico
 description: Documentación web de Campaign v8
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # Probar la renderización del correo electrónico {#rendering}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Antes de enviar el correo electrónico, asegúrese de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos web.
 

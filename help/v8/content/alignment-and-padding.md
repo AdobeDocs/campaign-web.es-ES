@@ -3,18 +3,16 @@ audience: end-user
 title: Ajustar la alineación vertical y el relleno en el Diseñador de correo electrónico
 description: Aprenda a ajustar la alineación vertical y el relleno
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
 
 # Ajustar alineación vertical y relleno {#alignment-and-padding}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 En este ejemplo, ajustaremos el relleno y la alineación vertical dentro de un componente de estructura compuesto por tres columnas.
 

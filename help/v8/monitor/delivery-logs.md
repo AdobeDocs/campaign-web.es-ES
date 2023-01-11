@@ -3,18 +3,16 @@ audience: end-user
 title: Monitorización de registros de envío
 description: Documentación web de Campaign v8
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 46%
+source-wordcount: '294'
+ht-degree: 49%
 
 ---
 
 # Monitorización de registros de envío {#delivery-logs}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"

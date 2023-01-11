@@ -3,23 +3,21 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Documentación web de Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '521'
 ht-degree: 8%
 
 ---
 
 # Prepare y envíe su correo electrónico {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Prepare y envíe su correo electrónico"
 >abstract="Descubra cómo preparar su correo electrónico y obtener más información sobre cómo enviar KPI."
-
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
 <!--
 

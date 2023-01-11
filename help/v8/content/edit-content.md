@@ -3,14 +3,16 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Documentación web de Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Editar el contenido del correo electrónico {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Opciones de seguimiento"
 >abstract="TBC"
-
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
 
 Para empezar a crear el contenido de un correo electrónico, haga clic en el botón **[!UICONTROL Editar contenido]** en la pantalla de creación del correo electrónico.
 

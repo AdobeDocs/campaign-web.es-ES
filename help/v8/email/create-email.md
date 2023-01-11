@@ -3,18 +3,16 @@ audience: end-user
 title: Crear el primer correo electrónico
 description: Documentación web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
 
 # Enviar su primer correo electrónico {#first-email}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Este caso de uso detalla cómo crear su primer correo electrónico. Vamos a programar el envío de un correo electrónico en una fecha específica a los clientes fieles de plata y oro. Este correo electrónico se diseñará con una plantilla predefinida e incluirá la personalización mediante los atributos del perfil.
 

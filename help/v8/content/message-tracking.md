@@ -3,18 +3,16 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
 
 # Adición de vínculos y seguimiento de mensajes {#tracking}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Utilice el Diseñador de correo electrónico para añadir vínculos al contenido y realizar un seguimiento de los mensajes enviados para controlar el comportamiento de los destinatarios.
 

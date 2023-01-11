@@ -3,18 +3,16 @@ audience: end-user
 title: Envío de pruebas
 description: Documentación web de Campaign v8
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---
 
 # Envío de pruebas {#send-proofs}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 El envío de correos electrónicos de prueba permite validar el correo electrónico y comprobar varios elementos, como vínculos, vínculos de exclusión y páginas espejo, imágenes y detectar posibles errores.
 

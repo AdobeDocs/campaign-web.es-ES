@@ -3,18 +3,16 @@ audience: end-user
 title: Personalice el fondo del correo electrónico
 description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
 # Personalice el fondo del correo electrónico {#backgrounds}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

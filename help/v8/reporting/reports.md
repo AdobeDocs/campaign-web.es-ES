@@ -3,18 +3,16 @@ audience: end-user
 title: Creación de informes
 description: Documentación web de Campaign v8
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 39%
+source-wordcount: '381'
+ht-degree: 41%
 
 ---
 
 # Creación de informes {#reports}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 <!--
 detail delivery reports and how to access them

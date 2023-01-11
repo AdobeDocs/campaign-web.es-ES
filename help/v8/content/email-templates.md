@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: Trabajar con plantillas de correo electrónico
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '178'
 ht-degree: 6%
 
 ---
 
 # Trabajar con plantillas de contenido de correo electrónico {#email-content-templates}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Utilice la variable **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 

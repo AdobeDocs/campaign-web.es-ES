@@ -3,18 +3,16 @@ audience: end-user
 title: Trabajar con el Generador de segmentos
 description: Documentación web de Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
 
 # Definir una audiencia con el generador de reglas {#segment-builder}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 En esta sección se describe cómo crear una audiencia al diseñar un nuevo correo electrónico. La audiencia creada solo se puede utilizar en este correo electrónico.
 

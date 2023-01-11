@@ -3,18 +3,16 @@ audience: end-user
 title: Acerca de la vista previa y las pruebas
 description: Documentación web de Campaign v8
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # Acerca de la vista previa y las pruebas {#about-preview-proofs}
 
->[!NOTE]
->
->Esta documentación está en construcción y se actualiza con frecuencia. La versión final de este contenido estará lista en enero de 2023.
+![](../assets/do-not-localize/badge.png)
 
 Una vez definido el contenido del correo electrónico, puede comprobar cómo se mostrará antes de enviarlo. Esto le permite probar el correo electrónico para detectar posibles errores en la configuración de contenido o personalización.
 
