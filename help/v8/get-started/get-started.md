@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción
 description: Documentación web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 15%
 
 ---
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-Además de todas las funciones disponibles con la consola, hemos creado una interfaz web para ofrecer a los profesionales una experiencia de usuario integrada, intuitiva y coherente.
+Además de todas las funciones existentes disponibles con la consola, hemos creado una nueva interfaz de usuario moderna basada en web para simplificar el diseño y el envío de las campañas de marketing, y coherente con la experiencia de las aplicaciones nativas de Adobe Experience Platform.
 
 ## Funciones alfa
 
-Actualmente, esta moderna interfaz basada en web solo está disponible para los practicantes alfa con las siguientes capacidades:
+Actualmente, esta interfaz web solo está disponible para los practicantes alfa con las siguientes capacidades:
 
 **Experiencia moderna, intuitiva y unificada**
 
@@ -50,7 +50,7 @@ No search and pulse notifications in Alpha
 **Cree, inicie y mida su campaña de correo electrónico**
 
 * Diseñe contenido de correo electrónico personalizado con el editor de correo electrónico
-* Definición de audiencias con el Generador de segmentos
+* Definir audiencias de destino con el Generador de segmentos
 * Previsualización, prueba y envío de los mensajes de correo electrónico
 * Monitorizar el envío y medir los resultados con informes integrados
 
