@@ -5,9 +5,9 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 14%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 14%
    + [Acerca de las audiencias](audience/about-audiences.md)
    + [Seleccionar una audiencia](audience/add-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
-   + [Trabajar con el Generador de segmentos](audience/segment-builder.md)
+   + [Definir una audiencia con el generador de reglas](audience/segment-builder.md)
 + Previsualizar y probar el correo electrónico {#preview-test}
    + [Acerca de la vista previa y las pruebas](preview-test/preview-test.md)
    + [Vista previa del contenido del correo electrónico](preview-test/preview-content.md)

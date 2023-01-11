@@ -3,10 +3,10 @@ audience: end-user
 title: Acerca de las audiencias
 description: Acerca de las audiencias
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 14%
+source-wordcount: '128'
+ht-degree: 12%
 
 ---
 
@@ -42,11 +42,11 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Una vez diseñado el contenido, debe definir la audiencia del correo electrónico. Este es el objetivo de la entrega, los destinatarios que recibirán el correo electrónico. El tipo de audiencia depende de la asignación de destino.
+En esta sección, aprenderá a definir la audiencia del correo electrónico. Este es el objetivo de la entrega, los destinatarios que recibirán el correo electrónico. El tipo de audiencia depende de la asignación de destino.
 
 Para definir la audiencia, puede:
 
-* utilice una audiencia existente definida en la consola de Adobe Campaign. Consulte esta [sección](add-audience.md).
+* usar una audiencia existente, consulte esto [sección](add-audience.md).
 * cree una nueva audiencia que se utilizará para el correo electrónico. Consulte esta [sección](segment-builder.md).
 
 También puede definir grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de las campañas. Consulte esta [sección](control-group.md).

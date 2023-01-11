@@ -3,14 +3,14 @@ audience: end-user
 title: Trabajar con el Generador de segmentos
 description: Documentación web de Campaign v8
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# Trabajar con el Generador de segmentos {#segment-builder}
+# Definir una audiencia con el generador de reglas {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 En esta sección se describe cómo crear una audiencia al diseñar un nuevo correo electrónico. La audiencia creada solo se puede utilizar en este correo electrónico.
 
-El Generador de segmentos le permite definir la población objetivo del mensaje filtrando los datos contenidos en la base de datos de Adobe Campaign. Si desea seleccionar una audiencia existente, consulte esta [sección](add-audience.md).
+El generador de reglas permite definir la población objetivo del mensaje filtrando los datos contenidos en la base de datos. Si desea seleccionar una audiencia existente, consulte esta [sección](add-audience.md).
 
-Para obtener más información sobre el Generador de segmentos, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Para obtener más información sobre el generador de reglas, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Para crear una audiencia nueva al diseñar un correo electrónico, siga estos pasos:
 
@@ -28,7 +28,7 @@ Para crear una audiencia nueva al diseñar un correo electrónico, siga estos pa
 
    ![](assets/segment-builder0.png)
 
-1. Select **Cree sus propios**. Se muestra el Generador de segmentos.
+1. Select **Cree sus propios**. Se muestra el generador de reglas.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ La paleta, situada en la parte izquierda, contiene todos los elementos que se pu
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola de Campaign Classic.
+* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola del Campaign Classic o desde Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Para aprovechar las audiencias de Adobe Experience Platform, debe configurar la integración con Destinations. Consulte la [Documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es).
 
 Puede utilizar la barra de búsqueda para encontrar los elementos rápidamente.
 
@@ -87,7 +91,7 @@ En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven
 
    ![](assets/segment-builder10.png)
 
-1. Haga clic en **Ver resultados** para mostrar la lista y el número de destinatarios que coinciden con la consulta.
+1. Haga clic en **Ver resultados** para mostrar la lista y el número de destinatarios que coinciden con la consulta. También puede añadir columnas para visualizar y comprobar los datos. En nuestro ejemplo, agregue la variable **Ciudad** y debería ver Atlanta y Seattle.
 
    ![](assets/segment-builder11.png)
 

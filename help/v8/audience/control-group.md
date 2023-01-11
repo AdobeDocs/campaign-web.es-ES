@@ -3,9 +3,9 @@ audience: end-user
 title: Establecer un grupo de control
 description: Documentación web de Campaign v8
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '463'
 ht-degree: 47%
 
 ---
@@ -50,7 +50,7 @@ En el **Extraer de target** , elija un **Tipo de exclusión**:
 
    ![](assets/control-group.png)
 
-* **Clasificación por atributos**: esta opción permite definir una limitación basada en uno o varios órdenes de clasificación.
+* **Clasificación por atributos**: esta opción permite excluir un conjunto de perfiles en función de atributos específicos de un orden de clasificación específico.
 
    ![](assets/control-group2.png)
 
