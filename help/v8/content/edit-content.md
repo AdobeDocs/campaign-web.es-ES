@@ -3,9 +3,9 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Documentación web de Campaign v8
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Los pasos para definir el contenido del correo electrónico son los siguientes:
 
    <!--limitation on size + number of files?-->
 
-1. De forma predeterminada, el seguimiento de correo electrónico está habilitado para las aperturas y los clics. Para desactivar estas opciones, anule la selección de las que se encuentran en la sección **[!UICONTROL Funciones opcionales]** para obtener más información. [Aprenda a añadir vínculos y administrar el seguimiento](message-tracking.md)
+1. De forma predeterminada, el seguimiento está habilitado para la entrega. Puede desactivar esta opción desde el **[!UICONTROL Funciones opcionales]** para obtener más información. [Aprenda a añadir vínculos y administrar el seguimiento](message-tracking.md)
 
 Una vez definido el contenido del correo electrónico, utilice la variable **[!UICONTROL Simular contenido]** para comprobar cómo se mostrará antes de enviarlo. [Obtenga información sobre cómo previsualizar y probar el correo electrónico](../preview-test/preview-test.md)
 
