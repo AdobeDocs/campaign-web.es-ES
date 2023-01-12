@@ -3,7 +3,7 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 >title="Configuración avanzada de ofertas"
 >abstract="TBC"
 
-La web de Adobe Campaign v8 le permite enviar con sus correos electrónicos ofertas que se han creado en la consola mediante el uso de **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign V8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+La web de Adobe Campaign v8 le permite enviar con sus correos electrónicos ofertas que se han creado en la consola mediante el uso de **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 Los pasos para enviar ofertas con un correo electrónico son los siguientes:
 

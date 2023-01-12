@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción
 description: Documentación web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -58,6 +58,7 @@ Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos est
    ![](assets/connect.png)
 
 1. En la página siguiente, haga clic en el **Launch** de la instancia de Campaign.
+Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

@@ -3,10 +3,10 @@ audience: end-user
 title: Crear el primer correo electrónico
 description: Documentación web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 2%
+source-wordcount: '1153'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Este caso de uso detalla cómo crear su primer correo electrónico. Vamos a prog
 
    >[!NOTE]
    >
-   >Una plantilla es una configuración de envío específica que se ha guardado como plantilla para su reutilización. Los usuarios administradores configuran las plantillas de envío en la consola de Adobe Campaign. [Aprenda a trabajar con plantillas de envíos](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
+   >Una plantilla es una configuración de envío específica que se ha guardado como plantilla para su reutilización. Los usuarios administradores configuran las plantillas de envío en la consola de Adobe Campaign. [Aprenda a trabajar con plantillas de envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ En este caso de uso, se envía el correo electrónico a una audiencia existente.
    >
    >Las audiencias disponibles en la lista proceden de la instancia de Campaign V8 o de Adobe Experience Platform si la integración Destino / Fuentes se ha configurado en la instancia.
    >
-   >La integración Destino / Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y enviar los registros de envío y seguimiento de Campaign a Adobe Experience Platform. [Descubra cómo funciona Campaign y Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >La integración Destino / Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y enviar los registros de envío y seguimiento de Campaign a Adobe Experience Platform. [Descubra cómo funciona Campaign y Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Una vez seleccionada la audiencia, puede refinar el objetivo con reglas adicionales.
 
@@ -161,7 +161,7 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
 
 1. Para enviar pruebas del correo electrónico, haga clic en el **[!UICONTROL Prueba]** a continuación, seleccione los perfiles que recibirán la prueba.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -73,7 +73,7 @@ Los elementos mostrados en el Explorador dependen de los permisos de usuario.
 
 Como en cualquier pantalla de lista, puede configurar columnas para personalizar la visualización y ver toda la información que necesite. Consulte esta [sección](#list-screens).
 
-Para obtener más información sobre el explorador de Campaign, consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+Para obtener más información sobre el explorador de Campaign, consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **Campañas** - Esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas de inicio/fin/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/fin. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
 
-* **Entregas** - Examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en una entrega por correo electrónico para abrir su panel y obtener una descripción general de los detalles de la entrega. Los envíos de otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es).
+* **Entregas** - Examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en una entrega por correo electrónico para abrir su panel y obtener una descripción general de los detalles de la entrega. Los envíos de otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
 ### Administración de clientes
 
