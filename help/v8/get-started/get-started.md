@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción
 description: Documentación web de Campaign v8
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -51,11 +51,12 @@ Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos est
 
 ## Conéctese a Campaign
 
-![](assets/connect.png)
 
 1. Conectar a [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Inicie sesión con sus credenciales de Adobe.
 1. En el **Acceso rápido** , haga clic en **Campaign**.
+   ![](assets/connect.png)
+
 1. En la página siguiente, haga clic en el **Launch** de la instancia de Campaign.
 
 <!--
