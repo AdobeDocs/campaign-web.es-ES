@@ -3,9 +3,9 @@ audience: end-user
 title: Crear el primer correo electrónico
 description: Documentación web de Campaign v8
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,9 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
 
 1. Para enviar pruebas del correo electrónico, haga clic en el **[!UICONTROL Prueba]** a continuación, seleccione los perfiles que recibirán la prueba.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   En este ejemplo, deseamos enviar las pruebas a un perfil de prueba específico, que es una dirección semilla que no forma parte del objetivo. Aprenda a trabajar con las direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

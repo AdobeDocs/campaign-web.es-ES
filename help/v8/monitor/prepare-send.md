@@ -3,9 +3,9 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Documentación web de Campaign v8
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '524'
 ht-degree: 8%
 
 ---
@@ -34,7 +34,7 @@ send also KPIs
 
 ## Preparación del envío{#prepare}
 
-Cuando haya definido el contenido, la audiencia y la programación, estará listo para preparar el mensaje. Durante la preparación, se calcula la población objetivo y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas. Las reglas de validación utilizadas durante el análisis se describen en [sección](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+Cuando haya definido el contenido, la audiencia y la programación, estará listo para preparar el mensaje. Durante la preparación, se calcula la población objetivo y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas. Las reglas de validación utilizadas durante el análisis se describen en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 Siga estos pasos:
 
