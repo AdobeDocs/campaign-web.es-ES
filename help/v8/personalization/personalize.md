@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Puede personalizar el contenido del mensaje:
 
    ![](assets/perso-subject-line.png)
 
-   La sintaxis anterior inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
+   La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
 
 * Inserción predefinida **bloques de contenido**
 
@@ -44,7 +44,7 @@ Para añadir personalización en la variable **[!UICONTROL Línea de asunto]** d
 
 1. Haga clic en el **Abrir cuadro de diálogo de personalización** a la derecha del **Línea de asunto** campo .
 1. Introduzca el contenido de la línea de asunto y seleccione los atributos de personalización que desea añadir.
-1. Haga clic en Confirm para validar. Los atributos de personalización se añaden a la línea de asunto.
+1. Haga clic en **Confirmar** para validar. Los atributos de personalización se añaden a la línea de asunto.
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ Para personalizar un **vínculo**:
 
 ## Personalización de las ofertas {#personalize-offers}
 
-También puede acceder al editor de personalización cuando añada contenido de tipo texto a las representaciones de sus ofertas.
+También puede acceder al editor de personalización cuando añada contenido de tipo texto a las representaciones de sus ofertas. Obtenga más información en [esta sección](../content/offers.md).
