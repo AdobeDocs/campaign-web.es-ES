@@ -1,49 +1,84 @@
 ---
-title: Personalización del contenido en Journey Optimizer
-description: Introducción a la personalización.
+title: Personalización del contenido en Campaign
+description: Obtenga información sobre cómo personalizar el contenido en la interfaz de usuario web de Adobe Campaign
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
-# Introducción a la personalización{#add-personalization}
+# Personalización del contenido{#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
->[!NOTE]
->
->Las capturas de pantalla no están actualizadas.
+Puede personalizar el contenido del mensaje:
+
+* Inserción dinámica **campos personalizados**
+
+   Los campos personalizados se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para una entrega, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o la entrega. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes.
+
+   ![](assets/perso-subject-line.png)
+
+   La sintaxis anterior inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
+
+* Inserción predefinida **bloques de contenido**
+
+   Campaign viene con un conjunto de bloques personalizados que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a la página espejo del mensaje. Los bloques de contenido están disponibles desde una entrada dedicada en el editor de personalización.
+
+   ![](assets/perso-content-blocks.png)
+<!--
+* Create **conditional content**
+
+    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
+-->
+
+## Personalización de la línea de asunto del correo electrónico {#personalize-subject-line}
+
+Para añadir personalización en la variable **[!UICONTROL Línea de asunto]** del mensaje, siga los pasos a continuación:
+
+1. Haga clic en el **Abrir cuadro de diálogo de personalización** a la derecha del **Línea de asunto** campo .
+1. Introduzca el contenido de la línea de asunto y seleccione los atributos de personalización que desea añadir.
+1. Haga clic en Confirm para validar. Los atributos de personalización se añaden a la línea de asunto.
+
+![](assets/perso-subject.png)
+
+## Personalización del contenido del correo electrónico {#personalize-emails}
+
+Para personalizar el contenido del correo electrónico, abra el mensaje en el Diseñador de correo electrónico y:
+
+1. Haga clic dentro de un bloque de texto.
+1. En la barra de herramientas contextual, seleccione **Añadir personalización**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Inserte el nombre del destinatario en el editor de personalización y confirme.
+
+   ![](assets/perso-add-name.png)
+
+   El atributo de personalización se añade al contenido del correo electrónico.
+
+   Puede simular el contenido para comprobar la renderización. [Más información](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
 
 
-## Personalización de los correos electrónicos {#personalize-emails}
+## Personalización de vínculos en correos electrónicos {#personalize-links}
 
-Al crear un correo electrónico, puede añadir personalización en la variable **[!UICONTROL Línea de asunto]** del mensaje.
+Para personalizar un **vínculo**:
 
-![](assets/perso_subject.png)
+1. Seleccione un bloque de texto o una imagen.
+1. En la barra de herramientas contextual, seleccione **Añadir personalización**.
 
-En el Diseñador de correo electrónico, puede personalizar el contenido:
+   ![](assets/perso-link.png)
 
-* En el **message**: haga clic dentro de un bloque de texto y haga clic en el botón **Personalizar** en la barra de herramientas contextual y seleccione **Insertar personalización** campo .
-
-   ![](assets/perso_insert.png)
-
-* Para un **vínculo**: seleccione texto o imagen dentro de un bloque de texto, haga clic en el botón **Insertar vínculo** de la barra de herramientas contextual. En la ventana , puede añadir un bloque personalizado haciendo clic en el botón **Añadir personalización** icono.
-
-   ![](assets/perso_link.png)
-
-En ambos casos, se accede al editor de personalización.
-
-![](assets/perso_ee.png)
+1. Utilice el editor de personalización para definir y personalizar el vínculo.
 
 ## Personalización de las ofertas {#personalize-offers}
 
 También puede acceder al editor de personalización cuando añada contenido de tipo texto a las representaciones de sus ofertas.
-
-
