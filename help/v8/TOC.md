@@ -5,10 +5,10 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,11 +39,10 @@ ht-degree: 12%
       + [Ajustar alineación vertical y relleno](content/alignment-and-padding.md)
       + [Definición de un estilo para los vínculos](content/styling-links.md)
       + [Añadir atributos de estilo en línea](content/inline-styling.md)
-   + Personalización del contenido {#personalize}
-      + [Adición de personalización](personalization/personalize.md)
+   + [Adición de personalización](personalization/personalize.md)
    + [Enviar ofertas](content/offers.md)
 + Seleccionar la audiencia de correo electrónico {#audience}
-   + [Acerca de las audiencias](audience/about-audiences.md)
+   + [Introducción a las audiencias](audience/about-audiences.md)
    + [Seleccionar una audiencia](audience/add-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
    + [Definir una audiencia con el generador de reglas](audience/segment-builder.md)
