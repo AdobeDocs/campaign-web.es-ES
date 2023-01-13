@@ -3,16 +3,16 @@ audience: end-user
 title: Configuración de entrega de correo electrónico
 description: Documentación web de Campaign v8
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
+source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1447'
 ht-degree: 45%
 
 ---
 
 # Configuración de entrega de correo electrónico {#email-del-settings}
 
-![](../assets/do-not-localize/badge.png)
+![Versión alfa](../assets/do-not-localize/badge.png)
 
 Esta configuración es **parámetros técnicos de entrega** que se definen en la plantilla de correo electrónico.
 
