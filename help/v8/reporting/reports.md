@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de envío
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 41%
 
 ---
@@ -44,9 +44,9 @@ Rechazos y no entregables: Este informe muestra el desglose de no entregables, a
 
 * **URL y flujos de clics**: Este informe muestra la lista de páginas visitadas después de una entrega.
 
-* **Actividades del usuario**: Este informe muestra el desglose de aperturas, clics y transacciones por media hora, hora o día, en forma de gráfico.
+* **Actividades del usuario**: Este informe muestra el desglose de aperturas y clics por media hora, hora o día, en forma de gráfico.
 
-* **Estadísticas de seguimiento**: Este informe proporciona estadísticas sobre aperturas, clics y transacciones.
+* **Estadísticas de seguimiento**: Este informe proporciona estadísticas sobre las aperturas y los clics.
 
 * **Desglose de aperturas**: Este informe muestra el desglose de las aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 

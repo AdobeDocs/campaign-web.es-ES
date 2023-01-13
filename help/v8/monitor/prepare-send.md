@@ -3,10 +3,10 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 8%
+source-wordcount: '551'
+ht-degree: 7%
 
 ---
 
@@ -86,12 +86,12 @@ Siga estos pasos:
 
    Estos son los diferentes KPI mostrados:
 
-   * **Entrega**: el número de mensajes enviados correctamente. El porcentaje se basa en el número total de destinatarios objetivo.
-   * **Aperturas**: el número de mensajes abiertos. El porcentaje se basa en el número de mensajes enviados.
-   * **Clics**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje se basa en el número de mensajes enviados.
+   * **Entrega**: el número de mensajes enviados correctamente. El porcentaje mostrado se basa en el número total de mensajes enviados.
+   * **Aperturas**: el número de mensajes abiertos. El porcentaje mostrado es la relación entre el número de aperturas distintas comparado con el número de mensajes enviados.
+   * **Clics**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje mostrado es la proporción del número de clics distintos comparados con el número de mensajes enviados.
 
    >[!NOTE]
    >
-   >La variable **Aperturas** y **Clics** los indicadores se actualizarán en tiempo real.
+   >La variable **Aperturas** y **Clics** los indicadores se actualizarán a los 5 minutos.
 
    Puede pausar el envío en cualquier momento y luego reanudarlo. Si detiene la entrega mientras se realiza, no podrá reanudarla.
