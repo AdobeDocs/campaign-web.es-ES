@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Añadir una audiencia
-description: Documentación web de Campaign v8
+title: Seleccionar una audiencia
+description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '242'
+ht-degree: 8%
 
 ---
 

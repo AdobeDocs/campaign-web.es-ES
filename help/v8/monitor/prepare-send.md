@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Preparación y envío de un correo electrónico
-description: Documentación web de Campaign v8
+description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '532'
 ht-degree: 8%
 
 ---

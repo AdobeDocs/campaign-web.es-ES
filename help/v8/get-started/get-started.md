@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Introducción
-description: Documentación web de Campaign v8
+title: Introducción a Campaign v8 Web
+description: Introducción a Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 12%
+source-wordcount: '401'
+ht-degree: 10%
 
 ---
 
-# Introducción {#get-started}
+# Introducción a Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 

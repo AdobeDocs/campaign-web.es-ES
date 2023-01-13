@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Trabajar con el Generador de segmentos
-description: Documentación web de Campaign v8
+title: Definir una audiencia con el generador de reglas
+description: Aprenda a trabajar con el Generador de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---

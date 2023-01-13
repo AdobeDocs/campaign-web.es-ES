@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Probar el procesamiento de correo electrónico
-description: Documentación web de Campaign v8
+description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
