@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 1%
+source-wordcount: '1268'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Este caso de uso detalla cómo crear su primer correo electrónico. Vamos a prog
 
 1. Cree un nuevo envío desde la **[!UICONTROL Entregas]** para abrir el Navegador.
 
-1. Seleccione el **[!UICONTROL Correo electrónico]** canal y la plantilla que se va a utilizar y, a continuación, haga clic en **[!UICONTROL Crear]**.
+1. Seleccione el **[!UICONTROL Correo electrónico]** canal y la plantilla que se va a utilizar y, a continuación, haga clic en **[!UICONTROL Creación de envíos]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ Este caso de uso detalla cómo crear su primer correo electrónico. Vamos a prog
    * **[!UICONTROL Código de entrega]**: utilice este campo para organizar los envíos en función de su propia convención de nombres,
    * **[!UICONTROL Descripción]**: especifique una descripción para la entrega,
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >Si ha ampliado el esquema con campos personalizados específicos, puede acceder a ellos desde el **[!UICONTROL Opciones personalizadas]** para obtener más información.
@@ -79,7 +78,7 @@ En este caso de uso, se diseña el correo electrónico con una plantilla predefi
 
    Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, queremos utilizar una plantilla de diseño existente.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ En este caso de uso, se diseña el correo electrónico con una plantilla predefi
 
    ![](assets/add-perso.png)
 
-1. Una vez que el contenido esté listo, guárdelo y haga clic en la flecha para volver a la pantalla de creación del correo electrónico.
+1. Cuando el contenido esté listo, guarde y cierre el diseño y, a continuación, haga clic en **[!UICONTROL Guardar]** para volver a la pantalla de creación del correo electrónico.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ En este caso de uso, se envía el correo electrónico a una audiencia existente.
 
    También puede establecer un grupo de control para analizar el comportamiento de los destinatarios de correo electrónico en comparación con el comportamiento de los perfiles que no estaban segmentados. [Aprenda a trabajar con grupos de control](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## Programe el envío {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ De forma predeterminada, la variable **[!UICONTROL Confirme antes de enviar]** e
 
 Una vez que el correo electrónico esté listo, puede obtener una vista previa y probarlo antes de iniciar su envío.
 
-En este caso de uso, se obtiene una vista previa del correo electrónico y se envía una prueba con perfiles existentes.
+En este caso de uso, se obtiene una vista previa del correo electrónico y se envían pruebas a direcciones de correo electrónico específicas al suplantar algunos de los perfiles objetivo.
 
 Encontrará información adicional sobre cómo previsualizar y probar correos electrónicos en [esta sección](../preview-test/preview-test.md).
 
-1. Haga clic en **[!UICONTROL Revisar para enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos mediante el botón de modificación.
+1. Haga clic en **[!UICONTROL Revisar y enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos mediante el botón de modificación.
 
 1. Haga clic en el **[!UICONTROL Simular contenido]** para obtener una vista previa del correo electrónico y enviar pruebas.
 
@@ -159,21 +160,25 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Para enviar pruebas del correo electrónico, haga clic en el **[!UICONTROL Prueba]** a continuación, seleccione los perfiles que recibirán la prueba.
+1. Para enviar pruebas del correo electrónico, haga clic en el **[!UICONTROL Prueba]** a continuación, seleccione el modo que desee utilizar para enviar las pruebas.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   En este ejemplo, se utiliza el modo Substitute from main target , lo que significa que se envían pruebas a direcciones de correo electrónico específicas al suplantar algunos de los perfiles a los que se dirige la entrega.
 
-   En este ejemplo, deseamos enviar las pruebas a un perfil de prueba específico, que es una dirección semilla que no forma parte del objetivo. Aprenda a trabajar con las direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. Haga clic en Agregar dirección y, a continuación, especifique las direcciones de correo electrónico que recibirán las pruebas.
+
+   Para cada dirección de correo electrónico, seleccione el perfil del destinatario que desea suplantar. También puede permitir que Adobe Campaign seleccione un perfil aleatorio del destinatario.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >También puede probar los mensajes suplantando algunos de los perfiles de destino y enviando el mensaje de prueba a la dirección de correo electrónico que desee. [Aprenda a enviar pruebas](../preview-test/preview-test.md)
-
 1. Haga clic en **[!UICONTROL Enviar correo electrónico de prueba]** a continuación, confirme la entrega.
 
-   Una vez enviadas las pruebas, puede comprobar su estado haciendo clic en el botón **[!UICONTROL Ver registro de correo electrónico de prueba]** botón.
+   Las pruebas se envían a las direcciones de correo electrónico especificadas mediante el perfil seleccionado, con la variable **[Prueba x]** prefijo .
+
+   ![](assets/proof-sent.png)
+
+   Puede comprobar el estado de la entrega y acceder a las pruebas enviadas en cualquier momento haciendo clic en el botón **[!UICONTROL Ver registro de correo electrónico de prueba]** en la pantalla simulate content .
 
 ## Enviar y supervisar el correo electrónico {#prepare-send}
 
@@ -183,11 +188,15 @@ Una vez que haya revisado y probado el correo electrónico, puede iniciar su pre
 
    ![](assets/preparation.png)
 
-1. Una vez que el correo electrónico esté listo para enviarse, haga clic en **[!UICONTROL Enviar]** a continuación, confirme la entrega.
+1. Una vez que el correo electrónico esté listo para enviarse, haga clic en **[!UICONTROL Enviar]** o **[!UICONTROL Enviar como está programado]** a continuación, confirme la entrega.
 
-   Puede realizar un seguimiento de los envíos en tiempo real, junto con estadísticas. Además, la variable **[!UICONTROL Registros]** permite acceder a información detallada sobre el envío de correo electrónico. [Obtenga información sobre cómo monitorizar los registros de envío](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. Una vez iniciado el envío del correo electrónico, ya sea inmediatamente o en la fecha programada, puede rastrear su envío en tiempo real en esta pantalla, junto con las estadísticas.
 
-1. Una vez enviado el correo electrónico, puede acceder a la [informes](../reporting/reports.md) con fines de análisis.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >Además, la variable **[!UICONTROL Registros]** permite acceder a información detallada sobre el envío de correo electrónico. [Obtenga información sobre cómo monitorizar los registros de envío](../monitor/delivery-logs.md)
+
+1. Una vez enviado el correo electrónico, puede acceder a los informes dedicados para realizar más análisis. [Aprenda a trabajar con informes](../reporting/reports.md)
    ![](assets/reports.png)
