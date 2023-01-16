@@ -3,9 +3,9 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 
 >[!NOTE]
 >
->En la prueba enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>En el correo electrónico de prueba enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
 El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no estará disponible.
 

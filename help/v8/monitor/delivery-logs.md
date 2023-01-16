@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorización de registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 49%
 
 ---
@@ -39,7 +39,7 @@ Se muestran todos los pasos, advertencias y errores de validación. Los iconos d
 
 ## Entregas
 
-La variable **Entregas** ofrece un historial de cada ocurrencia de este envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
+La variable **Registros de envío** ofrece un historial de cada ocurrencia de este envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
 ![](assets/logs2.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración de entrega de correo electrónico
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 45%
+source-wordcount: '1472'
+ht-degree: 44%
 
 ---
 
@@ -183,8 +183,8 @@ Puede establecer los parámetros de exclusión en esta sección. Las opciones di
 
 * **Mantener direcciones en cuarentena** permite evitar que el destinatario tenga perfiles con una dirección que no responde.
 
-También puede personalizar el nombre de las pruebas.
+También puede personalizar el nombre de los correos electrónicos de prueba.
 
-Utilice la variable **Mantener el código de entrega de la prueba** para asociar a la prueba el mismo código de entrega que el definido para la entrega con el que se relaciona.
+Utilice la variable **Mantener el código de entrega de la prueba** para asociar al correo electrónico de prueba el mismo código de entrega que el definido para la entrega con el que se relaciona.
 
-De forma predeterminada, el asunto de la prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **Label prefix**.
+De forma predeterminada, el asunto del correo electrónico de prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número del correo electrónico de prueba. Se puede cambiar este prefijo en el campo **Label prefix**.

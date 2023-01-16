@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar correos electrónicos de prueba
 description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 2%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -19,60 +19,61 @@ El envío de correos electrónicos de prueba es un paso importante para validar 
 Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatarios:
 
 * **Perfiles de prueba**: enviar correos electrónicos de prueba a direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos,
-* **Perfiles de sustitución**: envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
 
-## Seleccione los destinatarios de las pruebas {#recipients}
+* **Sustitución desde el destino principal**: envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
 
-1. Acceda a la pantalla de creación de contenido de correo electrónico y haga clic en **[!UICONTROL Simular contenido]**.
+## Seleccione los destinatarios de la prueba {#recipients}
 
-1. Haga clic en el **[!UICONTROL Prueba]** a continuación, utilice el **[!UICONTROL Modo]** lista desplegable para elegir el tipo de destinatarios que recibirán las pruebas:
+1. Acceda a la pantalla de simulación de contenido de correo electrónico y haga clic en el botón **[!UICONTROL Prueba]** botón.
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### Envío de pruebas a perfiles de prueba
+1. Utilice la variable **[!UICONTROL Modo]** lista desplegable para elegir el tipo de destinatarios que recibirán el correo electrónico de prueba:
 
-1. Elija la **[!UICONTROL Uso de perfiles de prueba]** en el menú contextual.
+   * **Perfiles de prueba**: enviar el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos,
 
-1. Añada los perfiles de prueba que recibirán los correos electrónicos de prueba.
+   * **Sustitución desde el destino principal**: envíe el correo electrónico de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### Envío de pruebas a perfiles de sustitución
-
-1. Elija la **[!UICONTROL Sustitución de destino]** en el menú contextual.
-
-1. Añada las direcciones de correo electrónico que recibirán las pruebas.
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >Puede especificar cualquier dirección de correo electrónico. Esto le permite enviar pruebas a cualquier usuario, incluso si no es usuario de Adobe Campaign V8.
+   >De forma predeterminada, la variable **[!UICONTROL Perfiles de prueba]** está seleccionado. Si ya ha seleccionado perfiles para previsualizar el correo electrónico en la pantalla de simulación de contenido, dichos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o añadir destinatarios adicionales.
 
-1. Para cada dirección de correo electrónico, seleccione el perfil del destinatario que desea utilizar. También puede permitir que Adobe Campaign seleccione un perfil aleatorio del destinatario.
+1. Para enviar correos electrónicos de prueba a perfiles de sustitución, seleccione la opción **[!UICONTROL Sustitución de destino]** a continuación, siga estos pasos:
 
-   ![](assets/substitution.png)
+   1. Haga clic en el **[!UICONTROL Agregar dirección]** y especifique la dirección de correo electrónico que recibirá el correo electrónico de prueba.
 
-Una vez seleccionados los destinatarios de prueba, puede enviar el correo electrónico de prueba. [Aprenda a enviar pruebas](#send)
+      Puede introducir cualquier dirección de correo electrónico. Esto le permite enviar correos electrónicos de prueba a cualquier usuario, incluso si no es usuario de Adobe Campaign V8.
 
->[!NOTE]
->
->Si desea enviar el mensaje de correo electrónico final a los destinatarios de las pruebas, habilite la variable **[!UICONTROL Incluir población de prueba en el objetivo principal]** en.
+   1. Seleccione el perfil del destinatario que desea utilizar para enviar el correo electrónico de prueba. También puede permitir que Adobe Campaign seleccione un perfil aleatorio del destinatario.
 
-## Envíe las pruebas {#send}
+   1. Confirme el destinatario y repita la operación para agregar tantas direcciones como sea necesario.
 
-Para enviar las pruebas a los destinatarios seleccionados, haga clic en **[!UICONTROL Enviar correo electrónico de prueba]** a continuación, confirme la entrega.
+      ![](assets/substitution.png)
+
+1. Una vez seleccionados los destinatarios de prueba, puede enviar el correo electrónico de prueba. [Obtenga información sobre cómo enviar correos electrónicos de prueba](#send)
+
+   >[!NOTE]
+   >
+   >Si desea enviar el mensaje de correo electrónico final a los destinatarios del correo electrónico de prueba, habilite la variable **[!UICONTROL Incluir población de prueba en el objetivo principal]** en.
+
+## Enviar el correo electrónico de prueba {#send}
+
+Para enviar el correo electrónico de prueba a los destinatarios seleccionados, haga clic en **[!UICONTROL Enviar correo electrónico de prueba]** a continuación, confirme la entrega.
 
 ![](assets/send-proof.png)
 
-Envíe tantas pruebas como sea necesario hasta que haya finalizado el contenido de su envío. Una vez hecho esto, puede enviar el correo electrónico al destinatario principal. [Aprenda a preparar y enviar su correo electrónico](../monitor/prepare-send.md)
+Envíe tantos correos electrónicos de prueba como sea necesario hasta que haya finalizado el contenido de su envío. Una vez hecho esto, puede enviar el correo electrónico al destinatario principal. [Aprenda a preparar y enviar su correo electrónico](../monitor/prepare-send.md)
 
-## Acceso a pruebas enviadas {#access-proofs}
+## Acceso a correos electrónicos de prueba enviados {#access-proofs}
 
-Una vez enviadas las pruebas, puede acceder a los registros dedicados desde el **[!UICONTROL Ver registro de correo electrónico de prueba]** botón. Estos registros le permiten acceder a todas las pruebas enviadas para el envío seleccionado y visualizar estadísticas específicas relacionadas con el envío.
+Una vez enviados los correos electrónicos de prueba, puede acceder a los registros específicos desde la **[!UICONTROL Ver registro de correo electrónico de prueba]** botón.
+
+Estos registros le permiten acceder a todos los correos electrónicos de prueba enviados para el envío seleccionado y visualizar estadísticas específicas relacionadas con el envío. [Obtenga información sobre cómo monitorizar los registros de envío](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-También puede acceder a las pruebas de la lista de envíos, como cualquier envío.
+También puede acceder a los correos electrónicos de prueba enviados desde la lista de envíos, como cualquier envío.
 
 ![](assets/delivery-list.png)

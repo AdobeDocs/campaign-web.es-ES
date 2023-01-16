@@ -3,9 +3,9 @@ audience: end-user
 title: Vista previa del contenido del correo electrónico
 description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Para obtener una vista previa del contenido del correo electrónico, siga estos 
 
 1. Acceda a la pantalla de creación de contenido de correo electrónico y haga clic en el botón **[!UICONTROL Simular contenido]** botón.
 
+   ![](assets/simulate.png)
+
 1. Para seleccionar uno o varios perfiles, haga clic en el botón **[!UICONTROL Seleccionar perfiles]** y, a continuación, utilice el **[!UICONTROL Perfiles de prueba]** y **[!UICONTROL Perfiles]** para elegir.
 
    Puede combinar perfiles de prueba y perfiles para previsualizar el correo electrónico.
@@ -40,6 +42,10 @@ Para obtener una vista previa del contenido del correo electrónico, siga estos 
 
    Si ha añadido varios perfiles, puede cambiar entre ellos en la lista para obtener una vista previa del correo electrónico correspondiente.
 
-   También puede obtener una vista previa de la renderización del contenido en distintos dispositivos (escritorio, móvil, tableta) haciendo clic en el icono dedicado en la esquina superior derecha.
+   >[!NOTE]
+   >
+   >Puede obtener una vista previa de la renderización del contenido en distintos dispositivos (escritorio, móvil, tableta) haciendo clic en el icono dedicado en la esquina superior derecha.
 
    ![](assets/preview.png)
+
+
