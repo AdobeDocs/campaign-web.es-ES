@@ -3,7 +3,7 @@ audience: end-user
 title: Definir una audiencia con el generador de reglas
 description: Aprenda a trabajar con el Generador de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -60,7 +60,7 @@ En el lado derecho, la variable **Propiedades de regla** permite realizar las si
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Ver resultados:** muestra la lista de destinatarios a quienes se dirige la audiencia
+* **Ver resultados:** muestra la lista de destinatarios a quienes va dirigido el público.
 * **Vista de código**: muestra una versión de la audiencia basada en código en SQL.
 * **Mostrar atributos avanzados**: marque esta opción si desea ver la lista completa de atributos de la paleta izquierda: nodos, agrupaciones, vínculos 1-1, vínculos 1-N.
 * **Atributos**: muestra una descripción de la audiencia creada.

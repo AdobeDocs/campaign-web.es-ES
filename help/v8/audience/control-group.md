@@ -3,7 +3,7 @@ audience: end-user
 title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la interfaz de usuario web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 41%
@@ -64,11 +64,11 @@ Después de la preparación de la entrega, puede ver las exclusiones en las pant
 
    ![](assets/control-group5.png)
 
-* La variable **Registros de exclusión** mostrar cada perfil y la ejecución relacionada **Razón**.
+* La variable **Registros de exclusión** mostrar cada perfil y la exclusión relacionada **Razón**.
 
    ![](assets/control-group6.png)
 
-* La variable **Causas de exclusión** muestra el número de perfiles ejecutados para cada regla de tipología.
+* La variable **Causas de exclusión** mostrar el número de perfiles excluidos para cada regla de tipología.
 
    ![](assets/control-group7.png)
 

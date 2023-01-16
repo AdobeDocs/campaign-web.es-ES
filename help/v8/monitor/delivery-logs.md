@@ -3,9 +3,9 @@ audience: end-user
 title: Monitorización de registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 49%
 
 ---
@@ -45,13 +45,13 @@ La variable **Entregas** ofrece un historial de cada ocurrencia de este envío. 
 
 ## Exclusiones
 
-La variable **Registros de exclusión** lista todos los mensajes que se han excluido del destinatario al que se han enviado y especifica el motivo del error de envío.
+La variable **Registros de exclusión** La pestaña enumera todos los mensajes que se han excluido del destinatario y especifica el motivo del error de envío.
 
 ![](assets/logs3.png)
 
 ## Causas de exclusión
 
-La variable **Causas de exclusión** muestra el volumen (en número de mensajes) de mensajes que se excluyeron del envío de destino.
+La variable **Causas de exclusión** muestra el volumen (en número de mensajes) de mensajes que se excluyeron del destinatario.
 
 ![](assets/logs4.png)
 
