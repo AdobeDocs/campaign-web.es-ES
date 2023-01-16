@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '513'
 ht-degree: 5%
 
 ---
@@ -33,11 +33,13 @@ Los pasos para enviar ofertas con un correo electrónico son los siguientes:
 
 ## Configurar las ofertas que se van a proponer {#configure}
 
-Para seleccionar las ofertas que desea proponer en el correo electrónico, haga clic en el botón **[!UICONTROL Ofertas]** en la pantalla de edición de contenido del correo electrónico y, a continuación, configure las ofertas que desea proponer.
+1. Para seleccionar las ofertas que desea proponer en el correo electrónico, haga clic en el botón **[!UICONTROL Ofertas]** en la pantalla de edición del contenido del correo electrónico.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Seleccione el **[!UICONTROL Espacio de oferta]** que coincida con el entorno de la oferta.
+1. Configure qué ofertas se deben proponer a los destinatarios. Seleccione primero el **[!UICONTROL Espacio de oferta]** que coincida con el entorno de la oferta.
+
+   ![](assets/create-content-offers.png)
 
 1. Para restringir la selección de ofertas del motor, seleccione una **[!UICONTROL Categoría de oferta]** en el que se ordenan las ofertas.
 
@@ -67,10 +69,10 @@ Una vez configuradas las ofertas para proponerlas en el correo electrónico, pue
 
 ## Inserción de ofertas en el correo electrónico {#insert}
 
-Las ofertas se añaden a un correo electrónico mediante el Editor de expresiones. Pueden insertarse:
+Las ofertas se pueden añadir al correo electrónico mediante el Editor de expresiones. Pueden insertarse:
 
-* en la línea de asunto del correo electrónico,
-* en el cuerpo del correo electrónico permitiendo la personalización en cualquier componente de contenido. [Aprenda a añadir componentes de contenido](content-components.md)
+* En la línea de asunto del correo electrónico,
+* En el cuerpo del correo electrónico permitiendo la personalización en cualquier componente de contenido. [Aprenda a añadir componentes de contenido](content-components.md)
 
 >[!NOTE]
 >
