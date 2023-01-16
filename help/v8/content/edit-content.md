@@ -3,9 +3,9 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '334'
 ht-degree: 4%
 
 ---
@@ -48,9 +48,9 @@ Los pasos para definir el contenido del correo electrónico son los siguientes:
 
 1. Definir el correo electrónico **[!UICONTROL Línea de asunto]**. Para ello, escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para definir y añadir personalización mediante varios atributos y bloques de contenido u ofertas. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
-1. Si desea enviar ofertas con el correo electrónico, selecciónelas utilizando la variable **[!UICONTROL Ofertas]** botón. A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](offers.md)
+1. Si desea enviar ofertas con el correo electrónico, selecciónelas utilizando la variable **[!UICONTROL Configurar ofertas]** botón. A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](offers.md)
 
-1. Haga clic en el **[!UICONTROL Diseñador de correo electrónico]** para estructurar y diseñar el contenido del correo electrónico. En estas secciones encontrará información adicional sobre cómo diseñar contenido de correo electrónico:
+1. Haga clic en el **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico. En estas secciones encontrará información adicional sobre cómo diseñar contenido de correo electrónico:
 
    * [Aprenda a diseñar correos electrónicos](create-email-content.md)
    * [Estilos del contenido](get-started-email-style.md)
@@ -64,5 +64,3 @@ Los pasos para definir el contenido del correo electrónico son los siguientes:
 1. De forma predeterminada, el seguimiento está habilitado para la entrega. Puede desactivar esta opción desde el **[!UICONTROL Funciones opcionales]** para obtener más información. [Aprenda a añadir vínculos y administrar el seguimiento](message-tracking.md)
 
 Una vez definido el contenido del correo electrónico, utilice la variable **[!UICONTROL Simular contenido]** para comprobar cómo se mostrará antes de enviarlo. [Obtenga información sobre cómo previsualizar y probar el correo electrónico](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
