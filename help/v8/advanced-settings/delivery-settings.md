@@ -3,9 +3,9 @@ audience: end-user
 title: Configuración de entrega de correo electrónico
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1468'
 ht-degree: 45%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 45%
 
 ![Versión alfa](../assets/do-not-localize/badge.png)
 
-Esta configuración es **parámetros técnicos de entrega** que se definen en la plantilla de correo electrónico.
+Esta configuración es **parámetros técnicos de entrega** que se definen en la plantilla de correo electrónico. Están disponibles en el **Configuración de la entrega** icono disponible al editar una entrega por correo electrónico.
 
 ## Configuración de entrega de correo electrónico {#email-delivery-settings}
 

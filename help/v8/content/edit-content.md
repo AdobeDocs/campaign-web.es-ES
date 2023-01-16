@@ -3,10 +3,10 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,8 @@ Los pasos para definir el contenido del correo electrónico son los siguientes:
    * [Estilos del contenido](get-started-email-style.md)
 
 1. Si desea adjuntar un archivo al correo electrónico, haga clic en el botón **[!UICONTROL Agregar datos adjuntos]** a continuación, seleccione uno o varios archivos.
+
+   Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico.
 
    <!--limitation on size + number of files?-->
 
