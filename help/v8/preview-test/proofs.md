@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Envío de pruebas
-description: Aprenda a definir y enviar mensajes de prueba
+title: Enviar correos electrónicos de prueba
+description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '402'
 ht-degree: 2%
 
 ---
 
-# Envío de pruebas {#send-proofs}
+# Enviar correos electrónicos de prueba {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-El envío de correos electrónicos de prueba permite validar el correo electrónico y comprobar varios elementos, como vínculos, vínculos de exclusión y páginas espejo, imágenes y detectar posibles errores.
+El envío de correos electrónicos de prueba es un paso importante para validar la campaña de correo electrónico e identificar posibles problemas. Al enviar correos electrónicos de prueba, puede comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes y páginas espejo, así como detectar cualquier error.
 
-Las pruebas se pueden enviar a dos tipos de destinatarios:
+Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatarios:
 
-* **Perfiles de prueba**: enviar pruebas a direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos,
-* **Perfiles de sustitución**: envíe pruebas a una dirección de correo electrónico específica utilizando un perfil existente. Esto le permite colocarse en la posición de los perfiles y obtener una representación exacta del mensaje que recibirá el perfil.
+* **Perfiles de prueba**: enviar correos electrónicos de prueba a direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos,
+* **Perfiles de sustitución**: envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
 
 ## Seleccione los destinatarios de las pruebas {#recipients}
 
