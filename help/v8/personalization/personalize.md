@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 22%
+source-wordcount: '653'
+ht-degree: 18%
 
 ---
 
@@ -80,17 +80,17 @@ Los bloques de contenido integrados son:
 * **[!UICONTROL Habilitado por Adobe Campaign]** : inserta el logotipo &quot;Enabled by Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Greetings]**: inserta los saludos con el nombre del destinatario. Ejemplo: &quot;Hola John Doe&quot;.
-* **[!UICONTROL Insert logo]**: inserta un logotipo preestablecido que se haya definido al configurar la instancia.
+* **[!UICONTROL Insertar logotipo]** : inserta un logotipo que se define en la configuración de la instancia.
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
 * **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.
-* **[!UICONTROL URL de aceptación de oferta en modo unitario]** : inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Aceptado]**.
+* **[!UICONTROL URL de aceptación de oferta en modo unitario]** : inserta una dirección URL que permite establecer una oferta en **[!UICONTROL Aceptado]**.
 * **[!UICONTROL URL de la página de registro]** : inserta una URL de suscripción.
-* **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. Este vínculo debe definirse al configurar la instancia. El contenido predeterminado es: &quot;Para registrarse, haga clic aquí.&quot;
-* **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y la entrega. El vínculo se ha definido al configurar la instancia.
+* **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: &quot;Para registrarse, haga clic aquí.&quot;
+* **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y la entrega. Este vínculo se define en la configuración de la instancia.
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Vínculos de uso compartido en redes sociales]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo.
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos.
-* **[!UICONTROL Vínculo de baja]** : inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de ). El contenido asociado predeterminado es: &quot;Recibe este mensaje porque ha estado en contacto con `<your rganization name>` o un afiliado. Para dejar de recibir mensajes de `<your rganization name>` haga clic aquí&quot;.
+* **[!UICONTROL Vínculo de baja]** : inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de ). El contenido asociado predeterminado es: &quot;Recibe este mensaje porque ha estado en contacto con ***su nombre de organización*** o un afiliado. Para dejar de recibir mensajes de ***su nombre de organización*** haga clic aquí&quot;.
 
 
 ## Personalización de vínculos en correos electrónicos {#personalize-links}
