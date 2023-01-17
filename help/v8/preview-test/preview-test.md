@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Acerca de la vista previa y la prueba
-description: Obtenga información sobre cómo previsualizar mensajes y probar correos electrónicos
+title: Acerca de la vista previa y la prueba de correo electrónico
+description: Obtenga información sobre cómo previsualizar y probar correos electrónicos
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Acerca de la vista previa y la prueba de correos electrónicos {#about-preview-proofs}
+# Acerca de la vista previa y la prueba de correo electrónico {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 

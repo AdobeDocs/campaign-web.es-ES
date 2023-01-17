@@ -3,9 +3,9 @@ audience: end-user
 title: Vista previa del contenido del correo electrónico
 description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 Adobe Campaign le permite obtener una vista previa del contenido del correo electrónico antes de enviarlo para comprobar la personalización y cómo aparecerá para sus destinatarios.
 
-Puede obtener una vista previa de un correo electrónico mediante:
-
-* **Perfiles de prueba**: Obtenga una vista previa del correo electrónico con direcciones semilla, que son destinatarios ficticios y adicionales de la base de datos,
-* **Perfiles**: Previsualice el correo electrónico con un perfil existente.
-
 Para obtener una vista previa del contenido del correo electrónico, siga estos pasos:
 
 1. Acceda a la pantalla de creación de contenido de correo electrónico y haga clic en el botón **[!UICONTROL Simular contenido]** botón.
 
    ![](assets/simulate.png)
 
-1. Para seleccionar uno o varios perfiles, haga clic en el botón **[!UICONTROL Seleccionar perfiles]** y, a continuación, utilice el **[!UICONTROL Perfiles de prueba]** y **[!UICONTROL Perfiles]** para elegir.
+1. Para seleccionar uno o varios perfiles, haga clic en el botón **[!UICONTROL Seleccionar perfiles]** y, a continuación, utilice el **[!UICONTROL Perfiles de prueba]** y **[!UICONTROL Perfiles]** fichas para elegir:
+
+   * La variable **Perfiles de prueba** contiene direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Pueden crearse en la consola de Adobe Campaign en el **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Direcciones semilla]** carpeta.
+   * La variable **Perfiles** lista todos los destinatarios almacenados en la pestaña **[!UICONTROL Perfiles y objetivos]** de la consola de Campaign.
 
    Puede combinar perfiles de prueba y perfiles para previsualizar el correo electrónico.
 
