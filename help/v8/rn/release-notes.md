@@ -3,9 +3,9 @@ audience: end-user
 title: Notas de la versión de Campaign Web v8
 description: Notas de la versión de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
+source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ add info somewhere to remind users that
 Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre de algunos conceptos para que se ajusten a los estándares terminológicos más recientes. Estos cambios solo se aplican a la interfaz de usuario web de Campaign y no se reflejan en la consola de cliente. Se resumen a continuación.
 
 * Las pruebas ahora **Probar correos electrónicos**: para enviar una prueba, utilice la variable **Prueba** en la interfaz de usuario de envío de correo electrónico. El objetivo de las pruebas objetivo ahora se denomina **Perfiles de prueba**
+* Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: enviar el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos
 * El análisis de entrega ahora es **preparación de entregas**. Cuando necesite iniciar el análisis, haga clic en el botón **Preparación** botón
 * La vista previa del correo electrónico ya está disponible a través del **Simular contenido** botón
 * Las listas ahora **Audiencias**
