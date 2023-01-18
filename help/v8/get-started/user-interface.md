@@ -3,7 +3,7 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 2%
@@ -184,16 +184,50 @@ La web de Campaign v8 está diseñada para funcionar de forma óptima en la últ
 
 La web de Campaign v8 está disponible actualmente en los siguientes idiomas:
 
-* Inglés (EE. UU.) - EN-US
-* Francés - FR
-* Alemán - DE
-* Italiano - IT
-* Español - ES
-* Portugués (Brasil) - PTBR
-* Japonés: JP
-* Coreano - KR
-* Chino simplificado - CHS
-* Chino tradicional - CHT
+<table>
+<tr>
+<td>
+<p>Inglés (EE. UU.) - EN-US</p>
+</td>
+<td>
+<p>Español - ES</p>
+</td>
+<td>
+<p>Coreano - KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Francés - FR</p>
+</td>
+<td>
+<p>Portugués (Brasil) - PTBR</p>
+</td>
+<td>
+<p>Chino simplificado - CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alemán - DE</p>
+</td>
+<td>
+<p>Japonés: JP</p>
+</td>
+<td>
+<p>Chino tradicional - CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Italiano - IT</p>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
 
 El idioma predeterminado de la interfaz está determinado por el idioma preferido especificado en el perfil de usuario.
 
