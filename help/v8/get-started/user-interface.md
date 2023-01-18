@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -152,16 +152,6 @@ La barra superior de la interfaz le permite:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Ayuda contextual y guía de incorporación
-
-Hay disponible una ayuda contextual en la interfaz de . Cuando esté disponible, haga clic en la **?** para mostrar información de ayuda y vínculos de documentación relacionados.
-
-![](assets/context-help.png){width="70%" align="left"}
-
-También hay disponible una guía de integración para ayudarle a empezar a utilizar Campaign v8 Web. Haga clic en el icono en la esquina inferior derecha, elija uno de los escenarios paso a paso disponibles y simplemente siga las instrucciones.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## Configurar pantallas de lista {#list-screens}
 
 Varios vínculos del menú de navegación de la izquierda, por ejemplo **Entregas** o **Campañas**, mostrar listas de objetos. Estas pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico.
@@ -175,6 +165,43 @@ Las listas se muestran en columnas. Puede mostrar información adicional cambian
 ![](assets/columns.png){width="70%" align="left"}
 
 Para ordenar los elementos de la lista, haga clic en cualquier encabezado de columna. Se muestra una flecha (arriba o abajo) que indica que la lista está ordenada en esa columna. Para las columnas numéricas o de fecha, la flecha arriba indica que la lista se ordena en orden ascendente, mientras que la flecha abajo indica un orden descendente. Para las columnas de cadena o alfanuméricas, los valores se enumeran en orden alfabético.
+
+## Ayuda contextual y guía de incorporación
+
+Hay disponible una ayuda contextual en la interfaz de . Cuando esté disponible, haga clic en la **?** para mostrar información de ayuda y vínculos de documentación relacionados.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+También hay disponible una guía de integración para ayudarle a empezar a utilizar Campaign v8 Web. Haga clic en el icono en la esquina inferior derecha, elija uno de los escenarios paso a paso disponibles y simplemente siga las instrucciones.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Navegadores admitidos {#browsers}
+
+La web de Campaign v8 está diseñada para funcionar de forma óptima en la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
+
+## Preferencias de idioma {#language-pref}
+
+Actualmente, la interfaz de usuario está disponible en los siguientes idiomas:
+
+* Inglés
+* Francés
+* Alemán
+* Italiano
+* Español
+* Portugués (Brasil)
+* Japonés
+* Coreano
+
+El idioma predeterminado de la interfaz está determinado por el idioma preferido especificado en el perfil de usuario.
+
+Para cambiar el idioma:
+
+* Haga clic en **Preferencias** desde tu avatar, en la parte superior derecha.
+   ![](assets/preferences.png)
+* A continuación, haga clic en el idioma mostrado debajo de su dirección de correo electrónico
+* Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
