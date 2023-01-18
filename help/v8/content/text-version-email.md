@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de la versión de texto de un correo electrónico
 description: Aprenda a crear la versión de texto de un correo electrónico
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 >
 >* Cambios realizados en **[!UICONTROL Texto sin formato]** la vista no se refleja en la vista del HTML.
 >
->* Si vuelve a habilitar la variable **[!UICONTROL Sincronizar con el HTML]** después de actualizar el contenido de texto sin formato, se perderán los cambios y se reemplazarán con el contenido de texto generado a partir de la versión del HTML.
+>* Si vuelve a habilitar la variable **[!UICONTROL Sincronizar con el HTML]** después de actualizar el contenido de texto sin formato, se pierden los cambios y se sustituyen por contenido de texto generado a partir de la versión del HTML.
 

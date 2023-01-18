@@ -3,9 +3,9 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    >[!NOTE]
    >
-   >El apilamiento de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admita, las columnas no se apilarán.
+   >El apilamiento de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
@@ -89,7 +89,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
 
-1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se rastreará. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se deben rastrear. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    >[!CAUTION]
    >
-   >No podrá volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
+   >No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
 
 1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Seleccionar una audiencia
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 8%
@@ -47,4 +47,4 @@ En esta sección se explica cómo seleccionar una audiencia existente al definir
 
 1. Haga clic en **Save**.
 
-También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibirá el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de contactos que no lo hicieron. Consulte [sección](control-group.md).
+También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de contactos que no lo hicieron. Consulte [sección](control-group.md).

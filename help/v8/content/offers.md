@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '509'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Los pasos para enviar ofertas con un correo electrónico son los siguientes:
 
 1. Para restringir la selección de ofertas del motor, seleccione una **[!UICONTROL Categoría de oferta]** en el que se ordenan las ofertas.
 
-   Si no se especifica ninguna categoría, el motor de oferta tendrá en cuenta todas las ofertas contenidas en el entorno, a menos que se **[!UICONTROL Tema de oferta]** está seleccionado.
+   Si no se especifica ninguna categoría, el motor de oferta tiene en cuenta todas las ofertas contenidas en el entorno, a menos que **[!UICONTROL Tema de oferta]** está seleccionado.
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ Los pasos para enviar ofertas con un correo electrónico son los siguientes:
 
    esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas.
 
-   * Si la opción está activada, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega.
-   * Si la opción está desactivada, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
+   * Si la opción está activada, los destinatarios que no tengan suficientes propuestas se excluyen de la entrega.
+   * Si la opción está desactivada, estos destinatarios no se excluyen, pero no pueden tener el número solicitado de propuestas.
 
 1. Si es necesario, seleccione la **[!UICONTROL Ocultar todo si no se selecciona ninguna oferta]** .
 
-   Esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista.
+   Esta opción le permite elegir cómo se procesa el mensaje en caso de que una de las propuestas no exista.
 
-   * Si la opción está activada, la representación de la propuesta que falta no se muestra y no aparecerá ningún contenido en el mensaje para esta propuesta.
-   * Si la opción está desactivada, el mensaje en sí se cancela durante la entrega y los destinatarios ya no reciben ningún mensaje.
+   * Si la opción está activada, la representación de la propuesta que falta no se muestra y no aparece contenido en el mensaje para esta propuesta.
+   * Si la opción está desactivada, el mensaje en sí se cancela durante la entrega y los destinatarios ya no pueden recibir ningún mensaje.
 
 Una vez configuradas las ofertas para proponerlas en el correo electrónico, puede insertarlas en el correo electrónico mediante el Editor de expresiones. [Aprenda a insertar ofertas en el correo electrónico](#insert)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Puede agregar tantos **[!UICONTROL Componentes de contenido]** como necesita den
 
 ## Contenedor {#container}
 
-Puede añadir un contenedor simple dentro del cual podrá añadir otro componente de contenido. Esto le permite aplicar un estilo específico al contenedor, que será diferente del componente utilizado dentro.
+Puede añadir un contenedor simple dentro del cual añadir otro componente de contenido. Esto le permite aplicar un estilo específico al contenedor, que es diferente del componente utilizado dentro.
 
 Por ejemplo, agregue un **[!UICONTROL Contenedor]** y, a continuación, agregue un [Botón](#button) dentro de ese contenedor. Puede utilizar un fondo específico para el contenedor y otro para el botón .
 
@@ -81,7 +81,7 @@ Utilice la variable **[!UICONTROL Botón]** para insertar uno o varios botones e
 
 1. En el **[!UICONTROL Vínculo]** , añada la dirección URL a la que desee redirigir al hacer clic en el botón .
 
-1. Elija cómo se redirigirá a su audiencia con la variable **[!UICONTROL Target]** lista desplegable:
+1. Elija cómo se muestra el contenido con la variable **[!UICONTROL Target]** lista desplegable:
 
    * **[!UICONTROL Ninguna]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
    * **[!UICONTROL En blanco]**: abre el vínculo en una nueva ventana o pestaña.
@@ -180,7 +180,7 @@ Utilice la variable **[!UICONTROL Social]** para insertar vínculos a páginas d
 
 1. Elija el tamaño de los iconos en la **[!UICONTROL Tamaño de las imágenes]** campo .
 
-1. Haga clic en cada uno de los iconos de los medios sociales para configurar la variable **[!UICONTROL URL]** al que se redirigirá la audiencia.
+1. Haga clic en cada uno de los iconos de los medios sociales para configurar la variable **[!UICONTROL URL]** al que se redirige la audiencia.
 
    ![](assets/email_designer_21.png)
 

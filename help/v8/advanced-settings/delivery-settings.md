@@ -3,9 +3,9 @@ audience: end-user
 title: Configuración de entrega de correo electrónico
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 44%
 
 ---
@@ -53,7 +53,7 @@ En el **Tipo de peso** , hay tres opciones disponibles:
 * **Depende del destinatario**
 * **Definido en cada regla**
 
-Utilice la variable **Peso de la entrega** para definir la prioridad de entrega. Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de una entrega se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso se puede establecer o calcular mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de una entrega en función de los intereses del destinatario.
+Utilice la variable **Peso de la entrega** para definir la prioridad de entrega. Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de una entrega se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de una entrega en función de los intereses del destinatario.
 
 
 Utilice la variable **Modo de envío** para seleccionar el modo de evaluación de destino. Hay tres modos disponibles:
@@ -101,7 +101,7 @@ Los parámetros de envío son configuraciones técnicas que se aplican a su env�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Número máximo de reintentos"
->abstract="Si un mensaje falla debido a un error temporal, los reintentos se realizan durante la duración del envío."
+>abstract="Si un mensaje falla debido a un error temporal, los reintentos se realizan hasta el final de la duración de la entrega."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -155,7 +155,7 @@ La página espejo es una página HTML accesible en línea mediante un navegador 
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Force the generation of the mirror page]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se creará la página espejo.
+* **[!UICONTROL Forzar la generación de la página espejo]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se crea la página espejo.
 * **[!UICONTROL Do not generate the mirror page]**: no se genera ninguna página espejo, aunque el vínculo esté presente en la entrega.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: esta opción permite acceder al contenido de la página duplicada, con información de personalización, en la ventana del “log” de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
@@ -165,11 +165,11 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Período de validez"
->abstract="Esta opción define la duración durante la cual se activará el seguimiento en las direcciones URL."
+>abstract="Esta opción define la duración durante la cual se activa el seguimiento en las direcciones URL."
 
 Los parámetros de seguimiento se definen en la sección relacionada. Las opciones posibles son:
 
-**Límite de validez de seguimiento**: utilice esta opción para cambiar la duración durante la cual se activará el seguimiento en las direcciones URL.
+**Límite de validez de seguimiento**: utilice esta opción para cambiar la duración durante la cual se activa el seguimiento en las direcciones URL.
 
 **URL de sustitución para URL caducadas**: utilice esta opción para introducir una URL a una página web de reserva: se muestra una vez que el seguimiento ha caducado.
 

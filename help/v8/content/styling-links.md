@@ -3,9 +3,9 @@ audience: end-user
 title: Definición de un estilo para los vínculos
 description: Aprenda a definir un estilo para los vínculos
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de 
 
    ![](assets/link_1.png)
 
-1. Elija cómo se redirigirá a su audiencia con la variable **[!UICONTROL Target]** lista desplegable:
+1. Elija cómo se redirige a su audiencia con la variable **[!UICONTROL Target]** lista desplegable:
 
    * **[!UICONTROL Ninguna]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
    * **[!UICONTROL En blanco]**: abre el vínculo en una nueva ventana o pestaña.

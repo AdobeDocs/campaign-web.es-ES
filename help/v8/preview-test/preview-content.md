@@ -3,9 +3,9 @@ audience: end-user
 title: Vista previa del contenido del correo electrónico
 description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Previsualización inteligente del contenido"
->abstract="Adobe Campaign permite utilizar perfiles para previsualizar el contenido del correo electrónico antes de enviarlo para comprobar la personalización y cómo los destinatarios los verán."
+>abstract="Adobe Campaign permite utilizar perfiles para previsualizar el contenido del correo electrónico antes de enviarlo, comprobar la personalización y cómo lo verán sus destinatarios."
 
-Adobe Campaign le permite obtener una vista previa del contenido del correo electrónico antes de enviarlo para comprobar la personalización y cómo aparecerá para sus destinatarios.
+Adobe Campaign le permite previsualizar el contenido del correo electrónico antes de enviarlo, comprobar la personalización y cómo se muestra a sus destinatarios.
 
 Para obtener una vista previa del contenido del correo electrónico, siga estos pasos:
 
@@ -36,7 +36,7 @@ Para obtener una vista previa del contenido del correo electrónico, siga estos 
 
    ![](assets/preview-profile.png)
 
-1. Una vez seleccionados los perfiles, se mostrará una vista previa del correo electrónico en el panel derecho. Los elementos personalizados se reemplazarán por los datos del perfil seleccionado en el panel izquierdo.
+1. Una vez seleccionados los perfiles, se muestra una vista previa del correo electrónico en el panel derecho. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo.
 
    Si ha añadido varios perfiles, puede cambiar entre ellos en la lista para obtener una vista previa del correo electrónico correspondiente.
 

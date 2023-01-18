@@ -3,9 +3,9 @@ audience: end-user
 title: Ajustar la alineación vertical y el relleno en el Diseñador de correo electrónico
 description: Aprenda a ajustar la alineación vertical y el relleno
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/badge.png)
 
-En este ejemplo, ajustaremos el relleno y la alineación vertical dentro de un componente de estructura compuesto por tres columnas.
+En este ejemplo, ajustamos el relleno y la alineación vertical dentro de un componente de estructura compuesto por tres columnas.
 
 1. Seleccione el componente de estructura directamente en el correo electrónico o utilizando el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
 

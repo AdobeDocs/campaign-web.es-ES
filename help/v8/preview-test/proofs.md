@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar correos electrónicos de prueba
 description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatario
 
 * **Perfiles de prueba**: envíe correos electrónicos de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Pueden crearse en la consola de Adobe Campaign en el **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Direcciones semilla]** carpeta.
 
-* **Sustitución desde el destino principal**: envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
+* **Sustitución desde el destino principal**: envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibe el perfil.
 
 ## Seleccione los destinatarios de la prueba {#recipients}
 
@@ -28,7 +28,7 @@ Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatario
 
    ![](assets/test-button.png)
 
-1. Utilice la variable **[!UICONTROL Modo]** lista desplegable para elegir el tipo de destinatarios que recibirán el correo electrónico de prueba:
+1. Utilice la variable **[!UICONTROL Modo]** lista desplegable para elegir el tipo de destinatarios que reciben el correo electrónico de prueba:
 
    * **Perfiles de prueba**: enviar el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos,
 
@@ -42,7 +42,7 @@ Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatario
 
 1. Para enviar correos electrónicos de prueba a perfiles de sustitución, seleccione la opción **[!UICONTROL Sustitución de destino]** a continuación, siga estos pasos:
 
-   1. Haga clic en el **[!UICONTROL Agregar dirección]** y especifique la dirección de correo electrónico que recibirá el correo electrónico de prueba.
+   1. Haga clic en el **[!UICONTROL Agregar dirección]** y especifique la dirección de correo electrónico que recibe el correo electrónico de prueba.
 
       Puede introducir cualquier dirección de correo electrónico. Esto le permite enviar correos electrónicos de prueba a cualquier usuario, incluso si no es usuario de Adobe Campaign V8.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la interfaz de usuario web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 41%
+source-wordcount: '525'
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 41%
 
 Puede utilizar grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de sus campañas.
 
-Para ello, cree un grupo de control al definir la audiencia de la entrega. Los perfiles se agregan al grupo de control aleatoriamente, se filtran o no, o se basan en criterios. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados.
+Para ello, cree un grupo de control al definir la audiencia de la entrega. Los perfiles se agregan al grupo de control aleatoriamente, se filtran o no, o se basan en criterios. A continuación, puede comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de contactos que no fueron segmentados.
 
 El grupo de control se puede extraer aleatoriamente del objetivo principal o seleccionarse de una población específica. Por lo tanto, hay dos formas principales de definir un grupo de control:
 
@@ -23,7 +23,7 @@ El grupo de control se puede extraer aleatoriamente del objetivo principal o sel
 
 Puede utilizar ambos métodos al definir un grupo de control.
 
-Todos los perfiles que formen parte del grupo de control en la fase de preparación del envío se eliminarán del destinatario principal. No recibirán el mensaje una vez que se envíe.
+Todos los perfiles que forman parte del grupo de control en el paso de preparación de la entrega se eliminan del destinatario principal. No reciben el mensaje.
 
 Para crear un grupo de control, haga clic en el botón **[!UICONTROL Establecer grupo de control]** , en el **Audiencia** del asistente de creación de envíos.
 
@@ -38,11 +38,11 @@ Para crear un grupo de control, haga clic en el botón **[!UICONTROL Establecer 
 
 Para definir un grupo de control, puede elegir extraer, aleatoriamente o en función de un orden, un porcentaje o un número fijo de perfiles de la población de destinatarios.
 
-En primer lugar, defina la forma en que se extraerán los perfiles del destinatario: aleatoriamente o en función de un orden.
+En primer lugar, defina la forma en que se extraen los perfiles del destinatario: aleatoriamente o en función de un orden.
 
 En el **Extraer de target** , elija un **Tipo de exclusión**:
 
-* **Aleatorio**: al preparar la entrega, Adobe Campaign extraerá aleatoriamente un número de perfiles correspondiente al porcentaje o al número máximo que se establecerá como límite de tamaño.
+* **Aleatorio**: al preparar la entrega, Adobe Campaign extrae aleatoriamente un número de perfiles correspondiente al porcentaje o al número máximo establecido como límite de tamaño.
 
    ![](assets/control-group.png)
 
@@ -91,4 +91,4 @@ En el **Población adicional** de la sección **Grupo de control** pantalla de d
 
 * Para definir una nueva consulta, seleccione **Cree sus propios** y defina los criterios de exclusión mediante el generador de reglas. Consulte esta [sección](segment-builder.md).
 
-Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta se excluirán del destinatario.
+Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta se excluyen del destinatario.

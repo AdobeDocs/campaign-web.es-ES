@@ -3,9 +3,9 @@ audience: end-user
 title: Definir una audiencia con el generador de reglas
 description: Aprenda a trabajar con el Generador de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Puede utilizar la barra de búsqueda para encontrar los elementos rápidamente.
 
 ## El lienzo
 
-El lienzo es la zona central en la que se pueden configurar y combinar reglas basadas en los elementos añadidos desde la paleta. Para agregar una regla nueva, arrastre un mosaico desde la paleta y suéltelo en el lienzo. A continuación, se le presentarán opciones específicas del contexto según el tipo de datos que se agreguen.
+El lienzo es la zona central en la que se pueden configurar y combinar reglas basadas en los elementos añadidos desde la paleta. Para agregar una regla nueva, arrastre un mosaico desde la paleta y suéltelo en el lienzo. A continuación, se le pueden presentar opciones específicas del contexto según el tipo de datos que se agreguen.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -67,7 +67,7 @@ En el lado derecho, la variable **Propiedades de regla** permite realizar las si
 
 ## Ejemplo
 
-En este ejemplo, crearemos una audiencia dirigida a todos los clientes que viven en Atlanta o Seattle y que nacieron después de 1980.
+En este ejemplo, creamos una audiencia para dirigirse a todos los clientes que viven en Atlanta o Seattle y que nacieron después de 1980.
 
 1. En el **Atributos** de la paleta, busque **Fecha de nacimiento** campo . Arrastre el mosaico y suéltelo en el lienzo.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Probar el procesamiento de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Antes de enviar el correo electrónico, asegúrese de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos web.
+Antes de enviar el correo electrónico, asegúrese de que el mensaje se muestra a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos web.
 
 Para ello, Adobe Campaign le permite obtener una vista previa del mensaje enviado en los diferentes contextos en los que se puede recibir y comprobar la compatibilidad en los escritorios y aplicaciones principales (correo web, servicio de mensajes, móvil, etc.).
 

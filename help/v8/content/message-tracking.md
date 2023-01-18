@@ -3,9 +3,9 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '548'
 ht-degree: 3%
 
 ---
@@ -75,13 +75,13 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 >
 >En el correo electrónico de prueba enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
-El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no estará disponible.
+El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no está disponible.
 
 ## Administrar seguimiento {#manage-tracking}
 
 La variable [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
 
-1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido que se va a rastrear.
 
    Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
 

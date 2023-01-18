@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Aprenda a crear su primer correo electrónico de destino en este caso de uso. Programaremos el envío de un correo electrónico a los clientes fieles de oro y plata en una fecha específica.
+Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros de fidelidad de Plata y Oro en una fecha específica.
 
-Con una plantilla de diseño predefinida, el correo electrónico también incluye contenido personalizado basado en los atributos de perfil del cliente.
+En función de una plantilla de diseño predefinida, el correo electrónico también incluye contenido personalizado basado en los atributos de perfil del cliente.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ Con una plantilla de diseño predefinida, el correo electrónico también incluy
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Seleccionar una plantilla de correo electrónico"
->abstract="Se define una plantilla en la consola Adobe Campaign v8. Esta es una configuración de envío específica que contiene parámetros predefinidos como reglas de tipología, parámetros de personalización o de enrutamiento."
+>abstract="Una plantilla de correo electrónico es una configuración de envío específica que contiene configuraciones predefinidas, como reglas de tipología, parámetros de personalización o enrutamiento. Las plantillas se definen en la consola del cliente de Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,23 +65,23 @@ Con una plantilla de diseño predefinida, el correo electrónico también incluy
 >title="Aprenda a diseñar su contenido de correo electrónico"
 >abstract="Aprenda a utilizar el Diseñador de correo electrónico."
 
-En este caso de uso, utilizaremos una plantilla predefinida para diseñar nuestro correo electrónico.
+En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro correo electrónico.
 
-van a diseñar el correo electrónico utilizando una plantilla predefinida. Encontrará instrucciones detalladas para configurar el contenido del correo electrónico en [esta sección](../content/edit-content.md).
+Encontrará instrucciones detalladas sobre cómo configurar el contenido del correo electrónico en [esta sección](../content/edit-content.md).
 
 1. Para empezar a crear el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar contenido]** botón.
 
-   Esto le llevará a una interfaz dedicada donde puede configurar el contenido del correo electrónico y diseñarlo con el Diseñador de correo electrónico.
+   Esto le lleva a una interfaz dedicada donde puede configurar el contenido del correo electrónico y diseñarlo con el Diseñador de correo electrónico.
 
    ![](assets/edit-content.png)
 
-1. Escriba la línea de asunto del correo electrónico y personalícela con el Editor de expresiones. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
+1. Introduzca la línea de asunto del correo electrónico y personalícela con el Editor de expresiones. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
 1. Para diseñar el cuerpo del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]** botón.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilizaremos una plantilla de diseño predefinida.
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice una plantilla de diseño predefinida.
 
    ![](assets/select-template.png)
 
@@ -106,9 +106,9 @@ van a diseñar el correo electrónico utilizando una plantilla predefinida. Enco
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definición de la audiencia"
->abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o bien puede elegir crear una nueva audiencia con el generador de reglas."
+>abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o puede crear una nueva con el generador de reglas."
 
-En este caso de uso, se envía el correo electrónico a una audiencia existente. Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
+En este caso de uso, envíe el correo electrónico a una audiencia existente. Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
 
 1. Para seleccionar la audiencia del correo electrónico, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]** y elija una audiencia existente en la lista.
 
@@ -118,7 +118,7 @@ En este caso de uso, se envía el correo electrónico a una audiencia existente.
 
    >[!NOTE]
    >
-   >Las audiencias disponibles en la lista proceden de la instancia de Campaign V8 o de Adobe Experience Platform si la integración Destino / Fuentes se ha configurado en la instancia.
+   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si la integración Destino / Fuentes se ha configurado en la instancia.
    >
    >La integración Destino / Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y enviar los registros de envío y seguimiento de Campaign a Adobe Experience Platform. [Descubra cómo funciona Campaign y Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -133,7 +133,7 @@ En este caso de uso, se envía el correo electrónico a una audiencia existente.
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Programe el envío"
->abstract="Defina la fecha y la hora exacta de envío. Al elegir el momento más apropiado para el mensaje de marketing, maximizará las tasas de apertura."
+>abstract="Defina la fecha y la hora exacta de envío. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
 
 Para programar el envío del correo electrónico, haga clic en **[!UICONTROL Habilitar]** y establezca la fecha y hora deseadas para el envío.
 
@@ -145,19 +145,19 @@ De forma predeterminada, la variable **[!UICONTROL Confirme antes de enviar]** e
 
 Antes de enviar el correo electrónico, puede obtener una vista previa y probarlo para asegurarse de que cumple con sus expectativas.
 
-En este caso de uso, se obtiene una vista previa del correo electrónico y se envían versiones de prueba a direcciones de correo electrónico específicas, al mismo tiempo que se suplantan algunos de los perfiles objetivo.
+En este caso de uso, se obtiene una vista previa del correo electrónico y se envían versiones de prueba a direcciones de correo electrónico específicas al suplantar algunos de los perfiles de destino.
 
 Encontrará información adicional sobre cómo previsualizar y probar correos electrónicos en [esta sección](../preview-test/preview-test.md).
 
-1. Para revisar y enviar el correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Se mostrará una vista previa del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar .
+1. Para revisar y enviar el correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar .
 
-1. Para obtener una vista previa del correo electrónico y enviar versiones de prueba, haga clic en el botón **[!UICONTROL Simular contenido]** botón. Se abrirá la interfaz de vista previa.
+1. Para obtener una vista previa del correo electrónico y enviar versiones de prueba, haga clic en el botón **[!UICONTROL Simular contenido]** botón.
 
    ![](assets/review-email.png)
 
 1. En el lado izquierdo, seleccione los perfiles que desee utilizar para previsualizar el correo electrónico.
 
-   El panel derecho mostrará una vista previa del correo electrónico en función del perfil seleccionado. Si ha añadido varios perfiles, puede cambiar entre ellos para previsualizar el correo electrónico correspondiente.
+   El panel derecho muestra una vista previa del correo electrónico en función del perfil seleccionado. Si ha añadido varios perfiles, puede cambiar entre ellos para previsualizar el correo electrónico correspondiente.
 
    ![](assets/preview.png)
 
@@ -167,11 +167,11 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
 
 1. Para enviar versiones de prueba de su correo electrónico, haga clic en el botón **[!UICONTROL Prueba]** a continuación, seleccione el modo que desee utilizar.
 
-   En este ejemplo, utilizaremos la variable **[!UICONTROL Sustituir desde el destino principal]** , que envía versiones de prueba a direcciones de correo electrónico específicas al suplantar algunos de los perfiles a los que se dirige el correo electrónico.
+   En este ejemplo, utilice el **[!UICONTROL Sustituir desde el destino principal]** , que envía versiones de prueba a direcciones de correo electrónico específicas al suplantar algunos de los perfiles a los que se dirige el correo electrónico.
 
    ![](assets/proof-mode.png)
 
-1. Haga clic en **[!UICONTROL Agregar dirección]** y especifique las direcciones de correo electrónico que recibirán las versiones de prueba.
+1. Haga clic en **[!UICONTROL Agregar dirección]** y especifique las direcciones de correo electrónico que reciben las versiones de prueba.
 
    Para cada dirección de correo electrónico, seleccione el perfil que desea suplantar. También puede permitir que Adobe Campaign seleccione un perfil aleatorio del destinatario.
 
@@ -179,7 +179,7 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
 
 1. Haga clic en **[!UICONTROL Enviar correo electrónico de prueba]** y confirme la entrega.
 
-   Las versiones de prueba se enviarán a las direcciones de correo electrónico especificadas mediante el perfil seleccionado con la variable **[Prueba x]** prefijo .
+   Las versiones de prueba se envían a las direcciones de correo electrónico especificadas mediante el perfil seleccionado con la variable **[Prueba x]** prefijo .
 
    ![](assets/proof-sent.png)
 
