@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
+source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1301'
 ht-degree: 2%
 
 ---
@@ -182,7 +182,7 @@ La web de Campaign v8 está diseñada para funcionar de forma óptima en la últ
 
 ## Preferencias de idioma {#language-pref}
 
-Actualmente, la interfaz de usuario está disponible en los siguientes idiomas:
+La web de Campaign v8 está disponible actualmente en los siguientes idiomas:
 
 * Inglés (EE. UU.) - EN-US
 * Francés - FR
@@ -199,10 +199,16 @@ El idioma predeterminado de la interfaz está determinado por el idioma preferid
 
 Para cambiar el idioma:
 
-* Haga clic en **Preferencias** desde tu avatar, en la parte superior derecha.
-   ![](assets/preferences.png)
-* A continuación, haga clic en el idioma mostrado debajo de su dirección de correo electrónico
-* Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
+1. Haga clic en el icono de perfil, en la parte superior derecha, y luego seleccione **Preferencias**.
+
+   ![](assets/preferences.png){width="70%" align="left"}
+
+1. A continuación, haga clic en el idioma mostrado debajo de su dirección de correo electrónico.
+
+   ![](assets/preferences2.png)
+
+1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
+
    ![](assets/select-language.png)
 
 <!--
