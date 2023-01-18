@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
+source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1297'
 ht-degree: 2%
 
 ---
@@ -184,14 +184,16 @@ La web de Campaign v8 está diseñada para funcionar de forma óptima en la últ
 
 Actualmente, la interfaz de usuario está disponible en los siguientes idiomas:
 
-* Inglés
-* Francés
-* Alemán
-* Italiano
-* Español
-* Portugués (Brasil)
-* Japonés
-* Coreano
+* Inglés (EE. UU.) - EN-US
+* Francés - FR
+* Alemán - DE
+* Italiano - IT
+* Español - ES
+* Portugués (Brasil) - PTBR
+* Japonés: JP
+* Coreano - KR
+* Chino simplificado - CHS
+* Chino tradicional - CHT
 
 El idioma predeterminado de la interfaz está determinado por el idioma preferido especificado en el perfil de usuario.
 
