@@ -1,107 +1,101 @@
 ---
 audience: end-user
-title: Seguimiento de mensajes
-description: Aprenda a añadir vínculos y rastrear mensajes enviados
+title: Track your messages
+description: Learn how to add links and track sent messages
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 3%
-
 ---
-
-# Adición de vínculos y seguimiento de mensajes {#tracking}
+# Add links and track messages {#tracking}
 
 ![](../assets/do-not-localize/badge.png)
 
-Utilice el Diseñador de correo electrónico para añadir vínculos al contenido y realizar un seguimiento de los mensajes enviados para controlar el comportamiento de los destinatarios.
+Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
 
-## Insertar vínculos {#insert-links}
+## Insert links {#insert-links}
 
-Al diseñar un mensaje, puede agregar vínculos al contenido.
-
->[!NOTE]
->
->Cuando el seguimiento está habilitado, se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje.
-
-Para insertar vínculos en el contenido del correo electrónico, siga los pasos a continuación:
-
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
-
-   ![](assets/message-tracking-insert-link.png)
-
-1. Agregue un **[!UICONTROL Etiqueta]** y **[!UICONTROL Vínculo]**.
-
-1. Guarde los cambios.
-
-1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Configuración de componentes]** a la derecha.
-
-   * Puede editar el vínculo y cambiar su **[!UICONTROL Target]**.
-   * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
-
-   ![](assets/message-tracking-link-settings.png)
+When designing a message, you can add links to your content.
 
 >[!NOTE]
 >
->Los mensajes de correo electrónico de tipo de marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de superficie del canal (es decir, en el valor preestablecido de mensaje) y al crear el mensaje.
+>When tracking is enabled, all links included in the message content are tracked.
 
-## Vínculo a una página espejo {#mirror-page}
+To insert links into your email content, follow the steps below:
 
-La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
+1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
-Para añadir un vínculo a una página espejo en el correo electrónico:
+    ![](assets/message-tracking-insert-link.png)
 
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
+1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
 
-   ![](assets/message-tracking-mirror-page.png)
+1. Save your changes.
 
-1. Seleccione el **[!UICONTROL Insertar vínculo]** para acceder al menú de personalización.
+1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
 
-   ![](assets/message-tracking-mirror-page_2.png)
+    * You can edit the link and change its **[!UICONTROL Target]**.
+    * You can choose to underline the link or not by checking the corresponding option.
 
-1. En el **[!UICONTROL Bloque de contenido]** seleccione **[!UICONTROL URL de página espejo]** y haga clic en **[!UICONTROL Agregar]**.
+    ![](assets/message-tracking-link-settings.png)
 
-   ![](assets/message-tracking-mirror-page_3.png)
+>[!NOTE]
+>
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
 
-La página espejo se crea automáticamente.
+## Link to a mirror page {#mirror-page}
+
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+
+To add a link to a mirror page in your email:
+
+1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+
+    ![](assets/message-tracking-mirror-page.png)
+
+1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+
+    ![](assets/message-tracking-mirror-page_2.png)
+
+1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+
+    ![](assets/message-tracking-mirror-page_3.png)
+
+The mirror page is automatically created.
 
 >[!IMPORTANT]
 >
->Los vínculos de páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud máxima de direcciones URL.
+>Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
 
-Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en el vínculo de la página espejo, el contenido del correo electrónico se muestra en su navegador web predeterminado.
+Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
 
 >[!NOTE]
 >
->En el correo electrónico de prueba enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
 
-El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no está disponible.
+The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
 
-## Administrar seguimiento {#manage-tracking}
+## Manage tracking {#manage-tracking}
 
-La variable [Diseñador de correo electrónico](create-email-content.md) le permite administrar las direcciones URL rastreadas, como editar el tipo de seguimiento para cada vínculo.
+The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
 
-1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido que se va a rastrear.
+1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
 
-   Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico.
+    This list enables you to have a centralized view and to locate each URL in the email content.
 
-1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
+1. To edit a link, click the corresponding pencil icon.
 
-   ![](assets/message-tracking-edit-links.png)
+    ![](assets/message-tracking-edit-links.png)
 
-1. Puede modificar el **[!UICONTROL Tipo de seguimiento]** si es necesario:
+1. You can modify the **[!UICONTROL Tracking Type]** if needed:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   Para cada URL rastreada, puede establecer el modo de seguimiento en uno de estos valores:
+    For each tracked URL, you can set the tracking mode to one of these values:
 
-   * **[!UICONTROL Seguimiento]**: Activa el seguimiento en esta dirección URL.
-   * **[!UICONTROL Exclusión]**: Considera esta URL como una URL de exclusión o de baja.
-   * **[!UICONTROL Página espejo]**: Considera que esta URL es una URL de página espejo.
-   * **[!UICONTROL Nunca]**: Nunca activa el seguimiento de esta dirección URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+    * **[!UICONTROL Tracked]**: Activates tracking on this URL.
+    * **[!UICONTROL Opt out]**: Considers this URL as an opt-out or unsubscription URL.
+    * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
+    * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Agregue un **[!UICONTROL Categoría]** al vínculo para agrupar los vínculos rastreados y hacer clic en **[!UICONTROL Guardar]**.
+1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+    ![](assets/message-tracking-edit-a-link_2.png)
 
-1. Después de realizar la entrega, acceda al informe de entrega. En el **[!UICONTROL Seguimiento]** , el **[!UICONTROL URL y flujos de clics]** muestra las direcciones URL de su envío más visitadas. [Más información](../reporting/reports.md)
+1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)

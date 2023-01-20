@@ -1,62 +1,56 @@
 ---
 audience: end-user
-title: Personalice el fondo del correo electrónico
-description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
+title: Personalize your email background
+description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 0%
-
 ---
-
-# Personalice el fondo del correo electrónico {#backgrounds}
+# Personalize your email background {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Configuración de fondo"
->abstract="Puede personalizar el color de fondo o la imagen de fondo del contenido. Tenga en cuenta que la imagen de fondo no es compatible con todos los clientes de correo electrónico."
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
 
-En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
+When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
-1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
-1. Normalmente, defina los colores de fondo en el nivel de columna.
-1. Intente no utilizar colores de fondo en componentes de imagen o texto, ya que son difíciles de administrar.
+1. Apply a background color to the body of your email if required by your design.
+1. Usually, set background colors at the column level.
+1. Try not to use background colors on image or text components as they are difficult to manage.
 
-A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
+Below are the available background settings that you can use.
 
-* Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde el panel izquierdo.
+* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
-* Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Color de fondo de la ventanilla]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
+* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
-* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación del panel izquierdo para aplicar un color de fondo específico solo a esa estructura.
+* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >Asegúrese de no establecer un color de fondo de ventanilla móvil, ya que podría ocultar los colores de fondo de la estructura.
+  >[!NOTE]
+  >
+  >Make sure you do not set a viewport background color as it may hide the structure background colors.
 
-* Configure un **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
+* Set a **[!UICONTROL Background image]** for the content of a structure component.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utiliza el color de fondo de fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+  >[!NOTE]
+  >
+  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
 
-* Establezca un color de fondo en el nivel de columna.
+* Set a background color at the column level.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
+  >[!NOTE]
+  >
+  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
 
-   También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
+  You can also set a background image at the column level, but this is rarely used.

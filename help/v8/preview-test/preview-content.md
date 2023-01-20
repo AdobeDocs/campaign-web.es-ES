@@ -1,49 +1,43 @@
 ---
 audience: end-user
-title: Vista previa del contenido del correo electrónico
-description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico con la interfaz de usuario web de Campaign
+title: Preview email content
+description: Learn how to preview your email content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
-
 ---
-
-# Vista previa del contenido del correo electrónico {#preview}
+# Preview email content {#preview}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Previsualización inteligente del contenido"
->abstract="Adobe Campaign permite utilizar perfiles para previsualizar el contenido del correo electrónico antes de enviarlo, comprobar la personalización y cómo lo verán sus destinatarios."
+>title="Smart preview of your content"
+>abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
 
-Adobe Campaign le permite previsualizar el contenido del correo electrónico antes de enviarlo, comprobar la personalización y cómo se muestra a sus destinatarios.
+Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
 
-Para obtener una vista previa del contenido del correo electrónico, siga estos pasos:
+To preview the content of your email, follow these steps:
 
-1. Acceda a la pantalla de creación de contenido de correo electrónico y haga clic en el botón **[!UICONTROL Simular contenido]** botón.
+1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
 
-   ![](assets/simulate.png)
+    ![](assets/simulate.png)
 
-1. Para seleccionar uno o varios perfiles, haga clic en el botón **[!UICONTROL Seleccionar perfiles]** y, a continuación, utilice el **[!UICONTROL Perfiles de prueba]** y **[!UICONTROL Perfiles]** fichas para elegir:
+1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
 
-   * La variable **Perfiles de prueba** contiene direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Pueden crearse en la consola de Adobe Campaign en el **[!UICONTROL Recursos]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Direcciones semilla]** carpeta.
-   * La variable **Perfiles** lista todos los destinatarios almacenados en la pestaña **[!UICONTROL Perfiles y objetivos]** de la consola de Campaign.
+    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
 
-   Puede combinar perfiles de prueba y perfiles para previsualizar el correo electrónico.
+    You can combine both test profiles and profiles to preview your email.
 
-   ![](assets/preview-profile.png)
+    ![](assets/preview-profile.png)
 
-1. Una vez seleccionados los perfiles, se muestra una vista previa del correo electrónico en el panel derecho. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo.
+1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
 
-   Si ha añadido varios perfiles, puede cambiar entre ellos en la lista para obtener una vista previa del correo electrónico correspondiente.
+    If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
 
-   >[!NOTE]
-   >
-   >Puede obtener una vista previa de la renderización del contenido en distintos dispositivos (escritorio, móvil, tableta) haciendo clic en el icono dedicado en la esquina superior derecha.
+    >[!NOTE]
+    >
+    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
 

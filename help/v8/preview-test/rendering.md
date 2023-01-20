@@ -1,33 +1,27 @@
 ---
 audience: end-user
-title: Probar el procesamiento de correo electrónico
-description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
+title: Test email rendering
+description: Learn how to test your email rendering in Campaign Web UI
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
-
 ---
-
-# Probar la renderización del correo electrónico {#rendering}
+# Test the email rendering {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-Antes de enviar el correo electrónico, asegúrese de que el mensaje se muestra a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos web.
+Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-Para ello, Adobe Campaign le permite obtener una vista previa del mensaje enviado en los diferentes contextos en los que se puede recibir y comprobar la compatibilidad en los escritorios y aplicaciones principales (correo web, servicio de mensajes, móvil, etc.).
+To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
-Para probar la renderización del correo electrónico, siga estos pasos:
+To test the email rendering, follow these steps:
 
-1. Acceda a la pantalla de creación de contenido de correo electrónico y haga clic en **[!UICONTROL Simular contenido]**.
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
 
-1. Haga clic en el **[!UICONTROL Procesar correo electrónico]** botón.
+1. Click the **[!UICONTROL Render email]** button.
 
-   El panel izquierdo proporciona varios clientes de correo electrónico de escritorio, móviles y basados en web. Seleccione el cliente de correo electrónico que desee para mostrar una vista previa del correo electrónico en el panel derecho.
+    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-   ![](assets/render-context.png)
+    ![](assets/render-context.png)
 
-   >[!NOTE]
-   >
-   >La lista de clientes de correo electrónico proporciona una muestra de los principales clientes de correo. Hay clientes de correo electrónico adicionales disponibles en el botón de filtro situado junto a la barra de búsqueda superior.
+    >[!NOTE]
+    >
+    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.

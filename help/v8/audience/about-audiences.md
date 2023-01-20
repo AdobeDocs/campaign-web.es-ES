@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: Introducción a las audiencias
-description: Aprenda a utilizar audiencias en la interfaz de usuario web de Campaign
+title: Get started with audiences
+description: Learn how to use audiences in Campaign Web UI
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 17%
-
 ---
-
-# Introducción a las audiencias {#about-audiences}
+# Get started with audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Introducción a las audiencias"
->abstract="Aprenda a administrar la audiencia del contenido de su correo electrónico."
+>title="Get started with audiences"
+>abstract="Learn how to manage audience for your email content."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,13 +34,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-En esta sección, aprenda a definir la audiencia del correo electrónico. La audiencia es el destinatario principal de su envío: los destinatarios que reciben el correo electrónico. El tipo de audiencia depende de la asignación de destino definida en la plantilla de envío. Consulte esta [sección](../email/create-email.md).
+In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
 
-Para definir la audiencia, puede:
+To define the audience, you can:
 
-* usar una audiencia existente, consulte esto [sección](add-audience.md).
-* cree una audiencia nueva. Consulte esta [sección](segment-builder.md).
+* use an existing audience, see this [section](add-audience.md).
+* create a new audience. See this [section](segment-builder.md).
 
-También puede definir grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de las campañas. Consulte esta [sección](control-group.md).
+You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
 
 ![](assets/about-audience.png)
