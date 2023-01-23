@@ -1,53 +1,59 @@
 ---
-keywords: Campaign Web;home;popular topics
-description: Campaign Web v8 help center
-title: Adobe Campaign Web v8 product documentation
+keywords: Campaign Web;inicio;temas populares
+description: Centro de ayuda de Campaign Web v8
+title: Documentación del producto Adobe Campaign Web v8
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 9%
+
 ---
-# Adobe Campaign v8 Web Documentation {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png) 
+# Documentación web de Adobe Campaign v8 {#campaign-documentation}
 
-![](assets/do-not-localize/badge.png) 
+![](assets/do-not-localize/banner-documentationv8.png)
+
+![](assets/do-not-localize/badge.png)
 
 
-Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform. [Learn more](get-started/get-started.md)
+Campaign ahora proporciona una nueva interfaz de usuario web con capacidad de uso mejorada, accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
 
->Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice. [Learn more](rn/release-notes.md)
+>La web de Campaign v8 está actualmente en la versión Alpha. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso. [Más información](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/email-create.jpeg">
+<img alt="nueva interfaz de usuario" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Campaign New UI</strong>
+<div><a href="get-started/user-interface.md"><strong>Nueva interfaz de usuario de Campaign</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="Infrequent" src="assets/do-not-localize/email-design.jpg">
+<img alt="Poco frecuente" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Design an email</strong></a>
+<a href="content/create-email-content.md"><strong>Cree un correo electrónico</strong></a>
 </div>
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Audiences" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="Audiencias" src="assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Select an audience</strong></a>
+<a href="audience/about-audiences.md"><strong>Seleccionar una audiencia</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validation" src="assets/do-not-localize/email-config.jpg">
+<img alt="Validación" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Preview and test an email</strong></a>
+<a href="preview-test/proofs.md"><strong>Vista previa y prueba de un correo electrónico</strong></a>
 </div>
 <p>
 </td>

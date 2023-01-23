@@ -1,55 +1,61 @@
 ---
 audience: end-user
 product: campaign
-title: Work with email templates
+title: Trabajar con plantillas de correo electrónico
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 6%
+
 ---
-# Work with email content templates {#email-content-templates}
+
+# Trabajar con plantillas de contenido de correo electrónico {#email-content-templates}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the **[!UICONTROL Select design template]** section to start building your content from a template.
+Utilice la variable **[!UICONTROL Seleccionar plantilla de diseño]** para comenzar a crear el contenido a partir de una plantilla.
 
 ![](assets/email_designer-templates.png)
 
 ## Save as template {#save-as-template}
 
-Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
+Una vez que haya diseñado el contenido del correo electrónico, puede guardarlo para su reutilización futura. Para realizar esto, siga los pasos a continuación.
 
-1. Click the ellipsis on top right of the screen.
+1. Haga clic en los puntos suspensivos en la parte superior derecha de la pantalla.
 
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
+1. Select **[!UICONTROL Guardar plantilla de diseño]** en el menú desplegable.
 
-    ![](assets/email_designer-save-template.png)
+   ![](assets/email_designer-save-template.png)
 
-1. Add a name for this template.
+1. Añada un nombre para esta plantilla.
 
-    ![](assets/email_designer-template-name.png)
+   ![](assets/email_designer-template-name.png)
 
-1. Click **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
+La próxima vez que cree un correo electrónico, puede usar esta plantilla para crear su contenido. [Descubra cómo](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## Use a saved template {#use-saved-template}
+## Usar una plantilla guardada {#use-saved-template}
 
-1. Open the [email designer](create-email-content.md).
+1. Abra el [diseñador de correo electrónico](create-email-content.md).
 
-1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
+1. En el **[!UICONTROL Crear la pantalla de correo electrónico]**, el **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada. Seleccione el **[!UICONTROL Plantillas guardadas]** pestaña .
 
-    ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png)
 
-1.  The list of all previously [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
+1. La lista de todas las [plantillas guardadas](#save-as-template) se muestra. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
-    ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png)
 
-1. Select the template of your choice from the list.
+1. Seleccione la plantilla que desee en la lista.
 
-1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
+1. Una vez seleccionadas, puede desplazarse entre todas las plantillas guardadas con las flechas derecha e izquierda.
 
-    ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Click **[!UICONTROL Use this email]** on top right of the screen.
+1. Haga clic en **[!UICONTROL Usar este correo electrónico]** en la parte superior derecha de la pantalla.
 
-1. Edit your content as desired using the email designer.
+1. Edite el contenido según sus preferencias mediante el diseñador de correo electrónico.

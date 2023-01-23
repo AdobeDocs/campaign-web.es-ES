@@ -1,46 +1,52 @@
 ---
 audience: end-user
-title: Add a preheader in the Email Designer
-description: Learn how to design your emails content
+title: Añadir un encabezado previo en el Diseñador de correo electrónico
+description: Aprenda a diseñar el contenido de sus correos electrónicos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
+
 ---
-# Add a preheader {#preheader}
+
+# Añadir un encabezado previo {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adding a preheader"
->abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+>title="Adición de un encabezado previo"
+>abstract="Un encabezado previo es un breve texto de resumen que sigue la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase."
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
+Un encabezado previo es un breve texto de resumen que sigue la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico.
 
-In many cases, it provides a short summary of the email, and is typically one sentence long. 
+En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase.
 
 >[!NOTE]
 >
->Preheaders are not supported by all email clients. When not supported, the preheader does not display.
+>Los encabezados previos no son compatibles con todos los clientes de correo electrónico. Cuando no se admite, el encabezado previo no se muestra.
 
-To define the email preheader, follow the steps below:
+Para definir el encabezado previo del correo electrónico, siga los pasos a continuación:
 
-1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
+1. En el Diseñador de correo electrónico, agregue al menos un **[!UICONTROL Componentes de estructura]** para empezar a diseñar el correo electrónico.
 
-1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
+1. Haga clic en el **[!UICONTROL Árbol de navegación]** en el panel izquierdo y seleccione **[!UICONTROL Cuerpo]**.
 
-    ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png)
 
-1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
+1. En el **[!UICONTROL Configuración del cuerpo]** panel derecho, haga clic en el icono de edición situado junto al **[!UICONTROL Encabezado previo]** para añadir contenido.
 
-    ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png)
 
-1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
+1. Añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Añadir personalización]** icono.
 
-    ![](assets/preheader_3.png)
+   ![](assets/preheader_3.png)
 
-1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
+1. En el **[!UICONTROL Editar personalización]** ventana, puede añadir **[!UICONTROL Bloque de contenido]**, **[!UICONTROL Contenido dinámico]** o **[!UICONTROL Campos personalizados]**.
 
-1. Click **[!UICONTROL Validate]** to check your personalization syntax.
+1. Haga clic en **[!UICONTROL Validar]** para comprobar la sintaxis de personalización.
 
-1. Click **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-Your preheader is now configured for your email.
+El encabezado previo ya está configurado para el correo electrónico.

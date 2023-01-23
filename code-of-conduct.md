@@ -1,71 +1,72 @@
-# Adobe Code of Conduct
+---
+source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
-## Our Pledge
+---
+# Código de conducta de Adobe
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+## Nuestra promesa
 
-## Our Standards
+Nosotros, como miembros, contribuyentes y administradores nos comprometemos a
+hacer de la participación en nuestra comunidad y en nuestro proyecto una
+experiencia libre de acoso para todo el mundo, independientemente de la edad, dimensión corporal,
+minusvalía, etnicidad, identidad y expresión de género, nivel de experiencia,
+nacionalidad, apariencia personal, raza, religión, o identidad u
+orientación sexual.
 
-Examples of behavior that contributes to creating a positive environment
-include:
+## Nuestros estándares
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+Ejemplos de comportamiento que contribuyen a crear un ambiente positivo:
 
-Examples of unacceptable behavior by participants include:
+* Uso de un lenguaje amable e inclusivo.
+* Respeto ante los puntos de vista y las experiencias diferentes.
+* Aceptación adecuada de la retroalimentación constructiva.
+* Centrarse en lo que sea mejor para la comunidad.
+* Demostrar empatía hacia otros miembros de la comunidad.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+Ejemplos de comportamiento inaceptable por parte de los participantes:
 
-## Our Responsibilities
+* El uso de lenguaje o imágenes sexualizadas, y aproximaciones o
+atenciones sexuales de cualquier tipo.
+* Comentarios despectivos (trolling), insultantes o derogatorios, y ataques personales o políticos.
+* El acoso en público o privado.
+* Publicación de información privada de otras personas, tales como direcciones físicas o de correo electrónico, sin su permiso explícito.
+* Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un entorno profesional.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+## Aplicación de las responsabilidades
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+Los administradores del proyecto son responsables de aclarar los estándares de
+comportamiento aceptable y de tomar acciones apropiadas y correctivas de
+forma justa en respuesta a cualquier instancia de comportamiento que consideren inaceptable.
 
-## Scope
+Los administradores del proyecto tendrán el derecho y la responsabilidad de
+eliminar, editar o rechazar comentarios, confirmaciones, códigos, ediciones de páginas de wiki, asuntos y otras contribuciones
+que no se alineen con este código de conducta, o prohibir temporal o
+permanentemente a cualquier contribuyente por otros comportamientos que consideren inapropiados,
+amenazantes, ofensivos o dañinos.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+## Alcance
 
-## Enforcement
+Este código de conducta aplica tanto a espacios del proyecto como a espacios
+públicos donde un individuo esté en representación del proyecto o comunidad. Ejemplos de
+esto incluyen el uso de la cuenta oficial de
+correo electrónico, publicaciones a través de la cuenta de las redes sociales oficiales, o actuar como una persona designada en eventos en línea o no. Los responsables del proyecto podrán definir y aclarar más la representación de un proyecto.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at Grp-opensourceoffice@adobe.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+## Aplicación
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+Los casos de comportamiento abusivo, acosador o inaceptable pueden denunciarse poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas 
+las denuncias serán examinadas e investigadas y darán lugar a una respuesta que
+se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está
+obligado a respetar la privacidad de quienes denuncien incidentes.
+Pueden publicarse por separado los detalles adicionales de las políticas de ejecución específicas.
 
-## Attribution
+Los administradores del proyecto que no sigan o hagan cumplir el código de conducta de buena fe
+pueden tener repercusiones temporales o permanentes determinadas por otros
+miembros de la dirección del proyecto.
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+## Atribución
+
+Este código de conducta es una adaptación del [Contributor Covenant](https://contributor-covenant.org), versión 1.4,
+disponible en [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

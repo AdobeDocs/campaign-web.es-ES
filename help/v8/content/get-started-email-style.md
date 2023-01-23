@@ -1,22 +1,28 @@
 ---
 audience: end-user
-title: Get started with email style
-description: Discover the different ways you can adjust your email content style
+title: Introducción al estilo de correo electrónico
+description: Descubra las distintas formas de ajustar el estilo del contenido del correo electrónico
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 0%
+
 ---
-# Get started with email style {#get-started-email-style}
+
+# Introducción al estilo de correo electrónico {#get-started-email-style}
 
 ![](../assets/do-not-localize/badge.png)
 
-Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
+Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Adobe Campaign], puede ajustar una serie de parámetros y atributos de estilo desde el panel de configuración del Diseñador de correo electrónico .
 
-You can either apply your changes to the email body, to a structure component or to a content component.
+Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de estructura o a un componente de contenido.
 
 ![](assets/email_designer_content_components_settings.png)
 
-Follow the links below to discover how to adjust some of the style settings in your email.
+Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajustes de estilo de su correo electrónico.
 
-* Learn how to [personalize your email background](backgrounds.md)
-* Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
-* Learn how to [define a style for the links in your email](styling-links.md)
-* Learn how to [customize inline styling attributes](inline-styling.md)
+* Obtenga información sobre cómo [personalizar el fondo del correo electrónico](backgrounds.md)
+* Obtenga información sobre cómo [administrar alineación vertical y relleno](alignment-and-padding.md)
+* Obtenga información sobre cómo [definir un estilo para los vínculos del correo electrónico](styling-links.md)
+* Obtenga información sobre cómo [personalizar atributos de estilo en línea](inline-styling.md)

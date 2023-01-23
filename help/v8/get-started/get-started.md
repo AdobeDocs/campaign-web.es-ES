@@ -1,10 +1,16 @@
 ---
 audience: end-user
-title: Get started with Campaign v8 Web
-description: Get started with Campaign v8 Web
+title: Introducción a Campaign v8 Web
+description: Introducción a Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 10%
+
 ---
-# Get started with Campaign v8 Web {#get-started}
+
+# Introducción a Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -15,44 +21,44 @@ only existing customers
 -->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="Get started"
->abstract="Discover key capabilities, user interface and global guidelines."
+>title="Introducción"
+>abstract="Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales."
 
 >[!NOTE]
 >
->Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
+>La web de Campaign v8 está actualmente en la versión Alpha. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso.
 
-Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
+Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
+Inicialmente solo disponible a través de un [consola del cliente](#ac-client), Campaign ahora proporciona una nueva interfaz de usuario web con capacidad de uso mejorada, accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-This new UI first serves the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
+Esta nueva interfaz de usuario atiende primero a las necesidades de la **profesional del negocio** - todas las tareas de administración típicas no están disponibles en esta primera versión, pero se abordarán en versiones posteriores. Tenga en cuenta que, por ahora, no todas las funciones u opciones disponibles en la consola del cliente están disponibles en la nueva interfaz de usuario. En futuras versiones habrá disponibles nuevos casos de uso, opciones y funciones.
 
-If you need to access Campaign v8 capabilities which are not available in the web UI, you can use the [client console](#ac-client). 
+Si necesita acceder a las funciones de Campaign v8 que no están disponibles en la interfaz de usuario web, puede usar la variable [consola del cliente](#ac-client).
 
-## About Campaign client console{#ac-client}
+## Acerca de la consola del cliente de Campaign{#ac-client}
 
-The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
+La consola del cliente de Campaign es una aplicación basada en el explorador que se instala en el sistema. Utiliza la API de servicios web para conectarse al servidor de aplicaciones de Campaign.
 
-Learn how to download and install the client console in [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
+Obtenga información sobre cómo descargar e instalar la consola del cliente en [esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
-For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
+Para obtener más información sobre el uso de Campaign v8, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
 
-Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
+Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos están disponibles desde la consola del cliente y desde la interfaz de usuario web. Por ejemplo, si crea una plantilla de envío mediante la consola del cliente, también estará disponible en la interfaz de usuario web. Y si crea un envío de correo electrónico en la interfaz de usuario web, también se puede acceder a este envío desde la consola del cliente.
 
-## Connect to Campaign
+## Conéctese a Campaign
 
 
-1. Connect to [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
-1. Log in with your Adobe credentials.
-1. In the **Quick access** section, click **Campaign**.
-    ![](assets/connect.png)
+1. Conectar a [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Inicie sesión con sus credenciales de Adobe.
+1. En el **Acceso rápido** , haga clic en **Campaign**.
+   ![](assets/connect.png)
 
-1. In the next page, click the **Launch** button of your Campaign instance.
-    You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
+1. En la página siguiente, haga clic en el **Launch** de la instancia de Campaign.
+Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

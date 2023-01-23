@@ -1,30 +1,36 @@
 ---
 audience: end-user
-title: Add inline styling attributes
-description: Learn how to add inline styling attributes
+title: Añadir atributos de estilo en línea
+description: Aprenda a añadir atributos de estilo en línea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
+
 ---
-# Add inline styling attributes {#adding-inline-styling-attributes}
+
+# Añadir atributos de estilo en línea {#adding-inline-styling-attributes}
 
 ![](../assets/do-not-localize/badge.png)
 
-In the Email Designer interface, when you select an element and display its settings on the right pane, you can customize the inline attributes and their value for that specific element.
+En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento y mostrar su configuración en el panel derecho, puede personalizar los atributos en línea y su valor para ese elemento específico.
 
-1. Select an component directly in your content or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. Seleccione un componente directamente en el contenido o use el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
 
-1. From the **[!UICONTROL Component settings]** menu on the right, look for the **[!UICONTROL Styles Inline]** section.
+1. En el **[!UICONTROL Configuración de componentes]** a la derecha, busque el **[!UICONTROL Estilos en línea]** para obtener más información.
 
    ![](assets/styles_1.png)
 
-1. Modify the values of the existing attributes.
+1. Modifique los valores de los atributos existentes.
 
-1. You can add new properties using the **+** button. You can add any attribute and value that is CSS-compliant.
+1. Puede agregar propiedades nuevas mediante la variable **+** botón. Puede añadir cualquier atributo y valor que sea compatible con CSS.
 
    ![](assets/styles_2.png)
 
-The styling is applied to the selected element.
+El estilo se aplica al elemento seleccionado.
 
 >[!NOTE]
 >
->If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
+>Si los elementos secundarios no tienen atributos de estilo específicos definidos, se hereda el estilo del elemento principal.
 

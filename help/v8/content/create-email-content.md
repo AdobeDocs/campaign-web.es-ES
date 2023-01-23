@@ -1,101 +1,107 @@
 ---
 audience: end-user
-title: Design emails in the Email Designer
-description: Learn how to design your emails content from scratch
+title: Diseñar correos electrónicos en el Diseñador de correo electrónico
+description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 0%
+
 ---
-# Start from scratch {#create-email-content}
+
+# Empezar desde cero {#create-email-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="About Structure components"
->abstract="Structure components define the layout of the email."
+>title="Acerca de los componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="About Structure components"
->abstract="Structure components define the layout of the landing page."
+>title="Acerca de los componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="About Structure components"
->abstract="Structure components define the layout of the fragment."
+>title="Acerca de los componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="About Structure components"
->abstract="Structure components define the layout of the template."
+>title="Acerca de los componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la plantilla."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Defining email columns"
->abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
+>title="Definición de columnas de correo electrónico"
+>abstract="El Diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico definiendo la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Defining landing page columns"
->abstract="The Email Designer allows you to easily define the layout of your landing page by defining column structure."
+>title="Definición de columnas de página de aterrizaje"
+>abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la página de aterrizaje mediante la definición de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Defining fragment columns"
->abstract="The Email Designer allows you to easily define the layout of your fragment by defining column structure."
+>title="Definición de columnas de fragmento"
+>abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño del fragmento definiendo la estructura de la columna."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Defining template columns"
->abstract="The Email Designer allows you to easily define the layout of your template by defining column structure."
+>title="Definición de columnas de plantilla"
+>abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
 
-The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
+El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
 
-To start building your email content, follow the steps below:
+Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación:
 
-1. From the Email Designer home page, select the **[!UICONTROL Design from scratch]** option.
+1. En la página de inicio del Diseñador de correo electrónico, seleccione la opción **[!UICONTROL Diseño desde cero]** .
 
-    ![](assets/email_designer.png)
+   ![](assets/email_designer.png)
 
-1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** into the canvas to define the layout of your email.
-
-   >[!NOTE]
-   >
-   >Stacking columns is not compatible with all email programs. When not supported, columns are not stacked.
-
-    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
-
-    ![](assets/email_designer_2.png)
-
-1. Add as many **[!UICONTROL Structure components]** as needed and edit their settings in the dedicated pane on the right.
-
-    Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+1. Empiece a diseñar el contenido del correo electrónico arrastrando y soltando **[!UICONTROL Componentes de estructura]** en el lienzo para definir el diseño del correo electrónico.
 
    >[!NOTE]
    >
-   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
+   >El apilamiento de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
 
-1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+   ![](assets/email_designer_2.png)
 
-    ![](assets/email_designer_5.png)
+1. Agregar tantos **[!UICONTROL Componentes de estructura]** según sea necesario y edite su configuración en el panel dedicado de la derecha.
 
-1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
+   Seleccione el **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
 
-1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that must be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+   >[!NOTE]
+   >
+   >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. No se puede quitar una columna que no esté vacía.
 
-    ![](assets/email_designer_7.png)
+1. Expanda el **[!UICONTROL Componentes de contenido]** y añada tantos elementos como necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
 
-1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
+1. Cada componente se puede personalizar aún más mediante el **[!UICONTROL Configuración de componentes]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
-    >[!CAUTION]
-    >
-    >You cannot revert back to the visual designer for this email after switching to the code editor.
+   ![](assets/email_designer_5.png)
 
-1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
+1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
 
-    ![](assets/email_designer_28.png)
+1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se deben rastrear. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 
-1. When your email is ready, click **[!UICONTROL Save]**.
+   ![](assets/email_designer_7.png)
+
+1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. [Obtenga más información sobre el editor de código](code-content.md)
+
+   >[!CAUTION]
+   >
+   >No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
+
+1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
+
+   ![](assets/email_designer_28.png)
+
+1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 
