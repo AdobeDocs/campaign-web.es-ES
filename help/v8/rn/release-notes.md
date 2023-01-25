@@ -3,9 +3,9 @@ audience: end-user
 title: Notas de la versión de Campaign Web v8
 description: Notas de la versión de Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Tenga en cuenta que las campañas en canales múltiples y las funcionalidades de administración de flujos de trabajo estarán disponibles con la versión beta.
 
-## Actualizaciones terminológicas
+## Actualizaciones terminológicas{#terminology-updates}
 
 Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre de algunos conceptos para que se ajusten a los estándares terminológicos más recientes. Estos cambios solo se aplican a la interfaz de usuario web de Campaign y no se reflejan en la consola de cliente. Se resumen a continuación.
 
@@ -62,3 +59,17 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 * El análisis de entrega ahora es **preparación de entregas**. Cuando necesite iniciar el análisis, haga clic en el botón **Preparación** botón
 * La vista previa del correo electrónico ya está disponible a través del **Simular contenido** botón
 * Las listas ahora **Audiencias**
+
+## Limitaciones{#limitations-alpha}
+
+Algunas funciones clave de Campaign, como campañas en canales múltiples y administración de flujos de trabajo, estarán disponibles con la versión Beta.
+
+Las limitaciones siguientes se aplican a esta versión Alpha:
+
+* Los únicos objetos editables son Envíos. Los demás son de solo lectura. Utilice filtros para explorarlos todos.
+* Esta versión está diseñada para una de las campañas de correo electrónico. Otros canales aún no son compatibles.
+* La interfaz de usuario de Administración no está disponible.
+* Las métricas de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
+* Los KPI del panel de envío se actualizan cada 5 minutos. - pero la preparación de la entrega es en tiempo real.
+* Las notificaciones de Adobe Experience Cloud y la Ayuda unificada disponibles en la barra superior aún no están integradas.
+
