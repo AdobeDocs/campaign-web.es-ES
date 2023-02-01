@@ -3,10 +3,10 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 8%
+source-wordcount: '648'
+ht-degree: 7%
 
 ---
 
@@ -72,6 +72,22 @@ Una vez finalizada la preparación sin errores, el mensaje está listo para envi
 
 ## Envío del mensaje{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Entrega"
+>abstract="Número de mensajes enviados correctamente. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado se basa en el número total de mensajes enviados."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Aperturas"
+>abstract="Número de mensajes abiertos. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la relación entre el número de aperturas distintas comparado con el número de mensajes enviados."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clics"
+>abstract="El número de destinatarios que hicieron clic al menos una vez en el correo electrónico. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la proporción del número de clics distintos comparados con el número de mensajes enviados."
+
+
 Una vez finalizada la preparación, ahora puede enviar el mensaje. Este paso solo es necesario para los mensajes enviados inmediatamente. Si el mensaje está programado, se envía en la fecha definida.
 
 Siga estos pasos:
@@ -92,6 +108,6 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >La variable **Aperturas** y **Clics** los indicadores se actualizan a los 5 minutos.
+   >Todos los indicadores se actualizan cada 5 minutos después del inicio del envío. Los indicadores de preparación de envíos son en tiempo real.
 
    Puede pausar el envío en cualquier momento y luego reanudarlo. Si detiene el envío mientras se está enviando, no puede reanudarlo.
