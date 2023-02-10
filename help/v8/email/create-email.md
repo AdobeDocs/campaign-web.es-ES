@@ -3,7 +3,7 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
