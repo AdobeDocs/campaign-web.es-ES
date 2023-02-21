@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 948dff92b8b98a97d760158f126d8f2262d934fb
+source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1326'
 ht-degree: 2%
 
 ---
@@ -258,4 +258,9 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_import_from_a_file_columns"
 >title="Configuración de columnas"
+>abstract="Por definir"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_notification_template"
+>title="Plantilla de notificaciones push"
 >abstract="Por definir"
