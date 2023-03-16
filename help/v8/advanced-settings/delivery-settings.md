@@ -6,7 +6,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -111,8 +111,8 @@ Obtenga más información sobre la administración de reintentos en [Documentaci
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Aprobación mode"
->abstract="Cada paso de una entrega puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos."
+>title="Modo de aprobación"
+>abstract="Cada paso de un envío puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos."
 
 Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
@@ -130,7 +130,7 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
 >title="Duración del envío"
->abstract="El campo Duración de la entrega permite introducir el límite de los reintentos de entrega global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez."
+>abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, solo para los mensajes que devuelven un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
