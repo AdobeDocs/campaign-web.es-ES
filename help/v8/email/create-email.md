@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="Propiedades del correo electrónico "
->abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. Si la entrega se basa en un esquema ampliado definido en la consola Adobe Campaign v8, algunas **Opciones personalizadas** están disponibles."
+>abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. Si el envío se basa en un esquema ampliado definido en la consola Adobe Campaign v8, algunas **Opciones personalizadas** están disponibles."
 
 1. Para crear un nuevo envío, vaya a la **[!UICONTROL Entregas]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
 
