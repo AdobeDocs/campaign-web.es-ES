@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -24,8 +24,8 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Seleccionar una plantilla de correo electrónico"
->abstract="Una plantilla de correo electrónico es una configuración de envío específica que contiene configuraciones predefinidas, como reglas de tipología, parámetros de personalización o enrutamiento. Las plantillas se definen en la consola del cliente de Campaign."
+>title="Selección de una plantilla de correo electrónico"
+>abstract="Una plantilla de correo electrónico es una configuración de envío específica que contiene configuraciones predefinidas, como reglas de tipología, personalización o parámetros de enrutamiento. Las plantillas se definen en la consola del cliente de Campaign."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -63,7 +63,7 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Aprenda a diseñar su contenido de correo electrónico"
+>title="Aprenda a diseñar el contenido de su correo electrónico"
 >abstract="Aprenda a utilizar el Diseñador de correo electrónico."
 
 Encontrará instrucciones detalladas sobre cómo configurar el contenido del correo electrónico en [esta sección](../content/edit-content.md).
@@ -107,7 +107,7 @@ En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definición de la audiencia"
->abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o puede crear una nueva con el generador de reglas."
+>abstract="Seleccione la mejor audiencia para su mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o crear una nueva con el generador de reglas."
 
 En este caso de uso, envíe el correo electrónico a una audiencia existente. Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
 
@@ -134,7 +134,7 @@ En este caso de uso, envíe el correo electrónico a una audiencia existente. En
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Programe el envío"
->abstract="Defina la fecha y la hora exacta de envío. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
+>abstract="Defina la fecha y la hora exactas para su envío. Al elegir el momento más adecuado para su mensaje de marketing, puede maximizar las tasas de apertura."
 
 Para programar el envío del correo electrónico, abra el envío por correo electrónico y busque la **Programación** para obtener más información. Utilice la variable **[!UICONTROL Habilitar programación]** para activarlo y establezca la fecha y hora deseadas para el envío. Una vez que realice la entrega, la entrega real comenzará en la fecha de contacto que haya definido.
 

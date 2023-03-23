@@ -6,7 +6,7 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Previsualización inteligente del contenido"
->abstract="Utilice los datos de perfil para previsualizar el contenido del correo electrónico antes de enviar, controlar los atributos de personalización y comprobar cómo pueden ver los destinatarios el contenido del mensaje."
+>abstract="Utilice datos de perfil para previsualizar el contenido del correo electrónico antes de enviarlo, controlar los atributos de personalización y comprobar cómo pueden ver el contenido del mensaje los destinatarios."
 
 Utilice la capacidad de simulación de contenido en Adobe Campaign para previsualizar el contenido del correo electrónico antes de enviarlo, para controlar la personalización y comprobar cómo se muestra a los destinatarios.
 
