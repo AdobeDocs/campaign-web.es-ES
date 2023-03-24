@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorización de registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 49%
+source-wordcount: '306'
+ht-degree: 47%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Registros de entregas"
->abstract="TBC"
+>abstract="Los registros de envío permiten verificar que no hay error."
 
 Después de preparar y enviar un correo electrónico, los registros de envío le permiten verificar que no hay error. Se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 

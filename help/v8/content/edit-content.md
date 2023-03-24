@@ -3,9 +3,9 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '384'
 ht-degree: 4%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="Encabezado de correo electrónico"
->abstract="TBC"
+>abstract="En esta sección, puede controlar los valores de Desde nombre y Desde correo electrónico que se definen en la plantilla de correo electrónico. El campo Línea de asunto se puede personalizar mediante el editor de expresiones."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Adjuntar correo electrónico"
->abstract="TBC"
+>abstract="Seleccione uno o varios archivos para insertarlos en el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Opciones de seguimiento"
->abstract="TBC"
+>abstract="De forma predeterminada, el seguimiento está habilitado para la entrega. Puede desactivar esta opción desde aquí."
 
 Para empezar a crear el contenido de un correo electrónico, haga clic en el botón **[!UICONTROL Editar contenido]** en la pantalla de creación del correo electrónico.
 
@@ -61,6 +61,6 @@ Los pasos para definir el contenido del correo electrónico son los siguientes:
 
    <!--limitation on size + number of files?-->
 
-1. De forma predeterminada, el seguimiento está habilitado para la entrega. Puede desactivar esta opción desde el **[!UICONTROL Funciones opcionales]** para obtener más información. [Aprenda a añadir vínculos y administrar el seguimiento](message-tracking.md)
+1. De forma predeterminada, el seguimiento está habilitado para la entrega. Puede desactivar esta opción desde la **[!UICONTROL Funciones opcionales]** para obtener más información. [Aprenda a añadir vínculos y administrar el seguimiento](message-tracking.md)
 
 Una vez definido el contenido del correo electrónico, utilice la variable **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. [Obtenga información sobre cómo previsualizar y probar el correo electrónico](../preview-test/preview-test.md)
