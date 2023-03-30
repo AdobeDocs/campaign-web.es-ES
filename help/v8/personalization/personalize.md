@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 18%
+source-wordcount: '652'
+ht-degree: 11%
 
 ---
 
@@ -77,20 +77,21 @@ Una vez insertado, el bloque de contenido se añade al contenido del correo elec
 
 
 Los bloques de contenido integrados son:
-* **[!UICONTROL Habilitado por Adobe Campaign]** : inserta el logotipo &quot;Enabled by Adobe Campaign&quot;.
+
+* **[!UICONTROL Habilitado por Adobe Campaign]**: inserta el logotipo &quot;Enabled by Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
-* **[!UICONTROL Greetings]**: inserta los saludos con el nombre del destinatario. Ejemplo: &quot;Hola John Doe&quot;.
-* **[!UICONTROL Insertar logotipo]** : inserta un logotipo que se define en la configuración de la instancia.
-* **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
+* **[!UICONTROL Saludos]**: inserta los saludos con el nombre completo del destinatario, seguidos de una coma. Ejemplo: &quot;Hola John Doe&quot;.
+* **[!UICONTROL Insertar logotipo]**: inserta un logotipo que se define en la configuración de la instancia.
+* **[!UICONTROL Vínculo a página espejo]**: inserta un vínculo al [página espejo](mirror-page.md). El formato predeterminado es: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
 * **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.
-* **[!UICONTROL URL de aceptación de oferta en modo unitario]** : inserta una dirección URL que permite establecer una oferta en **[!UICONTROL Aceptado]**.
-* **[!UICONTROL URL de la página de registro]** : inserta una URL de suscripción.
+* **[!UICONTROL URL de aceptación de oferta en modo unitario]**: inserta una dirección URL que permite establecer una oferta en **[!UICONTROL Aceptado]**. (Este bloque está disponible si el módulo Interaction está habilitado)
+* **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: &quot;Para registrarse, haga clic aquí.&quot;
 * **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y la entrega. Este vínculo se define en la configuración de la instancia.
-* **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
-* **[!UICONTROL Vínculos de uso compartido en redes sociales]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo.
-* **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos.
-* **[!UICONTROL Vínculo de baja]** : inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de ). El contenido asociado predeterminado es: &quot;Recibe este mensaje porque ha estado en contacto con ***su nombre de organización*** o un afiliado. Para dejar de recibir mensajes de ***su nombre de organización*** haga clic aquí&quot;.
+* **[!UICONTROL URL de la página de registro]**: inserta una URL de suscripción
+* **[!UICONTROL Estilo de los correos electrónicos de contenido]** y **[!UICONTROL Estilo de notificación]**: genere código que dé formato a un correo electrónico con estilos de HTML predefinidos.
+* **[!UICONTROL Vínculo de baja]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de ). El contenido asociado predeterminado es: &quot;Recibe este mensaje porque ha estado en contacto con ***su nombre de organización*** o un afiliado. Para dejar de recibir mensajes de ***su nombre de organización*** haga clic aquí&quot;.
+
 
 
 ## Personalización de vínculos en correos electrónicos {#personalize-links}
