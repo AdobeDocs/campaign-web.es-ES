@@ -3,10 +3,10 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 3%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
@@ -45,37 +45,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 >
 >Los mensajes de correo electrónico de tipo de marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de superficie del canal (es decir, en el valor preestablecido de mensaje) y al crear el mensaje.
 
-## Vínculo a una página espejo {#mirror-page}
-
-La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
-
-Para añadir un vínculo a una página espejo en el correo electrónico:
-
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Seleccione el **[!UICONTROL Insertar vínculo]** para acceder al menú de personalización.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. En el **[!UICONTROL Bloque de contenido]** seleccione **[!UICONTROL URL de página espejo]** y haga clic en **[!UICONTROL Agregar]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-La página espejo se crea automáticamente.
-
->[!IMPORTANT]
->
->Los vínculos de páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud máxima de direcciones URL.
-
-Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en el vínculo de la página espejo, el contenido del correo electrónico se muestra en su navegador web predeterminado.
-
->[!NOTE]
->
->En el correo electrónico de prueba enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
-
-El período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no está disponible.
+Se debe añadir un vínculo específico a la página espejo en todos los mensajes de correo electrónico. Obtenga más información sobre la página espejo en [esta sección](mirror-page.md).
 
 ## Administrar seguimiento {#manage-tracking}
 

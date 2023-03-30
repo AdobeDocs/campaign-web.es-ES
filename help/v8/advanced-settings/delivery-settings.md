@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración de entrega de correo electrónico
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 45%
+ht-degree: 39%
 
 ---
 
@@ -135,14 +135,14 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Vigencia de recursos"
->abstract="El campo Límite de validez se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado."
+>abstract="El campo Límite de validez se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
 
 
 El campo **Duración de la entrega** permite introducir el límite de los reintentos de entrega global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.
 
 Asimismo, puede especificar fechas. Para ello, seleccione **Establecer explícitamente las fechas de validez**. En este caso, las fechas de entrega y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
 
-**Límite de validez de los recursos** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
+**Límite de validez de los recursos** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco). Después de este límite, estos recursos ya no están disponibles.
 
 ![](assets/delivery-settings-2.png)
 
@@ -155,9 +155,10 @@ La página espejo es una página HTML accesible en línea mediante un navegador 
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Forzar la generación de la página espejo]**: incluso si no se inserta ningún vínculo a la página espejo en la entrega, se crea la página espejo.
-* **[!UICONTROL Do not generate the mirror page]**: no se genera ninguna página espejo, aunque el vínculo esté presente en la entrega.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: esta opción permite acceder al contenido de la página duplicada, con información de personalización, en la ventana del “log” de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
+
+* **[!UICONTROL Forzar la generación de la página espejo]**: utilice este modo para generar la página espejo aunque no haya ningún vínculo a la página espejo insertado en la entrega.
+* **[!UICONTROL No generar la página espejo]**: utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en la entrega.
+* **[!UICONTROL Genera una página espejo accesible solo mediante el identificador de mensaje]**: cuando el vínculo de página espejo no esté presente en el contenido del correo electrónico, utilice esta opción para habilitar el acceso al contenido de la página espejo, en la ventana del registro de entrega, desde la consola de cliente.
 
 
 ### Seguimiento {#tracking}

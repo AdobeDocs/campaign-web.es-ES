@@ -3,9 +3,9 @@ audience: end-user
 title: Editar el contenido del correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '376'
 ht-degree: 4%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Encabezado de correo electrónico"
->abstract="En esta sección, puede controlar los valores de Desde nombre y Desde correo electrónico que se definen en la plantilla de correo electrónico. El campo Línea de asunto se puede personalizar mediante el editor de expresiones."
+>title="Parámetros de correo electrónico"
+>abstract="Los valores De Desde nombre y Desde correo electrónico se definen en la plantilla de correo electrónico. La línea de asunto se puede personalizar mediante el editor de expresiones."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

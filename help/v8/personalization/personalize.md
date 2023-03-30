@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 11%
@@ -82,7 +82,7 @@ Los bloques de contenido integrados son:
 * **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Saludos]**: inserta los saludos con el nombre completo del destinatario, seguidos de una coma. Ejemplo: &quot;Hola John Doe&quot;.
 * **[!UICONTROL Insertar logotipo]**: inserta un logotipo que se define en la configuración de la instancia.
-* **[!UICONTROL Vínculo a página espejo]**: inserta un vínculo al [página espejo](mirror-page.md). El formato predeterminado es: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
+* **[!UICONTROL Vínculo a página espejo]**: inserta un vínculo al [página espejo](../content/mirror-page.md). El formato predeterminado es: &quot;Si no puede ver este mensaje correctamente, haga clic aquí&quot;.
 * **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.
 * **[!UICONTROL URL de aceptación de oferta en modo unitario]**: inserta una dirección URL que permite establecer una oferta en **[!UICONTROL Aceptado]**. (Este bloque está disponible si el módulo Interaction está habilitado)
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
