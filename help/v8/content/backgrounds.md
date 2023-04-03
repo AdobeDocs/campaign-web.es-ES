@@ -3,16 +3,15 @@ audience: end-user
 title: Personalice el fondo del correo electrónico
 description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Personalice el fondo del correo electrónico {#backgrounds}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

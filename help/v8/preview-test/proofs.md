@@ -3,16 +3,15 @@ audience: end-user
 title: Enviar correos electrónicos de prueba
 description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
 
 # Enviar correos electrónicos de prueba {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 El envío de correos electrónicos de prueba es un paso importante para validar la campaña de correo electrónico e identificar posibles problemas. Al enviar correos electrónicos de prueba, puede comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes y páginas espejo, así como detectar cualquier error.
 

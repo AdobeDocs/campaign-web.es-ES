@@ -3,16 +3,16 @@ audience: end-user
 title: Previsualización del contenido del correo electrónico
 description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 14%
 
 ---
 
-# Previsualización del contenido del correo electrónico {#preview}
 
-![](../assets/do-not-localize/badge.png)
+# Previsualización del contenido del correo electrónico {#preview}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"

@@ -2,7 +2,8 @@
 audience: end-user
 title: Añadir un vínculo a la página espejo
 description: Aprenda a añadir y administrar el vínculo a la página espejo
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -11,8 +12,6 @@ ht-degree: 0%
 
 
 # Añadir un vínculo a la página espejo{#mirror-page}
-
-## Acerca de la página espejo{#about-mirror-page}
 
 La página espejo es una versión en línea de su correo electrónico.
 
@@ -27,7 +26,6 @@ La página espejo generada por Adobe Campaign contiene todos los datos de person
 Se recomienda insertar un vínculo a la página espejo. Este enlace puede ser, por ejemplo, &quot;Ver este correo electrónico en tu navegador&quot; o &quot;Leer esto en línea&quot;. A menudo se encuentra en el encabezado o pie de página del correo electrónico.
 
 En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante la variable **bloque personalizado**. El **Vínculo a página espejo** el bloque personalizado inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
-
 
 Para añadir un vínculo a una página espejo en el correo electrónico:
 

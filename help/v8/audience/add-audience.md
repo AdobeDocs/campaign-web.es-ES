@@ -3,16 +3,16 @@ audience: end-user
 title: Seleccionar una audiencia
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 8%
 
 ---
 
-# Seleccionar una audiencia {#add-audience}
 
-![](../assets/do-not-localize/badge.png)
+# Seleccionar una audiencia {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"

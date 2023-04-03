@@ -2,17 +2,17 @@
 audience: end-user
 title: Introducción a las audiencias
 description: Aprenda a utilizar audiencias en la interfaz de usuario web de Campaign
+badge: label="Alpha" type="Informative"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 17%
+source-wordcount: '125'
+ht-degree: 16%
 
 ---
 
-# Introducción a las audiencias {#about-audiences}
 
-![](../assets/do-not-localize/badge.png)
+# Introducción a las audiencias {#about-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"

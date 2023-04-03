@@ -3,16 +3,16 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1296'
 ht-degree: 12%
 
 ---
 
-# Enviar su primer correo electrónico {#first-email}
 
-![](../assets/do-not-localize/badge.png)
+# Enviar su primer correo electrónico {#first-email}
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros de fidelidad de Plata y Oro en una fecha específica.
 

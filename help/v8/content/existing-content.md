@@ -3,16 +3,15 @@ audience: end-user
 title: Importar el contenido del correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '137'
 ht-degree: 3%
 
 ---
 
 # Importar el contenido del correo electrónico {#existing-content}
-
-![](../assets/do-not-localize/badge.png)
 
 El diseñador de correo electrónico le permite importar contenido de HTML existente. Este contenido puede ser:
 

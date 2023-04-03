@@ -3,22 +3,16 @@ audience: end-user
 title: Informes de envío
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 41%
+source-wordcount: '389'
+ht-degree: 40%
 
 ---
 
 # Informes de envío {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign ofrece varios tipos de informes, accesibles para cada envío. Estos informes le permiten medir y visualizar el impacto y el rendimiento de sus mensajes en un panel integrado.
 

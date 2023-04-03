@@ -3,16 +3,16 @@ audience: end-user
 title: Enviar ofertas
 description: Enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '525'
 ht-degree: 5%
 
 ---
 
-# Enviar ofertas {#offers-content}
 
-![](../assets/do-not-localize/badge.png)
+# Enviar ofertas {#offers-content}
 
 La web de Adobe Campaign v8 le permite enviar con sus correos electrónicos ofertas que se han creado en la consola mediante el uso de **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

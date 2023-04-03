@@ -3,16 +3,15 @@ audience: end-user
 title: Codifique su propio contenido de correo electrónico
 description: Aprenda a codificar su propio contenido de correo electrónico
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# Codifique su propio contenido {#code-content}
-
-![](../assets/do-not-localize/badge.png)
+# Codifique su propio contenido de correo electrónico {#code-content}
 
 Utilice la variable **[!UICONTROL Codifique sus propios]** para importar el HTML sin procesar o codificar el contenido del correo electrónico. Este método requiere habilidades HTML.
 

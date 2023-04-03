@@ -3,16 +3,15 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
-# Empezar desde cero {#create-email-content}
-
-![](../assets/do-not-localize/badge.png)
+# Inicie el contenido del correo electrónico desde cero {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
