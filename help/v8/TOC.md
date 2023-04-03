@@ -5,10 +5,10 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+source-git-commit: 82c7abb4fe8cd7ecc68748ca59f2e5c7b5336d34
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 18%
+source-wordcount: '175'
+ht-degree: 17%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 18%
          + [Empezar desde cero ](content/create-email-content.md)
          + [Importar el contenido del correo electrónico](content/existing-content.md)
          + [Codifique su propio contenido](content/code-content.md)
+         + [Uso de plantillas de correo electrónico](content/email-templates.md)
       + [Uso de componentes de contenido](content/content-components.md)
       + [Generar la versión de texto](content/text-version-email.md)
       + [Añadir un vínculo a la página espejo](content/mirror-page.md)
