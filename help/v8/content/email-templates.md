@@ -3,8 +3,8 @@ audience: end-user
 product: campaign
 title: Trabajar con plantillas de correo electrónico
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Alpha" type="Informative"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
