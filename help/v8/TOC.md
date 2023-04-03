@@ -5,10 +5,10 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 24%
+source-wordcount: '222'
+ht-degree: 23%
 
 ---
 
@@ -62,8 +62,9 @@ ht-degree: 24%
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Seleccionar una audiencia](audience/add-audience.md)
+   + [Crear una audiencia con el generador de reglas](audience/segment-builder.md)
+   + [Importar una audiencia](audience/import-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
-   + [Definir una audiencia con el generador de reglas](audience/segment-builder.md)
 + Campañas multicanal {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Crear la primera campaña](campaigns/create-campaigns.md)
