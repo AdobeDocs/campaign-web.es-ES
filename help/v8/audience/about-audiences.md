@@ -4,10 +4,10 @@ title: Introducción a las audiencias
 description: Aprenda a utilizar audiencias en la interfaz de usuario web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 16%
+source-wordcount: '137'
+ht-degree: 22%
 
 ---
 
@@ -44,9 +44,11 @@ En esta sección, aprenda a definir la audiencia del correo electrónico. La aud
 
 Para definir la audiencia, puede:
 
-* usar una audiencia existente, consulte esto [sección](add-audience.md).
-* cree una audiencia nueva. Consulte esta [sección](segment-builder.md).
+* Usar una audiencia existente. [Más información](add-audience.md)
+* Cree una audiencia nueva. [Más información](segment-builder.md)
+* Importación de una audiencia desde un archivo. [Más información](import-audience.md)
+* Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md)
 
-También puede definir grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de las campañas. Consulte esta [sección](control-group.md).
+Además, puede definir grupos de control para evitar el envío de mensajes a una parte de la audiencia y medir el impacto de las campañas. [Más información](control-group.md)
 
 ![](assets/about-audience.png)
