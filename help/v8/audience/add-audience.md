@@ -4,22 +4,31 @@ title: Seleccionar una audiencia
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 8%
+source-wordcount: '272'
+ht-degree: 12%
 
 ---
 
 
-# Seleccionar una audiencia {#add-audience}
+# Seleccionar una audiencia existente {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Seleccionar una audiencia existente"
 >abstract="Las audiencias se definen en la consola Adobe Campaign v8. Si tiene una integración de Adobe Experience Platform disponible, también debería poder ver las audiencias definidas por Platform."
 
-En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega de correo electrónico. Si desea crear una audiencia nueva, consulte esta [sección](segment-builder.md).
+En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega de correo electrónico.
+
+También puede realizar lo siguiente:
+
+* Cree una audiencia nueva. [Más información](segment-builder.md)
+* Importación de una audiencia desde un archivo. [Más información](import-audience.md)
+* Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md).
+
+
+Para seleccionar una audiencia existente para el mensaje, siga los pasos a continuación:
 
 1. En el **Audiencia** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]** botón.
 

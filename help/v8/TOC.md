@@ -5,10 +5,10 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 23%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
@@ -61,9 +61,10 @@ ht-degree: 23%
       + [Introducción a los envíos SMS](sms/gs-sms.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
-   + [Seleccionar una audiencia](audience/add-audience.md)
+   + [Seleccionar una audiencia existente](audience/add-audience.md)
    + [Crear una audiencia con el generador de reglas](audience/segment-builder.md)
    + [Importar una audiencia](audience/import-audience.md)
+   + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas multicanal {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
