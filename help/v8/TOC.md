@@ -5,9 +5,9 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
+source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '245'
 ht-degree: 21%
 
 ---
@@ -72,5 +72,10 @@ ht-degree: 21%
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
    + [Creación del primer flujo de trabajo](workflows/create-workflows.md)
+   + Trabajar con actividades de flujo de trabajo {#activities}
+      + [Introducción a las actividades de flujo de trabajo](workflows/get-started-activities.md)
+      + [Actividades de segmentación](workflows/targeting-activities.md)
+      + [Actividades de canal](workflows/channel-activities.md)
+      + [Actividades de administración de datos](workflows/data-management-activities.md)
 + [Creación de informes](reporting/reports.md)
 
