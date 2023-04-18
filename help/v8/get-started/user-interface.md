@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 34%
+source-wordcount: '1388'
+ht-degree: 35%
 
 ---
 
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="Insertar contenido de iOS"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenido de SMS"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Suscriptores de la aplicación"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Población de ensayo"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Modo de vista previa"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Datos de enriquecimiento"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalización"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="Selección de archivos"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="Definición de columnas"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="Parámetros de formato"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Envío de informes"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Seguimiento de informes"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Información general sobre la creación de informes"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Estadísticas de objetivo de informes"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="Creación de informes acumulados seleccionar una entrega"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Propiedades de campaña"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Programación de campañas"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Lista de flujos de trabajo"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Creación de campañas"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Programación de campañas"
+>abstract="Por determinar"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="Campos de deduplicación"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Configuración de deduplicación"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Complemento de deduplicación"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Complemento de Dimension"
 >abstract="Por determinar"
