@@ -4,16 +4,16 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 3%
 
 ---
 
 # Introducción a los flujos de trabajo {#workflows}
 
-## ¿Qué son los flujos de trabajo de Adobe Campaign?
+## ¿Qué es un flujo de trabajo?
 
 El marketing multicanal es esencial para que cualquier empresa que busque llegar a sus clientes de forma eficaz. Adobe Campaign proporciona un entorno gráfico completo que le permite diseñar procesos complejos que le pueden ayudar a administrar sus campañas de marketing con facilidad.
 
