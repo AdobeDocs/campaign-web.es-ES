@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 36%
+source-wordcount: '1319'
+ht-degree: 34%
 
 ---
 
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="Listas de suscripciones"
 >abstract="Examine las listas de suscripciones. Puede ver su tipo, modo y etiqueta. Esta lista es de solo lectura."
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="Flujos de trabajo de segmentación"
->abstract="Acceda a la lista de flujos de trabajo de la campaña. Puede ver su estado, las últimas/próximas fechas de procesamiento y el entorno. Puede filtrar la lista por estado, última fecha de procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura."
 
 * **Destinatarios** - Acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura.
 * **Audiencias** - Esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Esta lista es de solo lectura.

@@ -3,10 +3,11 @@ audience: end-user
 title: Trabajo con actividades de gestión de datos de flujos de trabajo
 description: Aprenda a utilizar las actividades de gestión de datos en los flujos de trabajo web de Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,12 @@ enumerar actividades disponibles + descripción breve + referencia a sección
 
 ## Enriquecimiento {#enrichment}
 
-La actividad Enrichment se utiliza comúnmente en un flujo de trabajo después de segmentar las actividades. Permite mejorar los datos de destino con información adicional de la base de datos.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Enriquecimiento Actividad"
+>abstract="La actividad Enrichment permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.<br/>Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad de enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades, o para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de resonar con la audiencia de destino."
+
+La actividad Enrichment permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.
 
 Los datos de enriquecimiento pueden venir de:
 
