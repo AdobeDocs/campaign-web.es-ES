@@ -17,7 +17,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Previsualización inteligente del contenido"
->abstract="Utilice datos de perfil para previsualizar el contenido del correo electrónico antes de enviarlo, controlar los atributos de personalización y comprobar cómo pueden ver el contenido del mensaje los destinatarios."
+>abstract="Utilice los datos de perfil para previsualizar el contenido del correo electrónico antes de enviar, controlar los atributos de personalización y comprobar cómo pueden ver los destinatarios el contenido del mensaje."
 
 Utilice la capacidad de simulación de contenido en Adobe Campaign para previsualizar el contenido del correo electrónico antes de enviarlo, para controlar la personalización y comprobar cómo se muestra a los destinatarios.
 

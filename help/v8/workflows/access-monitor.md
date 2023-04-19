@@ -16,7 +16,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flujos de trabajo"
->abstract="Acceda a la lista de flujos de trabajo de la campaña. Puede ver su estado, las últimas/próximas fechas de procesamiento y el entorno. Puede filtrar la lista por estado, última fecha de procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura."
+>abstract="Acceda a su lista de flujos de trabajo de la campaña. Puede ver su estado, las fechas de último/próximo procesamiento y el entorno. Puede filtrar la lista por estado, fecha de último procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura."
 
 contenido TBD
 

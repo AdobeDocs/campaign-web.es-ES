@@ -30,11 +30,11 @@ Para crear un grupo de control, haga clic en el botón **[!UICONTROL Establecer 
 
 ![](assets/control-group1.png)
 
-## Extraer a partir del público objetivo {#extract-target}
+## Extraer de destinatario {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extraer a partir del público objetivo"
+>title="Extraer de destinatario"
 >abstract="Para definir un grupo de control, puede elegir extraer, aleatoriamente o en función de un orden, un porcentaje o un número fijo de perfiles de la población de destinatarios."
 
 Para definir un grupo de control, puede elegir extraer, aleatoriamente o en función de un orden, un porcentaje o un número fijo de perfiles de la población de destinatarios.

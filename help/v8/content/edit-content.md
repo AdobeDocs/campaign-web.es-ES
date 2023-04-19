@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Creación del contenido del correo electrónico"
->abstract="Con esta sección, puede crear el contenido del correo electrónico y utilizar el Diseñador de correo electrónico para darle un aspecto refinado."
+>title="Creación de contenido de correo electrónico"
+>abstract="En esta sección, puede crear el contenido del correo electrónico y utilizar el diseñador de correo electrónico para darle un aspecto refinado."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Adjuntar correo electrónico"
+>title="Archivo adjunto de correo electrónico"
 >abstract="Seleccione uno o varios archivos para insertarlos en el mensaje."
 
 >[!CONTEXTUALHELP]

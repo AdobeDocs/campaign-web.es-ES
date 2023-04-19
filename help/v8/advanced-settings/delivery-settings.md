@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 39%
+ht-degree: 44%
 
 ---
 
@@ -27,7 +27,7 @@ Esta configuración es **parámetros técnicos de entrega** que se definen en la
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="La tipología permite controlar, filtrar y monitorizar los envíos."
+>abstract="La tipología permite controlar, filtrar y monitorizar la entrega de envíos."
 
 Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de análisis de mensajes. Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidoras o clientes que no sean fieles).
 
@@ -101,7 +101,7 @@ Los parámetros de envío son configuraciones técnicas que se aplican a su env�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Número máximo de reintentos"
->abstract="Si un mensaje falla debido a un error temporal, los reintentos se realizan hasta el final de la duración de la entrega."
+>abstract="Si un mensaje falla debido a un error temporal, se realizan reintentos hasta el final de la duración del envío."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -134,7 +134,7 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Vigencia de recursos"
+>title="Vigencia de los recursos"
 >abstract="El campo Límite de validez se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
 
 
@@ -166,7 +166,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
 >title="Período de validez"
->abstract="Esta opción define la duración durante la cual se activa el seguimiento en las direcciones URL."
+>abstract="Esta opción define la duración a partir de la cual se activa el seguimiento en las direcciones URL."
 
 Los parámetros de seguimiento se definen en la sección relacionada. Las opciones posibles son:
 

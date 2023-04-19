@@ -7,16 +7,16 @@ badge: label="Alpha" type="Positive"
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
 
-# Seleccionar una audiencia existente {#add-audience}
+# Selección de una audiencia existente {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Seleccionar una audiencia existente"
+>title="Selección de una audiencia existente"
 >abstract="Las audiencias se definen en la consola Adobe Campaign v8. Si tiene una integración de Adobe Experience Platform disponible, también debería poder ver las audiencias definidas por Platform."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega de correo electrónico.

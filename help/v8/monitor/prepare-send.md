@@ -7,17 +7,17 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 7%
+ht-degree: 31%
 
 ---
 
 
-# Prepare y envíe su correo electrónico {#prepare-send}
+# Preparación y envío de su correo electrónico {#prepare-send}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Prepare y envíe su correo electrónico"
->abstract="Descubra cómo preparar su correo electrónico y obtener más información sobre cómo enviar KPI."
+>title="Preparación y envío de su correo electrónico"
+>abstract="Descubra cómo preparar su correo electrónico y obtenga más información sobre cómo enviar KPI."
 
 <!--
 
@@ -75,17 +75,17 @@ Una vez finalizada la preparación sin errores, el mensaje está listo para envi
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
 >title="Entrega"
->abstract="Número de mensajes enviados correctamente. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado se basa en el número total de mensajes enviados."
+>abstract="El número de mensajes entregados correctamente. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado se basa en el número total de mensajes enviados."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Aperturas"
->abstract="Número de mensajes abiertos. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la relación entre el número de aperturas distintas comparado con el número de mensajes enviados."
+>abstract="Número de mensajes abiertos. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado es la proporción del número de aperturas distintas en comparación con el número de mensajes entregados."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Clics"
->abstract="El número de destinatarios que hicieron clic al menos una vez en el correo electrónico. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la proporción del número de clics distintos comparados con el número de mensajes enviados."
+>abstract="El número de destinatarios que hicieron clic al menos una vez en el correo electrónico. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado es la proporción del número de clics distintos en comparación con el número de mensajes entregados."
 
 
 Una vez finalizada la preparación, ahora puede enviar el mensaje. Este paso solo es necesario para los mensajes enviados inmediatamente. Si el mensaje está programado, se envía en la fecha definida.
@@ -103,8 +103,8 @@ Siga estos pasos:
    Estos son los diferentes KPI mostrados:
 
    * **Entrega**: el número de mensajes enviados correctamente. El porcentaje mostrado se basa en el número total de mensajes enviados.
-   * **Aperturas**: el número de mensajes abiertos. El porcentaje mostrado es la relación entre el número de aperturas distintas comparado con el número de mensajes enviados.
-   * **Clics**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje mostrado es la proporción del número de clics distintos comparados con el número de mensajes enviados.
+   * **Aperturas**: el número de mensajes abiertos. El porcentaje mostrado es la proporción del número de aperturas distintas en comparación con el número de mensajes entregados.
+   * **Clics**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje mostrado es la proporción del número de clics distintos en comparación con el número de mensajes entregados.
 
    >[!NOTE]
    >

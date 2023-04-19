@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
@@ -37,22 +37,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definición de columnas de correo electrónico"
->abstract="El Diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico definiendo la estructura de columnas."
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico mediante la definición de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Definición de columnas de página de aterrizaje"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la página de aterrizaje mediante la definición de la estructura de columnas."
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño de la página de aterrizaje mediante la definición de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Definición de columnas de fragmento"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño del fragmento definiendo la estructura de la columna."
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño del fragmento mediante la definición de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Definición de columnas de plantilla"
->abstract="El Diseñador de correo electrónico le permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
 
