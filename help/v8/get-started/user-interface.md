@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 35%
+source-wordcount: '1369'
+ht-degree: 34%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Descubra la interfaz"
->abstract="La nueva interfaz web de Campaign v8 ofrece una experiencia del usuario integrada, intuitiva y coherente."
+>abstract="La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario integrada, intuitiva y coherente."
 
 La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
 
@@ -36,7 +36,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Menú de navegación izquierda
 
-Examine los vínculos de la izquierda para acceder a las funciones web de Campaign v8. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en Alpha. Todas las listas se podrán editar en versiones futuras. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario.
+Examine los vínculos de la izquierda para acceder a las funciones web de Campaign v8. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en Alpha. Todas las listas se podrán editar en versiones futuras. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario.
 
 ![](assets/home.png)
 
@@ -59,14 +59,14 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### Explorador
+### Explorer
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="Explorador"
->abstract="El menú **Explorador** muestra la misma jerarquía de carpetas que la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8. Todas las pantallas de lista son de solo lectura, excepto la de envío de correo electrónico."
+>title="Explorer"
+>abstract="El menú **Explorer** muestra la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, las carpetas y los esquemas de Campaign v8. Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico."
 
-El menú **Explorador** muestra la misma jerarquía de carpetas que la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8. Todas las pantallas de lista son de solo lectura, excepto la de envío de correo electrónico.
+El menú **Explorer** muestra la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, las carpetas y los esquemas de Campaign v8. Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico.
 
 Los elementos mostrados en el Explorador dependen de los permisos de usuario.
 
@@ -86,14 +86,14 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campañas"
->abstract="Esta es la lista de sus campañas. Puede ver información útil como las fechas de inicio, finalización o última modificación, así como su estado. Puede filtrar la lista por estado o por fechas de inicio y finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura."
+>abstract="Esta es la lista de sus campañas. Puede ver información útil, como las fechas de inicio/finalización/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Entregas"
->abstract="Examine la lista de envíos. Puede ver su estado, la fecha de la última modificación y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir su panel. Otros elementos son de solo lectura. También hay disponibles plantillas de envío."
+>abstract="Examine la lista de envíos. Puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir su tablero. Otros elementos son de solo lectura. Las plantillas de envío también están disponibles."
 
-* **Campañas** - Esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas de inicio/fin/última modificación, así como su estado. Puede filtrar la lista por estado o por fechas de inicio y finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
+* **Campañas** - Esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas de inicio/fin/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
 
 * **Entregas** - Examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en una entrega por correo electrónico para abrir su panel y obtener una descripción general de los detalles de la entrega. Los envíos de otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
@@ -121,16 +121,16 @@ Navtree view depends on permissions (same as console).
 * **Destinatarios** - Acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura.
 * **Audiencias** - Esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Esta lista es de solo lectura.
 * **Listas de suscripciones** - Examine las listas de suscripciones. De forma predeterminada, puede ver su tipo, modo y etiqueta. Esta lista es de solo lectura.
-* **Flujos de trabajo de objetivos** : Acceda a su lista de flujos de trabajo de Campaign. De forma predeterminada, puede ver su estado, las fechas de procesamiento últimas/siguientes y el entorno. Puede filtrar la lista por estado, última fecha de procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura.
+* **Flujos de trabajo de objetivos** : Acceda a su lista de flujos de trabajo de Campaign. De forma predeterminada, puede ver su estado, las fechas de procesamiento últimas/siguientes y el entorno. Puede filtrar la lista por estado, fecha de último procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura.
 
 ### Gestión de decisiones
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, las fechas de inicio y finalización y el entorno. Puede filtrar la lista por estado y fechas de inicio y finalización. Las plantillas de oferta también están disponibles. Estas listas son de solo lectura."
+>abstract="Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura."
 
-* **Ofertas** - Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, las fechas de inicio y finalización y el entorno. Puede filtrar la lista por estado y fechas de inicio y finalización. Las plantillas de oferta también están disponibles. Estas listas son de solo lectura.
+* **Ofertas** - Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
 
 ## Barra superior
 
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="Importación de una audiencia desde un archivo"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="Configuración de formato"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="Configuración de columnas"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Plantilla de notificaciones push"
 >abstract="Por determinar"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Archivo de muestra"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definición de columnas"
 >abstract="Por determinar"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="Programación de campañas"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de flujos de trabajo"
 >abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Creación de campañas"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Programación de campañas"
->abstract="Por determinar"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
