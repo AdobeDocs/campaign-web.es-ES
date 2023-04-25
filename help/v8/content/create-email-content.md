@@ -4,9 +4,9 @@ title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 24%
 
 ---
@@ -92,7 +92,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![](assets/email_designer_7.png)
 
-1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. [Obtenga más información sobre el editor de código](code-content.md)
+1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado, para trabajar directamente en el código fuente del correo electrónico. [Obtenga más información sobre el editor de código](code-content.md)
 
    >[!CAUTION]
    >

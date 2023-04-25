@@ -4,9 +4,9 @@ title: Codifique su propio contenido de correo electrónico
 description: Aprenda a codificar su propio contenido de correo electrónico
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ Utilice la variable **[!UICONTROL Codifique sus propios]** para importar el HTML
 
 1. Utilice el panel izquierdo para aprovechar las capacidades de personalización.
 
-1. Si desea abrir el Diseñador de correo electrónico para iniciar el correo electrónico desde un nuevo diseño, seleccione **[!UICONTROL Cambiar el diseño]** en el menú de opciones.
+1. Si desea borrar el contenido del correo electrónico e iniciar el correo electrónico desde un nuevo diseño, seleccione **[!UICONTROL Cambiar el diseño]** en el menú de opciones.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Esta acción abre la plantilla seleccionada en el Diseñador de correo electrónico. A partir de ahí, puede completar el diseño del correo electrónico o volver al editor de código utilizando el **[!UICONTROL Cambiar al editor de código]** .
 
 1. Haga clic en el **[!UICONTROL Simular contenido]** para comprobar el diseño y la personalización de los mensajes mediante perfiles de prueba.
 
