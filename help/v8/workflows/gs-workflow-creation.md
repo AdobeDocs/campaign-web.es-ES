@@ -4,15 +4,17 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '310'
+ht-degree: 32%
 
 ---
 
 
 # Principios clave de la creación del flujo de trabajo {#gs-workflow-creation}
+
+contenido TBD
 
 Un flujo de trabajo es una definición de proceso: el diagrama de flujo de trabajo, que es una representación de lo que se supone que debe suceder. Un flujo de trabajo también es una instancia de este proceso: una instancia de flujo de trabajo, que es una representación de lo que realmente está ocurriendo.
 
@@ -43,3 +45,5 @@ TBD: detalle las características específicas entre los flujos de trabajo indep
 Los pasos principales para crear flujos de trabajo son los siguientes:
 
 TBD: gráfico que muestra todo el proceso con explicación y referencia a páginas doc
+
+cree y defina propiedades > orqueste actividades en el lienzo > configure la configuración si es necesario > inicie la ejecución y monitorice
