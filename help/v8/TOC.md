@@ -5,10 +5,10 @@ description: Documentación web de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Campaign versión 8 Documentos web
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 24%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
                + [Importar el contenido del correo electrónico](content/existing-content.md)
                + [Codifique su propio contenido](content/code-content.md)
                + [Uso de plantillas de contenido de correo electrónico](content/email-templates.md)
-            + [Uso de componentes de contenido](content/content-components.md)
+            + [Usar componentes de contenido](content/content-components.md)
             + [Generar la versión de texto](content/text-version-email.md)
             + [Añadir un vínculo a la página espejo](content/mirror-page.md)
             + [Añadir un encabezado previo](content/preheader.md)
@@ -61,7 +61,7 @@ ht-degree: 0%
       + [Introducción a los envíos SMS](sms/gs-sms.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
-   + [Seleccionar una audiencia existente](audience/add-audience.md)
+   + [Selección de una audiencia existente](audience/add-audience.md)
    + [Crear una audiencia con el generador de reglas](audience/segment-builder.md)
    + [Importar una audiencia](audience/import-audience.md)
    + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
@@ -74,12 +74,13 @@ ht-degree: 0%
    + Creación del primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación del flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación de un flujo de trabajo](workflows/create-workflow.md)
-      + [Inicio y monitorización de la ejecución del flujo de trabajo](workflows/start-monitor-workflows.md)
-   + Diseño de flujos de trabajo {#design-workflows}
-      + [Introducción al lienzo del flujo de trabajo](workflows/gs-canvas.md)
+      + [Organización de actividades de flujo de trabajo](workflows/build-workflow.md)
+      + [Configuración de la configuración del flujo de trabajo](workflows/workflow-settings.md)
+      + [Inicio y monitorización de un flujo de trabajo](workflows/start-monitor-workflows.md)
+   + [Acceso y administración de los flujos de trabajo](workflows/access-monitor.md)
+   + Trabajo con actividades de flujo de trabajo {#design-workflows}
       + [Actividades de segmentación](workflows/targeting-activities.md)
       + [Actividades de canal](workflows/channel-activities.md)
       + [Actividades de administración de datos](workflows/data-management-activities.md)
-   + [Acceso y monitorización de flujos de trabajo](workflows/access-monitor.md)
 + [Creación de informes](reporting/reports.md)
 
