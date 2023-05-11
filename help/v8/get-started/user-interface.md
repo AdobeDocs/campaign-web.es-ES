@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: 3ab348b26069188048af46e8f3555c4983c4d644
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1390'
 ht-degree: 34%
 
 ---
@@ -361,7 +361,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >title="Lista de flujos de trabajo"
 >abstract="Por determinar"
 
-<!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Campos de deduplicación"
@@ -400,4 +399,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avanzados del generador de reglas"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_properties"
+>title="Propiedades de envío de SMS"
+>abstract="Por determinar"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Propiedades de envío push"
 >abstract="Por determinar"
