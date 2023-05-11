@@ -4,7 +4,7 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Campaign v8
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: dfba72461c4287e2afb1ebfc2697b9c79e98329c
+source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 34%
@@ -415,3 +415,4 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nueva métrica de cuarentenas"
 >abstract="Por determinar"
+
