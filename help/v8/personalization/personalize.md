@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 11%
 
 ---
@@ -38,43 +38,6 @@ Puede personalizar el contenido del mensaje:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalización de la línea de asunto del correo electrónico {#personalize-subject-line}
-
-Para añadir personalización en la variable **[!UICONTROL Línea de asunto]** del mensaje, siga los pasos a continuación:
-
-1. Haga clic en el **Abrir cuadro de diálogo de personalización** a la derecha del **Línea de asunto** campo .
-1. Introduzca el contenido de la línea de asunto y seleccione los atributos de personalización que desea añadir.
-1. Haga clic en **Confirmar** para validar. Los atributos de personalización se añaden a la línea de asunto.
-
-![](assets/perso-subject.png)
-
-## Personalización del contenido del correo electrónico {#personalize-emails}
-
-Para personalizar el contenido del correo electrónico, abra el mensaje en el Diseñador de correo electrónico y:
-
-1. Haga clic dentro de un bloque de texto.
-1. En la barra de herramientas contextual, seleccione **Añadir personalización**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Inserte el nombre del destinatario en el editor de personalización y confirme.
-
-   ![](assets/perso-add-name.png)
-
-   El atributo de personalización se añade al contenido del correo electrónico.
-
-   Puede simular el contenido para comprobar la renderización. [Más información](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-Para añadir un bloque de contenido al correo electrónico, aplique los mismos pasos y seleccione un bloque de contenido del último icono:
-
-![](assets/perso-insert-block.png)
-
-Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico, como se muestra a continuación. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización, en el paso de preparación de la entrega.
-
-![](assets/perso-content-block-in-email.png)
-
 
 Los bloques de contenido integrados son:
 
@@ -92,7 +55,44 @@ Los bloques de contenido integrados son:
 * **[!UICONTROL Estilo de los correos electrónicos de contenido]** y **[!UICONTROL Estilo de notificación]**: genere código que dé formato a un correo electrónico con estilos de HTML predefinidos.
 * **[!UICONTROL Vínculo de baja]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de ). El contenido asociado predeterminado es: &quot;Recibe este mensaje porque ha estado en contacto con ***su nombre de organización*** o un afiliado. Para dejar de recibir mensajes de ***su nombre de organización*** haga clic aquí&quot;.
 
+## Personalización de la línea de asunto del correo electrónico {#personalize-subject-line}
 
+Para añadir personalización en la variable **[!UICONTROL Línea de asunto]** del mensaje, siga los pasos a continuación:
+
+1. Haga clic en el **[!UICONTROL Abrir cuadro de diálogo de personalización]** a la derecha del **[!UICONTROL Línea de asunto]** campo .
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. Introduzca el contenido de la línea de asunto y seleccione los atributos de personalización que desea añadir.
+
+1. Haga clic en **[!UICONTROL Confirmar]**** para validar. Los atributos de personalización se añaden a la línea de asunto.
+
+## Personalización del contenido del correo electrónico {#personalize-emails}
+
+Para personalizar el contenido del correo electrónico, abra el mensaje en el Diseñador de correo electrónico y:
+
+1. Haga clic dentro de un bloque de texto.
+1. En la barra de herramientas contextual, seleccione **[!UICONTROL Añadir personalización]**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Inserte el nombre del destinatario en el editor de personalización y confirme.
+
+   ![](assets/perso-add-name.png)
+
+   El atributo de personalización se añade al contenido del correo electrónico.
+
+   Puede simular el contenido para comprobar la renderización. [Más información](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. Para añadir un bloque de contenido al correo electrónico, aplique los mismos pasos y seleccione un bloque de contenido del último icono:
+
+   ![](assets/perso-insert-block.png)
+
+1. Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico. Se adapta automáticamente al perfil del destinatario cuando se genera la personalización, en el paso de preparación de la entrega.
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## Personalización de vínculos en correos electrónicos {#personalize-links}
 

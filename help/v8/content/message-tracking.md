@@ -4,9 +4,9 @@ title: Seguimiento de mensajes
 description: Aprenda a añadir vínculos y rastrear mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Guarde los cambios.
 
-1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Configuración de componentes]** a la derecha.
+1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Configuración]** pestaña .
 
    * Puede editar el vínculo y cambiar su **[!UICONTROL Target]**.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.

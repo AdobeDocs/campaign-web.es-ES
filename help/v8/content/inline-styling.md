@@ -4,9 +4,9 @@ title: Añadir atributos de estilo en línea
 description: Aprenda a añadir atributos de estilo en línea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento
 
 1. Seleccione un componente directamente en el contenido o use el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
 
-1. En el **[!UICONTROL Configuración de componentes]** a la derecha, busque el **[!UICONTROL Estilos en línea]** para obtener más información.
+1. En el **[!UICONTROL Estilos]** , haga clic en la pestaña **[!UICONTROL Avanzadas]** lista desplegable.
 
    ![](assets/styles_1.png)
 

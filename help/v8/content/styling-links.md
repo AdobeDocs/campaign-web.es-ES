@@ -4,9 +4,9 @@ title: Definición de un estilo para los vínculos
 description: Aprenda a definir un estilo para los vínculos
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de 
 
 1. En un **[!UICONTROL Texto]** componente donde se inserta un vínculo, seleccione el vínculo.
 
-1. En el **[!UICONTROL Configuración de componentes]** menú, marque **[!UICONTROL Vínculo de subrayado]** para que la etiqueta aparezca subrayada.
+1. En el **[!UICONTROL Configuración]** , marque **[!UICONTROL Vínculo de subrayado]** para que la etiqueta aparezca subrayada.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de 
 
    ![](assets/link_2.png)
 
-1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color de vínculo]** del panel derecho.
+1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color de vínculo]** de la variable **[!UICONTROL Estilos]** pestaña .
 
    ![](assets/link_3.png)
 

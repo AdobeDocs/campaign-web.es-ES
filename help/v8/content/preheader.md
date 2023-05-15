@@ -4,10 +4,10 @@ title: Añadir un encabezado previo en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 36%
+source-wordcount: '203'
+ht-degree: 38%
 
 ---
 
@@ -34,13 +34,9 @@ Para definir el encabezado previo del correo electrónico, siga los pasos a cont
 
    ![](assets/preheader_body.png)
 
-1. En el **[!UICONTROL Configuración del cuerpo]** panel derecho, haga clic en el icono de edición situado junto al **[!UICONTROL Encabezado previo]** para añadir contenido.
+1. En el **[!UICONTROL Configuración]** , añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Añadir personalización]** icono.
 
    ![](assets/preheader_body_settings.png)
-
-1. Añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Añadir personalización]** icono.
-
-   ![](assets/preheader_3.png)
 
 1. En el **[!UICONTROL Editar personalización]** ventana, puede añadir **[!UICONTROL Bloque de contenido]**, **[!UICONTROL Contenido dinámico]** o **[!UICONTROL Campos personalizados]**.
 

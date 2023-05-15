@@ -3,13 +3,13 @@ audience: end-user
 title: Añadir un vínculo a la página espejo
 description: Aprenda a añadir y administrar el vínculo a la página espejo
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
 
 ---
-
 
 # Añadir un vínculo a la página espejo{#mirror-page}
 
@@ -33,7 +33,7 @@ Para añadir un vínculo a una página espejo en el correo electrónico:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Seleccione el **[!UICONTROL Insertar vínculo]** para acceder al menú de personalización.
+1. Seleccione el **[!UICONTROL Añadir personalización]** para acceder al menú de personalización.
 
    ![](assets/message-tracking-mirror-page_2.png)
 
