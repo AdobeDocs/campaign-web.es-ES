@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo personalizar el fondo del correo e
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
 
 1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
-1. Normalmente, defina los colores de fondo en el nivel de columna.
+1. Normalmente, se deben definir los colores de fondo al nivel de columna.
 1. Intente no utilizar colores de fondo en componentes de imagen o texto, ya que son difíciles de administrar.
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
@@ -40,15 +40,15 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    >[!NOTE]
    >
-   >Asegúrese de no establecer un color de fondo de ventanilla móvil, ya que podría ocultar los colores de fondo de la estructura.
+   >Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
 
-* Configure un **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
+* Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
 
    ![](assets/background_4.png)
 
    >[!NOTE]
    >
-   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utiliza el color de fondo de fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utiliza el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
 
 * Establezca un color de fondo en el nivel de columna.
 
