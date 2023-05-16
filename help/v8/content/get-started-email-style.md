@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: Introducción al estilo de correo electrónico
+title: Introducción al estilo del correo electrónico
 description: Descubra las distintas formas de ajustar el estilo del contenido del correo electrónico
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Introducción al estilo de correo electrónico {#get-started-email-style}
+# Introducción al estilo del correo electrónico {#get-started-email-style}
 
-Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Adobe Campaign], puede ajustar una serie de parámetros y atributos de estilo desde el panel de configuración del Diseñador de correo electrónico .
+Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Adobe Campaign], puede ajustar una serie de parámetros y atributos de estilo desde el panel de configuración del Diseñador de correo electrónico.
 
 Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de estructura o a un componente de contenido.
 
@@ -22,6 +22,6 @@ Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de 
 Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajustes de estilo de su correo electrónico.
 
 * Obtenga información sobre cómo [personalizar el fondo del correo electrónico](backgrounds.md)
-* Obtenga información sobre cómo [administrar alineación vertical y relleno](alignment-and-padding.md)
+* Obtenga información sobre cómo [administrar la alineación vertical y el relleno](alignment-and-padding.md)
 * Obtenga información sobre cómo [definir un estilo para los vínculos del correo electrónico](styling-links.md)
 * Obtenga información sobre cómo [personalizar atributos de estilo en línea](inline-styling.md)
