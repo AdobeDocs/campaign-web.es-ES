@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Preparación y envío de un correo electrónico
-description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
+description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -34,35 +34,35 @@ send also KPIs
 
 ## Preparación del envío{#prepare}
 
-Cuando haya definido el contenido, la audiencia y la programación, estará listo para preparar el mensaje. Durante la preparación, se calcula la población objetivo y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas. Las reglas de validación utilizadas durante el análisis se describen en la sección [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+Cuando haya definido el contenido, la audiencia y la programación, estará listo para preparar el mensaje. Durante la preparación, se calcula la población de destinatarios y se genera el contenido del mensaje para cada perfil de los destinatarios. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas. Las reglas de validación utilizadas durante el análisis se describen en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es#validation-process-with-typologies){target="_blank"}.
 
 Siga estos pasos:
 
-1. En el panel de envío, haga clic en el botón **Preparación** situado en la esquina superior derecha y confirme.
+1. En el panel de envío, haga clic en el botón **Preparar**, situado en la esquina superior derecha, y pulse confirmar.
 
    ![](assets/prepare.png)
 
-   Se muestra el progreso de la preparación. En función del tamaño de la población de destino, esta operación puede tardar algún tiempo.
+   Se muestra el progreso de la preparación. En función del tamaño de la población de destinatarios, esta operación puede tardar algún tiempo.
 
    >[!NOTE]
    >
-   >Puede detener la preparación en cualquier momento utilizando la variable **Detener preparación** botón. Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede iniciar o detener esto sin riesgo de afectar a nada.
+   >Puede detener la preparación en cualquier momento con el botón **Detener preparación**. Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede iniciarla o detenerla sin riesgo alguno.
 
-1. Cuando finalice la preparación, compruebe los KPI. Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique la audiencia y reinicie la preparación.
+1. Cuando finalice la preparación, compruebe los indicadores claves de rendimiento (KPI). Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique la audiencia y reinicie la preparación.
 
    ![](assets/prepare2.png)
 
    Estos son los diferentes KPI mostrados:
 
-   * **Segmentado**: el número de destinatarios objetivo
-   * **Para entregar**: el número de mensajes que se enviarán
-   * **Para excluir**: el número de mensajes excluidos por una regla de tipología
+   * **Objetivo**: el número de destinatarios segmentados.
+   * **Pendiente de envío**: el número de mensajes que se enviarán.
+   * **Para excluir**: el número de mensajes excluidos por las reglas de tipología.
 
-1. Haga clic en el **Registros** y compruebe que no hay error. El último mensaje de “log” muestra los mensajes de error y el número de errores. Para obtener más información, consulte esta [sección](delivery-logs.md).
+1. Haga clic en el botón **Registros** y compruebe que no haya errores. El último mensaje de registro muestra los mensajes de error y los errores. Para obtener más información, consulte esta [sección](delivery-logs.md).
 
    ![](assets/prepare-logs.png)
 
-Si la preparación detecta un error crítico que impide que se envíe la entrega, el estado de preparación aparece como fallido en el panel de envío.
+Si la preparación detecta un error crítico que impide que se realice el envío, el estado de preparación aparece como erróneo en el panel de envío.
 
 ![](assets/prepare-error.png)
 
@@ -74,13 +74,13 @@ Una vez finalizada la preparación sin errores, el mensaje está listo para envi
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="Entrega"
+>title="Entregados"
 >abstract="El número de mensajes entregados correctamente. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado se basa en el número total de mensajes enviados."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Aperturas"
->abstract="Número de mensajes abiertos. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado es la proporción del número de aperturas distintas en comparación con el número de mensajes entregados."
+>abstract="El número de mensajes abiertos. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado es la proporción del número de aperturas distintas en comparación con el número de mensajes entregados."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
@@ -88,26 +88,26 @@ Una vez finalizada la preparación sin errores, el mensaje está listo para envi
 >abstract="El número de destinatarios que hicieron clic al menos una vez en el correo electrónico. Este indicador se actualiza cada cinco minutos. El porcentaje mostrado es la proporción del número de clics distintos en comparación con el número de mensajes entregados."
 
 
-Una vez finalizada la preparación, ahora puede enviar el mensaje. Este paso solo es necesario para los mensajes enviados inmediatamente. Si el mensaje está programado, se envía en la fecha definida.
+Una vez finalizada la preparación, puede enviar el mensaje. Este paso solo es necesario para los mensajes que se envían en el momento. Si el mensaje está programado, se envía en la fecha definida.
 
 Siga estos pasos:
 
-1. En el panel de envío, haga clic en el botón **Enviar** en la esquina superior derecha y confirme.
+1. En el panel de envío, haga clic en el botón **Enviar** en la esquina superior derecha y pulse confirmar.
 
    ![](assets/send.png)
 
-1. Se muestra el progreso de envío. Compruebe los KPI mostrados. También puede comprobar los registros. Para obtener más información, consulte esta [sección](delivery-logs.md).
+1. Se muestra el progreso del envío. Compruebe los KPI mostrados. También puede comprobar los registros. Para obtener más información, consulte esta [sección](delivery-logs.md).
 
    ![](assets/send2.png)
 
    Estos son los diferentes KPI mostrados:
 
-   * **Entrega**: el número de mensajes enviados correctamente. El porcentaje mostrado se basa en el número total de mensajes enviados.
-   * **Aperturas**: el número de mensajes abiertos. El porcentaje mostrado es la proporción del número de aperturas distintas en comparación con el número de mensajes entregados.
+   * **Entregados**: el número de mensajes entregados correctamente. El porcentaje mostrado se basa en el número total de mensajes enviados.
+   * **Abiertos**: el número de mensajes abiertos. El porcentaje mostrado es la proporción del número de aperturas distintas en comparación con el número de mensajes entregados.
    * **Clics**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje mostrado es la proporción del número de clics distintos en comparación con el número de mensajes entregados.
 
    >[!NOTE]
    >
-   >Todos los indicadores se actualizan cada 5 minutos después del inicio del envío. Los indicadores de preparación de envíos son en tiempo real.
+   >Todos los indicadores se actualizan cada cinco minutos después del inicio del envío. Los indicadores de preparación del envío son en tiempo real.
 
-   Puede pausar el envío en cualquier momento y luego reanudarlo. Si detiene el envío mientras se está enviando, no puede reanudarlo.
+   Puede pausar el envío en cualquier momento y luego reanudarlo. Si detiene el envío mientras lo ejecuta, no podrá reanudarlo.
