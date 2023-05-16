@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Seleccionar una audiencia
+title: Selección de una audiencia
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 25%
 >title="Selección de una audiencia existente"
 >abstract="Las audiencias se definen en la consola Adobe Campaign v8. Si tiene una integración de Adobe Experience Platform disponible, también debería poder ver las audiencias definidas por Platform."
 
-En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega de correo electrónico.
+En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de un envío de correo electrónico.
 
 También puede realizar lo siguiente:
 
-* Cree una audiencia nueva. [Más información](segment-builder.md)
+* Crear una audiencia nueva. [Más información](segment-builder.md)
 * Importación de una audiencia desde un archivo. [Más información](import-audience.md)
 * Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md).
 
 
 Para seleccionar una audiencia existente para el mensaje, siga los pasos a continuación:
 
-1. En el **Audiencia** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]** botón.
+1. En la sección **Audiencia** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]**.
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Para crear una nueva audiencia para usarla en este correo electrónico, elija **Cree sus propios**. Consulte esta [sección](segment-builder.md).
+1. Elija **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Para crear una nueva audiencia para usarla en este correo electrónico, elija **Crear la suya propia**. Consulte esta [sección](segment-builder.md).
 
    Esta pantalla muestra todas las audiencias existentes definidas en la consola de Adobe Campaign o en Adobe Experience Platform.
 
@@ -42,9 +42,9 @@ Para seleccionar una audiencia existente para el mensaje, siga los pasos a conti
 
    >[!NOTE]
    >
-   >Para aprovechar las audiencias de Adobe Experience Platform, debe configurar la integración con Destinations. Consulte la [Documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+   >Para aprovechar las audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [documentación de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
 
-1. Elija una audiencia y haga clic en **Select**.
+1. Elija una audiencia y haga clic en **Seleccionar**.
 
 1. Haga clic en **Editar reglas** si desea restringir la audiencia.
 
@@ -56,4 +56,4 @@ Para seleccionar una audiencia existente para el mensaje, siga los pasos a conti
 
 1. Haga clic en **Save**.
 
-También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de contactos que no lo hicieron. Consulte [sección](control-group.md).
+También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. Consulte la [sección](control-group.md).
