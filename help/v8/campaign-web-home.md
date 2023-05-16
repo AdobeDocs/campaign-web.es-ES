@@ -1,31 +1,31 @@
 ---
 keywords: Campaign Web;inicio;temas populares
-description: Centro de ayuda de Campaign Web v8
-title: Documentación del producto Adobe Campaign Web v8
+description: Centro de ayuda de la web de la versión 8 de Campaign
+title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Documentación web de Adobe Campaign v8 {#campaign-documentation}
+# Documentación de la web de la versión 8 de Adobe Campaign {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-Campaign ahora proporciona una nueva interfaz de usuario web con capacidad de uso mejorada, accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
+Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
 
->La web de Campaign v8 está actualmente en la versión Alpha. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso. [Más información](rn/release-notes.md)
+>La web de la versión 8 de Campaign está actualmente en la versión alfa. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso. [Más información](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="nueva interfaz de usuario" src="assets/do-not-localize/email-create.jpeg">
+<img alt="nueva IU" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Nueva interfaz de usuario de Campaign</strong>
+<div><a href="get-started/user-interface.md"><strong>Nueva IU de Campaign</strong>
 </div>
 <p>
 </td>
