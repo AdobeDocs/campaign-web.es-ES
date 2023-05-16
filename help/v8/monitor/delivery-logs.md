@@ -1,71 +1,71 @@
 ---
 audience: end-user
-title: Monitorización de registros de envío
+title: Monitorización de los registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-# Monitorización de registros de envío {#delivery-logs}
+# Monitorización de los registros de envío {#delivery-logs}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Registros de entregas"
->abstract="Los registros de envío permiten verificar que no hay error."
+>title="Registros de envío"
+>abstract="Los registros de envío permiten verificar que no haya errores."
 
-Después de preparar y enviar un correo electrónico, los registros de envío le permiten verificar que no hay error. Se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
+Después de preparar y enviar un correo electrónico, los registros de envío le permiten verificar que no haya errores. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
 
-Para ver los registros, acceda al panel de envío y haga clic en el botón **Registros** botón.
+Para ver los registros, acceda al panel del envío y haga clic en el botón **Registros**.
 
-Hay varias pestañas disponibles:
+Hay varias pestañas disponibles.
 
 ## Registros
 
-La variable **Registros** contiene todos los mensajes relacionados con la entrega y las pruebas. Los iconos específicos le permiten identificar errores o advertencias.
+La pestaña **Registros** contiene todos los mensajes relacionados con los envíos y las pruebas. Los iconos específicos le permiten identificar los errores o las advertencias.
 
 Se muestran todos los pasos, advertencias y errores de validación. Los iconos de color muestran el tipo de mensaje:
 
-* El icono gris indica un mensaje informativo.
+* El icono gris indica los mensajes informativos.
 * El icono amarillo indica un error de procesamiento no crítico.
 * El icono rojo indica un error crítico que impide realizar el envío.
 
 ![](assets/logs.png)
 
-## Entregas
+## Envíos
 
-La variable **Registros de envío** ofrece un historial de cada ocurrencia de este envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
+La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
 ![](assets/logs2.png)
 
 ## Exclusiones
 
-La variable **Registros de exclusión** La pestaña enumera todos los mensajes que se han excluido del destinatario y especifica el motivo del error de envío.
+La pestaña **Registros de exclusión** contiene todos los mensajes que se han excluido del destinatario y especifica el motivo de error del envío.
 
 ![](assets/logs3.png)
 
 ## Causas de exclusión
 
-La variable **Causas de exclusión** muestra el volumen (en número de mensajes) de mensajes que se excluyeron del destinatario.
+La pestaña **Causas de exclusión** muestra el volumen (en número de mensajes) de mensajes que se excluyeron del destinatario.
 
 ![](assets/logs4.png)
 
-## URL seguidas
+## Direcciones URL rastreadas
 
-La variable **Direcciones URL rastreadas** reagrupa las direcciones URL incluidas en el mensaje enviado, incluido su tipo de dirección URL y su dirección URL de origen.
+La pestaña **Direcciones URL rastreadas** reagrupa las URL incluidas en el mensaje enviado, incluido el tipo y origen de URL.
 
 ![](assets/logs5.png)
 
 ## Seguimiento
 
-La pestaña **Tracking** enumera el historial de seguimiento de esta entrega. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, es decir, todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento.
+La pestaña **Seguimiento** enumera el historial de seguimiento de este envío. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, es decir, todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento.
 
 >[!NOTE]
 >
->Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra.
+>Si el seguimiento no está habilitado para un envío, no se muestra esta pestaña.
 
 ![](assets/logs6.png)
