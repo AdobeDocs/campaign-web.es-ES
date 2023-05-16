@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ El Diseñador de correo electrónico le permite definir fácilmente la estructur
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación:
 
-1. En la página de inicio del Diseñador de correo electrónico, seleccione la opción **[!UICONTROL Diseño desde cero]** .
+1. En la página de inicio del Diseñador de correo electrónico, seleccione la opción **[!UICONTROL Diseño desde cero]**.
 
    ![](assets/email_designer.png)
 
@@ -66,39 +66,39 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    >[!NOTE]
    >
-   >El apilamiento de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
+   >El apilado de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
    ![](assets/email_designer_2.png)
 
-1. Agregar tantos **[!UICONTROL Componentes de estructura]** según sea necesario y edite su configuración en el panel dedicado de la derecha.
+1. Agregue tantos **[!UICONTROL Componentes de estructura]** como sea necesario y edite su configuración en el panel correspondiente de la derecha.
 
-   Seleccione el **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
+   Seleccione el componente **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
 
    >[!NOTE]
    >
-   >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. No se puede quitar una columna que no esté vacía.
+   >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de la estructura. No se puede quitar una columna que no esté vacía.
 
-1. Expanda el **[!UICONTROL Componentes de contenido]** y añada tantos elementos como necesite en uno o varios componentes de estructura. [Descubra más información sobre los componentes de contenido](content-components.md)
+1. Expanda la sección **[!UICONTROL Componentes de contenido]** y añada tantos elementos como necesite en uno o varios componentes de la estructura. [Más información sobre los componentes de contenido](content-components.md)
 
-1. Cada componente se puede personalizar aún más mediante el **[!UICONTROL Configuración de componentes]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Cada componente se puede personalizar aún más mediante el panel **[!UICONTROL Configuración de componentes]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer_5.png)
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Descubra más información sobre la personalización del contenido](../personalization/personalize.md)
+1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
-1. Haga clic en el **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se deben rastrear. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
+1. Haga clic en la pestaña **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se debe rastrear. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregar **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre el seguimiento de los vínculos y mensajes](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
-1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. Esto le permite editar el código fuente del correo electrónico, por ejemplo, para agregar etiquetas de HTML personalizadas o de seguimiento. [Obtenga más información sobre el editor de código](code-content.md)
+1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. Esto le permite editar el código fuente del correo electrónico, por ejemplo, para agregar etiquetas HTML personalizadas o de seguimiento. [Obtenga más información sobre el editor de código](code-content.md)
 
    >[!CAUTION]
    >
    >No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
 
-1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar la renderización del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
+1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar el procesamiento del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 
    ![](assets/email_designer_28.png)
 

@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 2%
+ht-degree: 81%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
 
-1. En un **[!UICONTROL Texto]** componente donde se inserta un vínculo, seleccione el vínculo.
+1. En un componente de **[!UICONTROL Texto]** donde se inserta un vínculo, seleccione el vínculo.
 
 1. En el **[!UICONTROL Configuración]** , marque **[!UICONTROL Vínculo de subrayado]** para que la etiqueta aparezca subrayada.
 
    ![](assets/link_1.png)
 
-1. Elija cómo se redirige a su audiencia con la variable **[!UICONTROL Target]** lista desplegable:
+1. Elija cómo se redirige a su audiencia con la lista desplegable **[!UICONTROL Destinatario]**:
 
    * **[!UICONTROL Ninguna]**: abre el vínculo en el mismo marco en el que se hizo clic (predeterminado).
    * **[!UICONTROL En blanco]**: abre el vínculo en una nueva ventana o pestaña.
-   * **[!UICONTROL Self]**: abre el vínculo en el mismo marco en el que se hizo clic.
+   * **[!UICONTROL Propio]**: abre el vínculo en el mismo marco en el que se hizo clic.
    * **[!UICONTROL Principal]**: abre el vínculo en el marco principal.
    * **[!UICONTROL Superior]**: abre el vínculo en todo el cuerpo de la ventana.
 

@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 38%
+ht-degree: 96%
 
 ---
 
@@ -28,20 +28,20 @@ En muchos casos, proporciona un breve resumen del correo electrónico y suele co
 
 Para definir el encabezado previo del correo electrónico, siga los pasos a continuación:
 
-1. En el Diseñador de correo electrónico, agregue al menos un **[!UICONTROL Componentes de estructura]** para empezar a diseñar el correo electrónico.
+1. En el Diseñador de correo electrónico, agregue al menos **[!UICONTROL Componentes de estructura]** para empezar a diseñar el correo electrónico.
 
-1. Haga clic en el **[!UICONTROL Árbol de navegación]** en el panel izquierdo y seleccione **[!UICONTROL Cuerpo]**.
+1. Haga clic en el icono **[!UICONTROL Árbol de navegación]** en el panel izquierdo y seleccione **[!UICONTROL Cuerpo]**.
 
    ![](assets/preheader_body.png)
 
-1. En el **[!UICONTROL Configuración]** , añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el **[!UICONTROL Añadir personalización]** icono.
+1. En el **[!UICONTROL Configuración]** , añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el icono **[!UICONTROL Añadir personalización]**.
 
    ![](assets/preheader_body_settings.png)
 
-1. En el **[!UICONTROL Editar personalización]** ventana, puede añadir **[!UICONTROL Bloque de contenido]**, **[!UICONTROL Contenido dinámico]** o **[!UICONTROL Campos personalizados]**.
+1. En la ventana **[!UICONTROL Editar personalización]**, puede añadir **[!UICONTROL Bloque de contenido]**, **[!UICONTROL Contenido dinámico]** o **[!UICONTROL Campos de personalización]**.
 
 1. Haga clic en **[!UICONTROL Validar]** para comprobar la sintaxis de personalización.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 El encabezado previo ya está configurado para el correo electrónico.

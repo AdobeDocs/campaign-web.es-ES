@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Añadir atributos de estilo en línea
+title: Adición de atributos de estilo alineados
 description: Aprenda a añadir atributos de estilo en línea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
-# Añadir atributos de estilo en línea {#adding-inline-styling-attributes}
+# Adición de atributos de estilo alineados {#adding-inline-styling-attributes}
 
 En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento y mostrar su configuración en el panel derecho, puede personalizar los atributos en línea y su valor para ese elemento específico.
 
-1. Seleccione un componente directamente en el contenido o use el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
+1. Seleccione un componente directamente en su contenido o use el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
 
 1. En el **[!UICONTROL Estilos]** , haga clic en la pestaña **[!UICONTROL Avanzadas]** lista desplegable.
 
@@ -24,7 +24,7 @@ En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento
 
 1. Modifique los valores de los atributos existentes.
 
-1. Puede agregar propiedades nuevas mediante la variable **+** botón. Puede añadir cualquier atributo y valor que sea compatible con CSS.
+1. Puede agregar propiedades nuevas mediante el botón **+**. Puede añadir cualquier atributo y valor que sea compatible con CSS.
 
    ![](assets/styles_2.png)
 

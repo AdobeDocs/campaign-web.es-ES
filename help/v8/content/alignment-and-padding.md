@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 1%
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ En este ejemplo, ajustamos el relleno y la alineación vertical dentro de un com
 
    ![](assets/alignment_1.png)
 
-1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Seleccionar una columna]** y elija el que desea editar. También puede seleccionarlo en el árbol de estructura de la izquierda.
+1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Seleccionar una columna]** y elija la que desea editar. También puede seleccionarla en el árbol de estructura de la izquierda.
 
    ![](assets/alignment_2.png)
 

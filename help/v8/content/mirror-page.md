@@ -7,7 +7,7 @@ exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 La página espejo es una versión en línea de su correo electrónico.
 
-Aunque la mayoría de los clientes de correo electrónico procesan imágenes sin problemas, algunos ajustes preestablecidos pueden evitar mostrar imágenes por motivos de seguridad. Los usuarios pueden navegar a la página espejo de un correo electrónico, por ejemplo, si están experimentando problemas de renderización o imágenes rotas al intentar verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en redes sociales.
+Aunque la mayoría de los clientes de correo electrónico procesan las imágenes sin problemas, algunos ajustes preestablecidos pueden evitar mostrar las imágenes por motivos de seguridad. Los usuarios pueden navegar a la página espejo de un correo electrónico, por ejemplo, si están experimentando problemas de renderización o imágenes rotas al intentar verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en redes sociales.
 
 La página espejo generada por Adobe Campaign contiene todos los datos de personalización.
 
@@ -23,13 +23,13 @@ La página espejo generada por Adobe Campaign contiene todos los datos de person
 
 ## Añadir un vínculo a la página espejo{#link-to-mirror-page}
 
-Se recomienda insertar un vínculo a la página espejo. Este enlace puede ser, por ejemplo, &quot;Ver este correo electrónico en tu navegador&quot; o &quot;Leer esto en línea&quot;. A menudo se encuentra en el encabezado o pie de página del correo electrónico.
+Se recomienda insertar un vínculo a la página espejo. Este vínculo puede ser, por ejemplo, “Ver este correo electrónico en su navegador” o “Leer esto en línea”. A menudo se encuentra en el encabezado o pie de página del correo electrónico.
 
-En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante la variable **bloque personalizado**. El **Vínculo a página espejo** el bloque personalizado inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
+En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante el **bloque de personalización** específico. El bloque de personalización integrado **Vínculo a página espejo** inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
 
 Para añadir un vínculo a una página espejo en el correo electrónico:
 
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** de la barra de herramientas contextual.
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual.
 
    ![](assets/message-tracking-mirror-page.png)
 
@@ -37,7 +37,7 @@ Para añadir un vínculo a una página espejo en el correo electrónico:
 
    ![](assets/message-tracking-mirror-page_2.png)
 
-1. En el **[!UICONTROL Bloque de contenido]** seleccione **[!UICONTROL URL de página espejo]** y haga clic en **[!UICONTROL Agregar]**.
+1. En el menú **[!UICONTROL Bloque de contenido]**, seleccione **[!UICONTROL URL de página espejo]** y haga clic en **[!UICONTROL Agregar]**.
 
    ![](assets/message-tracking-mirror-page_3.png)
 
@@ -62,4 +62,4 @@ De forma predeterminada, el período de retención de una página espejo es de 6
 
 De forma predeterminada, Adobe Campaign genera automáticamente la página espejo si el contenido del correo electrónico no está vacío y si contiene un vínculo a la página espejo (también conocido como vínculo espejo).
 
-Puede controlar el modo de generación de la página espejo del correo electrónico. Las opciones están disponibles en las propiedades de envío. [Más información](../advanced-settings/delivery-settings.md#mirror)
+Puede controlar el modo de generación de la página espejo del correo electrónico. Las opciones están disponibles en las propiedades del envío. [Más información](../advanced-settings/delivery-settings.md#mirror)

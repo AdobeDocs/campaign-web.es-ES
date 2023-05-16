@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Descubra la interfaz
-description: Interfaz de usuario web de Campaign v8
+description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
 workflow-type: tm+mt
 source-wordcount: '1394'
-ht-degree: 34%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >title="Descubra la interfaz"
 >abstract="La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario integrada, intuitiva y coherente."
 
-La nueva interfaz web de Campaign v8 ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
+La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -26,7 +26,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->Esta documentación se actualiza con frecuencia para reflejar los cambios más recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario.
+>Esta documentación se actualiza frecuentemente para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario.
 
 
 <!--
@@ -34,15 +34,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Menú de navegación izquierda
+## Menú de navegación izquierdo
 
-Examine los vínculos de la izquierda para acceder a las funciones web de Campaign v8. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en Alpha. Todas las listas se podrán editar en versiones futuras. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario.
+Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en alfa. Todas las listas se podrán editar en versiones futuras. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario.
 
 ![](assets/home.png)
 
 ### Inicio
 
-Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las funciones web principales de Campaign v8. La variable **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de creación y modificación y su estado.
+Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las funciones web principales de la versión 8 de Campaign. La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra las fechas de creación y modificación y su estado.
 
 <!--
 * Banner
@@ -51,7 +51,7 @@ Esta pantalla incluye vínculos y recursos clave para acceder rápidamente a las
 * Learning cards
 -->
 
-Acceda a las páginas de ayuda de la clave web de Campaign v8 desde la sección inferior de la página principal.
+Acceda a las páginas de ayuda principales de la web de la versión 8 de Campaign desde la sección inferior de la página principal.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -72,7 +72,7 @@ Los elementos mostrados en el Explorador dependen de los permisos de usuario.
 
 Como en cualquier pantalla de lista, puede configurar columnas para personalizar la visualización y ver toda la información que necesite. Consulte esta [sección](#list-screens).
 
-Para obtener más información sobre el explorador de Campaign, consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Para obtener más información sobre el explorador de Campaign, consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=es#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -81,7 +81,7 @@ If you need to view your lists of recipients (age, gender), transactions or live
 Navtree view depends on permissions (same as console).
 -->
 
-### Campaign Management
+### Administración de campañas
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
@@ -90,14 +90,14 @@ Navtree view depends on permissions (same as console).
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="Entregas"
+>title="Envíos"
 >abstract="Examine la lista de envíos. Puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir su tablero. Otros elementos son de solo lectura. Las plantillas de envío también están disponibles."
 
-* **Campañas** - Esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas de inicio/fin/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
+* **Campañas**: esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas y estados de modificaciones iniciales, finales y últimas. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
 
-* **Entregas** - Examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en una entrega por correo electrónico para abrir su panel y obtener una descripción general de los detalles de la entrega. Los envíos de otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la Consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=es){target="_blank"}.
 
-   Utilice la variable **Más acciones** para eliminar o duplicar una entrega.
+   Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
@@ -105,7 +105,7 @@ Navtree view depends on permissions (same as console).
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Recipients"
+>title="Destinatarios"
 >abstract="Acceda a la base de datos de destinatarios. Puede ver información útil, como su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura."
 
 >[!CONTEXTUALHELP]
@@ -118,10 +118,10 @@ Navtree view depends on permissions (same as console).
 >title="Listas de suscripciones"
 >abstract="Examine las listas de suscripciones. Puede ver su tipo, modo y etiqueta. Esta lista es de solo lectura."
 
-* **Destinatarios** - Acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura.
-* **Audiencias** - Esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Esta lista es de solo lectura.
-* **Listas de suscripciones** - Examine las listas de suscripciones. De forma predeterminada, puede ver su tipo, modo y etiqueta. Esta lista es de solo lectura.
-* **Flujos de trabajo de objetivos** : Acceda a su lista de flujos de trabajo de Campaign. De forma predeterminada, puede ver su estado, las fechas de procesamiento últimas/siguientes y el entorno. Puede filtrar la lista por estado, fecha de último procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura.
+* **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura.
+* **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Esta lista es de solo lectura.
+* **Listas de suscripciones**: examine las listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Esta lista es de solo lectura.
+* **Flujos de trabajo de segmentación**: acceda a su lista de flujos de trabajo de la campaña. De forma predeterminada, puede ver su estado, las fechas del último y próximo procesamiento y el entorno. Puede filtrar la lista por estado, fecha de último procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura.
 
 ### Gestión de decisiones
 
@@ -130,16 +130,16 @@ Navtree view depends on permissions (same as console).
 >title="Ofertas"
 >abstract="Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura."
 
-* **Ofertas** - Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
+* **Ofertas**: examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
 
 ## Barra superior
 
-La barra superior de la interfaz le permite:
+La barra superior de la interfaz le permite hacer lo siguiente:
 
-* comparta sus comentarios como evaluador alfa
-* cambiar entre organizaciones e instancias
-* cambiar entre las aplicaciones de Adobe Experience Cloud
-* acceda a páginas de ayuda, póngase en contacto con el servicio de asistencia técnica y comparta sus comentarios. Puede buscar artículos de ayuda y vídeos desde el campo de búsqueda .
+* Compartir sus comentarios como evaluador de alfa.
+* Cambiar entre organizaciones e instancias.
+* Cambiar entre las aplicaciones de Adobe Experience Cloud.
+* Acceder a páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos desde el campo de búsqueda.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
@@ -148,7 +148,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## Configurar pantallas de lista {#list-screens}
 
-Varios vínculos del menú de navegación de la izquierda, por ejemplo **Entregas** o **Campañas**, mostrar listas de objetos. Estas pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico.
+Varios vínculos del menú de navegación de la izquierda, por ejemplo **Envíos** o **Campañas**, mostrar listas de objetos. Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico.
 
 Para buscar elementos más rápidamente, puede utilizar la barra de búsqueda o filtrar la lista según criterios contextuales.
 
@@ -158,30 +158,30 @@ Las listas se muestran en columnas. Puede mostrar información adicional cambian
 
 ![](assets/columns.png){width="70%" align="left"}
 
-Para ordenar los elementos de la lista, haga clic en cualquier encabezado de columna. Se muestra una flecha (arriba o abajo) que indica que la lista está ordenada en esa columna. Para las columnas numéricas o de fecha, la flecha arriba indica que la lista se ordena en orden ascendente, mientras que la flecha abajo indica un orden descendente. Para las columnas de cadena o alfanuméricas, los valores se enumeran en orden alfabético.
+Para ordenar los elementos de la lista, haga clic en cualquier encabezado de columna. Se muestra una flecha (arriba o abajo) que indica que la lista está ordenada en esa columna. Para las columnas numéricas o de fecha, la flecha arriba indica que la lista se ordena en orden ascendente, mientras que la flecha abajo indica un orden descendente. Para las columnas de cadena o alfanuméricas, los valores aparecen en orden alfabético.
 
 ## Ayuda contextual y guía de incorporación
 
-Hay disponible una ayuda contextual en la interfaz de . Cuando esté disponible, haga clic en la **?** para mostrar información de ayuda y vínculos de documentación relacionados.
+Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, haga clic en el icono **?** para mostrar información de ayuda y vínculos de documentación relacionados.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-También hay disponible una guía de integración para ayudarle a empezar a utilizar Campaign v8 Web. Haga clic en el icono en la esquina inferior derecha, elija uno de los escenarios paso a paso disponibles y simplemente siga las instrucciones.
+También hay disponible una guía de integración para ayudarle a empezar a utilizar la web de la versión 8 de Campaign. Haga clic en el icono en la esquina inferior derecha, elija uno de los escenarios paso a paso disponibles y simplemente siga las instrucciones.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
 ## Navegadores admitidos {#browsers}
 
-La web de Campaign v8 está diseñada para funcionar de forma óptima en la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
+La web de la versión 8 de Campaign está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
 
 ## Preferencias de idioma {#language-pref}
 
-La web de Campaign v8 está disponible actualmente en los siguientes idiomas:
+La web de la versión 8 de Campaign está disponible actualmente en los siguientes idiomas:
 
 <table>
 <tr>
 <td>
-<p>Inglés (EE. UU.) - EN-US</p>
+<p>Inglés (EE. UU.) - EN-US</p>
 <p>Francés - FR</p>
 <p>Alemán - DE</p>
 <p>Italiano - IT</p>
@@ -189,7 +189,7 @@ La web de Campaign v8 está disponible actualmente en los siguientes idiomas:
 <td>
 <p>Español - ES</p>
 <p>Portugués (Brasil) - PTBR</p>
-<p>Japonés: JP</p>
+<p>Japonés - JP</p>
 </td>
 <td>
 <p>Coreano - KR</p>
@@ -201,9 +201,9 @@ La web de Campaign v8 está disponible actualmente en los siguientes idiomas:
 
 El idioma predeterminado de la interfaz está determinado por el idioma preferido especificado en el perfil de usuario.
 
-Para cambiar el idioma:
+Para cambiar el idioma, haga lo siguiente:
 
-1. Haga clic en el icono de perfil, en la parte superior derecha, y luego seleccione **Preferencias**.
+1. Haga clic en el icono del perfil, en la parte superior derecha, y luego seleccione **Preferencias**.
 
    ![](assets/preferences.png){width="70%" align="left"}
 
@@ -258,7 +258,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Atributos avanzados del Generador de reglas"
+>title="Atributos avanzados del generador de reglas"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
@@ -273,17 +273,17 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="Insertar contenido de Android"
+>title="Contenido push para Android"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
->title="Insertar contenido de iOS"
+>title="Contenido push para iOS"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
->title="Contenido de SMS"
+>title="Contenido SMS"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
@@ -293,7 +293,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Población de ensayo"
+>title="Población de prueba"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
@@ -328,12 +328,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Envío de informes"
+>title="Envío de creación de informes"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="Seguimiento de informes"
+>title="Seguimiento de creación de informes"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
@@ -343,12 +343,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Estadísticas de objetivo de informes"
+>title="Estadísticas del destinatario de la creación de informes"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Creación de informes acumulados seleccionar una entrega"
+>title="Creación de informes acumulados, seleccione un envío"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
@@ -363,22 +363,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Campos de deduplicación"
+>title="Campos de anulación de duplicación"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
->title="Configuración de deduplicación"
+>title="Configuración de la anulación de duplicación"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Complemento de deduplicación"
+>title="Complemento de anulación de duplicación"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Complemento de Dimension"
+>title="Complemento de dimensión"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
