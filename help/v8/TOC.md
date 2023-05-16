@@ -1,21 +1,21 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 Web
-title: Documentación web de Adobe Campaign v8
-description: Documentación web de Campaign v8
+user-guide-title: Web de la versión 8 de Campaign
+title: Documentación de la web de la versión 8 de Adobe Campaign
+description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
+source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 23%
+ht-degree: 95%
 
 ---
 
 
-# Documentación web de Adobe Campaign v8 {#v8}
+# Documentación de la web de la versión 8 de Adobe Campaign {#v8}
 
-+ [Documentación web de Campaign v8](campaign-web-home.md)
++ [Documentación de la web de la versión 8 de Campaign](campaign-web-home.md)
 + Novedades {#whats-new}
    + [Notas de la versión ](rn/release-notes.md)
    + [Actualizaciones de documentación](rn/documentation-updates.md)
@@ -25,14 +25,14 @@ ht-degree: 23%
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](email/gs-messages.md)
    + Correos electrónicos {#email}
-      + [Crear el primer correo electrónico](email/create-email.md)
-      + Crear contenido de correo electrónico {#content}
-         + [Editar el contenido del correo electrónico](content/edit-content.md)
+      + [Creación de su primer correo electrónico](email/create-email.md)
+      + Creación de contenido de correo electrónico {#content}
+         + [Edición del contenido de correo electrónico](content/edit-content.md)
          + Diseño del correo electrónico {#design-content}
             + Empezar a diseñar el contenido {#start-design}
                + [Empezar desde cero ](content/create-email-content.md)
-               + [Importar el contenido del correo electrónico](content/existing-content.md)
-               + [Codifique su propio contenido](content/code-content.md)
+               + [Importar el contenido de su correo electrónico](content/existing-content.md)
+               + [Programe su propio contenido](content/code-content.md)
                + [Uso de plantillas de contenido de correo electrónico](content/email-templates.md)
             + [Usar componentes de contenido](content/content-components.md)
             + [Generar la versión de texto](content/text-version-email.md)
@@ -40,25 +40,25 @@ ht-degree: 23%
             + [Añadir un encabezado previo](content/preheader.md)
             + [Adición de vínculos y seguimiento de mensajes](content/message-tracking.md)
          + Estilos del contenido {#style}
-            + [Introducción al estilo de correo electrónico](content/get-started-email-style.md)
+            + [Introducción al estilo del correo electrónico](content/get-started-email-style.md)
             + [Editar configuración de fondo](content/backgrounds.md)
             + [Ajustar alineación vertical y relleno](content/alignment-and-padding.md)
             + [Definición de un estilo para los vínculos](content/styling-links.md)
-            + [Añadir atributos de estilo en línea](content/inline-styling.md)
+            + [Adición de atributos de estilo alineados](content/inline-styling.md)
          + [Adición de personalización](personalization/personalize.md)
-         + [Enviar ofertas](content/offers.md)
-      + Previsualizar y probar el correo electrónico {#preview-test}
+         + [Envío de ofertas](content/offers.md)
+      + Vista previa y prueba de sus correos electrónicos {#preview-test}
          + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
          + [Previsualización del contenido del correo electrónico](preview-test/preview-content.md)
-         + [Enviar correos electrónicos de prueba](preview-test/proofs.md)
-      + Enviar y supervisar el correo electrónico {#monitor}
+         + [Envío de correos electrónicos de prueba](preview-test/proofs.md)
+      + Envío y supervisión del correo electrónico {#monitor}
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
-         + [Monitorización de registros de envío](monitor/delivery-logs.md)
-         + [Configuración de entrega de correo electrónico](advanced-settings/delivery-settings.md)
+         + [Monitorización de los registros de envío](monitor/delivery-logs.md)
+         + [Configuración de envío de correos electrónicos](advanced-settings/delivery-settings.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
    + SMS {#sms}
-      + [Introducción a los envíos SMS](sms/gs-sms.md)
+      + [Introducción a los envíos de SMS](sms/gs-sms.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
@@ -68,19 +68,19 @@ ht-degree: 23%
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas multicanal {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
-   + [Crear la primera campaña](campaigns/create-campaigns.md)
+   + [Cree su primera campaña](campaigns/create-campaigns.md)
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
    + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
-   + Creación del primer flujo de trabajo {#create-workflow}
-      + [Principios clave de la creación del flujo de trabajo](workflows/gs-workflow-creation.md)
+   + Creación y ejecución del primer flujo de trabajo {#create-workflow}
+      + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
-      + [Adición y configuración de actividades de flujo de trabajo](workflows/build-workflow.md)
-      + [Configuración de la configuración del flujo de trabajo](workflows/workflow-settings.md)
+      + [Agregar y organizar actividades de flujo de trabajo](workflows/build-workflow.md)
+      + [Configuración del flujo de trabajo](workflows/workflow-settings.md)
       + [Inicio y monitorización de un flujo de trabajo](workflows/start-monitor-workflows.md)
-   + Trabajo con actividades de flujo de trabajo {#design-workflows}
+   + Trabajo con actividades del flujo de trabajo {#design-workflows}
       + [Actividades de segmentación](workflows/targeting-activities.md)
-      + [Actividades de canal](workflows/channel-activities.md)
+      + [Actividades del canal](workflows/channel-activities.md)
       + [Actividades de administración de datos](workflows/data-management-activities.md)
 + [Creación de informes](reporting/reports.md)
 
