@@ -1,21 +1,22 @@
 ---
 audience: end-user
-title: Introducción a las actividades de flujo de trabajo
-description: Descubra los diferentes tipos de actividades que puede aprovechar para crear flujos de trabajo web de Adobe Campaign
+title: Introducción a las actividades del flujo de trabajo
+description: Descubra los diferentes tipos de actividades que puede aprovechar para crear flujos de trabajo dcon la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 0c269e63-c861-4e51-b999-2e8d33fec7a0
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
+source-wordcount: '61'
+ht-degree: 100%
 
 ---
 
-# Introducción a las actividades de flujo de trabajo {#get-started-activities}
+# Introducción a las actividades del flujo de trabajo {#get-started-activities}
 
-¿qué son las actividades de flujo de trabajo?
+qué son las actividades del flujo de trabajo
 
 tipos de actividades y lo que puede lograr con ellas
 
-cómo utilizarlos (añadir, eliminar, duplicar?...)
+cómo utilizarlas (añadir, eliminar, duplicar?...)
 
 referencia a páginas de actividades de segmentación/canal/administración de datos (fotos en las que se puede hacer clic)
