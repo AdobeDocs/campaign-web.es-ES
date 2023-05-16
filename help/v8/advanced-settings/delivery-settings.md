@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: Configuración de entrega de correo electrónico
-description: Obtenga más información sobre la configuración de envío de correo electrónico en la interfaz de usuario web de Campaign
+title: Configuración de envío de correos electrónicos
+description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1473'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
-# Configuración de entrega de correo electrónico {#email-del-settings}
+# Configuración de envío de correos electrónicos {#email-del-settings}
 
-Esta configuración es **parámetros técnicos de entrega** que se definen en la plantilla de correo electrónico. Están disponibles en el **Configuración de la entrega** icono disponible al editar una entrega por correo electrónico.
+Esta configuración consiste en los **parámetros técnicos del envío** que se definen en la plantilla de correo electrónico. Están disponibles en el icono **Configuración del envío** al editar un envío por correo electrónico.
 
-## Configuración de entrega de correo electrónico {#email-delivery-settings}
+## Configuración de envío de correos electrónicos {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Estos ajustes solo se describen para su información. Algunos dependen de la configuración y los permisos. No deben modificarse en esta versión del producto.
+> Esta configuración es solo informativa. Algunos ajustes dependen de la configuración y los permisos. No deben modificarse en esta versión del producto.
 
 ## Tipología {#typology}
 
@@ -29,9 +29,9 @@ Esta configuración es **parámetros técnicos de entrega** que se definen en la
 >title="Tipología"
 >abstract="La tipología permite controlar, filtrar y monitorizar la entrega de envíos."
 
-Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de análisis de mensajes. Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidoras o clientes que no sean fieles).
+Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de análisis de mensajes. Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
 
-Al asociar una tipología con un mensaje o una plantilla de mensaje, las reglas de tipología incluidas en la tipología se ejecutan para comprobar la validez del mensaje durante la preparación.
+Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tipología incluidas se ejecutarán para comprobar la validez del mensaje durante su preparación.
 
 ![](assets/delivery-settings-1.png)
 
@@ -41,58 +41,58 @@ Al asociar una tipología con un mensaje o una plantilla de mensaje, las reglas 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Peso del envío"
->abstract="El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios."
+>abstract="El peso del envío le permite identificar los envíos de mayor prioridad dentro del marco de la administración de presión. Los mensajes con mayor peso tienen prioridad."
 
-En esta sección, los parámetros de presión permiten definir una **umbral**. Es el número máximo de mensajes que se pueden enviar a un perfil durante un periodo determinado. Una vez alcanzado este umbral, no se pueden realizar más entregas hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de una entrega si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
+En esta sección, los parámetros de presión permiten definir un **umbral**. Este es el número máximo de mensajes que se pueden enviar a un perfil durante un período determinado. Una vez alcanzado este umbral, no se pueden realizar más envíos hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de un envío si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
 
 Los valores de umbral pueden ser constantes o variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un perfil a otro o incluso en un mismo perfil.
 
-En el **Tipo de peso** , hay tres opciones disponibles:
+En el campo **Tipo de peso**, hay tres opciones disponibles:
 
 * **Constante**
-* **Depende del destinatario**
+* **Según el destinatario**
 * **Definido en cada regla**
 
-Utilice la variable **Peso de la entrega** para definir la prioridad de entrega. Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de una entrega se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de una entrega en función de los intereses del destinatario.
+Utilice el campo **Peso del envío** para definir la prioridad de envío. Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de un envío se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de un envío en función de los intereses del destinatario.
 
 
-Utilice la variable **Modo de envío** para seleccionar el modo de evaluación de destino. Hay tres modos disponibles:
+Utilice el campo **Modo de envío** para seleccionar el modo de evaluación del destinatario. Hay tres modos disponibles:
 
-* **Estimación de objetivos y personalización de mensajes**
-* **Estimación y aprobación del público objetivo provisional**
-* **Evaluación del público objetivo**
+* **Estimación de destinatarios y personalización de mensajes**
+* **Estimación y aprobación de los destinatarios provisionales**
+* **Evaluación de los destinatarios**
 
-La gestión de la fatiga viene con la **Campaign Optimization (Optimización de la campaña)** complemento. Obtenga más información sobre las reglas de presión y cómo configurar la gestión de la fatiga en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.
+La administración de la fatiga viene con el complemento **Optimización de la campaña**. Obtenga más información sobre las reglas de presión y cómo configurar la administración de la fatiga en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.
 
-### Configuración de capacidad {#capacity-settings}
+### Configuración de la capacidad {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="Importancia del destinatario"
 >abstract="La importancia del destinatario es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad."
 
-En esta sección, puede seleccionar una regla de capacidad definida en la consola de Adobe Campaign v8. Esta regla está asociada al canal de correo electrónico.
+En esta sección, puede seleccionar una regla de capacidad definida en la consola de la versión 8 de Adobe Campaign. Esta regla está asociada al canal de correo electrónico.
 
-La variable **importancia del destinatario** field es una fórmula utilizada para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad.
+El campo **importancia del destinatario** es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad.
 
-Obtenga más información sobre las reglas de coherencia y capacidad y cómo configurarlas en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+Obtenga más información sobre las reglas de coherencia y capacidad y cómo configurarlas en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=es){target="_blank"}.
 
 
 ## Audiencia {#audience}
 
-En esta sección, puede seleccionar un **asignación de destino** entre los disponibles. Las asignaciones de destino se definen en la consola Adobe Campaign v8.
+En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign.
 
-Obtenga más información sobre las asignaciones de destino en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Obtenga más información sobre las asignaciones de destino en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
 ## Envío {#delivery}
 
-Los parámetros de envío son configuraciones técnicas que se aplican a su envío.
+Los parámetros de envío son las configuraciones técnicas que se aplican a su envío.
 
-* **Enrutamiento**: la cuenta externa de enrutamiento de correo electrónico integrada se proporciona de forma predeterminada. Contiene los parámetros técnicos que permiten a la aplicación enviar correos electrónicos.
+* **Enrutamiento**: la cuenta externa de enrutamiento del correo electrónico integrada se proporciona de forma predeterminada. Contiene los parámetros técnicos que le permiten a la aplicación enviar correos electrónicos.
 
-* **Prueba de entrega SMTP**: esta opción se utiliza para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+* **Prueba de envío SMTP**: esta opción se utiliza para probar el envío a través de SMTP. El envío se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
-* **Email BCC**: esta opción se utiliza para almacenar correos electrónicos en un sistema externo a través de CCO simplemente añadiendo una dirección de correo electrónico CCO al destino del mensaje. Obtenga más información sobre Email BCC en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **CCO del correo electrónico**: esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO, simplemente al agregar una dirección de correo electrónico a copia oculta (CCO) al destinatario del mensaje. Obtenga más información acerca de la CCO del correo electrónico en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
 
 
@@ -105,24 +105,24 @@ Los parámetros de envío son configuraciones técnicas que se aplican a su env�
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Obtenga más información sobre la administración de reintentos en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Obtenga más información sobre la administración de reintentos en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
 ## Aprobación {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Modo de aprobación"
->abstract="Cada paso de un envío puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos."
+>abstract="Los pasos de un envío pueden estar sujetos a aprobación para garantizar la monitorización y el control completo de los distintos procesos."
 
-Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
+Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar el envío de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
-Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modos disponibles son:
+Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modos disponibles son los siguientes:
 
-* **Manual**: al final de la fase de análisis, el usuario debe confirmar la entrega para iniciarlo.
+* **Manual**: al final de la fase de análisis, el usuario debe confirmar el envío para iniciarlo.
 
-* **Semiautomático**: El envío comienza automáticamente si la fase de análisis no genera mensajes de advertencia.
+* **Semiautomático**: el envío se realiza automáticamente si la fase de análisis no genera mensajes de advertencia.
 
-* **Automático**: El envío comienza automáticamente al final de la fase de análisis, independientemente de su resultado.
+* **Automático**: el envío se realiza automáticamente al final de la fase de análisis, sin importar el resultado.
 
 
 ## Validez {#validity}
@@ -130,35 +130,35 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
 >title="Duración del envío"
->abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, solo para los mensajes que devuelven un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez."
+>abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, luego, solo para los mensajes que devuelven un error, se realizan reintentos normales y configurables hasta que se alcanza la vigencia."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Vigencia de los recursos"
->abstract="El campo Límite de validez se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
+>abstract="El campo Vigencia se utiliza para los recursos cargados, como la página espejo y las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
 
 
-El campo **Duración de la entrega** permite introducir el límite de los reintentos de entrega global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.
+El campo **Duración del envío** permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.
 
-Asimismo, puede especificar fechas. Para ello, seleccione **Establecer explícitamente las fechas de validez**. En este caso, las fechas de entrega y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
+Asimismo, puede especificar fechas. Para ello, seleccione **Establecer explícitamente las fechas de validez**. En este caso, las fechas de envío y de límite de validez también permiten especificar el tiempo. El tiempo actual se utiliza de forma predeterminada, pero puede modificarse directamente en el campo de entrada.
 
-**Límite de validez de los recursos** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco). Después de este límite, estos recursos ya no están disponibles.
+**La vigencia de los recursos** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco). Después de este límite, estos recursos ya no están disponibles.
 
 ![](assets/delivery-settings-2.png)
 
 
-Obtenga más información sobre el periodo de validez de la entrega en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Obtenga más información sobre el período de validez del envío en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es#validity-period){target="_blank"}.
 
-### Administración de página espejo {#mirror}
+### Administración de la página espejo {#mirror}
 
-La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo.
+La página espejo es una página HTML a la que se puede acceder en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo.
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
 
-* **[!UICONTROL Forzar la generación de la página espejo]**: utilice este modo para generar la página espejo aunque no haya ningún vínculo a la página espejo insertado en la entrega.
-* **[!UICONTROL No generar la página espejo]**: utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en la entrega.
-* **[!UICONTROL Genera una página espejo accesible solo mediante el identificador de mensaje]**: cuando el vínculo de página espejo no esté presente en el contenido del correo electrónico, utilice esta opción para habilitar el acceso al contenido de la página espejo, en la ventana del registro de entrega, desde la consola de cliente.
+* **[!UICONTROL Forzar la generación de la página espejo]**: utilice este modo para generar la página espejo, aunque no haya ningún vínculo a la página espejo insertado en el envío.
+* **[!UICONTROL No generar la página espejo]**: utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en el envío.
+* **[!UICONTROL Generar una página espejo a la que se pueda acceder solo mediante el identificador de mensaje]**: cuando el vínculo de la página espejo no esté en el contenido del correo electrónico, utilice esta opción para habilitar el acceso en la ventana del registro del envío, en la consola del cliente.
 
 
 ### Seguimiento {#tracking}
@@ -168,24 +168,24 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 >title="Período de validez"
 >abstract="Esta opción define la duración a partir de la cual se activa el seguimiento en las direcciones URL."
 
-Los parámetros de seguimiento se definen en la sección relacionada. Las opciones posibles son:
+Los parámetros de seguimiento se definen en la sección relacionada. Las opciones posibles son las siguientes:
 
-**Límite de validez de seguimiento**: utilice esta opción para cambiar la duración durante la cual se activa el seguimiento en las direcciones URL.
+**Vigencia del seguimiento**: utilice esta opción para cambiar la duración por la que se activa el seguimiento en las URL.
 
-**URL de sustitución para URL caducadas**: utilice esta opción para introducir una URL a una página web de reserva: se muestra una vez que el seguimiento ha caducado.
+**URL de sustitución para URL caducadas**: utilice esta opción para introducir una URL de una página web de reserva, se muestra una vez que el seguimiento ha caducado.
 
-## Configuración de la prueba {#test-setttings}
+## Configuración de pruebas {#test-setttings}
 
-Puede establecer los parámetros de exclusión en esta sección. Las opciones disponibles son:
+Puede establecer los parámetros de exclusión en esta sección. Las opciones disponibles son las siguientes:
 
-* **Mantener doble** permite autorizar varios envíos a destinatarios que cumplan varios criterios de objetivo.
+* **Mantener doble** permite autorizar varios envíos a destinatarios que cumplan varios criterios de direccionamiento.
 
-* **Mantener direcciones incluida en la lista de bloqueados** permite evitar en el objetivo cualquier perfil que ya no vaya a ser objetivo del envío, como por ejemplo, tras una baja (exclusión).
+* **Mantener las direcciones incluidas en la lista de bloqueados** permite excluir de los destinatarios los perfiles a los que ya no se dirige el envío, por ejemplo, tras una cancelación de baja (exclusión).
 
-* **Mantener direcciones en cuarentena** permite evitar que el destinatario tenga perfiles con una dirección que no responde.
+* **Mantener direcciones en cuarentena** permite excluir del destinatario cualquier perfil con una dirección que no responde.
 
 También puede personalizar el nombre de los correos electrónicos de prueba.
 
-Utilice la variable **Mantener el código de entrega de la prueba** para asociar al correo electrónico de prueba el mismo código de entrega que el definido para la entrega con el que se relaciona.
+Utilice la opción **Conservar el código de entrega para la prueba** para asociar al correo electrónico de prueba el mismo código de envío que el definido para el envío al que se refiere.
 
-De forma predeterminada, el asunto del correo electrónico de prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número del correo electrónico de prueba. Se puede cambiar este prefijo en el campo **Label prefix**.
+De forma predeterminada, el asunto del correo electrónico de prueba incluye el prefijo “PROOF #”, y “#” es el correo electrónico de prueba. Se puede cambiar este prefijo en el campo **Prefijo de la etiqueta**.
