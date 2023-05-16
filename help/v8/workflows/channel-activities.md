@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Trabajo con actividades de canal de flujos de trabajo
-description: Aprenda a utilizar las actividades de canal en los flujos de trabajo web de Adobe Campaign
+title: Trabajo con actividades del canal de flujos de trabajo
+description: Aprenda a utilizar las actividades de canal en los flujos de trabajo de la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
+exl-id: 6f9be348-6138-470c-8c40-750dc0311424
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Actividades de canal {#channel}
 
-información general: para qué uso puede realizar con ellos
+Información general: para qué se utilizan, 
+qué caso de uso puede realizar con ellos
 
-enumerar actividades disponibles + descripción breve + referencia a sección
+lista de actividades disponibles, descripción breve y referencia a la sección
 
 ## Correo electrónico {#email}
 
-descripción, que caso de uso que puede realizar (otras actividades comunes que puede vincular antes de la actividad)
+Descripción, qué caso de uso puede realizar (otras actividades comunes que puede vincular antes o después de la actividad)
 
-cómo añadir y configurar la actividad
+Cómo añadir y configurar la actividad
 
-ejemplo de una actividad configurada dentro de un flujo de trabajo
+Ejemplo de una actividad configurada dentro de un flujo de trabajo
