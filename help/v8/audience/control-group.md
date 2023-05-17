@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo establecer un grupo de control par
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 

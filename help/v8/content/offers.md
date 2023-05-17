@@ -5,7 +5,7 @@ description: Envío de ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
