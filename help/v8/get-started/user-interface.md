@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propiedades de creación de campañas"
->abstract="Por determinar"
+>abstract="Defina propiedades y metadatos para la campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programación de creación de campañas"
->abstract="Por determinar"
+>abstract="Defina la programación de la campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Métricas enviadas"
->abstract="Por determinar"
+>abstract="Número de correos electrónicos enviados."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Métricas de errores"
->abstract="Por determinar"
+>abstract="Número de correos electrónicos con el estado de error."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenido SMS"
->abstract="Por determinar"
+>abstract="Definición del contenido del SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Suscriptores de la aplicación"
->abstract="Por determinar"
+>abstract="Obtenga una vista previa y pruebe el mensaje añadiendo suscriptores de la aplicación al destinatario principal. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Población de prueba"
->abstract="Por determinar"
+>abstract="Seleccione un modo de población de prueba."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modo de vista previa"
->abstract="Por determinar"
+>abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el destinatario principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
