@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: daf2b536c2483ab350c468910863b1076773a080
+source-git-commit: 8920a5700a439d8f633ddf7bb48b2540d5448969
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 55%
+source-wordcount: '60'
+ht-degree: 63%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flujos de trabajo"
->abstract="En esta pantalla, puede acceder a la lista de flujos de trabajo, comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo. Vaya a la pestaña &quot;Plantillas&quot; para acceder a las plantillas de flujo de trabajo."
+>abstract="En esta pantalla, puede acceder a la lista de flujos de trabajo, comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo."
 
 
 ## Acceso a los flujos de trabajo creados
