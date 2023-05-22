@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Resumen del informe SMS"
->abstract="Por determinar"
+>abstract="Descubra las métricas de informes para su envío de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumen del informe push"
->abstract="Por determinar"
+>abstract="Descubra las métricas de creación de informes de su envío push."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avanzados del generador de reglas"
->abstract="Por determinar"
+>abstract="Utilice atributos avanzados para definir la regla."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenido push para Android"
->abstract="Por determinar"
+>abstract="Defina el contenido push de Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenido push para iOS"
->abstract="Por determinar"
+>abstract="Defina el contenido push de iOS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envío de creación de informes"
->abstract="Por determinar"
+>abstract="Consulte los indicadores de envío para los informes de campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Seguimiento de creación de informes"
->abstract="Por determinar"
+>abstract="Consulte los indicadores de seguimiento para la creación de informes de campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Información general sobre la creación de informes"
->abstract="Por determinar"
+>abstract="Métricas clave para su envío."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Estadísticas del destinatario de la creación de informes"
->abstract="Por determinar"
+>abstract="Esta sección muestra métricas específicas según las audiencias."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Creación de informes acumulados, seleccione un envío"
->abstract="Por determinar"
+>title="Informes agregados para entregas"
+>abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregado."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de flujos de trabajo"
->abstract="Por determinar"
+>abstract="Lista de flujos de trabajo disponibles para la campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Permiso obligatorio"
->abstract="Por determinar"
+>abstract="El administrador debe concederle permiso para poder crear un segmento."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Permiso obligatorio"
->abstract="Por determinar"
+>abstract="El administrador debe concederle permiso para poder crear un segmento."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Nueva métrica de cuarentenas"
 >abstract="Nueva métrica de cuarentena."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Selección de plantilla de SMS"
+>abstract="Seleccione una plantilla predefinida para iniciar el envío de SMS."
