@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Plantilla de notificaciones push"
 >abstract="Por determinar"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Propiedades de creación de campañas"
->abstract="Defina propiedades y metadatos para la campaña."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Programación de creación de campañas"
->abstract="Defina la programación de la campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definición de columnas"
->abstract="Por determinar"
+>abstract="Seleccione las columnas que desee insertar desde el archivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parámetros de formato"
->abstract="Por determinar"
+>abstract="Defina los parámetros de formato para el archivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Campos avanzados del selector de atributos"
->abstract="Por determinar"
+>abstract="Configure columnas con campos avanzados."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avanzados del generador de reglas"
->abstract="Por determinar"
+>abstract="Configure columnas con campos avanzados."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
->title="Propiedades de envío de SMS"
->abstract="Por determinar"
+>title="Propiedades de entrega de SMS"
+>abstract="Administrar las propiedades de entrega de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="Propiedades de envío push"
->abstract="Por determinar"
+>title="Propiedades de la entrega push"
+>abstract="Administrar las propiedades de la entrega push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nueva métrica de cuarentenas"
->abstract="Por determinar"
+>abstract="Nueva métrica de cuarentena."
 
