@@ -4,9 +4,9 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ En una campaña en canales múltiples, una sola comunicación de marketing utili
 >id="acw_campaign_creation_properties"
 >title="Propiedades de creación de campañas"
 >abstract="Defina propiedades y metadatos para la campaña."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Propiedades de campaña"
+>abstract="Defina la configuración de la campaña y los metadatos."
 
 Las propiedades de la campaña se muestran al crear una nueva campaña.
 
