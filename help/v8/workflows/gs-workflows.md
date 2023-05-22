@@ -4,10 +4,10 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
-workflow-type: ht
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ A continuación se muestran algunos ejemplos de cómo puede utilizar flujos de t
 
 ## Vamos a profundizar
 
-Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en Adobe Campaign, es hora de profundizar en las secciones de documentación para empezar a trabajar con la función.
+Ahora que comprende qué son los flujos de trabajo y qué puede hacer con ellos en Adobe Campaign, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
 
 * Cree su primer flujo de trabajo
 * Diseño de flujos de trabajo
