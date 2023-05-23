@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1527'
 ht-degree: 86%
 
 ---
@@ -302,20 +302,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Personalización"
 >abstract="Por determinar"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="Selección de archivos"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="Definición de columnas"
->abstract="Seleccione las columnas que desee insertar desde el archivo."
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="Parámetros de formato"
->abstract="Defina los parámetros de formato para el archivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
