@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 95%
+source-wordcount: '270'
+ht-degree: 91%
 
 ---
 
@@ -59,11 +59,13 @@ ht-degree: 95%
       + [Introducción a las notificaciones push](push/gs-push.md)
    + SMS {#sms}
       + [Introducción a los envíos de SMS](sms/gs-sms.md)
+      + [Creación de un envío de SMS](sms/create-sms.md)
+      + [Diseño de una entrega de SMS ](sms/content-sms.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
    + [Crear una audiencia con el generador de reglas](audience/segment-builder.md)
-   + [Importar una audiencia](audience/file-audience.md)
+   + [Carga de una audiencia desde un archivo](audience/file-audience.md)
    + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas multicanal {#campaigns}
