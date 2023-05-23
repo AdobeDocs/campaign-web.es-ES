@@ -4,10 +4,10 @@ title: Selección de una audiencia
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ En esta sección se explica cómo seleccionar una audiencia existente al definir
 También puede realizar lo siguiente:
 
 * Crear una audiencia nueva. [Más información](segment-builder.md)
-* Importación de una audiencia desde un archivo. [Más información](import-audience.md)
+* Utilice una audiencia de un archivo externo. [Más información](file-audience.md)
 * Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md).
 
 

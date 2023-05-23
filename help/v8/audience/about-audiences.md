@@ -4,10 +4,10 @@ title: Introducción a las audiencias
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Para definir la audiencia, puede hacer lo siguiente:
 
 * Usar una audiencia existente. [Más información](add-audience.md)
 * Crear una audiencia nueva. [Más información](segment-builder.md)
-* Importación de una audiencia desde un archivo. [Más información](import-audience.md)
+* Utilice una audiencia de un archivo externo. [Más información](file-audience.md)
 * Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md)
 
 Además, puede utilizar grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de sus campañas. [Más información](control-group.md)

@@ -5,7 +5,7 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 95%
@@ -37,7 +37,7 @@ ht-degree: 95%
             + [Usar componentes de contenido](content/content-components.md)
             + [Generar la versión de texto](content/text-version-email.md)
             + [Añadir un vínculo a la página espejo](content/mirror-page.md)
-            + [Añadir un encabezado previo](content/preheader.md)
+            + [Añadir un preencabezado](content/preheader.md)
             + [Adición de vínculos y seguimiento de mensajes](content/message-tracking.md)
          + Estilos del contenido {#style}
             + [Introducción al estilo del correo electrónico](content/get-started-email-style.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
    + [Crear una audiencia con el generador de reglas](audience/segment-builder.md)
-   + [Importar una audiencia](audience/import-audience.md)
+   + [Importar una audiencia](audience/file-audience.md)
    + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas multicanal {#campaigns}
@@ -72,10 +72,10 @@ ht-degree: 95%
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
    + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
-   + Creación y ejecución del primer flujo de trabajo {#create-workflow}
+   + Creación y ejecución de su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
-      + [Agregar y organizar actividades de flujo de trabajo](workflows/build-workflow.md)
+      + [Adición y organización de actividades de flujo de trabajo](workflows/build-workflow.md)
       + [Configuración del flujo de trabajo](workflows/workflow-settings.md)
       + [Inicio y monitorización de un flujo de trabajo](workflows/start-monitor-workflows.md)
    + Trabajo con actividades del flujo de trabajo {#design-workflows}
