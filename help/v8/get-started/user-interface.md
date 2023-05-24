@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 87%
+source-wordcount: '1535'
+ht-degree: 83%
 
 ---
 
@@ -86,12 +86,12 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campañas"
->abstract="Esta es la lista de sus campañas. Puede ver información útil, como las fechas de inicio/finalización/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura."
+>abstract="Esta es la lista de sus campañas. Puede ver información útil, como las fechas de inicio/finalización/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Haga clic en el botón Create campaign para añadir una nueva campaña. Seleccione una campaña para ver su contenido, envíos y detalles. Vaya a la pestaña &quot;Plantillas&quot; para ver y crear plantillas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
->abstract="Examine la lista de envíos. Puede ver su estado, la fecha de la última modificación y los KPI clave. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir su tablero. Otros elementos son de solo lectura. Las plantillas de envío también están disponibles."
+>abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón &quot;Crear entrega&quot; para añadir una nueva entrega. Seleccione una entrega para ver su contenido, audiencia y detalles."
 
 * **Campañas**: esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas y estados de modificaciones iniciales, finales y últimas. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
 
