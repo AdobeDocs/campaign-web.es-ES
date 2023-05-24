@@ -65,7 +65,7 @@ Para añadir la personalización en el campo **[!UICONTROL Línea de asunto]** d
 
 1. Escriba el contenido de la línea de asunto y seleccione los atributos de personalización que desea añadir.
 
-1. Haga clic en **[!UICONTROL Confirmar]**** para validar. Los atributos de personalización se añaden a la línea de asunto.
+1. Clic **[!UICONTROL Confirmar]**** para validar. Los atributos de personalización se añaden a la línea de asunto.
 
 ## Personalización del contenido del correo electrónico {#personalize-emails}
 
@@ -90,7 +90,7 @@ Para personalizar el contenido del correo electrónico, abra el mensaje en el Di
 
    ![](assets/perso-insert-block.png)
 
-1. Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico. Se adapta automáticamente al perfil del destinatario cuando se genera la personalización, en el paso de preparación de la entrega.
+1. Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización, en el paso de preparación de la entrega.
 
    ![](assets/perso-content-block-in-email.png)
 

@@ -5,7 +5,7 @@ description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
 

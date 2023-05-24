@@ -19,7 +19,7 @@ ht-degree: 27%
 >title="Propiedades del flujo de trabajo"
 >abstract="Por determinar"
 
-El primer paso para crear el flujo de trabajo en Campaign v8 Web es crearlo como un flujo de trabajo independiente o crearlo directamente dentro de una campaña, y definir sus propiedades.
+El primer paso para crear el flujo de trabajo en Campaign v8 Web es crear el flujo de trabajo como flujo de trabajo independiente o crearlo directamente dentro de una campaña y definir sus propiedades.
 
 Para ello, siga estos pasos:
 
@@ -29,4 +29,4 @@ Para ello, siga estos pasos:
 
 contenido por determinar:
 
-Ahora que el flujo de trabajo se ha creado, puede empezar a orquestar las diferentes tareas que realizará en un lienzo visual dedicado. [Descubra cómo organizar actividades de flujo de trabajo](build-workflow.md)
+Ahora que el flujo de trabajo se ha creado, puede empezar a organizar las diferentes tareas que realizará en un lienzo visual dedicado. [Obtenga información sobre cómo organizar actividades de flujo de trabajo](build-workflow.md)

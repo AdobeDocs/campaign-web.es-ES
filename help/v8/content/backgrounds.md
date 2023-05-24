@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo personalizar el fondo del correo e
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 

@@ -18,7 +18,7 @@ En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento
 
 1. Seleccione un componente directamente en su contenido o use el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
 
-1. En el **[!UICONTROL Estilos]** , haga clic en la pestaña **[!UICONTROL Avanzadas]** lista desplegable.
+1. Desde el **[!UICONTROL Estilos]** , haga clic en **[!UICONTROL Avanzadas]** menú desplegable.
 
    ![](assets/styles_1.png)
 

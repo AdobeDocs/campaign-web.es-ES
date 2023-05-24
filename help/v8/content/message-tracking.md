@@ -33,7 +33,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Guarde los cambios.
 
-1. Una vez creado el vínculo, puede modificarlo desde el **[!UICONTROL Configuración]** pestaña .
+1. Una vez creado el vínculo, aún puede modificarlo desde el **[!UICONTROL Configuración]** pestaña.
 
    * Puede editar el vínculo y cambiar su **[!UICONTROL Destinatario]**.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.

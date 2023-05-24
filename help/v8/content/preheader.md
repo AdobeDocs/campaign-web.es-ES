@@ -34,7 +34,7 @@ Para definir el encabezado previo del correo electrónico, siga los pasos a cont
 
    ![](assets/preheader_body.png)
 
-1. En el **[!UICONTROL Configuración]** , añada el encabezado previo. Puede personalizarlo aún más haciendo clic en el icono **[!UICONTROL Añadir personalización]**.
+1. Desde el **[!UICONTROL Configuración]** pestaña, añada el preencabezado. Puede personalizarlo aún más haciendo clic en el icono **[!UICONTROL Añadir personalización]**.
 
    ![](assets/preheader_body_settings.png)
 

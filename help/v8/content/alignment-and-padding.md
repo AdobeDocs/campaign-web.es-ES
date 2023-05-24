@@ -24,7 +24,7 @@ En este ejemplo, ajustamos el relleno y la alineación vertical dentro de un com
 
    ![](assets/alignment_2.png)
 
-1. Los parámetros editables de esa columna se muestran en la sección **[!UICONTROL Estilos]** pestaña . Ajuste la variable **[!UICONTROL Alineación]** usando la sección dedicada.
+1. Los parámetros editables para esa columna se muestran en la variable **[!UICONTROL Estilos]** pestaña. Ajuste de **[!UICONTROL Alineación]** utilizando la sección dedicada.
 
    ![](assets/alignment_3.png)
 

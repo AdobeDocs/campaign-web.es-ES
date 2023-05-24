@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo importar contenido de correo elect
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

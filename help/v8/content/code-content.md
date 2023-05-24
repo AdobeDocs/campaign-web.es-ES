@@ -5,7 +5,7 @@ description: Aprenda a codificar su propio contenido de correo electrónico
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
 source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo definir y enviar correos electrón
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 

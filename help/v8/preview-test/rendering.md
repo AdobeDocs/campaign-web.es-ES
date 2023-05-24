@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo probar el procesamiento de correo 
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

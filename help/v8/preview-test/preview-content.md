@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo previsualizar el contenido del cor
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

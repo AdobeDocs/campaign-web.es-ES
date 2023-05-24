@@ -18,11 +18,11 @@ contenido por determinar
 resumen del lienzo del flujo de trabajo y principio
 
 
-Una vez que tenga [creación de un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a orquestar las diferentes tareas que realizará.
+Una vez que lo haya hecho [creó un flujo de trabajo](create-workflow.md)Desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que va a realizar.
 
-Para ello, un lienzo visual le permite crear un diagrama de flujo de trabajo en el que puede añadir varias actividades y vincularlas juntas en un orden secuencial.
+Para ello, un lienzo visual le permite crear un diagrama de flujo de trabajo, en el que puede añadir varias actividades y vincularlas juntas en un orden secuencial.
 
-* [Aprenda a trabajar con el lienzo del flujo de trabajo](#canvas)
+* [Aprenda a trabajar con los lienzos de flujo de trabajo](#canvas)
 * [Aprenda a añadir y conectar actividades de flujo de trabajo](#activities)
 
 ## Trabajar con el lienzo del flujo de trabajo {#canvas}
@@ -40,4 +40,4 @@ Para ello, un lienzo visual le permite crear un diagrama de flujo de trabajo en 
 * trabajar con transiciones: ver resultados, agregar etiquetas a transiciones
 * Relación entre actividades: qué actividades puede agregar o no según la anterior
 
-Una vez que haya diseñado correctamente el diagrama de flujo de trabajo, puede ejecutar el flujo de trabajo y rastrear cómo se están realizando sus diversas tareas. [Obtenga información sobre cómo iniciar un flujo de trabajo y monitorizar su ejecución](start-monitor-workflows.md)
+Una vez que haya diseñado correctamente el diagrama de flujo de trabajo, puede ejecutar el flujo de trabajo y realizar un seguimiento de cómo se realizan las distintas tareas. [Obtenga información sobre cómo iniciar un flujo de trabajo y monitorizar su ejecución](start-monitor-workflows.md)

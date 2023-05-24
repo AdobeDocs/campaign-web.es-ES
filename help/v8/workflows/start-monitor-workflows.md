@@ -13,7 +13,7 @@ ht-degree: 81%
 
 # Inicio y monitorización de la ejecución del flujo de trabajo {#start-monitor}
 
-Una vez que haya creado el flujo de trabajo y haya diseñado las tareas que se van a realizar en el lienzo del flujo de trabajo, puede iniciar su ejecución y monitorizar cómo se está ejecutando.
+Una vez creado el flujo de trabajo y diseñado las tareas que se realizan en el lienzo del flujo de trabajo, puede iniciar su ejecución y monitorizar cómo se ejecuta.
 
 * ejecución del flujo de trabajo
 
