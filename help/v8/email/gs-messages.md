@@ -4,10 +4,10 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 34%
+source-wordcount: '959'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,9 @@ Puede crear envíos independientes desde el **[!UICONTROL Envíos]** menú de la
 Para crear un envío independiente, siga estos pasos:
 
 1. Vaya a la **[!UICONTROL Envíos]** en el menú de navegación de la izquierda y haga clic en **[!UICONTROL Creación de envíos]** botón.
+
+   ![](assets/create-a-delivery.png)
+
 1. Elija un canal para la entrega. Obtenga más información acerca de los canales de envío y cómo definir un contenido de envío en estas secciones:
 
    * [Canal de correo electrónico](../email/create-email.md)
@@ -108,3 +111,21 @@ Una vez definido el contenido del mensaje, puede obtener una vista previa para c
 ## Registros de seguimiento y entrega{#gs-tracking-logs}
 
 La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Puede monitorizarlas después de enviar una entrega, así como comprender cómo se administran los errores y las cuarentenas.
+
+## Duplicación de una entrega{#delivery-duplicate}
+
+Puede crear una copia de una entrega existente, ya sea desde la lista de entregas o desde el panel de entregas.
+
+Para duplicar una entrega de la lista de envíos, siga estos pasos:
+
+1. Haga clic en el botón de tres puntos de la derecha, junto al nombre de la entrega que desea duplicar.
+1. Seleccionar  **[!UICONTROL Duplicar]**.
+1. Confirmar duplicación: el nuevo panel de envío se abre en la pantalla central.
+
+
+Para duplicar una entrega desde su panel, siga estos pasos:
+
+1. Abra la entrega y haga clic en  **[!UICONTROL ...Más]** botón en la sección superior de la pantalla.
+1. Seleccionar  **[!UICONTROL Duplicar]**.
+1. Confirmar duplicación: la nueva entrega reemplaza la entrega actual en la pantalla central.
+
