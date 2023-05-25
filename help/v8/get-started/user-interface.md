@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
+source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1544'
 ht-degree: 83%
 
 ---
@@ -244,7 +244,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Plantilla de notificaciones push"
->abstract="Por determinar"
+>abstract="Seleccione una plantilla de notificación push para iniciar la entrega push."
 
 
 >[!CONTEXTUALHELP]
