@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 75%
+source-wordcount: '1648'
+ht-degree: 74%
 
 ---
 
@@ -235,6 +235,16 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Definición de la audiencia del SMS"
+>abstract="Seleccione la mejor audiencia para su mensaje SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_audience"
+>title="Definición de la audiencia push"
+>abstract="Seleccione la mejor audiencia para su mensaje push."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
