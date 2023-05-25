@@ -4,10 +4,10 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 38%
+source-wordcount: '604'
+ht-degree: 35%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 incluye los siguientes canales de entrega:
 
 ## Creación de una entrega
 
-Puede crear envíos independientes desde el **Envío** menú principal o cree envíos en el contexto de una campaña de marketing.
+Puede crear envíos independientes desde el **Envíos** menú de la izquierda o cree envíos en el contexto de una campaña de marketing, desde **Campañas** menú izquierdo.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Para crear un envío independiente, siga estos pasos:
 Para crear una entrega en una campaña, siga estos pasos:
 
 1. Cree una campaña o abra una campaña existente.
+1. Cree un flujo de trabajo o abra uno existente.
+1. Adición y configuración de un **Crear audiencia** y haga clic en el botón `+`botón.
+   ![](assets/add-delivery-in-wf.png)
+1. Seleccione una actividad de entrega: correo electrónico, SMS, notificaciones push (Android) o notificaciones push (iOS). Obtenga más información acerca de los canales de envío y cómo definir un contenido de envío en estas secciones:
+
+   * [Canal de correo electrónico](../email/create-email.md)
+   * [Canal de notificaciones push](../push/gs-push.md)
+   * [Canal de SMS](../sms/create-sms.md)
+
+1. Inicie el flujo de trabajo y compruebe los registros.
 
 Para obtener más información sobre cómo configurar una campaña, consulte
 
