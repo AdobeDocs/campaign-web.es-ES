@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 83%
+source-wordcount: '1624'
+ht-degree: 75%
 
 ---
 
@@ -66,7 +66,7 @@ Global report not alpha
 >title="Explorer"
 >abstract="El menú **Explorer** muestra la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, las carpetas y los esquemas de Campaign v8. Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico."
 
-El menú **Explorer** muestra la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, las carpetas y los esquemas de Campaign v8. Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico.
+El menú **Explorer** muestra la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, las carpetas y los esquemas de Campaign v8.
 
 Los elementos mostrados en el Explorador dependen de los permisos de usuario.
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="Envíos"
 >abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón &quot;Crear entrega&quot; para añadir una nueva entrega. Seleccione una entrega para ver su contenido, audiencia y detalles."
 
-* **Campañas**: esta es la lista de sus campañas. De forma predeterminada, puede ver las fechas y estados de modificaciones iniciales, finales y últimas. Puede filtrar la lista por estado o fechas de inicio/finalización. Las plantillas de campaña también están disponibles. Estas listas son de solo lectura.
+En la sección CAMPAIGN MANAGEMENT, puede acceder a campañas de marketing, envíos y flujos de trabajo.
+
+* **Campañas** : Esta es la lista de sus campañas y plantillas de campaña. De forma predeterminada, para cada campaña se pueden ver las fechas de inicio, finalización, creación y última modificación, el estado actual y el nombre del operador de Campaign que la creó. Puede filtrar la lista por estado, fechas de inicio/finalización, carpeta o crear un filtro avanzado para definir sus propios criterios de filtrado.
 
 * **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la Consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=es){target="_blank"}.
 
    Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Flujos de trabajo** : En esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña.
+
 
 ### Administración de clientes
 

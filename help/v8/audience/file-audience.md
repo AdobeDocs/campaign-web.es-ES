@@ -4,10 +4,10 @@ title: Destinatarios de destino de un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 21%
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
 
@@ -50,6 +50,10 @@ Para segmentar perfiles desde un archivo local directamente desde la interfaz, s
 Al crear y personalizar el contenido del mensaje, puede seleccionar campos del archivo de entrada en el editor de personalización.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>No puede utilizar [grupos de control](control-group.md) al cargar la población de destinatarios desde un archivo externo.
 
 ## Archivo de muestra {#sample-file}
 
