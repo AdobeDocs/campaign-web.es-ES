@@ -4,10 +4,10 @@ title: Acerca de la vista previa y la prueba de los correos electrónicos
 description: Obtenga información sobre cómo previsualizar y probar correos electrónicos
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Antes de enviar un correo electrónico, es importante revisar y probar su conten
 Para ello, Adobe Campaign le permite lo siguiente:
 
 * [Previsualizar y personalizar el contenido del correo electrónico](preview-content.md),
-   <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [Compruebe el procesamiento del correo electrónico](#rendering) en clientes populares de equipos de escritorio, móviles y basados en web,
 * [Enviar correos electrónicos de prueba](proofs.md) a destinatarios específicos para pruebas y validaciones.
 
 Estas acciones se pueden realizar desde el botón **[!UICONTROL Simular contenido]** al que se puede acceder al crear el contenido del correo electrónico desde el Diseñador de correo electrónico:
