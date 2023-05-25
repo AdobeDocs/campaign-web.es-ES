@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
+source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 74%
+source-wordcount: '1598'
+ht-degree: 72%
 
 ---
 
@@ -95,15 +95,15 @@ Navtree view depends on permissions (same as console).
 
 En la sección CAMPAIGN MANAGEMENT, puede acceder a campañas de marketing, envíos y flujos de trabajo.
 
-* **Campañas** : Esta es la lista de sus campañas y plantillas de campaña. De forma predeterminada, para cada campaña se pueden ver las fechas de inicio, finalización, creación y última modificación, el estado actual y el nombre del operador de Campaign que la creó. Puede filtrar la lista por estado, fechas de inicio/finalización, carpeta o crear un filtro avanzado para definir sus propios criterios de filtrado.
+* **Campañas** : Esta es la lista de sus campañas y plantillas de campaña. De forma predeterminada, para cada campaña se pueden ver las fechas de inicio, finalización, creación y última modificación, el estado actual y el nombre del operador de Campaign que la creó. Puede filtrar la lista por estado, fechas de inicio/finalización, carpeta o crear un filtro avanzado para definir sus propios criterios de filtrado. Obtenga más información acerca de las campañas de [en esta sección](../campaigns/gs-campaigns.md).
 
-* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Las plantillas de envío también están disponibles en modo de solo lectura. Puede utilizar la Consola de cliente para editarlas. Consulte esta [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=es){target="_blank"}.
+* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Más información sobre las entregas [en esta sección](../email/gs-messages.md).
 
    Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Flujos de trabajo** : En esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña.
+* **Flujos de trabajo** : En esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña. Más información sobre los flujos de trabajo [en esta sección](../workflows/gs-workflows.md).
 
 
 ### Administración de clientes
@@ -126,7 +126,6 @@ En la sección CAMPAIGN MANAGEMENT, puede acceder a campañas de marketing, env�
 * **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura.
 * **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Esta lista es de solo lectura.
 * **Listas de suscripciones**: examine las listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Esta lista es de solo lectura.
-* **Flujos de trabajo de segmentación**: acceda a su lista de flujos de trabajo de la campaña. De forma predeterminada, puede ver su estado, las fechas del último y próximo procesamiento y el entorno. Puede filtrar la lista por estado, fecha de último procesamiento y tipo de flujo de trabajo. Las plantillas de flujo de trabajo también están disponibles. Estas listas son de solo lectura.
 
 ### Gestión de decisiones
 
