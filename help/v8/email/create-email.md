@@ -4,15 +4,20 @@ title: Envíe su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Envíe su primer correo electrónico {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Envíe su primer correo electrónico con Adobe Campaign"
+>abstract="Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a una audiencia existente en un caso de uso de extremo a extremo."
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
@@ -20,7 +25,7 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 
 ![](assets/delivery-list.png)
 
-## Creación del correo electrónico {#create-email}
+## Creación del correo electrónico envío {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 >title="Propiedades del correo electrónico "
 >abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
 
-1. Para crear un nuevo envío, vaya al menú **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón **[!UICONTROL Crear envío]**.
+Para crear una nueva entrega, siga estos pasos:
+
+1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
 
 1. Seleccione **[!UICONTROL Correo electrónico]** como canal y elija una plantilla.
 
@@ -60,11 +67,6 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
    Además, se puede acceder a la configuración avanzada, como las reglas de tipología y las asignaciones de destinatario, haciendo clic en el botón situado junto al nombre del envío. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico.
 
 ## Creación de contenido de correo electrónico {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Aprenda a diseñar su contenido de correo electrónico"
->abstract="Aprenda a utilizar el diseñador de correo electrónico."
 
 Encontrará instrucciones detalladas sobre cómo configurar el contenido del correo electrónico en [esta sección](../content/edit-content.md).
 
