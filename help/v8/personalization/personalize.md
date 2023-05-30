@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 90%
+source-wordcount: '824'
+ht-degree: 67%
 
 ---
 
 
 # Personalización de su contenido{#add-personalization}
+
+Para sacar el máximo partido a cada campaña de marketing, Adobe Campaign le ofrece una forma de ofrecer contenido personalizado que hable con los clientes de su nivel. En función de los datos de perfil, utilice funcionalidades de personalización para crear una experiencia personalizada para diferentes grupos e individuos: puede adaptar los mensajes a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, intereses, dónde viven, qué compraron y mucho más.
+
+Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados. Las funcionalidades de personalización se pueden combinar para mejorar sus mensajes y crear una experiencia de usuario personalizada.
 
 Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
@@ -29,26 +33,27 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
 * Inserción predefinida de los **bloques de contenido**
 
-   Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. Los bloques de contenido están disponibles en la entrada del editor de personalización.
+   Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede agregar un logotipo, un mensaje de saludo o un vínculo a la página espejo de un mensaje de correo electrónico. Los bloques de contenido están disponibles en una entrada dedicada del editor de personalización.
 
    ![](assets/perso-content-blocks.png)
 
 * Crear **contenido condicional**
 
-   Configure el contenido condicional para añadir personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando una condición en particular es verdadera.
+   Configure el contenido condicional para añadir personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando una condición en particular es verdadera. Puede definir la versión alternativa del contenido cuando la condición no sea verdadera.
 
 
-## Personalización de la línea de asunto del correo electrónico {#personalize-subject-line}
+## Personalizar la línea de asunto de un mensaje {#personalize-subject-line}
 
 Para añadir la personalización en el campo **[!UICONTROL Línea de asunto]** del mensaje, siga los pasos a continuación:
 
-1. Haga clic en el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]** a la derecha del campo **[!UICONTROL Línea de asunto]**.
+1. Abra una entrega y haga clic en **[!UICONTROL Editar contenido]**.
+1. Haga clic en **[!UICONTROL Abrir diálogo de personalización]** en la parte derecha del **[!UICONTROL Línea de asunto]** para correos electrónicos, o el campo **[!UICONTROL Título]** campos para envíos push/SMS.
 
    ![](assets/perso-subject.png){width="600"}
 
-1. Escriba el contenido de la línea de asunto y seleccione los atributos de personalización que desea añadir.
+1. Introduzca la línea de asunto o el título y seleccione los atributos de personalización que desee añadir.
 
-1. Clic **[!UICONTROL Confirmar]**** para validar. Los atributos de personalización se añaden a la línea de asunto.
+1. Haga clic en **[!UICONTROL Confirmar]** para validar. Los atributos de personalización se añaden al contenido.
 
 ## Personalización del contenido del correo electrónico {#personalize-emails}
 
