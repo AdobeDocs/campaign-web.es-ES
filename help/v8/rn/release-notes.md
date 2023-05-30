@@ -4,10 +4,10 @@ title: Notas de la versión 8 de la web de Campaign
 description: Notas de la versión 8 de la web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -24,24 +24,29 @@ Esta nueva interfaz web de Campaign actualmente solo está disponible para **pro
 
 La nueva IU de la web de Campaign ofrece una nueva experiencia del usuario, alineada con todas las soluciones y aplicaciones de Adobe Experience Cloud. Ofrece lo siguiente:
 
-* Acceso a la nueva interfaz y a otras soluciones de Adobe con una sola sesión de usuario compartida
+* Acceso a la nueva interfaz y a las demás soluciones de Adobe con una sola sesión de usuario compartida
 * Una nueva experiencia de navegación. Todos los menús y carpetas están disponibles en el carril izquierdo
 * Conmutadores de soluciones y organizaciones de la barra superior
 * Integración con Unified Shell, con acceso directo a la comunidad, al centro de ayuda y soporte
-<!--
-No search and pulse notifications in Alpha
--->
+
+**Nuevas y potentes funciones y procesos sin problemas**
+
+* Interfaz de lienzo de flujo de trabajo reinventada para diseñar y administrar sus procesos
+* Contenido dinámico para ofrecer experiencias con un alto nivel de segmentación y personalización a su audiencia
+* Integración nativa con audiencias de Adobe Experience Platform
+* Administración de plantillas para flujos de trabajo, envíos, campañas y contenido
 
 Obtenga más información sobre la nueva IU en [esta página](../get-started/user-interface.md).
 
-**Cree, inicie y mida su campaña de correo electrónico**
+**Cree, inicie y mida su campaña**
 
 Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../content/edit-content.md)
+* Envíe campañas en canales múltiples, incluidos SMS y notificaciones push.
 * Definir audiencias de destinatarios con el generador de reglas: [más información](../audience/about-audiences.md)
 * Previsualización, prueba y envío de mensajes de correo electrónico: [Más información](../monitor/prepare-send.md)
-* Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/reports.md)
+* Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -62,12 +67,9 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 
 ## Limitaciones{#limitations-alpha}
 
-Algunas funciones clave de Campaign, como las campañas en canales múltiples y administración de flujos de trabajo, estarán disponibles con la versión Beta.
-
 Las limitaciones siguientes se aplican a esta versión alfa:
 
-* Los únicos objetos editables son los envíos. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
-* Esta versión está diseñada para una de las campañas de correo electrónico. Otros canales aún no son compatibles.
+* Los únicos objetos editables son Deliveries, Campaigns, Workflows, Audiences y Templates. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
 * La interfaz de usuario de Administración no está disponible.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.

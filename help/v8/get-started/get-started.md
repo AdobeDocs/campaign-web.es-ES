@@ -4,34 +4,35 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 98%
 
 ---
 
-# Introducción a la web de la versión 8 de Campaign {#get-started}
+# Introducción a Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Introducción"
 >abstract="Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales."
 
->[!NOTE]
->
->La web de la versión 8 de Campaign está actualmente en la versión alfa. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso.
 
 Adobe Campaign ofrece una plataforma para elaborar experiencias multicanal para los clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
 Inicialmente, solo estaba disponible a través de la [consola del cliente](#ac-client). Aunque ahora, Campaign proporciona una nueva web con una interfaz de usuario mejorada: con facilidad de uso, accesibilidad y un nuevo diseño para mejorar significativamente la experiencia del usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
-
 
 ![](assets/home.png)
 
 Esta nueva interfaz de usuario atiende primero a las necesidades del **profesional empresarial**. Todas las tareas de administración típicas no están disponibles en esta primera versión, pero se abordarán en versiones posteriores. Tenga en cuenta que, por ahora, no todas las funciones u opciones disponibles en la consola del cliente están disponibles en la nueva interfaz de usuario. En futuras versiones habrá disponibles nuevos casos de uso, opciones y funciones.
 
 Si necesita acceder a las funciones de la versión 8 de Campaign que no están disponibles en la IU de la web, puede usar la variable [consola del cliente](#ac-client).
+
+
+>[!NOTE]
+>
+>La web de la versión 8 de Campaign está actualmente en la versión alfa. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso.
 
 ## Acerca de la consola del cliente de Campaign{#ac-client}
 

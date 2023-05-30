@@ -4,7 +4,7 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 30%
@@ -50,7 +50,7 @@ Para crear un envío independiente, siga estos pasos:
 1. Utilice el  **[!UICONTROL Simular contenido]** para probar el envío y la configuración de personalización. Obtenga más información sobre la simulación de mensajes en [esta sección](../preview-test/preview-test.md).
 1. Haga clic en  **[!UICONTROL Preparar]** para calcular la población objetivo y generar los mensajes. El paso de preparación puede tardar unos minutos. Cuando la preparación haya finalizado, los mensajes estarán listos para enviarse. En caso de error, vaya a la **Registros** para comprobar las alertas y advertencias.
 1. Compruebe los resultados y haga clic en  **[!UICONTROL Enviar]** para empezar a enviar mensajes.
-1. Una vez enviados los mensajes, vaya a **Informes** para acceder a métricas clave. Obtenga más información acerca de los informes de envío en [esta sección](../reporting/reports.md).
+1. Una vez enviados los mensajes, vaya a **Informes** para acceder a métricas clave. Obtenga más información acerca de los informes de envío en [esta sección](../reporting/delivery-reports.md).
 
 >[!TAB Creación de una entrega en una campaña]
 
