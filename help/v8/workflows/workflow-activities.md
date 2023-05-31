@@ -4,10 +4,10 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
+source-git-commit: 38db8be3319c348d3afc6af02a65dce582e3cc97
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 62%
+source-wordcount: '1122'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,9 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 
 Esta actividad le permite definir una audiencia. Puede seleccionar una audiencia de Campaign existente o utilizar el generador de reglas para definir su propia consulta.
 
-El **Crear audiencia** la actividad se puede colocar al principio del flujo de trabajo o después de cualquier otra actividad. Cualquier actividad se puede colocar después de **Crear audiencia**.
+<!--
+The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
+-->
 
 Para crear su propia consulta:
 
@@ -39,13 +41,53 @@ Para seleccionar una audiencia existente,
 
 ### Combinar {#combine}
 
-El **Combinar** la actividad se puede colocar después de cualquier otra actividad, pero no al principio del flujo de trabajo. Cualquier actividad se puede colocar después de **Combinar**.
+Esta actividad le permite procesar conjuntos de datos entrantes. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos. Estos son los tipos de segmentación disponibles:
 
-Union: permite agrupar el resultado de varias actividades en un solo destino. Consulte la sección Unión.
+<!--
+The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
+-->
 
-Intersection: permite extraer solo la población con los mismos resultados de la actividad entrante
+* El **Union** permite agrupar el resultado de varias actividades en un solo destino.
+* El **Intersección** permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad.
+* El **Exclusión** permite excluir elementos de una población según determinados criterios.
 
-Exclusion: permite crear un objetivo basado en un objetivo principal del que se extraen uno o más objetivos.
+Siga estos pasos para configurar el **Combinar** actividad:
+
+1. Añada su **Combinar** actividad a cualquiera de las transiciones de segmentación anteriores.
+1. Seleccione el tipo de segmentación: unión, intersección o exclusión.
+1. Haga clic en **Continue**.
+1. En el **Configura para unirse** , compruebe todas las actividades anteriores a las que desee unirse.
+
+Para el **Union**, siga estos pasos:
+
+1. Seleccione el Tipo de reconciliación para definir cómo se gestionan los duplicados:
+   * Keys only: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
+   * A selection of columns: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
+
+Para el **Intersección** siga estos pasos:
+
+1. Seleccione el Tipo de reconciliación para definir cómo se gestionan los duplicados. Consulte la **Union** sección anterior.
+1. Marque la opción Generate completement.
+
+Para el **Exclusión**, siga estos pasos:
+
+1. En el **Configura para unirse** , seleccione la **Conjunto principal** de las transiciones de entrada. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
+1. Marque la opción Generate completement.
+
+
+
+
+
+
+
+
+
+
+
+
+Intersection: permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad.
+
+Exclusion: permite excluir elementos de una población según determinados criterios.
 
 ### Enriquecimiento {#enrichment}
 
