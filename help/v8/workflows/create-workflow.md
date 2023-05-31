@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 4%
 
 ---
 
@@ -28,13 +28,15 @@ El primer paso para crear el flujo de trabajo en Campaign v8 Web es crearlo como
    * **Flujo de trabajo independiente**: vaya al menú Flujos de trabajo y haga clic en el botón Crear flujo de trabajo en la esquina superior derecha.
    * **Flujo de trabajo de campaña:** Vaya al menú Campaigns y abra la campaña donde desee crear un nuevo flujo de trabajo. Haga clic en el botón Create workflow en la esquina superior derecha de la pestaña Workflows.
 
-1. Aparecerá el cuadro de diálogo Propiedades del flujo de trabajo. Seleccione la plantilla que desea utilizar para crear el flujo de trabajo y asígnele un nombre.
-
-   Las plantillas de flujo de trabajo contienen actividades preconfiguradas y configuraciones de propiedad generales que se pueden reutilizar para crear nuevos flujos de trabajo. Se crean desde la consola del cliente. [Aprenda a trabajar con plantillas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   Aparecerá el cuadro de diálogo Propiedades del flujo de trabajo.
 
    ![](assets/workflow-create.png)
 
-1. En la sección Opciones adicionales, configure las opciones específicas del flujo de trabajo, como la carpeta de almacenamiento y la zona horaria. [Obtenga información sobre cómo configurar las propiedades del flujo de trabajo](workflow-settings.md)
+1. Seleccione la plantilla que desea utilizar para crear el flujo de trabajo y proporcione una etiqueta para él.
+
+   Las plantillas de flujo de trabajo contienen actividades preconfiguradas y configuraciones de propiedad generales que se pueden reutilizar para crear nuevos flujos de trabajo. Se crean desde la consola del cliente. [Aprenda a trabajar con plantillas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. Expanda la sección Opciones adicionales si desea configurar opciones específicas para el flujo de trabajo, como la carpeta de almacenamiento y la zona horaria. [Obtenga información sobre cómo configurar las propiedades del flujo de trabajo](workflow-settings.md)
 
 1. Haga clic en el botón Create workflow para confirmar la creación del flujo de trabajo.
 
