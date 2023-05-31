@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '287'
+ht-degree: 91%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 0%
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
       + [Configuración del flujo de trabajo](workflows/workflow-settings.md)
       + [Inicio y monitorización de un flujo de trabajo](workflows/start-monitor-workflows.md)
-   + [Actividades de flujo de trabajo](workflows/workflow-activities.md)
+   + Trabajo con actividades del flujo de trabajo {#design-workflows}
+      + [Acerca de actividades de flujo de trabajo](workflows/activities/about-activities.md)
+      + [And-join](workflows/activities/and-join.md)
+      + [Generar público destinatario](workflows/activities/build-audience.md)
+      + [Combinar](workflows/activities/combine.md)
+      + [Correo electrónico](workflows/activities/email.md)
+      + [Fin](workflows/activities/end.md)
+      + [Enriquecimiento](workflows/activities/enrichment.md)
+      + [Bifurcación](workflows/activities/fork.md)
+      + [Push](workflows/activities/push.md)
+      + [SMS](workflows/activities/sms.md)
+      + [Espera](workflows/activities/wait.md)
 + Creación de informes {#reports}
    + [Introducción a los informes](reporting/gs-reports.md)
    + [Acceso a informes de envío](reporting/delivery-reports.md)
