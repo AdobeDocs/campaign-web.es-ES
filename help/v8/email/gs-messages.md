@@ -4,7 +4,7 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 30%
@@ -63,9 +63,9 @@ Para crear una entrega en una campaña, siga estos pasos:
 
    ![](assets/add-delivery-in-wf.png)
 
-   El **[!UICONTROL Crear audiencia]** la actividad se detalla en [esta sección](../workflows/targeting-activities.md).
+   El **[!UICONTROL Crear audiencia]** la actividad se detalla en [esta sección](../workflows/workflow-activities.md#targeting).
 
-1. Seleccione una actividad de entrega: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta sección [sección](../workflows/channel-activities.md).
+1. Seleccione una actividad de entrega: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta sección [sección](../workflows/workflow-activities.md#channel).
 1. Inicie el flujo de trabajo y compruebe los registros.
 
 También puede añadir envíos en una campaña sin crear un flujo de trabajo. Para conseguirlo, vaya a la **[!UICONTROL Envíos]** de la campaña y haga clic en el icono **[!UICONTROL Creación de envíos]** botón.
