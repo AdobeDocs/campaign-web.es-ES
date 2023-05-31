@@ -7,8 +7,8 @@ breadcrumb-title: Información general de Campaign
 hide: true
 source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

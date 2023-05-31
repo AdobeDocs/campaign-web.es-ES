@@ -4,10 +4,10 @@ title: Introducción a las audiencias
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introducción a las audiencias"
->abstract="Aprenda a utilizar el generador de reglas de Campaign y defina criterios de filtrado para crear audiencias para los mensajes."
+>abstract="Aprenda a utilizar el generador de reglas de Campaign y defina criterios de filtrado para crear audiencias para los mensajes. También puede utilizar fácilmente datos de un archivo externo o dirigirse a audiencias de Adobe Experience Platform."
 
 <!--
 Audience only created for the delivery, not available later-->
