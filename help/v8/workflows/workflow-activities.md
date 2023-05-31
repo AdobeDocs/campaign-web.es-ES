@@ -4,10 +4,10 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 60%
+source-wordcount: '904'
+ht-degree: 62%
 
 ---
 
@@ -40,6 +40,12 @@ Para seleccionar una audiencia existente,
 ### Combinar {#combine}
 
 El **Combinar** la actividad se puede colocar después de cualquier otra actividad, pero no al principio del flujo de trabajo. Cualquier actividad se puede colocar después de **Combinar**.
+
+Union: permite agrupar el resultado de varias actividades en un solo destino. Consulte la sección Unión.
+
+Intersection: permite extraer solo la población con los mismos resultados de la actividad entrante
+
+Exclusion: permite crear un objetivo basado en un objetivo principal del que se extraen uno o más objetivos.
 
 ### Enriquecimiento {#enrichment}
 
