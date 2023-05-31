@@ -5,7 +5,8 @@ description: Obtenga información sobre cómo crear y utilizar plantillas de env
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 4%
@@ -70,5 +71,3 @@ Para configurar una plantilla de envío desde cero, siga los pasos a continuaci�
 1. Defina el nombre y la configuración de la plantilla.
 1. Haga clic en **[!UICONTROL Revisar]** para definir el contenido de la plantilla y cambiar sus propiedades.
 1. Guarde la nueva plantilla.
-
-

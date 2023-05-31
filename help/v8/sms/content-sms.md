@@ -3,7 +3,8 @@ audience: end-user
 title: Diseño de una entrega de SMS
 description: Aprenda a diseñar su envío de SMS
 badge: label="Alpha" type="Positive"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 6%
