@@ -4,7 +4,7 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: acb9eb0b0f6ff9084345f754f2da73af7d765dc5
+source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 4%
@@ -57,7 +57,7 @@ Vaya al menú Campaigns y abra la campaña donde desee crear un nuevo flujo de t
 
    ![](assets/workflow-create.png)
 
-Con el flujo de trabajo creado, ahora puede empezar a organizar las distintas tareas que realizará mediante un lienzo visual dedicado. [Obtenga información sobre cómo organizar actividades de flujo de trabajo](build-workflow.md)
+Con el flujo de trabajo creado, ahora puede empezar a organizar las distintas tareas que realizará mediante un lienzo visual dedicado. [Obtenga información sobre cómo organizar actividades de flujo de trabajo](#build)
 
 ## Organización de las actividades del flujo de trabajo {#build}
 
