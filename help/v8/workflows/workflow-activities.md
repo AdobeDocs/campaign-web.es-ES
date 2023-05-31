@@ -4,9 +4,9 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 38db8be3319c348d3afc6af02a65dce582e3cc97
+source-git-commit: ebd119a38129f8576ad9b4e4b9301b116a255c9b
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1140'
 ht-degree: 52%
 
 ---
@@ -26,14 +26,20 @@ Esta actividad le permite definir una audiencia. Puede seleccionar una audiencia
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-Para crear su propia consulta:
+Siga estos pasos para configurar el **Crear audiencia** actividad:
+
+1. Añada una actividad Build audience.
+1. Defina una etiqueta.
+1. Defina el tipo de audiencia: **Cree su propio** o **Leer audiencia**.
+
+Para crear su propia consulta, siga estos pasos adicionales:
 
 1. Seleccionar **Cree su propio (consulta)**.
 1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el objetivo se selecciona en los destinatarios. Consulte la [Documentación de v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 1. Haga clic en **Continue**.
 1. Utilice el generador de reglas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. Consulte esta [sección](../audience/segment-builder.md).
 
-Para seleccionar una audiencia existente,
+Para seleccionar una audiencia existente, siga estos pasos:
 
 1. Seleccionar **Leer audiencia**.
 1. Haga clic en **Continue**.
@@ -58,36 +64,14 @@ Siga estos pasos para configurar el **Combinar** actividad:
 1. Haga clic en **Continue**.
 1. En el **Configura para unirse** , compruebe todas las actividades anteriores a las que desee unirse.
 
-Para el **Union**, siga estos pasos:
+Para el **Union** y **Intersección**, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
-1. Seleccione el Tipo de reconciliación para definir cómo se gestionan los duplicados:
-   * Keys only: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
-   * A selection of columns: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
+    * Solo claves: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
+    * A selection of columns: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
-Para el **Intersección** siga estos pasos:
+Para el **Intersección** y **Exclusión**, puede comprobar las **Generar finalización** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se agregará una transición saliente adicional a la actividad.
 
-1. Seleccione el Tipo de reconciliación para definir cómo se gestionan los duplicados. Consulte la **Union** sección anterior.
-1. Marque la opción Generate completement.
-
-Para el **Exclusión**, siga estos pasos:
-
-1. En el **Configura para unirse** , seleccione la **Conjunto principal** de las transiciones de entrada. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
-1. Marque la opción Generate completement.
-
-
-
-
-
-
-
-
-
-
-
-
-Intersection: permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad.
-
-Exclusion: permite excluir elementos de una población según determinados criterios.
+Para el **Exclusión**, seleccione la **Conjunto principal** en las transiciones de entrada, en la variable **Configura para unirse** sección. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
 
 ### Enriquecimiento {#enrichment}
 
@@ -135,7 +119,6 @@ ver resultados del filtro visualmente o en la vista de código
 aprovechar los datos de enriquecimiento en Campaign
 
 Donde podemos usar los datos de enriquecimiento: personalice el correo electrónico, ¿otros casos de uso?
-
 
 ## Actividades de canal {#channel}
 
