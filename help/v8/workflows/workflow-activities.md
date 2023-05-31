@@ -4,10 +4,10 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 74%
+source-wordcount: '853'
+ht-degree: 60%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 74%
 
 ## Actividades de segmentación {#targeting}
 
-contenido por determinar
-
-<!--à reformuler-->Estas actividades permiten crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
+Estas actividades permiten crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
 ### Generar público destinatario {#build-audience}
 
+Esta actividad le permite definir una audiencia. Puede seleccionar una audiencia de Campaign existente o utilizar el generador de reglas para definir su propia consulta.
+
+El **Crear audiencia** la actividad se puede colocar al principio del flujo de trabajo o después de cualquier otra actividad. Cualquier actividad se puede colocar después de **Crear audiencia**.
+
+Para crear su propia consulta:
+
+1. Seleccionar **Cree su propio (consulta)**.
+1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el objetivo se selecciona en los destinatarios. Consulte la [Documentación de v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Haga clic en **Continue**.
+1. Utilice el generador de reglas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. Consulte esta [sección](../audience/segment-builder.md).
+
+Para seleccionar una audiencia existente,
+
+1. Seleccionar **Leer audiencia**.
+1. Haga clic en **Continue**.
+1. Seleccione la audiencia, del mismo modo que utiliza una audiencia cuando diseña un nuevo correo electrónico. Consulte esta [sección](../audience/add-audience.md).
+
 ### Combinar {#combine}
+
+El **Combinar** la actividad se puede colocar después de cualquier otra actividad, pero no al principio del flujo de trabajo. Cualquier actividad se puede colocar después de **Combinar**.
 
 ### Enriquecimiento {#enrichment}
 
