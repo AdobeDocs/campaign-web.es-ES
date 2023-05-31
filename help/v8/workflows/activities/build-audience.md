@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar audiencia
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Crear audiencia
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 14%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # Generar público destinatario {#build-audience}
 
-Esta actividad le permite definir una audiencia. Puede seleccionar una audiencia de Campaign existente o utilizar el generador de reglas para definir su propia consulta.
+Esta actividad le permite definir una audiencia. Puede seleccionar una audiencia existente o utilizar el generador de reglas para definir su propia consulta.
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

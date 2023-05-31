@@ -4,23 +4,31 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 37%
+source-wordcount: '355'
+ht-degree: 9%
 
 ---
 
 
 # Acerca de las actividades de flujo de trabajo {#workflow-activities}
 
+Las actividades de flujo de trabajo se agrupan en tres categorías. Según el contexto, las actividades disponibles pueden diferir.
+
+Todas las actividades se detallan en las secciones siguientes:
+
+* [Actividades de segmentación](#targeting)
+* [Actividades de canal](#channel)
+* [Actividades de control de flujo](#flow-control)
+
 ## Actividades de segmentación {#targeting}
 
-Estas actividades permiten crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
+Estas actividades son específicas para dirigir, manipular y enriquecer los datos de población. Permiten crear uno o más objetivos definiendo una audiencia y dividiendo o combinando estas audiencias mediante operaciones de intersección, unión o exclusión.
 
-* [Generar público destinatario](build-audience.md)
-* [Combinar](combine.md)
-* [Enriquecimiento](enrichment.md)
+* El [Crear audiencia](build-audience.md) La actividad de le permite definir la población objetivo. Puede seleccionar una audiencia existente o utilizar el generador de reglas para definir su propia consulta.
+* El [Combinar](combine.md) La actividad de permite realizar la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
+* El [Enriquecimiento](enrichment.md) La actividad de le permite definir datos adicionales para procesarlos en el flujo de trabajo. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición de salida con datos adicionales.
 
 ## Actividades de canal {#channel}
 
@@ -30,26 +38,18 @@ Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que i
 
 Mediante las actividades de canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios puntos de contacto e impulsen las conversiones.
 
-Las actividades de canal están disponibles en la paleta, en el lado izquierdo de la pantalla, en la sección Canales.
-
 * [Correo electrónico](email.md)
 * [Push](push.md)
 * [SMS](sms.md)
 
 ## Actividades de control de flujo {#flow-control}
 
-contenido por determinar
+Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades:
 
-<!--à reformuler-->Estas actividades permiten crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
-
-Las actividades de control de flujo se utilizan para coordinar las actividades de flujo de trabajo.
-
-
-* [And-join](and-join.md)
-* [Fin](end.md)
-* [Bifurcación](fork.md)
-* [Espera](wait.md)
-
+* El [And-join](and-join.md) Esta actividad permite sincronizar varias ramas de ejecución de un flujo de trabajo.
+* El [Fin](end.md) La actividad es opcional. Puede usar para
+* El [Tenedor](fork.md) La actividad de le permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
+* El [Esperar](wait.md) la actividad suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
 
 <!--
 ## Data management activities {#data-management}
