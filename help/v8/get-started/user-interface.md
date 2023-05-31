@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1613'
 ht-degree: 72%
 
 ---
@@ -392,3 +392,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_sms_template_selection"
 >title="Selección de plantilla de SMS"
 >abstract="Seleccione una plantilla predefinida para iniciar el envío de SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Entregados"
+>abstract="KPI entregado"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Aperturas"
+>abstract="Abre el KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clics"
+>abstract="Clics de KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Bajas"
+>abstract="KPI de bajas"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="KPI de spam"
