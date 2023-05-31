@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ definir la configuración disponible en el botón del lienzo del flujo de trabaj
 * Nombre interno
 * Carpeta
 * Campaña vinculada > puede cambiarla. Si es así, el flujo de trabajo desaparecerá de la campaña actual y aparecerá en la nueva campaña vinculada
+
+   Al crear un flujo de trabajo dentro de una campaña, encontrará un campo de campaña adicional, que le permite identificar y acceder fácilmente a la campaña asociada al flujo de trabajo.
+
 * Zona horaria: definir una zona horaria específica para utilizarla de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el huso horario del flujo de trabajo es el definido para el operador de Campaign actual.
 * Supervisor: cuando un flujo de trabajo presenta un error, se notifica por correo electrónico a los operadores que pertenecen al grupo de supervisión del flujo de trabajo, siempre y cuando su dirección de correo electrónico se muestre en su perfil. Este grupo está seleccionado en el campo **[!UICONTROL Supervisor]** de las propiedades del flujo de trabajo.
 * descripción

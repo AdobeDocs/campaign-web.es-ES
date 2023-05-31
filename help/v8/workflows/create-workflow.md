@@ -4,9 +4,9 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '635'
 ht-degree: 4%
 
 ---
@@ -21,55 +21,34 @@ ht-degree: 4%
 
 ## Creación del flujo de trabajo {#create-workflow}
 
-El primer paso para crear el flujo de trabajo en Campaign v8 Web es crear el flujo de trabajo como flujo de trabajo independiente o directamente dentro de una campaña y definir sus propiedades.
+El primer paso para crear el flujo de trabajo en Campaign v8 Web es crearlo como un flujo de trabajo independiente o directamente dentro de una campaña y definir sus propiedades generales. Para ello, siga estos pasos:
 
-Para ello, siga estos pasos:
+1. Comience por decidir si desea crear un flujo de trabajo independiente o integrarlo directamente en una campaña:
 
-1. Comience por decidir si desea crear un flujo de trabajo independiente o integrarlo directamente en una campaña.
-
->[!BEGINTABS]
-
->[!TAB Creación de un flujo de trabajo independiente]
-
-Vaya al menú Flujos de trabajo y haga clic en el botón Crear flujo de trabajo en la esquina superior derecha.
-
-![](assets/workflow-create-standalone.png)
-
->[!TAB Creación de un flujo de trabajo de campaña]
-
-Vaya al menú Campaigns y abra la campaña donde desee crear un nuevo flujo de trabajo. Haga clic en el botón Create workflow en la esquina superior derecha de la pestaña Workflows.
-
-![](assets/workflow-create-campaign.png)
-
->[!ENDTABS]
+   * **Flujo de trabajo independiente**: vaya al menú Flujos de trabajo y haga clic en el botón Crear flujo de trabajo en la esquina superior derecha.
+   * **Flujo de trabajo de campaña:** Vaya al menú Campaigns y abra la campaña donde desee crear un nuevo flujo de trabajo. Haga clic en el botón Create workflow en la esquina superior derecha de la pestaña Workflows.
 
 1. Aparecerá el cuadro de diálogo Propiedades del flujo de trabajo. Seleccione la plantilla que desea utilizar para crear el flujo de trabajo y asígnele un nombre.
 
    Las plantillas de flujo de trabajo contienen actividades preconfiguradas y configuraciones de propiedad generales que se pueden reutilizar para crear nuevos flujos de trabajo. Se crean desde la consola del cliente. [Aprenda a trabajar con plantillas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
+   ![](assets/workflow-create.png)
+
 1. En la sección Opciones adicionales, configure las opciones específicas del flujo de trabajo, como la carpeta de almacenamiento y la zona horaria. [Obtenga información sobre cómo configurar las propiedades del flujo de trabajo](workflow-settings.md)
 
-   >[!NOTE]
-   >
-   >Al crear un flujo de trabajo dentro de una campaña, encontrará un campo de campaña adicional, que le permite identificar y acceder fácilmente a la campaña asociada al flujo de trabajo.
-
 1. Haga clic en el botón Create workflow para confirmar la creación del flujo de trabajo.
-
-   ![](assets/workflow-create.png)
 
 Con el flujo de trabajo creado, ahora puede empezar a organizar las distintas tareas que realizará mediante un lienzo visual dedicado. [Obtenga información sobre cómo organizar actividades de flujo de trabajo](#build)
 
 ## Organización de las actividades del flujo de trabajo {#build}
 
-Una vez que lo haya hecho [creó un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que va a realizar.
-
-Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de flujo de trabajo. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
+Una vez que lo haya hecho [creó un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que va a realizar. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de flujo de trabajo. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
 
 En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio del flujo de trabajo. Para añadir la primera actividad, haga clic en el botón + conectado al icono de inicio.
 
-![](assets/workflow-start.png)
+Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de flujo de trabajo. Por ejemplo, al añadir la primera actividad de, puede iniciar el flujo de trabajo segmentando una audiencia, dividiendo la ruta del flujo de trabajo o configurando una actividad de espera para retrasar la ejecución del flujo de trabajo. Por otro lado, después de una actividad Generar audiencia, puede refinar el objetivo con actividades de objetivo, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de flujo de trabajo con actividades de control de flujo.
 
-Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de flujo de trabajo. Por ejemplo, al añadir la primera actividad de, puede iniciar el flujo de trabajo segmentando una audiencia, dividiendo la ruta del flujo de trabajo o configurando una actividad de espera para retrasar la ejecución del flujo de trabajo. Por otro lado, si al añadir una actividad después de una actividad Generar audiencia, puede refinar el objetivo con actividades de objetivo, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de flujo de trabajo con actividades de control de flujo.
+![](assets/workflow-start.png)
 
 Una vez que se ha agregado una actividad al diagrama, aparece un panel derecho que le permite configurar la actividad recién agregada con ajustes específicos. Encontrará información detallada sobre cómo configurar cada actividad en [esta sección](workflow-activities.md).
 
