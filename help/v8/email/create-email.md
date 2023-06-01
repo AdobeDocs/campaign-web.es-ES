@@ -4,10 +4,10 @@ title: Envíe su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 94%
+source-wordcount: '1356'
+ht-degree: 93%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 94%
 # Envíe su primer correo electrónico {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card2"
 >title="Envíe su primer correo electrónico con Adobe Campaign"
->abstract="Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a una audiencia existente en un caso de uso de extremo a extremo."
+>abstract="Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a una audiencia existente en un caso de uso de extremo a extremo."
+
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 

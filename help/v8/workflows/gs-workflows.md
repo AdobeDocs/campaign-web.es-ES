@@ -4,10 +4,10 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 82%
+source-wordcount: '403'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Interfaz de lienzo de flujo de trabajo reimaginada"
->abstract="Nuestro lienzo gráfico completo le facilita el diseño de procesos como la segmentación, la ejecución de campañas y mucho más."
+>abstract="Nuestro lienzo gráfico completo le facilita el diseño de procesos como la segmentación, la ejecución de campañas y mucho más. Con esta herramienta avanzada al alcance de su mano, puede optimizar el flujo de trabajo y aumentar las campañas."
 
 
 ## ¿Qué es un flujo de trabajo?
