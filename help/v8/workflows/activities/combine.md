@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Combinar flujo de trabajo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Combinar
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 26%
+source-wordcount: '439'
+ht-degree: 21%
 
 ---
 
@@ -46,15 +46,15 @@ Para el **Exclusión**, seleccione la **Conjunto principal** en las transiciones
 
 En el siguiente ejemplo, agregamos un **unión** que recupera todos los perfiles de las dos consultas: personas entre 18 y 27 años y personas entre 34 y 40 años.
 
-![](../assets/wokflow-union-example.png)
+![](../assets/workflow-union-example.png)
 
 El siguiente ejemplo muestra el **intersección** entre dos actividades de consulta. Se está utilizando aquí para recuperar perfiles de entre 18 y 27 años y cuya dirección de correo electrónico se ha proporcionado.
 
-![](../assets/wokflow-intersection-example.png)
+![](../assets/workflow-intersection-example.png)
 
-Lo siguiente **exclusión** Este ejemplo muestra dos consultas configuradas para filtrar perfiles que tienen entre 18 y 27 años y tienen una dirección de correo electrónico no válida. Los perfiles con direcciones de correo electrónico no válidas se excluyen del primer conjunto. Esto le permite enviar un correo electrónico, por ejemplo.
+Lo siguiente **exclusión** Este ejemplo muestra dos consultas configuradas para filtrar perfiles que tienen entre 18 y 27 años y tienen un dominio de correo electrónico de adobe. Los perfiles con un dominio de correo electrónico de Adobe se excluyen del primer conjunto.
 
-![](../assets/wokflow-exclusion-example.png)
+![](../assets/workflow-exclusion-example.png)
 
 
 
