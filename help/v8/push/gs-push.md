@@ -4,11 +4,49 @@ title: Introducción a las notificaciones push
 description: Aprenda a crear y enviar notificaciones push con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 15%
 
 ---
 
 # Introducción a las notificaciones push {#push}
+
+Las notificaciones push son esenciales para llegar a los usuarios de su aplicación móvil, incluso cuando no estén utilizando activamente la aplicación. Sirven para varios fines, como proporcionar actualizaciones, impulsar acciones específicas y notificar ofertas. Tenga en cuenta que los usuarios deben incluirse para recibir estas notificaciones.
+
+Para crear notificaciones push, tiene tres opciones:
+
+* Flujos de trabajo: después de añadir una actividad de canal push al flujo de trabajo y configurar los ajustes básicos, puede crear el contenido de las notificaciones push desde el menú del panel derecho. Para obtener instrucciones detalladas sobre cómo configurar el flujo de trabajo, consulte esta página.
+
+* Campañas: Una vez creada una campaña, puede crear una entrega de notificaciones push. Para obtener más información sobre la configuración de la campaña, consulte esta página.
+
+* Envíos independientes: involucre a los clientes de forma directa e instantánea con la entrega de notificaciones push individuales, sin necesidad de flujos de trabajo ni campañas.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-push.md">
+<img alt="Posible cliente" src="assets/do-not-localize/push_create.jpeg">
+</a>
+<div><a href="create-push.md"><strong>Creación de una entrega push</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="content-push.md">
+<img alt="Poco frecuente" src="assets/do-not-localize/push_design.jpeg">
+</a>
+<div>
+<a href="content-push.md">Diseño de una entrega push<strong></strong></a>
+</div>
+<p></td>
+<td>
+<a href="send-push.md">
+<img alt="Validación" src="assets/do-not-localize/push_send.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>Realización de una entrega push</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

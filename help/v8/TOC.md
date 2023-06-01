@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 88%
+source-wordcount: '307'
+ht-degree: 83%
 
 ---
 
@@ -59,10 +59,14 @@ ht-degree: 88%
          + [Configuración de envío de correos electrónicos](advanced-settings/delivery-settings.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
+      + [Creación de una entrega de notificaciones push](push/create-push.md)
+      + [Diseño de una entrega push](push/content-push.md)
+      + [Envío de una entrega de notificaciones push](push/send-push.md)
    + SMS {#sms}
       + [Introducción a los envíos de SMS](sms/gs-sms.md)
-      + [Creación de un envío de SMS](sms/create-sms.md)
+      + [Creación de un envío SMS](sms/create-sms.md)
       + [Diseño de una entrega de SMS ](sms/content-sms.md)
+      + [Envío de un envío SMS ](sms/send-sms.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
