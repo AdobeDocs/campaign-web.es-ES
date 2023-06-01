@@ -4,19 +4,20 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Configuración de los ajustes del flujo de trabajo {#workflow-settings}
+# Configuración avanzada del flujo de trabajo {#workflow-settings}
 
-contenido por determinar
+Al organizar actividades de flujo de trabajo en el lienzo, puede acceder a la configuración avanzada relacionada con el flujo de trabajo. Por ejemplo, puede establecer una zona horaria específica para el flujo de trabajo, administrar cómo debe comportarse el flujo de trabajo en caso de error o administrar el retraso tras el cual debe purgarse el historial del flujo de trabajo.
 
-definir la configuración disponible en el botón del lienzo del flujo de trabajo
-<!--à reformuler-->
+Para ello, haga clic en el **[!UICONTROL Configuración de flujo de trabajo]** en la esquina superior izquierda del lienzo, junto a la etiqueta del flujo de trabajo.
+
+![](assets/workflow-settings.png)
 
 ## Propiedades del flujo de trabajo {#properties}
 
@@ -25,19 +26,15 @@ definir la configuración disponible en el botón del lienzo del flujo de trabaj
 >title="Propiedades del flujo de trabajo"
 >abstract="Por determinar"
 
-(= igual que al crear el flujo de trabajo ? para comprobar)
+La sección de propiedades del flujo de trabajo proporciona propiedades genéricas a las que también se puede acceder al crear el flujo de trabajo.
 
-* Etiqueta
-* Opciones adicionales
-* Nombre interno
-* Carpeta
-* Campaña vinculada > puede cambiarla. Si es así, el flujo de trabajo desaparecerá de la campaña actual y aparecerá en la nueva campaña vinculada
-
-   Al crear un flujo de trabajo dentro de una campaña, encontrará un campo de campaña adicional, que le permite identificar y acceder fácilmente a la campaña asociada al flujo de trabajo.
-
-* Zona horaria: definir una zona horaria específica para utilizarla de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el huso horario del flujo de trabajo es el definido para el operador de Campaign actual.
-* Supervisor: cuando un flujo de trabajo presenta un error, se notifica por correo electrónico a los operadores que pertenecen al grupo de supervisión del flujo de trabajo, siempre y cuando su dirección de correo electrónico se muestre en su perfil. Este grupo está seleccionado en el campo **[!UICONTROL Supervisor]** de las propiedades del flujo de trabajo.
-* descripción
+* **[!UICONTROL Etiqueta]**: etiqueta del flujo de trabajo que se muestra en la lista.
+* **[!UICONTROL Nombre interno]**: nombre interno del flujo de trabajo.
+* **[!UICONTROL Carpeta]**: Carpeta en la que se debe guardar el flujo de trabajo.
+* **[!UICONTROL Campaña vinculada]**: Este campo se muestra si el flujo de trabajo se ha creado dentro de una campaña. Permite abrir la campaña asociada.
+* **[!UICONTROL Timezone]**: Defina una zona horaria específica para utilizarla de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el huso horario del flujo de trabajo es el definido para el operador de Campaign actual.
+* **[!UICONTROL Supervisor]**: Cuando un flujo de trabajo da error, se notifica por correo electrónico a los operadores que pertenecen al grupo de supervisión del flujo de trabajo, siempre y cuando su dirección de correo electrónico se muestre en su perfil.
+* **[!UICONTROL Descripción]**: Utilice este campo para proporcionar una descripción del flujo de trabajo.
 
 ## Configuración de segmentación
 
@@ -46,17 +43,10 @@ definir la configuración disponible en el botón del lienzo del flujo de trabaj
 >title="Configuración de segmentación"
 >abstract="Por determinar"
 
-* Dimensión de segmentación:
+* **[!UICONTROL Dimensión de segmentación]**: Seleccione la dimensión de segmentación que se utilizará para segmentar los perfiles: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
+* **[!UICONTROL Mantener el resultado de poblaciones provisionales entre dos ejecuciones]**: De forma predeterminada, solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. Las tablas de trabajo de ejecuciones anteriores se depuran mediante un flujo de trabajo técnico, que se ejecuta diariamente.
 
-   Durante las operaciones de segmentación de datos, la clave de establecimiento de objetivos se asigna a una dimensión de filtrado. La dimensión objetivo permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite seleccionar la población en función de determinados criterios: titulares de contrato, suscriptores a boletines, etc.
-
-* Conservar resultados: la opción **Mantener el resultado de las poblaciones provisionales entre dos ejecuciones** mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo.  Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para controlar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
-
-   Solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. El flujo de trabajo **[!UICONTROL cleanup]**, que se ejecuta diariamente, depura todas las tablas de trabajo de ejecuciones previas.
-
-   >[!CAUTION]
-   >
-   >Esta opción **nunca** se debe marcar en un flujo de trabajo de **producción**. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
+   Si esta opción está activada, las tablas de trabajo se conservarán incluso después de ejecutar el flujo de trabajo. Puede utilizarlo con fines de prueba y, por lo tanto, solo debe usarse en entornos de desarrollo o ensayo. Nunca se debe comprobar en un flujo de trabajo de producción,
 
 ## Configuración de ejecución del flujo de trabajo
 
