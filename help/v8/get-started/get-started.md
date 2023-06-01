@@ -4,9 +4,9 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Novedades"
->abstract="Descubra la nueva interfaz de usuario, las últimas mejoras, las funcionalidades clave y cómo utilizarlas para crear campañas en canales múltiples para sus audiencias. Con sus funciones fáciles de usar, Campaign le ayuda a optimizar el proceso personalizado de creación de campañas en canales múltiples, impulsar los resultados y obtener una ventaja competitiva. "
+>abstract="Descubra la nueva interfaz de usuario, las últimas mejoras y las funciones clave de Campaign Web, y aprenda a utilizarlas para crear campañas en canales múltiples para sus audiencias. Con sus funciones fáciles de usar, Campaign le ayuda a optimizar el proceso personalizado de creación de campañas en canales múltiples, impulsar los resultados y obtener una ventaja competitiva. "
 
 
 

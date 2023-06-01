@@ -4,10 +4,10 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 18%
+source-wordcount: '353'
+ht-degree: 17%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Diseño y envío de campañas en canales múltiples"
->abstract="Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales. Los canales de correo electrónico, push y SMS están disponibles."
+>abstract="Las funciones de Adobe Campaign le ayudan a administrar los datos centralizados de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales: correo electrónico, push y SMS."
 
-Utilice Adobe Campaign para crear campañas en canales múltiples. Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales. Los canales de correo electrónico, push y SMS están disponibles.
+Utilice Adobe Campaign para crear campañas en canales múltiples. Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales. En esta versión, los canales de correo electrónico, push y SMS están disponibles.
 
 Diseñe y ejecute campañas de correo electrónico de gran volumen para enviar mensajes personalizados, para todas las plataformas y tamaños de pantalla.
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Con las funcionalidades de segmentación de Adobe Campaign, puede ejecutar consultas en una base de datos de gran volumen y definir fácilmente segmentos de marketing dinámicos que se dirijan perfectamente a sus campañas.
+Mida la eficacia de las entregas con informes detallados que incluyen los recuentos de aperturas, clics, reenvíos y más. Con las funcionalidades de segmentación de Adobe Campaign, puede ejecutar consultas en una base de datos de gran volumen y definir fácilmente segmentos de marketing dinámicos que se dirijan perfectamente a sus campañas.
 
 ## Creación de una campaña en canales múltiples {#cross-channel-campaign}
 
