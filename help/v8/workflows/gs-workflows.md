@@ -4,10 +4,10 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 85%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
@@ -47,3 +47,31 @@ Ahora que comprende qué son los flujos de trabajo y qué puede hacer con ellos 
 * Acceso y monitorización
 
 (vínculo a la subsección por determinar)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Acceso y administración de flujos de trabajo" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Acceso y administración de flujos de trabajo</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Posible cliente" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Creación y ejecución de su primer flujo de trabajo</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Poco frecuente" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Trabajo con actividades del flujo de trabajo</strong></a>
+</div>
+<p></td>
+</tr></table>
