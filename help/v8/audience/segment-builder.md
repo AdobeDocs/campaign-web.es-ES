@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Definición de una audiencia con el generador de reglas
+title: Creación de una audiencia con el generador de reglas
 description: Aprenda a trabajar con el Generador de segmentos
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Definición de una audiencia con el generador de reglas {#segment-builder}
+# Creación de una audiencia con el generador de reglas {#segment-builder}
 
 En esta sección se describe cómo crear una audiencia al diseñar un nuevo correo electrónico. La audiencia creada solo se puede utilizar en este correo electrónico.
 
