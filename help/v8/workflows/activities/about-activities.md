@@ -4,7 +4,7 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 8%
@@ -21,6 +21,8 @@ Todas las actividades se detallan en las secciones siguientes:
 * [Actividades de segmentación](#targeting)
 * [Actividades de canal](#channel)
 * [Actividades de control de flujo](#flow-control)
+
+![](../assets/wokflow-activities.png)
 
 ## Actividades de segmentación {#targeting}
 
