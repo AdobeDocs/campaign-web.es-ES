@@ -3,21 +3,24 @@ audience: end-user
 title: Uso de la actividad Flujo de trabajo Correo electrónico
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 46%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 
 # Correo electrónico {#email}
 
-Descripción, qué caso de uso puede realizar (otras actividades comunes que puede vincular antes o después de la actividad)
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-Cómo añadir y configurar la actividad
+how to add and configure the activity
 
-Ejemplo de una actividad configurada dentro de un flujo de trabajo
+example of a configured activity within a workflow
+
+-->
 
 
 La actividad Entrega de correo electrónico permite configurar la entrega de un correo electrónico en un flujo de trabajo.
