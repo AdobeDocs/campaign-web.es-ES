@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 91%
+source-wordcount: '289'
+ht-degree: 88%
 
 ---
 
@@ -79,8 +79,9 @@ ht-degree: 91%
    + Creación y ejecución de su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
-      + [Configuración del flujo de trabajo](workflows/workflow-settings.md)
-      + [Inicio y monitorización de un flujo de trabajo](workflows/start-monitor-workflows.md)
+      + [Organización de actividades](workflows/orchestrate-activities.md)
+      + [Configuración avanzada](workflows/workflow-settings.md)
+      + [Inicio y monitorización del flujo de trabajo](workflows/start-monitor-workflows.md)
    + Trabajo con actividades del flujo de trabajo {#design-workflows}
       + [Acerca de actividades de flujo de trabajo](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
