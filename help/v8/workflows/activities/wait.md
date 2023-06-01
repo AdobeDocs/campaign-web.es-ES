@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Espera
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Espera
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 
@@ -29,4 +29,6 @@ Siga estos pasos para configurar el **Esperar** actividad:
 
 ## Ejemplo
 
+El siguiente ejemplo ilustra el **Esperar** actividad en un caso de uso típico. Se envía una invitación por correo electrónico a un evento. 24 horas después de su envío, se realiza una entrega de SMS a la misma población.
 
+![](../assets/workflow-wait-example.png)
