@@ -4,10 +4,10 @@ title: Notas de la versión 8 de la web de Campaign
 description: Notas de la versión 8 de la web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 79%
 
 ---
 
@@ -70,6 +70,7 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 Las limitaciones siguientes se aplican a esta versión alfa:
 
 * Los únicos objetos editables son Deliveries, Campaigns, Workflows, Audiences y Templates. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
+* Las audiencias no se pueden guardar para un uso futuro.
 * La interfaz de usuario de Administración no está disponible.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
