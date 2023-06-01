@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Creación de una audiencia con el generador de reglas
-description: Aprenda a trabajar con el Generador de segmentos
+title: Creación de una audiencia con el generador de reglas de Campaign
+description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 97%
 
 ---
 
-# Creación de una audiencia con el generador de reglas {#segment-builder}
+# Definición de una audiencia con el generador de reglas {#segment-builder}
 
 En esta sección se describe cómo crear una audiencia al diseñar un nuevo correo electrónico. La audiencia creada solo se puede utilizar en este correo electrónico.
 
