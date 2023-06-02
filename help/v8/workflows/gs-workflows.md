@@ -4,10 +4,10 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '390'
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 79%
 >id="acw_homepage_card4"
 >title="Interfaz de lienzo de flujo de trabajo reimaginada"
 >abstract="Nuestro lienzo gráfico completo le facilita el diseño de procesos como la segmentación, la ejecución de campañas y mucho más. Con esta herramienta avanzada al alcance de su mano, puede optimizar el flujo de trabajo y aumentar las campañas."
-
 
 ## ¿Qué es un flujo de trabajo?
 
@@ -35,8 +34,9 @@ Con el entorno gráfico completo de Adobe Campaign, puede elaborar procesos como
 
 A continuación se muestran algunos ejemplos de cómo puede utilizar flujos de trabajo con Adobe Campaign:
 
-* Descargue un archivo de un servidor, descomprímalo y, a continuación, importe los registros contenidos en la base de datos de Adobe Campaign.
-* Cree una acción de envío, asigne una tarea a uno o varios operadores para trabajar en el contenido, especifique destinatarios y acepte las pruebas antes de iniciar el envío.
+* Inicie una campaña de seguimiento para clientes inactivos,
+* Enviar un correo electrónico de bienvenida a todos los nuevos suscriptores de un servicio,
+* Personalice las entregas multicanal en función del estado del programa de fidelidad de los clientes o los puntos de interés.
 
 ## Vamos a profundizar
 

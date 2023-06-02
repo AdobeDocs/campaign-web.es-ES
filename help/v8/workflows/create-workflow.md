@@ -4,7 +4,7 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 9%
@@ -34,8 +34,8 @@ El primer paso para crear el flujo de trabajo en Campaign v8 Web es crearlo como
 
    Las plantillas de flujo de trabajo contienen actividades preconfiguradas y configuraciones de propiedad generales que se pueden reutilizar para crear nuevos flujos de trabajo. Se crean desde la consola del cliente. [Aprenda a trabajar con plantillas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
-1. Expanda la sección Opciones adicionales si desea configurar opciones específicas para el flujo de trabajo, como la carpeta de almacenamiento y la zona horaria. [Obtenga información sobre cómo configurar las propiedades del flujo de trabajo](workflow-settings.md)
+1. Expanda el **[!UICONTROL Opciones adicionales]** si desea definir una configuración específica para el flujo de trabajo, como la carpeta de almacenamiento y la zona horaria. [Obtenga información sobre cómo configurar las propiedades del flujo de trabajo](workflow-settings.md)
 
-1. Haga clic en el botón Create workflow para confirmar la creación del flujo de trabajo.
+1. Haga clic en **[!UICONTROL Crear flujo de trabajo]** para confirmar la creación del flujo de trabajo.
 
 Con el flujo de trabajo creado, ahora puede empezar a organizar las distintas tareas que realizará mediante un lienzo visual dedicado. [Obtenga información sobre cómo organizar actividades de flujo de trabajo](orchestrate-activities.md)

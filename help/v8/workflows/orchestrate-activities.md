@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 
 ---
 
@@ -33,6 +33,23 @@ Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono El
 >
 >Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione la transición y cambie su etiqueta en el panel derecho.
 
-Una vez completado el flujo de trabajo, añada una actividad End al final del diagrama. Esta actividad le permite marcar visualmente el final de un flujo de trabajo y no tiene impacto funcional.
+VIP A continuación, se muestra un ejemplo de flujo de trabajo diseñado para enviar un correo electrónico a todos los clientes (que no sean clientes de la red) con un correo electrónico que estén interesados en las máquinas de café.
+
+![](assets/workflow-example.png)
+
+Para ello, se han añadido las actividades siguientes:
+
+* A **[!UICONTROL Tenedor]** actividad que divide el flujo de trabajo en tres rutas (una para cada conjunto de clientes),
+* **[!UICONTROL Crear audiencia]** actividades para dirigirse a los tres conjuntos de clientes:
+
+   * Clientes con un correo electrónico,
+   * Clientes que pertenecen a la audiencia preexistente &quot;Interesado en las máquinas de café&quot;,
+   * VIP Clientes que pertenecen a la audiencia preexistente de &quot;recompensa o&quot;.
+
+* A **[!UICONTROL Combinar]** actividad que agrupa a clientes con un correo electrónico y a aquellos interesados en las máquinas de café,
+* A **[!UICONTROL Combinar]** VIP actividad que excluye a los clientes de la,
+* Un **[!UICONTROL Envío de correo electrónico]** actividad que envía un correo electrónico a los clientes resultantes.
+
+Una vez completado el flujo de trabajo, añada. **[!UICONTROL Fin]** actividad al final del diagrama. Esta actividad le permite marcar visualmente el final de un flujo de trabajo y no tiene impacto funcional.
 
 Después de diseñar correctamente el diagrama de flujo de trabajo, puede ejecutar el flujo de trabajo y realizar un seguimiento del progreso de sus distintas tareas. [Obtenga información sobre cómo iniciar un flujo de trabajo y monitorizar su ejecución](start-monitor-workflows.md)
