@@ -4,14 +4,14 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 7%
 
 ---
 
-# Inicio y monitorización de la ejecución del flujo de trabajo {#start-monitor}
+# Inicio y monitorización del flujo de trabajo {#start-monitor}
 
 Una vez creado el flujo de trabajo y diseñado las tareas que se realizan en el lienzo, puede iniciarlo y monitorizar cómo se está ejecutando.
 
@@ -40,7 +40,7 @@ Los indicadores visuales de la esquina superior derecha de cada cuadro de activi
 | ![](assets/activity-status-red.png) | La actividad ha encontrado un error. Para resolver el problema, abra los registros de flujo de trabajo para obtener más información. |
 | ![](assets/activity-status-green.png) | La actividad se ha ejecutado correctamente. |
 
-## Monitorización de registros y tareas
+## Monitorización de registros y tareas {#logs-tasks}
 
 La monitorización de registros y tareas de flujos de trabajo es un paso clave para analizar los flujos de trabajo y asegurarse de que se ejecutan correctamente. Se puede acceder a ellas desde **[!UICONTROL Registros]** que está disponible en la barra de herramientas de acciones y en el panel de propiedades de cada actividad.
 
