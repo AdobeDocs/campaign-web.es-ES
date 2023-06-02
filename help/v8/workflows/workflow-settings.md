@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 21%
+source-wordcount: '858'
+ht-degree: 18%
 
 ---
 
@@ -65,9 +65,7 @@ El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la qu
 
 * **[!UICONTROL Afinidad predeterminada]**: Si la instalación incluye varios servidores de flujo de trabajo, utilice este campo para elegir el equipo en el que se ejecutará el flujo de trabajo. Si el valor definido en este campo no existe en ningún servidor, el flujo de trabajo permanece pendiente.
 
-* **[!UICONTROL Guardar consultas SQL en el registro]**: permite guardar las consultas SQL del flujo de trabajo en los registros. Esta funcionalidad se reserva únicamente a los usuarios avanzados. Se aplica a flujos de trabajo que contienen actividades de segmentación como **[!UICONTROL Crear audiencia]**. Cuando esta opción está habilitada, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en Adobe Campaign, lo que permite analizarlas para optimizar consultas o diagnosticar problemas.
-
-   Las consultas se muestran en una pestaña **[!UICONTROL SQL logs]** que se añade al flujo de trabajo (excepto a los flujos de trabajo de la campaña) y a la actividad **[!UICONTROL Properties]** cuando la opción está activada.<!-- where?-->
+* **[!UICONTROL Guardar consultas SQL en el registro]**: permite guardar las consultas SQL del flujo de trabajo en los registros. Esta funcionalidad se reserva únicamente a los usuarios avanzados. Se aplica a flujos de trabajo que contienen actividades de segmentación como **[!UICONTROL Crear audiencia]**. Cuando esta opción está habilitada, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en los registros del flujo de trabajo, lo que le permite analizarlas para optimizar consultas o diagnosticar problemas.
 
 ## Configuración de administración de errores
 
