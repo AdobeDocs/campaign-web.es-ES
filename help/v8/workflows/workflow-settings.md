@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 25%
+source-wordcount: '884'
+ht-degree: 21%
 
 ---
 
@@ -26,7 +26,7 @@ Para ello, haga clic en el **[!UICONTROL Configuración de flujo de trabajo]** e
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Propiedades del flujo de trabajo"
->abstract="Por determinar"
+>abstract="En esta sección se proporcionan propiedades genéricas de flujo de trabajo a las que también se puede acceder al crear el flujo de trabajo. Puede elegir la plantilla que desea utilizar para crear el flujo de trabajo y especificar una etiqueta. Expanda la sección Opciones adicionales para configurar opciones específicas, como el flujo de trabajo que almacena la carpeta o la zona horaria."
 
 El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la que también se puede acceder al crear el flujo de trabajo.
 
@@ -43,7 +43,7 @@ El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la qu
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Configuración de segmentación"
->abstract="Por determinar"
+>abstract="En esta sección, puede seleccionar la dimensión objetivo para los perfiles objetivo en el flujo de trabajo y elegir mantener los resultados del flujo de trabajo entre dos ejecuciones. Esta opción solo debe utilizarse con fines de prueba y nunca debe habilitarse en un flujo de trabajo de producción."
 
 * **[!UICONTROL Dimensión de segmentación]**: Seleccione la dimensión de segmentación que se utilizará para segmentar los perfiles: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
 * **[!UICONTROL Mantener el resultado de poblaciones provisionales entre dos ejecuciones]**: De forma predeterminada, solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. Las tablas de trabajo de ejecuciones anteriores se depuran mediante un flujo de trabajo técnico, que se ejecuta diariamente.
@@ -54,8 +54,8 @@ El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la qu
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
->title="Configuración de ejecución"
->abstract="Por determinar"
+>title="Ajustes de ejecución"
+>abstract="En esta sección, puede configurar las opciones relacionadas con la ejecución del flujo de trabajo, como el número de días que se mantiene el historial del flujo de trabajo."
 
 * **[!UICONTROL Historial en días]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación de flujo de trabajo). El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas. La depuración del historial se realiza mediante el flujo de trabajo de limpieza de la base de datos técnico, que se ejecuta de forma predeterminada todos los días.
 
@@ -74,7 +74,7 @@ El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la qu
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configuración de administración de errores"
->abstract="Por determinar"
+>abstract="En esta sección, puede administrar cómo debe comportarse el flujo de trabajo cuando se produce un error durante su ejecución (pausar/detener su ejecución o ignorar errores)."
 
 * **[!UICONTROL Administración de errores]**: Este campo permite definir las acciones que se deben realizar si una tarea de flujo de trabajo presenta errores. Hay dos opciones posibles:
 
