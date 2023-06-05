@@ -3,15 +3,36 @@ audience: end-user
 title: Uso de la actividad Flujo de trabajo Correo electrónico
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '230'
+ht-degree: 3%
 
 ---
 
 
-# Correo electrónico {#email}
+# Correo electrónico, SMS, push {#email}
+
+La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing en varios canales, como correo electrónico, SMS o push. Puede combinar actividades de canal en el lienzo para crear flujos de trabajo entre canales que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente.
+
+Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS y push. También puede enviar un correo electrónico de seguimiento después de que un cliente haya completado una compra o enviar un mensaje de cumpleaños personalizado a un cliente a través de SMS.
+
+Mediante las actividades de canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios puntos de contacto e impulsen las conversiones.
+
+Estos son los pasos para agregar una **Canal** actividad en un flujo de trabajo:
+
+1. Asegúrese de haber agregado un **Crear audiencia** actividad. La audiencia es el destinatario principal de la entrega: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal, sino en el flujo de trabajo **Crear audiencia** actividad. Consulte [esta sección](build-audience.md).
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. Seleccione una actividad de entrega: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
+
+1. Inicie el flujo de trabajo y compruebe los registros.
+
+
+
+
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-La actividad Entrega de correo electrónico permite configurar la entrega de un correo electrónico en un flujo de trabajo.
 
 <!-- Scheduled emails available?
 
