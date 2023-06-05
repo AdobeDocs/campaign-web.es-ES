@@ -3,17 +3,17 @@ audience: end-user
 title: Uso de la actividad Combinar flujo de trabajo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Combinar
 badge: label="Alpha" type="Positive"
-source-git-commit: 98b4b43427266d5f9580733d4674db938713296d
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 21%
+source-wordcount: '548'
+ht-degree: 22%
 
 ---
 
 
 # Combinar {#combine}
 
-Esta actividad le permite procesar conjuntos de datos entrantes. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos. Estos son los tipos de segmentación disponibles:
+Esta actividad le permite realizar la segmentación en la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos. Estos son los tipos de segmentación disponibles:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -23,24 +23,37 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * El **Intersección** permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad.
 * El **Exclusión** permite excluir elementos de una población según determinados criterios.
 
-## Configuración
+## Configuración general {#general}
 
-Siga estos pasos para configurar el **Combinar** actividad:
+Siga estos pasos comunes para comenzar a configurar el **Combinar** actividad:
 
 1. Añada varias actividades, como **Crear audiencia** actividades para formar al menos dos ramas de ejecución diferentes.
-1. Añadir un **Combinar** actividad a cualquiera de las transiciones de segmentación anteriores.
-1. Seleccione el tipo de segmentación: unión, intersección o exclusión.
+1. Añadir un **Combinar** actividad a cualquiera de las ramas anteriores.
+1. Seleccione el tipo de segmentación: [unión](#union), [intersección](#intersection) o [exclusión](#exclusion).
 1. Haga clic en **Continue**.
 1. En el **Configura para unirse** , compruebe todas las actividades anteriores a las que desee unirse.
 
-Para el **Union** y **Intersección**, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
+## Unión {#union}
 
-* Keys only: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
-* A selection of columns: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
+Para el **Union**, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
-Para el **Intersección** y **Exclusión**, puede comprobar las **Generar finalización** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se agregará una transición saliente adicional a la actividad.
+* **Keys only**: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
+* **Una selección de columnas**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
-Para el **Exclusión**, seleccione la **Conjunto principal** en las transiciones de entrada, en la variable **Configura para unirse** sección. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
+## Intersección {#intersection}
+
+Para el **Intersección** Sin embargo, debe seguir estos pasos adicionales:
+
+1. Seleccione el **Tipo de reconciliación** para definir cómo se gestionan los duplicados. Consulte la [Union](#union) sección.
+1. Puede consultar la **Generar finalización** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se agregará una transición saliente adicional a la actividad.
+
+## Exclusión {#exclusion}
+
+Para el **Exclusión** Sin embargo, debe seguir estos pasos adicionales:
+
+1. En el **Configura para unirse** , seleccione la **Conjunto principal** de las transiciones de entrada. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
+1. Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión objetivo que el objetivo principal. Para ello, haga clic en **Añadir una regla** en el **Reglas de exclusión** y especifique las condiciones del cambio de dimensión. La reconciliación de datos se realiza mediante un atributo o una unión.
+1. Puede consultar la **Generar finalización** si desea procesar la población restante. Consulte la [Intersección](#intersection) sección.
 
 ## Ejemplos
 

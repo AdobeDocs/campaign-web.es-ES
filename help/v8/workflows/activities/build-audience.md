@@ -3,17 +3,27 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar audiencia
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Crear audiencia
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 12%
+source-wordcount: '314'
+ht-degree: 9%
 
 ---
 
 
 # Generar público destinatario {#build-audience}
 
-Esta actividad le permite definir una audiencia. Puede seleccionar una audiencia existente o utilizar el generador de reglas para definir su propia consulta.
+El **Crear audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite definir la audiencia que entra en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal, sino en el flujo de trabajo **Crear audiencia** actividad.
+
+Para definir la población de audiencias, puede:
+
+* Seleccione una audiencia existente creada como lista en la consola del cliente.
+* Seleccione una audiencia de Adobe Experience Platform.
+* Cree una nueva audiencia con el generador de reglas definiendo y combinando criterios de filtrado.
+
+>[!NOTE]
+>
+>En este contexto, no se puede cargar una audiencia desde un archivo. Para ello, debe crear un envío independiente. [Más información](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Siga estos pasos para configurar el **Crear audiencia** actividad:
 
-1. Añada una actividad Build audience.
+1. Añadir un **Crear audiencia** actividad.
 1. Defina una etiqueta.
 1. Defina el tipo de audiencia: **Cree su propio** o **Leer audiencia**.
 
