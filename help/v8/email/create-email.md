@@ -4,9 +4,9 @@ title: Envíe su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1329'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Para crear una nueva entrega, siga estos pasos:
 
    >[!NOTE]
    >
-   >Las plantillas son ajustes de envío preconfigurados que se guardan para utilizarlos en el futuro. Los usuarios administradores pueden crearlos en la consola de Adobe Campaign. [Aprenda a trabajar con las plantillas de envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=es){target="_blank"}.
+   >Las plantillas son ajustes de envío preconfigurados que se guardan para utilizarlos en el futuro. [Más información](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro 
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
