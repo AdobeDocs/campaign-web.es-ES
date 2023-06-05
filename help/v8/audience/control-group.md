@@ -4,10 +4,10 @@ title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la IU de la web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 56%
+source-wordcount: '743'
+ht-degree: 44%
 
 ---
 
@@ -53,9 +53,21 @@ En el **Grupo de control** , elija un **Modo de extracción**:
 
 * **Clasificación por atributos**: esta opción permite excluir un conjunto de perfiles en función de los atributos específicos de un orden de clasificación específico.
 
+
+A continuación, utilice el **Límite de tamaño** para establecer el número de perfiles que debe extraer del destinatario principal. Puede ser un número sin procesar (por ejemplo, 50 perfiles que excluir) o un porcentaje de la audiencia inicial (por ejemplo, el 5 % del destinatario principal).
+
+
+### Muestra del grupo de control
+
+Por ejemplo, para crear un grupo de control con los 100 destinatarios más jóvenes, siga estos pasos:
+
+1. Seleccione el **Edad** como criterio de ordenación. Deje el **Ascendente** opción ordenar.
+1. Añada el **Fecha de creación** field. Cambie a la **Descendente** opción ordenar.
+1. Defina 100 como el umbral en la **Límite de tamaño** sección.
+
    ![](assets/control-group2.png)
 
-A continuación, utilice el **Límite de tamaño** para establecer el número de perfiles que debe extraer del destinatario principal. Puede ser un número sin procesar o un porcentaje de la audiencia inicial.
+Estos 100 nuevos destinatarios más jóvenes se excluyen del objetivo principal.
 
 ### Comprobación del grupo de control {#check-extract-target}
 
@@ -89,7 +101,7 @@ Para obtener más información sobre los registros de envío, consulte esta [sec
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Población adicional"
->abstract="Otra forma de definir un grupo de control es excluir una población específica del destinatario mediante una audiencia existente o definiendo una consulta."
+>abstract="Puede excluir una población específica del objetivo seleccionando una audiencia existente o definiendo una consulta."
 
 Otra forma de definir un grupo de control es excluir una población específica del destinatario mediante una audiencia existente o definiendo una consulta.
 
@@ -102,3 +114,8 @@ En la sección **Población adicional** de la pantalla de definición **Grupo de
 * Para definir una nueva consulta, seleccione **Crear su propia consulta** y defina los criterios de exclusión mediante el generador de reglas. Consulte esta [sección](segment-builder.md).
 
 Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta se excluyen del destinatario.
+
+## Comparar los resultados{#control-group-results}
+
+Una vez entregado el envío, puede extraer los registros de envío para comparar el comportamiento entre los perfiles que no recibieron la comunicación y el destinatario efectivo. También puede utilizar los registros de envío para crear un nuevo objetivo.
+
