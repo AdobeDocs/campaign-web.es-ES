@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 84%
+source-wordcount: '316'
+ht-degree: 81%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 84%
             + [Ajustar alineación vertical y relleno](content/alignment-and-padding.md)
             + [Definición de un estilo para los vínculos](content/styling-links.md)
             + [Adición de atributos de estilo alineados](content/inline-styling.md)
-         + [Adición de personalización](personalization/personalize.md)
-         + [Añadir contenido condicional](personalization/conditions.md)
          + [Envío de ofertas](content/offers.md)
       + Vista previa y prueba de sus correos electrónicos {#preview-test}
          + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 84%
       + [Creación de un envío SMS](sms/create-sms.md)
       + [Diseño de una entrega de SMS ](sms/content-sms.md)
       + [Envío de un envío SMS ](sms/send-sms.md)
+   + Haga que el contenido sea dinámico {#dynamic-content}
+      + [Introducción al contenido dinámico](personalization/gs-personalization.md)
+      + [Adición de personalización](personalization/personalize.md)
+      + [Añadir contenido condicional](personalization/conditions.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
