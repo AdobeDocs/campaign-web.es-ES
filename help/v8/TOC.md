@@ -5,7 +5,7 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 81%
@@ -34,7 +34,7 @@ ht-degree: 81%
                + [Empezar desde cero ](content/create-email-content.md)
                + [Importar el contenido de su correo electrónico](content/existing-content.md)
                + [Programe su propio contenido](content/code-content.md)
-               + [Uso de plantillas de contenido de correo electrónico](content/email-templates.md)
+               + [Uso de plantillas de contenido de correo electrónico](content/email-sample-templates.md)
             + [Usar componentes de contenido](content/content-components.md)
             + [Generar la versión de texto](content/text-version-email.md)
             + [Añadir un vínculo a la página espejo](content/mirror-page.md)

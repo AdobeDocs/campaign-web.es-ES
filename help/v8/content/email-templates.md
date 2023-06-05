@@ -4,10 +4,10 @@ product: campaign
 title: Trabajo con plantillas de correo electrónico
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 35%
+ht-degree: 27%
 
 ---
 
@@ -29,7 +29,7 @@ Aprenda a utilizar las plantillas y a guardar el contenido de un correo electró
 
 Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas, siga los pasos a continuación.
 
-1. Abra el [diseñador de correo electrónico](create-email-content.md).
+1. Abra el [Diseñador de correo electrónico](create-email-content.md).
 
 1. En la pantalla **[!UICONTROL Cree su correo electrónico]**, la pestaña **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada.
 
@@ -67,6 +67,6 @@ Para guardar un contenido de correo electrónico como plantilla, siga los pasos 
 
    ![](assets/email_designer-template-name.png)
 
-Ahora puede [usar esta plantilla](#use-templates) para crear nuevo contenido, está disponible en la pestaña Plantillas guardadas del Diseñador de correo electrónico.****
+Ahora puede [usar esta plantilla](#use-templates) para crear un nuevo contenido: está disponible en el **[!UICONTROL Plantillas guardadas]** del Diseñador de correo electrónico.
 
 ![](assets/email_designer-saved-template.png)
