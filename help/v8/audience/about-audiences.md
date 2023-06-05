@@ -4,10 +4,10 @@ title: Introducción a las audiencias
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 53%
+source-wordcount: '217'
+ht-degree: 31%
 
 ---
 
@@ -36,17 +36,16 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-La audiencia es el destinatario principal de la entrega: los destinatarios que reciben los mensajes. El tipo de audiencia depende de la asignación de destino definida en la plantilla de envíos. Consulte esta [sección](../msg/delivery-template.md).
+La audiencia es el destinatario principal de la entrega: los destinatarios que reciben los mensajes. El tipo de audiencia depende de la asignación de destino definida en la plantilla de envíos. Descubra qué es una plantilla de envíos [en esta sección](../msg/delivery-template.md).
 
-Aprenda a utilizar el generador de reglas de Campaign y defina criterios de filtrado para seleccionar la audiencia de sus mensajes. Puede utilizar fácilmente datos de un archivo externo o dirigirse a audiencias de Adobe Experience Platform.
+Para definir la población de audiencias, puede:
 
+* Seleccione una audiencia existente creada como lista en la consola del cliente. [Más información](add-audience.md)
+* Seleccione una audiencia de Adobe Experience Platform. [Más información](aep-audience.md)
+* Cree una nueva audiencia con el generador de reglas definiendo y combinando criterios de filtrado. [Más información](segment-builder.md)
+* Use an audience from an external file: esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas. [Más información](file-audience.md)
 
-Para definir la audiencia, puede hacer lo siguiente:
-
-* Seleccione una audiencia existente creada en la consola del cliente. [Más información](add-audience.md)
-* Cree una nueva audiencia con el generador de reglas. [Más información](segment-builder.md)
-* Utilice una audiencia de un archivo externo. [Más información](file-audience.md)
-* Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md)
+Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Leer audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar una audiencia de un archivo para una entrega de correo electrónico, y la audiencia se define solo en esta actividad dedicada. Obtenga información sobre cómo definir la audiencia de su envío en un flujo de trabajo de la campaña [en esta sección](../workflows/orchestrate-activities.md).
 
 Además, puede utilizar grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de sus campañas. [Más información](control-group.md)
 
