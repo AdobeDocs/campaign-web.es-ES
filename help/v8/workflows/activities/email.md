@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Flujo de trabajo Correo electrónico
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Estos son los pasos para agregar una **Canal** actividad en un flujo de trabajo:
 
 1. Seleccione una **Plantilla**. Las plantillas son ajustes de envío preconfigurados que se guardan para utilizarlos en el futuro. [Más información](../../msg/delivery-template.md)
 
-1. Clic **Creación de envíos** y defina el mensaje del mismo modo que crea un envío independiente. [Más información](../../msg/gs-message.md)
+1. Clic **Creación de envíos** y defina el mensaje del mismo modo que crea un envío independiente. [Más información](../../msg/gs-messages.md)
 
 
 1. Inicie el flujo de trabajo y compruebe los registros.
