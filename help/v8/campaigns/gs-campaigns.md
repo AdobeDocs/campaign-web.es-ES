@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 17%
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Mida la eficacia de las entregas con informes detallados que incluyen los recuen
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de flujos de trabajo"
->abstract="Lista de flujos de trabajo disponibles para la campaña. Utilice el botón &quot;Crear flujo de trabajo&quot; para añadir un flujo de trabajo en la campaña."
+>abstract="Lista de flujos de trabajo disponibles para la campaña. Utilice el botón “Crear flujo de trabajo” para añadir un flujo de trabajo en la campaña."
 
 En una campaña en canales múltiples, una sola comunicación de marketing utiliza diferentes canales. Los datos se pasan entre los canales. El cliente recibe comunicaciones a través de varios canales en función, por ejemplo, de su interacción con la comunicación anterior.
 
@@ -49,7 +49,7 @@ Las propiedades de la campaña se muestran al crear una nueva campaña.
 
 ![Definición de las propiedades de la campaña](assets/campaign-properties.png)
 
-También puede acceder a las propiedades de la campaña desde el **Configuración de la campaña** , junto a la etiqueta de campaña.
+También puede acceder a las propiedades de la campaña desde el icono **Configuración de la campaña**, junto a la etiqueta de la campaña.
 
 En esta pantalla, puede cambiar lo siguiente:
 
@@ -60,15 +60,15 @@ En esta pantalla, puede cambiar lo siguiente:
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programación de creación de campañas"
->abstract="Utilice la sección Schedule de las propiedades de la campaña para seleccionar su periodo de tiempo. La campaña comienza cuando se llega a la fecha Start."
+>abstract="Utilice la sección Programación de las propiedades de la campaña para seleccionar su periodo de tiempo. La campaña comienza cuando se llega a la Fecha de inicio."
 
-Utilice el **Programación** de las propiedades de la campaña para seleccionar su periodo de tiempo. La campaña comienza cuando se llega a la fecha Start.
+Utilice la sección **Programación** de las propiedades de la campaña para seleccionar su periodo de tiempo. La campaña comienza cuando se llega a la Fecha de inicio.
 
 Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro.
 
 ![Lista de campañas](assets/campaign-list.png)
 
-Para filtrar la programación de su campaña, abra los filtros y utilice el **Fecha de inicio y finalización** sección:
+Para filtrar la programación de su campaña, abra los filtros y utilice la sección **Fecha de inicio y finalización**:
 
 ![Lista de campañas](assets/campaign-filter-on-dates.png)
 
