@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 81%
+source-wordcount: '323'
+ht-degree: 77%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 81%
    + [Trabajo con plantillas de envío](msg/delivery-template.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
-      + Creación de contenido de correo electrónico {#content}
-         + [Edición del contenido de correo electrónico](content/edit-content.md)
-         + Diseño del correo electrónico {#design-content}
-            + Empezar a diseñar el contenido {#start-design}
-               + [Empezar desde cero ](content/create-email-content.md)
-               + [Importar el contenido de su correo electrónico](content/existing-content.md)
-               + [Programe su propio contenido](content/code-content.md)
-               + [Uso de plantillas de contenido de correo electrónico](content/email-sample-templates.md)
+      + Definición del contenido del correo electrónico {#content}
+         + [Configuración del contenido del correo electrónico](content/edit-content.md)
+         + Comience a dar forma al correo electrónico {#start-design}
+            + [Introducción al Diseñador de correo electrónico](content/get-started-email-designer.md)
+            + [Empezar desde cero ](content/create-email-content.md)
+            + [Importar el contenido de su correo electrónico](content/existing-content.md)
+            + [Programe su propio contenido](content/code-content.md)
+            + [Uso de plantillas de contenido de correo electrónico](content/email-templates.md)
+         + Diseño del contenido {#design-content}
             + [Usar componentes de contenido](content/content-components.md)
             + [Generar la versión de texto](content/text-version-email.md)
             + [Añadir un vínculo a la página espejo](content/mirror-page.md)
@@ -73,7 +74,7 @@ ht-degree: 81%
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
    + [Definición de una audiencia con el generador de reglas](audience/segment-builder.md)
-   + [Carga de una audiencia desde un archivo](audience/file-audience.md)
+   + [Carga de una audiencia de correo electrónico desde un archivo](audience/file-audience.md)
    + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas multicanal {#campaigns}

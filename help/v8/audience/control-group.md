@@ -4,9 +4,9 @@ title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la IU de la web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '764'
 ht-degree: 44%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 44%
 # Establecer un grupo de control {#control-group}
 
 Un grupo de control es una subpoblación excluida del envío. Puede definir un grupo de control para evitar enviar mensajes a una parte de la audiencia y comparar el comportamiento tras la entrega con el destinatario principal. Esta opción le ayuda a medir el impacto de su campaña.
+
+## Habilitar grupo de control{#add-a-control-group}
 
 Para añadir un grupo de control, active la opción al definir la audiencia del envío. El grupo de control se puede extraer aleatoriamente del objetivo principal o seleccionarse de una población específica. Por lo tanto, hay dos formas principales de definir un grupo de control:
 
@@ -57,7 +59,7 @@ En el **Grupo de control** , elija un **Modo de extracción**:
 A continuación, utilice el **Límite de tamaño** para establecer el número de perfiles que debe extraer del destinatario principal. Puede ser un número sin procesar (por ejemplo, 50 perfiles que excluir) o un porcentaje de la audiencia inicial (por ejemplo, el 5 % del destinatario principal).
 
 
-### Muestra del grupo de control
+### Muestra del grupo de control{#control-group-sample}
 
 Por ejemplo, para crear un grupo de control con los 100 destinatarios más jóvenes, siga estos pasos:
 
@@ -69,7 +71,7 @@ Por ejemplo, para crear un grupo de control con los 100 destinatarios más jóve
 
 Estos 100 nuevos destinatarios más jóvenes se excluyen del objetivo principal.
 
-### Comprobación del grupo de control {#check-extract-target}
+### Comprobación del grupo de control {#check-control-group}
 
 Puede ver los registros para comprobar e identificar los perfiles excluidos. Veamos el ejemplo de una exclusión aleatoria en cinco perfiles.
 
@@ -118,4 +120,7 @@ Los perfiles incluidos en la audiencia o que coinciden con el resultado de la co
 ## Comparar los resultados{#control-group-results}
 
 Una vez entregado el envío, puede extraer los registros de envío para comparar el comportamiento entre los perfiles que no recibieron la comunicación y el destinatario efectivo. También puede utilizar los registros de envío para crear un nuevo objetivo.
+
+Para ver qué perfiles se eliminaron del destinatario, consulte la **Registros de envío**. Obtenga más información [en esta sección](#check-control-group).
+
 
