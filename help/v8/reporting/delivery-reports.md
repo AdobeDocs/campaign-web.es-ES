@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo acceder a los informes de envío y
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
 ht-degree: 100%
 
