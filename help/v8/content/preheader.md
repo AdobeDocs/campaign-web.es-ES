@@ -5,9 +5,9 @@ description: Aprenda a diseñar el contenido de sus correos electrónicos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Para definir el encabezado previo del correo electrónico, siga los pasos a cont
 
    ![](assets/preheader_body.png)
 
-1. Desde el **[!UICONTROL Configuración]** pestaña, añada el preencabezado. Puede personalizarlo aún más haciendo clic en el icono **[!UICONTROL Añadir personalización]**.
+1. Desde la pestaña **[!UICONTROL Configuración]**, añada el preencabezado. Puede personalizarlo aún más haciendo clic en el icono **[!UICONTROL Añadir personalización]**.
 
    ![](assets/preheader_body_settings.png)
 
