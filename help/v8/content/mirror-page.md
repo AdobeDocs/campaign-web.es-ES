@@ -5,9 +5,9 @@ description: Aprenda a añadir y administrar el vínculo a la página espejo
 badge: label="Alpha" type="Positive"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Para añadir un vínculo a una página espejo en el correo electrónico:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Seleccione el **[!UICONTROL Añadir personalización]** para acceder al menú de personalización.
+1. Seleccione el icono **[!UICONTROL Añadir personalización]** para acceder al menú de personalización.
 
    ![](assets/message-tracking-mirror-page_2.png)
 
