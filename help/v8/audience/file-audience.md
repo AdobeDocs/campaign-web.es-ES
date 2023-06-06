@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Destinatarios de destino de un archivo
+title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,20 +34,20 @@ Puede cargar contactos desde un archivo externo. Los perfiles no se añaden a la
 >
 >* Esta funcionalidad solo está disponible para **envíos de correo electrónico independientes**. No se puede utilizar en flujos de trabajo ni con envíos SMS o Push.
 >
->* No puede utilizar [grupos de control](control-group.md) al cargar la población de destinatarios desde un archivo externo.
+>* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
 
 
 
 Para segmentar perfiles desde un archivo local directamente desde la interfaz de correo electrónico, siga estos pasos:
 
 1. Abra una entrega de correo electrónico existente o [creación de un nuevo envío de correo electrónico](../email/create-email.md).
-1. En la ventana de creación de envíos de correo electrónico, en la **Audiencia** , haga clic en **Seleccionar audiencia** y seleccione el botón **Seleccionar del archivo** opción.
+1. En la ventana de creación de envíos de correo electrónico, en la sección **Audiencia**, haga clic en el botón **Seleccionar audiencia** y seleccione la opción **Seleccionar del archivo**.
 
    ![](assets/select-from-file.png)
 
 1. Seleccione el archivo local que desea subir. El formato debe alinearse con la variable [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
-1. Elija la columna que contiene la dirección de correo electrónico de la **Campo de dirección** menú desplegable. También puede seleccionar la columna de lista de bloqueados de la si dispone de dicha información en el archivo de entrada.
+1. Elija la columna que contiene la dirección de correo electrónico del menú desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
 1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
 

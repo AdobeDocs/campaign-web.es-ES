@@ -4,10 +4,10 @@ title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,11 @@ La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketin
 
 Lo siguiente **Canal** Hay actividades disponibles:
 
-* [Correo electrónico](email.md)
-* [Push](push.md)
-* [SMS](sms.md)
+* Correo electrónico
+* Push
+* SMS
+
+Consulte esta [sección](enrichment.md).
 
 ## Actividades de control de flujo {#flow-control}
 

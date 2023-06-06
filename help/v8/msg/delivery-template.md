@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,14 +19,13 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas de enví
 
 Una plantilla puede incluir:
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [Tipologías](../advanced-settings/delivery-settings.md#typology)
+* La dirección del remitente
 * Un [audiencia](../audience/about-audiences.md), incluido [grupos de control](../audience/control-group.md)
-* Personalizado [content](../content/edit-content.md)<!--company logo, or signature-->
-* [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Personalizado [content](../content/edit-content.md)
+* [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md)
 * Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 ## Acceso y administración de plantillas {#access-manage-templates}
 
@@ -77,9 +76,9 @@ Campaign viene con un conjunto de plantillas integradas para cada canal: correo 
 >
 >También puede duplicar cualquier plantilla personalizada.
 
-Para duplicar una plantilla de envíos, siga los pasos a continuación:
+Para duplicar una plantilla de envíos, siga estos pasos:
 
-1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
+1. Vaya a la pestaña **Plantillas**, desde el menú izquierdo **Envíos.** [Más información](#access-manage-templates)
 1. Haga clic en **[!UICONTROL Más acciones]** a la derecha del nombre de la plantilla deseada y seleccione  **[!UICONTROL Duplicar]**.
 
    También puede seleccionar una plantilla de la lista y seleccionar esta opción en la pantalla de edición de plantillas.
@@ -98,7 +97,7 @@ Para duplicar una plantilla de envíos, siga los pasos a continuación:
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
-La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear una nueva entrega.
+La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
 ### Conversión de una entrega en una plantilla {#convert-an-existing-delivery}
 
@@ -119,18 +118,18 @@ Para guardar una entrega como plantilla, siga los pasos a continuación:
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
-La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear una nueva entrega.
+La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
-### Crear una plantilla nueva {#create-a-new-template}
+### Creación de una nueva plantilla {#create-a-new-template}
 
 >[!NOTE]
 >
->Para evitar errores de configuración, Adobe recomienda que [duplicar una plantilla integrada](#copy-an-existing-template) y personalizar sus propiedades en lugar de crear una nueva plantilla.
+>Para evitar errores de configuración, Adobe recomienda [duplicar una plantilla integrada](#copy-an-existing-template) y modificar sus propiedades en lugar de crear una nueva plantilla.
 
-Para configurar una plantilla de envío desde cero, siga los pasos a continuación:
+Para configurar una plantilla de envíos desde cero, siga los pasos a continuación:
 
-1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
-1. Haga clic en **[!UICONTROL Crear plantilla]** botón.
+1. Vaya a la pestaña **Plantillas**, desde el menú izquierdo **Envíos.** [Más información](#access-manage-templates)
+1. Haga clic en el botón **[!UICONTROL Crear plantilla]**.
 
    ![](assets/templates-create-button.png)
 
@@ -156,7 +155,7 @@ Para configurar una plantilla de envío desde cero, siga los pasos a continuaci�
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
-La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear una nueva entrega.
+La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
 ## Prueba de una plantilla de envíos {#test-template}
 

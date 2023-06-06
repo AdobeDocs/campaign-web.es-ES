@@ -4,10 +4,10 @@ title: Configuración de envío de correos electrónicos
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ También puede personalizar el nombre de los correos electrónicos de prueba.
 
 Utilice la opción **Conservar el código de entrega para la prueba** para asociar al correo electrónico de prueba el mismo código de envío que el definido para el envío al que se refiere.
 
-De forma predeterminada, el asunto del correo electrónico de prueba incluye el prefijo “PROOF #”, y “#” es el correo electrónico de prueba. Se puede cambiar este prefijo en el campo **Prefijo de la etiqueta**.
+De forma predeterminada, el asunto del correo electrónico de prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número del correo electrónico de prueba. Se puede cambiar este prefijo en el campo **Prefijo de la etiqueta**.
