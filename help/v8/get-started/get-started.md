@@ -4,7 +4,7 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 89%
@@ -48,7 +48,7 @@ Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos est
 ## Conéctese a Campaign
 
 
-1. Conéctese a [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Conéctese a [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Inicie sesión con sus credenciales de Adobe.
 1. En la sección **Acceso rápido**, haga clic en **Campaign**.
    ![](assets/connect.png)
