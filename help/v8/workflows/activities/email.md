@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Flujo de trabajo Correo electrónico
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,9 @@ Estos son los pasos para agregar una **Canal** actividad en un flujo de trabajo:
 
 ## Ejemplo
 
+Este es un ejemplo de flujo de trabajo en canales múltiples con una segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que tienen una dirección de correo electrónico y que están interesados en las máquinas de café. VIP Entre esta población, se envía un correo electrónico a los clientes habituales y un SMS a los clientes de la.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
