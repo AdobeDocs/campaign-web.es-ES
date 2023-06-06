@@ -4,10 +4,10 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 54%
+source-wordcount: '495'
+ht-degree: 48%
 
 ---
 
@@ -33,21 +33,28 @@ ht-degree: 54%
 >title="Opciones de seguimiento"
 >abstract="De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde aquí."
 
-Para empezar a crear el contenido de un correo electrónico, haga clic en **[!UICONTROL Editar contenido]** del menú contextual [panel de envío de correo electrónico](../email/create-email.md) pantalla.
+El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
+* Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto
+* Realizar acciones adicionales, como agregar archivos adjuntos o configurar ofertas
+* Acceda a la [Diseñador de correo electrónico](get-started-email-designer.md) para empezar a crear el contenido adecuado del correo electrónico
 
-![](assets/email-edit-content.png)
+Para configurar o editar el contenido de un correo electrónico, siga los pasos a continuación.
 
-La pantalla que se abre le permite definir detalles básicos, realizar algunas acciones adicionales, como agregar archivos adjuntos o configurar ofertas, y acceder a [Diseñador de correo electrónico](#start-authoring) para crear el contenido.
+1. Haga clic en **[!UICONTROL Editar contenido]** del menú contextual [panel de envío de correo electrónico](../email/create-email.md) pantalla.
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-Los pasos para editar el contenido del correo electrónico son los siguientes:
+1. Se abre la pantalla de edición de contenido de correo electrónico. Si está configurando un nuevo correo electrónico, la variable **[!UICONTROL Nombre de remitente]** y **[!UICONTROL Desde correo electrónico]** Los campos de ya se han rellenado.
 
-1. En el **[!UICONTROL Nombre de remitente]** , utilice un nombre fácilmente identificable por los destinatarios, como el nombre de su marca, para aumentar la velocidad de apertura de sus envíos.
+   ![](assets/email-edit-content-dashboard.png)
 
-   Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Emma de Megastore&quot;.
+1. El **[!UICONTROL Nombre de remitente]** se define en la plantilla de correo electrónico. Si desea modificarlo, utilice un nombre fácilmente identificable por los destinatarios, como el nombre de su marca, para aumentar la velocidad de apertura de sus envíos.
 
-1. En el **[!UICONTROL Desde correo electrónico]** campo de dirección, asegúrese de que el dominio de dirección sea el mismo que el subdominio que delegó en Adobe.
+   >[!NOTE]
+   >
+   >    Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Emma de Megastore&quot;.
+
+1. El **[!UICONTROL Desde correo electrónico]** el campo de dirección también se define en la plantilla de correo electrónico. Asegúrese de que el dominio de dirección sea el mismo que el subdominio que delegó en Adobe.
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ Los pasos para editar el contenido del correo electrónico son los siguientes:
 
 1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico utilizando [Diseñador de correo electrónico](#start-authoring). En estas secciones encontrará información adicional sobre cómo diseñar el contenido del correo electrónico:
 
-   * [Aprenda a diseñar correos electrónicos](create-email-content.md)
+   * [Crear correos electrónicos desde cero](create-email-content.md)
    * [Estilos del contenido](get-started-email-style.md)
 
 1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**. [Aprenda a añadir vínculos y a administrar el seguimiento](message-tracking.md)
