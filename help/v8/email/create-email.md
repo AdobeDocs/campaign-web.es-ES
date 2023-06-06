@@ -4,10 +4,10 @@ title: Envíe su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 93%
+source-wordcount: '1326'
+ht-degree: 86%
 
 ---
 
@@ -42,7 +42,7 @@ Para crear una nueva entrega, siga estos pasos:
 
 1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
 
-1. Seleccione **[!UICONTROL Correo electrónico]** como canal y elija una plantilla.
+1. Seleccionar **[!UICONTROL Correo electrónico]** como canal y seleccione una plantilla de envíos de correo electrónico de la lista.
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ Para crear una nueva entrega, siga estos pasos:
 
    Además, se puede acceder a la configuración avanzada, como las reglas de tipología y las asignaciones de destinatario, haciendo clic en el botón situado junto al nombre del envío. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico.
 
-## Creación de contenido de correo electrónico {#create-content}
+## Definición del contenido del correo electrónico {#create-content}
 
-Encontrará instrucciones detalladas sobre cómo configurar el contenido del correo electrónico en [esta sección](../content/edit-content.md).
+Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
 
-En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro correo electrónico.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. Para empezar a crear el contenido del correo electrónico, ábralo y haga clic en el botón **[!UICONTROL Editar contenido]**.
+En este caso de uso, se utiliza un correo electrónico predefinido [plantilla de envíos](../msg/delivery-template.md) para diseñar el correo electrónico.
 
-   Esto le lleva a una interfaz donde puede configurar el contenido del correo electrónico y diseñarlo con el Diseñador de correo electrónico.
+1. En el panel de envío de correo electrónico, haga clic en **[!UICONTROL Editar contenido]** botón.
+
+   ![](assets/email-edit-content.png)
+
+   Esto le lleva a una interfaz dedicada en la que puede configurar el contenido del correo electrónico y acceder al Diseñador de correo electrónico. [Más información](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro 
 
 1. Para diseñar el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice una plantilla de diseño predefinida.
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro 
 
     ![](assets/import-folder.png)-->
 
-1. Una vez seleccionada la plantilla, esta se muestra en el Diseñador de correo electrónico, donde puede realizar las ediciones necesarias y añadir personalización.
+1. Una vez seleccionada la plantilla, se muestra en el [Diseñador de correo electrónico](../content/create-email-content.md), donde puede realizar las ediciones necesarias y agregar personalización.
 
    Por ejemplo, para personalizar el título del correo electrónico, seleccione el bloque de componentes y haga clic en **[!UICONTROL Añadir personalización]**.
 
@@ -110,7 +114,7 @@ En este caso de uso, se utiliza una plantilla predefinida para diseñar nuestro 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Definición de la audiencia"
->abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o puede crear una nueva con el generador de reglas. Los grupos de control no están activados para &quot;Seleccionar del archivo&quot; y viceversa."
+>abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o puede crear una nueva con el generador de reglas. Los grupos de control no están habilitados para “Seleccionar del archivo” y viceversa."
 
 En este caso de uso, envíe el correo electrónico a una audiencia existente. Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
 

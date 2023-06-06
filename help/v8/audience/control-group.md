@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 44%
+ht-degree: 46%
 
 ---
 
@@ -28,7 +28,7 @@ Todos los perfiles del grupo de control en la fase de preparación del envío se
 
 >[!CAUTION]
 >
->No se pueden utilizar grupos de control al cargar la población objetivo [desde un archivo externo](file-audience.md).
+>No se pueden utilizar grupos de control al cargar la población de público destinatario [desde un archivo externo](file-audience.md).
 
 Para añadir un grupo de control a una entrega, active la variable **[!UICONTROL Habilitar grupo de control]** alternar, desde el **Audiencia** de la pantalla de creación de envíos.
 

@@ -7,7 +7,7 @@ exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 36%
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,13 @@ Los flujos de trabajo se pueden crear como flujos de trabajo independientes desd
 
 ## ¿Qué hay dentro de un flujo de trabajo?
 
-El diagrama de flujo de trabajo es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se deben realizar y cómo se vinculan entre sí.
+El diagrama de flujo de trabajo es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 
 ![](assets/workflow-example.png)
 
 Cada flujo de trabajo contiene:
 
-* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades se representan en el diagrama mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
+* **Actividades**: una Actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
 
    En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente.
 

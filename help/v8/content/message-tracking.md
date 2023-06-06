@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Guarde los cambios.
 
-1. Una vez creado el vínculo, aún puede modificarlo desde el **[!UICONTROL Configuración]** pestaña.
+1. Una vez creado el vínculo, aún puede modificarlo desde la pestaña **[!UICONTROL Configuración]**.
 
    * Puede editar el vínculo y cambiar su **[!UICONTROL Destinatario]**.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.

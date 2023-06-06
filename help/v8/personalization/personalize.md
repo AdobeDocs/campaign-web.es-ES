@@ -10,7 +10,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 67%
+ht-degree: 77%
 
 ---
 
@@ -37,9 +37,9 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
    ![](assets/perso-content-blocks.png)
 
-* Crear **contenido condicional**
+* Cree **contenido condicional**
 
-   Configure el contenido condicional para añadir personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando una condición en particular es verdadera. Puede definir la versión alternativa del contenido cuando la condición no sea verdadera.
+   Configure el contenido condicional para añadir una personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando se cumple una condición concreta. Puede definir la versión alternativa del contenido cuando la condición no sea verdadera.
 
 
 ## Personalizar la línea de asunto de un mensaje {#personalize-subject-line}
@@ -78,7 +78,7 @@ Para personalizar el contenido del correo electrónico, abra el mensaje en el Di
 
    ![](assets/perso-insert-block.png)
 
-1. Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización, en el paso de preparación de la entrega.
+1. Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización, en el paso de preparación del envío.
 
    ![](assets/perso-content-block-in-email.png)
 
@@ -104,7 +104,7 @@ Para personalizar un **vínculo**:
 
 También puede acceder al editor de personalización cuando añada contenido de texto a las representaciones de sus ofertas. Obtenga más información en [esta sección](../content/offers.md).
 
-## Bloques de contenido integrados {#ootb-content-blocks}
+## Descripción de los bloques de contenido integrados {#ootb-content-blocks}
 
 Descripción de los bloques de contenido integrados:
 

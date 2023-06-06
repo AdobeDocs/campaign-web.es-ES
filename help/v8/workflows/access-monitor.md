@@ -7,16 +7,16 @@ exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
 source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
-# Acceso y administración de flujos de trabajo {#access-monitor}
+# Acceso y administración de los flujos de trabajo {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Flujos de trabajo"
->abstract="En esta pantalla, puede acceder a la lista completa de flujos de trabajo independientes y de campaña, comprobar su estado actual, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo. Vaya a la pestaña &quot;Plantilla&quot; para acceder a las plantillas de flujo de trabajo disponibles."
+>abstract="En esta pantalla, puede acceder a la lista completa de flujos de trabajo independientes y de campaña, comprobar su estado actual, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo. Vaya a la pestaña “Plantilla” para acceder a las plantillas de flujo de trabajo disponibles."
 
 El **[!UICONTROL Flujos de trabajo]** permite acceder a la lista completa de flujos de trabajo. Esta lista incluye ambas **flujos de trabajo independientes** que se hayan creado a partir de esta pantalla, y **flujos de trabajo de campaña**, que se han creado dentro de una campaña.
 

@@ -8,7 +8,7 @@ hide: true
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -82,8 +82,8 @@ ht-degree: 77%
    + [Cree su primera campaña](campaigns/create-campaigns.md)
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
-   + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
-   + Creación y ejecución de su primer flujo de trabajo {#create-workflow}
+   + [Acceso y administración de los flujos de trabajo](workflows/access-monitor.md)
+   + Cree y ejecute su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
       + [Organización de actividades](workflows/orchestrate-activities.md)

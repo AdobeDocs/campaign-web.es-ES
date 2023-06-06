@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 73%
+ht-degree: 99%
 
 ---
 
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campañas"
->abstract="Esta es la lista de sus campañas. Puede ver información útil, como las fechas de inicio/finalización/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Haga clic en el botón Create campaign para añadir una nueva campaña. Seleccione una campaña para ver su contenido, envíos y detalles. Vaya a la pestaña &quot;Plantillas&quot; para ver y crear plantillas."
+>abstract="Esta es la lista de sus campañas. Puede ver información útil, como las fechas de inicio/finalización/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Haga clic en el botón “Crear campaña” para añadir una nueva campaña. Seleccione una campaña para ver su contenido, envíos y detalles. Vaya a la pestaña “Plantillas” para ver y crear plantillas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
->abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón &quot;Crear entrega&quot; para añadir una nueva entrega. Seleccione una entrega para ver su contenido, audiencia y detalles."
+>abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione un envío para ver su contenido, audiencia y detalles."
 
 En la sección CAMPAIGN MANAGEMENT, puede acceder a campañas de marketing, envíos y flujos de trabajo.
 
-* **Campañas** : Esta es la lista de sus campañas y plantillas de campaña. De forma predeterminada, para cada campaña se pueden ver las fechas de inicio, finalización, creación y última modificación, el estado actual y el nombre del operador de Campaign que la creó. Puede filtrar la lista por estado, fechas de inicio/finalización, carpeta o crear un filtro avanzado para definir sus propios criterios de filtrado. Obtenga más información acerca de las campañas de [en esta sección](../campaigns/gs-campaigns.md).
+* **Campañas**: esta es la lista de sus campañas y plantillas de campaña. De forma predeterminada, para cada campaña se pueden ver las fechas de inicio, finalización, creación y última modificación, el estado actual y el nombre del operador de Campaign que la creó. Puede filtrar la lista por estado, fechas de inicio/finalización, carpeta o crear un filtro avanzado para definir sus propios criterios de filtrado. Obtenga más información acerca de las campañas de [en esta sección](../campaigns/gs-campaigns.md).
 
-* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Más información sobre las entregas [en esta sección](../msg/gs-messages.md).
+* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Puede obtener más información sobre los envíos [en esta sección](../msg/gs-messages.md).
 
    Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Flujos de trabajo** : En esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña. Más información sobre los flujos de trabajo [en esta sección](../workflows/gs-workflows.md).
+* **Flujos de trabajo**: en esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña. Puede obtener más información sobre los flujos de trabajo [en esta sección](../workflows/gs-workflows.md).
 
 
 ### Administración de clientes
@@ -237,8 +237,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="Definición de la audiencia del SMS"
->abstract="Seleccione la mejor audiencia para su mensaje SMS."
+>title="Definición de la audiencia SMS"
+>abstract="Seleccione la mejor audiencia para su mensaje de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -248,7 +248,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumen del informe push"
->abstract="Descubra las métricas de creación de informes de su envío push."
+>abstract="Descubra las métricas de creación de informes de su envío Push."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -288,7 +288,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Modo de vista previa"
->abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el destinatario principal."
+>abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el público destinatario principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -304,7 +304,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Envío de creación de informes"
->abstract="Consulte los indicadores de envío para los informes de campaña."
+>abstract="Consulte los indicadores de envío para la creación de informes de campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
@@ -323,7 +323,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Informes agregados para entregas"
+>title="Informes agregados para envíos"
 >abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregado."
 
 >[!CONTEXTUALHELP]
@@ -368,8 +368,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="Propiedades de la entrega push"
->abstract="Administrar las propiedades de la entrega push."
+>title="Propiedades del envío push"
+>abstract="Administrar las propiedades del envío Push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
