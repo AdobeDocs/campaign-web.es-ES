@@ -4,9 +4,9 @@ title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_sms_properties"
 >title="Propiedades de envío de SMS"
 >abstract="Las propiedades engloban los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. Si el envío se basa en un esquema ampliado, hay disponibles campos de opciones personalizadas específicos."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Definición de la audiencia SMS"
+>abstract="Seleccione la mejor audiencia para su mensaje de SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Selección de plantilla de SMS"
+>abstract="Seleccione una plantilla predefinida para iniciar el envío de SMS."
 
 1. Desde la página de inicio **[!UICONTROL Envíos]**, haga clic en **[!UICONTROL Creación de envíos]**.
 
