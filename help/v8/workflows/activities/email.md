@@ -3,15 +3,15 @@ audience: end-user
 title: Uso de la actividad Flujo de trabajo Correo electrónico
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 7%
+source-wordcount: '316'
+ht-degree: 31%
 
 ---
 
 
-# Correo electrónico, SMS, push {#email}
+# Correo electrónico, SMS, push {#channel}
 
 La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing en varios canales, como correo electrónico, SMS o push. Puede combinar actividades de canal en el lienzo para crear flujos de trabajo entre canales que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente.
 
@@ -25,14 +25,22 @@ Estos son los pasos para agregar una **Canal** actividad en un flujo de trabajo:
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
-1. Seleccione una actividad de entrega: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
+1. Seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
 
 1. Seleccione una **Plantilla**. Las plantillas son ajustes de envío preconfigurados que se guardan para utilizarlos en el futuro. [Más información](../../msg/delivery-template.md)
 
-1. Clic **Creación de envíos** y defina el mensaje del mismo modo que crea un envío independiente. [Más información](../../msg/gs-messages.md)
+1. Clic **Creación de envíos** y defina el mensaje del mismo modo que crea un envío independiente. Aquí también se definen los ajustes de entrega, se programa y se simula el contenido. [Más información](../../msg/gs-messages.md)
 
+1. Vuelva al flujo de trabajo y haga clic en **Inicio** para iniciar el flujo de trabajo.
 
-1. Inicie el flujo de trabajo y compruebe los registros.
+   De forma predeterminada, el inicio de un flujo de trabajo de entrega déclencheur la fase de preparación del mensaje, sin enviarlo inmediatamente.
+
+1. Clic **Revisar y enviar** en la actividad del canal para confirmar el envío.
+
+1. En el panel de entregas, haga clic en **Enviar**.
+
+## Ejemplo
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
