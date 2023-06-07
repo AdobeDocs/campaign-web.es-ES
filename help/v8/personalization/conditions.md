@@ -1,16 +1,16 @@
 ---
 title: Cree contenido condicional
-description: Aprenda a definir condiciones para personalizar el contenido en la interfaz de usuario web de Adobe Campaign
+description: Obtenga información sobre cómo definir condiciones para personalizar su contenido en la IU de la web de Adobe Campaign
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
+source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 8%
 
 ---
 
@@ -21,14 +21,11 @@ ht-degree: 0%
 >title="Cree contenido condicional"
 >abstract="Cree contenido condicional para definir una personalización dinámica basada en el perfil del destinatario, sustituyendo automáticamente los bloques de texto y las imágenes cuando se cumplen determinadas condiciones. Esta función puede llevar las campañas a otro nivel y ofrecer experiencias personalizadas y enfocadas a la audiencia."
 
-
 El contenido condicional es una práctica funcionalidad que permite crear una personalización dinámica basada en el perfil del destinatario y reemplazar automáticamente bloques de texto e imágenes cuando se cumplen determinadas condiciones. Esta función puede llevar las campañas a otro nivel y ofrecer experiencias personalizadas y enfocadas a la audiencia.
 
 Al configurar los campos de contenido condicional, se puede crear una personalización dinámica avanzada basada en el perfil del destinatario, por ejemplo. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición concreta. Por ejemplo, puede mostrar &quot;Sr.&quot; o &quot;Sra.&quot; según el valor del campo Género en la base de datos de Adobe Campaign, o incluir un vínculo diferente basado en el idioma preferido del destinatario.
 
 ## Sintaxis de personalización{#perso-syntax}
-
-
 
 ## Trabajo con condiciones en el editor de personalización{#condition-perso-editor}
 
@@ -44,9 +41,6 @@ Para definir un contenido condicional para una entrega:
    `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 1. Reemplazar `<FIELD>` mediante un campo de personalización. Por ejemplo, la empresa del destinatario: `recipient.company`.
 1. Reemplazar `<VALUE>` por el valor que se va a satisfacer. Por ejemplo, `ADOBE`.
-
-
-
 
 ## Ejemplo: línea de asunto de SMS condicional{#condition-subject-line}
 
