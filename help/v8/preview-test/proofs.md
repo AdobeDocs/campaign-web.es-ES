@@ -4,66 +4,80 @@ title: Envío de correos electrónicos de prueba
 description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 41%
 
 ---
 
-# Envío de correos electrónicos de prueba {#send-proofs}
+# Envío de correos electrónicos de prueba {#send-test-emails}
 
-El envío de correos electrónicos de prueba es un paso importante para validar la campaña de correo electrónico e identificar posibles problemas. Al enviar correos electrónicos de prueba, puede comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes y páginas espejo, así como detectar cualquier error.
+**[!UICONTROL Adobe Campaign]** permite probar un mensaje antes de enviarlo a la audiencia principal.
+
+El envío de correos electrónicos de prueba es un paso importante para validar la campaña de correo electrónico e identificar posibles problemas.
+
+Los destinatarios de una prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes y páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y el correo electrónico.
+
+## Seleccione los destinatarios de la prueba {#test-recipients}
 
 Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatarios.
 
-* **Perfiles de prueba**: envíe correos electrónicos de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Pueden crearse en la consola de Adobe Campaign en la carpeta **[!UICONTROL Recursos]**/**[!UICONTROL administración de campañas]**/**[!UICONTROL direcciones semilla]**.
+* **Perfiles de prueba** : envíe correos electrónicos de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-* **Sustitución del destinatario principal**: envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibe el perfil.
+* **Sustituir del destinatario principal** : envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
 
-## Seleccione los destinatarios de la prueba {#recipients}
+Para seleccionar los destinatarios de la prueba de correo electrónico, siga los pasos a continuación.
 
-1. Acceda a la pantalla de simulación de contenido de correo electrónico y haga clic en el botón **[!UICONTROL Prueba]**.
+1. Acceso al correo electrónico [Editar contenido](../content/edit-content.md) o a la [Diseñador de correo electrónico](../content/get-started-email-designer.md), luego haga clic en **[!UICONTROL Simular contenido]** botón.
 
-   ![](assets/test-button.png)
+1. Haga clic en **[!UICONTROL Prueba]** botón.
+
+   ![](assets/simulate-test-button.png)
 
 1. Utilice la lista desplegable **[!UICONTROL Modo]** para elegir el tipo de destinatarios que reciben el correo electrónico de prueba:
 
-   * **Perfiles de prueba**: enviar el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos.
+   * **Perfiles de prueba** para dirigirse a destinatarios ficticios
 
-   * **Sustitución desde el destino principal**: envíe el correo electrónico de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
+   * **Sustituir del destinatario principal** para enviar una prueba a una dirección de correo electrónico específica mientras se muestran los datos de un perfil existente.
 
-   ![](assets/test-mode.png)
+   ![](assets/simulate-profile-mode.png)
 
    >[!NOTE]
    >
-   >De forma predeterminada, el modo **[!UICONTROL Perfiles de prueba]** está seleccionado. Si ya ha seleccionado los perfiles para previsualizar el correo electrónico en la pantalla de simulación de contenido, dichos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o añadir destinatarios adicionales.
+   >De forma predeterminada, la variable **[!UICONTROL Uso de perfiles de prueba]** El modo está seleccionado. Si ya ha seleccionado los perfiles para previsualizar el correo electrónico en la pantalla de simulación de contenido, dichos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o añadir destinatarios adicionales.
 
-1. Para enviar correos electrónicos de prueba a perfiles de sustitución, seleccione el modo **[!UICONTROL Sustitución de destinatario]**, y a continuación, siga estos pasos:
+1. Para enviar correos electrónicos de prueba a perfiles de sustitución, elija el **[!UICONTROL Sustituir del destino]** modo y, a continuación, siga estos pasos:
 
    1. Haga clic en el botón **[!UICONTROL Añadir dirección]** y especifique la dirección de correo electrónico que recibirá el correo electrónico de prueba.
 
-      Puede escribir cualquier dirección de correo electrónico. Esto le permite enviar correos electrónicos de prueba a cualquier usuario, incluso si no es usuario de la versión 8 de Adobe Campaign.
+      Puede escribir cualquier dirección de correo electrónico. Esto le permite enviar correos electrónicos de prueba a cualquier usuario, aunque no sea usuario de [!DNL Adobe Campaign].
 
-   1. Seleccione el perfil del destinatario que desea utilizar para enviar el correo electrónico de prueba. También puede permitir que Adobe Campaign seleccione un perfil aleatorio de destinatario.
+   1. Seleccione el perfil de destinatario para utilizarlo como sustituto. También puede permitir que [!DNL Adobe Campaign] seleccione un perfil aleatorio del destinatario. Los datos de perfil del perfil seleccionado se mostrarán en el correo electrónico de prueba.
 
    1. Confirme el destinatario y repita la operación para agregar tantas direcciones como sea necesario.
 
-      ![](assets/substitution.png)
+      ![](assets/simulate-profile-substitute.png)
 
-1. Una vez seleccionados los destinatarios de la prueba, puede enviar el correo electrónico de prueba. [Obtenga información sobre cómo enviar correos electrónicos de prueba](#send)
+1. Una vez seleccionados los destinatarios de la prueba, puede [enviar el correo electrónico de prueba](#send-test).
 
    >[!NOTE]
    >
-   >Si desea enviar el mensaje de correo electrónico final a los destinatarios del correo electrónico de prueba, habilite la opción **[!UICONTROL Incluir población de prueba en el destinatario principal]**.
+   >Para enviar también el mensaje de correo electrónico final a los destinatarios del correo electrónico de prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
 
-## Envío del correo electrónico de prueba {#send}
+## Envío del correo electrónico de prueba {#send-test}
 
-Para enviar el correo electrónico de prueba a los destinatarios seleccionados, haga clic en **[!UICONTROL Enviar correo electrónico de prueba]**, y a continuación, confirme el envío.
+Para enviar el correo electrónico de prueba a los destinatarios seleccionados, siga los pasos a continuación.
 
-![](assets/send-proof.png)
+1. Clic **[!UICONTROL Enviar correo electrónico de prueba]**.
 
-Envíe tantos correos electrónicos de prueba como sea necesario hasta que haya finalizado el contenido de su envío. Una vez hecho esto, puede enviar el correo electrónico al destinatario principal. [Aprenda a preparar y enviar su correo electrónico](../monitor/prepare-send.md)
+1. Confirme el envío.
+
+   ![](assets/simulate-send-test.png)
+
+1. Envíe tantos correos electrónicos de prueba como sea necesario hasta que haya finalizado el contenido de su envío.
+
+Una vez hecho esto, puede [preparar y enviar el correo electrónico](../monitor/prepare-send.md) al objetivo principal.
 
 ## Acceso a los correos electrónicos de prueba enviados {#access-proofs}
 
@@ -71,8 +85,8 @@ Una vez enviados los correos electrónicos de prueba, puede acceder a los regist
 
 Estos registros le permiten acceder a todos los correos electrónicos de prueba enviados para el envío seleccionado y visualizar las estadísticas específicas relacionadas con el envío. [Obtenga información sobre cómo monitorizar los registros de envío](../monitor/delivery-logs.md)
 
-![](assets/proof-log.png)
+![](assets/simulate-test-log.png)
 
-También puede acceder a los correos electrónicos de prueba enviados desde la lista de envíos, como cualquier envío.
+También puede acceder a los correos electrónicos de prueba enviados desde el [lista de envíos](../msg/gs-messages.md), como cualquier envío.
 
-![](assets/delivery-list.png)
+![](assets/simulate-deliveries-list.png)
