@@ -3,10 +3,10 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: fbedfc5d1886b86932c156574037549270480f44
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 29%
+source-wordcount: '759'
+ht-degree: 42%
 
 ---
 
@@ -42,6 +42,8 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
 >[!TAB iOS]
 
+![](assets/push_content_1.png)
+
 Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 
 Puede añadir un **[!UICONTROL Subtítulo]**, valor del parámetro subtitle de la carga útil de notificación de iOS. Consulte esta sección.
@@ -56,53 +58,34 @@ El modo Push silenciosa permite enviar una notificación &quot;silenciosa&quot; 
 
 >[!TAB Android]
 
-* **[!UICONTROL Sonido]**: configure el sonido para que se reproduzca cuando el dispositivo reciba la notificación.
-
-* **[!UICONTROL Recuento de notificaciones]**: configure el número de información nueva no leída para que se muestre directamente en el icono de la aplicación.
-
-* **[!UICONTROL ID de canal]**: configure el ID de canal de la notificación. La aplicación debe crear un canal con este ID de canal antes de recibir cualquier notificación.
-
-* **[!UICONTROL Acción de clic]**: configure en la notificación la acción asociada con el clic del usuario.
-
-* **[!UICONTROL Etiqueta]**: establezca el identificador utilizado para reemplazar las notificaciones existentes en el cajón de notificaciones.
-
-* **[!UICONTROL Prioridad]**: establezca los niveles de prioridad de la notificación en predeterminados, mínimos, bajos o altos. Para más información, consulte la documentación de FCM.
-
-* **[!UICONTROL Visibilidad]**: establezca los niveles de visibilidad de la notificación en pública, privada o secreta. Para más información, consulte la documentación de FCM.
-
-* **[!UICONTROL Adhesivo]**: si se desactiva, la notificación se descarta automáticamente cuando el usuario hace clic en ella. Si está activada, la notificación se seguirá mostrando incluso cuando el usuario haga clic en ella.
+| Parámetro | Descripción |
+|---------|---------|
+| **[!UICONTROL Sonido]** | configure el sonido para que se reproduzca cuando el dispositivo reciba la notificación. |
+| **[!UICONTROL Recuento de notificaciones]** | configure el número de información nueva sin leer para que se muestre directamente en el icono de la aplicación. |
+| **[!UICONTROL ID de canal]** | Establezca el ID de canal de la notificación. La aplicación debe crear un canal con este ID de canal antes de recibir cualquier notificación. |
+| **[!UICONTROL Acción de clic]** | configure en la notificación la acción asociada con el clic del usuario. |
+| **[!UICONTROL Etiqueta]** | establezca el identificador utilizado para reemplazar las notificaciones existentes en el cajón de notificaciones. |
+| **[!UICONTROL Prioridad]** | establezca los niveles de prioridad de la notificación en predeterminados, mínimos, bajos o altos. Para más información, consulte la documentación de FCM. |
+| **[!UICONTROL Visibilidad]** | establezca los niveles de visibilidad de la notificación en pública, privada o secreta. Para más información, consulte la documentación de FCM. |
+| **[!UICONTROL Adhesivo]** | Si se desactiva, la notificación se descarta automáticamente cuando el usuario hace clic en ella. Si está activada, la notificación se seguirá mostrando incluso cuando el usuario haga clic en ella. |
 
 >[!TAB iOS]
 
-* **[!UICONTROL Modo de alerta crítica]**: habilite esta opción para agregar sonido a la notificación, incluso si el teléfono del usuario está activado o si el iPhone está silenciado.
+![](assets/push_content_2.png)
 
-* **[!UICONTROL Insignia limpia]**: active estas opciones para actualizar el valor del distintivo.
-
-* **[!UICONTROL Recuento de notificaciones]**: establezca un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída.
-
-* **[!UICONTROL Volumen]**: volumen de su sonido de 0 a 100.
-
-* **[!UICONTROL Contenido mutable]** (Solo iOS): envía el indicador de contenido mutable en la carga útil push y permite que el contenido de las notificaciones push se modifique mediante una extensión de aplicación de servicio de notificaciones proporcionada en el SDK de iOS. Para obtener más información, consulte la [documentación para desarrolladores de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). active esta opción para permitir que la aplicación móvil descargue contenido multimedia.
-
-* **[!UICONTROL Puntuación de relevancia]**: establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones.
-
-* **[!UICONTROL Nivel de interrupción]**:
-
-   * **[!UICONTROL Activo]**: de forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
-
-   * **[!UICONTROL Pasivo]**: el sistema añade la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
-
-   * **[!UICONTROL Con distinción de tiempo]**: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
-
-   * **[!UICONTROL Crítico]**: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
-
-* **[!UICONTROL Thread-id]**: identificador utilizado para agrupar las notificaciones relacionadas.
-
-* **[!UICONTROL Categoría]**: nombre de su ID de categoría que mostrará botones de acción. Estas notificaciones proporcionan al usuario una forma más rápida de realizar distintas tareas en respuesta a una notificación sin necesidad de abrir ni navegar por la aplicación.
-
-* **[!UICONTROL ID de contenido de Target]**: identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación.
-
-* **[!UICONTROL Imagen de lanzamiento]**: nombre del archivo de imagen de lanzamiento que se va a mostrar. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación.
+| Parámetro | Descripción |
+|---------|---------|
+| **[!UICONTROL Modo de alerta crítica]** | Active esta opción para agregar sonido a la notificación, incluso si el teléfono del usuario está activado o si el iPhone está silenciado. |
+| **[!UICONTROL Insignia limpia]** | Active estas opciones para actualizar el valor del distintivo. |
+| **[!UICONTROL Recuento de notificaciones]** | Establezca un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída. |
+| **[!UICONTROL Volumen]** | Volumen de su sonido de 0 a 100. |
+| **[!UICONTROL Contenido modificable]** | Active esta opción para permitir que la aplicación móvil descargue contenido multimedia. Para obtener más información, consulte la [documentación para desarrolladores de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Puntuación de relevancia]** | Establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones. |
+| **[!UICONTROL Nivel de interrupción]** | <ul> <li>**[!UICONTROL Activo]**: de forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li>**[!UICONTROL Pasivo]**: el sistema añade la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li>**[!UICONTROL Con distinción de tiempo]**: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.</li> <li>**[!UICONTROL Crítico]**: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.</ul> |
+| **[!UICONTROL Thread-id]** | Identificador utilizado para agrupar las notificaciones relacionadas. |
+| **[!UICONTROL Categoría]** | Nombre de su ID de categoría que mostrará botones de acción. Estas notificaciones proporcionan al usuario una forma más rápida de realizar distintas tareas en respuesta a una notificación sin necesidad de abrir ni navegar por la aplicación. |
+| **[!UICONTROL ID de contenido del público destinatario]** | Identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación. |
+| **[!UICONTROL Iniciar imagen]** | Nombre del archivo de imagen de lanzamiento que se va a mostrar. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación. |
 
 >[!ENDTABS]
 
