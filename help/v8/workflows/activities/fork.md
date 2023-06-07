@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Fork
 description: Aprenda a utilizar la actividad del flujo de trabajo Bifurcación
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 5%
 
 # Bifurcación {#fork}
 
-El **Tenedor** La actividad de le permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
-
-El **Tenedor** La actividad le permite llevar a cabo varias actividades diferentes de forma independiente dentro del mismo flujo de trabajo.
+El **Tenedor** la actividad es una **Control de flujo** actividad. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
 ## Configuración
 
