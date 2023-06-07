@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar audiencia
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Crear audiencia
 badge: label="Alpha" type="Positive"
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 9%
@@ -52,6 +52,6 @@ Para seleccionar una audiencia existente, siga estos pasos:
 
 ## Ejemplo
 
-Este es un ejemplo de flujo de trabajo con dos **Crear audiencia** actividades. El primero se dirige a la audiencia de jugadores de póquer, seguido de una entrega de correo electrónico. VIP El segundo se dirige a la audiencia de clientes de la red de distribución de correo electrónico, seguido de una entrega de SMS.
+A continuación, se muestra un ejemplo de flujo de trabajo con dos **Crear audiencia** actividades. El primero se dirige a la audiencia de jugadores de póquer, seguido de una entrega de correo electrónico. VIP El segundo se dirige a la audiencia de clientes de la red de distribución de correo electrónico, seguido de una entrega de SMS.
 
 ![](../assets/workflow-audience-example.png)

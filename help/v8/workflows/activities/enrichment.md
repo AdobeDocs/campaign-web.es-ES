@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enrichment
 description: Aprenda a utilizar la actividad del flujo de trabajo Enriquecimiento
 badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 28%
@@ -48,7 +48,7 @@ Puede seleccionar dos tipos de datos: un solo atributo de la dimensión de desti
 
 ## Atributo único
 
-Aquí, estamos agregando un solo atributo de enriquecimiento, por ejemplo, los datos de nacimiento. Siga estos pasos:
+Aquí, simplemente estamos agregando un único atributo de enriquecimiento, por ejemplo, la fecha de nacimiento. Siga estos pasos:
 
 1. Haga clic dentro de **Atributo** field.
 1. Seleccione un campo simple de la dimensión de segmentación, la fecha de nacimiento en nuestro ejemplo.

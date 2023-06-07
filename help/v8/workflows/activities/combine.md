@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad Combinar flujo de trabajo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Combinar
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 22%
 
 ---
@@ -65,11 +65,8 @@ El siguiente ejemplo muestra el **intersección** entre dos actividades de consu
 
 ![](../assets/workflow-intersection-example.png)
 
-Lo siguiente **exclusión** Este ejemplo muestra dos consultas configuradas para filtrar perfiles que tienen entre 18 y 27 años y tienen un dominio de correo electrónico de adobe. Los perfiles con un dominio de correo electrónico de Adobe se excluyen del primer conjunto.
+Lo siguiente **exclusión** Este ejemplo muestra dos consultas configuradas para filtrar perfiles que tienen entre 18 y 27 años y tienen un dominio de correo electrónico de Adobe. Los perfiles con un dominio de correo electrónico de Adobe se excluyen del primer conjunto.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
