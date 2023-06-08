@@ -7,28 +7,41 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 79%
+source-wordcount: '430'
+ht-degree: 36%
 
 ---
 
 
 # Personalización de su contenido{#add-personalization}
 
-## Personalizar la línea de asunto de un mensaje {#personalize-subject-line}
+La personalización se puede añadir a cualquier entrega mediante el editor de expresiones.
 
-Para añadir la personalización en el campo **[!UICONTROL Línea de asunto]** del mensaje, siga los pasos a continuación:
+Una etiqueta de personalización siempre utiliza la siguiente sintaxis: `<%=table.field%>`Por ejemplo, para insertar el nombre del destinatario, almacenado en la tabla de destinatarios, la etiqueta de personalización utiliza la sintaxis &lt;%= recipient.lastName %>.
 
-1. Abra una entrega y haga clic en **[!UICONTROL Editar contenido]**.
-1. Haga clic en **[!UICONTROL Abrir diálogo de personalización]** en la parte derecha del **[!UICONTROL Línea de asunto]** para correos electrónicos, o el campo **[!UICONTROL Título]** campos para envíos push/SMS.
+Cuando se prepara una entrega, Adobe Campaign interpreta automáticamente estas etiquetas y las sustituye el valor del campo para un destinatario determinado. El reemplazo físico se puede ver al simular el contenido.
 
-   ![](assets/perso-subject.png){width="600"}
+Para añadir etiquetas de personalización a un envío, haga clic en el icono del cuadro de diálogo Open personalization al que se puede acceder desde campos de edición de tipo texto, como la línea de asunto o el cuerpo del SMS.
 
-1. Introduzca la línea de asunto o el título y seleccione los atributos de personalización que desee añadir.
+![](assets/perso-access.png)
 
-1. Haga clic en **[!UICONTROL Confirmar]** para validar. Los atributos de personalización se añaden al contenido.
+Se muestra el editor de expresiones. Los campos personalizados se organizan en tres menús, situados a la izquierda de la pantalla. Estos menús proporcionan acceso a todos los campos disponibles en la base de datos de Adobe Campaign.
+
+| Menú | Descripción |
+|-----|------------|
+| ![](assets/do-not-localize/perso-recipients-menu.png) | El **[!UICONTROL Destinatario]** El menú enumera todos los campos definidos en la tabla de destinatarios, como el nombre, la edad o la dirección de los destinatarios. |
+| ![](assets/do-not-localize/perso-message-menu.png) | El **[!UICONTROL Mensaje]** El menú enumera todos los campos relacionados con los &quot;logs&quot; de entrega, es decir, todos los mensajes enviados a los destinatarios o dispositivos en todos los canales, como la fecha del último evento con un destinatario determinado |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | El **[!UICONTROL Envío]** El menú enumera todos los campos relacionados con los parámetros necesarios para realizar entregas, como el canal de entrega, la etiqueta, etc. |
+
+>[!NOTE]
+>
+>De forma predeterminada, la lista muestra todos los campos de la tabla seleccionada (Destinatarios, / Mensaje / Envío). Si desea incluir campos de tablas vinculadas a la tabla seleccionada, habilite la opción **[!UICONTROL Mostrar atributos avanzados]** opción situada debajo de la lista.
+
+Para añadir un campo de personalización, coloque el cursor en la ubicación deseada dentro del contenido y haga clic en el botón + para insertarlo.
+
+![](assets/perso-insert-field.png)
 
 ## Personalización del contenido del correo electrónico {#personalize-emails}
 
@@ -56,23 +69,6 @@ Para personalizar el contenido del correo electrónico, abra el mensaje en el Di
 1. Una vez insertado, el bloque de contenido se añade al contenido del correo electrónico. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización, en el paso de preparación del envío.
 
    ![](assets/perso-content-block-in-email.png)
-
-## Personalización de vínculos en correos electrónicos {#personalize-links}
-
-Para personalizar un **vínculo**:
-
-1. Seleccione un bloque de texto o una imagen.
-1. En la barra de herramientas contextual, seleccione **Insertar vínculo**.
-
-   ![](assets/perso-link.png)
-
-1. Introduzca la etiqueta del vínculo y utilice el botón **Insertar vínculo** para personalizar el vínculo.
-
-   ![](assets/perso-link-insert-icon.png)
-
-1. Utilice el editor de personalización para definir y personalizar el vínculo; confírmelo.
-
-   ![](assets/perso-link-edit.png)
 
 
 ## Personalización de las ofertas {#personalize-offers}
