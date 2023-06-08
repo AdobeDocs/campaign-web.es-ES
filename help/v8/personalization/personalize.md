@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
@@ -37,6 +37,7 @@ Se muestra el editor de expresiones. Los campos personalizados se organizan en t
 
 | Menú | Descripción |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | El **[!UICONTROL Aplicación de suscriptores]** Este menú enumera todos los campos relacionados con los suscriptores de una aplicación, como el terminal o el sistema operativo utilizado. *Este menú solo está disponible para notificaciones push* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | El **[!UICONTROL Destinatario]** El menú enumera todos los campos definidos en la tabla de destinatarios, como el nombre, la edad o la dirección de los destinatarios. |
 | ![](assets/do-not-localize/perso-message-menu.png) | El **[!UICONTROL Mensaje]** El menú enumera todos los campos relacionados con los &quot;logs&quot; de entrega, es decir, todos los mensajes enviados a los destinatarios o dispositivos en todos los canales, como la fecha del último evento con un destinatario determinado |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | El **[!UICONTROL Envío]** El menú enumera todos los campos relacionados con los parámetros necesarios para realizar entregas, como el canal de entrega, la etiqueta, etc. |
