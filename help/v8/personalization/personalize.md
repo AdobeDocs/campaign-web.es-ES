@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
@@ -31,7 +31,7 @@ Para añadir etiquetas de personalización a una entrega, abra el editor de expr
 
 ![](assets/perso-access.png)
 
-Se muestra el editor de expresiones. Los campos personalizados se organizan en tres menús, situados a la izquierda de la pantalla. Estos menús proporcionan acceso a todos los campos disponibles en la base de datos de Adobe Campaign.
+Se muestra el editor de expresiones. Los campos personalizados se organizan en varios menús, situados a la izquierda de la pantalla. Estos menús proporcionan acceso a todos los campos disponibles en la base de datos de Adobe Campaign.
 
 ![](assets/perso-insert-field.png)
 
