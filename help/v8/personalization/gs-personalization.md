@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 33%
+source-wordcount: '471'
+ht-degree: 22%
 
 ---
 
@@ -24,37 +24,37 @@ Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados
 
 Puede hacer que el contenido del mensaje sea dinámico insertando:
 
-* **Campos personalizados**
-
-   Los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes.
-
-   ![](assets/perso-subject-line.png)
+* **Campos de personalización**: los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes.
 
    La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
 
-* **Contenido condicional**
+   ![](assets/perso-subject-line.png)
 
-   Configure el contenido condicional para añadir contenido en función del perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando se cumple una condición concreta. Puede definir la versión alternativa del contenido cuando la condición no sea verdadera.
+* **Contenido condicional**: configure el contenido condicional para añadir contenido en función del perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando se cumple una condición concreta. Puede definir la versión alternativa del contenido cuando la condición no sea verdadera.
 
-* **Descripción de los bloques de contenido integrados**
-
-   Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede agregar un logotipo, un mensaje de saludo o un vínculo a la página espejo de un mensaje de correo electrónico. Los bloques de contenido están disponibles en una entrada dedicada del editor de personalización.
+* **Bloques de contenido integrados**: Campaign viene con un conjunto de bloques de personalización que contienen un procesamiento específico que puede insertar en los envíos. Por ejemplo, puede agregar un logotipo, un mensaje de saludo o un vínculo a la página espejo de un mensaje de correo electrónico. Los bloques de contenido están disponibles en una entrada dedicada del editor de personalización.
 
    ![](assets/perso-content-blocks.png)
 
 ## ¿Dónde puedo añadir contenido dinámico?
 
-Adobe Campaign V8 Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido.
+Adobe Campaign V8 Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. El editor de expresiones está disponible para todos los canales en todos los campos con **[!UICONTROL Abrir diálogo de personalización]** , como el campo de línea de asunto o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
 
-El editor de expresiones está disponible para todos los canales y en todos los campos con el icono de cuadro de diálogo Abrir personalización, como el campo de línea de asunto o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
+>[!NOTE]
+>
+>Además del editor de expresiones, también puede aprovechar un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
+
+*Acceso al editor de expresiones desde el campo Nombre del remitente*
 
 ![](assets/expression-editor-access.png)
 
+*Acceso al editor de expresiones desde un componente de texto de correo electrónico*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*Acceso al editor de expresiones desde un vínculo en un correo electrónico*
 
-Además, se puede acceder a un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## Vamos a profundizar
 
