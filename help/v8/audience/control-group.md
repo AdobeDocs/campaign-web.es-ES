@@ -4,10 +4,10 @@ title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la IU de la web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 47%
 
 ---
 
@@ -86,11 +86,12 @@ Después de la preparación de la entrega, puede revisar cómo se aplicaron las 
 * En los registros de envío, la pestaña Logs muestra el paso de exclusión.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* El **Registros de exclusión** muestra cada perfil y la exclusión relacionada **Motivo**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * El **Causas de exclusión** pestaña muestra el número de perfiles excluidos para cada regla de tipología.
 
