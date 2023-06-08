@@ -6,28 +6,53 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: 573f0bbf396f795029c5e34b436521cb1c7b80a5
+source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 64%
 
 ---
 
 
 # Descripción de los bloques de contenido integrados {#ootb-content-blocks}
 
+Adobe Campaign ofrece una lista de bloques de contenido preconfigurados. Estos bloques de contenido son dinámicos, personalizados y tienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo.
+
+Para añadir un bloque de contenido a una entrega, siga estos pasos:
+
+1. Abra una entrega y edite su contenido.
+
+1. Busque el campo donde desea agregar un bloque de contenido y haga clic en **[!UICONTROL Abrir diálogo de personalización]** para abrir el editor de expresiones.
+
+   ![](assets/content-block-access.png)
+
+1. En el editor de expresiones, busque **[!UICONTROL Bloques de contenido]** menú izquierdo.
+
+1. Para añadir un bloque de contenido, coloque el cursor en la ubicación deseada dentro del contenido y haga clic en el botón &quot;+&quot; para insertarlo.
+
+   ![](assets/content-blocks.png)
+
 Descripción de los bloques de contenido integrados:
 
+* **[!UICONTROL Aprobación de la personalización Purl]**
+* **[!UICONTROL Banner de exclusión predeterminado]**
 * **[!UICONTROL Habilitado por Adobe Campaign]**: inserta el logotipo “Habilitado por Adobe Campaign”.
+* **[!UICONTROL preintroducción de facebook]**
 * **[!UICONTROL Función de formateo para nombres propios]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Saludos]**: inserta los saludos con el nombre completo del destinatario, seguidos de una coma. Ejemplo: “Hola, John Doe”.
-* **[!UICONTROL Insertar logotipo]**: inserta un logotipo que se define en la configuración de la instancia.
+* **[!UICONTROL Insertar logotipo]**: inserta un logotipo definido en la configuración de la instancia.
 * **[!UICONTROL Enlace a página espejo]**: inserta un enlace a la [página espejo](../content/mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
 * **[!UICONTROL URL de la página espejo]**: inserta la dirección URL de la página espejo, permite que los diseñadores de envío comprueben el vínculo.
+* **[!UICONTROL Estilo de notificación]**
 * **[!UICONTROL URL de aceptación de la oferta en modo unitario]**: inserta una URL que permite establecer una oferta como **[!UICONTROL Aceptada]**. (Este bloque está disponible si el módulo Interacción está habilitado)
 * **[!UICONTROL Confirmación del registro]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Vínculo de registro]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: “Para registrarse, haga clic aquí”.
 * **[!UICONTROL Vínculo de registro (con referencia)]**: inserta un vínculo de suscripción que permite identificar el visitante y el envío. Este vínculo se define en la configuración de la instancia.
 * **[!UICONTROL URL de la página de registro]**: inserta una URL de suscripción.
+* Vínculos para compartir en redes sociales
 * **[!UICONTROL Estilo de los correos electrónicos de contenido]** y **[!UICONTROL Estilo de las notificaciones]**: generan un código que da formato a un correo electrónico con estilos HTML predefinidos.
 * **[!UICONTROL Vínculo de baja]**: inserta un vínculo que permite cancelar la suscripción a todos los envíos (lista de bloqueados). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
+
+>[!NOTE]
+>
+>Tiene la capacidad de definir nuevos bloques desde la consola de Adobe Campaign V8 que le permitirán optimizar la personalización de las entregas. [Obtenga más información en la documentación de la consola](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=es)

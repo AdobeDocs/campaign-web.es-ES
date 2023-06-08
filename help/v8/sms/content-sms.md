@@ -4,10 +4,10 @@ title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 98%
+source-wordcount: '218'
+ht-degree: 93%
 
 ---
 
@@ -35,14 +35,8 @@ ht-degree: 98%
 
 1. De forma predeterminada, el seguimiento está habilitado para los envíos. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**.
 
+1. Acceda a la **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido personalizado.
+
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa.
-
-1. Puede utilizar **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
-
-1. Haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** para seleccionar uno o varios perfiles de prueba o perfiles.
-
-1. Una vez seleccionados los perfiles de prueba, haga clic en **[!UICONTROL Seleccionar]**.
-
-1. En el panel derecho, encontrará una vista previa del correo electrónico, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
 Ahora puede revisar y enviar su mensaje SMS a su audiencia.
