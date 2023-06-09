@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 10%
+source-wordcount: '260'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 ## Resumen de push {#push-summary}
 
-![](assets/reporting_push.png)
+* **[!UICONTROL Resumen del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push.
 
-* **[!UICONTROL Resumen del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push. Estos KPI incluyen:
+  +++Más información sobre las métricas.
 
    * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
 
@@ -31,13 +31,25 @@ ht-degree: 10%
 
    * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
 
++++
+
+  ![](assets/reporting_push_3.png)
+
 * **Población de destino** los gráficos y las tablas muestran los datos relativos a la audiencia:
+
+  +++Más información sobre las métricas.
 
    * **[!UICONTROL Para enviar]**: Número total de mensajes procesados durante el análisis de envío.
 
    * **[!UICONTROL Exclusiones]**: Número de perfiles que se han excluido del análisis.
 
++++
+
+  ![](assets/reporting_push_4.png)
+
 * **Estadísticas generales** presenta datos para las notificaciones push enviadas, lo que incluye:
+
+  +++Más información sobre las métricas.
 
    * **[!UICONTROL Correctos]** : número de mensajes procesados correctamente.
 
@@ -45,4 +57,16 @@ ht-degree: 10%
 
    * **[!UICONTROL Nueva cuarentena]**: Número de perfiles que se han excluido y añadido a la cuarentena.
 
++++
+
+  ![](assets/reporting_push_5.png)
+
 * **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
+
+  ![](assets/reporting_push_6.png)
+
+## Rendimiento del envío {#delivery-throughput}
+
+Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+
+![](assets/reporting_push_2.png)

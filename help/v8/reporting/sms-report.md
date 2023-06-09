@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 10%
+source-wordcount: '254'
+ht-degree: 9%
 
 ---
 
@@ -46,3 +46,10 @@ ht-degree: 10%
    * **[!UICONTROL Nueva cuarentena]**: Número de perfiles que se han excluido y añadido a la cuarentena.
 
 * **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
+
+## Rendimiento del envío {#delivery-throughput}
+
+Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+
+![](assets/reporting_sms_2.png)
+
