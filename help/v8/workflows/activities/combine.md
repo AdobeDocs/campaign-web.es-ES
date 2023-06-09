@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Combinar flujo de trabajo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Combinar
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 22%
+source-wordcount: '690'
+ht-degree: 21%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## Configuración general {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="Opciones de combinación de intersecciones"
+>abstract="La intersección permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad. En la sección Conjuntos para unirse, compruebe todas las actividades anteriores a las que desee unirse."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="Opciones de combinación de exclusión"
+>abstract="La exclusión permite excluir elementos de una población según determinados criterios. En la sección Conjuntos para unirse, compruebe todas las actividades anteriores a las que desee unirse."
+
 Siga estos pasos comunes para comenzar a configurar el **Combinar** actividad:
 
 1. Añada varias actividades, como **Crear audiencia** actividades para formar al menos dos ramas de ejecución diferentes.
@@ -34,6 +44,11 @@ Siga estos pasos comunes para comenzar a configurar el **Combinar** actividad:
 1. En el **Configura para unirse** , compruebe todas las actividades anteriores a las que desee unirse.
 
 ## Unión {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Opciones de reconciliación de intersección"
+>abstract="Seleccione el tipo de reconciliación para definir cómo se gestionan los duplicados."
 
 Para el **Union**, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
@@ -48,6 +63,11 @@ Para el **Intersección** Sin embargo, debe seguir estos pasos adicionales:
 1. Puede consultar la **Generar finalización** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se agregará una transición saliente adicional a la actividad.
 
 ## Exclusión {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="Exclusión reglas"
+>abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión objetivo que el objetivo principal. Para ello, haga clic en Add a rule en la sección Exclusion rules y especifique las condiciones del cambio de dimensión. La reconciliación de datos se realiza mediante un atributo o una unión."
 
 Para el **Exclusión** Sin embargo, debe seguir estos pasos adicionales:
 
