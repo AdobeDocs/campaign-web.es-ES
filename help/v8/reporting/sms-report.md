@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -18,8 +18,6 @@ ht-degree: 9%
 >abstract="Descubra las métricas de informes para su envío de SMS."
 
 ## Resumen de envíos {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL Resumen del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes SMS.
 
