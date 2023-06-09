@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 22%
+source-wordcount: '495'
+ht-degree: 21%
 
 ---
 
@@ -26,38 +26,37 @@ Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados
 
 Puede hacer que el contenido del mensaje sea dinámico insertando:
 
-* **Campos de personalización**: los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes.
+* **Campos de personalización**: los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
 
-   La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Contenido condicional**: configure el contenido condicional para añadir contenido en función del perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando se cumple una condición concreta. Puede definir la versión alternativa del contenido cuando la condición no sea verdadera.
 
 * **Bloques de contenido integrados**: Campaign viene con un conjunto de bloques de personalización que contienen un procesamiento específico que puede insertar en los envíos. Por ejemplo, puede agregar un logotipo, un mensaje de saludo o un vínculo a la página espejo de un mensaje de correo electrónico. Los bloques de contenido están disponibles en una entrada dedicada del editor de personalización.
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## Acceso al editor de expresiones {#access}
 
 Adobe Campaign V8 Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. El editor de expresiones está disponible para todos los canales en todos los campos con **[!UICONTROL Abrir diálogo de personalización]** , como el campo de línea de asunto o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
 
+A continuación, se muestran algunos ejemplos sobre cómo acceder al editor de expresiones en función del contenido que desee hacer dinámico
+
+* *Acceso al editor de expresiones desde el campo Nombre del remitente*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *Acceso al editor de expresiones desde un componente de texto de correo electrónico*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *Acceso al editor de expresiones desde un vínculo en un correo electrónico*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >Además del editor de expresiones, también puede aprovechar un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
-
-*Acceso al editor de expresiones desde el campo Nombre del remitente*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*Acceso al editor de expresiones desde un componente de texto de correo electrónico*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*Acceso al editor de expresiones desde un vínculo en un correo electrónico*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## Vamos a profundizar
 

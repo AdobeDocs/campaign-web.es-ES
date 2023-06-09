@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 64%
@@ -24,13 +24,13 @@ Para añadir un bloque de contenido a una entrega, siga estos pasos:
 
 1. Busque el campo donde desea agregar un bloque de contenido y haga clic en **[!UICONTROL Abrir diálogo de personalización]** para abrir el editor de expresiones.
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. En el editor de expresiones, busque **[!UICONTROL Bloques de contenido]** menú izquierdo.
 
 1. Para añadir un bloque de contenido, coloque el cursor en la ubicación deseada dentro del contenido y haga clic en el botón &quot;+&quot; para insertarlo.
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 Descripción de los bloques de contenido integrados:
 
