@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enrichment
 description: Aprenda a utilizar la actividad del flujo de trabajo Enriquecimiento
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 28%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
@@ -24,17 +24,17 @@ Los datos de enriquecimiento pueden provenir de los siguientes lugares:
 
 * **La misma tabla de trabajo** como el objetivo del flujo de trabajo:
 
-   *Destine la actividad a un grupo de clientes y añada el campo “Fecha de nacimiento” a la tabla de trabajo actual*
+  *Destine la actividad a un grupo de clientes y añada el campo “Fecha de nacimiento” a la tabla de trabajo actual*
 
 * **De otra tabla de trabajo**:
 
-   *Diríjase a un grupo de clientes y añada los campos “Importe” y “Tipo de producto” procedentes de la tabla “Compra”*.
+  *Diríjase a un grupo de clientes y añada los campos “Importe” y “Tipo de producto” procedentes de la tabla “Compra”*.
 
 Una vez añadidos los datos de enriquecimiento al flujo de trabajo, se pueden utilizar en las actividades añadidas después de la **Enriquecimiento** actividad para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades, o para crear mensajes de marketing personalizados y campañas que tengan más probabilidades de interesar a la audiencia de destino.
 
 Por ejemplo, puede añadir a la tabla de trabajo del flujo de trabajo información relacionada con las compras de los clientes y utilizar estos datos para personalizar los correos electrónicos con su última compra o la cantidad gastada en estas compras.
 
-## Configuración general
+## Configuración general {#general}
 
 Siga estos pasos para configurar el **Enriquecimiento** actividad:
 
@@ -44,9 +44,9 @@ Siga estos pasos para configurar el **Enriquecimiento** actividad:
 
 ![](../assets/workflow-enrichment1.png)
 
-Puede seleccionar dos tipos de datos: un solo atributo de la dimensión de destino o un vínculo de recopilación.
+Puede seleccionar dos tipos de datos de enriquecimiento: [atributo de enriquecimiento único](#single-attribute) desde la dimensión de destino, o una [vínculo de colección](#collection-link).
 
-## Atributo único
+## Atributo de enriquecimiento único {#single-attribute}
 
 Aquí, simplemente estamos agregando un único atributo de enriquecimiento, por ejemplo, la fecha de nacimiento. Siga estos pasos:
 
@@ -56,16 +56,14 @@ Aquí, simplemente estamos agregando un único atributo de enriquecimiento, por 
 
 ![](../assets/workflow-enrichment2.png)
 
-## Vínculo de colección
+## Vínculo de colección {#collection-link}
 
 En este caso de uso más complejo, seleccionaremos un vínculo de colección que es un vínculo con una cardinalidad 1-N entre tablas. Vamos a recuperar las tres últimas compras que son menos de 100 $. Para ello, debe definir lo siguiente:
 
-* un atributo: **Cantidad total** campo
+* un atributo de enriquecimiento: el **Cantidad total** campo
 * número de líneas que se van a recuperar: 3
 * un filtro: filtre los elementos que sean buenos a más de 100 $
 * un orden: orden descendente en el **Fecha de pedido** field.
-
-Siga estos pasos:
 
 ### Añadir el atributo
 
@@ -92,7 +90,7 @@ Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, 
 
 ### Definición de los filtros
 
-Aquí, definimos el valor máximo del atributo. Filtramos los elementos que sean buenos a 100 $.
+Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los elementos que sean buenos a 100 $.
 
 1. Clic **Editar filtros**.
 1. Añada los dos filtros siguientes: **Cantidad total** existe Y **Cantidad total** es menor que 100. El primero filtra los valores NULL tal como aparecerían como el valor más bueno.
@@ -113,6 +111,11 @@ Ahora necesitamos aplicar la ordenación para recuperar los tres **última versi
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
