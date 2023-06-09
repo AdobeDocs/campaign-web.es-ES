@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '337'
 ht-degree: 95%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 95%
 ## Envío
 
 * **Resumen del envío**: este informe ofrece toda la información principal sobre el envío. Público destinatario, causas de exclusión y estadísticas del envío.
-
-  +++Configure la siguiente configuración según sus necesidades.
-Prueba
-+++
 
   ![](assets/reporting3.png)
 

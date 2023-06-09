@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Alpha" type="Positive"
-source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '269'
 ht-degree: 9%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 * **[!UICONTROL Resumen del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push.
 
-  +++Más información sobre las métricas.
+  +++ Obtenga más información sobre las métricas de informes de envío push.
 
    * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 
 * **Población de destino** los gráficos y las tablas muestran los datos relativos a la audiencia:
 
-  +++Más información sobre las métricas.
+  +++ Obtenga más información sobre las métricas de informes de envío push.
 
    * **[!UICONTROL Para enviar]**: Número total de mensajes procesados durante el análisis de envío.
 
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 * **Estadísticas generales** presenta datos para las notificaciones push enviadas, lo que incluye:
 
-  +++Más información sobre las métricas.
+  +++ Obtenga más información sobre las métricas de informes de envío push.
 
    * **[!UICONTROL Correctos]** : número de mensajes procesados correctamente.
 

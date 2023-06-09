@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de una entrega de notificaciones push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 70%
+source-wordcount: '317'
+ht-degree: 68%
 
 ---
 
@@ -29,9 +29,11 @@ ht-degree: 70%
 
 1. Desde la página de inicio **[!UICONTROL Envíos]**, haga clic en **[!UICONTROL Creación de envíos]**.
 
-1. En el **[!UICONTROL Canal]** , elija Notificación push como canal y seleccione una plantilla. Más información sobre las plantillas
+1. En el **[!UICONTROL Canal]** , elija Notificación push como canal y seleccione una plantilla según el sistema operativo elegido: Android o iOS. [Más información sobre las plantillas](../msg/delivery-template.md)
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
+
+   ![](assets/push_create_1.png)
 
 1. Introduzca una **[!UICONTROL Etiqueta]** para el envío y acceda al menú desplegable **[!UICONTROL Opciones adicionales]**.
 
@@ -45,14 +47,18 @@ ht-degree: 70%
 
 1. Desde el **[!UICONTROL Audiencia]** , seleccione la aplicación que desee utilizar para este envío.
 
-1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para dirigirse a un público destinatario existente o crear el suyo propio. Más información.
+1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información](../audience/about-audiences.md)
 
    Tenga en cuenta que, de forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación.
 
-1. Encienda la opción del grupo **[!UICONTROL Habilitar control]** para establecer un grupo de control que mida el impacto de su envío, lo que le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. Más información
+   ![](assets/push_create_2.png)
+
+1. Encienda la opción del grupo **[!UICONTROL Habilitar control]** para establecer un grupo de control que mida el impacto de su envío, lo que le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
 
 1. Clic **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido de la notificación push.
 
 1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar el envío, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario.
 
-1. Haga clic en Configure delivery settings para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
+1. Clic **[!UICONTROL Configuración de la entrega]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
+
+   ![](assets/push_create_3.png)

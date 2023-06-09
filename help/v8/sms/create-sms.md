@@ -4,9 +4,9 @@ title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 100%
 
 1. Desde la página de inicio **[!UICONTROL Envíos]**, haga clic en **[!UICONTROL Creación de envíos]**.
 
-1. En la sección **[!UICONTROL Canal]**, elija SMS como el canal y seleccione una plantilla. Más información sobre las plantillas
+1. En la sección **[!UICONTROL Canal]**, elija SMS como el canal y seleccione una plantilla. [Más información sobre las plantillas](../msg/delivery-template.md)
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
+
+   ![](assets/sms_create_1.png)
 
 1. Introduzca una **[!UICONTROL Etiqueta]** para el envío y acceda al menú desplegable **[!UICONTROL Opciones adicionales]**.
 
@@ -44,11 +46,11 @@ ht-degree: 100%
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.
 +++
 
-1. Desde el menú desplegable **[!UICONTROL Opciones personalizadas]**, puede acceder a su esquema ampliado con campos personalizados específicos.
+1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información](../audience/about-audiences.md).
 
-1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para dirigirse a un público destinatario existente o crear el suyo propio. Más información.
+   ![](assets/sms_create_2.png)
 
-1. Encienda la opción del grupo **[!UICONTROL Habilitar control]** para establecer un grupo de control que mida el impacto de su envío, lo que le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. Más información
+1. Encienda la opción del grupo **[!UICONTROL Habilitar control]** para establecer un grupo de control que mida el impacto de su envío, lo que le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
 
 1. Haga clic en **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido del mensaje SMS.
 

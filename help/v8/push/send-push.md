@@ -3,10 +3,10 @@ audience: end-user
 title: Envío de una entrega de notificaciones push
 description: Obtenga información sobre cómo enviar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 23%
+source-wordcount: '273'
+ht-degree: 22%
 
 ---
 
@@ -18,9 +18,13 @@ Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba par
 
 1. Desde la página de contenido de la entrega, puede utilizar **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
 
+   ![](assets/push_send_1.png)
+
 1. Haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** para seleccionar uno o varios perfiles de prueba o perfiles.
 
 1. Una vez seleccionados los perfiles de prueba, haga clic en **[!UICONTROL Seleccionar]**.
+
+   ![](assets/push_send_5.png)
 
 1. En el panel derecho, encontrará una vista previa del correo electrónico, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
@@ -30,13 +34,19 @@ Ahora puede revisar y enviar su mensaje SMS a su audiencia.
 
 1. Después de personalizar el contenido de las notificaciones push, haga clic en **[!UICONTROL Revisar y enviar]** de su **[!UICONTROL Envío]** página.
 
+   ![](assets/push_send_2.png)
+
 1. Haga clic en **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
 
    Si se produce algún error, consulte el menú Registros para obtener información detallada sobre el error.
 
+   ![](assets/push_send_3.png)
+
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 
-1. Confirme la acción de envío haciendo clic en **[!UICONTROL Enviar]** botón.
+1. Confirme la acción de envío haciendo clic en **[!UICONTROL Enviar]** o **[!UICONTROL Enviar como está programado]** botón.
+
+   ![](assets/push_send_4.png)
 
 Una vez entregado el envío, puede realizar un seguimiento de los datos de KPI (indicador de rendimiento clave) desde la página de envío y desde el menú Registros.
 

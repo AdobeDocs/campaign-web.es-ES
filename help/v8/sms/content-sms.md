@@ -4,10 +4,10 @@ title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 93%
+source-wordcount: '182'
+ht-degree: 92%
 
 ---
 
@@ -25,17 +25,19 @@ ht-degree: 93%
 
 1. En la página del envío, haga clic en el botón **[!UICONTROL Editar contenido]** para diseñar el contenido del SMS.
 
-1. En la página **[!UICONTROL Editar contenido]**, puede cambiar el nombre del remitente desde el **[!UICONTROL campo del Remitente]**. Introduzca el nombre que desee utilizar. También puede hacer clic en **[!UICONTROL Abrir diálogo de personalización]** para añadir campos de personalización, bloques de contenido y contenido dinámico.
-
 1. En la página **[!UICONTROL Editar contenido]**, puede personalizar el nombre del remitente accediendo al **[!UICONTROL Campo del remitente]** e introduciendo el nombre preferido.
 
    Además, haciendo clic en **[!UICONTROL Abrir diálogo de personalización]**, puede incluir campos de personalización, bloques de contenido y contenido dinámico en el mensaje.
 
-1. Escriba el mensaje de texto en el campo **[!UICONTROL Mensaje]** o haga clic en la opción **[!UICONTROL Abrir diálogo de personalización]** para definir contenido y añadir contenido dinámico.
+   ![](assets/sms_content_1.png)
+
+1. Escriba el mensaje de texto en el campo **[!UICONTROL Mensaje]** o haga clic en la opción **[!UICONTROL Abrir diálogo de personalización]** para definir contenido y añadir contenido dinámico. [Más información](../personalization/gs-personalization.md)
+
+   ![](assets/sms_content_2.png)
 
 1. De forma predeterminada, el seguimiento está habilitado para los envíos. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**.
 
-1. Acceda a la **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido personalizado.
+1. Acceda a la **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido personalizado. [Más información](send-sms.md#preview-sms)
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa.
 
