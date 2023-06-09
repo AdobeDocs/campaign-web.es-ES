@@ -4,55 +4,60 @@ title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
-source-wordcount: '1060'
-ht-degree: 100%
+source-git-commit: 905ff46cac03d0db276c3eb487a4d66815c6ed0b
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 69%
 
 ---
 
-# Uso de los componentes de contenido del diseñador de correo electrónico {#content-components}
+# Uso del contenido del diseñador de correo electrónico {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
+>title="Acerca del contenido"
+>abstract="Los componentes Contenido son marcadores de posición de contenido vacíos que puede utilizar para crear el diseño de un correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="Acerca de los componentes de contenido"
+>title="Acerca del contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="Acerca de los componentes de contenido"
+>title="Acerca del contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="Acerca de los componentes de contenido"
+>title="Acerca del contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una plantilla."
+
+Al crear el contenido del correo electrónico, **[!UICONTROL Contenido]** componentes le permite personalizar aún más su correo electrónico con componentes sin procesar y vacíos que puede utilizar una vez colocados en un correo electrónico.
+
+Puede añadir tantas como desee **[!UICONTROL Contenido]** ya que necesita dentro de un **[!UICONTROL Estructura]**, que define el diseño del correo electrónico.
 
 ## Añadir componentes de contenido {#add-content-components}
 
 Para añadir componentes de contenido al correo electrónico y ajustarlos a sus necesidades, siga los pasos a continuación.
 
-1. En el Diseñador de correo electrónico, utilice un contenido existente o arrastre y suelte una **[!UICONTROL Estructura]** en el contenido vacío para definir el diseño del correo electrónico. [Descubra cómo](create-email-content.md)
+1. En el Diseñador de correo electrónico, utilice un [contenido existente](existing-content.md) o bien, arrastre y suelte una **[!UICONTROL Estructura]** en el contenido vacío para definir el diseño del correo electrónico. [Descubra cómo](create-email-content.md)
 
-1. Arrastre y suelte el **[!UICONTROL Contenido]** que desee dentro de los componentes de estructura relevantes.
+1. Arrastre y suelte el **[!UICONTROL Contenido]** de su elección dentro de las estructuras relevantes.
 
    ![](assets/email_designer_add_content_components.png)
 
    >[!NOTE]
    >
-   >Puede añadir varios componentes en un único componente de estructura y en cada columna de un componente de estructura.
+   >Puede añadir varios componentes en una sola estructura y en cada columna de una estructura.
 
-1. Ajuste los atributos de estilo de cada componente mediante las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilo]**. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Ajuste de las opciones de cada componente mediante la variable contextual **[!UICONTROL Configuración]** pestaña. Por ejemplo, puede elegir mostrarlo solo en equipos de escritorio o dispositivos móviles, o en ambos. También puede administrar las opciones de vínculo desde esta pestaña. [Más información sobre la administración de vínculos](message-tracking.md)
+
+1. Ajuste los atributos de estilo de cada componente mediante la variable **[!UICONTROL Estilo]** pestaña. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
-Al crear el contenido del correo electrónico desde cero, los componentes de **[!UICONTROL Contenido]** le permiten personalizar aún más su correo electrónico con componentes sin procesar y vacíos que puede utilizar una vez colocados en un correo electrónico.
-Puede agregar tantos componentes de **[!UICONTROL Contenido]** como necesita dentro de un componente de **[!UICONTROL Estructura]** que define el diseño del correo electrónico.
+1. Desde el menú avanzado de su **[!UICONTROL Contenido]** en el panel derecho, puede eliminar o duplicar fácilmente cualquier componente de contenido según sea necesario.
 
 ## Contenedor {#container}
 
@@ -86,19 +91,19 @@ Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones
 
    ![](assets/email_designer_15.png)
 
-1. Puede personalizar aún más el botón cambiando atributos de estilo como **[!UICONTROL Borde]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Margen]**, etc. de las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
+1. Puede personalizar aún más el botón cambiando atributos de estilo como **[!UICONTROL Borde]**, **[!UICONTROL Tamaño]**, **[!UICONTROL Margen]**, etc. desde el **[!UICONTROL Estilos]** pestaña.
 
 ## Texto {#text}
 
 Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) uso de las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
 
-1. Desde el menú **[!UICONTROL Contenido]**, arrastre y suelte el **[!UICONTROL Texto]** en un componente de **[!UICONTROL Estructura]**.
+1. Desde el **[!UICONTROL Contenido]** menú, arrastrar y soltar **[!UICONTROL Texto]** en un **[!UICONTROL Estructura]** componente.
 
    ![](assets/email_designer_11.png)
 
 1. Haga clic en el componente recién agregado para personalizar el texto y tener acceso a las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
 
-1. Cambie el texto con las siguientes opciones disponibles en la barra de herramientas:
+1. Cambie el texto con las siguientes opciones disponibles en la barra de herramientas contextual:
 
    ![](assets/email_designer_27.png)
 
@@ -114,7 +119,7 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
    * **[!UICONTROL Añadir personalización]**: añadir campos de personalización para personalizar el contenido de los datos de perfiles.
    * **[!UICONTROL Habilitar contenido condicional]**: añadir contenido condicional para adaptar el contenido del componente a los perfiles de destino.
 
-1. Ajuste los demás atributos de estilo, como el color del texto, la familia de fuentes, el borde, el relleno, el margen, etc. en las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
+1. Ajuste los demás atributos de estilo, como el color del texto, la familia de fuentes, el borde, el relleno, el margen, etc. desde el **[!UICONTROL Estilos]** pestaña.
 
    ![](assets/email_designer_12.png)
 
@@ -122,7 +127,7 @@ Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo el
 
 Utilice el componente **[!UICONTROL Divisor]** para insertar una línea divisoria y organizar el diseño y el contenido del correo electrónico.
 
-Puede ajustar los atributos de estilo, como el color de la línea, el estilo y la altura desde las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
+Puede ajustar atributos de estilo, como el color de línea, el estilo y la altura, desde el **[!UICONTROL Estilos]** pestaña.
 
 ![](assets/email_designer_16.png)
 
@@ -140,7 +145,7 @@ Utilice el componente **[!UICONTROL HTML]** para copiar y pegar las diferentes p
 
 >[!NOTE]
 >
->Para hacer que un contenido externo sea compatible con el Diseñador de correo electrónico, Adobe recomienda crear un mensaje desde cero y copiar el contenido del correo electrónico existente en los componentes.
+>Para hacer que un contenido externo sea compatible con el Diseñador de correo electrónico, el Adobe recomienda [creación de un mensaje desde cero](create-email-content.md) y copie el contenido del correo electrónico existente en los componentes.
 
 ## Imagen {#image}
 
@@ -152,14 +157,16 @@ Utilice el componente **[!UICONTROL Imagen]** para insertar un archivo de imagen
 
 1. Haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos.
 
-1. Haga clic en el componente recién añadido y configure las propiedades de la imagen mediante las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**:
+1. Haga clic en el componente recién agregado y configure las propiedades de la imagen con la variable **[!UICONTROL Configuración]** pestaña:
 
    * **[!UICONTROL Título de la imagen]** permite definir un título para la imagen.
    * **[!UICONTROL Texto alternativo]** permite definir el pie de ilustración vinculado a la imagen. Esto corresponde al atributo HTML alt.
 
    ![](assets/email_designer_10.png)
 
-1. Ajuste los demás atributos de estilo como margen, borde, etc. o añadir un vínculo para redirigir su audiencia a otro contenido.
+1. Puede añadir un vínculo para redirigir la audiencia a otro contenido. [Más información](message-tracking.md)
+
+1. Ajuste los demás atributos de estilo como margen, borde, etc. uso del **[!UICONTROL Estilos]** pestaña.
 
 ## Social {#social}
 
@@ -179,6 +186,6 @@ Utilice el componente **[!UICONTROL Social]** para insertar vínculos a páginas
 
    ![](assets/email_designer_21.png)
 
-1. También puede cambiar los iconos de cada una de sus redes sociales si es necesario en el campo **[!UICONTROL Imagen]**.
+1. También puede cambiar los iconos de cada uno de sus medios sociales si es necesario en la **[!UICONTROL Origen]** field.
 
-1. Ajuste los demás atributos de estilo como estilo, margen, borde, etc. desde las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
+1. Ajuste los demás atributos de estilo como estilo, margen, borde, etc. desde el **[!UICONTROL Estilos]** pestaña.

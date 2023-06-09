@@ -4,10 +4,10 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '508'
+ht-degree: 43%
 
 ---
 
@@ -36,29 +36,33 @@ ht-degree: 0%
 El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
 * Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto
 * Realizar acciones adicionales, como agregar archivos adjuntos o configurar ofertas
-* Acceda a la [Diseñador de correo electrónico](get-started-email-designer.md) para empezar a crear el contenido adecuado del correo electrónico
+* Acceda a la [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring) para empezar a crear el contenido adecuado del correo electrónico
 
 Para configurar o editar el contenido de un correo electrónico, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Editar contenido]** del menú contextual [panel de envío de correo electrónico](../email/create-email.md) pantalla.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. Se abre la pantalla de edición de contenido de correo electrónico. Si está configurando un nuevo correo electrónico, la variable **[!UICONTROL Nombre de remitente]** y **[!UICONTROL Desde correo electrónico]** Los campos de ya se han rellenado.
+1. Se abre la pantalla de edición de contenido de correo electrónico.
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >Si está configurando un nuevo correo electrónico, la variable **[!UICONTROL Nombre de remitente]** y **[!UICONTROL Desde correo electrónico]** Los campos de ya se han rellenado.
 
 1. El **[!UICONTROL Nombre de remitente]** se define en la plantilla de correo electrónico. Si desea modificarlo, utilice un nombre fácilmente identificable por los destinatarios, como el nombre de su marca, para aumentar la velocidad de apertura de sus envíos.
 
    >[!NOTE]
    >
-   >    Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Emma de Megastore&quot;.
+   >Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Eva de Luma&quot;.
 
 1. El **[!UICONTROL Desde correo electrónico]** el campo de dirección también se define en la plantilla de correo electrónico. Asegúrese de que el dominio de dirección sea el mismo que el subdominio que delegó en Adobe.
 
    >[!NOTE]
    >
-   >    Puede cambiar la parte que precede a &#39;@&#39;, pero no la dirección de dominio.
+   >Puede cambiar la parte que precede a &#39;@&#39;, pero no la dirección de dominio.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
    * [Crear correos electrónicos desde cero](create-email-content.md)
    * [Estilos del contenido](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >También puede pasar el ratón sobre la vista previa del correo electrónico y seleccionar **[!UICONTROL Abrir diseñador de correo electrónico]**.
 
 1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**. [Aprenda a añadir vínculos y a administrar el seguimiento](message-tracking.md)
 

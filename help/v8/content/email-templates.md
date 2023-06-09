@@ -4,7 +4,7 @@ product: campaign
 title: Trabajo con plantillas de correo electrónico
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 27%
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 # Trabajo con plantillas de correo electrónico {#email-content-templates}
 
-Cuándo [creación de un correo electrónico](#create-email), use el **[!UICONTROL Seleccionar plantilla de diseño]** de la sección **[!UICONTROL Cree su correo electrónico]** para empezar a crear contenido a partir de una plantilla.
+Cuándo [creación de un correo electrónico](../email/create-email.md), use el **[!UICONTROL Seleccionar plantilla de diseño]** de la sección **[!UICONTROL Cree su correo electrónico]** para empezar a crear contenido a partir de una plantilla.
 
 ![](assets/email_designer-templates.png)
 

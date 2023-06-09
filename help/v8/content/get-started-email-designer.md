@@ -3,16 +3,22 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la IU web de Campaign
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Introducción al Diseñador de correo electrónico {#get-started-email-designer}
 
-Puede importar contenido existente en [!DNL Journey Optimizer] o aproveche las capacidades de diseño de contenido:
+Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
+
+El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando un contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione todo el contenido de cada correo electrónico, ya sea promocional o transaccional.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * Uso [!DNL Campaign] funciones de diseño de correo electrónico para crear fácilmente correos electrónicos adaptables. [Más información](create-email-content.md)
 
@@ -38,5 +44,5 @@ En el panel de envío de correo electrónico, vaya a [Editar contenido](edit-con
 
 * **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico [esta sección](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

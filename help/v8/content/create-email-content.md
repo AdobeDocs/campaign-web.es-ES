@@ -4,10 +4,10 @@ title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
+source-git-commit: 22fdc1713ed893504cba7ad93bb69c7b3f2db7fe
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 62%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del correo electrónico."
+>title="Adición de estructuras"
+>abstract="Las estructuras definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje."
+>title="Adición de estructuras"
+>abstract="Las estructuras definen el diseño de la página de aterrizaje. Arrastrar y soltar una **Estructura** en el lienzo para empezar a diseñar la página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del fragmento."
+>title="Adición de estructuras"
+>abstract="Las estructuras definen el diseño del fragmento. Arrastrar y soltar una **Estructura** en el lienzo para empezar a diseñar el contenido del fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Acerca de los componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la plantilla."
+>title="Adición de estructuras"
+>abstract="Las estructuras definen el diseño de la plantilla. Arrastrar y soltar una **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
 
 
 >[!CONTEXTUALHELP]
@@ -56,41 +56,43 @@ ht-degree: 100%
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
 
-Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación:
+Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
 
-1. En la página de inicio del Diseñador de correo electrónico, seleccione la opción **[!UICONTROL Diseño desde cero]**.
+1. Desde el [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring) página principal, seleccione la **[!UICONTROL Diseñe desde cero]** opción.
 
-   ![](assets/email_designer.png)
+   ![](assets/email_designer-from-scratch.png)
 
-1. Empiece a diseñar el contenido del correo electrónico arrastrando y soltando **[!UICONTROL Componentes de estructura]** en el lienzo para definir el diseño del correo electrónico.
+1. Para diseñar el contenido del correo electrónico, arrastre y suelte **[!UICONTROL Estructuras]** en el lienzo para definir el diseño del correo electrónico.
 
    >[!NOTE]
    >
    >El apilado de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
 
-   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
+1. Añadir tantos como sea necesario **[!UICONTROL Estructuras]** si es necesario, y edite su configuración en el panel dedicado de la derecha.
 
-   ![](assets/email_designer_2.png)
+   ![](assets/email_designer_structure_components.png)
 
-1. Agregue tantos **[!UICONTROL Componentes de estructura]** como sea necesario y edite su configuración en el panel correspondiente de la derecha.
-
-   Seleccione el componente **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
+1. Puede seleccionar el **[!UICONTROL Columna n:n]** para definir el número de columnas que desea (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
 
    >[!NOTE]
    >
    >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de la estructura. No se puede quitar una columna que no esté vacía.
 
-1. Expanda la sección **[!UICONTROL Componentes de contenido]** y añada tantos elementos como necesite en uno o varios componentes de la estructura. [Más información sobre los componentes de contenido](content-components.md)
+1. Desde el **[!UICONTROL Componentes]** , arrastre y suelte todos los elementos que necesite en una o varias estructuras. [Más información sobre los componentes de contenido](content-components.md)
 
-1. Cada componente se puede personalizar aún más mediante el panel **[!UICONTROL Configuración de componentes]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Cada componente se puede personalizar aún más mediante la variable **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
-   ![](assets/email_designer_5.png)
+   ![](assets/email_designer-styles.png)
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico a partir de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
+1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
-1. Haga clic en la pestaña **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido que se debe rastrear. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregar **[!UICONTROL Categorías]** si es necesario. [Obtenga más información sobre el seguimiento de los vínculos y mensajes](message-tracking.md)
+1. Añada vínculos al contenido.
 
-   ![](assets/email_designer_7.png)
+   Haga clic en **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realizará un seguimiento. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregar **[!UICONTROL Categorías]** si es necesario.
+
+[Obtenga más información sobre el seguimiento de los vínculos y mensajes](message-tracking.md)
+
+   ![](assets/email_designer-links.png)
 
 1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. Esto le permite editar el código fuente del correo electrónico, por ejemplo, para agregar etiquetas HTML personalizadas o de seguimiento. [Obtenga más información sobre el editor de código](code-content.md)
 
@@ -100,7 +102,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar el procesamiento del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 
-   ![](assets/email_designer_28.png)
+   ![](assets/email_designer-simulate.png)
 
 1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 
