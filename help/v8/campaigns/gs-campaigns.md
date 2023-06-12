@@ -4,9 +4,9 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 15%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 15%
 Utilice Adobe Campaign para crear campañas en canales múltiples. Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales. En esta versión, los canales de correo electrónico, push y SMS están disponibles.
 
 Diseñe y ejecute campañas de correo electrónico de gran volumen para enviar mensajes personalizados, para todas las plataformas y tamaños de pantalla.
-Mida la eficacia de las entregas con informes detallados que incluyen los recuentos de aperturas, clics, reenvíos y más. Con las funcionalidades de segmentación de Adobe Campaign, puede ejecutar consultas en una base de datos de gran volumen y definir fácilmente segmentos de marketing dinámicos que se dirijan perfectamente a sus campañas.
+Mida la eficacia de los envíos con informes detallados que incluyen los recuentos de aperturas, clics, reenvíos y mucho más. Con las funcionalidades de segmentación de Adobe Campaign, puede ejecutar consultas en una base de datos de gran volumen y definir fácilmente segmentos de marketing dinámicos que se dirijan perfectamente a sus campañas.
 
 <!--
 Get Started with campaigns
@@ -56,7 +56,7 @@ En el **Examinar** , haga clic en una campaña para mostrar su panel. Hay dos pe
 
 El **Configuración de la campaña** Este icono le permite modificar las propiedades de la campaña que se definieron al crear la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
 
-## Monitorización y seguimiento de largos{#campaign-monitoring}
+## Monitorización y registros de seguimiento{#campaign-monitoring}
 
 La monitorización de campañas es un paso clave para analizar las campañas. Se puede acceder a ellas desde **Registros** botón.
 

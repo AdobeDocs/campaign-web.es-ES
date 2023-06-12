@@ -4,10 +4,10 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9ccc69844c813f5c8828fade442c766e9331bfbb
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '263'
+ht-degree: 34%
 
 ---
 
@@ -40,7 +40,7 @@ Para crear una nueva campaña, siga estos pasos:
 
 1. Haga clic en **Create**.
 1. Añada un flujo de trabajo o una entrega independiente a la campaña.
-   * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Se añade automáticamente un flujo de trabajo predeterminado al crear la campaña. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md)
+   * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md)
    * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
 
 ## Opciones adicionales {#campaign-options}
