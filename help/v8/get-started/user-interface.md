@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Utilice el **Mostrar atributos avanzados** cambiar para ver todos los atributos 
 
 Solo los atributos más comunes se muestran de forma predeterminada en las pantallas de lista de atributos y configuración de filtros.
 
-Utilice el **Mostrar atributos avanzados** sitúese debajo de la lista para ver todos los atributos disponibles para la lista actual.
-
+Utilice el **Mostrar atributos avanzados** alternar para ver todos los atributos disponibles para la lista actual.
 
 ## Ayuda contextual {#contextual-help}
 
