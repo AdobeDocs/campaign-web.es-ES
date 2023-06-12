@@ -4,7 +4,7 @@ title: Previsualización del contenido del correo electrónico
 description: Obtenga información sobre cómo previsualizar el contenido del correo electrónico con la IU de la web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 28%
@@ -32,7 +32,7 @@ Para previsualizar el contenido del correo electrónico, siga los pasos a contin
 
      >[!NOTE]
      >
-     >Los perfiles de prueba se pueden crear en [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+     >Los perfiles de prueba se pueden crear en [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    * La pestaña **[!UICONTROL Perfiles]** incluye todos los destinatarios almacenados en la carpeta **[!UICONTROL Perfiles y destinatarios]** de la consola de [!DNL Campaign] [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
