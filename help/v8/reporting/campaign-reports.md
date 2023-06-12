@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 28%
+source-wordcount: '1520'
+ht-degree: 22%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 28%
 ### Resumen de envíos {#delivery-summary-email}
 
 * **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -32,9 +34,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
-* **[!UICONTROL Estadísticas del público destinatario inicial]**
+  ![](assets/campaign_report_email_2.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -46,9 +48,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío.
 
-* **[!UICONTROL Estadísticas de ejecución]**
+  ![](assets/campaign_report_email_3.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -62,9 +64,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Estadísticas de reacción]** contiene los datos disponibles de la actividad de destinatario de su envío.
 
-* **[!UICONTROL Estadísticas de reacción]**
+  ![](assets/campaign_report_email_4.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -77,11 +79,9 @@ ht-degree: 28%
    * **[!UICONTROL Página espejo]**: número de destinatarios que hicieron clic en el vínculo de la página espejo.
 
    * **[!UICONTROL Reenvíos]**: número de destinatarios que hicieron clic y que reenviaron el correo electrónico.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Flujos de clics generados]**
+* **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 28%
 
 ### Envíos que no se pueden entregar {#non-deliverables-email}
 
-* **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por navegador]**
+* **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por dominio]** Las tablas y los gráficos contienen los datos disponibles para detectar posibles errores encontrados con cada dominio.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -109,11 +111,11 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Indicadores de seguimiento {#tracking-indicators-email}
 
-* **[!UICONTROL Estadísticas de entrega]**
+* **[!UICONTROL Estadísticas de envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -130,9 +132,9 @@ ht-degree: 28%
    * **[!UICONTROL Estimation of forwards]** : estimación del número de correos electrónicos reenviados por los destinatarios objetivo.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios.
 
-* **[!UICONTROL Tasa de clics y de apertura]**
+  ![](assets/campaign_report_email_8.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -147,11 +149,11 @@ ht-degree: 28%
    * **[!UICONTROL Raw reactivity]** : porcentaje del número de destinatarios que hicieron clic en una entrega al menos una vez comparado con el número de destinatarios que abrieron una entrega al menos una vez.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL y flujos de clics {#url-email}
 
-* **[!UICONTROL URL y flujos de clics]**
+* **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que más se hizo clic durante una entrega.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -163,9 +165,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
-* **[!UICONTROL Los 10 enlaces más visitados]**
+  ![](assets/campaign_report_email_10.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -175,23 +177,23 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Desglose de los clics a lo largo del tiempo]**, número de clics
+* **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Actividades de usuario {#user-activities-email}
 
-* **[!UICONTROL Actividades del usuario]**
+* **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
    * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
 
    * **[!UICONTROL Opens]** : número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## Canal de SMS {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estadísticas del público destinatario inicial]**
+* **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -223,7 +225,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estadísticas de ejecución]**
+* **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío:
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -237,7 +239,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Flujos de clics generados]**
+* **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío:
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -267,7 +269,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estadísticas del público destinatario inicial]**
+* **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
   +++Obtenga más información sobre las métricas de informes de campañas push.
 
@@ -279,7 +281,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Estadísticas de ejecución]**
+* **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío:
 
   +++Obtenga más información sobre las métricas de informes de campañas push.
 
@@ -293,7 +295,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL Flujos de clics generados]**
+* **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío:
 
   +++Obtenga más información sobre las métricas de informes de campañas push.
 

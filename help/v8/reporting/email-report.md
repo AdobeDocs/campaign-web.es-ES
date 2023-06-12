@@ -3,54 +3,170 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 95%
+source-wordcount: '985'
+ht-degree: 34%
 
 ---
 
 # Informe de envío de correo electrónico {#email-report}
 
-## Envío
+## Resumen de envíos {#delivery-summary-email}
 
-* **Resumen del envío**: este informe ofrece toda la información principal sobre el envío. Público destinatario, causas de exclusión y estadísticas del envío.
+* **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
-  ![](assets/reporting3.png)
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
-* **Rendimiento del envío**: este informe contiene información sobre el rendimiento del envío durante un período determinado. Para medir la velocidad a la que se envían los mensajes, los criterios son la cantidad de mensajes enviados por hora y el tamaño de los mensajes (en bits por segundo). En el siguiente ejemplo, el primer gráfico muestra los envíos correctos en azul y la cantidad de envíos incorrectos en naranja.
+   * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-  ![](assets/reporting3bis.png)
+   * **[!UICONTROL Para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
 
-* **Estadísticas de difusión**: este informe muestra el desglose por dominio de internet de todos los mensajes procesados y enviados, de los rechazos permanentes, de los mensajes devueltos no entregados, de las aperturas, los clics y las bajas.
+   * **[!UICONTROL Exclusión]**: Número total de mensajes excluidos del destinatario enviado.
++++
 
-  ![](assets/reporting4.png)
+* **[!UICONTROL Estadísticas de envío]** La tabla detalla el éxito de su envío.
 
-* **Rechazos y no entregados**: este informe muestra el desglose de los mensajes no entregados y los rechazos por dominio de internet.
+  +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
-  ![](assets/reporting5.png)
+   * **[!UICONTROL Mensaje enviado]**: Número total de mensajes que desea enviar después del análisis de envío.
 
-## Seguimiento
+   * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
-* **Indicadores de seguimiento**: este informe combina los indicadores clave para realizar un seguimiento del comportamiento de los destinatarios al recibir el envío. Permite el acceso a las estadísticas de envío y recepción, las tasas de apertura y clics, los flujos de clics generados, el seguimiento web y las actividades de uso compartido en redes sociales.
+   * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
 
-  ![](assets/reporting6.png)
+   * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
-* **URL y flujos de clics**: este informe muestra la lista de páginas visitadas después de un envío.
++++
 
-  ![](assets/reporting7.png)
+* **[!UICONTROL Causas de exclusión]** el gráfico y la tabla muestran el desglose por regla de mensajes rechazados durante el análisis.
 
-* **Actividades del usuario**: este informe muestra el desglose de aperturas y clics por media hora, hora o día, en forma de un gráfico.
+## Rendimiento del envío {#delivery-throughtput}
 
-  ![](assets/reporting8.png)
+Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 
-* **Estadísticas de seguimiento**: este informe proporciona estadísticas sobre las aperturas y los clics.
+## Estadísticas de difusión {#broadcast-statistics}
 
-  ![](assets/reporting9.png)
+* **[!UICONTROL Estadísticas de difusión]** contiene los datos disponibles de los posibles errores encontrados con cada dominio.
 
-* **Desglose de aperturas**: este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el período correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
-  ![](assets/reporting10.png)
+   * **[!UICONTROL Correos electrónicos procesados]**: Número total de mensajes procesados por el servidor de envío.
+
+   * **[!UICONTROL Entregado]**: porcentaje del número de mensajes procesados correctamente comparado con el número total de mensajes procesados.
+
+   * **[!UICONTROL Rechazos graves]**: porcentaje del número de rechazos &quot;graves&quot; y errores permanentes, como una dirección de correo electrónico incorrecta, comparado con el número total de mensajes procesados.
+
+   * **[!UICONTROL Rechazos leves]**: porcentaje del número de rechazos &quot;leves&quot;, errores temporales como una bandeja de entrada llena, comparado con el número total de mensajes procesados
+
+   * **[!UICONTROL Aperturas]**: porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
+
+   * **[!UICONTROL Clics]**: porcentaje del número de personas que hizo clic en una entrega al menos una vez comparado con el número de mensajes procesados correctamente.
+
+   * **[!UICONTROL Baja de suscripciones]**: porcentaje del número de clics en un vínculo de baja de suscripción comparado con el número de mensajes procesados correctamente.
++++
+
+## Rechazos y no entregables {#non-deliverables-email}
+
+* **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por dominio]** Las tablas y los gráficos contienen los datos disponibles para detectar posibles errores encontrados con cada dominio.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
+
+   * **[!UICONTROL Contribución]**:
+
+   * **[!UICONTROL Desglose]**:
+
++++
+
+## Indicadores de seguimiento {#tracking-indicators-email}
+
+* **[!UICONTROL Estadísticas de envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+
+   * **[!UICONTROL Aperturas distintas]**: Número total de destinatarios objetivo que abrieron un mensaje al menos una vez.
+
+   * **[!UICONTROL Opens]** : número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+
+   * **[!UICONTROL Clics en el vínculo de no participación]**: Número de clics en el vínculo de baja de suscripción.
+
+   * **[!UICONTROL Clicks on the mirror link]** : número de clics en el vínculo a la página espejo.
+
+   * **[!UICONTROL Estimation of forwards]** : estimación del número de correos electrónicos reenviados por los destinatarios objetivo.
++++
+
+* **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a los destinatarios.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Enviado]**: Número total de mensajes enviados.
+
+   * **[!UICONTROL Complaints]** : número de mensajes de este dominio que el destinatario ha notificado como no deseados.
+
+   * **[!UICONTROL Opens]** : número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+
+   * **[!UICONTROL Clicks]** : número de destinatarios objetivo diferentes que hicieron clic en el mismo entrega al menos una vez.
+
+   * **[!UICONTROL Raw reactivity]** : porcentaje del número de destinatarios que hicieron clic en una entrega al menos una vez comparado con el número de destinatarios que abrieron una entrega al menos una vez.
++++
+
+## URL y flujos de clics {#url-email}
+
+* **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que más se hizo clic durante una entrega.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
+
+   * **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
+
+   * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+
++++
+
+* **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+
+   * **[!UICONTROL Porcentaje]**: porcentaje de usuarios que interactuaron con el envío.
+
++++
+
+* **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
+
+## Actividades de usuario {#user-activities-email}
+
+* **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+
+   * **[!UICONTROL Opens]** : número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+
++++
+
+## Estadísticas de seguimiento {#tracking-statistics}
+
+* **[!UICONTROL Estadísticas de seguimiento]** El gráfico proporciona estadísticas sobre aperturas y clics.
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+
+   * **[!UICONTROL Opens]** : número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+
++++
+
+## Desglose de aperturas {#breakdown-opens}
+
+Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 
 ## Hotclicks
 
