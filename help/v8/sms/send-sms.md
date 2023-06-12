@@ -3,9 +3,9 @@ audience: end-user
 title: Envío de un envío SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 24%
 
 ---
@@ -50,7 +50,7 @@ Ahora puede revisar y enviar su mensaje SMS a su audiencia.
 
 Una vez entregado el envío, puede realizar un seguimiento de los datos de KPI (indicador de rendimiento clave) desde la página de envío y desde el menú Registros.
 
-Ahora puede empezar a medir el impacto del mensaje con informes integrados.
+Ahora puede empezar a medir el impacto del mensaje con informes integrados. [Más información](../reporting/sms-report.md)
 
 
 

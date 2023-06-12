@@ -3,10 +3,10 @@ audience: end-user
 title: Envío de una entrega de notificaciones push
 description: Obtenga información sobre cómo enviar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 22%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -50,4 +50,4 @@ Ahora puede revisar y enviar su mensaje SMS a su audiencia.
 
 Una vez entregado el envío, puede realizar un seguimiento de los datos de KPI (indicador de rendimiento clave) desde la página de envío y desde el menú Registros.
 
-Ahora puede empezar a medir el impacto del mensaje con informes integrados.
+Ahora puede empezar a medir el impacto del mensaje con informes integrados. [Más información](../reporting/push-report.md)
