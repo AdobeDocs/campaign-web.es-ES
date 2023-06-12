@@ -4,10 +4,10 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 9a0aaf311ae964b12fd55a749cf82fa0024c0643
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 82%
+source-wordcount: '488'
+ht-degree: 71%
 
 ---
 
@@ -41,9 +41,12 @@ La consola del cliente de Campaign es una aplicación basada en el explorador qu
 
 Obtenga información sobre cómo descargar e instalar la consola del cliente en [esta página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=es){target="_blank"}.
 
-Para obtener más información sobre el uso de la versión 8 Campaign, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo utilizar Campaign v8, consulte [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
 
 Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos están disponibles tanto en la consola del cliente como en la IU de la web. Por ejemplo, si crea una plantilla de envíos mediante la consola del cliente, también estará disponible en la IU de la web. Y si crea un envío de correo electrónico en la IU de la web, también puede acceder a este envío desde la consola del cliente.
+
+
+Algunos objetos sólo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la interfaz de usuario web de Campaign, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista del explorador, en el menú de navegación de la izquierda.
 
 ## Conéctese a Campaign
 
