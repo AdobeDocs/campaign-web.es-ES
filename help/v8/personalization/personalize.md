@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '433'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,11 @@ Puede personalizar cualquier entrega mediante el editor de expresiones, al que s
 
 ## Sintaxis de personalización {#syntax}
 
-Las etiquetas de personalización siguen una sintaxis específica: `<%=table.field%>`. Por ejemplo, para insertar el apellido del destinatario de la tabla de destinatarios, utilice el `<%= recipient.lastName %>` sintaxis.
+Las etiquetas de personalización siguen una sintaxis específica: `<%= table.field %>`. Por ejemplo, para insertar el apellido del destinatario de la tabla de destinatarios, utilice el `<%= recipient.lastName %>` sintaxis.
 
 Durante el proceso de preparación de la entrega, Adobe Campaign interpreta automáticamente estas etiquetas y las sustituye por los valores de campo correspondientes para cada destinatario. Puede ver el reemplazo real simulando el contenido.
+
+Al cargar contactos desde un archivo externo para una entrega de correo electrónico independiente, todos los campos del archivo de entrada están disponibles para la personalización. La sintaxis es la siguiente: `<%= dataSource.field %>`.
 
 ## Añadir etiquetas de personalización {#add}
 
@@ -40,7 +42,7 @@ Para añadir etiquetas de personalización a un envío, siga estos pasos:
    | Menú | Descripción |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | El **[!UICONTROL Aplicación de suscriptores]** Este menú enumera los campos relacionados con los suscriptores de una aplicación, como el terminal utilizado o el sistema operativo. *Este menú solo está disponible para notificaciones push* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | El **[!UICONTROL Destinatario]** El menú enumera los campos definidos en la tabla de destinatarios como, por ejemplo, los nombres de los destinatarios, las edades o las direcciones. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | El **[!UICONTROL Destinatario]** El menú enumera los campos definidos en la tabla de destinatarios como, por ejemplo, los nombres de los destinatarios, las edades o las direcciones. Cuándo [carga de contactos desde un archivo externo](../audience/file-audience.md) para una entrega de correo electrónico independiente, este menú enumera todos los campos disponibles en el archivo de entrada. |
    | ![](assets/do-not-localize/perso-message-menu.png) | El **[!UICONTROL Mensaje]** El menú enumera los campos relacionados con los &quot;logs&quot; de entrega, incluidos todos los mensajes enviados a los destinatarios o dispositivos en todos los canales, como la fecha del último evento con un destinatario determinado |
    | ![](assets/do-not-localize/perso-delivery-menu.png) | El **[!UICONTROL Envío]** El menú enumera campos relacionados con los parámetros necesarios para realizar entregas, como el canal o la etiqueta de entrega. |
 
