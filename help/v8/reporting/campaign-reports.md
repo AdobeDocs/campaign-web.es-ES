@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 28%
@@ -79,8 +79,11 @@ ht-degree: 28%
    * **[!UICONTROL Reenvíos]**: número de destinatarios que hicieron clic y que reenviaron el correo electrónico.
 
   ![](assets/campaign_report_email_4.png)
++++
 
 * **[!UICONTROL Flujos de clics generados]**
+
+  ![](assets/campaign_report_email_5.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -91,8 +94,6 @@ ht-degree: 28%
    * **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
 +++
-
-  ![](assets/campaign_report_email_5.png)
 
 ### Envíos que no se pueden entregar {#non-deliverables-email}
 
