@@ -4,10 +4,10 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
+source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 70%
+source-wordcount: '508'
+ht-degree: 63%
 
 ---
 
@@ -36,20 +36,19 @@ Si necesita acceder a las funciones de la versión 8 de Campaign que no están d
 
 ## Conéctese a Campaign
 
+Para conectarse a la web de Adobe Campaign, siga estos pasos:
 
-1. Conéctese a [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
+1. Navegar a [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Inicie sesión con sus credenciales de Adobe.
 1. En la sección **Acceso rápido**, haga clic en **Campaign**.
+
    ![](assets/connect.png)
 
 1. En la página siguiente, haga clic en el botón **Iniciar** de la instancia de Campaign.
-Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
 
-<!--
--> experience cloud home: "Campaign" -> home campaign v8
--> or Campaign v8 web if direct URL
--->
+   Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
 
+Si ya está conectado a otra solución de Adobe Experience Cloud, también puede navegar al entorno de Campaign desde el conmutador de soluciones en la parte superior derecha de la pantalla.
 
 ## Acerca de la consola del cliente de Campaign{#ac-client}
 
