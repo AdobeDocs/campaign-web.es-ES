@@ -4,10 +4,10 @@ title: Envío de correos electrónicos de prueba
 description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 41%
+source-wordcount: '563'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +23,7 @@ Los destinatarios de una prueba pueden comprobar varios elementos, como vínculo
 
 Los correos electrónicos de prueba se pueden enviar a dos tipos de destinatarios.
 
-* **Perfiles de prueba** : envíe correos electrónicos de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **Perfiles de prueba** : envíe correos electrónicos de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios de la base de datos. Se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **Sustituir del destinatario principal** : envíe correos electrónicos de prueba a una dirección de correo electrónico específica al suplantar un perfil existente. Esto le permite experimentar el correo electrónico como lo harían los destinatarios, lo que le ofrece una representación precisa del mensaje que recibirá el perfil.
 
