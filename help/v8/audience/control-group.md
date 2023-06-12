@@ -4,10 +4,10 @@ title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la IU de la web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 47%
+source-wordcount: '759'
+ht-degree: 41%
 
 ---
 
@@ -81,11 +81,11 @@ Después de la preparación de la entrega, puede revisar cómo se aplicaron las 
 
 * En el panel de envío, antes de realizar el envío, compruebe lo siguiente **Para excluir** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * En los registros de envío, la pestaña Logs muestra el paso de exclusión.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Después de la preparación de la entrega, puede revisar cómo se aplicaron las 
 
 * El **Causas de exclusión** pestaña muestra el número de perfiles excluidos para cada regla de tipología.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Para obtener más información sobre los registros de envío, consulte esta [sección](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Para obtener más información sobre los registros de envío, consulte esta [sec
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Población adicional"
->abstract="Puede excluir una población específica del objetivo seleccionando una audiencia existente o definiendo una consulta."
+>abstract="Puede excluir una población específica de la audiencia de envío seleccionando una audiencia existente o definiendo una consulta."
 
-Otra forma de definir un grupo de control es excluir una población específica del destinatario mediante una audiencia existente o definiendo una consulta.
+Otra forma de definir un grupo de control es seleccionar una población específica en una audiencia existente o definir una consulta.
 
 En la sección **Población adicional** de la pantalla de definición **Grupo de control**, haga clic en el botón **[!UICONTROL Seleccionar audiencia]**.
 
 ![](assets/control-group3.png)
 
-* Para usar una audiencia existente, haga clic en **Seleccionar audiencia**. Consulte esta [sección](add-audience.md).
+* Para usar una audiencia existente, haga clic en **Seleccionar audiencia**. Obtenga más información en [esta sección](add-audience.md).
 
-* Para definir una nueva consulta, seleccione **Crear su propia consulta** y defina los criterios de exclusión mediante el generador de reglas. Consulte esta [sección](segment-builder.md).
+* Para definir una nueva consulta, seleccione **Crear su propia consulta** y defina los criterios de exclusión mediante el generador de reglas. Obtenga más información en [esta sección](segment-builder.md).
 
-Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta se excluyen del destinatario.
+Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta son **excluido** desde el destinatario de la entrega: no reciben ningún mensaje.
 
 ## Comparar los resultados{#control-group-results}
 
