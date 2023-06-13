@@ -4,10 +4,10 @@ title: Selección de una audiencia existente
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Para seleccionar una audiencia existente para el mensaje, siga los pasos a conti
 
 1. Elija **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Para crear una nueva audiencia para usarla en este correo electrónico, elija **Crear la suya propia**. Consulte esta [sección](segment-builder.md).
 
-   Esta pantalla muestra todas las audiencias existentes definidas en la consola de Adobe Campaign o en Adobe Experience Platform.
+   Esta pantalla muestra todas las audiencias existentes definidas en la consola del cliente de Adobe Campaign para la carpeta actual.
 
    ![](assets/create-audience2.png)
 
