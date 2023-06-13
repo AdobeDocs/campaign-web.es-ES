@@ -3,9 +3,9 @@ audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '396'
 ht-degree: 13%
 
 ---
@@ -68,4 +68,4 @@ Utilice el **Mostrar atributos avanzados** cambiar para ver todos los atributos 
 
 Solo los atributos más comunes se muestran de forma predeterminada en las pantallas de lista de atributos y configuración de filtros. Atributos que se establecieron como `advanced` los atributos del esquema de datos se ocultan de las pantallas de configuración.
 
-Utilice el **Mostrar atributos avanzados** alternar para ver todos los atributos disponibles para la lista actual.
+Activar el **Mostrar atributos avanzados** alternar para ver todos los atributos disponibles para la lista actual: la lista de atributos se actualiza instantáneamente.
