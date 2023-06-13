@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 34%
@@ -16,6 +16,8 @@ ht-degree: 34%
 
 * **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
    * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
@@ -26,6 +28,8 @@ ht-degree: 34%
 +++
 
 * **[!UICONTROL Estadísticas de envío]** La tabla detalla el éxito de su envío.
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -41,6 +45,8 @@ ht-degree: 34%
 
 * **[!UICONTROL Causas de exclusión]** el gráfico y la tabla muestran el desglose por regla de mensajes rechazados durante el análisis.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Rendimiento del envío {#delivery-throughtput}
 
 Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
@@ -48,6 +54,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 ## Estadísticas de difusión {#broadcast-statistics}
 
 * **[!UICONTROL Estadísticas de difusión]** contiene los datos disponibles de los posibles errores encontrados con cada dominio.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
@@ -84,6 +92,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL Estadísticas de envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
    * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
@@ -100,6 +110,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 +++
 
 * **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a los destinatarios.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
@@ -118,6 +130,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que más se hizo clic durante una entrega.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
    * **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
@@ -130,6 +144,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
    * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
@@ -140,9 +156,13 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Actividades de usuario {#user-activities-email}
 
 * **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
@@ -156,6 +176,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL Estadísticas de seguimiento]** El gráfico proporciona estadísticas sobre aperturas y clics.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
    * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
@@ -167,6 +189,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 ## Desglose de aperturas {#breakdown-opens}
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks
 

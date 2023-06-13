@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -21,6 +21,8 @@ ht-degree: 9%
 
 * **[!UICONTROL Resumen del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes SMS.
 
+  ![](assets/reporting_sms_3.png)
+
   +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
    * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
@@ -32,9 +34,9 @@ ht-degree: 9%
    * **[!UICONTROL Errores]**: Número total de errores que se han producido durante una entrega para evitar que se envíe a los perfiles.
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **Población de destino** los gráficos y las tablas muestran datos relativos a la audiencia.
+
+  ![](assets/reporting_sms_4.png)
 
   +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -43,9 +45,10 @@ ht-degree: 9%
    * **[!UICONTROL Exclusiones]**: Número de perfiles que se han excluido del análisis.
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **Estadísticas generales** presenta datos para los mensajes SMS enviados, lo que incluye:
+
+  ![](assets/reporting_sms_5.png)
 
   +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -55,8 +58,6 @@ ht-degree: 9%
 
    * **[!UICONTROL Nueva cuarentena]**: Número de perfiles que se han excluido y añadido a la cuarentena.
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
 

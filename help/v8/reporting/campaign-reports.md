@@ -3,14 +3,26 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1562'
 ht-degree: 22%
 
 ---
 
 # Informes de campaña {#campaign-reports}
+
+El informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña.
+
+La página del informe de campaña se muestra con las siguientes pestañas:
+
+* [Canal de correo electrónico](#email-channel)
+* [Canal de SMS](#sms-channel)
+* [Canal de Push](#push-channel)
+
+Para acceder al informe de Campaign, haga clic en Reports en el panel de campañas.
+
+![](assets/campaign_report_email_13.png)
 
 ## Canal de correo electrónico {#email-channel}
 
