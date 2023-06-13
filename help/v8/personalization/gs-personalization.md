@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
 
 # Introducción al contenido dinámico
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="Personalización"
+>abstract="El editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. Puede personalizar los mensajes para cada destinatario aprovechando los datos de perfil y creando contenido condicional para adaptar el mensaje a cada destinatario y mostrar solo el contenido relevante. Además, hay bloques de personalización disponibles para añadir contenido personalizado predefinido a las entregas."
 
 Como especialista en marketing, es crucial dirigirse a los clientes que están genuinamente interesados en sus ofertas y comprometerse con ellas proporcionando contenido efectivo y relevante. Dada la amplia gama de destinatarios que encuentra, crear varios fragmentos de contenido de marketing para atraer a diferentes personas puede consumir tiempo y ser un derroche. Aquí es donde el contenido dinámico entra en juego.
 

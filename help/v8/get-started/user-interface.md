@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 53a834f7a00e1119ecbaaa0d2ad39102bd7c0e83
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1767'
 ht-degree: 66%
 
 ---
@@ -279,12 +279,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Datos de enriquecimiento"
 >abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_dashboard"
->title="Personalización"
->abstract="Por determinar"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
