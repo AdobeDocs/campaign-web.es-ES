@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 73%
+source-wordcount: '350'
+ht-degree: 72%
 
 ---
 
@@ -61,12 +61,12 @@ ht-degree: 73%
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de una entrega de notificaciones push](push/create-push.md)
       + [Diseño de una entrega push](push/content-push.md)
-      + [Envío de una entrega de notificaciones push](push/send-push.md)
+      + [Previsualización y envío de una entrega de notificaciones push](push/send-push.md)
    + SMS {#sms}
       + [Introducción a los envíos de SMS](sms/gs-sms.md)
       + [Creación de un envío SMS](sms/create-sms.md)
       + [Diseño de una entrega de SMS](sms/content-sms.md)
-      + [Envío de un envío SMS](sms/send-sms.md)
+      + [Previsualización y envío de un envío SMS](sms/send-sms.md)
    + Haga que el contenido sea dinámico {#dynamic-content}
       + [Introducción al contenido dinámico](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)
