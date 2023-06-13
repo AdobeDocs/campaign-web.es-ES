@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 25%
+source-wordcount: '1753'
+ht-degree: 28%
 
 ---
 
@@ -111,6 +111,8 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
 * **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por dominio]** Las tablas y los gráficos contienen los datos disponibles para detectar posibles errores encontrados con cada dominio.
 
+  Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de la cuarentena, consulte [Administración de cuarentena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es).
+
   ![](assets/campaign_report_email_6.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
@@ -183,6 +185,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
    * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
 
+   * **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
 +++
 
 * **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
