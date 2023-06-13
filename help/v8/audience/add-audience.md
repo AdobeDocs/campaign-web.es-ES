@@ -4,9 +4,9 @@ title: Selección de una audiencia existente
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 89%
 
 ---
@@ -56,4 +56,4 @@ Para seleccionar una audiencia existente para el mensaje, siga los pasos a conti
 
 1. Haga clic en **Save**.
 
-También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. Consulte la [sección](control-group.md).
+También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. Obtenga más información en [esta sección](control-group.md).

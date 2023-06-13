@@ -4,10 +4,10 @@ title: Configuración de envío de correos electrónicos
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 
 * **[!UICONTROL Forzar la generación de la página espejo]**: utilice este modo para generar la página espejo, aunque no haya ningún vínculo a la página espejo insertado en el envío.
 * **[!UICONTROL No generar la página espejo]**: utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en el envío.
-* **[!UICONTROL Generar una página espejo a la que se pueda acceder solo mediante el identificador de mensaje]**: cuando el vínculo de la página espejo no esté en el contenido del correo electrónico, utilice esta opción para habilitar el acceso en la ventana del registro del envío, en la consola del cliente.
+* **[!UICONTROL Genera una página espejo accesible solo mediante el identificador del mensaje]**: cuando el vínculo de página espejo no está presente en el contenido del correo electrónico, utilice esta opción para habilitar el acceso al contenido de la página espejo, en la ventana del registro de envío, desde la consola del cliente.
 
 
 ### Seguimiento {#tracking}

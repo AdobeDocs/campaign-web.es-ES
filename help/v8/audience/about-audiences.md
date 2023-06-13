@@ -4,7 +4,7 @@ title: Introducción a las audiencias
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 31%
@@ -40,7 +40,7 @@ La audiencia es el destinatario principal de la entrega: los destinatarios que r
 
 Para definir la población de audiencias, puede:
 
-* Seleccione una audiencia existente creada como lista en la consola del cliente. [Más información](add-audience.md)
+* Seleccione una audiencia existente, creada como lista en la consola del cliente. [Más información](add-audience.md)
 * Seleccione una audiencia de Adobe Experience Platform. [Más información](aep-audience.md)
 * Cree una nueva audiencia con el generador de reglas definiendo y combinando criterios de filtrado. [Más información](segment-builder.md)
 * Use an audience from an external file: esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas. [Más información](file-audience.md)

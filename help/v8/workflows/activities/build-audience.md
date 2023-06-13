@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar audiencia
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Crear audiencia
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 9%
@@ -17,7 +17,7 @@ El **Crear audiencia** la actividad es una **Segmentación** actividad. Esta act
 
 Para definir la población de audiencias, puede:
 
-* Seleccione una audiencia existente creada como lista en la consola del cliente.
+* Seleccione una audiencia existente, creada como lista en la consola del cliente.
 * Seleccione una audiencia de Adobe Experience Platform.
 * Cree una nueva audiencia con el generador de reglas definiendo y combinando criterios de filtrado.
 

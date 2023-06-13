@@ -4,10 +4,10 @@ title: Novedades de la versión 8 de Campaign Web
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -56,13 +56,13 @@ Además, todos los datos y la configuración ya disponibles en la consola del cl
 
 ## Actualizaciones terminológicas {#terminology-updates}
 
-Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre de algunos conceptos para que se ajusten a los estándares terminológicos más recientes. Estos cambios solo se aplican a la IU de la web de Campaign y no se reflejan en la Consola del cliente. Se encuentran detalladas a continuación.
+Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre de algunos conceptos para que se ajusten a los estándares terminológicos más recientes. Estos cambios solo se aplican a la interfaz de usuario web de Campaign y no se reflejan en la consola del cliente. Se encuentran detalladas a continuación.
 
-* Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El destinatario de las pruebas ahora se denomina **Perfiles de prueba**
-* Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios en la base de datos
-* El análisis del envío ahora es la **preparación del envío**. Cuando necesite iniciar el análisis, haga clic en el botón **Preparar**
-* La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido**
-* Las listas son ahora **Audiencias**
+* Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El destinatario de las pruebas ahora se denomina **Perfiles de prueba**.
+* Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales y ficticios en la base de datos.
+* El análisis del envío ahora es la **preparación del envío**. Cuando necesite iniciar el análisis, haga clic en el botón **Preparar**.
+* La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.**
+* Las listas son ahora **Audiencias**.
 
 ## Limitaciones{#limitations-alpha}
 

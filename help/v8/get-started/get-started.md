@@ -4,7 +4,7 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 63%
@@ -21,7 +21,7 @@ ht-degree: 63%
 
 Adobe Campaign ofrece una plataforma para elaborar experiencias multicanal para los clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-Inicialmente solo disponible a través de un [Consola de cliente](#ac-client)Además, Campaign ahora proporciona una nueva interfaz de usuario (IU) web con una facilidad de uso, accesibilidad y un nuevo diseño mejorados para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
+Inicialmente solo disponible a través de un [consola de cliente](#ac-client)Además, Campaign ahora proporciona una nueva interfaz de usuario (IU) web con una facilidad de uso, accesibilidad y un nuevo diseño mejorados para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
 
 ![](assets/home.png)
 
