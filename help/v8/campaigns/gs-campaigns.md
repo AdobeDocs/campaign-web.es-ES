@@ -4,10 +4,10 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 10%
 
 ---
 
@@ -57,27 +57,10 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel Filtro
 
 ## El panel de campañas{#campaign-dashboard}
 
-En el **Examinar** , haga clic en una campaña para mostrar su panel. Hay dos pestañas disponibles:
+En el **Examinar** en la lista de campañas, haga clic en una campaña para mostrar su panel. Hay dos pestañas disponibles:
 
 * El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
-* El **Envíos** La pestaña enumera todas las entregas vinculados a la campaña. Esta pestaña también le permite crear una nueva entrega dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
+* El **Envíos** La pestaña enumera todas las entregas vinculados a la campaña. También puede crear una nueva entrega dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
 
 El **Configuración de la campaña** Este icono le permite modificar las propiedades de la campaña que se definieron al crear la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
-
-## Monitorización y registros de seguimiento{#campaign-monitoring}
-
-La monitorización de campañas es un paso clave para analizar las campañas. Abra la campaña y haga clic en **Registros** botón.
-
-También puede ver los informes dedicados haciendo clic en **Informes** botón. Consulte esta [sección](../reporting/campaign-reports.md).
-
-## Duplicar y eliminar
-
-Puede duplicar o eliminar una campaña:
-
-* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Duplicar** o **Eliminar**.
-* en la propia campaña, haga clic en **Más** y luego seleccione **Duplicar** o **Eliminar**.
-
->[!NOTE]
->
->El **Envío** La pestaña muestra todas las entregas vinculados a la campaña, pero las entregas creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
 

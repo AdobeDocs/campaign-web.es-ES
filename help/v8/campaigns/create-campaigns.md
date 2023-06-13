@@ -4,10 +4,10 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 27%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,25 @@ Para crear una nueva campaña, siga estos pasos:
 
    * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md)
    * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
+1. Utilice el **Registros** y **Informes** para analizar la campaña.
+
+## Monitorización y registros de seguimiento{#campaign-monitoring}
+
+La monitorización de campañas es un paso clave para analizar las campañas. Abra la campaña y haga clic en **Registros** botón.
+
+También puede ver los informes dedicados haciendo clic en **Informes** botón. Consulte esta [sección](../reporting/campaign-reports.md).
+
+## Duplicación y eliminación de una campaña
+
+Puede duplicar o eliminar una campaña:
+
+* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Duplicar** o **Eliminar**.
+* en la propia campaña, haga clic en **Más** y luego seleccione **Duplicar** o **Eliminar**.
+
+>[!NOTE]
+>
+>El **Envío** La pestaña muestra todas las entregas vinculadas a la campaña, pero las entregas creadas en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
