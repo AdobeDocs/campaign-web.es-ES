@@ -5,7 +5,7 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 72%
@@ -21,7 +21,7 @@ ht-degree: 72%
 + Introducción a Adobe Campaign {#start}
    + [Introducción](get-started/get-started.md)
    + [Descubra la interfaz](get-started/user-interface.md)
-   + [Examen, búsqueda y filtrado de listas](get-started/list-filters.md)
+   + [Examinar, buscar y filtrar listas](get-started/list-filters.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
    + [Trabajo con plantillas de envío](msg/delivery-template.md)

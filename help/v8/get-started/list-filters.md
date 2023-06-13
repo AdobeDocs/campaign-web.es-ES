@@ -3,7 +3,7 @@ audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -27,11 +27,11 @@ En el **Configuración de columnas** , agregue o quite columnas, y cambie el ord
 
 Por ejemplo, para esta configuración:
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 La lista muestra las siguientes columnas:
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 Utilice el **Mostrar atributos avanzados** cambiar para ver todos los atributos de la lista actual. [Más información](#adv-attributes)
 
@@ -45,7 +45,7 @@ Para las columnas numéricas o de fecha, la variable **Arriba** La flecha indica
 
 Para buscar elementos más rápido, puede utilizar la barra de búsqueda o filtrar la lista en función de criterios contextuales.
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 Por ejemplo, puede filtrar las entregas según su estado, canal, fecha de contacto o carpeta. También puede ocultar las pruebas.
 
@@ -55,7 +55,7 @@ Para crear filtros personalizados con los datos, vaya a la parte inferior de los
 
 Arrastre y suelte los atributos para crear los criterios de filtro en la **Filtros avanzados** pantalla.
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Utilice el **Mostrar atributos avanzados** cambiar para ver todos los atributos de la lista actual. [Más información](#adv-attributes)
 
