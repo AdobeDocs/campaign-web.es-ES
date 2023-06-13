@@ -4,9 +4,9 @@ description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia 
 
 Nuestro lienzo gráfico completo le facilita el diseño de procesos como la segmentación, la ejecución de campañas y mucho más. Con esta herramienta avanzada al alcance de su mano, puede optimizar el flujo de trabajo y aumentar las campañas.
 
-**Diseño de correos electrónicos**
+**Conozca al Diseñador de correo electrónico**
 
 Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a una audiencia existente en un caso de uso de extremo a extremo.
 
@@ -51,6 +51,15 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 <img alt="nueva IU" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>Descubra la nueva interfaz de usuario</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validación" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Interfaz de lienzo de flujo de trabajo reimaginada</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Envío de envíos en canales múltiples</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Validación" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Interfaz de lienzo de flujo de trabajo reimaginada</strong></a>
 </div>
 <p>
 </td>
