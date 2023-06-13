@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 72%
+source-wordcount: '351'
+ht-degree: 71%
 
 ---
 
@@ -79,8 +79,9 @@ ht-degree: 72%
    + [Carga de una audiencia de correo electrónico desde un archivo](audience/file-audience.md)
    + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
-+ Campañas multicanal {#campaigns}
++ Campañas en canales múltiples {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
+   + [Administrar las campañas](campaigns/manage-campaigns.md)
    + [Cree su primera campaña](campaigns/create-campaigns.md)
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
@@ -97,7 +98,6 @@ ht-degree: 72%
       + [Generar público destinatario](workflows/activities/build-audience.md)
       + [Combinar](workflows/activities/combine.md)
       + [Correo electrónico, SMS, push](workflows/activities/email.md)
-      + [Fin](workflows/activities/end.md)
       + [Enriquecimiento](workflows/activities/enrichment.md)
       + [Bifurcación](workflows/activities/fork.md)
       + [Espera](workflows/activities/wait.md)
