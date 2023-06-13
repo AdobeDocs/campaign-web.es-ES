@@ -3,20 +3,22 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 38%
+source-wordcount: '1407'
+ht-degree: 39%
 
 ---
 
 # Informe de envío de correo electrónico {#email-report}
 
+El **Informe de envío de correo electrónico** ofrece información y datos completos específicos del canal de correo electrónico. Proporciona información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
+
 ## Resumen de envíos {#delivery-summary-email}
 
 * **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
@@ -96,6 +98,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por dominio]** Las tablas y los gráficos contienen los datos disponibles para detectar posibles errores encontrados con cada dominio.
 
+  Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de la cuarentena, consulte [Administración de cuarentena](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es)
+
   ![](assets/campaign_report_email_6.png)
 
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
@@ -168,6 +172,8 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
    * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
 
+   * **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
+
 +++
 
 * **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
@@ -188,7 +194,7 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## Actividades de usuario {#user-activities-email}
 
-* **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico.
+* **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el periodo de tiempo para los datos de destino: último día, hora o 30 minutos.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## Estadísticas de seguimiento {#tracking-statistics}
 
-* **[!UICONTROL Estadísticas de seguimiento]** El gráfico proporciona estadísticas sobre aperturas y clics.
+* **[!UICONTROL Estadísticas de seguimiento]** El gráfico proporciona estadísticas sobre aperturas y clics. Tiene la opción de seleccionar el lapso de tiempo específico para los datos de destino.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 ## Desglose de aperturas {#breakdown-opens}
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
+Tiene la flexibilidad de cambiar de **[!UICONTROL Corrección y móvil]** para segmentar exclusivamente **[!UICONTROL Solo móvil]** para una segmentación más precisa.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Hotclicks
+## Hotclicks {#hotclicks}
 
 Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los bloques personalizados, los vínculos de cancelación de suscripción, los vínculos de páginas espejo y los vínculos de ofertas se tienen en cuenta en el total de clics acumulados, pero no se muestran en el informe.
 
