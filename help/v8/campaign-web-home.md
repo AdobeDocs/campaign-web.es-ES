@@ -4,7 +4,7 @@ description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -55,11 +55,11 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="Validación" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Interfaz de lienzo de flujo de trabajo reimaginada</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Interfaz de lienzo de flujo de trabajo reimaginada</strong></a>
 </div>
 <p>
 </td>
@@ -72,20 +72,20 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="Audiencias" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Haga que el contenido sea dinámico</strong></a>
+<a href="personalization/gs-personalization.md"><strong>Haga que el contenido sea dinámico</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="Validación" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Envío de envíos en canales múltiples</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Envío de envíos en canales múltiples</strong></a>
 </div>
 <p>
 </td>
