@@ -2,11 +2,11 @@
 audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
-badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+badge: label="Alfa"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -66,6 +66,20 @@ Utilice el **Mostrar atributos avanzados** cambiar para ver todos los atributos 
 >title="Mostrar atributos avanzados"
 >abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Utilice este conmutador para crear un filtro con atributos avanzados."
 
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Campos avanzados del generador de reglas"
+>abstract="Configure columnas con campos avanzados."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Atributos avanzados del generador de reglas"
+>abstract="Utilice atributos avanzados para definir la regla."
+
+
 Solo los atributos más comunes se muestran de forma predeterminada en las pantallas de lista de atributos y configuración de filtros. Atributos que se establecieron como `advanced` los atributos del esquema de datos se ocultan de las pantallas de configuración.
 
 Activar el **Mostrar atributos avanzados** alternar para ver todos los atributos disponibles para la lista actual: la lista de atributos se actualiza instantáneamente.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
