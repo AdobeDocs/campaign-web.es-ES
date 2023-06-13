@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# Introducción al contenido dinámico
+# Introducción al contenido dinámico {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ Como especialista en marketing, es crucial dirigirse a los clientes que están g
 
 Las funciones de contenido dinámico web de Adobe Campaign le permiten personalizar el contenido en función de la información que haya recopilado sobre los destinatarios. Al utilizar contenido dinámico, se asegura de que sus esfuerzos de marketing sean más relevantes, lo que evita la comercialización de productos o servicios no deseados o innecesarios. Este método hace que el contenido sea más atractivo y aumenta la probabilidad de que se lea. Además, le permite personalizar el contenido, lo que hace que los destinatarios sientan que están recibiendo información de una persona, en lugar de una máquina.
 
-## ¿Cómo hacer que su contenido sea dinámico?
+## ¿Cómo hacer que su contenido sea dinámico? {#make-content-dyn}
 
 Puede hacer que el contenido del mensaje sea dinámico insertando construcciones JavaScript en el editor de expresiones web de Campaign. Al enviar mensajes, Adobe Campaign interpreta estas expresiones para entregar el contenido correcto a cada uno de los destinatarios:
 
@@ -65,7 +65,7 @@ A continuación se muestran algunos ejemplos sobre cómo acceder al editor de ex
 >
 >Además del editor de expresiones, también puede aprovechar un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
 
-## Vamos a profundizar
+## Vamos a profundizar {#dive-deeper}
 
 Ahora que comprende cómo hacer que el contenido sea dinámico, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
 
