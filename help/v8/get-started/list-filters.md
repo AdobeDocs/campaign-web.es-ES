@@ -3,7 +3,7 @@ audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -11,7 +11,7 @@ ht-degree: 13%
 ---
 
 
-# Examen, búsqueda y filtrado de listas {#list-screens}
+# Examinar, buscar y filtrar listas {#list-screens}
 
 La mayoría de los vínculos del menú de navegación izquierdo muestran listas de objetos, como la lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista y filtrar estas listas, como se detalla a continuación.
 
@@ -21,7 +21,7 @@ Para quitar un filtro, haga clic en **Borrar todo** botón.
 
 Las listas se muestran en columnas. Puede mostrar información adicional cambiando la configuración de la columna. Para ello, haga clic en el **Configurar la columna para un diseño personalizado** en la esquina superior derecha de la lista.
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 En el **Configuración de columnas** , agregue o quite columnas, y cambie el orden en que se muestran.
 
