@@ -4,10 +4,10 @@ description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónic
 
 Personalice el contenido en función de la información que haya recopilado sobre los destinatarios. El uso de contenido dinámico hace que el contenido sea más atractivo y aumenta la probabilidad de que se lea. Personalice los mensajes a cada destinatario específico aprovechando los datos de perfil como su nombre, intereses, dónde viven, qué compraron y mucho más. Cree contenido condicional para adaptar las entregas a cada destinatario y mostrar solo el contenido relevante para un cliente determinado en función de la información que tenga sobre él.
 
-**Envío de envíos en canales múltiples**
+**Creación de campañas en canales múltiples**
 
 Utilice Adobe Campaign para crear campañas en canales múltiples. Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales. En esta versión, los canales de correo electrónico, push y SMS están disponibles. Mida la eficacia de los envíos con informes detallados que incluyen los recuentos de aperturas, clics, reenvíos y mucho más.
 
@@ -64,11 +64,11 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Poco frecuente" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Conozca al Diseñador de correo electrónico</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Conozca al Diseñador de correo electrónico</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 <img alt="Validación" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>Envío de envíos en canales múltiples</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Creación de campañas en canales múltiples</strong></a>
 </div>
 <p>
 </td>
