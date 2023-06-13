@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 34%
+source-wordcount: '1256'
+ht-degree: 38%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 * **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
@@ -29,7 +29,7 @@ ht-degree: 34%
 
 * **[!UICONTROL Estadísticas de envío]** La tabla detalla el éxito de su envío.
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -46,6 +46,24 @@ ht-degree: 34%
 * **[!UICONTROL Causas de exclusión]** el gráfico y la tabla muestran el desglose por regla de mensajes rechazados durante el análisis.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+   * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
+
+   * **[!UICONTROL Dominio no válido]**: Tipo de error generado al realizar una entrega para indicar que el dominio de la dirección de correo electrónico es incorrecto o no existe.
+
+   * **[!UICONTROL Buzón lleno]**: Tipo de error generado después de cinco intentos de entrega para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
+
+   * **[!UICONTROL Cuenta deshabilitada]**: Tipo de error generado al realizar una entrega para indicar que la dirección ya no existe.
+
+   * **[!UICONTROL Rechazado]**: Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software antispam).
+
+   * **[!UICONTROL Inalcanzable]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidencia en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
+
+   * **[!UICONTROL Sin conexión]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
+
++++
 
 ## Rendimiento del envío {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 * **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por dominio]** Las tablas y los gráficos contienen los datos disponibles para detectar posibles errores encontrados con cada dominio.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
-   * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
+   * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
-   * **[!UICONTROL Contribución]**:
+   * **[!UICONTROL Dominio no válido]**: Tipo de error generado al realizar una entrega para indicar que el dominio de la dirección de correo electrónico es incorrecto o no existe.
 
-   * **[!UICONTROL Desglose]**:
+   * **[!UICONTROL Buzón lleno]**: Tipo de error generado después de cinco intentos de entrega para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
+
+   * **[!UICONTROL Cuenta deshabilitada]**: Tipo de error generado al realizar una entrega para indicar que la dirección ya no existe.
+
+   * **[!UICONTROL Rechazado]**: Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software antispam).
+
+   * **[!UICONTROL Inalcanzable]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidencia en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
+
+   * **[!UICONTROL Sin conexión]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
 
 +++
 

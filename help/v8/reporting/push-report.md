@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 9%
@@ -46,8 +46,6 @@ ht-degree: 9%
    * **[!UICONTROL Exclusiones]**: Número de perfiles que se han excluido del análisis.
 
 +++
-
-
 
 * **Estadísticas generales** presenta datos para las notificaciones push enviadas, lo que incluye:
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 22%
+source-wordcount: '1682'
+ht-degree: 25%
 
 ---
 
@@ -115,11 +115,19 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
-   * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
+   * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
-   * **[!UICONTROL Contribución]**:
+   * **[!UICONTROL Dominio no válido]**: Tipo de error generado al realizar una entrega para indicar que el dominio de la dirección de correo electrónico es incorrecto o no existe.
 
-   * **[!UICONTROL Desglose]**:
+   * **[!UICONTROL Buzón lleno]**: Tipo de error generado después de cinco intentos de entrega para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
+
+   * **[!UICONTROL Cuenta deshabilitada]**: Tipo de error generado al realizar una entrega para indicar que la dirección ya no existe.
+
+   * **[!UICONTROL Rechazado]**: Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software antispam).
+
+   * **[!UICONTROL Inalcanzable]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidencia en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
+
+   * **[!UICONTROL Sin conexión]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
 
 +++
 
@@ -213,6 +221,8 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
 * **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de SMS.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
    * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
@@ -227,6 +237,8 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
 * **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
    * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
@@ -238,6 +250,8 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 +++
 
 * **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío:
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -252,6 +266,8 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 +++
 
 * **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío:
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 

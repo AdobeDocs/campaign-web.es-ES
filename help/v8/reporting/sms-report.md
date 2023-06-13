@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -60,6 +60,8 @@ ht-degree: 9%
 +++
 
 * **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
+
+  ![](assets/reporting_sms_6.png)
 
 ## Rendimiento del envío {#delivery-throughput}
 
