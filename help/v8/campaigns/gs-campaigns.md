@@ -4,10 +4,10 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 10%
+source-wordcount: '465'
+ht-degree: 9%
 
 ---
 
@@ -41,11 +41,15 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## Acceso y administración de campañas{#access-campaigns}
 
-Para crear una nueva campaña o administrar las campañas existentes, haga clic en **[!UICONTROL Campañas]** menú. Hay dos pestañas disponibles:
+Para crear una nueva campaña o administrar las campañas existentes, haga clic en **[!UICONTROL Campañas]** menú.
 
-* El **Examinar** La pestaña enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel o crear una nueva campaña haciendo clic en **Crear campaña** botón. Consulte esta [sección](create-campaigns.md#create-campaigns)
+![Lista de campañas](assets/campaign-list.png)
 
-* El **Plantillas** La pestaña enumera todas las plantillas de campaña disponibles. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar en la creación de nuevas campañas. Se crean desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es).
+Hay dos pestañas disponibles:
+
+* El **Examinar** La pestaña enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel o crear una nueva campaña haciendo clic en **Crear campaña** botón. Consulte esta [sección](create-campaigns.md#create-campaigns).
+
+* El **Plantillas** La pestaña enumera todas las plantillas de campaña disponibles. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar en la creación de nuevas campañas. Se crean desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es)
 
 Cada campaña de la lista muestra información sobre su estado actual, fecha de creación, la última vez que se modificó, etc.
 
@@ -53,14 +57,18 @@ Puede personalizar las columnas mostradas haciendo clic en el **Configurar la co
 
 Por ejemplo, puede filtrar la programación de su campaña. Abra el panel Filtros y utilice el **Fecha de inicio y finalización** sección:
 
-![Lista de campañas](assets/campaign-filter-on-dates.png)
+![Filtro de campaña](assets/campaign-filter-on-dates.png)
 
 ## El panel de campañas{#campaign-dashboard}
 
-En el **Examinar** en la lista de campañas, haga clic en una campaña para mostrar su panel. Hay dos pestañas disponibles:
+En el **Examinar** en la lista de campañas, haga clic en una campaña para mostrar su panel.
+
+![Panel de campañas](assets/campaign-dashboard.png)
+
+El estado y la programación de la campaña se muestran en la parte superior de la pantalla. Puede usar el complemento **Configuración de la campaña** para modificar las propiedades de la campaña definidas al crear la campaña. Hay tres botones disponibles que permiten ver los registros, crear informes, duplicar o eliminar la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
+
+Hay dos pestañas disponibles:
 
 * El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
 * El **Envíos** La pestaña enumera todas las entregas vinculados a la campaña. También puede crear una nueva entrega dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
-
-El **Configuración de la campaña** Este icono le permite modificar las propiedades de la campaña que se definieron al crear la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
 

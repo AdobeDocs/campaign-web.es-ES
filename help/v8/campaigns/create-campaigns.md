@@ -4,7 +4,7 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -45,6 +45,7 @@ Para crear una nueva campaña, siga estos pasos:
 
    * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md)
    * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
+
 1. Utilice el **Registros** y **Informes** para analizar la campaña.
 
 ## Monitorización y registros de seguimiento{#campaign-monitoring}
@@ -62,7 +63,7 @@ Puede duplicar o eliminar una campaña:
 
 >[!NOTE]
 >
->El **Envío** La pestaña muestra todas las entregas vinculadas a la campaña, pero las entregas creadas en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
+>El **Envío** La pestaña muestra todas las entregas vinculados a la campaña. Sin embargo, las entregas creadas en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
 
 
 <!--
