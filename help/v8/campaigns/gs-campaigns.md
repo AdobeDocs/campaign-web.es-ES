@@ -4,7 +4,7 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 9%
@@ -49,13 +49,13 @@ Hay dos pestañas disponibles:
 
 * El **Examinar** La pestaña enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel o crear una nueva campaña haciendo clic en **Crear campaña** botón. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
-* El **Plantillas** La pestaña enumera todas las plantillas de campaña disponibles. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar en la creación de nuevas campañas. Se crean desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es)
+* El **Plantillas** La pestaña enumera todas las plantillas de campaña disponibles. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar al crear nuevas campañas. Se crean desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es)
 
 Cada campaña de la lista muestra información sobre su estado actual, fecha de creación, la última vez que se modificó, etc.
 
 Puede personalizar las columnas mostradas haciendo clic en el **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar información adicional a la lista. Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens)
 
-Por ejemplo, puede filtrar la programación de su campaña. Abra el panel Filtros y utilice el **Fecha de inicio y finalización** sección:
+Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de filtro y utilice el **Fecha de inicio y finalización** sección:
 
 ![Filtro de campaña](assets/campaign-filter-on-dates.png)
 
@@ -70,5 +70,6 @@ El estado y la programación de la campaña se muestran en la parte superior de 
 Hay dos pestañas disponibles:
 
 * El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
+
 * El **Envíos** La pestaña enumera todas las entregas vinculados a la campaña. También puede crear una nueva entrega dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
 
