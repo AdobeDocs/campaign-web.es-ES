@@ -4,7 +4,7 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Alfa"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 ---
 
 
-# Cree su primera campaña {#create-campaigns}
+# Cree su primera campaña {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 22%
 >title="Propiedades de campaña"
 >abstract="Defina la configuración de la campaña y los metadatos."
 
-Las campañas pueden incluir flujos de trabajo y envíos independientes. Propiedades, horario, trabajo, entrega más un horario de feria
+Para crear una nueva campaña, debe definir sus propiedades, programar e incluir flujos de trabajo y envíos.
 
-## Creación de la campaña
+## Creación de la campaña{#campaign-create}
 
 Para crear una nueva campaña, siga estos pasos:
 
@@ -40,25 +40,27 @@ Para crear una nueva campaña, siga estos pasos:
 
    >[!NOTE]
    >
-   >Siempre puede modificar estas propiedades más adelante, desde el **Configuración de la campaña** , junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard)
+   >Siempre puede modificar estas propiedades más adelante, desde el **Configuración de la campaña** , junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard).
 
 1. Haga clic en **Create**.
 1. Añadir flujos de trabajo y envíos a la campaña:
 
-   * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md)
+   * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md).
    * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
 
 1. Utilice el **Registros** y **Informes** para analizar el rendimiento de su campaña.
 
 ## Monitorización y seguimiento de la campaña{#campaign-monitoring}
 
-La monitorización de campañas es un paso clave para analizar las campañas. Abra la campaña y haga clic en **Registros** botón.
+La monitorización de campañas es un paso clave para analizar la eficacia de su campaña. Abra la campaña y haga clic en **Registros** botón.
 
 También puede ver los informes dedicados haciendo clic en **Informes** botón. Consulte esta [sección](../reporting/campaign-reports.md).
 
-+++WORKF ++pantalla
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

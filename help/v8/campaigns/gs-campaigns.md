@@ -4,10 +4,10 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alfa"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ Al añadir varios flujos de trabajo y envíos específicos a la campaña, puede 
 Las campañas ofrecen métricas de creación de informes dedicadas para obtener información completa sobre el rendimiento de toda la campaña, lo que le permite evaluar su eficacia, identificar tendencias y tomar decisiones basadas en datos para optimizar los esfuerzos futuros.
 
 ![Flujo de campaña](assets/campaign-flow.png)
+
+Consulte las secciones siguientes:
+
+* [Acceso y administración de campañas](manage-campaigns.md)
+* [Cree su primera campaña](create-campaigns.md)
+
 
 
 <!--
