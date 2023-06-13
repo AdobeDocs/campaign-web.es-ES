@@ -2,12 +2,12 @@
 audience: end-user
 title: Trabajo con flujos de trabajo y actividades
 description: Descubra más información sobre las actividades de flujo de trabajo
-badge: label="Alpha" type="Positive"
+badge: label="Alfa"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 10%
 
 ---
 
@@ -49,7 +49,7 @@ Consulte esta [sección](enrichment.md).
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades:
 
 * El [And-join](and-join.md) Esta actividad permite sincronizar varias ramas de ejecución de un flujo de trabajo.
-* El [Fin](end.md) Esta actividad le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
+* El **Fin** Esta actividad le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
 * El [Tenedor](fork.md) La actividad de le permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 * El [Esperar](wait.md) la actividad suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
 
