@@ -2,11 +2,11 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Fork
 description: Aprenda a utilizar la actividad del flujo de trabajo Bifurcación
-badge: label="Alpha" type="Positive"
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="Alfa"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 23%
+source-wordcount: '111'
+ht-degree: 19%
 
 ---
 

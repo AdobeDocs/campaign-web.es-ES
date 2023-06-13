@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar una audiencia de Adobe Experience Platform
 description: Aprenda a utilizar una audiencia de Adobe Experience Platform
-badge: label="Alpha" type="Positive"
+badge: label="Alfa"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 40%
+source-wordcount: '289'
+ht-degree: 39%
 
 ---
 

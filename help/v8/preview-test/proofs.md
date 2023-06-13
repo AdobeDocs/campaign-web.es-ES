@@ -3,11 +3,11 @@ audience: end-user
 title: Envío de correos electrónicos de prueba
 description: Obtenga información sobre cómo definir y enviar correos electrónicos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha" type="Positive"
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+badge: label="Alfa"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 40%
+source-wordcount: '561'
+ht-degree: 39%
 
 ---
 

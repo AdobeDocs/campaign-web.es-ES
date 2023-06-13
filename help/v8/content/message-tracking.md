@@ -3,11 +3,11 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Obtenga información sobre cómo añadir vínculos y rastrear los mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+badge: label="Alfa"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 99%
 
 ---
 

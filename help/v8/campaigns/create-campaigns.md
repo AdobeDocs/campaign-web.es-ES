@@ -2,17 +2,17 @@
 audience: end-user
 title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
-badge: label="Alpha" type="Positive"
+badge: label="Alfa"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 22%
 
 ---
 
 
-# Creación de campañas en canales múltiples {#create-campaigns}
+# Cree su primera campaña {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 18%
 >title="Propiedades de campaña"
 >abstract="Defina la configuración de la campaña y los metadatos."
 
-Las campañas pueden incluir flujos de trabajo y envíos independientes.
+Las campañas pueden incluir flujos de trabajo y envíos independientes. Propiedades, horario, trabajo, entrega más un horario de feria
+
+## Creación de la campaña
 
 Para crear una nueva campaña, siga estos pasos:
 
@@ -32,7 +34,7 @@ Para crear una nueva campaña, siga estos pasos:
 1. Seleccione el **Plantilla** para utilizar y proporcionar una etiqueta para la campaña. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar en la creación de nuevas campañas. Se crean desde la consola del cliente.
    [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es).
 1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
-1. Defina el **Programación** de la campaña. La campaña comienza cuando se llega a la fecha de inicio. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](gs-campaigns.md#access-campaigns).
+1. Defina el **Programación** de la campaña. La campaña comienza cuando se llega a la fecha de inicio. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](manage-campaigns.md#access-campaigns).
 
    ![Definición de las propiedades de la campaña](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Para crear una nueva campaña, siga estos pasos:
 
 1. Utilice el **Registros** y **Informes** para analizar el rendimiento de su campaña.
 
-## Monitorización y registros de seguimiento{#campaign-monitoring}
+## Monitorización y seguimiento de la campaña{#campaign-monitoring}
 
 La monitorización de campañas es un paso clave para analizar las campañas. Abra la campaña y haga clic en **Registros** botón.
 
 También puede ver los informes dedicados haciendo clic en **Informes** botón. Consulte esta [sección](../reporting/campaign-reports.md).
 
-## Duplicación y eliminación de una campaña
-
-Puede duplicar o eliminar una campaña:
-
-* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Duplicar** o **Eliminar**.
-* en la propia campaña, haga clic en **Más** y luego seleccione **Duplicar** o **Eliminar**.
-
->[!NOTE]
->
->El **Envíos** La pestaña muestra todas las entregas vinculados a la campaña. Sin embargo, las entregas creadas en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
-
++++WORKF ++pantalla
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

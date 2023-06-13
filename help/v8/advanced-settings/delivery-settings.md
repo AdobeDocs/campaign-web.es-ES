@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración de envío de correos electrónicos
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha" type="Positive"
-source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
+badge: label="Alfa"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1471'
 ht-degree: 95%
 
 ---

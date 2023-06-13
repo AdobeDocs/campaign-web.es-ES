@@ -2,12 +2,12 @@
 audience: end-user
 title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
-badge: label="Alpha" type="Positive"
+badge: label="Alfa"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 64%
 
 ---
 
@@ -35,7 +35,6 @@ Puede cargar contactos desde un archivo externo. Los perfiles no se añaden a la
 >* Esta funcionalidad solo está disponible para **envíos de correo electrónico independientes**. No se puede utilizar en flujos de trabajo ni con envíos SMS o Push.
 >
 >* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
-
 
 
 Para segmentar perfiles desde un archivo local directamente desde la interfaz de correo electrónico, siga estos pasos:

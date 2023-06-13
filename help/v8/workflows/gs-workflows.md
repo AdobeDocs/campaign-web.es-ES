@@ -2,12 +2,12 @@
 audience: end-user
 title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
-badge: label="Alpha" type="Positive"
+badge: label="Alfa"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 70%
+source-wordcount: '388'
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ A continuación se muestran algunos ejemplos de cómo puede utilizar flujos de t
 
 ## Vamos a profundizar
 
-Ahora que comprende qué son los flujos de trabajo y qué puede hacer con ellos en Adobe Campaign, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
+Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en Adobe Campaign, es hora de profundizar en las secciones de documentación para empezar a trabajar con la función.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +48,7 @@ Ahora que comprende qué son los flujos de trabajo y qué puede hacer con ellos 
 <img alt="Acceso y administración de flujos de trabajo" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Acceso y administración de flujos de trabajo</strong></a>
+<a href="access-monitor.md"><strong>Acceso y administración de los flujos de trabajo</strong></a>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ Ahora que comprende qué son los flujos de trabajo y qué puede hacer con ellos 
 <a href="create-workflow.md">
 <img alt="Posible cliente" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>Creación y ejecución de su primer flujo de trabajo</strong>
+<div><a href="create-workflow.md"><strong>Cree y ejecute su primer flujo de trabajo</strong>
 </div>
 <p>
 </td>
