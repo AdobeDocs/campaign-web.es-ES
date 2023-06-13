@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 9%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 9%
 >id="acw_push_report_overview"
 >title="Resumen del informe push"
 >abstract="Descubra las métricas de creación de informes de su envío Push."
+
+El **Informe de envío push** ofrece una descripción general completa del canal push, con amplias perspectivas y datos específicos. Ofrece información completa sobre el rendimiento, la eficacia y los resultados de cada envío.
 
 ## Resumen de push {#push-summary}
 
