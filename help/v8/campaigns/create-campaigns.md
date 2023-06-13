@@ -4,10 +4,10 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Alpha" type="Positive"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 34%
+source-wordcount: '229'
+ht-degree: 27%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 34%
 >title="Propiedades de campaña"
 >abstract="Defina la configuración de la campaña y los metadatos."
 
+Las campañas pueden incluir flujos de trabajo y envíos independientes.
+
 Para crear una nueva campaña, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Campañas]** y haga clic en el **[!UICONTROL Crear campaña]** botón.
 1. Seleccione el **Plantilla** para utilizar y proporcionar una etiqueta para la campaña. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar en la creación de nuevas campañas. Se crean desde la consola del cliente.
    [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es).
-1. Si es necesario, puede cambiar el **Opciones adicionales**. Consulte esta [sección](#campaign-options).
+1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
 1. Defina el **Programación** de la campaña. La campaña comienza cuando se llega a la fecha de inicio. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](gs-campaigns.md#access-campaigns).
 
    ![Definición de las propiedades de la campaña](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >También puede acceder a las propiedades de la campaña desde el icono **Configuración de la campaña**, junto a la etiqueta de la campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard)
+   >Siempre puede modificar estas propiedades más adelante, desde el **Configuración de la campaña** , junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard)
 
 1. Haga clic en **Create**.
-1. Añada un flujo de trabajo o una entrega independiente a la campaña.
+1. Añada flujos de trabajo y envíos a la campaña.
+
    * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md)
    * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
-
-## Opciones adicionales {#campaign-options}
-
-Las propiedades de la campaña se muestran al crear una nueva campaña.
-
-En **Opciones adicionales**, puede configurar las siguientes opciones:
-
-* Nombre interno:
-* Folder: seleccione la carpeta donde desea almacenar la campaña
-* Asignado a:
-* Descripción:
-* Naturaleza: especifique la naturaleza de la campaña con fines de clasificación
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
