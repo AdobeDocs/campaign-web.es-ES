@@ -4,9 +4,9 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alfa"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
 1. Para seleccionar los perfiles que se utilizarán para previsualizar el contenido personalizado, utilice:
 
-   * **[!UICONTROL Añadir perfil(es) de prueba]** para previsualizar mensajes de correo electrónico y SMS
+   * **[!UICONTROL Añadir perfil(es) de prueba]** para previsualizar envíos de correo electrónico y SMS
 
-   * **[!UICONTROL Añadir suscriptores]** para previsualizar envíos push
+   * **[!UICONTROL Añadir suscriptor(es)]** para previsualizar notificaciones push
 
 1. Puede combinar perfiles y perfiles de prueba para previsualizar el mensaje de correo electrónico o SMS.
 
