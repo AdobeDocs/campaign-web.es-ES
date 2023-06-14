@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de una entrega de notificaciones push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 67%
+source-wordcount: '330'
+ht-degree: 65%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 67%
 
 1. Encienda la opción del grupo **[!UICONTROL Habilitar control]** para establecer un grupo de control que mida el impacto de su envío, lo que le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
 
-1. Clic **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido de la notificación push.
+1. Clic **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido de la notificación push. [Más información](content-push.md)
+
+   ![](assets/push_create_5.png)
+
+   Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../content/offers.md).
 
 1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar el envío, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario.
 

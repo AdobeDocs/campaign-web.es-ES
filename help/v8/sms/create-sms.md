@@ -4,10 +4,10 @@ title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 badge: label="Alfa"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 94%
+source-wordcount: '313'
+ht-degree: 91%
 
 ---
 
@@ -52,7 +52,11 @@ ht-degree: 94%
 
 1. Encienda la opción del grupo **[!UICONTROL Habilitar control]** para establecer un grupo de control que mida el impacto de su envío, lo que le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
 
-1. Haga clic en **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido del mensaje SMS.
+1. Haga clic en **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido del mensaje SMS. [Más información](content-sms.md)
+
+   ![](assets/sms_create_4.png)
+
+   Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../content/offers.md).
 
 1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar el envío, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario.
 
