@@ -4,7 +4,7 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ Según el canal que utilice, los mensajes de prueba se pueden enviar a tres tipo
 
   Se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[Sustituir del destinatario principal](#substitution-profiles)** - Enviar **prueba de correos electrónicos y SMS** a una dirección de correo electrónico o número de teléfono específicos mientras se suplanta a un perfil existente.
+* [Sustituir del destinatario principal](#substitution-profiles) - Enviar **prueba de correos electrónicos y SMS** a una dirección de correo electrónico o número de teléfono específicos mientras se suplanta a un perfil existente.
 
   Esto le permite experimentar el mensaje como lo harían los destinatarios, lo que le ofrece una representación precisa del contenido que recibirá el perfil.
 
-* **[Suscriptores](#subscribers)** - Enviar **probar notificaciones push** a suscriptores ficticios añadidos a la base de datos.
+* [Suscriptores](#subscribers) - Enviar **probar notificaciones push** a suscriptores ficticios añadidos a la base de datos.
 
   Al igual que los perfiles de prueba, se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
