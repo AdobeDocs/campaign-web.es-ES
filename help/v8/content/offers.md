@@ -4,10 +4,10 @@ title: Envío de ofertas
 description: Envío de ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alfa"
-source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
+source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '552'
+ht-degree: 94%
 
 ---
 
@@ -45,9 +45,7 @@ Los pasos para enviar un correo electrónico son los siguientes:
 
    Si no se especifica ninguna categoría, el motor de ofertas tendrá en cuenta todas las ofertas contenidas en el entorno, a menos que se seleccione un **[!UICONTROL Tema de oferta]**.
 
-   >[!NOTE]
-   >
-   >Los temas son palabras clave que se definen de forma ascendente en las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
+1. (opcional) Introduzca una temática para filtrar las categorías. Los temas son palabras clave que se definen de forma ascendente en las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
 
 1. Utilice el campo **[!UICONTROL Propuestas]** para especificar el número de ofertas que desea insertar en el correo electrónico.
 
