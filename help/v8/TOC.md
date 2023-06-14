@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 71%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 71%
             + [Definición de un estilo para los vínculos](content/styling-links.md)
             + [Adición de atributos de estilo alineados](content/inline-styling.md)
          + [Envío de ofertas](content/offers.md)
-      + Vista previa y prueba de sus correos electrónicos {#preview-test}
-         + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
-         + [Previsualización del contenido del correo electrónico](preview-test/preview-content.md)
-         + [Procesar el correo electrónico](preview-test/email-rendering.md)
-         + [Envío de correos electrónicos de prueba](preview-test/proofs.md)
       + Envío y supervisión del correo electrónico {#monitor}
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
          + [Monitorización de los registros de envío](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 71%
       + [Adición de personalización](personalization/personalize.md)
       + [Añadir contenido condicional](personalization/conditions.md)
       + [Añadir bloques de contenido integrados](personalization/content-blocks.md)
+   + Previsualización y prueba de la entrega {#preview-test}
+      + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
+      + [Previsualización del contenido del mensaje](preview-test/preview-content.md)
+      + [Envío de entregas de prueba](preview-test/proofs.md)
+      + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)

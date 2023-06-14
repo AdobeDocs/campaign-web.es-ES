@@ -4,33 +4,35 @@ title: Acerca de la vista previa y la prueba de los correos electrónicos
 description: Obtenga información sobre cómo previsualizar y probar correos electrónicos
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 39%
+source-wordcount: '185'
+ht-degree: 24%
 
 ---
 
-# Acerca de la vista previa y la prueba de los correos electrónicos {#about-preview-test}
+# Acerca de la previsualización y prueba de envíos {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Previsualizar y probar sus mensajes"
 >abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Previsualización del contenido del correo electrónico"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Envío de correos electrónicos de prueba"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Previsualización del contenido de envío"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Envío de mensajes de prueba"
 
-Una vez definido el contenido del correo electrónico, puede utilizar perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
+Una vez definido el contenido de la entrega, puede utilizar perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
 
 Este es un paso crucial para garantizar que sea precisa, pero también que esté libre de errores, tanto en la configuración del contenido como de la personalización.
 
 Para ello, [!DNL Adobe Campaign] le permite:
 
-* [Previsualizar y personalizar el contenido del correo electrónico](preview-content.md)
+* [Previsualización del contenido y la personalización del mensaje](preview-content.md)
+* [Envío de entregas de prueba](proofs.md) a destinatarios o suscriptores específicos para pruebas y validación
 * [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares de equipos de escritorio, móviles y basados en web
-* [Enviar correos electrónicos de prueba](proofs.md) a destinatarios específicos para pruebas y validaciones
 
-Estas acciones se pueden realizar desde el **[!UICONTROL Simular contenido]** , a la que se puede acceder desde el [Editar contenido](../content/edit-content.md) pantalla o desde el [Diseñador de correo electrónico](../content/get-started-email-designer.md).
+Estas acciones se pueden realizar con el complemento **[!UICONTROL Simular contenido]** , a la que se puede acceder desde la pantalla de edición de contenido del envío.
+
+<!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
 
 ![](assets/simulate-button.png)
 
