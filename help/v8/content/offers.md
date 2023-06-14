@@ -4,7 +4,7 @@ title: Envío de ofertas
 description: Envío de ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alfa"
-source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
+source-git-commit: a66fe155aa1543d53c3ba1b5620159240d50bf3a
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 94%
