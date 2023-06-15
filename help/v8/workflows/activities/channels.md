@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de entrega
 description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS)
 badge: label="Alfa"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '425'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,7 @@ Estos son los pasos para agregar una **Canal** actividad en un flujo de trabajo:
 
    Puede seleccionar otra plantilla en el panel izquierdo de configuración de actividad de canal. Si la audiencia seleccionada anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice el **Crear audiencia** actividad para seleccionar una audiencia con la asignación de destino correcta. Obtenga más información sobre las asignaciones de destino en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
-1. Clic **Creación de envíos**. Su envío ya está disponible en la lista de envíos.
-
-1. Defina la configuración del mensaje y el contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md)
+1. Clic **Creación de envíos**. Defina la configuración del mensaje y el contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md).
 
 1. Vuelva al flujo de trabajo y guarde los cambios.
 
