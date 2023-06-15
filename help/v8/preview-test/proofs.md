@@ -4,9 +4,9 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 
    ![](assets/simulate-test-button-email.png)
 
-1. Utilice el **[!UICONTROL Modo]** para elegir el tipo de destinatarios que recibirán el correo electrónico o SMS de prueba:
+1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **Perfiles de prueba** para dirigirse a destinatarios ficticios que recibirán el correo electrónico o el SMS de prueba.
 
-   * **Perfiles de prueba** para dirigirse a destinatarios ficticios
-
-   Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
-
-   * **Sustituir del destinatario principal** para enviar una prueba a una dirección de correo electrónico o número de teléfono específicos mientras se muestran los datos de un perfil existente. [Más información](#substitution-profiles)
+1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 
 ### Perfiles de sustitución {#substitution-profiles}
 
-Para enviar un correo electrónico o SMS de prueba a una dirección de correo electrónico o un número de teléfono específicos mientras se muestran datos de un perfil existente de la base de datos de Campaign, utilice perfiles de sustitución.
+Para enviar un correo electrónico o SMS de prueba a una dirección de correo electrónico o un número de teléfono específicos mientras se muestran datos de un perfil existente de [!DNL Campaign] base de datos, utilice perfiles de sustitución.
 
-Para ello, los primeros pasos son los mismos que al seleccionar [perfiles de prueba](#test-profiles), pero elija la **[!UICONTROL Sustituir del destino]** y siga los pasos a continuación.
+1. Antes de enviar una prueba, asegúrese de definir una audiencia para su envío. [Más información](../audience/about-audiences.md)
+
+1. Vaya a la pantalla de edición de contenido de su envío de correo electrónico o SMS y haga clic en **[!UICONTROL Simular contenido]** botón.
+
+1. Haga clic en **[!UICONTROL Prueba]** botón.
+
+   >[!NOTE]
+   >
+   >Si ya ha seleccionado perfiles para [previsualización del envío](preview-content.md), aparecen en el panel izquierdo.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **Sustituir del destinatario principal** para enviar una prueba a una dirección de correo electrónico o número de teléfono específicos mientras se muestran los datos de un perfil existente.
 
 1. Haga clic en **[!UICONTROL Añadir dirección]** y especifique la dirección de correo electrónico o el número de teléfono que recibirá el envío de prueba.
 
