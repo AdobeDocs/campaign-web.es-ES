@@ -4,10 +4,10 @@ title: Envíe su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 86%
+source-wordcount: '1329'
+ht-degree: 85%
 
 ---
 
@@ -128,7 +128,7 @@ En este caso de uso, envíe el correo electrónico a una audiencia existente. En
    >
    >Las audiencias disponibles en la lista proceden de la instancia de la versión 8 de Campaign o de Adobe Experience Platform si la integración Destino/Fuentes se ha configurado en la instancia.
    >
-   >La integración Destino/Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y los registros de envío y seguimiento de Campaign a Adobe Experience Platform. [Descubra cómo funciona Campaign y Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=es){target="_blank"}.
+   >La integración Destino/Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y los registros de envío y seguimiento de Campaign a Adobe Experience Platform. Descubra cómo trabajar con Campaign y Adobe Experience Platform en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=es){target="_blank"}.
 
 1. Una vez seleccionada la audiencia, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
 

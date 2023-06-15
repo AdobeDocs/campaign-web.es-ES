@@ -4,10 +4,10 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alfa"
-source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 10%
+source-wordcount: '342'
+ht-degree: 9%
 
 ---
 
@@ -38,9 +38,9 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
      >[!NOTE]
      >
-     >Los perfiles de prueba se pueden crear en [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+     >Los perfiles de prueba se pueden crear en [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-   * La pestaña **[!UICONTROL Perfiles]** incluye todos los destinatarios almacenados en la carpeta **[!UICONTROL Perfiles y destinatarios]** de la consola de [!DNL Campaign] [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
+   * La pestaña **[!UICONTROL Perfiles]** incluye todos los destinatarios almacenados en la carpeta **[!UICONTROL Perfiles y destinatarios]** de la consola de [!DNL Campaign] Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 

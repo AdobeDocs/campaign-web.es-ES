@@ -4,9 +4,9 @@ title: Acerca de la vista previa y la prueba de los correos electrónicos
 description: Obtenga información sobre cómo previsualizar y probar correos electrónicos
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alfa"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '181'
 ht-degree: 24%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 24%
 >id="acw_deliveries_simulate"
 >title="Previsualizar y probar sus mensajes"
 >abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Previsualización del contenido de envío"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Envío de mensajes de prueba"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html" text="Previsualización del contenido de envío"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html" text="Envío de mensajes de prueba"
 
 Una vez definido el contenido de la entrega, puede utilizar perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
 
