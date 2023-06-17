@@ -4,9 +4,9 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 
    ![](assets/simulate-test-button-email.png)
 
-1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **Perfiles de prueba** para dirigirse a destinatarios ficticios que recibirán el correo electrónico o el SMS de prueba.
-
-1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
+1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **[!UICONTROL Perfiles de prueba]** para dirigirse a destinatarios ficticios que recibirán el correo electrónico o el SMS de prueba.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ Para enviar un correo electrónico o SMS de prueba a una dirección de correo el
 
 1. Haga clic en **[!UICONTROL Prueba]** botón.
 
-   >[!NOTE]
-   >
-   >Si ya ha seleccionado perfiles para [previsualización del envío](preview-content.md), aparecen en el panel izquierdo.
-
    ![](assets/simulate-test-button-email.png)
 
-1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **Sustituir del destinatario principal** para enviar una prueba a una dirección de correo electrónico o número de teléfono específicos mientras se muestran los datos de un perfil existente.
+1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **[!UICONTROL Sustituir del destinatario principal]** para enviar una prueba a una dirección de correo electrónico o número de teléfono específicos mientras se muestran los datos de un perfil existente.
+
+   >[!CAUTION]
+   >
+   >Si no ha seleccionado ningún [audiencia](../audience/about-audiences.md) para su envío, la variable **[!UICONTROL Sustituir del destinatario principal]** Esta opción aparecerá atenuada y no podrá seleccionar perfiles de sustitución.
 
 1. Haga clic en **[!UICONTROL Añadir dirección]** y especifique la dirección de correo electrónico o el número de teléfono que recibirá el envío de prueba.
 
-   Puede introducir cualquier dirección de correo electrónico o número de teléfono. Esto permite enviar envíos de prueba a cualquier destinatario, incluso si no son usuarios de [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >Puede introducir cualquier dirección de correo electrónico o número de teléfono. Esto permite enviar envíos de prueba a cualquier destinatario, incluso si no son usuarios de [!DNL Adobe Campaign].
 
 1. Seleccione el perfil de la base de datos que se utilizará como sustituto. También puede permitir que [!DNL Adobe Campaign] seleccione un perfil aleatorio. Los datos de perfil del perfil seleccionado se muestran en la entrega de prueba.
 
@@ -105,7 +109,9 @@ Al trabajar con notificaciones push, los envíos de prueba solo se pueden enviar
 
    ![](assets/simulate-test-button-push.png)
 
-1. Si ya ha seleccionado suscriptores a [previsualización de la entrega](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como suscriptores de prueba. Puede borrar su selección y/o añadir suscriptores adicionales usando el botón dedicado.
+1. Si ya ha seleccionado suscriptores a [previsualización de la entrega](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como suscriptores de prueba.
+
+   Puede borrar su selección y/o añadir suscriptores adicionales usando el botón dedicado.
 
    ![](assets/simulate-test-subscribers.png)
 
