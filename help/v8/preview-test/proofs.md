@@ -4,14 +4,19 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # Envío de entregas de prueba {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Modo de vista previa"
+>abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el público destinatario principal."
 
 **[!UICONTROL Adobe Campaign]** permite probar un mensaje antes de enviarlo a la audiencia principal.
 
@@ -20,6 +25,15 @@ El envío de envíos de prueba es un paso importante para validar la campaña e 
 Los destinatarios de una prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes o páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de envío.
 
 ## Seleccione los destinatarios de la prueba {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Población de prueba"
+>abstract="Seleccione un modo de población de prueba."
+
+
 
 Según el canal que utilice, los mensajes de prueba se pueden enviar a tres tipos de destinatarios:
 
@@ -38,6 +52,7 @@ Según el canal que utilice, los mensajes de prueba se pueden enviar a tres tipo
 Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a continuación según el tipo de perfiles que desee utilizar.
 
 ### Perfiles de prueba {#test-profiles}
+
 
 1. Vaya a la pantalla de edición de contenido de su envío de correo electrónico o SMS y haga clic en **[!UICONTROL Simular contenido]** botón.
 

@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 78%
+source-wordcount: '1318'
+ht-degree: 77%
 
 ---
 
@@ -62,10 +62,7 @@ Para obtener más información sobre el explorador de Campaign, la jerarquía de
 >title="Campañas"
 >abstract="Esta es la lista de sus campañas. Puede ver información útil, como las fechas de inicio/finalización/última modificación, así como su estado. Puede filtrar la lista por estado o fechas de inicio/finalización. Haga clic en el botón “Crear campaña” para añadir una nueva campaña. Seleccione una campaña para ver su contenido, envíos y detalles. Vaya a la pestaña “Plantillas” para ver y crear plantillas."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Envíos"
->abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione un envío para ver su contenido, audiencia y detalles."
+
 
 En la sección CAMPAIGN MANAGEMENT, puede acceder a campañas de marketing, envíos y flujos de trabajo.
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Métricas de errores"
 >abstract="Número de correos electrónicos con el estado de error."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="Población de prueba"
->abstract="Seleccione un modo de población de prueba."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Modo de vista previa"
->abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el público destinatario principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
