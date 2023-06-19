@@ -3,17 +3,17 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alfa"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 9%
+source-wordcount: '423'
+ht-degree: 8%
 
 ---
 
 
 # Acceso y administración de campañas{#manage-campaigns}
 
-Para crear una nueva campaña o administrar las campañas existentes, haga clic en **[!UICONTROL Campañas]** menú.
+Para crear una nueva campaña o administrar las campañas existentes, haga clic en **[!UICONTROL Campañas]** menú en el panel de navegación izquierdo.
 
 ## La lista de campañas{#access-campaigns}
 
@@ -25,9 +25,9 @@ En la lista de campañas, hay dos pestañas disponibles:
 
 ![Lista de campañas](assets/campaign-list.png)
 
-Cada campaña de la lista muestra información sobre su estado actual, fecha de creación, la última vez que se modificó, etc.
+De forma predeterminada, cada campaña de la lista muestra información sobre su estado actual, fecha de creación, la última vez que se modificó, etc.
 
-Puede personalizar las columnas mostradas haciendo clic en el **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar información adicional a la lista. Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens)
+Puede personalizar las columnas mostradas haciendo clic en el **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar información adicional a la lista. Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens).
 
 Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de filtro y utilice el **Fecha de inicio y finalización** sección:
 
@@ -45,7 +45,7 @@ Hay dos pestañas disponibles:
 
 * El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
-* El **Envíos** La pestaña enumera todas las entregas vinculados a la campaña. También puede crear una nueva entrega dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
+* El **Envíos** La pestaña enumera todas las entregas vinculados a la campaña actual. También puede crear una nueva entrega dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
 ## Duplicación y eliminación de una campaña
 
