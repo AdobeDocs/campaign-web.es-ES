@@ -4,14 +4,20 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Alfa"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 83%
+source-wordcount: '1119'
+ht-degree: 84%
 
 ---
 
 # Introducción a los mensajes{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="Envíos"
+>abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione un envío para ver su contenido, audiencia y detalles."
+
 
 Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su eficacia mediante varios informes dedicados.
 
@@ -52,6 +58,7 @@ Adobe Campaign v8 incluye los siguientes canales de envío: Correo electrónico,
 
 
 ## Creación de un envío {#create-delivery}
+
 
 Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]**, o cree envíos en el contexto de una campaña de marketing, desde el menú de la izquierda **[!UICONTROL Campañas]**.
 
