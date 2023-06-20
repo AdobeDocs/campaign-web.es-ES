@@ -7,7 +7,7 @@ exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 10%
+ht-degree: 85%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 >title="Diseño y envío de campañas en canales múltiples"
 >abstract="Las funciones de Adobe Campaign le ayudan a administrar los datos centralizados de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales: correo electrónico, push y SMS."
 
-Adobe Campaign le permite organizar fácilmente sus iniciativas de marketing segmentadas mediante la función de administración de campañas integrada. Con la capacidad de definir una programación, puede planificar la duración y el tiempo de las campañas para alinearlas con los objetivos estratégicos y maximizar la participación de la audiencia.
+Adobe Campaign le permite organizar fácilmente sus iniciativas de marketing segmentadas mediante la función de administración de campañas integrada. Con la capacidad de definir una programación, puede planificar la duración y el tiempo de las campañas para alinearlas con los objetivos estratégicos y maximizar la participación del público destinatario.
 
-Al añadir varios flujos de trabajo y envíos específicos a la campaña, puede crear experiencias personalizadas en varios canales, asegurándose de que cada punto de contacto resuene con la audiencia deseada.
+Al añadir varios flujos de trabajo y envíos específicos a la campaña, puede crear experiencias personalizadas en varios canales, asegurándose de que cada punto de contacto resuene con el público destinatario deseado.
 
 Las campañas ofrecen métricas de creación de informes dedicadas para obtener información completa sobre el rendimiento de toda la campaña, lo que le permite evaluar su eficacia, identificar tendencias y tomar decisiones basadas en datos para optimizar los esfuerzos futuros. Descubra cómo acceder y comprender los informes de campaña en [esta sección](../reporting/campaign-reports.md).
 

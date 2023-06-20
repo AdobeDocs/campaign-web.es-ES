@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 68%
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 68%
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
       + Definición del contenido del correo electrónico {#content}
-         + [Configuración del contenido del correo electrónico](content/edit-content.md)
+         + [Configurar el contenido de correo electrónico](content/edit-content.md)
          + Comience a dar forma al correo electrónico {#start-design}
             + [Introducción al Diseñador de correo electrónico](content/get-started-email-designer.md)
             + [Empezar desde cero](content/create-email-content.md)
@@ -53,14 +53,14 @@ ht-degree: 68%
          + [Configuración de envío de correos electrónicos](advanced-settings/delivery-settings.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
-      + [Creación de una entrega de notificaciones push](push/create-push.md)
-      + [Diseño de una entrega push](push/content-push.md)
-      + [Previsualización y envío de una entrega de notificaciones push](push/send-push.md)
+      + [Creación de un envío de notificación push](push/create-push.md)
+      + [Diseño de un envío push](push/content-push.md)
+      + [Previsualización y envío de un envío de notificación push](push/send-push.md)
    + SMS {#sms}
       + [Introducción a los envíos de SMS](sms/gs-sms.md)
       + [Creación de un envío SMS](sms/create-sms.md)
-      + [Diseño de una entrega de SMS](sms/content-sms.md)
-      + [Previsualización y envío de un envío SMS](sms/send-sms.md)
+      + [Diseño de un envío de SMS](sms/content-sms.md)
+      + [Previsualización y envío de un envío de SMS](sms/send-sms.md)
    + Haga que el contenido sea dinámico {#dynamic-content}
       + [Introducción al contenido dinámico](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)
@@ -75,8 +75,8 @@ ht-degree: 68%
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
-   + [Definición de una audiencia con el generador de reglas](audience/segment-builder.md)
-   + [Carga de una audiencia de correo electrónico desde un archivo](audience/file-audience.md)
+   + [Definición de un público destinatario con el generador de reglas](audience/segment-builder.md)
+   + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
    + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas en canales múltiples {#campaigns}
@@ -91,9 +91,9 @@ ht-degree: 68%
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
       + [Organización de actividades](workflows/orchestrate-activities.md)
       + [Configuración del flujo de trabajo](workflows/workflow-settings.md)
-      + [Inicio y monitorización del flujo de trabajo](workflows/start-monitor-workflows.md)
+      + [Inicio y monitorización de un flujo de trabajo](workflows/start-monitor-workflows.md)
    + Trabajo con actividades del flujo de trabajo {#design-workflows}
-      + [Acerca de actividades de flujo de trabajo](workflows/activities/about-activities.md)
+      + [Acerca de las actividades del flujo de trabajo](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)
       + [Generar público destinatario](workflows/activities/build-audience.md)
       + [Combinar](workflows/activities/combine.md)
@@ -103,9 +103,9 @@ ht-degree: 68%
       + [Espera](workflows/activities/wait.md)
 + Creación de informes {#reports}
    + [Introducción a los informes](reporting/gs-reports.md)
-   + Informes de entrega {#delivery-report}
+   + Informes de envío {#delivery-report}
       + [Acceso a informes de envío](reporting/delivery-reports.md)
       + [Informe de envío de correo electrónico](reporting/email-report.md)
-      + [Informe de envío push](reporting/push-report.md)
+      + [Informe de envío de push](reporting/push-report.md)
       + [Informe de envío de SMS](reporting/sms-report.md)
    + [Informes de campaña](reporting/campaign-reports.md)

@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Campaign v8 incluye los siguientes canales de envío: Correo electrónico,
 
 Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]**, o cree envíos en el contexto de una campaña de marketing, desde el menú de la izquierda **[!UICONTROL Campañas]**.
 
-Examine las pestañas siguientes para aprender a crear una entrega:
+Examine las pestañas siguientes para aprender a crear un envío:
 
 >[!BEGINTABS]
 
@@ -145,19 +145,19 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 Una vez definido el contenido del mensaje, puede obtener una vista previa para controlar la renderización de los mensajes y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-test.md)
 
 
-## Monitorización y registros de seguimiento{#gs-tracking-logs}
+## Registros de seguimiento y monitorización{#gs-tracking-logs}
 
-La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
+La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
 
 Puede monitorizarlas después de enviar un envío, así como comprender cómo se administran los errores y las cuarentenas.
 
-Obtenga más información acerca de las funcionalidades de monitorización y seguimiento en [esta sección](../reporting/gs-reports.md).
+Obtenga más información acerca de las capacidades de informes y monitorización en [esta sección](../reporting/gs-reports.md).
 
 ## Duplicación de un envío {#delivery-duplicate}
 
 Puede crear una copia de un envío existente, ya sea desde la lista de envíos o desde el panel de envíos.
 
-Para duplicar una entrega de la lista de envíos, siga estos pasos:
+Para duplicar un envío de la lista de envíos, siga estos pasos:
 
 1. Haga clic en el botón de tres puntos de la derecha, junto al nombre del envío que desea duplicar.
 1. Seleccione **[!UICONTROL Duplicar]**.
@@ -169,24 +169,24 @@ Para duplicar un envío desde su panel, siga estos pasos:
 1. Seleccione **[!UICONTROL Duplicar]**.
 1. Confirmar duplicación: el nuevo envío reemplaza el envío actual en la pantalla central.
 
-## Eliminación de una entrega {#delivery-delete}
+## Eliminación de un envío {#delivery-delete}
 
-Las entregas se eliminan de la lista de entregas, ya sea de la entrada de entrega principal en el carril izquierdo o de la lista de entregas de una campaña.
+Los envíos se eliminan de la lista de envíos, ya sea de la entrada de envío principal en el carril izquierdo o de la lista de envíos de una campaña.
 
-Para eliminar una entrega de la lista de envíos, siga estos pasos:
+Para eliminar un envío de la lista de envíos, siga estos pasos:
 
 1. Haga clic en el botón de tres puntos de la derecha, junto al nombre del envío que desea duplicar.
-1. Seleccione **[!UICONTROL Delete]**.
+1. Seleccione **[!UICONTROL Eliminar]**.
 1. Confirme la eliminación.
 
-![Eliminación de una entrega de la lista de envíos](assets/delete-delivery-from-list.png)
+![Eliminación de un envío de la lista de entregas](assets/delete-delivery-from-list.png)
 
-Todas las entregas están disponibles en estas listas, pero las entregas creadas en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
+Todas los envíos están disponibles en estas listas, pero los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar un envío creada en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo.
 
-Para eliminar una entrega de un flujo de trabajo, siga estos pasos:
+Para eliminar un envío de un flujo de trabajo, siga estos pasos:
 
-1. Seleccione la actividad de entrega
-1. Haga clic en  **[!UICONTROL Eliminar]** en el panel derecho.
-1. Confirme la eliminación. Si la entrega tiene nodos secundarios, puede elegir eliminarlos también o conservarlos.
+1. Selección de la actividad de envío.
+1. Haga clic en el icono **[!UICONTROL Eliminar]** en el panel derecho.
+1. Confirme la eliminación. Si el envío tiene nodos secundarios, puede elegir eliminarlos también o conservarlos.
 
-![Eliminación de una entrega en un flujo de trabajo](assets/delete-delivery-from-wf.png)
+![Eliminación de un envío en un flujo de trabajo](assets/delete-delivery-from-wf.png)

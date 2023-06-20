@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -35,8 +35,8 @@ Con el entorno gráfico completo de Adobe Campaign, puede elaborar procesos como
 A continuación se muestran algunos ejemplos de cómo puede utilizar flujos de trabajo con Adobe Campaign:
 
 * Inicie una campaña de seguimiento para clientes inactivos,
-* Enviar un correo electrónico de bienvenida a todos los nuevos suscriptores de un servicio,
-* Personalice las entregas multicanal en función del estado del programa de fidelidad de los clientes o los puntos de interés.
+* Envíe un correo electrónico de bienvenida a todos los nuevos suscriptores de un servicio,
+* Personalice los envíos multicanal en función del estado del programa de fidelidad de los clientes o los puntos de interés.
 
 ## Vamos a profundizar
 

@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 38%
+ht-degree: 99%
 
 ---
 
@@ -15,31 +15,31 @@ ht-degree: 38%
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-Campaign ahora proporciona una nueva interfaz de usuario (IU) web con una facilidad de uso, accesibilidad y un nuevo diseño mejorados para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
+Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
 
 >La web de la versión 8 de Campaign está actualmente en la versión alfa. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso. [Más información](rn/whats-new.md)
 
 ## Nuevas funciones de Campaign Web
 
-**Descubra la nueva interfaz de usuario web de Campaign v8**
+**Descubra la nueva interfaz de usuario de Campaign v8 Web**
 
 La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
 
 **Interfaz de lienzo de flujo de trabajo reimaginada**
 
-Nuestro entorno gráfico completo que le permite diseñar procesos complejos que pueden ayudarle a administrar sus campañas de marketing con facilidad. Con los flujos de trabajo, puede orquestar toda la gama de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta el envío. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
+Nuestro entorno gráfico completo que le permite diseñar procesos complejos que le pueden ayudar a administrar sus campañas de marketing con facilidad. Con los flujos de trabajo, puede orquestar toda la gama de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta el envío. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
 
-**Conozca al Diseñador de correo electrónico**
+**Conozca el Diseñador de correo electrónico**
 
-Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a una audiencia existente en un caso de uso de extremo a extremo.
+Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a un público destinatario existente en un caso de uso de extremo a extremo.
 
 **Haga que el contenido sea dinámico**
 
-Personalice el contenido en función de la información que haya recopilado sobre los destinatarios. El uso de contenido dinámico hace que el contenido sea más atractivo y aumenta la probabilidad de que se lea. Personalice los mensajes a cada destinatario específico aprovechando los datos de perfil como su nombre, intereses, dónde viven, qué compraron y mucho más. Cree contenido condicional para adaptar las entregas a cada destinatario y mostrar solo el contenido relevante para un cliente determinado en función de la información que tenga sobre él.
+Personalice el contenido en función de la información que haya recopilado sobre los destinatarios. El uso de contenido dinámico hace que el contenido sea más atractivo y aumenta la probabilidad de que se lea. Personalice los mensajes a cada destinatario específico aprovechando los datos de perfil como su nombre, intereses, dónde viven, qué compraron y mucho más. Cree contenido condicional para adaptar los envíos a cada destinatario y mostrar solo el contenido relevante para un cliente determinado en función de la información que tenga sobre él.
 
 **Creación de campañas en canales múltiples**
 
-Utilice Adobe Campaign para crear campañas en canales múltiples. Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales. En esta versión, los canales de correo electrónico, push y SMS están disponibles. Mida la eficacia de los envíos con informes detallados que incluyen los recuentos de aperturas, clics, reenvíos y mucho más.
+Utilice Adobe Campaign para crear campañas en canales múltiples. Con sus funciones de orquestación de campañas de marketing, puede administrar y centralizar los datos de los clientes, diseñar comunicaciones y campañas para crear experiencias personalizadas en diferentes canales. En esta versión, los canales de correo electrónico, push y SMS están disponibles. Mida la eficacia de los envíos con informes detallados que incluyen los recuentos de aperturas, clics, reenvíos y mucho más.
 
 ## Vamos a profundizar
 
@@ -73,7 +73,7 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 <p></td>
 <td>
 <a href="personalization/gs-personalization.md">
-<img alt="Audiencias" src="assets/do-not-localize/menu-dynamic.jpg">
+<img alt="Públicos-alvo" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
 <a href="personalization/gs-personalization.md"><strong>Haga que el contenido sea dinámico</strong></a>

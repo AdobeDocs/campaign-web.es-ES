@@ -7,7 +7,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 30%
+ht-degree: 99%
 
 ---
 
@@ -36,16 +36,16 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-La audiencia es el destinatario principal de la entrega: los destinatarios que reciben los mensajes. El tipo de audiencia depende de la asignación de destino definida en la plantilla de envíos. Descubra qué es una plantilla de envíos [en esta sección](../msg/delivery-template.md).
+El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. Descubra qué es una plantilla de envíos [en esta sección](../msg/delivery-template.md).
 
-Para definir la población de audiencias, puede:
+Para definir la población de público destinatario, puede hacer lo siguiente:
 
-* Seleccione una audiencia existente, creada como lista en la consola del cliente. [Más información](add-audience.md)
-* Seleccione una audiencia de Adobe Experience Platform. [Más información](aep-audience.md)
-* Cree una nueva audiencia con el generador de reglas definiendo y combinando criterios de filtrado. [Más información](segment-builder.md)
-* Use an audience from an external file: esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas. [Más información](file-audience.md)
+* Seleccione un público destinatario existente, creado como una lista en la consola del cliente. [Más información](add-audience.md)
+* Seleccionar un público destinatario de Adobe Experience Platform. [Más información](aep-audience.md)
+* Cree un nuevo público destinatario con el generador de reglas definiendo y combinando criterios de filtrado. [Más información](segment-builder.md)
+* Usar un público destinatario desde un archivo externo: esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en entregas de campañas. [Más información](file-audience.md)
 
-Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Leer audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar una audiencia de un archivo para una entrega de correo electrónico, y la audiencia se define solo en esta actividad dedicada. Obtenga información sobre cómo definir la audiencia de su envío en un flujo de trabajo de la campaña [en esta sección](../workflows/orchestrate-activities.md).
+Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público destinatario se define en una actividad de flujo de trabajo **Leer público destinatario** específica. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir el público destinatario de su envío en un flujo de trabajo de campaña [en esta sección](../workflows/orchestrate-activities.md).
 
 Además, puede utilizar grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de sus campañas. [Más información](control-group.md)
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Edición del contenido de correo electrónico
-description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la IU web de Campaign
+description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la IU de Campaign Web
 badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 8%
+ht-degree: 99%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 8%
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 
-El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando un contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione todo el contenido de cada correo electrónico, ya sea promocional o transaccional.
+El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
-* Uso [!DNL Campaign] funciones de diseño de correo electrónico para crear fácilmente correos electrónicos adaptables. [Más información](create-email-content.md)
+* Uso las funciones de diseño de correo electrónico de [!DNL Campaign] para crear fácilmente correos electrónicos adaptables. [Más información](create-email-content.md)
 
 * Mejore la experiencia de los clientes creando funciones personalizadas basadas en sus atributos de perfil. [Más información](../personalization/personalize.md)
 
@@ -34,7 +34,7 @@ Para minimizar estos problemas de procesamiento, recomendamos mantener la estruc
 
 ## Comience a crear el contenido {#start-authoring}
 
-En el panel de envío de correo electrónico, vaya a [Editar contenido](edit-content.md) para abrir la página de inicio del Diseñador de correo electrónico. A partir de ahí, elija cómo desea diseñar el correo electrónico entre las siguientes opciones:
+En el panel de envío de correo electrónico, vaya a la pantalla [Editar contenido](edit-content.md) para abrir la página principal del Diseñador de correo electrónico. A partir de ahí, elija cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
 * **Diseñe su correo electrónico desde cero** mediante la interfaz del diseñador de correo electrónico. Aprenda a diseñar el contenido de su correo electrónico en [esta sección](create-email-content.md).
 
@@ -42,7 +42,7 @@ En el panel de envío de correo electrónico, vaya a [Editar contenido](edit-con
 
 * **Importación de contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico en [esta sección](existing-content.md).
 
-* **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico [esta sección](email-sample-templates.md).
+* **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
