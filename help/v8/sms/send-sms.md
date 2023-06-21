@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Envío de un envío SMS
+title: Envío de un envío de SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# Previsualización y envío de un envío SMS {#send-sms-delivery}
+# Previsualización y envío de un envío de SMS {#send-sms-delivery}
 
 ## Previsualización del envío de SMS{#preview-sms}
 
@@ -41,7 +41,7 @@ Con **Adobe Campaign**, tiene la capacidad de probar un mensaje antes de enviarl
 
 El envío de SMS de prueba es un paso importante para garantizar la calidad y eficacia de su envío. Los destinatarios de la prueba pueden revisar varios elementos, como vínculos, vínculos de exclusión e imágenes, así como identificar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de SMS. Este proceso le ayuda a evaluar y optimizar exhaustivamente su SMS antes de llegar a su audiencia principal.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar SMS de prueba en [esta sección](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar SMS de prueba en [esta sección](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 

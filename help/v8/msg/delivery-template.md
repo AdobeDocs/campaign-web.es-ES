@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '937'
+ht-degree: 22%
 
 ---
 
@@ -150,7 +150,6 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
    > * [Canal de notificaciones push](../push/gs-push.md)
    > * [Canal de SMS](../sms/create-sms.md)
 
-
 1. Haga clic en **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
@@ -171,7 +170,7 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 
 1. Alterne entre los distintos perfiles para obtener una representación personalizada del mensaje según el perfil seleccionado.
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    También puede ajustar el nivel de zoom y elegir la vista de escritorio o la vista móvil.
 

@@ -3,14 +3,14 @@ audience: end-user
 title: Envío de una entrega de notificaciones push
 description: Obtenga información sobre cómo enviar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Previsualización y envío de una entrega de notificaciones push {#send-push-delivery}
+# Previsualización y envío de un envío de notificación push {#send-push-delivery}
 
 ## Previsualización del envío de notificaciones push {#preview-push}
 
@@ -39,7 +39,7 @@ Ahora puede revisar y enviar la notificación push a su audiencia.
 Uso de **Adobe Campaign**, tiene la capacidad de probar las notificaciones push antes de enviarlas a su audiencia principal. Este paso es importante para validar el envío e identificar cualquier problema.
 Los destinatarios de la prueba pueden revisar elementos como vínculos, imágenes y configuraciones de personalización, lo que garantiza un rendimiento óptimo y permite detectar cualquier error. Este proceso le ayuda a refinar y optimizar sus notificaciones push antes de llegar a su audiencia principal.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar notificaciones push de prueba en [esta sección](../preview-test/proofs.md#subscribers).
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar notificaciones push de prueba en [esta sección](../preview-test/test-deliveries.md#subscribers).
 
 ![](assets/push_send_6.png)
 

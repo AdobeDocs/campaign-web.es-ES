@@ -4,7 +4,7 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alfa"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 9%
@@ -55,8 +55,8 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 1. Para las entregas por correo electrónico, puede ajustar la **[!UICONTROL Nivel de zoom]** y previsualice el contenido en el escritorio o dispositivo móvil mediante el icono dedicado en la esquina superior derecha.
 
 1. Desde el **[!UICONTROL Simular]** pantalla también puede:
-   * Envío de entregas de prueba a destinatarios específicos para su validación: [Más información](proofs.md)
-   * Acceso a los registros de los envíos de prueba enviados: [Más información](proofs.md#access-proofs)
+   * Envío de entregas de prueba a destinatarios específicos para su validación: [Más información](test-deliveries.md)
+   * Acceso a los registros de los envíos de prueba enviados: [Más información](test-deliveries.md#access-proofs)
    * Solo para correo electrónico, compruebe la renderización del contenido del mensaje en clientes de correo electrónico populares: [Más información](email-rendering.md)
 
 

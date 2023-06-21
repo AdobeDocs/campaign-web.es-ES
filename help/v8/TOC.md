@@ -5,7 +5,7 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 93%
@@ -70,7 +70,7 @@ ht-degree: 93%
    + Previsualización y prueba de la entrega {#preview-test}
       + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
       + [Previsualización del contenido del mensaje](preview-test/preview-content.md)
-      + [Envío de entregas de prueba](preview-test/proofs.md)
+      + [Envío de entregas de prueba](preview-test/test-deliveries.md)
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Audiencias y destinatarios {#audiences}
    + [Introducción a las audiencias](audience/about-audiences.md)
