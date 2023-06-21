@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Introducción a los correos electrónicos"
->abstract="Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a una audiencia existente en un caso de uso de extremo a extremo."
+>abstract="Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a un público destinatario existente en un caso de uso de extremo a extremo."
 
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
