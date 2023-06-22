@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 62%
+source-wordcount: '437'
+ht-degree: 63%
 
 ---
 
@@ -34,10 +34,8 @@ Para añadir un bloque de contenido a una entrega, siga estos pasos:
 
 Descripción de los bloques de contenido integrados:
 
-* **[!UICONTROL Aprobación de la personalización Purl]**
 * **[!UICONTROL Banner de exclusión predeterminado]**
 * **[!UICONTROL Habilitado por Adobe Campaign]**: inserta el logotipo “Habilitado por Adobe Campaign”.
-* **[!UICONTROL preintroducción de facebook]**
 * **[!UICONTROL Función de formateo para nombres propios]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Saludos]**: inserta los saludos con el nombre completo del destinatario, seguidos de una coma. Ejemplo: “Hola, John Doe”.
 * **[!UICONTROL Insertar logotipo]**: inserta un logotipo definido en la configuración de la instancia.

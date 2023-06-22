@@ -3,7 +3,7 @@ audience: end-user
 title: Envío de una entrega de notificaciones push
 description: Obtenga información sobre cómo enviar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Los destinatarios de la prueba pueden revisar elementos como vínculos, imágene
 
    ![](assets/push_send_2.png)
 
-1. Haga clic en **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
+1. Clic **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
 
    Si se produce algún error, consulte el menú Registros para obtener información detallada sobre el error.
 
