@@ -3,10 +3,10 @@ audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ Utilice la opción **Mostrar atributos avanzados** para ver todos los atributos 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avanzados del generador de reglas"
->abstract="Configure columnas con campos avanzados."
+>abstract="Configure filtros avanzados con campos avanzados."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
