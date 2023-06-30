@@ -6,9 +6,9 @@ description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 + Introducción a Adobe Campaign {#start}
    + [Introducción](get-started/get-started.md)
    + [Descubra la interfaz](get-started/user-interface.md)
-   + [Examinar, buscar y filtrar listas](get-started/list-filters.md)
+   + [Examen, búsqueda y filtrado de listas](get-started/list-filters.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
    + [Trabajo con plantillas de envío](msg/delivery-template.md)
@@ -67,13 +67,13 @@ ht-degree: 93%
       + [Añadir contenido condicional](personalization/conditions.md)
       + [Añadir bloques de contenido integrados](personalization/content-blocks.md)
    + [Envío de ofertas](content/offers.md)
-   + Previsualización y prueba de la entrega {#preview-test}
+   + Vista previa y prueba del envío {#preview-test}
       + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
-      + [Previsualización del contenido del mensaje](preview-test/preview-content.md)
+      + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de entregas de prueba](preview-test/test-deliveries.md)
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Audiencias y destinatarios {#audiences}
-   + [Introducción a las audiencias](audience/about-audiences.md)
+   + [Introducción a los públicos](audience/about-audiences.md)
    + [Selección de una audiencia existente](audience/add-audience.md)
    + [Definición de un público destinatario con el generador de reglas](audience/segment-builder.md)
    + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
