@@ -2,16 +2,16 @@
 audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
-badge: label="Alfa"
+badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Examinar, buscar y filtrar listas {#list-screens}
+# Examen, búsqueda y filtrado de listas {#list-screens}
 
 La mayoría de los vínculos del menú de navegación izquierdo muestran listas de objetos, como la lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista y filtrar estas listas, como se detalla a continuación.
 
@@ -69,7 +69,7 @@ Utilice la opción **Mostrar atributos avanzados** para ver todos los atributos 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avanzados del generador de reglas"
->abstract="Configure filtros avanzados con campos avanzados."
+>abstract="Configure los filtros avanzados con campos avanzados."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -79,7 +79,7 @@ Utilice la opción **Mostrar atributos avanzados** para ver todos los atributos 
 
 Solo los atributos más comunes se muestran de forma predeterminada en las pantallas de lista de atributos y configuración de filtros. Los atributos que se establecieron como atributos de `advanced` del esquema de datos se ocultan de las pantallas de configuración.
 
-Activar el **Mostrar atributos avanzados** alternar para ver todos los atributos disponibles para la lista actual: la lista de atributos se actualiza instantáneamente.
+Active la opción **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual: la lista de atributos se actualiza instantáneamente
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
