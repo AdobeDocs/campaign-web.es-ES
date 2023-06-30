@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Introducción a las audiencias
+title: Introducción a los públicos
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Introducción a las audiencias {#about-audiences}
+# Introducción a los públicos {#about-audiences}
 
 <!--
 Audience only created for the delivery, not available later-->
