@@ -3,11 +3,11 @@ audience: end-user
 title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alfa"
+badge: label="Alpha"
 source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ Además, todos los datos y la configuración ya disponibles en la consola del cl
 
 Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre de algunos conceptos para que se ajusten a los estándares terminológicos más recientes. Estos cambios solo se aplican a la IU de Campaign Web y no se reflejan en la consola del cliente. Se encuentran detalladas a continuación.
 
-* Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El objetivo de las pruebas ahora se denomina **Perfiles de prueba**. [Más información](../preview-test/test-deliveries.md).
+* Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El destinatario de las pruebas ahora se denomina **Perfiles de prueba**. [Más información](../preview-test/test-deliveries.md).
 * Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales de la base de datos. [Más información](../preview-test/test-deliveries.md).
 * El análisis del envío ahora es la **preparación del envío**. Cuando necesite iniciar el análisis, haga clic en el botón **Preparar**. [Más información](../monitor/prepare-send.md).
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../preview-test/preview-test.md)
-* Las listas son ahora **Públicos destinatarios**. [Más información](../audience/about-audiences.md).
+* Las listas son ahora **Públicos**. [Más información](../audience/about-audiences.md).
 
 ## Limitaciones{#limitations-alpha}
 
