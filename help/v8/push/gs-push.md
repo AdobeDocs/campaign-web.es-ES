@@ -2,12 +2,12 @@
 audience: end-user
 title: Introducción a las notificaciones push
 description: Aprenda a crear y enviar notificaciones push con la web de Adobe Campaign
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
