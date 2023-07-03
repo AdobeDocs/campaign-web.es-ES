@@ -5,7 +5,7 @@ title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -25,13 +25,13 @@ Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la c
 
 La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
 
-**Interfaz de lienzo de flujo de trabajo reimaginada**
+**Interfaz rediseñada del lienzo del flujo de trabajo**
 
 Nuestro entorno gráfico completo que le permite diseñar procesos complejos que le pueden ayudar a administrar sus campañas de marketing con facilidad. Con los flujos de trabajo, puede orquestar toda la gama de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta el envío. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
 
 **Conozca el Diseñador de correo electrónico**
 
-Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico a un público destinatario existente en un caso de uso de extremo a extremo.
+Comience desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código. Aprenda a utilizar el Diseñador de correo electrónico para crear el contenido, previsualizarlo y probarlo, y enviar un correo electrónico al público existente en un caso de uso de extremo a extremo.
 
 **Haga que el contenido sea dinámico**
 
@@ -59,7 +59,7 @@ Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profund
 <img alt="Validación" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="workflows/gs-workflows.md"><strong>Interfaz de lienzo de flujo de trabajo reimaginada</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Interfaz rediseñada del lienzo del flujo de trabajo</strong></a>
 </div>
 <p>
 </td>
