@@ -2,8 +2,8 @@
 audience: end-user
 title: Envío de una entrega de notificaciones push
 description: Obtenga información sobre cómo enviar una entrega de notificaciones push con Adobe Campaign Web
-badge: label="Alfa"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+badge: label="Alpha"
+source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Una vez definido el contenido del mensaje, puede utilizar los suscriptores de prueba para previsualizar y probar el mensaje. Si ha incluido contenido personalizado, puede examinar cómo se muestra este en el mensaje utilizando datos de perfil de prueba. Esto le permite asegurarse de que el mensaje se está representando correctamente y de que los elementos personalizados se están incorporando correctamente.
 
-Los pasos principales para previsualizar su envío de SMS son los siguientes. Encontrará más detalles sobre cómo previsualizar las entregas en [esta sección](../preview-test/preview-content.md).
+Los pasos principales para previsualizar la notificación push son los siguientes. Encontrará más detalles sobre cómo previsualizar las entregas en [esta sección](../preview-test/preview-content.md).
 
 1. En la página de contenido de la entrega, utilice **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
 
