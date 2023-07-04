@@ -3,15 +3,20 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 98%
 
 ---
 
 
 # Acceso y administración de campañas{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Programación de campañas"
+>abstract="Establezca o modifique la programación de su campaña."
 
 Para crear una nueva campaña o administrar las campañas existentes, haga clic en el menú **[!UICONTROL Campañas]** en la navegación de la izquierda.
 
