@@ -3,14 +3,19 @@ audience: end-user
 title: Envío de un envío de SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '400'
 ht-degree: 10%
 
 ---
 
 # Previsualización y envío de un envío de SMS {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="Nueva métrica de cuarentenas"
+>abstract="Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar."
 
 ## Previsualización del envío de SMS{#preview-sms}
 
