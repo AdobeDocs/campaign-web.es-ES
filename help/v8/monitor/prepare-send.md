@@ -4,9 +4,9 @@ title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alfa"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '871'
 ht-degree: 45%
 
 ---
@@ -128,6 +128,16 @@ Independientemente de si la entrega está programado o no, se pueden realizar do
 ![](assets/email-send-pause-or-stop.png)
 
 ## Compruebe los KPI {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Métricas enviadas"
+>abstract="Número total de mensajes procesados durante el análisis de entregas."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Métricas de errores"
+>abstract="Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados."
 
 Una vez completado el envío, puede comprobar los KPI mostrados:
 
