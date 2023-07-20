@@ -1,54 +1,54 @@
 ---
 audience: end-user
-title: Uso de una actividad de flujo de trabajo de entrega
-description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS)
-badge: label="Alfa"
+title: Uso de una actividad de flujo de trabajo de envío
+description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
+badge: label="Alpha"
 source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
 # Correo electrónico, SMS, push {#channel}
 
-La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing a través de correos electrónicos, SMS y canales push. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan almacenar en déclencheur acciones basadas en el comportamiento y los datos del cliente.
+La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing a través de correos electrónicos, SMS y canales de push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente.
 
-Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS y push. También puede enviar un correo electrónico de seguimiento después de que un cliente haya completado una compra o enviar un mensaje de cumpleaños personalizado a un cliente a través de SMS.
+Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS y push. También puede enviar un correo electrónico de seguimiento a los clientes después de que hayan completado una compra o enviarles un mensaje de cumpleaños personalizado a través de SMS.
 
-Mediante las actividades de canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios puntos de contacto e impulsen las conversiones.
+Mediante las actividades del canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios touchpoints e impulsen las conversiones.
 
-Estos son los pasos para agregar una **Canal** actividad en un flujo de trabajo:
+Estos son los pasos para añadir una actividad de **Canal** en un flujo de trabajo:
 
-1. Asegúrese de haber agregado un **Crear audiencia** actividad. La audiencia es el destinatario principal de la entrega: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal, sino en el flujo de trabajo **Crear audiencia** actividad. Consulte [esta sección](build-audience.md).
+1. Asegúrese de haber añadido una actividad **Generar público destinatario**. El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
 1. Seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
 
-1. Selección de una entrega **Plantilla**. Las plantillas son ajustes de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal que se rellena previamente de forma predeterminada. [Más información](../../msg/delivery-template.md)
+1. Seleccione una **Plantilla** de envío. Las plantillas son opciones de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal, que se rellena previamente de forma predeterminada. [Más información](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
 
-   Puede seleccionar otra plantilla en el panel izquierdo de configuración de actividad de canal. Si la audiencia seleccionada anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice el **Crear audiencia** actividad para seleccionar una audiencia con la asignación de destino correcta. Obtenga más información sobre las asignaciones de destino en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
+   Puede seleccionar otra plantilla en el panel izquierdo de configuración de actividad del canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar público destinatario** para seleccionar un público destinatario con la asignación de destino correcta. Más información sobre las asignaciones de público destinatario en [Documentación de Adobe Campaign de la versión 8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
-1. Clic **Creación de envíos**. Defina la configuración del mensaje y el contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md).
+1. Haga clic en **Crear envío**. Defina la configuración del mensaje y su contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md).
 
 1. Vuelva al flujo de trabajo y guarde los cambios.
 
-1. Clic **Inicio** para iniciar el flujo de trabajo.
+1. Haga clic en **Iniciar** para iniciar el flujo de trabajo.
 
-   De forma predeterminada, el inicio de un flujo de trabajo déclencheur la fase de preparación del mensaje, sin enviarlo inmediatamente.
+   De forma predeterminada, el inicio de un flujo de trabajo activa la fase de preparación de mensajes, sin enviarlos inmediatamente.
 
-1. Abra la actividad de entrega para confirmar el envío desde el **Revisar y enviar** botón.
+1. Abra la actividad de envío para confirmar el envío con el botón **Revisar y enviar**.
 
-1. En el panel de entregas, haga clic en **Enviar**.
+1. En el panel de envíos, haga clic en **Enviar**.
 
 ## Ejemplo
 
-Este es un ejemplo de flujo de trabajo en canales múltiples con una segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que residen en París y están interesados en las máquinas de café. VIP Entre esta población, se envía un correo electrónico a los clientes habituales y un SMS a los clientes de la.
+Este es un ejemplo de flujo de trabajo en canales múltiples con una segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que residen en París y que están interesados en las máquinas de café. Se envía un correo electrónico a los clientes habituales y un SMS a los clientes VIP de esta población.
 
 ![](../assets/workflow-channel-example.png)
 <!--
