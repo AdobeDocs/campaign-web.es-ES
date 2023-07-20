@@ -1,42 +1,42 @@
 ---
 audience: end-user
-title: Trabajo con flujos de trabajo y actividades
-description: Descubra más información sobre las actividades de flujo de trabajo
-badge: label="Alfa"
+title: Trabajar con actividades de flujos de trabajo
+description: Aprenda a trabajar con las actividades de flujo de trabajo
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 
 # Acerca de las actividades de flujo de trabajo {#workflow-activities}
 
-Las actividades de flujo de trabajo se agrupan en tres categorías. Según el contexto, las actividades disponibles pueden diferir.
+Las actividades de flujo de trabajo se agrupan en tres categorías. Dependiendo del contexto, las actividades disponibles pueden diferir.
 
 Todas las actividades se detallan en las secciones siguientes:
 
 * [Actividades de segmentación](#targeting)
-* [Actividades de canal](#channel)
+* [Actividades del canal](#channel)
 * [Actividades de control de flujo](#flow-control)
 
 ![](../assets/workflow-activities.png)
 
 ## Actividades de segmentación {#targeting}
 
-Estas actividades son específicas para dirigir, manipular y enriquecer los datos de población. Permiten crear uno o más objetivos definiendo una audiencia y dividiendo o combinando estas audiencias mediante operaciones de intersección, unión o exclusión.
+Estas actividades son específicas para la segmentación, manipulación y enriquecimiento de los datos de la población. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
 
-* El [Crear audiencia](build-audience.md) La actividad de le permite definir la población objetivo. Puede seleccionar una audiencia existente o utilizar el generador de reglas para definir su propia consulta.
-* El [Combinar](combine.md) La actividad de permite realizar la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
-* El [Enriquecimiento](enrichment.md) La actividad de le permite definir datos adicionales para procesarlos en el flujo de trabajo. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición de salida con datos adicionales.
+* La actividad [Generar público destinatario](build-audience.md) le permite definir la población de público destinatario. Puede seleccionar un público destinatario existente o utilizar el generador de reglas para definir su propia consulta.
+* La actividad [Combinar](combine.md) le permite realizar la segmentación de la población entrante. Puede utilizar una unión, una intersección o una exclusión.
+* La actividad [Enriquecimiento](enrichment.md) le permite definir datos adicionales para procesarlos en el flujo de trabajo. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.
 
-## Actividades de canal {#channel}
+## Actividades del canal {#channel}
 
-La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing en varios canales, como correo electrónico, SMS o push. Puede combinar actividades de canal en el lienzo para crear flujos de trabajo entre canales que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente.
+Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en varios canales, como correo electrónico, SMS o push. Puede combinar actividades del canal en el lienzo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento del cliente.
 
-Lo siguiente **Canal** Hay actividades disponibles:
+Están disponibles las siguientes actividades del **Canal**:
 
 * Correo electrónico
 * Push
@@ -46,12 +46,12 @@ Consulte esta [sección](enrichment.md).
 
 ## Actividades de control de flujo {#flow-control}
 
-Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades:
+Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 
-* El [And-join](and-join.md) Esta actividad permite sincronizar varias ramas de ejecución de un flujo de trabajo.
-* El **Fin** Esta actividad le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
-* El [Tenedor](fork.md) La actividad de le permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
-* El [Esperar](wait.md) la actividad suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
+* La actividad [Combinación-Y](and-join.md) le permite sincronizar varias ramas de ejecución de un flujo de trabajo.
+* La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
+* La actividad [Tenedor](fork.md) permite crear transiciones salientes para iniciar varias actividades al mismo tiempo.
+* La actividad [Esperar](wait.md) suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
 
 <!--
 ## Data management activities {#data-management}
