@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Tenedor
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Siga estos pasos para configurar la actividad **Tenedor**:
 
 ## Ejemplo
 
-En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
+En el siguiente ejemplo, se utilizan dos **Tenedor** actividades:
 
 * Una antes de las dos consultas, para ejecutarlas al mismo tiempo.
 * Una después de la intersección, para enviar un correo electrónico y un SMS simultáneamente a la población objetivo.
