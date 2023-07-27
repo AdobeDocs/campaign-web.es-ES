@@ -4,14 +4,20 @@ title: Importar el contenido de su correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Alfa"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 72%
+source-wordcount: '171'
+ht-degree: 56%
 
 ---
 
 # Importar el contenido de su correo electrónico {#existing-content}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_import_content"
+>title="Usar contenido de correo electrónico existente"
+>abstract="El Diseñador de correo electrónico le permite importar contenido existente del HTML. Este contenido puede ser un archivo de HTML con una hoja de estilos incorporada o una carpeta .zip con el archivo de HTML, la hoja de estilos (.css) y las imágenes."
 
 El Diseñador de correo electrónico le permite importar contenido existente del HTML. Este contenido puede ser el siguiente:
 
