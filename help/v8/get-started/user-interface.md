@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
+source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 97%
+source-wordcount: '1541'
+ht-degree: 96%
 
 ---
 
@@ -286,6 +286,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_saveaudience_outbound"
 >title="Transición saliente para guardar la audiencia"
 >abstract="tbc"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_activity"
+>title="Guardar una audiencia"
+>abstract="Utilice esta actividad para guardar la audiencia del flujo de trabajo."
 
 
 <!-- delivery template settings-->
