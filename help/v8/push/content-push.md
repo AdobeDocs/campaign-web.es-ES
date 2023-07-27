@@ -3,14 +3,14 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 19%
+source-wordcount: '1285'
+ht-degree: 22%
 
 ---
 
-# Diseño de una entrega push {#content-push}
+# Diseño de un envío push {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -22,7 +22,19 @@ ht-degree: 19%
 >title="Contenido push para iOS"
 >abstract="Defina el contenido push de iOS."
 
-## Mensaje {#push-message}
+## Definición del contenido de la notificación {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="Mensaje push de iOS"
+>abstract="Defina el título y el contenido del mensaje push de iOS. Utilice el cuadro de diálogo de personalización para personalizar el contenido y añadir condiciones."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Notificación silenciosa para iOS"
+>abstract="El modo Push silenciosa permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación."
+
+
 
 >[!BEGINTABS]
 
@@ -30,9 +42,10 @@ ht-degree: 19%
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
-* El **[!UICONTROL Mensaje de datos]e** es gestionado por la aplicación del cliente. Estos mensajes se envían directamente a la aplicación móvil, que genera y muestra una notificación de Android en el dispositivo. Los mensajes de datos solo contienen las variables de aplicación personalizadas.
+* El **[!UICONTROL Mensaje de datos]** es gestionado por la aplicación del cliente. Estos mensajes se envían directamente a la aplicación móvil, que genera y muestra una notificación de Android en el dispositivo. Los mensajes de datos solo contienen las variables de aplicación personalizadas.
 
-  Para definir el contenido, personalizar los datos y añadir contenido dinámico, haga clic en **[!UICONTROL Mensaje]** y utilice el Editor de expresiones. Puede acceder a este editor para personalizar los mensajes en el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación se añaden automáticamente. Estas variables permiten definir el comportamiento de las notificaciones. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
+  Para definir el contenido, personalizar los datos y añadir contenido dinámico, haga clic en **[!UICONTROL Mensaje]** y utilice el Editor de expresiones. Puede acceder a este editor para personalizar los mensajes.
+En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación se añaden automáticamente. Estas variables permiten definir el comportamiento de las notificaciones. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
 
   ![](assets/push_content_4.png)
 
@@ -40,7 +53,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
   Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 
-  Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a su notificación push, el icono de la notificación para mostrar en los dispositivos de sus perfiles y su color.
+  Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color.
 
   ![](assets/push_content_3.png)
 
@@ -50,13 +63,43 @@ Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTR
 
 Puede añadir un **[!UICONTROL Subtítulo]**, valor del parámetro subtitle de la carga útil de notificación de iOS. Consulte esta sección.
 
-El modo Push silenciosa permite enviar una notificación &quot;silenciosa&quot; a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
+El modo Push silenciosa permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## Configuración avanzada {#push-advanced}
+## Configuración avanzada de notificaciones push {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Modo de alerta crítica para iOS"
+>abstract="Active esta opción para agregar sonido a la notificación, incluso cuando el teléfono del usuario esté en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que, en cualquier caso, se notifique a los usuarios de alertas importantes."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Número de distintivo de iOS"
+>abstract="Utilice esta opción para establecer el número de información nueva no leída que se mostrará directamente en el icono de la aplicación. Esto permite al usuario ver rápidamente el número de notificaciones pendientes."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Contenido mutable para iOS"
+>abstract="Utilice esta opción para permitir que la aplicación móvil descargue contenido multimedia asociado a la notificación."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Puntuación de relevancia para iOS"
+>abstract="Establezca una puntuación de relevancia de 0 a 100 para priorizar el orden de las notificaciones en el resumen de notificaciones. Las puntuaciones más altas indican notificaciones más importantes."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Variables de aplicación para iOS"
+>abstract="Utilice variables de aplicación para definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen como parte de la carga de mensajes que se envía al dispositivo móvil."
+
+
 
 >[!BEGINTABS]
 
@@ -68,7 +111,7 @@ El modo Push silenciosa permite enviar una notificación &quot;silenciosa&quot; 
 |---------|---------|
 | **[!UICONTROL Sonido]** | configure el sonido para que se reproduzca cuando el dispositivo reciba la notificación. |
 | **[!UICONTROL Recuento de notificaciones]** | Configure el número de información nueva no leída que se mostrará directamente en el icono de la aplicación. Esto permite al usuario ver rápidamente el número de notificaciones pendientes. |
-| **[!UICONTROL ID de canal]** | Establezca el ID de canal de la notificación. La aplicación debe crear un canal con este ID de canal antes de recibir cualquier notificación. |
+| **[!UICONTROL ID de canal]** | configure el ID de canal de la notificación. La aplicación debe crear un canal con este ID de canal antes de recibir cualquier notificación. |
 | **[!UICONTROL Acción de clic]** | Defina la acción asociada con un clic del usuario en la notificación. Determina el comportamiento cuando el usuario interactúa con la notificación, como abrir una pantalla específica o realizar una acción específica en la aplicación. |
 | **[!UICONTROL Etiqueta]** | Establezca un identificador utilizado para reemplazar las notificaciones existentes en el cajón de notificaciones. Esto ayuda a evitar la acumulación de varias notificaciones y garantiza que solo se muestre la notificación relevante más reciente. |
 | **[!UICONTROL Prioridad]** | Defina el nivel de prioridad de la notificación, que puede ser predeterminado, mínimo, bajo o alto. El nivel de prioridad determina la importancia y la urgencia de la notificación, lo que influye en cómo se muestra y si puede omitir determinada configuración del sistema. Para más información, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
@@ -82,7 +125,7 @@ El modo Push silenciosa permite enviar una notificación &quot;silenciosa&quot; 
 
 | Parámetro | Descripción |
 |---------|---------|
-| **[!UICONTROL Modo de alerta crítica]** | Active esta opción para agregar sonido a la notificación, incluso cuando el teléfono del usuario esté en modo de enfoque o si el iPhone está silenciado. Esto garantiza que el usuario observe las alertas importantes. |
+| **[!UICONTROL Modo de alerta crítica]** | Active esta opción para agregar sonido a la notificación, incluso cuando el teléfono del usuario esté en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que el usuario observe las alertas importantes. |
 | **[!UICONTROL Insignia limpia]** | Active esta opción para actualizar el valor del distintivo mostrado en el icono de la aplicación. Garantiza que el distintivo refleje con precisión la cantidad de información nueva no leída. |
 | **[!UICONTROL Recuento de notificaciones]** | Establezca un número que se mostrará directamente en el icono de la aplicación, indicando la cantidad de información nueva no leída. Esto proporciona una referencia visual rápida para el usuario. |
 | **[!UICONTROL Volumen]** | Volumen de su sonido de 0 a 100. |
@@ -92,7 +135,7 @@ El modo Push silenciosa permite enviar una notificación &quot;silenciosa&quot; 
 | **[!UICONTROL Thread-id]** | Identificador utilizado para agrupar las notificaciones relacionadas. Las notificaciones con el mismo ID de hilo se organizan como una sola conversación o hilo en la lista de notificaciones. |
 | **[!UICONTROL Categoría]** | Especifique el nombre del ID de categoría asociado a la notificación. Esto permite mostrar los botones de acción, lo que permite al usuario realizar varias tareas directamente desde la notificación sin abrir la aplicación. |
 | **[!UICONTROL ID de contenido del público destinatario]** | Identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación. |
-| **[!UICONTROL Iniciar imagen]** | Especifique el nombre del archivo de imagen de lanzamiento que se mostrará cuando el usuario decida iniciar la aplicación desde la notificación. Se mostrará la imagen seleccionada en lugar de la pantalla de inicio normal de la aplicación. |
+| **[!UICONTROL Imagen de inicio]** | Especifique el nombre del archivo de imagen de lanzamiento que se mostrará cuando el usuario decida iniciar la aplicación desde la notificación. Se mostrará la imagen seleccionada en lugar de la pantalla de inicio normal de la aplicación. |
 | **[!UICONTROL Variables de aplicación]** | Permite definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen como parte de la carga de mensajes que se envía al dispositivo móvil. |
 
 >[!ENDTABS]
