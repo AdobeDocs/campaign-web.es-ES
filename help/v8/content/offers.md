@@ -6,7 +6,7 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '639'
 ht-degree: 47%
 
 ---

@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo acceder y utilizar los informes de
 badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 38%
+source-wordcount: '1406'
+ht-degree: 40%
 
 ---
 

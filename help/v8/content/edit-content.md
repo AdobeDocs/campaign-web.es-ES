@@ -6,12 +6,12 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 42%
+source-wordcount: '505'
+ht-degree: 43%
 
 ---
 
-# Configuración del contenido del correo electrónico {#edit-content}
+# Configurar el contenido de correo electrónico {#edit-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"

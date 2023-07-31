@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 92%
+source-wordcount: '1474'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Obtenga más información sobre las reglas de coherencia y capacidad y cómo con
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign.
 
-Obtenga más información sobre las asignaciones de destino en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
+Más información sobre las asignaciones de público destinatario en [Documentación de Campaign de la versión 8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
 ## Envío {#delivery}
 

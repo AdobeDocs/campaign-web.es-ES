@@ -6,8 +6,8 @@ badge: label="Alfa"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 11%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 

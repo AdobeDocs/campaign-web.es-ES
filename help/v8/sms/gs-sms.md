@@ -2,11 +2,11 @@
 audience: end-user
 title: Introducción a los envíos de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '157'
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---

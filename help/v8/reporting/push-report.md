@@ -5,12 +5,12 @@ description: Obtenga información sobre cómo acceder y utilizar los informes de
 badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 7%
+source-wordcount: '297'
+ht-degree: 8%
 
 ---
 
-# Informe de envío push {#push-report}
+# Informe de envío de push {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"

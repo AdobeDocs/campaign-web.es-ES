@@ -6,12 +6,12 @@ badge: label="Alfa"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 64%
+source-wordcount: '325'
+ht-degree: 66%
 
 ---
 
-# Carga de una audiencia de correo electrónico desde un archivo {#audience-from-file}
+# Importación de un público destinatario de correo electrónico desde un archivo {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"

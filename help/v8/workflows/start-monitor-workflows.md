@@ -6,12 +6,12 @@ badge: label="Alfa"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 6%
+source-wordcount: '519'
+ht-degree: 7%
 
 ---
 
-# Inicio y monitorización del flujo de trabajo {#start-monitor}
+# Inicio y monitorización de un flujo de trabajo {#start-monitor}
 
 Una vez creado el flujo de trabajo y diseñado las tareas que se realizan en el lienzo, puede iniciarlo y monitorizar cómo se está ejecutando.
 

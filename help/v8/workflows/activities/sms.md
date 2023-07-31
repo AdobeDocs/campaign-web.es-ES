@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo utilizar la actividad del fl
 badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
