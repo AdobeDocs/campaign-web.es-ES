@@ -4,9 +4,9 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
@@ -26,14 +26,10 @@ Los destinatarios de una prueba pueden comprobar varios elementos, como vínculo
 
 ## Seleccione los destinatarios de la prueba {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Población de prueba"
 >abstract="Seleccione un modo de población de prueba."
-
-
 
 Según el canal que utilice, los mensajes de prueba se pueden enviar a tres tipos de destinatarios:
 
@@ -53,6 +49,15 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 
 ### Perfiles de prueba {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Destinatario de la prueba"
+>abstract="Puede cargar un segundo archivo como &quot;destino de la prueba&quot;, si desea probar el envío antes de enviarlo al destino principal."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Cargar perfiles"
+>abstract="Puede cargar un segundo archivo con perfiles adicionales si desea probar el envío con un conjunto diferente del conjunto utilizado para el destinatario principal."
 
 1. Vaya a la pantalla de edición de contenido de su envío de correo electrónico o SMS y haga clic en **[!UICONTROL Simular contenido]** botón.
 
