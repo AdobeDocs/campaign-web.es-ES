@@ -4,10 +4,10 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,11 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 >id="acw_deliveries_simulate_test_upload"
 >title="Cargar perfiles"
 >abstract="Puede cargar un segundo archivo con perfiles adicionales si desea probar el envío con un conjunto diferente del conjunto utilizado para el destinatario principal."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="Archivo de plantilla"
+>abstract="El formato del archivo debe ser el mismo que el del archivo original.<br/>Formatos de archivo compatibles: txt, csv. Tamaño máximo de archivo: 15 MB. Usar la primera línea como encabezado de columna."
 
 1. Vaya a la pantalla de edición de contenido de su envío de correo electrónico o SMS y haga clic en **[!UICONTROL Simular contenido]** botón.
 
