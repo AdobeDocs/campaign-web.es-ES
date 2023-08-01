@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 91%
+source-wordcount: '1667'
+ht-degree: 89%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Este envío es de solo lectura"
 >abstract="No tiene permisos para editar esta entrega. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Este servicio es de solo lectura"
+>abstract="No tiene permisos para editar este servicio. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="Este flujo de trabajo es de solo lectura"
 >abstract="No tiene permisos para editar este flujo de trabajo. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Este flujo de trabajo es de solo lectura"
+>abstract="No puede editar este flujo de trabajo debido a que el lienzo no es compatible o no es compatible."
 
 <!-- delivery template settings-->
 
