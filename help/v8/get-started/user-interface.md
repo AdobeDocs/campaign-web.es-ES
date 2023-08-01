@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 94%
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Errores"
 >abstract="KPI de errores"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Esta campaña es de solo lectura"
+>abstract="No tiene permisos para editar esta campaña. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Este envío es de solo lectura"
+>abstract="No tiene permisos para editar esta entrega. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
 <!-- Workflows-->
 
