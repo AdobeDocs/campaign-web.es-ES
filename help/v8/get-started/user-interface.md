@@ -7,7 +7,7 @@ badge: label="Alfa"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -106,9 +106,9 @@ En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los pú
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio y finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura."
+>abstract="Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura."
 
-* **Ofertas**: examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio y finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
+* **Ofertas**: examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
 
 Obtenga información sobre cómo crear y administrar ofertas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
 
@@ -302,13 +302,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
->title="Transición saliente para guardar la audiencia"
+>title="Transición saliente para guardar el público"
 >abstract="tbc"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_activity"
->title="Guardar una audiencia"
->abstract="Utilice esta actividad para guardar la audiencia del flujo de trabajo."
+>title="Guardar un público"
+>abstract="Utilice esta actividad para guardar el público del flujo de trabajo."
 
 
 >[!CONTEXTUALHELP]

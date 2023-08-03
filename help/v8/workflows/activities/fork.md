@@ -6,16 +6,16 @@ badge: label="Alfa"
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Tenedor {#fork}
+# Bifurcación {#fork}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Tenedor  actividad"
+>title="Bifurcación  actividad"
 >abstract="La actividad Tenedor permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo."
 
 ## Configuración
@@ -28,7 +28,7 @@ Siga estos pasos para configurar la actividad **Tenedor**:
 
 ## Ejemplo
 
-En el siguiente ejemplo, se utilizan dos **Tenedor** actividades:
+En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
 
 * Una antes de las dos consultas, para ejecutarlas al mismo tiempo.
 * Una después de la intersección, para enviar un correo electrónico y un SMS simultáneamente a la población objetivo.
