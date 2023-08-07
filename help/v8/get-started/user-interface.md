@@ -216,7 +216,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Informes agregados para envíos"
->abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregado."
+>abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
