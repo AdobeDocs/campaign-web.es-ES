@@ -5,9 +5,9 @@ description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Para cambiar el idioma, haga lo siguiente:
 
 ## Más información {#learn-more}
 
-Obtenga información sobre cómo examinar, buscar y filtrar listas disponibles en el entorno de Campaign [en esta página](list-filters.md).
+Obtenga información sobre cómo examinar, buscar y filtrar listas disponibles en su entorno de Campaign [en esta página](list-filters.md).
 
 
 <!--
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="Este envío es de solo lectura"
->abstract="No tiene permisos para editar esta entrega. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+>abstract="No tiene permisos para editar este envío. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="Este flujo de trabajo es de solo lectura"
->abstract="No puede editar este flujo de trabajo debido a que el lienzo no es compatible o no es compatible."
+>abstract="No puede editar este flujo de trabajo porque el lienzo no está admitido o no es compatible."
 
 <!-- delivery template settings-->
 
