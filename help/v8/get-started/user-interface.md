@@ -5,7 +5,7 @@ description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 100%
 
@@ -211,7 +211,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Estadísticas del destinatario de la creación de informes"
->abstract="Esta sección muestra métricas específicas según las audiencias."
+>abstract="Esta sección muestra métricas específicas según los públicos."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
