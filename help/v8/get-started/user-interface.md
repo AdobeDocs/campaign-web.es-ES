@@ -251,17 +251,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Entregados"
->abstract="KPI entregado"
+>abstract="KPI de entregados"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aperturas"
->abstract="Abre el KPI"
+>abstract="KPI de aperturas"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="Clics de KPI"
+>abstract="KPI de clics"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
