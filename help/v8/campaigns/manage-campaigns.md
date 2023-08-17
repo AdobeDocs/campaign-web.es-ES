@@ -6,7 +6,7 @@ badge: label="Alfa"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_schedule"
 >title="Programación de campañas"
->abstract="Establezca o modifique la programación de su campaña."
+>abstract="Establezca o modifique la programación de campañas."
 
 Para crear una nueva campaña o administrar las campañas existentes, haga clic en el menú **[!UICONTROL Campañas]** en la navegación de la izquierda.
 
@@ -50,7 +50,7 @@ Hay dos pestañas disponibles:
 
 * La pestaña **Flujos de trabajo** contiene todos los flujos de trabajo vinculados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
-* La pestaña **Entregas** lista todas las entregas vinculadas a la campaña actual. También puede crear un nuevo envío dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
+* La pestaña **Envíos** lista todos los envíos vinculados a la campaña actual. También puede crear un nuevo envío dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
 ## Duplicación y eliminación de una campaña
 

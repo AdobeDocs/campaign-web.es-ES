@@ -18,7 +18,7 @@ La página del informe de campaña se muestra con las siguientes pestañas:
 
 * [Canal de correo electrónico](#email-channel)
 * [Canal de SMS](#sms-channel)
-* [Canal de Push](#push-channel)
+* [Canal de push](#push-channel)
 
 Para acceder al informe de Campaign, haga clic en Reports en el panel de campañas.
 
@@ -282,7 +282,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
 +++
 
-## Canal de Push {#push-channel}
+## Canal de push {#push-channel}
 
 ### Resumen de envíos {#delivery-summary-push}
 

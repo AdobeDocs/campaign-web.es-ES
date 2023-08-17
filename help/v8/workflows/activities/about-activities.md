@@ -7,7 +7,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Estas actividades son específicas para la segmentación, manipulación y enriqu
 * La actividad [Generar público destinatario](build-audience.md) le permite definir la población de público destinatario. Puede seleccionar un público destinatario existente o utilizar el generador de reglas para definir su propia consulta.
 * La actividad [Combinar](combine.md) le permite realizar la segmentación de la población entrante. Puede utilizar una unión, una intersección o una exclusión.
 * La actividad [Enriquecimiento](enrichment.md) le permite definir datos adicionales para procesarlos en el flujo de trabajo. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.
-* El [Split](split.md) La actividad de le permite segmentar la población entrante en varios subconjuntos.
+* La actividad [División](split.md) le permite segmentar la población entrante en varios subconjuntos.
 
 ## Actividades del canal {#channel}
 

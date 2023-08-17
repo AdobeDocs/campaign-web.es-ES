@@ -51,7 +51,7 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 Como usuario de Campaign, puede seguir accediendo a la consola del cliente para crear y administrar recursos y componentes de Campaign. Los datos y la configuración se sincronizan de un entorno a otro. Obtenga más información en [esta sección](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la IU de Campaign Web desde la navegación izquierda del explorador. Obtenga más información sobre la vista del explorador en [esta sección](../get-started/user-interface.md#explorer-user-interface-explorer).
+Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la IU de Campaign Web desde la navegación izquierda del Explorer. Obtenga más información sobre la vista del explorador en [esta sección](../get-started/user-interface.md#explorer-user-interface-explorer).
 
 
 ## Actualizaciones terminológicas {#terminology-updates}
