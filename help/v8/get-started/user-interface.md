@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 99%
+source-wordcount: '2263'
+ht-degree: 78%
 
 ---
 
@@ -39,6 +39,98 @@ Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las fu
 La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación.
 
 Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la sección **Aprendizaje** de la página principal.
+
+
+#### Indicadores clave de rendimiento {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="KPI de spam"
+
+Vaya a la página principal de para comprobar los indicadores de rendimiento clave de su plataforma. Estos indicadores muestran el número y el porcentaje de mensajes enviados, abiertos, clics, bajas y tasas de error.
+
+De forma predeterminada, las métricas se calculan para las entregas realizadas durante los 7 días anteriores. Puede cambiar el periodo en la lista desplegable de la sección superior derecha de la tarjeta. Se excluyen los mensajes enviados a perfiles de prueba.
+
+Puede seleccionar el canal que desea mostrar. De forma predeterminada, estos indicadores reflejan las métricas del canal de correo electrónico.
+
+![](assets/kpi.png)
+
+#### Mensaje enviado {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Entregados"
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes procesados correctamente y el porcentaje de mensajes enviados correctamente comparado con el número total de mensajes enviados."
+
+
+El **Entregado** Este indicador muestra los siguientes KPI, para cada canal:
+
+* Porcentaje del número de mensajes enviados correctamente comparado con el número total de mensajes que se van a enviar.
+
+* Suma de todos los mensajes procesados correctamente.
+
+En Adobe Campaign, la regla para marcar un mensaje como &quot;Entregado&quot; es:
+
+Recuento de mensajes para los que el campo &quot;Dirección semilla&quot; es igual a &quot;No&quot; y con un estado igual a &quot;Tenido en cuenta por el proveedor de servicios&quot; (para SMS), &quot;Enviado&quot; (para correos electrónicos) o &quot;Recibido en el móvil&quot; (para notificaciones push).
+
+
+#### Total de aperturas {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Aperturas"
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes abiertos y el porcentaje de mensajes abiertos en comparación con el número total de mensajes enviados correctamente."
+
+El **Aperturas** Este indicador muestra los siguientes KPI, para cada canal:
+
+* Porcentaje del número de mensajes abiertos en comparación con el número total de mensajes enviados correctamente.
+
+* Suma de todos los mensajes abiertos, por canal.
+
+Adobe Campaign detecta que el mensaje se abre cuando el destinatario descarga las imágenes del correo electrónico. Los correos electrónicos HTML con varias partes o alternativos incluyen una imagen de 0 píxeles que permite detectar qué mensajes se han abierto. Dado que los mensajes en formato de texto no incluyen imágenes, es imposible detectar si se han abierto o no. Los valores calculados basados en las aperturas de mensajes siempre son estimaciones debido al margen del error relacionado con la visualización de la imagen.
+
+#### Tasas de clics {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Clics"
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las direcciones URL en las que se hizo clic en los mensajes y el porcentaje de clics comparado con el número total de mensajes enviados correctamente."
+
+El **Clics** Este indicador muestra los siguientes KPI, para cada canal:
+
+* Porcentaje del número de clics comparado con el número total de mensajes enviados correctamente.
+
+* Número de personas diferentes que han hecho clic al menos una vez en una entrega. Se excluyen los vínculos de baja de suscripción y los vínculos a la página espejo.
+
+Estas métricas se basan en la tabla Consolidated tracking (`nms:trackingStats`). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla Recipient tracking logs (`nms:trackingLogRcp`) y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento.
+
+
+#### Tasas de baja {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Bajas"
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las bajas de suscripción de un servicio y el porcentaje de bajas de suscripción comparado con el número total de mensajes enviados correctamente."
+
+El **Baja de suscripciones** Este indicador muestra los siguientes KPI, para cada canal:
+
+* Porcentaje del número de bajas de suscripción comparado con el número total de mensajes enviados correctamente.
+
+* Suma de todos los clics en un vínculo de baja, es decir, con una categoría URL igual a &quot;Exclusión&quot;.
+
+
+#### Tasas de error {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Errores"
+>abstract="Número total de errores acumulados durante las entregas y el procesamiento automático de rechazos. La tasa asociada es la proporción respecto al número de mensajes que desea enviar."
+
+* Porcentaje del número de errores comparado con el número total de mensajes que se van a enviar.
+
+* Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos.
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Permiso obligatorio"
 >abstract="El administrador debe concederle permiso para poder crear un segmento."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Entregados"
->abstract="KPI de entregados"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Aperturas"
->abstract="KPI de aperturas"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Clics"
->abstract="KPI de clics"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Bajas"
->abstract="KPI de bajas"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="KPI de spam"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Errores"
->abstract="KPI de errores"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
