@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 78%
+source-wordcount: '2286'
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,12 @@ Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las fu
 
 La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación.
 
+El **Indicadores clave de rendimiento** le permite comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) comunes.
+
 Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la sección **Aprendizaje** de la página principal.
 
 
-#### Indicadores clave de rendimiento {#user-interface-key-indicators}
+### Indicadores clave de rendimiento {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ El **Baja de suscripciones** Este indicador muestra los siguientes KPI, para cad
 >id="acw_keyindicators_errors"
 >title="Errores"
 >abstract="Número total de errores acumulados durante las entregas y el procesamiento automático de rechazos. La tasa asociada es la proporción respecto al número de mensajes que desea enviar."
+
+El **Errores** Este indicador muestra los siguientes KPI, para cada canal:
 
 * Porcentaje del número de errores comparado con el número total de mensajes que se van a enviar.
 
