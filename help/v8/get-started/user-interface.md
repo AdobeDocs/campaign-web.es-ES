@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
+source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 77%
+source-wordcount: '2549'
+ht-degree: 69%
 
 ---
 
@@ -65,10 +65,11 @@ Puede seleccionar el canal que desea mostrar. De forma predeterminada, estos ind
 >title="Entregados"
 >abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes procesados correctamente y el porcentaje de mensajes enviados correctamente comparado con el número total de mensajes enviados."
 
+El número de mensajes enviados refleja la tasa de entrega. Nunca puede ser del 100% por las siguientes razones: algunas direcciones o números de teléfono pueden estar equivocados, los bloqueadores de spam en los proveedores de correos electrónicos pueden rechazar sus mensajes o pueden ocurrir problemas de envío.
 
 El **Entregado** Este indicador muestra los siguientes KPI, para cada canal:
 
-* Porcentaje del número de mensajes enviados correctamente comparado con el número total de mensajes que se van a enviar.
+* Porcentaje del número de mensajes enviados correctamente comparado con el número total de mensajes enviados.
 
 * Suma de todos los mensajes procesados correctamente.
 
@@ -84,6 +85,8 @@ Recuento de mensajes para los que el campo &quot;Dirección semilla&quot; es igu
 >title="Aperturas"
 >abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes abiertos y el porcentaje de mensajes abiertos en comparación con el número total de mensajes enviados correctamente."
 
+El total de aperturas se calcula realizando un seguimiento de la cantidad total de veces que se abre un mensaje, independientemente de la cantidad de destinatarios individuales por los que se generen dichas aperturas. Este indicador solo está disponible para correos electrónicos.
+
 El **Aperturas** Este indicador muestra los siguientes KPI, para cada canal:
 
 * Porcentaje del número de mensajes abiertos en comparación con el número total de mensajes enviados correctamente.
@@ -92,18 +95,22 @@ El **Aperturas** Este indicador muestra los siguientes KPI, para cada canal:
 
 Adobe Campaign detecta que el mensaje se abre cuando el destinatario descarga las imágenes del correo electrónico. Los correos electrónicos HTML con varias partes o alternativos incluyen una imagen de 0 píxeles que permite detectar qué mensajes se han abierto. Dado que los mensajes en formato de texto no incluyen imágenes, es imposible detectar si se han abierto o no. Los valores calculados basados en las aperturas de mensajes siempre son estimaciones debido al margen del error relacionado con la visualización de la imagen.
 
-#### Tasas de clics {#ui-click-kpi}
+
+
+#### Tasa de clics {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
 >abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las direcciones URL en las que se hizo clic en los mensajes y el porcentaje de clics comparado con el número total de mensajes enviados correctamente."
 
+Puede añadir direcciones URL en el contenido del mensaje para redirigir a los destinatarios a una página concreta. La tasa de clics mide el número y el porcentaje de destinatarios que hicieron clic en un vínculo del mensaje.
+
 El **Clics** Este indicador muestra los siguientes KPI, para cada canal:
 
 * Porcentaje del número de clics comparado con el número total de mensajes enviados correctamente.
 
-* Número de personas diferentes que han hecho clic al menos una vez en una entrega. Se excluyen los vínculos de baja de suscripción y los vínculos a la página espejo.
+* Número de personas diferentes que han hecho clic al menos una vez en una entrega. Se excluyen los vínculos de baja y los vínculos a la página espejo de correo electrónico.
 
 Estas métricas se basan en la tabla Consolidated tracking (`nms:trackingStats`). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla Recipient tracking logs (`nms:trackingLogRcp`) y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento.
 
@@ -114,6 +121,8 @@ Estas métricas se basan en la tabla Consolidated tracking (`nms:trackingStats`)
 >id="acw_keyindicators_unsubscriptions"
 >title="Bajas"
 >abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las bajas de suscripción de un servicio y el porcentaje de bajas de suscripción comparado con el número total de mensajes enviados correctamente."
+
+Los destinatarios deben poder desactivar el correo electrónico y los SMS mediante un vínculo de baja dedicado en el contenido del correo electrónico o respondiendo DETENER a un SMS.
 
 El **Baja de suscripciones** Este indicador muestra los siguientes KPI, para cada canal:
 
@@ -128,6 +137,10 @@ El **Baja de suscripciones** Este indicador muestra los siguientes KPI, para cad
 >id="acw_keyindicators_errors"
 >title="Errores"
 >abstract="Número total de errores acumulados durante las entregas y el procesamiento automático de rechazos. La tasa asociada es la proporción respecto al número de mensajes que desea enviar."
+
+Es posible que algunos mensajes enviados por su plataforma de Adobe Campaign no lleguen a su destino. Puede ocurrir cuando la dirección de usuario o el teléfono tienen errores tipográficos, o si el destinatario cambió su dirección de correo electrónico, o si su buzón está lleno. Si un mensaje no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error a Adobe Campaign. Este error sirve para determinar si la dirección de correo electrónico, el número de teléfono o el dispositivo deben ponerse en cuarentena.
+
+Como consecuencia, siempre debe comprobar y actualizar la base de datos y asegurarse de que todos los perfiles estén activos y sean reales. Los errores de envío pueden ser temporales o permanentes (devoluciones leves o graves), según el motivo por el que no se entregó el mensaje.
 
 El **Errores** Este indicador muestra los siguientes KPI, para cada canal:
 
@@ -435,3 +448,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Exportación"
 >abstract="Solo puede exportar la página seleccionada."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Lista de envíos en una campaña"
+>abstract="Lista de envíos en una campaña"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Lista de flujos de trabajo en una campaña"
+>abstract="Lista de flujos de trabajo en una campaña"
