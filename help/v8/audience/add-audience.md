@@ -3,11 +3,11 @@ audience: end-user
 title: Selección de una audiencia existente
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 89%
+source-wordcount: '294'
+ht-degree: 57%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selección de una audiencia existente"
->abstract="Las audiencias se definen en la consola Adobe Campaign v8. Si tiene una integración de Adobe Experience Platform disponible, también debería poder ver las audiencias definidas por Platform."
+>abstract="Examine la lista para seleccionar una audiencia existente. Utilice el icono &quot;Mostrar filtros&quot; para filtrar la lista o seleccionar una carpeta específica."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de un envío de correo electrónico.
 
 También puede realizar lo siguiente:
 
 * Crear una audiencia nueva. [Más información](segment-builder.md)
-* Carga de una audiencia desde un archivo externo. [Más información](file-audience.md)
+* Cargar una audiencia desde un archivo externo (solo para correos electrónicos). [Más información](file-audience.md)
 * Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md).
 
 
@@ -36,21 +36,16 @@ Para seleccionar una audiencia existente para el mensaje, siga los pasos a conti
 
 1. Elija **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Para crear una nueva audiencia para usarla en este correo electrónico, elija **Crear la suya propia**. Consulte esta [sección](segment-builder.md).
 
-   Esta pantalla muestra todas las audiencias existentes definidas en la consola del cliente de Adobe Campaign para la carpeta actual.
+   Esta pantalla muestra todas las audiencias existentes, para la carpeta actual.
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Para aprovechar las audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [documentación de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+   Las audiencias se crean a partir de **Audiencia** menú izquierdo. También se pueden crear en la consola del cliente.
+
+   Para utilizar audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [Documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
 
 1. Elija una audiencia y haga clic en **Seleccionar**.
-
-1. Haga clic en **Editar reglas** si desea restringir la audiencia.
-
-   ![](assets/create-audience3.png)
-
-1. Con el generador de reglas, puede enriquecer la audiencia con filtros adicionales o combinando distintas audiencias. Consulte esta [sección](segment-builder.md).
+1. Utilice el **Mostrar filtros** para mostrar las opciones de filtrado. Clic **Agregar reglas** para acceder al generador de reglas: el uso del generador de reglas permite crear filtros avanzados para la lista de audiencias. Aprenda a utilizar el generador de reglas en esta [sección](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

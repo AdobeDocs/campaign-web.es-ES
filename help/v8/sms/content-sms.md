@@ -2,9 +2,9 @@
 audience: end-user
 title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 94%

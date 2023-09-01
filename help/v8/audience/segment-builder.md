@@ -3,11 +3,11 @@ audience: end-user
 title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 97%
+source-wordcount: '549'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ La paleta, situada en la parte izquierda, contiene todos los elementos que se pu
 
   >[!NOTE]
   >
-  >Para aprovechar las audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [documentación de Destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+  >Para aprovechar las audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [Documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
 
 Puede utilizar la barra de búsqueda para encontrar los elementos rápidamente.
 

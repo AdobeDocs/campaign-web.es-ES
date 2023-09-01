@@ -2,12 +2,12 @@
 audience: end-user
 title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1131'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
->abstract="Examine la lista de envíos. Puede ver su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione un envío para ver su contenido, audiencia y detalles."
+>abstract="Un envío es una comunicación de marketing que se envía a una audiencia a través de un canal específico: correo electrónico, SMS o notificaciones push. En la lista de envíos, puede editar los envíos existentes y comprobar su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione una entrega para ver su contenido, programación, audiencia y detalles."
 
 
 Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su eficacia mediante varios informes dedicados.

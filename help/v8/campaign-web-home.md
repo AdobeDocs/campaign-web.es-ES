@@ -3,8 +3,8 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%

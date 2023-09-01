@@ -3,10 +3,10 @@ audience: end-user
 title: Envío de ofertas
 description: Envío de ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alfa"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 47%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 47%
 
 # Envío de ofertas {#offers-content}
 
-La versión 8 de Adobe Campaign Web permite enviar con las entregas ofertas que se han creado en la consola utilizando **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
+La versión 8 de Adobe Campaign Web permite enviar con las entregas ofertas que se han creado en la consola utilizando **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
 
 Los pasos para enviar ofertas con una entrega son los siguientes:
 
@@ -39,7 +39,7 @@ Los pasos para enviar ofertas con una entrega son los siguientes:
 
 1. Configurar qué ofertas se deben proponer a los destinatarios.
 
-   En primer lugar, seleccione el **[!UICONTROL espacio de ofertas]** que coincida con el entorno de la oferta. Obtenga información sobre cómo crear un espacio de oferta en la [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   En primer lugar, seleccione el **[!UICONTROL espacio de ofertas]** que coincida con el entorno de la oferta. Obtenga información sobre cómo crear un espacio de oferta en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

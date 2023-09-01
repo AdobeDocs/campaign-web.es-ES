@@ -3,10 +3,10 @@ audience: end-user
 title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alfa"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '343'
 ht-degree: 10%
 
 ---
@@ -38,9 +38,9 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
      >[!NOTE]
      >
-     >Los perfiles de prueba se pueden crear en [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+     >Los perfiles de prueba se pueden crear en [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-   * La pestaña **[!UICONTROL Perfiles]** incluye todos los destinatarios almacenados en la carpeta **[!UICONTROL Perfiles y destinatarios]** de la consola de [!DNL Campaign] Obtenga más información en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+   * La pestaña **[!UICONTROL Perfiles]** incluye todos los destinatarios almacenados en la carpeta **[!UICONTROL Perfiles y destinatarios]** de la consola de [!DNL Campaign] Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 

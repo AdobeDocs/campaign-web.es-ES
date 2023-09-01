@@ -3,8 +3,8 @@ audience: end-user
 title: Informes de envío
 description: Obtenga información sobre cómo acceder a los informes de envío y cómo utilizarlos
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 64%

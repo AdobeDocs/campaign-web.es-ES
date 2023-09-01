@@ -3,8 +3,8 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 62%

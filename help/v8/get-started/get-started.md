@@ -3,11 +3,11 @@ audience: end-user
 title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 96%
 
 ---
 
@@ -56,6 +56,6 @@ La consola del cliente de Campaign es una aplicación basada en el explorador qu
 
 Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos están disponibles tanto en la consola del cliente como en la IU de la web. Por ejemplo, si crea una plantilla de envíos mediante la consola del cliente, también estará disponible en la IU de la web. Y si crea un envío de correo electrónico en la IU de la web, también puede acceder a este envío desde la consola del cliente.
 
-Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la IU de Campaign Web, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista del explorador, en el menú de navegación de la izquierda.
+Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la IU de Campaign Web, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista de Explorer, en el menú de navegación de la izquierda.
 
-Para obtener más información sobre el uso de Campaign v8, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo utilizar Campaign v8, consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.

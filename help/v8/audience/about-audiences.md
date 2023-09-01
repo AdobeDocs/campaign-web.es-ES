@@ -2,9 +2,9 @@
 audience: end-user
 title: Introducción a los públicos
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%

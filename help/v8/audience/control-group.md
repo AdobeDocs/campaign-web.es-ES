@@ -3,11 +3,11 @@ audience: end-user
 title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la IU de la web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alfa"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 41%
+source-wordcount: '780'
+ht-degree: 39%
 
 ---
 
@@ -40,7 +40,7 @@ Para añadir un grupo de control a una entrega, active la variable **[!UICONTROL
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Modo de extracción"
->abstract="Para definir un grupo de control, puede elegir extraer, aleatoriamente o en función de un orden, un porcentaje o un número fijo de perfiles de la población de destinatarios."
+>abstract="Un grupo de control es un conjunto de perfiles excluidos del envío. Para definir un grupo de control, puede elegir extraer, aleatoriamente o en función de un orden, un porcentaje o un número fijo de perfiles de la población de destinatarios."
 
 
 ### Creación de un grupo de control {#build-extract-target}
@@ -104,7 +104,7 @@ Para obtener más información sobre los registros de envío, consulte esta [sec
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Población adicional"
->abstract="Puede excluir una población específica de la audiencia de envío seleccionando una audiencia existente o definiendo una consulta."
+>abstract="Un grupo de control es un conjunto de perfiles excluidos del envío. Puede excluir una población específica de la audiencia de envío seleccionando una audiencia existente o definiendo una consulta."
 
 Otra forma de definir un grupo de control es seleccionar una población específica en una audiencia existente o definir una consulta.
 

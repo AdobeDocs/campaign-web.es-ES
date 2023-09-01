@@ -2,9 +2,9 @@
 audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%

@@ -2,9 +2,9 @@
 audience: end-user
 title: Introducción a los informes
 description: Obtenga información sobre cómo acceder y administrar informes en Campaign Web
-badge: label="Alfa"
-source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
-workflow-type: ht
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
