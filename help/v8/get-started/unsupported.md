@@ -5,15 +5,15 @@ description: Lista de funciones no admitidas en la interfaz de usuario web de Ca
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 11%
+source-wordcount: '350'
+ht-degree: 10%
 
 ---
 
 
-# Funciones no admitidas en la IU web de Campaign {#unsupported-capabilities}
+# Funciones no admitidas en Campaign Web {#unsupported-capabilities}
 
 Se puede acceder a las siguientes funcionalidades desde la consola del cliente de Campaign, pero aún no están disponibles en la interfaz de usuario web. Algunos estarán disponibles en una versión posterior, pero otros no.
 
@@ -22,17 +22,13 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 * Panel de página de inicio
 * Personalización de página de inicio
 
-
 **Administración de campañas**
 
 * Calendario/cronología de marketing
 * Gestión de presupuesto y costes
 * Administración de tareas
-* Marketing distribuido
+* Marketing distribuido (marketing central/local)
 * Gestión de respuestas
-
-**Optimización de la campaña**
-
 * Prueba A/B
 * Administración de recursos de marketing (MRM), objetivos, simulaciones, presupuesto y costes
 
@@ -46,6 +42,7 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 **Contenido web**
 
 * Creación y publicación de una página de aterrizaje
+* Aplicaciones web, formularios web
 * Administración de encuestas
 
 **Perfiles y destinatarios**
@@ -66,16 +63,16 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 
 * Contenido de recursos públicos
 * Bucles/gestión de colecciones
-* Guardado de contenido de un HTML como plantilla `*`
+* Guardado de contenido de un HTML como plantilla`*`
 * Sincronización de plantillas de correo electrónico desde Adobe Experience Manager
 * Recursos de Adobe Experience Manager 6.5 en un contenido de correo electrónico
 * Creación de bloques de contenido
 * Contenido de formularios personalizados
-* Contenido de una dirección URL `*`
+* Contenido de una dirección URL`*`
 * Fragmentos de correo electrónico
 * AMP para correos electrónicos
-* Fragmentos de correo electrónico `*`
-* Caso de uso multivariable/multilingüe `*`
+* Fragmentos de correo electrónico`*`
+* Caso de uso multivariable/multilingüe`*`
 
 **Reglas de tipología**
 
