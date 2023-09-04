@@ -5,10 +5,10 @@ description: Lista de funciones no admitidas en la interfaz de usuario web de Ca
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 10%
+source-wordcount: '346'
+ht-degree: 11%
 
 ---
 
@@ -66,16 +66,16 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 
 * Contenido de recursos públicos
 * Bucles/gestión de colecciones
-* Guardar contenido de un HTML como plantilla (no disponible en la consola del cliente)
+* Guardado de contenido de un HTML como plantilla `*`
 * Sincronización de plantillas de correo electrónico desde Adobe Experience Manager
 * Recursos de Adobe Experience Manager 6.5 en un contenido de correo electrónico
 * Creación de bloques de contenido
 * Contenido de formularios personalizados
-* Contenido de una dirección URL (no disponible en la consola del cliente)
+* Contenido de una dirección URL `*`
 * Fragmentos de correo electrónico
 * AMP para correos electrónicos
-* Fragmentos de correo electrónico (no disponibles en la consola del cliente)
-* Caso de uso multivariable/multilingüe (no disponible en la consola del cliente)
+* Fragmentos de correo electrónico `*`
+* Caso de uso multivariable/multilingüe `*`
 
 **Reglas de tipología**
 
@@ -125,3 +125,4 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 * Aprobación del destino
 
 
+`*` No disponible en la consola del cliente
