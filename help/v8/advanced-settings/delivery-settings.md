@@ -4,10 +4,10 @@ title: Configuración de envío de correos electrónicos
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 80%
+source-wordcount: '1643'
+ht-degree: 70%
 
 ---
 
@@ -27,13 +27,24 @@ Esta configuración consiste en los **parámetros técnicos del envío** que se 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Las tipologías son conjuntos de reglas que se ejecutan durante la preparación del mensaje. Permiten controlar, filtrar y monitorizar la entrega de envíos."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
 
-Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de análisis de mensajes. Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="Tipología"
+>abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
+
+
+Las tipologías son conjuntos de **reglas de tipología**, que se ejecutan durante la fase de preparación. Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación de envíos.  Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
+
+Las reglas de tipología se agrupan dentro de una tipología para aplicar fácilmente varias reglas de filtrado a un envío a la vez.
 
 Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tipología incluidas se ejecutarán para comprobar la validez del mensaje durante su preparación.
 
 ![](assets/delivery-settings-1.png)
+
+
 
 
 ### Parámetros de presión {#pressure-parameters}
@@ -42,10 +53,10 @@ Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tip
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="Parámetros de presión"
->abstract="El peso del envío le permite identificar los envíos de mayor prioridad dentro del marco de la administración de presión. Los mensajes con mayor peso tienen prioridad."
+>abstract="El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la administración de la fatiga. Los mensajes con mayor peso tienen prioridad."
 
 
-En esta sección, los parámetros de presión permiten definir un **umbral**. Este es el número máximo de mensajes que se pueden enviar a un perfil durante un período determinado. Una vez alcanzado este umbral, no se pueden realizar más envíos hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de un envío si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
+En esta sección, los parámetros de presión permiten definir una **umbral** para configurar las reglas de gestión de fatiga. Este es el número máximo de mensajes que se pueden enviar a un perfil durante un período determinado. Una vez alcanzado este umbral, no se pueden realizar más envíos hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de un envío si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
 
 Los valores de umbral pueden ser constantes o variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un perfil a otro o incluso en un mismo perfil.
 

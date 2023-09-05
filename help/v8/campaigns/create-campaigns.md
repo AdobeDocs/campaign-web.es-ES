@@ -4,10 +4,10 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 24%
+source-wordcount: '478'
+ht-degree: 12%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propiedades de creación de campañas"
->abstract="Defina propiedades y metadatos para la campaña."
+>abstract="En esta pantalla, defina la configuración de la campaña: seleccione una plantilla e introduzca una etiqueta para la campaña. Vaya a la configuración adicional para cambiar el nombre interno predeterminado, la carpeta, añadir una descripción y seleccionar el usuario asignado."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Propiedades de campaña"
->abstract="Defina la configuración de la campaña y los metadatos."
+>abstract="En esta pantalla, puede comprobar y actualizar la configuración de la campaña: su etiqueta, nombre interno, carpeta y descripción. También puede ver a qué usuario está asignado."
 
 Para crear una nueva campaña, debe definir sus propiedades, programar e incluir flujos de trabajo y envíos.
 
 ## Creación de la campaña{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Programación de campañas"
->abstract="Defina la programación de campañas durante la creación de campañas."
 
 Para crear una nueva campaña, siga estos pasos:
 
@@ -39,14 +34,7 @@ Para crear una nueva campaña, siga estos pasos:
 1. Seleccione el **Plantilla** para utilizar y proporcionar una etiqueta para la campaña. Las plantillas de campaña están preconfiguradas para que se puedan reutilizar en la creación de nuevas campañas. Se crean desde la consola del cliente.
    [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es).
 1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
-1. Defina el **Programación** de la campaña. La campaña comienza cuando se llega a la fecha de inicio. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](manage-campaigns.md#access-campaigns).
-
-   ![Definición de las propiedades de la campaña](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >Siempre puede modificar estas propiedades más adelante, desde el **Configuración de la campaña** , junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard).
-
+1. Defina el **Programación** de la campaña. Obtenga información sobre cómo establecer la programación de campañas en [esta sección](#campaign-schedule)
 1. Haga clic en **Create**.
 1. Añadir flujos de trabajo y envíos a la campaña:
 
@@ -61,6 +49,29 @@ La monitorización de campañas es un paso clave para analizar la eficacia de su
 
 También puede ver los informes dedicados haciendo clic en **Informes** botón. Consulte esta [sección](../reporting/campaign-reports.md).
 
+
+## Definición de la programación de campañas {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Programación de campañas"
+>abstract="Seleccione la programación de campaña. Puede crear la campaña que comienza cuando se llega a la fecha de inicio. De forma predeterminada, la fecha de inicio de la campaña es la fecha de creación y dura 5 días. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro."
+
+
+La campaña comienza cuando se llega a la fecha de inicio. Siempre que no se llegue a la fecha de inicio, la campaña tiene el **[!UICONTROL Borrador]** estado. A continuación, cuando se llega a la fecha de inicio, se cambia a **[!UICONTROL En curso]**. Una vez que llega la fecha de finalización, la campaña se establece en **[!UICONTROL Completado]**.
+
+Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](manage-campaigns.md#access-campaigns).
+
+![Definición de las propiedades de la campaña](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>Siempre puede modificar estas propiedades más adelante, desde el **Configuración de la campaña** , junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard).
+
+
+
+Una vez que llega la fecha, se envían los envíos creados en esa campaña en el contexto de un flujo de trabajo que están listos para enviarse. Para ello, se debe haber iniciado el flujo de trabajo.
 
 
 <!--

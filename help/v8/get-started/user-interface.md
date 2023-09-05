@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 98%
+source-wordcount: '1724'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las fu
 
 La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación.
 
-Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes.
+Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de estos KPI en [esta página](../reporting/kpis.md).
 
 Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la sección **Aprendizaje** de la página principal.
 
@@ -197,8 +197,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="Envío de creación de informes"
->abstract="Consulte los indicadores de envío para la creación de informes de campaña."
+>title=" Informe de envío"
+>abstract="Consulte los indicadores de envío del informe de la campaña."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
@@ -212,7 +212,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Estadísticas del destinatario de la creación de informes"
+>title="Informe de estadísticas de público destinatario"
 >abstract="Esta sección muestra métricas específicas según los públicos."
 
 >[!CONTEXTUALHELP]
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Período de validez"
->abstract="Esta opción define la duración a partir de la cual se activa el seguimiento en las direcciones URL."
+>abstract="El periodo de validez establece la duración durante la cual se activa el seguimiento en las direcciones URL de los mensajes."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Peso del envío"
 >abstract="El peso del envío le permite identificar los envíos de mayor prioridad dentro del marco de la administración de presión. Los mensajes con mayor peso tienen prioridad."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="Tipología"
->abstract="La tipología permite controlar, filtrar y monitorizar la entrega de envíos."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
