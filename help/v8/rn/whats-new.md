@@ -4,15 +4,18 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 90%
+source-wordcount: '960'
+ht-degree: 50%
 
 ---
 
 
 # Novedades {#new}
+
+
+Estamos encantados de presentar la versión BETA de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
 
 ## Lanzamiento beta{#beta-release}
 
@@ -46,6 +49,54 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 * Previsualización, prueba y envío de mensajes de correo electrónico: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
+
+## Últimas actualizaciones
+
+
+**Resumen beta**
+
+* Habilite la composición de datos (federada) para Audiencias y personalización.
+* Utilice la tecnología de IA para mejorar la generación de contenido de correo electrónico.
+* Sincronice fácilmente recursos y plantillas de HTML completas.
+* Organizar y administrar sus carpetas y recursos de forma eficaz.
+* Cree páginas de aterrizaje atractivas y efectivas.
+* Más actividades de flujo de trabajo: Acceda a actividades adicionales como cambiar dimensión, deduplicación y envíos recurrentes para mejorar los flujos de trabajo de la campaña.
+
+**Nuevas funciones clave**
+
+* Más actividades de flujo de trabajo de campaña
+
+  Sobrecargue sus campañas de marketing con nuestro conjunto ampliado de actividades de flujo de trabajo. Libere nuevas posibilidades para la automatización y la optimización, lo que le permite crear recorridos de cliente más dinámicos y personalizados.
+
+  Desde la segmentación avanzada hasta los déclencheur condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes dirigidos e impulsar un mejor rendimiento de la campaña.
+
+* Generación de IA para el contenido de correo electrónico
+
+  Diga adiós a la creación manual de contenido y hola a las campañas eficientes impulsadas por datos con el poder de la generación de IA.  Nuestra tecnología de IA general utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen AI.
+
+  Manténgase a la cabeza de la competencia y eleve su juego de marketing por correo electrónico con Gen AI en el contenido del correo electrónico.
+
+
+* Administración de filtros predefinidos
+
+  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Cree una vez y guárdela para usarla en el futuro.
+
+
+* Audiencia objetivo
+
+  Crear un objetivo de envío nunca ha sido tan fácil. Con el último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Además, puede aprovechar la audiencia de AEP (Adobe Experience Platform) para refinar aún más la audiencia de destino y maximizar el impacto de su campaña.
+
+* Ofertas con SMS y push
+
+  La nueva IU web ahora le permite integrar ofertas con notificaciones SMS y push, además del correo electrónico. Llegue a su audiencia desde sus dispositivos móviles y envíe promociones y notificaciones oportunas.
+
+  Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS y notificaciones push en nuestra plataforma web avanzada.
+
+* Integración de Adobe Experience Manager AEM ()
+
+  AEM Gracias a nuestra integración de la extendida a la interfaz de usuario web, puede administrar fácilmente los recursos y sincronizar plantillas de HTML completas, lo que le permite crear experiencias digitales cautivadoras sin ningún inconveniente.
+
+  Aumente y optimice sus capacidades de administración de contenido en la interfaz de usuario web con esta integración para aumentar la productividad.
 
 ## Transición a la IU de Campaign Web
 

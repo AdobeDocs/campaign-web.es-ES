@@ -4,14 +4,20 @@ title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 95%
+source-wordcount: '602'
+ht-degree: 87%
 
 ---
 
-# Definición de una audiencia con el generador de reglas {#segment-builder}
+# Definición de un público destinatario con el generador de reglas {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Audiencias de destino"
+>abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con el último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche la audiencia de Adobe Experience Platform para refinar aún más la audiencia de destino y maximizar el impacto de la campaña."
 
 En esta sección se describe cómo crear una audiencia al diseñar un nuevo correo electrónico. La audiencia creada solo se puede utilizar en este correo electrónico.
 

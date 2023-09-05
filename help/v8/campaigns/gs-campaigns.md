@@ -4,9 +4,9 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # Introducción a las campañas {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Diseño y envío de campañas en canales múltiples"
->abstract="Las funciones de Adobe Campaign le ayudan a administrar los datos centralizados de los clientes, diseñar comunicaciones y campañas para clientes y crear experiencias personalizadas en diferentes canales: correo electrónico, push y SMS."
 
 Adobe Campaign le permite organizar fácilmente sus iniciativas de marketing segmentadas mediante la función de administración de campañas integrada. Con la capacidad de definir una programación, puede planificar la duración y el tiempo de las campañas para alinearlas con los objetivos estratégicos y maximizar la participación del público destinatario.
 
