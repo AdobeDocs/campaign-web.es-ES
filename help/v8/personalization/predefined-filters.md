@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 78b779051a71a89d45c73502a5e9220cedfa7498
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -124,6 +124,8 @@ A partir de esta lista, puede crear un nuevo filtro como se detalla más arriba,
 * editar un filtro existente y cambiarlo por reglas y propiedades
 * duplicar un filtro predefinido
 * eliminación de un filtro predefinido
+
+Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear reglas. Esta capacidad se describe en [esta sección](#create-predefined-filter).
 
 ## Filtros predefinidos integrados {#ootb-predefined-filter}
 
