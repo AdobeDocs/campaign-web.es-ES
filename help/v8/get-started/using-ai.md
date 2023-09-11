@@ -4,14 +4,14 @@ description: Uso de un asistente de conocimientos con tecnología de IA en la we
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
 
-# Uso del asistente de conocimientos con tecnología de IA en Campaign Web {#using-ai}
+# Uso del asistente de conocimientos con tecnología de IA {#using-ai}
 
 Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, con el asistente de conocimiento con tecnología de IA disponible en los cuadros de ayuda contextual del producto.
 
