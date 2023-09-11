@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
+source-git-commit: 52b41f27da9c43c935c5a33c3f836b0030941dbd
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -39,14 +39,14 @@ Puede utilizar filtros integrados existentes para acceder a un subconjunto espec
 >title="Creación de un filtro predefinido"
 >abstract="Introduzca una etiqueta para el filtro predefinido y seleccione la tabla a la que se aplica. Abra las opciones adicionales para agregar una descripción y establecer este filtro como favorito. A continuación, utilice el botón &quot;Crear regla&quot; para definir las condiciones de filtrado."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Creación de reglas de filtro predefinidas"
 >abstract="Para definir las condiciones de filtrado del filtro personalizado, haga clic en el botón Crear regla."
 
+### Creación de un filtro desde el generador de reglas {#create-from-rule-builder}
 
-Para guardar un filtro personalizado en el generador de reglas, siga los pasos a continuación:
+Puede guardar un filtro personalizado del generador de reglas para que esté disponible para uso futuro. Siga estos pasos:
 
 1. Abra el generador de reglas y defina las condiciones de filtrado. En el ejemplo siguiente, se filtran los destinatarios que viven en Madrid.
 1. Haga clic en **Seleccionar o guardar filtro** y seleccione. **Guardar como filtro**.
@@ -57,28 +57,40 @@ Para guardar un filtro personalizado en el generador de reglas, siga los pasos a
 
    ![](assets/predefined-filters-save-filter.png)
 
-1. (opcional) Habilite la opción **Guardar como favorito** si desea ver este filtro predefinido en sus favoritos.
-
-
-   Cuando un filtro se guarda como favorito, está disponible para todos los usuarios en la **Filtros favoritos** de la lista de creación de filtros, como se muestra a continuación:
-
-   ![](assets/predefined-filters-favorite.png)
-
+   Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
 
 1. Clic **Confirmar** para guardar los cambios.
 
 El filtro personalizado ahora está disponible en la **Filtros predefinidos** y accesibles para todos los usuarios de Campaign.
 
-También puede crear un filtro desde el **Filtros predefinidos** en el menú de la izquierda. Para ello, siga los pasos a continuación:
+
+### Creación de filtros a partir de la lista de filtros {#create-filter-from-list}
+
+
+Puede crear un filtro desde el **Filtros predefinidos** en el menú de la izquierda. Para ello, siga los pasos a continuación:
 
 1. Examine la **Filtros predefinidos** en el menú de la izquierda.
 1. Haga clic en **Crear filtro** botón.
 1. Introduzca el nombre del filtro y, en **Tipo de documento** , seleccione el esquema al que se aplica. El esquema predeterminado es `Recipients(nms)`.
+
+   Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
+
 1. Defina la regla para el filtro. Por ejemplo, perfiles mayores de 30.
 
    ![](assets/filter-30+.png)
 
 1. Guarde los cambios. El filtro se agrega a la lista de filtros predefinidos.
+
+
+## Guarde el filtro como favorito {#fav-filter}
+
+Al crear un filtro predefinido, puede activar la variable **Guardar como favorito** si desea ver este filtro predefinido en sus favoritos.
+
+
+Cuando un filtro se guarda como favorito, está disponible para todos los usuarios en la **Filtros favoritos** de la lista de creación de filtros, como se muestra a continuación:
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Uso de un filtro predefinido {#use-predefined-filter}
 
@@ -86,7 +98,7 @@ Los filtros predefinidos están disponibles al definir las propiedades de la reg
 
 A continuación, puede acceder a la lista completa de filtros predefinidos disponibles para el contexto actual.
 
-También puede utilizar los métodos abreviados de filtro disponibles en la variable **Filtros favoritos** de la lista desplegable.
+También puede utilizar los métodos abreviados de filtro disponibles en la variable **Filtros favoritos** de la lista desplegable. Más información sobre los favoritos en [esta sección](#fav-filter).
 
 Por ejemplo, para crear una audiencia a partir de un filtro predefinido, siga estos pasos:
 
@@ -125,7 +137,7 @@ A partir de esta lista, puede crear un nuevo filtro como se detalla más arriba,
 * duplicar un filtro predefinido
 * eliminación de un filtro predefinido
 
-Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear reglas. Esta capacidad se describe en [esta sección](#create-predefined-filter).
+Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear reglas. Obtenga más información en [esta sección](#fav-filter).
 
 ## Filtros predefinidos integrados {#ootb-predefined-filter}
 
