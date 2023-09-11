@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 78b779051a71a89d45c73502a5e9220cedfa7498
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ Los filtros predefinidos son filtros personalizados que se crean y guardan para 
 
 Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de sus datos o crear sus propios filtros predefinidos y guardarlos.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Creación de un filtro predefinido {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ Puede utilizar filtros integrados existentes para acceder a un subconjunto espec
 >title="Creación de un filtro predefinido"
 >abstract="Introduzca una etiqueta para el filtro predefinido y seleccione la tabla a la que se aplica. Abra las opciones adicionales para agregar una descripción y establecer este filtro como favorito. A continuación, utilice el botón &quot;Crear regla&quot; para definir las condiciones de filtrado."
 
-Al crear un filtro con el generador de reglas, puede guardarlo para un uso futuro. Cuando se guarda como filtro personalizado, está disponible para uso futuro. También puede crear y editar filtros predefinidos desde el menú dedicado del menú de navegación de la izquierda.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Creación de reglas de filtro predefinidas"
+>abstract="Para definir las condiciones de filtrado del filtro personalizado, haga clic en el botón Crear regla."
+
 
 Para guardar un filtro personalizado en el generador de reglas, siga los pasos a continuación:
 
@@ -82,7 +87,6 @@ Los filtros predefinidos están disponibles al definir las propiedades de la reg
 A continuación, puede acceder a la lista completa de filtros predefinidos disponibles para el contexto actual.
 
 También puede utilizar los métodos abreviados de filtro disponibles en la variable **Filtros favoritos** de la lista desplegable.
-
 
 Por ejemplo, para crear una audiencia a partir de un filtro predefinido, siga estos pasos:
 
