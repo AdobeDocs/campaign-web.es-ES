@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 18%
+source-wordcount: '907'
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,13 @@ El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la qu
 * **[!UICONTROL Carpeta]**: Carpeta en la que se debe guardar el flujo de trabajo.
 * **[!UICONTROL Campaña vinculada]**: Este campo se muestra si el flujo de trabajo se ha creado dentro de una campaña. Permite abrir la campaña asociada.
 * **[!UICONTROL Timezone]**: Defina una zona horaria específica para utilizarla de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el huso horario del flujo de trabajo es el definido para el operador de Campaign actual.
-* **[!UICONTROL Supervisor(s)]**: Cuando un flujo de trabajo da error, se notifica por correo electrónico a los operadores que pertenecen al grupo de supervisión del flujo de trabajo, siempre y cuando su dirección de correo electrónico se muestre en su perfil.
+Otros valores posibles son:
+   * **Zona horaria del servidor** para utilizar la zona horaria del servidor de aplicaciones de Adobe Campaign
+   * **Zona horaria del operador** to utiliza el huso horario del operador de Adobe Campaign que ejecuta el flujo de trabajo, tal como se define en el perfil del operador, en la consola del cliente
+   * **Zona horaria de la base de datos** para utilizar la zona horaria del servidor de la base de datos
+   * Una zona horaria específica
+
+* **[!UICONTROL Supervisor(s)]**: Cuando falla un flujo de trabajo, los operadores que pertenecen al grupo de operadores seleccionado en este campo reciben una notificación por correo electrónico.
 * **[!UICONTROL Descripción]**: Utilice este campo para proporcionar una descripción del flujo de trabajo.
 
 ## Configuración de segmentación
