@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 97%
+source-wordcount: '1701'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia 
 
 ## Menú de navegación izquierdo {#user-interface-left-nav}
 
-Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Todas las pantallas de lista son de solo lectura, excepto la lista de envío de correo electrónico. Hacer clic en cualquier elemento de la lista para su edición o visualización no está disponible en alfa. Todas las listas se podrán editar en versiones futuras. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario.
+Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Algunas pantallas de lista son de solo lectura. Los elementos mostrados en el menú de navegación de la izquierda y en las listas dependen de los permisos de usuario. Más información sobre los permisos en [esta sección](permissions.md).
 
 ![](assets/home.png)
 
@@ -47,11 +47,11 @@ Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Explorer"
->abstract="El menú **Explorer** muestra todos los componentes y objetos de Campaign con la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8 y cree envíos, flujos de trabajo y campañas. Todas las demás listas son de solo lectura."
+>abstract="El menú **Explorer** muestra todos los componentes y objetos de Campaign con la misma jerarquía de carpetas que la de la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8, compruebe los permisos asociados y cree carpetas y subcarpetas desde este menú."
 
-El menú **Explorer** muestra todos los recursos y objetos de Campaign con la misma jerarquía de carpetas que la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8 y cree envíos, flujos de trabajo y campañas. Todas las demás listas son de solo lectura.
+El menú **Explorer** muestra todos los recursos y objetos de Campaign con la misma jerarquía de carpetas que la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8 y cree envíos, flujos de trabajo y campañas.
 
-Los elementos mostrados en Explorer dependen de los permisos de usuario.
+Los elementos mostrados en la **Explorer** dependen de los permisos de usuario.  También puede agregar carpetas y subcarpetas, si tiene los permisos adecuados. Más información sobre los permisos en [esta sección](permissions.md).
 
 Como en cualquier pantalla de lista, puede configurar columnas para personalizar la visualización y ver toda la información que necesite. Consulte esta [sección](#list-screens).
 
@@ -81,10 +81,6 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 
 ### Administración de clientes {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="Destinatarios"
->abstract="Acceda a la base de datos de destinatarios. Puede ver información útil, como su dirección de correo electrónico, nombre y apellidos. Esta lista es de solo lectura."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -99,8 +95,8 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 
 En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los públicos destinatarios y las suscripciones. Estas listas son de solo lectura.
 
-* **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Más información sobre los destinatarios en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html?lang=es){target="_blank"}.
-* **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información acerca de públicos destinatarios y listas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=es){target="_blank"}.
+* **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Más información sobre los destinatarios en [esta sección](../audience/about-recipients.md).
+* **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información acerca de audiencias y listas en [esta sección](../audience/about-audiences.md).
 * **Suscripciones**: examine las listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Obtenga información sobre cómo administrar suscripciones y bajas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=es){target="_blank"}.
 
 ### Gestión de decisiones
@@ -392,9 +388,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Plantilla de flujo de trabajo en Campaign"
 >abstract="Continuará"
-
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="Permiso obligatorio"
->abstract="El administrador debe concederle permiso para poder crear este objeto."
-
