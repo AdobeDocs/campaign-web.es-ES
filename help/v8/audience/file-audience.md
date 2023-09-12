@@ -4,9 +4,9 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 50%
 
 ---
@@ -67,7 +67,7 @@ La web de Campaign le permite realizar previsualizaciones y enviar correos elect
 1. Comprobaciones realizadas en el formato de archivo
 1. haga clic en enviar
 
-+ vínculo a la sección de vista previa y prueba
+añadir vínculo a la sección vista previa y prueba
 
 **preguntas:**
 * ¿no hay sustituciones disponibles en el archivo?
