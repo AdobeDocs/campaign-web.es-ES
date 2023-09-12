@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 97%
+source-wordcount: '374'
+ht-degree: 96%
 
 ---
 
@@ -79,10 +79,12 @@ ht-degree: 97%
 + Audiencias y destinatarios {#audiences}
    + [Introducción a los públicos](audience/about-audiences.md)
    + [Trabajo con destinatarios](audience/about-recipients.md)
-   + [Selección de una audiencia existente](audience/add-audience.md)
-   + [Definición de un público destinatario con el generador de reglas](audience/segment-builder.md)
-   + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
-   + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
+   + [Creación de audiencias](audience/create-audience.md)
+   + Audiencias de destino {#target-audiences}
+      + [Selección de una audiencia existente](audience/add-audience.md)
+      + [Definición de un público destinatario con el generador de reglas](audience/segment-builder.md)
+      + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
+      + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
    + [Establecer un grupo de control](audience/control-group.md)
 + Campañas en canales múltiples {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
