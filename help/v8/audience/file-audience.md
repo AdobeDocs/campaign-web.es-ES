@@ -4,10 +4,10 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 62%
+source-wordcount: '442'
+ht-degree: 50%
 
 ---
 
@@ -36,6 +36,7 @@ Puede cargar contactos desde un archivo externo. Los perfiles no se añaden a la
 >
 >* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
 
+## Cargue el archivo {#upload}
 
 Para segmentar perfiles desde un archivo local directamente desde la interfaz de correo electrónico, siga estos pasos:
 
@@ -54,6 +55,22 @@ Al crear y personalizar el contenido del mensaje, puede seleccionar campos del a
 
 ![](assets/select-external-perso.png)
 
+## Previsualización y prueba del correo electrónico {#test}
+
+La web de Campaign le permite realizar previsualizaciones y enviar correos electrónicos de prueba al utilizar una audiencia cargada desde un archivo. Para ello, siga estos pasos:
+
+1. Simular contenido
+1. Abre la vista previa. Haga clic en seleccionar perfil(es): seleccione perfiles del archivo que desea utilizar
+1. para enviar el correo electrónico de prueba, haga clic en probar
+1. modo de prueba: Definir el destinatario de las pruebas
+1. Cargue el destinatario del correo electrónico de prueba desde un segundo archivo (o utilice el mismo). el formato del archivo sigue el mismo formato que el archivo cargado
+1. Comprobaciones realizadas en el formato de archivo
+1. haga clic en enviar
+
++ vínculo a la sección de vista previa y prueba
+
+**preguntas:**
+* ¿no hay sustituciones disponibles en el archivo?
 
 ## Archivo de muestra {#sample-file}
 

@@ -4,7 +4,7 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 5%
@@ -33,17 +33,11 @@ Los destinatarios de una prueba pueden comprobar varios elementos, como vínculo
 
 Según el canal que utilice, los mensajes de prueba se pueden enviar a tres tipos de destinatarios:
 
-* [Perfiles de prueba](#test-profiles) - Enviar **prueba de correos electrónicos y SMS** a las direcciones semilla, que son destinatarios adicionales de la base de datos.
+* [Perfiles de prueba](#test-profiles) - Enviar **prueba de correos electrónicos y SMS** a las direcciones semilla, que son destinatarios adicionales de la base de datos. Se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-  Se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Sustituir del destinatario principal](#substitution-profiles) - Enviar **prueba de correos electrónicos y SMS** a una dirección de correo electrónico o número de teléfono específicos mientras se suplanta a un perfil existente. Esto le permite experimentar el mensaje como lo harían los destinatarios, lo que le ofrece una representación precisa del contenido que recibirá el perfil.
 
-* [Sustituir del destinatario principal](#substitution-profiles) - Enviar **prueba de correos electrónicos y SMS** a una dirección de correo electrónico o número de teléfono específicos mientras se suplanta a un perfil existente.
-
-  Esto le permite experimentar el mensaje como lo harían los destinatarios, lo que le ofrece una representación precisa del contenido que recibirá el perfil.
-
-* [Suscriptores](#subscribers) - Enviar **probar notificaciones push** a suscriptores ficticios añadidos a la base de datos.
-
-  Al igual que los perfiles de prueba, se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Suscriptores](#subscribers) - Enviar **probar notificaciones push** a suscriptores ficticios añadidos a la base de datos. Al igual que los perfiles de prueba, se pueden crear en la variable [!DNL Campaign] consola en la **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a continuación según el tipo de perfiles que desee utilizar.
 
