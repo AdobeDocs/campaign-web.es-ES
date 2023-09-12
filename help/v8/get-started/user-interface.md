@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
+source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 96%
+source-wordcount: '1761'
+ht-degree: 97%
 
 ---
 
@@ -88,7 +88,7 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="Públicos destinatarios"
+>title="Públicos-alvo"
 >abstract="Esta es su lista de audiencias. Puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Esta lista es de solo lectura."
 
 >[!CONTEXTUALHELP]
@@ -365,22 +365,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="Audiencia de configuración de envío"
+>title="Público de opciones de envío"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Aprobación de configuración de envío"
+>title="Aprobación de opciones de envío"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Configuración de envío configuración de prueba"
+>title="Configuración de pruebas de opciones de envío"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Análisis web de configuración de envío"
+>title="Análisis web de opciones de envío"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
@@ -392,3 +392,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Plantilla de flujo de trabajo en Campaign"
 >abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Permiso obligatorio"
+>abstract="El administrador debe concederle permiso para poder crear este objeto."
+
