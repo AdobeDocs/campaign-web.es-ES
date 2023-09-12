@@ -4,10 +4,10 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 66%
+source-wordcount: '344'
+ht-degree: 62%
 
 ---
 
@@ -59,8 +59,8 @@ Al crear y personalizar el contenido del mensaje, puede seleccionar campos del a
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Archivo de muestra"
->abstract="Formatos de archivo compatibles: txt, csv. Usar la primera línea como encabezado de columna."
+>title="Importación de una audiencia desde un archivo"
+>abstract="Los formatos de archivo admitidos son TXT y CSV. Usar la primera línea como encabezado de columna. Alinee el formato del archivo con el archivo de muestra proporcionado en el vínculo siguiente."
 
 Los formatos compatibles son TXT y CSV. La primera línea es el encabezado de columna.
 
