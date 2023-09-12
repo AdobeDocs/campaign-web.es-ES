@@ -4,7 +4,7 @@ title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 12%
@@ -68,8 +68,6 @@ Las fechas de inicio y finalización se muestran en la lista de campañas y se p
 >[!NOTE]
 >
 >Siempre puede modificar estas propiedades más adelante, desde el **Configuración de la campaña** , junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard).
-
-
 
 Una vez que llega la fecha, se envían los envíos creados en esa campaña en el contexto de un flujo de trabajo que están listos para enviarse. Para ello, se debe haber iniciado el flujo de trabajo.
 
