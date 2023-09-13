@@ -4,7 +4,7 @@ title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 45%
@@ -35,7 +35,7 @@ A continuación se enumeran los pasos principales para preparar el envío.
 
    >[!NOTE]
    >
-   >Si programó su envío y deshabilitó la **[!UICONTROL Habilitar confirmación antes de enviar]** opción, los pasos de preparación y envío se agrupan en la variable **[!UICONTROL Preparar y enviar]** botón. [Más información sobre la programación](../email/create-email.md#schedule)
+   >Si programó su envío y deshabilitó la **[!UICONTROL Habilitar confirmación antes de enviar]** opción, los pasos de preparación y envío se agrupan en la variable **[!UICONTROL Preparar y enviar]** botón. [Más información sobre la programación](../msg/gs-messages.md#gs-schedule)
 
 1. Se muestra el progreso de la preparación. En función del tamaño de la población de destinatarios, esta operación puede tardar algún tiempo.
 
@@ -87,7 +87,7 @@ Una vez finalizada la preparación sin errores, el mensaje está listo para envi
 
 Una vez que [preparación](#prepare) se ha completado. Ahora puede enviar su correo electrónico.
 
-Si el mensaje está programado, se enviará en la fecha y la hora definidas. [Más información](#schedule-the-send)
+Si el mensaje está programado, se enviará en la fecha y la hora definidas. [Más información](../msg/gs-messages.md#gs-schedule)
 
 ### Enviar inmediatamente {#send-immediately}
 
@@ -105,7 +105,7 @@ Para enviar un correo electrónico inmediatamente, siga los pasos a continuació
 
 Si ha programado el correo electrónico para enviarlo en una fecha y hora posteriores, siga los pasos a continuación.
 
-1. Antes de golpear el **[!UICONTROL Revisar y enviar]** , asegúrese de definir una programación para el correo electrónico. [Más información](../email/create-email.md#schedule)
+1. Antes de golpear el **[!UICONTROL Revisar y enviar]** , asegúrese de definir una programación para el correo electrónico. [Más información](../msg/gs-messages.md#gs-schedule)
 
 1. En el panel de envío, haga clic en **[!UICONTROL Botón Enviar como programado]** en la esquina superior derecha.
 
@@ -115,7 +115,7 @@ Si ha programado el correo electrónico para enviarlo en una fecha y hora poster
 
    >[!NOTE]
    >
-   >Si ha desactivado la variable **[!UICONTROL Habilitar confirmación antes de enviar]** opción, los pasos de preparación y envío se agrupan en la variable **[!UICONTROL Preparar y enviar]** botón. [Más información sobre la programación](../email/create-email.md#schedule)
+   >Si ha desactivado la variable **[!UICONTROL Habilitar confirmación antes de enviar]** opción, los pasos de preparación y envío se agrupan en la variable **[!UICONTROL Preparar y enviar]** botón. [Más información sobre la programación](../msg/gs-messages.md#gs-schedule)
 
 ## Pausar o detener el envío {#pause-stop-sending}
 

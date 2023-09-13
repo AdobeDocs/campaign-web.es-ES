@@ -4,10 +4,10 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 95%
+source-wordcount: '1300'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
->abstract="Un envío es una comunicación de marketing que se envía a una audiencia a través de un canal específico: correo electrónico, SMS o notificaciones push. En la lista de envíos, puede editar los envíos existentes y comprobar su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione una entrega para ver su contenido, programación, audiencia y detalles."
+>abstract="Un envío es una comunicación de marketing que se envía a un público a través de un canal específico: correo electrónico, SMS, notificación push. En la lista de envíos, puede editar los envíos existentes y comprobar su estado, las fechas de contacto y modificación, y los indicadores clave de rendimiento (KPI). Haga clic en el botón “Crear envío” para añadir un nuevo envío. Seleccione un envío para ver su contenido, programación, público y detalles."
 
 
 Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su eficacia mediante varios informes dedicados.
@@ -82,7 +82,7 @@ Para crear un envío independiente, siga estos pasos:
 
 1. Defina la audiencia del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre las audiencias en [esta sección](../audience/about-audiences.md).
 1. Definición del contenido del mensaje.
-1. (opcional) Defina la programación de envíos. Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
+1. (opcional) Defina la entrega [programación](#gs-schedule). Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
 1. Haga clic en el botón **[!UICONTROL Revisar y enviar]** para comprobar su configuración.
 1. Utilice el botón **[!UICONTROL Simular contenido]** para probar el envío y la configuración de personalización. Puede obtener más información sobre la simulación de mensajes en [esta sección](../preview-test/preview-test.md).
 1. Haga clic en el botón **[!UICONTROL Preparar]** para calcular el público destinatario y generar los mensajes. El paso de preparación puede tardar unos minutos. Cuando la preparación haya finalizado, los mensajes estarán listos para enviarse. En caso de error, vaya a los **Registros** para comprobar las alertas y advertencias.
@@ -144,8 +144,24 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
 Una vez definido el contenido del mensaje, puede obtener una vista previa para controlar la renderización de los mensajes y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-test.md)
 
+## Programación de los envíos de entregas {#gs-schedule}
 
-## Registros de seguimiento y monitorización{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Programación del envío"
+>abstract="Defina la fecha y la hora exacta para enviar mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
+
+Puede establecer la fecha y la hora exacta para enviar los mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura.
+
+Para programar el envío de una entrega, abra la entrega y vaya a **Programación** sección. Utilice el **[!UICONTROL Habilitar programación]** marque la opción para activarla y establezca la fecha y la hora deseadas para la entrega. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
+
+![](assets/schedule.png)
+
+De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que se realice la entrega en la fecha y hora programadas. Si necesita realizar la entrega automáticamente en la fecha y hora programadas, puede desactivar esta opción.
+
+Obtenga información sobre los pasos para realizar un envío programado en [esta sección](../monitor/prepare-send.md#schedule-the-send).
+
+## Registros de seguimiento y monitorización {#gs-tracking-logs}
 
 La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
 

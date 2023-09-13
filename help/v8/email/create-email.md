@@ -4,10 +4,10 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 85%
+source-wordcount: '1224'
+ht-degree: 83%
 
 ---
 
@@ -131,16 +131,11 @@ En este caso de uso, envíe el correo electrónico a una audiencia existente. En
 
 ## Programación del envío {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Programación del envío"
->abstract="Defina la fecha y la hora exacta de envío. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
-
-Para programar el envío del correo electrónico, abra el correo electrónico a enviar y busque la sección **Programación**. Utilice la opción **[!UICONTROL Habilitar programación]** para activarlo y establezca la fecha y hora deseadas para el envío. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
-
-De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que el correo electrónico se envíe en la fecha y hora programadas. Si necesita enviar el correo electrónico automáticamente en la fecha y hora programadas, puede desactivar esta opción.
+Para programar el envío del correo electrónico, abra el correo electrónico a enviar y busque la sección **Programación.**
 
 ![](assets/schedule.png)
+
+Obtenga información sobre cómo programar el envío de entregas [esta sección](../msg/gs-messages.md#gs-schedule)
 
 ## Vista previa y prueba del correo electrónico {#preview-test}
 
