@@ -4,10 +4,10 @@ title: Usar una audiencia de Adobe Experience Platform
 description: Aprenda a utilizar una audiencia de Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 39%
+source-wordcount: '290'
+ht-degree: 37%
 
 ---
 
@@ -19,8 +19,7 @@ Una vez creada una audiencia de Adobe Experience Platform y disponible en la con
 
 >[!NOTE]
 >
->Para utilizar audiencias de Adobe Experience Platform en Campaign, debe configurar la integración con Fuentes y destinos de Adobe. Consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=es){target="_blank"}.
-
+>Para utilizar audiencias de Adobe Experience Platform en Campaign, debe configurar la integración con Fuentes y destinos de Adobe. Consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 Para seleccionar la audiencia de una entrega, también puede:
 
