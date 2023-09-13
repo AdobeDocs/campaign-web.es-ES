@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Tenedor
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 100%
 >id="acw_orchestration_fork_transitions"
 >title="Bifurcación  actividad"
 >abstract="La actividad Tenedor permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo."
+
+La actividad Tenedor permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
 ## Configuración
 
