@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 92%
+source-wordcount: '1760'
+ht-degree: 89%
 
 ---
 
@@ -56,6 +56,12 @@ Los elementos mostrados en la **Explorer** dependen de los permisos de usuario. 
 Como en cualquier pantalla de lista, puede configurar columnas para personalizar la visualización y ver toda la información que necesite. Consulte esta [sección](#list-screens).
 
 Para obtener más información sobre Campaign Explorer, la jerarquía de carpetas y los recursos, consulte esta sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=es#ac-explorer-ui){target="_blank"}.
+
+
+### Ayuda contextual {#user-interface-help}
+
+Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo asistente de conocimiento con tecnología de IA, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso.
+
 
 ### Administración de campañas {#user-interface-campaign-management}
 

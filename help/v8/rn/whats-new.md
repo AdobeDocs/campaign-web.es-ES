@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 50%
+source-wordcount: '903'
+ht-degree: 59%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 50%
 
 Estamos encantados de presentar la versión BETA de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
 
-## Lanzamiento beta{#beta-release}
+## Versión beta{#beta-release}
 
-Actualmente, esta nueva interfaz web de Campaign solo está disponible para **Profesionales beta** con las siguientes capacidades:
+Esta nueva interfaz web de Campaign actualmente solo está disponible para **profesionales de beta** con las siguientes capacidades:
 
 **Experiencia moderna, intuitiva y unificada**
 
@@ -52,15 +52,13 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 ## Últimas actualizaciones
 
-
 **Resumen beta**
 
-* Habilite la composición de datos (federada) para Audiencias y personalización.
-* Utilice la tecnología de IA para mejorar la generación de contenido de correo electrónico.
-* Sincronice fácilmente recursos y plantillas de HTML completas.
-* Organizar y administrar sus carpetas y recursos de forma eficaz.
-* Cree páginas de aterrizaje atractivas y efectivas.
-* Más actividades de flujo de trabajo: Acceda a actividades adicionales como cambiar dimensión, deduplicación y envíos recurrentes para mejorar los flujos de trabajo de la campaña.
+* Habilitar la composición de datos (federada) para Audiencias y personalización
+* Utilice la tecnología de IA para mejorar la generación de contenido de correo electrónico
+* Sincronizar recursos y plantillas de HTML completas sin problemas
+* Organizar y administrar sus carpetas y recursos de forma eficaz
+* Acceda a actividades adicionales como cambio de dimensión, deduplicación y envíos recurrentes para mejorar los flujos de trabajo de la campaña
 
 **Nuevas funciones clave**
 
@@ -92,11 +90,14 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 
   Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS y notificaciones push en nuestra plataforma web avanzada.
 
-* Integración de Adobe Experience Manager AEM ()
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  AEM Gracias a nuestra integración de la extendida a la interfaz de usuario web, puede administrar fácilmente los recursos y sincronizar plantillas de HTML completas, lo que le permite crear experiencias digitales cautivadoras sin ningún inconveniente.
-
-  Aumente y optimice sus capacidades de administración de contenido en la interfaz de usuario web con esta integración para aumentar la productividad.
 
 ## Transición a la IU de Campaign Web
 
@@ -104,7 +105,7 @@ Como usuario de Campaign, puede seguir accediendo a la consola del cliente para 
 
 Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la IU de Campaign Web desde la navegación izquierda del Explorer. Obtenga más información sobre la vista de Explorer en [esta sección](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Con la versión beta de Campaign Web, la interfaz de usuario refleja los permisos del usuario. Más información sobre los permisos en [esta página](../get-started/permissions.md)
+Con la versión beta de Campaign Web, la interfaz de usuario refleja los permisos del usuario. Obtenga más información acerca de los permisos en [esta página](../get-started/permissions.md).
 
 ## Actualizaciones terminológicas {#terminology-updates}
 
@@ -120,7 +121,7 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 
 Las limitaciones siguientes se aplican a esta versión alfa:
 
-* Los objetos editables son: envíos, campañas, flujos de trabajo, audiencias, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
+* Los objetos editables son: envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
 * Los públicos destinatarios no se pueden guardar para un uso futuro.
 * La interfaz de usuario de Administración no está disponible.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
