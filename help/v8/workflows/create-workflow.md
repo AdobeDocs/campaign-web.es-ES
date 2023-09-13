@@ -4,9 +4,9 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
+source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '693'
 ht-degree: 4%
 
 ---
@@ -64,6 +64,12 @@ Para crear una plantilla de flujo de trabajo a partir de un flujo de trabajo exi
 1. En la ventana emergente, confirme la creación de la plantilla.
 1. En el lienzo de la plantilla de flujo de trabajo, compruebe, añada y configure las actividades según sea necesario.
 1. Vaya a la configuración para cambiar el nombre de la plantilla de flujo de trabajo e introduzca una descripción.
+1. Seleccione la carpeta y la carpeta de ejecución de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de flujo de trabajo. La carpeta de ejecución es la carpeta en la que se guardan los flujos de trabajo creados basándose en esta plantilla.
+
+   ![](assets/wf-settings-template.png)
+
+   Las demás propiedades son comunes en los flujos de trabajo. Obtenga más información en [esta página](workflow-settings.md#properties)
+
 1. Guarde los cambios.
 
 La plantilla de flujo de trabajo ya está disponible en la lista de plantillas. Puede crear un flujo de trabajo basado en esta plantilla. Este flujo de trabajo se preconfigura con la configuración y las actividades definidas en la plantilla.
@@ -79,9 +85,9 @@ Para crear una plantilla de flujo de trabajo desde cero, siga estos pasos:
 1. Introduzca la etiqueta y abra las opciones adicionales para introducir una descripción de la plantilla de flujo de trabajo.
 1. Seleccione la carpeta y la carpeta de ejecución de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de flujo de trabajo. La carpeta de ejecución es la carpeta en la que se guardan los flujos de trabajo creados basándose en esta plantilla.
 
-   Las demás propiedades son comunes en los flujos de trabajo. Obtenga más información en [esta página](workflow-settings.md#properties)
-
    ![](assets/new-wf-template.png)
+
+   Las demás propiedades son comunes en los flujos de trabajo. Obtenga más información en [esta página](workflow-settings.md#properties)
 
 1. Haga clic en **Crear** para confirmar la configuración.
 1. En el lienzo de la plantilla de flujo de trabajo, añada y configure las actividades según sea necesario.
