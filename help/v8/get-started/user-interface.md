@@ -3,11 +3,11 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alfa"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 89%
+source-wordcount: '1758'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 >title="Descubra la interfaz"
 >abstract="La nueva interfaz web de Campaign v8 ofrece una experiencia del usuario integrada, intuitiva y coherente."
 
-La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con Adobe Experience Platform.
+La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con las aplicaciones y soluciones de Adobe Experience Cloud.
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los pú
 
 * **Ofertas**: examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
 
-Obtenga información sobre cómo crear y administrar ofertas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo crear y enviar ofertas en correos electrónicos y SMS en [esta sección](../content/offers.md).
 
 ## Barra superior
 
 Utilice la barra superior de la interfaz para lo siguiente:
 
-* Compartir sus comentarios como evaluador de alfa.
+* compartir sus comentarios como probador beta
 * Cambiar entre organizaciones e instancias.
 * Cambiar entre las aplicaciones de Adobe Experience Cloud.
 * Acceder a páginas de ayuda, ponerse en contacto con el servicio de asistencia técnica y compartir comentarios. Puede buscar artículos de ayuda y vídeos desde el campo de búsqueda.

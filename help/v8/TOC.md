@@ -5,9 +5,9 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 95%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 95%
    + [Introducción](get-started/get-started.md)
    + [Descubra la interfaz](get-started/user-interface.md)
    + [Examen, búsqueda y filtrado de listas](get-started/list-filters.md)
+   + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
+   + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Funciones no admitidas](get-started/unsupported.md)
    + [Uso de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
@@ -69,7 +71,6 @@ ht-degree: 95%
       + [Adición de personalización](personalization/personalize.md)
       + [Añadir contenido condicional](personalization/conditions.md)
       + [Añadir bloques de contenido integrados](personalization/content-blocks.md)
-      + [Trabajo con filtros predefinidos](personalization/predefined-filters.md)
    + [Envío de ofertas](content/offers.md)
    + Vista previa y prueba del envío {#preview-test}
       + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
