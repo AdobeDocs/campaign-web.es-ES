@@ -2,10 +2,10 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,48 @@ En la consola del cliente de Campaign, la variable **Enriquecimiento** La activi
 
 ## Filtros predefinidos {#filters-guardrails-limitations}
 
-
 Al seleccionar la audiencia de una entrega o al crear una audiencia en un flujo de trabajo, algunos filtros predefinidos no están disponibles. Se muestra un mensaje de error específico. Puede seguir utilizando la consulta y ver: la condición de filtrado y los resultados, pero no puede ver la consulta exacta en el generador de reglas y no puede editar el filtro.
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### Tipos de datos no compatibles {#unsupported-data-type}
+
+Los siguientes tipos de datos disponibles en la consola del cliente no son compatibles al mostrar un filtro o una regla en la interfaz web:
+
+* datetime
+* tiempo
+* intervalo de tiempo
+* doble
+* float
+
+### Funciones de filtrado no admitidas {#unsupported-filtering-capabilities}
+
+Cuando se crea un filtro con expresiones y funciones complejas en la consola del cliente, no se puede editar en la interfaz web.
+
+Además, no se admiten los siguientes operadores:
+
+* Tipo numérico
+   * está incluido en
+   * no en
+
+* Tipo de cadena
+   * mayor que
+   * menos de
+   * mayor o igual que
+   * menor o igual que
+   * gustar
+   * no me gusta
+
+* Tipo de fecha
+   * el o después
+   * el o antes
+   * no es igual a
+   * está vacío
+   * no está vacío
+   * está incluido en
+   * no en
+   * en última instancia
+
+* Vínculos 1-N
+   * COUNT, SUM, AVG, MIN, MAX
