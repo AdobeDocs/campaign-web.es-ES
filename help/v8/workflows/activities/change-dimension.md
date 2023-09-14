@@ -1,37 +1,35 @@
 ---
 audience: end-user
-title: Uso de la actividad de flujo de trabajo Tenedor
-description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
+title: Uso de la actividad de flujo de trabajo Change dimension
+description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 13%
 
 ---
 
 
-# Bifurcación {#fork}
+# Dimensión cambiante {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="Bifurcación  actividad"
->abstract="La actividad Tenedor permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo."
+>id="acw_orchestration_dimension_complement"
+>title="Dimensión cambiante actividad"
+>abstract="La actividad Cambiar dimensión le permite..."
+
+El **Cambiar dimensión** la actividad es una **Segmentación** actividad. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
+
+También puede utilizar esta actividad para definir las columnas adicionales del nuevo destinatario y los criterios de anulación de duplicación de datos.
 
 ## Configuración
 
-Siga estos pasos para configurar la actividad **Tenedor**:
+Siga estos pasos para configurar el **Cambiar dimensión** actividad:
 
-1. Añada una actividad **Tenedor** al flujo de trabajo.
-1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
-1. Añada una etiqueta a cada una de las transiciones.
+1. Añadir un **Cambiar dimensión** a su flujo de trabajo.
 
-## Ejemplo
+       &lt;!—![](../assets/workflow-change-dimension.png)—>
+   
+1. Seleccione la nueva dimensión de destino mediante el campo Change dimension.
 
-En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
-
-* Una antes de las dos consultas, para ejecutarlas al mismo tiempo.
-* Una después de la intersección, para enviar un correo electrónico y un SMS simultáneamente a la población objetivo.
-
-![](../assets/workflow-fork-example.png)
-
+Nada más??
