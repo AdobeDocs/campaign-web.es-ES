@@ -3,7 +3,7 @@ audience: end-user
 title: Monitorización y administración de audiencias
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en la web de Adobe Campaign
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Las audiencias pueden proceder de varias fuentes. El **[!UICONTROL Origen]** col
 
 * **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado en Adobe Experience Platform y se han puesto a disposición en la web de Campaign mediante la integración con fuentes y destinos de Adobe. Obtenga información sobre cómo configurar esta integración en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: estas audiencias se han creado mediante un flujo de trabajo web de Campaign. [Obtenga información sobre cómo crear audiencias](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: estas audiencias se han creado mediante un flujo de trabajo web de Campaign. [Obtenga información sobre cómo crear audiencias](create-audience.md)
 
 *¿cuáles son los otros orígenes? ¿Son personalizados? ¿Dónde los definimos?*
 
