@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 13%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 13%
 
 # Guardado de audiencia {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="Guardar actividad de audiencia"
->abstract="La actividad Guardar audiencia le permite..."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 
