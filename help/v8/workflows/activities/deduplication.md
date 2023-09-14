@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 32%
+source-wordcount: '281'
+ht-degree: 26%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 32%
 >title="Bifurcación  actividad"
 >abstract="La actividad Deduplication le permite..."
 
-La actividad de deduplicación le permite eliminar duplicados en los resultados de las actividades entrantes.
-
-La actividad Deduplicación se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
+El **Deduplicación** la actividad es una **Segmentación** actividad. Esta actividad le permite eliminar duplicados en los resultados de las actividades entrantes. El **Deduplicación** la actividad se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
 
 ## Configuración
 
 Siga estos pasos para configurar el **Planificador** actividad:
 
 1. Añadir un **Deduplicación** a su flujo de trabajo.
+
+   <!--![](../assets/workflow-deduplication.png)-->
 
 1. En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero.
 
@@ -48,3 +48,6 @@ Siga estos pasos para configurar el **Planificador** actividad:
    * **Following a list of values**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón Add situado sobre la lista de valores. ++ Ordenar
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
+
+## Ejemplo
+

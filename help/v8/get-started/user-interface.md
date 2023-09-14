@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1752'
 ht-degree: 87%
 
 ---
@@ -223,11 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregados."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_fields"
->title="Campos de anulación de duplicación"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Configuración de la anulación de duplicación"
 >abstract="Por determinar"
@@ -235,11 +230,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Complemento de anulación de duplicación"
->abstract="Por determinar"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_dimension_complement"
->title="Complemento de dimensión"
 >abstract="Por determinar"
 
 >[!CONTEXTUALHELP]
