@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 22%
+source-wordcount: '367'
+ht-degree: 21%
 
 ---
 
@@ -55,6 +55,13 @@ Siga estos pasos para configurar el **Planificador** actividad:
    * **Permanente (nunca caduca)**: el flujo de trabajo se ejecuta según la frecuencia especificada, sin límites en el lapso de tiempo ni número de iteraciones.
 
    * **Período de validez**: el flujo de trabajo se ejecuta según la frecuencia especificada, hasta una fecha específica. Debe especificar las fechas de inicio y finalización.
+
+>[!NOTE]
+>
+>Si desea iniciar el flujo de trabajo de inmediato, puede hacer clic en el **Ejecutar tarea pendiente** en la barra de acciones superior del planificador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
+
+Notas:
+
 
 ## Ejemplo
 
