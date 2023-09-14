@@ -3,10 +3,10 @@ audience: end-user
 title: Envío de un envío de SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 10%
+source-wordcount: '421'
+ht-degree: 9%
 
 ---
 
@@ -63,6 +63,9 @@ El envío de SMS de prueba es un paso importante para garantizar la calidad y ef
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 
    ![](assets/sms_send_5.png)
+
+   Si la entrega de SMS se ha programado, haga clic en el **[!UICONTROL Enviar como está programado]** botón. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#schedule-the-delivery-sending).
+
 
 1. Confirme la acción de envío haciendo clic en **[!UICONTROL Enviar]** botón.
 
