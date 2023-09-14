@@ -4,10 +4,10 @@ title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 45%
+source-wordcount: '924'
+ht-degree: 43%
 
 ---
 
@@ -70,20 +70,6 @@ Una vez finalizada la preparación sin errores, el mensaje está listo para envi
 
 ## Envío del mensaje {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="Entregados"
->abstract="Número de mensajes entregados correctamente. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado se basa en el número total de mensajes enviados."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="Aperturas"
->abstract="Número de mensajes abiertos. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la proporción del número de aperturas distintas comparado con el número de mensajes enviados."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="Clics"
->abstract="El número de destinatarios que hicieron clic al menos una vez en el correo electrónico. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la proporción del número de clics distintos en comparación con el número de mensajes entregados."
 
 Una vez que [preparación](#prepare) se ha completado. Ahora puede enviar su correo electrónico.
 
@@ -130,14 +116,38 @@ Independientemente de si la entrega está programado o no, se pueden realizar do
 ## Compruebe los KPI {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Entregados"
+>abstract="Número de mensajes entregados correctamente. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado se basa en el número total de mensajes enviados."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprender los KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Aperturas"
+>abstract="Número de mensajes abiertos. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la proporción del número de aperturas distintas comparado con el número de mensajes enviados."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprender los KPI"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Clics"
+>abstract="El número de destinatarios que hicieron clic al menos una vez en el correo electrónico. Este indicador se actualiza cada 5 minutos. El porcentaje mostrado es la proporción del número de clics distintos en comparación con el número de mensajes entregados."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprender los KPI"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Métricas enviadas"
 >abstract="Número total de mensajes procesados durante el análisis de entregas."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprender los KPI"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Métricas de errores"
 >abstract="Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="Comprender los KPI"
+
 
 Una vez completado el envío, puede comprobar los KPI mostrados:
 
@@ -156,5 +166,7 @@ Una vez completado el envío, puede comprobar los KPI mostrados:
 >[!NOTE]
 >
 >Todos los indicadores se actualizan cada cinco minutos después del inicio del envío. Los indicadores de preparación de envíos son en tiempo real.
+
+Obtenga más información acerca de los KPI en [esta página](../reporting/kpis.md).
 
 También puede comprobar los registros. [Más información](delivery-logs.md)
