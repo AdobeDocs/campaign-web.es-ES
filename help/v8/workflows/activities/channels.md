@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >[!NOTE]
 >
 >También puede crear una entrega con una sola toma, fuera del contexto de un flujo de trabajo de la campaña. Obtenga más información en estas secciones:
->* [Creación de envíos de correo electrónico independientes](../../email/create-email.md
+>* [Creación de envíos de correo electrónico independientes](../../email/create-email.md)
 >* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
 >
