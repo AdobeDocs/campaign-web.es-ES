@@ -4,10 +4,10 @@ title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
+source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 43%
+source-wordcount: '925'
+ht-degree: 41%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 43%
 
 ## Preparación del envío {#prepare}
 
-Cuando haya definido su [content](../content/edit-content.md), [audiencia](../audience/add-audience.md) y programe, está listo para preparar su envío de correo electrónico.
+Cuando haya definido su [content](../content/edit-content.md), [audiencia](../audience/add-audience.md), y [programación](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), está listo para preparar su envío de correo electrónico.
 
-Durante la preparación, se calcula la población de destinatarios y se genera el contenido del mensaje para cada perfil de los destinatarios. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas.
+Durante la preparación, la población objetivo se calcula y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas.
 
 Las reglas de validación utilizadas durante la preparación de la entrega se describen en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
