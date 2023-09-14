@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 14%
+source-wordcount: '333'
+ht-degree: 13%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 14%
 >title="Guardar actividad de audiencia"
 >abstract="La actividad Guardar audiencia le permite..."
 
-La etiqueta de audiencia de modo Adobe Campaign va a hacer coincidir esta etiqueta con las audiencias existentes. Si encuentra una coincidencia, actualizará esa audiencia; de lo contrario, creará una audiencia nueva.
-Método de actualización
-
-Sustitución de público por nuevos datos
-
-Audiencia completa con nuevos datos Listas de carpetas (/Profiles and Targets/Lists/)
-
-Generate an outbound transition
-
-
 El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en el mismo flujo de trabajo, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **Crear audiencia** o una **Combinar** actividad.
@@ -38,7 +28,7 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
 1. Añadir un **Guardar audiencia** a su flujo de trabajo.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. En el **Modo** , seleccione la acción que desee llevar a cabo:
 
