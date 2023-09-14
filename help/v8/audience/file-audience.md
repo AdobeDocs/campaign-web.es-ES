@@ -4,10 +4,10 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 50%
+source-wordcount: '548'
+ht-degree: 40%
 
 ---
 
@@ -55,23 +55,6 @@ Al crear y personalizar el contenido del mensaje, puede seleccionar campos del a
 
 ![](assets/select-external-perso.png)
 
-## Previsualización y prueba del correo electrónico {#test}
-
-La web de Campaign le permite realizar previsualizaciones y enviar correos electrónicos de prueba al utilizar una audiencia cargada desde un archivo. Para ello, siga estos pasos:
-
-1. Simular contenido
-1. Abre la vista previa. Haga clic en seleccionar perfil(es): seleccione perfiles del archivo que desea utilizar
-1. para enviar el correo electrónico de prueba, haga clic en probar
-1. modo de prueba: Definir el destinatario de las pruebas
-1. Cargue el destinatario del correo electrónico de prueba desde un segundo archivo (o utilice el mismo). el formato del archivo sigue el mismo formato que el archivo cargado
-1. Comprobaciones realizadas en el formato de archivo
-1. haga clic en enviar
-
-añadir vínculo a la sección vista previa y prueba
-
-**preguntas:**
-* ¿no hay sustituciones disponibles en el archivo?
-
 ## Archivo de muestra {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Previsualización y prueba del correo electrónico {#test}
+
+La web de Campaign le permite realizar previsualizaciones y enviar correos electrónicos de prueba al utilizar una audiencia cargada desde un archivo. Para ello, siga estos pasos:
+
+1. Haga clic en **[!UICONTROL Botón Simular contenido]** en la pantalla de edición de contenido de la entrega y haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** botón.
+
+1. Se muestran los perfiles contenidos en el archivo cargado. Seleccione los perfiles que desee utilizar para obtener una vista previa del contenido y haga clic en **[!UICONTROL Seleccionar]**.
+
+1. En el panel derecho de la pantalla aparece una vista previa del contenido de la entrega. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo. [Más información sobre la previsualización del contenido de envío](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Para enviar correos electrónicos de prueba, haga clic en **[!UICONTROL Prueba]** botón.
+
+1. Haga clic en **[!UICONTROL Cargar perfiles de prueba]** y seleccione el archivo .txt o .csv que contiene los destinatarios de prueba.
+
+   >[!CAUTION]
+   >
+   >Asegúrese de que el formato de archivo coincida con el utilizado para cargar la audiencia. Cualquier error de formato mostrará una alerta.
+
+1. Cuando haya añadido los destinatarios de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar correo electrónico de prueba]** y confirme el envío.
+
+   ![](assets/file-upload-test.png)
+
+1. Puede monitorizar el envío del correo electrónico de prueba en cualquier momento mediante el botón Ver registro de correo electrónico de prueba. [Más información sobre la monitorización de correos electrónicos de prueba](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
