@@ -4,10 +4,10 @@ title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 89%
+source-wordcount: '386'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 89%
 >title="Selección de plantilla de SMS"
 >abstract="Seleccione una plantilla predefinida para iniciar el envío de SMS."
 
-1. Desde la página de inicio **[!UICONTROL Envíos]**, haga clic en **[!UICONTROL Creación de envíos]**.
+Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+Para crear un nuevo envío de SMS independiente, siga estos pasos:
+
+1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
 
 1. En la sección **[!UICONTROL Canal]**, elija SMS como el canal y seleccione una plantilla. [Más información sobre las plantillas](../msg/delivery-template.md)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 67%
+source-wordcount: '406'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 67%
 >title="Propiedades del envío push"
 >abstract="Administrar las propiedades del envío Push."
 
-1. Desde la página de inicio **[!UICONTROL Envíos]**, haga clic en **[!UICONTROL Creación de envíos]**.
+Puede crear una entrega de notificaciones push independiente o crear una notificación push en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para una entrega push independiente (de una sola toma). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. En el **[!UICONTROL Canal]** , elija Notificación push como canal y seleccione una plantilla según el sistema operativo elegido: Android o iOS. [Más información sobre las plantillas](../msg/delivery-template.md)
+
+Para crear un nuevo envío push independiente, siga estos pasos:
+
+1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
+
+1. En el **[!UICONTROL Canal]** , elija **Notificación push** Seleccione como canal y seleccione una plantilla, según el sistema operativo del dispositivo elegido: Android o iOS. [Más información sobre las plantillas](../msg/delivery-template.md)
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 

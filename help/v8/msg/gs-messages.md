@@ -4,10 +4,10 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 91%
+source-wordcount: '1303'
+ht-degree: 88%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 91%
 
 Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su eficacia mediante varios informes dedicados.
 
-Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario. Estos envíos pueden ser independientes o incluirse en el contexto de una campaña de marketing.
+Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario. Estos envíos pueden ser independientes o incluirse en flujos de trabajo en el contexto de una campaña de marketing.
 
-Adobe Campaign v8 incluye los siguientes canales de envío: Correo electrónico, SMS y aplicaciones móviles.
+Adobe Campaign v8 incluye los siguientes canales de entrega: correo electrónico, SMS y aplicaciones móviles.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -59,7 +59,6 @@ Adobe Campaign v8 incluye los siguientes canales de envío: Correo electrónico,
 
 ## Creación de un envío {#create-delivery}
 
-
 Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]**, o cree envíos en el contexto de una campaña de marketing, desde el menú de la izquierda **[!UICONTROL Campañas]**.
 
 Examine las pestañas siguientes para aprender a crear un envío:
@@ -89,7 +88,7 @@ Para crear un envío independiente, siga estos pasos:
 1. Compruebe los resultados y haga clic en el botón **[!UICONTROL Enviar]** para empezar a enviar mensajes.
 1. Una vez enviados los mensajes, vaya a la sección **Informes** para acceder a métricas clave. Obtenga más información sobre los informes de envíos en [esta sección](../reporting/delivery-reports.md).
 
->[!TAB Creación de un envío en una campaña]
+>[!TAB Creación de una entrega en un flujo de trabajo de campaña]
 
 Para crear un envío en una campaña, siga estos pasos:
 

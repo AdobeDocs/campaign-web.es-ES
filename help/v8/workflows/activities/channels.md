@@ -3,15 +3,15 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 97%
+source-wordcount: '495'
+ht-degree: 78%
 
 ---
 
 
-# Correo electrónico, SMS, push {#channel}
+# Correo electrónico, SMS, actividades push {#channel}
 
 La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing a través de correos electrónicos, SMS y canales de push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente.
 
@@ -19,7 +19,17 @@ Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que i
 
 Mediante las actividades del canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios touchpoints e impulsen las conversiones.
 
-Estos son los pasos para añadir una actividad de **Canal** en un flujo de trabajo:
+>[!NOTE]
+>
+>También puede crear una entrega con una sola toma, fuera del contexto de un flujo de trabajo de la campaña. Obtenga más información en estas secciones:
+>* [Creación de envíos de correo electrónico independientes](../../email/create-email.md
+>* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
+>* [Crear envío push independiente](../../push/create-push.md)
+>
+
+## Creación de una entrega en un flujo de trabajo de campaña{#create-a-delivery-in-a-workflow}
+
+Para crear un correo electrónico, un SMS o una entrega push en el contexto de un flujo de trabajo de campaña, siga los pasos a continuación:
 
 1. Asegúrese de haber añadido una actividad **Generar público destinatario**. El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
@@ -36,7 +46,7 @@ Estos son los pasos para añadir una actividad de **Canal** en un flujo de traba
 
 1. Haga clic en **Crear envío**. Defina la configuración del mensaje y su contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md).
 
-1. Vuelva al flujo de trabajo y guarde los cambios.
+1. Vuelva al flujo de trabajo. Seleccione si desea continuar con el flujo de trabajo **Generación de una transición saliente** si desea añadir una transición después de la actividad del canal.
 
 1. Haga clic en **Iniciar** para iniciar el flujo de trabajo.
 
@@ -46,7 +56,7 @@ Estos son los pasos para añadir una actividad de **Canal** en un flujo de traba
 
 1. En el panel de envíos, haga clic en **Enviar**.
 
-## Ejemplo
+## Ejemplo{#cross-channel-workflow-sample}
 
 Este es un ejemplo de flujo de trabajo en canales múltiples con una segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que residen en París y que están interesados en las máquinas de café. Se envía un correo electrónico a los clientes habituales y un SMS a los clientes VIP de esta población.
 

@@ -4,10 +4,10 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 83%
+source-wordcount: '1274'
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,9 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 >title="Propiedades del correo electrónico "
 >abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
 
-Para crear una nueva entrega, siga estos pasos:
+Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+Para crear un nuevo envío de correo electrónico independiente, siga estos pasos:
 
 1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
 

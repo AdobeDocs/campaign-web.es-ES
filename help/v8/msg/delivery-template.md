@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 22%
+source-wordcount: '941'
+ht-degree: 21%
 
 ---
 
@@ -27,7 +27,7 @@ Una plantilla puede incluir:
 * Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md)
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
-## Acceso y administración de plantillas {#access-manage-templates}
+## Acceso y administración de plantillas de entrega {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ Para eliminar o [duplicado](#copy-an-existing-template) Para crear una plantilla
 >
 >Cuando se edita o elimina una plantilla, los envíos creados con esta plantilla no se ven afectados.
 
-## Creación de una plantilla {#create-a-delivery-template}
+## Crear una plantilla de envíos {#create-a-delivery-template}
 
 Para crear una plantilla de envíos, puede:
 * Duplicación de una plantilla existente: [Más información](#copy-an-existing-template)
 * Conversión de una entrega existente en una plantilla: [Más información](#convert-an-existing-delivery)
 * Creación de una plantilla de envíos desde cero: [Más información](#create-a-new-template)
 
-### Duplicación de una plantilla existente {#copy-an-existing-template}
+### Duplicación de una plantilla de envíos existente {#copy-an-existing-template}
 
 Campaign viene con un conjunto de plantillas integradas para cada canal: correo electrónico, push, SMS. La forma más sencilla de crear una plantilla de envíos es duplicar y personalizar una plantilla integrada.
 
@@ -120,7 +120,7 @@ Para guardar una entrega como plantilla, siga los pasos a continuación:
 
 La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
-### Creación de una nueva plantilla {#create-a-new-template}
+### Creación de una nueva plantilla de envíos {#create-a-new-template}
 
 >[!NOTE]
 >
