@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Siga estos pasos para configurar el **Planificador** actividad:
 
 1. Añadir un **Deduplicación** a su flujo de trabajo.
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero.
 

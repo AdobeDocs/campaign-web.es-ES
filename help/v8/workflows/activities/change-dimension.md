@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 13%
@@ -28,7 +28,7 @@ Siga estos pasos para configurar el **Cambiar dimensión** actividad:
 
 1. Añadir un **Cambiar dimensión** a su flujo de trabajo.
 
-       &lt;!—![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. Seleccione la nueva dimensión de destino mediante el campo Change dimension.
 

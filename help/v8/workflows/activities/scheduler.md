@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 22%
@@ -30,7 +30,7 @@ Siga estos pasos para configurar el **Planificador** actividad:
 
 1. Añadir un **Planificador** a su flujo de trabajo.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Configure las variables **Frecuencia de ejecución**:
 
@@ -58,7 +58,7 @@ Siga estos pasos para configurar el **Planificador** actividad:
 
 En el siguiente ejemplo, la actividad se configura de modo que inicia el flujo de trabajo varias veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2023 al 1 de enero de 2024.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
