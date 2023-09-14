@@ -3,40 +3,47 @@ audience: end-user
 title: Creación de audiencias
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
+source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 4%
+source-wordcount: '269'
+ht-degree: 1%
 
 ---
 
 
 # Creación de audiencias {#create-audiences}
 
-menú audiencias
+Campaign Web le permite crear flujos de trabajo donde puede combinar audiencias existentes en un lienzo visual y aprovechar varias actividades (dividir, excluir...) para crear nuevas audiencias.
 
-puede crearlos y segmentarlos en envíos o campañas independientes
+Una vez realizadas, las audiencias resultantes se guardan y se copian en la web de Campaign junto con las audiencias existentes, y se pueden aprovechar en envíos independientes o campañas dirigidas a particulares.
 
 ## Cree su primera audiencia {#create}
 
-1. Audiencia > menú
-1. Crear público
-1. Propiedades : etiqueta y opciones adicionales
-1. Lienzo de flujo de trabajo con una actividad de audiencia de compilación
-1. Editar actividad, editar flujo de trabajo según sus necesidades
-1. inicie el flujo de trabajo (¿puede añadir actividades de direccionamiento solamente?) ¿No hay actividades de canal?) = Crea la audiencia y el flujo de trabajo
+Para crear una audiencia, siga estos pasos:
 
-## Monitorización y administración de audiencias {#monitor}
+1. Vaya a **[!UICONTROL Audiencias]** y haga clic en **[!UICONTROL Crear audiencia]** en la esquina superior derecha.
+1. Proporcione una etiqueta para la audiencia.
+1. Expanda la sección Opciones adicionales para configurar los parámetros de Advancer para la audiencia.
 
-En la audiencia creada, el panel tiene dos pestañas:
-* información general: propiedades + estado del flujo de trabajo y número de destinatarios de esta audiencia mediante cling calculate + puede acceder y editar el flujo de trabajo desde aquí
-* datos: vea los perfiles de datos como parte de la audiencia. Puede agregar nuevas columnas si es necesario. Consulte datos enriquecidos
+   >[!NOTE]
+   >
+   >De forma predeterminada, las audiencias se crean en el menú Explorador de perfiles y objetivos/listas. Puede cambiar la ubicación de almacenamiento predeterminada en la **[!UICONTROL Carpeta]** field.
 
-lista de audiencias: duplicar, eliminar
+1. Una vez establecida la configuración de la audiencia, haga clic en **[!UICONTROL Crear audiencia]** botón.
 
-**preguntas:**
+1. Se muestra un lienzo de flujo de trabajo con dos actividades predeterminadas:
 
-El flujo de trabajo en &quot;modo audiencia&quot; => enviando actividades de canal no está disponible
+   * **[!UICONTROL Crear audiencia]**: el punto de partida del flujo de trabajo. Esta actividad le permite seleccionar una o varias audiencias como base para el flujo de trabajo,
+   * **[!UICONTROL Guardar audiencia]**: el último paso del flujo de trabajo. Esta actividad le permite guardar el resultado del flujo de trabajo en una nueva audiencia.
 
-* en la instancia de fase: podemos eliminar la última actividad de qsave y añadir una actividad de canal en su lugar
-* ¿cómo reconocemos un flujo de trabajo en el modo &quot;audiencia&quot;?
+1. Configure el flujo de trabajo añadiendo tantas actividades como sea necesario. Para obtener más información sobre cómo configurar las distintas actividades, consulte la [documentación de flujos de trabajo](../workflows/activities/about-activities.md).
+
+   >[!NOTE]
+   >
+   >Las actividades de canal no están disponibles para su uso en flujos de trabajo de audiencia.
+
+   ![](assets/audience-creation-canvas.png)
+
+1. Cuando el flujo de trabajo esté listo, haga clic en **[!UICONTROL Inicio]** para ejecutarlo.
+
+1. El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** y la audiencia o audiencias resultantes en la lista **[!UICONTROL Audiencias]** lista. [Obtenga información sobre cómo acceder a audiencias](access-audiences.md)
