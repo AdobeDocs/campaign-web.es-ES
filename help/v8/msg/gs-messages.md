@@ -4,10 +4,10 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 88%
+source-wordcount: '1289'
+ht-degree: 87%
 
 ---
 
@@ -88,11 +88,10 @@ Para crear un envío independiente, siga estos pasos:
 1. Compruebe los resultados y haga clic en el botón **[!UICONTROL Enviar]** para empezar a enviar mensajes.
 1. Una vez enviados los mensajes, vaya a la sección **Informes** para acceder a métricas clave. Obtenga más información sobre los informes de envíos en [esta sección](../reporting/delivery-reports.md).
 
->[!TAB Creación de una entrega en un flujo de trabajo de campaña]
+>[!TAB Creación de una entrega en un flujo de trabajo]
 
-Para crear un envío en una campaña, siga estos pasos:
+Para crear una entrega en un flujo de trabajo, siga estos pasos:
 
-1. Cree una nueva campaña o acceda a una campaña existente. Más información sobre las [campañas de marketing](../campaigns/gs-campaigns.md).
 1. Cree un flujo de trabajo o abra uno existente.
 1. Adición y configuración de una actividad **[!UICONTROL Crear audiencia]** y haga clic en el botón `+`.
 
@@ -100,7 +99,7 @@ Para crear un envío en una campaña, siga estos pasos:
 
    La actividad **[!UICONTROL Crear audiencia]** se detalla en [esta sección](../workflows/activities/build-audience.md).
 
-1. Seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta [sección](../workflows/activities/about-activities.md#channel).
+1. Seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta [sección](../workflows/activities/channels.md).
 1. Inicie el flujo de trabajo y compruebe los registros.
 
 También puede añadir envíos en una campaña sin crear un flujo de trabajo. Para conseguirlo, vaya a la pestaña **[!UICONTROL Envíos]** de la campaña y haga clic en el botón **[!UICONTROL Creación de envíos]**.

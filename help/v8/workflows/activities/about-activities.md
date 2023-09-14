@@ -4,7 +4,7 @@ title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Están disponibles las siguientes actividades del **Canal**:
 * Push
 * SMS
 
-Consulte esta [sección](enrichment.md).
+Consulte esta [sección](channels.md).
 
 ## Actividades de control de flujo {#flow-control}
 
