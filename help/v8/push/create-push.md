@@ -3,7 +3,7 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 53%

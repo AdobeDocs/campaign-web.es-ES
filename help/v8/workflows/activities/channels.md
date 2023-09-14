@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -27,9 +27,9 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >* [Crear envío push independiente](../../push/create-push.md)
 >
 
-## Creación de una entrega en un flujo de trabajo de campaña{#create-a-delivery-in-a-workflow}
+## Creación de una entrega en un flujo de trabajo{#create-a-delivery-in-a-workflow}
 
-Para crear un correo electrónico, un SMS o una entrega push en el contexto de un flujo de trabajo de campaña, siga los pasos a continuación:
+Para crear un correo electrónico, un SMS o una entrega push en el contexto de un flujo de trabajo, siga los pasos a continuación:
 
 1. Asegúrese de haber añadido una actividad **Generar público destinatario**. El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
@@ -56,7 +56,7 @@ Para crear un correo electrónico, un SMS o una entrega push en el contexto de u
 
 1. En el panel de envíos, haga clic en **Enviar**.
 
-## Ejemplo{#cross-channel-workflow-sample}
+## Ejemplo {#cross-channel-workflow-sample}
 
 Este es un ejemplo de flujo de trabajo en canales múltiples con una segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que residen en París y que están interesados en las máquinas de café. Se envía un correo electrónico a los clientes habituales y un SMS a los clientes VIP de esta población.
 
