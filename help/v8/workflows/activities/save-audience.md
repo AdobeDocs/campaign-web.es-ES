@@ -1,37 +1,63 @@
 ---
 audience: end-user
-title: Uso de la actividad de flujo de trabajo Tenedor
+title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 14%
 
 ---
 
 
-# Bifurcación {#fork}
+# Guardado de audiencia {#save-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="Bifurcación  actividad"
->abstract="La actividad Tenedor permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo."
+>id="???"
+>title="Guardar actividad de audiencia"
+>abstract="La actividad Guardar audiencia le permite..."
+
+La etiqueta de audiencia de modo Adobe Campaign va a hacer coincidir esta etiqueta con las audiencias existentes. Si encuentra una coincidencia, actualizará esa audiencia; de lo contrario, creará una audiencia nueva.
+Método de actualización
+
+Sustitución de público por nuevos datos
+
+Audiencia completa con nuevos datos Listas de carpetas (/Profiles and Targets/Lists/)
+
+Generate an outbound transition
+
+
+El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
+
+Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en el mismo flujo de trabajo, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **Crear audiencia** o una **Combinar** actividad.
 
 ## Configuración
 
-Siga estos pasos para configurar la actividad **Tenedor**:
+Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
-1. Añada una actividad **Tenedor** al flujo de trabajo.
-1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
-1. Añada una etiqueta a cada una de las transiciones.
+1. Añadir un **Guardar audiencia** a su flujo de trabajo.
+
+   <!--![](../assets/workflow-save-audience.png)-->
+
+1. En el **Modo** , seleccione la acción que desee llevar a cabo:
+
+   * **Crear o actualizar una audiencia existente**: defina un **Etiqueta de audiencia**. Si la audiencia ya existe, se actualiza; de lo contrario, se crea una nueva.
+
+   * **Actualizar una audiencia existente**: elija el **Audiencia** desea actualizar entre la lista de audiencias existentes.
+
+1. Seleccione el **Modo de actualización** que se aplicará a las audiencias existentes:
+
+   * **Reemplazar contenido de audiencia por nuevos datos**: todo el contenido de la audiencia se sustituye. Se pierden los datos antiguos. Solo se conservan los datos de la transición de entrada de la actividad Guardar audiencia. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
+
+   * **Audiencia completa con nuevos datos**: el contenido de audiencia anterior se conserva y se añaden a él los datos de la transición de entrada de la actividad guardar audiencia.
+
+1. Seleccione la opción **Generate complement** si desea utilizar la población restante. A continuación, se agregará una transición adicional a la actividad.
+
+El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el **Audiencias** menú. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante del flujo de trabajo **Guardar audiencia** actividad.
+
 
 ## Ejemplo
 
-En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
 
-* Una antes de las dos consultas, para ejecutarlas al mismo tiempo.
-* Una después de la intersección, para enviar un correo electrónico y un SMS simultáneamente a la población objetivo.
-
-![](../assets/workflow-fork-example.png)
 

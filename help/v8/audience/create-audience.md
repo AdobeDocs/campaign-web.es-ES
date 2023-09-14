@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de audiencias
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ Para crear una audiencia, siga estos pasos:
 
 1. Cuando el flujo de trabajo esté listo, haga clic en **[!UICONTROL Inicio]** para ejecutarlo.
 
-1. El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** y la audiencia o audiencias resultantes en la lista **[!UICONTROL Audiencias]** lista. [Obtenga información sobre cómo acceder a audiencias](access-audiences.md)
+1. El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** y la audiencia o audiencias resultantes en la lista **[!UICONTROL Audiencias]** lista. [Obtenga información sobre cómo monitorizar y administrar audiencias](access-audiences.md)
