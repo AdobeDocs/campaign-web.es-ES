@@ -3,9 +3,9 @@ audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 3%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Generación de texto con el asistente de contenido {#generative-content}
 
-Una vez creados y personalizados los correos electrónicos, utilice el asistente de contenido para llevar el contenido al siguiente nivel.
+Una vez que haya creado y personalizado sus correos electrónicos, utilice el asistente de contenido con tecnología de IA generativa para llevar su contenido al siguiente nivel.
 
 El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que probablemente interesará más a su audiencia.
 
