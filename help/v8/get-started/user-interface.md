@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 82%
+source-wordcount: '1509'
+ht-degree: 80%
 
 ---
 
@@ -170,6 +170,9 @@ Para cambiar el idioma, haga lo siguiente:
 1. A continuación, haga clic en el vínculo de idioma mostrado debajo de su dirección de correo electrónico.
 1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no esté localizado en su primer idioma.
 
+## Tema oscuro {#dark-theme}
+
+Puede cambiar al tema oscuro desde el icono de perfil. Utilice el **Tema oscuro** marque esta opción para habilitarla o deshabilitarla.
 
 ## Más información {#learn-more}
 
