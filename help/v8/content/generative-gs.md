@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción al Asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Esta función ahorra tiempo y garantiza una calidad coherente al generar automá
 <a href="generative-image.md">
 <img alt="Generación de imágenes" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image"><strong>Generación de imágenes con el asistente de contenido</strong>
+<div><a href="generative-image.md"><strong>Generación de imágenes con el asistente de contenido</strong>
 </div>
 <p>
 </td>
