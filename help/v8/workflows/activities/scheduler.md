@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '499'
 ht-degree: 16%
 
 ---
@@ -30,6 +30,10 @@ El **Planificador** la actividad es una **Control de flujo** actividad. Permite 
 
 ## Configuración
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Validez del programador"
+>abstract="Puede definir un periodo de validez para el planificador. Puede ser permanente o válido hasta una fecha específica."
 
 Siga estos pasos para configurar el **Planificador** actividad:
 
