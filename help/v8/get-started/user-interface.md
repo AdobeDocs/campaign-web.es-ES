@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 84%
+source-wordcount: '1471'
+ht-degree: 83%
 
 ---
 
@@ -60,7 +60,14 @@ Para obtener más información sobre Campaign Explorer, la jerarquía de carpeta
 
 ### Ayuda contextual {#user-interface-help}
 
-El **Asistente de conocimientos con Gen AI** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
+Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, haga clic en el icono `?` para mostrar la información de ayuda y los vínculos de documentación relacionados.
+
+![](assets/context-help.png){width="40%" align="left"}
+
+Con la nueva versión beta, la **Asistente de conocimientos con Gen AI** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
+
+![](assets/ask-a-question.png)
+
 
 Gracias a las capacidades de Campaign Gen AI, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro asistente de conocimientos con Gen AI es su mejor compañero, ya que proporciona una eficiencia y precisión inigualables en cada interacción.
 
@@ -133,16 +140,6 @@ Utilice la barra superior de la interfaz para lo siguiente:
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
-
-## Ayuda contextual {#contextual-help}
-
-Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, haga clic en el icono `?` para mostrar la información de ayuda y los vínculos de documentación relacionados.
-
-![](assets/context-help.png){width="40%" align="left"}
-
-<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
-
-![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Navegadores admitidos {#browsers}
 
