@@ -2,9 +2,9 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,18 @@ Se puede acceder al mismo flujo de trabajo tanto en la consola como en la interf
 
 **Bucles**
 
-* Los flujos de trabajo, incluidos los bucles, no se muestran en la IU web. Se muestra un mensaje de error.
+* Los bucles aún no están disponibles en la interfaz de usuario web. Si ha creado un flujo de trabajo que incluye un bucle mediante la consola, no se podrá acceder a él desde la interfaz de usuario web. Se muestra un mensaje de error.
+
+<table>
+<tr>
+<th>Console</th>
+<th>IU web</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Reconciliación y enriquecimiento**
 
