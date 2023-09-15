@@ -3,9 +3,9 @@ audience: end-user
 title: Generación de imágenes con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Después de crear y personalizar los correos electrónicos, puede mejorar el contenido con el Ayudante de contenido. Esta función simplifica el proceso de personalización y mejora de contenido.
 
-En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para optimizar y mejorar su contenido, lo que garantiza una experiencia más fácil de usar. Siga estos pasos:
+En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para optimizar y mejorar el contenido, lo que garantiza una experiencia más fácil de usar. Siga estos pasos:
 
 1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Editar contenido]**.
 
