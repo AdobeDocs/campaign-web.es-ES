@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 Con Campaign v8 Web, puede crear flujos de trabajo en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
 
-Los flujos de trabajo se pueden crear como flujos de trabajo independientes desde el **Flujos de trabajo** o directamente dentro de una campaña, en cuyo caso el flujo de trabajo se vincula a la campaña y se ejecuta junto con todos los flujos de trabajo de la otra campaña.
 
 ## ¿Qué hay dentro de un flujo de trabajo? {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ Cada flujo de trabajo contiene:
 * **Tablas de trabajo**: la tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas se pueden utilizar en todo el ciclo de vida del flujo de trabajo.
 
 ## Pasos clave para crear un flujo de trabajo {#gs-workflow-steps}
+
+
+Campañas ofrece dos formas de crear un flujo de trabajo:
+
+1. Los flujos de trabajo se pueden crear como flujos de trabajo independientes a partir del **Flujos de trabajo** menú.
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. Los flujos de trabajo se pueden crear directamente dentro de una campaña, desde **Flujo de trabajo** de la campaña. Cuando se incluye en una campaña, el flujo de trabajo se ejecuta junto con todos los flujos de trabajo de la otra campaña, y todas las métricas de creación de informes se agrupan en el nivel de campaña.
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 Los pasos clave para crear flujos de trabajo son los siguientes:
 
