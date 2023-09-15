@@ -2,10 +2,10 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,21 @@ La posición de los nodos se actualiza cada vez que se añade o elimina una acti
 
 Al seleccionar la audiencia de una entrega o al crear una audiencia en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario, en esa versión del producto.
 
-Se muestra un mensaje de error específico. Aunque no pueda ver la representación gráfica de la consulta en el generador de reglas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado y los resultados. También puede acceder a la consulta SQL para comprobar la configuración exacta.
+Se muestra un mensaje de error específico.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Aunque no pueda ver la representación gráfica de la consulta en el generador de reglas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la variable **Atributos** de la pantalla.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+También puede acceder a la consulta SQL para comprobar la configuración exacta. Para ello, haga clic en el **Vista de código** botón.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Haga clic en **Calcular** para comprobar cuántos elementos cumplen los criterios del filtro. Utilice el **Ver resultados** para mostrar esos elementos.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Tenga en cuenta que si genera un filtro en la interfaz Web y lo modifica en la consola con atributos no admitidos, la representación gráfica ya no podrá estar disponible en la interfaz Web. En cualquier caso, puede seguir utilizando el filtro.
 
