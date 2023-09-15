@@ -4,9 +4,9 @@ title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -46,6 +46,12 @@ Están disponibles las siguientes actividades del **Canal**:
 Consulte esta [sección](channels.md).
 
 ## Actividades de control de flujo {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="Actividad final"
+>abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 

@@ -3,15 +3,21 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '829'
+ht-degree: 80%
 
 ---
 
 
 # Combinar {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="Combinar actividad"
+>abstract="El **Combinar** la actividad es una **Segmentación** actividad. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos."
+
 
 El **Combinar** la actividad es una **Segmentación** actividad. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios. Estos son los tipos de segmentación disponibles:
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="Opciones de combinación de exclusión"
 >abstract="La exclusión permite excluir elementos de una población según determinados criterios. En la sección Conjuntos que unir, compruebe todas las actividades anteriores que desee unir."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="Selección del tipo de segmentación"
+>abstract="Seleccione cómo combinar audiencias: unión, intersección o exclusión."
+
 Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 
 1. Añada varias actividades, como actividades **Generar público destinatario** para formar al menos dos ramas de ejecución diferentes.
@@ -49,6 +60,11 @@ Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Opciones de reconciliación de intersección"
 >abstract="Seleccione el tipo de reconciliación para definir cómo se gestionan los duplicados."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="Opciones de reconciliación"
+>abstract="Seleccione el **Tipo de reconciliación** para definir cómo gestionar duplicados."
 
 En el **Combinar** actividad, puede configurar un **Union**. Para ello, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
@@ -68,6 +84,12 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 >id="acw_orchestration_exclusion_options"
 >title="Exclusión  reglas"
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en Añadir una regla en la sección Reglas de exclusión y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="Seleccionar conjuntos para combinar"
+>abstract="En la sección **Conjuntos que unir**, seleccione el **Conjunto principal** de las transiciones entrantes. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal."
+
 
 En el **Combinar** actividad, puede configurar un **Exclusión**. Para ello, debe seguir los pasos adicionales a continuación:
 
