@@ -2,10 +2,10 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -47,10 +47,16 @@ En la consola del cliente de Campaign, la variable **Enriquecimiento** La activi
 
 ## Filtros predefinidos {#filters-guardrails-limitations}
 
-Al seleccionar la audiencia de una entrega o al crear una audiencia en un flujo de trabajo, algunos filtros predefinidos no están disponibles. Se muestra un mensaje de error específico. Puede seguir utilizando la consulta y ver: la condición de filtrado y los resultados, pero no puede ver la consulta exacta en el generador de reglas y no puede editar el filtro.
+Al seleccionar la audiencia de una entrega o al crear una audiencia en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario, en esa versión del producto.
+
+Se muestra un mensaje de error específico. Aunque no pueda ver la representación gráfica de la consulta en el generador de reglas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado y los resultados. También puede acceder a la consulta SQL para comprobar la configuración exacta.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Tenga en cuenta que si genera un filtro en la interfaz Web y lo modifica en la consola con atributos no admitidos, la representación gráfica ya no podrá estar disponible en la interfaz Web. En cualquier caso, puede seguir utilizando el filtro.
+
+A continuación se enumeran los atributos no admitidos.
 
 ### Tipos de datos no compatibles {#unsupported-data-type}
 
