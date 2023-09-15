@@ -4,10 +4,10 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 80%
+source-wordcount: '1350'
+ht-degree: 62%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 80%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-En función de una plantilla de diseño predefinida, el correo electrónico también incluye contenido personalizado basado en los atributos de perfil del cliente.
+Basado en un [plantilla de diseño](../content/email-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
-![](assets/delivery-list.png)
-
-## Creación del correo electrónico envío {#create-email}
+## Creación de la entrega de correo electrónico {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -34,14 +32,16 @@ En función de una plantilla de diseño predefinida, el correo electrónico tamb
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Propiedades del correo electrónico "
->abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
+>title="Defina las propiedades de correo electrónico"
+>abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. La configuración adicional es opcional. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
 
 Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-Para crear un nuevo envío de correo electrónico independiente, siga estos pasos:
+Para crear un nuevo envío de correo electrónico independiente, siga los pasos a continuación.
 
 1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
+
+   ![](assets/delivery-list.png)
 
 1. Seleccionar **[!UICONTROL Correo electrónico]** como canal y seleccione una plantilla de envíos de correo electrónico de la lista.
 
@@ -54,10 +54,10 @@ Para crear un nuevo envío de correo electrónico independiente, siga estos paso
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 1. Introduzca una etiqueta para el envío y configure las opciones adicionales según sus necesidades:
 
-   * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
-   * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
-   * **[!UICONTROL Código de envío]**: utilice este campo para organizar los envíos en función de su propia convención de nomenclatura.
-   * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
+   * **[!UICONTROL Nombre interno]**: asigne un identificador único a la entrega.
+   * **[!UICONTROL Carpeta]**: almacene la entrega en una carpeta específica.
+   * **[!UICONTROL Código de envío]**: utilice este campo para organizar los envíos en función de su propia convención de nombres.
+   * **[!UICONTROL Descripción]**: especifique una descripción para la entrega.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ Para crear un nuevo envío de correo electrónico independiente, siga estos paso
 
    ![](assets/email-properties.png)
 
-   Además, se puede acceder a la configuración avanzada, como las reglas de tipología y las asignaciones de destinatario, haciendo clic en el botón situado junto al nombre del envío. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico.
+5. Además, se puede acceder a la configuración avanzada, como reglas de tipología y asignaciones de destino, a través del **[!UICONTROL Configuración]** situado en la parte superior derecha de la pantalla. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico.
+
+## Definición de la audiencia {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Seleccione una audiencia para el envío"
+>abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente (ya definida en una instancia de Campaign v8 o de Adobe Experience Platform), crear una nueva audiencia con el generador de reglas o cargar un archivo que contenga la audiencia. Los grupos de control no están habilitados para **Seleccionar del archivo** y viceversa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Audiencias de destino"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Establecer un grupo de control"
+
+En este caso de uso, envíe el correo electrónico a una audiencia existente.
+
+Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
+
+1. Para seleccionar la audiencia del correo electrónico, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** y elija una audiencia existente en la lista.
+
+   En este ejemplo, queremos utilizar una audiencia existente dirigida a clientes que pertenezcan a los niveles de puntos de lealtad de oro y plata.
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración destino/origen en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Descubra cómo trabajar con Campaign y Adobe Experience Platform en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. Una vez seleccionada la audiencia, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
+
+   ![](assets/audience-selected.png)
+
+1. También puede establecer un grupo de control para analizar el comportamiento de los destinatarios de correo electrónico en comparación con los que no son los destinatarios. [Aprenda a trabajar con grupos de control](../audience/control-group.md)
 
 ## Definición del contenido del correo electrónico {#create-content}
 
-Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
+Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación. En este caso de uso, se utiliza un correo electrónico predefinido [plantilla de envíos](../msg/delivery-template.md) para diseñar el correo electrónico.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-En este caso de uso, se utiliza un correo electrónico predefinido [plantilla de envíos](../msg/delivery-template.md) para diseñar el correo electrónico.
 
 1. En el panel de envío de correo electrónico, haga clic en **[!UICONTROL Editar contenido]** botón.
 
@@ -104,40 +131,21 @@ En este caso de uso, se utiliza un correo electrónico predefinido [plantilla de
 
    ![](assets/save-content.png)
 
-## Definición de la audiencia {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="Definición de la audiencia"
->abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente ya definida en una instancia de Campaign v8 o de Adobe Experience Platform, o puede crear una nueva con el generador de reglas. Los grupos de control no están habilitados para “Seleccionar del archivo” y viceversa."
-
-En este caso de uso, envíe el correo electrónico a una audiencia existente. Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
-
-1. Para seleccionar la audiencia del correo electrónico, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** y elija una audiencia existente en la lista.
-
-   En este ejemplo, queremos utilizar una audiencia existente dirigida a clientes que pertenezcan a los niveles de puntos de lealtad de oro y plata.
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >Las audiencias disponibles en la lista proceden de la instancia de la versión 8 de Campaign o de Adobe Experience Platform si la integración Destino/Fuentes se ha configurado en la instancia.
-   >
-   >La integración Destino/Fuentes permite enviar segmentos de Experience Platform a Adobe Campaign y los registros de envío y seguimiento de Campaign a Adobe Experience Platform. Descubra cómo trabajar con Campaign y Adobe Experience Platform en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=es){target="_blank"}.
-
-1. Una vez seleccionada la audiencia, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
-
-   También puede establecer un grupo de control para analizar el comportamiento de los destinatarios de correo electrónico en comparación con los que no son los destinatarios. [Aprenda a trabajar con grupos de control](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## Programación del envío {#schedule}
 
-Para programar el envío del correo electrónico, abra el correo electrónico a enviar y busque la sección **Programación.**
+Para programar el envío del correo electrónico, siga los pasos a continuación.
 
-![](assets/schedule.png)
+Las instrucciones adicionales sobre cómo programar la entrega de envíos se detallan en [esta sección](../msg/gs-messages.md#gs-schedule).
 
-Obtenga información sobre cómo programar el envío de entregas [esta sección](../msg/gs-messages.md#gs-schedule)
+1. Vaya a la **[!UICONTROL Programación]** sección.
+
+1. Utilice el **[!UICONTROL Habilitar programación]** para activarlo.
+
+1. Establezca la fecha y la hora deseadas para el envío.
+
+   ![](assets/schedule.png)
+
+Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
 
 ## Vista previa y prueba del correo electrónico {#preview-test}
 

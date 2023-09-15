@@ -4,10 +4,10 @@ product: campaign
 title: Trabajo con plantillas de correo electrónico
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 26%
+source-wordcount: '344'
+ht-degree: 23%
 
 ---
 
@@ -24,6 +24,11 @@ Puede elegir entre:
 * **Plantillas guardadas**. También puede utilizar una plantilla personalizada que haya guardado como plantilla a partir de un contenido existente.
 
 Aprenda a utilizar las plantillas y a guardar el contenido de un correo electrónico como plantilla en las secciones siguientes.
+
+>[!NOTE]
+>
+>Las plantillas de contenido de correo electrónico son diferentes de [plantillas de envío](../msg/delivery-template.md). Permiten reutilizar únicamente el contenido del correo electrónico, mientras que las plantillas de envío permiten reutilizar el contenido de envío, pero también todos los ajustes y propiedades de envío, como tipologías, direcciones de remitente, audiencias, etc.
+
 
 ## Uso de una plantilla {#use-templates}
 

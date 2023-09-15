@@ -4,10 +4,10 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 43%
+source-wordcount: '570'
+ht-degree: 40%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Creación de contenido de correo electrónico"
->abstract="En esta sección, puede crear el contenido del correo electrónico y utilizar el diseñador de correo electrónico para darle un aspecto refinado."
+>title="Definición del contenido del correo electrónico"
+>abstract="El **Editar contenido** La pantalla de le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como agregar archivos adjuntos u ofertas y acceder al Diseñador de correo electrónico para darle a su mensaje un aspecto pulido."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
    >
    >Puede cambiar la parte que precede a &#39;@&#39;, pero no la dirección de dominio.
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Expanda el **[!UICONTROL Campos de respuesta]** sección. La dirección del remitente se utiliza de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. Defina la **[!UICONTROL Línea de asunto]** del correo electrónico. Escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para agregar personalización con varios atributos y bloques de contenido u ofertas. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 

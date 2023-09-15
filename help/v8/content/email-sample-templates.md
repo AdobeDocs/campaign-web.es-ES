@@ -3,9 +3,9 @@ audience: end-user
 product: campaign
 title: Trabajo con plantillas de correo electrónico
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ Cuándo [creación de un correo electrónico](../email/create-email.md), use el 
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign viene con un conjunto de plantillas integradas que puede elegir.
+Campaign incluye un conjunto de plantillas de contenido de correo electrónico integradas que puede elegir.
 
 Para empezar a crear contenido con una de las plantillas de ejemplo, siga los pasos a continuación.
 

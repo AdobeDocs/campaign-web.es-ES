@@ -4,9 +4,9 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1302'
 ht-degree: 85%
 
 ---
@@ -113,7 +113,7 @@ Para obtener más información sobre cómo configurar una campaña y administrar
 >[!ENDTABS]
 
 
-## Adición de personalización{#personalization}
+## Adición de personalización {#personalization}
 
 Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información acerca las funcionalidades de personalización](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
 * Añadir **ofertas personalizadas**
 
-  Inserte ofertas personalizadas en el contenido del mensaje, según la ubicación del destinatario, el tiempo actual o la última orden de compra.
-
+  Inserte ofertas personalizadas en el contenido del mensaje, según la ubicación del destinatario, el tiempo actual o la última orden de compra. [Más información](../content/offers.md)
 
 ## Previsualizar y probar sus envíos
 
@@ -146,12 +145,12 @@ Una vez definido el contenido del mensaje, puede obtener una vista previa para c
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Programación del envío"
->abstract="Defina la fecha y la hora exacta para enviar mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
+>title="Establecer una fecha y hora de contacto"
+>abstract="Defina la fecha y la hora exacta para realizar la entrega. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
 
 Puede establecer la fecha y la hora exacta para enviar los mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura.
 
-Para programar el envío de una entrega, abra la entrega y vaya a **Programación** sección. Utilice el **[!UICONTROL Habilitar programación]** marque la opción para activarla y establezca la fecha y la hora deseadas para la entrega. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
+Para programar el envío de una entrega, abra la entrega y vaya a **[!UICONTROL Programación]** sección. Utilice el **[!UICONTROL Habilitar programación]** marque la opción para activarla y establezca la fecha y la hora deseadas para la entrega. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
 
 ![](assets/schedule.png)
 

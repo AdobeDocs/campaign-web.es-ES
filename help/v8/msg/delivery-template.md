@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 21%
+source-wordcount: '962'
+ht-degree: 20%
 
 ---
 
 # Trabajo con plantillas de envío {#work-with-delivery-templates}
 
-Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido personalizado en sus campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez.
+Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez.
 
 Una plantilla puede incluir:
 
@@ -26,6 +26,10 @@ Una plantilla puede incluir:
 * [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md)
 * Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md)
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
+
+>[!NOTE]
+>
+>Las plantillas de envío son diferentes de [plantillas de contenido de correo electrónico](../content/email-templates.md), que le permiten reutilizar únicamente el contenido de sus mensajes.
 
 ## Acceso y administración de plantillas de entrega {#access-manage-templates}
 
@@ -170,7 +174,7 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 
 1. Alterne entre los distintos perfiles para obtener una representación personalizada del mensaje según el perfil seleccionado.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    También puede ajustar el nivel de zoom y elegir la vista de escritorio o la vista móvil.
 
