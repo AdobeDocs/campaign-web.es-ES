@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 27%
@@ -34,7 +34,7 @@ El **Deduplicación** la actividad es una **Segmentación** actividad. Esta acti
 
 ## Configuración
 
-Siga estos pasos para configurar el **Planificador** actividad:
+Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Añadir un **Deduplicación** a su flujo de trabajo.
 
