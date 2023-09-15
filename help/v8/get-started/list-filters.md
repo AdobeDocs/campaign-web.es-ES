@@ -2,8 +2,8 @@
 audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
-badge: label="Alfa"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="Beta"
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%

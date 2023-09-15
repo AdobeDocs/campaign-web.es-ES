@@ -4,10 +4,10 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Si necesita acceder a las funciones de la versión 8 de Campaign que no están d
 
 >[!NOTE]
 >
->La web de la versión 8 de Campaign está actualmente en la versión alfa. El acceso está restringido a un pequeño conjunto de clientes alfa. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso.
+>La versión web de Campaign v8 está actualmente en versión beta. El acceso está restringido a un pequeño conjunto de clientes beta. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso.
 
 ## Conéctese a Campaign
 

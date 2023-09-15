@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1468'
+ht-degree: 84%
 
 ---
 
@@ -261,40 +261,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_tracking_validity"
->title="Período de validez"
->abstract="El periodo de validez establece la duración durante la cual se activa el seguimiento en las direcciones URL de los mensajes."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_duration"
->title="Duración del envío"
->abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, luego, solo para los mensajes que devuelven un error, se realizan reintentos normales y configurables hasta que se alcanza la vigencia."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_resources_validity"
->title="Vigencia de los recursos"
->abstract="El campo Vigencia se utiliza para los recursos cargados, como la página espejo y las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_approval"
->title="Modo de aprobación"
->abstract="Los pasos de un envío pueden estar sujetos a aprobación para garantizar la monitorización y el control completo de los distintos procesos."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_retries"
->title="Número máximo de reintentos"
->abstract="Si un mensaje falla debido a un error temporal, se realizan reintentos hasta el final de la duración del envío."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_recipient_importance"
->title="Importancia del destinatario"
->abstract="La importancia del destinatario es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_weight"
->title="Peso del envío"
->abstract="El peso del envío le permite identificar los envíos de mayor prioridad dentro del marco de la administración de presión. Los mensajes con mayor peso tienen prioridad."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -304,12 +270,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Envío de informes globales"
->abstract="Continuará"
+>abstract="Las métricas de informes de seguimiento se pueden ver en esta pantalla"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Seguimiento de informes globales"
->abstract="Continuará"
+>abstract="Las métricas de informes de seguimiento se pueden ver en esta pantalla"
+
 
 
 >[!CONTEXTUALHELP]
@@ -320,13 +287,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_for_campaign"
->title="Plantilla de envíos en Campaign"
->abstract="Continuará"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_template_for_campaign"
->title="Plantilla de flujo de trabajo en Campaign"
->abstract="Continuará"

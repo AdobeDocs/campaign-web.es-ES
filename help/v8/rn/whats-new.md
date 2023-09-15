@@ -4,20 +4,19 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: dc8c43868b932d956ccb8693ba2152a32c3b4011
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 60%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
 
 # Novedades {#new}
 
-
 Estamos encantados de presentar la versión BETA de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
 
-## Versión beta{#beta-release}
+## Funcionalidades clave {#key-features}
 
 Esta nueva interfaz web de Campaign actualmente solo está disponible para **profesionales de beta** con las siguientes capacidades:
 
@@ -44,51 +43,51 @@ Obtenga más información sobre la nueva IU en [esta página](../get-started/use
 Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../content/edit-content.md)
-* Envíe campañas en canales múltiples, incluidos SMS y notificaciones push.
+* Envío de campañas en canales múltiples, incluidas notificaciones push y SMS: [Más información](../workflows/activities/channels.md)
 * Definir audiencias de destinatarios con el generador de reglas: [más información](../audience/about-audiences.md)
 * Previsualización, prueba y envío de mensajes de correo electrónico: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
 
-## Últimas actualizaciones
+## Actualizaciones de la versión beta {#beta-release}
 
-**Resumen beta**
+A continuación, se enumeran las funciones clave incluidas en Campaign Web Beta.
 
-* Habilitar la composición de datos (federada) para Audiencias y personalización
-* Utilice la tecnología de IA para mejorar la generación de contenido de correo electrónico
-* Sincronizar recursos y plantillas de HTML completas sin problemas
-* Organizar y administrar sus carpetas y recursos de forma eficaz
-* Acceda a actividades adicionales como cambio de dimensión, deduplicación y envíos recurrentes para mejorar los flujos de trabajo de la campaña
-
-**Nuevas funciones clave**
-
-* Más actividades de flujo de trabajo de campaña
+* **Más actividades de flujo de trabajo de campaña**
 
   Sobrecargue sus campañas de marketing con nuestro conjunto ampliado de actividades de flujo de trabajo. Libere nuevas posibilidades para la automatización y la optimización, lo que le permite crear recorridos de cliente más dinámicos y personalizados.
 
   Desde la segmentación avanzada hasta los déclencheur condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes dirigidos e impulsar un mejor rendimiento de la campaña.
 
-* Generación de IA para el contenido de correo electrónico
+  Obtenga más información en [esta sección](../workflows/gs-workflows.md).
+
+* **Generación de IA para el contenido de correo electrónico**
 
   Diga adiós a la creación manual de contenido y hola a las campañas eficientes impulsadas por datos con el poder de la generación de IA.  Nuestra tecnología de IA general utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen AI.
 
   Manténgase a la cabeza de la competencia y eleve su juego de marketing por correo electrónico con Gen AI en el contenido del correo electrónico.
 
+  Obtenga más información en [esta sección](../content/generative-gs.md).
 
-* Administración de filtros predefinidos
+* **Filtros predefinidos**
 
-  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Cree una vez y guárdela para usarla en el futuro. [Más información](../get-started/predefined-filters.md)
+  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Cree una vez y guárdela para usarla en el futuro.
 
+  Obtenga más información en [esta sección](../get-started/predefined-filters.md).
 
-* Audiencia objetivo
+* **Audiencia de destino con el generador de reglas**
 
   Crear un objetivo de envío nunca ha sido tan fácil. Con el último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Además, puede aprovechar la audiencia de AEP (Adobe Experience Platform) para refinar aún más la audiencia de destino y maximizar el impacto de su campaña.
 
-* Ofertas con SMS
+  Obtenga más información en [esta sección](../audience/segment-builder.md).
+
+* **SMS con ofertas**
 
   La nueva interfaz de usuario web ahora le permite integrar ofertas con SMS además del correo electrónico. Llegue a su audiencia desde sus dispositivos móviles y envíe promociones y notificaciones oportunas.
 
   Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
+
+  Obtenga más información en [esta sección](../content/offers.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -97,6 +96,12 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+
+* **Asistente de conocimientos con Gen AI**
+
+  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo asistente de conocimiento con tecnología de IA, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso.
+
+  Obtenga más información en [esta sección](../get-started/using-ai.md).
 
 
 ## Transición a la IU de Campaign Web
@@ -117,12 +122,11 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../preview-test/preview-test.md)
 * Las listas son ahora **Públicos**. [Más información](../audience/about-audiences.md).
 
-## Limitaciones{#limitations-alpha}
+## Limitaciones{#limitations-beta}
 
-Las limitaciones siguientes se aplican a esta versión alfa:
+Las limitaciones siguientes se aplican a esta versión beta:
 
-* Los objetos editables son: envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
-* Los públicos destinatarios no se pueden guardar para un uso futuro.
+* Los objetos editables son: envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
 * La interfaz de usuario de Administración no está disponible.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.

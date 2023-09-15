@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: Crear servicios
+title: Trabajo con servicios de suscripción
 description: Obtenga información sobre cómo crear servicios en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 29%
+source-wordcount: '219'
+ht-degree: 10%
 
 ---
 
 
-# Crear servicios {#create-services}
+# Trabajo con servicios de suscripción {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Este servicio es de solo lectura"
 >abstract="No tiene permisos para editar este servicio. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
-Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios.
+Utilice Adobe Campaign para crear y supervisar sus servicios, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS.
 
-Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real.
+Se pueden definir varios servicios en paralelo, por ejemplo: boletines para categorías de productos específicas, temas o áreas de un sitio web, suscripciones a varios tipos de mensajes de alerta y notificaciones en tiempo real.
 
 Para obtener más información sobre la administración de suscripciones y bajas, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Acceso a servicios de suscripción {#access-services}
 
-1. Ir a **[!UICONTROL Administración de acceso]** > **[!UICONTROL Servicios de suscripción]** menú.
+Para acceder a los servicios de suscripción disponibles para su plataforma, vaya a la **[!UICONTROL Servicios de suscripción]** en el carril de navegación izquierdo.
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. Se muestra la lista de todos los servicios creados hasta el momento. Puede buscar en los servicios y filtrar por el canal, la carpeta o utilizar filtros avanzados.
+Se muestra la lista de todos los servicios de suscripción existentes. Puede buscar en los servicios y filtrar por el canal, la carpeta o utilizar filtros avanzados.
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## Creación de su primer servicio {#create-service}
+## Creación de su primer servicio de suscripción {#create-service}
+
+Para crear un servicio de suscripción, siga estos pasos:
 
 1. Seleccione el **[!UICONTROL Crear servicio de suscripción]** botón.
 

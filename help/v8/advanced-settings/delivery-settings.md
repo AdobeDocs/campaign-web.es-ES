@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: Configuración de envío de correos electrónicos
-description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
+title: Configuración de envío
+description: Obtenga más información sobre la configuración de envíos en Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 65%
+source-wordcount: '2094'
+ht-degree: 66%
 
 ---
 
 
-# Configuración de envío de correos electrónicos {#email-del-settings}
+# Configuración de envío {#email-del-settings}
 
-Esta configuración consiste en los **parámetros técnicos del envío** que se definen en la plantilla de correo electrónico. Están disponibles en el icono **Configuración del envío** al editar un envío por correo electrónico.
+La configuración de envío de correo electrónico es **parámetros técnicos de envío** que se definen en la plantilla de correo electrónico. Se pueden sobrecargar para cada envío.
+
+Esta configuración está disponible en **Configuración de la entrega** icono disponible al editar una entrega por correo electrónico o una plantilla de envíos por correo electrónico.
+
 
 ## Configuración de envío de correos electrónicos {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Esta configuración es solo informativa. Algunos ajustes dependen de la configuración y los permisos. No deben modificarse en esta versión del producto.
+>Esta configuración es solo informativa. Algunos ajustes dependen de la configuración y los permisos. No deben modificarse en esta versión del producto.
 
 ## Tipología configuración {#typology}
 
@@ -56,6 +59,11 @@ Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tip
 >abstract="El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la administración de la fatiga. Los mensajes con mayor peso tienen prioridad."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Peso del envío"
+>abstract="El peso del envío le permite identificar los envíos de mayor prioridad dentro del marco de la administración de presión. Los mensajes con mayor peso tienen prioridad."
+
 En esta sección, los parámetros de presión permiten definir una **umbral** para configurar las reglas de gestión de fatiga. Este es el número máximo de mensajes que se pueden enviar a un perfil durante un período determinado. Una vez alcanzado este umbral, no se pueden realizar más envíos hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de un envío si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
 
 Los valores de umbral pueden ser constantes o variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un perfil a otro o incluso en un mismo perfil.
@@ -83,6 +91,13 @@ La administración de la fatiga viene con el complemento **Optimización de la c
 >id="acw_email_settings_capacity_settings"
 >title="Configuración de capacidad para el envío"
 >abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización puede procesar la entrega, los mensajes entrantes que puede generar la entrega y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de Adobe Campaign v8. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Importancia del destinatario"
+>abstract="La importancia del destinatario es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad."
+
 
 En esta sección, puede seleccionar una regla de capacidad definida en la consola de la versión 8 de Adobe Campaign. Esta regla está asociada al canal de correo electrónico.
 
@@ -136,7 +151,12 @@ Obtenga más información acerca de Web Analytics y Campaign en [Documentación 
 
 ### Reintentos {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Número máximo de reintentos"
+>abstract="Si un mensaje falla debido a un error temporal, se realizan reintentos hasta el final de la duración del envío."
+
+Para los mensajes que no se hayan enviado temporalmente debido a un error leve o ignorado, se realiza un reintento automático. De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día.
 
 Obtenga más información acerca de la administración de reintentos en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
@@ -145,7 +165,13 @@ Obtenga más información acerca de la administración de reintentos en [Documen
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Modo de aprobación para la entrega"
->abstract="Seleccione el modo de aprobación. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. "
+>abstract="Seleccione el modo de aprobación. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Modo de aprobación para los envíos"
+>abstract="Seleccione el modo de aprobación para las entregas según esta plantilla. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
 
 Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar el envío de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
@@ -165,6 +191,18 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 >title="Validez de configuración"
 >abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez. El campo Límite de validez se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Vigencia de los recursos"
+>abstract="El campo Vigencia se utiliza para los recursos cargados, como la página espejo y las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Duración del envío"
+>abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, luego, solo para los mensajes que devuelven un error, se realizan reintentos normales y configurables hasta que se alcanza la vigencia."
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Período de validez"
+>abstract="El periodo de validez establece la duración durante la cual se activa el seguimiento en las direcciones URL de los mensajes."
+
 
 Los parámetros de seguimiento se definen en la sección relacionada. Las opciones posibles son las siguientes:
 

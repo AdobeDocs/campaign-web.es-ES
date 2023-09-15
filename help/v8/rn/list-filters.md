@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido**
 * Las listas son ahora **Audiencias**
 
-## Limitaciones{#limitations-alpha}
+## Limitaciones{#limitations-beta}
 
-Las limitaciones siguientes se aplican a esta versión alfa:
+Las limitaciones siguientes se aplican a esta versión beta:
 
 * Los únicos objetos editables son Envíos, Campañas, Flujos de trabajo, Públicos destinatarios y Plantillas. Los demás son de solo lectura. Utilice los filtros para explorarlos todos.
 * Los públicos destinatarios no se pueden guardar para un uso futuro.

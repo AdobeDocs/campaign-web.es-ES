@@ -6,14 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 20%
+source-wordcount: '984'
+ht-degree: 22%
 
 ---
 
 # Trabajo con plantillas de envío {#work-with-delivery-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Plantillas de envíos"
+>abstract="Utilice plantillas de envío para estandarizar la apariencia creativa y así ejecutar y lanzar las campañas con mayor rapidez"
+
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez.
 
