@@ -4,10 +4,10 @@ title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 69%
+source-wordcount: '1170'
+ht-degree: 65%
 
 ---
 
@@ -155,7 +155,18 @@ Utilice el componente **[!UICONTROL Imagen]** para insertar un archivo de imagen
 
    ![](assets/email_designer_9.png)
 
-1. Haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos.
+1. Haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos. También puede elegir **[!UICONTROL Importar los medios]**.
+
+   Para obtener más información sobre cómo cargar y añadir recursos en Assets Essentials, consulte [Documentación de Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+
+   ![](assets/email_designer_28.png)
+
+1. Desplácese por las carpetas para localizar el recurso específico que necesita o utilice la barra de búsqueda para encontrarlo de forma eficaz.
+
+   Una vez encontrado el recurso que está buscando, haga clic en **[!UICONTROL Seleccionar]**.
+
+   ![](assets/email_designer_29.png)
+
 
 1. Haga clic en el componente recién agregado y configure las propiedades de la imagen con la variable **[!UICONTROL Configuración]** pestaña:
 
