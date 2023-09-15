@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 79%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -25,17 +25,27 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >* [Creación de envíos de correo electrónico independientes](../../email/create-email.md)
 >* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
->
 
-## Creación de una entrega en un flujo de trabajo{#create-a-delivery-in-a-workflow}
+## Cree su flujo de trabajo{#build-your-workflow}
 
-Para crear un correo electrónico, un SMS o una entrega push en el contexto de un flujo de trabajo, siga los pasos a continuación:
+Comience a crear el flujo de trabajo con las actividades relevantes antes de realizar la entrega:
 
-1. Asegúrese de haber añadido una actividad **Generar público destinatario**. El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
+* Si desea realizar una entrega recurrente, inicie el flujo de trabajo con una **Planificador** actividad. Si desea realizar una entrega de una sola vez, puede definir la fecha de contacto mediante una **Planificador** actividad o defina la programación en la configuración de la entrega. Consulte [esta sección](scheduler.md).
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* Añadir una actividad **Generar público destinatario.** El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
-1. Seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## Configuración de la entrega {#create-a-delivery-in-a-workflow}
+
+Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
+
+1. Añada una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
+
+1. Seleccione el **Tipo de envío**: único o recurrente.
+
+   * **Entrega única**: se trata de un envío de una sola toma, enviado solo una vez, por ejemplo, un correo electrónico de Black Friday.
+   * **Envío recurrente**: para este tipo de entrega, se configura la frecuencia de ejecución mediante una [actividad del planificador](scheduler.md). Cada vez que se ejecuta el flujo de trabajo, la audiencia se vuelve a calcular y se realiza la entrega con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente.
 
 1. Seleccione una **Plantilla** de envío. Las plantillas son opciones de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal, que se rellena previamente de forma predeterminada. [Más información](../../msg/delivery-template.md)
 
@@ -56,7 +66,7 @@ Para crear un correo electrónico, un SMS o una entrega push en el contexto de u
 
 1. En el panel de envíos, haga clic en **Enviar**.
 
-## Ejemplo {#cross-channel-workflow-sample}
+## Ejemplos {#cross-channel-workflow-sample}
 
 Este es un ejemplo de flujo de trabajo en canales múltiples con una segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que residen en París y que están interesados en las máquinas de café. Se envía un correo electrónico a los clientes habituales y un SMS a los clientes VIP de esta población.
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+También puede crear un flujo de trabajo recurrente para enviar una notificación push personalizada todos los primeros días del mes a las 20:00 a los suscriptores de la aplicación móvil, según sus husos horarios.
 
 <!-- Scheduled emails available?
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 21%
+source-wordcount: '435'
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,9 @@ El **Planificador** la actividad es una **Control de flujo** actividad. Permite 
 
 ## Prácticas recomendadas
 
-No planifique un flujo de trabajo para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+* No planifique un flujo de trabajo para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+* Si desea realizar una entrega con una sola toma en el flujo de trabajo, puede añadir una actividad de planificador y configurarla para que se ejecute **Una**. También puede definir la variable **Programación** en la configuración de la entrega.
+* Si desea realizar una entrega recurrente en el flujo de trabajo, debe utilizar un **Planificador** y establezca la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
 
 ## Configuración
 
@@ -65,7 +67,7 @@ Notas:
 
 ## Ejemplo
 
-En el siguiente ejemplo, la actividad se configura de modo que inicia el flujo de trabajo varias veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2023 al 1 de enero de 2024.
+En el siguiente ejemplo, la actividad está configurada para que el flujo de trabajo se ejecute varias veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2023 al 1 de enero de 2024.
 
 ![](../assets/workflow-scheduler2.png)
 
