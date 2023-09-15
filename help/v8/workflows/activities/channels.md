@@ -3,15 +3,38 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '786'
+ht-degree: 59%
 
 ---
 
 
 # Correo electrónico, SMS, actividades push {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="Actividad de correo electrónico"
+>abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="Actividad de correo electrónico"
+>abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="Actividad de correo electrónico"
+>abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="Actividad de correo electrónico"
+>abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente. "
 
 La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing a través de correos electrónicos, SMS y canales de push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajo con servicios de suscripción
 description: Obtenga información sobre cómo crear servicios en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '312'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 10%
 >id="acw_subscription_services_read_only"
 >title="Este servicio es de solo lectura"
 >abstract="No tiene permisos para editar este servicio. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="Servicios de suscripciones"
+>abstract="Utilice Adobe Campaign para crear y supervisar sus servicios, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS."
 
 Utilice Adobe Campaign para crear y supervisar sus servicios, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS.
 
@@ -36,22 +41,33 @@ Se muestra la lista de todos los servicios de suscripción existentes. Puede bus
 
 ## Creación de su primer servicio de suscripción {#create-service}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_properties"
+>title="Propiedades del servicio de suscripciones"
+>abstract="Introduzca la etiqueta del servicio de suscripción y defina opciones adicionales."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_confirm"
+>title="Mensajes de confirmación del servicio de suscripciones"
+>abstract="Cuando un usuario se suscribe a un servicio o cancela su suscripción, puede enviar un mensaje de confirmación. Seleccione las plantillas que se utilizarán para estos mensajes."
+
+
 Para crear un servicio de suscripción, siga estos pasos:
 
 1. Seleccione el **[!UICONTROL Crear servicio de suscripción]** botón.
 
    ![](assets/service-create-button.png)
 
-1. Seleccione un canal. **[!UICONTROL Correo electrónico]** y **[!UICONTROL SMS]** están disponibles.
+1. Seleccione un canal: **[!UICONTROL Correo electrónico]** o **[!UICONTROL SMS]**.
 
 1. En las propiedades del servicio, introduzca una etiqueta y defina las opciones adicionales si es necesario.
 
    ![](assets/service-create-properties.png)
 
-1. Seleccione los mensajes de confirmación.
+1. Cuando un usuario se suscribe a un servicio o cancela su suscripción, puede enviar un mensaje de confirmación. Seleccione las plantillas que se utilizarán para estos mensajes.
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. Clic **[!UICONTROL Guardar y revisar]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 
