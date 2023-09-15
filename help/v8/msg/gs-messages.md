@@ -4,10 +4,10 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 87%
+source-wordcount: '1296'
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 incluye los siguientes canales de entrega: correo electrónico
 
 ## Creación de un envío {#create-delivery}
 
-Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]**, o cree envíos en el contexto de una campaña de marketing, desde el menú de la izquierda **[!UICONTROL Campañas]**.
+Puede crear envíos independientes desde el **[!UICONTROL Envíos]** menú de la izquierda o cree entregas en el contexto de un flujo de trabajo, incluidas o no en una campaña.
 
 Examine las pestañas siguientes para aprender a crear un envío:
 
@@ -92,7 +92,7 @@ Para crear un envío independiente, siga estos pasos:
 
 Para crear una entrega en un flujo de trabajo, siga estos pasos:
 
-1. Cree un flujo de trabajo o abra uno existente.
+1. Cree un flujo de trabajo o abra uno existente. Obtenga más información sobre los flujos de trabajo en [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Adición y configuración de una actividad **[!UICONTROL Crear audiencia]** y haga clic en el botón `+`.
 
    ![](assets/add-delivery-in-wf.png)
