@@ -4,9 +4,9 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '736'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 4%
 >id="acw_workflow_creation_properties"
 >title="Propiedades del flujo de trabajo"
 >abstract="En esta pantalla, elija la plantilla que desea utilizar para crear el flujo de trabajo y especifique una etiqueta. Expanda la sección OPTIONS ADICIONALES para configurar más opciones, como el nombre interno del flujo de trabajo, su carpeta, zona horaria y grupo de supervisores. Se recomienda encarecidamente seleccionar un grupo de supervisor para que los operadores sean alertados si se produce un error."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Lista de flujos de trabajo de la campaña"
+>abstract="El **Envíos** La pestaña enumera todos los flujos de trabajo vinculados a la campaña actual. Haga clic en el nombre de un flujo de trabajo para editarlo. Utilice el botón Create workflow para añadir un nuevo flujo de trabajo para esta campaña."
+
 
 Puede crear flujos de trabajo independientes o flujos de trabajo dentro de una campaña. El primer paso es seleccionar una plantilla y definir sus propiedades generales. A continuación, puede configurar ajustes adicionales según sea necesario.
 
@@ -63,8 +70,8 @@ Para crear una plantilla de flujo de trabajo a partir de un flujo de trabajo exi
 
 1. En la ventana emergente, confirme la creación de la plantilla.
 1. En el lienzo de la plantilla de flujo de trabajo, compruebe, añada y configure las actividades según sea necesario.
-1. Vaya a la configuración para cambiar el nombre de la plantilla de flujo de trabajo e introduzca una descripción.
-1. Seleccione la carpeta y la carpeta de ejecución de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de flujo de trabajo. La carpeta de ejecución es la carpeta en la que se guardan los flujos de trabajo creados basándose en esta plantilla.
+1. Vaya a la configuración, desde el **Configuración** para cambiar el nombre de la plantilla de flujo de trabajo e introduzca una descripción.
+1. Seleccione el **carpeta** y **carpeta de ejecución** de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de flujo de trabajo. La carpeta de ejecución es la carpeta en la que se guardan los flujos de trabajo creados basándose en esta plantilla.
 
    ![](assets/wf-settings-template.png)
 

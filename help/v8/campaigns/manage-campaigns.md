@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 Para crear una nueva campaña o administrar las campañas existentes, haga clic en el menú **[!UICONTROL Campañas]** en la navegación de la izquierda.
 
-## La lista de campañas{#access-campaigns}
+## Lista de campañas {#access-campaigns}
+
 
 En la lista de campañas, hay dos pestañas disponibles:
 
@@ -38,7 +39,13 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de fil
 
 ![Filtro de campaña](assets/campaign-filter-on-dates.png)
 
-## El panel de campañas{#campaign-dashboard}
+## Panel de campañas{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Lista de envíos en la campaña"
+>abstract="La pestaña **Envíos** lista todos los envíos vinculados a la campaña actual. Haga clic en el nombre de una entrega para editarlo. Utilice el botón Create delivery para añadir una nueva entrega para esta campaña."
 
 En la pestaña **Examinar** de la lista de campañas, haga clic en una campaña para mostrar los detalles.
 

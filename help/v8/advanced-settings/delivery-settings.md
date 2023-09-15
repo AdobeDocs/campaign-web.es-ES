@@ -4,10 +4,10 @@ title: Configuración de envío de correos electrónicos
 description: Obtenga más información sobre la configuración de envío de correo electrónico en la IU de la web de Campaign
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 70%
+source-wordcount: '1829'
+ht-degree: 65%
 
 ---
 
@@ -22,18 +22,18 @@ Esta configuración consiste en los **parámetros técnicos del envío** que se 
 >
 > Esta configuración es solo informativa. Algunos ajustes dependen de la configuración y los permisos. No deben modificarse en esta versión del producto.
 
-## Tipología {#typology}
+## Tipología configuración {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
+>abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Tipología"
->abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
+>title="Configuración de tipología para el envío"
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
 
 
 Las tipologías son conjuntos de **reglas de tipología**, que se ejecutan durante la fase de preparación. Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación de envíos.  Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
@@ -52,7 +52,7 @@ Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tip
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Parámetros de presión"
+>title="Parámetros de presión para el envío"
 >abstract="El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la administración de la fatiga. Los mensajes con mayor peso tienen prioridad."
 
 
@@ -81,7 +81,7 @@ La administración de la fatiga viene con el complemento **Optimización de la c
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Configuración de la capacidad"
+>title="Configuración de capacidad para el envío"
 >abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización puede procesar la entrega, los mensajes entrantes que puede generar la entrega y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de Adobe Campaign v8. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
 
 En esta sección, puede seleccionar una regla de capacidad definida en la consola de la versión 8 de Adobe Campaign. Esta regla está asociada al canal de correo electrónico.
@@ -91,17 +91,24 @@ El campo **importancia del destinatario** es una fórmula que se utiliza para de
 Obtenga más información acerca de las reglas de coherencia y capacidad y cómo configurarlas en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=es){target="_blank"}.
 
 
-## Audiencia {#audience}
+## Configuración del público {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Configuración de audiencia para el envío"
+>abstract="Seleccione una **asignación de destino** entre los disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión para la entrega. "
+
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign.
 
 Obtenga más información sobre las asignaciones de destino en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
-## Entrega {#delivery}
+## Envío {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Entrega configuración"
+>title="Configuración de envío para el envío"
 >abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede activar CCO para la entrega y cambiar los modos de entrega y rutina. Estas opciones están restringidas únicamente a usuarios expertos."
 
 Los parámetros de envío son las configuraciones técnicas que se aplican a su envío.
@@ -112,6 +119,19 @@ Los parámetros de envío son las configuraciones técnicas que se aplican a su 
 
 * **CCO del correo electrónico**: esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO, simplemente al agregar una dirección de correo electrónico a copia oculta (CCO) al destinatario del mensaje. Obtenga más información sobre el CCO del correo electrónico en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
+### Web Analytics {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Configuración de análisis web para el envío"
+>abstract="Seleccione una cuenta de análisis web. Esta cuenta se configura en la consola del cliente de Campaign. También puede definir las etiquetas compartidas con la herramienta de análisis que está utilizando."
+
+En esta sección, puede seleccionar una cuenta de análisis web. Esta cuenta se configura en la consola del cliente de Campaign.
+
+También puede definir las etiquetas compartidas con la herramienta de análisis que está utilizando.
+
+Obtenga más información acerca de Web Analytics y Campaign en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
 
 ### Reintentos {#retries}
@@ -122,12 +142,10 @@ Obtenga más información acerca de la administración de reintentos en [Documen
 
 ## Aprobación {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Modo de aprobación para la entrega"
+>abstract="Seleccione el modo de aprobación. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. "
 
 Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar el envío de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
@@ -193,6 +211,11 @@ Los parámetros de seguimiento se definen en la sección relacionada. Las opcion
 **URL de sustitución para URL caducadas**: utilice esta opción para introducir una URL de una página web de reserva, se muestra una vez que el seguimiento ha caducado.
 
 ## Configuración de pruebas {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Configuración de prueba para el envío"
+>abstract="Seleccione los parámetros de exclusión y personalice la etiqueta de los correos electrónicos de prueba."
 
 Puede establecer los parámetros de exclusión en esta sección. Las opciones disponibles son las siguientes:
 
