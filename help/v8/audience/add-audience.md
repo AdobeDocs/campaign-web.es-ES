@@ -4,10 +4,10 @@ title: Selección de una audiencia existente
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 57%
+source-wordcount: '334'
+ht-degree: 50%
 
 ---
 
@@ -43,6 +43,10 @@ Para seleccionar una audiencia existente para el mensaje, siga los pasos a conti
    Las audiencias se crean a partir de **Audiencia** menú izquierdo. También se pueden crear en la consola del cliente.
 
    Para utilizar audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [Documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >En esa versión del producto, al crear reglas, seleccionar la audiencia de una entrega o al crear una audiencia en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario. Aún puede usarlos. [Más información](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Elija una audiencia y haga clic en **Seleccionar**.
 1. Utilice el **Mostrar filtros** para mostrar las opciones de filtrado. Clic **Agregar reglas** para acceder al generador de reglas: el uso del generador de reglas permite crear filtros avanzados para la lista de audiencias. Aprenda a utilizar el generador de reglas en esta [sección](segment-builder.md).
