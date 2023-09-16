@@ -3,20 +3,15 @@ audience: end-user
 title: Monitorización y administración de audiencias
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en la web de Adobe Campaign
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 6%
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
 
 # Monitorización y administración de audiencias {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Esta audiencia es de solo lectura"
->abstract="No tiene permisos para editar esta audiencia. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
 Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
 

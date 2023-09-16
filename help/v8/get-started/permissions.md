@@ -3,16 +3,15 @@ audience: end-user
 title: Administración de permisos en la web de Campaign
 description: Obtenga más información sobre los permisos en la versión 8 de la web de Campaign
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 45%
 
 ---
 
 
 # Acceso y permisos {#access-and-permissions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -20,6 +19,38 @@ ht-degree: 33%
 >abstract="El administrador debe concederle permiso para poder crear este objeto."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Esta audiencia es de solo lectura"
+>abstract="No tiene permisos para editar esta audiencia. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Este servicio es de solo lectura"
+>abstract="No tiene permisos para editar este servicio. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Esta campaña es de solo lectura"
+>abstract="No tiene permisos para editar esta campaña. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Este envío es de solo lectura"
+>abstract="No tiene permisos para editar este envío. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Este flujo de trabajo es de solo lectura"
+>abstract="No tiene permisos para editar este flujo de trabajo. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Este flujo de trabajo es de solo lectura"
+>abstract="No puede editar este flujo de trabajo porque el lienzo no está admitido o no es compatible."
 
 El control de acceso puede restringir el acceso a objetos y datos de listas principales, como envíos, destinatarios o flujos de trabajo. Estas restricciones también se aplican en el árbol de navegación del Explorador. Además, necesita permisos para crear, eliminar, duplicar y editar objetos desde la interfaz de usuario.
 
@@ -30,7 +61,6 @@ A medida que navega por la interfaz de usuario web de Campaign, puede acceder a 
 ## Ver permisos {#view-permissions}
 
 Desde el **Explorer**, puede examinar los permisos de cada carpeta. Estos permisos se establecen en la consola del cliente y se utilizan para organizar y controlar el acceso a los datos de Campaign.
-
 
 Para ver los permisos de una carpeta, siga estos pasos:
 
