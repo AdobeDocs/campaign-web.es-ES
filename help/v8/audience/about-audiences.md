@@ -4,10 +4,10 @@ title: Introducción a los públicos
 description: Aprenda a utilizar audiencias en la IU de la web de Campaign
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ El público destinatario es el destinatario principal de su envío: los destinat
 
 Para definir la población de público destinatario, puede hacer lo siguiente:
 
+* Crear y combinar audiencias. [Más información](create-audience.md)
 * Seleccione un público destinatario existente, creado como una lista en la consola del cliente. [Más información](add-audience.md)
 * Seleccionar un público destinatario de Adobe Experience Platform. [Más información](aep-audience.md)
 * Cree un nuevo público destinatario con el generador de reglas definiendo y combinando criterios de filtrado. [Más información](segment-builder.md)

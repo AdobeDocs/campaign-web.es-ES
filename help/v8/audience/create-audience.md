@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de audiencias
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
@@ -13,11 +13,16 @@ ht-degree: 2%
 
 # Creación de audiencias {#create-audiences}
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_list"
+>title="Públicos-alvo"
+>abstract="Desde esta pantalla, puede crear y combinar audiencias en un lienzo visual. Añada varias actividades de flujo de trabajo, como **Split** o **Excluir** para generar audiencias nuevas y refinadas."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Configuración del público"
->abstract="Introduzca el nombre de la audiencia y las opciones adicionales."
+>abstract="Introduzca el nombre de la audiencia y las opciones adicionales y, a continuación, haga clic en **Crear audiencia** botón."
 
 La web de Campaign le permite crear flujos de trabajo en los que puede combinar audiencias existentes en un lienzo visual. Mediante la incorporación de varias actividades de flujo de trabajo como **Split** o **Excluir**, puede generar audiencias nuevas y refinadas.
 
