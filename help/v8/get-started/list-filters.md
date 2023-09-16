@@ -3,10 +3,10 @@ audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Utilice la opción **Mostrar atributos avanzados** para ver todos los atributos 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Mostrar atributos avanzados"
->abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Utilice esta opción para crear un filtro con atributos avanzados."
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Utilice este botón de alternancia para ver los atributos avanzados."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
