@@ -3,22 +3,28 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 11%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
 
-# Cambio de dimensión {#change-dimension}
+# Dimensión cambiante {#change-dimension}
 
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Change dimension activity"
->abstract="The Change dimension activity allows you to..."
+>title="Generate Complement"
+>abstract="TBD"
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_dimension"
+>title="Dimensión cambiante actividad"
+>abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que crea una audiencia. Desplaza el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;."
+
 
 El **Cambiar dimensión** la actividad es una **Segmentación** actividad. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
 
@@ -32,6 +38,6 @@ Siga estos pasos para configurar el **Cambiar dimensión** actividad:
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Seleccione la nueva dimensión de destino mediante el campo Change dimension.
+1. Defina el **Nueva dimensión de destino**.
 
-Nada más??
+Durante el cambio de dimensión, se guardan todos los registros.

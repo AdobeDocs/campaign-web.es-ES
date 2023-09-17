@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '388'
+ht-degree: 78%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="Generar público destinatario"
->abstract="La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir el público destinatario que entrará en el flujo de trabajo."
+>abstract="El **Crear audiencia** La actividad le permite definir la audiencia que entra en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, la audiencia del mensaje no se define en la actividad del canal, sino en el **Crear audiencia** actividad."
 
 
-La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir el público destinatario que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**.
+La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir el público destinatario que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, la audiencia del mensaje no se define en la actividad del canal, sino en el **Crear audiencia** actividad.
 
 Para definir la población del público destinatario, puede hacer lo siguiente:
 
@@ -29,7 +29,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 >[!NOTE]
 >
->En este contexto, no se puede cargar un público destinatario desde un archivo. Para ello, debe crear un envío independiente. [Más información](../../audience/about-audiences.md)
+>En este contexto, no se puede cargar un público destinatario desde un archivo. Para ello, debe crear un envío de correo electrónico independiente. [Más información](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

@@ -3,15 +3,15 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 23%
+source-wordcount: '387'
+ht-degree: 21%
 
 ---
 
 
-# Anulación de duplicación {#deduplication}
+# Deduplicación {#deduplication}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -19,6 +19,13 @@ ht-degree: 23%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication"
+>title="Deduplicación actividad"
+>abstract="El **Deduplicación** La actividad de le permite eliminar duplicados en los resultados de las actividades entrantes. Se utiliza principalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
