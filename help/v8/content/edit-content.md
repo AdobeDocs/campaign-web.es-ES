@@ -4,10 +4,10 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 40%
+source-wordcount: '593'
+ht-degree: 38%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Parámetros del correo electrónico"
->abstract="Los valores de nombre de remitente y de correo electrónico de origen se definen en la plantilla de correo electrónico. La línea Subject se puede personalizar mediante el Editor de expresiones."
+>title="Establezca las propiedades básicas del correo electrónico"
+>abstract="El **Detalles básicos** Esta sección permite actualizar la dirección del remitente y la dirección de respuesta, así como definir la línea de asunto mediante el Editor de expresiones."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Archivo adjunto de correo electrónico"
+>title="Adjuntar archivos al correo electrónico"
 >abstract="Seleccione uno o varios archivos para insertar en el mensaje."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Opciones de seguimiento"
+>title="Editar seguimiento"
 >abstract="De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde aquí."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Adición de vínculos y seguimiento de mensajes"
 
 El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
 * Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto
