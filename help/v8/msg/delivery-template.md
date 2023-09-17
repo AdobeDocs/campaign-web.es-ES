@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1014'
 ht-degree: 22%
 
 ---
@@ -25,12 +25,12 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas de enví
 
 Una plantilla puede incluir:
 
-* [Tipologías](../advanced-settings/delivery-settings.md#typology)
-* La dirección del remitente
-* Un [audiencia](../audience/about-audiences.md), incluido [grupos de control](../audience/control-group.md)
-* Personalizado [content](../content/edit-content.md)
-* [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md)
-* Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md)
+* [Tipologías](../advanced-settings/delivery-settings.md#typology),
+* La dirección del remitente,
+* Un [audiencia](../audience/about-audiences.md), incluido [grupos de control](../audience/control-group.md),
+* Personalizado [content](../content/edit-content.md),
+* [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md),
+* Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md),
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
    > * [Canal de correo electrónico](../email/create-email.md)
    > * [Canal de notificaciones push](../push/gs-push.md)
    > * [Canal de SMS](../sms/create-sms.md)
+
+1. Además, se puede acceder a la configuración avanzada de las plantillas de correo electrónico, como las reglas de tipología y las asignaciones de destino, a través de **[!UICONTROL Configuración]** situado en la parte superior derecha de la pantalla. [Más información](../advanced-settings/delivery-settings.md)
 
 1. Haga clic en **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
 

@@ -4,10 +4,10 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 62%
+source-wordcount: '1354'
+ht-degree: 61%
 
 ---
 
@@ -66,7 +66,7 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 
    ![](assets/email-properties.png)
 
-1. Además, se puede acceder a la configuración avanzada, como reglas de tipología y asignaciones de destino, a través del **[!UICONTROL Configuración]** situado en la parte superior derecha de la pantalla. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico.
+1. Además, se puede acceder a la configuración avanzada, como reglas de tipología y asignaciones de destino, a través del **[!UICONTROL Configuración]** situado en la parte superior derecha de la pantalla. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico. [Más información](../advanced-settings/delivery-settings.md)
 
 ## Definición de la audiencia {#define-audience}
 
@@ -157,7 +157,7 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
 
 1. Para revisar su correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar.
 
-1. Para obtener una vista previa del correo electrónico y enviar versiones de prueba, haga clic en el botón **[!UICONTROL Simular contenido]**.
+1. Para obtener una vista previa del correo electrónico y enviar versiones de prueba, haga clic en **[!UICONTROL Simular contenido]** botón.
 
    ![](assets/review-email.png)
 

@@ -4,9 +4,9 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 40%
 
 ---
@@ -64,7 +64,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
    >
    >Puede cambiar la parte que precede a &#39;@&#39;, pero no la dirección de dominio.
 
-1. Expanda el **[!UICONTROL Campos de respuesta]** sección. La dirección del remitente se utiliza de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+1. Expanda el **[!UICONTROL Campos de respuesta]** sección. El nombre y las direcciones del remitente se utilizan de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
    ![](assets/email-edit-content-reply-to.png)
 
