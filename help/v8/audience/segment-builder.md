@@ -4,7 +4,7 @@ title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 87%
@@ -12,7 +12,6 @@ ht-degree: 87%
 ---
 
 # Definición de un público destinatario con el generador de reglas {#segment-builder}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
