@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 16%
+source-wordcount: '519'
+ht-degree: 15%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 16%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="Actividad del planificador"
->abstract="El **Planificador** la actividad es una **Control de flujo** actividad. Permite programar cuándo se inicia el flujo de trabajo. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
+>abstract="El **Planificador** Esta actividad le permite programar cuándo se inicia el flujo de trabajo. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
 
 
 El **Planificador** la actividad es una **Control de flujo** actividad. Permite programar cuándo se inicia el flujo de trabajo. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
@@ -33,7 +33,13 @@ El **Planificador** la actividad es una **Control de flujo** actividad. Permite 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="Validez del programador"
->abstract="Puede definir un periodo de validez para el planificador. Puede ser permanente o válido hasta una fecha específica."
+>abstract="Puede definir un periodo de validez para el planificador. Puede ser permanente (predeterminado) o válido hasta una fecha específica."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Opciones del planificador"
+>abstract="Defina la frecuencia del planificador. Se puede ejecutar en un momento específico, una o varias veces al día, a la semana o al mes."
 
 Siga estos pasos para configurar el **Planificador** actividad:
 

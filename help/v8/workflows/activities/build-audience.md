@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 78%
+source-wordcount: '389'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Generar público destinatario"
+>title="Crear actividad de audiencia"
 >abstract="El **Crear audiencia** La actividad le permite definir la audiencia que entra en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, la audiencia del mensaje no se define en la actividad del canal, sino en el **Crear audiencia** actividad."
 
 

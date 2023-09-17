@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Tenedor
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 71%
+source-wordcount: '162'
+ht-degree: 68%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
 >title="Bifurcación  actividad"
->abstract="El **Tenedor** la actividad es una **Control de flujo** actividad. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo."
+>abstract="La actividad **Tenedor** permite crear transiciones salientes para iniciar varias actividades al mismo tiempo."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Bifurcación  actividad"
->abstract="La actividad Tenedor permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo."
+>title="Transiciones de actividad de bifurcación"
+>abstract="De forma predeterminada, se crean dos transiciones con una **Tenedor** actividad. Haga clic en **Añadir transición** para definir una transición saliente adicional e introducir su etiqueta."
 
 El **Tenedor** la actividad es una **Control de flujo** actividad. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
