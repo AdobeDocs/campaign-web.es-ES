@@ -4,7 +4,7 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 61%
@@ -117,7 +117,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Para diseñar el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](../msg/delivery-template.md).
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](../content/email-sample-templates.md).
 
    ![](assets/select-template.png)
 
@@ -202,7 +202,10 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 1. Durante el proceso de envío, puede realizar un seguimiento del progreso y ver las estadísticas en tiempo real directamente en esta pantalla.
 
-   ![](assets/sent-mail.png)
+   ![](assets/sending-email.png)
+
+   <!--
+    ![](assets/sent-email.png)-->
 
    También puede acceder a la información detallada sobre la entrega haciendo clic en el botón **[!UICONTROL Registros]**. [Obtenga información sobre cómo monitorizar los registros de envío](../monitor/delivery-logs.md)
 

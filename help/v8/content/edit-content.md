@@ -4,9 +4,9 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '618'
 ht-degree: 38%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Establezca las propiedades básicas del correo electrónico"
+>title="Definición de las propiedades de correo electrónico"
 >abstract="El **Detalles básicos** Esta sección permite actualizar la dirección del remitente y la dirección de respuesta, así como definir la línea de asunto mediante el Editor de expresiones."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Adjuntar archivos al correo electrónico"
->abstract="Seleccione uno o varios archivos para insertar en el mensaje."
+>abstract="Seleccione uno o varios archivos para insertar en el mensaje. Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo en el correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Editar seguimiento"
->abstract="De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde aquí."
+>abstract="De forma predeterminada, el seguimiento está habilitado para la entrega, lo que significa que se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje. Puede desactivar esta opción desde aquí."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Adición de vínculos y seguimiento de mensajes"
 
 El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
