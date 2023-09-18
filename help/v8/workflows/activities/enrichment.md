@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 97%
 >title="Actividad de enriquecimiento"
 >abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de resonar con el público destinatario."
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Datos de enriquecimiento"
+>abstract="Seleccione los datos que desee utilizar para enriquecer el flujo de trabajo. Se pueden seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
 
 La actividad **Enriquecimiento** es una actividad de **Segmentación**. La actividad de enriquecimiento permite mejorar los datos segmentados con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.
 
