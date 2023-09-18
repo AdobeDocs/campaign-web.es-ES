@@ -3,14 +3,34 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 27%
+source-wordcount: '1853'
+ht-degree: 26%
 
 ---
 
 # Informes de campaña {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title=" Informe de envío"
+>abstract="La pestaña Envío del informe proporciona información detallada sobre las interacciones de los visitantes con las entregas y los posibles errores que hayan encontrado."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Seguimiento de creación de informes"
+>abstract="La pestaña Envío del informe ofrece datos valiosos, como el comportamiento del destinatario por vínculo, el desglose de aperturas y clics, así como información detallada sobre las direcciones URL en las que se hace clic con más frecuencia durante una entrega."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Información general del envío"
+>abstract="La Información general de entrega proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Estadísticas del público inicial"
+>abstract="La tabla Initial target audience statistics muestra los datos relativos a los destinatarios"
 
 El informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña.
 

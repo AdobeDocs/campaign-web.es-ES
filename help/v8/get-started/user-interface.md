@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 73%
+source-wordcount: '1278'
+ht-degree: 72%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Datos de enriquecimiento"
 >abstract="Por determinar"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title=" Informe de envío"
->abstract="Consulte los indicadores de envío del informe de la campaña."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Seguimiento de creación de informes"
->abstract="Consulte los indicadores de seguimiento para la creación de informes de campaña."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Información general sobre la creación de informes"
->abstract="Métricas clave para su envío."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Informe de estadísticas de público destinatario"
->abstract="Esta sección muestra métricas específicas según los públicos."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Informes agregados para envíos"
->abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregados."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Seguimiento de informes globales"
 >abstract="Las métricas de informes de seguimiento se pueden ver en esta pantalla"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
