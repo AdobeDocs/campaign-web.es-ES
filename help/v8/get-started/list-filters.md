@@ -3,10 +3,10 @@ audience: end-user
 title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ Por ejemplo, puede filtrar los envíos según su estado, canal, fecha de contact
 
 ## Filtros personalizados{#list-custom-filters}
 
-Para crear filtros personalizados con los datos, vaya a la parte inferior de los filtros y haga clic en el botón **Agregar reglas**.
+Para crear filtros personalizados con los datos, vaya a la parte inferior de los filtros y haga clic en **Agregar reglas** para acceder al generador de reglas.
 
 Arrastre y suelte los atributos para generar los criterios de filtro en la pantalla **Filtros avanzados**.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Utilice la opción **Mostrar atributos avanzados** para ver todos los atributos de la lista actual. [Más información](#adv-attributes)
+
+El principio operativo del generador de reglas para los filtros personalizados es similar al generador de reglas utilizado para crear audiencias. Encontrará información detallada sobre cómo utilizarla en el [Documentación de audiencias](../audience/segment-builder.md).
 
 ## Uso de atributos avanzados {#adv-attributes}
 
