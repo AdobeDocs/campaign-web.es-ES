@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajo con servicios de suscripción
 description: Obtenga información sobre cómo crear y administrar servicios en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1019'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,9 @@ Para obtener más información sobre la administración de suscripciones y bajas
 
 ## Acceso a servicios de suscripción {#access-services}
 
-1. Para acceder a los servicios de suscripción disponibles para su plataforma, vaya a la **[!UICONTROL Servicios de suscripción]** en el carril de navegación izquierdo.
+Para acceder a los servicios de suscripción disponibles para su plataforma, siga los pasos a continuación.
+
+1. Vaya a la **[!UICONTROL Servicios de suscripción]** en el carril de navegación izquierdo.
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ Para obtener más información sobre la administración de suscripciones y bajas
 >title="Seleccionar un mensaje de confirmación"
 >abstract="Cuando un usuario se suscribe o cancela la suscripción a un servicio, puede enviar un mensaje de confirmación. Seleccione las plantillas que desea utilizar para ese mensaje."
 
-Para crear un servicio de suscripción, siga estos pasos:
+Para crear un servicio de suscripción, siga los pasos a continuación.
 
 1. Seleccione el **[!UICONTROL Crear servicio de suscripción]** botón.
 
@@ -66,7 +68,7 @@ Para crear un servicio de suscripción, siga estos pasos:
 
    ![](assets/service-create-properties.png)
 
-1. De forma predeterminada, las suscripciones son ilimitadas. Puede desactivar las **[!UICONTROL Período de validez ilimitado]** para definir una duración de validez del servicio. En el ejemplo siguiente, después de 20 días, ya nadie podrá suscribirse a este servicio.
+1. De forma predeterminada, las suscripciones son ilimitadas. Puede desactivar las **[!UICONTROL Período de validez ilimitado]** para definir una duración de validez del servicio. En el ejemplo siguiente, después de 20 días, ya no podrá suscribirse a este servicio.
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Para crear un servicio de suscripción, siga estos pasos:
 
 1. Clic **[!UICONTROL Guardar y revisar]**. El nuevo servicio se agrega al **[!UICONTROL Servicios de suscripción]** lista.
 
-### Crear un mensaje de confirmación {#create-confirmation-message}
+## Crear un mensaje de confirmación {#create-confirmation-message}
 
 Para enviar un mensaje de confirmación a los usuarios que se suscriben o cancelan la suscripción a su servicio, debe crear una plantilla de envío con el **[!UICONTROL Suscripciones]** asignación de destino, sin un destino definido. Para ello, siga los pasos a continuación.
 
 1. Cree una plantilla de envío para la confirmación de suscripción. [Descubra cómo](../msg/delivery-template.md)
 
-1. No seleccione una audiencia para este envío. En su lugar, acceda al **[!UICONTROL Configuración de envío]**, vaya a la [Audiencia](../advanced-settings/delivery-settings.md#audience) y seleccione la pestaña **[!UICONTROL Suscripciones]** asignación de destino.
+1. No seleccione una audiencia para este envío. En su lugar, acceda al **[!UICONTROL Configuración de envío]**, vaya a la [Audiencia](../advanced-settings/delivery-settings.md#audience) y seleccione la pestaña **[!UICONTROL Suscripciones]** asignación de destino de la lista.
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -100,9 +102,9 @@ Para enviar un mensaje de confirmación a los usuarios que se suscriben o cancel
 
 1. Repita los pasos anteriores para crear una plantilla de envíos para la confirmación de baja.
 
-Ahora puede seleccionar estos mensajes cuando [creación de un servicio de suscripción](#create-service). Los usuarios que se suscriban o cancelen su suscripción a ese servicio recibirán el mensaje de confirmación seleccionado.
+Ahora puede seleccionar estos mensajes cuando [creación de un servicio de suscripción](#create-service). Los usuarios que se suscriban o cancelen su suscripción a ese servicio reciben el mensaje de confirmación seleccionado.
 
-## Añadir suscriptores a su servicio
+## Añadir suscriptores a su servicio {#add-subscribers}
 
 Una vez creado un servicio, puede añadir manualmente suscriptores. Siga estos pasos.
 
@@ -116,11 +118,27 @@ Una vez creado un servicio, puede añadir manualmente suscriptores. Siga estos p
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Los destinatarios seleccionados recibirán la suscripción [mensaje de confirmación](#create-confirmation-message) que seleccionó al [creación del servicio](#create-service). Clic **[!UICONTROL Enviar]**.
+1. Clic **[!UICONTROL Enviar]**. Los destinatarios seleccionados recibirán la suscripción [mensaje de confirmación](#create-confirmation-message) que seleccionó al [creación del servicio](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 Los perfiles añadidos se muestran en la variable **[!UICONTROL Suscriptores]** lista. Ahora están suscritos a su servicio.
+
+## Eliminación de suscriptores del servicio {#remove-subscribers}
+
+Una vez añadidos los suscriptores al servicio, puede eliminarlos. Siga estos pasos.
+
+1. Seleccione un servicio existente del **[!UICONTROL Servicios de suscripción]** lista.
+
+1. Haga clic en el icono de tres puntos junto al nombre del destinatario deseado y seleccione **[!UICONTROL Eliminar]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. Confirme la eliminación y haga clic en **[!UICONTROL Enviar]**. Los destinatarios seleccionados recibirán la baja [mensaje de confirmación](#create-confirmation-message) que seleccionó al [creación del servicio](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+El destinatario se elimina del **[!UICONTROL Suscriptores]** y ya no está suscrito a su servicio.
 
 ## Registros e informes del servicio de suscripción {#logs-and-reports}
 
@@ -142,7 +160,7 @@ Para medir la eficacia de los servicios de suscripción para canales de correo e
 
      ![](assets/service-reports.png)
 
-   * El **[!UICONTROL Evolución general de las suscripciones]** El gráfico muestra el desglose por periodo, incluidas las suscripciones, las bajas, la evolución en los números y el porcentaje de fidelidad.
+   * El **[!UICONTROL Evolución general de las suscripciones]** El gráfico muestra el desglose por periodo, incluidas las suscripciones, las bajas, la evolución en los números y el porcentaje de fidelidad.<!--what is Registered?-->
 
    * Utilice el **[!UICONTROL Recargar]** para recuperar los últimos valores de la ejecución y programación del flujo de trabajo de seguimiento.
 
