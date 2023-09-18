@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Trabajo con plantillas de envío
-description: Obtenga información sobre cómo crear y utilizar plantillas de envío en Campaign
+description: Obtenga información sobre cómo crear y utilizar plantillas de envío en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 22%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 22%
 >id="acw_delivery_template_for_campaign"
 >title="Plantillas de envíos"
 >abstract="Utilice plantillas de envío para estandarizar la apariencia creativa y así ejecutar y lanzar las campañas con mayor rapidez"
-
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez.
 

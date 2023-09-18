@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Trabajo con servicios de suscripción
-description: Obtenga información sobre cómo crear servicios en Adobe Campaign Web
+description: Obtenga información sobre cómo crear y administrar servicios en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
@@ -44,14 +44,13 @@ Para editar un servicio existente, haga clic en su nombre.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Propiedades del servicio de suscripciones"
->abstract="Introduzca la etiqueta del servicio de suscripción y defina opciones adicionales."
+>title="Defina las propiedades del servicio"
+>abstract="Introduzca la etiqueta del servicio de suscripción y defina opciones adicionales, como un periodo de validez del servicio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Mensajes de confirmación del servicio de suscripciones"
->abstract="Cuando un usuario se suscribe a un servicio o cancela su suscripción, puede enviar un mensaje de confirmación. Seleccione las plantillas que se utilizarán para estos mensajes."
-
+>title="Seleccionar un mensaje de confirmación"
+>abstract="Cuando un usuario se suscribe o cancela la suscripción a un servicio, puede enviar un mensaje de confirmación. Seleccione las plantillas que desea utilizar para ese mensaje."
 
 Para crear un servicio de suscripción, siga estos pasos:
 
