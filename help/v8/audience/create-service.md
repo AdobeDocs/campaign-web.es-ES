@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajo con servicios de suscripción
 description: Obtenga información sobre cómo crear y administrar servicios en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '931'
 ht-degree: 5%
 
 ---
@@ -158,7 +158,15 @@ Una vez que [creó un servicio de suscripción](#create-service), puede dirigirs
 
    ![](assets/service-audience-subscribers.png)
 
-1. Cree una campaña y segmente la audiencia que ha creado.
+1. [Creación de una entrega](../msg/gs-messages.md) y seleccione la audiencia que ha creado anteriormente.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Edite el contenido del mensaje como desee y realice la entrega.
+
+   ![](assets/service-delivery-ready.png)
+
+Su envío se realiza únicamente a los suscriptores de ese servicio.
 
 
 
