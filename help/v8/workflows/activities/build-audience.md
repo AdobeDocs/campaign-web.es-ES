@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
+source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,6 @@ A continuación, se muestra un ejemplo de flujo de trabajo con dos actividades *
 
 ![](../assets/workflow-audience-example.png)
 
-Este es otro ejemplo que muestra dónde se combina una audiencia de Adobe Experience Platform con una audiencia de Adobe Campaign. Para permitir que se combinen estas audiencias, se debe usar un **[iUICONTROL Cambiar dimensión]** La actividad con la dimensión de segmentación &quot;Destinatario&quot; se agrega después de la audiencia de Adobe Experience Platform.
+Este es otro ejemplo de flujo de trabajo en el que una audiencia de Adobe Experience Platform se combina con una audiencia de Adobe Campaign. Para permitir que se combinen estas audiencias, se debe usar un **[!UICONTROL Cambiar dimensión]** La actividad con la dimensión de segmentación &quot;Destinatario&quot; se agrega después de la audiencia de Adobe Experience Platform. [Obtenga información sobre cómo configurar una actividad de dimensión de cambio](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
