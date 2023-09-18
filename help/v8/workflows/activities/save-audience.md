@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
+source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 13%
+source-wordcount: '319'
+ht-degree: 10%
 
 ---
 
@@ -44,7 +44,7 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
    * **Audiencia completa con nuevos datos**: el contenido de audiencia anterior se conserva y se añaden a él los datos de la transición de entrada de la actividad guardar audiencia.
 
-1. Seleccione la opción **Generate complement** si desea utilizar la población restante. A continuación, se agregará una transición adicional a la actividad.
+1. Compruebe la **Generación de una transición saliente** si desea añadir una transición después de la variable **Guardar audiencia** actividad.
 
 El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el **Audiencias** menú. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante del flujo de trabajo **Guardar audiencia** actividad.
 
