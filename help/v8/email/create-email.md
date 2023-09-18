@@ -4,7 +4,7 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 61%
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-Basado en un [plantilla de diseño](../content/email-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
+Basado en un [plantilla de diseño](../content/email-sample-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
 ## Creación de la entrega de correo electrónico {#create-email}
 
