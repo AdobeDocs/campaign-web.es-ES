@@ -4,9 +4,9 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '903'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ Al organizar actividades de flujo de trabajo en el lienzo, puede acceder a la co
 
 Estos ajustes están preconfigurados en la plantilla seleccionada al crear el flujo de trabajo, pero se pueden editar según sea necesario para este flujo de trabajo específico.
 
-Para ello, haga clic en el **[!UICONTROL Configuración de flujo de trabajo]** en la esquina superior izquierda del lienzo, junto a la etiqueta del flujo de trabajo.
+Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barra de acciones sobre el lienzo del flujo de trabajo.
 
 ![](assets/workflow-settings.png)
 
