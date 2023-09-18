@@ -4,7 +4,7 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de flujos de trabajo de la campaña"
->abstract="El **Envíos** La pestaña enumera todos los flujos de trabajo vinculados a la campaña actual. Haga clic en el nombre de un flujo de trabajo para editarlo. Utilice el botón Create workflow para añadir un nuevo flujo de trabajo para esta campaña."
+>abstract="El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña actual. Haga clic en el nombre de un flujo de trabajo para editarlo. Utilice el **Crear flujo de trabajo** para añadir un nuevo flujo de trabajo para esta campaña."
 
 
 Puede crear flujos de trabajo independientes o flujos de trabajo dentro de una campaña. El primer paso es seleccionar una plantilla y definir sus propiedades generales. A continuación, puede configurar ajustes adicionales según sea necesario.
