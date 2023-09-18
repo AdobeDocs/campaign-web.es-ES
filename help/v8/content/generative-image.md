@@ -3,9 +3,9 @@ audience: end-user
 title: Generación de imágenes con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
    ![](assets/image-genai-2.png)
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar un informe de marketing para dar más contexto al asistente de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de contenido.
 
-   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente.
+   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 
 1. Seleccione el **[!UICONTROL Proporción de aspecto]** de su recurso. Determina la anchura y la altura del recurso.
 

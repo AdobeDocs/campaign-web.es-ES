@@ -3,9 +3,9 @@ audience: end-user
 title: Generación de correo electrónico con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,17 @@ Con la IA generativa, puede crear sin esfuerzo correos electrónicos atractivos 
 
 1. Ajuste el contenido describiendo lo que desea generar.
 
-   Habilite la **[!UICONTROL Mejorar con contenido actual]** para que el asistente de contenido personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
+   Estos son algunos ejemplos de mensajes:
+
+   * Para una newsletter: genere una newsletter mensual con artículos de viajes, elementos destacados de destino y ofertas de suscriptores exclusivas.
+   * Para comentarios y encuestas: cree un correo electrónico para invitar a los clientes a proporcionar comentarios sobre su experiencia reciente con el software y participar en una encuesta de mejora de productos.
+   * Para correos electrónicos de aniversario o cumpleaños: genere un correo electrónico de cumpleaños, celebrando el día especial del cliente y ofreciéndole un descuento de cumpleaños.
 
    ![](assets/email-genai-2.png)
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar un informe de marketing para dar más contexto al asistente de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de contenido.
 
-   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente.
+   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 
 1. Seleccione el **[!UICONTROL Estrategia de comunicación]** que mejor se adapte a sus necesidades. Esto afectará al tono y al estilo del correo electrónico generado.
 
@@ -46,7 +50,7 @@ Con la IA generativa, puede crear sin esfuerzo correos electrónicos atractivos 
 
    ![](assets/email-genai-3.png)
 
-1. Personalización de **[!UICONTROL Tipo de contenido]** configuración para que coincida con las características de recurso deseadas.
+1. Personalización de **[!UICONTROL Tipo de contenido]** la configuración de recursos se adaptará a las características de los recursos que desee.
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 

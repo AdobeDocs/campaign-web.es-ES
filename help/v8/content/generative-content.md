@@ -3,10 +3,10 @@ audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 3%
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -31,13 +31,13 @@ El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos s
 
 1. Ajuste el contenido describiendo lo que desea generar.
 
-   Habilite la **[!UICONTROL Mejorar con contenido actual]** para que el asistente de contenido personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
+   Habilite la **[!UICONTROL Mejorar con el contexto actual]** para que el asistente de contenido personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
    ![](assets/text-genai-3.png)
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar un informe de marketing para dar más contexto al asistente de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de contenido.
 
-   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente.
+   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 
 1. Seleccione el **[!UICONTROL Estrategia de comunicación]** que mejor se adapte a sus necesidades. Esto afectará al tono y al estilo del texto generado.
 
