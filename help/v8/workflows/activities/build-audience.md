@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 >[!IMPORTANT]
 >
->Si desea combinar varias **[!UICONTROL Crear audiencia]** actividades en un flujo de trabajo que incluya una audiencia Experience Platform, debe añadir una **[!UICONTROL Cambiar dimensión]** actividad posterior, para garantizar que todas las audiencias pertenezcan a la dimensión de segmentación &quot;Destinatario&quot;. Hay un ejemplo de flujo de trabajo disponible en la parte inferior de esta página.
+>Si desea utilizar un **[!UICONTROL Crear audiencia]** actividad dirigida a una audiencia de Experience Platform, debe añadir un **[!UICONTROL Cambiar dimensión]** actividad posterior, para garantizar que la dimensión de segmentación de la audiencia esté configurada como &quot;Destinatario&quot;. Hay un ejemplo de flujo de trabajo disponible en la parte inferior de esta página.
 
 ## Ejemplos
 
