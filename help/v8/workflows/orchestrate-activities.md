@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono El
 Al agregar actividades, los botones de acción están disponibles en el panel de propiedades, lo que le permite realizar varias operaciones. Puede hacer lo siguiente:
 
 * **Eliminar** la actividad del lienzo.
-* **Deshabilitar/habilitar** la actividad. Cuando se ejecute el flujo de trabajo, ¿las actividades deshabilitadas no se ejecutarán y el flujo de trabajo se pausará?
+* **Deshabilitar/habilitar** la actividad. Cuando se ejecuta el flujo de trabajo, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y el flujo de trabajo se detiene.
 * **Copiar** la actividad. A continuación, puede pegarlo en cualquier flujo de trabajo haciendo clic en el botón &quot;+&quot; de una transición y seleccionando &quot;Pegar 1 actividad&quot;.
 * Acceda a los **Registros y tareas**.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
