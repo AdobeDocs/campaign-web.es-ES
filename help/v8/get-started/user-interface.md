@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 77%
+source-wordcount: '1331'
+ht-degree: 73%
 
 ---
 
@@ -85,10 +85,12 @@ En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los pú
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Adición de una oferta en una entrega"
+>abstract="Examine las listas de ofertas y las plantillas de ofertas que se han creado en la consola utilizando **Interacción** módulo. Estas listas son de solo lectura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Adición de ofertas a una entrega"
 
-* **Ofertas**: examine la lista de ofertas de interacción. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta. Estas listas son de solo lectura.
+En la sección CUSTOMER MANAGEMENT, puede ver las ofertas y las plantillas de ofertas. Estas listas son de solo lectura.
+
+* **Ofertas** : Examine la lista de ofertas y las plantillas de ofertas que se han creado en la consola con el **Interacción** módulo. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta.
 
 Obtenga información sobre cómo crear y enviar ofertas en correos electrónicos y SMS en [esta sección](../content/offers.md).
 
