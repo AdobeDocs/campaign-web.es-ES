@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 77%
+source-wordcount: '481'
+ht-degree: 62%
 
 ---
 
@@ -62,8 +62,16 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 1. Haga clic en **Continuar**.
 1. Seleccione el público destinatario, del mismo modo que utiliza un público destinatario cuando diseña un nuevo correo electrónico. Consulte esta [sección](../../audience/add-audience.md).
 
-## Ejemplo
+>[!IMPORTANT]
+>
+>Si desea combinar varias **[!UICONTROL Crear audiencia]** actividades en un flujo de trabajo que incluya una audiencia Experience Platform, debe añadir una **[!UICONTROL Cambiar dimensión]** actividad posterior, para garantizar que todas las audiencias pertenezcan a la dimensión de segmentación &quot;Destinatario&quot;. Hay un ejemplo de flujo de trabajo disponible en la parte inferior de esta página.
+
+## Ejemplos
 
 A continuación, se muestra un ejemplo de flujo de trabajo con dos actividades **Generar público destinatario**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
 
 ![](../assets/workflow-audience-example.png)
+
+Este es otro ejemplo que muestra dónde se combina una audiencia de Adobe Experience Platform con una audiencia de Adobe Campaign. Para permitir que se combinen estas audiencias, se debe usar un **[iUICONTROL Cambiar dimensión]** La actividad con la dimensión de segmentación &quot;Destinatario&quot; se agrega después de la audiencia de Adobe Experience Platform.
+
+![](../assets/workflow-audience-aep.png)
