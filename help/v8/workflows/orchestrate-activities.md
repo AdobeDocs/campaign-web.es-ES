@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 5%
+source-wordcount: '625'
+ht-degree: 4%
 
 ---
 
@@ -14,6 +14,8 @@ ht-degree: 5%
 # Organización de actividades {#orchestrate}
 
 Una vez que lo haya hecho [creó un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que va a realizar. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de flujo de trabajo. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
+
+## Añadir actividades {#add}
 
 En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio del flujo de trabajo. Para añadir la primera actividad, haga clic en el botón + conectado al icono de inicio.
 
@@ -32,6 +34,20 @@ Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono El
 >[!TIP]
 >
 >Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione la transición y cambie su etiqueta en el panel derecho.
+
+## Administrar actividades {#manage}
+
+Al agregar actividades, los botones de acción están disponibles en el panel de propiedades, lo que le permite realizar varias operaciones. Puede hacer lo siguiente:
+
+* **Eliminar** la actividad del lienzo.
+* **Deshabilitar/habilitar** la actividad. Cuando se ejecute el flujo de trabajo, ¿las actividades deshabilitadas no se ejecutarán y el flujo de trabajo se pausará?
+* **Copiar** la actividad. A continuación, puede pegarlo en cualquier flujo de trabajo haciendo clic en el botón &quot;+&quot; de una transición y seleccionando &quot;Pegar 1 actividad&quot;.
+* Acceda a los **Registros y tareas**.
+* **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
+
+![](assets/activity-action.png){width="70%"}
+
+## Ejemplo {#example}
 
 VIP A continuación, se muestra un ejemplo de flujo de trabajo diseñado para enviar un correo electrónico a todos los clientes (que no sean clientes de la red) con un correo electrónico que estén interesados en las máquinas de café.
 
