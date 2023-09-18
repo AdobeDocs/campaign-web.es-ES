@@ -4,7 +4,7 @@ title: Usar una audiencia de Adobe Experience Platform
 description: Aprenda a utilizar una audiencia de Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 37%
@@ -52,5 +52,3 @@ Para seleccionar una audiencia de Adobe Experience Platform para su envío, siga
 1. Con el generador de reglas, puede enriquecer la audiencia con filtros adicionales o combinando distintas audiencias. Consulte esta [sección](segment-builder.md).
 
 1. Haga clic en **Save**.
-
-
