@@ -4,10 +4,10 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 38%
+source-wordcount: '633'
+ht-degree: 37%
 
 ---
 
@@ -39,6 +39,10 @@ El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
 * Realizar acciones adicionales, como agregar archivos adjuntos o configurar ofertas
 * Acceda a la [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring) para empezar a crear el contenido adecuado del correo electrónico
 
+>[!NOTE]
+>
+>Todos los campos de texto editables de esta pantalla se pueden rellenar con campos de personalización. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
+
 Para configurar o editar el contenido de un correo electrónico, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Editar contenido]** del menú contextual [panel de envío de correo electrónico](../email/create-email.md) pantalla.
@@ -69,7 +73,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. Defina la **[!UICONTROL Línea de asunto]** del correo electrónico. Escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para agregar personalización con varios atributos y bloques de contenido u ofertas. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
+1. Defina la **[!UICONTROL Línea de asunto]** del correo electrónico. Escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para agregar [personalización](../personalization/personalize.md) uso de varios atributos y bloques de contenido, u ofertas.
 
 1. Si desea adjuntar un archivo al correo electrónico, haga clic en el botón **[!UICONTROL Añadir adjunto]** y a continuación, seleccione uno o varios archivos.
 
