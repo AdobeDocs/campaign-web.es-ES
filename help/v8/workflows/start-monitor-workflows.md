@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 6%
 
 ---
 
@@ -29,16 +29,27 @@ Puede realizar un seguimiento del progreso de los perfiles de destino en tiempo 
 >
 >Puede deshabilitar el flujo visual mediante el **[!UICONTROL Ocultar progresión]** en la barra de acciones superior del lienzo.
 
+## Transiciones de flujo de trabajo {#transitions}
+
+En los flujos de trabajo, los datos que pasan de una actividad a otra a través de transiciones se almacenan en una tabla de trabajo temporal.
+
+Estos datos se pueden mostrar para cada transición. Para ello, seleccione una transición para abrir sus propiedades en el lado derecho de la pantalla.
+
+* Clic **[!UICONTROL Previsualizar esquema]** para mostrar el esquema de la tabla de trabajo.
+* Clic **[!UICONTROL Previsualizar resultados]** para visualizar los datos transportados en la transición seleccionada.
+
+![](assets/transition.png)
+
 ## Monitorización de la ejecución de actividades {#activities}
 
 Los indicadores visuales de la esquina superior derecha de cada cuadro de actividad permiten comprobar su ejecución:
 
 | Indicador visual | Descripción |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | La actividad se está ejecutando. |
-| ![](assets/activity-status-orange.png) | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
-| ![](assets/activity-status-red.png) | La actividad ha encontrado un error. Para resolver el problema, abra los registros de flujo de trabajo para obtener más información. |
-| ![](assets/activity-status-green.png) | La actividad se ha ejecutado correctamente. |
+| ![](assets/activity-status-pending.png){width="70%"} | La actividad se está ejecutando. |
+| ![](assets/activity-status-orange.png){width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
+| ![](assets/activity-status-red.png){width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de flujo de trabajo para obtener más información. |
+| ![](assets/activity-status-green.png){width="70%"} | La actividad se ha ejecutado correctamente. |
 
 ## Monitorización de registros y tareas {#logs-tasks}
 
