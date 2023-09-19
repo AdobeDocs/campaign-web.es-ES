@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 17%
 
 ---
@@ -65,8 +65,8 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 
-## Ejemplo{#example}
+## Ejemplo{#deduplication-example}
 
-En el siguiente ejemplo, se utiliza una actividad de anulación de duplicación para excluir los duplicados del objetivo antes de realizar una entrega. Los duplicados identificados se añaden a una audiencia de duplicados dedicada que se puede reutilizar si es necesario. Utilizamos el **Correo electrónico** para identificar los duplicados. Elegimos mantener 1 entrada y seleccionar la **Aleatorio** método de deduplicación.
+En el siguiente ejemplo, se utiliza una actividad de anulación de duplicación para excluir los duplicados del objetivo antes de realizar una entrega. Los duplicados identificados se añaden a una audiencia dedicada que se puede reutilizar si es necesario. Utilizamos el **Correo electrónico** para identificar los duplicados. Elegimos mantener 1 entrada y seleccionar la **Aleatorio** método de deduplicación.
 
 ![](../assets/workflow-deduplication-example.png)

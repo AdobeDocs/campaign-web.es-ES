@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pue
 
 Por ejemplo, puede añadir a la tabla de trabajo del flujo de trabajo información relacionada con las compras de los clientes y utilizar estos datos para personalizar los correos electrónicos con su última compra o la cantidad gastada en estas compras.
 
-## Configuración general {#general}
+## Configure la actividad Enrichment {#enrichment-configuration}
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
@@ -76,7 +76,7 @@ En este caso de uso más complejo, seleccionaremos un vínculo de colección, qu
 * un filtro: filtre los artículos que superen los 100 €
 * un orden: orden descendente en el campo **Fecha del pedido**.
 
-### Añadir el atributo
+### Añadir el atributo {#add-attribute}
 
 Aquí es donde se selecciona el vínculo de colección que se utilizará como datos de enriquecimiento.
 
@@ -86,7 +86,7 @@ Aquí es donde se selecciona el vínculo de colección que se utilizará como da
 
 ![](../assets/workflow-enrichment3.png)
 
-### Definir la configuración de la colección
+### Definir la configuración de la colección{#collection-settings}
 
 A continuación, defina cómo se recopilan los datos y el número de registros que desea recuperar.
 
@@ -99,7 +99,7 @@ Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, 
 
 ![](../assets/workflow-enrichment5.png)
 
-### Definición de los filtros
+### Definición de los filtros{#collection-filters}
 
 Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los artículos que sean superiores a 100 €.
 
@@ -109,7 +109,7 @@ Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los
 
 ![](../assets/workflow-enrichment6.png)
 
-### Definición de la ordenación
+### Definición de la ordenación{#collection-sorting}
 
 Ahora necesitamos aplicar la ordenación para recuperar las tres **últimas** compras.
 

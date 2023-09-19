@@ -4,10 +4,10 @@ title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -28,10 +28,13 @@ Todas las actividades se detallan en las secciones siguientes:
 
 Estas actividades son específicas para la segmentación, manipulación y enriquecimiento de los datos de la población. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
 
+* El [Guardar audiencia](save-audience.md) La actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo.
 * La actividad [Generar público destinatario](build-audience.md) le permite definir la población de público destinatario. Puede seleccionar un público destinatario existente o utilizar el generador de reglas para definir su propia consulta.
 * La actividad [Combinar](combine.md) le permite realizar la segmentación de la población entrante. Puede utilizar una unión, una intersección o una exclusión.
-* La actividad [Enriquecimiento](enrichment.md) le permite definir datos adicionales para procesarlos en el flujo de trabajo. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.
 * La actividad [División](split.md) le permite segmentar la población entrante en varios subconjuntos.
+* La actividad [Enriquecimiento](enrichment.md) le permite definir datos adicionales para procesarlos en el flujo de trabajo. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.
+* El [Deduplicación](deduplication.md) La actividad de le permite eliminar duplicados en los resultados de las actividades entrantes.
+* El [Cambiar dimensión](change-dimension.md) La actividad de le permite cambiar la dimensión de segmentación mientras crea el flujo de trabajo.
 
 ## Actividades del canal {#channel}
 
@@ -55,6 +58,7 @@ Consulte esta [sección](channels.md).
 
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 
+* El [Planificador](scheduler.md) Esta actividad le permite programar cuándo se inicia el flujo de trabajo.
 * La actividad [Combinación-Y](and-join.md) le permite sincronizar varias ramas de ejecución de un flujo de trabajo.
 * La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
 * La actividad [Tenedor](fork.md) permite crear transiciones salientes para iniciar varias actividades al mismo tiempo.

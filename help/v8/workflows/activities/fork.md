@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Tenedor
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 68%
+source-wordcount: '165'
+ht-degree: 66%
 
 ---
 
@@ -26,15 +26,17 @@ ht-degree: 68%
 
 El **Tenedor** la actividad es una **Control de flujo** actividad. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
-## Configuración
+## Configuración de la actividad Fork{#fork-configuration}
 
 Siga estos pasos para configurar la actividad **Tenedor**:
+
+![](../assets/workflow-fork.png)
 
 1. Añada una actividad **Tenedor** al flujo de trabajo.
 1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
 1. Añada una etiqueta a cada una de las transiciones.
 
-## Ejemplo
+## Ejemplo{#fork-example}
 
 En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
 

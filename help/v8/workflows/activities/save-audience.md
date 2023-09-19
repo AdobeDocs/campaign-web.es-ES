@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 10%
+source-wordcount: '385'
+ht-degree: 8%
 
 ---
 
@@ -24,13 +24,13 @@ El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta a
 
 Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en el mismo flujo de trabajo, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **Crear audiencia** o una **Combinar** actividad.
 
-## Configuración
+## Configuración de la actividad Guardar audiencia{#save-audience-configuration}
 
 Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
-1. Añadir un **Guardar audiencia** a su flujo de trabajo.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Añadir un **Guardar audiencia** a su flujo de trabajo.
 
 1. En el **Modo** , seleccione la acción que desee llevar a cabo:
 
@@ -49,6 +49,8 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el **Audiencias** menú. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante del flujo de trabajo **Guardar audiencia** actividad.
 
 
-## Ejemplo
+## Ejemplo{#save-audience-example}
+
+El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a los diferentes servicios de aplicaciones disponibles. El **Guardar audiencia** la actividad actualiza la audiencia eliminando perfiles que han dejado de suscribirse al servicio desde la última ejecución del flujo de trabajo y añadiendo los perfiles recién suscritos.
 
 
