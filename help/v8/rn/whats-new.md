@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 54%
+source-wordcount: '1006'
+ht-degree: 52%
 
 ---
 
@@ -45,7 +45,7 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../content/edit-content.md)
 * Envío de campañas en canales múltiples, incluidas notificaciones push y SMS: [Más información](../workflows/activities/channels.md)
 * Definir audiencias de destinatarios con el generador de reglas: [más información](../audience/about-audiences.md)
-* Previsualización, prueba y envío de mensajes de correo electrónico: [Más información](../monitor/prepare-send.md)
+* Previsualización, prueba y envío de mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ A continuación, se enumeran las funciones clave incluidas en Campaign Web Beta.
 
 * **Generación de IA para el contenido de correo electrónico**
 
-  Diga adiós a la creación manual de contenido y hola a las campañas eficientes impulsadas por datos con el poder de la generación de IA.  Nuestra tecnología de IA general utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen AI.
-
-  Manténgase a la cabeza de la competencia y eleve su juego de marketing por correo electrónico con Gen AI en el contenido del correo electrónico.
+  Diga adiós a la creación manual de contenido y hola a las campañas eficientes impulsadas por datos con el poder de la generación de IA.  Nuestra tecnología de IA general utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen AI. Manténgase a la cabeza de la competencia y eleve su juego de marketing por correo electrónico con Gen AI en el contenido del correo electrónico. Esta capacidad estará disponible a partir de principios de octubre.
 
   Obtenga más información en [esta sección](../content/generative-gs.md).
 
@@ -99,7 +97,7 @@ A continuación, se enumeran las funciones clave incluidas en Campaign Web Beta.
 
 * **Asistente de conocimientos con Gen AI**
 
-  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo asistente de conocimiento con tecnología de IA, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso.
+  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo asistente de conocimiento con tecnología de IA, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso. Esta capacidad estará disponible a partir de principios de octubre.
 
   Obtenga más información en [esta sección](../get-started/using-ai.md).
 
