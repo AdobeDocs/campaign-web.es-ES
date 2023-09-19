@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
-source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 72%
@@ -26,7 +26,7 @@ En la lista de campañas, hay dos pestañas disponibles:
 
 * La pestaña **Examinar** enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel o crear una nueva campaña haciendo clic en el botón **Crear campaña**. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
-* La pestaña **Plantillas** contiene todas las plantillas de campaña disponibles. Puede ver una plantilla existente o crear una nueva. [Más información](manage-campaign-templates.md).
+* La pestaña **Plantillas** contiene todas las plantillas de campaña disponibles. Puede ver una plantilla existente o crear una nueva. [Más información](#manage-campaign-templates).
 
 ![Lista de campañas](assets/campaign-list.png)
 
