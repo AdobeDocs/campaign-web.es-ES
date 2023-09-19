@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 badge: label="Beta"
-source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
+source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 4%
@@ -46,7 +46,5 @@ En este ejemplo, deseamos enviar un envío SMS a todos los perfiles que han real
 
 A continuación, utilizamos una **[!UICONTROL Cambiar dimensión]** actividad para cambiar la dimensión de segmentación del flujo de trabajo a &quot;Destinatarios&quot;. Esto nos permite segmentar los destinatarios que coincidan con la consulta.
 
-<!--
-![](assets/workflow-change-dimension-example.png)
--->
+![](../assets/workflow-change-dimension-example.png)
 
