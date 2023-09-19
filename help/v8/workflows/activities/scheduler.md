@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 15%
@@ -74,7 +74,6 @@ Siga estos pasos para configurar el **Planificador** actividad:
 >Si desea iniciar el flujo de trabajo de inmediato, puede hacer clic en el **Ejecutar tarea pendiente** en la barra de acciones superior del planificador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
 
 Notas:
-
 
 ## Ejemplo
 

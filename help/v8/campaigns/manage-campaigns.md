@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 90%
+source-wordcount: '604'
+ht-degree: 72%
 
 ---
 
@@ -69,3 +69,22 @@ Puede duplicar o eliminar una campaña:
 >[!NOTE]
 >
 >La pestaña **Envíos** muestra todas las envíos vinculadas a la campaña. Sin embargo, los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar un envío creado en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo. [Más información](../msg/gs-messages.md#delivery-delete).
+
+## Trabajo con plantillas de campaña{#manage-campaign-templates}
+
+Las plantillas de campaña contienen ajustes preconfigurados que se pueden reutilizar para crear nuevos flujos de trabajo. Hay disponible un conjunto de plantillas integradas para ayudarle a empezar. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+
+Una plantilla de campaña puede almacenar la siguiente información:
+
+* la de la campaña **Propiedades** y **Programación** configuración
+* plantillas de flujo de trabajo
+* plantillas de envío
+
+Para crear una plantilla de campaña, siga estos pasos:
+
+1. Haga clic en **[!UICONTROL Campañas]** , vaya a la **Plantillas** y, a continuación, haga clic en **[!UICONTROL Crear plantilla]** botón.
+1. Seleccione el **Plantilla** para utilizar y proporcionar una etiqueta para la campaña. Esto le permite basar la nueva plantilla en una plantilla ya creada.
+1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
+1. Defina el **Programación** de la campaña. Obtenga información sobre cómo establecer la programación de campañas en [esta sección](create-campaigns.md#campaign-schedule)
+1. Haga clic en **Create**.
+1. Añada flujos de trabajo y plantillas de envío a la campaña.
