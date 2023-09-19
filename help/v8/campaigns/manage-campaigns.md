@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 72%
 
 ---
@@ -70,7 +70,7 @@ Puede duplicar o eliminar una campaña:
 
 ## Trabajo con plantillas de campaña{#manage-campaign-templates}
 
-Las plantillas de campaña contienen ajustes preconfigurados que se pueden reutilizar para crear nuevos flujos de trabajo. Hay disponible un conjunto de plantillas integradas para ayudarle a empezar. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+Las plantillas de campaña contienen ajustes preconfigurados que se pueden reutilizar para crear nuevas campañas. Hay disponible un conjunto de plantillas integradas para ayudarle a empezar. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
 
 Una plantilla de campaña puede almacenar la siguiente información:
 
@@ -81,7 +81,8 @@ Una plantilla de campaña puede almacenar la siguiente información:
 Para crear una plantilla de campaña, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Campañas]** , vaya a la **Plantillas** y, a continuación, haga clic en **[!UICONTROL Crear plantilla]** botón.
-1. Seleccione el **Plantilla** para utilizar y proporcionar una etiqueta para la campaña. Esto le permite basar la nueva plantilla en una plantilla ya creada.
+1. Seleccione el **Plantilla** para usar. Esto le permite basar la nueva plantilla en una plantilla creada anteriormente.
+1. Proporcione una etiqueta para la plantilla.
 1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
 1. Defina el **Programación** de la campaña. Obtenga información sobre cómo establecer la programación de campañas en [esta sección](create-campaigns.md#campaign-schedule)
 1. Haga clic en **Create**.
