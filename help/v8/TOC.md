@@ -5,9 +5,9 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '417'
 ht-degree: 87%
 
 ---
@@ -92,7 +92,9 @@ ht-degree: 87%
       + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
       + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
-   + [Trabajo con servicios de suscripción](audience/create-service.md)
+   + Trabajo con servicios de suscripción {#work-with-services}
+      + [Administrar servicios](audience/manage-services.md)
+      + [Administración de suscriptores](audience/manage-subscribers.md)
 + Campañas en canales múltiples {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
