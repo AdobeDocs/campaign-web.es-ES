@@ -2,7 +2,7 @@
 title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 22%
@@ -45,7 +45,7 @@ También puede acceder a los destinatarios desde el **Explorer** vea, examine y 
 >
 >Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Más información sobre los permisos en [esta sección](../get-started/permissions.md).
 
-Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. [Descubra cómo trabajar con servicios de suscripción](create-service.md)
+Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
 
 ## ¿Qué son las audiencias? {#audiences}
 
