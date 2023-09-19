@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 72%
@@ -22,7 +22,6 @@ Para crear una nueva campaña o administrar las campañas existentes, haga clic 
 
 ## Lista de campañas {#access-campaigns}
 
-
 En la lista de campañas, hay dos pestañas disponibles:
 
 * La pestaña **Examinar** enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel o crear una nueva campaña haciendo clic en el botón **Crear campaña**. Consulte esta [sección](create-campaigns.md#create-campaigns).
@@ -40,7 +39,6 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de fil
 ![Filtro de campaña](assets/campaign-filter-on-dates.png)
 
 ## Panel de campañas{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
