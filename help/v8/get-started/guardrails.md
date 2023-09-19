@@ -2,7 +2,7 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -66,13 +66,17 @@ Se muestra un mensaje de error específico.
 
 Aunque no pueda ver la representación gráfica de la consulta en el generador de reglas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la variable **Atributos** de la pantalla.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 También puede acceder a la consulta SQL para comprobar la configuración exacta. Para ello, haga clic en el **Vista de código** botón.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Haga clic en **Calcular** para comprobar cuántos elementos cumplen los criterios del filtro. Utilice el **Ver resultados** para mostrar esos elementos.
+Haga clic en **Calcular** para comprobar cuántos elementos cumplen los criterios del filtro.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Utilice el **Ver resultados** para mostrar esos elementos.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
