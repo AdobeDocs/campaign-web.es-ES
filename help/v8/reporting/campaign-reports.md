@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 26%
@@ -54,7 +54,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
+   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante la preparación de la entrega.
 
    * **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
@@ -74,7 +74,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
    * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar las reglas: direcciones faltantes, en cuarentena, en la lista de bloqueados, etc.
 
@@ -86,7 +86,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
-   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
@@ -248,7 +248,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
+   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante la preparación de la entrega.
 
    * **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
@@ -266,7 +266,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
    * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar las reglas: direcciones faltantes, en cuarentena, en la lista de bloqueados, etc.
 
@@ -278,7 +278,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
-   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
@@ -310,7 +310,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas push.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
+   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante la preparación de la entrega.
 
    * **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
@@ -326,7 +326,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
    * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar las reglas: direcciones faltantes, en cuarentena, en la lista de bloqueados, etc.
 
@@ -336,7 +336,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
   +++Obtenga más información sobre las métricas de informes de campañas push.
 
-   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 43%
@@ -24,7 +24,7 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
    * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-   * **[!UICONTROL Para enviar]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Exclusión]**: Número total de mensajes excluidos del destinatario enviado.
 +++
@@ -35,7 +35,7 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
   +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
-   * **[!UICONTROL Mensaje enviado]**: Número total de mensajes que desea enviar después del análisis de envío.
+   * **[!UICONTROL Mensaje enviado]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
 
    * **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 

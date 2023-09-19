@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 8%
@@ -27,7 +27,7 @@ El **Informe de envío de SMS** ofrece una amplia descripción general del canal
 
   +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
-   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante el análisis de envío.
+   * **[!UICONTROL Total enviado]**: Número total de mensajes procesados durante la preparación de la entrega.
 
    * **[!UICONTROL Correcto]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
@@ -42,7 +42,7 @@ El **Informe de envío de SMS** ofrece una amplia descripción general del canal
 
   +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
-   * **[!UICONTROL Para enviar]**: Número total de mensajes procesados durante el análisis de envío.
+   * **[!UICONTROL Para enviar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
    * **[!UICONTROL Exclusiones]**: Número de perfiles que se han excluido del análisis.
 +++
