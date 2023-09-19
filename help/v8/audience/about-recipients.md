@@ -1,16 +1,18 @@
 ---
-title: Trabajo con destinatarios
+title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 8%
+source-wordcount: '582'
+ht-degree: 21%
 
 ---
 
 
-# Trabajo con destinatarios {#about-recipients}
+# Trabajo con destinatarios y audiencias {#about-recipients}
+
+## Destinatarios {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ También puede acceder a los destinatarios desde el **Explorer** vea, examine y 
 >
 >Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Más información sobre los permisos en [esta sección](../get-started/permissions.md).
 
+Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. [Descubra cómo trabajar con servicios de suscripción](create-service.md)
+
+## Públicos-alvo {#audiences}
+
+El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. [Descubra qué es una plantilla de envíos](../msg/delivery-template.md).
+
+Para definir la población de una audiencia, puede:
+
+* [Crear nuevas audiencias](create-audience.md) desde el **[!UICONTROL Audiencias]** menú,
+* [Seleccionar una audiencia existente](add-audience.md) se crea como una lista en la consola de cliente,
+* [Seleccione un público destinatario de Adobe Experience Platform](aep-audience.md),
+* [Cree un nuevo público destinatario con el generador de reglas definiendo y combinando criterios de filtrado,](segment-builder.md)
+* [Uso de una audiencia de un archivo externo](file-audience.md). Esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas.
+
+Al segmentar una audiencia, también puede definir lo siguiente **grupos de control** para evitar enviar mensajes a una parte de la audiencia y medir el impacto de las campañas. [Obtenga información sobre cómo establecer un grupo de control](control-group.md)
+
+>[!NOTE]
+>
+>Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Crear audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir el público destinatario de su envío en un flujo de trabajo de campaña [en esta sección](../workflows/activities/build-audience.md)
