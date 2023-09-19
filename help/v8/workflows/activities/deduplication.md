@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 20%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
@@ -60,10 +60,13 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 1. Seleccione el **Método de deduplicación** para usar:
 
    * **Selección aleatoria**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
-   * **Uso de una expresión**: esto permite mantener los registros en los que el valor de la expresión introducida es el más pequeño o el más grande. Expresión ++ ++ orden
-   * **Following a list of values**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón Add situado sobre la lista de valores. ++ Ordenar
+   * **Uso de una expresión**: esto permite mantener los registros en los que el valor de la expresión introducida es el más pequeño o el más grande.
+   * **Following a list of values**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón Add situado sobre la lista de valores.
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 
 ## Ejemplo{#example}
 
+En el siguiente ejemplo, se utiliza una actividad de anulación de duplicación para excluir los duplicados del objetivo antes de realizar una entrega. Los duplicados identificados se añaden a una audiencia de duplicados dedicada que se puede reutilizar si es necesario. Utilizamos el **Correo electrónico** para identificar los duplicados. Elegimos mantener 1 entrada y seleccionar la **Aleatorio** método de deduplicación.
+
+![](../assets/workflow-deduplication-example.png)
