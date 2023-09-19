@@ -4,7 +4,7 @@ title: Introducción a mensajes y envíos en la web de la versión 8 de Campaign
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 85%
@@ -79,7 +79,7 @@ Para crear un envío independiente, siga estos pasos:
    * [Canal de notificaciones push](../push/gs-push.md)
    * [Canal de SMS](../sms/create-sms.md)
 
-1. Defina la audiencia del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre las audiencias en [esta sección](../audience/about-audiences.md).
+1. Defina la audiencia del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre las audiencias en [esta sección](../audience/about-recipients.md).
 1. Definición del contenido del mensaje.
 1. (opcional) Defina la entrega [programación](#gs-schedule). Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
 1. Haga clic en el botón **[!UICONTROL Revisar y enviar]** para comprobar su configuración.

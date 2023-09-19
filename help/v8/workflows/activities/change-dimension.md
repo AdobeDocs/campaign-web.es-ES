@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '210'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 El **Cambiar dimensión** la actividad es una **Segmentación** actividad. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
 
-## Configuración
+## Configuración de la actividad Change dimension {#configure}
 
 Siga estos pasos para configurar el **Cambiar dimensión** actividad:
 
@@ -37,5 +37,6 @@ Siga estos pasos para configurar el **Cambiar dimensión** actividad:
 
 1. Ejecute el flujo de trabajo para ver el resultado. Compare los datos de las tablas antes y después de la actividad de dimensión cambiante y compare la estructura de las tablas de flujo de trabajo.
 
+## Ejemplo {#example}
 
 

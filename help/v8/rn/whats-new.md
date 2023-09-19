@@ -4,7 +4,7 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 51%
@@ -44,7 +44,7 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../content/edit-content.md)
 * Envío de campañas en canales múltiples, incluidas notificaciones push y SMS: [Más información](../workflows/activities/channels.md)
-* Definir audiencias de destinatarios con el generador de reglas: [más información](../audience/about-audiences.md)
+* Definir audiencias de destinatarios con el generador de reglas: [más información](../audience/about-recipients.md)
 * Previsualización, prueba y envío de mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 * Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales de la base de datos. [Más información](../preview-test/test-deliveries.md).
 * El análisis del envío ahora es la **preparación del envío**. Cuando tenga que iniciar la preparación del mensaje, haga clic en **Preparar** botón. [Más información](../monitor/prepare-send.md).
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../preview-test/preview-test.md)
-* Las listas son ahora **Públicos**. [Más información](../audience/about-audiences.md).
+* Las listas son ahora **Públicos**. [Más información](../audience/about-recipients.md).
 
 ## Limitaciones{#limitations-beta}
 

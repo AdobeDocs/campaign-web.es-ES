@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -29,7 +29,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 >[!NOTE]
 >
->En este contexto, no se puede cargar un público destinatario desde un archivo. Para ello, debe crear un envío de correo electrónico independiente. [Más información](../../audience/about-audiences.md)
+>En este contexto, no se puede cargar un público destinatario desde un archivo. Para ello, debe crear un envío de correo electrónico independiente. [Más información](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

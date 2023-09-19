@@ -4,7 +4,7 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 61%
@@ -79,7 +79,7 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 
 En este caso de uso, envíe el correo electrónico a una audiencia existente.
 
-Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-audiences.md).
+Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-recipients.md).
 
 1. Para seleccionar la audiencia del correo electrónico, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** y elija una audiencia existente en la lista.
 

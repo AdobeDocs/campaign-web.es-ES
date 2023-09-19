@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 22%
@@ -26,7 +26,7 @@ Una plantilla puede incluir:
 
 * [Tipologías](../advanced-settings/delivery-settings.md#typology),
 * La dirección del remitente,
-* Un [audiencia](../audience/about-audiences.md), incluido [grupos de control](../audience/control-group.md),
+* Un [audiencia](../audience/about-recipients.md), incluido [grupos de control](../audience/control-group.md),
 * Personalizado [content](../content/edit-content.md),
 * [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md),
 * Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md),
