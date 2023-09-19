@@ -4,9 +4,9 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 61%
 
 ---
@@ -75,7 +75,7 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 >title="Seleccione una audiencia para el envío"
 >abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente (ya definida en una instancia de Campaign v8 o de Adobe Experience Platform), crear una nueva audiencia con el generador de reglas o cargar un archivo que contenga la audiencia. Los grupos de control no están habilitados para **Seleccionar del archivo** y viceversa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Selección de las audiencias principales"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Establecer un grupo de control"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Establecer un grupo de control"
 
 En este caso de uso, envíe el correo electrónico a una audiencia existente.
 
