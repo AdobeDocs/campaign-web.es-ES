@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
+source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
