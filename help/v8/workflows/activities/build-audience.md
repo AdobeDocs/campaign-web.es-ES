@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuración de la actividad Generar audiencia
+## Configuración de la actividad Generar audiencia{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Siga estos pasos para configurar la actividad **Generar público destinatario**:
+
+![](../assets/workflow-audience.png)
 
 1. Añadir una actividad **Generar público destinatario**.
 1. Defina una etiqueta.
@@ -66,7 +68,7 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 >
 >Si desea utilizar un **[!UICONTROL Crear audiencia]** actividad dirigida a una audiencia de Experience Platform, debe añadir un **[!UICONTROL Cambiar dimensión]** actividad posterior, para garantizar que la dimensión de segmentación de la audiencia esté configurada como &quot;Destinatario&quot;. Hay un ejemplo de flujo de trabajo disponible en la parte inferior de esta página.
 
-## Ejemplos
+## Ejemplos{#build-audience-examples}
 
 A continuación, se muestra un ejemplo de flujo de trabajo con dos actividades **Generar público destinatario**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
 
