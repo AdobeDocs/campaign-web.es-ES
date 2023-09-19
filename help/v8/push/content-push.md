@@ -3,7 +3,7 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 21%
@@ -51,7 +51,7 @@ En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación s
 
 * El **[!UICONTROL Mensaje de notificación]**, gestionado automáticamente por el SDK de FCM. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
-  Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
+  Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Mensaje]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 
   Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color.
 
@@ -59,7 +59,7 @@ En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación s
 
 >[!TAB iOS]
 
-Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
+Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Mensaje]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 
 Puede añadir un **[!UICONTROL Subtítulo]**, valor del parámetro subtitle de la carga útil de notificación de iOS. Consulte esta sección.
 

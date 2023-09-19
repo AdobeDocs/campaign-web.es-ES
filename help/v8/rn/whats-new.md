@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
+source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 52%
+source-wordcount: '1007'
+ht-degree: 51%
 
 ---
 
@@ -122,7 +122,7 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 
 * Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El destinatario de las pruebas ahora se denomina **Perfiles de prueba**. [Más información](../preview-test/test-deliveries.md).
 * Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales de la base de datos. [Más información](../preview-test/test-deliveries.md).
-* El análisis del envío ahora es la **preparación del envío**. Cuando necesite iniciar el análisis, haga clic en el botón **Preparar**. [Más información](../monitor/prepare-send.md).
+* El análisis del envío ahora es la **preparación del envío**. Cuando tenga que iniciar la preparación del mensaje, haga clic en **Preparar** botón. [Más información](../monitor/prepare-send.md).
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../preview-test/preview-test.md)
 * Las listas son ahora **Públicos**. [Más información](../audience/about-audiences.md).
 
