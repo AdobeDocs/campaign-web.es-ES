@@ -2,9 +2,9 @@
 title: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 description: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Los modelos de inteligencia artificial y aprendizaje automático mejoran con el 
 
 ## Recomendaciones  {#recommendations-ai}
 
-Al hacer una pregunta en el asistente de conocimientos con tecnología de IA, se tiene en cuenta el contexto actual del producto, es decir, la pantalla de Campaign en la que se encuentra.
+Al hacer una pregunta en el asistente de conocimientos con tecnología de IA, se tiene en cuenta el contexto actual del producto, es decir, la pantalla de Campaign en la que se encuentra y el contenido del cuadro de ayuda actual.
 
 Para obtener lo mejor del asistente de conocimiento con tecnología de IA, al hacer una pregunta, le recomendamos que:
 
