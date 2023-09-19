@@ -2,14 +2,14 @@
 title: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 description: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Uso del asistente de conocimientos con tecnología de IA {#using-ai}
+# Uso del asistente de conocimiento con tecnología de IA {#using-ai}
 
 Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, con el asistente de conocimiento con tecnología de IA disponible en los cuadros de ayuda contextual del producto.
 
@@ -45,12 +45,12 @@ Los modelos de inteligencia artificial y aprendizaje automático mejoran con el 
 
 ## Recomendaciones  {#recommendations-ai}
 
-Al realizar una pregunta en la ayuda contextual, se tiene en cuenta el contexto actual del producto.
+Al hacer una pregunta en el asistente de conocimientos con tecnología de IA, se tiene en cuenta el contexto actual del producto, es decir, la pantalla de Campaign en la que se encuentra.
 
-Para obtener lo mejor del asistente, al hacer una pregunta, le recomendamos que:
+Para obtener lo mejor del asistente de conocimiento con tecnología de IA, al hacer una pregunta, le recomendamos que:
 
 * Sea lo más preciso y específico posible y evite la ambigüedad. La respuesta será más precisa y útil.
-* Para ayudar al asistente de conocimientos a encontrar la información correcta, agregue tantos detalles como sea posible sobre lo que está intentando aprender.
+* Para ayudar al asistente de conocimiento con tecnología de IA a encontrar la información correcta, agregue tantos detalles como sea posible sobre lo que está intentando aprender.
 * Reformule y perfeccione sus preguntas para obtener mejores respuestas. Si la respuesta no es precisa o útil, pruebe diferentes enfoques y agregue contexto para obtener mejores resultados.
 * Utilice términos y palabras apropiados, con un tono neutro.
 * Valore las respuestas y proporcione comentarios para que nuestros ingenieros puedan aprender de su experiencia y mejorar los resultados.

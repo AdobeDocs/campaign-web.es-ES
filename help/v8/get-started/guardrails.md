@@ -2,15 +2,15 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
 
 
-# Mecanismos de protección y limitaciones {#guardrails-limitations}
+# Protecciones y limitaciones {#guardrails-limitations}
 
 Al trabajar en la IU web de Campaign con componentes creados o modificados en la consola del cliente de Campaign, se aplican las protecciones y limitaciones que se enumeran a continuación.
 
