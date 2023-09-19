@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 59%
@@ -30,7 +30,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
 Comience a crear el flujo de trabajo con las actividades relevantes antes de realizar la entrega:
 
-* Si desea realizar una entrega recurrente, inicie el flujo de trabajo con una **Planificador** actividad. Si desea realizar una entrega de una sola vez, puede definir la fecha de contacto mediante una **Planificador** actividad o defina la programación en la configuración de la entrega. Consulte [esta sección](scheduler.md).
+* Si desea realizar un envío recurrente, inicie el flujo de trabajo con una **Planificador** actividad. Si desea realizar una entrega de una sola vez, puede definir la fecha de contacto mediante una **Planificador** actividad o defina la programación en la configuración de la entrega. Consulte [esta sección](scheduler.md).
 
 * Añadir una actividad **Generar público destinatario.** El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
