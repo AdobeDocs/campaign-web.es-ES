@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1853'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Seguimiento de creación de informes"
->abstract="La pestaña Envío del informe ofrece datos valiosos, como el comportamiento del destinatario por vínculo, el desglose de aperturas y clics, así como información detallada sobre las direcciones URL en las que se hace clic con más frecuencia durante una entrega."
+>abstract="La pestaña Tracking del informe ofrece datos valiosos, incluido el comportamiento del destinatario por vínculo, el desglose de aperturas y clics, así como información detallada sobre las direcciones URL en las que se hace clic con más frecuencia durante una entrega."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -32,7 +32,7 @@ ht-degree: 26%
 >title="Estadísticas del público inicial"
 >abstract="La tabla Initial target audience statistics muestra los datos relativos a los destinatarios"
 
-El informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña.
+El informe Campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña.
 
 La página del informe de campaña se muestra con las siguientes pestañas:
 
@@ -149,7 +149,7 @@ Para acceder al informe de Campaign, haga clic en Reports en el panel de campañ
 
    * **[!UICONTROL Inalcanzable]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidencia en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
 
-   * **[!UICONTROL Sin conexión]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
+   * **[!UICONTROL No conectado]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
 
 +++
 

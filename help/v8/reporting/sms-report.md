@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 8%
+source-wordcount: '348'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 8%
 >id="acw_sms_report_overview"
 >title="Resumen del informe SMS"
 >abstract="Descubra las métricas de informes para su envío de SMS."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Informes que envían"
+>abstract="La pestaña Envío del informe proporciona información detallada sobre las interacciones de los visitantes con las entregas y los posibles errores que hayan encontrado."
 
 El **Informe de envío de SMS** ofrece una amplia descripción general del canal SMS, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de cada envío.
 
@@ -66,6 +71,11 @@ El **Informe de envío de SMS** ofrece una amplia descripción general del canal
   ![](assets/reporting_sms_6.png)
 
 ## Rendimiento del envío {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Menú de rendimiento del envío"
+>abstract="El informe Delivery throughput presenta información detallada sobre el rendimiento de entrega de toda la plataforma dentro de un periodo de tiempo especificado."
 
 Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 

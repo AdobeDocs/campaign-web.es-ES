@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 8%
+source-wordcount: '345'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 8%
 >id="acw_push_report_overview"
 >title="Resumen del informe push"
 >abstract="Descubra las métricas de creación de informes de su envío Push."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="Informes que envían"
+>abstract="La pestaña Envío del informe proporciona información detallada sobre las interacciones de los visitantes con las entregas y los posibles errores que hayan encontrado."
 
 El **Informe de envío push** ofrece una descripción general completa del canal push, con amplias perspectivas y datos específicos. Ofrece información completa sobre el rendimiento, la eficacia y los resultados de cada envío.
 
@@ -68,6 +73,11 @@ El **Informe de envío push** ofrece una descripción general completa del canal
   ![](assets/reporting_push_6.png)
 
 ## Rendimiento del envío {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="Informe de rendimiento del envío"
+>abstract="El informe Delivery throughput presenta información detallada sobre el rendimiento de entrega de toda la plataforma dentro de un periodo de tiempo especificado."
 
 Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 

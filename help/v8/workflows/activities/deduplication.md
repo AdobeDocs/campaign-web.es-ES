@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 20%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 20%
 
 El **Deduplicación** la actividad es una **Segmentación** actividad. Esta actividad le permite eliminar duplicados en los resultados de las actividades entrantes. El **Deduplicación** la actividad se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
 
-## Configuración
+## Configuración de la actividad de anulación de duplicación{#deduplication-configuration}
 
 Siga estos pasos para configurar el **Deduplicación** actividad:
 
-1. Añadir un **Deduplicación** a su flujo de trabajo.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. Añadir un **Deduplicación** a su flujo de trabajo.
 
 1. En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero.
 
@@ -65,5 +65,5 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 
-## Ejemplo
+## Ejemplo{#example}
 

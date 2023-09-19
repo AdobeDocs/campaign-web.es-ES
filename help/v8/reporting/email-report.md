@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 43%
+source-wordcount: '1787'
+ht-degree: 34%
 
 ---
 
@@ -16,7 +16,27 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
 ## Resumen de envíos {#delivery-summary-email}
 
-* **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios:
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="Informes que envían"
+>abstract="El menú Envío del informe proporciona información detallada sobre las interacciones de los visitantes con las entregas y los posibles errores que hayan encontrado."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="Widget de población de destino inicial"
+>abstract="El gráfico de población de audiencia de destinatario inicial muestra datos relativos a los destinatarios y al éxito del envío."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="Widget de estadísticas de envío"
+>abstract="El gráfico de estadísticas de envío detalla el éxito del envío y los errores que se produjeron."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="Widget de estadísticas de envío"
+>abstract="El gráfico y la tabla Causas de exclusión muestran el desglose por regla de mensajes rechazados durante la preparación."
+
+* **[!UICONTROL Población de audiencia de destinatario inicial]** El gráfico muestra datos relativos a los destinatarios:
 
   ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -29,7 +49,7 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
    * **[!UICONTROL Exclusión]**: Número total de mensajes excluidos del destinatario enviado.
 +++
 
-* **[!UICONTROL Estadísticas de envío]** La tabla detalla el éxito de su envío.
+* **[!UICONTROL Estadísticas de envío]** el gráfico detalla el éxito de su envío.
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -69,9 +89,19 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
 ## Rendimiento del envío {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="Widget de rendimiento del envío"
+>abstract="El informe Delivery throughput presenta información detallada sobre el rendimiento de entrega de toda la plataforma dentro de un periodo de tiempo especificado."
+
 Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 
 ## Estadísticas de difusión {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="Widget de estadísticas de difusión"
+>abstract="La tabla Estadísticas de difusión contiene los datos disponibles para los posibles errores encontrados con cada dominio."
 
 * **[!UICONTROL Estadísticas de difusión]** contiene los datos disponibles de los posibles errores encontrados con cada dominio.
 
@@ -95,6 +125,16 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 +++
 
 ## Rechazos y no entregables {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="Desglose de errores por tipo de widget"
+>abstract="La tabla Desglose de errores por tipo y el gráfico contienen los datos disponibles para cada tipo de error encontrado."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="Desglose de errores por widget de dominio"
+>abstract="La tabla Desglose de errores por tipo y el gráfico contienen los datos disponibles para cada tipo de error encontrado según cada dominio."
 
 * **[!UICONTROL Desglose de errores por tipo]** y **[!UICONTROL Desglose de errores por dominio]** Las tablas y los gráficos contienen los datos disponibles para detectar posibles errores encontrados con cada dominio.
 
@@ -122,7 +162,20 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## Indicadores de seguimiento {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="Seguimiento de creación de informes"
+>abstract="La pestaña Tracking del informe ofrece datos valiosos, incluido el comportamiento del destinatario por vínculo, el desglose de aperturas y clics, así como información detallada sobre las direcciones URL en las que se hace clic con más frecuencia durante una entrega."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" Widget de estadísticas de envío"
+>abstract="El widget de estadísticas de envío proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget de tasa de apertura y clics"
+>abstract="La tabla de tasas de pulsaciones y aperturas muestra datos relativos a la participación de los destinatarios en el envío."
 
 * **[!UICONTROL Estadísticas de envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados.
 
@@ -162,6 +215,11 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## URL y flujos de clics {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="Widget de URL y flujos de clics"
+>abstract="Las direcciones URL y los flujos de clics proporcionan indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que más se hizo clic durante una entrega."
+
 * **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que más se hizo clic durante una entrega.
 
   ![](assets/reporting_email_7.png){align="center"}
@@ -196,6 +254,11 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## Actividades de usuario {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="Widget de actividades de usuario"
+>abstract="El gráfico de actividades del usuario muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el periodo de tiempo para los datos de destino: último día, hora o 30 minutos."
+
 * **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el periodo de tiempo para los datos de destino: último día, hora o 30 minutos.
 
   ![](assets/reporting_email_10.png){align="center"}
@@ -210,6 +273,10 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## Estadísticas de seguimiento {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="Widget de estadísticas de seguimiento"
+>abstract="El gráfico Estadísticas de seguimiento proporciona estadísticas sobre aperturas y clics. Tiene la opción de seleccionar el lapso de tiempo específico para los datos de destino."
 
 * **[!UICONTROL Estadísticas de seguimiento]** El gráfico proporciona estadísticas sobre aperturas y clics. Tiene la opción de seleccionar el lapso de tiempo específico para los datos de destino.
 
@@ -225,12 +292,27 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 ## Desglose de aperturas {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="Desglose por widget de dispositivo"
+>abstract="El desglose por dispositivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="Desglose por widget de sistema operativo"
+>abstract="El desglose por sistema operativo"
+
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 Tiene la flexibilidad de cambiar de **[!UICONTROL Corrección y móvil]** para segmentar exclusivamente **[!UICONTROL Solo móvil]** para una segmentación más precisa.
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="Informe de clics interactivos"
+>abstract="El informe Clics activos presenta el contenido del mensaje con el porcentaje de clics en cada vínculo."
 
 Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los bloques personalizados, los vínculos de cancelación de suscripción, los vínculos de páginas espejo y los vínculos de ofertas se tienen en cuenta en el total de clics acumulados, pero no se muestran en el informe.
 
