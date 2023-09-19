@@ -3,9 +3,9 @@ audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 2%
 Una vez que haya creado y personalizado sus correos electrónicos, utilice el asistente de contenido con tecnología de IA generativa para llevar su contenido al siguiente nivel.
 
 El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que probablemente interesará más a su audiencia.
+
+
+>[!AVAILABILITY]
+>
+>Esta capacidad estará disponible a principios de octubre.
 
 1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Editar contenido]**.
 

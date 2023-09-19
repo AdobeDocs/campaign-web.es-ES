@@ -3,9 +3,9 @@ audience: end-user
 title: Generación de correo electrónico con el asistente de contenido
 description: Introducción al asistente de contenido
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '418'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 2%
 El asistente de contenido mejora el impacto de su comunicación al generar automáticamente contenido de correo electrónico completo, lo que le ahorra tiempo y garantiza una calidad coherente.
 
 Con la IA generativa, puede crear sin esfuerzo correos electrónicos atractivos que resuenen con su audiencia, lo que hace que su comunicación sea más eficaz y eficiente.
+
+
+>[!AVAILABILITY]
+>
+>Esta capacidad estará disponible a principios de octubre.
+
 
 1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Creación de contenido]**.
 
