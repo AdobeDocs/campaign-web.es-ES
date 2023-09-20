@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 329393419782f56a259840bf4979482ba87f5686
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 87%
+source-wordcount: '416'
+ht-degree: 86%
 
 ---
 
@@ -84,8 +84,7 @@ ht-degree: 87%
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Audiencias y destinatarios {#audiences}
    + [Trabajo con destinatarios y audiencias](audience/about-recipients.md)
-   + [Creación de audiencias](audience/create-audience.md)
-   + [Monitorización y administración de audiencias](audience/access-audiences.md)
+   + [Creación y administración de audiencias](audience/create-audience.md)
    + Audiencias de destino {#target-audiences}
       + [Selección de una audiencia existente](audience/add-audience.md)
       + [Definición de un público destinatario con el generador de reglas](audience/segment-builder.md)
