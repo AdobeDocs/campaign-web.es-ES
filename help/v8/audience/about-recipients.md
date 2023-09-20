@@ -2,9 +2,9 @@
 title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '946'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 Un destinatario es un perfil dirigido a recibir mensajes enviados por Adobe Campaign. En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten crear audiencias que reciban cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. En la base de datos se almacenan otros tipos de perfiles. Están diseñados para diferentes usos: por ejemplo, se crean perfiles semilla para probar los envíos antes de enviarlos a la audiencia final.
 
-Los destinatarios solo se pueden agregar desde la consola del cliente de Campaign. Sin embargo, se pueden ver en la web de Campaign, en la **Destinatarios** entrada del carril de navegación izquierdo.
+Los destinatarios solo se pueden agregar desde la consola del cliente de Campaign. Sin embargo, se pueden ver en la web de Campaign, en la **Destinatarios** entrada del carril de navegación izquierdo. También puede editar los atributos del destinatario desde esa pantalla.
 
 Para editar los datos del destinatario, haga clic en los tres puntos junto a su nombre y seleccione **Editar...**.
 
@@ -46,6 +46,8 @@ También puede acceder a los destinatarios desde el **Explorer** vea, examine y 
 >Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Más información sobre los permisos en [esta sección](../get-started/permissions.md).
 
 Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
+
+Puede crear flujos de trabajo para deduplicar, enriquecer, combinar perfiles y crear audiencias. Obtenga más información en [esta sección](../workflows/gs-workflows.md).
 
 ## ¿Qué son las audiencias? {#audiences}
 
