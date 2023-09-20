@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 81%
+source-wordcount: '886'
+ht-degree: 78%
 
 ---
 

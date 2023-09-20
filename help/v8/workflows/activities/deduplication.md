@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
+source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 17%
+source-wordcount: '585'
+ht-degree: 29%
 
 ---
 
@@ -48,14 +48,11 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Seleccione el número de **Duplicados que mantener**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
 
-<!--
-    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
+   Por ejemplo, si los registros A y B se consideran duplicados del registro Y, y un registro C se considera un duplicado del registro Z:
 
-    * If the value of the field is 1: only the Y and Z records are kept.
-    * If the value of the field is 0: all the records are kept.
-    * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
+   * Si el valor del campo es 1: solo se guardan los registros Y y Z.
+   * Si el valor del campo es 0: se guardan todos los registros.
+   * Si el valor del campo es 2: se conservan los registros C y Z y se conservan dos registros de A, B e Y, al azar o en función del método de deduplicación seleccionado posteriormente.
 
 1. Seleccione el **Método de deduplicación** para usar:
 
