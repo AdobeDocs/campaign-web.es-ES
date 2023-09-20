@@ -2,10 +2,10 @@
 title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 22%
+source-wordcount: '919'
+ht-degree: 21%
 
 ---
 
@@ -71,11 +71,11 @@ La dimensión de segmentación es el tipo de datos que administra una operación
 
 La dimensión de segmentación de un flujo de trabajo se define mediante la primera **[!UICONTROL Crear audiencia]** y se utiliza en todas las demás actividades hasta el final del flujo de trabajo. Por ejemplo, si realiza una consulta en los destinatarios de la base de datos, la transición saliente contendrá datos del tipo destinatario y se transmitirá a la siguiente actividad.
 
-Tenga en cuenta que puede cambiar la dimensión de segmentación en un flujo de trabajo mediante una **[!UICONTROL Cambiar dimensión]** actividad. [Más información](../workflows/activities/change-dimension.md)
+Tenga en cuenta que puede cambiar la dimensión de segmentación en un flujo de trabajo mediante una **[!UICONTROL Cambiar dimensión]** actividad. [Más información](../workflows/activities/change-dimension.md). Esto le permite, por ejemplo, consultar la base de datos en una tabla específica, como compras o suscripciones, y luego cambiar la dimensión de segmentación a Destinatarios para realizar envíos a los destinatarios correspondientes.
 
 De forma predeterminada, las plantillas de envío de correo electrónico y SMS están segmentadas **[!UICONTROL Destinatarios]**. Por lo tanto, su dimensión de destino utiliza los campos del **nms:destinatario** tabla. Para las notificaciones push, la dimensión de destino predeterminada es **Aplicaciones del suscriptor nms:appSubscriptionRcp**, que está vinculado a la tabla de destinatarios.
 
-También puede utilizar otras asignaciones de destino integradas para los envíos que se enumeran a continuación:
+También puede utilizar otras asignaciones de destino integradas en los flujos de trabajo y envíos que se enumeran a continuación:
 
 | Name | Uso para | Esquema |
 |---|---|---|
