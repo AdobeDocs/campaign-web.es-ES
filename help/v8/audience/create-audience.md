@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Creación de audiencias
-description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
+title: Creación y administración de audiencias
+description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 3de56ccc5f96c4a13ba5d1211b3d5320a01e979d
+source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Para crear una audiencia, siga estos pasos:
 
 1. Cuando el flujo de trabajo esté listo, haga clic en **[!UICONTROL Inicio]** para ejecutarlo.
 
-El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** , mientras que las audiencias resultantes son accesibles en la **[!UICONTROL Audiencias]** lista. [Obtenga información sobre cómo monitorizar y administrar audiencias](access-audiences.md)
+El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** , mientras que las audiencias resultantes son accesibles en la **[!UICONTROL Audiencias]** lista.
 
 ## Ejemplo de flujo de trabajo de audiencia {#example}
 
@@ -71,3 +71,25 @@ El ejemplo siguiente muestra un flujo de trabajo de audiencia configurado para d
 1. El **[!UICONTROL Enriquecimiento]** La actividad enriquece a la audiencia con información de la tabla Compras para identificar qué tipo de producto compraron los clientes.
 1. El **[!UICONTROL Split]** La actividad divide el flujo de trabajo en dos rutas en función de la última compra de los clientes.
 1. El **[!UICONTROL Guardar audiencia]** las actividades al final de cada ruta crean dos nuevas audiencias en la base de datos, incluida la población calculada en cada ruta.
+
+## Monitorización y administración de audiencias {#monitor}
+
+Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
+
+![](assets/audiences-list.png)
+
+Las audiencias pueden proceder de varias fuentes. El **[!UICONTROL Origen]** columns indica dónde se ha creado una audiencia determinada:
+
+* **[!UICONTROL Adobe Campaign]**: estas audiencias se crean en la consola de Adobe Campaign V8. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=es){target="_blank"}.
+
+* **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se crean en Adobe Experience Platform y se integran en Campaign Web mediante la integración de fuentes de Adobe y destinos. Obtenga información sobre cómo configurar esta integración en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+
+* **[!UICONTROL IU web de Adobe Campaign]**: estas audiencias se crean mediante flujos de trabajo de audiencia web de Campaign. [Obtenga información sobre cómo crear audiencias](create-audience.md)
+
+Para obtener más información sobre una audiencia, ábrala en la lista. Se muestran las propiedades de la audiencia, junto con el número de perfiles incluidos en la audiencia. Puede actualizar el recuento de audiencias en cualquier momento mediante la variable **[!UICONTROL Calcular]** botón.
+
+El **[!UICONTROL Datos]** permite ver los perfiles que forman parte de la audiencia. Puede personalizar esta vista añadiendo más columnas o aprovechando los filtros avanzados para restringir los datos mostrados.
+
+![](assets/audiences-details.png)
+
+Para duplicar o eliminar una audiencia, haga clic en **[!UICONTROL Más acción]** disponible en la lista de audiencias junto al nombre de la audiencia o en una pantalla de detalles de audiencia.
