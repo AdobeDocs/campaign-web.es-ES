@@ -3,20 +3,20 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '500'
 ht-degree: 17%
 
 ---
 
 
-# Deduplicación {#deduplication}
+# Anulación de duplicación {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Deduplicación atributos"
->abstract="Esto le permite especificar los campos para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero."
+>title="Campos para identificar duplicados"
+>abstract="En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -34,7 +34,7 @@ ht-degree: 17%
 >title="Configuración de la anulación de duplicación"
 >abstract="Para eliminar duplicados en los datos entrantes, defina el método de anulación de duplicación en los campos siguientes. De forma predeterminada, solo se guarda un registro. También debe seleccionar el modo de deduplicación en función de una expresión o un atributo. De forma predeterminada, el registro que se va a excluir de los duplicados se selecciona de forma aleatoria."
 
-El **Deduplicación** la actividad es una **Segmentación** actividad. Esta actividad le permite eliminar duplicados en los resultados de las actividades entrantes. El **Deduplicación** la actividad se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
+El **Deduplicación** la actividad es una **Segmentación** actividad. Esta actividad le permite eliminar duplicados en los resultados de las actividades entrantes, por ejemplo perfiles duplicados en la lista de destinatarios. El **Deduplicación** la actividad se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
 
 ## Configuración de la actividad de anulación de duplicación{#deduplication-configuration}
 
@@ -44,7 +44,7 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Añadir un **Deduplicación** a su flujo de trabajo.
 
-1. En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero.
+1. En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero.
 
 1. Seleccione el número de **Duplicados que mantener**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
 
@@ -67,6 +67,6 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 ## Ejemplo{#deduplication-example}
 
-En el siguiente ejemplo, se utiliza una actividad de anulación de duplicación para excluir los duplicados del objetivo antes de realizar una entrega. Los duplicados identificados se añaden a una audiencia dedicada que se puede reutilizar si es necesario. Utilizamos el **Correo electrónico** para identificar los duplicados. Elegimos mantener 1 entrada y seleccionar la **Aleatorio** método de deduplicación.
+En el siguiente ejemplo, utilice una actividad de anulación de duplicación para excluir duplicados del destinatario antes de realizar una entrega. Los destinatarios duplicados identificados se añaden a una audiencia dedicada que se puede reutilizar si es necesario. Elija la **Correo electrónico** para identificar los duplicados. Mantenga 1 entrada y seleccione la **Aleatorio** método de deduplicación.
 
 ![](../assets/workflow-deduplication-example.png)
