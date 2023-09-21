@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Envío de ofertas
-description: Envío de ofertas
+title: Adición de ofertas en los mensajes
+description: Obtenga información sobre cómo añadir y enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 37%
+source-wordcount: '782'
+ht-degree: 36%
 
 ---
 
 
-# Envío de ofertas {#offers-content}
+# Adición de ofertas en los mensajes {#offers-content}
 
 La versión 8 de Adobe Campaign Web permite enviar con las entregas ofertas que se han creado en la consola utilizando **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajo con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ Para enviar mensajes de confirmación a los usuarios que se suscriben o cancelan
 
 Ahora puede seleccionar estos mensajes cuando [creación de un servicio de suscripción](#create-service). Los usuarios que se suscriban o cancelen su suscripción a ese servicio recibirán los mensajes de confirmación seleccionados.
 
-## Registros e informes del servicio de suscripción {#logs-and-reports}
+## Monitorización de los servicios de suscripción {#logs-and-reports}
 
 Para medir la eficacia de los servicios de suscripción para canales de correo electrónico y SMS, puede acceder a los registros e informes de un servicio determinado.
 
