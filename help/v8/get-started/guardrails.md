@@ -2,9 +2,9 @@
 title: Protecciones y limitaciones en la IU web de Campaign
 description: Protecciones y limitaciones en la IU web de Campaign
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Los bucles aún no están disponibles en la interfaz de usuario web. Si ha cread
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-La posición de los nodos se actualiza cada vez que se añade o elimina una actividad. Si crea un flujo de trabajo en la consola, lo modifica mediante la interfaz de usuario web y lo vuelve a abrir en la consola, y es posible que observe algunas imperfecciones de posición menores. Esto no afecta al flujo de trabajo de
+La posición de los nodos se actualiza cada vez que se añade o elimina una actividad. Si crea un flujo de trabajo en la consola, lo modifica mediante la interfaz de usuario web y lo vuelve a abrir en la consola, y es posible que observe algunas imperfecciones de posición menores. Esto no afecta a los procesos y tareas del flujo de trabajo.
 
 | Flujo de trabajo inicial | Cambio de posición |
 | --- | --- |
