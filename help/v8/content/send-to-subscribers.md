@@ -3,10 +3,10 @@ audience: end-user
 title: Envío de mensajes a los suscriptores de un servicio
 description: Obtenga información sobre cómo enviar mensajes a los suscriptores de un servicio
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,11 @@ Para enviar mensajes a los suscriptores, cree una audiencia específica para ide
 
 1. Guarde la audiencia.
 1. Creación de un envío. Los pasos para crear una entrega se detallan en [esta página](../msg/gs-messages.md#create-delivery).
-1. Seleccione la audiencia que ha creado anteriormente.
+1. Vaya a la configuración de envío y cambie la asignación de destino predeterminada a **Suscripciones (nms:subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. En la sección del destinatario principal de la entrega, seleccione la audiencia que ha creado anteriormente.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
