@@ -2,9 +2,9 @@
 title: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 description: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,4 @@ Para obtener lo mejor del asistente de conocimiento con tecnología de IA, al ha
 * Utilice términos y palabras apropiados, con un tono neutro.
 * Valore las respuestas y proporcione comentarios para que nuestros ingenieros puedan aprender de su experiencia y mejorar los resultados.
 
+<img src="assets/AI_CH.gif"/>
