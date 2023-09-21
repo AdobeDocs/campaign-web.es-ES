@@ -4,10 +4,10 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 40%
+source-wordcount: '580'
+ht-degree: 35%
 
 ---
 
@@ -28,15 +28,17 @@ ht-degree: 40%
 >title="Parámetros de formato"
 >abstract="Compruebe los parámetros de formato del archivo."
 
-Puede cargar contactos desde un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).
+No puede cargar perfiles directamente en Campaign desde la interfaz, pero puede segmentar perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).
 
 >[!CAUTION]
 >
 >* Esta funcionalidad solo está disponible para **envíos de correo electrónico independientes**. No se puede utilizar en flujos de trabajo ni con envíos SMS o Push.
 >
 >* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
+>
+>* Los perfiles no se añaden a la base de datos y solo se cargan y están disponibles para este envío de correo electrónico independiente específico.
 
-## Cargue el archivo {#upload}
+## Seleccionar y configurar el archivo {#upload}
 
 Para segmentar perfiles desde un archivo local directamente desde la interfaz de correo electrónico, siga estos pasos:
 
@@ -45,7 +47,7 @@ Para segmentar perfiles desde un archivo local directamente desde la interfaz de
 
    ![](assets/select-from-file.png)
 
-1. Seleccione el archivo local que desea subir. El formato debe alinearse con la variable [archivo de muestra](#sample-file).
+1. Seleccione el archivo local que desea utilizar. El formato debe alinearse con la variable [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
 1. Elija la columna que contiene la dirección de correo electrónico del menú desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
 1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.

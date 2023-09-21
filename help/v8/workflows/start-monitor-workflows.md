@@ -4,9 +4,9 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '569'
 ht-degree: 6%
 
 ---
@@ -24,10 +24,6 @@ Una vez que se ejecuta el flujo de trabajo, cada actividad en el lienzo se ejecu
 Puede realizar un seguimiento del progreso de los perfiles de destino en tiempo real mediante un flujo visual. Esto le permite identificar rápidamente el estado de cada actividad y el número de perfiles en transición entre ellas.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->Puede deshabilitar el flujo visual mediante el **[!UICONTROL Ocultar progresión]** en la barra de acciones superior del lienzo.
 
 ## Transiciones de flujo de trabajo {#transitions}
 

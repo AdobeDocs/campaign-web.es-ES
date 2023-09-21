@@ -3,9 +3,9 @@ audience: end-user
 title: Creación y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos-alvo"
->abstract="Desde esta pantalla, puede crear y combinar audiencias en un lienzo visual. Añada varias actividades de flujo de trabajo, como **Split** o **Excluir** para generar audiencias nuevas y refinadas."
+>abstract="Desde esta pantalla, puede acceder a la lista de todas las audiencias que se pueden segmentar en los envíos. Clic **Crear** para crear nuevas audiencias en un lienzo visual utilizando varias actividades de flujo de trabajo como **Split** o **Excluir**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

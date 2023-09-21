@@ -294,7 +294,7 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="Desglose por dispositivo"
+>title="Desglose por dispositivos"
 >abstract="El **Desglose por dispositivo** muestra el desglose de aperturas por tipo de dispositivo durante el periodo correspondiente. El primer gráfico muestra estadísticas relacionadas con las aperturas en un equipo y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles."
 
 >[!CONTEXTUALHELP]
