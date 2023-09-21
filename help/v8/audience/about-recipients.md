@@ -2,15 +2,17 @@
 title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 21%
+source-wordcount: '1022'
+ht-degree: 19%
 
 ---
 
 
 # Trabajo con destinatarios y audiencias {#about-recipients}
+
+En Adobe Campaign, la población objetivo de una entrega es una audiencia. Un conjunto de audiencias de personas que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar [como se detalla a continuación](#audiences). En la mayoría de los casos, la audiencia está formada por perfiles, que se almacenan como [destinatarios](#recipients) en Adobe Campaign. También puede trabajar con otras asignaciones de destino cambiando la dimensión como se explica a continuación [en esta sección](#targeting-dimensions).
 
 ## ¿Qué son los destinatarios? {#recipients}
 
