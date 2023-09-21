@@ -2,9 +2,9 @@
 title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 21%
 
 ---
@@ -69,7 +69,7 @@ Al segmentar una audiencia, también puede definir lo siguiente **grupos de cont
 
 ## Dimensiones de segmentación {#targeting-dimensions}
 
-La dimensión de segmentación es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
+La dimensión de segmentación, también conocida como. asignación de destino, es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
 
 La dimensión de segmentación de un flujo de trabajo se define mediante la primera **[!UICONTROL Crear audiencia]** y se utiliza en todas las demás actividades hasta el final del flujo de trabajo. Por ejemplo, si realiza una consulta en los destinatarios de la base de datos, la transición saliente contendrá datos del tipo destinatario y se transmitirá a la siguiente actividad.
 
