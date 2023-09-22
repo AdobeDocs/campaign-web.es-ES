@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 84%
+source-wordcount: '422'
+ht-degree: 82%
 
 ---
 
@@ -85,13 +85,14 @@ ht-degree: 84%
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Audiencias y destinatarios {#audiences}
    + [Trabajo con destinatarios y audiencias](audience/about-recipients.md)
-   + [Creación y administración de audiencias](audience/create-audience.md)
-   + Audiencias de destino {#target-audiences}
+   + [Creación de audiencias](audience/create-audience.md)
+   + Selección de los destinatarios de la entrega {#target-audiences}
       + [Selección de una audiencia existente](audience/add-audience.md)
-      + [Definición de un público destinatario con el generador de reglas](audience/segment-builder.md)
-      + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
-      + [Usar una audiencia de Adobe Experience Platform](audience/aep-audience.md)
+      + [Crear una audiencia única](audience/one-time-audience.md)
+      + [Importación de una audiencia desde un archivo](audience/file-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
+   + [Trabajo con el generador de reglas](audience/segment-builder.md)
+   + [Monitorización y administración de audiencias](audience/manage-audience.md)
    + Trabajo con servicios de suscripción {#work-with-services}
       + [Administrar servicios](audience/manage-services.md)
       + [Administración de suscriptores](audience/manage-subscribers.md)

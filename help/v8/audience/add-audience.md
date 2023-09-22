@@ -4,10 +4,10 @@ title: Selección de una audiencia existente
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 50%
+source-wordcount: '308'
+ht-degree: 27%
 
 ---
 
@@ -19,40 +19,33 @@ ht-degree: 50%
 >title="Selección de una audiencia existente"
 >abstract="Examine la lista para seleccionar una audiencia existente. Utilice el icono &quot;Mostrar filtros&quot; para filtrar la lista o seleccionar una carpeta específica."
 
-En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de un envío de correo electrónico.
+En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
 
-También puede realizar lo siguiente:
+* [Crear una audiencia única](one-time-audience.md) uso del generador de reglas.
+* [Carga de una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
 
-* Crear una audiencia nueva. [Más información](segment-builder.md)
-* Cargar una audiencia desde un archivo externo (solo para correos electrónicos). [Más información](file-audience.md)
-* Usar una audiencia de Adobe Experience Platform. [Más información](aep-audience.md).
-
+Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el **Audiencia** menú izquierdo. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Obtenga información sobre cómo monitorizar y administrar audiencias](manage-audience.md)
 
 Para seleccionar una audiencia existente para el mensaje, siga los pasos a continuación:
 
-1. En la sección **Audiencia** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]**.
+1. Desde el **Audiencia** del asistente de creación de entregas, haga clic en **[!UICONTROL Seleccionar audiencia]** y luego elija
 
    ![](assets/create-audience.png)
 
-1. Elija **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Para crear una nueva audiencia para usarla en este correo electrónico, elija **Crear la suya propia**. Consulte esta [sección](segment-builder.md).
-
-   Esta pantalla muestra todas las audiencias existentes, para la carpeta actual.
+1. Elija **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Esta pantalla muestra todas las audiencias existentes, para la carpeta actual.
 
    ![](assets/create-audience2.png)
 
-   Las audiencias se crean a partir de **Audiencia** menú izquierdo. También se pueden crear en la consola del cliente.
+   Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla.
 
-   Para utilizar audiencias de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [Documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+   ![](assets/select-audience-folder.png)
 
-   >[!IMPORTANT]
-   >
-   >En esa versión del producto, al crear reglas, seleccionar la audiencia de una entrega o al crear una audiencia en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario. Aún puede usarlos. [Más información](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
-
-1. Elija una audiencia y haga clic en **Seleccionar**.
-1. Utilice el **Mostrar filtros** para mostrar las opciones de filtrado. Clic **Agregar reglas** para acceder al generador de reglas: el uso del generador de reglas permite crear filtros avanzados para la lista de audiencias. Aprenda a utilizar el generador de reglas en esta [sección](segment-builder.md).
+1. La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al generador de reglas, que permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el generador de reglas](segment-builder.md)
 
    ![](assets/create-audience4.png)
 
-1. Haga clic en **Save**.
+1. Clic **Confirmar** para añadir la audiencia como destinatario principal de la entrega. Una vez finalizado, aún puede refinar la audiencia con el generador de reglas haciendo clic en **Editar reglas** botón.
 
-También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. Obtenga más información en [esta sección](control-group.md).
+   ![](assets/refine-audience.png)
+
+   También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](control-group.md)

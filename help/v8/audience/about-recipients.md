@@ -2,17 +2,17 @@
 title: Trabajo con destinatarios y audiencias
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
 
 # Trabajo con destinatarios y audiencias {#about-recipients}
 
-En Adobe Campaign, la población objetivo de una entrega es una audiencia. Un conjunto de audiencias de personas que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar [como se detalla a continuación](#audiences). En la mayoría de los casos, la audiencia está formada por perfiles, que se almacenan como [destinatarios](#recipients) en Adobe Campaign. También puede trabajar con otras asignaciones de destino cambiando la dimensión como se explica a continuación [en esta sección](#targeting-dimensions).
+En Adobe Campaign, la población objetivo de una entrega es una audiencia. Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar [como se detalla a continuación](#audiences). En la mayoría de los casos, la audiencia está formada por perfiles, que se almacenan como [destinatarios](#recipients) en Adobe Campaign. También puede trabajar con otras asignaciones de destino cambiando la dimensión como se explica a continuación [en esta sección](#targeting-dimensions).
 
 ## ¿Qué son los destinatarios? {#recipients}
 
@@ -58,8 +58,7 @@ El público destinatario es el destinatario principal de su envío: los destinat
 Para definir la población de una audiencia, puede:
 
 * [Crear nuevas audiencias](create-audience.md) desde el **[!UICONTROL Audiencias]** menú,
-* [Seleccionar una audiencia existente](add-audience.md) se crea como una lista en la consola de cliente,
-* [Seleccione un público destinatario de Adobe Experience Platform](aep-audience.md),
+* [Seleccionar una audiencia existente](add-audience.md) creado como una lista en la consola del cliente o procedente de Adobe Experience Platform,
 * [Cree un nuevo público destinatario con el generador de reglas definiendo y combinando criterios de filtrado,](segment-builder.md)
 * [Uso de una audiencia de un archivo externo](file-audience.md). Esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas.
 
@@ -75,7 +74,7 @@ La dimensión de segmentación, también conocida como. asignación de destino, 
 
 La dimensión de segmentación de un flujo de trabajo se define mediante la primera **[!UICONTROL Crear audiencia]** y se utiliza en todas las demás actividades hasta el final del flujo de trabajo. Por ejemplo, si realiza una consulta en los destinatarios de la base de datos, la transición saliente contendrá datos del tipo destinatario y se transmitirá a la siguiente actividad.
 
-Tenga en cuenta que puede cambiar la dimensión de segmentación en un flujo de trabajo mediante una **[!UICONTROL Cambiar dimensión]** actividad. [Más información](../workflows/activities/change-dimension.md). Esto le permite, por ejemplo, consultar la base de datos en una tabla específica, como compras o suscripciones, y luego cambiar la dimensión de segmentación a Destinatarios para realizar envíos a los destinatarios correspondientes.
+Tenga en cuenta que puede cambiar la dimensión de segmentación en un flujo de trabajo mediante una [Cambiar actividad de dimensión](../workflows/activities/change-dimension.md). Esto le permite, por ejemplo, consultar la base de datos en una tabla específica, como compras o suscripciones, y luego cambiar la dimensión de segmentación a Destinatarios para realizar envíos a los destinatarios correspondientes.
 
 De forma predeterminada, las plantillas de envío de correo electrónico y SMS están segmentadas **[!UICONTROL Destinatarios]**. Por lo tanto, su dimensión de destino utiliza los campos del **nms:destinatario** tabla. Para las notificaciones push, la dimensión de destino predeterminada es **Aplicaciones del suscriptor nms:appSubscriptionRcp**, que está vinculado a la tabla de destinatarios.
 
