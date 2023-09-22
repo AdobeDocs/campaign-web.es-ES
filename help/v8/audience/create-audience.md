@@ -3,9 +3,9 @@ audience: end-user
 title: Creación y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,11 @@ El ejemplo siguiente muestra un flujo de trabajo de audiencia configurado para d
 1. El **[!UICONTROL Guardar audiencia]** las actividades al final de cada ruta crean dos nuevas audiencias en la base de datos, incluida la población calculada en cada ruta.
 
 ## Monitorización y administración de audiencias {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Error de audiencia"
+>abstract="Los datos de audiencia no están disponibles. Espere al final de la ejecución del flujo de trabajo."
 
 Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
 
