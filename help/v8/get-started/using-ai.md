@@ -2,7 +2,7 @@
 title: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 description: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Obtenga respuestas rápidas y generadas por IA basadas en la documentación del 
 
 El **Asistente de conocimientos con Gen AI** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
 
-Gracias a las capacidades de Campaign Gen AI, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro asistente de conocimientos con Gen AI es su mejor compañero, ya que proporciona una eficiencia y precisión inigualables en cada interacción.
+Gracias a las capacidades de Campaign Gen AI, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro asistente de conocimiento con tecnología de IA es su mejor compañero, ya que proporciona una eficiencia y precisión inigualables en cada interacción.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Respuestas {#answers-ai}
 
-Las respuestas pueden ser inexactas o engañosas. Como consecuencia, el asistente de conocimientos de Adobe puede generar información incorrecta. Asegúrese de comprobar la documentación del producto que está vinculada en cada cuadro de ayuda.
+Las respuestas pueden ser inexactas o engañosas. Como consecuencia, el asistente de conocimientos con tecnología de IA de Adobe Campaign puede generar información incorrecta. Asegúrese de comprobar la documentación del producto que está vinculada en cada cuadro de ayuda.
 
 Los modelos de inteligencia artificial y aprendizaje automático mejoran con el tiempo para abordar mejor los casos de uso específicos. El asistente de conocimientos con tecnología de IA de Campaign seguirá mejorando en los próximos meses. Le recomendamos encarecidamente que utilice el ?? ?? botones cada vez que lea una respuesta, para marcar cualquier respuesta inapropiada a nuestros ingenieros.
 
