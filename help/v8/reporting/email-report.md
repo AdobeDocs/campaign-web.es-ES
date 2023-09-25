@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
-source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
+source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 29%
@@ -30,11 +30,11 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
 El **[!UICONTROL Población de destinatarios iniciales]** El gráfico muestra datos relativos a los destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
 
-![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
 Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
-![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
 
 +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
@@ -57,7 +57,7 @@ Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
 El **[!UICONTROL Estadísticas de envío]** el gráfico detalla el éxito de su envío. Las métricas se detallan a continuación.
 
-![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
