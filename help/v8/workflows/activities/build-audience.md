@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 60%
 
 ---
 
@@ -54,7 +54,7 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 Para crear su propia consulta, siga estos pasos adicionales:
 
 1. Seleccione **Crear su propia (consulta)**.
-1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. Consulte la [documentación de la versión 8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es#targeting-and-filtering-dimensions){target="_blank"}.
+1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. Obtenga más información acerca de las dimensiones de segmentación en [esta sección](../../audience/about-recipients.md#targeting-dimensions).
 1. Haga clic en **Continuar**.
 1. Utilice el generador de reglas para definir la consulta, del mismo modo que crea un público destinatario cuando diseña un nuevo correo electrónico. Consulte esta [sección](../../audience/segment-builder.md).
 

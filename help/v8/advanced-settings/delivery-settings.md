@@ -4,10 +4,10 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 66%
+source-wordcount: '2112'
+ht-degree: 65%
 
 ---
 
@@ -108,16 +108,15 @@ Obtenga más información acerca de las reglas de coherencia y capacidad y cómo
 
 ## Configuración del público {#audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Configuración de audiencia para el envío"
 >abstract="Seleccione una **asignación de destino** entre los disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión para la entrega. "
 
+En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La dimensión de segmentación, o asignación de destino, es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
 
-En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign.
 
-Obtenga más información sobre las asignaciones de destino en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
+Obtenga más información sobre las asignaciones de destino en [esta sección](../audience/about-recipients.md#targeting-dimensions).
 
 ## Envío {#delivery}
 
