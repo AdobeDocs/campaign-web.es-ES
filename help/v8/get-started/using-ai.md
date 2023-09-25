@@ -2,14 +2,20 @@
 title: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 description: Uso de un asistente de conocimientos con tecnología de IA en la web de Campaign
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 955cda537dcfe8d789b285270d531ddedaa05eaa
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # Uso del asistente de conocimiento con tecnología de IA {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="Asistente de conocimientos con tecnología de IA"
+>abstract="Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, con el asistente de conocimiento con tecnología de IA. Disponible en los cuadros de ayuda contextual del producto, revoluciona la búsqueda de documentación y la respuesta a preguntas de procedimientos al examinar sin esfuerzo vastos repositorios de documentación, identificando instantáneamente la información precisa que necesita."
+
 
 Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, con el asistente de conocimiento con tecnología de IA disponible en los cuadros de ayuda contextual del producto.
 
