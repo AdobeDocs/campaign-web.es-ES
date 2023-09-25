@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -301,6 +301,12 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 >id="acw_delivery_reporting_breakdown_os"
 >title="Desglose por sistemas operativos"
 >abstract="El **Desglose por sistema operativo** muestra el desglose de aperturas por sistema operativo durante el periodo correspondiente. El primer gráfico muestra estadísticas relacionadas con las aperturas en un equipo y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Desglose por explorador"
+>abstract="El **Desglose por explorador** muestra el desglose de las aperturas por explorador durante el periodo correspondiente. El primer gráfico muestra estadísticas relacionadas con las aperturas en un equipo y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles."
+
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 
