@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '503'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ El **Estadísticas generales** El informe presenta los datos de los mensajes SMS
 >abstract="El **Exclusiones** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
 
-* **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
+El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![](assets/reporting_sms_6.png)
 
