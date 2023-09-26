@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 82%
    + [Introducción](get-started/get-started.md)
    + [Descubra la interfaz](get-started/user-interface.md)
    + [Examen, búsqueda y filtrado de listas](get-started/list-filters.md)
-   + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
+   + [Trabajar con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
-   + [Protecciones y limitaciones](get-started/guardrails.md)
+   + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Funciones no admitidas](get-started/unsupported.md)
    + [Buscar ayuda y orientación](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
@@ -46,7 +46,7 @@ ht-degree: 82%
             + [Añadir un vínculo a la página espejo](content/mirror-page.md)
             + [Añadir un preencabezado](content/preheader.md)
             + [Generar la versión de texto](content/text-version-email.md)
-         + Asistente de contenido {#content-assistant}
+         + Ayudante de contenido {#content-assistant}
             + [Introducción al Asistente de contenido](content/generative-gs.md)
             + [Generación de texto con el asistente de contenido](content/generative-content.md)
             + [Generación de imágenes con el asistente de contenido](content/generative-image.md)
@@ -83,8 +83,8 @@ ht-degree: 82%
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de entregas de prueba](preview-test/test-deliveries.md)
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
-+ Audiencias y destinatarios {#audiences}
-   + [Trabajo con destinatarios y audiencias](audience/about-recipients.md)
++ Públicos y destinatarios {#audiences}
+   + [Trabajar con destinatarios y públicos](audience/about-recipients.md)
    + [Creación de audiencias](audience/create-audience.md)
    + Selección de los destinatarios de la entrega {#target-audiences}
       + [Selección de una audiencia existente](audience/add-audience.md)
@@ -93,9 +93,9 @@ ht-degree: 82%
       + [Establecer un grupo de control](audience/control-group.md)
    + [Trabajo con el generador de reglas](audience/segment-builder.md)
    + [Monitorización y administración de audiencias](audience/manage-audience.md)
-   + Trabajo con servicios de suscripción {#work-with-services}
+   + Trabajar con servicios de suscripción {#work-with-services}
       + [Administrar servicios](audience/manage-services.md)
-      + [Administración de suscriptores](audience/manage-subscribers.md)
+      + [Administrar suscriptores](audience/manage-subscribers.md)
 + Campañas en canales múltiples {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
@@ -119,7 +119,7 @@ ht-degree: 82%
       + [Correo electrónico, SMS, push](workflows/activities/channels.md)
       + [Enriquecimiento](workflows/activities/enrichment.md)
       + [Bifurcación](workflows/activities/fork.md)
-      + [Guardado de audiencia](workflows/activities/save-audience.md)
+      + [Guardado de público](workflows/activities/save-audience.md)
       + [Planificador](workflows/activities/scheduler.md)
       + [División](workflows/activities/split.md)
       + [Espera](workflows/activities/wait.md)

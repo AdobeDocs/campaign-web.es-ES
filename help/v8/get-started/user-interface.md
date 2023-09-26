@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 72%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia 
 
 ## Menú de navegación izquierdo {#user-interface-left-nav}
 
-Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Algunas pantallas de lista son de solo lectura. Los elementos mostrados en el menú de navegación de la izquierda y en las listas dependen de los permisos de usuario. Más información sobre los permisos en [esta sección](permissions.md).
+Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Algunas pantallas de lista son de solo lectura. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario. Puede obtener más información sobre permisos en [esta sección](permissions.md).
 
 ![](assets/home.png)
 
@@ -38,7 +38,7 @@ Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las fu
 
 La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación.
 
-Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de estos KPI en [esta página](../reporting/kpis.md).
+Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de los indicadores clave de rendimiento (KPI) en [esta página](../reporting/kpis.md).
 
 Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la sección **Aprendizaje** de la página principal.
 
@@ -51,7 +51,7 @@ Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la
 
 El menú **Explorer** muestra todos los recursos y objetos de Campaign con la misma jerarquía de carpetas que la consola del cliente. Examine todos los componentes, carpetas y esquemas de Campaign v8 y cree envíos, flujos de trabajo y campañas.
 
-Los elementos mostrados en la **Explorer** dependen de los permisos de usuario. También puede agregar carpetas y subcarpetas, si tiene los derechos adecuados. Más información sobre los permisos en [esta sección](permissions.md).
+Los elementos mostrados en **Explorer** dependen de los permisos de usuario. También puede agregar carpetas y subcarpetas, si tiene los derechos adecuados. Puede obtener más información sobre permisos en [esta sección](permissions.md).
 
 Como en cualquier pantalla de lista, puede configurar columnas para personalizar la visualización y ver toda la información que necesite. Consulte esta [sección](#list-screens).
 
@@ -74,10 +74,10 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 
 ### Administración de clientes {#user-interface-customer-management}
 
-En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los públicos destinatarios y las suscripciones. Estas listas son de solo lectura.
+En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los públicos y las suscripciones. Estas listas son de solo lectura.
 
-* **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Más información sobre los destinatarios en [esta sección](../audience/about-recipients.md).
-* **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información acerca de audiencias y listas en [esta sección](../audience/about-recipients.md).
+* **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Puede obtener más información sobre destinatarios en [esta sección](../audience/about-recipients.md).
+* **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información sobre públicos y listas en [esta sección](../audience/about-recipients.md).
 * **Suscripciones**: examine las listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Obtenga información sobre cómo administrar suscripciones y bajas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=es){target="_blank"}.
 
 ### Gestión de decisiones {#decision-management}
@@ -85,12 +85,12 @@ En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los pú
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Ofertas"
->abstract="Examine las listas de ofertas y las plantillas de ofertas que se han creado en la consola utilizando **Interacción** módulo. Estas listas son de solo lectura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Adición de ofertas a una entrega"
+>abstract="Examine las listas de ofertas y las plantillas de ofertas que se han creado en la consola utilizando el módulo **Interacción**. Estas listas son de solo lectura."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=es" text="Adición de ofertas a un envío"
 
 En la sección GESTIÓN DE DECISIONES, puede ver las ofertas y las plantillas de ofertas. Estas listas son de solo lectura.
 
-* **Ofertas** : Examine la lista de ofertas y las plantillas de ofertas que se han creado en la consola con el **Interacción** módulo. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta.
+* **Ofertas** : examine la lista de ofertas y las plantillas de ofertas que se han creado en la consola con el módulo **Interacción**. De forma predeterminada, puede ver su estado, fechas de inicio/finalización y entorno. Puede filtrar la lista por estado y fechas de inicio/finalización. También están disponibles las plantillas de oferta.
 
 Obtenga información sobre cómo crear y enviar ofertas en correos electrónicos y SMS en [esta sección](../content/offers.md).
 
@@ -117,7 +117,7 @@ Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, hag
 
 Con la nueva versión beta, la **Asistente de conocimientos con tecnología de IA** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
 
-Gracias a las capacidades de Campaign Gen AI, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro asistente de conocimiento con tecnología de IA es su mejor compañero, ya que proporciona una eficiencia y precisión inigualables en cada interacción.
+Gracias a las funciones Gen IA de Campaign, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro asistente de conocimiento con tecnología de IA es su mejor compañero, ya que proporciona una eficiencia y precisión inigualables en cada interacción.
 
 Obtenga más información en [esta sección](using-ai.md).
 
@@ -141,7 +141,7 @@ La web de la versión 8 de Campaign está disponible actualmente en los siguient
 * Chino tradicional - CHT
 
 
-El idioma predeterminado para Campaign Web viene determinado por el idioma preferido especificado en el perfil de usuario. No está relacionado con el idioma del servidor de Campaign y de la consola del cliente.
+El idioma predeterminado de la web de Campaign viene determinado por el idioma preferido especificado en el perfil de usuario. No está relacionado con el idioma del servidor de Campaign y de la consola del cliente.
 
 Para cambiar el idioma, haga lo siguiente:
 
@@ -151,7 +151,7 @@ Para cambiar el idioma, haga lo siguiente:
 
 ## Tema oscuro {#dark-theme}
 
-Puede cambiar al tema oscuro desde el icono de perfil. Utilice el **Tema oscuro** marque esta opción para habilitarla o deshabilitarla.
+Puede cambiar al tema oscuro desde el icono de perfil. Utilice la alternancia **Tema oscuro** para habilitarlo o deshabilitarlo.
 
 ## Más información {#learn-more}
 
@@ -186,12 +186,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Envío de informes globales"
->abstract="Las métricas de informes de seguimiento se pueden ver en esta pantalla"
+>abstract="Las métricas de la creación de informes de seguimiento se pueden ver en esta pantalla"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Seguimiento de informes globales"
->abstract="Las métricas de informes de seguimiento se pueden ver en esta pantalla"
+>abstract="Las métricas de la creación de informes de seguimiento se pueden ver en esta pantalla"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
