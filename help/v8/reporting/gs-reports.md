@@ -4,7 +4,7 @@ title: Introducción a los informes
 description: Obtenga información sobre cómo acceder y administrar informes en Campaign Web
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 

@@ -5,16 +5,16 @@ description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
 source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
 # Novedades {#new}
 
-Estamos encantados de presentar la versión BETA de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
+Estamos encantados de presentar la versión BETA de la IU web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
 
 ## Funcionalidades clave {#key-features}
 
@@ -43,43 +43,43 @@ Obtenga más información sobre la nueva IU en [esta página](../get-started/use
 Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../content/edit-content.md)
-* Envío de campañas en canales múltiples, incluidas notificaciones push y SMS: [Más información](../workflows/activities/channels.md)
-* Definir audiencias de destinatarios con el generador de reglas: [más información](../audience/about-recipients.md)
-* Previsualización, prueba y envío de mensajes: [Más información](../monitor/prepare-send.md)
+* Enviar campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
+* Definir públicos de destinatarios con el generador de reglas: [más información](../audience/about-recipients.md)
+* Previsualizar, probar y enviar mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
 
 ## Actualizaciones de la versión beta {#beta-release}
 
-A continuación, se enumeran las funciones clave incluidas en Campaign Web Beta.
+A continuación, se enumeran las funciones clave incluidas en la versión Beta de Campaign Web.
 
-* **Más actividades de flujo de trabajo de campaña**
+* **Más actividades de flujo de trabajo de Campaign**
 
-  Sobrecargue sus campañas de marketing con nuestra **conjunto ampliado de actividades de flujo de trabajo**. Libere nuevas posibilidades para la automatización y la optimización, lo que le permite crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los déclencheur condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes dirigidos e impulsar un mejor rendimiento de la campaña.
+  Sobrecargue sus campañas de marketing con nuestro **conjunto ampliado de actividades de flujo de trabajo**. Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña.
 
   Obtenga más información en [esta sección](../workflows/gs-workflows.md).
 
-* **Generación de IA para el contenido de correo electrónico**
+* **Gen IA para contenido de correo electrónico**
 
-  Diga adiós a la creación manual de contenido y hola a las campañas eficientes impulsadas por datos con el poder de la generación de IA.  Nuestra tecnología de IA de generación utiliza algoritmos avanzados para **generar contenido altamente atractivo y personalizado**. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen AI. Manténgase a la cabeza de la competencia y eleve su juego de marketing por correo electrónico con Gen AI en el contenido del correo electrónico. Esta capacidad estará disponible a partir de principios de octubre.
+  Despídase de la creación manual de contenido y dé la bienvenida a las campañas eficientes y basadas en datos con el poder de Gen IA.  Nuestra tecnología Gen IA utiliza algoritmos avanzados para **generar contenido altamente atractivo y personalizado**. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico. Esta función estará disponible a partir de principios de octubre.
 
   Obtenga más información en [esta sección](../content/generative-gs.md).
 
 * **Filtros predefinidos**
 
-  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para **administración y personalización de filtros predefinidos** para satisfacer sus necesidades específicas. Cree una vez y guárdela para usarla en el futuro.
+  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para **administrar y personalizar filtros predefinidos** para satisfacer sus necesidades específicas. Créela una sola vez y guárdela para usarla en el futuro.
 
   Obtenga más información en [esta sección](../get-started/predefined-filters.md).
 
-* **Audiencia de destino con el generador de reglas**
+* **Público destinatario con el generador de reglas**
 
-  Crear un objetivo de envío nunca ha sido tan fácil. Con nuestro **último generador de reglas** Ahora, puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Además, puede aprovechar la audiencia de AEP (Adobe Experience Platform) para refinar aún más la audiencia de destino y maximizar el impacto de su campaña.
+  Crear un objetivo de envío nunca ha sido tan fácil. Con nuestro **último generador de reglas**, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Además, puede aprovechar el público de AEP (Adobe Experience Platform) para refinar aún más el público destinatario y maximizar el impacto de su campaña.
 
   Obtenga más información en [esta sección](../audience/segment-builder.md).
 
 * **SMS con ofertas**
 
-  La nueva interfaz de usuario web ahora le permite **integración de ofertas con SMS** además del correo electrónico. Llegue a su audiencia desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
+  La nueva IU web ahora le permite **integrar ofertas con SMS** además del correo electrónico. Llegue a su público desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
 
   Obtenga más información en [esta sección](../content/offers.md).
 
@@ -91,13 +91,13 @@ A continuación, se enumeran las funciones clave incluidas en Campaign Web Beta.
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
 
-* **Asistente de conocimientos con Gen AI**
+* **Asistente de conocimientos con Gen IA**
 
-  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo **Asistente de conocimientos con tecnología de IA**, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso. Esta capacidad estará disponible a partir de principios de octubre.
+  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo **Asistente de conocimientos con tecnología de IA**, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso. Esta función estará disponible a partir de principios de octubre.
 
   Obtenga más información en [esta sección](../get-started/using-ai.md).
 
-* **HTML Converter para el diseño de correo electrónico**
+* **Conversor de HTML para el diseño de correo electrónico**
 
   Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de correo electrónico de Campaign. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.
 
@@ -110,7 +110,7 @@ Como usuario de Campaign, puede seguir accediendo a la consola del cliente para 
 
 Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la IU de Campaign Web desde la navegación izquierda del Explorer. Obtenga más información sobre la vista de Explorer en [esta sección](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Con la versión beta de Campaign Web, la interfaz de usuario refleja los permisos del usuario. Obtenga más información acerca de los permisos en [esta página](../get-started/permissions.md).
+Con la versión beta de Campaign Web, la interfaz de usuario refleja los permisos del usuario. Obtenga más información acerca de los flujos de trabajo en [esta página](../get-started/permissions.md).
 
 ## Actualizaciones terminológicas {#terminology-updates}
 
@@ -118,13 +118,13 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 
 * Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El destinatario de las pruebas ahora se denomina **Perfiles de prueba**. [Más información](../preview-test/test-deliveries.md).
 * Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales de la base de datos. [Más información](../preview-test/test-deliveries.md).
-* El análisis del envío ahora es la **preparación del envío**. Cuando tenga que iniciar la preparación del mensaje, haga clic en **Preparar** botón. [Más información](../monitor/prepare-send.md).
+* El análisis del envío ahora es la **preparación del envío**. Cuando necesite iniciar la preparación del mensaje, haga clic en el botón **Preparar**. [Más información](../monitor/prepare-send.md).
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../preview-test/preview-test.md)
 * Las listas son ahora **Públicos**. [Más información](../audience/about-recipients.md).
 
 ## Limitaciones{#limitations-beta}
 
-Las limitaciones siguientes se aplican a esta versión beta:
+Las limitaciones siguientes se aplican a esta versión Beta:
 
 * Los objetos editables son: envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
 * La interfaz de usuario de Administración no está disponible.
@@ -132,4 +132,4 @@ Las limitaciones siguientes se aplican a esta versión beta:
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
 * Las notificaciones de Adobe Experience Cloud y la Ayuda unificada disponibles en la barra superior aún no están integradas.
 
-Hay más protecciones y limitaciones disponibles en [esta página](../get-started/guardrails.md).
+Hay más mecanismos de protección y limitaciones disponibles en [esta página](../get-started/guardrails.md).

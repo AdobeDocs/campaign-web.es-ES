@@ -5,9 +5,9 @@ description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Ca
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
->abstract="Una entrega de de es una comunicación que se envía a una audiencia a través de un canal específico: correo electrónico, SMS o push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de las entregas completados. Haga clic en **Creación de envíos** para añadir un nuevo envío."
+>abstract="Un envío es una comunicación que se envía a un público a través de un canal específico: correo electrónico, SMS o Push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de los envíos completados. Haga clic en el botón **Crear envío** para añadir un nuevo envío."
 
 Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su eficacia mediante varios informes dedicados.
 
 Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario. Estos envíos pueden ser independientes o incluirse en flujos de trabajo en el contexto de una campaña de marketing.
 
-Adobe Campaign v8 incluye los siguientes canales de entrega: correo electrónico, SMS y aplicaciones móviles.
+Adobe Campaign v8 incluye los siguientes canales de envío: correo electrónico, SMS y aplicaciones móviles.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -58,7 +58,7 @@ Adobe Campaign v8 incluye los siguientes canales de entrega: correo electrónico
 
 ## Creación de un envío {#create-delivery}
 
-Puede crear envíos independientes desde el **[!UICONTROL Envíos]** menú de la izquierda o cree entregas en el contexto de un flujo de trabajo, incluidas o no en una campaña.
+Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]** o crear envíos en el contexto de un flujo de trabajo, incluidos o no en una campaña.
 
 Examine las pestañas siguientes para aprender a crear un envío:
 
@@ -80,18 +80,18 @@ Para crear un envío independiente, siga estos pasos:
 
 1. Defina la audiencia del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre las audiencias en [esta sección](../audience/about-recipients.md).
 1. Definición del contenido del mensaje.
-1. (opcional) Defina la entrega [programación](#gs-schedule). Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
+1. (opcional) Defina la [programación](#gs-schedule) de envíos. Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
 1. Haga clic en el botón **[!UICONTROL Revisar y enviar]** para comprobar su configuración.
 1. Utilice el botón **[!UICONTROL Simular contenido]** para probar el envío y la configuración de personalización. Puede obtener más información sobre la simulación de mensajes en [esta sección](../preview-test/preview-test.md).
 1. Haga clic en el botón **[!UICONTROL Preparar]** para calcular el público destinatario y generar los mensajes. El paso de preparación puede tardar unos minutos. Cuando la preparación haya finalizado, los mensajes estarán listos para enviarse. En caso de error, vaya a los **Registros** para comprobar las alertas y advertencias.
 1. Compruebe los resultados y haga clic en el botón **[!UICONTROL Enviar]** para empezar a enviar mensajes.
 1. Una vez enviados los mensajes, vaya a la sección **Informes** para acceder a métricas clave. Obtenga más información sobre los informes de envíos en [esta sección](../reporting/delivery-reports.md).
 
->[!TAB Creación de una entrega en un flujo de trabajo]
+>[!TAB Creación de un envío en un flujo de trabajo]
 
-Para crear una entrega en un flujo de trabajo, siga estos pasos:
+Para crear un envío en un flujo de trabajo, siga estos pasos:
 
-1. Cree un flujo de trabajo o abra uno existente. Obtenga más información sobre los flujos de trabajo en [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Cree un flujo de trabajo o abra uno existente. Obtenga más información acerca de los flujos de trabajo en [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps).
 1. Adición y configuración de una actividad **[!UICONTROL Crear audiencia]** y haga clic en el botón `+`.
 
    ![](assets/add-delivery-in-wf.png)
@@ -145,15 +145,15 @@ Una vez definido el contenido del mensaje, puede obtener una vista previa para c
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Establecer una fecha y hora de contacto"
->abstract="Defina la fecha y la hora exacta para realizar la entrega. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
+>abstract="Defina la fecha y la hora exacta de envío. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
 
 Puede establecer la fecha y la hora exacta para enviar los mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura.
 
-Para programar el envío de una entrega, abra la entrega y vaya a **[!UICONTROL Programación]** sección. Utilice el **[!UICONTROL Habilitar programación]** marque la opción para activarla y establezca la fecha y la hora deseadas para la entrega. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
+Para programar el envío del correo electrónico, abra el correo electrónico a enviar y busque la sección **[!UICONTROL Programación]**. Utilice la opción **[!UICONTROL Habilitar programación]** para activarlo y establezca la fecha y hora deseadas para el envío. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
 
 ![](assets/schedule.png)
 
-De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que se realice la entrega en la fecha y hora programadas. Si necesita realizar la entrega automáticamente en la fecha y hora programadas, puede desactivar esta opción.
+De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que el correo electrónico se envíe en la fecha y hora programadas. Si necesita enviar el correo electrónico automáticamente en la fecha y hora programadas, puede deshabilitar esta opción.
 
 Obtenga información sobre los pasos para realizar un envío programado en [esta sección](../monitor/prepare-send.md#schedule-the-send).
 
