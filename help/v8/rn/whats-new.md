@@ -4,15 +4,21 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
-workflow-type: ht
-source-wordcount: '1016'
-ht-degree: 100%
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 98%
 
 ---
 
 
 # Novedades {#new}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Novedades"
+>abstract="Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="Encuentre orientación con el nuevo asistente de conocimientos con tecnología de IA"
 
 Estamos encantados de presentar la versión BETA de la IU web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
 
