@@ -4,10 +4,10 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 5%
+source-wordcount: '1145'
+ht-degree: 4%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 5%
 >title="Modo de vista previa"
 >abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el público destinatario principal."
 
-**[!UICONTROL Adobe Campaign]** permite probar un mensaje antes de enviarlo a la audiencia principal.
+Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo enviando envíos de prueba (también conocido como. &#39;proofs&#39;) para probar perfiles. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
-El envío de envíos de prueba (anteriormente conocidos como &quot;pruebas&quot;) es un paso importante para validar la campaña e identificar posibles problemas.
-
-Los destinatarios de una prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes o páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de envío.
+Para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe mensajes de prueba a perfiles de prueba antes de enviarlos a la audiencia de destino. Se debe enviar un mensaje de prueba cada vez que se realiza un cambio para validar el contenido más reciente. El envío de envíos de prueba (anteriormente conocidos como &quot;pruebas&quot;) es un paso importante para validar la campaña e identificar posibles problemas. Los destinatarios de un mensaje de prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes o páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de envío.
 
 ## Seleccione los destinatarios de la prueba {#test-recipients}
 
@@ -58,6 +56,10 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 >title="Archivo de plantilla"
 >abstract="El formato del archivo debe ser el mismo que el del archivo original.<br/>Formatos de archivo compatibles: txt, csv. Tamaño máximo de archivo: 15 MB. Usar la primera línea como encabezado de columna."
 
+
+Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear en la variable [!DNL Adobe Campaign] consola de cliente en **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. A continuación se detallan los pasos para enviar mensajes de prueba a las direcciones semilla.
+
+
 1. Vaya a la pantalla de edición de contenido de su envío de correo electrónico o SMS y haga clic en **[!UICONTROL Simular contenido]** botón.
 
 1. Haga clic en **[!UICONTROL Prueba]** botón.
@@ -84,7 +86,7 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 
 ### Perfiles de sustitución {#substitution-profiles}
 
-Para enviar un correo electrónico o SMS de prueba a una dirección de correo electrónico o un número de teléfono específicos mientras se muestran datos de un perfil existente de [!DNL Campaign] base de datos, utilice perfiles de sustitución.
+Para enviar un correo electrónico o SMS de prueba a una dirección de correo electrónico o un número de teléfono específicos mientras se muestran datos de un perfil existente de [!DNL Adobe Campaign] base de datos, utilice perfiles de sustitución, como se detalla a continuación:
 
 1. Antes de enviar una prueba, asegúrese de definir una audiencia objetivo para la entrega. [Más información](../audience/about-recipients.md)
 
@@ -120,7 +122,7 @@ Para enviar un correo electrónico o SMS de prueba a una dirección de correo el
 
 ### Suscriptores {#subscribers}
 
-Al trabajar con notificaciones push, los envíos de prueba solo se pueden enviar a los suscriptores. Para seleccionarlos, siga los pasos a continuación.
+Al trabajar con notificaciones push, los envíos de prueba solo se pueden enviar a los suscriptores de la aplicación. Para seleccionarlos, siga los pasos a continuación.
 
 1. Vaya a la pantalla de edición de contenido del envío y haga clic en **[!UICONTROL Simular contenido]** botón.
 
