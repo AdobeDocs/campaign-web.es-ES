@@ -4,9 +4,9 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ A continuación, se enumeran las funciones clave incluidas en la versión Beta d
 
 * **Gen IA para contenido de correo electrónico**
 
-  Despídase de la creación manual de contenido y dé la bienvenida a las campañas eficientes y basadas en datos con el poder de Gen IA.  Nuestra tecnología Gen IA utiliza algoritmos avanzados para **generar contenido altamente atractivo y personalizado**. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico. Esta función estará disponible a partir de principios de octubre.
+  Despídase de la creación manual de contenido y dé la bienvenida a las campañas eficientes y basadas en datos con el poder de Gen IA.  Nuestra tecnología Gen IA utiliza algoritmos avanzados para **generar contenido altamente atractivo y personalizado**. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico.
 
   Obtenga más información en [esta sección](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ A continuación, se enumeran las funciones clave incluidas en la versión Beta d
 
 * **Asistente de conocimientos con Gen IA**
 
-  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo **Asistente de conocimientos con tecnología de IA**, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso. Esta función estará disponible a partir de principios de octubre.
+  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. El nuevo **Asistente de conocimientos con tecnología de IA**, integrado en las ventanas emergentes de ayuda contextual, le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso.
 
   Obtenga más información en [esta sección](../get-started/using-ai.md).
 

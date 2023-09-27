@@ -3,9 +3,9 @@ audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,9 @@ Una vez creados y personalizados los correos electrónicos, utilice el asistente
 
 El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que probablemente interesará más a su audiencia.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Esta capacidad estará disponible a principios de octubre.
+>Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations).
 
 Para generar y mejorar el contenido de un correo electrónico con el Ayudante de contenido, siga los pasos a continuación. También puede crear el contenido completo del HTML con el Ayudante de contenido, como se detalla en [esta página](generative-email.md).
 
@@ -42,7 +41,7 @@ Para generar y mejorar el contenido de un correo electrónico con el Ayudante de
 
    ![](assets/text-genai-3.png)
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** para añadir cualquier recurso de marca que contenga contenido que pueda proporcionar un contexto adicional, utilice el Ayudante de contenido.
 
    También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 

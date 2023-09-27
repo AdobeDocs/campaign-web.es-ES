@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción al Ayudante de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,8 @@ El asistente de contenido, con tecnología de IA generativa, es una herramienta 
 
 Esta función ahorra tiempo y garantiza una calidad coherente al generar automáticamente contenido de correo electrónico completo. Al utilizar la IA generativa, puede crear correos electrónicos atractivos sin esfuerzo, lo que mejora la eficacia y la eficiencia de su comunicación.
 
->[!AVAILABILITY]
->
->Esta capacidad estará disponible a principios de octubre.
+Puede utilizar el asistente de contenido de Campaign en sus correos electrónicos para lo siguiente: [generar imágenes](generative-image.md), [generar contenido de texto](generative-content.md), [generación del contenido completo del HTML](generative-email.md).
+
 
 ## Mecanismos de protección y limitaciones {#generative-guardrails}
 
