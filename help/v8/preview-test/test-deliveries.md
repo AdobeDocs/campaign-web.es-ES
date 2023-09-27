@@ -4,7 +4,7 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 4%
@@ -58,7 +58,6 @@ Para seleccionar los destinatarios de una entrega de prueba, siga los pasos a co
 
 
 Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear en la variable [!DNL Adobe Campaign] consola de cliente en **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. A continuación se detallan los pasos para enviar mensajes de prueba a las direcciones semilla.
-
 
 1. Vaya a la pantalla de edición de contenido de su envío de correo electrónico o SMS y haga clic en **[!UICONTROL Simular contenido]** botón.
 
