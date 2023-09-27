@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Texto con el asistente de contenido
-description: Introducción al asistente de contenido
+description: Introducción al Ayudante de contenido
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Generación de texto con el asistente de contenido {#generative-content}
 
-Una vez que haya creado y personalizado sus correos electrónicos, utilice el asistente de contenido con tecnología de IA generativa para llevar su contenido al siguiente nivel.
+Una vez creados y personalizados los correos electrónicos, utilice el asistente de contenido con tecnología de IA generativa para llevar el contenido al siguiente nivel.
 
 El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que probablemente interesará más a su audiencia.
 
@@ -21,6 +21,8 @@ El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos s
 >[!AVAILABILITY]
 >
 >Esta capacidad estará disponible a principios de octubre.
+
+Para generar y mejorar el contenido de un correo electrónico con el Ayudante de contenido, siga los pasos a continuación. También puede crear el contenido completo del HTML con el Ayudante de contenido, como se detalla en [esta página](generative-email.md).
 
 1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Editar contenido]**.
 
@@ -36,11 +38,11 @@ El asistente de contenido puede ayudarle a optimizar el impacto de sus envíos s
 
 1. Ajuste el contenido describiendo lo que desea generar.
 
-   Habilite la **[!UICONTROL Mejorar con el contexto actual]** para que el asistente de contenido personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
+   Habilite la **[!UICONTROL Mejorar con el contexto actual]** para que el Ayudante de contenido personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
    ![](assets/text-genai-3.png)
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
 
    También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 

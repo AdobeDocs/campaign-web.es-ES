@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 93%
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 93%
             + [Añadir un preencabezado](content/preheader.md)
             + [Generar la versión de texto](content/text-version-email.md)
          + Ayudante de contenido {#content-assistant}
-            + [Introducción al Asistente de contenido](content/generative-gs.md)
+            + [Introducción al Ayudante de contenido](content/generative-gs.md)
             + [Generación de texto con el asistente de contenido](content/generative-content.md)
             + [Generación de imágenes con el asistente de contenido](content/generative-image.md)
             + [Generación de correo electrónico con el asistente de contenido](content/generative-email.md)

@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Generación de imágenes con el asistente de contenido
-description: Introducción al asistente de contenido
+description: Introducción al Ayudante de contenido
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -27,7 +27,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
 1. Rellene el **[!UICONTROL Detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido de correo electrónico]**.
 
-1. Seleccione el recurso que desea cambiar con el asistente de contenido.
+1. Seleccione el recurso que desea cambiar con el Ayudante de contenido.
 
 1. En el menú derecho, seleccione **[!UICONTROL Generación de experiencias]**.
 
@@ -37,7 +37,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
    ![](assets/image-genai-2.png)
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
 
    También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 
