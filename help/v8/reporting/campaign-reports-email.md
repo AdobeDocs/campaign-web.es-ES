@@ -3,22 +3,24 @@ audience: end-user
 title: Informes de campaña para el canal de correo electrónico
 description: Más información sobre los informes de campaña para el canal de correo electrónico
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 33%
+source-wordcount: '1546'
+ht-degree: 32%
 
 ---
 
 
 # Informes de campaña para el canal de correo electrónico {#campaign-reports-email-channel}
 
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo electrónico. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+
 ## Resumen de envíos {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Información general del envío"
->abstract="La Información general de entrega proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico."
+>abstract="El **Resumen de entrega** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico."
 
 ### Información general del envío {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 +++
 
 ### Estadísticas de reacción {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico conti
 
 ### Estadísticas de entrega {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Estadísticas de entrega"
+>abstract="El **Estadísticas de envío** El gráfico detalla el éxito de su envío y los errores que se han producido."
+
 El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados. Las métricas se detallan a continuación.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indica
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widget de tasa de apertura y clics"
+>title="Tasa de clics y de apertura"
 >abstract="El **Tasa de apertura y clics** La tabla muestra datos relativos a la participación de los destinatarios en el envío."
 
 
@@ -253,8 +260,6 @@ El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores c
 
 ### Los 10 vínculos más visitados {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Los 10 vínculos más visitados"
@@ -286,13 +291,19 @@ el **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Actividades de usuario {#user-activities-email}
 
-El  **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Las métricas se detallan a continuación.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Actividades del usuario"
+>abstract="El **Actividades de usuario** El gráfico muestra el desglose de aperturas y clics en forma de gráfico."
 
-![](assets/campaign_report_email_12.png)
+El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Las métricas de este informe se detallan a continuación.
 
-+++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
 

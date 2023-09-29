@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '479'
 ht-degree: 12%
 
 ---
@@ -13,7 +13,14 @@ ht-degree: 12%
 
 # Informes de campaña para el canal push {#campaign-reports-push-channel}
 
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal push. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+
 ## Resumen de envíos {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="Información general del envío"
+>abstract="El **Resumen de entrega** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push."
 
 El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
 
@@ -31,6 +38,12 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 
 ### Estadísticas del público inicial {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="Estadísticas del público inicial"
+>abstract="El **Estadísticas de audiencia de destinatario inicial** La tabla muestra datos relativos a los destinatarios"
+
 El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 +++Obtenga más información sobre las métricas de informes de campañas push.
@@ -44,6 +57,11 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 +++
 
 ### Estadísticas de ejecución {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="Estadísticas de ejecución"
+>abstract="El **Estadísticas de ejecución** Esta tabla detalla el éxito de su entrega: mensajes para entregar, éxito, errores y nuevas cuarentenas."
 
 El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío. Las métricas se detallan a continuación.
 
@@ -60,6 +78,11 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 +++
 
 ### Flujos de clics generados {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="Flujos de clics generados"
+>abstract="El **Flujos de clics generados** La tabla muestra los datos disponibles en relación con la interacción de los destinatarios con el envío."
 
 El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío. Las métricas se detallan a continuación.
 
