@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los informes
 description: Obtenga información sobre cómo acceder y administrar informes en Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 44%
 
 ---
 
@@ -16,10 +16,9 @@ Nuestro completo conjunto de herramientas de creación de informes proporciona i
 
 Adobe Campaign ofrece dos informes diferentes:
 
-* **Informe de envío**: el **Informe de envío** ofrece información y datos completos específicos de cada canal. Proporciona información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
+* **Informes de envío**: La **Informes de envío** ofrecen información y datos completos específicos de cada canal. Estos informes proporcionan información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
 
-* **Informe de campaña**: el **Informe de campaña** ofrece una descripción general completa de la campaña, que incluye toda la información pertinente sobre los distintos envíos incluidos. Este informe ofrece un análisis exhaustivo del rendimiento de cada envío, las tasas de éxito, la participación del público destinatario y otras métricas esenciales, lo que le permite evaluar la eficacia general y el impacto de su campaña.
-
+* **Informes de campaña**: La **Informes de campaña** proporcione una visión general completa de la campaña, incorporando toda la información pertinente sobre los diferentes envíos incluidos. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío, por canal: tasas de éxito, participación de la audiencia y otras métricas esenciales. Permiten evaluar la eficacia y el impacto generales de la campaña.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -27,7 +26,7 @@ Adobe Campaign ofrece dos informes diferentes:
 <a href="email-report.md">
 <img alt="Posible cliente" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="email-report.md"><strong>Informe de envío de correo electrónico</strong>
+<div><a href="email-report.md"><strong>Informes de envío de correo electrónico</strong>
 </div>
 <p>
 </td>
@@ -36,7 +35,7 @@ Adobe Campaign ofrece dos informes diferentes:
 <img alt="Poco frecuente" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> Informe de envío de push<strong></strong></a>
+<a href="push-report.md"><strong> Informes de envío push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -44,7 +43,7 @@ Adobe Campaign ofrece dos informes diferentes:
 <img alt="Validación" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> Informe de envío de SMS</strong></a>
+<a href="sms-report.md"><strong> Informes de envío de SMS</strong></a>
 </div>
 <p>
 </td>
@@ -53,7 +52,7 @@ Adobe Campaign ofrece dos informes diferentes:
 <img alt="Validación" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Informe de la campaña</strong></a>
+<a href="campaign-reports.md"><strong>Informes de campaña</strong></a>
 </div>
 <p>
 </td>
