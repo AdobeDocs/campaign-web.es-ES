@@ -2,9 +2,9 @@
 title: Uso del asistente de conocimientos con tecnología de IA en Campaign Web
 description: Uso del asistente de conocimientos con tecnología de IA en Campaign Web
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ Los modelos de inteligencia artificial y aprendizaje automático mejoran con el 
 
 ## Recomendaciones  {#recommendations-ai}
 
-Al hacer una pregunta en el asistente de conocimientos con tecnología de IA, se tiene en cuenta el contexto actual del producto, es decir, la pantalla de Campaign en la que se encuentra y el contenido del cuadro de ayuda actual.
+Al hacer una pregunta en el asistente de conocimientos con tecnología de IA, se tiene en cuenta el contexto actual del producto, es decir, la pantalla en la que se encuentra y el contenido del cuadro de ayuda actual.
 
-Para obtener lo mejor del asistente de conocimiento con tecnología de IA, al hacer una pregunta, le recomendamos que:
+Como consecuencia, la práctica recomendada es hacer preguntas relacionadas con el contexto de la interfaz de usuario. Por ejemplo, si necesita aprender a realizar una entrega push en un flujo de trabajo, vaya a la **Flujo de trabajo** entrada de menú izquierda y utilice un cuadro de ayuda contextual en ese contexto específico. Para obtener más información sobre las métricas de creación de informes, vaya a los informes de campaña o entrega y comience desde allí.
+
+
+Además, para sacar el máximo partido al asistente de conocimiento con tecnología de IA, al hacer una pregunta, le recomendamos que:
 
 * Sea lo más preciso y específico posible y evite la ambigüedad. La respuesta será más precisa y útil.
 * Para ayudar al asistente de conocimiento con tecnología de IA a encontrar la información correcta, agregue tantos detalles como sea posible sobre lo que está intentando aprender.

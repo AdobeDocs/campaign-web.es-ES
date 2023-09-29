@@ -4,9 +4,9 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
+source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1108'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 >title="Modo de vista previa"
 >abstract="Obtenga una vista previa y pruebe el mensaje incluyendo la población de prueba en el público destinatario principal."
 
-Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo enviando envíos de prueba (también conocido como. &#39;proofs&#39;) para probar perfiles. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
+Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo enviando envíos de prueba a perfiles de prueba. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
 Para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe mensajes de prueba a perfiles de prueba antes de enviarlos a la audiencia de destino. Se debe enviar un mensaje de prueba cada vez que se realiza un cambio para validar el contenido más reciente. El envío de envíos de prueba (anteriormente conocidos como &quot;pruebas&quot;) es un paso importante para validar la campaña e identificar posibles problemas. Los destinatarios de un mensaje de prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes o páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de envío.
 
@@ -34,7 +34,7 @@ Antes de enviar una prueba, asegúrese de definir una audiencia objetivo para la
 
 Para comenzar a probar el contenido del mensaje:
 
-1. Edite el contenido del envío de correo electrónico o SMS.
+1. Edite el contenido del envío.
 1. Haga clic en **[!UICONTROL Simular contenido]** botón.
 1. Haga clic en **[!UICONTROL Prueba]** para enviar mensajes de prueba.
 
@@ -72,23 +72,13 @@ Para comenzar a probar el contenido del mensaje:
 
 Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear en la variable [!DNL Adobe Campaign] consola de cliente. A continuación se detallan los pasos para enviar mensajes de prueba a las direcciones semilla.
 
-1. Edite el contenido de la entrega y haga clic en **[!UICONTROL Simular contenido]** botón. Luego haga clic en **[!UICONTROL Prueba]** botón.
-
-   >[!NOTE]
-   >
-   >Si ya ha seleccionado perfiles para [previsualización del envío](preview-content.md), aparecen en el panel izquierdo.
-
-   ![](assets/simulate-test-button-email.png)
+1. En el contenido de su envío, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.
 
 1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **[!UICONTROL Perfiles de prueba]** para dirigirse a destinatarios ficticios que recibirán el correo electrónico o el SMS de prueba.
 
    ![](assets/simulate-profile-mode.png)
 
 1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
-
-   >[!NOTE]
-   >
-   >De forma predeterminada, la variable **[!UICONTROL Uso de perfiles de prueba]** El modo está seleccionado.
 
 1. Para enviar también el mensaje final a los destinatarios de la entrega de prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
 
@@ -99,9 +89,7 @@ Los perfiles de prueba son direcciones semilla que son destinatarios adicionales
 Utilice la sustitución de perfiles para enviar mensajes de prueba a una dirección de correo electrónico o un número de teléfono específicos, mientras se muestran datos de un perfil existente de [!DNL Adobe Campaign] base de datos. Para ello, siga los pasos a continuación:
 
 
-1. Edite el contenido de la entrega y haga clic en **[!UICONTROL Simular contenido]** botón. Luego haga clic en **[!UICONTROL Prueba]** botón.
-
-   ![](assets/simulate-test-button-email.png)
+1. En el contenido de su envío, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.
 
 1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **[!UICONTROL Sustituir del destinatario principal]** para enviar una prueba a una dirección de correo electrónico o número de teléfono específicos mientras se muestran los datos de un perfil existente.
 
@@ -131,7 +119,7 @@ Utilice la sustitución de perfiles para enviar mensajes de prueba a una direcci
 
 Al trabajar con notificaciones push, los envíos de prueba solo se pueden enviar a los suscriptores de la aplicación. Para seleccionarlos, siga los pasos a continuación.
 
-1. Edite el contenido de la entrega y haga clic en **[!UICONTROL Simular contenido]** botón. Luego haga clic en **[!UICONTROL Prueba]** botón.
+1. En el contenido de la entrega push, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.
 
    ![](assets/simulate-test-button-push.png)
 
