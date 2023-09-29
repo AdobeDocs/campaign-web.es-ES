@@ -4,10 +4,10 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 35%
+source-wordcount: '596'
+ht-degree: 34%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 35%
 >id="acw_audience_fromfile_formatting"
 >title="Parámetros de formato"
 >abstract="Compruebe los parámetros de formato del archivo."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Previsualización del archivo"
+>abstract="Compruebe la previsualización del archivo. Esta pantalla solo muestra hasta 30 registros."
+
+
 
 No puede cargar perfiles directamente en Campaign desde la interfaz, pero puede segmentar perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).
 
