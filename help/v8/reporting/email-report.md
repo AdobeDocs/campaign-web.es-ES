@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2257'
 ht-degree: 29%
 
 ---
@@ -202,10 +202,6 @@ Las métricas disponibles son las mismas que para el [Desglose de errores por ti
 >title="Seguimiento de creación de informes"
 >abstract="El **Seguimiento** dentro de su informe ofrece datos valiosos, incluido el comportamiento de los destinatarios por vínculo, el desglose de aperturas y clics, así como información detallada sobre las direcciones URL donde se hace clic con más frecuencia durante una entrega."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widget de tasa de apertura y clics"
->abstract="El **Tasa de apertura y clics** La tabla muestra datos relativos a la participación de los destinatarios en el envío."
 
 ### Estadísticas de entrega  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ El **[!UICONTROL Estadísticas de envío]** Este informe proporciona indicadores
 
 ### Tasa de clics y de apertura {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget de tasa de apertura y clics"
+>abstract="El **Tasa de apertura y clics** La tabla muestra datos relativos a la participación de los destinatarios en el envío."
+
+
+
 El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="Widget de URL y flujos de clics"
+>title="URL y flujos de clics"
 >abstract="El **URL y flujos de clics** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante una entrega."
 
-* El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante una entrega.
 
-  ![](assets/reporting_email_7.png){align="center"}
+El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante una entrega.
 
-  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
++++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
-   * **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
+* **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
-   * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+* **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
-   * **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
+* **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
 
-+++
-
-* **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
-
-   * **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
-
-   * **[!UICONTROL Porcentaje]**: porcentaje de usuarios que interactuaron con el envío.
+* **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
 
 +++
 
-* **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
+### Los 10 vínculos más visitados {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="Los 10 vínculos más visitados"
+>abstract="El **Los 10 vínculos más visitados** El gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo."
+
+
+El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
+
+* **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+
+* **[!UICONTROL Porcentaje]**: porcentaje de usuarios que interactuaron con el envío.
+
++++
+
+### Desglose de clics a lo largo del tiempo {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Desglose de clics a lo largo del tiempo"
+>abstract="El **Desglose de los clics a lo largo del tiempo** el gráfico muestra los datos disponibles del comportamiento del destinatario por vínculo."
+
+
+El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Actividades de usuario {#user-activities-email}
 
@@ -332,7 +354,6 @@ El **[!UICONTROL Estadísticas de seguimiento]** El gráfico proporciona estadí
 +++
 
 ## Desglose de aperturas {#breakdown-opens}
-
 
 ### Desglose de aperturas por dispositivo {#breakdown-opens-devices}
 
