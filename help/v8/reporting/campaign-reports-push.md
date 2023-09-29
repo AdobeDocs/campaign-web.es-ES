@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
 badge: label="Beta"
-source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
+source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 12%
+source-wordcount: '507'
+ht-degree: 9%
 
 ---
 
@@ -35,7 +35,7 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 
 * **[!UICONTROL Errores]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
+* **[!UICONTROL Clics totales]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
 +++
 
@@ -82,7 +82,9 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 
 * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (registro no válido, rechazo de mensaje, error de carga útil, por ejemplo). en relación con el número de mensajes que se van a enviar.
+
+  Los tipos de error de notificaciones push se enumeran en [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -99,9 +101,9 @@ El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a
 
 +++Obtenga más información sobre las métricas de informes de campañas push.
 
-* **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
+* **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
-* **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+* **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
 * **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 

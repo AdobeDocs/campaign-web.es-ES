@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal de correo electrónico
 description: Más información sobre los informes de campaña para el canal de correo electrónico
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 32%
+source-wordcount: '1568'
+ht-degree: 31%
 
 ---
 
@@ -85,6 +85,9 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+
+  Los tipos de error de correo electrónico se enumeran en la [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+
 
 +++
 

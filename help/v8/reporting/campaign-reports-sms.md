@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal SMS
 description: Comprensión de los informes de campaña del canal SMS
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 12%
+source-wordcount: '499'
+ht-degree: 11%
 
 ---
 
@@ -86,6 +86,8 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 * **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+
+  Los tipos de error de SMS se enumeran en la [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
