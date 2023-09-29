@@ -1,17 +1,22 @@
 ---
 title: Uso del asistente de conocimientos con tecnología de IA en Campaign Web
 description: Uso del asistente de conocimientos con tecnología de IA en Campaign Web
-badge: label="Beta"
-source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
+badge: label="Alfa"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
 # Uso del asistente de conocimiento con tecnología de IA {#using-ai}
 
 Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, con el asistente de conocimiento con tecnología de IA disponible en los cuadros de ayuda contextual del producto.
+
+>[!NOTE]
+>
+>Esta funcionalidad está disponible en su versión de Alpha y sujeta a cambios sin previo aviso.
+
 
 El **Asistente de conocimientos con Gen AI** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
 
