@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
-ht-degree: 29%
+source-wordcount: '2254'
+ht-degree: 30%
 
 ---
 
@@ -19,7 +19,7 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Informes que envían"
->abstract="él **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con las entregas y cualquier posible error que hayan encontrado."
+>abstract="El **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con las entregas y cualquier posible error que hayan encontrado."
 
 ### Población de públicos destinatarios iniciales {#email-delivery-targeted-population}
 
@@ -106,7 +106,7 @@ El **[!UICONTROL Causas de exclusión]** el gráfico y la tabla muestran el desg
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Widget de rendimiento del envío"
+>title="Rendimiento del envío"
 >abstract="El **Rendimiento del envío** Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado."
 
 Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
@@ -118,7 +118,7 @@ Este informe presenta información detallada sobre el rendimiento de entrega de 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget de estadísticas de difusión"
+>title="Estadísticas de difusión"
 >abstract="El **Estadísticas de difusión** El informe contiene los datos disponibles sobre los posibles errores encontrados con cada dominio."
 
 El **[!UICONTROL Estadísticas de difusión]** contiene los datos disponibles de los posibles errores encontrados con cada dominio. Las métricas se detallan a continuación.
@@ -235,7 +235,7 @@ El **[!UICONTROL Estadísticas de envío]** Este informe proporciona indicadores
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget de tasa de apertura y clics"
+>title="Tasa de clics y de apertura"
 >abstract="El **Tasa de apertura y clics** La tabla muestra datos relativos a la participación de los destinatarios en el envío."
 
 
@@ -306,7 +306,7 @@ El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla conti
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Desglose de clics a lo largo del tiempo"
 >abstract="El **Desglose de los clics a lo largo del tiempo** el gráfico muestra los datos disponibles del comportamiento del destinatario por vínculo."
 

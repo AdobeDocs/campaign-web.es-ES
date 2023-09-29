@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 3%
@@ -11,11 +11,6 @@ ht-degree: 3%
 ---
 
 # Informes de envío push {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Resumen del informe de envío push"
->abstract="El **Resumen de envío push** ofrece una amplia descripción general de la entrega push, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ El **Informe de envío push** ofrece una descripción general completa del canal
 ## Resumen de push {#push-summary}
 
 ### Información general del envío {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Resumen del informe de envío push"
+>abstract="El **Resumen de envío push** ofrece una amplia descripción general de la entrega push, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
 El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push.
 
@@ -45,7 +45,6 @@ El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clav
 +++
 
 ### Población objetivo {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"

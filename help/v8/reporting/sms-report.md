@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 2%
@@ -13,11 +13,6 @@ ht-degree: 2%
 # Informes de envío de SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Resumen de envío de SMS"
->abstract="El **Resumen de envío de SMS** ofrece una amplia descripción general de su envío de SMS, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Informes que envían"
 >abstract="El **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con las entregas y cualquier posible error que hayan encontrado."
@@ -25,6 +20,11 @@ ht-degree: 2%
 El **Resumen de envío de SMS** ofrece una amplia descripción general de su envío de SMS, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío.
 
 ## Resumen de envíos {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="Resumen de envío de SMS"
+>abstract="El **Resumen de envío de SMS** ofrece una amplia descripción general de su envío de SMS, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
 ### Información general del envío {#sms-delivery-overview}
 
