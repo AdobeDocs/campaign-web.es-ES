@@ -3,9 +3,7 @@ audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
-hide: true
-hidefromtoc: true
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
