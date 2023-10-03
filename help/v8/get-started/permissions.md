@@ -4,7 +4,7 @@ title: Administración de permisos en la web de Campaign
 description: Obtenga más información sobre los permisos en la versión 8 de la web de Campaign
 badge: label="Beta"
 source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 

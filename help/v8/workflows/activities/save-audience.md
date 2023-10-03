@@ -11,7 +11,7 @@ ht-degree: 8%
 ---
 
 
-# Guardado de audiencia {#save-audience}
+# Guardado de público {#save-audience}
 
 <!--
 >[!CONTEXTUALHELP]

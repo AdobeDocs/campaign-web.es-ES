@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 62%
+ht-degree: 68%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Audiencias de destino"
->abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con el último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche la audiencia de Adobe Experience Platform para refinar aún más la audiencia de destino y maximizar el impacto de la campaña."
+>title="Públicos destinatarios"
+>abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con nuestro último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche la audiencia de Adobe Experience Platform para refinar aún más la audiencia de destino y maximizar el impacto de la campaña."
 
 El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Puede utilizarlo para crear una audiencia a partir de un flujo de trabajo mediante una **[!UICONTROL Crear audiencia]** actividad de o directamente al crear una entrega para crear una audiencia única.
 

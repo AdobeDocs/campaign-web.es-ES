@@ -1,16 +1,16 @@
 ---
-title: Trabajo con destinatarios y audiencias
+title: Trabajar con destinatarios y públicos
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
 
-# Trabajo con destinatarios y audiencias {#about-recipients}
+# Trabajar con destinatarios y públicos {#about-recipients}
 
 En Adobe Campaign, la población objetivo de una entrega es una audiencia. Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar [como se detalla a continuación](#audiences). En la mayoría de los casos, la audiencia está formada por perfiles, que se almacenan como [destinatarios](#recipients) en Adobe Campaign. También puede trabajar con otras asignaciones de destino cambiando la dimensión como se explica a continuación [en esta sección](#targeting-dimensions).
 
@@ -45,7 +45,7 @@ También puede acceder a los destinatarios desde el **Explorer** vea, examine y 
 
 >[!NOTE]
 >
->Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Más información sobre los permisos en [esta sección](../get-started/permissions.md).
+>Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Puede obtener más información sobre permisos en [esta sección](../get-started/permissions.md).
 
 Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
 

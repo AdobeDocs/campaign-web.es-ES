@@ -4,7 +4,7 @@ title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 

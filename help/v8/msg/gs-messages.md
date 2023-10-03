@@ -5,7 +5,7 @@ description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Ca
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
 

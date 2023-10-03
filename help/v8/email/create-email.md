@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Generación de IA para contenido de correo electrónico"
->abstract="Nuestra tecnología de IA general utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen AI. Manténgase a la cabeza de la competencia y eleve su juego de marketing por correo electrónico con Gen AI en el contenido del correo electrónico."
+>abstract="Nuestra tecnología Gen IA utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico."
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 

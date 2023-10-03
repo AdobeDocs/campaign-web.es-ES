@@ -16,7 +16,7 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Actividad del planificador"
+>title="Planificador  actividad"
 >abstract="El **Planificador** Esta actividad le permite programar cuándo se inicia el flujo de trabajo. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
 
 
