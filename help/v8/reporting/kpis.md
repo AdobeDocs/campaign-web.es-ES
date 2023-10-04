@@ -2,7 +2,8 @@
 title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 98%
@@ -29,7 +30,7 @@ Puede seleccionar el canal que desea mostrar. De forma predeterminada, los indic
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
 >title="Entregados"
->abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes procesados correctamente y el porcentaje de mensajes enviados correctamente en comparación con la cantidad total de mensajes enviados."
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes procesados correctamente y el porcentaje de mensajes entregados correctamente en comparación con la cantidad total de mensajes enviados."
 
 La cantidad de mensajes enviados refleja la tasa de entregabilidad. Nunca puede ser del 100 % por los siguientes motivos: es posible que algunas direcciones o números de teléfono sean incorrectos, que los bloqueadores de correo no deseado de los proveedores de correo electrónico rechacen sus mensajes o que se produzcan problemas de entregabilidad.
 
@@ -113,4 +114,3 @@ Para cada canal, el indicador **Errores** muestra los siguientes indicadores cla
 * Porcentaje de errores en comparación con la cantidad total de mensajes que se van a enviar.
 
 * Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos.
-

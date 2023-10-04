@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -56,13 +56,13 @@ Para comenzar a probar el contenido del mensaje:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="Destinatario de la prueba"
->abstract="Puede cargar un segundo archivo como &quot;destino de la prueba&quot;, si desea probar el envío antes de enviarlo al destino principal."
+>title="Público destinatario de la prueba"
+>abstract="Puede cargar un segundo archivo como &quot;público destinatario de la prueba&quot;, si desea probar el envío antes de enviarlo al público destinatario principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="Cargar perfiles"
->abstract="Puede cargar un segundo archivo con perfiles adicionales si desea probar el envío con un conjunto diferente del conjunto utilizado para el destinatario principal."
+>abstract="Puede cargar un segundo archivo con perfiles adicionales si desea probar el envío con un conjunto diferente del conjunto utilizado para el público destinatario principal."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
