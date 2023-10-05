@@ -2,13 +2,13 @@
 title: Trabajar con destinatarios y públicos
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 20%
+source-wordcount: '1027'
+ht-degree: 18%
 
 ---
-
 
 # Trabajar con destinatarios y públicos {#about-recipients}
 
@@ -47,13 +47,13 @@ También puede acceder a los destinatarios desde el **Explorer** vea, examine y 
 >
 >Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Puede obtener más información sobre permisos en [esta sección](../get-started/permissions.md).
 
-Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
+Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. Aprenda a trabajar con servicios de suscripción en [esta página](manage-services.md)
 
 Puede crear flujos de trabajo para deduplicar, enriquecer, combinar perfiles y crear audiencias. Obtenga más información en [esta sección](../workflows/gs-workflows.md).
 
 ## ¿Qué son las audiencias? {#audiences}
 
-El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. [Descubra qué es una plantilla de envíos](../msg/delivery-template.md).
+El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. Obtenga más información sobre las plantillas de envío en [esta página](../msg/delivery-template.md).
 
 Para definir la población de una audiencia, puede:
 
@@ -66,7 +66,7 @@ Al segmentar una audiencia, también puede definir lo siguiente **grupos de cont
 
 >[!NOTE]
 >
->Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Crear audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir el público destinatario de su envío en un flujo de trabajo de campaña [en esta sección](../workflows/activities/build-audience.md)
+>Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Crear audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir la audiencia de su envío en un flujo de trabajo de campaña en [esta sección](../workflows/activities/build-audience.md)
 
 ## Dimensiones de segmentación {#targeting-dimensions}
 
