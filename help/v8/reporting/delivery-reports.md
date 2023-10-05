@@ -4,10 +4,10 @@ title: Informes de envío
 description: Obtenga información sobre cómo acceder a los informes de envío y cómo utilizarlos
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 37%
+source-wordcount: '204'
+ht-degree: 35%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Recargar"
->abstract="Haga clic en **Recargar** para recuperar las últimas métricas y actualizar los datos."
+>title="Exportar"
+>abstract="Haga clic en **Exportar** para exportar estas métricas a los formatos PDF o CSV, lo que le permite compartirlas o imprimirlas. "
 
 Adobe Campaign ofrece varios tipos de informes para cada envío a los que puede acceder. Estos informes le permiten medir y visualizar el impacto y el rendimiento de sus mensajes en un panel integrado.
 
