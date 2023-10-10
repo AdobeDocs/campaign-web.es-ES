@@ -69,7 +69,7 @@ Al crear y personalizar el contenido del mensaje, puede seleccionar campos del a
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Importación de una audiencia desde un archivo"
+>title="Importación de un público desde un archivo"
 >abstract="Los formatos de archivo admitidos son TXT y CSV. Usar la primera línea como encabezado de columna. Alinee el formato del archivo con el archivo de muestra proporcionado en el vínculo siguiente."
 
 Los formatos compatibles son TXT y CSV. La primera línea es el encabezado de columna.
