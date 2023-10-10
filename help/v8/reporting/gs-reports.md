@@ -3,10 +3,11 @@ audience: end-user
 title: Introducción a los informes
 description: Obtenga información sobre cómo acceder y administrar informes en Campaign Web
 badge: label="Beta"
-source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
-workflow-type: tm+mt
+exl-id: b353bc86-2228-4e02-879c-ae9425c48489
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +17,9 @@ Nuestro completo conjunto de herramientas de creación de informes proporciona i
 
 Adobe Campaign ofrece dos informes diferentes:
 
-* **Informes de envío**: La **Informes de envío** ofrecen información y datos completos específicos de cada canal. Estos informes proporcionan información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
+* **Informes de envío**: los **informes de envío** ofrecen información y datos completos específicos de cada canal. Estos informes proporcionan información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
 
-* **Informes de campaña**: La **Informes de campaña** proporcione una visión general completa de la campaña, incorporando toda la información pertinente sobre los diferentes envíos incluidos. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío, por canal: tasas de éxito, participación de la audiencia y otras métricas esenciales. Permiten evaluar la eficacia y el impacto generales de la campaña.
+* **Informes de campaña**: los **informes de campaña** ofrecen una descripción general completa de la campaña, que incluye toda la información pertinente sobre los distintos envíos incluidos. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío por canal: tasa de éxito, participación del público y otras métricas esenciales. Le permiten evaluar la eficacia y el impacto generales de la campaña.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

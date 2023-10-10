@@ -6,9 +6,9 @@ description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
 source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 85%
             + [Añadir un preencabezado](content/preheader.md)
             + [Generar la versión de texto](content/text-version-email.md)
          + Ayudante de contenido {#content-assistant}
-            + [Introducción al Ayudante de contenido](content/generative-gs.md)
+            + [Introducción al Asistente de contenido](content/generative-gs.md)
             + [Generación de texto con el asistente de contenido](content/generative-content.md)
             + [Generación de imágenes con el asistente de contenido](content/generative-image.md)
             + [Generación de correo electrónico con el asistente de contenido](content/generative-email.md)
@@ -77,7 +77,7 @@ ht-degree: 85%
       + [Añadir contenido condicional](personalization/conditions.md)
       + [Añadir bloques de contenido integrados](personalization/content-blocks.md)
    + [Añadir ofertas a los mensajes](content/offers.md)
-   + [Envío de mensajes a los suscriptores](content/send-to-subscribers.md)
+   + [Enviar mensajes a los suscriptores](content/send-to-subscribers.md)
    + Vista previa y prueba del envío {#preview-test}
       + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
@@ -85,14 +85,14 @@ ht-degree: 85%
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Públicos y destinatarios {#audiences}
    + [Trabajar con destinatarios y públicos](audience/about-recipients.md)
-   + [Creación de audiencias](audience/create-audience.md)
-   + Selección de los destinatarios de la entrega {#target-audiences}
-      + [Selección de una audiencia existente](audience/add-audience.md)
-      + [Crear una audiencia única](audience/one-time-audience.md)
-      + [Importación de una audiencia desde un archivo](audience/file-audience.md)
+   + [Creación de públicos](audience/create-audience.md)
+   + Seleccionar los destinatarios del envío {#target-audiences}
+      + [Selección de un público existente](audience/add-audience.md)
+      + [Crear un público único](audience/one-time-audience.md)
+      + [Importación de un público desde un archivo](audience/file-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
-   + [Trabajo con el generador de reglas](audience/segment-builder.md)
-   + [Monitorización y administración de audiencias](audience/manage-audience.md)
+   + [Trabajar con el generador de reglas](audience/segment-builder.md)
+   + [Monitorizar y administrar públicos](audience/manage-audience.md)
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Administrar servicios](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)
@@ -134,5 +134,5 @@ ht-degree: 85%
    + Informes de campaña {#campaign-report}
       + [Acceso a informes de campaña](reporting/campaign-reports.md)
       + [Informes de campaña de correo electrónico](reporting/campaign-reports-email.md)
-      + [Informes de campañas push](reporting/campaign-reports-push.md)
+      + [Informes de campaña push](reporting/campaign-reports-push.md)
       + [Informes de campaña de SMS](reporting/campaign-reports-sms.md)

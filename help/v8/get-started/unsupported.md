@@ -5,22 +5,22 @@ description: Lista de funciones no admitidas en la interfaz de usuario web de Ca
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
-workflow-type: tm+mt
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-
 # Funciones no admitidas en Campaign Web {#unsupported-capabilities}
 
-Se puede acceder a las siguientes funcionalidades desde la consola del cliente de Campaign, pero aún no están disponibles en la interfaz de usuario web. Algunos estarán disponibles en una versión posterior, pero otros no.
+Se puede acceder a las siguientes funcionalidades desde la consola del cliente de Campaign, pero aún no están disponibles en la interfaz de usuario web. Algunas estarán disponibles en una versión posterior, pero otras no.
 
 **Página principal**
 
 * Panel de página de inicio
-* Personalización de página de inicio
+* Personalización de la página de inicio
 
 **Administración de campañas**
 
@@ -49,26 +49,26 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 
 * Creación de perfiles
 * Tablero de perfil
-* Creación del perfil de prueba
+* Creación de perfiles de prueba
 * Panel de perfil de prueba
 
 **Mensajería transaccional**
 
 * Creación y ejecución de mensajes en tiempo real en correos electrónicos, SMS y push
 * Enriquecimiento y personalización de mensajes
-* Déclencheur (abandono del carro de compras de Adobe Analytics)
+* Activadores (abandono del carro de compras de Adobe Analytics)
 * Creación de informes y monitorización de mensajería transaccional
 
 **Diseño de contenido**
 
 * Contenido de recursos públicos
-* Bucles/gestión de colecciones
-* Guardado de contenido de un HTML como plantilla`*`
+* Bucles/Administración de colecciones
+* Guardado de contenido HTML como plantilla`*`
 * Sincronización de plantillas de correo electrónico desde Adobe Experience Manager
 * Recursos de Adobe Experience Manager 6.5 en un contenido de correo electrónico
 * Creación de bloques de contenido
-* Contenido de formularios personalizados
-* Contenido de una dirección URL`*`
+* Contenido desde formularios personalizados
+* Contenido desde una dirección URL`*`
 * Fragmentos de correo electrónico
 * AMP para correos electrónicos
 * Fragmentos de correo electrónico`*`
@@ -78,18 +78,18 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 
 * Creación de reglas de control
 * Creación de reglas de fatiga
-* Filtrado de creación de reglas
+* Creación de reglas de filtrado
 * Administración de reglas de tipología
-* Codificación JavaScript para la creación de reglas de tipología
+* Programación JavaScript para la creación de reglas de tipología
 
 **Flujos de trabajo**
 
 * Scripts en flujos de trabajo
-* Actividades de ETL: exportar, editar esquema, carga de datos, extracción de datos, código SQL
+* Actividades de ETL: exportación, edición de esquema, carga de datos, extracción de datos, código SQL
 
-**Administración de ofertas**
+**Offer management**
 
-* Diseño de ofertas con reglas de aceptación
+* Diseño de ofertas con reglas de idoneidad
 
 **Integración con las soluciones de Adobe Experience Cloud***
 
@@ -97,21 +97,21 @@ Se puede acceder a las siguientes funcionalidades desde la consola del cliente d
 * Uso compartido de KPI en Adobe Analytics
 * Uso de segmentos de Adobe Audience Manager
 * Integración con Adobe Target
-* Integración con Déclencheur de Adobe
+* Integración con activadores de Adobe
 
 **Creación de informes**
 
-* Informe de envío integrado
+* Informe de entregabilidad integrado
 * Informe global integrado
-* Personalizaciones de informes
-* El uso compartido del informe se ha programado como PDF y CSV, o vínculo
-* Exportación o descarga de un informe como archivo CSV o de PDF
+* Personalizaciones de creación de informes
+* Uso compartido de informes en una programación en formato PDF y CSV, o como vínculo
+* Exportación o descarga de un informe como un archivo CSV o PDF
 
 **Modelado e ingesta de datos**
 
 * Cuentas externas
 * Extensión de los esquemas
-* Actividades del flujo de trabajo de gestión de datos: Data loading, Extraction (file), Update data, Edit schema, Import/export technical workflows
+* Actividades del flujo de trabajo de administración de datos: cargar datos, extracción (archivo), actualizar datos, editar esquema, importar/exportar flujos de trabajo técnicos
 * Configuración de Campaign y conexión a sistemas externos
 
 **Aprobaciones**
