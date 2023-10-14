@@ -2,10 +2,10 @@
 title: Conectar con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign v8
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 46%
+source-wordcount: '492'
+ht-degree: 50%
 
 ---
 
@@ -38,13 +38,13 @@ Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
 Para acceder al entorno de Campaign, seleccione **Campaign** desde la página de inicio de Adobe Experience Cloud.
 
-
 Si tiene acceso a varios entornos, incluido el Panel de control de Campaign de Campaign, haga clic en **Launch** en la tarjeta de organización.
 
 ![](assets/launch-campaign.png)
 
-También puede utilizar el conmutador de soluciones para buscar entre las soluciones de Adobe Experience Cloud.
+También puede utilizar el conmutador de soluciones para buscar entre sus soluciones de Adobe Experience Cloud y las aplicaciones.
 
+![](assets/solution-switcher.png)
 
 ## Navegación superior de Adobe Experience Cloud {#top-bar}
 
@@ -57,6 +57,9 @@ Utilice la barra superior de la interfaz para lo siguiente:
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## Navegadores admitidos {#browsers}
+
+La web de la versión 8 de Campaign está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
 
 ## Preferencias de idioma {#language-pref}
 

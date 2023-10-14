@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1029'
 ht-degree: 100%
 
 ---
@@ -103,9 +103,7 @@ Gracias a las funciones Gen IA de Campaign, este asistente transforma su experie
 
 Obtenga más información en [esta sección](using-ai.md).
 
-## Navegadores admitidos {#browsers}
 
-La web de la versión 8 de Campaign está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
 
 ## Más información {#learn-more}
 
