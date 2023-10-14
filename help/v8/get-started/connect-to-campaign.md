@@ -2,10 +2,10 @@
 title: Conectar con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign v8
 badge: label="Beta"
-source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 32%
+source-wordcount: '510'
+ht-degree: 39%
 
 ---
 
@@ -36,15 +36,17 @@ Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
 ## Acceso a Adobe Campaign {#access-to-campaign}
 
-Para acceder al entorno de Campaign, seleccione **Campaign** desde la página de inicio de Adobe Experience Cloud.
+Para acceder al entorno de Campaign, seleccione **Campaign** desde el **Acceso rápido** de la página de inicio de Adobe Experience Cloud.
 
-También puede utilizar el conmutador de soluciones para buscar entre sus soluciones de Adobe Experience Cloud y las aplicaciones.
+Si ya está conectado a otra solución de Adobe Experience Cloud, también puede navegar al entorno de Campaign desde el conmutador de soluciones en la parte superior derecha de la pantalla.
 
 ![](assets/solution-switcher.png)
 
 Si tiene acceso a varios entornos, incluido el Panel de control de Campaign de Campaign, haga clic en **Launch** para la instancia correcta.
 
 ![](assets/launch-campaign.png)
+
+Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
 
 ## Navegación superior de Adobe Experience Cloud {#top-bar}
 
