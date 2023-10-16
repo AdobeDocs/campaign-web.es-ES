@@ -4,10 +4,10 @@ title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Beta"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 38%
+source-wordcount: '513'
+ht-degree: 33%
 
 ---
 
@@ -71,7 +71,7 @@ El **Población de destino** los gráficos y las tablas muestran datos relativos
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Estadísticas generales de mensajería push"
+>title="Estadísticas generales de los SMS"
 >abstract="El informe **Estadísticas generales** presenta los datos del SMS enviado: éxitos, errores y cuarentenas."
 
 El **Estadísticas generales** El informe presenta los datos de los mensajes SMS enviados. Las métricas se detallan a continuación.
@@ -92,8 +92,8 @@ El **Estadísticas generales** El informe presenta los datos de los mensajes SMS
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Estadísticas generales de los SMS"
->abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles objetivo, recibieran el mensaje."
+>title="Exclusiones de SMS"
+>abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
 
 El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -104,9 +104,9 @@ El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menú de rendimiento del envío"
->abstract="El informe Rendimiento del envío presenta información detallada sobre el rendimiento del envío de toda la plataforma dentro de un período de tiempo especificado."
+>title="Rendimiento de entrega de SMS"
+>abstract="El **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado.  La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora."
 
-Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+Este informe presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 
 ![](assets/reporting_sms_2.png)
