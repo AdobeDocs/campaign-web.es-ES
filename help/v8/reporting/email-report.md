@@ -4,7 +4,7 @@ title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 58%
@@ -77,7 +77,7 @@ El **[!UICONTROL Estadísticas de envío]** el gráfico detalla el éxito de su 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Estadísticas de entrega"
+>title="Envío Causas de exclusión"
 >abstract="El gráfico y la tabla **Causas de exclusión** muestran el desglose por regla de mensajes rechazados durante la preparación del envío."
 
 
@@ -320,7 +320,7 @@ El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Widget de actividades de usuario"
+>title="Actividades del usuario"
 >abstract="El gráfico **Actividades de usuario** muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el período de tiempo para los datos de público destinatario: último día u hora o 30 minutos."
 
 El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el período de tiempo para los datos de público destinatario: último día u hora o 30 minutos.
@@ -339,7 +339,7 @@ El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de a
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Widget de estadísticas de seguimiento"
+>title="Estadísticas de seguimiento"
 >abstract="El gráfico **Estadísticas de seguimiento** proporciona estadísticas sobre aperturas y clics. Tiene la opción de seleccionar el lapso de tiempo específico para los datos de segmentación."
 
 El gráfico **[!UICONTROL Estadísticas de seguimiento]** proporciona estadísticas sobre aperturas y clics. Tiene la opción de seleccionar el lapso de tiempo específico para los datos de segmentación.
