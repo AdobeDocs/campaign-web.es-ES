@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 39%
+ht-degree: 45%
 
 ---
 
@@ -104,7 +104,7 @@ Para obtener más información sobre los registros de envío, consulte esta [sec
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Población adicional"
->abstract="Un grupo de control es un conjunto de perfiles excluidos del envío. Puede excluir una población específica de la audiencia de envío seleccionando una audiencia existente o definiendo una consulta."
+>abstract="Un grupo de control es un conjunto de perfiles excluidos del envío. Puede excluir una población específica del público de envío seleccionando un público existente o definiendo una consulta."
 
 Otra forma de definir un grupo de control es seleccionar una población específica en una audiencia existente o definir una consulta.
 

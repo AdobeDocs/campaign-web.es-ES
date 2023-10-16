@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 36%
+ht-degree: 45%
 
 ---
 
@@ -25,8 +25,8 @@ Los pasos para enviar ofertas con una entrega son los siguientes:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Definición de los parámetros de las ofertas"
->abstract="Configure qué ofertas deben proponerse a los destinatarios definiendo un espacio de oferta, opcionalmente una categoría y un tema, y especifique el número de ofertas que desea insertar en la entrega."
+>title="Definir los parámetros de las ofertas"
+>abstract="Configure qué ofertas deben proponerse a los destinatarios, definiendo un espacio de ofertas, opcionalmente una categoría y un tema, y especifique el número de ofertas que desea insertar en el envío."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"

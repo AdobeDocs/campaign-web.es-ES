@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 35%
+ht-degree: 50%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exportar"
->abstract="Haga clic en **Exportar** para exportar estas métricas a los formatos PDF o CSV, lo que le permite compartirlas o imprimirlas. "
+>abstract="Haga clic en el botón **Exportar** para exportar estas métricas a los formatos PDF o CSV, lo que le permite compartirlas o imprimirlas. "
 
 Adobe Campaign ofrece varios tipos de informes para cada envío a los que puede acceder. Estos informes le permiten medir y visualizar el impacto y el rendimiento de sus mensajes en un panel integrado.
 

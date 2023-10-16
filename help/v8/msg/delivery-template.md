@@ -5,11 +5,11 @@ description: Obtenga información sobre cómo crear y utilizar plantillas de env
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -49,7 +49,7 @@ Una plantilla puede incluir:
 >title="Trabajo con plantillas de envío"
 >abstract="Utilice plantillas de envío para crear y guardar sin esfuerzo los envíos existentes para uso futuro."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicación de una plantilla existente"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Conversión de una entrega en una plantilla"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Conversión de un envío en una plantilla"
 
 Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Campaign Management]** > **[!UICONTROL Envíos]** en el menú de la izquierda y vaya a **Plantillas** pestaña.
 
@@ -114,7 +114,7 @@ Para duplicar una plantilla de envíos, siga estos pasos:
 
 La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
-### Conversión de una entrega en una plantilla {#convert-an-existing-delivery}
+### Conversión de un envío en una plantilla {#convert-an-existing-delivery}
 
 Cualquier envío se puede convertir en una plantilla para futuras acciones de envío repetidas.
 
@@ -204,5 +204,3 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 * [Más información sobre la previsualización del contenido de SMS](../sms/content-sms.md)
 
 * [Más información sobre la previsualización del contenido push](../push/gs-push.md)
-
-

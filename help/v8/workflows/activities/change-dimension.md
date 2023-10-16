@@ -3,27 +3,27 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 4%
+ht-degree: 30%
 
 ---
-
 
 # Cambio de dimensión {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Generar un complemento"
+>title="Generación de un complemento"
 >abstract="Puede generar una transición saliente adicional con la población restante, que se excluyó como duplicado. Para ello, active la opción **Generar complemento**"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="Cambiar actividad de dimensión"
->abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que crea una audiencia. Desplaza el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;."
+>title="Actividad cambiar dimensión"
+>abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que genera un público. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión “contratos” a la dimensión “clientes."
 
-El **Cambiar dimensión** la actividad es una **Segmentación** actividad. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea el flujo de trabajo. Desplaza el eje en función de la plantilla de datos y la dimensión de entrada. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
+El **Cambiar dimensión** la actividad es una **Segmentación** actividad. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea el flujo de trabajo. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
 
 Por ejemplo, puede cambiar la dimensión objetivo de un flujo de trabajo de &quot;Destinatarios&quot; a &quot;Aplicación de suscriptores&quot; para enviar notificaciones push a los destinatarios objetivo.
 

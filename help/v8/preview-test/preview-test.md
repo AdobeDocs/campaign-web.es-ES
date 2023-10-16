@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 22%
+ht-degree: 30%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 22%
 >id="acw_deliveries_simulate"
 >title="Previsualizar y probar sus mensajes"
 >abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Vista previa del contenido del mensaje."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Envío de entregas de prueba"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=es" text="Vista previa del contenido del mensaje."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=es" text="Envío de entregas de prueba"
 
 Una vez definido el contenido de la entrega, puede utilizar perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
 

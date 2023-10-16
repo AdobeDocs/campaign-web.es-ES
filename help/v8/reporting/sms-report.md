@@ -3,10 +3,11 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 
@@ -14,19 +15,19 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
->title="Informes que envían"
->abstract="El **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con las entregas y cualquier posible error que hayan encontrado."
+>title=" Envío de creación de informes"
+>abstract="La pestaña **Envío** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
 
-El **Resumen de envío de SMS** ofrece una amplia descripción general de su envío de SMS, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío.
+La **Información general sobre el envío de SMS** ofrece una amplia descripción general del envío de SMS, que proporciona amplia información y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío.
 
 ## Resumen de envíos {#delivery-summary}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
->title="Resumen de envío de SMS"
->abstract="El **Resumen de envío de SMS** ofrece una amplia descripción general de su envío de SMS, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
+>title="Información general sobre el envío de SMS"
+>abstract="La **Información general sobre el envío de SMS** ofrece una amplia descripción general del envío de SMS, que proporciona amplia información y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
-### Información general del envío {#sms-delivery-overview}
+### Información general sobre el envío {#sms-delivery-overview}
 
 El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las tasas de éxito y error, y cómo los visitantes interactúan con los mensajes SMS.
 
@@ -50,8 +51,8 @@ El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clav
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
->title="Población objetivo de SMS"
->abstract="El **Población de destino** Los gráficos y las tablas muestran datos relativos a la audiencia de SMS: mensajes que enviar y exclusiones."
+>title="Población de destino de SMS"
+>abstract="El gráfico y las tablas de la **Población de destino** muestran datos relativos al público de SMS: mensajes a enviar y exclusiones."
 
 El **Población de destino** los gráficos y las tablas muestran datos relativos a la audiencia. Las métricas se detallan a continuación.
 
@@ -70,8 +71,8 @@ El **Población de destino** los gráficos y las tablas muestran datos relativos
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Estadísticas generales push"
->abstract="El **Estadísticas generales** El informe presenta los datos del SMS enviado: éxito, errores y cuarentenas."
+>title="Estadísticas generales de mensajería push"
+>abstract="El informe **Estadísticas generales** presenta los datos del SMS enviado: éxitos, errores y cuarentenas."
 
 El **Estadísticas generales** El informe presenta los datos de los mensajes SMS enviados. Las métricas se detallan a continuación.
 
@@ -91,8 +92,8 @@ El **Estadísticas generales** El informe presenta los datos de los mensajes SMS
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Estadísticas generales de SMS"
->abstract="El **Exclusiones** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
+>title="Estadísticas generales de los SMS"
+>abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles objetivo, recibieran el mensaje."
 
 
 El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -104,9 +105,8 @@ El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Menú de rendimiento del envío"
->abstract="El informe Delivery throughput presenta información detallada sobre el rendimiento de entrega de toda la plataforma dentro de un periodo de tiempo especificado."
+>abstract="El informe Rendimiento del envío presenta información detallada sobre el rendimiento del envío de toda la plataforma dentro de un período de tiempo especificado."
 
 Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 
 ![](assets/reporting_sms_2.png)
-

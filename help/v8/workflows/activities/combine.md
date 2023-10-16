@@ -3,20 +3,20 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 85%
 
 ---
-
 
 # Combinar {#combine}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
->title="Combinar actividad"
->abstract="El **Combinar** La actividad de le permite realizar la segmentación en la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos."
+>title="Actividad de combinación"
+>abstract="La actividad **Combinar** permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varias poblaciones destinatarias."
 
 
 El **Combinar** la actividad es una **Segmentación** actividad. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios. Estos son los tipos de segmentación disponibles:
@@ -44,7 +44,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selección del tipo de segmentación"
->abstract="Seleccione cómo combinar audiencias: unión, intersección o exclusión."
+>abstract="Seleccione cómo combinar públicos: unión, intersección o exclusión."
 
 Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 
@@ -66,7 +66,7 @@ Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Opciones de reconciliación"
->abstract="Seleccione el **Tipo de reconciliación** para definir cómo gestionar duplicados."
+>abstract="Seleccione el **tipo de reconciliación** para definir cómo gestionar duplicados."
 
 En el **Combinar** actividad, puede configurar un **Union**. Para ello, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
@@ -89,7 +89,7 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_sets"
->title="Seleccionar conjuntos para combinar"
+>title="Selección de conjuntos para combinar"
 >abstract="En la sección **Conjuntos que unir**, seleccione el **Conjunto principal** de las transiciones entrantes. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal."
 
 >[!CONTEXTUALHELP]
@@ -118,5 +118,3 @@ El siguiente ejemplo muestra la **intersección** entre dos actividades de consu
 El siguiente ejemplo de **exclusión** muestra dos consultas configuradas para filtrar perfiles que tienen entre 18 y 27 años y que tienen un dominio de correo electrónico de Adobe. A continuación, los perfiles con un dominio de correo electrónico de Adobe se excluyen del primer conjunto.
 
 ![](../assets/workflow-exclusion-example.png)
-
-

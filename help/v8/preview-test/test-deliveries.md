@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -86,7 +86,7 @@ Los perfiles de prueba son direcciones semilla que son destinatarios adicionales
 
 ## Sustituir datos de perfil {#substitution-profiles}
 
-Utilice la sustitución de perfiles para enviar mensajes de prueba a una dirección de correo electrónico o un número de teléfono específicos, mientras se muestran datos de un perfil existente de [!DNL Adobe Campaign] base de datos. Para ello, siga los pasos a continuación:
+Utilice la sustitución de perfiles para enviar mensajes de prueba a una dirección de correo electrónico o un número de teléfono específicos, mientras se muestran datos de un perfil existente de [!DNL Adobe Campaign] base de datos. Para realizar esto, siga los pasos a continuación:
 
 
 1. En el contenido de su envío, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.

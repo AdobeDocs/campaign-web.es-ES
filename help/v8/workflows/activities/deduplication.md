@@ -3,36 +3,36 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 badge: label="Beta"
-source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
+exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 29%
+ht-degree: 63%
 
 ---
-
 
 # Anulación de duplicación {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Campos para identificar duplicados"
->abstract="En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero."
+>title="Campos para identificar los duplicados"
+>abstract="En la sección **Campos para identificar los duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Actividad de anulación de duplicación"
->abstract="El **Deduplicación** La actividad de le permite eliminar duplicados en los resultados de las actividades entrantes. Se utiliza principalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo."
+>abstract="La actividad de **anulación de duplicación** permite eliminar duplicados en los resultados de las actividades entrantes. Se utiliza principalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos direccionados."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="Generar un complemento"
+>title="Generación de un complemento"
 >abstract="Puede generar una transición saliente adicional con la población restante, que se excluyó como duplicado. Para ello, active la opción **Generar complemento**"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Configuración de la anulación de duplicación"
->abstract="Para eliminar duplicados en los datos entrantes, defina el método de anulación de duplicación en los campos siguientes. De forma predeterminada, solo se guarda un registro. También debe seleccionar el modo de deduplicación en función de una expresión o un atributo. De forma predeterminada, el registro que se va a excluir de los duplicados se selecciona de forma aleatoria."
+>abstract="Para eliminar duplicados en los datos entrantes, defina el método de anulación de duplicación en los campos siguientes. De forma predeterminada, solo se guarda un registro. También debe seleccionar el modo de anulación de duplicación en función de una expresión o un atributo. De forma predeterminada, el registro que se va a excluir de los duplicados se selecciona de forma aleatoria."
 
 El **Deduplicación** la actividad es una **Segmentación** actividad. Esta actividad le permite eliminar duplicados en los resultados de las actividades entrantes, por ejemplo perfiles duplicados en la lista de destinatarios. El **Deduplicación** la actividad se utiliza generalmente después de actividades de segmentación y antes de actividades que permiten el uso de datos de objetivo.
 
@@ -44,7 +44,7 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 1. Añadir un **Deduplicación** a su flujo de trabajo.
 
-1. En el **Campos para identificar duplicados** , haga clic en **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán primero.
+1. En la sección **Campos para identificar los duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre, apellidos, etc. El orden de los campos permite especificar los que se procesarán en primer lugar.
 
 1. Seleccione el número de **Duplicados que mantener**. El valor predeterminado de este campo es 1. El valor 0 le permite mantener todos los duplicados.
 

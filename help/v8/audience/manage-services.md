@@ -3,20 +3,20 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
-
 
 # Trabajar con servicios de suscripción {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="Crear y administrar sus servicios"
->abstract="Utilice Adobe Campaign para crear y supervisar sus servicios, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS."
+>title="Creación y administración de los servicios"
+>abstract="Utilice Adobe Campaign para crear y monitorizar sus servicios, como los boletines informativos, y para comprobar las suscripciones o las bajas a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS."
 
 Utilice la web de Adobe Campaign para administrar y crear sus servicios, como boletines informativos, y para comprobar las suscripciones o cancelaciones de suscripción a estos servicios.
 
@@ -48,13 +48,13 @@ Para acceder a los servicios de suscripción disponibles para su plataforma, sig
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Defina las propiedades del servicio"
->abstract="Introduzca la etiqueta del servicio de suscripción y defina opciones adicionales, como un periodo de validez del servicio."
+>title="Definición de las propiedades del servicio"
+>abstract="Introduzca la etiqueta del servicio de suscripción y defina opciones adicionales, como el período de validez del servicio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Seleccionar un mensaje de confirmación"
->abstract="Cuando un usuario se suscribe o cancela la suscripción a un servicio, puede enviar un mensaje de confirmación. Seleccione las plantillas que desea utilizar para ese mensaje."
+>title="Selección de un mensaje de confirmación"
+>abstract="Cuando un usuario se suscribe o cancela la suscripción a un servicio, puede enviar un mensaje de confirmación. Seleccione las plantillas que usará en ese mensaje."
 
 Para crear un servicio de suscripción, siga los pasos a continuación.
 
@@ -131,11 +131,3 @@ Para medir la eficacia de los servicios de suscripción para canales de correo e
    * El **[!UICONTROL Evolución general de las suscripciones]** El gráfico muestra el desglose por periodo, incluidas las suscripciones, las bajas, la evolución en los números y el porcentaje de fidelidad.<!--what is Registered?-->
 
 1. Utilice el **[!UICONTROL Recargar]** para recuperar los últimos valores de la ejecución y programación del flujo de trabajo de seguimiento.
-
-
-
-
-
-
-
-

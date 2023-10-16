@@ -3,10 +3,11 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
+exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1347'
-ht-degree: 21%
+ht-degree: 48%
 
 ---
 
@@ -75,13 +76,13 @@ El modo Push silenciosa permite enviar una notificación “silenciosa” a una 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="Configuración avanzada de notificaciones push"
->abstract="Defina la configuración avanzada para la notificación push, como su prioridad, el recuento de notificaciones asociado, las variables de aplicación y mucho más."
+>abstract="Defina la configuración avanzada para la notificación push como su prioridad, el recuento de notificaciones asociado, las variables de aplicación y mucho más."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="Modo de alerta crítica para iOS"
->abstract="Active esta opción para agregar sonido a la notificación, incluso cuando el teléfono del usuario esté en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que, en cualquier caso, se notifique a los usuarios de alertas importantes."
+>abstract="Habilite esta opción para añadir sonido a la notificación, incluso si el teléfono del usuario está en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que, en cualquier caso, se notifique a los usuarios de las alertas importantes."
 
 
 >[!CONTEXTUALHELP]
@@ -104,7 +105,7 @@ El modo Push silenciosa permite enviar una notificación “silenciosa” a una 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
 >title="Variables de aplicación para iOS"
->abstract="Utilice variables de aplicación para definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen como parte de la carga de mensajes que se envía al dispositivo móvil."
+>abstract="Utilice variables de aplicación para definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen, ya que una parte de la carga útil de mensajes se envía al dispositivo móvil."
 
 
 >[!CONTEXTUALHELP]
@@ -129,7 +130,7 @@ El modo Push silenciosa permite enviar una notificación “silenciosa” a una 
 | **[!UICONTROL Prioridad]** | Defina el nivel de prioridad de la notificación, que puede ser predeterminado, mínimo, bajo o alto. El nivel de prioridad determina la importancia y la urgencia de la notificación, lo que influye en cómo se muestra y si puede omitir determinada configuración del sistema. Para más información, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
 | **[!UICONTROL Visibilidad]** | Defina el nivel de visibilidad de la notificación, que puede ser pública, privada o secreta. El nivel de visibilidad determina la cantidad de contenido de la notificación que se muestra en la pantalla de bloqueo y en otras áreas confidenciales. Para obtener más información, consulte la [Documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
 | **[!UICONTROL Adhesivo]** | Cuando se activa, la notificación permanece visible incluso después de que el usuario haga clic en ella. <br>Si se desactiva, la notificación se descarta automáticamente cuando el usuario interactúa con ella. El comportamiento adhesivo permite que las notificaciones importantes persistan en la pantalla durante períodos más largos. |
-| **[!UICONTROL Variables de aplicación]** | Permite definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen como parte de la carga de mensajes que se envía al dispositivo móvil. |
+| **[!UICONTROL Variables de aplicación]** | Permite definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen, ya que una parte de la carga útil de mensajes se envía al dispositivo móvil. |
 
 >[!TAB iOS]
 
@@ -137,7 +138,7 @@ El modo Push silenciosa permite enviar una notificación “silenciosa” a una 
 
 | Parámetro | Descripción |
 |---------|---------|
-| **[!UICONTROL Modo de alerta crítica]** | Active esta opción para agregar sonido a la notificación, incluso cuando el teléfono del usuario esté en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que el usuario observe las alertas importantes. |
+| **[!UICONTROL Modo de alerta crítica]** | Habilite esta opción para añadir sonido a la notificación, incluso si el teléfono del usuario está en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que el usuario observe las alertas importantes. |
 | **[!UICONTROL Insignia limpia]** | Active esta opción para actualizar el valor del distintivo mostrado en el icono de la aplicación. Garantiza que el distintivo refleje con precisión la cantidad de información nueva no leída. |
 | **[!UICONTROL Recuento de notificaciones]** | Establezca un número que se mostrará directamente en el icono de la aplicación, indicando la cantidad de información nueva no leída. Esto proporciona una referencia visual rápida para el usuario. |
 | **[!UICONTROL Volumen]** | Volumen de su sonido de 0 a 100. |
@@ -148,11 +149,8 @@ El modo Push silenciosa permite enviar una notificación “silenciosa” a una 
 | **[!UICONTROL Categoría]** | Especifique el nombre del ID de categoría asociado a la notificación. Esto permite mostrar los botones de acción, lo que permite al usuario realizar varias tareas directamente desde la notificación sin abrir la aplicación. |
 | **[!UICONTROL ID de contenido del público destinatario]** | Identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación. |
 | **[!UICONTROL Imagen de inicio]** | Especifique el nombre del archivo de imagen de lanzamiento que se mostrará cuando el usuario decida iniciar la aplicación desde la notificación. Se mostrará la imagen seleccionada en lugar de la pantalla de inicio normal de la aplicación. |
-| **[!UICONTROL Variables de aplicación]** | Permite definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen como parte de la carga de mensajes que se envía al dispositivo móvil. |
+| **[!UICONTROL Variables de aplicación]** | Permite definir el comportamiento de las notificaciones. Estas variables son totalmente personalizables y se incluyen, ya que una parte de la carga útil de mensajes se envía al dispositivo móvil. |
 
 >[!ENDTABS]
 
 <!--Sounds must be included in the application and defined when the service is created. Refer to this section.-->
-
-
-

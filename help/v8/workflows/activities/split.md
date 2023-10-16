@@ -3,20 +3,20 @@ audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
-
 
 # División {#split}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="División actividad"
->abstract="El **Split** La actividad de le permite segmentar las poblaciones entrantes en varios subconjuntos en función de diferentes criterios de selección, como reglas de filtrado o tamaño de población."
+>abstract="La actividad **División** permite segmentar las poblaciones entrantes en varios subconjuntos en función de diferentes criterios de selección, como las reglas de filtrado o el tamaño de la población."
 
 
 La actividad **División** es una actividad **Segmentación** que permite segmentar las poblaciones entrantes en varios subconjuntos en función de diferentes criterios de selección, como reglas de filtrado o tamaño de población.
@@ -25,18 +25,18 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
->title="Dividir filtro de actividad"
+>title="Filtro de la actividad de división"
 >abstract="Para aplicar una condición de filtrado al subconjunto, haga clic en **[!UICONTROL Crear filtro]** y configure la regla de filtrado que desee. Por ejemplo, incluya perfiles de la población entrante cuya dirección de correo electrónico existe en la base de datos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
->title="Dividir límite de actividad"
+>title="Límite de la actividad de división"
 >abstract="Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
->title="Dividir ordenación de actividades"
+>title="Ordenación de la actividad de división"
 >abstract="Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo de perfil específico, en orden ascendente o descendente. Para ello, active la opción **Habilitar ordenación**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta."
 
 

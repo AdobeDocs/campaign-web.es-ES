@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 37%
+ht-degree: 55%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definición del contenido del correo electrónico"
->abstract="El **Editar contenido** La pantalla de le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como agregar archivos adjuntos u ofertas y acceder al Diseñador de correo electrónico para darle a su mensaje un aspecto pulido."
+>abstract="La pantalla **Editar contenido** le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como añadir archivos adjuntos u ofertas y acceder al Diseñador de correo electrónico para darle a su mensaje un aspecto pulido."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Definición de las propiedades de correo electrónico"
->abstract="El **Detalles básicos** Esta sección permite actualizar la dirección del remitente y la dirección de respuesta, así como definir la línea de asunto mediante el Editor de expresiones."
+>title="Establecer las propiedades del correo electrónico"
+>abstract="La sección **Detalles básicos** le permite actualizar la dirección del remitente y la dirección de respuesta, así como definir la línea de asunto mediante el Editor de expresiones."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Adjuntar archivos al correo electrónico"
->abstract="Seleccione uno o varios archivos para insertar en el mensaje. Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo en el correo electrónico."
+>title="Adjuntar archivos a un correo electrónico"
+>abstract="Seleccione uno o varios archivos para insertarlos en el mensaje. Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo en el correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Editar seguimiento"
->abstract="De forma predeterminada, el seguimiento está habilitado para la entrega, lo que significa que se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje. Puede desactivar esta opción desde aquí."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Adición de vínculos y seguimiento de mensajes"
+>abstract="De forma predeterminada, el seguimiento está habilitado para el envío, lo que significa que se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje. Puede desactivar esta opción desde aquí."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=es" text="Adición de vínculos y seguimiento de mensajes"
 
 El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
 * Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto

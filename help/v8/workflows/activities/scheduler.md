@@ -3,13 +3,13 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 15%
+ht-degree: 35%
 
 ---
-
 
 # Planificador {#scheduler}
 
@@ -17,10 +17,10 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="Planificador  actividad"
->abstract="El **Planificador** Esta actividad le permite programar cuándo se inicia el flujo de trabajo. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
+>abstract="La actividad **Planificador** permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
 
 
-El **Planificador** la actividad es una **Control de flujo** actividad. Permite programar cuándo se inicia el flujo de trabajo. Esta actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
+El **Planificador** la actividad es una **Control de flujo** actividad. Permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
 
 ## Prácticas recomendadas{#scheduler-best-practices}
 
@@ -32,8 +32,8 @@ El **Planificador** la actividad es una **Control de flujo** actividad. Permite 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="Validez del programador"
->abstract="Puede definir un periodo de validez para el planificador. Puede ser permanente (predeterminado) o válido hasta una fecha específica."
+>title="Validez del planificador"
+>abstract="Puede definir un período de validez para el planificador. Puede ser permanente (predeterminado) o válido hasta una fecha específica."
 
 
 >[!CONTEXTUALHELP]
@@ -78,6 +78,3 @@ Siga estos pasos para configurar el **Planificador** actividad:
 En el siguiente ejemplo, la actividad está configurada para que el flujo de trabajo se ejecute varias veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2023 al 1 de enero de 2024.
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

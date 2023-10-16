@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 10%
+ht-degree: 39%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Propiedades de creación de campañas"
->abstract="En esta pantalla, defina la configuración de la campaña: seleccione una plantilla e introduzca una etiqueta para la campaña. Vaya a la configuración adicional para cambiar el nombre interno predeterminado, la carpeta, añadir una descripción y seleccionar el usuario asignado."
+>abstract="En esta pantalla, defina la configuración de la campaña: seleccione una plantilla e introduzca una etiqueta para la campaña. Vaya a la configuración adicional para cambiar el nombre interno predeterminado, la carpeta, añadir una descripción y seleccionar la persona asignada."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
@@ -55,7 +55,7 @@ También puede ver los informes dedicados haciendo clic en **Informes** botón. 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programación de campañas"
->abstract="Seleccione la programación de campaña. Puede crear la campaña que comienza cuando se llega a la fecha de inicio. De forma predeterminada, la fecha de inicio de la campaña es la fecha de creación y dura 5 días. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro."
+>abstract="Seleccione la programación de la campaña. Puede crear la campaña que comienza cuando se llega a la fecha de inicio. De forma predeterminada, la fecha de inicio de la campaña es la fecha de creación y dura 5 días. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro."
 
 
 La campaña comienza cuando se llega a la fecha de inicio. Siempre que no se llegue a la fecha de inicio, la campaña tiene el **[!UICONTROL Borrador]** estado. A continuación, cuando se llega a la fecha de inicio, se cambia a **[!UICONTROL En curso]**. Una vez que llega la fecha de finalización, la campaña se establece en **[!UICONTROL Completado]**.

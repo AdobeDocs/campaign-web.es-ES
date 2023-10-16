@@ -3,13 +3,13 @@ audience: end-user
 title: Informes de campaña para el canal de correo electrónico
 description: Más información sobre los informes de campaña para el canal de correo electrónico
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 31%
+ht-degree: 49%
 
 ---
-
 
 # Informes de campaña para el canal de correo electrónico {#campaign-reports-email-channel}
 
@@ -19,10 +19,10 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
->title="Información general del envío"
->abstract="El **Resumen de entrega** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico."
+>title="Información general sobre el envío"
+>abstract="La **información general sobre el envío** proporciona indicadores clave de rendimiento (KPI) que ofrecen información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico."
 
-### Información general del envío {#delivery-summary-email-ovv}
+### Información general sobre el envío {#delivery-summary-email-ovv}
 
 El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de correo electrónico. Las métricas se detallan a continuación.
 
@@ -42,15 +42,15 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 
 +++
 
-### Estadísticas del público inicial {#delivery-summary-email-initial-target}
+### Estadísticas de público destinatario inicial {#delivery-summary-email-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Estadísticas del público inicial"
->abstract="La tabla Initial target audience statistics muestra los datos relativos a los destinatarios"
+>title="Estadísticas de público destinatario inicial"
+>abstract="La tabla Estadísticas del público destinatario muestra los datos relativos a los destinatarios"
 
 
-El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
+La tabla **[!UICONTROL Estadísticas del público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![](assets/campaign_report_email_2.png)
 
@@ -70,7 +70,7 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="Estadísticas de ejecución"
->abstract="El **Estadísticas de ejecución** Esta tabla detalla el éxito de su entrega: mensajes para entregar, éxito, errores y nuevas cuarentenas."
+>abstract="La tabla **Estadísticas de ejecución** detalla el éxito de su envío: mensajes para entregar, éxitos, errores y nuevas cuarentenas."
 
 El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío. Las métricas se detallan a continuación.
 
@@ -96,7 +96,7 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="Estadísticas de reacción"
->abstract="El **Estadísticas de reacción** La tabla muestra los datos disponibles de la actividad de destinatario para la entrega: número de aperturas, suscripciones, bajas, clic en el vínculo de la página espejo."
+>abstract="La tabla **Estadísticas de reacción** muestra los datos disponibles de la actividad de destinatario para el envío: número de aperturas, suscripciones, bajas, clic en el vínculo de la página espejo."
 
 
 El **[!UICONTROL Estadísticas de reacción]** contiene los datos disponibles de la actividad de destinatario de su envío. Las métricas se detallan a continuación.
@@ -121,7 +121,7 @@ El **[!UICONTROL Estadísticas de reacción]** contiene los datos disponibles de
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="Flujos de clics generados"
->abstract="El **Flujos de clics generados** La tabla muestra los datos disponibles en relación con la interacción de los destinatarios con el envío."
+>abstract="La tabla **Flujos de clics generados** muestra los datos disponibles en relación con la interacción de los destinatarios con el envío."
 
 El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío. Las métricas se detallan a continuación.
 
@@ -145,7 +145,7 @@ El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
 >title="Desglose de errores por tipo"
->abstract="El **Desglose de errores por tipo** La tabla y el gráfico contienen los datos disponibles para cada tipo de error encontrado: usuario desconocido, buzón lleno, dominio no válido y más."
+>abstract="La tabla y el gráfico **Desglose de errores por tipo** contienen los datos disponibles para cada tipo de error encontrado: usuario desconocido, buzón lleno, dominio inválido y mucho más."
 
 El **[!UICONTROL Desglose de errores por tipo]** tabla y gráfico contienen los datos disponibles para los posibles errores encontrados para cada tipo de dominio. Las métricas se detallan a continuación.
 
@@ -177,7 +177,7 @@ Los errores que se muestran en este informe activan el proceso de cuarentena. Pa
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="Desglose de errores por dominio"
->abstract="El **Desglose de errores por dominio** La tabla y el gráfico muestran los datos disponibles para cada tipo de error encontrado según cada dominio."
+>abstract="La tabla y el gráfico **Desglose de errores por dominio** muestran los datos disponibles para cada tipo de error encontrado según cada dominio."
 
 
 El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico contienen los datos disponibles para los posibles errores encontrados con cada dominio. Las métricas son comunes en **[!UICONTROL Desglose de errores por tipo]** tabla y gráfico detallados anteriormente.
@@ -191,7 +191,7 @@ El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico conti
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="Estadísticas de entrega"
->abstract="El **Estadísticas de envío** El gráfico detalla el éxito de su envío y los errores que se han producido."
+>abstract="El gráfico **Estadísticas de envío** detalla el éxito de su envío y los errores que se han producido."
 
 El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados. Las métricas se detallan a continuación.
 
@@ -218,7 +218,7 @@ El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indica
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Tasa de clics y de apertura"
->abstract="El **Tasa de apertura y clics** La tabla muestra datos relativos a la participación de los destinatarios en el envío."
+>abstract="La tabla **Tasa de clics y de aperturas** muestra datos relativos a la participación de los destinatarios en el envío."
 
 
 
@@ -244,9 +244,9 @@ El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL y flujos de clics"
->abstract="El **URL y flujos de clics** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante una entrega."
+>abstract="El informe de **URL y flujos de clics** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante un envío."
 
-El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante una entrega. Las métricas se detallan a continuación.
+El informe de **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante un envío. Las métricas se detallan a continuación.
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,7 +266,7 @@ El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores c
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="Los 10 vínculos más visitados"
->abstract="El **Los 10 vínculos más visitados** El gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo."
+>abstract="El gráfico y la tabla **Los 10 vínculos más visitados** contienen los datos disponibles sobre el comportamiento del destinatario por vínculo."
 
 
 El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo. Las métricas se detallan a continuación.
@@ -281,13 +281,13 @@ El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla conti
 
 +++
 
-### Desglose de clics a lo largo del tiempo {#campaign-report-email-breakdown-clicks}
+### Desglose de los clics con el tiempo {#campaign-report-email-breakdown-clicks}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
->title="Desglose de clics a lo largo del tiempo"
->abstract="El **Desglose de los clics a lo largo del tiempo** el gráfico muestra los datos disponibles del comportamiento del destinatario por vínculo."
+>title="Desglose de los clics con el tiempo"
+>abstract="El gráfico **Desglose de los clics con el tiempo** muestra los datos disponibles del comportamiento del destinatario por vínculo."
 
 
 el **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
@@ -300,7 +300,7 @@ el **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
 >title="Actividades del usuario"
->abstract="El **Actividades de usuario** El gráfico muestra el desglose de aperturas y clics en forma de gráfico."
+>abstract="El gráfico **Actividades del usuario** muestra el desglose de aperturas y clics en forma de gráfico."
 
 El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Las métricas de este informe se detallan a continuación.
 

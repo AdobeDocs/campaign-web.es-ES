@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="Acerca del contenido"
->abstract="Los componentes Contenido son marcadores de posición de contenido vacíos que puede utilizar para crear el diseño de un correo electrónico."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"

@@ -3,23 +3,23 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 60%
+ht-degree: 75%
 
 ---
-
 
 # Generar público destinatario {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Crear actividad de audiencia"
->abstract="El **Crear audiencia** La actividad le permite definir la audiencia que entra en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, la audiencia del mensaje no se define en la actividad del canal, sino en el **Crear audiencia** actividad."
+>title="Actividad generar público"
+>abstract="La actividad **Generar público** le permite definir la actividad que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar publico**."
 
 
-La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir el público destinatario que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, la audiencia del mensaje no se define en la actividad del canal, sino en el **Crear audiencia** actividad.
+La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir el público destinatario que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar publico**.
 
 Para definir la población del público destinatario, puede hacer lo siguiente:
 
@@ -39,7 +39,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Seleccione la dimensión de segmentación"
+>title="Seleccionar la dimensión de segmentación"
 >abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios."
 
 

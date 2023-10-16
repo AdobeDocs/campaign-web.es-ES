@@ -3,10 +3,11 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 3%
+ht-degree: 51%
 
 ---
 
@@ -14,19 +15,19 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
->title="Informes que envían"
->abstract="él **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con las entregas y cualquier posible error que hayan encontrado."
+>title="Envío de creación de informes"
+>abstract="La pestaña **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
 
 El **Informe de envío push** ofrece una descripción general completa del canal push, con amplias perspectivas y datos específicos. Ofrece información completa sobre el rendimiento, la eficacia y los resultados de cada envío.
 
 ## Resumen de push {#push-summary}
 
-### Información general del envío {#push-delivery-overview}
+### Información general sobre el envío {#push-delivery-overview}
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Resumen del informe de envío push"
->abstract="El **Resumen de envío push** ofrece una amplia descripción general de la entrega push, que proporciona amplias perspectivas y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
+>abstract="La **Información general del envío push** ofrece una amplia descripción general del envío push, que proporciona perspectivas amplias y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
 El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push.
 
@@ -48,10 +49,10 @@ El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clav
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
->title="Población de destino push"
->abstract="El **Población de destino** los gráficos y las tablas muestran los datos relativos a su audiencia de mensajería push: mensajes que enviar y exclusiones."
+>title="Población de destino de los mensajes push"
+>abstract="El gráfico y la tabla **Población de destino** muestran los datos relativos a su público de mensajería push: mensajes a enviar y las exclusiones."
 
-El **Población de destino** los gráficos y las tablas muestran datos relativos a la audiencia: mensajes para enviar y exclusiones. Las métricas se detallan a continuación.
+El gráfico y las tablas de la **Población de destino** muestran datos relativos al público de : mensajes a enviar y exclusiones. Las métricas se detallan a continuación.
 
 ![](assets/reporting_push_4.png)
 
@@ -68,10 +69,10 @@ El **Población de destino** los gráficos y las tablas muestran datos relativos
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
->title="Estadísticas generales push"
->abstract="El **Estadísticas generales** presenta datos para las notificaciones push enviadas: éxito, errores y cuarentenas."
+>title="Estadísticas generales de mensajería push"
+>abstract="El informe **Estadísticas generales** presenta datos para las notificaciones push enviadas: éxito, errores y cuarentenas."
 
-El **Estadísticas generales** presenta datos para las notificaciones push enviadas: éxito, errores y cuarentenas. Las métricas se detallan a continuación.
+El informe **Estadísticas generales** presenta datos para las notificaciones push enviadas: éxito, errores y cuarentenas. Las métricas se detallan a continuación.
 
 ![](assets/reporting_push_5.png)
 
@@ -90,10 +91,10 @@ El **Estadísticas generales** presenta datos para las notificaciones push envia
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Estadísticas generales push"
->abstract="El **Exclusiones** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
+>title="Estadísticas generales de mensajería push"
+>abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
-El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+El gráfico y la tabla **[!UICONTROL Exclusiones]** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)
@@ -103,8 +104,8 @@ El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos mo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_push"
 >title="Informe de rendimiento del envío"
->abstract="El informe Delivery throughput presenta información detallada sobre el rendimiento de entrega de toda la plataforma dentro de un periodo de tiempo especificado."
+>abstract="El informe Rendimiento del envío presenta información detallada sobre el rendimiento del envío de toda la plataforma dentro de un período de tiempo especificado."
 
-El **Rendimiento del envío** Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+El informe **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío de toda la plataforma en un período de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
 
 ![](assets/reporting_push_2.png)

@@ -7,16 +7,16 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 68%
+ht-degree: 72%
 
 ---
 
-# Trabajo con el generador de reglas {#segment-builder}
+# Trabajar con el generador de reglas {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Públicos destinatarios"
->abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con nuestro último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche la audiencia de Adobe Experience Platform para refinar aún más la audiencia de destino y maximizar el impacto de la campaña."
+>abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con nuestro último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para detallar aún más el público destinatario y maximizar el impacto de su campaña."
 
 El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Puede utilizarlo para crear una audiencia a partir de un flujo de trabajo mediante una **[!UICONTROL Crear audiencia]** actividad de o directamente al crear una entrega para crear una audiencia única.
 
@@ -59,7 +59,7 @@ En el lado derecho, la **Propiedades de regla** le permite realizar las acciones
 
   >[!IMPORTANT]
   >
-  >En esa versión del producto, algunos filtros predefinidos no están disponibles en la interfaz de usuario. Aún puede usarlos. [Más información](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >En esa versión del producto, algunos filtros predefinidos no están disponibles en la interfaz de usuario. Puede usarlos de todos modos. [Más información](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **Atributos**: muestra una descripción de la audiencia creada.
 

@@ -7,7 +7,7 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 4%
+ht-degree: 21%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Propiedades del flujo de trabajo"
->abstract="En esta pantalla, elija la plantilla que desea utilizar para crear el flujo de trabajo y especifique una etiqueta. Expanda la sección OPTIONS ADICIONALES para configurar más opciones, como el nombre interno del flujo de trabajo, su carpeta, zona horaria y grupo de supervisores. Se recomienda encarecidamente seleccionar un grupo de supervisor para que los operadores sean alertados si se produce un error."
+>abstract="En esta pantalla, elija la plantilla que desea utilizar para crear el flujo de trabajo y especifique una etiqueta. Expanda la sección OPCIONES ADICIONALES para configurar más opciones, como el nombre interno del flujo de trabajo, su carpeta, zona horaria y grupo de supervisores. Se recomienda encarecidamente seleccionar un grupo de supervisores para que los operadores sean alertados si se produce un error."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lista de flujos de trabajo de la campaña"
->abstract="El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña actual. Haga clic en el nombre de un flujo de trabajo para editarlo. Utilice el **Crear flujo de trabajo** para añadir un nuevo flujo de trabajo para esta campaña."
+>abstract="La pestaña **Flujos de trabajo** enumera todos los flujos de trabajo vinculados a la campaña actual. Haga clic en el nombre de un flujo de trabajo para editarlo. Utilice el botón **Crear flujo de trabajo** para añadir un nuevo flujo de trabajo para esta campaña."
 
 
 Puede crear flujos de trabajo independientes o flujos de trabajo dentro de una campaña. El primer paso es seleccionar una plantilla y definir sus propiedades generales. A continuación, puede configurar ajustes adicionales según sea necesario.
@@ -56,9 +56,9 @@ El flujo de trabajo se habrá creado y estará disponible en la lista de flujos 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
 >title="Plantillas de flujo de trabajo"
->abstract="Las plantillas de flujo de trabajo contienen ajustes y actividades preconfigurados que se pueden reutilizar para crear nuevos flujos de trabajo."
+>abstract="Las plantillas de flujo de trabajo contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevos flujos de trabajo."
 
-Las plantillas de flujo de trabajo contienen ajustes y actividades preconfigurados que se pueden reutilizar para crear nuevos flujos de trabajo. Puede seleccionar la plantilla del flujo de trabajo en las propiedades del flujo de trabajo al crear un flujo de trabajo. De forma predeterminada, se proporciona una plantilla vacía.
+Las plantillas de flujo de trabajo contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevos flujos de trabajo. Puede seleccionar la plantilla del flujo de trabajo en las propiedades del flujo de trabajo al crear un flujo de trabajo. De forma predeterminada, se proporciona una plantilla vacía.
 
 Puede crear una plantilla a partir de un flujo de trabajo existente o crear una nueva plantilla desde cero. Ambos métodos se detallan a continuación.
 

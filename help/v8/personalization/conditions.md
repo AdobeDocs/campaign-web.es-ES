@@ -6,11 +6,11 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
 >title="Añadir contenido condicional"
->abstract="Configure los campos de contenido condicional para crear una personalización dinámica avanzada basada en los datos de perfil del destinatario. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición concreta."
+>abstract="Configure campos de contenido condicionados para crear una personalización dinámica avanzada basada en el perfil del destinatario. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto."
 
 El contenido condicional es una práctica funcionalidad que permite crear una personalización dinámica basada en el perfil del destinatario y reemplazar automáticamente bloques de texto e imágenes cuando se cumplen determinadas condiciones. Esta función puede llevar las campañas a otro nivel y ofrecer experiencias personalizadas y enfocadas al público.
 
-Al configurar los campos de contenido condicional, se puede crear una personalización dinámica avanzada basada en el perfil del destinatario, por ejemplo. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición concreta. Por ejemplo, puede mostrar &quot;Sr.&quot; o &quot;Sra.&quot; según el valor del campo Género en la base de datos de Adobe Campaign, o incluir un vínculo diferente basado en el idioma preferido del destinatario.
+Al configurar los campos de contenido condicional, se puede crear una personalización dinámica avanzada basada en el perfil del destinatario, por ejemplo. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición en concreto. Por ejemplo, puede mostrar &quot;Sr.&quot; o &quot;Sra.&quot; según el valor del campo Género en la base de datos de Adobe Campaign, o incluir un vínculo diferente basado en el idioma preferido del destinatario.
 
 ## Cómo generar contenido condicional
 

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 62%
+ht-degree: 76%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Adición de estructuras"
->abstract="Las estructuras definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
+>title="Añadir estructuras"
+>abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Adición de estructuras"
->abstract="Las estructuras definen el diseño de la página de aterrizaje. Arrastrar y soltar una **Estructura** en el lienzo para empezar a diseñar la página de aterrizaje."
+>title="Añadir estructuras"
+>abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Adición de estructuras"
->abstract="Las estructuras definen el diseño del fragmento. Arrastrar y soltar una **Estructura** en el lienzo para empezar a diseñar el contenido del fragmento."
+>title="Añadir estructuras"
+>abstract="Los componentes de estructura definen el diseño del fragmento. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Adición de estructuras"
->abstract="Las estructuras definen el diseño de la plantilla. Arrastrar y soltar una **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
+>title="Añadir estructuras"
+>abstract="Las estructuras definen el diseño de la plantilla. Arrastre y suelte el componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 
 >[!CONTEXTUALHELP]

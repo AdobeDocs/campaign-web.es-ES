@@ -3,20 +3,20 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Esperar
 description: Aprenda a utilizar la actividad de flujo de trabajo Esperar
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 970953a1-0091-477c-9f52-596af3a8857d
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # Esperar {#wait}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="Actividad de espera"
->abstract="El **Esperar** se utiliza para retrasar la transición de una actividad a otra."
+>abstract="La actividad **Espera** se utiliza para retrasar la transición de una actividad a otra."
 
 La actividad **Esperar** es una actividad de **Control de flujo**. Se utiliza para permitir que transcurra un cierto tiempo entre dos actividades que se están ejecutando. Por ejemplo, para esperar varios días después de una actividad de envío de correo electrónico y, después, analizar las aperturas y los clics generados durante este período antes de realizar cualquier operación de seguimiento (correo electrónico recordatorio, creación de un público, etc.).
 

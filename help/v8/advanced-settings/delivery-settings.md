@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 65%
+ht-degree: 84%
 
 ---
 
@@ -30,16 +30,16 @@ Esta configuración está disponible en **Configuración de la entrega** icono d
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
+>abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configuración de tipología para el envío"
->abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 
-Las tipologías son conjuntos de **reglas de tipología**, que se ejecutan durante la fase de preparación. Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación de envíos.  Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
+Las tipologías son conjuntos de **reglas de tipología**, que se ejecutan durante la fase de preparación. Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación de envíos.  Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
 
 Las reglas de tipología se agrupan dentro de una tipología para aplicar fácilmente varias reglas de filtrado a un envío a la vez.
 
@@ -55,8 +55,8 @@ Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tip
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Parámetros de presión para el envío"
->abstract="El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la administración de la fatiga. Los mensajes con mayor peso tienen prioridad."
+>title="Parámetros de presión del envío"
+>abstract="Los pesos del envío le permiten identificar los envíos de mayor prioridad dentro del marco de la administración de la fatiga. Los mensajes con mayor peso tienen prioridad."
 
 
 >[!CONTEXTUALHELP]
@@ -89,8 +89,8 @@ La administración de la fatiga viene con el complemento **Optimización de la c
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Configuración de capacidad para el envío"
->abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización puede procesar la entrega, los mensajes entrantes que puede generar la entrega y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de Adobe Campaign v8. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
+>title="Configuración de la capacidad del envío"
+>abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización pueda procesar el envío, los mensajes entrantes que puede generar el envío y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de la versión 8 de Adobe Campaign. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
 
 
 >[!CONTEXTUALHELP]
@@ -110,8 +110,8 @@ Obtenga más información acerca de las reglas de coherencia y capacidad y cómo
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="Configuración de audiencia para el envío"
->abstract="Seleccione una **asignación de destino** entre los disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión para la entrega. "
+>title="Configuración del público del envío"
+>abstract="Seleccione una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión del envío. "
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La dimensión de segmentación, o asignación de destino, es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
 
@@ -122,8 +122,8 @@ Obtenga más información sobre las asignaciones de destino en [esta sección](.
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Configuración de envío para el envío"
->abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede activar CCO para la entrega y cambiar los modos de entrega y rutina. Estas opciones están restringidas únicamente a usuarios expertos."
+>title="Configuración del envío"
+>abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede activar CCO para el envío y cambiar los modos de envío y rutina. Estas opciones están restringidas únicamente a usuarios expertos."
 
 Los parámetros de envío son las configuraciones técnicas que se aplican a su envío.
 
@@ -138,7 +138,7 @@ Los parámetros de envío son las configuraciones técnicas que se aplican a su 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="Configuración de análisis web para el envío"
+>title="Configuración de análisis web del envío"
 >abstract="Seleccione una cuenta de análisis web. Esta cuenta se configura en la consola del cliente de Campaign. También puede definir las etiquetas compartidas con la herramienta de análisis que está utilizando."
 
 En esta sección, puede seleccionar una cuenta de análisis web. Esta cuenta se configura en la consola del cliente de Campaign.
@@ -163,14 +163,14 @@ Obtenga más información acerca de la administración de reintentos en [Documen
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprobación para la entrega"
+>title="Modo de aprobación para el envío"
 >abstract="Seleccione el modo de aprobación. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
->title="Modo de aprobación para los envíos"
->abstract="Seleccione el modo de aprobación para las entregas según esta plantilla. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
+>title="Modo de aprobación de los envíos"
+>abstract="Seleccione el modo de aprobación de los envíos basados en esta plantilla. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
 
 Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar el envío de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
@@ -187,8 +187,8 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
->title="Validez de configuración"
->abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez. El campo Límite de validez se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
+>title="Vigencia de la configuración"
+>abstract="El campo Duración del envío permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes empezando por la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error, se realizan reintentos periódicos y configurables hasta que se alcanza el límite de vigencia. El campo Límite de vigencia se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
 
 
 
@@ -247,7 +247,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="Período de validez"
->abstract="El periodo de validez establece la duración durante la cual se activa el seguimiento en las direcciones URL de los mensajes."
+>abstract="El período de vigencia establece la duración durante la cual se activa el seguimiento en las direcciones URL de los mensajes."
 
 
 Los parámetros de seguimiento se definen en la sección relacionada. Las opciones posibles son las siguientes:
@@ -260,7 +260,7 @@ Los parámetros de seguimiento se definen en la sección relacionada. Las opcion
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Configuración de prueba para el envío"
+>title="Configuración de prueba del envío"
 >abstract="Seleccione los parámetros de exclusión y personalice la etiqueta de los correos electrónicos de prueba."
 
 Puede establecer los parámetros de exclusión en esta sección. Las opciones disponibles son las siguientes:

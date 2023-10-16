@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: Introducción al Ayudante de contenido
+title: Introducción al Asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 1%
+ht-degree: 34%
 
 ---
 
-
-# Introducción al Ayudante de contenido {#generative-gs}
+# Introducción al Asistente de contenido {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Ayudante de contenido"
->abstract="Una vez que haya creado y personalizado su envío, puede utilizar el Ayudante de contenido para mejorar el contenido. Esta función simplifica el proceso de personalización y mejora de contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
+>abstract="Una vez que haya creado y personalizado su envío, puede utilizar el Asistente de contenido para mejorar el contenido. Esta funcionalidad simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Definir contexto para la generación de contenido"
->abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active la variable **Mejorar con contenido actual** alternar. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar recursos de una marca."
+>abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active la alternancia **Mejorar con contenido actual**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar recursos de una marca."
 
 El asistente de contenido, con tecnología de IA generativa, es una herramienta valiosa para mejorar el contenido del correo electrónico. Simplifica la personalización y la mejora de contenido, optimizando las entregas de correo electrónico para que resuenen mejor en la audiencia.
 
@@ -33,7 +33,7 @@ Puede utilizar el asistente de contenido de Campaign en sus correos electrónico
 
 >[!NOTE]
 >
->Esta funcionalidad está disponible en su versión de Alpha y sujeta a cambios sin previo aviso. Se activará a principios de octubre.
+>Esta funcionalidad está disponible en versión Alfa y sujeta a cambios sin previo aviso. Se activará a principios de octubre.
 
 ## Mecanismos de protección y limitaciones {#generative-guardrails}
 
@@ -81,4 +81,3 @@ Las siguientes limitaciones se aplican al Asistente de contenido de Campaign:
 </div>
 <p></td>
 </tr></table>
-

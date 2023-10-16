@@ -3,13 +3,13 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 59%
+ht-degree: 66%
 
 ---
-
 
 # Correo electrónico, SMS, actividades push {#channel}
 
@@ -41,26 +41,26 @@ Comience a crear el flujo de trabajo con las actividades relevantes antes de rea
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="Actividad de correo electrónico"
->abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>title="Actividad del correo electrónico"
+>abstract="Automatice y ejecute las campañas de marketing en canales de correo electrónico, SMS y push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Actividad de SMS"
->abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="Automatice y ejecute las campañas de marketing en canales de correo electrónico, SMS y push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
->title="Actividad de Push iOS"
->abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>title="Actividad de push iOS"
+>abstract="Automatice y ejecute las campañas de marketing en canales de correo electrónico, SMS y push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Actividad de Android push"
->abstract="Automatice y ejecute campañas de marketing en canales push, SMS y de correo electrónico. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>title="Actividad de mensajería push de Android"
+>abstract="Automatice y ejecute las campañas de marketing en canales de correo electrónico, SMS y push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 

@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 34%
+ht-degree: 40%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 34%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
->title="Previsualización del archivo"
->abstract="Compruebe la previsualización del archivo. Esta pantalla solo muestra hasta 30 registros."
+>title="Vista previa del archivo"
+>abstract="Compruebe la vista previa de su archivo. Esta pantalla solo muestra hasta 30 registros."
 
 
 
@@ -70,7 +70,7 @@ Al crear y personalizar el contenido del mensaje, puede seleccionar campos del a
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Importación de un público desde un archivo"
->abstract="Los formatos de archivo admitidos son TXT y CSV. Usar la primera línea como encabezado de columna. Alinee el formato del archivo con el archivo de muestra proporcionado en el vínculo siguiente."
+>abstract="Los formatos compatibles son TXT y CSV. Usar la primera línea como encabezado de columna. Alinee el formato del archivo con el archivo de muestra proporcionado en el vínculo siguiente."
 
 Los formatos compatibles son TXT y CSV. La primera línea es el encabezado de columna.
 

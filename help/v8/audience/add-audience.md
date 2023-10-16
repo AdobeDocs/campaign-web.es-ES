@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Selección de una audiencia existente
+title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar una audiencia
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Selección de una audiencia existente"
->abstract="Examine la lista para seleccionar una audiencia existente. Utilice el icono &quot;Mostrar filtros&quot; para filtrar la lista o seleccionar una carpeta específica."
+>abstract="Examine la lista para seleccionar un público existente. Utilice el icono “Mostrar filtros” para filtrar la lista o seleccionar una carpeta específica."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
 

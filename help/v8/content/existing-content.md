@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 31%
+ht-degree: 48%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Usar contenido de correo electrónico existente"
->abstract="El Diseñador de correo electrónico le permite importar contenido existente del HTML. Este contenido puede ser un archivo de HTML con una hoja de estilos incorporada o una carpeta .zip con el archivo de HTML, la hoja de estilos (.css) y las imágenes."
+>abstract="El Diseñador de correo electrónico le permite importar contenido HTML existente. Este contenido puede ser un archivo HTML con una hoja de estilos incorporada o una carpeta .zip con el archivo HTML, la hoja de estilos (.css) y las imágenes."
 
 Puede importar contenido existente del HTML en el Diseñador de correo electrónico. Este contenido puede ser el siguiente:
 

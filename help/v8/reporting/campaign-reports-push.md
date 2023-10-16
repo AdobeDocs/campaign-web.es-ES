@@ -3,13 +3,13 @@ audience: end-user
 title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
 badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
-
 
 # Informes de campaña para el canal push {#campaign-reports-push-channel}
 
@@ -19,10 +19,10 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
->title="Información general del envío"
->abstract="El **Resumen de entrega** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push."
+>title="Información general sobre el envío"
+>abstract="El informe **Información general del envío** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push."
 
-El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
+El informe **[!UICONTROL Información general del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -39,15 +39,15 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 
 +++
 
-### Estadísticas del público inicial {#delivery-summary-push-initial-target}
+### Estadísticas de público destinatario inicial {#delivery-summary-push-initial-target}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
->title="Estadísticas del público inicial"
->abstract="El **Estadísticas de audiencia de destinatario inicial** La tabla muestra datos relativos a los destinatarios"
+>title="Estadísticas de público destinatario inicial"
+>abstract="La tabla **Estadísticas del público destinatario inicial** muestra datos relativos a los destinatarios"
 
-El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
+La tabla **[!UICONTROL Estadísticas del público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![](assets/campaign-reporting-push-target.png)
 
@@ -67,7 +67,7 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="Estadísticas de ejecución"
->abstract="El **Estadísticas de ejecución** Esta tabla detalla el éxito de su entrega: mensajes para entregar, éxito, errores y nuevas cuarentenas."
+>abstract="La tabla **Estadísticas de ejecución** detalla el éxito de su envío: mensajes para entregar, éxitos, errores y nuevas cuarentenas."
 
 El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío. Las métricas se detallan a continuación.
 
@@ -93,7 +93,7 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="Flujos de clics generados"
->abstract="El **Flujos de clics generados** La tabla muestra los datos disponibles en relación con la interacción de los destinatarios con el envío."
+>abstract="La tabla **Flujos de clics generados** muestra los datos disponibles en relación con la interacción de los destinatarios con el envío."
 
 El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío. Las métricas se detallan a continuación.
 

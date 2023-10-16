@@ -3,13 +3,13 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 badge: label="Beta"
-source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
+exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 72%
+ht-degree: 76%
 
 ---
-
 
 # Acceso y administración de campañas{#manage-campaigns}
 
@@ -43,7 +43,7 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de fil
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="Lista de envíos en la campaña"
->abstract="La pestaña **Envíos** lista todos los envíos vinculados a la campaña actual. Haga clic en el nombre de una entrega para editarlo. Utilice el botón Create delivery para añadir una nueva entrega para esta campaña."
+>abstract="La pestaña **Envíos** lista todos los envíos vinculados a la campaña actual. Haga clic en el nombre de un envío para editarlo. Utilice el botón Create envío para añadir uno nuevo para esta campaña."
 
 En la pestaña **Examinar** de la lista de campañas, haga clic en una campaña para mostrar los detalles.
 

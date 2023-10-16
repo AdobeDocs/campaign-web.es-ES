@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Generación de IA para contenido de correo electrónico"
+>title="Gen IA para contenido de correo electrónico"
 >abstract="Nuestra tecnología Gen IA utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico."
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
@@ -32,7 +32,7 @@ Basado en un [plantilla de diseño](../content/email-sample-templates.md), el co
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Defina las propiedades de correo electrónico"
+>title="Definición de las propiedades del correo electrónico"
 >abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. La configuración adicional es opcional. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
 
 Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
@@ -72,10 +72,10 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Seleccione una audiencia para el envío"
->abstract="Seleccione la mejor audiencia para el mensaje de marketing. Puede elegir una audiencia existente (ya definida en una instancia de Campaign v8 o de Adobe Experience Platform), crear una nueva audiencia con el generador de reglas o cargar un archivo que contenga la audiencia. Los grupos de control no están habilitados para **Seleccionar del archivo** y viceversa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Selección de las audiencias principales"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Establecer un grupo de control"
+>title="Seleccione un público para el envío"
+>abstract="Seleccione el mejor público para el mensaje de marketing. Puede elegir un público existente (ya definido en una instancia de la versión 8 de Campaign o Adobe Experience Platform), crear un nuevo público con el generador de reglas o cargar un archivo que contenga el público. Los grupos de control no están habilitados para la opción **Seleccionar del archivo** y viceversa."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=es" text="Selección de los públicos principales"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=es" text="Establecer un grupo de control"
 
 En este caso de uso, envíe el correo electrónico a una audiencia existente.
 

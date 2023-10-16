@@ -3,13 +3,13 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinación-Y
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinación-Y
 badge: label="Beta"
-source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
+exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
-
 
 # Combinación-Y {#join}
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **Combinación-Y** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que algunas actividades han finalizado antes de continuar ejecutándose el flujo de trabajo."
+>abstract="La actividad **Combinación-Y** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades hayan finalizado antes de continuar con la ejecución del flujo de trabajo."
 
 La actividad **Combinación-Y** es una actividad de **Control de flujo**. Le permite sincronizar varias ramas de ejecución de un flujo de trabajo.
 
@@ -27,8 +27,8 @@ Esta actividad solo activa su transición saliente una vez que se activan todas 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Configuración de la actividad AND-join"
->abstract="Seleccione las actividades a las que desea unirse. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar."
+>title="Configurar la actividad de AND-join"
+>abstract="Seleccione las actividades que desea unir. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar."
 
 Siga estos pasos para configurar la actividad **Combinación-Y**:
 

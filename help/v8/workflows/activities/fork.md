@@ -3,13 +3,13 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Tenedor
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 66%
+ht-degree: 83%
 
 ---
-
 
 # Bifurcación {#fork}
 
@@ -21,8 +21,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
->title="Transiciones de actividad de bifurcación"
->abstract="De forma predeterminada, se crean dos transiciones con una **Tenedor** actividad. Haga clic en **Añadir transición** para definir una transición saliente adicional e introducir su etiqueta."
+>title="Transiciones de la actividad de bifurcación"
+>abstract="De forma predeterminada, se crean dos transiciones con una actividad de **bifurcación**. Haga clic en el botón **Añadir transición** para definir una transición de salida adicional e introducir su etiqueta."
 
 El **Tenedor** la actividad es una **Control de flujo** actividad. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
@@ -44,4 +44,3 @@ En el siguiente ejemplo, utilizamos dos actividades **Tenedor**:
 * Una después de la intersección, para enviar un correo electrónico y un SMS simultáneamente a la población objetivo.
 
 ![](../assets/workflow-fork-example.png)
-

@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Monitorización y administración de audiencias
+title: Monitorizar y administrar públicos
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
-
-# Monitorización y administración de audiencias {#monitor}
+# Monitorizar y administrar públicos {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="Error de audiencia"
->abstract="Los datos de audiencia no están disponibles. Espere al final de la ejecución del flujo de trabajo."
+>title="Error de público"
+>abstract="Los datos de público no están disponibles. Espere al final de la ejecución del flujo de trabajo."
 
 Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
 
