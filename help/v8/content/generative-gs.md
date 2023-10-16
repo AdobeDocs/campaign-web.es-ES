@@ -4,7 +4,7 @@ title: Introducción al Asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 34%
@@ -40,7 +40,7 @@ Puede utilizar el asistente de contenido de Campaign en sus correos electrónico
 A continuación, se enumeran las directrices generales para utilizar el Asistente de contenido para la generación de correo electrónico:
 
 * La calidad del contenido generado se ve fuertemente influida por el objetivo de marketing que defina. Utilice un indicador bien definido para el modelo GenAI para interpretar con precisión. 
-* Cargue el recurso de la marca para tener información precisa sobre el contenido de la marca. De lo contrario, el contenido se basa en información disponible públicamente. El contenido cargado puede ser: archivos de PDF, documentos de Microsoft Word, JPEG, PNG o archivos ZIP (con formatos de archivo compatibles).
+* Cargue el recurso de la marca para tener información precisa sobre el contenido de la marca. De lo contrario, el contenido se basa en información disponible públicamente. El contenido cargado puede tener los siguientes formatos: PDF, JPEG, PNG o archivos ZIP (con formatos de archivo compatibles).
 * El tamaño recomendado para el recurso de marca cargado es inferior a 10 MB. Los archivos más grandes o muchas imágenes pueden funcionar, pero el tiempo de procesamiento aumenta.
 * Utilice plantillas de correo electrónico creadas por Adobe Campaign o, preferiblemente, [plantillas de correo electrónico integradas](../content/email-sample-templates.md) para crear el contenido del correo electrónico. Se recomienda una plantilla de correo electrónico con hasta 8-10 imágenes.
 
