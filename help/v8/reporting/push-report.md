@@ -4,10 +4,10 @@ title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Beta"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 51%
+source-wordcount: '485'
+ht-degree: 49%
 
 ---
 
@@ -26,7 +26,7 @@ El **Informe de envío push** ofrece una descripción general completa del canal
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="Resumen del informe de envío push"
+>title="Resumen de envío push"
 >abstract="La **Información general del envío push** ofrece una amplia descripción general del envío push, que proporciona perspectivas amplias y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
 El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push.
@@ -91,7 +91,7 @@ El informe **Estadísticas generales** presenta datos para las notificaciones pu
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="Estadísticas generales de mensajería push"
+>title="Exclusiones push"
 >abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
 El gráfico y la tabla **[!UICONTROL Exclusiones]** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
