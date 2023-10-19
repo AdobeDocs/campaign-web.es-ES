@@ -25,7 +25,7 @@ Puede seleccionar el canal que desea mostrar. De forma predeterminada, los indic
 
 ![](assets/kpi.png)
 
-## Mensaje enviado {#ui-delivered-kpi}
+## Mensaje entregado {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
@@ -50,7 +50,7 @@ Recuento de mensajes en los que el campo &quot;dirección semilla&quot; es igual
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_opens"
 >title="Aperturas"
->abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes abiertos y el porcentaje de mensajes abiertos en comparación con la cantidad total de mensajes enviados correctamente."
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todos los mensajes abiertos y el porcentaje de mensajes abiertos en comparación con la cantidad total de mensajes entregados correctamente."
 
 El total de aperturas se calcula realizando un seguimiento de la cantidad total de veces que se abre un mensaje, independientemente de cuántas personas destinatarias hayan generado dichas aperturas. Este indicador solo está disponible para correos electrónicos.
 
@@ -87,7 +87,7 @@ Estas métricas se basan en la tabla Seguimiento consolidado (`nms:trackingStats
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
 >title="Bajas"
->abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las bajas de un servicio y el porcentaje de bajas en comparación con la cantidad total de mensajes enviados correctamente."
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las bajas de un servicio y el porcentaje de bajas en comparación con la cantidad total de mensajes entregados correctamente."
 
 Las personas deben poder pedir la exclusión de los correos electrónicos y los SMS mediante un vínculo de baja específico en el contenido del correo electrónico o respondiendo DETENER a un SMS.
 
