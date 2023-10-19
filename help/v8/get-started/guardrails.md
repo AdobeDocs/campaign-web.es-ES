@@ -3,10 +3,10 @@ title: Mecanismos de protección y limitaciones en la IU web de Campaign
 description: Mecanismos de protección y limitaciones en la IU web de Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ La posición de los nodos se actualiza cada vez que se añade o elimina una acti
 
 ## Filtros predefinidos {#filters-guardrails-limitations}
 
-Al seleccionar el público de un envío o al crear un público en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario en esa versión del producto.
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="Este filtro es de solo lectura"
+>abstract="Algunos filtros predefinidos no están disponibles en la interfaz de usuario en esa versión del producto. Estos filtros están marcados como de solo lectura. Aunque no pueda ver la representación gráfica de la consulta en el generador de reglas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la sección **Atributos** de la pantalla."
+
+Al seleccionar el público de un envío o al crear un público en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario en esa versión del producto. Estos filtros están marcados como de solo lectura.
 
 Se muestra un mensaje de error específico.
 
