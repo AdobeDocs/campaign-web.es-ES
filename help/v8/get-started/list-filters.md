@@ -7,7 +7,7 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
@@ -66,22 +66,22 @@ El principio operativo del generador de reglas para los filtros personalizados e
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Mostrar atributos avanzados"
->abstract="De forma predeterminada, en la lista de atributos solo se muestran los atributos más comunes. Activar el **Mostrar atributos avanzados** Marcar para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Campos avanzados del generador de reglas"
->abstract="De forma predeterminada, en la lista de atributos solo se muestran los atributos más comunes. Activar el **Mostrar atributos avanzados** Marcar para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avanzados del generador de reglas"
->abstract="De forma predeterminada, en la lista de atributos solo se muestran los atributos más comunes. Activar el **Mostrar atributos avanzados** Marcar para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
 
 
 Solo los atributos más comunes se muestran de forma predeterminada en las pantallas de lista de atributos y configuración de filtros. Los atributos que se establecieron como atributos de `advanced` del esquema de datos se ocultan de las pantallas de configuración.
 
-Activar el **Mostrar atributos avanzados** Marcar para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N. La lista de atributos se actualiza instantáneamente.
+Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N. La lista de atributos se actualiza instantáneamente.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
