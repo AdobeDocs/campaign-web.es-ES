@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 97%
+source-wordcount: '1204'
+ht-degree: 89%
 
 ---
 
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -216,3 +226,205 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Previsualización de ofertas de destinatarios"
 >abstract="Continuará"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Plantilla de envíos de suscripciones"
+>abstract="Continuará"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Páginas de aterrizaje"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Propiedades de páginas de aterrizaje"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Páginas de destino"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Programación de páginas de aterrizaje"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Página principal de las páginas de destino"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Suscripción a páginas de aterrizaje"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Llamada a acción de las páginas de aterrizaje"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Simulación de páginas de aterrizaje"
+>abstract="Continuará"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="Actividad no editable"
+>abstract="Continuará"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragmentos"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Guardar fragmentos"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Creación de fragmentos"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Propiedades de fragmentos"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Tipo de fragmentos"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Lista de fragmentos"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Detalles de fragmentos"
+>abstract="Continuará"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Plantilla de contenido"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Propiedades de plantilla de contenido"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Diseño de plantilla de contenido"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Selección de plantilla de contenido"
+>abstract="Continuará"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="Actividad de carga de archivo"
+>abstract="Continuará"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="Actividad de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="Segmentación de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="Reglas de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="Dimensión de segmentación de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="Campo de selección de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="Atributo de selección de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="Condición de creación de reconciliación"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="Reconciliación: generar complemento"
+>abstract="Continuará"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Filtro condicional de guardado de contenido"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Filtro de selección de contenido condicional"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Contenido condicional en la línea de asunto"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Condición de línea de asunto de contenido condicional"
+>abstract="Continuará"
+
