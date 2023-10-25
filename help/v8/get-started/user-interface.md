@@ -4,7 +4,7 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
+source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 89%
@@ -284,7 +284,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_query_enrichment_noneditable"
+>id="acw_orchestration_query_enrichment_noneditable"
 >title="Actividad no editable"
 >abstract="Continuará"
 
@@ -355,7 +355,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_loadfile"
+>id="acw_orchestration_loadfile"
 >title="Actividad de carga de archivo"
 >abstract="Continuará"
 
@@ -365,42 +365,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation"
+>id="acw_orchestration_reconciliation"
 >title="Actividad de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting"
+>id="acw_orchestration_reconciliation_targeting"
 >title="Segmentación de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_rules"
+>id="acw_orchestration_reconciliation_rules"
 >title="Reglas de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting_selection"
+>id="acw_orchestration_reconciliation_targeting_selection"
 >title="Dimensión de segmentación de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_field"
+>id="acw_orchestration_reconciliation_field"
 >title="Campo de selección de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_attribute"
+>id="acw_orchestration_reconciliation_attribute"
 >title="Atributo de selección de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_condition"
+>id="acw_orchestration_reconciliation_condition"
 >title="Condición de creación de reconciliación"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_complement"
+>id="acw_orchestration_reconciliation_complement"
 >title="Reconciliación: generar complemento"
 >abstract="Continuará"
 
