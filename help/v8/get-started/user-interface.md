@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 89%
+source-wordcount: '1241'
+ht-degree: 88%
 
 ---
 
@@ -428,3 +428,52 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Condición de línea de asunto de contenido condicional"
 >abstract="Continuará"
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Propiedades de público"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Recuento de público"
+>abstract="Continuará"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_testprofiles"
+>title="Simulación de perfiles de prueba"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_profiles_selection"
+>title="Simular la selección de perfiles de prueba"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_send_testprofiles"
+>title="Simular envío de perfiles de prueba"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_email_log"
+>title="Simular registro de correo electrónico"
+>abstract="Continuará"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="Número total de suscripciones"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="Suscripciones durante el período"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="Evolución general de suscripciones"
+>abstract="Continuará"
