@@ -7,7 +7,7 @@ exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 33%
+ht-degree: 44%
 
 ---
 
@@ -104,9 +104,9 @@ El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Rendimiento de entrega de SMS"
->abstract="El **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado.  La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora."
+>title="Rendimiento del envío de SMS"
+>abstract="El informe de **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado.  La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora."
 
-Este informe presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+Este informe presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
 ![](assets/reporting_sms_2.png)

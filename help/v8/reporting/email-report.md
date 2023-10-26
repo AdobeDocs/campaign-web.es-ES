@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
@@ -77,7 +77,7 @@ El **[!UICONTROL Estadísticas de envío]** el gráfico detalla el éxito de su 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Envío Causas de exclusión"
+>title="Causas de exclusión de entrega"
 >abstract="El gráfico y la tabla **Causas de exclusión** muestran el desglose por regla de mensajes rechazados durante la preparación del envío."
 
 
@@ -110,7 +110,7 @@ El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran el desglos
 >title="Rendimiento del envío"
 >abstract="El informe **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío de toda la plataforma en un período de tiempo especificado."
 
-Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -194,12 +194,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
->title="Campos personalizados de destinatario"
+>title="Campos personalizados de destinatarios"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
->title="Información general de tarjeta Destinatarios"
+>title="Información general de tarjeta de destinatarios"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
@@ -219,7 +219,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="Destinatarios ofrece una lista apta"
+>title="Lista apta de ofertas de destinatarios"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
