@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 91%
+source-wordcount: '1343'
+ht-degree: 83%
 
 ---
 
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="Creación de destinatarios"
->abstract="Continuará"
+>abstract="Creación de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Detalles de destinatarios"
->abstract="Continuará"
+>abstract="Detalles de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Información de contacto de destinatarios"
->abstract="Continuará"
+>abstract="Información de contacto de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Dirección de los destinatarios"
->abstract="Continuará"
+>abstract="Dirección de los destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Cuenta de destinatarios"
->abstract="Continuará"
+>abstract="Cuenta de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Campos personalizados de destinatarios"
->abstract="Continuará"
+>abstract="Campos personalizados de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Información general de tarjeta de destinatarios"
->abstract="Continuará"
+>abstract="Información general de tarjeta de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="Puntos de contacto de destinatarios"
->abstract="Continuará"
+>abstract="Puntos de contacto de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="Lista de suscripciones de destinatarios"
->abstract="Continuará"
+>abstract="Lista de suscripciones de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="Selección de suscripciones de destinatarios"
->abstract="Continuará"
+>abstract="Selección de suscripciones de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="Lista apta de ofertas de destinatarios"
->abstract="Continuará"
+>abstract="Lista apta de ofertas de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="Previsualización de ofertas de destinatarios"
->abstract="Continuará"
+>abstract="Previsualización de ofertas de destinatarios"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Plantilla de envíos de suscripciones"
->abstract="Continuará"
+>abstract="Plantilla de envíos de suscripciones"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Páginas de aterrizaje"
->abstract="Continuará"
+>abstract="Páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="Propiedades de páginas de aterrizaje"
->abstract="Continuará"
+>abstract="Propiedades de páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Páginas de destino"
->abstract="Continuará"
+>abstract="Páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Programación de páginas de aterrizaje"
->abstract="Continuará"
+>abstract="Programación de páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Página principal de las páginas de destino"
->abstract="Continuará"
+>abstract="Página principal de las páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="Suscripción a páginas de aterrizaje"
->abstract="Continuará"
+>abstract="Suscripción a páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="Llamada a acción de las páginas de aterrizaje"
->abstract="Continuará"
+>abstract="Llamada a acción de las páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="Simulación de páginas de aterrizaje"
->abstract="Continuará"
+>abstract="Simulación de páginas de aterrizaje"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Actividad no editable"
->abstract="Continuará"
+>abstract="Actividad no editable"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Fragmentos"
->abstract="Continuará"
+>abstract="Fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Guardar fragmentos"
->abstract="Continuará"
+>abstract="Guardar fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="Creación de fragmentos"
->abstract="Continuará"
+>abstract="Creación de fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Propiedades de fragmentos"
->abstract="Continuará"
+>abstract="Propiedades de fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Tipo de fragmentos"
->abstract="Continuará"
+>abstract="Tipo de fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Lista de fragmentos"
->abstract="Continuará"
+>abstract="Lista de fragmentos"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Detalles de fragmentos"
->abstract="Continuará"
+>abstract="Detalles de fragmentos"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Plantilla de contenido"
->abstract="Continuará"
+>abstract="Plantilla de contenido"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Propiedades de plantilla de contenido"
->abstract="Continuará"
+>abstract="Propiedades de plantilla de contenido"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Diseño de plantilla de contenido"
->abstract="Continuará"
+>abstract="Diseño de plantilla de contenido"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Selección de plantilla de contenido"
->abstract="Continuará"
+>abstract="Selección de plantilla de contenido"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Actividad de carga de archivo"
->abstract="Continuará"
+>abstract="Actividad de carga de archivo"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Actividad de reconciliación"
->abstract="Continuará"
+>abstract="Actividad de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Segmentación de reconciliación"
->abstract="Continuará"
+>abstract="Segmentación de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Reglas de reconciliación"
->abstract="Continuará"
+>abstract="Reglas de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Dimensión de segmentación de reconciliación"
->abstract="Continuará"
+>abstract="Dimensión de segmentación de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Campo de selección de reconciliación"
->abstract="Continuará"
+>abstract="Campo de selección de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Atributo de selección de reconciliación"
->abstract="Continuará"
+>abstract="Atributo de selección de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="Condición de creación de reconciliación"
->abstract="Continuará"
+>abstract="Condición de creación de reconciliación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="Reconciliación: generar complemento"
->abstract="Continuará"
+>abstract="Reconciliación: generar complemento"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="Filtro condicional de guardado de contenido"
->abstract="Continuará"
+>abstract="Filtro condicional de guardado de contenido"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="Filtro de selección de contenido condicional"
->abstract="Continuará"
+>abstract="Filtro de selección de contenido condicional"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="Contenido condicional en la línea de asunto"
->abstract="Continuará"
+>abstract="Contenido condicional en la línea de asunto"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="Condición de línea de asunto de contenido condicional"
->abstract="Continuará"
+>abstract="Condición de línea de asunto de contenido condicional"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Propiedades de público"
->abstract="Continuará"
+>abstract="Propiedades de público"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Recuento de público"
->abstract="Continuará"
+>abstract="Recuento de público"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulación de perfiles de prueba"
->abstract="Continuará"
+>abstract="Simulación de perfiles de prueba"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Simular la selección de perfiles de prueba"
->abstract="Continuará"
+>abstract="Simular la selección de perfiles de prueba"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Simular envío de perfiles de prueba"
->abstract="Continuará"
+>abstract="Simular envío de perfiles de prueba"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="Simular registro de correo electrónico"
->abstract="Continuará"
+>abstract="Simular registro de correo electrónico"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Número total de suscripciones"
->abstract="Continuará"
+>abstract="Número total de suscripciones"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="Suscripciones durante el período"
->abstract="Continuará"
+>abstract="Suscripciones durante el período"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolución general de suscripciones"
->abstract="Continuará"
+>abstract="Evolución general de suscripciones"
