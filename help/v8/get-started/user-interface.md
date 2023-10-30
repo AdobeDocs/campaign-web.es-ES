@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 82%
+source-wordcount: '1376'
+ht-degree: 83%
 
 ---
 
@@ -32,24 +32,14 @@ Examine los vínculos de la izquierda para acceder a las funciones de la web de 
 Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las funciones web principales de la versión 8 de Campaign.
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="Recientes"
 >abstract="La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación."
 
-#### Acceso a entregas recientes {#user-interface-recent}
-
 La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación. Haga clic en **Mostrar más** para cargar más envíos.
-
-#### Comprobar métricas clave {#user-interface-kpi}
 
 Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de los indicadores clave de rendimiento (KPI) en [esta página](../reporting/kpis.md).
 
-#### Documentación de Access {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="Formación"
->abstract="Acceda a las páginas de ayuda de claves web de Campaign v8 desde el **Aprendizaje** cuadros siguientes."
 
 Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la sección **Aprendizaje** de la página principal.
 
