@@ -3,14 +3,19 @@ title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 98%
+source-wordcount: '886'
+ht-degree: 97%
 
 ---
 
 # Indicadores clave de rendimiento {#kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_home_kpi"
+>title="Indicadores clave de rendimiento"
+>abstract="El **Indicadores clave de rendimiento** le permite comprobar la eficacia de la plataforma mediante KPI comunes."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
