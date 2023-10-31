@@ -4,9 +4,9 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1146'
 ht-degree: 12%
 
 ---
@@ -79,6 +79,10 @@ Los perfiles de prueba son direcciones semilla que son destinatarios adicionales
    ![](assets/simulate-profile-mode.png)
 
 1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
+
+   >[!NOTE]
+   >
+   >Los perfiles de prueba se crean en [!DNL Campaign] consola de cliente en **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga información sobre cómo crear y administrar direcciones semilla en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
 1. Para enviar también el mensaje final a los destinatarios de la entrega de prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
 
