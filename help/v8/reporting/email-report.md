@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -316,7 +316,7 @@ El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 
 ![](assets/reporting_email_9.png){align="center"}
 
-## Actividades de usuario {#user-activities-email}
+## Actividades del usuario {#user-activities-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"

@@ -42,7 +42,7 @@ Una plantilla puede incluir:
 >Las plantillas de envío son diferentes de [plantillas de contenido](../content/email-sample-templates.md), que le permiten empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo listas para usar.
 
 
-## Acceso y administración de plantillas de entrega {#access-manage-templates}
+## Acceso y administración de plantillas de envíos {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"

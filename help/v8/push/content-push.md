@@ -7,11 +7,11 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1347'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
-# Diseño de una entrega de mensajería push {#content-push}
+# Diseño de un envío de mensaje push {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -70,7 +70,7 @@ El modo Push silenciosa permite enviar una notificación “silenciosa” a una 
 
 >[!ENDTABS]
 
-## Configuración avanzada de notificaciones push {#push-advanced}
+## Configuración avanzada de notificación push {#push-advanced}
 
 
 >[!CONTEXTUALHELP]

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -23,7 +23,7 @@ Aprenda a crear su primer correo electrónico de destino. En este caso de uso, s
 
 Basado en un [plantilla de diseño](../content/email-sample-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
-## Creación de la entrega de correo electrónico {#create-email}
+## Creación del envío de correo electrónico {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"

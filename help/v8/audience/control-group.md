@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -99,7 +99,7 @@ Después de la preparación de la entrega, puede revisar cómo se aplicaron las 
 
 Para obtener más información sobre los registros de envío, consulte esta [sección](../monitor/delivery-logs.md).
 
-## Adición de una población adicional {#extra-population}
+## Añadir una población adicional {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"

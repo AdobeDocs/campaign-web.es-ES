@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -49,7 +49,7 @@ La monitorización de campañas es un paso clave para analizar la eficacia de su
 También puede ver los informes dedicados haciendo clic en **Informes** botón. Consulte esta [sección](../reporting/campaign-reports.md).
 
 
-## Definición de la programación de campañas {#campaign-schedule}
+## Definición de la programación de la campaña {#campaign-schedule}
 
 
 >[!CONTEXTUALHELP]

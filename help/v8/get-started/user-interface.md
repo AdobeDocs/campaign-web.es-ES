@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -253,38 +253,38 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Propiedades de páginas de aterrizaje"
->abstract="Propiedades de páginas de aterrizaje"
+>title="Propiedades de páginas de destino"
+>abstract="Propiedades de páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Páginas de destino"
->abstract="Páginas de destino"
+>title="Páginas de páginas de destino"
+>abstract="Páginas de páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Programación de páginas de aterrizaje"
->abstract="Programación de páginas de aterrizaje"
+>title="Programación de páginas de destino"
+>abstract="Programación de páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="Página principal de las páginas de destino"
->abstract="Página principal de las páginas de destino"
+>title="Página principal de páginas de destino"
+>abstract="Página principal de páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Suscripción a páginas de aterrizaje"
->abstract="Suscripción a páginas de aterrizaje"
+>title="Suscripción a páginas de destino"
+>abstract="Suscripción a páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="Llamada a acción de las páginas de aterrizaje"
->abstract="Llamada a acción de las páginas de aterrizaje"
+>title="Llamada a la acción de las páginas de destino"
+>abstract="Llamada a la acción de las páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simulación de páginas de aterrizaje"
->abstract="Simulación de páginas de aterrizaje"
+>title="Simulación de las páginas de destino"
+>abstract="Simulación de las páginas de destino"
 
 
 
@@ -407,8 +407,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="Reconciliación: generar complemento"
->abstract="Reconciliación: generar complemento"
+>title="Complemento de generación de reconciliación"
+>abstract="Complemento de generación de reconciliación"
 
 
 
@@ -416,8 +416,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
->title="Filtro condicional de guardado de contenido"
->abstract="Filtro condicional de guardado de contenido"
+>title="Filtro de guardado de contenido condicional"
+>abstract="Filtro de guardado de contenido condicional"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
@@ -455,18 +455,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
->title="Simular la selección de perfiles de prueba"
->abstract="Simular la selección de perfiles de prueba"
+>title="Simulación de selección de perfiles de prueba"
+>abstract="Simulación de selección de perfiles de prueba"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="Simular envío de perfiles de prueba"
->abstract="Simular envío de perfiles de prueba"
+>title="Simulación de envío de perfiles de prueba"
+>abstract="Simulación de envío de perfiles de prueba"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
->title="Simular registro de correo electrónico"
->abstract="Simular registro de correo electrónico"
+>title="Simulación de registro de correo electrónico"
+>abstract="Simulación de registro de correo electrónico"
 
 
 >[!CONTEXTUALHELP]
@@ -476,8 +476,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="Suscripciones durante el período"
->abstract="Suscripciones durante el período"
+>title="Suscripciones durante el periodo"
+>abstract="Suscripciones durante el periodo"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"

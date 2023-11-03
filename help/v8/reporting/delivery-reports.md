@@ -7,11 +7,11 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
-# Acceso a informes de entrega {#reports}
+# Acceso a informes de envío {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"

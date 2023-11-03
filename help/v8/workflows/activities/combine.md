@@ -7,7 +7,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * La **Intersección** permite mantener solo los elementos comunes a las diferentes poblaciones entrantes de la actividad.
 * La **Exclusión** permite excluir elementos de una población según determinados criterios.
 
-## Configuración de la actividad Combinar {#combine-configuration}
+## Configuración de la actividad de combinación {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"

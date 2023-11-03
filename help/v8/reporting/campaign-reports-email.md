@@ -7,7 +7,7 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -212,7 +212,7 @@ El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indica
 * **[!UICONTROL Estimation of forwards]** : estimación del número de correos electrónicos reenviados por los destinatarios objetivo.
 +++
 
-### Tasa de apertura y clics {#delivery-summary-open-rate}
+### Tasa de clics y de aperturas {#delivery-summary-open-rate}
 
 
 >[!CONTEXTUALHELP]
@@ -295,7 +295,7 @@ el **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 ![](assets/campaign_report_email_11.png)
 
 
-## Actividades de usuario {#user-activities-email}
+## Actividades del usuario {#user-activities-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_user_activities"
