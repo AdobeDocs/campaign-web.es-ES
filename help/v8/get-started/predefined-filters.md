@@ -19,12 +19,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="Administración de filtros predefinidos"
->abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créela una sola vez y guárdela para usarla en el futuro."
+>abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtros predefinidos"
->abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créela una sola vez y guárdela para usarla en el futuro."
+>abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
 
 Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el generador de reglas, por ejemplo, al filtrar una lista de datos o crear el público de un envío.
 
