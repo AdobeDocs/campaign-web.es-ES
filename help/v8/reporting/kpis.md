@@ -74,7 +74,7 @@ Adobe Campaign detecta que el mensaje se abre cuando la persona destinataria des
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Clics"
->abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las URL clicadas de los mensajes y el porcentaje de clics comparado con la cantidad total de mensajes enviados correctamente."
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las URL clicadas de los mensajes y el porcentaje de clics comparado con la cantidad total de mensajes entregados correctamente."
 
 Puede añadir URL en el contenido del mensaje para redirigir a una página concreta. La tasa de clics mide la cantidad y el porcentaje de personas que hicieron clic en un vínculo del mensaje.
 

@@ -16,7 +16,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos"
->abstract="Desde esta pantalla, puede acceder a la lista de todos los públicos a los que pueden dirigirse sus envíos. Haga clic en **Crear** para crear nuevos públicos en un lienzo visual utilizando varias actividades de flujo de trabajo como **Dividir** o **Excluir**."
+>abstract="Desde esta pantalla, puede acceder a la lista de todos los públicos que se pueden segmentar en los envíos. Haga clic en **Crear** para crear nuevos públicos en un lienzo visual utilizando varias actividades de flujo de trabajo como **División** o **Excluir**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
