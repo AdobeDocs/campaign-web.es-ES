@@ -3,10 +3,10 @@ title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 97%
+source-wordcount: '936'
+ht-degree: 92%
 
 ---
 
@@ -93,6 +93,10 @@ Estas métricas se basan en la tabla Seguimiento consolidado (`nms:trackingStats
 >id="acw_keyindicators_unsubscriptions"
 >title="Bajas"
 >abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las bajas de un servicio y el porcentaje de bajas en comparación con la cantidad total de mensajes entregados correctamente."
+
+>[!NOTE]
+>
+> Los KPI de suscripción y baja varían en función del tipo de servicio. Por ejemplo, las suscripciones por correo electrónico y las bajas de suscripción abarcan todos los servicios relacionados con el correo electrónico, ya sean resultantes de acciones manuales o formularios web. Es importante distinguir este método de la métrica de baja en el nivel de entrega, que rastrea los clics en los vínculos de baja en lugar de los usuarios reales sin suscripción.
 
 Las personas deben poder pedir la exclusión de los correos electrónicos y los SMS mediante un vínculo de baja específico en el contenido del correo electrónico o respondiendo DETENER a un SMS.
 
