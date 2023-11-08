@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 99%
+source-wordcount: '1396'
+ht-degree: 97%
 
 ---
 
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Complemento de generación de reconciliación"
 >abstract="Complemento de generación de reconciliación"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Dividir para generar complemento"
+>abstract="Dividir para generar complemento"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combinar generar complemento"
+>abstract="Combinar generar complemento"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segmentos para actividad dividida"
+>abstract="Segmentos para actividad dividida"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolución general de suscripciones"
 >abstract="Evolución general de suscripciones"
+
+
