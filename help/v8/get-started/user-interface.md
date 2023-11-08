@@ -190,8 +190,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title="Dirección de los destinatarios"
->abstract="Dirección de los destinatarios"
+>title="Dirección de destinatarios"
+>abstract="Dirección de destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
