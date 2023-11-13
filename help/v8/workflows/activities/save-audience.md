@@ -3,22 +3,22 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '425'
 ht-degree: 8%
 
 ---
 
-
 # Guardado de público {#save-audience}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
--->
+>id="acw_orchestration_saveaudience"
+>title="Guardar un público"
+>abstract="Utilice esta actividad para actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en el flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias y están disponibles en el **Audiencias** menú."
+
 
 El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 
@@ -52,5 +52,3 @@ El contenido de la audiencia guardada está disponible en la vista de detalles d
 ## Ejemplo{#save-audience-example}
 
 El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a los diferentes servicios de aplicaciones disponibles. El **Guardar audiencia** la actividad actualiza la audiencia eliminando perfiles que han dejado de suscribirse al servicio desde la última ejecución del flujo de trabajo y añadiendo los perfiles recién suscritos.
-
-
