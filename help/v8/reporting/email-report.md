@@ -19,7 +19,7 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
->title=" Envío de creación de informes"
+>title="Envío de creación de informes"
 >abstract="La pestaña **Envío** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
 
 ### Población de público destinatario inicial {#email-delivery-targeted-population}

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -409,18 +409,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="Dividir para generar complemento"
->abstract="Dividir para generar complemento"
+>title="Complemento de generación de división"
+>abstract="Complemento de generación de división"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="Combinar generar complemento"
->abstract="Combinar generar complemento"
+>title="Complemento de generación de combinación"
+>abstract="Complemento de generación de combinación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
->title="Segmentos para actividad dividida"
->abstract="Segmentos para actividad dividida"
+>title="Segmentos para actividad de división"
+>abstract="Segmentos para actividad de división"
 
 
 

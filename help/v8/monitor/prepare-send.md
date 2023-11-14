@@ -113,7 +113,7 @@ Independientemente de si la entrega está programado o no, se pueden realizar do
 
 ![](assets/email-send-pause-or-stop.png)
 
-## Compruebe los KPI mostrados. {#check-kpis}
+## Compruebe los KPI mostrados {#check-kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"

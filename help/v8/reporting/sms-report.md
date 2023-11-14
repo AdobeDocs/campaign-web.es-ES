@@ -15,7 +15,7 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
->title=" Envío de creación de informes"
+>title="Envío de creación de informes"
 >abstract="La pestaña **Envío** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
 
 La **Información general sobre el envío de SMS** ofrece una amplia descripción general del envío de SMS, que proporciona amplia información y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío.
@@ -46,7 +46,7 @@ El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clav
 +++
 
 
-### Población objetivo {#sms-delivery-targeted-population}
+### Población de destino {#sms-delivery-targeted-population}
 
 
 >[!CONTEXTUALHELP]
