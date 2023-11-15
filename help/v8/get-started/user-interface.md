@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las fu
 >title="Recientes"
 >abstract="La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación."
 
-La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación. Haga clic en **Mostrar más** para cargar más envíos.
+La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación. Haga clic en el vínculo **Mostrar más** para cargar más envíos.
 
 Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de los indicadores clave de rendimiento (KPI) en [esta página](../reporting/kpis.md).
 
@@ -253,38 +253,38 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Propiedades de páginas de destino"
->abstract="Propiedades de páginas de destino"
+>title="Propiedades de páginas de aterrizaje"
+>abstract="Propiedades de páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Páginas de páginas de destino"
->abstract="Páginas de páginas de destino"
+>title="Páginas de páginas de aterrizaje"
+>abstract="Páginas de páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Programación de páginas de destino"
->abstract="Programación de páginas de destino"
+>title="Programación de páginas de aterrizaje"
+>abstract="Programación de páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="Página principal de páginas de destino"
->abstract="Página principal de páginas de destino"
+>title="Página principal de páginas de aterrizaje"
+>abstract="Página principal de páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Suscripción a páginas de destino"
->abstract="Suscripción a páginas de destino"
+>title="Suscripción a páginas de aterrizaje"
+>abstract="Suscripción a páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="Llamada a la acción de las páginas de destino"
->abstract="Llamada a la acción de las páginas de destino"
+>title="Llamada a la acción de las páginas de aterrizaje"
+>abstract="Llamada a la acción de las páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simulación de las páginas de destino"
->abstract="Simulación de las páginas de destino"
+>title="Simulación de las páginas de aterrizaje"
+>abstract="Simulación de las páginas de aterrizaje"
 
 
 
@@ -409,18 +409,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="Complemento de generación de división"
->abstract="Complemento de generación de división"
+>title="Dividir generar complemento"
+>abstract="Dividir generar complemento"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="Complemento de generación de combinación"
->abstract="Complemento de generación de combinación"
+>title="Combinar generar complemento"
+>abstract="Combinar generar complemento"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
->title="Segmentos para actividad de división"
->abstract="Segmentos para actividad de división"
+>title="Segmentos de actividad dividida"
+>abstract="Segmentos de actividad dividida"
 
 
 
