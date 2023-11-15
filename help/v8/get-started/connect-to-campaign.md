@@ -1,29 +1,30 @@
 ---
-title: Conectar con la interfaz web de Adobe Campaign
-description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign v8
+title: Conexión con la interfaz web de Adobe Campaign
+description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign versión 8
 badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Conexión a Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign v8 en esta página.
+Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign versión 8 en esta página.
 
 ## Iniciar sesión en Adobe Experience Cloud {#sign-in-to-exc}
 
-Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. Siga los pasos de la invitación del correo electrónico al Experience Cloud.
+Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. Siga los pasos de la invitación del correo electrónico a Experience Cloud.
 
 Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
 1. Conéctese a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Inicie sesión con su Adobe ID o Enterprise ID. Obtenga más información acerca de los tipos de identidad en Adobe en [este artículo](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+1. Inicie sesión con su Adobe ID o Enterprise ID. Obtenga más información sobre los tipos de identidad en Adobe en [este artículo](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 
-   Después de iniciar sesión en Experience Cloud, puede acceder rápidamente a todas sus soluciones y aplicaciones.
+   Después de iniciar sesión en Experience Cloud, podrá acceder rápidamente a todas sus soluciones y aplicaciones.
 
    ![](assets/exc-home.png)
 
@@ -31,18 +32,18 @@ Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   Obtenga más información acerca de las organizaciones en Adobe Experience Cloud en [este artículo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){target="_blank"}.
+   Obtenga más información sobre las organizaciones de Adobe Experience Cloud en [este artículo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){target="_blank"}.
 
 
 ## Acceso a Adobe Campaign {#access-to-campaign}
 
-Para acceder al entorno de Campaign, seleccione **Campaign** desde el **Acceso rápido** de la página de inicio de Adobe Experience Cloud.
+Para acceder a su entorno de Campaign, seleccione **Campaign** en la sección de **Acceso rápido** de la página de inicio de Adobe Experience Cloud.
 
 Si ya está conectado a otra solución de Adobe Experience Cloud, también puede navegar al entorno de Campaign desde el conmutador de soluciones en la parte superior derecha de la pantalla.
 
 ![](assets/solution-switcher.png)
 
-Si tiene acceso a varios entornos, incluido el Panel de control de Campaign de Campaign, haga clic en **Launch** para la instancia correcta.
+Si tiene acceso a varios entornos, incluido el Panel de control de Campaign, haga clic en el botón **Iniciar** para la instancia correcta.
 
 ![](assets/launch-campaign.png)
 
@@ -52,7 +53,7 @@ Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a uti
 
 Utilice la barra superior de la interfaz para lo siguiente:
 
-* compartir sus comentarios como usuario beta
+* compartir sus comentarios como usuario Beta
 * cambiar entre sus organizaciones
 * cambiar entre sus soluciones y aplicaciones de Adobe Experience Cloud
 
@@ -60,7 +61,7 @@ Utilice la barra superior de la interfaz para lo siguiente:
 
 ## Navegadores admitidos {#browsers}
 
-La versión 8 de Campaign Web está diseñada para funcionar de forma óptima en la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros exploradores.
+La web de la versión 8 de Campaign está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros exploradores.
 
 ## Preferencias de idioma {#language-pref}
 
@@ -84,13 +85,12 @@ Para cambiar el idioma, haga lo siguiente:
 
 1. Haga clic en el icono del perfil, en la parte superior derecha, y luego seleccione **Preferencias**.
 1. A continuación, haga clic en el vínculo de idioma mostrado debajo de su dirección de correo electrónico.
-1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que utilice no esté localizado en su primer idioma.
+1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no se haya localizado en su primer idioma.
 
 ## Tema oscuro {#dark-theme}
 
 Puede cambiar al tema oscuro desde el icono de perfil. Utilice la alternancia **Tema oscuro** para habilitarlo o deshabilitarlo.
 
-La configuración del perfil de usuario y las preferencias de cuenta se detallan en [esta sección](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+La configuración del perfil de usuario y las preferencias de cuenta se detallan en [esta sección](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#preferences){target="_blank"}.
 
-Obtenga más información acerca de los componentes de la interfaz central de Experience Cloud en [esta documentación](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-
+Obtenga más información acerca de los componentes de la interfaz central de Experience Cloud en [esta documentación](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es){target="_blank"}.

@@ -5,7 +5,7 @@ description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ A continuación, se enumeran las funciones clave incluidas en la versión Beta d
 
 * **Filtros predefinidos**
 
-  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para **administrar y personalizar filtros predefinidos** para satisfacer sus necesidades específicas. Créela una sola vez y guárdela para usarla en el futuro.
+  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ahora le ofrece una interfaz fácil de usar para **administrar y personalizar filtros predefinidos** para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro.
 
   Obtenga más información en [esta sección](../get-started/predefined-filters.md).
 
