@@ -3,10 +3,10 @@ title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 83%
+source-wordcount: '1196'
+ht-degree: 73%
 
 ---
 
@@ -141,3 +141,23 @@ Para cada canal, el indicador **Errores** muestra los siguientes indicadores cla
 * Porcentaje de errores en comparación con la cantidad total de mensajes que se van a enviar.
 
 * Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos.
+
+## Mensaje enviado {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Enviado"
+>abstract="Esta métrica muestra, para el canal de correo postal, la suma de todos los mensajes enviados y el porcentaje de mensajes enviados al proveedor, en comparación con el número total de mensajes preparados durante la fase de preparación de la entrega."
+
+Durante la fase de preparación, se genera el archivo de extracción de correo postal, pero la información sobre los destinatarios (es decir, registros de envío) no se actualiza.  El estado de una entrega se movió de Envío pendiente a Enviado cuando el usuario de Campaign confirma la entrega de la entrega. A continuación, la entrega se establece en Finished.
+
+Nunca puede ser el 100% de los mensajes enviados en comparación con el total de mensajes preparados, ya que algunas direcciones pueden faltar o estar incompletas.
+
+El **Enviado** Este indicador muestra los siguientes KPI, para el canal de correo postal:
+
+* Porcentaje del número de mensajes enviados comparado con el número total de mensajes preparados.
+
+* Suma de todos los mensajes enviados.
+
