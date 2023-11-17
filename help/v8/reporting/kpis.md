@@ -3,10 +3,10 @@ title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
+source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 94%
+source-wordcount: '1054'
+ht-degree: 83%
 
 ---
 
@@ -87,6 +87,23 @@ Para cada canal, el indicador **Clics** muestra los siguientes indicadores clave
 Estas métricas se basan en la tabla Seguimiento consolidado (`nms:trackingStats`). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla Registros de seguimiento de destinatarios (`nms:trackingLogRcp`), y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los registros de seguimiento.
 
 
+## Tasas de suscripción {#ui-sub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Suscripciones"
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las suscripciones a un servicio y el porcentaje de suscripciones en comparación con el número total de mensajes enviados correctamente."
+
+
+Los destinatarios pueden optar por recibir comunicaciones por correo electrónico y SMS.
+
+El **Suscripciones** Este indicador muestra los siguientes KPI, para cada canal el porcentaje del número de suscripciones comparado con el número total de mensajes enviados correctamente.
+
+
+>[!NOTE]
+>
+> Los KPI de suscripción y baja varían en función del tipo de servicio. Por ejemplo, las suscripciones por correo electrónico y las bajas de suscripción abarcan todos los servicios relacionados con el correo electrónico, ya sean resultantes de acciones manuales o formularios web. Es importante distinguir este método de la métrica de baja en el nivel de entrega, que rastrea los clics en los vínculos de baja en lugar de los usuarios reales sin suscripción.
+
 ## Tasas de baja {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
@@ -94,9 +111,6 @@ Estas métricas se basan en la tabla Seguimiento consolidado (`nms:trackingStats
 >title="Bajas"
 >abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las bajas de un servicio y el porcentaje de bajas en comparación con la cantidad total de mensajes entregados correctamente."
 
->[!NOTE]
->
-> Los KPI de suscripción y baja varían en función del tipo de servicio. Por ejemplo, las suscripciones por correo electrónico y las bajas de suscripción abarcan todos los servicios relacionados con el correo electrónico, ya sean resultantes de acciones manuales o formularios web. Es importante distinguir este método de la métrica de baja en el nivel de entrega, que rastrea los clics en los vínculos de baja en lugar de los usuarios reales sin suscripción.
 
 Las personas deben poder pedir la exclusión de los correos electrónicos y los SMS mediante un vínculo de baja específico en el contenido del correo electrónico o respondiendo DETENER a un SMS.
 
@@ -106,6 +120,10 @@ Para cada canal, el indicador **Bajas** muestra los siguientes indicadores clave
 
 * Suma de todos los clics hechos en un vínculo de baja, es decir, que tengan una categoría URL igual a &quot;Exclusión&quot;.
 
+
+>[!NOTE]
+>
+> Los KPI de suscripción y baja varían en función del tipo de servicio. Por ejemplo, las suscripciones por correo electrónico y las bajas de suscripción abarcan todos los servicios relacionados con el correo electrónico, ya sean resultantes de acciones manuales o formularios web. Es importante distinguir este método de la métrica de baja en el nivel de entrega, que rastrea los clics en los vínculos de baja en lugar de los usuarios reales sin suscripción.
 
 ## Tasas de error {#ui-error-kpi}
 
