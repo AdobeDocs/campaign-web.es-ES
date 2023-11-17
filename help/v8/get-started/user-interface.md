@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -75,10 +75,10 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 
 ### Administración de clientes {#user-interface-customer-management}
 
-En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los públicos y las suscripciones. Estas listas son de solo lectura.
+En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los públicos destinatarios y las suscripciones. Estas listas son de solo lectura.
 
 * **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Puede obtener más información sobre destinatarios en [esta sección](../audience/about-recipients.md).
-* **Audiencias**: esta es su lista de audiencias. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información sobre públicos y listas en [esta sección](../audience/about-recipients.md).
+* **Públicos**: esta es su lista de públicos. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información sobre públicos y listas en [esta sección](../audience/about-recipients.md).
 * **Suscripciones**: examine las listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Obtenga información sobre cómo administrar suscripciones y bajas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=es){target="_blank"}.
 
 ### Gestión de decisiones {#decision-management}
@@ -370,7 +370,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Actividad de reconciliación"
->abstract="Utilice el **Reconciliación** actividad para vincular datos no identificados a recursos existentes."
+>abstract="Utilice la actividad **Reconciliación** para vincular datos no identificados a recursos existentes."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"

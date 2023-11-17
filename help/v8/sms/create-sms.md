@@ -3,8 +3,8 @@ audience: end-user
 title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 badge: label="Beta"
-exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 72%
@@ -20,8 +20,8 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
->title="Definición de la audiencia SMS"
->abstract="Seleccione la mejor audiencia para su mensaje de SMS."
+>title="Definición del público SMS"
+>abstract="Seleccione el mejor público para su mensaje de SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
@@ -51,7 +51,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.
 +++
 
-1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información](../audience/about-recipients.md).
+1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 

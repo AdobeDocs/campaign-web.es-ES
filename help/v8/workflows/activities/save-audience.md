@@ -7,7 +7,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 091775bae73595cb209199b062508931dd3ea315
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="Guardar un público"
->abstract="Utilice esta actividad para actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en el flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias y están disponibles en el **Audiencias** menú."
+>abstract="Utilice esta actividad para actualizar un público existente o crear uno nuevo a partir de la población calculada en sentido ascendente en un flujo de trabajo. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
 
 
 El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
