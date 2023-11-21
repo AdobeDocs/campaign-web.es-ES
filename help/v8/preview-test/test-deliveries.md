@@ -4,10 +4,10 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 12%
+source-wordcount: '1190'
+ht-degree: 11%
 
 ---
 
@@ -69,6 +69,10 @@ Para comenzar a probar el contenido del mensaje:
 >title="Archivo de plantilla"
 >abstract="El formato del archivo debe ser el mismo que el del archivo original.<br/>Formatos de archivo compatibles: txt, csv. Tamaño máximo de archivo: 15 MB. Usar la primera línea como encabezado de columna."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Incluir perfiles de prueba en la audiencia principal"
+>abstract="Active esta opción para enviar también el mensaje final a los destinatarios de la entrega de prueba."
 
 Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear en la variable [!DNL Adobe Campaign] consola de cliente. A continuación se detallan los pasos para enviar mensajes de prueba a las direcciones semilla.
 
@@ -90,7 +94,9 @@ Los perfiles de prueba son direcciones semilla que son destinatarios adicionales
 
 ## Sustituir datos de perfil {#substitution-profiles}
 
-Utilice la sustitución de perfiles para enviar mensajes de prueba a una dirección de correo electrónico o un número de teléfono específicos, mientras se muestran datos de un perfil existente de [!DNL Adobe Campaign] base de datos. Para realizar esto, siga los pasos a continuación:
+Utilice la sustitución de perfiles para enviar mensajes de prueba a una dirección de correo electrónico o un número de teléfono específicos, mientras se muestran datos de un perfil existente de [!DNL Adobe Campaign] base de datos. Este modo solo se puede seleccionar si se ha definido la audiencia del envío.
+
+Para sustituir los datos de perfil del destinatario principal, siga los pasos a continuación:
 
 
 1. En el contenido de su envío, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.
@@ -119,9 +125,9 @@ Utilice la sustitución de perfiles para enviar mensajes de prueba a una direcci
 
 1. Una vez seleccionados los perfiles de sustitución, puede [realizar la entrega de prueba](#send-test).
 
-## Envío de pruebas a los suscriptores {#subscribers}
+## Envío de pruebas a suscriptores de la aplicación {#subscribers}
 
-Al trabajar con notificaciones push, los envíos de prueba solo se pueden enviar a los suscriptores de la aplicación. Para seleccionarlos, siga los pasos a continuación.
+Al diseñar con notificaciones push, las entregas de prueba solo se pueden enviar a los suscriptores de la aplicación. Para seleccionarlos, siga los pasos a continuación.
 
 1. En el contenido de la entrega push, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.
 

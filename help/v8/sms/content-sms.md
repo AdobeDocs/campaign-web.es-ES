@@ -3,10 +3,10 @@ audience: end-user
 title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
 badge: label="Beta"
-exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
+exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '175'
 ht-degree: 88%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 88%
 >title="Contenido SMS"
 >abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="Suscriptores de la aplicación"
->abstract="Obtenga una vista previa y pruebe el mensaje añadiendo suscriptores de la aplicación al destinatario principal."
 
 
 Para diseñar el contenido de un envío SMS, siga estos pasos:
@@ -44,4 +40,4 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa.
 
-Ahora puede revisar y enviar su mensaje SMS a su audiencia.
+Ahora puede revisar y enviar su mensaje SMS a su público.
