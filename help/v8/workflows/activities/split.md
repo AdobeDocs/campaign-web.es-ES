@@ -4,9 +4,9 @@ title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '694'
 ht-degree: 97%
 
 ---
@@ -39,6 +39,10 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >title="Ordenación de la actividad de división"
 >abstract="Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo de perfil específico, en orden ascendente o descendente. Para ello, active la opción **Habilitar ordenación**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Dividir generar complemento"
+>abstract="Una vez configurados todos los subconjuntos, puede seleccionar la población restante que no coincide con ninguno de los subconjuntos e incluirlos en una transición saliente adicional. Para ello, active la opción **Generar complemento**."
 
 Siga estos pasos para configurar la actividad **División**:
 
