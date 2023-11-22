@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 26%
+source-wordcount: '1047'
+ht-degree: 22%
 
 ---
 
@@ -24,6 +24,7 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas de enví
 
 Una plantilla puede incluir:
 
+* El **carpeta** y **carpeta de ejecución** de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de envíos. La carpeta de ejecución es la carpeta en la que se guardan los envíos creados basándose en esta plantilla.
 * [Tipologías](../advanced-settings/delivery-settings.md#typology),
 * La dirección del remitente,
 * Un [audiencia](../audience/about-recipients.md), incluido [grupos de control](../audience/control-group.md),
@@ -47,9 +48,8 @@ Una plantilla puede incluir:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Trabajo con plantillas de envío"
->abstract="Utilice plantillas de envío para crear y guardar sin esfuerzo los envíos existentes para uso futuro."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Duplicación de una plantilla existente"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Conversión de un envío en una plantilla"
+>abstract="Utilice plantillas de envío para crear y guardar la configuración de envío para su uso futuro en todas las campañas. Puede crear plantillas de envío desde cero, duplicar una plantilla existente o convertir una entrega en una plantilla."
+
 
 Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Campaign Management]** > **[!UICONTROL Envíos]** en el menú de la izquierda y vaya a **Plantillas** pestaña.
 
