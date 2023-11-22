@@ -4,10 +4,10 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 84%
+source-wordcount: '2159'
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,13 @@ Esta configuración está disponible en **Configuración de la entrega** icono d
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
+>abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configuración de tipología para el envío"
->abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
 
 
 Las tipologías son conjuntos de **reglas de tipología**, que se ejecutan durante la fase de preparación. Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío en la fase de preparación de envíos.  Le permiten asegurarse de que los mensajes de correo electrónico siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que han cancelado la suscripción, competidoras o clientes que no sean fieles).
@@ -48,7 +48,9 @@ Al asociar una tipología a un mensaje o plantilla de mensaje, las reglas de tip
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign. Obtenga más información acerca de las reglas de presión y cómo configurar la administración de la fatiga en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
 
 ### Parámetros de presión {#pressure-parameters}
 
@@ -83,7 +85,9 @@ Utilice el campo **Modo de envío** para seleccionar el modo de evaluación del 
 * **Estimación y aprobación de los destinatarios provisionales**
 * **Evaluación de los destinatarios**
 
-La administración de la fatiga viene con el complemento **Optimización de la campaña**. Obtenga más información acerca de las reglas de presión y cómo configurar la administración de la fatiga en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.
+>[!NOTE]
+>
+>La administración de la fatiga se configura en la consola del cliente de Campaign. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.
 
 ### Configuración de la capacidad {#capacity-settings}
 
@@ -103,7 +107,9 @@ En esta sección, puede seleccionar una regla de capacidad definida en la consol
 
 El campo **importancia del destinatario** es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad.
 
-Obtenga más información acerca de las reglas de coherencia y capacidad y cómo configurarlas en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=es){target="_blank"}.
+>[!NOTE]
+>
+>Las reglas de tipología se configuran en la consola del cliente de Campaign. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=es){target="_blank"}.
 
 
 ## Configuración del público {#audience}
@@ -145,7 +151,9 @@ En esta sección, puede seleccionar una cuenta de análisis web. Esta cuenta se 
 
 También puede definir las etiquetas compartidas con la herramienta de análisis que está utilizando.
 
-Obtenga más información acerca de Web Analytics y Campaign en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
+>[!NOTE]
+>
+>Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
 
 ### Reintentos {#retries}
