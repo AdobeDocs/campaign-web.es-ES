@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -71,8 +71,8 @@ Para comenzar a probar el contenido del mensaje:
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="Incluir perfiles de prueba en la audiencia principal"
->abstract="Active esta opción para enviar también el mensaje final a los destinatarios de la entrega de prueba."
+>title="Incluir perfiles de prueba en el público principal"
+>abstract="Habilite esta opción para enviar también el mensaje final a los destinatarios de la entrega de prueba."
 
 Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear en la variable [!DNL Adobe Campaign] consola de cliente. A continuación se detallan los pasos para enviar mensajes de prueba a las direcciones semilla.
 

@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Estas métricas se basan en la tabla Seguimiento consolidado (`nms:trackingStats
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="Suscripciones"
->abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las suscripciones a un servicio y el porcentaje de suscripciones en comparación con el número total de mensajes enviados correctamente."
+>abstract="Esta métrica muestra, para el canal seleccionado, la suma de todas las suscripciones a un servicio y el porcentaje de suscripciones en comparación con la cantidad total de mensajes entregados correctamente."
 
 
 Los destinatarios pueden optar por recibir comunicaciones por correo electrónico y SMS.
@@ -149,7 +149,7 @@ Para cada canal, el indicador **Errores** muestra los siguientes indicadores cla
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
 >title="Enviado"
->abstract="Esta métrica muestra, para el canal de correo postal, la suma de todos los mensajes enviados y el porcentaje de mensajes enviados al proveedor, en comparación con el número total de mensajes preparados durante la fase de preparación de la entrega."
+>abstract="Esta métrica muestra, para el canal de correo directo, la suma de todos los mensajes enviados y el porcentaje de mensajes enviados al proveedor, en comparación con el número total de mensajes preparados durante la fase de preparación de la entrega."
 
 Durante la fase de preparación, se genera el archivo de extracción de correo postal, pero la información sobre los destinatarios (es decir, registros de envío) no se actualiza.  El estado de una entrega se movió de Envío pendiente a Enviado cuando el usuario de Campaign confirma la entrega de la entrega. A continuación, la entrega se establece en Finished.
 
