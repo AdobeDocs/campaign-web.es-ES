@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 97%
+source-wordcount: '1501'
+ht-degree: 94%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Propiedades de contenido para correo directo"
 >abstract="Propiedades de contenido para correo directo"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Actividad de carga de archivo"
+>abstract="Actividad de carga de archivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Archivo de muestra"
+>abstract="Archivo de muestra"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Nombre del archivo"
+>abstract="Nombre del archivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Base de datos Target"
+>abstract="Base de datos Target"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Rechazar administración para la actividad Cargar archivo"
+>abstract="Rechazar administración para la actividad Cargar archivo"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Rechazar transición saliente de administración"
+>abstract="Rechazar transición saliente de administración"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Rechazar transición saliente de administración para rechazos"
+>abstract="Rechazar transición saliente de administración para rechazos"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Formato para la actividad Cargar archivo"
+>abstract="Formato para la actividad Cargar archivo"
+
