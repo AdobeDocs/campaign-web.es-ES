@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ En Adobe Campaign, la población objetivo de una entrega es una audiencia. Una a
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfiles"
->abstract="Un perfil es una persona destinada a recibir mensajes enviados por Adobe Campaign. En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS). En esta lista, puede ver el perfil del destinatario en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos del destinatario."
+>abstract="Un perfil es una persona que está destinada a recibir mensajes enviados por Adobe Campaign. En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS). En esta lista, puede ver el perfil del destinatario en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos del destinatario."
 
 Un destinatario es un perfil que está destinado a recibir mensajes enviados por Adobe Campaign. En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten crear audiencias que reciban cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. En la base de datos se almacenan otros tipos de perfiles. Están diseñados para diferentes usos: por ejemplo, se crean perfiles semilla para probar los envíos antes de enviarlos a la audiencia final.
 

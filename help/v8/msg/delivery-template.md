@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -48,7 +48,7 @@ Una plantilla puede incluir:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Trabajo con plantillas de envío"
->abstract="Utilice plantillas de envío para crear y guardar la configuración de envío para su uso futuro en todas las campañas. Puede crear plantillas de envío desde cero, duplicar una plantilla existente o convertir una entrega en una plantilla."
+>abstract="Utilice plantillas de envío para crear y guardar la configuración de envío para su uso futuro en todas las campañas. Puede crear plantillas de envío desde cero, duplicar una plantilla existente o convertir un envío en una plantilla."
 
 
 Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Campaign Management]** > **[!UICONTROL Envíos]** en el menú de la izquierda y vaya a **Plantillas** pestaña.
