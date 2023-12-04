@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 86%
+source-wordcount: '894'
+ht-degree: 85%
 
 ---
 
@@ -80,11 +80,11 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 1. Seleccione el **Tipo de reconciliación** para definir cómo se gestionan los duplicados. Consulte la sección [Unión](#union).
 1. Seleccione la opción **Generar complemento** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se añadirá una transición saliente adicional a la actividad.
 
-## Exclusión {#combine-exclusion}
+## Exclusión  {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Exclusión  reglas"
+>title="Reglas de exclusión"
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en Añadir una regla en la sección Reglas de exclusión y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 >[!CONTEXTUALHELP]
@@ -94,7 +94,7 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
->title="Exclusión  reglas"
+>title="Reglas de exclusión"
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en Añadir una regla en la sección Reglas de exclusión y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 

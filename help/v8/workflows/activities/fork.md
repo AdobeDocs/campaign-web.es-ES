@@ -7,7 +7,7 @@ exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
->title="Bifurcación  actividad"
+>title="Actividad de bifurcación"
 >abstract="La actividad **Tenedor** permite crear transiciones salientes para iniciar varias actividades al mismo tiempo."
 
 
