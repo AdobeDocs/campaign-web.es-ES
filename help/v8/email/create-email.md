@@ -4,10 +4,10 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 71%
+source-wordcount: '1328'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,7 @@ Basado en un [plantilla de diseño](../content/email-sample-templates.md), el co
 >title="Definición de las propiedades del correo electrónico"
 >abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. La configuración adicional es opcional. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
 
-Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Obtenga más información acerca de los pasos de creación de entregas en Adobe Campaign en [esta página](../msg/gs-deliveries.md).
 
 Para crear un nuevo envío de correo electrónico independiente, siga los pasos a continuación.
 
@@ -68,7 +68,7 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 
 1. Además, se puede acceder a la configuración avanzada, como reglas de tipología y asignaciones de destino, a través del **[!UICONTROL Configuración]** situado en la parte superior derecha de la pantalla. Estos ajustes están preconfigurados en la plantilla seleccionada, pero se pueden editar según sea necesario para este correo electrónico específico. [Más información](../advanced-settings/delivery-settings.md)
 
-## Definición de la audiencia {#define-audience}
+## Definición del público {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
@@ -77,13 +77,13 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=es" text="Selección de los públicos principales"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=es" text="Establecer un grupo de control"
 
-En este caso de uso, envíe el correo electrónico a una audiencia existente.
+En este caso de uso, envía el correo electrónico a una audiencia existente.
 
-Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [esta sección](../audience/about-recipients.md).
+Encontrará instrucciones adicionales sobre cómo trabajar con públicos en [esta sección](../audience/about-recipients.md).
 
-1. Para seleccionar la audiencia del correo electrónico, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** y elija una audiencia existente en la lista.
+1. Para seleccionar el público del correo electrónico, haga clic en el botón **[!UICONTROL Seleccionar público]** y elija un público existente en la lista.
 
-   En este ejemplo, queremos utilizar una audiencia existente dirigida a clientes que pertenezcan a los niveles de puntos de lealtad de oro y plata.
+   En este ejemplo, queremos utilizar un público existente dirigido a clientes que pertenezcan a los niveles de puntos de lealtad de oro y plata.
 
    ![](assets/create-audience.png)
 
@@ -91,7 +91,7 @@ Encontrará instrucciones adicionales sobre cómo trabajar con audiencias en [es
    >
    >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración destino/origen en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Descubra cómo trabajar con Campaign y Adobe Experience Platform en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
-1. Una vez seleccionada la audiencia, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
+1. Una vez seleccionado el público, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
 
    ![](assets/audience-selected.png)
 
@@ -155,7 +155,7 @@ En este caso de uso, se obtiene una vista previa del correo electrónico y se en
 
 Encontrará información adicional sobre cómo previsualizar y probar correos electrónicos en [esta sección](../preview-test/preview-test.md).
 
-1. Para revisar su correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar.
+1. Para revisar su correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, público y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar.
 
 1. Para obtener una vista previa del correo electrónico y enviar versiones de prueba, haga clic en **[!UICONTROL Simular contenido]** botón.
 

@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Trabajo con plantillas de envío
+title: Uso de plantillas de envío
 description: Obtenga información sobre cómo crear y utilizar plantillas de envío en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 25%
+source-wordcount: '1045'
+ht-degree: 19%
 
 ---
 
-# Trabajo con plantillas de envío {#work-with-delivery-templates}
+# Uso de plantillas de envío {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
@@ -93,7 +93,7 @@ Campaign viene con un conjunto de plantillas integradas para cada canal: correo 
 
 Para duplicar una plantilla de envíos, siga estos pasos:
 
-1. Vaya a la pestaña **Plantillas**, desde el menú izquierdo **Envíos.** [Más información](#access-manage-templates)
+1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
 1. Haga clic en **[!UICONTROL Más acciones]** a la derecha del nombre de la plantilla deseada y seleccione  **[!UICONTROL Duplicar]**.
 
    También puede seleccionar una plantilla de la lista y seleccionar esta opción en la pantalla de edición de plantillas.
@@ -143,8 +143,8 @@ La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates).
 
 Para configurar una plantilla de envíos desde cero, siga los pasos a continuación:
 
-1. Vaya a la pestaña **Plantillas**, desde el menú izquierdo **Envíos.** [Más información](#access-manage-templates)
-1. Haga clic en el botón **[!UICONTROL Crear plantilla]**.
+1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
+1. Haga clic en **[!UICONTROL Crear plantilla]** botón.
 
    ![](assets/templates-create-button.png)
 

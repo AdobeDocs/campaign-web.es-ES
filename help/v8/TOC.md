@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 100%
    + [Buscar ayuda y orientación](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
-   + [Trabajo con plantillas de envío](msg/delivery-template.md)
+   + [Trabajo con envíos](msg/gs-deliveries.md)
+   + [Uso de plantillas de envío](msg/delivery-template.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
       + Definición del contenido del correo electrónico {#content}
@@ -87,7 +88,7 @@ ht-degree: 100%
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Públicos y destinatarios {#audiences}
    + [Trabajar con destinatarios y públicos](audience/about-recipients.md)
-   + [Creación de públicos](audience/create-audience.md)
+   + [Crear públicos](audience/create-audience.md)
    + Seleccionar los destinatarios del envío {#target-audiences}
       + [Selección de un público existente](audience/add-audience.md)
       + [Crear un público único](audience/one-time-audience.md)
