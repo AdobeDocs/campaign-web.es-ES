@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
+source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1521'
 ht-degree: 94%
 
 ---
@@ -571,3 +571,30 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Formato para la actividad Cargar archivo"
 >abstract="Formato para la actividad Cargar archivo"
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Condición personalizada"
+>abstract="Condición personalizada"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Propiedades de regla"
+>abstract="Propiedades de regla"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Seleccionar público"
+>abstract="Seleccionar público"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Filtro predefinido"
+>abstract="Filtro predefinido"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Grupo"
+>abstract="Grupo"
