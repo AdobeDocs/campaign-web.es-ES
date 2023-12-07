@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -548,8 +548,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
->title="Base de datos Target"
->abstract="Base de datos Target"
+>title="Base de datos de destino"
+>abstract="Base de datos de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
@@ -558,13 +558,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="Rechazar transición saliente de administración"
->abstract="Rechazar transición saliente de administración"
+>title="Rechazar transición de salida de administración"
+>abstract="Rechazar transición de salida de administración"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Rechazar transición saliente de administración para rechazos"
->abstract="Rechazar transición saliente de administración para rechazos"
+>title="Rechazar transición de salida de administración para rechazos"
+>abstract="Rechazar transición de salida de administración para rechazos"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"

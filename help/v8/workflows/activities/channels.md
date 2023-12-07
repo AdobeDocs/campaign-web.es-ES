@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 3c77120c5936f647514969644f59833e97d56232
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 54%
+source-wordcount: '879'
+ht-degree: 70%
 
 ---
 
@@ -32,7 +32,7 @@ Comience a crear el flujo de trabajo con las actividades relevantes antes de rea
 
 * Si desea realizar un envío recurrente, inicie el flujo de trabajo con una **Planificador** actividad. Si desea realizar una entrega de una sola vez, puede definir la fecha de contacto mediante una **Planificador** actividad o defina la programación en la configuración de la entrega. Consulte [esta sección](scheduler.md).
 
-* Añadir una actividad **Generar público destinatario.** El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
+* Añadir un **Crear audiencia** actividad. El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
@@ -41,7 +41,7 @@ Comience a crear el flujo de trabajo con las actividades relevantes antes de rea
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="Actividad del correo electrónico"
+>title="Actividad de correo electrónico"
 >abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 
@@ -54,13 +54,13 @@ Comience a crear el flujo de trabajo con las actividades relevantes antes de rea
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Actividad de push iOS"
->abstract="La actividad Push iOS optimiza el proceso de envío de notificaciones push de iOS como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones push de iOS a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push de iOS optimiza el proceso de envío de notificaciones Push de iOS como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones Push de iOS a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
 >title="Actividad de mensajería push de Android"
->abstract="La actividad de Android push optimiza el proceso de envío de notificaciones push de Android como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones push de Android a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad Push de Android optimiza el proceso de envío de notificaciones Push de Android como parte del flujo de trabajo. Permite enviar mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones Push de Android a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 
