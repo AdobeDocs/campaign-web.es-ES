@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 98%
+source-wordcount: '464'
+ht-degree: 96%
 
 ---
 
@@ -125,7 +125,11 @@ ht-degree: 98%
       + [Guardado de público](workflows/activities/save-audience.md)
       + [Planificador](workflows/activities/scheduler.md)
       + [División](workflows/activities/split.md)
-      + [Espera](workflows/activities/wait.md)
+      + [Esperar](workflows/activities/wait.md)
++ Consultar la base de datos {#query-database}
+   + [Trabajar con el modelador de consultas](query/query-modeler-overview.md)
+   + [Cree su primera consulta](query/build-query.md)
+   + [Ejemplos de consultas](query/query-samples.md)
 + Creación de informes {#reports}
    + [Introducción a los informes](reporting/gs-reports.md)
    + [Indicadores clave de rendimiento](reporting/kpis.md)
