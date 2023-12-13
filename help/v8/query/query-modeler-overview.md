@@ -2,19 +2,14 @@
 audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # Trabajar con el modelador de consultas {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Públicos destinatarios"
->abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con el último modelador de consultas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para detallar aún más el público destinatario y maximizar el impacto de su campaña."
 
 ## Información general del modelador de consultas {#overview}
 
