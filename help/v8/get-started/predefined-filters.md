@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ Puede guardar un filtro personalizado del generador de reglas para que esté dis
 
 El filtro personalizado ahora está disponible en la lista **Filtros predefinidos** y es accesible para todos los usuarios de Campaign.
 
-
 ### Creación de filtros a partir de la lista de filtros {#create-filter-from-list}
-
 
 Puede crear un filtro desde la entrada **Filtros predefinidos** en el menú de la izquierda. Para realizar esto, siga los pasos a continuación:
 
@@ -86,7 +84,6 @@ Puede crear un filtro desde la entrada **Filtros predefinidos** en el menú de l
 
 1. Guarde los cambios. El filtro se agrega a la lista de filtros predefinidos.
 
-
 ## Guarde el filtro como favorito {#fav-filter}
 
 Al crear un filtro predefinido, puede activar la opción **Guardar como favorito** si desea ver ese filtro predefinido en sus favoritos.
@@ -95,7 +92,6 @@ Al crear un filtro predefinido, puede activar la opción **Guardar como favorito
 Cuando un filtro se guarda como favorito, está disponible para todos los usuarios en la sección **Filtros favoritos** de la lista de creación de filtros, como se muestra a continuación:
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Uso de un filtro predefinido {#use-predefined-filter}
 
