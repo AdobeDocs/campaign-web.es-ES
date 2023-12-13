@@ -1,54 +1,94 @@
 ---
 audience: end-user
-title: Usar un público de Adobe Experience Platform
-description: Aprenda a utilizar un público de Adobe Experience Platform
+title: Creación de una audiencia con el generador de reglas de Campaign
+description: Aprenda a trabajar con el generador de reglas
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: cbf1021c722aeff5f7ce384a29467576d5f83ab2
+source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 38%
+source-wordcount: '612'
+ht-degree: 63%
 
 ---
 
-# Usar un público de Adobe Experience Platform{#aep-audience}
+# Trabajar con el generador de reglas {#segment-builder}
 
-Los conectores Origen y Destino del Cloud Service administrado de Adobe Campaign permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Públicos destinatarios"
+>abstract="Crear un objetivo de envío nunca ha sido tan fácil. Con nuestro último generador de reglas, ahora puede definir criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para detallar aún más el público destinatario y maximizar el impacto de su campaña."
 
-Una vez creada una audiencia de Adobe Experience Platform y disponible en la consola del cliente, puede utilizarla del mismo modo que lo haría para que una audiencia de Campaign personalice y envíe mensajes.
+El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Puede utilizarlo para crear una audiencia a partir de un flujo de trabajo mediante una **[!UICONTROL Crear audiencia]** actividad de o directamente al crear una entrega para crear una audiencia única.
 
->[!NOTE]
->
->Para utilizar audiencias de Adobe Experience Platform en Campaign, debe configurar la integración con Fuentes y destinos de Adobe. Consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* [Obtenga información sobre cómo crear una audiencia](create-audience.md)
+* [Obtenga información sobre cómo crear una audiencia única para una entrega](one-time-audience.md)
 
-Para seleccionar la audiencia de una entrega, también puede:
+## La paleta
 
-* Crear una audiencia nueva. [Más información](segment-builder.md)
-* Carga de una audiencia desde un archivo externo. [Más información](file-audience.md)
-* Utilice una audiencia de Campaign existente. [Más información](add-audience.md).
+La paleta, situada en la parte izquierda, contiene todos los elementos que se pueden filtrar para crear un público. Puede utilizar la barra de búsqueda para buscar elementos rápidamente. Los mosaicos contenidos en la paleta deben moverse al lienzo central para que se puedan configurar y tener en cuenta.
 
-Para seleccionar una audiencia de Adobe Experience Platform para su envío, siga los pasos a continuación:
+![](assets/segment-builder2.png){width="70%" align="left"}
 
-1. En la sección **Público** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar el público]**.
+La paleta se divide en dos pestañas:
 
-   ![](assets/create-audience.png)
+* **Atributos**: esta pestaña permite acceder a todos los campos disponibles del esquema. La lista de campos depende del esquema de segmentación definido en la plantilla de correo electrónico.
 
-1. Elija **[!UICONTROL Seleccionar el público]** para usar un público existente. Para crear un nuevo público para usarlo en este correo electrónico, elija **Crear el suyo propio**. Consulte esta [sección](segment-builder.md).
+* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola de Campaign Classic o desde Adobe Experience Platform. [Obtenga información sobre cómo monitorizar y administrar audiencias](manage-audience.md)
 
-   Esta pantalla muestra todas las audiencias existentes definidas en la consola del cliente de Adobe Campaign para la carpeta actual. Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla.
+  >[!NOTE]
+  >
+  >Para aprovechar los públicos de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [Documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
 
-   ![](assets/select-audience-folder.png)
+## El lienzo
 
-   También puede definir una regla para filtrar el origen de las audiencias, como se muestra a continuación:
+El lienzo es la zona central en la que se pueden configurar y combinar las reglas basadas en los elementos agregados desde la paleta. Para agregar una regla nueva, arrastre un mosaico desde la paleta y suéltelo en el lienzo. A continuación, se le pueden presentar opciones específicas del contexto según el tipo de datos que se agreguen.
 
-   ![](assets/filter-on-aep-audience.png)
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-1. Elija un público y haga clic en **Seleccionar**.
+## El panel Propiedades de regla
 
-1. Haga clic en **Editar reglas** si desea restringir el público.
+En el lado derecho, la **Propiedades de regla** le permite realizar las acciones que se indican a continuación.
 
-   ![](assets/refine-audience.png)
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-1. Con el generador de reglas, puede enriquecer el público con filtros adicionales o combinando distintos públicos. Consulte esta [sección](segment-builder.md).
+* **Ver resultados:** muestra la lista de los destinatarios a quienes se dirige el público.
+* **Vista de código**: muestra una versión del público basada en código en SQL.
+* **Mostrar atributos avanzados**: marque esta opción si desea ver la lista completa de atributos de la paleta izquierda: nodos, agrupaciones, vínculos 1-1, vínculos 1-N.
+* **Calcular**: actualiza y muestra el número de perfiles objetivo por la consulta.
+* **Seleccionar o guardar filtro**: utilice un filtro predefinido para filtrar la consulta o guárdela como un nuevo filtro para su reutilización futura. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md)
 
-1. Haga clic en **Save**.
+  >[!IMPORTANT]
+  >
+  >En esa versión del producto, algunos filtros predefinidos no están disponibles en la interfaz de usuario. Puede usarlos de todos modos. [Más información](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
+* **Atributos**: muestra una descripción del público creado.
+
+## Ejemplo
+
+En este ejemplo, creamos un público para dirigirlo a todos los clientes que viven en Atlanta o Seattle y que nacieron después de 1980.
+
+1. En la pestaña **Atributos** de la paleta, busque el campo **Fecha de nacimiento**. Arrastre el mosaico y suéltelo en el lienzo.
+
+   ![](assets/segment-builder6.png)
+
+1. En el lienzo, elija el operador **Después** e introduzca la fecha deseada.
+
+   ![](assets/segment-builder7.png)
+
+1. En la paleta, busque el campo **Ciudad** y añádalo al lienzo debajo de la primera regla.
+
+   ![](assets/segment-builder8.png)
+
+1. En el campo de texto, introduzca el nombre de la primera ciudad y, a continuación, pulse Intro.
+
+   ![](assets/segment-builder9.png)
+
+1. Repita esta acción para el segundo nombre de ciudad.
+
+   ![](assets/segment-builder10.png)
+
+1. Haga clic en **Ver resultados** para mostrar la lista y el número de destinatarios que coinciden con la consulta. También puede añadir columnas para visualizar y comprobar los datos. En nuestro ejemplo, agregue la columna **Ciudad** y debería ver Atlanta y Seattle.
+
+   ![](assets/segment-builder11.png)
+
+1. Haga clic en **Confirmar**.
