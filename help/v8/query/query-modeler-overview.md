@@ -2,9 +2,9 @@
 audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
-source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
+source-git-commit: 9262db778deb20bcb1b1e4496bbd55e551a5769f
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,7 @@ ht-degree: 0%
 
 ## Información general del modelador de consultas {#overview}
 
-Adobe Campaign Web incluye un modelador de consultas que permite filtrar la base de datos para seleccionar un objetivo según varios criterios, utilizando información de la base de datos, expresiones avanzadas y operadores.
-
-
-Adobe Campaign Web incluye un modelador de consultas fácil de usar que simplifica el proceso de filtrado de bases de datos para seleccionar objetivos específicos según diversos criterios. Esto incluye el uso de expresiones avanzadas y operadores.
-
-El modelador de consultas está perfectamente integrado en toda la interfaz, lo que le permite realizar operaciones de filtrado y generar reglas con facilidad:
+Adobe Campaign Web incluye un modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinos específicos según diversos criterios. Esto incluye el uso de expresiones avanzadas y operadores. El modelador de consultas está perfectamente integrado en toda la interfaz, lo que le permite realizar operaciones de filtrado y generar reglas con facilidad:
 
 * Definir audiencias objetivo: especifique la población a la que desea dirigirse en sus mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo.
 * Personalizar actividades de flujo de trabajo: aplique reglas dentro de las actividades de flujo de trabajo, como División y Reconciliación, para adaptarlas a los requisitos específicos.
@@ -27,22 +22,8 @@ El modelador de consultas está perfectamente integrado en toda la interfaz, lo 
 
 ## Interfaz del modelador de consultas {#interface}
 
-El modelador de consultas proporciona un lienzo central en el que puede agregar y combinar los diferentes componentes de la creación de la consulta, así como un panel de propiedades de regla a la derecha que proporciona información sobre la consulta.
+El modelador de consultas proporciona un lienzo central en el que puede agregar y combinar los diferentes componentes para crear la consulta.
+
+En el lado derecho, el panel de propiedades de la regla proporciona información sobre la consulta. Le permite realizar varias operaciones para comprobar la consulta y asegurarse de que se adapta a sus necesidades. Obtenga información sobre cómo comprobar y validar la consulta (vínculo TBD)
 
 ![](assets/query-interface.png)
-
-En el lienzo es donde se agregan y combinan los componentes que generan la consulta. Se compone de:
-
-* Un icono de consulta indica el punto de partida de la consulta.
-* Una o varias rutas: aquí es donde agregará los distintos elementos que componen la consulta.
-
-Además, una barra de herramientas situada en la parte superior izquierda proporciona opciones para navegar y administrar fácilmente los elementos del lienzo.
-
-* Modo de selección múltiple
-* Rotar
-* Ajustar a pantalla
-* Alejar/Acercar
-* Mostrar mapa
-
-
-En el lado derecho, la **Propiedades de regla** panel permite recuperar información sobre la consulta que está creando en el lienzo.
