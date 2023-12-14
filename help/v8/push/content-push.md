@@ -4,10 +4,10 @@ title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 38%
+source-wordcount: '1605'
+ht-degree: 34%
 
 ---
 
@@ -28,7 +28,15 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Mensaje push de iOS"
->abstract="Defina el título y el contenido del mensaje push de iOS. Utilice el cuadro de diálogo de personalización para personalizar el contenido y añadir condiciones."
+>abstract="Defina el contenido de la notificación push para dispositivos iOS. Para redactar el mensaje, haga clic en el **Título** y **Mensaje** campos. Utilice el Editor de expresiones para personalizar datos y agregar contenido dinámico. Para obtener más configuración personalizada, vaya a **Configuración avanzada** sección."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="Mensaje push de iOS"
+>abstract="Defina el contenido de la notificación push para dispositivos Android. Para redactar el mensaje, haga clic en el **Título** y **Mensaje** campos. Utilice el Editor de expresiones para personalizar datos y agregar contenido dinámico. Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color. Para obtener más configuración personalizada, vaya a **Configuración avanzada** sección."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ El modo push silencioso permite enviar una notificación “silenciosa” a una 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Número de distintivo"
+>title="Recuento de notificaciones"
 >abstract="Utilice esta opción para establecer el número de información nueva no leída que se mostrará directamente en el icono de la aplicación. Esto permite al usuario ver rápidamente el número de notificaciones pendientes."
 
 
@@ -139,7 +147,7 @@ Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Exa
 
 | Parámetro | Descripción |
 |---------|---------|
-| **[!UICONTROL Modo de alerta crítica]** | Habilite esta opción para añadir sonido a la notificación, incluso si el teléfono del usuario está en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que el usuario observe las alertas importantes. |
+| **[!UICONTROL Modo de alerta crítica]** | Habilite esta opción para añadir sonido a la notificación, incluso si el teléfono del usuario está en modo de enfoque o si el dispositivo está silenciado. Esto garantiza que el usuario observe las alertas importantes. Cuando se selecciona, puede ajustar el volumen de la notificación mediante la barra de nivel de volumen. Un número entre 0 y 100 sobre la barra refleja su configuración. |
 | **[!UICONTROL Insignia limpia]** | Active esta opción para actualizar el valor del distintivo mostrado en el icono de la aplicación. Garantiza que el distintivo refleje con precisión la cantidad de información nueva no leída. |
 | **[!UICONTROL Recuento de notificaciones]** | Establezca un número que se mostrará directamente en el icono de la aplicación, indicando la cantidad de información nueva no leída. Esto proporciona una referencia visual rápida para el usuario. |
 | **[!UICONTROL Volumen]** | Volumen de su sonido de 0 a 100. |
