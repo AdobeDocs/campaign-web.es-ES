@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: e239f86570014a56519f0e221cd04113ed4618d6
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 98%
+source-wordcount: '1545'
+ht-degree: 97%
 
 ---
 
@@ -378,7 +378,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Selección de plantilla de contenido"
 >abstract="Selección de plantilla de contenido"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_edition"
+>title="Edición de plantilla de contenido"
+>abstract="Edición de plantilla de contenido"
 
 
 
@@ -570,3 +573,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Formato para la actividad Cargar archivo"
 >abstract="Formato para la actividad Cargar archivo"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_querymessage"
+>title="Modelador de consultas"
+>abstract="Defina criterios de filtrado para los destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para delimitar aún más el público destinatario y maximizar el impacto de su campaña."
