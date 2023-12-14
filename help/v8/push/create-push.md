@@ -4,9 +4,9 @@ title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '638'
 ht-degree: 16%
 
 ---
@@ -43,7 +43,7 @@ Para crear un nuevo envío push independiente, siga estos pasos:
 
 Configure las entregas como se detalla a continuación:
 
-1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega
+1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega. De forma predeterminada, la etiqueta se establece con la etiqueta de la plantilla seleccionada. Se debe actualizar.
 
 1. Examine la **[!UICONTROL Opciones adicionales]** desplegable para personalizar las opciones, si es necesario.
 
