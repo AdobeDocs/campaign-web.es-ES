@@ -4,10 +4,10 @@ title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 43%
+source-wordcount: '1484'
+ht-degree: 38%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenido push para Android"
->abstract="Defina el contenido push de Android."
+>abstract="Defina el contenido de la notificación push para dispositivos Android. Para redactar el mensaje, haga clic en el **Título** y **Mensaje** campos. Utilice el Editor de expresiones para personalizar datos y agregar contenido dinámico. Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color. Para obtener más configuración personalizada, vaya a **Configuración avanzada** sección."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenido push para iOS"
->abstract="Defina el contenido push de iOS."
+>abstract="Defina el contenido de la notificación push para dispositivos iOS. Para redactar el mensaje, haga clic en el **Título** y **Mensaje** campos. Utilice el Editor de expresiones para personalizar datos y agregar contenido dinámico. Para obtener más configuración personalizada, vaya a **Configuración avanzada** sección."
 
 ## Definición del contenido de la notificación {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 43%
 >title="Notificación silenciosa para iOS"
 >abstract="El modo push silencioso permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación."
 
-
+Una vez creado el envío push, puede definir su contenido. Los parámetros y la configuración dependen del sistema operativo móvil: Android o iOS. Examine las pestañas siguientes para aprender a redactar el mensaje para cada sistema operativo.
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ El modo push silencioso permite enviar una notificación “silenciosa” a una 
 >title="ID de categoría"
 >abstract="Especifique el nombre del ID de categoría asociado a la notificación. Esto permite mostrar los botones de acción, lo que permite al usuario realizar varias tareas directamente desde la notificación sin abrir la aplicación."
 
+Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Examine las pestañas siguientes para aprender a definir las opciones del mensaje para cada sistema operativo.
 
 >[!BEGINTABS]
 

@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 19%
+source-wordcount: '1068'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Plantillas de envíos"
->abstract="Utilice plantillas de envío para estandarizar la apariencia creativa y así ejecutar y lanzar las campañas con mayor rapidez"
+>abstract="Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez."
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez.
 
@@ -79,6 +79,7 @@ Para eliminar o [duplicado](#copy-an-existing-template) Para crear una plantilla
 ## Crear una plantilla de envíos {#create-a-delivery-template}
 
 Para crear una plantilla de envíos, puede:
+
 * Duplicación de una plantilla existente: [Más información](#copy-an-existing-template)
 * Conversión de una entrega existente en una plantilla: [Más información](#convert-an-existing-delivery)
 * Creación de una plantilla de envíos desde cero: [Más información](#create-a-new-template)
