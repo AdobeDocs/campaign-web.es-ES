@@ -4,10 +4,10 @@ title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '185'
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenido SMS"
->abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico."
+>abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico. Para empezar a maquetar el mensaje, haga clic en **Editar contenido** botón."
 
 
 
@@ -30,7 +30,7 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
 
    ![](assets/sms_content_1.png)
 
-1. Escriba el mensaje de texto en el campo **[!UICONTROL Mensaje]** o haga clic en la opción **[!UICONTROL Abrir diálogo de personalización]** para definir contenido y añadir contenido dinámico. [Más información](../personalization/gs-personalization.md)
+1. Escriba el mensaje de texto en la **[!UICONTROL Mensaje]** o haga clic en **[!UICONTROL Abrir diálogo de personalización]** opción para definir contenido y añadir contenido dinámico. [Más información](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png)
 
