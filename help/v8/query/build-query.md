@@ -2,10 +2,10 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 21%
+source-wordcount: '1462'
+ht-degree: 19%
 
 ---
 
@@ -56,7 +56,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
    >
    >El botón Edit expression permite aprovechar el editor de expresiones web de Campaign para definir manualmente una expresión mediante campos de la base de datos y funciones de ayuda.
 
-1. Seleccione el operador que desee aplicar en la lista desplegable. Hay varios operadores disponibles.Tenga en cuenta que los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo seleccionado.
+1. Seleccione el operador que desee aplicar en la lista desplegable. Hay varios operadores disponibles. Tenga en cuenta que los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
 
    +++Lista de operadores disponibles
 
@@ -86,6 +86,32 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
    ![](assets/query-custom-condition.png)
+
+**Condiciones personalizadas en tablas distantes (vínculos 1-1 y 1-N)**
+
+Las condiciones personalizadas permiten consultar tablas distantes vinculadas a la tabla Destinatarios.
+
+Para un **Vínculo 1-1** con otro recurso de base de datos, seleccione el valor directamente en la tabla segmentada.
+
++++Ejemplo de consulta
+
+En este caso, la consulta se dirige a destinatarios cuyo país o región se incluye en valores determinados (Reino Unido y Estados Unidos)
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+Para un **Vínculo 1-N** con otro recurso de base de datos, puede definir subcondiciones en los campos de este segundo recurso.
+
+Por ejemplo, puede seleccionar el operador Existe en las compras de perfil para dirigirse a todos los perfiles para los que existen compras. Una vez finalizado, añada una condición personalizada en la transición saliente y cree un filtro que se adapte a sus necesidades.
+
++++Ejemplo de consulta
+
+En este caso, la consulta está dirigida a destinatarios que han realizado compras relacionadas con el producto BrewMaster, por un importe total de al menos 100 $.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Selección de un público
 
@@ -138,9 +164,9 @@ Para cambiar el operador utilizado para vincular las condiciones de filtrado, ha
 
 Los operadores disponibles son:
 
-* **Y (intersección)**: combina los resultados de todos los componentes de filtrado en las transiciones salientes.
-* **O (Unión)**: incluye los resultados de al menos uno de los componentes de filtrado en las transiciones salientes.
-* **EXCEPT (Exclusión)**: excluye los resultados de todos los componentes de filtrado de la transición saliente.
+* **Y (intersección)**: combina los resultados que coinciden con todos los componentes de filtrado en las transiciones salientes.
+* **O (Unión)**: incluye resultados que coinciden con al menos uno de los componentes de filtrado en las transiciones salientes.
+* **EXCEPT (Exclusión)**: excluye los resultados que coinciden con todos los componentes de filtrado de la transición saliente.
 
 ![](assets/query-operator-change.png)
 
