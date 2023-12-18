@@ -177,11 +177,11 @@ El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico conti
 
 ## Indicadores de seguimiento {#tracking-indicators-email}
 
-### Estadísticas de entrega {#delivery-summary-email-statistics}
+### Estadísticas de envío {#delivery-summary-email-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
->title="Estadísticas de entrega"
+>title="Estadísticas de envío"
 >abstract="El gráfico **Estadísticas de envío** detalla el éxito de su envío y los errores que se han producido."
 
 El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos disponibles para los correos electrónicos enviados. Las métricas se detallan a continuación.
@@ -208,7 +208,7 @@ El **[!UICONTROL Estadísticas de envío]** Las métricas de proporcionan indica
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Tasa de clics y de aperturas"
->abstract="La tabla **Tasa de clics y de aperturas** muestra datos relativos a la participación de los destinatarios en el envío."
+>abstract="La tabla **Tasa de clics y de aperturas** muestra datos relativos ao engajamento dos recipients com a entrega."
 
 El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
@@ -275,7 +275,7 @@ El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla conti
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="Desglose de los clics con el tiempo"
->abstract="El gráfico **Desglose de los clics con el tiempo** muestra los datos disponibles del comportamiento del destinatario por vínculo."
+>abstract="El gráfico **Desglose de clics a lo largo del tiempo** muestra los datos disponibles del comportamiento del destinatario por vínculo."
 
 El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
