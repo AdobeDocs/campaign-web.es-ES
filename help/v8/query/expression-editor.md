@@ -2,10 +2,10 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 90%
+source-wordcount: '1846'
+ht-degree: 87%
 
 ---
 
@@ -127,6 +127,11 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> AddYears(&lt;fecha&gt;, &lt;número&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Convierte la marca de tiempo NTZ (marca de tiempo sin zona horaria) en TZ (marca de tiempo con zona horaria) aplicando la TZ de sesión definida<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Devuelve solo la fecha (con hora 00:00)*<br /> </td> 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
@@ -207,6 +212,11 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> MonthsOld(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Devuelve la fecha más antigua de un intervalo<br /> </td> 
+   <td> Oldest (&lt;date date=""&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
    <td> <strong>Second</strong><br /> </td> 
    <td> Devuelve los segundos de la fecha<br /> </td> 
    <td> Second(&lt;date&gt;)<br /> </td>  
@@ -284,11 +294,11 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
    <td> Redondea una fecha y hora al 1 de enero del año<br /> </td> 
-   <td> TruncYear(&lt;date&gt;)<br /> </td>  
+   <td> TruncYear(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Devuelve el número que representa el día de la semana de la fecha<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Devuelve un número que representa el día de la semana de la fecha (0=lunes, 6=domingo)<br /> </td> 
    <td> WeekDay(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> Devuelve el número que representa el año y el mes de la fecha<br /> </td> 
    <td> YearAndMonth(&lt;fecha&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> Devuelve el número de años entre dos fechas especificadas<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
