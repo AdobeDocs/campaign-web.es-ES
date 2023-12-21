@@ -4,10 +4,10 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 55%
+source-wordcount: '624'
+ht-degree: 52%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Adjuntar archivos a un correo electrónico"
->abstract="Seleccione uno o varios archivos para insertarlos en el mensaje. Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo en el correo electrónico."
+>abstract="Seleccione uno o varios archivos para insertarlos en el mensaje. Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto en el correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -35,6 +35,7 @@ ht-degree: 55%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=es" text="Adición de vínculos y seguimiento de mensajes"
 
 El correo electrónico **[!UICONTROL Editar contenido]** La pantalla de permite:
+
 * Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto
 * Realizar acciones adicionales, como agregar archivos adjuntos o configurar ofertas
 * Acceda a la [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring) para empezar a crear el contenido adecuado del correo electrónico
@@ -79,15 +80,15 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
    >[!NOTE]
    >
-   >    Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo en el correo electrónico.
+   >    Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto en el correo electrónico.
 
    <!--limitation on size + number of files?-->
 
-1. Si desea enviar ofertas con su correo electrónico, selecciónelas utilizando el botón **[!UICONTROL Configurar ofertas.]**
+1. Si desea enviar ofertas con el correo electrónico, selecciónelas mediante el **[!UICONTROL Configuración de ofertas]** botón.
 
    A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](offers.md)
 
-1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico utilizando [Diseñador de correo electrónico](#start-authoring). En estas secciones encontrará información adicional sobre cómo diseñar el contenido del correo electrónico:
+1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico utilizando [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring). En estas secciones encontrará información adicional sobre cómo diseñar el contenido del correo electrónico:
 
    * [Crear correos electrónicos desde cero](create-email-content.md)
    * [Estilos del contenido](get-started-email-style.md)

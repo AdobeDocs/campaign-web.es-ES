@@ -3,21 +3,25 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Beta"
-source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+badge: label="LA"
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 92%
 
 ---
 
 # Documentación de la web de la versión 8 de Adobe Campaign {#campaign-documentation}
 
-<!--![](assets/do-not-localize/banner-documentationv8.png)-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Ayuda y documentación"
+>abstract="Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva IU moderna simplifica el diseño y la entrega de las campañas de marketing y aporta coherencia, junto con otras soluciones de Adobe."
 
 Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
 
->La web de la versión 8 de Campaign está actualmente en la versión Beta. El acceso está restringido a un pequeño conjunto de clientes Beta. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso. [Más información](rn/whats-new.md)
+>[!AVAILABILITY]
+> La versión web de Campaign v8 está actualmente en la versión de disponibilidad limitada (LA). El acceso está restringido a un pequeño grupo de clientes de Los Ángeles. Tenga en cuenta que la interfaz de producto, las capacidades y los flujos de uso pueden cambiar sin previo aviso. [Más información](rn/whats-new.md)
 
 ## Nuevas funciones de Campaign Web
 

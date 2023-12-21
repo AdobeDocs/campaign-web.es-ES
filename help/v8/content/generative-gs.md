@@ -4,9 +4,9 @@ title: Introducción al Asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '475'
 ht-degree: 34%
 
 ---
@@ -14,8 +14,14 @@ ht-degree: 34%
 # Introducción al Asistente de contenido {#generative-gs}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="Gen IA para contenido de correo electrónico"
+>abstract="Nuestra tecnología Gen IA utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="Ayudante de contenido"
+>title="Asistente de contenido"
 >abstract="Una vez que haya creado y personalizado su envío, puede utilizar el Asistente de contenido para mejorar el contenido. Esta funcionalidad simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
 
 
@@ -33,7 +39,7 @@ Puede utilizar el asistente de contenido de Campaign en sus correos electrónico
 
 >[!NOTE]
 >
->Esta funcionalidad está disponible en versión Alfa y sujeta a cambios sin previo aviso. Se activará a principios de octubre.
+>Esta funcionalidad está disponible en su versión de Alpha y sujeta a cambios sin previo aviso. Se activará a principios de octubre.
 
 ## Mecanismos de protección y limitaciones {#generative-guardrails}
 

@@ -3,14 +3,20 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la IU de Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
 # Introducción al Diseñador de correo electrónico {#get-started-email-designer}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn3"
+>title="Nuevo diseñador de correo electrónico"
+>abstract="El Diseñador de correo electrónico de Campaign le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando un contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico."
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 
@@ -45,4 +51,3 @@ En el panel de envío de correo electrónico, vaya a la pantalla [Editar conteni
 * **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
-

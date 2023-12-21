@@ -3,10 +3,10 @@ title: Trabajar con destinatarios y públicos
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 25%
+source-wordcount: '1049'
+ht-degree: 23%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 25%
 En Adobe Campaign, la población objetivo de una entrega es una audiencia. Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar [como se detalla a continuación](#audiences). En la mayoría de los casos, la audiencia está formada por perfiles, que se almacenan como [destinatarios](#recipients) en Adobe Campaign. También puede trabajar con otras asignaciones de destino cambiando la dimensión como se explica a continuación [en esta sección](#targeting-dimensions).
 
 ## ¿Qué son los destinatarios? {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="Destinatarios"
+>abstract="Cree nuevos destinatarios y monitorícelos mediante potentes informes y herramientas. Acceda al perfil del destinatario, utilice las opciones de filtrado para examinar la lista de destinatarios, editar y actualizar sus atributos."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -59,7 +65,7 @@ Para definir la población de una audiencia, puede:
 
 * [Crear nuevas audiencias](create-audience.md) desde el **[!UICONTROL Audiencias]** menú,
 * [Seleccionar una audiencia existente](add-audience.md) creado como una lista en la consola del cliente o procedente de Adobe Experience Platform,
-* [Cree un nuevo público destinatario con el generador de reglas definiendo y combinando criterios de filtrado,](segment-builder.md)
+* [Crear una audiencia nueva](segment-builder.md) con el generador de reglas definiendo y combinando criterios de filtrado,
 * [Uso de una audiencia de un archivo externo](file-audience.md). Esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas.
 
 Al segmentar una audiencia, también puede definir lo siguiente **grupos de control** para evitar enviar mensajes a una parte de la audiencia y medir el impacto de las campañas. [Obtenga información sobre cómo establecer un grupo de control](control-group.md)
@@ -80,7 +86,7 @@ De forma predeterminada, las plantillas de envío de correo electrónico y SMS e
 
 También puede utilizar otras asignaciones de destino integradas en los flujos de trabajo y envíos que se enumeran a continuación:
 
-| Name | Uso para | Esquema |
+| Nombre | Usar para | Esquema |
 |---|---|---|
 | Destinatarios | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
 | Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | mns:visitor |
