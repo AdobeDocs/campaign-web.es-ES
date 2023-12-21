@@ -2,10 +2,10 @@
 audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
-source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
+source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 12%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 16%
 >abstract="Defina criterios de filtrado para los destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para delimitar aún más el público destinatario y maximizar el impacto de su campaña."
 
 Adobe Campaign Web incluye un modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinos específicos según diversos criterios. Esto incluye el uso de expresiones avanzadas y operadores.
+
+## Acceso al modelador de consultas
+
+El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos.
+
+| Uso | Ejemplo |
+|  ---  |  ---  |
+| **Definir audiencias**: especifique la población a la que desea dirigirse en los mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
+| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como División y Reconciliación, para alinearse con los requisitos específicos. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
+| **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante varias operaciones de filtrado, tanto si trabaja con listas de datos como si forma la audiencia para una entrega. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
+| **Filtrado de datos de informes**: Añada una regla para filtrar los datos mostrados en los informes. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
+| **Personalización de listas**: Cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, envíos, listas, etc. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
 
 ## Acceso al modelador de consultas {#access}
 
