@@ -2,7 +2,7 @@
 audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
-source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
+source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 16%
@@ -23,52 +23,52 @@ Adobe Campaign Web incluye un modelador de consultas que simplifica el proceso d
 
 El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos.
 
-* **Definir audiencias**: especifique la población a la que desea dirigirse en los mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo.
+**Definir audiencias**: especifique la población a la que desea dirigirse en los mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. <!--(LINK TBD)-->
 
-  +++Ejemplo
++++Ejemplo
 
-  ![](assets/access-audience.png)
-
-+++
-
-* **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como División y Reconciliación, para cumplir con los requisitos específicos,
-
-  +++Ejemplo
-
-  ![](assets/access-workflow.png)
+![](assets/access-audience.png)
 
 +++
 
-<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+**Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como División y Reconciliación, para alinearse con los requisitos específicos. <!--(LINK TBD)-->
 
-    +++Example
++++Ejemplo
 
-    ![](assets/access-audience.png)
+![](assets/access-workflow.png)
 
-    +++
++++
+
+<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
++++Example
+
+![](assets/access-audience.png)
+
+ +++
 -->
 
-* **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante varias operaciones de filtrado, tanto si trabaja con listas de datos como si forma la audiencia para una entrega.
+**Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante varias operaciones de filtrado, tanto si trabaja con listas de datos como si forma la audiencia para una entrega. <!--(LINK TBD)-->
 
-  +++Ejemplo
++++Ejemplo
 
-  ![](assets/access-predefined-filter.png)
-
-+++
-
-* **Filtrado de datos de informes**: Añada una regla para filtrar los datos mostrados en los informes.
-
-  +++Ejemplo
-
-  ![](assets/access-reports.png)
+![](assets/access-predefined-filter.png)
 
 +++
 
-* **Personalización de listas**: Cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, envíos, listas, etc.
+**Filtrado de datos de informes**: Añada una regla para filtrar los datos mostrados en los informes. <!--(LINK TBD)-->
 
-  +++Ejemplo
++++Ejemplo
 
-  ![](assets/access-lists.png)
+![](assets/access-reports.png)
+
++++
+
+**Personalización de listas**: Cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, envíos, listas, etc. <!--(LINK TBD)-->
+
++++Ejemplo
+
+![](assets/access-lists.png)
 
 +++
 
