@@ -3,10 +3,10 @@ title: Trabajar con destinatarios y públicos
 description: Aprenda a trabajar con destinatarios en Campaign Web
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 23%
+source-wordcount: '1053'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,8 @@ En Adobe Campaign, la población objetivo de una entrega es una audiencia. Una a
 >id="acw_homepage_rn4"
 >title="Destinatarios"
 >abstract="Cree nuevos destinatarios y monitorícelos mediante potentes informes y herramientas. Acceda al perfil del destinatario, utilice las opciones de filtrado para examinar la lista de destinatarios, editar y actualizar sus atributos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte las notas de la versión"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

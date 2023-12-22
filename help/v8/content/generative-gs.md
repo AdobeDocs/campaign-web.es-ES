@@ -4,9 +4,9 @@ title: Introducción al Asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '479'
 ht-degree: 34%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 34%
 >id="acw_homepage_rn5"
 >title="Gen IA para contenido de correo electrónico"
 >abstract="Nuestra tecnología Gen IA utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte las notas de la versión"
+
 
 
 >[!CONTEXTUALHELP]
