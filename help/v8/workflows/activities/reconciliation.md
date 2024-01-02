@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 badge: label="Disponibilidad limitada"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 20%
+source-wordcount: '840'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Actividad de reconciliación"
->abstract="El **Reconciliación** la actividad es una **Segmentación** actividad que le permite vincular datos no identificados a datos de Campaign existentes. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla externa."
+>abstract="El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla externa."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-El **Reconciliación** la actividad es una **Segmentación** actividad que le permite vincular datos no identificados a recursos existentes. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
+El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
 
 
 ## Prácticas recomendadas {#reconciliation-best-practices}
