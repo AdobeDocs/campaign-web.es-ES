@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 7%
@@ -140,7 +140,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
 Esta plantilla ya está lista para utilizarse al crear cualquier correo electrónico en [!DNL Adobe Campaign]. [Descubra cómo](use-email-templates.md)
 
-## Guardar contenido de correo electrónico como plantilla {#save-as-template}
+### Guardar contenido de correo electrónico como plantilla {#save-as-template}
 
 Una vez que [diseño de un correo electrónico](create-email-content.md), puede guardar este contenido como una plantilla para su reutilización futura. Las plantillas guardadas están disponibles para todos los usuarios de su entorno de Adobe Campaign.
 
