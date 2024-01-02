@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Público destinatario desde un archivo
-description: Aprenda a utilizar destinatarios de un archivo externo para crear su audiencia de correo electrónico
+description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 40%
+source-wordcount: '612'
+ht-degree: 35%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Definición de columnas"
->abstract="Compruebe el formato de las columnas que desea insertar desde el archivo local."
+>abstract="Compruebe el formato de las columnas en el archivo externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parámetros de formato"
->abstract="Compruebe los parámetros de formato del archivo."
+>abstract="Compruebe los parámetros de formato del archivo externo."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Vista previa del archivo"
->abstract="Compruebe la vista previa de su archivo. Esta pantalla solo muestra hasta 30 registros."
+>abstract="Compruebe la previsualización de las columnas del archivo externo. Esta pantalla solo muestra hasta 30 registros."
 
 
-
-No puede cargar perfiles directamente en Campaign desde la interfaz, pero puede segmentar perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).
+Puede segmentar perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Este artículo describe cómo cargar un perfil externo al crear un envío de correo electrónico independiente. Para cargar datos de un archivo en un flujo de trabajo, consulte [esta página](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Esta funcionalidad solo está disponible para **envíos de correo electrónico independientes**. No se puede utilizar en flujos de trabajo ni con envíos SMS o Push.
+>* Esta funcionalidad solo está disponible para **envíos de correo electrónico**. No se puede utilizar con envíos SMS o push.
 >
 >* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
 >
@@ -51,7 +50,7 @@ No puede cargar perfiles directamente en Campaign desde la interfaz, pero puede 
 Para segmentar perfiles desde un archivo local directamente desde la interfaz de correo electrónico, siga estos pasos:
 
 1. Abra una entrega de correo electrónico existente o [creación de un nuevo envío de correo electrónico](../email/create-email.md).
-1. En la ventana de creación de envíos de correo electrónico, en la sección **Audiencia**, haga clic en el botón **Seleccionar audiencia** y seleccione la opción **Seleccionar del archivo**.
+1. En la ventana de creación de envíos de correo electrónico, en la sección **Público**, haga clic en el botón **Seleccionar público** y seleccione la opción **Seleccionar del archivo**.
 
    ![](assets/select-from-file.png)
 
