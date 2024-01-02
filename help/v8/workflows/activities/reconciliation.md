@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 badge: label="Disponibilidad limitada"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Actividad de reconciliación"
->abstract="El **Reconciliación** la actividad es una **Segmentación** actividad. Permite vincular datos no identificados a recursos existentes. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo."
+>abstract="El **Reconciliación** la actividad es una **Segmentación** actividad que le permite vincular datos no identificados a datos de Campaign existentes. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla externa."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 
 
-El **Reconciliación** la actividad es una **Segmentación** actividad. Permite vincular datos no identificados a recursos existentes. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
+El **Reconciliación** la actividad es una **Segmentación** actividad que le permite vincular datos no identificados a recursos existentes. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
 
 
 ## Prácticas recomendadas {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Siga estos pasos para configurar el **Reconciliación** actividad:
 
 1. Seleccione los campos de reconciliación que desee utilizar para la anulación de duplicación. Se pueden utilizar uno o más criterios de reconciliación.
 
-   1. Para utilizar atributos para reconciliar datos, seleccione **Atributos simples** opción. Por ejemplo, seleccione la opción **Correo electrónico** para deduplicar perfiles en función de su dirección de correo electrónico. El **Origen** field enumera los campos disponibles en la transición de entrada que se van a conciliar. El **Destino** field corresponde a los campos de la dimensión de segmentación seleccionada. Los datos se concilian cuando el origen y el destino son iguales.
+   1. Para utilizar atributos para reconciliar datos, seleccione **Atributos simples** opción. El **Origen** field enumera los campos disponibles en la transición de entrada que se van a conciliar. El **Destino** field corresponde a los campos de la dimensión de segmentación seleccionada. Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione la opción **Correo electrónico** para deduplicar perfiles en función de su dirección de correo electrónico.
 
       Para añadir otros criterios de reconciliación, haga clic en **Añadir regla** botón. Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
 
@@ -121,7 +121,7 @@ Se crea con las siguientes actividades:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Reconciliación** actividad que identifica los datos entrantes como perfiles, utilizando el **email** como criterios de reconciliación.
+* A **Reconciliación** actividad que identifica los datos entrantes como perfiles, utilizando el **email** y **Fecha de nacimiento** como criterios de reconciliación.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 

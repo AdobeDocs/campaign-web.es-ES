@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 badge: label="Disponibilidad limitada"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 34%
+source-wordcount: '294'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Actividad de carga de archivo"
->abstract="El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con perfiles almacenados en un archivo externo."
+>abstract="El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con datos almacenados en un archivo externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 34%
 >abstract="Formato para la actividad Cargar archivo"
 
 
-El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md)o para actualizar perfiles.
+El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Siga estos pasos para configurar el **Cargar archivo** actividad:
 
 
 1. Arrastrar y soltar una **Cargar archivo** en el flujo de trabajo. Haga clic en **Seleccionar del archivo** botón.
-1. Seleccione el archivo local que desea utilizar. El formato debe estar alineado con el [archivo de muestra](../../audience/file-audience.md#sample-file).
+1. Seleccione el archivo local que desea utilizar. El formato debe estar alineado con esto [archivo de muestra](../../audience/file-audience.md#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
 1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
