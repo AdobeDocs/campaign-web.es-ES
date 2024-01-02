@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1075'
 ht-degree: 17%
 
 ---
@@ -33,14 +33,9 @@ Una plantilla puede incluir:
 * Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md),
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->Las plantillas de envío son diferentes de [plantillas de contenido](../content/email-sample-templates.md), que le permiten empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo listas para usar.
+>Las plantillas de envío son diferentes de [plantillas de contenido](../content/create-email-templates.md), que le permiten reutilizar únicamente el contenido de sus correos electrónicos y empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo proporcionadas de forma predeterminada.
 
 
 ## Acceso y administración de plantillas de envíos {#access-manage-templates}

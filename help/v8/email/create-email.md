@@ -4,7 +4,7 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 66%
@@ -24,7 +24,7 @@ ht-degree: 66%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-Basado en un [plantilla de diseño](../content/email-sample-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
+Basado en un [plantilla de diseño](../content/create-email-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
 ## Creación del envío de correo electrónico {#create-email}
 
@@ -120,7 +120,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Para diseñar el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](../content/email-sample-templates.md).
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 
