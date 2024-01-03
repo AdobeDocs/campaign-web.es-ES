@@ -2,10 +2,11 @@
 audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+badge: label="Disponibilidad limitada"
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 14%
+source-wordcount: '323'
+ht-degree: 15%
 
 ---
 

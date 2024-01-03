@@ -2,10 +2,10 @@
 title: Monitorización y administración de perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 badge: label="Disponibilidad limitada"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 9%
+source-wordcount: '662'
+ht-degree: 7%
 
 ---
 
@@ -38,12 +38,52 @@ Puede filtrar la lista de perfiles mediante el campo de búsqueda o los filtros 
 
 ## Acceso y edición de atributos de perfiles {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="Detalles básicos"
+>abstract="Esta sección ofrece detalles básicos del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="Información de contacto"
+>abstract="Esta sección ofrece detalles sobre la información de contacto del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="Esta sección ofrece detalles sobre la dirección postal del perfil y la calidad de la dirección. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="Detalles de cuenta"
+>abstract="Esta sección ofrece perspectivas sobre los detalles de cuenta del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Los destinatarios ya no contactan"
+>abstract="Esta sección ofrece detalles sobre las preferencias de contacto del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="Campos personalizados"
+>abstract="Los campos personalizados son atributos específicos adaptados a sus necesidades que se han configurado para su instancia. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Otros"
+>abstract="Esta sección proporciona atributos integrados adicionales. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="Lista de suscripciones de destinatarios"
+>abstract="Esta pestaña enumera todos los servicios a los que está suscrito el perfil."
+
 Para acceder a los detalles de un perfil, haga clic en su nombre en la lista de perfiles.
 
 ![](assets/profiles-details.png)
 
 Desde esta pantalla, puede acceder a información detallada sobre el perfil:
 
-* El **[!UICONTROL Detalles]** permite examinar los atributos del perfil. Para editar un atributo, realice cambios en el campo deseado y haga clic en **[!UICONTROL Guardar]** botón.
+* El **[!UICONTROL Detalles]** permite examinar los atributos integrados y personalizados del perfil. Para editar un atributo, realice cambios en el campo deseado y haga clic en **[!UICONTROL Guardar]** botón.
 * El **[!UICONTROL Suscripciones]** proporciona información sobre los servicios a los que está suscrito el perfil. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
 * El **[!UICONTROL Registros]** El botón situado en la esquina superior derecha de la pantalla le permite ver un historial de las interacciones del perfil a través del envío, la exclusión y los registros de seguimiento, así como las propuestas presentadas al perfil.
