@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 97%
+source-wordcount: '1506'
+ht-degree: 98%
 
 ---
 
@@ -461,4 +461,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
+<!--
+Deprecated IDs - to remove in GA: -->
 
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Mostrar atributos avanzados"
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Campos avanzados del generador de reglas"
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Atributos avanzados del generador de reglas"
+>abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
