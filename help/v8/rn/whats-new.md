@@ -4,7 +4,7 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 65%
@@ -84,7 +84,7 @@ A continuación, se enumeran las funciones clave incluidas en la versión de dis
 
   Sobrecargue sus campañas de marketing con nuestro **conjunto ampliado de actividades de flujo de trabajo**. Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña.
 
-  Las nuevas actividades incluidas en la última versión de LA son: **Reconciliación**, **Cargar audiencia**, y **Guardar audiencia**.
+  Las nuevas actividades incluidas en la última versión de LA son: **Reconciliación**, **Cargar archivo**, y **Guardar audiencia**.
 
   Obtenga más información en [esta sección](../workflows/gs-workflows.md).
 
