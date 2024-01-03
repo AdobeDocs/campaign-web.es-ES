@@ -4,18 +4,16 @@ title: Examen, búsqueda y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Disponibilidad limitada"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 81%
 
 ---
 
 # Examen, búsqueda y filtrado de listas {#list-screens}
 
 La mayoría de los vínculos del menú de navegación izquierdo muestran listas de objetos, como la lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista y filtrar estas listas, como se detalla a continuación.
-
-Para quitar un filtro, haga clic en el botón **Borrar todo**.
 
 ## Personalizar pantallas de lista {#custom-lists}
 
@@ -39,23 +37,13 @@ Para ordenar los elementos de la lista, haga clic en cualquier encabezado de col
 
 Para las columnas numéricas o de fecha, la flecha **Arriba** indica que la lista se ordena en orden ascendente, mientras que la flecha **Abajo** indica un orden descendente. Para las columnas de cadena o alfanuméricas, los valores aparecen en orden alfabético.
 
-## Filtros integrados {#list-built-in-filters}
+## Filtros {#list-built-in-filters}
 
-Para buscar elementos más rápidamente, puede utilizar la barra de búsqueda o filtrar la lista según criterios contextuales.
+Para buscar elementos más rápido, puede utilizar la barra de búsqueda o filtros integrados y personalizados para adaptar la lista en función de criterios contextuales.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-Por ejemplo, puede filtrar los envíos según su estado, canal, fecha de contacto o carpeta. También puede ocultar las pruebas.
-
-## Filtros personalizados{#list-custom-filters}
-
-Para crear filtros personalizados con los datos, vaya a la parte inferior de los filtros y haga clic en el botón **Agregar reglas** para acceder al generador de reglas.
-
-Defina y combine los criterios de filtro en la **Filtros avanzados** pantalla.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-Los filtros personalizados están diseñados con el modelador de consultas de Campaign. Encontrará información detallada sobre cómo utilizarlo en [esta sección](../query/query-modeler-overview.md).
+Encontrará información detallada sobre cómo utilizar los filtros y crear sus propios filtros personalizados en [esta sección](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
