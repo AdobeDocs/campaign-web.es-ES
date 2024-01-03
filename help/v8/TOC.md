@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 88%
+source-wordcount: '508'
+ht-degree: 86%
 
 ---
 
@@ -143,17 +143,17 @@ ht-degree: 88%
    + [Introducción a los informes](reporting/gs-reports.md)
    + [Indicadores clave de rendimiento](reporting/kpis.md)
    + Informes de envío {#delivery-report}
-      + [Acceso a informes de envío](reporting/delivery-reports.md)
+      + [Introducción a los informes de envío](reporting/delivery-reports.md)
       + [Informe de envío de correo electrónico](reporting/email-report.md)
       + [Informe de envío de push](reporting/push-report.md)
       + [Informe de envío de SMS](reporting/sms-report.md)
    + Informes de campaña {#campaign-report}
-      + [Acceso a informes de campaña](reporting/campaign-reports.md)
+      + [Introducción a los informes de campaña](reporting/campaign-reports.md)
       + [Informe de campaña de correo electrónico](reporting/campaign-reports-email.md)
       + [Informe de campaña push](reporting/campaign-reports-push.md)
       + [Informe de campaña de SMS](reporting/campaign-reports-sms.md)
    + Informes globales {#global-report}
-      + [Acceso a informes globales](reporting/global-reports.md)
+      + [Introducción a los informes globales](reporting/global-reports.md)
       + [Informe global de correo electrónico](reporting/global-report-email.md)
       + [Informe global push](reporting/global-report-push.md)
       + [Informe global de SMS](reporting/global-report-sms.md)

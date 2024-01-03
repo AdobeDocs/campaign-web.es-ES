@@ -2,12 +2,12 @@
 audience: end-user
 title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 30%
+source-wordcount: '500'
+ht-degree: 19%
 
 ---
 
@@ -22,7 +22,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >title="Información general sobre el envío"
 >abstract="El informe **Información general del envío** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push."
 
-El informe **[!UICONTROL Información general del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
+El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -47,7 +47,7 @@ El informe **[!UICONTROL Información general del envío]** proporciona indicado
 >title="Estadísticas de público destinatario inicial"
 >abstract="La tabla **Estadísticas del público destinatario inicial** muestra datos relativos a los destinatarios"
 
-La tabla **[!UICONTROL Estadísticas del público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
+El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![](assets/campaign-reporting-push-target.png)
 
@@ -105,6 +105,6 @@ El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
+* **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
 +++

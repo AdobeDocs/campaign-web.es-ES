@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a los informes globales
 description: Comprender los informes globales
 badge: label="Disponibilidad limitada"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 1%

@@ -2,12 +2,12 @@
 audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 44%
+source-wordcount: '506'
+ht-degree: 45%
 
 ---
 

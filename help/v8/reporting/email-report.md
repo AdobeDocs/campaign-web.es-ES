@@ -2,11 +2,11 @@
 audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2245'
 ht-degree: 40%
 
 ---

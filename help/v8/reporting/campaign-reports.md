@@ -2,16 +2,16 @@
 audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
-# Informes de campaña {#campaign-reports}
+# Introducción a los informes de campaña {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]

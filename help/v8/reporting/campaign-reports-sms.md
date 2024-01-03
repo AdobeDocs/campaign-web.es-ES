@@ -2,12 +2,12 @@
 audience: end-user
 title: Informes de campaña para el canal SMS
 description: Comprensión de los informes de campaña del canal SMS
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 32%
+source-wordcount: '492'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >abstract="El informe **Información general sobre el envío** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de los SMS."
 
 
-El informe **[!UICONTROL Información general sobre el envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de los SMS. Las métricas se detallan a continuación.
+El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de SMS. Las métricas se detallan a continuación.
 
 ![](assets/campaign_report_sms_1.png)
 
@@ -47,7 +47,7 @@ El informe **[!UICONTROL Información general sobre el envío]** proporciona ind
 >title="Estadísticas de público destinatario inicial"
 >abstract="La tabla **Estadísticas del público destinatario inicial** muestra datos relativos a los destinatarios"
 
-La tabla **[!UICONTROL Estadísticas del público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
+El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 
 ![](assets/campaign_report_sms_2.png)
@@ -107,8 +107,8 @@ El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a
 
 * **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
-* **[!UICONTROL Hacer clic]**: Número total de clics en los vínculos de las entregas.
+* **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
+* **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
 +++

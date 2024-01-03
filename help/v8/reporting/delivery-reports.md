@@ -3,21 +3,20 @@ audience: end-user
 title: Informes de envío
 description: Obtenga información sobre cómo acceder a los informes de envío y cómo utilizarlos
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="Disponibilidad limitada"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 51%
+source-wordcount: '207'
+ht-degree: 48%
 
 ---
 
-# Acceso a informes de envío {#reports}
+# Introducción a los informes de envío {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Informes agregados para envíos"
 >abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregados."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
