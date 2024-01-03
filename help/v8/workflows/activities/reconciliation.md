@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 badge: label="Disponibilidad limitada"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 19%
@@ -64,7 +64,7 @@ Mientras que el **Enriquecimiento** La actividad de le permite definir datos adi
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Seleccionar la dimensión de segmentación"
 >abstract="Seleccione la dimensión de segmentación con la que se reconciliarán los datos de entrada."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="Dimensiones de segmentación"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Dimensiones de segmentación"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
