@@ -4,7 +4,7 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 35%
@@ -109,4 +109,4 @@ La web de Campaign le permite realizar previsualizaciones y enviar correos elect
 
    ![](assets/file-upload-test.png)
 
-1. Puede monitorizar el envío del correo electrónico de prueba en cualquier momento mediante el botón Ver registro de correo electrónico de prueba. [Más información sobre la monitorización de correos electrónicos de prueba](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. Puede monitorizar el envío del correo electrónico de prueba mediante la variable **[!UICONTROL Ver registro de correo electrónico de prueba]** botón en cualquier momento. [Más información sobre la monitorización de correos electrónicos de prueba](../preview-test/test-deliveries.md#access-test-deliveries)
