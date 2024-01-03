@@ -3,10 +3,10 @@ audience: end-user
 title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="LA"
-source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
+badge: label="Disponibilidad limitada"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 13%
 
 ---

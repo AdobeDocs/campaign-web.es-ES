@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear y administrar perfiles de pr
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-adge: label="LA"
-source-git-commit: 6610095b2af486bf64a1d875b5fb793cbfdc391d
+badge: label="Disponibilidad limitada"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---

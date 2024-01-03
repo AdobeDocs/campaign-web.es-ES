@@ -8,11 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="LA"
-source-git-commit: 8690bd24b5f31bc850734939ae9b7c2d830c1e5c
+badge: label="Disponibilidad limitada"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 14%
+source-wordcount: '251'
+ht-degree: 11%
 
 ---
 
@@ -56,5 +56,5 @@ Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas,
 
 1. Clic **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la pantalla.
 
-1. Edite el contenido según sus preferencias mediante el diseñador de correo electrónico. [Más información](create-email-content.md)
+1. Edite el contenido como desee mediante el Diseñador de correo electrónico. [Más información](create-email-content.md)
 
