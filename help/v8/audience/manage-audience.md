@@ -4,10 +4,10 @@ title: Monitorizar y administrar públicos
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 10%
 >id="acw_audiences_workflow_error_data_execution"
 >title="Error de público"
 >abstract="Los datos de público no están disponibles. Espere al final de la ejecución del flujo de trabajo."
+
+El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. Obtenga más información sobre las plantillas de envío en [esta página](../msg/delivery-template.md).
+
+Para definir la población de una audiencia, puede:
+
+* [Crear nuevas audiencias](create-audience.md) desde el **[!UICONTROL Audiencias]** menú,
+* [Seleccionar una audiencia existente](add-audience.md) creado como una lista en la consola del cliente o procedente de Adobe Experience Platform,
+* [Crear una audiencia nueva](segment-builder.md) con el generador de reglas definiendo y combinando criterios de filtrado,
+* [Uso de una audiencia de un archivo externo](file-audience.md). Esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas.
+
+Al segmentar una audiencia, también puede definir lo siguiente **grupos de control** para evitar enviar mensajes a una parte de la audiencia y medir el impacto de las campañas. [Obtenga información sobre cómo establecer un grupo de control](control-group.md)
+
+>[!NOTE]
+>
+>Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Crear audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir la audiencia de su envío en un flujo de trabajo de campaña en [esta sección](../workflows/activities/build-audience.md)
 
 Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
 
