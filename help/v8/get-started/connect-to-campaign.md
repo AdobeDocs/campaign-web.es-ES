@@ -1,12 +1,12 @@
 ---
 title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign versión 8
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 84%
 
 ---
 
@@ -51,11 +51,13 @@ Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a uti
 
 ## Navegación superior de Adobe Experience Cloud {#top-bar}
 
-Utilice la barra superior de la interfaz para lo siguiente:
+Examine la barra superior de la interfaz para:
 
-* compartir sus comentarios como usuario Beta
 * cambiar entre sus organizaciones
 * cambiar entre sus soluciones y aplicaciones de Adobe Experience Cloud
+* buscar ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* comprobar las notificaciones del producto
+* editar el perfil de Adobe y administrar la configuración, como [actualizar su idioma favorito](#language-pref) o [cambiar al tema claro/oscuro](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -87,9 +89,9 @@ Para cambiar el idioma, haga lo siguiente:
 1. A continuación, haga clic en el vínculo de idioma mostrado debajo de su dirección de correo electrónico.
 1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no se haya localizado en su primer idioma.
 
-## Tema oscuro {#dark-theme}
+## Temas oscuros y claros {#dark-theme}
 
-Puede cambiar al tema oscuro desde el icono de perfil. Utilice la alternancia **Tema oscuro** para habilitarlo o deshabilitarlo.
+Adobe Campaign está disponible en los temas claro y oscuro. De forma predeterminada, la interfaz de usuario está habilitada en el tema claro. Para cambiar al tema oscuro, haga clic en su icono de perfil y utilice el **Tema oscuro** marque esta opción para habilitarla o deshabilitarla.
 
 La configuración del perfil de usuario y las preferencias de cuenta se detallan en [esta sección](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#preferences){target="_blank"}.
 

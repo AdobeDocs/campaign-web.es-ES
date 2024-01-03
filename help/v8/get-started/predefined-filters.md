@@ -1,16 +1,12 @@
 ---
 title: Creación y uso de filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en la IU web de Adobe Campaign
-feature: Personalization
-topic: Personalization
-role: Data Engineer
-level: Beginner
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +22,7 @@ ht-degree: 100%
 >title="Filtros predefinidos"
 >abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
 
-Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el generador de reglas, por ejemplo, al filtrar una lista de datos o crear el público de un envío.
+Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el modelador de consultas, por ejemplo al filtrar una lista de datos o crear la audiencia de una entrega.
 
 Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de sus datos o crear sus propios filtros predefinidos y guardarlos.
 
@@ -49,24 +45,25 @@ Puede utilizar filtros integrados existentes para acceder a un subconjunto espec
 >title="Creación de reglas de filtro predefinidas"
 >abstract="Para definir las condiciones de filtrado del filtro personalizado, haga clic en el botón “Crear regla”."
 
-### Creación de un filtro desde el generador de reglas {#create-from-rule-builder}
+### Creación de un filtro desde el modelador de consultas {#create-from-rule-builder}
 
-Puede guardar un filtro personalizado del generador de reglas para que esté disponible para uso futuro. Siga estos pasos:
+Puede guardar un filtro personalizado desde el [modelador de consultas](../query/query-modeler-overview.md) para tenerlo disponible para uso futuro. Siga estos pasos:
 
-1. Abra el generador de reglas y defina las condiciones de filtrado. En el ejemplo siguiente, se filtran los destinatarios que viven en Madrid.
+1. Abra el modelador de consultas y defina las condiciones de filtrado. En el siguiente ejemplo, se filtra los destinatarios que viven en Madrid y se suscribieron a un boletín informativo.
 1. Haga clic en el botón **Seleccionar o guardar filtro** y seleccione **Guardar como filtro**.
 
    ![](assets/predefined-filters-save.png)
 
 1. Seleccione **Crear nuevo filtro** y escriba un nombre y una descripción para él.
 
-   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
+   ![](assets/predefined-filters-save-filter.png)
 
    Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
 
 1. Haga clic en **Confirmar** para guardar los cambios.
 
 El filtro personalizado ahora está disponible en la lista **Filtros predefinidos** y es accesible para todos los usuarios de Campaign.
+
 
 ### Creación de filtros a partir de la lista de filtros {#create-filter-from-list}
 
@@ -76,13 +73,19 @@ Puede crear un filtro desde la entrada **Filtros predefinidos** en el menú de l
 1. Haga clic en el botón **Crear filtro**.
 1. Introduzca el nombre del filtro y, en el campo **Tipo de documento**, seleccione el esquema al que se aplica. El esquema predeterminado es `Recipients(nms)`.
 
-   Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
 
 1. Defina la regla para el filtro. Por ejemplo, perfiles de personas de más de 30 años.
 
    ![](assets/filter-30+.png)
 
-1. Guarde los cambios. El filtro se agrega a la lista de filtros predefinidos.
+
+1. Guarde los cambios.
+
+   ![](assets/new-filter.png)
+
+
+El filtro se agrega a la lista de filtros predefinidos. Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
+
 
 ## Guarde el filtro como favorito {#fav-filter}
 
@@ -108,7 +111,7 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 1. Introduzca el nombre del público y haga clic en el botón **Crear público**.
 1. Seleccione la actividad **Consulta** y, en el panel derecho, haga clic en el botón **Crear público**.
 
-   ![](assets//build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png)
 
 1. Desde el **botón Seleccionar o guardar filtro**, elija la opción **Seleccionar filtro personalizado**.
 
@@ -120,8 +123,6 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 
 1. Compruebe las propiedades de la regla para ese filtro y confirme.
 
-   ![](assets/build-audience-check.png)
-
    El filtro ahora se utiliza como consulta en la actividad **Consulta**.
 
    ![](assets/build-audience-confirm.png)
@@ -132,13 +133,15 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 
 Los filtros predefinidos se agrupan en una entrada propia del menú de navegación de la izquierda.
 
+![](assets/list-of-filters.png)
+
 A partir de esa lista, puede crear un nuevo filtro como se explica más arriba y:
 
 * editar un filtro existente y cambiar sus reglas y propiedades
 * duplicar un filtro predefinido
 * eliminar un filtro predefinido
 
-Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear reglas. Obtenga más información en [esta sección](#fav-filter).
+Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear audiencias. Obtenga más información en [esta sección](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

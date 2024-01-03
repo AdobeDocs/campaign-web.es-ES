@@ -2,14 +2,14 @@
 audience: end-user
 title: Administración de permisos en la web de Campaign
 description: Obtenga más información sobre los permisos en la versión 8 de la web de Campaign
-badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+badge: label="Disponibilidad limitada"
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
-
 
 # Acceso y permisos {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Para crear una carpeta, siga estos pasos:
    La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente desde cualquier carpeta y guardarlo en esa nueva carpeta, desde la sección **Opciones adicionales** de las propiedades, como se muestra a continuación para un envío:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-
