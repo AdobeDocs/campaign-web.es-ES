@@ -3,11 +3,11 @@ audience: end-user
 title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
+badge: label="LA"
+source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1171'
+ht-degree: 13%
 
 ---
 
@@ -43,7 +43,7 @@ Para comenzar a probar el contenido del mensaje:
 
    Según el canal de mensajes, las pruebas se pueden enviar a los siguientes tipos de destinatarios:
 
-   * Para SMS y correos electrónicos, puede utilizar [perfiles de prueba](#test-profiles), que son destinatarios adicionales específicos de la base de datos. Estos destinatarios se crean en [!DNL Campaign] consola de cliente. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * Para SMS y correos electrónicos, puede utilizar [perfiles de prueba](#test-profiles), que son destinatarios adicionales específicos de la base de datos. [Más información](../audience/test-profiles.md)
 
    * Para SMS y correos electrónicos, también puede utilizar el [sustitución desde destinatario principal](#substitution-profiles) , que envía las pruebas a la dirección de prueba de correo electrónico o al número de teléfono, y utiliza datos de personalización de un perfil existente. Esto le permite experimentar el mensaje como lo harían los destinatarios, lo que le ofrece una representación precisa del contenido que recibirá el perfil.
 
@@ -73,7 +73,9 @@ Para comenzar a probar el contenido del mensaje:
 >title="Incluir perfiles de prueba en el público principal"
 >abstract="Habilite esta opción para enviar también el mensaje final a los destinatarios de la entrega de prueba."
 
-Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear en la variable [!DNL Adobe Campaign] consola de cliente. A continuación se detallan los pasos para enviar pruebas a las direcciones semilla.
+Los perfiles de prueba son direcciones semilla que son destinatarios adicionales en la base de datos. Se pueden crear a partir de **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** menú. [Más información](../audience/test-profiles.md#create-test-profiles)
+
+A continuación se detallan los pasos para enviar pruebas a las direcciones semilla.
 
 1. En el contenido de su envío, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Prueba]** botón.
 
@@ -81,13 +83,23 @@ Los perfiles de prueba son direcciones semilla que son destinatarios adicionales
 
    ![](assets/simulate-profile-mode.png)
 
-1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
-
    >[!NOTE]
    >
-   >Los perfiles de prueba se crean en [!DNL Campaign] consola de cliente en **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** carpeta. Obtenga información sobre cómo crear y administrar direcciones semilla en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+   >Los perfiles de prueba se crean a partir de **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** menú. Obtenga información sobre cómo crearlos y administrarlos en [esta sección](../audience/test-profiles.md#create-test-profiles).
+
+1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
+
+1. Al examinar la lista de perfiles de prueba, puede utilizar filtros para restringir la búsqueda.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. [Más información sobre los filtros avanzados](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. Para enviar también el mensaje final a los destinatarios de la entrega de prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
+
+   ![](assets/simulate-include-test.png)
 
 1. Una vez seleccionados los perfiles de prueba, puede [realizar la entrega de prueba](#send-test).
 
