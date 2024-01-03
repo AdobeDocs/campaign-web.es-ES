@@ -1,54 +1,49 @@
 ---
-title: Trabajar con destinatarios y públicos
-description: Aprenda a trabajar con destinatarios en Campaign Web
-badge: label="Beta"
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+title: Monitorización y administración de perfiles
+description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
+badge: label="Disponibilidad limitada"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 25%
+source-wordcount: '380'
+ht-degree: 9%
 
 ---
 
-# Trabajar con destinatarios y públicos {#about-recipients}
+# Monitorización y administración de perfiles {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="Vista 360 de sus destinatarios"
->abstract="Cree nuevos destinatarios y monitorícelos mediante potentes informes y herramientas. Acceda a los atributos, interacciones y registros de su destinatario. Utilice las opciones de filtrado para examinar la lista de destinatarios, editar y actualizar su perfil."
+>title="Vista 360 de sus perfiles"
+>abstract="Cree nuevos perfiles y monitorícelos con potentes informes y herramientas. Acceda a los atributos, interacciones y registros de sus perfiles. Utilice las opciones de filtrado para examinar la lista de perfiles, editar y actualizar su perfil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte las notas de la versión"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfiles"
->abstract="Un perfil es una persona que está destinada a recibir mensajes enviados por Adobe Campaign. En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS). En esta lista, puede ver el perfil del destinatario en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos del destinatario."
+>abstract="Un perfil es una persona que está destinada a recibir mensajes enviados por Adobe Campaign. Desde esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de sus perfiles."
 
-Un destinatario es un perfil que está destinado a recibir mensajes enviados por Adobe Campaign. En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten crear audiencias que reciban cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. En la base de datos se almacenan otros tipos de perfiles. Están diseñados para diferentes usos: por ejemplo, se crean perfiles semilla para probar los envíos antes de enviarlos a la audiencia final.
+## Introducción a los perfiles {#gs}
 
-Los destinatarios solo se pueden agregar desde la consola del cliente de Campaign. Sin embargo, se pueden ver en la web de Campaign, en la **Destinatarios** entrada del carril de navegación izquierdo. También puede editar los atributos del destinatario desde esa pantalla.
+Un perfil en Adobe Campaign Web es una persona almacenada en la base de datos, que sirve como componente clave para crear audiencias para envíos y agregar datos de personalización al contenido. En la base de datos se almacenan varios tipos de perfiles, como perfiles de prueba, que están diseñados para probar los envíos antes de enviarlos a la audiencia final. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
 
-Para editar los datos del destinatario, haga clic en los tres puntos junto a su nombre y seleccione **Editar...**.
+Los perfiles solo se pueden agregar desde la consola del cliente de Campaign. Sin embargo, se puede acceder a ellas desde Adobe Campaign Web desde el **Perfiles** en el carril de navegación izquierdo. También puede acceder a ellas desde el **Explorer** , donde puede examinar, crear carpetas y subcarpetas y comprobar los permisos asociados.
 
-![Edición de un perfil de destinatario](assets/recipient-edit.png)
+Puede filtrar la lista de perfiles mediante el campo de búsqueda o los filtros disponibles en el **Mostrar filtros** botón.
 
-Puede actualizar un conjunto limitado de atributos, que son: nombre, apellidos, correo electrónico y número de teléfono.
-
-![Actualización de un perfil de destinatario](assets/recipient-update.png)
+![](assets/profiles-list.png)
 
 >[!NOTE]
 >
->Este formulario limitado de edición de perfiles solo se proporciona para pruebas de programas beta. Se mejorará en la versión futura. Permite al usuario añadir rápidamente una dirección de correo electrónico y un número de teléfono a cualquier perfil para que pueda probar los canales de correo electrónico y SMS y recibir los mensajes enviados.
+>Según los permisos, es posible que no tenga acceso a la lista completa de perfiles almacenados en la base de datos. Puede obtener más información sobre permisos en [esta sección](../get-started/permissions.md).
 
-Puede filtrar los destinatarios utilizando el campo de búsqueda, desde el **Mostrar filtros** botón.
+## Acceso y edición de atributos de perfiles {#access}
 
-También puede acceder a los destinatarios desde el **Explorer** vea, examine y cree carpetas y subcarpetas, y compruebe los permisos asociados.
+Para acceder a los detalles de un perfil, haga clic en su nombre en la lista de perfiles.
 
-![Lista de destinatarios de la vista del explorador](assets/recipients-from-explorer.png)
+![](assets/profiles-details.png)
 
->[!NOTE]
->
->Según los permisos, es posible que no tenga acceso a la lista completa de destinatarios almacenados en la base de datos. Puede obtener más información sobre permisos en [esta sección](../get-started/permissions.md).
+Desde esta pantalla, puede acceder a información detallada sobre el perfil:
 
-Además, puede administrar las suscripciones y bajas de sus destinatarios a servicios como los boletines informativos. Aprenda a trabajar con servicios de suscripción en [esta página](manage-services.md)
-
-Puede crear flujos de trabajo para deduplicar, enriquecer, combinar perfiles y crear audiencias. Obtenga más información en [esta sección](../workflows/gs-workflows.md).
+* El **[!UICONTROL Detalles]** permite examinar los atributos del perfil. Para editar un atributo, realice cambios en el campo deseado y haga clic en **[!UICONTROL Guardar]** botón.
+* El **[!UICONTROL Suscripciones]** proporciona información sobre los servicios a los que está suscrito el perfil. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
+* El **[!UICONTROL Registros]** El botón situado en la esquina superior derecha de la pantalla le permite ver un historial de las interacciones del perfil a través del envío, la exclusión y los registros de seguimiento, así como las propuestas presentadas al perfil.
