@@ -3,17 +3,17 @@ audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
 # Generación de texto con el asistente de contenido {#generative-content}
-
-
 
 Una vez creados y personalizados los correos electrónicos, utilice el asistente de contenido con tecnología de IA generativa para llevar el contenido al siguiente nivel.
 
@@ -70,4 +70,3 @@ Para generar y mejorar el contenido de un correo electrónico con el Ayudante de
    ![](assets/text-genai-7.png)
 
 1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)
-

@@ -3,13 +3,15 @@ audience: end-user
 title: Generación de imágenes con el asistente de contenido
 description: Introducción al Ayudante de contenido
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
-
 
 # Generación de imágenes con el asistente de contenido {#generative-image}
 
