@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 17%
@@ -52,7 +52,7 @@ Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Cam
 
 Todas las plantillas que se [created](#create-a-delivery-template) en el entorno actual.
 
-Puede filtrar las plantillas de contenido por canales y carpetas. También puede establecer filtros avanzados generando una regla con atributos de entrega. [Más información sobre el Generador de reglas](../audience/segment-builder.md)
+Puede filtrar las plantillas de contenido por canales y carpetas. También puede establecer filtros avanzados generando una regla con atributos de entrega. [Más información sobre el Generador de reglas](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

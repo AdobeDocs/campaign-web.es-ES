@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Usar una audiencia de Adobe Experience Platform
-description: Aprenda a utilizar una audiencia de Adobe Experience Platform
+title: Usar un público de Adobe Experience Platform
+description: Aprenda a utilizar un público de Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 37%
+source-wordcount: '283'
+ht-degree: 38%
 
 ---
 
-# Usar una audiencia de Adobe Experience Platform{#aep-audience}
+# Usar un público de Adobe Experience Platform{#aep-audience}
 
 Los conectores Origen y Destino del Cloud Service administrado de Adobe Campaign permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform.
 
@@ -23,17 +23,17 @@ Una vez creada una audiencia de Adobe Experience Platform y disponible en la con
 
 Para seleccionar la audiencia de una entrega, también puede:
 
-* Crear una audiencia nueva. [Más información](segment-builder.md)
+* Crear una audiencia nueva. [Más información](../query/query-modeler-overview.md)
 * Carga de una audiencia desde un archivo externo. [Más información](file-audience.md)
 * Utilice una audiencia de Campaign existente. [Más información](add-audience.md).
 
 Para seleccionar una audiencia de Adobe Experience Platform para su envío, siga los pasos a continuación:
 
-1. En la sección **Audiencia** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar la audiencia]**.
+1. En la sección **Público** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar el público]**.
 
    ![](assets/create-audience.png)
 
-1. Elija **[!UICONTROL Seleccionar la audiencia]** para usar una audiencia existente. Para crear una nueva audiencia para usarla en este correo electrónico, elija **Crear la suya propia**. Consulte esta [sección](segment-builder.md).
+1. Elija **[!UICONTROL Seleccionar el público]** para usar un público existente. Para crear un nuevo público para usarlo en este correo electrónico, elija **Crear el suyo propio**. Consulte esta [sección](../query/query-modeler-overview.md).
 
    Esta pantalla muestra todas las audiencias existentes definidas en la consola del cliente de Adobe Campaign para la carpeta actual. Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla.
 
@@ -43,12 +43,12 @@ Para seleccionar una audiencia de Adobe Experience Platform para su envío, siga
 
    ![](assets/filter-on-aep-audience.png)
 
-1. Elija una audiencia y haga clic en **Seleccionar**.
+1. Elija un público y haga clic en **Seleccionar**.
 
-1. Haga clic en **Editar reglas** si desea restringir la audiencia.
+1. Haga clic en **Editar reglas** si desea restringir el público.
 
    ![](assets/refine-audience.png)
 
-1. Con el generador de reglas, puede enriquecer la audiencia con filtros adicionales o combinando distintas audiencias. Consulte esta [sección](segment-builder.md).
+1. Con el generador de reglas, puede enriquecer el público con filtros adicionales o combinando distintos públicos. Consulte esta [sección](../query/query-modeler-overview.md).
 
 1. Haga clic en **Save**.
