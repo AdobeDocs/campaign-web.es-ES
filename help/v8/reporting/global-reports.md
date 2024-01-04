@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a los informes globales
 description: Comprender los informes globales
 badge: label="Disponibilidad limitada"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
@@ -18,7 +18,7 @@ El **Informes globales** constituye una herramienta eficaz que ofrece un resumen
 La lista completa de informes y las métricas asociadas para cada canal están disponibles en las siguientes páginas:
 
 * [Informes globales de correo electrónico](global-report-email.md)
-* [Informes globales de SMS](global-report-email-sms.md)
+* [Informes globales de SMS](global-report-sms.md)
 * [Informes globales push](global-report-push.md)
 
 ## Administrar el tablero de informes {#manage-reports}
