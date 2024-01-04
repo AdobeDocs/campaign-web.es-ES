@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 85%
+source-wordcount: '506'
+ht-degree: 86%
 
 ---
 
@@ -30,37 +30,37 @@ ht-degree: 85%
    + [Buscar ayuda y orientación](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
-   + [Trabajo con envíos](msg/gs-deliveries.md)
+   + [Trabajar con archivos adjuntos](msg/gs-deliveries.md)
    + [Uso de plantillas de envío](msg/delivery-template.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
       + Definición del contenido del correo electrónico {#content}
-         + [Configurar el contenido de correo electrónico](content/edit-content.md)
-         + [Trabajo con plantillas de contenido](content/create-email-templates.md)
+         + [Configurar el contenido de correo electrónico](email/edit-content.md)
+         + [Trabajo con plantillas de contenido](email/create-email-templates.md)
          + Comience a dar forma al correo electrónico {#start-design}
-            + [Introducción al Diseñador de correo electrónico](content/get-started-email-designer.md)
-            + [Empezar desde cero](content/create-email-content.md)
-            + [Importar el contenido de su correo electrónico](content/existing-content.md)
-            + [Programe su propio contenido](content/code-content.md)
-            + [Uso de plantillas de contenido de correo electrónico](content/use-email-templates.md)
+            + [Introducción al Diseñador de correo electrónico](email/get-started-email-designer.md)
+            + [Empezar desde cero](email/create-email-content.md)
+            + [Importar el contenido de su correo electrónico](email/existing-content.md)
+            + [Programe su propio contenido](email/code-content.md)
+            + [Uso de plantillas de contenido de correo electrónico](email/use-email-templates.md)
          + Diseño del contenido {#design-content}
-            + [Usar componentes de contenido](content/content-components.md)
-            + [Adición de vínculos y seguimiento de mensajes](content/message-tracking.md)
-            + [Añadir un vínculo a la página espejo](content/mirror-page.md)
-            + [Añadir un preencabezado](content/preheader.md)
-            + [Generar la versión de texto](content/text-version-email.md)
-            + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
+            + [Usar componentes de contenido](email/content-components.md)
+            + [Adición de vínculos y seguimiento de mensajes](email/message-tracking.md)
+            + [Añadir un vínculo a la página espejo](email/mirror-page.md)
+            + [Añadir un preencabezado](email/preheader.md)
+            + [Generar la versión de texto](email/text-version-email.md)
+            + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Ayudante de contenido {#content-assistant}
-            + [Introducción al Asistente de contenido](content/generative-gs.md)
-            + [Generación de texto con el asistente de contenido](content/generative-content.md)
-            + [Generación de imágenes con el asistente de contenido](content/generative-image.md)
-            + [Generación de correo electrónico con el asistente de contenido](content/generative-email.md)
+            + [Introducción al Asistente de contenido](email/generative-gs.md)
+            + [Generación de texto con el asistente de contenido](email/generative-content.md)
+            + [Generación de imágenes con el asistente de contenido](email/generative-image.md)
+            + [Generación de correo electrónico con el asistente de contenido](email/generative-email.md)
          + Estilos del contenido {#style}
-            + [Introducción al estilo del correo electrónico](content/get-started-email-style.md)
-            + [Editar configuración de fondo](content/backgrounds.md)
-            + [Ajustar alineación vertical y relleno](content/alignment-and-padding.md)
-            + [Definición de un estilo para los vínculos](content/styling-links.md)
-            + [Adición de atributos de estilo alineados](content/inline-styling.md)
+            + [Introducción al estilo del correo electrónico](email/get-started-email-style.md)
+            + [Editar configuración de fondo](email/backgrounds.md)
+            + [Ajustar alineación vertical y relleno](email/alignment-and-padding.md)
+            + [Definición de un estilo para los vínculos](email/styling-links.md)
+            + [Adición de atributos de estilo alineados](email/inline-styling.md)
       + Envío y supervisión del correo electrónico {#monitor}
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
          + [Monitorización de los registros de envío](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 85%
       + [Adición de personalización](personalization/personalize.md)
       + [Añadir contenido condicional](personalization/conditions.md)
       + [Añadir bloques de contenido integrados](personalization/content-blocks.md)
-   + [Añadir ofertas a los mensajes](content/offers.md)
-   + [Enviar mensajes a los suscriptores](content/send-to-subscribers.md)
+   + [Añadir ofertas a los mensajes](msg/offers.md)
+   + [Enviar mensajes a los suscriptores](msg/send-to-subscribers.md)
    + Vista previa y prueba del envío {#preview-test}
       + [Acerca de la vista previa y la prueba](preview-test/preview-test.md)
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
@@ -89,6 +89,7 @@ ht-degree: 85%
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
 + Perfiles y audiencias {#audiences}
    + [Introducción a perfiles y audiencias](audience/gs-audiences-recipients.md)
+   + [Dimensiones de segmentación](audience/targeting-dimensions.md)
    + Trabajo con perfiles {#work-with-profiles}
       + [Monitorización y administración de perfiles](audience/about-recipients.md)
       + [Creación y administración de perfiles de prueba](audience/test-profiles.md)
