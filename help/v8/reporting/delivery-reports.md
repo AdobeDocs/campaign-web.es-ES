@@ -4,7 +4,7 @@ title: Informes de envío
 description: Obtenga información sobre cómo acceder a los informes de envío y cómo utilizarlos
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Disponibilidad limitada"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 33%
@@ -45,7 +45,7 @@ Para mostrar y administrar informes, siga estos pasos:
 
    También puede utilizar los tres puntos **Más acciones** junto al nombre de la entrega en la lista de envíos y seleccione **[!UICONTROL Ver informe]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. En el menú de la izquierda, seleccione un informe de la lista.
 
