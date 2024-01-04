@@ -8,7 +8,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ Para eliminar un perfil de prueba, seleccione la opción correspondiente en la *
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="Datos adicionales de perfiles de prueba"
+>title="Datos adicionales de los perfiles de prueba"
 >abstract="Introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico."
 
 Para crear un perfil de prueba, siga los pasos a continuación.

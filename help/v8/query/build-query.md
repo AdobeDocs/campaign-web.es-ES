@@ -118,8 +118,8 @@ En este caso, la consulta está dirigida a destinatarios que han realizado compr
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
->title="Seleccionar público"
->abstract="Seleccionar público"
+>title="Seleccionar la audiencia"
+>abstract="Seleccionar la audiencia"
 
 Para filtrar la consulta utilizando una audiencia existente, siga estos pasos:
 
@@ -175,8 +175,8 @@ Los operadores disponibles son:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
->title="Propiedades de regla"
->abstract="Propiedades de regla"
+>title="Propiedades de las reglas"
+>abstract="Propiedades de las reglas"
 
 Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** situado en el lado derecho. Las operaciones disponibles son:
 

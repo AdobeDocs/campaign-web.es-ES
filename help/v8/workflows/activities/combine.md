@@ -84,7 +84,7 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
->title="Reglas de exclusión"
+>title="Reglas de inclusión "
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en Añadir una regla en la sección Reglas de exclusión y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 >[!CONTEXTUALHELP]
@@ -94,7 +94,7 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
->title="Reglas de exclusión"
+>title="Reglas de inclusión "
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en Añadir una regla en la sección Reglas de exclusión y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
 

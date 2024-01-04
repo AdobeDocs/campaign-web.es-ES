@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
 source-wordcount: '1452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,8 +205,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="Perfil de solo lectura de destinatarios"
->abstract="Perfil de solo lectura de destinatarios"
+>title="Perfil de sólo lectura de los destinatarios"
+>abstract="Perfil de sólo lectura de los destinatarios"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"

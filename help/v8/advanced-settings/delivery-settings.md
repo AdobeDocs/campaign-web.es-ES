@@ -6,7 +6,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2113'
 ht-degree: 82%
 
 ---
@@ -25,12 +25,12 @@ Esta configuración está disponible en **Configuración de la entrega** icono d
 >
 >Esta configuración es solo informativa. Algunos ajustes dependen de la configuración y los permisos. No deben modificarse en esta versión del producto.
 
-## Tipología configuración {#typology}
+## Configuración de tipología {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Tipología las reglas permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
 
 
 >[!CONTEXTUALHELP]
@@ -163,7 +163,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 >title="Número máximo de reintentos"
 >abstract="Si un mensaje falla debido a un error temporal, se realizan reintentos hasta el final de la duración del envío."
 
-Para los mensajes que no se hayan enviado temporalmente debido a un error leve o ignorado, se realiza un reintento automático. De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día.
+Los mensajes no enviados temporalmente debido a un error leve o ignorado están sujetos a un reintento automático. De manera predeterminada, se programan cinco reintentos para el primer día del envío con un intervalo mínimo de una hora distribuidos durante las 24 horas del día.
 
 Obtenga más información acerca de la administración de reintentos en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
@@ -171,7 +171,7 @@ Obtenga más información acerca de la administración de reintentos en [Documen
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Modo de aprobación para el envío"
+>title="Modo de aprobación del envío"
 >abstract="Seleccione el modo de aprobación. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
 
 

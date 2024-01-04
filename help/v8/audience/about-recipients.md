@@ -5,7 +5,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -60,7 +60,7 @@ Puede filtrar la lista de perfiles mediante el campo de búsqueda o los filtros 
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Los destinatarios ya no contactan"
+>title="Destinatarios Ya no hay contacto"
 >abstract="Esta sección ofrece detalles sobre las preferencias de contacto del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en **Guardar** situado en la esquina superior derecha de la pantalla."
 
 >[!CONTEXTUALHELP]
