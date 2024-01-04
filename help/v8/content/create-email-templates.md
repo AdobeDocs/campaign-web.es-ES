@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 7%
 
 ---
@@ -106,15 +106,13 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
    ![](assets/content-template-create.png)
 
-1. Rellene los detalles de la plantilla.
+1. Rellene los detalles de la plantilla. Puede seleccionar la carpeta en la que desea almacenar la plantilla. De forma predeterminada, las plantillas de contenido se almacenan en un nodo específico de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >Actualmente solo el **Correo electrónico** canal y **HTML** se admiten los tipos de.
-
-1. Seleccione la carpeta en la que desea almacenar la plantilla. De forma predeterminada, las plantillas de contenido se almacenan en un nodo específico de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
 
 1. Clic **[!UICONTROL Crear]** y elija cómo desea diseñar la plantilla entre las distintas opciones:
 
