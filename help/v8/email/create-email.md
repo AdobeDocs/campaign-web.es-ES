@@ -4,7 +4,7 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar su primer correo electrónico con la IU de la web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 66%
@@ -24,7 +24,7 @@ ht-degree: 66%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-Basado en un [plantilla de diseño](../content/create-email-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
+Basado en un [plantilla de diseño](../email/create-email-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
 ## Creación del envío de correo electrónico {#create-email}
 
@@ -104,13 +104,13 @@ Encontrará instrucciones adicionales sobre cómo trabajar con públicos en [est
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación. En este caso de uso, se utiliza un correo electrónico predefinido [plantilla de envíos](../msg/delivery-template.md) para diseñar el correo electrónico.<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. En el panel de envío de correo electrónico, haga clic en **[!UICONTROL Editar contenido]** botón.
 
    ![](assets/email-edit-content.png)
 
-   Esto le lleva a una interfaz dedicada en la que puede configurar el contenido del correo electrónico y acceder al Diseñador de correo electrónico. [Más información](../content/edit-content.md)
+   Esto le lleva a una interfaz dedicada en la que puede configurar el contenido del correo electrónico y acceder al Diseñador de correo electrónico. [Más información](edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Para diseñar el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](../content/create-email-templates.md).
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla de contenido predefinida](create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. Una vez seleccionada la plantilla, se muestra en el [Diseñador de correo electrónico](../content/create-email-content.md), donde puede realizar las ediciones necesarias y agregar personalización.
+1. Una vez seleccionada la plantilla, se muestra en el [Diseñador de correo electrónico](create-email-content.md), donde puede realizar las ediciones necesarias y agregar personalización.
 
    Por ejemplo, para personalizar el título del correo electrónico, seleccione el bloque de componentes y haga clic en **[!UICONTROL Añadir personalización]**.
 
