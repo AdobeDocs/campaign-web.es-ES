@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los informes globales
 description: Comprender los informes globales
 badge: label="Disponibilidad limitada"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 1%
 
 # Introducción a los informes globales {#global-report-gs}
 
-Los informes globales proporcionan una visión general completa del tráfico y la participación en todos los canales, y ofrecen una variedad de widgets que proporcionan una información única sobre el rendimiento de las campañas y las entregas.
+El **Informes globales** constituye una herramienta eficaz que ofrece un resumen global consolidado de las métricas de tráfico y participación para cada canal dentro de la instancia de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o la entrega.
+
+La lista completa de informes y las métricas asociadas para cada canal están disponibles en las siguientes páginas:
+
+* [Informes globales de correo electrónico](global-report-email.md)
+* [Informes globales de SMS](global-report-email-sms.md)
+* [Informes globales push](global-report-push.md)
 
 ## Administrar el tablero de informes {#manage-reports}
 
@@ -29,7 +35,7 @@ Para acceder y administrar sus informes globales, siga estos pasos:
 
    ![](assets/global_report_manage_2.png)
 
-1. Clic **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes.
+1. Clic **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
 1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
 
