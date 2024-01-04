@@ -4,9 +4,9 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2110'
 ht-degree: 82%
 
 ---
@@ -119,10 +119,9 @@ El campo **importancia del destinatario** es una fórmula que se utiliza para de
 >title="Configuración del público del envío"
 >abstract="Seleccione una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión del envío. "
 
-En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La dimensión de segmentación, o asignación de destino, es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
+En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
 
-
-Obtenga más información sobre las asignaciones de destino en [esta sección](../audience/about-recipients.md#targeting-dimensions).
+Obtenga más información sobre las asignaciones de destino en [esta sección](../audience/targeting-dimensions.md).
 
 ## Envío {#delivery}
 

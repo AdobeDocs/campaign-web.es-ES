@@ -3,9 +3,9 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1909'
 ht-degree: 83%
 
 ---
@@ -16,17 +16,19 @@ ht-degree: 83%
 
 La edición de una expresión implica la introducción manual de condiciones para formar una regla. Este modo le permite utilizar funciones avanzadas. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos, clasificación, etc.
 
-Estas operaciones están disponibles en el botón Editar expresión del modelador de consultas, disponible para los campos Atributo y Valor al configurar una condición personalizada.
+Estas operaciones están disponibles desde el modelador de consultas **[!UICONTROL Editar expresión]** botón, disponible para el **[!UICONTROL Atributo]** y **[!UICONTROL Valor]** campos al configurar una condición personalizada.
 
 ![](assets/edit-expression.png)
 
 El editor de expresiones proporciona lo siguiente:
 
-* Campo de entrada en el que se define la expresión.
-* La lista de campos disponibles que pueden utilizarse en la expresión y que corresponden a la dimensión de segmentación de la consulta.
-* La lista de funciones disponibles, ordenadas por categoría.
+* Un **campo de entrada (1)** en el que se define la expresión.
+* La lista de disponibles **campos (2)** que se puede utilizar en la expresión y que corresponde a la dimensión de segmentación de la consulta.
+* **Funciones de ayuda (3)**, ordenados por categoría.
 
-Edite la expresión introduciendo una expresión directamente en el campo de entrada o utilizando las listas de campos y funciones disponibles. Para ello, coloque el cursor en la inexpresión donde desee añadir el elemento y haga doble clic en el campo o expresión deseados.
+![](assets/expression-editor.png)
+
+Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
 
 ## Funciones de ayuda
 
