@@ -5,10 +5,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 86%
+source-wordcount: '504'
+ht-degree: 85%
 
 ---
 
@@ -87,10 +87,10 @@ ht-degree: 86%
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de entregas de prueba](preview-test/test-deliveries.md)
       + [Procesar el correo electrónico](preview-test/email-rendering.md)
-+ Públicos y destinatarios {#audiences}
-   + [Introducción a destinatarios y audiencias](audience/gs-audiences-recipients.md)
-   + Trabajo con destinatarios {#work-with-recipients}
-      + [Administración de perfiles](audience/about-recipients.md)
++ Perfiles y audiencias {#audiences}
+   + [Introducción a perfiles y audiencias](audience/gs-audiences-recipients.md)
+   + Trabajo con perfiles {#work-with-profiles}
+      + [Monitorización y administración de perfiles](audience/about-recipients.md)
       + [Creación y administración de perfiles de prueba](audience/test-profiles.md)
    + Trabajo con audiencias {#audiences}
       + [Crear públicos](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 86%
       + [Crear un público único](audience/one-time-audience.md)
       + [Importación de un público desde un archivo](audience/file-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
-   + [Trabajar con el generador de reglas](audience/segment-builder.md)
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Administrar servicios](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)
