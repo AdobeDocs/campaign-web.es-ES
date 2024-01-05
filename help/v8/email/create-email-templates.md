@@ -7,10 +7,10 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-badge: label="LA"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilidad limitada"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '742'
 ht-degree: 7%
 
 ---

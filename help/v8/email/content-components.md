@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Beta"
-source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
+badge: label="Disponibilidad limitada"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1169'
 ht-degree: 67%
 
 ---

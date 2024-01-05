@@ -2,12 +2,12 @@
 audience: end-user
 title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 46%
+source-wordcount: '258'
+ht-degree: 45%
 
 ---
 
@@ -18,13 +18,10 @@ ht-degree: 46%
 >title="Contenido SMS"
 >abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico. Para empezar a maquetar el mensaje, haga clic en **Editar contenido** botón."
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="Contenido de mensaje SMS"
 >abstract="Defina el contenido del SMS. Para redactar el mensaje, haga clic en el **Mensaje** e introduzca el contenido del mensaje. Utilice el Editor de expresiones para añadir datos personalizados y contenido dinámico. También puede personalizar el nombre del remitente. De forma predeterminada, el seguimiento está habilitado para todas las entregas de SMS, de modo que puede medir cuándo los destinatarios hacen clic en los vínculos."
-
 
 Para diseñar el contenido de un envío SMS, siga estos pasos:
 
@@ -41,6 +38,8 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
    ![](assets/sms_content_2.png)
 
 1. De forma predeterminada, el seguimiento está habilitado para los envíos. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**.
+
+1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
 1. Acceda a la **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido personalizado. [Más información](send-sms.md#preview-sms)
 

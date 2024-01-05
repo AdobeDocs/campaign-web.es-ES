@@ -3,10 +3,10 @@ audience: end-user
 title: Adición de atributos de estilo alineados
 description: Aprenda a añadir atributos de estilo en línea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilidad limitada"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---

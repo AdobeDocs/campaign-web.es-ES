@@ -2,16 +2,16 @@
 audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1534'
 ht-degree: 34%
 
 ---
 
-# Diseño de un envío de mensaje push {#content-push}
+# Diseño de una entrega de mensajería push {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

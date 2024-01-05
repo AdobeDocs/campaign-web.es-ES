@@ -3,10 +3,10 @@ audience: end-user
 title: Exportación de informes
 description: Obtenga información sobre cómo exportar informes
 badge: label="Disponibilidad limitada"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 26%
+source-wordcount: '107'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Exportar"
+>title="Exportación de informes"
 >abstract="Haga clic en el botón **Exportar** para exportar estas métricas a los formatos PDF o CSV, lo que le permite compartirlas o imprimirlas."
 
 Puede exportar fácilmente los distintos informes al formato PDF o CSV, lo que le permite compartirlos, manipularlos o imprimirlos.

@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de la versión de texto de un correo electrónico
 description: Aprenda a crear la versión de texto de un correo electrónico
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilidad limitada"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 100%
 
 ---

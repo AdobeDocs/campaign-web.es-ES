@@ -1,12 +1,13 @@
 ---
 audience: end-user
-title: Envío de un envío de SMS
+title: Envío de un envío SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
-badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+badge: label="Disponibilidad limitada"
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 9%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -38,7 +39,7 @@ Los pasos principales para previsualizar su envío de SMS son los siguientes. En
 
    ![](assets/sms_send_3.png)
 
-Ahora puede revisar y enviar su mensaje SMS a su audiencia.
+Ahora puede revisar y enviar su mensaje SMS a su público.
 
 ## Prueba del envío de SMS {#test-sms}
 
@@ -72,7 +73,3 @@ El envío de SMS de prueba es un paso importante para garantizar la calidad y ef
 Una vez entregado el envío, puede realizar un seguimiento de los datos de KPI (Indicador de rendimiento clave) de su página de envío y de los datos de **[!UICONTROL Registros]** menú.
 
 Ahora puede empezar a medir el impacto del mensaje con informes integrados. [Más información](../reporting/sms-report.md)
-
-
-
-
