@@ -3,7 +3,7 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 83%
@@ -26,9 +26,9 @@ El editor de expresiones proporciona lo siguiente:
 * La lista de disponibles **campos (2)** que se puede utilizar en la expresión y que corresponde a la dimensión de segmentación de la consulta.
 * **Funciones de ayuda (3)**, ordenados por categoría.
 
-![](assets/expression-editor.png)
-
 Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
+
+![](assets/expression-editor.png)
 
 ## Funciones de ayuda
 

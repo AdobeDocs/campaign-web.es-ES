@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 15%
+source-wordcount: '428'
+ht-degree: 11%
 
 ---
 
@@ -37,8 +37,6 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 | **Filtrado de datos de informes**: Añada una regla para filtrar los datos mostrados en los informes. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Personalización de listas**: Cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, envíos, listas, etc. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ El modelador de consultas está disponible en todos los contextos en los que nec
  +++
 -->
 
-
 ## Interfaz del modelador de consultas {#interface}
 
-El modelador de consultas proporciona un lienzo central en el que puede agregar y combinar los diferentes componentes para crear la consulta.
-
-En el lado derecho, el panel de propiedades de la regla proporciona información sobre la consulta. Le permite realizar varias operaciones para comprobar la consulta y asegurarse de que se adapta a sus necesidades. Obtenga información sobre cómo comprobar y validar la consulta
+El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 
 ![](assets/query-interface.png)
+
+### El lienzo central {#canvas}
+
+El lienzo central del modelador de consultas es donde se agregan y combinan los diferentes componentes de la creación de la consulta.
+
+La barra de herramientas situada en la esquina superior derecha del lienzo proporciona opciones para manipular fácilmente los componentes de la consulta y desplazarse por el lienzo:
+
+* Modo de selección múltiple: seleccione varios componentes de filtrado para copiarlos y pegarlos en la ubicación que desee.
+* Rotar: cambia el lienzo verticalmente.
+* Ajustar a la pantalla: adapte el nivel de zoom del lienzo a la pantalla.
+* Alejar/Acercar: Aleja o en el lienzo.
+* Mostrar mapa: abre una instantánea del lienzo en el que se muestra su ubicación.
+
+### El panel Propiedades de la regla {#rule-properties}
+
+En el lado derecho, la **[!UICONTROL Propiedades de regla]** Este panel proporciona información sobre la consulta. Permite realizar varias operaciones para comprobar la consulta y asegurarse de que se adapta a sus necesidades. [Obtenga información sobre cómo comprobar y validar la consulta](build-query.md#check-and-validate-your-query)
