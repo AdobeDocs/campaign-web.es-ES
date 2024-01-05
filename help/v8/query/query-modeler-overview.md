@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 11%
 
 ---
@@ -54,15 +54,15 @@ El modelador de consultas proporciona un lienzo central en el que generar la con
 
 ### El lienzo central {#canvas}
 
-El lienzo central del modelador de consultas es donde se agregan y combinan los diferentes componentes de la creación de la consulta.
+El lienzo central del modelador de consultas es donde se agregan y combinan los diferentes componentes de la creación de la consulta. [Obtenga información sobre cómo crear una consulta](build-query.md)
 
 La barra de herramientas situada en la esquina superior derecha del lienzo proporciona opciones para manipular fácilmente los componentes de la consulta y desplazarse por el lienzo:
 
-* Modo de selección múltiple: seleccione varios componentes de filtrado para copiarlos y pegarlos en la ubicación que desee.
-* Rotar: cambia el lienzo verticalmente.
-* Ajustar a la pantalla: adapte el nivel de zoom del lienzo a la pantalla.
-* Alejar/Acercar: Aleja o en el lienzo.
-* Mostrar mapa: abre una instantánea del lienzo en el que se muestra su ubicación.
+* **Modo de selección múltiple**: seleccione varios componentes de filtrado para copiarlos y pegarlos en la ubicación que desee.
+* **Rotar**: cambie el lienzo verticalmente.
+* **Ajustar a pantalla**: adapte el nivel de zoom del lienzo a la pantalla.
+* **Alejar** / **Ampliar**: Aleje o en el lienzo.
+* **Mostrar mapa**: abre una instantánea del lienzo en el que se muestra que se encuentra.
 
 ### El panel Propiedades de la regla {#rule-properties}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 17%
+source-wordcount: '1887'
+ht-degree: 15%
 
 ---
 
@@ -49,13 +49,13 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 1. Haga clic en **+** en el nodo deseado y seleccione **[!UICONTROL Condición personalizada]**. El panel de propiedades de condición personalizada se abre en el lado derecho.
 
-1. En el **Atributo** , seleccione el atributo de la base de datos que desee aprovechar para crear la condición. La lista de atributos incluye todos los atributos de la base de datos de Campaign, incluidos los atributos vinculados a la tabla.
+1. En el **Atributo** , seleccione el atributo de la base de datos que desee aprovechar para crear la condición. La lista de atributos incluye todos los atributos de la base de datos de Campaign, incluidos los atributos de las tablas vinculadas.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >El botón Edit expression permite aprovechar el editor de expresiones web de Campaign para definir manualmente una expresión mediante campos de la base de datos y funciones de ayuda.
+   >El botón Edit expression permite aprovechar el editor de expresiones web de Campaign para definir manualmente una expresión mediante campos de la base de datos y funciones de ayuda. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
 1. Seleccione el operador que desee aplicar en la lista desplegable. Hay varios operadores disponibles. Tenga en cuenta que los operadores disponibles en la lista desplegable dependen del tipo de datos del atributo.
 
@@ -82,27 +82,35 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 +++
 
-1. En el **Valor** , defina el valor esperado. También puede aprovechar el editor de expresiones web de Campaign para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el **Editar expresión** botón.
+1. En el **Valor** , defina el valor esperado. También puede aprovechar el editor de expresiones web de Campaign para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el **Editar expresión** botón. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
    ![](assets/query-custom-condition.png)
 
-**Condiciones personalizadas en tablas distantes (vínculos 1-1 y 1-N)**
 
-Las condiciones personalizadas permiten consultar tablas distantes vinculadas a la tabla Destinatarios.
 
-Para un **Vínculo 1-1** con otro recurso de base de datos, seleccione el valor directamente en la tabla segmentada.
+#### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
+
+Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla que utiliza actualmente la regla. Esto incluye tablas con un vínculo de cardinalidad 1-1 o tablas de recopilación (vínculo 1-N).
+
+Para un **Vínculo 1-1**, seleccione el atributo directamente desde la tabla segmentada.
 
 +++Ejemplo de consulta
 
-En este caso, la consulta se dirige a destinatarios cuyo país o región se incluye en valores determinados (Reino Unido y Estados Unidos)
+En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en ejecución&quot;.
 
-![](assets/custom-condition-1-1.png)
+1. Navegue dentro de **Marca** y seleccione la **Etiqueta** atributo.
+
+   ![](assets/1-1-attribute.png)
+
+1. Defina el valor esperado para el atributo.
+
+   ![](assets/1-1-table.png)
 
 +++
 
-Para un **Vínculo 1-N** con otro recurso de base de datos, puede definir subcondiciones en los campos de este segundo recurso.
+Para un **Vínculo 1-N**, puede definir subcondiciones para restringir la consulta.
 
 Por ejemplo, puede seleccionar el operador Existe en las compras de perfil para dirigirse a todos los perfiles para los que existen compras. Una vez finalizado, añada una condición personalizada en la transición saliente y cree un filtro que se adapte a sus necesidades.
 
@@ -110,9 +118,35 @@ Por ejemplo, puede seleccionar el operador Existe en las compras de perfil para 
 
 En este caso, la consulta está dirigida a destinatarios que han realizado compras relacionadas con el producto BrewMaster, por un importe total de al menos 100 $.
 
-![](assets/custom-condition-1-N.png)
+1. Seleccione el **Compras** y confirme.
+
+   ![](assets/1-n-collection.png)
+
+1. Se añade una transición saliente, que le permite crear subcondiciones.
+
+   ![](assets/1-n-subcondition.png)
+
+1. Seleccione el **Precio** compras de atributo y destino de 1000 $ o más
+
+   ![](assets/1-n-price.png)
+
+1. Añada subcondiciones para adaptarlas a sus necesidades. Aquí hemos agregado una condición a los perfiles de destino que compraron un producto BrewMaster.
+
+   ![](assets/custom-condition-1-N.png)
 
 +++
+
+#### Trabajo con datos agregados {#aggregate}**
+
+Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para ello, debe seleccionar directamente un atributo de una tabla de recopilación:
+
+1. Desplácese dentro de la tabla de recopilación deseada y seleccione el atributo en el que desea realizar una operación de acumulado.
+
+   ![](assets/aggregate-attribute.png)
+
+1. En el panel de propiedades, active la opción **Datos agregados** y seleccione la función de acumulado que desee.
+
+   ![](assets/aggregate.png)
 
 ### Selección de un público
 
@@ -148,30 +182,7 @@ Para filtrar la consulta utilizando un filtro predefinido, siga estos pasos:
 
    ![](assets/query-predefined-filter.png)
 
-## Combinación de componentes de filtrado con operadores {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Grupo"
->abstract="Grupo"
-
-Cada vez que se añade un nuevo componente de filtrado a la consulta, se vincula automáticamente al otro componente mediante un operador AND. Esto significa que los resultados de ambos componentes de filtrado se combinan en los resultados de la consulta.
-
-En este ejemplo, se han añadido nuevos componentes de filtrado de tipo audiencia en la segunda transición. El componente está vinculado a la condición de tipo de filtro predefinido con un operador AND, lo que significa que los resultados de la consulta incluyen destinatarios dirigidos por el filtro predefinido &quot;Madridians&quot; Y que pertenecen a la audiencia &quot;Cazadores con descuento&quot;.
-
-![](assets/query-operator.png)
-
-Para cambiar el operador utilizado para vincular las condiciones de filtrado, haga clic en él y seleccione el operador deseado en el panel Grupo que se abre en el lado derecho.
-
-Los operadores disponibles son:
-
-* **Y (intersección)**: combina los resultados que coinciden con todos los componentes de filtrado en las transiciones salientes.
-* **O (Unión)**: incluye resultados que coinciden con al menos uno de los componentes de filtrado en las transiciones salientes.
-* **EXCEPT (Exclusión)**: excluye los resultados que coinciden con todos los componentes de filtrado de la transición saliente.
-
-![](assets/query-operator-change.png)
-
-### Copiar y pegar componentes de filtrado {#copy}
+### Copiar y pegar componentes {#copy}
 
 El modelador de consultas permite copiar uno o varios componentes de filtrado y pegarlos al final de una transición. Esta operación se puede ejecutar dentro del lienzo de consulta actual o en cualquier lienzo de la instancia.
 
@@ -193,6 +204,35 @@ Para copiar y pegar componentes de filtrado, siga estos pasos:
 
 ![](assets/copy-paste.png)
 
+## Combinación de componentes de filtrado con operadores {#operators}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Grupo"
+>abstract="Grupo"
+
+Cada vez que se añade un nuevo componente de filtrado a la consulta, se vincula automáticamente al otro componente mediante una variable **Y** operador. Esto significa que los resultados de los dos componentes de filtrado se combinan.
+
+En este ejemplo, se han añadido nuevos componentes de filtrado de tipo audiencia en la segunda transición. El componente está vinculado a la condición de tipo de filtro predefinido con un **Y** operador, lo que significa que los resultados de la consulta incluyen destinatarios dirigidos por el filtro predefinido &quot;Madridians&quot; Y que pertenecen a la audiencia &quot;Cazadores de descuento&quot;.
+
+![](assets/query-operator.png)
+
+Para cambiar el operador utilizado para vincular las condiciones de filtrado, haga clic en él y seleccione el operador deseado en la **Grupo** panel que se abre en el lado derecho.
+
+Los operadores disponibles son:
+
+* **Y (intersección)**: combina los resultados que coinciden con todos los componentes de filtrado en las transiciones salientes.
+* **O (Unión)**: incluye resultados que coinciden con al menos uno de los componentes de filtrado en las transiciones salientes.
+* **EXCEPT (Exclusión)**: excluye los resultados que coinciden con todos los componentes de filtrado de la transición saliente.
+
+![](assets/query-operator-change.png)
+
+Además, puede crear grupos intermedios de componentes haciendo clic en el **+** en una transición. Esto le permite agregar un operador en esta ubicación específica para agrupar varios componentes y refinar la consulta.
+
+VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir los resultados de las audiencias &quot;recompensar con un&quot; o &quot;&quot;.
+
+![](assets/query-intermediate-group.png)
+
 ## Comprobación y validación de la consulta
 
 >[!CONTEXTUALHELP]
@@ -210,3 +250,7 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Pro
   >[!IMPORTANT]
   >
   >Seleccione un filtro predefinido en el panel de propiedades de la regla para reemplazar la consulta que se ha creado en el lienzo por el filtro seleccionado.
+
+Cuando la consulta esté lista, haga clic en **[!UICONTROL Confirmar]** en la esquina superior derecha para guardarlo.
+
+Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de  **+** botones. Para añadir nuevos elementos a la consulta, seleccione un componente u operador en el lienzo para mostrar el **+** botones.
