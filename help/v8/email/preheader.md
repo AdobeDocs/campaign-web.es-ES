@@ -3,11 +3,11 @@ audience: end-user
 title: Añadir un encabezado previo en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Disponibilidad limitada beta"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+badge: label="Disponibilidad limitada"
+source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
