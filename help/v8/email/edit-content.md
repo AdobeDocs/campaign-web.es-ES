@@ -4,7 +4,7 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 52%
@@ -86,7 +86,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
 1. Si desea enviar ofertas con el correo electrónico, selecciónelas mediante el **[!UICONTROL Configuración de ofertas]** botón.
 
-   A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](offers.md)
+   A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](../msg/offers.md)
 
 1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico utilizando [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring). En estas secciones encontrará información adicional sobre cómo diseñar el contenido del correo electrónico:
 
