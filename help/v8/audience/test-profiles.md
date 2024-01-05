@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 4%
+source-wordcount: '516'
+ht-degree: 3%
 
 ---
 
@@ -35,15 +35,25 @@ Para acceder a la lista de perfiles de prueba, seleccione **[!UICONTROL Administ
 
 ![](assets/test-profile-list.png)
 
-Puede filtrar por un [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
+* Puede filtrar por un [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-Para editar un perfil de prueba, haga clic en el elemento deseado de la lista.
+* Puede duplicar cualquier perfil de prueba y editarlo según sea necesario.
 
-Para eliminar un perfil de prueba, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
+* Para eliminar un perfil de prueba, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* Para editar un perfil de prueba, haga clic en el elemento deseado de la lista.
+
+También puede acceder a los perfiles de prueba a través del **[!UICONTROL Explorer]** vista, desde el **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** nodo.
+
+Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así como comprobar los permisos asociados. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar, editar y [crear](#create-test-profile) perfiles de prueba.
 
 ## Creación de un perfil de prueba {#create-test-profile}
 
@@ -66,7 +76,7 @@ Para crear un perfil de prueba, siga los pasos a continuación.
    >
    >El **[!UICONTROL Etiqueta]** El campo se rellena automáticamente con el nombre y los apellidos definidos.
 
-1. De forma predeterminada, los perfiles de prueba se almacenan en **[!UICONTROL Direcciones semilla]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Más información](#seed-addresses-folders)
+1. De forma predeterminada, los perfiles de prueba se almacenan en **[!UICONTROL Direcciones semilla]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. Si selecciona la opción **[!UICONTROL Ya no se puede contactar (por ningún canal)]** , el perfil se encuentra en la lista de bloqueados de la. Este destinatario ya no está dirigido a ningún canal (correo electrónico, SMS, etc.).
+1. Si selecciona la opción **[!UICONTROL Ya no se puede contactar (por ningún canal)]** incluir en la lista de bloqueados casilla de verificación, el perfil de prueba está a la. Este destinatario ya no está dirigido a ningún canal (correo electrónico, SMS, etc.).
 
 1. En el **[!UICONTROL Datos adicionales]** , introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico. [Más información sobre los flujos de trabajo](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ El perfil de prueba que acaba de crear ya está listo para utilizarse para envia
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Administración de carpetas de direcciones semilla {#seed-addresses-folders}
-
-Las direcciones semilla se almacenan en un nodo específico de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]**.
-
-Para organizar los perfiles de prueba, puede crear subcarpetas desde la lista desplegable Más acciones. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-También puede crear un perfil de prueba a partir de cualquier **[!UICONTROL Direcciones semilla]** carpeta o subcarpeta. Complete todos los detalles de la misma manera que lo haría desde el **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** menú. [Más información](#create-test-profile)
-
-Para editar un perfil de prueba, haga clic en su etiqueta desde el **[!UICONTROL Perfiles de prueba]** o desde la carpeta en la que está almacenada.
 
 
