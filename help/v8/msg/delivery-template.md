@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 17%
@@ -28,14 +28,14 @@ Una plantilla puede incluir:
 * [Tipologías](../advanced-settings/delivery-settings.md#typology),
 * La dirección del remitente,
 * Un [audiencia](../audience/about-recipients.md), incluido [grupos de control](../audience/control-group.md),
-* Personalizado [content](../content/edit-content.md),
+* Personalizado [content](../email/edit-content.md),
 * [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md),
-* Vínculos a [página espejo](../content/mirror-page.md) y baja [vínculos](../content/message-tracking.md),
+* Vínculos a [página espejo](../email/mirror-page.md) y baja [vínculos](../email/message-tracking.md),
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 >[!NOTE]
 >
->Las plantillas de envío son diferentes de [plantillas de contenido](../content/create-email-templates.md), que le permiten reutilizar únicamente el contenido de sus correos electrónicos y empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo proporcionadas de forma predeterminada.
+>Las plantillas de envío son diferentes de [plantillas de contenido](../email/create-email-templates.md), que le permiten reutilizar únicamente el contenido de sus correos electrónicos y empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo proporcionadas de forma predeterminada.
 
 
 ## Acceso y administración de plantillas de envíos {#access-manage-templates}

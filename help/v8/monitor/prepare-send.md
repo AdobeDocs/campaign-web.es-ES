@@ -4,10 +4,10 @@ title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 48%
+source-wordcount: '891'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 48%
 
 ## Preparación del envío {#prepare}
 
-Cuando haya definido su [content](../content/edit-content.md), [audiencia](../audience/add-audience.md), y [programación](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), está listo para preparar su envío de correo electrónico.
+Cuando haya definido su [content](../email/edit-content.md), [audiencia](../audience/add-audience.md), y [programación](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), está listo para preparar su envío de correo electrónico.
 
 Durante la preparación, la población objetivo se calcula y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas.
 
@@ -39,20 +39,20 @@ A continuación se enumeran los pasos principales para preparar el envío.
 
 1. Se muestra el progreso de la preparación. En función del tamaño de la población de destinatarios, esta operación puede tardar algún tiempo.
 
-   Puede detener la preparación en cualquier momento con el botón **[!UICONTROL Detener preparación.]**
+   Puede detener la preparación en cualquier momento utilizando **[!UICONTROL Detener preparación]** botón.
 
    ![](assets/email-stop-preparation.png)
 
    >[!NOTE]
    >Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede iniciarla o detenerla sin riesgo alguno.
 
-1. Cuando finalice la preparación, compruebe los indicadores claves de rendimiento (KPI). Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique la audiencia y reinicie la preparación.
+1. Cuando finalice la preparación, compruebe los indicadores claves de rendimiento (KPI). Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique el público y reinicie la preparación.
 
    ![](assets/email-preparation-complete.png)
 
    Estos son los diferentes KPI mostrados:
 
-   * **[!UICONTROL Objetivo]**: el número de destinatarios segmentados..
+   * **[!UICONTROL Objetivos]**: el número de destinatarios objetivo.
    * **[!UICONTROL Para enviar]**: el número de mensajes que se enviarán.
    * **[!UICONTROL Para excluir]**: el número de mensajes excluidos por un [reglas de tipología](../advanced-settings/delivery-settings.md#typology).
 
@@ -66,7 +66,7 @@ A continuación se enumeran los pasos principales para preparar el envío.
 
 1. Si realiza cambios en la entrega después de la preparación, debe reiniciar la preparación para que los cambios se tengan en cuenta.
 
-Una vez finalizada la preparación sin errores, el mensaje está listo para enviarse.
+Una vez completada la preparación sin errores, el mensaje está listo para enviarse.
 
 ## Envío del mensaje {#send}
 
@@ -87,7 +87,7 @@ Para enviar un correo electrónico inmediatamente, siga los pasos a continuació
 
 1. Se muestra el progreso del envío.
 
-### Programe el envío {#schedule-the-send}
+### Programar el envío {#schedule-the-send}
 
 Si ha programado el correo electrónico para enviarlo en una fecha y hora posteriores, siga los pasos a continuación.
 

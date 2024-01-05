@@ -4,7 +4,7 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 65%
@@ -69,7 +69,7 @@ Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos corr
 Utilice la nueva IU de la web de Campaign para lo siguiente:
 
 * Cree, diseñe, personalice, programe y envíe notificaciones push, por correo electrónico y SMS: [Más información](../msg/gs-messages.md)
-* Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../content/edit-content.md)
+* Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../email/edit-content.md)
 * Enviar campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
 * Definir públicos de destinatarios con el generador de reglas: [más información](../audience/about-recipients.md)
 * Previsualizar, probar y enviar mensajes: [Más información](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ A continuación, se enumeran las funciones clave incluidas en la versión de dis
 
   Despídase de la creación manual de contenido y dé la bienvenida a las campañas eficientes y basadas en datos con el poder de Gen IA.  Nuestra tecnología Gen IA utiliza algoritmos avanzados para **generar contenido altamente atractivo y personalizado**. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico.
 
-  Obtenga más información en [esta sección](../content/generative-gs.md).
+  Obtenga más información en [esta sección](../email/generative-gs.md).
 
 
 * **Ayuda contextual con tecnología de IA**
@@ -132,14 +132,14 @@ A continuación, se enumeran las funciones clave incluidas en la versión de dis
 
   Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de correo electrónico de Campaign. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.
 
-  Obtenga más información en [esta sección](../content/existing-content.md).
+  Obtenga más información en [esta sección](../email/existing-content.md).
 
 
 * **SMS con ofertas**
 
   La nueva IU web ahora le permite **integrar ofertas con SMS** además del correo electrónico. Llegue a su público desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
 
-  Obtenga más información en [esta sección](../content/offers.md).
+  Obtenga más información en [esta sección](../msg/offers.md).
 
 ## Transición a la IU de Campaign Web
 

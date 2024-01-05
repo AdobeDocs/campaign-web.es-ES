@@ -4,7 +4,7 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidad limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Utilice el [!DNL Campaign] capacidad de simulación de contenido para previsuali
 
 Para obtener una vista previa del contenido del envío, siga los pasos a continuación.
 
-1. Vaya a la pantalla de edición de contenido de su envío o a la [Diseñador de correo electrónico](../content/get-started-email-designer.md).
+1. Vaya a la pantalla de edición de contenido de su envío o a la [Diseñador de correo electrónico](../email/get-started-email-designer.md).
 
 1. Haga clic en **[!UICONTROL Simular contenido]** botón.
 

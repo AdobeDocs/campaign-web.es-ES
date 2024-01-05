@@ -4,7 +4,7 @@ title: Prueba del procesamiento de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la IU de la web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilidad limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 8%
@@ -29,7 +29,7 @@ Para acceder a las funciones de procesamiento de correo electrónico, debe:
 
 A continuación, siga los pasos a continuación.
 
-1. En el [Editar contenido](../content/edit-content.md) pantalla o en el [Diseñador de correo electrónico](../content/get-started-email-designer.md), haga clic en **[!UICONTROL Simular contenido]** botón.
+1. En el [Editar contenido](../email/edit-content.md) pantalla o en el [Diseñador de correo electrónico](../email/get-started-email-designer.md), haga clic en **[!UICONTROL Simular contenido]** botón.
 
 1. Seleccione el **[!UICONTROL Procesar correo electrónico]** botón.
 

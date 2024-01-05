@@ -3,19 +3,19 @@ audience: end-user
 title: Administración de los suscriptores de un servicio
 description: Obtenga información sobre cómo administrar y entregar a los suscriptores de un servicio en Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Administración de los suscriptores de un servicio {#manage-subscribers}
 
 Una vez que [creó un servicio](manage-services.md#create-service), puede añadir suscriptores, cancelar la suscripción de destinatarios y enviar mensajes a los suscriptores de ese servicio.
 
-La administración de los suscriptores se detalla en esta página. Para aprender a enviar mensajes a los suscriptores, consulte [esta sección](../content/send-to-subscribers.md).
+La administración de los suscriptores se detalla en esta página. Para aprender a enviar mensajes a los suscriptores, consulte [esta sección](../msg/send-to-subscribers.md).
 
 ## Añadir suscriptores a su servicio {#add-subscribers}
 
@@ -41,7 +41,7 @@ Los perfiles añadidos se muestran en la variable **[!UICONTROL Suscriptores]** 
 
 ### Cancelar la suscripción manual de destinatarios {#manual-unsubscription}
 
-Una vez que [suscriptores añadidos](#add-subscribers) Al servicio, puede cancelar manualmente la suscripción de cada uno de ellos. Siga estos pasos.
+Una vez que [suscriptores añadidos](#add-subscribers) Al servicio, puede cancelar manualmente la suscripción de cada uno de ellos. Siga los pasos a continuación.
 
 1. Seleccione un servicio existente del **[!UICONTROL Servicios de suscripción]** lista.
 
