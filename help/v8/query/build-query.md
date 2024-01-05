@@ -3,7 +3,7 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 15%
@@ -88,8 +88,6 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
    ![](assets/query-custom-condition.png)
 
-
-
 #### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
 Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla que utiliza actualmente la regla. Esto incluye tablas con un vínculo de cardinalidad 1-1 o tablas de recopilación (vínculo 1-N).
@@ -136,7 +134,7 @@ En este caso, la consulta está dirigida a destinatarios que han realizado compr
 
 +++
 
-#### Trabajo con datos agregados {#aggregate}**
+#### Trabajo con datos agregados {#aggregate}
 
 Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para ello, debe seleccionar directamente un atributo de una tabla de recopilación:
 
