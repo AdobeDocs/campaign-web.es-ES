@@ -4,10 +4,10 @@ title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 badge: label="Disponibilidad limitada"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 11%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -64,16 +64,3 @@ Para acceder y administrar los informes de campaña, siga estos pasos:
 1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
 
    El **[!UICONTROL Ver por]** Las opciones de permiten filtrar por direcciones URL, etiquetas o categorías.
-
-## Exportación de informes {#export-reports}
-
-Puede exportar fácilmente los distintos informes al formato PDF o CSV, lo que le permite compartirlos, manipularlos o imprimirlos.
-
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Exportar como archivo de PDF]** o **[!UICONTROL Exportar como archivo CSV]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. Busque la carpeta en la que desea guardar el archivo, cambie el nombre si es necesario y haga clic en **[!UICONTROL Guardar]**.
-
-El informe ya está disponible para verlo o compartirlo en un PDF o archivo CSV.
-

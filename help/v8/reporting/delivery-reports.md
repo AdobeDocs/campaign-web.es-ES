@@ -4,10 +4,10 @@ title: Informes de envío
 description: Obtenga información sobre cómo acceder a los informes de envío y cómo utilizarlos
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Disponibilidad limitada"
-source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 33%
+source-wordcount: '260'
+ht-degree: 36%
 
 ---
 
@@ -17,11 +17,6 @@ ht-degree: 33%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Informes agregados para envíos"
 >abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregados."
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exportar"
->abstract="Haga clic en el botón **Exportar** para exportar estas métricas a los formatos PDF o CSV, lo que le permite compartirlas o imprimirlas."
 
 El **Informes de envío** proporciona información y datos detallados centrados exclusivamente en su **envíos** en cada canal. Estos informes proporcionan información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
 
@@ -62,16 +57,3 @@ Para mostrar y administrar informes, siga estos pasos:
    El **[!UICONTROL Ver por]** Las opciones de permiten filtrar por direcciones URL, etiquetas o categorías.
 
    ![](assets/manage_delivery_report_5.png)
-
-## Exportación de informes {#export-reports}
-
-Puede exportar fácilmente los distintos informes al formato PDF o CSV, lo que le permite compartirlos, manipularlos o imprimirlos.
-
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Exportar como archivo de PDF]** o **[!UICONTROL Exportar como archivo CSV]**.
-
-   ![](assets/export_delivery_report.png)
-
-1. Busque la carpeta en la que desea guardar el archivo, cambie el nombre si es necesario y haga clic en **[!UICONTROL Guardar]**.
-
-El informe ya está disponible para verlo o compartirlo en un PDF o archivo CSV.
-

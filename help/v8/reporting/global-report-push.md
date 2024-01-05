@@ -3,7 +3,7 @@ audience: end-user
 title: Informes globales del canal push
 description: Comprensión de los informes globales del canal push
 badge: label="Disponibilidad limitada"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Los tipos de error de notificaciones push se enumeran en [Documentación de Adob
 
 ## Rendimiento del envío {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 Este informe proporciona detalles completos sobre el rendimiento del envío en un periodo de tiempo especificado.
 

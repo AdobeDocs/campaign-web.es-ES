@@ -4,7 +4,7 @@ title: Informes de campaña para el canal de correo electrónico
 description: Más información sobre los informes de campaña para el canal de correo electrónico
 badge: label="Disponibilidad limitada"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 25%
@@ -290,7 +290,7 @@ El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 
 El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Las métricas de este informe se detallan a continuación.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
