@@ -3,7 +3,7 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 15%
@@ -118,7 +118,7 @@ En este caso, la consulta está dirigida a destinatarios que han realizado compr
 
 1. Seleccione el **Compras** y confirme.
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. Se añade una transición saliente, que le permite crear subcondiciones.
 
