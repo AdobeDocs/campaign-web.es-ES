@@ -2,14 +2,14 @@
 title: Monitorización y administración de perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 badge: label="Disponibilidad limitada"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 6%
 
 ---
 
-# Monitorización y administración de perfiles {#profiles}
+# Monitorización y edición de perfiles {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Para acceder a los detalles de un perfil y editarlos, siga los pasos a continuac
 
 1. Navegar a **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]**.
 
-1. Haga clic en el elemento que desee en **[!UICONTROL Perfiles]** lista.
-
-1. Puede acceder a la información detallada del perfil.
+1. Haga clic en el elemento que desee en **[!UICONTROL Perfiles]** lista. Se muestra información detallada sobre el perfil.
 
    ![](assets/profile-details.png)
 
