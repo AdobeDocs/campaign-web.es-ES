@@ -3,9 +3,9 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1860'
 ht-degree: 15%
 
 ---
@@ -28,7 +28,7 @@ Se pueden añadir dos tipos de elementos:
 
   *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**que viven en Nueva York **O**San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){width="70%" align="center"}
 
 ## Adición de componentes de filtrado {#filtering}
 
@@ -51,7 +51,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 1. En el **Atributo** , seleccione el atributo de la base de datos que desee aprovechar para crear la condición. La lista de atributos incluye todos los atributos de la base de datos de Campaign, incluidos los atributos de las tablas vinculadas.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){width="70%" align="center"}
 
 #### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
 Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla que utiliza actualmente la regla. Esto incluye tablas con un vínculo de cardinalidad 1-1 o tablas de recopilación (vínculo 1-N).
 
-Para un **Vínculo 1-1**, seleccione el atributo directamente desde la tabla segmentada.
+Para un **Vínculo 1-1**, vaya a la tabla vinculada, seleccione el atributo deseado y defina el valor esperado.
 
 +++Ejemplo de consulta
 
@@ -100,17 +100,15 @@ En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en e
 
 1. Navegue dentro de **Marca** y seleccione la **Etiqueta** atributo.
 
-   ![](assets/1-1-attribute.png)
+   ![](assets/1-1-attribute.png){width="70%" align="center"}
 
 1. Defina el valor esperado para el atributo.
 
-   ![](assets/1-1-table.png)
+   ![](assets/1-1-table.png){width="70%" align="center"}
 
 +++
 
-Para un **Vínculo 1-N**, puede definir subcondiciones para restringir la consulta.
-
-Por ejemplo, puede seleccionar el operador Existe en las compras de perfil para dirigirse a todos los perfiles para los que existen compras. Una vez finalizado, añada una condición personalizada en la transición saliente y cree un filtro que se adapte a sus necesidades.
+Para un **Vínculo 1-N**, puede definir subcondiciones para restringir la consulta, como se muestra en el ejemplo siguiente.
 
 +++Ejemplo de consulta
 
@@ -118,19 +116,19 @@ En este caso, la consulta está dirigida a destinatarios que han realizado compr
 
 1. Seleccione el **Compras** y confirme.
 
-   ![](assets/1-N-collection.png)
+   ![](assets/1-N-collection.png){width="70%" align="center"}
 
 1. Se añade una transición saliente, que le permite crear subcondiciones.
 
-   ![](assets/1-n-subcondition.png)
+   ![](assets/1-n-subcondition.png){width="70%" align="center"}
 
 1. Seleccione el **Precio** compras de atributo y destino de 1000 $ o más
 
-   ![](assets/1-n-price.png)
+   ![](assets/1-n-price.png){width="70%" align="center"}
 
 1. Añada subcondiciones para adaptarlas a sus necesidades. Aquí hemos agregado una condición a los perfiles de destino que compraron un producto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png)
+   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
 
 +++
 
@@ -140,11 +138,11 @@ Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para
 
 1. Desplácese dentro de la tabla de recopilación deseada y seleccione el atributo en el que desea realizar una operación de acumulado.
 
-   ![](assets/aggregate-attribute.png)
+   ![](assets/aggregate-attribute.png){width="70%" align="center"}
 
 1. En el panel de propiedades, active la opción **Datos agregados** y seleccione la función de acumulado que desee.
 
-   ![](assets/aggregate.png)
+   ![](assets/aggregate.png){width="70%" align="center"}
 
 ### Selección de un público
 
@@ -178,7 +176,7 @@ Para filtrar la consulta utilizando un filtro predefinido, siga estos pasos:
 
    *Ejemplo de consulta que devuelve todos los perfiles correspondientes al filtro predefinido &quot;Clientes inactivos&quot;:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){width="70%" align="center"}
 
 ### Copiar y pegar componentes {#copy}
 
@@ -200,7 +198,7 @@ Para copiar y pegar componentes de filtrado, siga estos pasos:
 
 1. Para pegar los componentes, haga clic en el botón + al final de la transición deseada y seleccione **Pegar elementos n**.
 
-![](assets/copy-paste.png)
+![](assets/copy-paste.png){width="70%" align="center"}
 
 ## Combinación de componentes de filtrado con operadores {#operators}
 
@@ -213,7 +211,7 @@ Cada vez que se añade un nuevo componente de filtrado a la consulta, se vincula
 
 En este ejemplo, se han añadido nuevos componentes de filtrado de tipo audiencia en la segunda transición. El componente está vinculado a la condición de tipo de filtro predefinido con un **Y** operador, lo que significa que los resultados de la consulta incluyen destinatarios dirigidos por el filtro predefinido &quot;Madridians&quot; Y que pertenecen a la audiencia &quot;Cazadores de descuento&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){width="70%" align="center"}
 
 Para cambiar el operador utilizado para vincular las condiciones de filtrado, haga clic en él y seleccione el operador deseado en la **Grupo** panel que se abre en el lado derecho.
 
@@ -223,13 +221,13 @@ Los operadores disponibles son:
 * **O (Unión)**: incluye resultados que coinciden con al menos uno de los componentes de filtrado en las transiciones salientes.
 * **EXCEPT (Exclusión)**: excluye los resultados que coinciden con todos los componentes de filtrado de la transición saliente.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){width="70%" align="center"}
 
 Además, puede crear grupos intermedios de componentes haciendo clic en el **+** en una transición. Esto le permite agregar un operador en esta ubicación específica para agrupar varios componentes y refinar la consulta.
 
 VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir los resultados de las audiencias &quot;recompensar con un&quot; o &quot;&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){width="70%" align="center"}
 
 ## Comprobación y validación de la consulta
 
