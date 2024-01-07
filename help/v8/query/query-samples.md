@@ -2,8 +2,10 @@
 audience: end-user
 title: Ejemplos de consultas
 description: Aprenda a trabajar con el generador de reglas.
+hide: true
+hidefromtoc: true
 badge: label="Disponibilidad limitada"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 43%
