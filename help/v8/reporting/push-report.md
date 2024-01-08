@@ -4,7 +4,7 @@ title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Disponibilidad limitada"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 38%
@@ -66,7 +66,6 @@ El **Población de destino** los gráficos y las tablas muestran datos relativos
 
 ### Estadísticas generales {#push-delivery-overall}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="Estadísticas generales de mensajería push"
@@ -87,7 +86,6 @@ El **Estadísticas generales** presenta datos para las notificaciones push envia
 +++
 
 ### Exclusiones {#push-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"

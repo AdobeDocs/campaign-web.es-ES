@@ -3,9 +3,9 @@ audience: end-user
 title: Informes globales del canal push
 description: Comprensión de los informes globales del canal push
 badge: label="Disponibilidad limitada"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '548'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,12 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 
 ## Resumen de envíos {#delivery-summary-push}
 
-### Resumen de envíos {#delivery-overview-push}
+### Información general sobre el envío {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="Resumen de envío push"
+>abstract="La push **resumen del envío** Los KPI proporcionan un examen exhaustivo de las entregas push, ofreciendo perspectivas detalladas y datos específicos. Proporciona detalles completos sobre el rendimiento, la eficacia y los resultados de los envíos."
 
 El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con cada envío de notificación push. Las métricas se detallan a continuación.
 
@@ -38,6 +43,11 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 
 ### Público objetivo {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="Población de destino de los mensajes push"
+>abstract="El **Población de destino** gráficos y tablas que muestran datos relacionados con su audiencia de mensajería push, presentando información sobre los mensajes que se van a enviar y las exclusiones."
+
 El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos relacionados con los destinatarios para cada envío de notificación push enviado. Las métricas se detallan a continuación.
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -53,6 +63,11 @@ El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos re
 +++
 
 ### Estadísticas de envío {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="Estadísticas de envíos push"
+>abstract="El **Estadísticas generales** Este informe proporciona información sobre las notificaciones push enviadas, incluidas las tasas de éxito, los errores y las cuarentenas."
 
 El **[!UICONTROL Estadísticas de envío]** Esta tabla detalla el éxito de cada envío de notificaciones push. Las métricas se detallan a continuación.
 
@@ -74,13 +89,23 @@ El **[!UICONTROL Estadísticas de envío]** Esta tabla detalla el éxito de cada
 
 ### Causas de exclusión {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="Push Causas de exclusión"
+>abstract="El **Causas de exclusión** el gráfico y la tabla ilustran los diversos motivos que impidieron que los perfiles de usuario recibieran las notificaciones push."
+
 El **[!UICONTROL Causas de exclusión]** el gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
 
 Los tipos de error de notificaciones push se enumeran en [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Rendimiento del envío {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="Informe de rendimiento del envío"
+>abstract="El **Rendimiento del envío** Este informe presenta información detallada sobre el rendimiento de entrega de las notificaciones push de toda la plataforma en un periodo de tiempo especificado."
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-Este informe proporciona detalles completos sobre el rendimiento del envío en un periodo de tiempo especificado.
+El **[!UICONTROL Rendimiento de entrega]** Este informe ofrece información completa sobre la eficacia del sistema de entrega de notificaciones push, y ofrece un resumen detallado de las tasas de éxito y error durante un periodo especificado.
 
