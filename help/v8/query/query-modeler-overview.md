@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 11%
@@ -50,7 +50,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 
 El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 
-![](assets/query-interface.png){width="70%" align="center"}
+![](assets/query-interface.png)
 
 ### El lienzo central {#canvas}
 
