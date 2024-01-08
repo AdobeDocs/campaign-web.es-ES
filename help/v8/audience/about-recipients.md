@@ -2,10 +2,10 @@
 title: Monitorización y administración de perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 badge: label="Disponibilidad limitada"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 6%
+source-wordcount: '899'
+ht-degree: 5%
 
 ---
 
@@ -24,19 +24,19 @@ ht-degree: 6%
 
 ## Introducción a los perfiles {#gs}
 
-Un perfil en Adobe Campaign Web es una persona almacenada en la base de datos, que sirve como componente clave para crear audiencias para envíos y agregar datos de personalización al contenido.
+Un perfil en Adobe Campaign Web es una persona almacenada en la base de datos y que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido.
 
-En la base de datos se almacenan otros tipos de perfiles, como **[!UICONTROL Perfiles de prueba]**, diseñadas para probar los envíos antes de enviarlos a la audiencia final. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
+En la base de datos se almacenan otros tipos de perfiles, como **[!UICONTROL Perfiles de prueba]**, diseñadas para probar los envíos antes de enviarlos a la audiencia final. [Más información](test-profiles.md)
 
 Los perfiles solo se pueden crear desde la consola del cliente de Adobe Campaign: [descubra cómo](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. Sin embargo, son accesibles y editables en Adobe Campaign Web desde el **[!UICONTROL Administración de clientes]** > **Perfiles** en el carril de navegación izquierdo.
 
 >[!NOTE]
 >
->Según los permisos, es posible que no tenga acceso a la lista completa de perfiles almacenados en la base de datos. Puede obtener más información sobre permisos en [esta sección](../get-started/permissions.md).
+>Según los permisos, es posible que no tenga acceso a la lista completa de perfiles almacenados en la base de datos. [Más información sobre los permisos](../get-started/permissions.md).
 
 * Puede filtrar la variable **[!UICONTROL Perfiles]** mediante el campo de búsqueda o filtros disponibles en la lista **Mostrar filtros** botón. Puede restringir los resultados a un específico [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando la variable [modelador de consultas](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * Para eliminar un perfil, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
 
@@ -94,13 +94,15 @@ Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar y [edi
 
 Para acceder a los detalles de un perfil y editarlos, siga los pasos a continuación.
 
-1. Navegar a **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]**.
+1. Navegar a **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** y haga clic en el elemento que desee en **[!UICONTROL Perfiles]** lista.
 
-1. Haga clic en el elemento que desee en **[!UICONTROL Perfiles]** lista. Se muestra información detallada sobre el perfil.
+   ![](assets/profiles-list-select.png)
+
+1. Se muestra información detallada sobre el perfil.
+
+   El **[!UICONTROL Detalles]** permite examinar los atributos integrados y personalizados del perfil. Para editar un atributo, realice cambios en el campo deseado y haga clic en **[!UICONTROL Guardar]** botón.
 
    ![](assets/profile-details.png)
-
-1. El **[!UICONTROL Detalles]** permite examinar los atributos integrados y personalizados del perfil. Para editar un atributo, realice cambios en el campo deseado y haga clic en **[!UICONTROL Guardar]** botón.
 
    1. De forma predeterminada, los perfiles se almacenan en **[!UICONTROL Destinatarios]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
@@ -110,7 +112,7 @@ Para acceder a los detalles de un perfil y editarlos, siga los pasos a continuac
 
       ![](assets/profile-address.png)
 
-   1. Compruebe la **[!UICONTROL Ya no se puede contactar]** y actualícelas si es necesario. Cuando se selecciona cualquiera de estas opciones, el perfil se encuentra en la lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no está dirigido a los canales seleccionados. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+   1. Compruebe la **[!UICONTROL Ya no se puede contactar]** y actualícelas si es necesario. Cuando se selecciona cualquiera de estas opciones, el perfil se encuentra en la lista de bloqueados de la. Por ejemplo, si el destinatario hace clic en un vínculo para darse de baja de un boletín, esta información se agrega a los datos de contacto. Este destinatario ya no está dirigido a los canales seleccionados. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
       ![](assets/profile-no-longer-contact.png)
 
@@ -118,8 +120,12 @@ Para acceder a los detalles de un perfil y editarlos, siga los pasos a continuac
 
       ![](assets/profile-custom-fields.png)
 
-1. Haga clic en **[!UICONTROL Suscripciones]** para acceder a la información sobre los servicios a los que está suscrito el perfil. [Descubra cómo trabajar con servicios de suscripción](manage-services.md)
+1. Haga clic en **[!UICONTROL Suscripciones]** para acceder a la información sobre los servicios a los que está suscrito el perfil. [Más información sobre los servicios de suscripción](manage-services.md)
 
-1. Haga clic en **[!UICONTROL Registros]** situado en la esquina superior derecha de la pantalla para ver el historial de las interacciones del perfil a través del envío, la exclusión y los registros de seguimiento, así como las ofertas presentadas al perfil. [Más información sobre los registros de envío](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. Haga clic en **[!UICONTROL Registros]** situado en la esquina superior derecha de la pantalla para ver el historial de las interacciones del perfil mediante el envío, la exclusión y los registros de seguimiento. [Más información sobre los registros de envío](../monitor/delivery-logs.md)
+
+   También puede revisar las ofertas presentadas al perfil en la **[!UICONTROL Propuestas]** pestaña. [Más información sobre las ofertas](../msg/offers.md)
 
    ![](assets/profile-logs.png)

@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '554'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Los pasos para enviar mensajes de prueba a las direcciones semilla se detallan e
 
 >[!NOTE]
 >
->Los perfiles de prueba se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clics]**, **[!UICONTROL Aperturas]**, **[!UICONTROL Baja de suscripciones]**.
+>Los perfiles de prueba se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clics]**, **[!UICONTROL Aperturas]**, **[!UICONTROL Baja de suscripciones]**. [Más información sobre los informes]
 
 ## Acceso y administración de perfiles de prueba {#access-test-profiles}
 
@@ -39,13 +39,13 @@ Para acceder a la lista de perfiles de prueba, seleccione **[!UICONTROL Administ
 
   ![](assets/test-profile-list-filters.png)
 
-* Puede duplicar cualquier perfil de prueba y editarlo según sea necesario.
+* Puede duplicar cualquier perfil de prueba y actualizarlo según sea necesario. Los pasos para editar un perfil de prueba son los mismos que cuando [creación de un perfil de prueba](#create-test-profile).
 
 * Para eliminar un perfil de prueba, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
 
   ![](assets/test-profile-list-delete.png)
 
-* Para editar un perfil de prueba, haga clic en el elemento deseado de la lista.
+* Para editar un perfil de prueba, haga clic en el elemento deseado de la lista. Los pasos para editar un perfil de prueba son los mismos que cuando [creación de un perfil de prueba](#create-test-profile).
 
 También puede acceder a los perfiles de prueba a través del **[!UICONTROL Explorer]** vista, desde el **[!UICONTROL Recursos]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Direcciones semilla]** nodo.
 
@@ -68,7 +68,9 @@ Para crear un perfil de prueba, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Crear perfil de prueba]** botón.
 
-1. Complete los detalles del perfil de prueba. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. Complete los detalles del perfil de prueba según sea necesario. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 
