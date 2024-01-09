@@ -1,15 +1,16 @@
 ---
 product: campaign
-title: Trabajo con envíos
+title: Trabajar con archivos adjuntos
 description: Obtenga información sobre cómo crear su primera entrega en Campaign Web
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Disponibilidad limitada"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 98%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -36,14 +37,17 @@ Para crear un envío independiente, siga estos pasos:
 
    ![](assets/create-a-delivery.png)
 
-1. Elija un canal para el envío. Obtenga más información acerca de los canales de envío y cómo definir un contenido de envío en estas secciones:
+1. Elija un canal para la entrega.
+1. Defina el público del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre los públicos en [esta sección](../audience/about-recipients.md).
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. Definición del contenido del mensaje. Obtenga más información acerca de los canales de envío y cómo definir un contenido de envío en estas secciones:
 
    * [Canal de correo electrónico](../email/create-email.md)
    * [Canal de notificaciones push](../push/gs-push.md)
    * [Canal de SMS](../sms/create-sms.md)
 
-1. Defina el público del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre los públicos en [esta sección](../audience/about-recipients.md).
-1. Definición del contenido del mensaje.
 1. (opcional) Defina la [programación](#gs-schedule) de envíos. Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
 1. Haga clic en el botón **[!UICONTROL Revisar y enviar]** para comprobar su configuración.
 1. Utilice el botón **[!UICONTROL Simular contenido]** para probar el envío y la configuración de personalización. Puede obtener más información sobre la simulación de mensajes en [esta sección](../preview-test/preview-test.md).
@@ -56,13 +60,11 @@ Para crear un envío independiente, siga estos pasos:
 Para crear un envío en un flujo de trabajo, siga estos pasos:
 
 1. Cree un flujo de trabajo o abra uno existente. Obtenga más información acerca de los flujos de trabajo en [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps).
-1. Adición y configuración de una actividad **[!UICONTROL Crear público]** y haga clic en el botón `+`.
+1. Adición y configuración de un **[!UICONTROL Crear audiencia]** actividad. Obtenga más información acerca de **[!UICONTROL Crear audiencia]** actividad en [esta sección](../workflows/activities/build-audience.md).
+1. Haga clic en `+` y seleccione una actividad de entrega: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta [sección](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
-   La actividad **[!UICONTROL Crear público]** se detalla en [esta sección](../workflows/activities/build-audience.md).
-
-1. Seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta [sección](../workflows/activities/channels.md).
 1. Inicie el flujo de trabajo y compruebe los registros.
 
 También puede añadir envíos en una campaña sin crear un flujo de trabajo. Para conseguirlo, vaya a la pestaña **[!UICONTROL Envíos]** de la campaña y haga clic en el botón **[!UICONTROL Creación de envíos]**.
