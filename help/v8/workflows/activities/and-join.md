@@ -2,12 +2,12 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinación-Y
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinación-Y
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **Combinación-Y** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades hayan finalizado antes de continuar con la ejecución del flujo de trabajo."
+>abstract="La actividad **AND-join** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades hayan finalizado antes de continuar con la ejecución del flujo de trabajo."
 
 La actividad **Combinación-Y** es una actividad de **Control de flujo**. Le permite sincronizar varias ramas de ejecución de un flujo de trabajo.
 
@@ -43,4 +43,4 @@ Siga estos pasos para configurar la actividad **Combinación-Y**:
 
 El siguiente ejemplo muestra dos ramas de flujo de trabajo con un envío de correo electrónico y SMS. La actividad Combinación-Y se activará cuando ambas transiciones entrantes estén habilitadas. Las notificaciones push solo se envían una vez finalizados ambos envíos.
 
-![](../assets/workflow-andjoin-example.png)
+![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}

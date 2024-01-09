@@ -2,12 +2,12 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
-badge: label="Beta"
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
+badge: label="Disponibilidad limitada"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 6%
+source-wordcount: '570'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,7 @@ Puede realizar un seguimiento del progreso de los perfiles de destino en tiempo 
 
 ## Transiciones de flujo de trabajo {#transitions}
 
-En los flujos de trabajo, los datos que pasan de una actividad a otra a través de transiciones se almacenan en una tabla de trabajo temporal.
-
-Estos datos se pueden mostrar para cada transición. Para ello, seleccione una transición para abrir sus propiedades en el lado derecho de la pantalla.
+En los flujos de trabajo, los datos que pasan de una actividad a otra a través de transiciones se almacenan en una tabla de trabajo temporal. Estos datos se pueden mostrar para cada transición. Para ello, seleccione una transición para abrir sus propiedades en el lado derecho de la pantalla.
 
 * Clic **[!UICONTROL Previsualizar esquema]** para mostrar el esquema de la tabla de trabajo.
 * Clic **[!UICONTROL Previsualizar resultados]** para visualizar los datos transportados en la transición seleccionada.

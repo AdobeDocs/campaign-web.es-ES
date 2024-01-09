@@ -2,12 +2,12 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '913'
+ht-degree: 30%
 
 ---
 
@@ -51,7 +51,8 @@ Otros valores posibles son:
 >title="Configuración de segmentación"
 >abstract="En esta sección, puede seleccionar la dimensión de segmentación para segmentar los perfiles en el flujo de trabajo y elegir mantener los resultados del flujo de trabajo entre dos ejecuciones. Esta opción solo debe utilizarse con fines de prueba y nunca debe habilitarse en un flujo de trabajo de producción."
 
-* **[!UICONTROL Dimensión de segmentación]**: Seleccione la dimensión de segmentación que se utilizará para segmentar los perfiles: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
+* **[!UICONTROL Dimensión de segmentación]**: Seleccione la dimensión de segmentación que se utilizará para segmentar los perfiles: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las dimensiones de segmentación](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Mantener el resultado de poblaciones provisionales entre dos ejecuciones]**: De forma predeterminada, solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. Las tablas de trabajo de ejecuciones anteriores se depuran mediante un flujo de trabajo técnico, que se ejecuta diariamente.
 
   Si esta opción está activada, las tablas de trabajo se conservarán incluso después de ejecutar el flujo de trabajo. Puede utilizarlo con fines de prueba y, por lo tanto, solo debe usarse en entornos de desarrollo o ensayo. Nunca se debe comprobar en un flujo de trabajo de producción.
@@ -63,7 +64,7 @@ Otros valores posibles son:
 >title="Configuración de ejecución"
 >abstract="En esta sección, puede configurar las opciones relacionadas con la ejecución del flujo de trabajo, como el número de días que se mantiene el historial del flujo de trabajo."
 
-* **[!UICONTROL Historial en días]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación de flujo de trabajo). El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas. La depuración del historial se realiza mediante el flujo de trabajo de limpieza de la base de datos técnico, que se ejecuta de forma predeterminada todos los días.
+* **[!UICONTROL Historial en días]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación de flujo de trabajo). El valor predeterminado es de 30 días para las plantillas de flujo de trabajo predeterminadas. La depuración del historial se realiza mediante el flujo de trabajo de limpieza de la base de datos técnico, que se ejecuta de forma predeterminada todos los días.
 
   >[!IMPORTANT]
   >
