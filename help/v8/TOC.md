@@ -1,12 +1,12 @@
 ---
 audience: end-user
 user-guide-title: Web de la versión 8 de Campaign
-user-guide-description: Documentación del producto para la web de Campaign v8
+user-guide-description: Documentación del producto para la web de Campaign v8.
 title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Web de la versión 8 de Campaign
 hide: true
-source-git-commit: 0aac3074f54d319b93e9e1e83ae7a2c7820ac331
+source-git-commit: 20f8d2b31a3d2ebb8b4fee7a169fedc17ad1c9db
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 85%
