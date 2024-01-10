@@ -3,10 +3,10 @@ audience: end-user
 title: Exportación de informes
 description: Obtenga información sobre cómo exportar informes
 badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 

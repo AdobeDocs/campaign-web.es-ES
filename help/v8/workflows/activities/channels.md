@@ -2,11 +2,11 @@
 audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '876'
 ht-degree: 70%
 
 ---
@@ -38,24 +38,20 @@ Comience a crear el flujo de trabajo con las actividades relevantes antes de rea
 
 ## Configuración de la actividad de canal {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Actividad de correo electrónico"
 >abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de correos electrónicos a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Actividad de SMS"
 >abstract="La actividad de SMS facilita el envío de SMS dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de envío de SMS a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="Actividad de push iOS"
 >abstract="La actividad Push de iOS optimiza el proceso de envío de notificaciones Push de iOS como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones Push de iOS a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Para configurar una entrega en el contexto de un flujo de trabajo, siga los paso
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Puede seleccionar otra plantilla en el panel izquierdo de configuración de actividad del canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar público destinatario** para seleccionar un público destinatario con la asignación de destino correcta. Obtenga más información sobre las asignaciones de destino en [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
+   Puede seleccionar otra plantilla en el panel izquierdo de configuración de actividad del canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar público destinatario** para seleccionar un público destinatario con la asignación de destino correcta. Obtenga más información sobre las asignaciones de destino en [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}
 
-1. Haga clic en **Crear envío**. Defina la configuración del mensaje y su contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md).
+1. Haga clic en **Crear envío**. Defina la configuración del mensaje y su contenido del mismo modo que crea un envío independiente. También puede programar y simular el contenido. [Más información](../../msg/gs-messages.md)
 
-1. Vuelva al flujo de trabajo. Seleccione si desea continuar con el flujo de trabajo **Generación de una transición saliente** si desea añadir una transición después de la actividad del canal.
+1. Vuelva al flujo de trabajo. Si desea continuar con el flujo de trabajo, **Generación de una transición saliente** para añadir una transición después de la actividad del canal.
 
 1. Haga clic en **Iniciar** para iniciar el flujo de trabajo.
 

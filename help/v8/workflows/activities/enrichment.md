@@ -2,12 +2,12 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 100%
+source-wordcount: '724'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 >id="acw_orchestration_enrichment"
 >title="Actividad de enriquecimiento"
 >abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
@@ -35,27 +34,31 @@ Los datos de enriquecimiento pueden provenir de los siguientes lugares:
 
 * **La misma tabla de trabajo** que la que tiene como destinatario en el flujo de trabajo:
 
-  *Seleccione como público destinatario a un grupo de clientes y añada el campo “Fecha de nacimiento” a la tabla de trabajo actual*
+  *Oriente un grupo de clientes y agregue el campo &quot;Fecha de nacimiento&quot; a la tabla de trabajo actual*.
 
 * **De otra tabla de trabajo**:
 
   *Seleccione como público destinatario a un grupo de clientes y añada los campos “Cantidad” y “Tipo de producto” procedentes de la tabla “Comprar”*.
 
-Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad **Enriquecimiento** para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de conectar con el público destinatario.
+Una vez añadidos los datos de enriquecimiento al flujo de trabajo, se pueden utilizar en las actividades añadidas después de **Enriquecimiento** actividad para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades, o para crear mensajes de marketing personalizados y campañas que tengan más probabilidades de interesar a la audiencia de destino.
 
 Por ejemplo, puede añadir a la tabla de trabajo del flujo de trabajo información relacionada con las compras de los clientes y utilizar estos datos para personalizar los correos electrónicos con su última compra o la cantidad gastada en estas compras.
 
-## Configure la actividad Enrichment {#enrichment-configuration}
+## Configuración de la actividad Enrichment {#enrichment-configuration}
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
 1. Añada actividades como **Generar público destinatario** y **Combinar**.
 1. Añada una actividad **Enriquecimiento**
-1. Haga clic en **Añadir datos de enriquecimiento**.
+1. Clic **Añadir datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
 
-![](../assets/workflow-enrichment1.png)
+   Puede seleccionar dos tipos de datos de enriquecimiento: un [atributo de enriquecimiento único](#single-attribute) desde la dimensión de segmentación, o un [vínculo de colección](#collection-link).
 
-Puede seleccionar dos tipos de datos de enriquecimiento: un [atributo de enriquecimiento único](#single-attribute) desde la dimensión de segmentación, o un [vínculo de colección](#collection-link).
+   >[!NOTE]
+   >
+   >El **Botón Editar expresión** en la pantalla de selección de atributos permite crear expresiones avanzadas para seleccionar el atributo. [Aprenda a trabajar con el editor de expresiones](../../query/expression-editor.md)
+
+   ![](../assets/workflow-enrichment1.png)
 
 ## Atributo de enriquecimiento único {#single-attribute}
 
@@ -101,7 +104,7 @@ Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, 
 
 ### Definición de los filtros{#collection-filters}
 
-Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los artículos que sean superiores a 100 €.
+Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los elementos superiores a 100 $. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
 1. Haga clic en **Editar filtros**.
 1. Añada los dos filtros siguientes: **Cantidad total** existe Y **Cantidad total** es menor que 100. El primero filtra los valores NULOS, ya que aparecerían como el valor más alto.

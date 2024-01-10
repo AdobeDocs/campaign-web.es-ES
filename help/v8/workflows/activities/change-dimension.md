@@ -2,11 +2,11 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 30%
 
 ---
