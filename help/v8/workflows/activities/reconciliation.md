@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 badge: label="Disponibilidad limitada"
-source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '836'
 ht-degree: 19%
 
 ---
@@ -17,12 +17,10 @@ ht-degree: 19%
 >title="Actividad de reconciliación"
 >abstract="El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla externa."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Campo de selección de reconciliación"
 >abstract="Campo de selección de reconciliación"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -34,10 +32,9 @@ ht-degree: 19%
 >title="Complemento de generación de reconciliación"
 >abstract="Complemento de generación de reconciliación"
 
+El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.
 
-
-El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo. Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
-
+Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar audiencia** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
 
 ## Prácticas recomendadas {#reconciliation-best-practices}
 
@@ -45,10 +42,8 @@ Mientras que el **Enriquecimiento** La actividad de le permite definir datos adi
 
 >[!NOTE]
 >La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos.  Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
->
 
 ## Configuración de la actividad de reconciliación {#reconciliation-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -71,7 +66,6 @@ Mientras que el **Enriquecimiento** La actividad de le permite definir datos adi
 >title="Mantener datos no reconciliados"
 >abstract="De forma predeterminada, los datos no reconciliados se mantienen en la transición saliente y están disponibles en la tabla de trabajo para su uso futuro. Para eliminar los datos no reconciliados, desactive la **Mantener datos no reconciliados** opción."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Atributo de reconciliación"
@@ -81,9 +75,9 @@ Siga estos pasos para configurar el **Reconciliación** actividad:
 
 1. Arrastrar y soltar una **Reconciliación** en el flujo de trabajo. Esta actividad debe añadirse después de una transición que contenga una población cuya dimensión de segmentación no provenga directamente de Adobe Campaign.
 
-1. Seleccione la nueva dimensión objetivo. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. Obtenga más información acerca de las dimensiones de segmentación en [esta página](../../audience/about-recipients.md#targeting-dimensions).
+1. Seleccione la nueva dimensión objetivo. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions).
 
-1. Seleccione los campos de reconciliación que desee utilizar para la anulación de duplicación. Se pueden utilizar uno o más criterios de reconciliación.
+1. Seleccione los campos que se utilizarán para la reconciliación. Se pueden utilizar uno o más criterios de reconciliación.
 
    1. Para utilizar atributos para reconciliar datos, seleccione **Atributos simples** opción. El **Origen** field enumera los campos disponibles en la transición de entrada que se van a conciliar. El **Destino** field corresponde a los campos de la dimensión de segmentación seleccionada. Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione la opción **Correo electrónico** para deduplicar perfiles en función de su dirección de correo electrónico.
 
