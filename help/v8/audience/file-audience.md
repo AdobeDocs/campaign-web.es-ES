@@ -4,9 +4,9 @@ title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '618'
 ht-degree: 35%
 
 ---
@@ -26,14 +26,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parámetros de formato"
->abstract="Compruebe los parámetros de formato del archivo externo."
-
+>abstract="Especifique el formato del archivo externo para asegurarse de que los datos se importan correctamente."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Vista previa del archivo"
 >abstract="Compruebe la previsualización de las columnas del archivo externo. Esta pantalla solo muestra hasta 30 registros."
-
 
 Puede segmentar perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Este artículo describe cómo cargar un perfil externo al crear un envío de correo electrónico independiente. Para cargar datos de un archivo en un flujo de trabajo, consulte [esta página](../workflows/activities/load-file.md).
 

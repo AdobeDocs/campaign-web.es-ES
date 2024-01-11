@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 badge: label="Disponibilidad limitada"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 33%
+source-wordcount: '323'
+ht-degree: 26%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 33%
 >title="Formato para la actividad Cargar archivo"
 >abstract="Formato para la actividad Cargar archivo"
 
-
 El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Siga estos pasos para configurar el **Cargar archivo** actividad:
 
    ![](../assets/load-file.png)
 
-1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.
+1. Utilice el **Columnas** del panel izquierdo para ajustar el tipo de datos y el ancho de cada columna.
+
+1. En el **Formato** , ubicada en la configuración de columnas, especifique el formato del archivo externo para garantizar que los datos se importen correctamente.
 
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
 
 ## Ejemplo{#load-example}
 
-Hay disponible una muestra de un archivo externo de carga con el **Reconciliación** actividad en [esta sección](reconciliation.md#example).
+Un ejemplo de carga de archivo externo utilizado con el **Reconciliación** la actividad está disponible en [esta sección](reconciliation.md#example).
