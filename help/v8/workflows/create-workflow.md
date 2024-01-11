@@ -2,12 +2,12 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 19%
+source-wordcount: '748'
+ht-degree: 20%
 
 ---
 
@@ -25,20 +25,17 @@ ht-degree: 19%
 >title="Lista de flujos de trabajo de la campaña"
 >abstract="La pestaña **Flujos de trabajo** enumera todos los flujos de trabajo vinculados a la campaña actual. Haga clic en el nombre de un flujo de trabajo para editarlo. Utilice el botón **Crear flujo de trabajo** para añadir un nuevo flujo de trabajo para esta campaña."
 
-
 Puede crear flujos de trabajo independientes o flujos de trabajo dentro de una campaña. El primer paso es seleccionar una plantilla y definir sus propiedades generales. A continuación, puede configurar ajustes adicionales según sea necesario.
 
 Para ello, siga estos pasos:
 
-1. Para crear un **Flujo de trabajo independiente**, vaya a **Flujos de trabajo** menú.
-
-   Para crear un **Flujo de trabajo de campaña**, vaya a **Campañas** y abra la campaña para la que desea crear un nuevo flujo de trabajo.
+1. Para crear un **Flujo de trabajo independiente**, vaya a **Flujos de trabajo** menú. Para crear un **Flujo de trabajo de campaña**, vaya a **Campañas** y abra la campaña para la que desea crear un nuevo flujo de trabajo.
 
 1. Haga clic en **[!UICONTROL Crear flujo de trabajo]** en la esquina superior derecha de la pantalla.
 
    ![](assets/workflow-create.png)
 
-1. En flujo de trabajo **Propiedades** , seleccione la plantilla que desea utilizar para crear el flujo de trabajo (también puede utilizar la plantilla integrada predeterminada). Obtenga más información sobre las plantillas en [la sección siguiente](#work-with-workflow-templates-workflow-templates).
+1. En flujo de trabajo **Propiedades** , seleccione la plantilla que desea utilizar para crear el flujo de trabajo (también puede utilizar la plantilla integrada predeterminada). [Más información sobre las plantillas de flujo de trabajo](#workflow-templates).
 
 1. Introduzca una etiqueta para el flujo de trabajo. Además, le recomendamos encarecidamente que añada una descripción al flujo de trabajo, en el campo dedicado del **[!UICONTROL Opciones adicionales]** de la pantalla.
 
@@ -48,7 +45,7 @@ Para ello, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Crear flujo de trabajo]** para confirmar la creación del flujo de trabajo.
 
-El flujo de trabajo se habrá creado y estará disponible en la lista de flujos de trabajo. Ahora puede acceder a su lienzo visual y empezar a agregar, configurar y organizar las tareas que va a realizar. Obtenga información sobre cómo organizar actividades de flujo de trabajo en [esta página](orchestrate-activities.md).
+El flujo de trabajo se habrá creado y estará disponible en la lista de flujos de trabajo. Ahora puede acceder a su lienzo visual y empezar a agregar, configurar y organizar las tareas que va a realizar. [Obtenga información sobre cómo organizar actividades de flujo de trabajo](orchestrate-activities.md).
 
 ## Trabajo con plantillas de flujo de trabajo {#workflow-templates}
 

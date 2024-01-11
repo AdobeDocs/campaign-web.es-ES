@@ -2,14 +2,14 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
-badge: label="Beta"
-source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
+badge: label="Disponibilidad limitada"
+exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 4%
+source-wordcount: '637'
+ht-degree: 5%
 
 ---
-
 
 # Organización de actividades {#orchestrate}
 
@@ -17,9 +17,9 @@ Una vez que lo haya hecho [creó un flujo de trabajo](create-workflow.md), ya se
 
 ## Añadir actividades {#add}
 
-En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio del flujo de trabajo. Para añadir la primera actividad, haga clic en el botón + conectado al icono de inicio.
+En esta fase de la configuración, el diagrama se muestra con un icono de inicio que representa el principio del flujo de trabajo. Para añadir su primera actividad, haga clic en **+** botón conectado al icono de inicio.
 
-Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de flujo de trabajo. Por ejemplo, al añadir la primera actividad de, puede iniciar el flujo de trabajo segmentando una audiencia, dividiendo la ruta del flujo de trabajo o configurando una actividad de espera para retrasar la ejecución del flujo de trabajo. Por otro lado, después de una actividad Generar audiencia, puede refinar el objetivo con actividades de objetivo, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de flujo de trabajo con actividades de control de flujo.
+Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de flujo de trabajo. Por ejemplo, al añadir la primera actividad de, puede iniciar el flujo de trabajo segmentando una audiencia, dividiendo la ruta del flujo de trabajo o estableciendo un **Esperar** para retrasar la ejecución del flujo de trabajo. Por otro lado, después de un **Crear audiencia** actividad, puede refinar el segmento con actividades de segmentación, realizar una entrega a la audiencia con actividades de canal u organizar el proceso de flujo de trabajo con actividades de control de flujo.
 
 ![](assets/workflow-start.png)
 
@@ -27,9 +27,9 @@ Una vez que se ha agregado una actividad al diagrama, aparece un panel derecho q
 
 ![](assets/workflow-configure-activities.png)
 
-Repita este proceso y agregue tantas actividades como desee según las tareas que desee que realice el flujo de trabajo. Tenga en cuenta que también puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el botón + de la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
+Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice el flujo de trabajo. Tenga en cuenta que también puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
 
-Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono Eliminar en las propiedades de la actividad.
+Para quitar una actividad, selecciónela en el lienzo y haga clic en **Eliminar** en las propiedades de la actividad.
 
 >[!TIP]
 >
@@ -41,17 +41,17 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 
 * **Eliminar** la actividad del lienzo.
 * **Deshabilitar/habilitar** la actividad. Cuando se ejecuta el flujo de trabajo, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y el flujo de trabajo se detiene.
-* **Copiar** la actividad. A continuación, puede pegarlo en cualquier flujo de trabajo haciendo clic en el botón &quot;+&quot; de una transición y seleccionando &quot;Pegar 1 actividad&quot;.
+* **Copiar** la actividad. A continuación, puede pegarlo en cualquier flujo de trabajo haciendo clic en **+** en una transición y seleccione &quot;Pegar 1 actividad&quot;.
 * Acceda a los **Registros y tareas**.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 
-![](assets/activity-action.png){width="70%"}
+![](assets/activity-action.png){width="50%"}
 
 ## Ejemplo {#example}
 
 VIP A continuación, se muestra un ejemplo de flujo de trabajo diseñado para enviar un correo electrónico a todos los clientes (que no sean clientes de la red) con un correo electrónico que estén interesados en las máquinas de café.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
 
 Para ello, se han añadido las actividades siguientes:
 

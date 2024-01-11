@@ -2,15 +2,14 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+badge: label="Disponibilidad limitada"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
-
 
 # Principios clave de la creación de un flujo de trabajo {#gs-workflow-creation}
 
@@ -21,11 +20,11 @@ Con Campaign v8 Web, puede crear flujos de trabajo en un lienzo visual para dise
 
 El diagrama de flujo de trabajo es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 Cada flujo de trabajo contiene:
 
-* **Actividades**: una Actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
+* **Actividades**: una actividad es una tarea que se va a realizar. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada actividad tiene propiedades específicas y otras propiedades que son comunes a todas las actividades.
 
   En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente.
 
@@ -57,4 +56,3 @@ Estos pasos se detallan en la siguiente sección:
 1. [Organice y configure actividades](orchestrate-activities.md)
 1. [Realizar la configuración avanzada del flujo de trabajo](workflow-settings.md)
 1. [Iniciar el flujo de trabajo y monitorizar su ejecución](start-monitor-workflows.md)
-

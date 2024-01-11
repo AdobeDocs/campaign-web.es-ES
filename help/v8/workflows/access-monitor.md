@@ -4,7 +4,7 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Disponibilidad limitada"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 28%
@@ -52,4 +52,4 @@ El **[!UICONTROL Plantillas]** la pestaña enumera todas las plantillas de flujo
 
 Las plantillas de flujo de trabajo contienen actividades preconfiguradas y configuraciones de propiedad generales que se pueden reutilizar para crear nuevos flujos de trabajo.
 
-Puede crear plantillas de flujo de trabajo a partir de un flujo de trabajo existente o desde cero. [Obtenga información sobre cómo crear plantillas de flujo de trabajo](create-workflow.md#work-with-workflow-templates-workflow-templates)
+Puede crear plantillas de flujo de trabajo a partir de un flujo de trabajo existente o desde cero. [Obtenga información sobre cómo crear plantillas de flujo de trabajo](create-workflow.md#workflow-templates)
