@@ -2,12 +2,12 @@
 audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 97%
+source-wordcount: '717'
+ht-degree: 89%
 
 ---
 
@@ -15,9 +15,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
->title="División actividad"
+>title="Actividad de división"
 >abstract="La actividad **División** permite segmentar las poblaciones entrantes en varios subconjuntos en función de diferentes criterios de selección, como las reglas de filtrado o el tamaño de la población."
-
 
 La actividad **División** es una actividad **Segmentación** que permite segmentar las poblaciones entrantes en varios subconjuntos en función de diferentes criterios de selección, como reglas de filtrado o tamaño de población.
 
@@ -54,9 +53,9 @@ Siga estos pasos para configurar la actividad **División**:
 
    >[!IMPORTANT]
    >
-   >Cuando se ejecuta la actividad División, la población se segmenta en los diferentes subconjuntos en el orden en que se añaden a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
+   >Si la variable **Split** Cuando se ejecuta la actividad, la población se segmenta en los diferentes subconjuntos en el orden en que se añaden a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
    >
-   > Antes de configurar los subconjuntos, asegúrese de haberlos añadido en el orden correcto, ya que su posición no se puede cambiar.
+   >Antes de iniciar el flujo de trabajo, asegúrese de haber ordenado los subconjuntos en el orden que se adapte a sus necesidades. Para ello, utilice los botones de flecha para cambiar la posición de un subconjunto.
 
 1. Una vez creados los subconjuntos, la actividad muestra de forma predeterminada tantas transiciones de salida como subconjuntos. Se recomienda encarecidamente cambiar la etiqueta de cada subconjunto para identificarlo fácilmente en el lienzo del flujo de trabajo.
 

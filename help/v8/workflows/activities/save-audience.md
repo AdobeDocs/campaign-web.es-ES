@@ -2,23 +2,21 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 091775bae73595cb209199b062508931dd3ea315
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 16%
+source-wordcount: '426'
+ht-degree: 13%
 
 ---
 
 # Guardado de público {#save-audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="Guardar un público"
 >abstract="Utilice esta actividad para actualizar un público existente o crear uno nuevo a partir de la población calculada en sentido ascendente en un flujo de trabajo. Los públicos creados se añaden a la lista de públicos y están disponibles en el menú **Públicos**."
-
 
 El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 
@@ -40,7 +38,7 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
 1. Seleccione el **Modo de actualización** que se aplicará a las audiencias existentes:
 
-   * **Reemplazar contenido de audiencia por nuevos datos**: todo el contenido de la audiencia se sustituye. Se pierden los datos antiguos. Solo se conservan los datos de la transición de entrada de la actividad Guardar audiencia. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
+   * **Reemplazar contenido de audiencia por nuevos datos**: todo el contenido de la audiencia se sustituye. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad Guardar audiencia. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
 
    * **Audiencia completa con nuevos datos**: el contenido de audiencia anterior se conserva y se añaden a él los datos de la transición de entrada de la actividad guardar audiencia.
 

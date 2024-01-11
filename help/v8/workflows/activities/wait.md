@@ -2,12 +2,12 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Esperar
 description: Aprenda a utilizar la actividad de flujo de trabajo Esperar
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Siga estos pasos para configurar la actividad **Esperar**:
 
 1. Especifique la **Duración** de la espera entre las transiciones entrantes y salientes.
 
-1. Seleccione la unidad de tiempo en el campo **Períodos**: segundos, minutos u horas.
+1. Seleccione la unidad de tiempo en la **Períodos** campo: segundos, minutos, horas, días.
 
 ## Ejemplo{#wait-example}
 
