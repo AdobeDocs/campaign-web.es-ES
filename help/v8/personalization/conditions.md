@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: d3afb758e11faf9c39fb14f0b30f1b9edc913ec3
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 14%
@@ -99,7 +99,7 @@ Detailed information on how to create conditions using the expression editor is 
 
 1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
 
-1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+1. A query modeler appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
     ![](assets/condition-email-rule.png){width="800" align="center"}
 

@@ -4,7 +4,7 @@ title: Monitorizar y administrar públicos
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 16%
@@ -24,7 +24,7 @@ Para definir la población de una audiencia, puede:
 
 * [Crear nuevas audiencias](create-audience.md) desde el **[!UICONTROL Audiencias]** menú,
 * [Seleccionar una audiencia existente](add-audience.md) creado como una lista en la consola del cliente o procedente de Adobe Experience Platform,
-* [Crear una audiencia nueva](../query/query-modeler-overview.md) con el generador de reglas definiendo y combinando criterios de filtrado,
+* [Crear una audiencia nueva](../query/query-modeler-overview.md) con el modelador de consultas definiendo y combinando criterios de filtrado,
 * [Uso de una audiencia de un archivo externo](file-audience.md). Esta opción solo está disponible para envíos de correo electrónico independientes y no se puede utilizar en envíos de campañas.
 
 Al segmentar una audiencia, también puede definir lo siguiente **grupos de control** para evitar enviar mensajes a una parte de la audiencia y medir el impacto de las campañas. [Obtenga información sobre cómo establecer un grupo de control](control-group.md)

@@ -4,10 +4,10 @@ title: Usar un público de Adobe Experience Platform
 description: Aprenda a utilizar un público de Adobe Experience Platform
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
@@ -49,6 +49,6 @@ Para seleccionar una audiencia de Adobe Experience Platform para su envío, siga
 
    ![](assets/refine-audience.png)
 
-1. Con el generador de reglas, puede enriquecer el público con filtros adicionales o combinando distintos públicos. Consulte esta [sección](../query/query-modeler-overview.md).
+1. Con el modelador de consultas, puede enriquecer la audiencia con filtros adicionales o combinando distintas audiencias. Consulte esta [sección](../query/query-modeler-overview.md).
 
 1. Haga clic en **Save**.

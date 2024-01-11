@@ -4,10 +4,10 @@ title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la IU de la web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 42%
+ht-degree: 39%
 
 ---
 
@@ -114,7 +114,7 @@ En la sección **Población adicional** de la pantalla de definición **Grupo de
 
 * Para usar un público existente, haga clic en **Seleccionar público**. Obtenga más información en [esta sección](add-audience.md).
 
-* Para definir una nueva consulta, seleccione **Crear su propia consulta** y defina los criterios de exclusión mediante el generador de reglas. Obtenga más información en [esta sección](../query/query-modeler-overview.md).
+* Para definir una nueva consulta, seleccione **Cree su propio** y defina los criterios de exclusión mediante el modelador de consultas. Obtenga más información en [esta sección](../query/query-modeler-overview.md).
 
 Los perfiles incluidos en la audiencia o que coinciden con el resultado de la consulta son **excluido** desde el destinatario de la entrega: no reciben ningún mensaje.
 

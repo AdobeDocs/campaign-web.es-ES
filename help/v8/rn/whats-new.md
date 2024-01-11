@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -71,7 +71,7 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 * Cree, diseñe, personalice, programe y envíe notificaciones push, por correo electrónico y SMS: [Más información](../msg/gs-messages.md)
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../email/edit-content.md)
 * Enviar campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
-* Definir públicos de destinatarios con el generador de reglas: [más información](../audience/about-recipients.md)
+* Defina audiencias de destino con el modelador de consultas: [Más información](../audience/about-recipients.md)
 * Previsualizar, probar y enviar mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 

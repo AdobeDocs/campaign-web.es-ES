@@ -4,10 +4,10 @@ title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 badge: label="Disponibilidad limitada"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Todas las actividades se detallan en las secciones siguientes:
 Estas actividades son específicas para la segmentación, manipulación y enriquecimiento de los datos de la población. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
 
 * Utilice el [Guardar audiencia](save-audience.md) actividad para actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo.
-* Utilice el [Crear audiencia](build-audience.md) actividad para definir la población objetivo. Puede seleccionar un público destinatario existente o utilizar el generador de reglas para definir su propia consulta.
+* Utilice el [Crear audiencia](build-audience.md) actividad para definir la población objetivo. Puede seleccionar una audiencia existente o utilizar el modelador de consultas para definir su propia consulta.
 * Utilice el [Combinar](combine.md) actividad para realizar la segmentación en la población entrante. Puede utilizar una unión, una intersección o una exclusión.
 * Utilice el [Split](split.md) actividad para segmentar la población entrante en varios subconjuntos.
 * Utilice el [Reconciliación](reconciliation.md) actividad para definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.

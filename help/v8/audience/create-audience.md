@@ -4,7 +4,7 @@ title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 10%
@@ -54,7 +54,7 @@ Para crear una audiencia, siga estos pasos:
 
    * **[!UICONTROL Guardar audiencia]**: Representa el paso final del flujo de trabajo, lo que permite guardar los resultados del flujo de trabajo como una nueva audiencia.
 
-1. Abra el **[!UICONTROL Crear audiencia]** y utilice el generador de reglas para definir la población que desea incluir en la audiencia filtrando los datos contenidos en la base de datos. [Obtenga información sobre cómo configurar una actividad Generar audiencia](../workflows/activities/build-audience.md)
+1. Abra el **[!UICONTROL Crear audiencia]** y utilice el modelador de consultas para definir la población que se incluirá en la audiencia filtrando los datos contenidos en la base de datos. [Obtenga información sobre cómo configurar una actividad Generar audiencia](../workflows/activities/build-audience.md)
 
 1. Si desea realizar operaciones adicionales en la población objetivo del flujo de trabajo, añada tantas actividades como sea necesario y conéctelas. Para obtener más información sobre la configuración de actividades de flujo de trabajo, consulte la [documentación de flujos de trabajo](../workflows/activities/about-activities.md).
 
