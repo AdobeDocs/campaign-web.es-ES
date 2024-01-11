@@ -4,10 +4,10 @@ title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 badge: label="Disponibilidad limitada"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 61%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 >[!NOTE]
 >
->En este contexto, no se puede cargar un público destinatario desde un archivo. Para ello, debe crear un envío de correo electrónico independiente. [Más información](../../audience/about-recipients.md)
+>Las audiencias cargadas desde un archivo no se pueden segmentar con una actividad Generar audiencia. Para ello, debe utilizar un **Cargar archivo** actividad seguida de un **Reconciliación** actividad. [Más información](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 1. Haga clic en **Continuar**.
 1. Seleccione la audiencia, del mismo modo que utiliza una audiencia para diseñar una nueva entrega. Consulte esta [sección](../../audience/add-audience.md).
 
->[!IMPORTANT]
->
->Si desea utilizar un **[!UICONTROL Crear audiencia]** actividad dirigida a una audiencia de Experience Platform, debe añadir un **[!UICONTROL Cambiar dimensión]** actividad posterior, para garantizar que la dimensión de segmentación de la audiencia esté configurada como &quot;Destinatario&quot;. Hay un ejemplo de flujo de trabajo disponible en la parte inferior de esta página.
-
 >[!ENDTABS]
 
 ## Ejemplos{#build-audience-examples}
@@ -80,7 +76,3 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 A continuación, se muestra un ejemplo de flujo de trabajo con dos actividades **Generar público destinatario**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
 
 ![](../assets/workflow-audience-example.png)
-
-Este es otro ejemplo de flujo de trabajo en el que una audiencia de Adobe Experience Platform se combina con una audiencia de Adobe Campaign. Para permitir que se combinen estas audiencias, se debe usar un **[!UICONTROL Cambiar dimensión]** La actividad con la dimensión de segmentación &quot;Destinatario&quot; se agrega después de la audiencia de Adobe Experience Platform. [Obtenga información sobre cómo configurar una actividad Cambiar dimensión](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)

@@ -4,10 +4,10 @@ title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Disponibilidad limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 70%
+source-wordcount: '901'
+ht-degree: 68%
 
 ---
 
@@ -26,7 +26,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
 
-## Cree su flujo de trabajo{#build-your-workflow}
+## Cree su flujo de trabajo {#build-your-workflow}
 
 Comience a crear el flujo de trabajo con las actividades relevantes antes de realizar la entrega:
 
@@ -35,6 +35,10 @@ Comience a crear el flujo de trabajo con las actividades relevantes antes de rea
 * Añadir un **Crear audiencia** actividad. El público es el público destinatario principal de su envío: los destinatarios que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar público destinatario**. Consulte [esta sección](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >También puede dirigirse a una audiencia cargada desde un archivo. Para ello, utilice una **Cargar archivo** actividad seguida de un **Reconciliación** actividad. [Más información](../../audience/about-recipients.md)
 
 ## Configuración de la actividad de canal {#create-a-delivery-in-a-workflow}
 
