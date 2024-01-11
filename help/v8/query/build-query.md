@@ -3,10 +3,10 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 15%
+source-wordcount: '1920'
+ht-degree: 14%
 
 ---
 
@@ -90,6 +90,8 @@ Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla q
 
 Para un **Vínculo 1-1**, vaya a la tabla vinculada, seleccione el atributo deseado y defina el valor esperado.
 
+También puede seleccionar directamente un vínculo de tabla en la **Valor** selector y confirmar. En ese caso, los valores disponibles para la tabla seleccionada deben seleccionarse mediante un selector dedicado, como se muestra en el ejemplo siguiente.
+
 +++Ejemplo de consulta
 
 En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en ejecución&quot;.
@@ -101,6 +103,10 @@ En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en e
 1. Defina el valor esperado para el atributo.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Este es un ejemplo de consulta en el que se ha seleccionado directamente un vínculo de tabla. Los valores disponibles para esta tabla deben seleccionarse de un selector específico.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
