@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 7%
@@ -165,29 +165,20 @@ La plantilla se guarda en el **[!UICONTROL Plantillas de contenido]** , accesibl
 >Los cambios realizados en esa nueva plantilla no se propagan al correo electrónico del que procede. Del mismo modo, cuando el contenido original se edita dentro de ese correo electrónico, la nueva plantilla no se modifica.
 
 <!--
+
 Test your content template {#test-template}
 
 You can test the rendering of any email content template, whether created from scratch or from an email. To do so, follow the steps below.
 
-1. Access the content template list through the **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** menu and select any template.
+1. Access the content template list.
 
 1. Click **[!UICONTROL Edit content]** from the **[!UICONTROL Template properties]**.
 
-1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view. [Learn more](../content-management/preview-test.md)
+1. Click **[!UICONTROL Simulate Content]** and select a test profile to check your email rendering. You can choose the desktop or mobile view.
 
-    ![](../email/assets/content-template-stimulate.png)
+1. You can send a proof to test your content and have it approved by some internal users before using it. To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in .
 
-1. You can send a proof to test your content and have it approved by some internal users before using it in a journey or a campaign.
+-->
 
-    * To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in [this section](../content-management/proofs.md).
-    
-    * Before sending the proof, you must select the [email surface](../configuration/channel-surfaces.md) that will be used to test your content.
-
-        ![](../email/assets/content-template-stimulate-proof-surface.png)
-
->[!CAUTION]
->
->Currently tracking is not supported when testing email content templates, meaning that tracking events, UTM parameters and landing page links will not be effective in the proofs that are being sent from a template. To test tracking, [use the content template](
-use-email-templates.md) in an email and [send a proof](../content-management/preview-test.md#send-proofs).-->
 
 
