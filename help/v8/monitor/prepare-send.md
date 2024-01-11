@@ -3,10 +3,10 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Disponibilidad limitada"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '892'
 ht-degree: 40%
 
 ---
@@ -105,7 +105,7 @@ Si ha programado el correo electrónico para enviarlo en una fecha y hora poster
 
 ## Pausar o detener el envío {#pause-stop-sending}
 
-Independientemente de si la entrega está programado o no, se pueden realizar dos acciones en cualquier momento durante el proceso de entrega:
+Si la entrega está programado o no<!--TBC-->, se pueden realizar dos acciones en cualquier momento durante el proceso de envío:
 
 * Clic **[!UICONTROL Pausar envío]** para interrumpir el envío de los mensajes. Puede reanudar el envío en cualquier momento.
 
