@@ -5,11 +5,11 @@ description: Obtenga información sobre cómo crear y utilizar plantillas de env
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1087'
 ht-degree: 17%
 
 ---
@@ -122,6 +122,8 @@ Para guardar una entrega como plantilla, siga los pasos a continuación:
 
    ![](assets/templates-convert-delivery.png)
 
+   También puede seleccionar una plantilla de la lista y seleccionar esta opción en la pantalla de edición de plantillas.
+
 1. Confirme la duplicación.
 
 1. El nuevo panel de plantillas se abre en la pantalla central. Edite la configuración de la plantilla según sea necesario.
@@ -180,13 +182,11 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 
    ![](assets/templates-simulate-button.png)
 
-1. Seleccione uno o varios perfiles de prueba para comprobar el procesamiento del correo electrónico. También puede seleccionar perfiles reales de la base de datos.
+1. Seleccione uno o varios perfiles de prueba para comprobar el procesamiento del correo electrónico. También puede seleccionar perfiles reales de la base de datos. [Más información sobre los perfiles de prueba](../audience/test-profiles.md)
 
-1. Alterne entre los distintos perfiles para obtener una representación personalizada del mensaje según el perfil seleccionado.
+1. Alterne entre los distintos perfiles para obtener una representación personalizada del mensaje según el perfil seleccionado. También puede ajustar el nivel de zoom y elegir la vista de escritorio o la vista móvil.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   También puede ajustar el nivel de zoom y elegir la vista de escritorio o la vista móvil.
+[Más información sobre la previsualización de contenido](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 >
 >No se puede utilizar el procesamiento de correo electrónico ni enviar pruebas en una plantilla de envíos.
 
-* [Obtenga más información sobre la previsualización del contenido de correo electrónico](../preview-test/preview-content.md)
 
-* [Más información sobre la previsualización del contenido de SMS](../sms/content-sms.md)
-
-* [Más información sobre la previsualización del contenido push](../push/gs-push.md)
