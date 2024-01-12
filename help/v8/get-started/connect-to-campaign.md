@@ -3,7 +3,7 @@ title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign versión 8
 badge: label="Disponibilidad limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 81%
@@ -91,7 +91,7 @@ Para cambiar el idioma, haga lo siguiente:
 
 >[!CAUTION]
 >
->Si planea utilizar capacidades de ayuda contextual con tecnología de IA, debe establecer su idioma preferido en inglés. No se admiten otros idiomas.
+>Si planea utilizar [Ayuda contextual con tecnología de IA](using-ai.md) , debe establecer el idioma que prefiera en inglés. No se admiten otros idiomas.
 >
 
 
