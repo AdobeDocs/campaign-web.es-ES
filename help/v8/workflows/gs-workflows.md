@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn2"
->title="Flujos de trabajo multicanal"
+>title="Flujos de trabajo en canales múltiples"
 >abstract="Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte las notas de la versión"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 
 ## ¿Qué es un flujo de trabajo?

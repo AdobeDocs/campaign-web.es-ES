@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Ayuda y documentación"
->abstract="Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva IU moderna simplifica el diseño y la entrega de las campañas de marketing y aporta coherencia, junto con otras soluciones de Adobe."
+>abstract="Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe."
 
 Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
 

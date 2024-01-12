@@ -7,7 +7,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
->title="Composición de audiencia"
->abstract="Cree nuevas audiencias en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear una audiencia sencilla, también puede aprovechar las actividades de flujo de trabajo para refinar la audiencia. Combine varias audiencias en una sola, enriquezca la audiencia con atributos externos o divida una en varias audiencias en función de las reglas que elija."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte las notas de la versión"
+>title="Composición de público"
+>abstract="Cree nuevos públicos en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Combine varios públicos en uno solo, enriquézcalo con atributos externos o divídalo en varios en función de las reglas que elija."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 10%
 >title="Configuración del público"
 >abstract="Introduzca el nombre de público y las opciones adicionales y, a continuación, haga clic en el botón **Crear público**."
 
-La web de Campaign le permite crear nuevas audiencias en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear una audiencia sencilla, también puede aprovechar las actividades de flujo de trabajo para refinar la audiencia. Por ejemplo, puede combinar varias audiencias en una sola, enriquecer la audiencia con atributos externos o dividir una en varias audiencias en función de las reglas que elija.
+La web de Campaign le permite crear nuevas audiencias en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Por ejemplo, puede combinar varias audiencias en una sola, enriquecer la audiencia con atributos externos o dividir una en varias audiencias en función de las reglas que elija.
 
 Una vez que haya creado el flujo de trabajo, las audiencias resultantes se almacenan automáticamente en la base de datos de Campaign junto con las existentes. Estas audiencias pueden segmentarse en flujos de trabajo o envíos independientes.
 

@@ -10,7 +10,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Plantillas de envíos"
->abstract="Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez."
+>abstract="Para lograr un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados entre campañas. Esta funcionalidad le permite estandarizar la apariencia creativa y así ejecutar y lanzar las campañas con mayor rapidez."
 
-Para un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en todas las campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez.
+Para lograr un proceso de diseño acelerado y mejorado, puede crear plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados entre campañas. Esta funcionalidad le permite estandarizar la apariencia creativa y así ejecutar y lanzar las campañas con mayor rapidez.
 
 Una plantilla puede incluir:
 

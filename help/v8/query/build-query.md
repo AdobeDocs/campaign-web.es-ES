@@ -6,7 +6,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -231,7 +231,7 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 
 ![](assets/query-intermediate-group.png)
 
-## Comprobación y validación de la consulta
+## Compruebe y valide la consulta
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"

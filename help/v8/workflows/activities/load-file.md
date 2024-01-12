@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 badge: label="Disponibilidad limitada"
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 26%
+ht-degree: 35%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Actividad de carga de archivo"
->abstract="El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con datos almacenados en un archivo externo."
+>abstract="La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con datos almacenados en un archivo externo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -52,7 +52,7 @@ ht-degree: 26%
 >title="Formato para la actividad Cargar archivo"
 >abstract="Formato para la actividad Cargar archivo"
 
-El **Cargar archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
+La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
 
 >[!NOTE]
 >Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).

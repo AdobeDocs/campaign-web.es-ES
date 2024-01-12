@@ -7,7 +7,7 @@ exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -28,7 +28,7 @@ El **Planificador** la actividad es una **Control de flujo** actividad. Permite 
 * Si desea realizar una entrega con una sola toma en el flujo de trabajo, puede añadir una actividad de planificador y configurarla para que se ejecute **Una**. También puede definir la variable **Programación** en la configuración de la entrega.
 * Si desea realizar una entrega recurrente en el flujo de trabajo, debe utilizar un **Planificador** y establezca la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
 
-## Configuración de la actividad Planificador {#scheduler-configuration}
+## Configure la actividad Planificador {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

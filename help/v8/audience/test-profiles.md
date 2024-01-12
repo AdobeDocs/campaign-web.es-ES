@@ -8,7 +8,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 3%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Crear perfiles de prueba"
->abstract="Los perfiles de prueba se crean como direcciones semilla. Son destinatarios adicionales en la base de datos utilizada para dirigirse a perfiles ficticios que no coinciden con los criterios de destino definidos."
+>abstract="Los perfiles de prueba se crean como direcciones semilla. Son destinatarios adicionales presentes en la base de datos y utilizados para dirigirse a perfiles ficticios que no coinciden con los criterios de destino definidos."
 
 Los perfiles de prueba se crean como direcciones semilla. Son destinatarios adicionales en la base de datos utilizada para dirigirse a perfiles ficticios que no coinciden con los criterios de destino definidos. Permiten previsualizar y probar la personalización y el procesamiento antes de realizar la entrega mediante la entrega de pruebas.
 
@@ -60,7 +60,7 @@ Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar, edita
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="Datos adicionales de los perfiles de prueba"
->abstract="Introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico."
+>abstract="Introduzca los datos de personalización utilizados para los envíos creados en los flujos de trabajo de administración de datos y a los que desea asignar un valor específico."
 
 Para crear un perfil de prueba, siga los pasos a continuación.
 

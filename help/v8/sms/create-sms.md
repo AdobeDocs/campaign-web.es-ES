@@ -7,7 +7,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 34%
+ht-degree: 46%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Definición del público SMS"
->abstract="Puede crear una audiencia nueva o seleccionar una existente haciendo clic en el **Seleccionar audiencia** botón. Si es necesario, agregue un grupo de control para medir el impacto del envío."
+>abstract="Puede crear un público nuevo o seleccionar uno existente haciendo clic en el botón **Seleccionar público**. Si es necesario, añada un grupo de control para medir el impacto del envío."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=es" text="Establecer un grupo de control"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Selección de plantilla de SMS"
->abstract="Seleccione una plantilla predefinida para iniciar el envío de SMS. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Uso de plantillas de envío"
+>abstract="Seleccione una plantilla predefinida para iniciar el envío del SMS. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envío"
 
 
 Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).

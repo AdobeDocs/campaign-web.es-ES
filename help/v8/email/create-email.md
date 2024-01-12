@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 63%
+ht-degree: 67%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Introducción a los correos electrónicos"
->abstract="Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Obtenga información sobre cómo crear la entrega, seleccionar la audiencia y diseñar el contenido del correo electrónico."
+>title="Empezar con correos electrónicos"
+>abstract="Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de campaña. Obtenga información sobre cómo crear la entrega, seleccionar el público y diseñar el contenido del correo electrónico."
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
@@ -35,7 +35,7 @@ Basado en un [plantilla de diseño](../email/create-email-templates.md), el corr
 >title="Definición de las propiedades del correo electrónico"
 >abstract="Las propiedades son los parámetros de envío comunes que le ayudan a nombrar y clasificar el envío. La configuración adicional es opcional. Si el envío se basa en un esquema ampliado definido en la consola de la versión 8 de Adobe Campaign, algunas **Opciones personalizadas** están disponibles."
 
-Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Obtenga más información acerca de los pasos de creación de entregas en Adobe Campaign en [esta página](../msg/gs-deliveries.md).
+Puede crear una entrega de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de campaña. Los pasos siguientes detallan el procedimiento para un envío de correo electrónico independiente (único). Obtenga más información acerca de los pasos de creación de entregas en Adobe Campaign en [esta página](../msg/gs-deliveries.md).
 
 Para crear un nuevo envío de correo electrónico independiente, siga los pasos a continuación.
 

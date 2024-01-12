@@ -7,7 +7,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 45%
+ht-degree: 79%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenido SMS"
->abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico. Para empezar a maquetar el mensaje, haga clic en **Editar contenido** botón."
+>abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
->title="Contenido de mensaje SMS"
->abstract="Defina el contenido del SMS. Para redactar el mensaje, haga clic en el **Mensaje** e introduzca el contenido del mensaje. Utilice el Editor de expresiones para añadir datos personalizados y contenido dinámico. También puede personalizar el nombre del remitente. De forma predeterminada, el seguimiento está habilitado para todas las entregas de SMS, de modo que puede medir cuándo los destinatarios hacen clic en los vínculos."
+>title="Contenido del mensaje SMS"
+>abstract="Defina el contenido del mensaje SMS. Para componer el mensaje, haga clic en el campo **Mensaje** e introduzca el contenido. Utilice el Editor de expresiones para añadir datos personalizados y contenido dinámico. También puede personalizar el nombre del remitente. De forma predeterminada, el seguimiento está habilitado para todas las entregas de SMS, de modo que puede medir cuándo los destinatarios hacen clic en los vínculos."
 
 Para diseñar el contenido de un envío SMS, siga estos pasos:
 

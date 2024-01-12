@@ -11,7 +11,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="Defina su propio contenido"
+>title="Definición de su propio contenido"
 >abstract="Cree una plantilla personalizada independiente desde cero para que el contenido se pueda reutilizar en varios correos electrónicos."
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign].
@@ -34,8 +34,8 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
->title="Editar el contenido de la plantilla"
->abstract="Haga clic en **Editar contenido** para actualizar el contenido con el Diseñador de correo electrónico."
+>title="Edite el contenido de la plantilla"
+>abstract="Haga clic en el botón **Editar contenido** para actualizar el contenido con el Diseñador de correo electrónico."
 
 Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** en el menú de la izquierda.
 
@@ -91,12 +91,12 @@ Una vez guardada, ya se haya creado desde cero o desde un correo electrónico an
 >
 >* Del mismo modo, cuando las plantillas se utilizan en un mensaje de correo electrónico, las ediciones que realice en el contenido del correo electrónico no afectarán a la plantilla de contenido utilizada anteriormente.
 
-### Crear plantilla desde cero {#create-template-from-scratch}
+### Crear una plantilla desde cero {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Defina las propiedades de la plantilla"
->abstract="Al crear una plantilla desde cero, defina sus propiedades para recuperar es fácil cuando sea necesario."
+>abstract="Al crear una plantilla desde cero, defina sus propiedades para recuperarla fácilmente cuando sea necesario."
 
 Para crear una plantilla de contenido desde cero, siga los pasos a continuación.
 

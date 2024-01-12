@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
 workflow-type: tm+mt
 source-wordcount: '1534'
-ht-degree: 34%
+ht-degree: 46%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Contenido push para Android"
->abstract="Defina el contenido de la notificación push para dispositivos Android. Para empezar a maquetar el mensaje, haga clic en **Editar contenido** botón."
+>abstract="Defina el contenido de la notificación push para dispositivos Android. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="Contenido push para iOS"
->abstract="Defina el contenido de la notificación push para dispositivos iOS. Para empezar a maquetar el mensaje, haga clic en **Editar contenido** botón."
+>abstract="Defina el contenido de la notificación push para dispositivos iOS. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
 
 ## Definición del contenido de la notificación {#push-message}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="Mensaje push de iOS"
->abstract="Defina el contenido de la notificación push para dispositivos iOS. Para redactar el mensaje, haga clic en el **Título** y **Mensaje** campos. Utilice el Editor de expresiones para personalizar datos y agregar contenido dinámico. Para obtener más configuración personalizada, vaya a **Configuración avanzada** sección."
+>abstract="Defina el contenido de la notificación push para dispositivos iOS. Para componer el mensaje, haga clic en los campos **Título** y **Mensaje**. Utilice el editor de expresiones para personalizar datos y añadir contenido dinámico. Para ver más opciones de configuración personalizada, vaya a la sección **Configuración avanzada**."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Mensaje push de Android"
->abstract="Defina el contenido de la notificación push para dispositivos Android. Para redactar el mensaje, haga clic en el **Título** y **Mensaje** campos. Utilice el Editor de expresiones para personalizar datos y agregar contenido dinámico. Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color. Para obtener más configuración personalizada, vaya a **Configuración avanzada** sección."
+>abstract="Defina el contenido de la notificación push para dispositivos Android. Para componer el mensaje, haga clic en los campos **Título** y **Mensaje**. Utilice el editor de expresiones para personalizar datos y añadir contenido dinámico. Para personalizar aún más la notificación push, puede elegir una imagen para añadirla, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color. Para ver más opciones de configuración personalizada, vaya a la sección **Configuración avanzada**."
 
 
 
@@ -60,7 +60,7 @@ En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación s
 
 * El **[!UICONTROL Mensaje de notificación]**, gestionado automáticamente por el SDK de FCM. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
-  Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Mensaje]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
+  Para componer el mensaje, haga clic en los campos **[!UICONTROL Título]** y **[!UICONTROL Mensaje]**. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 
   Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color.
 
@@ -68,7 +68,7 @@ En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación s
 
 >[!TAB iOS]
 
-Para redactar el mensaje, haga clic en el **[!UICONTROL Título]** y **[!UICONTROL Mensaje]** campos. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
+Para componer el mensaje, haga clic en los campos **[!UICONTROL Título]** y **[!UICONTROL Mensaje]**. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 
 Puede añadir un **[!UICONTROL Subtítulo]**, valor del parámetro subtitle de la carga útil de notificación de iOS. Consulte esta sección.
 
@@ -96,7 +96,7 @@ El modo push silencioso permite enviar una notificación “silenciosa” a una 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Recuento de notificaciones"
->abstract="Utilice esta opción para establecer el número de notificaciones no leídas que se mostrarán directamente en el icono de la aplicación. Esto permite al usuario ver rápidamente el número de notificaciones pendientes."
+>abstract="Utilice esta opción para establecer el número de notificaciones sin leer que se mostrará directamente en el icono de la aplicación. Esto permite al usuario ver rápidamente el número de notificaciones pendientes."
 
 
 >[!CONTEXTUALHELP]

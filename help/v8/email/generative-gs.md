@@ -19,7 +19,7 @@ ht-degree: 34%
 >id="acw_homepage_rn5"
 >title="Gen IA para contenido de correo electrónico"
 >abstract="Nuestra tecnología Gen IA utiliza algoritmos avanzados para generar contenido altamente atractivo y personalizado. Aumente las tasas de apertura, las tasas de clics y las conversiones con la generación inteligente de contenido de Gen IA. Adelántese a la competencia y mejore su marketing por correo electrónico con Gen IA en el contenido del correo electrónico."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Consulte las notas de la versión"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

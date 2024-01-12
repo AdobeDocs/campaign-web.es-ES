@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: Trabajar con el modelador de consultas
+title: Uso del modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 badge: label="Disponibilidad limitada"
 source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 11%
+ht-degree: 32%
 
 ---
 
-# Trabajar con el modelador de consultas {#segment-builder}
+# Uso del modelador de consultas {#segment-builder}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Nuevo modelador de consultas"
->abstract="Adobe Campaign Web incluye un modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinos específicos según diversos criterios. Esto incluye el uso de expresiones avanzadas y operadores. El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos."
+>abstract="Adobe Campaign Web incluye un modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinos específicos según diversos criterios. Incluye el uso de operadores y expresiones avanzados. El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar datos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Modelador de consultas"
->abstract="Defina criterios de filtrado para los destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para delimitar aún más el público destinatario y maximizar el impacto de su campaña."
+>abstract="Defina criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para detallar aún más el público destinatario y maximizar el impacto de su campaña."
 
 Adobe Campaign Web incluye un modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinos específicos según diversos criterios. Esto incluye el uso de expresiones avanzadas y operadores.
 
 ## Acceso al modelador de consultas
 
-El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos.
+El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar datos.
 
 | Uso | Ejemplo |
 |  ---  |  ---  |
