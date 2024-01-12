@@ -6,10 +6,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Web de la versión 8 de Campaign
 hide: true
-source-git-commit: 20f8d2b31a3d2ebb8b4fee7a169fedc17ad1c9db
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
    + [Acceso y permisos](get-started/permissions.md)
    + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Funciones no admitidas](get-started/unsupported.md)
-   + [Buscar ayuda y orientación](get-started/using-ai.md)
+   + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
    + [Trabajar con archivos adjuntos](msg/gs-deliveries.md)
@@ -92,7 +92,7 @@ ht-degree: 85%
    + [Introducción a perfiles y audiencias](audience/gs-audiences-recipients.md)
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)
    + Trabajo con perfiles {#work-with-profiles}
-      + [Monitorización y administración de perfiles](audience/about-recipients.md)
+      + [Monitorizar y administrar perfiles](audience/about-recipients.md)
       + [Creación y administración de perfiles de prueba](audience/test-profiles.md)
    + Trabajo con audiencias {#audiences}
       + [Crear públicos](audience/create-audience.md)
@@ -135,7 +135,7 @@ ht-degree: 85%
       + [División](workflows/activities/split.md)
       + [Esperar](workflows/activities/wait.md)
 + Consultar la base de datos {#query-database}
-   + [Trabajar con el modelador de consultas](query/query-modeler-overview.md)
+   + [Uso del modelador de consultas](query/query-modeler-overview.md)
    + [Cree su primera consulta](query/build-query.md)
    + [Edición de expresiones](query/expression-editor.md)
    + [Ejemplos de consultas](query/query-samples.md)

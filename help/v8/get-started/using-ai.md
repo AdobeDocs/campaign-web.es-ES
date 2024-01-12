@@ -3,14 +3,14 @@ title: Uso de ayuda contextual con tecnología de IA en Campaign Web
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
 badge: label="Alfa"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 52%
+source-wordcount: '465'
+ht-degree: 49%
 
 ---
 
-# Uso de la ayuda contextual con tecnología de IA {#using-ai}
+# Ayuda contextual con tecnología de IA {#using-ai}
 
 Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, con la ayuda contextual de preguntas y respuestas con tecnología de IA disponible en los cuadros de ayuda contextual del producto.
 
@@ -18,7 +18,7 @@ Obtenga respuestas rápidas y generadas por IA basadas en la documentación del 
 >
 >Esta funcionalidad está disponible en versión Alfa y sujeta a cambios sin previo aviso.
 >
->Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas.
+>Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas. Como consecuencia, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) se establece en inglés antes de utilizar esta capacidad.
 
 
 El **Ayuda contextual con Gen AI** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
