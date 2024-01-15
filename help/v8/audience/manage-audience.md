@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Monitorizar y administrar públicos
+title: Monitorización y administración de audiencias
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 16%
+source-wordcount: '474'
+ht-degree: 14%
 
 ---
 
-# Monitorizar y administrar públicos {#monitor}
+# Monitorización y administración de audiencias {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

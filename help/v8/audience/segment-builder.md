@@ -4,10 +4,10 @@ title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 60%
+source-wordcount: '563'
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ La paleta se divide en dos pestañas:
 
 * **Atributos**: esta pestaña permite acceder a todos los campos disponibles del esquema. La lista de campos depende del esquema de segmentación definido en la plantilla de correo electrónico.
 
-* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola de Campaign Classic o desde Adobe Experience Platform. [Obtenga información sobre cómo monitorizar y administrar audiencias](manage-audience.md)
+* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola de Campaign Classic o desde Adobe Experience Platform. Obtenga información sobre cómo monitorizar y administrar audiencias en [esta sección](manage-audience.md)
 
   >[!NOTE]
   >

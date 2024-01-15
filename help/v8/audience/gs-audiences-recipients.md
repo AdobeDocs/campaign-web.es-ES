@@ -3,14 +3,14 @@ title: Introducción a perfiles y audiencias
 description: Aprenda a trabajar con perfiles y audiencias en Campaign Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilidad limitada"
-source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 17%
+source-wordcount: '204'
+ht-degree: 20%
 
 ---
 
-# Introducción a perfiles y audiencias {#about-profiles}
+# Introducción a perfiles y públicos {#about-profiles}
 
 En Adobe Campaign Web, una **perfil** es una persona almacenada en la base de datos que sirve como componente clave para crear audiencias para envíos y añadir datos de personalización al contenido. En la base de datos se almacenan varios tipos de perfiles, como **Perfiles de prueba**, diseñadas para probar los envíos antes de enviarlos a la audiencia final.
 
