@@ -4,19 +4,85 @@ description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidad limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
 # Documentación de la web de la versión 8 de Adobe Campaign {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="Ayuda y documentación"
+>abstract="Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="Disfrute de la nueva interfaz de usuario de Adobe Campaign"
+>abstract="Más moderna, intuitiva y dinámica."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="Elemento 1"
+>abstract="Nueva experiencia de diseño de notificaciones por correo electrónico, SMS y push"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="Elemento 2"
+>abstract="Interfaz simplificada del lienzo de flujo de trabajo"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="Elemento 3"
+>abstract="Experiencia de usuario rediseñada para Públicos, suscripciones y servicios, AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="Elemento 4"
+>abstract="Inteligencia artificial de generación de correo electrónico: generación de correo electrónico basada en indicaciones"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Ayuda y documentación"
 >abstract="Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="Disfrute de la nueva interfaz de usuario de Adobe Campaign"
+>abstract="Más moderna, intuitiva y dinámica."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="Elemento 1"
+>abstract="Nueva experiencia de diseño de notificaciones por correo electrónico, SMS y push"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="Elemento 2"
+>abstract="Interfaz simplificada del lienzo de flujo de trabajo"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="Elemento 3"
+>abstract="Experiencia de usuario rediseñada para Públicos, suscripciones y servicios, AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="Elemento 4"
+>abstract="Inteligencia artificial de generación de correo electrónico: generación de correo electrónico basada en indicaciones"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign ahora proporciona una nueva interfaz de usuario web con mejoras en la capacidad de uso, en la accesibilidad y un nuevo diseño para mejorar significativamente su experiencia de usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform. [Más información](get-started/get-started.md)
 

@@ -1,21 +1,31 @@
 ---
-title: Creación y uso de filtros predefinidos
+title: Trabajar con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en la IU web de Adobe Campaign
 badge: label="Disponibilidad limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 84%
+source-wordcount: '822'
+ht-degree: 85%
 
 ---
 
 # Trabajar con filtros predefinidos {#predefined-filters}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card4"
+>title="Administración de filtros predefinidos"
+>abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Administración de filtros predefinidos"
 >abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"

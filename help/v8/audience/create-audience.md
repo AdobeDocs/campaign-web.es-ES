@@ -4,10 +4,10 @@ title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '678'
+ht-degree: 29%
 
 ---
 
@@ -16,10 +16,21 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
+>id="acw_homepage_welcome_rn1"
 >title="Composición de público"
 >abstract="Cree nuevos públicos en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Combine varios públicos en uno solo, enriquézcalo con atributos externos o divídalo en varios en función de las reglas que elija."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+
+<!--TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage__rn1"
+>title="Composición de público"
+>abstract="Cree nuevos públicos en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Combine varios públicos en uno solo, enriquézcalo con atributos externos o divídalo en varios en función de las reglas que elija."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+
+<!--TO REMOVE ABOVE-->
+
 
 
 >[!CONTEXTUALHELP]
@@ -68,7 +79,7 @@ Para crear una audiencia, siga estos pasos:
 
 1. Cuando el flujo de trabajo esté listo, haga clic en **[!UICONTROL Inicio]** para ejecutarlo.
 
-El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** , mientras que las audiencias resultantes son accesibles en la **[!UICONTROL Audiencias]** lista. [Obtenga información sobre cómo monitorizar y administrar audiencias](manage-audience.md)
+El flujo de trabajo se guarda en **[!UICONTROL Flujos de trabajo]** , mientras que las audiencias resultantes son accesibles en la **[!UICONTROL Audiencias]** lista. Obtenga información sobre cómo monitorizar y administrar audiencias en [esta sección](manage-audience.md)
 
 Ahora puede utilizar esta audiencia como el destinatario principal de una entrega. [Más información](add-audience.md)
 

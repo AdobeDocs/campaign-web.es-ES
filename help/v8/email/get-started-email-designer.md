@@ -4,9 +4,9 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la IU de Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '472'
 ht-degree: 100%
 
 ---
@@ -14,11 +14,20 @@ ht-degree: 100%
 # Introducción al Diseñador de correo electrónico {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Nuevo Diseñador de correo electrónico"
+>abstract="El Diseñador de correo electrónico de campañas le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="Nuevo Diseñador de correo electrónico"
 >abstract="El Diseñador de correo electrónico de campañas le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
+<!--TO REMOVE ABOVE-->
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 

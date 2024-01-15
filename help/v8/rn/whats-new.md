@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 64%
+source-wordcount: '1368'
+ht-degree: 67%
 
 ---
 
@@ -15,9 +15,17 @@ ht-degree: 64%
 # Novedades {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Notas de la versión"
+>abstract="Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Notas de la versión"
 >abstract="Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales."
+
+<!--TO REMOVE ABOVE-->
 
 
 Nos complace presentar la nueva versión de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
@@ -91,7 +99,7 @@ A continuación, se enumeran las funciones clave incluidas en la versión de dis
 
 * **Audiencia de Target con el modelador de consultas**
 
-  Funciones web de Adobe Campaign **modelador de consultas potente e intuitivo** que simplifica el proceso de filtrado de bases de datos para seleccionar objetivos específicos según diversos criterios. Esto incluye el uso de expresiones avanzadas y operadores. El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos.
+  Funciones web de Adobe Campaign **modelador de consultas potente e intuitivo** que simplifica el proceso de filtrado de bases de datos para seleccionar objetivos específicos según diversos criterios. Incluye el uso de operadores y expresiones avanzados. El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar datos.
 
   Obtenga más información en [esta sección](../query/query-modeler-overview.md).
 

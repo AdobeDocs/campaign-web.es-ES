@@ -1,21 +1,31 @@
 ---
-title: Monitorizar y administrar perfiles
+title: Monitorización y administración de perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 badge: label="Disponibilidad limitada"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 43%
+source-wordcount: '943'
+ht-degree: 44%
 
 ---
 
-# Monitorización y edición de perfiles {#profiles}
+# Monitorización y administración de perfiles {#profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Vista 360 de sus perfiles"
+>abstract="Cree nuevos perfiles y monitorícelos con potentes informes y herramientas. Acceda a los atributos, interacciones y registros de sus perfiles. Utilice las opciones de filtrado para examinar la lista de perfiles y editar y actualizar su perfil."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="Vista 360 de sus perfiles"
 >abstract="Cree nuevos perfiles y monitorícelos con potentes informes y herramientas. Acceda a los atributos, interacciones y registros de sus perfiles. Utilice las opciones de filtrado para examinar la lista de perfiles y editar y actualizar su perfil."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
