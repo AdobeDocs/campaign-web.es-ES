@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Administración de los suscriptores de un servicio
+title: Administración de los suscriptores
 description: Obtenga información sobre cómo administrar y entregar a los suscriptores de un servicio en Adobe Campaign Web
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Administración de los suscriptores de un servicio {#manage-subscribers}
+# Administración de los suscriptores {#manage-subscribers}
 
 Una vez que [creó un servicio](manage-services.md#create-service), puede añadir suscriptores, cancelar la suscripción de destinatarios y enviar mensajes a los suscriptores de ese servicio.
 

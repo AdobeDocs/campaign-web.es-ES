@@ -4,14 +4,14 @@ title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '761'
 ht-degree: 18%
 
 ---
 
-# Trabajar con servicios de suscripción {#manage-services}
+# Creación y administración de servicios de suscripción {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

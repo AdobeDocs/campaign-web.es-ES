@@ -4,14 +4,14 @@ title: Creación de una audiencia única para una entrega
 description: Obtenga información sobre cómo crear una audiencia única para una entrega.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 28%
+source-wordcount: '227'
+ht-degree: 30%
 
 ---
 
-# Creación de una audiencia única para una entrega {#sone-time}
+# Crear un público único {#one-time}
 
 En esta sección se describe cómo crear una audiencia al crear una nueva entrega. En este caso, los destinatarios que se incluyen en la audiencia de envío se segmentan consultando la base de datos con el modelador de consultas.
 

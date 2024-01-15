@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Creación de flujos de trabajo con la web de Adobe Campaign
-description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
+title: Principios clave de la creación de un flujo de trabajo
+description: Conozca los principios clave de los flujos de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 96%
+source-wordcount: '283'
+ht-degree: 92%
 
 ---
+
 
 # Principios clave de la creación de un flujo de trabajo {#gs-workflow-creation}
 

@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Examen, búsqueda y filtrado de listas
+title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 badge: label="Disponibilidad limitada"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 81%
+source-wordcount: '239'
+ht-degree: 78%
 
 ---
 
-# Examen, búsqueda y filtrado de listas {#list-screens}
+# Examen y filtrado de listas {#list-screens}
 
 La mayoría de los vínculos del menú de navegación izquierdo muestran listas de objetos, como la lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista y filtrar estas listas, como se detalla a continuación.
 

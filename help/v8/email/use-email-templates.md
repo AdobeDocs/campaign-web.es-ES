@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: Uso de plantillas de correo electrónico
-description: Aprenda a utilizar las plantillas de correo electrónico en Adobe Campaign
+title: Uso de plantillas de contenido de correo electrónico
+description: Aprenda a utilizar las plantillas de contenido de correo electrónico en Adobe Campaign
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Disponibilidad limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 11%
 
 ---
 
-# Uso de plantillas de correo electrónico {#use-email-templates}
+# Uso de plantillas de contenido de correo electrónico {#use-email-templates}
 
 Cuándo [creación de un correo electrónico](../email/create-email.md), use el **[!UICONTROL Seleccionar plantilla de diseño]** de la sección **[!UICONTROL Cree su correo electrónico]** para empezar a crear contenido a partir de una plantilla.
 

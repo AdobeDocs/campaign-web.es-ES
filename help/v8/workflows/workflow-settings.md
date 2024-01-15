@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Creación de flujos de trabajo con la web de Adobe Campaign
-description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
+title: Configuración del flujo de trabajo
+description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 30%
+source-wordcount: '911'
+ht-degree: 29%
 
 ---
+
 
 # Configuración del flujo de trabajo {#workflow-settings}
 

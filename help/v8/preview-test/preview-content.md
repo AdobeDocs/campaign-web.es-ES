@@ -4,15 +4,15 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidad limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
 
-# Previsualización del contenido de envío {#preview-content}
+# Vista previa del contenido del mensaje. {#preview-content}
 
 Utilice el [!DNL Campaign] capacidad de simulación de contenido para previsualizar el contenido del mensaje antes de enviarlo. Esto permite controlar la personalización y comprobar cómo se muestra a los destinatarios.
 

@@ -4,14 +4,14 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 badge: label="Disponibilidad limitada"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '571'
 ht-degree: 4%
 
 ---
 
-# Inicio y monitorización de un flujo de trabajo {#start-monitor}
+# Inicio y monitorización de flujos de trabajo {#start-monitor}
 
 Una vez creado el flujo de trabajo y diseñado las tareas que se realizan en el lienzo, puede iniciarlo y monitorizar cómo se está ejecutando.
 

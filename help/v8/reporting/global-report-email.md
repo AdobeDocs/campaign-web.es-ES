@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Informes globales del canal de correo electrónico
-description: Más información sobre los Informes globales del canal de correo electrónico
+description: Más información sobre los informes globales del canal de correo electrónico
 badge: label="Disponibilidad limitada"
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 9%
