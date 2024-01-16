@@ -4,7 +4,7 @@ title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 29%
@@ -24,7 +24,7 @@ ht-degree: 29%
 <!--TO REMOVE BELOW-->
 
 >[!CONTEXTUALHELP]
->id="acw_homepage__rn1"
+>id="acw_homepage_rn1"
 >title="Composición de público"
 >abstract="Cree nuevos públicos en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Combine varios públicos en uno solo, enriquézcalo con atributos externos o divídalo en varios en función de las reglas que elija."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
