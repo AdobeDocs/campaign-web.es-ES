@@ -4,10 +4,10 @@ title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 85%
+source-wordcount: '912'
+ht-degree: 84%
 
 ---
 
@@ -97,7 +97,10 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 >title="Reglas de inclusión "
 >abstract="Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en Añadir una regla en la sección Reglas de exclusión y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combinar generar complemento"
+>abstract="Active la opción Generar complemento para procesar la población restante en una transición adicional."
 
 En el **Combinar** actividad, puede configurar un **Exclusión**. Para ello, debe seguir los pasos adicionales a continuación:
 

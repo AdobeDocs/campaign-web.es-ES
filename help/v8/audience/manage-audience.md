@@ -4,14 +4,24 @@ title: Monitorización y administración de audiencias
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 14%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # Monitorización y administración de audiencias {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Propiedades"
+>abstract="Aquí puede encontrar un resumen de las propiedades de la audiencia, como su origen, carpeta de almacenamiento o estado. Haga clic en el vínculo en la **Último flujo de trabajo** para abrir el flujo de trabajo que se ha utilizado para crear la audiencia."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Tamaño de audiencia"
+>abstract="Aquí puede encontrar el número total de perfiles dentro de la audiencia. Haga clic en el botón Calcular para actualizar y volver a calcular los resultados de la audiencia."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

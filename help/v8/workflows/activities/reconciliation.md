@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 badge: label="Disponibilidad limitada"
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 39%
 
 El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.
 
-Por ejemplo, la actividad **Reconciliación** se puede colocar después de la actividad **Cargar público** para importar datos no estándar a la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
+Por ejemplo, la variable **Reconciliación** la actividad se puede colocar después de **Cargar archivo** actividad para importar datos no estándar en la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
 
 ## Prácticas recomendadas {#reconciliation-best-practices}
 

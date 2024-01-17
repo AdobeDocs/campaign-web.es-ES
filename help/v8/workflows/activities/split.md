@@ -4,10 +4,10 @@ title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 badge: label="Disponibilidad limitada"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 89%
+source-wordcount: '777'
+ht-degree: 83%
 
 ---
 
@@ -23,6 +23,11 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 ## Configuración de la actividad División {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segmentos de actividad dividida"
+>abstract="Añada tantos subconjuntos como desee para segmentar la población entrante.<br/></br>Si la variable **Split** Cuando se ejecuta la actividad, la población se segmenta en los diferentes subconjuntos en el orden en que se añaden a la actividad. Antes de iniciar el flujo de trabajo, asegúrese de haber ordenado los subconjuntos en el orden que mejor se adapte a sus necesidades mediante los botones de flecha."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Filtro de la actividad de división"
 >abstract="Para aplicar una condición de filtrado al subconjunto, haga clic en **[!UICONTROL Crear filtro]** y configure la regla de filtrado que desee. Por ejemplo, incluya perfiles de la población entrante cuya dirección de correo electrónico existe en la base de datos."
@@ -31,7 +36,6 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >id="acw_orchestration_split_limit"
 >title="Límite de la actividad de división"
 >abstract="Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
