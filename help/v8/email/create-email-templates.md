@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 16%
+source-wordcount: '802'
+ht-degree: 15%
 
 ---
 
@@ -106,7 +106,7 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
    ![](assets/content-template-create.png)
 
-1. Rellene los detalles de la plantilla. Puede seleccionar la carpeta en la que desea almacenar la plantilla. De forma predeterminada, las plantillas de contenido se almacenan en un nodo específico de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
+1. Rellene los detalles de la plantilla. Puede seleccionar la carpeta en la que desea almacenar la plantilla. De forma predeterminada, las plantillas de contenido se almacenan en una carpeta específica de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ Para crear una plantilla de contenido desde cero, siga los pasos a continuación
 
    ![](assets/content-template-save-back.png)
 
-Esta plantilla ya está lista para utilizarse al crear cualquier correo electrónico en [!DNL Adobe Campaign]. [Descubra cómo](use-email-templates.md)
+La plantilla se guarda en la carpeta predeterminada de la jerarquía de Adobe Campaign (**[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**). [Más información sobre las carpetas](../get-started/permissions.md#folders)
+
+También se muestra en la **[!UICONTROL Plantillas de contenido]** lista. [Más información](#access-manage-templates)
+
+Ahora puede utilizar esta plantilla para crear un nuevo contenido: está disponible en el **[!UICONTROL Plantillas guardadas]** del Diseñador de correo electrónico. [Descubra cómo](use-email-templates.md)
 
 ### Guardar contenido de correo electrónico como plantilla {#save-as-template}
 
@@ -154,11 +158,13 @@ Para guardar un contenido de correo electrónico como plantilla, siga los pasos 
 
    ![](assets/email_designer-template-name.png)
 
+La plantilla se guarda en la carpeta predeterminada de la jerarquía de Adobe Campaign (**[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**). [Más información sobre las carpetas](../get-started/permissions.md#folders)
+
+También se muestra en la **[!UICONTROL Plantillas de contenido]** lista. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
+
 Ahora puede utilizar esta plantilla para crear un nuevo contenido: está disponible en el **[!UICONTROL Plantillas guardadas]** del Diseñador de correo electrónico. [Descubra cómo](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-La plantilla se guarda en el **[!UICONTROL Plantillas de contenido]** , accesible desde el [!DNL Adobe Campaign] menú específico. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
 
 >[!NOTE]
 >
