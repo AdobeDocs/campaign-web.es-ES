@@ -3,10 +3,10 @@ title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
+source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 94%
+source-wordcount: '463'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, pero le corresponde a usted contrastar los datos. Puede dar respuestas incorrectas, inexactas o falsas. Asegúrese de consultar la documentación del producto vinculada en cada cuadro de ayuda.
 
-Los modelos de inteligencia artificial y aprendizaje automático mejoran con el tiempo para abordar mejor los casos de uso específicos. La ayuda contextual con tecnología de IA de Campaign seguirá mejorando en los próximos meses. Al leer las respuestas, le recomendamos encarecidamente que utilice los botones ?? ?? para informar de cualquier respuesta inapropiada a nuestros ingenieros.
+Los modelos de inteligencia artificial y aprendizaje automático mejoran con el tiempo para abordar mejor los casos de uso específicos. La ayuda contextual con tecnología de IA de Campaign seguirá mejorando en los próximos meses. Le recomendamos encarecidamente que utilice el <img src="assets/do-not-localize/thumb.png" width="10%"/> cada vez que lea una respuesta, para marcar cualquier respuesta inapropiada a nuestros ingenieros.
 
 ## Recomendaciones  {#recommendations-ai}
 
