@@ -5,7 +5,7 @@ description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
 source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 

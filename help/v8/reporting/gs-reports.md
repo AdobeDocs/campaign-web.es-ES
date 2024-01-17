@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo acceder y administrar informes en 
 badge: label="Disponibilidad limitada"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ Nuestro completo conjunto de herramientas de creación de informes proporciona i
 
 Adobe Campaign ofrece tres informes diferentes:
 
-* **Informes de entrega**
+* **Informes de envío**
 
-  El **Informes de envío** proporciona información y datos detallados centrados exclusivamente en su **envíos** en cada canal. Estos informes proporcionan información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
+  Los **informes de envío** proporcionan información y datos detallados centrados exclusivamente en sus **envíos** en cada canal. Estos informes proporcionan información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
 
 
 * **Informes de campaña**
 
-  El **Informes de campaña** proporciona una visión general completa de su **campaña**, incorporando toda la información pertinente sobre las diferentes entregas incluidas. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío por canal: tasa de éxito, participación del público y otras métricas esenciales. Le permiten evaluar la eficacia y el impacto generales de la campaña.
+  Los **informes de campaña** ofrecen una descripción general completa de la **campaña**, que incluye toda la información pertinente sobre los distintos envíos incluidos. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío por canal: tasa de éxito, participación del público y otras métricas esenciales. Le permiten evaluar la eficacia y el impacto generales de la campaña.
 
 
 * **Informes globales**
 
-  El **Informes globales** constituye una herramienta eficaz que ofrece un resumen global consolidado de las métricas de tráfico y participación para cada canal dentro de la instancia de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o la entrega.
+  Los **informes globales** constituyen una herramienta eficaz que ofrece un resumen global consolidado de las métricas de tráfico y participación para cada canal dentro de la instancia de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o el envío.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -46,7 +46,7 @@ Adobe Campaign ofrece tres informes diferentes:
 <a href="delivery-reports.md">
 <img alt="Posible cliente" src="assets/do-not-localize/email_report.jpeg">
 </a>
-<div><a href="delivery-reports.md"><strong>Informes de entrega</strong>
+<div><a href="delivery-reports.md"><strong>Informes de envío</strong>
 </div>
 <p>
 </td>

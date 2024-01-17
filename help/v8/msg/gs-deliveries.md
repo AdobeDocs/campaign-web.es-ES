@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: Trabajar con archivos adjuntos
-description: Obtenga información sobre cómo crear su primera entrega en Campaign Web
+title: Trabajar con envíos
+description: Aprenda a crear el primer envío en la web de Campaign
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Trabajar con archivos adjuntos {#work-with-deliveries}
+# Trabajar con envíos {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
@@ -37,7 +37,7 @@ Para crear un envío independiente, siga estos pasos:
 
    ![](assets/create-a-delivery.png)
 
-1. Elija un canal para la entrega.
+1. Elija un canal para el envío.
 1. Defina el público del envío para el público destinatario principal y el grupo de control. Puede obtener más información sobre los públicos en [esta sección](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){width="70%" align="left"}
@@ -59,9 +59,9 @@ Para crear un envío independiente, siga estos pasos:
 
 Para crear un envío en un flujo de trabajo, siga estos pasos:
 
-1. Cree un flujo de trabajo o abra uno existente. Obtenga más información acerca de los flujos de trabajo en [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps).
-1. Adición y configuración de un **[!UICONTROL Crear audiencia]** actividad. Obtenga más información acerca de **[!UICONTROL Crear audiencia]** actividad en [esta sección](../workflows/activities/build-audience.md).
-1. Haga clic en `+` y seleccione una actividad de entrega: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta [sección](../workflows/activities/channels.md).
+1. Cree un flujo de trabajo o abra uno existente. Obtenga más información acerca de los permisos en [esta página](../workflows/gs-workflow-creation.md#gs-workflow-steps).
+1. Añadir y configurar una actividad **[!UICONTROL Generar público]**. Obtenga más información acerca de la actividad **[!UICONTROL Generar público]** en [esta sección](../workflows/activities/build-audience.md).
+1. Haga clic en el icono `+` y seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en esta [sección](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
@@ -80,7 +80,7 @@ Para obtener más información sobre cómo configurar una campaña y administrar
 
 ## Adición de personalización {#personalization}
 
-Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información sobre las funcionalidades de personalización](../personalization/gs-personalization.md).
+Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información acerca las funcionalidades de personalización](../personalization/gs-personalization.md).
 
 Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados. Las funcionalidades de personalización se pueden combinar para mejorar sus mensajes y crear una experiencia de usuario personalizada.
 

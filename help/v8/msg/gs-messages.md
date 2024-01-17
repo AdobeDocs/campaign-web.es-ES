@@ -5,19 +5,19 @@ description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Ca
 badge: label="Disponibilidad limitada"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 # Introducción a los mensajes{#gs-messages}
 
-Con Adobe Campaign, puede enviar campañas en canales múltiples, incluidos correos electrónicos, SMS y notificaciones push, y medir su impacto mediante varios informes dedicados.
+Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su impacto mediante varios informes dedicados.
 
-Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario. Estos envíos pueden ser independientes o incluirse en flujos de trabajo en el contexto de una campaña de marketing. Obtenga información sobre cómo crear y administrar entregas en Adobe Campaign en [esta sección](gs-deliveries.md).
+Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario. Estos envíos pueden ser independientes o incluirse en flujos de trabajo en el contexto de una campaña de marketing. Aprenda a crear y administrar envíos en Adobe Campaign en [esta sección](gs-deliveries.md).
 
-Adobe Campaign v8 incluye los siguientes canales de entrega: correo electrónico, SMS y aplicaciones móviles. Examine las secciones siguientes para aprender a crear y enviar mensajes.
+Adobe Campaign v8 incluye los siguientes canales de envío: correo electrónico, SMS y aplicaciones móviles. Examine las secciones siguientes para aprender a crear y enviar mensajes.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
