@@ -6,7 +6,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 >title="Filtros predefinidos"
 >abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
 
-Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el modelador de consultas, por ejemplo al filtrar una lista de datos o crear la audiencia de una entrega.
+Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el modelador de consultas, por ejemplo, al filtrar una lista de datos o crear el público de un envío.
 
 Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de sus datos o crear sus propios filtros predefinidos y guardarlos.
 
@@ -55,11 +55,11 @@ Puede utilizar filtros integrados existentes para acceder a un subconjunto espec
 >title="Creación de reglas de filtro predefinidas"
 >abstract="Para definir las condiciones de filtrado del filtro personalizado, haga clic en el botón “Crear regla”."
 
-### Creación de un filtro desde el modelador de consultas {#create-from-rule-builder}
+### Cree un filtro a partir del modelador de consultas {#create-from-rule-builder}
 
-Puede guardar un filtro personalizado desde el [modelador de consultas](../query/query-modeler-overview.md) para tenerlo disponible para uso futuro. Siga estos pasos:
+Puede guardar un filtro personalizado desde el [modelador de consultas](../query/query-modeler-overview.md) para que esté disponible para usarlo en el futuro. Siga estos pasos:
 
-1. Abra el modelador de consultas y defina las condiciones de filtrado. En el siguiente ejemplo, se filtra los destinatarios que viven en Madrid y se suscribieron a un boletín informativo.
+1. Abra el modelador de consultas y defina las condiciones de filtrado. En el ejemplo siguiente, se filtran los destinatarios que viven en Madrid y están suscritos a una Newsletter.
 1. Haga clic en el botón **Seleccionar o guardar filtro** y seleccione **Guardar como filtro**.
 
    ![](assets/predefined-filters-save.png)
@@ -94,7 +94,7 @@ Puede crear un filtro desde la entrada **Filtros predefinidos** en el menú de l
    ![](assets/new-filter.png)
 
 
-El filtro se agrega a la lista de filtros predefinidos. Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
+El filtro se añade a la lista de filtros predefinidos. Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
 
 
 ## Guarde el filtro como favorito {#fav-filter}
@@ -151,7 +151,7 @@ A partir de esa lista, puede crear un nuevo filtro como se explica más arriba y
 * duplicar un filtro predefinido
 * eliminar un filtro predefinido
 
-Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear audiencias. Obtenga más información en [esta sección](#fav-filter).
+Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear públicos. Obtenga más información en [esta sección](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

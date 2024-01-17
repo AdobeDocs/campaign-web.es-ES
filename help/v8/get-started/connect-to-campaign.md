@@ -6,7 +6,7 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 81%
+ht-degree: 96%
 
 ---
 
@@ -51,13 +51,13 @@ Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a uti
 
 ## Navegación superior de Adobe Experience Cloud {#top-bar}
 
-Examine la barra superior de la interfaz para:
+Examine la barra superior de la interfaz para lo siguiente:
 
 * cambiar entre sus organizaciones
 * cambiar entre sus soluciones y aplicaciones de Adobe Experience Cloud
-* buscar ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* buscar ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}
 * comprobar las notificaciones del producto
-* editar el perfil de Adobe y administrar la configuración, como [actualizar su idioma favorito](#language-pref) o [cambiar al tema claro/oscuro](#dark-theme)
+* editar el perfil de Adobe y administrar la configuración, como [actualizar su idioma favorito](#language-pref) o [cambiar a la temática clara/oscura](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -95,9 +95,9 @@ Para cambiar el idioma, haga lo siguiente:
 >
 
 
-## Temas oscuros y claros {#dark-theme}
+## Temáticas oscuras y claras {#dark-theme}
 
-Adobe Campaign está disponible en los temas claro y oscuro. De forma predeterminada, la interfaz de usuario está habilitada en el tema claro. Para cambiar al tema oscuro, haga clic en su icono de perfil y utilice el **Tema oscuro** marque esta opción para habilitarla o deshabilitarla.
+Adobe Campaign está disponible en temáticas claras y oscuras. De forma predeterminada, la interfaz de usuario está habilitada en la temática clara. Para cambiar a la temática oscura, haga clic en su icono de perfil y utilice la opción **Temática oscura** para habilitarla o deshabilitarla.
 
 La configuración del perfil de usuario y las preferencias de cuenta se detallan en [esta sección](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#preferences){target="_blank"}.
 

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Web de la versión 8 de Campaign
-user-guide-description: Documentación del producto para la web de Campaign v8.
+user-guide-description: Documentación del producto para la web de la versión 8 de Campaign.
 title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Web de la versión 8 de Campaign
@@ -9,7 +9,7 @@ hide: true
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
-   + [Trabajar con archivos adjuntos](msg/gs-deliveries.md)
+   + [Trabajar con envíos](msg/gs-deliveries.md)
    + [Uso de plantillas de envío](msg/delivery-template.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
@@ -94,7 +94,7 @@ ht-degree: 83%
    + Trabajo con perfiles {#work-with-profiles}
       + [Monitorización y administración de perfiles](audience/about-recipients.md)
       + [Creación y administración de perfiles de prueba](audience/test-profiles.md)
-   + Trabajo con audiencias {#audiences}
+   + Trabajo con públicos {#audiences}
       + [Crear públicos](audience/create-audience.md)
       + [Monitorización y administración de audiencias](audience/manage-audience.md)
    + Seleccionar los destinatarios del envío {#target-audiences}
@@ -135,11 +135,11 @@ ht-degree: 83%
       + [División](workflows/activities/split.md)
       + [Esperar](workflows/activities/wait.md)
 + Consultar la base de datos {#query-database}
-   + [Uso del modelador de consultas](query/query-modeler-overview.md)
-   + [Cree su primera consulta](query/build-query.md)
-   + [Edición de expresiones](query/expression-editor.md)
+   + [Trabajar con el modelador de consultas](query/query-modeler-overview.md)
+   + [Genere su primera consulta](query/build-query.md)
+   + [Editar expresiones](query/expression-editor.md)
    + [Ejemplos de consultas](query/query-samples.md)
-   + [Filtrado de listas](query/filter.md)
+   + [Filtrar listas](query/filter.md)
 + Creación de informes {#reports}
    + [Introducción a los informes](reporting/gs-reports.md)
    + [Exportación de informes](reporting/export-reports.md)
@@ -156,6 +156,6 @@ ht-degree: 83%
       + [Informe de campaña de SMS](reporting/campaign-reports-sms.md)
    + Informes globales {#global-report}
       + [Introducción a los informes globales](reporting/global-reports.md)
-      + [Informe global de correo electrónico](reporting/global-report-email.md)
-      + [Informe global push](reporting/global-report-push.md)
+      + [Informe global de correos electrónicos](reporting/global-report-email.md)
+      + [Informe global de push](reporting/global-report-push.md)
       + [Informe global de SMS](reporting/global-report-sms.md)
