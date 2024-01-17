@@ -4,9 +4,9 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la IU web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidad limitada"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
      >[!NOTE]
      >
      >También puede ver y administrar perfiles desde la pestaña correspondiente de la interfaz de usuario web de Campaign. [Más información](../audience/about-recipients.md)
+
+1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. Obtenga información sobre cómo agregar reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
 
 1. Clic **[!UICONTROL Seleccionar]** para confirmar la selección.
 

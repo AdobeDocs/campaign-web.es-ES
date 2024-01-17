@@ -4,9 +4,9 @@ title: Envío de entregas de prueba
 description: Obtenga información sobre cómo definir y enviar envíos de prueba
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Disponibilidad limitada"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 13%
 
 ---
@@ -89,7 +89,7 @@ A continuación se detallan los pasos para enviar envíos de prueba a direccione
 
 1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como destinatarios de prueba. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
 
-1. Al examinar la lista de perfiles de prueba, puede utilizar filtros para restringir la búsqueda.
+1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda.
 
    ![](assets/simulate-test-profile-filter.png)
 
