@@ -4,7 +4,7 @@ title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 badge: label="Disponibilidad limitada"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 38%
@@ -16,7 +16,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Envío de creación de informes"
->abstract="La pestaña **Enviando** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
+>abstract="La pestaña **Envío** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
 
 El **Informe de envío push** ofrece una descripción general completa del canal push, con amplias perspectivas y datos específicos. Ofrece información completa sobre el rendimiento, la eficacia y los resultados de cada envío.
 
