@@ -2,12 +2,12 @@
 audience: end-user
 title: Administración de los suscriptores
 description: Obtenga información sobre cómo administrar y entregar a los suscriptores de un servicio en Adobe Campaign Web
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Para añadir suscriptores manualmente, siga los pasos a continuación.
 
 1. Seleccione un servicio existente del **[!UICONTROL Servicios de suscripción]** lista.
 
-1. Seleccione el **[!UICONTROL Suscriptores]** y haga clic en **[!UICONTROL Añadir perfiles]**.
+1. Vaya a la **[!UICONTROL Suscriptores]** y haga clic en **[!UICONTROL Añadir suscriptores]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ Para añadir suscriptores manualmente, siga los pasos a continuación.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Clic **[!UICONTROL Enviar]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> Los destinatarios seleccionados recibirán la suscripción [mensaje de confirmación](manage-services.md#create-confirmation-message) que seleccionó al [creación del servicio](manage-services.md#create-service).
+1. Clic **[!UICONTROL Enviar]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> para que los destinatarios seleccionados reciban la suscripción [mensaje de confirmación](manage-services.md#create-confirmation-message) que definió al [creación del servicio](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-Los perfiles añadidos se muestran en la variable **[!UICONTROL Suscriptores]** lista. Ahora están suscritos a su servicio.
+   >[!NOTE]
+   >
+   >Si selecciona **[!UICONTROL Cancelar]** No obstante, no se envía ningún mensaje de confirmación a los perfiles seleccionados, pero sí que se suscriben.
+
+Los perfiles añadidos se muestran en la variable **[!UICONTROL Suscriptores]** pestaña. Ahora están suscritos a su servicio.
 
 ## Eliminación de suscriptores del servicio {#remove-subscribers}
 
@@ -49,7 +53,9 @@ Una vez que [suscriptores añadidos](#add-subscribers) Al servicio, puede cancel
 
    ![](assets/service-subscribers-delete.png)
 
-1. Confirme la eliminación y haga clic en **[!UICONTROL Enviar]**. El destinatario seleccionado recibirá la baja [mensaje de confirmación](manage-services.md#create-confirmation-message) que seleccionó al [creación del servicio](manage-services.md#create-service).
+1. Confirme la eliminación.
+
+1. Clic **[!UICONTROL Enviar]** para que el destinatario seleccionado reciba la baja [mensaje de confirmación](manage-services.md#create-confirmation-message) que definió al [creación del servicio](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 

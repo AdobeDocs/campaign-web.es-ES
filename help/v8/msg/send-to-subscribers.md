@@ -2,11 +2,11 @@
 audience: end-user
 title: Envío de mensajes a los suscriptores de un servicio
 description: Obtenga información sobre cómo enviar mensajes a los suscriptores de un servicio
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---

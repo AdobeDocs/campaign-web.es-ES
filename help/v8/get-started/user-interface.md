@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1410'
 ht-degree: 100%
 
 ---
@@ -325,9 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Condición de línea de asunto de contenido condicional"
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Simulación de perfiles de prueba"
@@ -350,22 +347,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_totalnumber_subscribers"
->title="Número total de suscripciones"
->abstract="Número total de suscripciones"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overtheperiod_subscribers"
->title="Suscripciones durante el periodo"
->abstract="Suscripciones durante el periodo"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overallevolution_subscribers"
->title="Evolución general de suscripciones"
->abstract="Evolución general de suscripciones"
-
-
->[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenido para correo directo"
 >abstract="Contenido para correo directo"
@@ -379,8 +360,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Propiedades de contenido para correo directo"
 >abstract="Propiedades de contenido para correo directo"
-
-
 
 
 <!--
