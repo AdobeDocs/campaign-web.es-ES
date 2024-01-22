@@ -4,10 +4,10 @@ title: Introducción a la web de la versión 8 de Campaign
 description: Introducción a la web de la versión 8 de Campaign
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilidad limitada"
-source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 80%
 
 ---
 
@@ -31,13 +31,22 @@ ht-degree: 100%
 
 Adobe Campaign ofrece una plataforma para elaborar experiencias multicanal para los clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
+Adobe Campaign v8 es la herramienta de campaña de próxima generación diseñada para varios canales de marketing, como correo electrónico, notificaciones push, SMS y correo directo. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para comunicaciones como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
+
+Utilice Campaign para lo siguiente:
+
+* **Impulso de la personalización y la participación mediante una única vista accesible del cliente**
+* **Integración de canales de correo electrónico, móviles, en línea y sin conexión en el recorrido del cliente**
+* **Automatización de la entrega de mensajes y ofertas significativos y oportunos**
+
+
 Inicialmente, solo estaba disponible a través de la [consola del cliente](#ac-client). Aunque ahora, Campaign proporciona una nueva web con una interfaz de usuario (IU) mejorada: con mejores en la facilidad de uso, en la accesibilidad, y un nuevo diseño para mejorar significativamente la experiencia del usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
 
 ![](assets/home.png)
 
 Esta nueva interfaz de usuario atiende primero a las necesidades del **profesional empresarial**. Todas las tareas de administración típicas no están disponibles en esta primera versión, pero se abordarán en versiones posteriores. Tenga en cuenta que, por ahora, no todas las funciones u opciones disponibles en la consola del cliente están disponibles en la nueva interfaz de usuario. En futuras versiones habrá disponibles nuevos casos de uso, opciones y funciones.
 
-Si necesita acceder a las funciones de la versión 8 de Campaign que no están disponibles en la IU de la web, puede usar la variable [consola del cliente](#ac-client).
+Como administrador o usuario experto, si necesita acceder a las funcionalidades de Campaign v8 que no están disponibles en la interfaz de usuario web, puede conectarse a [consola de cliente](#ac-client).
 
 
 >[!NOTE]
@@ -54,4 +63,4 @@ Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos est
 
 Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la IU de Campaign Web, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista de Explorer, en el menú de navegación de la izquierda.
 
-Para obtener más información sobre el uso de Campaign v8, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo utilizar Campaign v8 con su consola de cliente, consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
