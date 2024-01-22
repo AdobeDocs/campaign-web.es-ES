@@ -6,7 +6,7 @@ exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ La posición de los nodos se actualiza cada vez que se añade o elimina una acti
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Este filtro es de solo lectura"
->abstract="Algunos filtros predefinidos no están disponibles en la interfaz de usuario en esa versión del producto. Estos filtros están marcados como de solo lectura. Aunque no pueda ver la representación gráfica de la consulta en el modelador de consultas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la variable **Atributos** de la pantalla."
+>abstract="Algunos filtros predefinidos no están disponibles en la interfaz de usuario en esa versión del producto. Estos filtros están marcados como de solo lectura. Aunque no pueda ver la representación gráfica de la consulta en el modelador de consultas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la sección **Atributos** de la pantalla."
 
 Al seleccionar el público de un envío o al crear un público en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario en esa versión del producto. Estos filtros están marcados como de solo lectura.
 
@@ -69,7 +69,7 @@ Se muestra un mensaje de error específico.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Aunque no pueda ver la representación gráfica de la consulta en el modelador de consultas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la variable **Atributos** de la pantalla.
+Aunque no pueda ver la representación gráfica de la consulta en el modelador de consultas y no pueda editar el filtro, puede utilizarlo y ver las condiciones de filtrado en la sección **Atributos** de la pantalla.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

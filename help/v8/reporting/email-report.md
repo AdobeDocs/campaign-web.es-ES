@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -286,10 +286,10 @@ El informe de **[!UICONTROL URL y flujos de clics]** proporciona indicadores cla
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="Los 10 vínculos más visitados"
->abstract="El **Los 10 vínculos más visitados** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo."
+>abstract="El gráfico y la tabla **Los 10 vínculos más visitados** contienen los datos disponibles sobre el comportamiento del destinatario por vínculo."
 
 
-El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
+El gráfico y la tabla **[!UICONTROL Los 10 vínculos más visitados]** contienen los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
 ![](assets/reporting_email_8.png){align="center"}
 

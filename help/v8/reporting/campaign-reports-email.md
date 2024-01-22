@@ -7,7 +7,7 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,7 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Estadísticas de público destinatario inicial"
->abstract="La tabla Initial target audience statistics muestra los datos relativos a los destinatarios."
+>abstract="La tabla Estadísticas del público destinatario muestra los datos relativos a los destinatarios."
 
 El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 

@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
@@ -84,7 +84,7 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="Seleccione un público para el envío"
->abstract="Seleccione el mejor público para el mensaje de marketing. Puede elegir una audiencia existente (ya definida en una instancia de Campaign v8 o de Adobe Experience Platform), crear una nueva audiencia con el modelador de consultas o cargar un archivo que contenga la audiencia. Los grupos de control no están habilitados para la opción **Seleccionar del archivo** y viceversa."
+>abstract="Seleccione el mejor público para el mensaje de marketing. Puede elegir un público existente (ya definido en una instancia de la versión 8 de Campaign o Adobe Experience Platform), crear un nuevo público con el modelador de consultas o cargar un archivo que contenga el público. Los grupos de control no están habilitados para la opción **Seleccionar del archivo** y viceversa."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=es" text="Selección de los públicos principales"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=es" text="Establecer un grupo de control"
 

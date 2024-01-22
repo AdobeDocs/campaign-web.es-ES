@@ -3,10 +3,11 @@ audience: end-user
 title: Informes globales para el canal SMS
 description: Comprensión de los informes globales del canal SMS
 badge: label="Disponibilidad limitada"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 4%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +24,7 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 >[!CONTEXTUALHELP]
 >id="acw_sms_global_report_overview"
 >title="Información general sobre el envío de SMS"
->abstract="El **Resumen de envío de SMS** Los KPI proporcionan un resumen exhaustivo de su envío de SMS, ofreciendo perspectivas detalladas y datos específicos. Ofrece información completa sobre el rendimiento, la eficacia y los resultados de su envío."
+>abstract="Los indicadores clave de rendimiento (KPI) de la **Información general sobre el envío de SMS** ofrecen un resumen completo del envío de SMS, con información detallada y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
 El **[!UICONTROL Resumen de entrega]** Este informe ofrece indicadores clave de rendimiento (KPI) completos que proporcionan una perspectiva exhaustiva de los patrones de interacción de los visitantes con cada envío de SMS. A continuación se describen las métricas siguientes.
 
@@ -46,7 +47,7 @@ El **[!UICONTROL Resumen de entrega]** Este informe ofrece indicadores clave de 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="Población de destino de SMS"
->abstract="El gráfico y la tabla de **Población de destino** presentar datos relacionados con su audiencia de SMS, incluida información sobre los mensajes que se enviarán y las exclusiones."
+>abstract="El gráfico y la tabla de la **Población de destino** presentan datos relacionados con el público de sus SMS, incluida información sobre los mensajes que se enviarán y las exclusiones."
 
 El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos relacionados con los destinatarios para cada envío de SMS enviado. Las métricas se detallan a continuación.
 
@@ -66,8 +67,8 @@ El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos re
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_delivery_stats"
->title="Estadísticas de envío de SMS"
->abstract="El **Estadísticas de envío** Este informe proporciona información completa sobre el SMS enviado, y ofrece un desglose de varias métricas, como tasas de éxito, ocurrencias de error y audiencia puesta en cuarentena. Esta presentación detallada permite un examen exhaustivo del rendimiento general y los resultados del proceso de envío de SMS."
+>title="Estadísticas de envío de los SMS"
+>abstract="El informe **Estadísticas de envío** proporciona información completa sobre el SMS enviado y ofrece un desglose de varias métricas, como tasas de éxito, ocurrencias de errores y público puesto en cuarentena. Esta presentación detallada ofrece un examen exhaustivo del rendimiento general y los resultados del proceso de envío de SMS."
 
 El **[!UICONTROL Estadísticas de envío]** Esta tabla detalla el éxito de cada envío de SMS. Las métricas se detallan a continuación.
 
@@ -91,8 +92,8 @@ El **[!UICONTROL Estadísticas de envío]** Esta tabla detalla el éxito de cada
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
->title="SMS Causas de exclusión"
->abstract="El **Causas de exclusión** El gráfico y la tabla ilustran las diversas razones que impidieron que los perfiles de usuario recibieran los mensajes SMS."
+>title="Causas de exclusión de envíos de SMS"
+>abstract="El gráfico y la tabla **Causas de exclusión** ilustran las diversas razones que impidieron que los perfiles de usuario recibieran los mensajes SMS."
 
 El **[!UICONTROL Causas de exclusión]** El gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles objetivo, recibieran sus envíos SMS.
 
@@ -105,7 +106,7 @@ Los tipos de error se enumeran en la [Documentación de Adobe Campaign v8 (conso
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"
 >title="Rendimiento del envío de SMS"
->abstract="El **Rendimiento del envío** Este informe proporciona una amplia perspectiva de la eficacia del sistema de entrega de mensajes SMS, y presenta una visión general detallada de las tasas de éxito y error dentro de un periodo de tiempo especificado."
+>abstract="El informe **Rendimiento del envío** proporciona una amplia perspectiva de la eficacia del sistema de entrega de mensajes SMS y presenta información general detallada de las tasas de éxito y error en un período de tiempo especificado."
 
 ![](assets/global_report_sms_delivery_throughput.png)
 

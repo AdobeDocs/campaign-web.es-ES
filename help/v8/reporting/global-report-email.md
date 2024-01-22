@@ -3,10 +3,11 @@ audience: end-user
 title: Informes globales del canal de correo electrónico
 description: Más información sobre los informes globales del canal de correo electrónico
 badge: label="Disponibilidad limitada"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '1594'
-ht-degree: 9%
+ht-degree: 28%
 
 ---
 
@@ -23,7 +24,7 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_deliveries_overview_email"
 >title="Información general sobre el envío"
->abstract="El **Resumen de entrega** presenta indicadores clave de rendimiento (KPI) que ofrecen una perspectiva exhaustiva de cómo la audiencia interactúa con los envíos de correo electrónico y las campañas que envía."
+>abstract="La **información general sobre el envío** proporciona indicadores clave de rendimiento (KPI) que ofrecen información detallada sobre cómo el público interactúa con el envío de correo electrónico y las campañas que envía."
 
 El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo electrónico. Las métricas se describen a continuación.
 
@@ -49,7 +50,7 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
 >title="Estadísticas de público destinatario inicial"
->abstract="El **Audiencia objetivo** la tabla y el gráfico ofrecen perspectivas sobre la participación de los destinatarios, lo que le ayuda a evaluar la eficacia de sus campañas y envíos."
+>abstract="La tabla y el gráfico **Público objetivo** ofrecen información detallada sobre la participación de los destinatarios, lo que le ayuda a evaluar la eficacia de sus campañas y envíos."
 
 La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos relacionados con sus destinatarios, con las métricas detalladas que se proporcionan a continuación.
 
@@ -70,7 +71,7 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos rela
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_email_delivery_stats"
 >title="Estadísticas de envío"
->abstract="El **Estadísticas de envíos** el gráfico y la tabla describen las métricas clave, incluidas las entregas correctas, los errores y las nuevas cuarentenas, y ofrecen una visión general concisa para evaluar el rendimiento de la entrega."
+>abstract="El gráfico y la tabla **Estadísticas de envíos** describen las métricas clave, incluidas las entregas correctas, los errores y las nuevas cuarentenas, y ofrecen información general concisa para evaluar el rendimiento de la entrega."
 
 El **[!UICONTROL Estadísticas de envío]** Esta tabla proporciona un desglose del éxito de cada envío de correo electrónico, con las métricas detalladas que se describen a continuación.
 
@@ -93,7 +94,7 @@ El **[!UICONTROL Estadísticas de envío]** Esta tabla proporciona un desglose d
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
 >title="Causas de exclusión"
->abstract="El **Causas de exclusión** el gráfico y la tabla ilustran los motivos específicos de los rechazos de mensajes durante la preparación de la entrega, y ofrecen un desglose detallado por regla."
+>abstract="El gráfico y la tabla **Causas de exclusión** ilustran los motivos específicos de los rechazos de mensajes durante la preparación de la entrega, con un desglose detallado por regla."
 
 ![](assets/global_report_email_exclusions.png){align="center"}
 
@@ -106,7 +107,7 @@ Los tipos de error de correo electrónico se enumeran en la [Documentación de A
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_email"
 >title="Rendimiento del envío"
->abstract="Esta **Rendimiento del envío** ofrece información completa sobre el rendimiento del envío, destacando las tasas de éxito y error dentro de un periodo de tiempo especificado."
+>abstract="El **Rendimiento del envío** ofrece información completa sobre el rendimiento del envío, destacando las tasas de éxito y error dentro de un período de tiempo especificado."
 
 ![](assets/global_report_email_delivery_throughput.png){align="center"}
 
@@ -127,7 +128,7 @@ El informe Delivery Throughput proporciona una visión detallada de la eficacia 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_type_email"
 >title="Desglose de errores por tipo"
->abstract="La tabla y el gráfico que detallan la variable **Desglose de errores por tipo** incluya información sobre los distintos tipos de error encontrados durante el proceso, como usuario desconocido, buzón lleno, dominio no válido y otros."
+>abstract="La tabla y el gráfico que detallan el **Desglose de errores por tipo** incluye información sobre los distintos tipos de errores encontrados durante el proceso, como usuario desconocido, buzón lleno, dominio inválido y otros."
 
 ![](assets/global_report_email_breakdown_type.png){align="center"}
 
@@ -158,7 +159,7 @@ Los errores que se muestran en este informe activan el proceso de cuarentena. Pa
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_domain_email"
 >title="Desglose de errores por dominio"
->abstract="La tabla y el gráfico que ilustran el **Desglose de errores por dominio** presentar los datos correspondientes a cada tipo de error encontrado, clasificados por dominios específicos."
+>abstract="La tabla y el gráfico que ilustran el **Desglose de errores por dominio** presentan los datos correspondientes a cada tipo de error encontrado, clasificados por dominios específicos."
 
 ![](assets/global_report_email_breakdown_domain.png){align="center"}
 
@@ -171,7 +172,7 @@ El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico muest
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Estadísticas de envío"
->abstract="El **Estadísticas de envíos** Los indicadores clave de rendimiento (KPI) proporcionan una visión general del rendimiento de las entregas y las campañas, ofreciendo información sobre las entregas exitosas, los errores encontrados y la participación del usuario."
+>abstract="Los indicadores clave de rendimiento (KPI) de las **Estadísticas de envíos** proporcionan una amplia descripción general del rendimiento de las entregas y las campañas, y ofrecen información detallada sobre las entregas correctas, los errores encontrados y la participación de los usuarios."
 
 El **[!UICONTROL Estadísticas de envío]** Las métricas de ofrecen indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos asociados con cada envío de correo electrónico. A continuación se proporcionan más detalles sobre estas métricas.
 
@@ -199,7 +200,7 @@ El **[!UICONTROL Estadísticas de envío]** Las métricas de ofrecen indicadores
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_open_clickthrough_email"
 >title="Tasa de clics y de aperturas"
->abstract="La tabla para **Tasas de apertura y clics** revela la participación de los destinatarios en su envío, mostrando datos sobre las tasas abiertas y las tasas de pulsaciones para obtener una descripción general rápida y reveladora."
+>abstract="La tabla correspondiente a las **Tasas de clics y de aperturas** revela la participación de los destinatarios en su envío, mostrando datos sobre las tasas de clics y de aperturas para obtener una descripción general rápida y reveladora."
 
 El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
@@ -220,12 +221,12 @@ El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a 
 
 ## URL y flujos de clics {#url-email}
 
-### KPI de URL y flujos de clics {#url-email-kpis}
+### Indicadores clave de rendimiento (KPI) de URL y flujos de clics {#url-email-kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_clickstreams_email"
 >title="URL y flujos de clics"
->abstract="El **URL y flujos de clics** Este informe proporciona indicadores clave de rendimiento (KPI) esenciales que ofrecen una perspectiva detallada de las direcciones URL en las que se hace más clic durante una entrega."
+>abstract="El informe **URL y flujos de clics** proporciona indicadores clave de rendimiento (KPI) esenciales que brindan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante un envío."
 
 El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan una perspectiva detallada de las direcciones URL que recibieron el mayor número de clics durante una entrega. Las métricas se detallan a continuación.
 
@@ -247,7 +248,7 @@ El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores c
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="Los 10 vínculos más visitados"
->abstract="El **Los 10 vínculos más visitados**  Los gráficos y las tablas presentan datos completos sobre la interacción del destinatario con cada vínculo."
+>abstract="El gráfico y la tabla **Los 10 vínculos más visitados** presentan datos completos sobre la interacción del destinatario con cada vínculo."
 
 El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo. Las métricas se detallan a continuación.
 
@@ -266,7 +267,7 @@ El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla conti
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_urls_click_breakdown_email"
 >title="Desglose de los clics con el tiempo"
->abstract="El **Desglose de los clics a lo largo del tiempo** El gráfico ofrece una vista completa de cómo los destinatarios interactúan con los vínculos a lo largo del periodo de tiempo designado."
+>abstract="El gráfico **Desglose de los clics con el tiempo** ofrece una vista completa de cómo interactúan los destinatarios con los vínculos a lo largo del período de tiempo establecido."
 
 El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
 
@@ -277,7 +278,7 @@ El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_user_activities_email"
 >title="Actividades del usuario"
->abstract="La representación gráfica de **Actividades de usuario** ofrece un desglose detallado de las interacciones de los destinatarios, que retrata las aperturas y los clics a través de un formato de gráfico informativo."
+>abstract="La representación gráfica de **Actividades del usuario** ofrece un desglose detallado de las interacciones de los destinatarios, que presenta las aperturas y los clics a través de un formato de gráfico informativo."
 
 El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Las métricas de este informe se detallan a continuación.
 
