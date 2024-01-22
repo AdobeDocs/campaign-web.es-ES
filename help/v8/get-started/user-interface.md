@@ -3,11 +3,11 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Beta"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+badge: label="Disponibilidad limitada"
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 81%
 
 ---
 
@@ -15,33 +15,36 @@ ht-degree: 100%
 
 La nueva interfaz de la web de la versión 8 de Campaign ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Esta nueva interfaz está integrada con las aplicaciones y soluciones de Adobe Experience Cloud.
 
+Obtenga información sobre cómo conectarse a Adobe Campaign y descubrir conceptos básicos de navegación para Experience Cloud [en este artículo](connect-to-campaign.md).
+
 
 >[!NOTE]
 >
 >Esta documentación se actualiza frecuentemente para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario.
 
-
-## Menú de navegación izquierdo {#user-interface-left-nav}
-
-Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Algunas pantallas de lista son de solo lectura. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario. Puede obtener más información sobre permisos en [esta sección](permissions.md).
-
-![](assets/home.png)
-
-### Inicio {#user-interface-home}
-
-Esta pantalla incluye vínculos y recursos clave para el acceso rápido a las funciones web principales de la versión 8 de Campaign.
+## Página de inicio de Campaign {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recientes"
 >abstract="La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación."
 
-La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación. Haga clic en el vínculo **Mostrar más** para cargar más envíos.
+La página de inicio de Campaign permite examinar rápida y fácilmente recursos, indicadores y componentes clave.
+
+La sección superior de la página de inicio proporciona detalles sobre las últimas actualizaciones y las nuevas funciones disponibles en el producto, con vínculo a las Notas de la versión y la documentación relacionada.
+
+![](assets/home.png)
 
 Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de los indicadores clave de rendimiento (KPI) en [esta página](../reporting/kpis.md).
 
+La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación. Haga clic en el vínculo **Mostrar más** para cargar más envíos.
 
-Acceda a las páginas de ayuda principales de la web de Campaign v8 Web desde la sección **Aprendizaje** de la página principal.
+Además, puede acceder a las páginas de ayuda con claves web de Campaign v8 desde el **Aprendizaje** de la página.
+
+## Menú de navegación izquierdo {#user-interface-left-nav}
+
+Examine los vínculos de la izquierda para acceder a las funciones de la web de la versión 8 de Campaign. Varios vínculos muestran listas de objetos que se pueden ordenar y filtrar. También puede configurar columnas para que muestren toda la información que necesite. Consulte esta [sección](#list-screens). Algunas pantallas de lista son de solo lectura. Los elementos mostrados en el menú de navegación de la izquierda dependen de los permisos de usuario. Puede obtener más información sobre permisos en [esta sección](permissions.md).
+
 
 ### Explorer {#user-interface-explorer}
 
@@ -73,13 +76,25 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 * **Flujos de trabajo**: en esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña. Puede obtener más información sobre los flujos de trabajo [en esta sección](../workflows/gs-workflows.md).
 
 
+### Administración de contenido {#user-interface-content-management}
+
+En la sección GESTIÓN DE CONTENIDO, puede ver sus plantillas de contenido y fragmentos.
+
+* **Plantillas de contenido** : Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Esta funcionalidad, que solo está disponible para correos electrónicos, permite a los usuarios orientados a contenido trabajar en plantillas independientes para que los usuarios de marketing puedan reutilizarlas y adaptarlas dentro de sus propias campañas de correo electrónico. Obtenga más información en [esta sección](../email/create-email-templates.md).
+
+<!--
+* **Fragments** -
+-->
+
 ### Administración de clientes {#user-interface-customer-management}
 
-En la sección ADMINISTRACIÓN DE CLIENTES, puede ver los destinatarios, los públicos destinatarios y las suscripciones. Estas listas son de solo lectura.
+En la sección CUSTOMER MANAGEMENT, puede ver sus perfiles, audiencias y suscripciones. Estas listas son de solo lectura.
 
-* **Destinatarios**: acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Puede obtener más información sobre destinatarios en [esta sección](../audience/about-recipients.md).
+* **Perfiles** : Cree y administre perfiles, y acceda a la base de datos de destinatarios. De forma predeterminada, puede ver su dirección de correo electrónico, nombre y apellidos. Obtenga más información sobre los perfiles en [esta sección](../audience/about-recipients.md).
 * **Públicos**: esta es su lista de públicos. De forma predeterminada, puede ver su tipo, origen, fechas de creación/última modificación y etiqueta. Puede filtrar la lista por origen. Obtenga más información sobre públicos y listas en [esta sección](../audience/about-recipients.md).
-* **Suscripciones**: examine las listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Obtenga información sobre cómo administrar suscripciones y bajas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=es){target="_blank"}.
+* **Servicios de suscripción** - Navega por tus listas de suscripciones. De manera predeterminada, puede ver su tipo, modo y etiqueta. Obtenga información sobre cómo administrar suscripciones y bajas en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=es){target="_blank"}.
+* **Filtros predefinidos** - Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el modelador de consultas, por ejemplo al filtrar una lista de datos o crear la audiencia de una entrega. Obtenga más información en [esta sección](predefined-filters.md).
+
 
 ### Gestión de decisiones {#decision-management}
 
@@ -95,15 +110,18 @@ En la sección GESTIÓN DE DECISIONES, puede ver las ofertas y las plantillas de
 
 Obtenga información sobre cómo crear y enviar ofertas en correos electrónicos y SMS en [esta sección](../msg/offers.md).
 
+### Creación de informes {#left-nav-reporting}
+
+* **Informes** - El **Informe** Esta entrada ofrece un resumen general consolidado de las métricas de tráfico y participación de cada canal dentro del entorno de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o la entrega. Obtenga más información en [esta sección](../reporting/global-reports.md).
 
 
 ## Ayuda contextual {#user-interface-help}
 
 Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, haga clic en el icono `?` para mostrar la información de ayuda y los vínculos de documentación relacionados.
 
-![](assets/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Con la nueva versión Beta, el **Asistente de conocimientos con tecnología de IA** integrado dentro de la ayuda contextual revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo amplios repositorios de documentación y localizar al instante la información precisa que necesita.
+Lanzado como versión beta dentro de la nueva interfaz de usuario web de Campaign, el **Asistente de conocimientos con tecnología de IA** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
 
 Gracias a las funciones Gen IA de Campaign, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro Asistente de conocimientos con tecnología de IA es su mejor compañero, ya que proporciona una eficacia y precisión inigualables en cada interacción.
 
