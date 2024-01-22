@@ -2,12 +2,12 @@
 audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 76%
+source-wordcount: '711'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 76%
 >title="Programación de campañas"
 >abstract="Establezca o modifique la programación de campañas."
 
-Para crear una nueva campaña o administrar las campañas existentes, haga clic en el menú **[!UICONTROL Campañas]** en la navegación de la izquierda.
+Para acceder y administrar sus campañas, haga clic en **[!UICONTROL Campañas]** menú en el panel de navegación izquierdo.
 
 ## Lista de campañas {#access-campaigns}
 
@@ -30,43 +30,65 @@ En la lista de campañas, hay dos pestañas disponibles:
 
 ![Lista de campañas](assets/campaign-list.png)
 
-De forma predeterminada, cada campaña de la lista muestra información sobre su estado actual, fecha de creación, la última vez que se modificó, etc.
+De forma predeterminada, cada campaña de la lista muestra información sobre su estado actual, las fechas de inicio y finalización, la fecha de creación, la última vez que se modificó, etc.
 
-Puede personalizar las columnas mostradas haciendo clic en el icono **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar información adicional a la lista. Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens).
+Puede personalizar las columnas mostradas haciendo clic en el icono **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar o quitar columnas y reordenar la información en la lista de campañas.
+
+Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens).
 
 Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de filtro y utilice la sección **Fecha de inicio y de finalización**:
 
 ![Filtro de campaña](assets/campaign-filter-on-dates.png)
 
-## Panel de campañas{#campaign-dashboard}
+## Panel de campañas {#campaign-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="Lista de envíos en la campaña"
 >abstract="La pestaña **Envíos** lista todos los envíos vinculados a la campaña actual. Haga clic en el nombre de un envío para editarlo. Utilice el botón Create envío para añadir uno nuevo para esta campaña."
 
-En la pestaña **Examinar** de la lista de campañas, haga clic en una campaña para mostrar los detalles.
+En el **Examinar** de la lista de campañas, haga clic en el nombre de una campaña para mostrar sus detalles.
 
 ![Panel de campañas](assets/campaign-dashboard.png)
 
-El estado y la programación de la campaña se muestran en la parte superior de la pantalla. Puede usar el icono **Configuración de la campaña** para modificar las propiedades de la campaña definidas al crear la campaña. Hay tres botones disponibles que permiten ver los registros, crear informes, duplicar o eliminar la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns)
+El estado y la programación de la campaña se muestran en la parte superior de la pantalla. Puede usar el complemento **Configuración** para actualizar las propiedades de la campaña, como su etiqueta, carpeta y descripción. También puede cambiar la programación de la campaña desde la pantalla de configuración. Obtenga más información acerca de la programación de campañas en [esta sección](create-campaigns.md#campaign-schedule).
 
-Hay dos pestañas disponibles:
+En el panel de campañas, utilice la variable **Registros** y **Informes** para monitorizar la campaña. Obtenga más información en esta [sección](create-campaigns.md#create-campaigns)
 
-* La pestaña **Flujos de trabajo** contiene todos los flujos de trabajo vinculados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
+Para cada campaña, el panel muestra dos pestañas principales: Flujos de trabajo y Envíos.
 
-* La pestaña **Envíos** lista todos los envíos vinculados a la campaña actual. También puede crear un nuevo envío dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
+* El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo asociados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
-## Duplicación y eliminación de una campaña
-
-Puede duplicar o eliminar una campaña:
-
-* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Duplicar** o **Eliminar**.
-* en la propia campaña, haga clic en el botón **Más** y luego seleccione **Duplicar** o **Eliminar**.
+* El **Envíos** La pestaña enumera todas las entregas creados en la campaña actual. También puede crear un nuevo envío dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
 >La pestaña **Envíos** muestra todas las envíos vinculadas a la campaña. Sin embargo, los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar un envío creado en el contexto de un flujo de trabajo, se debe eliminar la actividad de entrega del flujo de trabajo. [Más información](../msg/gs-messages.md#delivery-delete).
+
+
+## Eliminación de una campaña {#campaign-delete}
+
+Tiene dos formas de eliminar una campaña:
+
+* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Eliminar**
+
+  ![Eliminación de una campaña de la lista de campañas](assets/delete-a-campaign-from-list.png)
+
+* en la propia campaña, haga clic en **Más** y luego seleccione **Eliminar**
+
+  ![Eliminar una campaña del panel de campañas](assets/delete-a-campaign-from-dashboard.png)
+
+
+## Duplicación de una campaña {#campaign-duplicate}
+
+Tiene dos formas de duplicar una campaña:
+
+* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Duplicar**
+
+* en la propia campaña, haga clic en **Más** y luego seleccione **Duplicar**
+
+En ambos casos, confirme la duplicación para crear la nueva campaña. La etiqueta de la campaña **Copia de`<label of the initial campaign`**. Vaya a la configuración de la campaña para actualizar esta etiqueta.
+
 
 ## Trabajo con plantillas de campaña{#manage-campaign-templates}
 
@@ -74,7 +96,8 @@ Las plantillas de campaña contienen ajustes preconfigurados que se pueden reuti
 
 Una plantilla de campaña puede almacenar la siguiente información:
 
-* la de la campaña **Propiedades** y **Programación** configuración
+* la campaña **Configuración**
+* la campaña  **Programación**
 * plantillas de flujo de trabajo
 * plantillas de envío
 

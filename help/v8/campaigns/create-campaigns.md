@@ -2,12 +2,12 @@
 audience: end-user
 title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 40%
+source-wordcount: '444'
+ht-degree: 36%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 40%
 >title="Propiedades de campaña"
 >abstract="En esta pantalla, puede comprobar y actualizar la configuración de la campaña: su etiqueta, nombre interno, carpeta y descripción. También puede ver a qué usuario está asignado."
 
-Para crear una nueva campaña, debe definir sus propiedades, programar e incluir flujos de trabajo y envíos.
+Para crear una nueva campaña, debe definir su configuración, programar e incluir flujos de trabajo y envíos.
 
-## Creación de la campaña{#campaign-create}
+## Creación de la campaña {#campaign-create}
 
 Para crear una nueva campaña, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Campañas]** y haga clic en el **[!UICONTROL Crear campaña]** botón.
+
+   ![Creación de una nueva campaña](assets/create-campaign-button.png)
+
 1. Seleccione el **Plantilla** para utilizar y proporcionar una etiqueta para la campaña. [Más información](manage-campaigns.md#manage-campaign-templates).
 1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
 1. Defina el **Programación** de la campaña. Obtenga información sobre cómo establecer la programación de campañas en [esta sección](#campaign-schedule)
 1. Haga clic en **Create**.
+
+   ![Creación de propiedades de campaña](assets/create-a-campaign-properties.png)
+
 1. Añadir flujos de trabajo y envíos a la campaña:
 
    * Desde el **Flujos de trabajo** pestaña, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtenga más información sobre cómo [creación de un flujo de trabajo](../workflows/create-workflow.md).
-   * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
 
-1. Utilice el **Registros** y **Informes** para analizar el rendimiento de su campaña.
+   * Desde el **Envíos** pestaña, haga clic en **Creación de envíos**. [Más información](../msg/gs-messages.md)
 
 ## Monitorización y seguimiento de la campaña{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ También puede ver los informes dedicados haciendo clic en **Informes** botón. 
 
 ## Definición de la programación de la campaña {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Programación de campañas"
@@ -61,8 +65,6 @@ También puede ver los informes dedicados haciendo clic en **Informes** botón. 
 La campaña comienza cuando se llega a la fecha de inicio. Siempre que no se llegue a la fecha de inicio, la campaña tiene el **[!UICONTROL Borrador]** estado. A continuación, cuando se llega a la fecha de inicio, se cambia a **[!UICONTROL En curso]**. Una vez que llega la fecha de finalización, la campaña se establece en **[!UICONTROL Completado]**.
 
 Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](manage-campaigns.md#access-campaigns).
-
-![Definición de las propiedades de la campaña](assets/campaign-properties.png)
 
 >[!NOTE]
 >
