@@ -4,7 +4,7 @@ title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -41,8 +41,6 @@ Para seleccionar un público existente para el mensaje, siga los pasos a continu
    ![](assets/select-audience-folder.png)
 
 1. La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al modelador de consultas, que permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. Clic **Confirmar** para añadir la audiencia como destinatario principal de la entrega. Una vez finalizado, aún puede refinar la audiencia mediante el modelador de consultas haciendo clic en **Editar reglas** botón.
 
