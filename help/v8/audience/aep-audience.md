@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar un público de Adobe Experience Platform
 description: Aprenda a utilizar un público de Adobe Experience Platform
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 32%
+source-wordcount: '327'
+ht-degree: 28%
 
 ---
 
@@ -40,6 +40,8 @@ Para seleccionar una audiencia de Adobe Experience Platform para su envío, siga
    ![](assets/select-audience-folder.png)
 
    También puede definir una regla para filtrar el origen de las audiencias, como se muestra a continuación:
+
+   La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al modelador de consultas, que permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 
