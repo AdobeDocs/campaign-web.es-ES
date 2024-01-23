@@ -4,10 +4,10 @@ title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Disponibilidad limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 58%
+source-wordcount: '898'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
 
-## Cree su flujo de trabajo {#build-your-workflow}
+## Requisitos previos {#channel-activity-prereq}
 
 Comience a crear su flujo de trabajo con las actividades relevantes:
 
