@@ -2,7 +2,8 @@
 title: Dimensiones de segmentación
 description: Obtenga más información sobre las dimensiones de segmentación en la web de Adobe Campaign
 badge: label="Disponibilidad limitada"
-source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
+exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
+source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 19%
