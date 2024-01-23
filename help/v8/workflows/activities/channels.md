@@ -4,9 +4,9 @@ title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
 badge: label="Disponibilidad limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 58%
 
 ---
@@ -28,15 +28,18 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
 ## Cree su flujo de trabajo {#build-your-workflow}
 
-Comience a crear su flujo de trabajo con las actividades relevantes antes de insertar la actividad del canal:
+Comience a crear su flujo de trabajo con las actividades relevantes:
 
-* Antes de insertar una actividad de envío, debe definir la audiencia. La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal, sino dentro de una actividad dedicada, como:
+* Antes de insertar una actividad de canal, debe definir la audiencia. La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal, sino dentro de una actividad dedicada, como:
 
    * A **Crear audiencia** actividad. [Más información](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Cargar archivo** actividad seguida de un **Reconciliación** actividad. [Más información](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Para realizar una entrega recurrente, inicie el flujo de trabajo con una **Planificador** actividad. También puede utilizar un **Planificador** actividad para envíos únicos de una sola toma para establecer la fecha de contacto de ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
