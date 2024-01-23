@@ -2,11 +2,11 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 84%
 >id="acw_orchestration_combine"
 >title="Actividad de combinación"
 >abstract="La actividad **Combinar** permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varias poblaciones destinatarias."
-
 
 El **Combinar** la actividad es una **Segmentación** actividad. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios. Estos son los tipos de segmentación disponibles:
 

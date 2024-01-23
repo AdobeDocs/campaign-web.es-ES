@@ -2,12 +2,12 @@
 audience: end-user
 title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 38%
+source-wordcount: '620'
+ht-degree: 41%
 
 ---
 

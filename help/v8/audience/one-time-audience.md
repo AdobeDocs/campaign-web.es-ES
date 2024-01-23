@@ -2,11 +2,11 @@
 audience: end-user
 title: Creación de una audiencia única para una entrega
 description: Obtenga información sobre cómo crear una audiencia única para una entrega.
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ Para crear una nueva audiencia directamente desde una entrega, siga estos pasos:
 
 1. Seleccione **Crear la suya propia**. Se muestra el modelador de consultas. Permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. Una vez preparada la consulta, haga clic en **Confirmar** para utilizar la audiencia de como objetivo principal de su envío.
 
