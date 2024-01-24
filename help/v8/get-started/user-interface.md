@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario de la web de la versión 8 de Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidad limitada"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Atributos avanzados del generador de reglas"
 >abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="Esta plantilla solo está lista"
+>abstract="Continuará"
+
+
