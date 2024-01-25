@@ -4,10 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 20%
+source-wordcount: '792'
+ht-degree: 19%
 
 ---
 
@@ -53,6 +53,11 @@ El flujo de trabajo se habrá creado y estará disponible en la lista de flujos 
 >id="acw_workflow_template_for_campaign"
 >title="Plantillas de flujo de trabajo"
 >abstract="Las plantillas de flujo de trabajo contienen ajustes y actividades preconfiguradas que se pueden reutilizar para crear nuevos flujos de trabajo."
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_creation_properties"
+>title="Propiedades del flujo de trabajo"
+>abstract="Las plantillas de flujo de trabajo contienen ajustes y actividades preconfigurados que se pueden reutilizar para crear nuevos flujos de trabajo. En esta pantalla, introduzca la etiqueta de la plantilla de flujo de trabajo y configure sus opciones, como el nombre interno, las carpetas de carpeta y ejecución, la zona horaria y el grupo del supervisor."
 
 Las plantillas de flujo de trabajo contienen ajustes y actividades preconfigurados que se pueden reutilizar para crear nuevos flujos de trabajo. Puede seleccionar la plantilla del flujo de trabajo en las propiedades del flujo de trabajo al crear un flujo de trabajo. De forma predeterminada, se proporciona una plantilla vacía.
 
