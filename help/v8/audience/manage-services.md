@@ -4,10 +4,10 @@ title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '951'
+ht-degree: 22%
 
 ---
 
@@ -91,6 +91,17 @@ Ahora puede hacer lo siguiente:
 * Envíe mensajes a los suscriptores de este servicio. [Descubra cómo](../msg/send-to-subscribers.md)
 
 ## Crear un mensaje de confirmación {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Seleccione la plantilla de entrega subscriptions"
+>abstract="Para enviar mensajes de confirmación a los usuarios que se suscriben al servicio, debe seleccionar una plantilla de envío específica basada en la variable **[!UICONTROL Suscripciones]** asignación de destino, sin un destino definido."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Seleccione la plantilla de entrega unsubscriptions"
+>abstract="Para enviar mensajes de confirmación a los usuarios que cancelan la suscripción al servicio, debe seleccionar una plantilla de envío específica basada en la variable **[!UICONTROL Suscripciones]** asignación de destino, sin un destino definido."
 
 Para enviar mensajes de confirmación a los usuarios que se suscriben o cancelan la suscripción a su servicio, debe crear una plantilla de envío con el **[!UICONTROL Suscripciones]** asignación de destino, sin un destino definido. Para ello, siga los pasos a continuación.
 
