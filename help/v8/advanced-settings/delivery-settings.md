@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 60%
+ht-degree: 64%
 
 ---
 
@@ -91,7 +91,7 @@ Utilice el campo **[!UICONTROL Modo de envío]** para seleccionar el modo de eva
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Configuración de la capacidad del envío"
->abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización pueda procesar el envío, los mensajes entrantes que puede generar el envío y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de Adobe Campaign v8. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
+>abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización pueda procesar el envío, los mensajes entrantes que puede generar el envío y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de la versión 8 de Adobe Campaign. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -210,12 +210,12 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="Vigencia de la configuración"
->abstract="El campo **Duración del envío** permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.<br>El **Vigencia de recursos** Este campo se utiliza para los recursos cargados, como páginas espejo o imágenes. Una vez alcanzado el límite, los recursos ya no están disponibles."
+>abstract="El campo **Duración del envío** permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.<br>El campo **Vigencia de los recursos** se utiliza para los recursos cargados, como la página espejo y las imágenes. Una vez alcanzado el límite, los recursos ya no están disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Vigencia de los recursos"
->abstract="El **Vigencia de recursos** Este campo se utiliza para los recursos cargados, como la página espejo o las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
+>abstract="El campo **Vigencia de los recursos** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Estos recursos son válidos durante un tiempo limitado: una vez alcanzado el límite, los recursos ya no están disponibles."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -278,7 +278,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="Defina la configuración de prueba para la entrega"
+>title="Defina la configuración de prueba del envío"
 >abstract="Seleccione los parámetros de exclusión y personalice la etiqueta de las pruebas."
 
 <!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->

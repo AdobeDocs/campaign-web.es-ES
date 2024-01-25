@@ -7,11 +7,11 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
-# Creación y administración de servicios de suscripción {#manage-services}
+# Crear y administrar servicios de suscripción {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
@@ -116,22 +116,22 @@ Para enviar mensajes de confirmación a los usuarios que se suscriben o cancelan
 
 Ahora puede seleccionar estos mensajes cuando [creación de un servicio de suscripción](#create-service). Los usuarios que se suscriban o cancelen su suscripción a ese servicio recibirán los mensajes de confirmación seleccionados.
 
-## Monitorización de los servicios de suscripción {#logs-and-reports}
+## Monitorizar los servicios de suscripción {#logs-and-reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Número total de suscriptores"
->abstract="Clic **Calcular** el obtiene el número total de suscriptores para este servicio."
+>abstract="Haga clic en **Calcular** para obtener el número total de suscriptores para este servicio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="Número de suscripciones durante el periodo"
->abstract="Utilice la lista desplegable para cambiar el intervalo de tiempo y ver el número de suscripciones y bajas de suscripción durante el periodo seleccionado."
+>title="Número de suscripciones para el periodo"
+>abstract="Utilice la lista desplegable para cambiar el intervalo de tiempo y ver el número de suscripciones y sus bajas durante el periodo seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolución general de suscripciones"
->abstract="Este gráfico muestra el desglose por periodo, incluidas las suscripciones, las bajas, la evolución en números y el porcentaje de fidelidad."
+>abstract="Este gráfico muestra el desglose por periodo, incluidas las suscripciones, sus bajas, la evolución en números y el porcentaje de fidelidad."
 
 Para medir la eficacia de los servicios de suscripción para canales de correo electrónico y SMS, puede acceder a los registros e informes de un servicio determinado.
 

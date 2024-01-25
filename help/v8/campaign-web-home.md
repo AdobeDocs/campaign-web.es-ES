@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 66%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
->title="Disfrute de la nueva interfaz de usuario de Adobe Campaign"
->abstract="Más moderna, intuitiva y dinámica."
+>title="Experimente la nueva interfaz de usuario de Adobe Campaign"
+>abstract="Más moderno, intuitivo y dinámico."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
@@ -31,12 +31,12 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="Elemento 2"
->abstract="Interfaz simplificada del lienzo de flujo de trabajo"
+>abstract="Interfaz del lienzo del flujo de trabajo simplificada"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Elemento 3"
->abstract="UX reinventado para audiencias, suscripciones, AEM Assets, páginas de aterrizaje"
+>abstract="UX reinventado para públicos, suscripciones, AEM Assets, páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
@@ -58,8 +58,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
->title="Disfrute de la nueva interfaz de usuario de Adobe Campaign"
->abstract="Más moderna, intuitiva y dinámica."
+>title="Experimente la nueva interfaz de usuario de Adobe Campaign"
+>abstract="Más moderno, intuitivo y dinámico."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
@@ -69,17 +69,17 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
 >title="Elemento 2"
->abstract="Interfaz simplificada del lienzo de flujo de trabajo"
+>abstract="Interfaz del lienzo del flujo de trabajo simplificada"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"
 >title="Elemento 3"
->abstract="Experiencia de usuario rediseñada para Públicos, suscripciones y servicios, AEM Assets"
+>abstract="UX reinventado para públicos, suscripciones y servicios, AEM Assets"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list4"
 >title="Elemento 4"
->abstract="Inteligencia artificial de generación de correo electrónico: generación de correo electrónico basada en indicaciones"
+>abstract="IA de generación de correo electrónico: generación de correo electrónico basada en indicaciones"
 
 <!--TO REMOVE ABOVE-->
 

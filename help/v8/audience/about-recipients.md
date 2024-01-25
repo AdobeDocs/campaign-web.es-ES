@@ -1,15 +1,16 @@
 ---
-title: Monitorización y administración de perfiles
+title: Monitorizar y administrar perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 badge: label="Disponibilidad limitada"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
-# Monitorización y administración de perfiles {#profiles}
+# Monitorizar y administrar perfiles {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
@@ -30,7 +31,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfiles"
->abstract="Un perfil es una persona destinada a recibir mensajes enviados por Adobe Campaign. En esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de los perfiles."
+>abstract="Un perfil es una persona que está destinada a recibir mensajes enviados por Adobe Campaign. En esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de los perfiles."
 
 ## Introducción a los perfiles {#gs}
 
@@ -60,7 +61,7 @@ Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así com
 
 Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar y [editar](#access) perfiles.
 
-## Acceso y edición de atributos de perfiles {#access}
+## Acceder y editar atributos de perfiles {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
