@@ -3,10 +3,10 @@ title: Introducción a perfiles y públicos
 description: Aprenda a trabajar con perfiles y públicos en la web de Campaign
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Disponibilidad limitada"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ En la web de Adobe Campaign, un **perfil** es una persona almacenada en la base 
 
 Los **públicos** son conjuntos de perfiles que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar. Una vez creados, los públicos pueden aprovecharse como público destinatario de los envíos.
 
-Además, la web de Adobe Campaign se puede utilizar para administrar y crear **servicios**, como los boletines informativos, y para comprobar las suscripciones o cancelaciones de suscripción a estos servicios. Una vez finalizado, puede añadir suscriptores, cancelar la suscripción de perfiles y enviar mensajes a los suscriptores de sus servicios.
+Además, Adobe Campaign Web se puede utilizar para administrar y crear **servicios** como los boletines informativos, y para comprobar las suscripciones o cancelaciones de suscripción a estos servicios. Una vez finalizado, puede añadir suscriptores, cancelar la suscripción de perfiles y enviar mensajes a los suscriptores de sus servicios.
 
 Ahora que comprende lo que puede hacer en Adobe Campaign Web, es hora de profundizar en estas secciones de documentación para empezar a trabajar con él.
 

@@ -1,12 +1,12 @@
 ---
 title: Trabajar con filtros predefinidos
-description: Obtenga información sobre cómo crear y administrar filtros predefinidos en la IU web de Adobe Campaign
+description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 97%
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 

@@ -4,7 +4,7 @@ title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 24%
@@ -18,7 +18,7 @@ ht-degree: 24%
 >title="Crear y administrar servicios"
 >abstract="Utilice Adobe Campaign para crear y monitorizar sus servicios, como los boletines informativos, y para comprobar las suscripciones o las bajas a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS."
 
-Utilice la web de Adobe Campaign para administrar y crear sus servicios, como boletines informativos, y para comprobar las suscripciones o cancelaciones de suscripción a estos servicios.
+Utilice Adobe Campaign Web para administrar y crear sus servicios, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios.
 
 >[!NOTE]
 >
