@@ -4,10 +4,10 @@ title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Disponibilidad limitada"
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 31%
+source-wordcount: '326'
+ht-degree: 30%
 
 ---
 
@@ -36,11 +36,15 @@ Para seleccionar un público existente para el mensaje, siga los pasos a continu
 
    ![](assets/create-audience2.png)
 
-   Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla. [Aprenda a utilizar una audiencia de Adobe Experience Platform](aep-audience.md)
+   Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla.
 
    ![](assets/select-audience-folder.png)
 
 1. La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al modelador de consultas, que permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
+
+   Por ejemplo, puede definir una regla para filtrar el origen de las audiencias, como se muestra a continuación:
+
+   ![](assets/filter-on-aep-audience.png)
 
 1. Clic **Confirmar** para añadir la audiencia como destinatario principal de la entrega. Una vez finalizado, aún puede refinar la audiencia mediante el modelador de consultas haciendo clic en **Editar reglas** botón.
 
