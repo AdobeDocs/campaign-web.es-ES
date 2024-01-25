@@ -6,10 +6,10 @@ title: Documentación de la web de la versión 8 de Adobe Campaign
 description: Documentación de la web de la versión 8 de Campaign
 breadcrumb-title: Web de la versión 8 de Campaign
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 91%
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -92,11 +92,13 @@ ht-degree: 91%
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)
    + Trabajo con perfiles {#work-with-profiles}
-      + [Monitorización y administración de perfiles](audience/about-recipients.md)
-      + [Creación y administración de perfiles de prueba](audience/test-profiles.md)
+      + [Introducción a los perfiles](audience/about-recipients.md)
+      + [Exploración de los detalles de perfiles](audience/profile-view.md)
+      + [Creación de un perfil](audience/create-profile.md)
+      + [Trabajo con perfiles de prueba](audience/test-profiles.md)
    + Trabajo con públicos {#audiences}
       + [Crear públicos](audience/create-audience.md)
-      + [Monitorización y administración de audiencias](audience/manage-audience.md)
+      + [Monitorizar y administrar públicos](audience/manage-audience.md)
    + Seleccionar los destinatarios del envío {#target-audiences}
       + [Selección de un público existente](audience/add-audience.md)
       + [Crear un público único](audience/one-time-audience.md)
@@ -104,7 +106,7 @@ ht-degree: 91%
       + [Usar un público de Adobe Experience Platform](audience/aep-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
    + Trabajar con servicios de suscripción {#work-with-services}
-      + [Creación y administración de servicios de suscripción](audience/manage-services.md)
+      + [Crear y administrar servicios de suscripción](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)
 + Campañas en canales múltiples {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
