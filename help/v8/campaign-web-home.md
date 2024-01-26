@@ -4,10 +4,10 @@ description: Centro de ayuda de la web de la versión 8 de Campaign
 title: Documentación del producto de la web de la versión 8 de Adobe Campaign
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Disponibilidad limitada"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Elemento 1"
->abstract="Nueva experiencia de diseño de notificaciones por correo electrónico, SMS y push"
+>abstract="Nueva experiencia de diseño de correo electrónico, SMS y notificaciones push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Elemento 3"
->abstract="UX reinventado para públicos, suscripciones, AEM Assets, páginas de destino"
+>abstract="UX reinventado para audiencias, suscripciones, AEM Assets, páginas de aterrizaje"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Elemento 4"
->abstract="Diseñador de correo electrónico y modelador de consultas de próxima generación"
+>abstract="Modelador de consultas y diseñador de correo electrónico de última generación"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -134,7 +134,7 @@ Cree nuevos perfiles y monitorícelos con potentes informes y herramientas. Acce
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Conozca al Diseñador de correo electrónico</strong><br/>Obtenga información sobre cómo empezar a partir de una plantilla o utilizar el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código.
+    <div><strong>Conozca al Diseñador de correo electrónico</strong><br/>Aprenda a empezar desde una plantilla o utilice el nuevo Diseñador de correo electrónico de Adobe Campaign para crear correos electrónicos sin tener que escribir una sola línea de código.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
