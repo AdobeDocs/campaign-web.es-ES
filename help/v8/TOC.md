@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Web de la versión 8 de Campaign
-user-guide-description: Documentación del producto para la web de la versión 8 de Campaign.
-title: Documentación de la web de la versión 8 de Adobe Campaign
-description: Documentación de la web de la versión 8 de Campaign
-breadcrumb-title: Web de la versión 8 de Campaign
+user-guide-title: Adobe Campaign Web
+user-guide-description: Documentación del producto para Adobe Campaign Web.
+title: Documentación web de Adobe Campaign
+description: Documentación web de Campaign
+breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 87%
 
 ---
 
 
-# Documentación de la web de la versión 8 de Adobe Campaign {#v8}
+# Documentación web de Adobe Campaign {#v8}
 
-+ [Documentación de la web de la versión 8 de Campaign](campaign-web-home.md)
++ [Documentación web de Adobe Campaign](campaign-web-home.md)
 + [Novedades](rn/whats-new.md)
 + [Actualizaciones de documentación](rn/documentation-updates.md)
 + Introducción a Adobe Campaign {#start}

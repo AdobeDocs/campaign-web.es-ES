@@ -4,17 +4,17 @@ title: Principios clave de la creación de un flujo de trabajo
 description: Conozca los principios clave de los flujos de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
 
 # Principios clave de la creación de un flujo de trabajo {#gs-workflow-creation}
 
-Con Campaign v8 Web, puede crear flujos de trabajo en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
+Con Adobe Campaign Web, puede generar flujos de trabajo en un lienzo visual para diseñar procesos multicanal como segmentación, ejecución de campañas o procesamiento de archivos.
 
 
 ## ¿Qué hay dentro de un flujo de trabajo? {#gs-workflow-inside}

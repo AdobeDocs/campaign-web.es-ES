@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Puede hacer que el contenido del mensaje sea dinámico insertando construcciones
 
 ## Acceso al editor de expresiones {#access}
 
-Adobe Campaign V8 Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. El editor de expresiones está disponible para todos los canales en todos los campos con el **[!UICONTROL cuadro de diálogo Abrir personalización]**, como el campo de línea de asunto o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
+Adobe Campaign Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. El editor de expresiones está disponible para todos los canales en todos los campos con el **[!UICONTROL cuadro de diálogo Abrir personalización]**, como el campo de línea de asunto o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
 
 A continuación se muestran algunos ejemplos sobre cómo acceder al editor de expresiones en función del contenido que desee hacer dinámico:
 
