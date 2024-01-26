@@ -4,9 +4,9 @@ title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 59%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Puede utilizarlo para crear una audiencia a partir de un flujo de trabajo mediante una **[!UICONTROL Crear audiencia]** actividad de o directamente al crear una entrega para crear una audiencia única.
 
-* [Obtenga información sobre cómo crear una audiencia](create-audience.md)
+* [Obtenga información sobre cómo crear y guardar una audiencia](create-audience.md)
 * [Obtenga información sobre cómo crear una audiencia única para una entrega](one-time-audience.md)
 
 ## La paleta
