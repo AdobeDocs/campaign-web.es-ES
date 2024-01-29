@@ -4,10 +4,10 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilidad limitada"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
-ht-degree: 64%
+source-wordcount: '2316'
+ht-degree: 65%
 
 ---
 
@@ -136,6 +136,8 @@ Puede definir lo siguiente **[!UICONTROL Enviando]** configuración:
 * **[!UICONTROL Probar envío SMTP]**: Esta opción se utiliza para probar el envío a través de SMTP. El envío se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
 * **[!UICONTROL Correo electrónico CCO]**: Esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
+
+* **[!UICONTROL Envío mediante múltiples olas]**: Puede aumentar progresivamente el volumen enviado mediante olas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. [Más información](send-using-waves.md)
 
 También puede cambiar el formato de los mensajes de correo electrónico enviados:
 

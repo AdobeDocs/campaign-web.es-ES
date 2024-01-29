@@ -6,9 +6,9 @@ title: Documentación web de Adobe Campaign
 description: Documentación web de Campaign
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '536'
 ht-degree: 87%
 
 ---
@@ -64,8 +64,9 @@ ht-degree: 87%
             + [Adición de atributos de estilo alineados](email/inline-styling.md)
       + Envío y supervisión del correo electrónico {#monitor}
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
-         + [Monitorización de los registros de envío](monitor/delivery-logs.md)
          + [Configuración de envío de correos electrónicos](advanced-settings/delivery-settings.md)
+         + [Envío mediante múltiples olas](advanced-settings/send-using-waves.md)
+         + [Monitorización de registros de envío](monitor/delivery-logs.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)

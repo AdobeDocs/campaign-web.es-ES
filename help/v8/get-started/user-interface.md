@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidad limitada"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 76%
+source-wordcount: '1648'
+ht-degree: 78%
 
 ---
 
@@ -153,22 +153,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Permiso obligatorio"
 >abstract="El administrador debe concederle permiso para poder crear un segmento."
-
-
-<!-- Waves-->
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_definition"
->title="Definición de olas"
->abstract="Defina olas para dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_size"
->title="Tamaño de la ola"
->abstract="El tamaño de la ola es obligatorio. Introduzca un valor numérico (número de mensajes) o un porcentaje (0-100%) en el campo de tamaño."
-
-
 
 <!-- Workflows-->
 
