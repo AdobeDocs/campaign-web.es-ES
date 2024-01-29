@@ -34,7 +34,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Destinatarios Ya no hay contacto"
+>title="Destinatarios Ya no se puede contactar"
 >abstract="Esta sección ofrece detalles sobre las preferencias de contacto del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en el botón **Guardar**, situado en la esquina superior derecha de la pantalla."
 
 >[!CONTEXTUALHELP]

@@ -155,7 +155,7 @@ También puede cambiar el formato de los mensajes de correo electrónico enviado
 
   El mensaje se envía en formato de texto. El formato de HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el mensaje.
 
-## Web Analytics {#web-analytics}
+## Análisis web {#web-analytics}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
@@ -209,7 +209,7 @@ Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modo
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
->title="Vigencia de la configuración"
+>title="Validez de la configuración"
 >abstract="El campo **Duración del envío** permite introducir el límite de los reintentos de envío global. Esto significa que Adobe Campaign envía los mensajes comenzando en la fecha de inicio y, a continuación, para los mensajes que devuelven solo un error se realizan reintentos normales y configurables hasta que se alcanza el límite de validez.<br>El campo **Vigencia de los recursos** se utiliza para los recursos cargados, como la página espejo y las imágenes. Una vez alcanzado el límite, los recursos ya no están disponibles."
 
 >[!CONTEXTUALHELP]
