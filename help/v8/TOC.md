@@ -6,10 +6,10 @@ title: Documentación web de Adobe Campaign
 description: Documentación web de Campaign
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 87%
+source-wordcount: '558'
+ht-degree: 84%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 87%
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de entregas de prueba](preview-test/test-deliveries.md)
       + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
++ Páginas de aterrizaje {#landing-pages}
+   + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
+   + [Creación y publicación de una página de aterrizaje](landing-pages/create-lp.md)
+   + [Diseño del contenido de la página de aterrizaje](landing-pages/lp-content.md)
+   + [Trabajo con plantillas de página de aterrizaje](landing-pages/lp-templates.md)
 + Perfiles y audiencias {#audiences}
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)
