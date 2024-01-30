@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Obtenga información sobre cómo conectarse a Adobe Campaign y descubrir concept
 >
 >Esta documentación se actualiza frecuentemente para reflejar los cambios recientes en la interfaz de usuario del producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz de usuario.
 
-## Página de inicio de Campaign {#user-interface-home}
+## Página principal de Campaign {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
@@ -346,7 +346,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
->title="Esta plantilla solo está lista"
+>title="Esta plantilla es de solo lectura"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
