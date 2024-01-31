@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo empezar con campañas en canales m
 badge: label="Disponibilidad limitada"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Las campañas ofrecen métricas de creación de informes dedicadas para obtener 
 
 ![Flujo de campaña](assets/campaign-flow.png)
 
-Obtenga información sobre cómo crear, administrar y supervisar sus campañas en las siguientes secciones:
+Aprenda a crear, administrar y monitorizar sus campañas en las siguientes secciones:
 
 * [Acceso y administración de campañas](manage-campaigns.md)
 * [Cree su primera campaña](create-campaigns.md)
-* [Examen de los informes de campaña](../reporting/campaign-reports.md).
+* [Examine sus informes de campaña](../reporting/campaign-reports.md).
 
 

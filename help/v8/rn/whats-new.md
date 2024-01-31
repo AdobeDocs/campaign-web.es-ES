@@ -5,9 +5,9 @@ description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ La web de Adobe Campaign cuenta con un potente modelador de consultas que simpli
 * Defina públicos destinatarios de sus mensajes o flujos de trabajo, y cree sin esfuerzo nuevos públicos adaptados a sus necesidades
 * Aplique reglas dentro de las actividades del flujo de trabajo, como División y Reconciliación, para adaptarlas a sus necesidades específicas
 * Cree filtros predefinidos que sirvan de accesos directos durante diversas operaciones de filtrado, tanto si trabaja con listas de datos como si crea el público para un envío
-* Añadir regla para filtrar los datos mostrados en los informes
+* Añadir una regla para filtrar los datos mostrados en los informes
 * Cree reglas personalizadas para filtrar los datos mostrados en listas, como destinatarios, listas de envíos, etc
 
 Obtenga más información en [esta sección](../query/query-modeler-overview.md).
@@ -79,7 +79,7 @@ Utilice la nueva IU de la web de Campaign para lo siguiente:
 * Cree, diseñe, personalice, programe y envíe notificaciones push, por correo electrónico y SMS ([más información](../msg/gs-messages.md))
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../email/edit-content.md)
 * Enviar campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
-* Defina audiencias de destino con el modelador de consultas: [Más información](../audience/about-recipients.md)
+* Definir públicos destinatarios con el modelador de consultas: [Más información](../audience/about-recipients.md)
 * Previsualizar, probar y enviar mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
