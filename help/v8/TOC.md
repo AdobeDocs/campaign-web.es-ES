@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)
       + [Diseño de un envío push](push/content-push.md)
-      + [Previsualización y envío de una entrega push](push/send-push.md)
+      + [Previsualizar y enviar un envío push](push/send-push.md)
    + SMS {#sms}
       + [Introducción a los envíos de SMS](sms/gs-sms.md)
       + [Creación de un envío SMS](sms/create-sms.md)
@@ -120,12 +120,12 @@ ht-degree: 84%
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
    + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
-   + Creación y ejecución de su primer flujo de trabajo {#create-workflow}
+   + Cree y ejecute su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
       + [Organización de actividades](workflows/orchestrate-activities.md)
       + [Configuración del flujo de trabajo](workflows/workflow-settings.md)
-      + [Inicio y monitorización de flujos de trabajo](workflows/start-monitor-workflows.md)
+      + [Iniciar y monitorizar sus flujos de trabajo](workflows/start-monitor-workflows.md)
    + Trabajo con actividades del flujo de trabajo {#design-workflows}
       + [Acerca de las actividades del flujo de trabajo](workflows/activities/about-activities.md)
       + [And-join](workflows/activities/and-join.md)

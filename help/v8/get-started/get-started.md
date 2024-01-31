@@ -7,7 +7,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 68%
+ht-degree: 87%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 68%
 
 Adobe Campaign ofrece una plataforma para elaborar experiencias multicanal para los clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-Adobe Campaign v8 es la herramienta de campaña de próxima generación diseñada para varios canales de marketing, como correo electrónico, notificaciones push, SMS y correo directo. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para comunicaciones como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
+Adobe Campaign v8 es la herramienta de campañas de última generación creada para diversos canales de marketing como el correo electrónico, las notificaciones push, los SMS y el correo directo. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para comunicaciones como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
 
 Utilice Campaign para lo siguiente:
 
@@ -45,7 +45,7 @@ Inicialmente, solo estaba disponible a través de la [consola del cliente](#ac-c
 
 Esta nueva interfaz de usuario atiende primero a las necesidades del **profesional empresarial**. Todas las tareas de administración típicas no están disponibles en esta primera versión, pero se abordarán en versiones posteriores. Tenga en cuenta que, por ahora, no todas las funciones u opciones disponibles en la consola del cliente están disponibles en la nueva interfaz de usuario. En futuras versiones habrá disponibles nuevos casos de uso, opciones y funciones.
 
-Como administrador o usuario experto, si necesita acceder a las funcionalidades de Campaign v8 que no están disponibles en la interfaz de usuario web, puede conectarse a [consola de cliente](#ac-client).
+Como administrador o usuario experto, si necesita acceder a las funcionalidades de la versión 8 de Campaign que no están disponibles en la IU de la web, puede usar la variable [consola del cliente](#ac-client).
 
 
 >[!NOTE]
@@ -62,4 +62,4 @@ Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos est
 
 Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la IU de Campaign Web, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista de Explorer, en el menú de navegación de la izquierda.
 
-Para obtener más información sobre cómo utilizar Campaign v8 con su consola de cliente, consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
+Para obtener más información sobre el uso de Campaign v8 con su consola de cliente, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.

@@ -6,7 +6,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Cuando un filtro se guarda como favorito, está disponible para todos los usuari
 
 ## Uso de un filtro predefinido {#use-predefined-filter}
 
-Los filtros predefinidos están disponibles al definir las propiedades de una regla. Para acceder a los filtros predefinidos, seleccione **Seleccionar filtro personalizado** en la lista desplegable del modelador de consultas.
+Los filtros predefinidos están disponibles al definir las propiedades de una regla. Para acceder a los filtros predefinidos, seleccione la opción **Seleccionar filtro personalizado** en la lista desplegable del modelador de consultas.
 
 Luego podrá acceder a la lista completa de filtros predefinidos disponibles para el contexto dado.
 
