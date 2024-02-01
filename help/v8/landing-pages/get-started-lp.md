@@ -3,14 +3,21 @@ audience: end-user
 title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: cfd648013a8ae16be30603f982d122d09781cd51
+source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
 # Introducción a las páginas de aterrizaje {#get-sarted-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Páginas de aterrizaje"
+>abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar la adquisición de datos de perfil y los flujos de inclusión/exclusión de forma rápida y sencilla."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+
 
 Una página de aterrizaje es una página web independiente a la que se dirige al usuario después de hacer clic desde un correo electrónico, un sitio web, un anuncio o cualquier otra ubicación digital.
 
