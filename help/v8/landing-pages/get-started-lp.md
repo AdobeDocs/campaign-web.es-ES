@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Páginas de aterrizaje"
->abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar la adquisición de datos de perfil y los flujos de inclusión/exclusión de forma rápida y sencilla."
+>abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 
