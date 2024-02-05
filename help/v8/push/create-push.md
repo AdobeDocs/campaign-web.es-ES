@@ -4,10 +4,10 @@ title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 37%
+source-wordcount: '706'
+ht-degree: 32%
 
 ---
 
@@ -89,10 +89,21 @@ Desde esta pantalla, también puede [simular el contenido](../preview-test/previ
 
 ## Programe los envíos de entregas {#schedule-push}
 
-Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#gs-schedule)
+Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar el **Planificador** actividad. Obtenga más información en [esta página](../workflows/activities/scheduler.md). Los pasos siguientes solo se aplican a envíos independientes.
+
+Para programar una entrega push independiente a una fecha y hora específicas, siga estos pasos:
+
+1. Vaya a la **[!UICONTROL Programación]** de las propiedades de entrega.
+
+1. Utilice el **[!UICONTROL Habilitar programación]** para activarlo.
+
+1. Establezca la fecha y la hora deseadas para el envío.
+
+Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas que haya definido para el destinatario.
 
 ![](assets/push_create_3.png)
 
+Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#gs-schedule)
 
 ## Configuración avanzada del envío {#adv-push}
 

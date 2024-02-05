@@ -4,10 +4,10 @@ title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Disponibilidad limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 70%
+source-wordcount: '1367'
+ht-degree: 68%
 
 ---
 
@@ -144,11 +144,9 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 ## Programación del envío {#schedule}
 
-Para programar el envío del correo electrónico, siga los pasos a continuación.
+Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar el **Planificador** actividad. Obtenga más información en [esta página](../workflows/activities/scheduler.md). Los pasos siguientes solo se aplican a envíos independientes.
 
-Las instrucciones adicionales sobre cómo programar la entrega de envíos se detallan en [esta sección](../msg/gs-messages.md#gs-schedule).
-
-1. Vaya a la **[!UICONTROL Programación]** sección.
+1. Vaya a la **[!UICONTROL Programación]** de las propiedades de entrega.
 
 1. Utilice el **[!UICONTROL Habilitar programación]** para activarlo.
 
@@ -156,7 +154,9 @@ Las instrucciones adicionales sobre cómo programar la entrega de envíos se det
 
    ![](assets/schedule.png)
 
-Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
+Una vez realizada la entrega, el envío real comienza en la fecha de contacto definida.
+
+Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## Vista previa y prueba del correo electrónico {#preview-test}
 

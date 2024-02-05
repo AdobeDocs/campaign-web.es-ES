@@ -4,10 +4,10 @@ title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 badge: label="Disponibilidad limitada"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 46%
+source-wordcount: '500'
+ht-degree: 45%
 
 ---
 
@@ -71,6 +71,10 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
    Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../msg/offers.md).
 
 1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#gs-schedule).
+
+   >[!NOTE]
+   >
+   >Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar el **Planificador** actividad. Obtenga más información en [esta página](../workflows/activities/scheduler.md).
 
 1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
