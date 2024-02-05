@@ -4,10 +4,10 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Disponibilidad limitada"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 65%
+source-wordcount: '2326'
+ht-degree: 64%
 
 ---
 
@@ -125,9 +125,11 @@ En el **[!UICONTROL Exclusión]** , puede seleccionar excluir los destinatarios 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Configuración del envío"
->abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede activar CCO para el envío y cambiar los modos de envío y rutina. Estas opciones están restringidas únicamente a usuarios expertos."
+>abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede cambiar los modos de entrega y rutina, activar el CCO del correo electrónico, enviar mediante olas y también elegir el formato de los mensajes de correo electrónico enviados. Estas opciones están restringidas únicamente a usuarios expertos."
 
 **[!UICONTROL Envío]** Los parámetros de son ajustes técnicos que se aplican a su envío.
+
+![](assets/delivery-settings-delivery.png)
 
 El correo electrónico integrado **[!UICONTROL Enrutamiento]** La cuenta externa de se proporciona de forma predeterminada. Contiene los parámetros técnicos que le permiten a la aplicación enviar correos electrónicos.
 

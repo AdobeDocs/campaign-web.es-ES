@@ -3,7 +3,7 @@ audience: end-user
 title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 81%
@@ -34,7 +34,11 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
 
 1. Para configurar las olas, se puede:
 
-   * **[!UICONTROL Programar varias olas del mismo tamaño]**. Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en la entrega, excepto el último, que representa el 10 % de los mensajes.
+   * **[!UICONTROL Programar varias olas del mismo tamaño]**.
+
+     Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en la entrega, excepto el último, que representa el 10 % de los mensajes.
+
+     ![](assets/waves-same-size.png)
 
      En el **[!UICONTROL Intervalo]** , especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si se introduce **[!UICONTROL 2d]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
 
@@ -44,7 +48,9 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
 
      En el siguiente ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
 
-     Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas se configuran en la variable **[!UICONTROL Tipología]** de la configuración de entrega. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas se configuran en la variable **[!UICONTROL Tipología]** de la configuración de entrega. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
   Para hacer esto, seleccione la opción **[!UICONTROL Programar ondas según un calendario]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 % y así sucesivamente.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Campañas que implican un centro de llamadas**
 
   Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
@@ -73,3 +81,5 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
   Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
 
   Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Introducir **[!UICONTROL 20]** como tamaño de la onda y **[!UICONTROL 1d]** en el campo **[!UICONTROL Periodo]**.
+
+  ![](assets/waves-call-center.png)
