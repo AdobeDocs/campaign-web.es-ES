@@ -27,7 +27,7 @@ Aprenda a conectarse a Adobe Campaign y descubra conceptos básicos de navegaci�
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recientes"
->abstract="La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación."
+>abstract="La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra su canal, estado, propietario y fechas de creación y modificación."
 
 La página de inicio de Campaign permite examinar rápida y fácilmente recursos, indicadores y componentes clave.
 
@@ -37,7 +37,7 @@ La sección superior de la página de inicio proporciona detalles sobre las últ
 
 Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de los indicadores clave de rendimiento (KPI) en [esta página](../reporting/kpis.md).
 
-La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra sus fechas de canal, estado, propietario, creación y modificación. Haga clic en el vínculo **Mostrar más** para cargar más envíos.
+La lista **Recientes** proporciona accesos directos a los envíos creados y modificados recientemente. Esta lista muestra su canal, estado, propietario y fechas de creación y modificación. Haga clic en el vínculo **Mostrar más** para cargar más envíos.
 
 Además, puede acceder a las páginas de ayuda de claves web de Adobe Campaign desde el **Aprendizaje** de la página.
 
