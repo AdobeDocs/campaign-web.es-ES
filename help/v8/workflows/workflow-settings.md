@@ -4,7 +4,7 @@ title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 25%
@@ -46,7 +46,7 @@ Los valores posibles son:
    * **Zona horaria de la base de datos** para utilizar la zona horaria del servidor de la base de datos
    * Una zona horaria específica
 * Cuando falla un flujo de trabajo, los operadores que pertenecen al grupo de operadores seleccionado en la **[!UICONTROL Supervisor(s)]** se notifican por correo electrónico.
-* *También puede introducir una **[!UICONTROL Descripción]** del flujo de trabajo.
+* También puede introducir una **[!UICONTROL Descripción]** del flujo de trabajo.
 
 Cuando el flujo de trabajo es [asociado a una campaña](create-workflow.md), se muestra en la **[!UICONTROL Campaña vinculada]** field. Puede abrir la campaña asociada desde ese campo.
 
