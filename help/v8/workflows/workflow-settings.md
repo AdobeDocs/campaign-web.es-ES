@@ -4,10 +4,10 @@ title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
+source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 26%
+source-wordcount: '957'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,12 @@ Cuando el flujo de trabajo es [asociado a una campaña](create-workflow.md), se 
   >
   >Si el campo **[!UICONTROL Historial en días]** se deja en blanco, su valor se considerará “1”, lo que significa que el historial se purgará después de un día.
 
-* **[!UICONTROL Afinidad predeterminada]**: Si la instalación incluye varios servidores de flujo de trabajo, utilice este campo para elegir el equipo en el que se ejecutará el flujo de trabajo. Si el valor definido en este campo no existe en ningún servidor, el flujo de trabajo permanece pendiente.
+* **[!UICONTROL Afinidad predeterminada]**: Si la instalación incluye varios servidores de flujo de trabajo, utilice este campo para especificar el servidor en el que se ejecutará el flujo de trabajo. Esto fuerza la ejecución de ese flujo de trabajo en un servidor concreto. Puede elegir cualquier nombre de afinidad existente, pero asegúrese de no utilizar espacios ni signos de puntuación. Si utiliza servidores diferentes, especifique nombres diferentes separados por comas.
+
+  >[!IMPORTANT]
+  >
+  >Si el valor definido en este campo no existe en ningún servidor, el flujo de trabajo permanece pendiente.
+
 
 * **[!UICONTROL Guardar consultas SQL en el registro]**: Marque esta opción para guardar las consultas SQL del flujo de trabajo en los registros. Esta funcionalidad se reserva únicamente a los usuarios avanzados. Se aplica a flujos de trabajo que contienen actividades de segmentación como **[!UICONTROL Crear audiencia]**. Cuando esta opción está habilitada, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en los registros del flujo de trabajo, lo que le permite analizarlas para optimizar consultas o diagnosticar problemas.
 
