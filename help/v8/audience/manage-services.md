@@ -4,9 +4,9 @@ title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '940'
 ht-degree: 30%
 
 ---
@@ -70,11 +70,11 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
 
 1. De forma predeterminada, los servicios de se almacenan en **[!UICONTROL Servicios y suscripciones]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
-1. De forma predeterminada, las suscripciones son ilimitadas. Puede desactivar las **[!UICONTROL Período de validez ilimitado]** para definir una duración de validez del servicio.
+1. De forma predeterminada, las suscripciones son ilimitadas.
 
-   En el ejemplo siguiente, después de 20 días:
-   * Ya no habrá destinatarios que puedan suscribirse a este servicio.
-   * Todos los suscriptores de este servicio cancelarán su suscripción automáticamente pasados 20 días. [Más información](#automatic-unsubscription)
+   Puede desactivar las **[!UICONTROL Período de validez ilimitado]** para definir una duración de validez del servicio. Una vez finalizado el periodo de validez:
+   * Ya ningún destinatario puede suscribirse a este servicio
+   * Todos los suscriptores de este servicio cancelan su suscripción automáticamente
 
    ![](assets/service-create-validity-period.png)
 
