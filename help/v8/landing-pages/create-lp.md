@@ -2,9 +2,9 @@
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1003'
 ht-degree: 10%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creación y administración de páginas de aterrizaje"
->abstract="Adobe Campaign le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter."
+>abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas."
 
-Para dirigir a los clientes a una página web definida que desee mostrar cuando hagan clic en un vínculo específico, cree una página de aterrizaje en [!DNL Adobe Campaign], diseñe su contenido, pruébelo y publíquelo.
+Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas.
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
