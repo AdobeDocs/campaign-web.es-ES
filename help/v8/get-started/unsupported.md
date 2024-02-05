@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Funciones no admitidas en la IU web de Campaign
+title: Funciones no admitidas en la interfaz de usuario web de Campaign
 description: Lista de funciones no admitidas en la interfaz de usuario web de Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 95%
 
 ---
 

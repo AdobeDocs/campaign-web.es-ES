@@ -4,10 +4,10 @@ title: Introducción a Adobe Campaign Web
 description: Introducción a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Disponibilidad limitada"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '577'
+ht-degree: 64%
 
 ---
 
@@ -43,9 +43,9 @@ Inicialmente, solo estaba disponible a través de la [consola del cliente](#ac-c
 
 ![](assets/home.png)
 
-Esta nueva interfaz de usuario atiende primero a las necesidades del **profesional empresarial**. Todas las tareas de administración típicas no están disponibles en esta primera versión, pero se abordarán en versiones posteriores. Tenga en cuenta que, por ahora, no todas las funciones u opciones disponibles en la consola del cliente están disponibles en la nueva interfaz de usuario. En futuras versiones habrá disponibles nuevos casos de uso, opciones y funciones.
+Esta nueva interfaz de usuario web satisface primero las necesidades del **profesional del negocio** - todas las tareas de administración típicas no están disponibles en esta primera versión, pero se abordarán en versiones posteriores. Tenga en cuenta que, por ahora, no todas las funciones u opciones disponibles en la consola del cliente están disponibles en la nueva interfaz de usuario. En futuras versiones habrá disponibles nuevos casos de uso, opciones y funciones.
 
-Como administrador o usuario experto, si necesita acceder a las funcionalidades de la versión 8 de Campaign que no están disponibles en la IU de la web, puede usar la variable [consola del cliente](#ac-client).
+Como administrador o usuario experto, si necesita acceder a las funciones de Campaign v8 que no están disponibles en la interfaz de usuario web de Campaign, puede conectarse a [consola de cliente](#ac-client).
 
 
 >[!NOTE]
@@ -58,8 +58,8 @@ Obtenga información sobre cómo conectarse a la web de Adobe Campaign en [esta 
 
 La consola del cliente de Campaign es una aplicación basada en el explorador que se instala en el sistema. Utiliza la API de servicios web para conectarse al servidor de aplicaciones de Campaign.
 
-Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos están disponibles tanto en la consola del cliente como en la IU de la web. Por ejemplo, si crea una plantilla de envíos mediante la consola del cliente, también estará disponible en la IU de la web. Y si crea un envío de correo electrónico en la IU de la web, también puede acceder a este envío desde la consola del cliente.
+Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos están disponibles tanto desde la consola del cliente como desde la interfaz de usuario web de Campaign. Por ejemplo, si crea una plantilla de envíos mediante la consola del cliente, también estará disponible en la interfaz de usuario web de Campaign. Y si crea una entrega por correo electrónico en la interfaz de usuario web de Campaign, también se puede acceder a esta entrega desde la consola del cliente.
 
-Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la IU de Campaign Web, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista de Explorer, en el menú de navegación de la izquierda.
+Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pueden ser visibles y utilizarse en la interfaz de usuario web de Campaign, pero no se pueden crear ni modificar desde este entorno. Todos los objetos y componentes de Campaign están disponibles en la vista de Explorer, en el menú de navegación de la izquierda.
 
 Para obtener más información sobre el uso de Campaign v8 con su consola de cliente, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.

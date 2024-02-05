@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Preparación y envío de un correo electrónico
-description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la IU de la web de Campaign
+description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Disponibilidad limitada"
-source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 40%
+source-wordcount: '893'
+ht-degree: 38%
 
 ---
 

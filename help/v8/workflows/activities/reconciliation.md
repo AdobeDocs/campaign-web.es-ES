@@ -4,9 +4,9 @@ title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 badge: label="Disponibilidad limitada"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 45%
 
 ---
@@ -125,4 +125,4 @@ Se crea con las siguientes actividades:
 
 ## Compatibilidad {#reconciliation-compat}
 
-El **Reconciliación** La actividad no existe en la consola del cliente. Todo **Enriquecimientos** las actividades creadas en la consola de cliente con las opciones de reconciliación habilitadas se muestran como **Reconciliación** actividades en la IU web de Campaign.
+El **Reconciliación** La actividad no existe en la consola del cliente. Todo **Enriquecimientos** las actividades creadas en la consola de cliente con las opciones de reconciliación habilitadas se muestran como **Reconciliación** actividades en la interfaz de usuario web de Campaign.

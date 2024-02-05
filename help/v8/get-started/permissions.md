@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Administración de permisos en la web de Campaign
-description: Obtenga más información sobre los permisos en la versión 8 de la web de Campaign
+title: Administración de permisos en la interfaz de usuario web de Campaign
+description: Obtenga más información sobre los permisos en la interfaz de usuario web de Campaign
 badge: label="Disponibilidad limitada"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 

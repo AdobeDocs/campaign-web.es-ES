@@ -3,10 +3,10 @@ title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign
 badge: label="Disponibilidad limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a uti
 
 Examine la barra superior de la interfaz para lo siguiente:
 
-* Compartir comentarios sobre la interfaz web de Campaign
+* compartir comentarios sobre la interfaz de usuario web de Campaign
 * cambiar entre sus organizaciones
 * cambiar entre sus soluciones y aplicaciones de Adobe Experience Cloud
 * buscar ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}

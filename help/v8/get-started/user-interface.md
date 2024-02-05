@@ -4,10 +4,10 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidad limitada"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 96%
+source-wordcount: '1597'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, hag
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Actualmente disponible como versión Beta dentro de la nueva interfaz web de Campaign, el **Asistente de conocimientos con tecnología de IA** integrado dentro de la ayuda contextual revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo amplios repositorios de documentación y localizar al instante la información precisa que necesita.
+Lanzado como versión beta dentro de la nueva interfaz de usuario web de Campaign, el **Asistente de conocimientos con tecnología de IA** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
 
 Gracias a las funciones Gen IA de Campaign, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro Asistente de conocimientos con tecnología de IA es su mejor compañero, ya que proporciona una eficacia y precisión inigualables en cada interacción.
 

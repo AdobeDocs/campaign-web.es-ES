@@ -1,56 +1,56 @@
 ---
-title: Mecanismos de protección y limitaciones en la IU web de Campaign
-description: Mecanismos de protección y limitaciones en la IU web de Campaign
+title: Protecciones y limitaciones en la interfaz de usuario web de Campaign
+description: Protecciones y limitaciones en la interfaz de usuario web de Campaign
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # Mecanismos de protección y limitaciones {#guardrails-limitations}
 
-Al trabajar en la IU web de Campaign con componentes creados o modificados en la consola del cliente de Campaign, se aplican los mecanismos de protección y limitaciones que se enumeran a continuación.
+Al trabajar en la interfaz de usuario web de Campaign con componentes creados o modificados en la consola del cliente de Campaign, se aplican las protecciones y limitaciones que se enumeran a continuación.
 
 ## Flujos de trabajo {#wf-guardrails-limitations}
 
 ### Actividades
 
-Las actividades de flujo de trabajo que aún no se admiten en la interfaz de usuario web son de solo lectura y se muestran como actividades incompatibles. Puede ejecutar de todos modos el flujo de trabajo, enviar mensajes, comprobar los registros, etc. Las actividades de flujo de trabajo disponibles tanto en la interfaz de usuario web como en la consola del cliente son editables.
+Las actividades de flujo de trabajo que aún no se admiten en la interfaz de usuario web de Campaign son de solo lectura y se muestran como actividades incompatibles. Puede ejecutar de todos modos el flujo de trabajo, enviar mensajes, comprobar los registros, etc. Las actividades de flujo de trabajo disponibles tanto en la interfaz de usuario web de Campaign como en la consola del cliente de Campaign son editables.
 
-| Consola | IU web |
+| Consola | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-No se muestra la configuración de actividad de flujo de trabajo que aún no es compatible con la interfaz de usuario web. Sin embargo, cuando se ejecuta el flujo de trabajo, se aplica esta configuración.
+No se muestran los ajustes de actividad de flujo de trabajo que aún no son compatibles con la interfaz de usuario web. Sin embargo, cuando se ejecuta el flujo de trabajo, se aplica esta configuración.
 
-| Consola | IU web |
+| Consola | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-En la consola, la actividad **Enriquecimiento** puede realizar tanto la reconciliación como el enriquecimiento. En la IU web, las funcionalidades de reconciliación aún no están disponibles. Si ha definido en la consola la configuración de reconciliación en la actividad **Enriquecimiento**, se mostrará como una actividad de solo lectura no compatible en la interfaz de usuario web.
+En la consola, la actividad **Enriquecimiento** puede realizar tanto la reconciliación como el enriquecimiento. En la interfaz de usuario web de Campaign, las funcionalidades de reconciliación aún no están disponibles. Si ha definido, en la consola del cliente, la configuración de reconciliación en la variable **Enriquecimiento** actividad, se muestra como una actividad de solo lectura no compatible en la interfaz de usuario web de Campaign.
 
-| Consola | IU web |
+| Consola | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Lienzo
 
-Al crear un nuevo flujo de trabajo en la interfaz de usuario web, el lienzo solo admite un punto de entrada. Sin embargo, si ha creado un flujo de trabajo en la consola con varios puntos de entrada, puede abrirlo y editarlo en la interfaz de usuario web.
+Al crear un nuevo flujo de trabajo en la interfaz de usuario web de Campaign, el lienzo solo admite un punto de entrada. Sin embargo, si ha creado un flujo de trabajo en la consola con varios puntos de entrada, puede abrirlo y editarlo en la interfaz de usuario web de Campaign.
 
-| Consola | IU web |
+| Consola | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Los bucles aún no están disponibles en la interfaz de usuario web. Si ha creado mediante la consola un flujo de trabajo que incluye un bucle, no podrá acceder a él desde la interfaz de usuario web. Se muestra un mensaje de error.
+Los bucles aún no están disponibles en la interfaz de usuario web de Campaign. Si ha creado un flujo de trabajo que incluye un bucle mediante la consola, no puede acceder a él desde la interfaz de usuario web de Campaign. Se muestra un mensaje de error.
 
-| Consola | IU web |
+| Consola | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-La posición de los nodos se actualiza cada vez que se añade o elimina una actividad. Si crea un flujo de trabajo en la consola, lo modifica mediante la interfaz de usuario web y lo vuelve a abrir en la consola, es posible que observe algunas imperfecciones de posición menores. Esto no afecta a los procesos y tareas del flujo de trabajo.
+La posición de los nodos se actualiza cada vez que se añade o elimina una actividad. Si crea un flujo de trabajo en la consola, lo modifica mediante la interfaz de usuario web de Campaign y lo vuelve a abrir en la consola, puede que observe algunas imperfecciones de posición menores. Esto no afecta a los procesos y tareas del flujo de trabajo.
 
 | Flujo de trabajo inicial | Cambio de posición |
 | --- | --- |

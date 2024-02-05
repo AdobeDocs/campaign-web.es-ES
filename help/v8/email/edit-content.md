@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Edición del contenido de correo electrónico
-description: Obtenga información sobre cómo editar el contenido del correo electrónico en la IU de la web de Campaign
+description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 52%
+source-wordcount: '626'
+ht-degree: 50%
 
 ---
 

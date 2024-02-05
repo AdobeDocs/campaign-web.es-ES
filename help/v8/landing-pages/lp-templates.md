@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajo con plantillas de contenido de página de aterrizaje
 description: Aprenda a guardar el contenido de la página de aterrizaje como plantilla de diseño y a reutilizarlo en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
@@ -56,4 +56,4 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 1. Edite el contenido como desee con el diseñador de páginas de aterrizaje.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->
