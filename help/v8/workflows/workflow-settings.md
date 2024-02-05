@@ -4,7 +4,7 @@ title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 26%
@@ -20,7 +20,7 @@ Estos ajustes están preconfigurados en la plantilla seleccionada al crear el fl
 
 Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barra de acciones sobre el lienzo del flujo de trabajo.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Propiedades del flujo de trabajo {#properties}
 
@@ -29,10 +29,15 @@ Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barr
 >title="Propiedades del flujo de trabajo"
 >abstract="En esta sección se proporcionan propiedades genéricas de flujo de trabajo a las que también se puede acceder al crear el flujo de trabajo. Puede elegir la plantilla que desea utilizar para crear el flujo de trabajo y especificar una etiqueta. Expanda la sección Opciones adicionales para configurar ajustes específicos, como el flujo de trabajo que almacena la carpeta o la zona horaria."
 
-El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la que también se puede acceder al crear el flujo de trabajo. Estas propiedades son:
+El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la que también se puede acceder al crear el flujo de trabajo.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+Estas propiedades son:
 
 * El **[!UICONTROL Etiqueta]** del flujo de trabajo que se muestra en la lista.
-* El interno **[!UICONTROL Nombre]** del flujo de trabajo.
+* El **[!UICONTROL Nombre interno]** del flujo de trabajo.
 * El **[!UICONTROL Carpeta]** donde se debe guardar el flujo de trabajo.
 * El valor predeterminado **[!UICONTROL Timezone]** para usar en todas las actividades del flujo de trabajo. De forma predeterminada, el huso horario del flujo de trabajo es el definido para el operador de Campaign actual.
 Los valores posibles son:
