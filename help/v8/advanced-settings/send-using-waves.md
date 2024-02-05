@@ -6,7 +6,7 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 73%
+ht-degree: 81%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="Definición de olas"
->abstract="Defina olas para dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo."
+>abstract="Defina olas para dividir los envíos en varios lotes en lugar de enviar grandes volúmenes de mensajes al mismo tiempo."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
 >title="Tamaño de la ola"
->abstract="El tamaño de la ola es obligatorio. Introduzca un valor numérico (número de mensajes) o un porcentaje (0-100%) en el campo de tamaño."
+>abstract="El tamaño de la ola es obligatorio. Introduzca un valor numérico (número de mensajes) o un porcentaje (0-100 %) en el campo de tamaño."
 
 Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo la entrega.
 

@@ -7,11 +7,11 @@ badge: label="Disponibilidad limitada"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
-# Documentación web de Adobe Campaign {#campaign-documentation}
+# Documentación de la web de Adobe Campaign {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -26,7 +26,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Elemento 1"
->abstract="Nueva experiencia de diseño de correo electrónico, SMS y notificaciones push"
+>abstract="Nueva experiencia de diseño de notificaciones por correo electrónico, SMS y push"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Elemento 3"
->abstract="UX reinventado para audiencias, suscripciones, AEM Assets, páginas de aterrizaje"
+>abstract="UX reinventado para públicos, suscripciones, AEM Assets, páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Elemento 4"
->abstract="Modelador de consultas y diseñador de correo electrónico de última generación"
+>abstract="Diseñador de correo electrónico y modelador de consultas de próxima generación"
 
 <!--
 >[!CONTEXTUALHELP]

@@ -5,15 +5,15 @@ badge: label="Disponibilidad limitada"
 source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 10%
+ht-degree: 26%
 
 ---
 
-# Creación y publicación de páginas de aterrizaje {#create-lp}
+# Creación y publicación de páginas de destino {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="Creación y administración de páginas de aterrizaje"
+>title="Creación y administración de páginas de destino"
 >abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas."
 
 Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas.
@@ -42,7 +42,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los tres punto
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Definir las propiedades de la página de aterrizaje"
+>title="Definición de las propiedades de la página de aterrizaje"
 >abstract="Rellene los campos de propiedades como la etiqueta y modifique el esquema si es necesario. Además, puede editar el nombre interno, cambiar la carpeta donde se almacena la página de aterrizaje y proporcionar una descripción."
 
 >[!CONTEXTUALHELP]
@@ -52,18 +52,18 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los tres punto
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Programe su página de aterrizaje"
->abstract="Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Cuando la página haya caducado, la variable **Caducidad** se muestra la página."
+>title="Programación de la página de aterrizaje"
+>abstract="Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Cuando la página haya caducado, se mostrará la página **Caducidad**."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="Definir la configuración de la página principal"
+>title="Definición de la configuración de la página principal"
 >abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, por ejemplo, desde un correo electrónico o un sitio web."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Establezca la página de aterrizaje de suscripción"
+>title="Establecimiento de la página de aterrizaje de la suscripción"
 >abstract="Una página de suscripción permite a los clientes suscribirse a un servicio."
 
 <!--The main steps to create landing pages are as follows:
@@ -102,7 +102,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los tres punto
 
    ![](assets/lp-storage-schedule.png)
 
-1. Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Seleccionar **[!UICONTROL Habilitar programación]** y fije las fechas. Cuando la página haya caducado, la variable **[!UICONTROL Caducidad]** se muestra la página.
+1. Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Seleccionar **[!UICONTROL Habilitar programación]** y fije las fechas. Cuando la página haya caducado, se mostrará la página **[!UICONTROL Caducidad]**.
 
 1. Clic **[!UICONTROL Revisión y publicación]**.
 
