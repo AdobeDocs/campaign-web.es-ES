@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 7%
+source-wordcount: '223'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 7%
 >abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta de forma instantánea páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripción y casos de uso de listas de bloqueados en función de plantillas integradas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
+Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje. En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante después de hacer clic en un vínculo de un correo electrónico, SMS o envío push, o un sitio web.
 
-Una página de aterrizaje es una página web independiente a la que se dirige al usuario después de hacer clic desde un correo electrónico, un sitio web, un anuncio o cualquier otra ubicación digital.
+[!DNL Adobe Campaign] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter. Adobe Campaign incluye cuatro plantillas para administrar adquisiciones, suscripciones, cancelaciones de suscripciones y casos de uso de la lista de bloqueados, entre otros.
 
-[!DNL Adobe Campaign] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.
+Las funcionalidades clave se enumeran a continuación:
 
 * Aprovechamiento [!DNL Adobe Campaign] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
 * Configuración de **flujos de inclusión y exclusión** rápida y sin problemas.

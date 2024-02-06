@@ -2,9 +2,9 @@
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 26%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creación y administración de páginas de destino"
->abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripciones y casos de uso de listas de bloqueados, en función de plantillas integradas."
+>abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripción y casos de uso de lista de bloqueados de forma remota, en función de plantillas integradas."
 
-Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripciones y casos de uso de listas de bloqueados, en función de plantillas integradas.
+Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje. En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante después de hacer clic en un vínculo de un correo electrónico, SMS, envío push o en un sitio web. Adobe Campaign incluye cuatro plantillas para administrar **acquisition**, **suscripciones**, **bajas**, y **lista de bloqueados de** casos de uso.
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
