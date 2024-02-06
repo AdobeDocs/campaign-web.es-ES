@@ -4,10 +4,10 @@ title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
 badge: label="Disponibilidad limitada"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 33%
+source-wordcount: '790'
+ht-degree: 32%
 
 ---
 
@@ -81,7 +81,11 @@ Si selecciona esta opción, debe definir el día y la hora de inicio de cada ola
 
 * En la columna **[!UICONTROL Tamaño]**, introduzca un número fijo o un porcentaje.
 
-Añada tantas olas como sea necesario.
+Añada tantas olas como desee. Puede reordenarlos según sus necesidades.
+
+>[!NOTE]
+>
+>Si utiliza porcentajes, el total de todas las olas no debe superar el 100%.
 
 En el ejemplo siguiente, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
 
