@@ -3,10 +3,10 @@ audience: end-user
 title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 81%
+source-wordcount: '784'
+ht-degree: 37%
 
 ---
 
@@ -15,71 +15,90 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="Definición de olas"
->abstract="Defina olas para dividir los envíos en varios lotes en lugar de enviar grandes volúmenes de mensajes al mismo tiempo."
+>title="Dividir los envíos en varios lotes"
+>abstract="En lugar de enviar volúmenes altos de mensajes al mismo tiempo, defina olas para dividir los envíos en varios lotes. Se pueden configurar varias olas del mismo tamaño o definir un calendario para que se envíen las distintas olas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="Tamaño de la ola"
->abstract="El tamaño de la ola es obligatorio. Introduzca un valor numérico (número de mensajes) o un porcentaje (0-100 %) en el campo de tamaño."
+>title="Definir el tamaño de cada ola"
+>abstract="Debe introducir un tamaño para todas las olas que esté añadiendo. Introduzca un valor numérico (número de mensajes para cada ola) o un porcentaje (0-100%)."
 
-Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo la entrega.
+Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo el envío, así como el intervalo entre dos olas.
 
 >[!NOTE]
 >
->Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden configurar los criterios de selección de destinatarios para cada ola.
+>Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden ajustar los criterios de selección de destinatarios para cada ola.
 
-1. Abra el [configuración de envío](delivery-settings.md#retries) y vaya a la **[!UICONTROL Envío]** pestaña.
-1. Seleccione la opción **[!UICONTROL Send using multiple waves]** y haga clic en el vínculo **[!UICONTROL Define waves...]**
+Para realizar envíos mediante olas, siga los pasos a continuación.
+
+1. Abra el [configuración de envío](delivery-settings.md#retries).
+
+1. Vaya a la **[!UICONTROL Envío]** sección.
+
+1. Seleccione el **[!UICONTROL Envío mediante múltiples olas]** opción.
 
 1. Para configurar las olas, se puede:
 
-   * **[!UICONTROL Programar varias olas del mismo tamaño]**.
+   * [Programar varias olas del mismo tamaño](#waves-same-size)
+   * [Programar las olas de acuerdo con un calendario](#waves-calendar)
 
-     Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en la entrega, excepto el último, que representa el 10 % de los mensajes.
+1. Prepare y realice la entrega de la forma habitual. [Más información](../msg/gs-deliveries.md)
 
-     ![](assets/waves-same-size.png)
-
-     En el **[!UICONTROL Intervalo]** , especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si se introduce **[!UICONTROL 2d]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
-
-   * **[!UICONTROL Programar olas según un calendario]**.
-
-     En la columna **[!UICONTROL Comenzar]**, especifique el retardo entre el inicio de dos olas consecutivas. En la columna **[!UICONTROL Tamaño]**, introduzca un número fijo o un porcentaje.
-
-     En el siguiente ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
-
-     ![](assets/waves-calendar.png)
-
-     Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas se configuran en la variable **[!UICONTROL Tipología]** de la configuración de entrega. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
-
-     >[!IMPORTANT]
-     >
-     >Asegúrese de que las últimas olas no superen la fecha límite de entrega, que se define en la pestaña **[!UICONTROL Validez]**. De lo contrario, es posible que algunos mensajes no se envíen. [Más información](delivery-settings.md#validity)
-     >
-     >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
+   >[!CAUTION]
+   >
+   >Asegúrese de que las últimas olas no superen la fecha límite de entrega, que se define en la pestaña **[!UICONTROL Validez]**. De lo contrario, es posible que algunos mensajes no se envíen. [Más información](delivery-settings.md#validity)
+   >
+   >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
 
 1. Para supervisar sus envíos, vaya a [registros de envío](../monitor/delivery-logs.md).
 
-Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
+   Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
 
-Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
+Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas se configuran en la variable **[!UICONTROL Tipología]** de la configuración de entrega. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
-* **Durante el proceso de aceleración**
+## Programar varias olas del mismo tamaño {#waves-same-size}
 
-  Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
+Si selecciona esta opción, todas las olas tienen el mismo tamaño (excepto la última) y el retardo entre cada ola es siempre el mismo.
 
-  Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante el uso de olas. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
+![](assets/waves-same-size.png)
 
-  Para hacer esto, seleccione la opción **[!UICONTROL Programar ondas según un calendario]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 % y así sucesivamente.
+* Especifique el tamaño de todas las olas en las que divide la entrega. Puede introducir un porcentaje o un valor numérico. Solo la última ola puede variar en tamaño, ya que debe incluir el número restante de mensajes.
 
-  ![](assets/waves-ramp-up.png)
+  Por ejemplo, si introduce **[!UICONTROL 30 %]** en el campo correspondiente, las tres primeras olas representan el 30 % de todos los mensajes incluidos en la entrega y la cuarta representa el 10 % restante.
 
-* **Campañas que implican un centro de llamadas**
+* En el **[!UICONTROL Intervalo]** , especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si introduce **[!UICONTROL 2 días]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
 
-  Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
+Un caso de uso común para utilizar varias olas del mismo tamaño es con un centro de llamadas involucrado. Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
 
-  Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
+Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
 
-  Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Introducir **[!UICONTROL 20]** como tamaño de la onda y **[!UICONTROL 1d]** en el campo **[!UICONTROL Periodo]**.
+Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Entrar **[!UICONTROL 20]** como el tamaño de las olas y **[!UICONTROL 1 día]** en el **[!UICONTROL Intervalo]** field.
 
-  ![](assets/waves-call-center.png)
+![](assets/waves-call-center.png)
+
+## Programar las olas de acuerdo con un calendario {#waves-calendar}
+
+Si selecciona esta opción, debe definir el día y la hora de inicio de cada ola que envíe, así como el tamaño de cada ola.
+
+* En el **[!UICONTROL Inicio]** , especifique el retardo entre el inicio de dos olas consecutivas.
+
+* En la columna **[!UICONTROL Tamaño]**, introduzca un número fijo o un porcentaje.
+
+Añada tantas olas como sea necesario.
+
+En el ejemplo siguiente, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
+
+![](assets/waves-calendar.png)
+
+Un caso de uso común para utilizar varias olas según un calendario es durante el proceso de aceleración.
+
+Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
+
+Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante el uso de olas. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
+
+Para hacer esto, seleccione la opción **[!UICONTROL Programar ondas según un calendario]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 %, la tercera en 20 %, etc.
+
+![](assets/waves-ramp-up.png)
+
+
+

@@ -2,8 +2,9 @@
 audience: end-user
 title: Trabajo con plantillas de contenido de página de aterrizaje
 description: Aprenda a guardar el contenido de la página de aterrizaje como plantilla de diseño y a reutilizarlo en Campaign Web
+feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 14%
