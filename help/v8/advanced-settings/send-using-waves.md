@@ -2,11 +2,12 @@
 audience: end-user
 title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
+feature: Email
 badge: label="Disponibilidad limitada"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 37%
+source-wordcount: '767'
+ht-degree: 33%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 37%
 >title="Definir el tamaño de cada ola"
 >abstract="Debe introducir un tamaño para todas las olas que esté añadiendo. Introduzca un valor numérico (número de mensajes para cada ola) o un porcentaje (0-100%)."
 
-Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo el envío, así como el intervalo entre dos olas.
+Para equilibrar la carga, puede dividir los envíos de correo electrónico en varios lotes. Configure el número de lotes y su proporción con respecto a todo el envío, así como el intervalo entre dos olas.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
 
    >[!CAUTION]
    >
-   >Asegúrese de que las últimas olas no superen la fecha límite de entrega, que se define en la pestaña **[!UICONTROL Validez]**. De lo contrario, es posible que algunos mensajes no se envíen. [Más información](delivery-settings.md#validity)
+   >Asegúrese de que las últimas olas no superen la fecha límite de envío, definida en la [Validez](delivery-settings.md#validity) , de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
 
-1. Para supervisar sus envíos, vaya a [registros de envío](../monitor/delivery-logs.md).
-
-   Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
-
-Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas se configuran en la variable **[!UICONTROL Tipología]** de la configuración de entrega. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Para supervisar sus envíos, vaya a [registros de envío](../monitor/delivery-logs.md). Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
 
 ## Programar varias olas del mismo tamaño {#waves-same-size}
 
@@ -64,7 +61,7 @@ Si selecciona esta opción, todas las olas tienen el mismo tamaño (excepto la �
 
 * Especifique el tamaño de todas las olas en las que divide la entrega. Puede introducir un porcentaje o un valor numérico. Solo la última ola puede variar en tamaño, ya que debe incluir el número restante de mensajes.
 
-  Por ejemplo, si introduce **[!UICONTROL 30 %]** en el campo correspondiente, las tres primeras olas representan el 30 % de todos los mensajes incluidos en la entrega y la cuarta representa el 10 % restante.
+  Por ejemplo, si introduce **[!UICONTROL 30 %]** en el **[!UICONTROL Tamaño de olas]** , las tres primeras olas representan el 30 % de todos los mensajes incluidos en la entrega y la cuarta representa el 10 % restante.
 
 * En el **[!UICONTROL Intervalo]** , especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si introduce **[!UICONTROL 2 días]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
 
