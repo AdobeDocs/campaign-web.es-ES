@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidad limitada"
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 5badcc46be14fb2cd218fd525b0c5eed8788a680
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1613'
 ht-degree: 93%
 
 ---
@@ -357,4 +357,19 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Páginas de aterrizaje predeterminadas"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription"
+>title="Servicios de suscripción"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_general"
+>title="Parámetros de servicios de suscripción"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_outboundtransition"
+>title="Transición saliente de servicios de suscripción"
 >abstract="Continuará"
