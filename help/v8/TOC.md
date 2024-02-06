@@ -2,14 +2,14 @@
 audience: end-user
 user-guide-title: Interfaz de usuario web de Adobe Campaign
 user-guide-description: Documentación del producto para la interfaz de usuario web de Adobe Campaign.
-title: Documentación web de Adobe Campaign
+title: Documentación de la web de Adobe Campaign
 description: Documentación web de Campaign
 breadcrumb-title: Interfaz de usuario web de Campaign
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
    + [Trabajar con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
    + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
-   + [Funciones no admitidas](get-started/unsupported.md)
+   + [Funciones no admitidas](get-started/capability-matrix.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
@@ -99,7 +99,7 @@ ht-degree: 88%
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)
    + Trabajo con perfiles {#work-with-profiles}
       + [Introducción a los perfiles](audience/about-recipients.md)
-      + [Exploración de los detalles de perfiles](audience/profile-view.md)
+      + [Exploración de los detalles de los perfiles](audience/profile-view.md)
       + [Creación de un perfil](audience/create-profile.md)
       + [Trabajo con perfiles de prueba](audience/test-profiles.md)
    + Trabajo con públicos {#audiences}
