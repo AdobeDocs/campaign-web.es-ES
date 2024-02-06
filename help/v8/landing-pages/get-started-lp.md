@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Páginas de aterrizaje"
->abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas."
+>abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta de forma instantánea páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripción y casos de uso de listas de bloqueados en función de plantillas integradas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 
@@ -27,7 +27,7 @@ Una página de aterrizaje es una página web independiente a la que se dirige al
 * Configuración de **flujos de inclusión y exclusión** rápida y sin problemas.
 * Crear servicios de suscripción para permitir a los usuarios **suscripción a un servicio**. [Más información](../audience/manage-services.md)
 * Proporcione a sus destinatarios la **posibilidad de cancelar la suscripción** de recibir sus comunicaciones.
-* Enviar un **correo electrónico de confirmación** tras la inclusión o la exclusión.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

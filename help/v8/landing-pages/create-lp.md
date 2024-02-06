@@ -2,9 +2,9 @@
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 badge: label="Disponibilidad limitada"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 26%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creación y administración de páginas de destino"
->abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas."
+>abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripciones y casos de uso de listas de bloqueados, en función de plantillas integradas."
 
-Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar, adquirir, suscribirse/cancelar suscripciones y casos de uso de lista de bloqueados, según plantillas integradas.
+Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripciones y casos de uso de listas de bloqueados, en función de plantillas integradas.
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
@@ -30,9 +30,9 @@ El **[!UICONTROL Páginas de aterrizaje]** inventory muestra todos los artículo
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->No puede mostrar páginas de aterrizaje creadas desde la consola del cliente en Campaign Web. Obtenga más información en la [Documentación de la consola de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>No puede mostrar ni editar páginas de destino creadas desde la consola del cliente en Campaign Web. Obtenga más información en la [Documentación de la consola de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los tres punto
 
    ![](assets/lp-pages.png)
 
-1. El **[!UICONTROL Actualización del registro cargado previamente]** está seleccionado de forma predeterminada. Si desea actualizar los perfiles almacenados en la base de datos a través de la página de aterrizaje, puede utilizar una casilla de precarga. La casilla de precarga permite indicar cómo buscar el registro que se actualiza en la base de datos. También puede elegir entre los campos del contexto actual de la página de aterrizaje, los que se utilizan para encontrar el perfil correspondiente en la base de datos.
+1. El **[!UICONTROL Actualización del registro cargado previamente]** está seleccionada de forma predeterminada. Si desea actualizar los perfiles almacenados en la base de datos a través de la página de aterrizaje, puede utilizar una casilla de precarga. La casilla de precarga permite indicar cómo buscar el registro que se actualiza en la base de datos. También puede elegir entre los campos del contexto actual de la página de aterrizaje, los que se utilizan para encontrar el perfil correspondiente en la base de datos.
 
    ![](assets/lp-storage-schedule.png)
 
