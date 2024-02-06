@@ -4,10 +4,10 @@ title: Novedades de Campaign Web v8
 description: Descubra la nueva funcionalidad que se incluye con Campaign Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 84%
+source-wordcount: '1298'
+ht-degree: 82%
 
 ---
 
@@ -19,16 +19,8 @@ ht-degree: 84%
 >title="Notas de la versión"
 >abstract="Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales."
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Notas de la versión"
->abstract="Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales."
+Nos encanta presentar la nueva versión de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales. La interfaz de usuario web de Campaign ofrece un lienzo conectado con Adobe Experience Platform para una experiencia unificada. Esta versión está disponible para todos los usuarios a partir de la versión 8.6 de Campaign.
 
-<!--TO REMOVE ABOVE-->
-
-
-Nos encanta presentar la nueva versión de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales.
 
 ## Funcionalidades clave {#key-features}
 
