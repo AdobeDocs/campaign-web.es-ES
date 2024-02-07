@@ -1,12 +1,12 @@
 ---
 title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 Obtenga respuestas rápidas, generadas por IA en función de la documentación y del contexto actual del producto con la ayuda contextual con tecnología de IA de preguntas y respuestas disponible en los cuadros de ayuda contextual.
 
->[!CAUTION]
->
->Esta funcionalidad está disponible en versión Alfa y sujeta a cambios sin previo aviso.
->
->Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
-
-
 La **ayuda contextual con Gen IA** integrada dentro de la ayuda contextual revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo amplios repositorios de documentación y localizar al instante la información precisa que necesita.
 
 Gracias a las funcionalidades Gen IA de Campaign, este componente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, la ayuda contextual con tecnología de IA es su mejor compañero, ya que proporciona una eficacia y precisión inigualables en cada interacción.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>La ayuda contextual con tecnología de IA está disponible en su versión beta y sujeta a cambios sin previo aviso.
+>
+>Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
+>
+>Por ahora, la ayuda contextual con tecnología de IA no está disponible en el Diseñador de correo electrónico de Campaign.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, pero le corresponde a usted contrastar los datos. Puede dar respuestas incorrectas, inexactas o falsas. Asegúrese de consultar la documentación del producto vinculada en cada cuadro de ayuda.
 
 Los modelos de inteligencia artificial y aprendizaje automático mejoran con el tiempo para abordar mejor los casos de uso específicos. La ayuda contextual con tecnología de IA de Campaign seguirá mejorando en los próximos meses. Le recomendamos encarecidamente que utilice <img src="assets/do-not-localize/thumb.png" width="10%"/> los botones cada vez que lea una respuesta, para marcar cualquier respuesta inapropiada a nuestros ingenieros.
+
 
 ## Recomendaciones  {#recommendations-ai}
 

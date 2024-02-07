@@ -1,12 +1,12 @@
 ---
 title: Protecciones y limitaciones en la interfaz de usuario web de Campaign
 description: Protecciones y limitaciones en la interfaz de usuario web de Campaign
-badge: label="Beta"
+badge: label="Disponibilidad limitada"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 21%
+source-wordcount: '356'
+ht-degree: 22%
 
 ---
 

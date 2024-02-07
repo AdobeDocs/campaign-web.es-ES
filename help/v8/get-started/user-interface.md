@@ -4,7 +4,7 @@ title: Descubra la interfaz
 description: Interfaz de usuario web de Adobe Campaign
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Disponibilidad limitada"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 92%
@@ -126,7 +126,6 @@ Lanzado como versión beta dentro de la nueva interfaz de usuario web de Campaig
 Gracias a las funciones Gen IA de Campaign, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro Asistente de conocimientos con tecnología de IA es su mejor compañero, ya que proporciona una eficacia y precisión inigualables en cada interacción.
 
 Obtenga más información en [esta sección](using-ai.md).
-
 
 
 ## Más información {#learn-more}
