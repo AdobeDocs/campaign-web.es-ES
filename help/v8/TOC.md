@@ -6,7 +6,7 @@ title: Documentación de la web de Adobe Campaign
 description: Documentación web de Campaign
 breadcrumb-title: Interfaz de usuario web de Campaign
 hide: true
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 89%
@@ -26,7 +26,6 @@ ht-degree: 89%
    + [Examen y filtrado de listas](get-started/list-filters.md)
    + [Trabajar con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
-   + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Funciones no admitidas](get-started/capability-matrix.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
@@ -119,6 +118,7 @@ ht-degree: 89%
    + [Cree su primera campaña](campaigns/create-campaigns.md)
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
+   + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
    + Cree y ejecute su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
