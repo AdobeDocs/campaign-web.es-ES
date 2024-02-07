@@ -5,9 +5,9 @@ description: Lista de funciones admitidas en la interfaz de usuario web de Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 5%
 
 ---
@@ -184,8 +184,13 @@ Los permisos se definen en la consola del cliente de Adobe Admin Console y Adobe
 
 Las funciones de monitorización de la plataforma Campaign solo están disponibles en la consola del cliente y en el panel de control de Campaign. No aparecen en la interfaz de usuario web de Campaign.
 
-Examine los vínculos proporcionados a [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"} para obtener más información.
+Examine los vínculos proporcionados a la documentación de Campaign v8 (consola de cliente) y al Panel de control para obtener más información.
 
 * [Supervisión del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Mapa de calor del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
+* [Monitorización de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
