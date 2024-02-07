@@ -5,7 +5,7 @@ description: Lista de funciones admitidas en la interfaz de usuario web de Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
+source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 6%
@@ -59,7 +59,7 @@ Como consecuencia, en la consola del cliente de Campaign, no se puede editar, ac
 
 ## Perfiles, perfiles de prueba y audiencias {#profiles-audiences-capabilities}
 
-Puede crear, administrar y actualizar perfiles y perfiles de prueba tanto en la consola del cliente de Campaign como en la interfaz de usuario web de Campaign. Todos los cambios realizados en una interfaz de usuario se pueden ver en la otra. Sin embargo, es posible que falten algunas configuraciones de destinatario específicas y parámetros avanzados en la nueva interfaz de usuario web de Campaign.  Tenga en cuenta que el término &quot;destinatario&quot; se ha cambiado a &quot;perfil&quot; en la nueva interfaz de usuario web.
+Puede crear, administrar y actualizar perfiles y perfiles de prueba tanto en la consola del cliente de Campaign como en la interfaz de usuario web de Campaign. Todos los cambios realizados en una interfaz de usuario se pueden ver en la otra. Sin embargo, es posible que falten algunas configuraciones de destinatario específicas y parámetros avanzados en la nueva interfaz de usuario web de Campaign. Tenga en cuenta que el término &quot;destinatario&quot; se ha cambiado a &quot;perfil&quot; en la nueva interfaz de usuario web.
 
 La composición de audiencias es una nueva funcionalidad que se incluye en la interfaz de usuario web de Campaign. Como consecuencia, en la consola del cliente de Campaign, no se puede editar, actualizar ni modificar una [Audiencia creada con el modelador de consultas](../query/query-modeler-overview.md).
 
@@ -86,10 +86,10 @@ Con esta nueva interfaz de usuario, también puede utilizar recursos de Adobe Ex
 
 Tenga en cuenta que las siguientes funciones no están disponibles en esta versión del producto. Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estas funciones (funciones con una `*` tampoco son compatibles con la consola del cliente de Campaign).
 
-* AMP para correos electrónicos.  [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Contenido de recursos públicos - SCOPË PARA CONFIRMAR
 * Creación de bloques de personalización personalizada. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Contenido de formularios personalizados (módulo de administración de contenido). [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* AMP para correos electrónicos. [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Contenido desde una dirección URL`*`
 * Guardado de contenido HTML como plantilla`*`
 * Fragmentos de correo electrónico`*`
@@ -125,7 +125,7 @@ Obtenga más información acerca de las actividades de flujo de trabajo disponib
 
 Adobe Campaign Web permite enviar con las entregas ofertas que se han creado en la consola utilizando **[!UICONTROL Interacción]** módulo. El diseño de la oferta, las reglas de idoneidad y la administración de ofertas solo están disponibles en la consola del cliente de Campaign. [Más información](../msg/offers.md)
 
-Obtenga información sobre cómo administrar un catálogo de ofertas en la  [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo administrar un catálogo de ofertas en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
 
 ## Integraciones con las soluciones de Adobe Experience Cloud {#exc-capabilities}
 
@@ -166,13 +166,13 @@ Examine los vínculos proporcionados para examinar [Documentación de Campaign v
 
 La interfaz de usuario web de Campaign no muestra la administración de aprobaciones para contenido, envíos, flujos de trabajo, campañas y objetivos. Solo están disponibles en la consola del cliente.
 
-Obtenga información sobre cómo administrar aprobaciones en flujos de trabajo en  [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+Obtenga información sobre cómo administrar aprobaciones en flujos de trabajo en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 Obtenga información sobre cómo administrar las aprobaciones de entrega, contenido y segmentación en campañas en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
 
-## Permisos  {#permissions-capabilities}
+## Permisos {#permissions-capabilities}
 
 Los usuarios de Campaign solo pueden acceder a la interfaz de usuario web de Campaign con su Adobe ID a través del Sistema Identity Management de Adobe (IMS).
 
