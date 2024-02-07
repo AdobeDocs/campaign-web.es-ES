@@ -4,10 +4,10 @@ title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilidad limitada"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 19%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Previsualizar y probar sus mensajes"
->abstract="Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
+>title="Previsualización y prueba del contenido"
+>abstract="Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=es" text="Vista previa del contenido del mensaje."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=es" text="Envío de entregas de prueba"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Prueba de páginas de aterrizaje"
 
 Una vez definido el contenido de la entrega, puede utilizar perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
 
@@ -29,6 +30,7 @@ Para ello, [!DNL Adobe Campaign] le permite:
 * [Previsualización del contenido y la personalización del mensaje](preview-content.md)
 * [Envío de entregas de prueba](test-deliveries.md) (pruebas) a destinatarios o suscriptores específicos para pruebas y validación
 * [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares basados en web, móviles y equipos de escritorio
+* [Previsualización y prueba de las páginas de aterrizaje](../landing-pages/create-lp.md#test-landing-page)
 
 Estas acciones se pueden realizar con el complemento **[!UICONTROL Simular contenido]** , a la que se puede acceder desde la pantalla de edición de contenido del envío o desde el [Diseñador de correo electrónico](../email/get-started-email-designer.md).
 

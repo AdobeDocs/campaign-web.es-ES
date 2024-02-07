@@ -4,10 +4,10 @@ title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 6%
+source-wordcount: '249'
+ht-degree: 5%
 
 ---
 
@@ -16,14 +16,22 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Páginas de aterrizaje"
->abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta de forma instantánea páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar adquisiciones, suscripciones/bajas de suscripción y casos de uso de listas de bloqueados en función de plantillas integradas."
+>abstract="Descubra la nueva experiencia de página de aterrizaje. Cree, diseñe y comparta de forma instantánea páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar casos de uso de adquisición, suscripción/baja y lista de bloqueados de datos basados en plantillas integradas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
-Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje. En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante después de hacer clic en un vínculo de un correo electrónico, SMS o envío push, o un sitio web.
+[!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.
 
-[!DNL Adobe Campaign] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter. Adobe Campaign incluye cuatro plantillas para administrar adquisiciones, suscripciones, cancelaciones de suscripciones y casos de uso de la lista de bloqueados, entre otros.
+En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante después de hacer clic en un vínculo de un correo electrónico, SMS, envío push o en un sitio web.
 
-Las funcionalidades clave se enumeran a continuación:
+Las páginas de aterrizaje le permiten dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.
+
+>[!CAUTION]
+>
+>Las páginas de destino que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web en la interfaz de usuario web de Campaign.
+>
+>Obtenga más información sobre los formularios web en la [Documentación de la consola de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 
 * Aprovechamiento [!DNL Adobe Campaign] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
 * Configuración de **flujos de inclusión y exclusión** rápida y sin problemas.
