@@ -5,9 +5,9 @@ description: Lista de funciones admitidas en la interfaz de usuario web de Campa
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1495'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Las funciones clave de Campaign están disponibles en la interfaz de usuario web de Campaign. Esta interfaz fue diseñada principalmente para que los especialistas en marketing planifiquen, inicien y midan sus campañas de marketing. Se muestran todas las funciones [en esta página](../rn/whats-new.md).
 
-La personalización de la plataforma de Campaign en función de las necesidades comerciales y de datos, y la conexión a otros sistemas se administran en la consola del cliente de Campaign. Como consecuencia, algunas configuraciones y funciones solo se pueden acceder, crear o administrar desde la consola del cliente de Campaign. Algunos estarán disponibles en una versión posterior de la interfaz de usuario web de Campaign.
+La personalización de la plataforma de Campaign en función de las necesidades comerciales y de datos, y la conexión a otros sistemas se administran en la consola del cliente de Campaign. Como consecuencia, algunas configuraciones y funciones solo se pueden acceder, crear o administrar desde la consola del cliente de Campaign. Algunos estarán disponibles en una actualización posterior de la interfaz de usuario web de Campaign.
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ La personalización de la plataforma de Campaign en función de las necesidades 
 
 ## Administración de campañas {#campaign-mgt-capabilities}
 
-Con la interfaz de usuario web de Campaign, puede crear campañas en canales múltiples según se detalla [en esta sección](../campaigns/gs-campaigns.md). En la versión actual, las siguientes funcionalidades solo están disponibles en la consola del cliente de Campaign. No se puede acceder a ellas desde la interfaz de usuario web de Campaign, pero algunas pueden ser visibles desde el [Menú Explorador](user-interface.md#user-interface-explorer).
+Con la interfaz de usuario web de Campaign, puede crear campañas en canales múltiples según se detalla [en esta sección](../campaigns/gs-campaigns.md). Las siguientes funcionalidades solo están disponibles en la consola del cliente de Campaign. No se puede acceder a ellas desde la interfaz de usuario web de Campaign, pero algunas pueden ser visibles desde el [Menú Explorador](user-interface.md#user-interface-explorer).
 
 Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y aprender a utilizar estas funcionalidades.
 
@@ -39,7 +39,7 @@ Utilice los vínculos proporcionados para examinar la documentación de Campaign
 
 ## Canales de comunicación {#channels-capabilities}
 
-Con la interfaz de usuario web de Campaign, puede crear, diseñar y enviar notificaciones push, por correo electrónico y SMS, y medir su impacto mediante varios informes dedicados, como se detalla a continuación [en esta sección](../msg/gs-messages.md). Sin embargo, los siguientes canales no están disponibles en esta versión.
+Con la interfaz de usuario web de Campaign, puede crear, diseñar y enviar notificaciones push, por correo electrónico y SMS, y medir su impacto mediante varios informes dedicados, como se detalla a continuación [en esta sección](../msg/gs-messages.md). Sin embargo, los siguientes canales no están disponibles actualmente.
 
 Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estos canales.
 
@@ -71,7 +71,7 @@ Trabajos de importación y exportación de una sola toma como se describe en [Do
 
 ## Mensajería transaccional {#mc-capabilities}
 
-Las funciones de mensajería transaccional que se incluyen en el paquete de producto del Centro de mensajería no están disponibles en esta versión de la nueva interfaz de usuario web de Campaign.
+Actualmente, las funciones de mensajería transaccional que vienen con el paquete de producto del Centro de mensajería no están disponibles en la nueva interfaz de usuario web de Campaign.
 
 Examine la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} y obtenga más información sobre las funciones de mensajería en tiempo real, como:
 
@@ -86,9 +86,8 @@ El nuevo Diseñador de correo electrónico con la interfaz de usuario web de Ado
 
 Con esta nueva interfaz de usuario, puede administrar la sincronización de plantillas de correo electrónico desde Adobe Experience Manager e integrarla con Adobe Experience Manager as a Cloud Service.
 
-Tenga en cuenta que las siguientes funciones no están disponibles en esta versión del producto. Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estas funciones.
+Tenga en cuenta que las siguientes funcionalidades no están disponibles por ahora en la interfaz de usuario web de Campaign. Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estas funciones.
 
-* Contenido de recursos públicos - SCOPË PARA CONFIRMAR
 * Creación de bloques de personalización personalizada. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Contenido de formularios personalizados (módulo de administración de contenido). [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP para correos electrónicos. [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Utilice los vínculos proporcionados para examinar la documentación de Campaign
 
 ## Flujos de trabajo {#wf-capabilities}
 
-La nueva interfaz de usuario web de Campaign ofrece una interfaz de lienzo de flujo de trabajo reinventada para diseñar y administrar los procesos. Las actividades clave de flujo de trabajo ya están disponibles en su nuevo diseño, y algunas estarán disponibles en una versión futura. Obtenga más información sobre las funcionalidades del flujo de trabajo, incluidas las protecciones y limitaciones [en esta sección](../get-started/guardrails.md).
+La nueva interfaz de usuario web de Campaign ofrece una interfaz de lienzo de flujo de trabajo reinventada para diseñar y administrar los procesos. Las actividades clave de flujo de trabajo ya están disponibles en su nuevo diseño, y algunas se incluirán en una actualización futura. Obtenga más información sobre las funcionalidades del flujo de trabajo, incluidas las protecciones y limitaciones [en esta sección](../get-started/guardrails.md).
 
 Tenga en cuenta que las siguientes funcionalidades solo están disponibles en la consola del cliente de Campaign:
 
@@ -133,7 +132,7 @@ Obtenga información sobre cómo administrar un catálogo de ofertas en la [Docu
 
 La nueva IU moderna de Campaign simplifica el diseño y la entrega de las campañas de marketing y aporta coherencia, junto con otras soluciones de Adobe, como Adobe Experience Platform y Adobe Experience Manager.
 
-Las siguientes integraciones están disponibles en la consola del cliente de Adobe Campaign y aún no están disponibles en esta versión de la interfaz de usuario web de Campaign. Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estas integraciones:
+Las siguientes integraciones están disponibles en la consola del cliente de Adobe Campaign y aún no están disponibles en la interfaz de usuario web de Campaign. Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estas integraciones:
 
 * Uso compartido de KPI y uso de datos de Adobe Analytics. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Uso compartido de audiencias con Adobe Experience Cloud (Adobe Audience Manager). [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
