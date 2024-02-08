@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -170,8 +169,6 @@ Puede configurar un **[!UICONTROL Lista de bloqueados de]** página de aterrizaj
 Para permitir que los usuarios puedan excluirse de todas las entregas, debe crear y publicar un **[!UICONTROL Lista de bloqueados de]** página de aterrizaje.
 
 Una vez que un usuario hace clic en el vínculo de la página de aterrizaje, la variable **[!UICONTROL Ya no se puede contactar (por ningún canal)]** en el perfil se selecciona automáticamente.
-
-![](assets/blocklisting_allchannels.png)
 
 definir un **[!UICONTROL Opción de exclusión]** y seleccione para actualizar **[!UICONTROL Canal (correo electrónico)]**: el perfil que marca la casilla de exclusión en la página de aterrizaje se excluirá de todas las comunicaciones.
 

@@ -4,10 +4,10 @@ title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 9%
+source-wordcount: '271'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 9%
 
 [!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.
 
-En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante después de hacer clic en un vínculo de un correo electrónico, SMS, envío push o en un sitio web.
+En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de una entrega o de un sitio web.
 
-Las páginas de aterrizaje le permiten dirigir a los usuarios a formularios en línea en los que pueden optar por su inclusión o exclusión en la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.
+Las páginas de aterrizaje permiten dirigir a los usuarios a formularios en línea en los que pueden actualizar sus datos, impedir la recepción o la exclusión de comunicaciones o suscribirse a un servicio específico, como una newsletter.
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ Las páginas de aterrizaje le permiten dirigir a los usuarios a formularios en l
 
 A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 
-* Aprovechamiento [!DNL Adobe Campaign] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**.
-* Configuración de **flujos de inclusión y exclusión** rápida y sin problemas.
-* Crear servicios de suscripción para permitir a los usuarios **suscripción a un servicio**. [Más información](../audience/manage-services.md)
-* Proporcione a sus destinatarios la **posibilidad de cancelar la suscripción** de recibir sus comunicaciones.
+* Cree, diseñe y comparta al instante páginas de aterrizaje con funciones listas para usar **plantillas precargadas** coincidencia en diferentes casos de uso. [Más información](create-lp.md)
+* Aprovechamiento [!DNL Adobe Campaign] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**. [Más información](lp-content.md)
+* Configuración de **flujos de inclusión y exclusión** rápida y sin problemas. [Más información](lp-use-cases.md)
+* Crear servicios de suscripción para permitir a los usuarios **suscripción a un servicio**. [Más información](lp-use-cases.md#lp-subscription)
+* Proporcione a sus destinatarios la **posibilidad de cancelar la suscripción** de recibir sus comunicaciones. [Más información](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
