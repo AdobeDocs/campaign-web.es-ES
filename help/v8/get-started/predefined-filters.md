@@ -1,16 +1,16 @@
 ---
-title: Trabajar con filtros predefinidos
+title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
-# Trabajar con filtros predefinidos {#predefined-filters}
+# Trabajo con filtros predefinidos {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"

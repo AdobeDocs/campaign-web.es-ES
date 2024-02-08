@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Introducción a mensajes y envíos en la web de Adobe Campaign
+title: Introducción a mensajes y envíos en Adobe Campaign Web
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 badge: label="Disponibilidad limitada"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 

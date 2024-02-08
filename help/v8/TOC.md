@@ -2,29 +2,29 @@
 audience: end-user
 user-guide-title: Interfaz de usuario web de Adobe Campaign
 user-guide-description: Documentación del producto para la interfaz de usuario web de Adobe Campaign.
-title: Documentación de la web de Adobe Campaign
-description: Documentación web de Campaign
+title: Documentación de Adobe Campaign Web
+description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Campaign
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
 
-# Documentación web de Adobe Campaign {#v8}
+# Documentación de Adobe Campaign Web {#v8}
 
 + [Documentación de la interfaz de usuario web Adobe Campaign](campaign-web-home.md)
 + [Novedades](rn/whats-new.md)
-+ [Actualizaciones de documentación](rn/documentation-updates.md)
++ [Actualizaciones de la documentación](rn/documentation-updates.md)
 + Introducción a Adobe Campaign {#start}
    + [Introducción](get-started/get-started.md)
    + [Conéctese a Campaign](get-started/connect-to-campaign.md)
    + [Descubra la interfaz](get-started/user-interface.md)
    + [Examen y filtrado de listas](get-started/list-filters.md)
-   + [Trabajar con filtros predefinidos](get-started/predefined-filters.md)
+   + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
    + [Consola de cliente de Campaign y web de Campaign](get-started/capability-matrix.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
@@ -65,7 +65,7 @@ ht-degree: 88%
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
          + [Configuración de envío de correos electrónicos](advanced-settings/delivery-settings.md)
          + [Envío mediante múltiples olas](advanced-settings/send-using-waves.md)
-         + [Monitorización de registros de envío](monitor/delivery-logs.md)
+         + [Monitorización de los registros de envío](monitor/delivery-logs.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)
@@ -90,9 +90,9 @@ ht-degree: 88%
       + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
-   + [Creación y publicación de una página de aterrizaje](landing-pages/create-lp.md)
+   + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)
    + [Diseño del contenido de la página de aterrizaje](landing-pages/lp-content.md)
-   + [Trabajo con plantillas de página de aterrizaje](landing-pages/lp-templates.md)
+   + [Trabajo con plantillas de la página de aterrizaje](landing-pages/lp-templates.md)
 + Perfiles y audiencias {#audiences}
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)
@@ -107,7 +107,7 @@ ht-degree: 88%
    + Seleccionar los destinatarios del envío {#target-audiences}
       + [Selección de un público existente](audience/add-audience.md)
       + [Crear un público único](audience/one-time-audience.md)
-      + [Importación de un público destinatario de correo electrónico desde un archivo](audience/file-audience.md)
+      + [Importación de un público de correo electrónico desde un archivo](audience/file-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Crear y administrar servicios de suscripción](audience/manage-services.md)

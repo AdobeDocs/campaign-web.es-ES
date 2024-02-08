@@ -1,18 +1,18 @@
 ---
 title: Conexión con la interfaz web de Adobe Campaign
-description: Obtenga información sobre cómo conectarse a la interfaz de usuario web de Adobe Campaign
+description: Obtenga información sobre cómo conectarse a la interfaz de usuario de Adobe Campaign Web
 badge: label="Disponibilidad limitada"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # Conexión a Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign en esta página.
+Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz de Adobe Campaign Web en esta página.
 
 ## Iniciar sesión en Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,7 +64,7 @@ Examine la barra superior de la interfaz para lo siguiente:
 
 ## Navegadores admitidos {#browsers}
 
-Adobe Campaign Web está diseñado para funcionar de forma óptima en la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros exploradores.
+Adobe Campaign Web está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros exploradores.
 
 ## Preferencias de idioma {#language-pref}
 
