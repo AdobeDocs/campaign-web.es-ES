@@ -4,17 +4,17 @@ title: Adición de ofertas en los mensajes
 description: Obtenga información sobre cómo añadir y enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Disponibilidad limitada"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 37%
+source-wordcount: '740'
+ht-degree: 36%
 
 ---
 
 
 # Añadir ofertas a los mensajes {#offers-content}
 
-Adobe Campaign Web permite enviar con las entregas ofertas que se han creado en la consola utilizando **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
+Puede añadir ofertas a los envíos en la interfaz de usuario web de Adobe Campaign. Estas ofertas deben haberse creado en la consola del cliente de Campaign, utilizando **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
 
 Los pasos para enviar ofertas con una entrega son los siguientes:
 
