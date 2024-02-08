@@ -1,12 +1,11 @@
 ---
 cloud: Experience Cloud
-version: v8
 solution: Campaign, Campaign v8 Web
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
 hide: true
-source-git-commit: 7451c569033c2fdfec6f4c39974bfd02869e3bde
+source-git-commit: 437bfc910b0ab8ee53798ccf32b02c68e245ab30
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
