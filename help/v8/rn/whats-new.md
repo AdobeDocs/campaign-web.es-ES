@@ -4,10 +4,10 @@ title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que viene con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 75%
+source-wordcount: '1292'
+ht-degree: 74%
 
 ---
 
@@ -168,7 +168,7 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 
 Las limitaciones siguientes se aplican a esta versión:
 
-* Los objetos editables son: destinatarios, envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
+* Los objetos editables son: Destinatarios, Envíos, Campañas, Flujos de trabajo, Audiencias, Servicios de suscripción, Filtros predefinidos, Plantillas y Páginas de destino. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
 * Las funcionalidades de administración y configuración avanzada no están disponibles en la interfaz de usuario web de Campaign.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
