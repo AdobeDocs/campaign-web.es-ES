@@ -3,10 +3,10 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 20%
+source-wordcount: '1279'
+ht-degree: 19%
 
 ---
 
@@ -80,9 +80,13 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
    * **[!UICONTROL Adquisición]**: Esta es la plantilla predeterminada para páginas de aterrizaje, que le permite capturar y actualizar datos de perfil.
    * **[!UICONTROL Suscripción]**: utilice esta plantilla para permitir a los usuarios suscribirse a un [servicio](../audience/manage-services.md).
    * **[!UICONTROL Baja]**: Esta plantilla se puede utilizar en una entrega enviado a los suscriptores de un servicio para permitirles cancelar su suscripción [servicio](../audience/manage-services.md).
-   * **[!UICONTROL Lista de bloqueados de]**: esta plantilla debe utilizarse cuando un perfil ya no quiere que Campaign le siga contactando. Más información sobre la administración de lista de bloqueados de la
+   * **[!UICONTROL Lista de bloqueados de]**: esta plantilla debe utilizarse cuando un perfil ya no quiere que Campaign le siga contactando.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Aprenda a implementar los diferentes casos de uso correspondientes a cada plantilla en [esta sección](lp-use-cases.md).
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -94,7 +98,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
 1. En el **[!UICONTROL Precarga de datos]** , las dos opciones siguientes están seleccionadas de forma predeterminada:
 
-   * El **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** La opción permite precargar automáticamente los datos que coinciden con los campos de entrada y de combinación del formulario.
+   * Si la variable **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. El usuario solo tiene que rellenar los campos que faltan y actualizar los valores existentes si es necesario. Esto permite combinar datos para perfiles existentes en lugar de crear duplicados.
 
    * El **[!UICONTROL Omitir precarga si no hay ID]** La opción debe estar seleccionada si no desea actualizar los perfiles. En este caso, cada perfil introducido se añade a la base de datos después de la aprobación del formulario. Esta opción se utiliza, por ejemplo, cuando se publica el formulario en un sitio web.
 
@@ -118,7 +122,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
      >
      >Si no se define ninguna fecha de inicio, la página de aterrizaje se activa en cuanto se publica.
 
-   * Cuando la página alcanza la fecha de finalización, se cancela la publicación de la página de aterrizaje automáticamente y el formulario ya no está disponible. El **[!UICONTROL Caducidad]** página se muestra en su lugar.
+   * Cuando la página alcanza la fecha de finalización, <!--the landing page is automatically unpublished and -->el formulario ya no está disponible. El **[!UICONTROL Caducidad]** página se muestra en su lugar.
 
      >[!NOTE]
      >
