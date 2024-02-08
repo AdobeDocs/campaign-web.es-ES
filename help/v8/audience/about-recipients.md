@@ -2,10 +2,10 @@
 title: Introducción a los perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 badge: label="Disponibilidad limitada"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 33%
+source-wordcount: '527'
+ht-degree: 26%
 
 ---
 
@@ -33,17 +33,15 @@ ht-degree: 33%
 
 ## ¿Qué es un perfil? {#what}
 
-Un perfil en Adobe Campaign Web es una persona almacenada en la base de datos y que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido.
+A **perfil**, también conocido como &quot;destinatarios&quot; en la consola del cliente, representa a un individuo almacenado en la base de datos de Campaign, que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido. Adobe Campaign le permite administrar perfiles sin problemas, desde la creación de nuevas entradas al acceso a una vista completa de todos los atributos y suscripciones a servicios de los perfiles, todo a través de la interfaz de usuario web de Campaign.
 
-Adobe Campaign le permite crear y supervisar sus perfiles directamente desde la interfaz de. Desde aquí puede crear perfiles, acceder a una vista detallada de los mismos y editarlos.
+Además, **[!UICONTROL perfiles de prueba]**, identificados como &quot;perfiles semilla&quot; en la consola del cliente, le permiten dirigirse a destinatarios adicionales que no coinciden con los criterios de objetivo de una entrega determinada. Estos perfiles contienen información de contacto ficticia o información de contacto controlada por el remitente. Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
 
-En la base de datos se almacenan otros tipos de perfiles, como **[!UICONTROL Perfiles de prueba]**, diseñadas para probar los envíos antes de enviarlos a la audiencia final. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
+Tanto los perfiles como los perfiles de prueba se pueden utilizar para probar los envíos antes de que lleguen a la audiencia deseada. Al hacerlo, puede obtener una vista previa del contenido y la personalización del mensaje, enviar pruebas para pruebas y validación, evaluar el procesamiento de correos electrónicos en varias plataformas y dispositivos y probar las páginas de aterrizaje. [Obtenga información sobre cómo previsualizar y probar entregas](../preview-test/preview-test.md)
 
 ## Acceso a la lista de perfiles {#access}
 
-Los perfiles son accesibles y editables en Adobe Campaign Web desde el **[!UICONTROL Administración de clientes]** > **Perfiles** en el carril de navegación izquierdo.
-
-También puede acceder a ellas a través del **[!UICONTROL Explorer]** vista, desde el **[!UICONTROL Perfiles y objetivos]** > **[!UICONTROL Destinatarios]** nodo. Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así como comprobar los permisos asociados. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
+Los perfiles son accesibles y editables en Adobe Campaign Web desde el **[!UICONTROL Administración de clientes]** > **Perfiles** en el carril de navegación izquierdo. También puede acceder a ellas desde el **[!UICONTROL Explorer]** vista, desde el **[!UICONTROL Perfiles y objetivos]** > **[!UICONTROL Destinatarios]** nodo. Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así como comprobar los permisos asociados. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ title: Prueba del procesamiento de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Disponibilidad limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Para ello, puede aprovechar sus **Litmus** cuenta en [!DNL Adobe Campaign] para 
 Para acceder a las funciones de procesamiento de correo electrónico, debe:
 
 * Tener una cuenta de Litmus
-* Seleccionar perfiles de prueba: aprenda cómo en [esta sección](preview-content.md)
+* Seleccionar perfiles o perfiles de prueba: aprenda en [esta sección](preview-content.md)
 
 A continuación, siga los pasos a continuación.
 

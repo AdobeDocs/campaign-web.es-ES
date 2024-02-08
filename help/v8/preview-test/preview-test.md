@@ -4,9 +4,9 @@ title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilidad limitada"
-source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '201'
 ht-degree: 7%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Previsualización y prueba del contenido"
->abstract="Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
+>abstract="Una vez definido el contenido, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=es" text="Envío de entregas de prueba"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Prueba de páginas de aterrizaje"
 
-Una vez definido el contenido de la entrega, puede utilizar perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
+Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje.
 
 Este es un paso crucial para garantizar que sea precisa, pero también que esté libre de errores, tanto en la configuración del contenido como de la personalización.
 

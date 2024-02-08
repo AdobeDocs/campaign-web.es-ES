@@ -4,10 +4,10 @@ title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Disponibilidad limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -32,22 +32,17 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
 1. Puede combinar perfiles y perfiles de prueba para previsualizar el mensaje de correo electrónico o SMS.
 
-   * El **[!UICONTROL Perfiles de prueba]** La pestaña enumera todas las direcciones semilla que son destinatarios adicionales y ficticios de la base de datos.
-     ![](assets/simulate-select-profiles.png)
+   * El **[!UICONTROL Perfiles de prueba]** La pestaña enumera todos los perfiles de prueba, que son destinatarios adicionales y ficticios de la base de datos. [Aprenda a trabajar con perfiles de prueba](../audience/test-profiles.md)
 
-     Los perfiles de prueba se pueden crear desde el **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** menú. [Más información](../audience/test-profiles.md#create-test-profiles)
+   * El **[!UICONTROL Perfiles]** enumera todos los perfiles almacenados en la base de datos. [Aprenda a trabajar con perfiles](../audience/about-recipients.md)
 
-
-   * El **[!UICONTROL Perfiles]** enumera todos los destinatarios almacenados en la **[!UICONTROL Perfiles y objetivos]** carpeta desde el [!DNL Campaign] consola de cliente. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
-
-     Puede ver, crear y administrar perfiles desde el **[!UICONTROL Perfiles]** pestaña. [Más información](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. Obtenga información sobre cómo agregar reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
+   Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. [Obtenga información sobre cómo agregar reglas mediante el modelador de consultas](../query/query-modeler-overview.md).
 
 1. Clic **[!UICONTROL Seleccionar]** para confirmar la selección.
 
