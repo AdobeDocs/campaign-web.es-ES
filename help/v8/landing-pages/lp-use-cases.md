@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ Una vez recibido el correo electrónico, si los destinatarios hacen clic en el v
 
 ## Baja {#lp-unsubscription}
 
+Puede permitir a sus clientes cancelar la suscripción a un servicio mediante una página de aterrizaje.
+
 1. Asegúrese de haber creado una plantilla de confirmación para los usuarios que cancelan la suscripción al servicio, de modo que pueda seleccionarla fácilmente al crearlo. [Más información](../audience/manage-services.md#create-confirmation-message)
 
 1. En su [servicio de suscripción](../audience/manage-services.md), seleccione la plantilla que creó como correo electrónico de confirmación que los usuarios recibirán al cancelar la suscripción.
@@ -167,11 +169,11 @@ Una vez recibido el correo electrónico, si los destinatarios hacen clic en el v
 
 1. Revisar y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
 
-1. Crear un [email](../email/create-email.md) y [añadir un vínculo](../email/message-tracking.md#insert-links) para dirigir el tráfico a la página de aterrizaje de registro.
+1. Crear un [email](../email/create-email.md) y [añadir un vínculo](../email/message-tracking.md#insert-links) a la página de aterrizaje.
 
-Una vez que reciban el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje y envían el formulario, se les dirigirá a la página de confirmación de baja y se eliminarán de la lista de suscripción.
+Una vez recibido el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje y envían el formulario, se les dirige a la página de confirmación de baja y se les elimina del servicio de suscripción correspondiente.
 
-## Configuración de páginas de aterrizaje de exclusión {#lp-denylist}
+## Lista de bloqueados {#lp-denylist}
 
 Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la recepción de comunicaciones de una marca es un requisito legal. Por lo tanto, siempre debe incluir un **vínculo de cancelación de suscripción** en cada correo electrónico enviado a los destinatarios. Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 
