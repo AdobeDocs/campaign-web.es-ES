@@ -3,9 +3,9 @@ title: Definición del contenido específico de la página de aterrizaje
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '750'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,11 @@ ht-degree: 13%
 
 Al editar el contenido de cualquier página de la página de aterrizaje, ya está rellenado previamente.
 
-La página principal es la página que se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, como desde un correo electrónico o un sitio web. La página principal ya se ha rellenado previamente con [componente de formulario específico de la página de aterrizaje](#use-form-component) para permitir a los usuarios seleccionar y enviar sus opciones. También puede definir lo siguiente [estilos específicos de páginas de aterrizaje](#lp-form-styles).
+La primera página, que se muestra inmediatamente a los usuarios después de que hacen clic en el vínculo a la página de aterrizaje, ya está rellenada con el [componente de formulario específico de la página de aterrizaje](#use-form-component) para que la plantilla seleccionada permita a los usuarios seleccionar y enviar sus opciones. También puede definir lo siguiente [estilos específicos de páginas de aterrizaje](#lp-form-styles).
 
 Para diseñar aún más el contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+El contenido del **[!UICONTROL Confirmación]**, **[!UICONTROL Error]** y **[!UICONTROL Caducidad]** páginas también está rellenado previamente. Edítelos según sea necesario.
 
 ## Uso del componente del formulario {#use-form-component}
 

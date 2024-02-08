@@ -3,10 +3,10 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 21%
+source-wordcount: '1237'
+ht-degree: 20%
 
 ---
 
@@ -176,7 +176,11 @@ Una vez publicado:
 
 * La página de aterrizaje se agrega a la lista de página de aterrizaje con la variable **[!UICONTROL Publicado]** estado. Ahora está activo y listo para que se le haga referencia en su contenido.
 
-* Puede copiar y pegar el **[!UICONTROL URL de página de aterrizaje]** que se muestra en la parte superior de la página en un explorador web.
+* Puede copiar y pegar el **[!UICONTROL URL de página de aterrizaje]** que se muestra en la parte superior de la página en un explorador web para previsualizar la página de aterrizaje.
+
+>[!CAUTION]
+>
+>Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en las entregas. En su lugar, utilice el [Simular contenido](#test-landing-page) función para probarla y siga los pasos descritos en [esta sección](lp-use-cases.md) para utilizar correctamente su página de aterrizaje.
 
 ![](assets/lp-published.png)
 
