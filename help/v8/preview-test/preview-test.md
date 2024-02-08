@@ -4,10 +4,10 @@ title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Disponibilidad limitada"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 9%
+source-wordcount: '197'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 9%
 >id="acw_deliveries_simulate"
 >title="Previsualización y prueba del contenido"
 >abstract="Una vez definido el contenido, puede utilizar perfiles de prueba para previsualizarlo y probarlo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=es" text="Vista previa del contenido del mensaje."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=es" text="Envío de entregas de prueba"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Prueba de páginas de aterrizaje"
 
