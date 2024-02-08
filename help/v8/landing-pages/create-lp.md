@@ -3,7 +3,7 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 badge: label="Disponibilidad limitada"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 21%
@@ -78,8 +78,8 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
 1. Seleccione una plantilla:
    * **[!UICONTROL Adquisición]**: Esta es la plantilla predeterminada para páginas de aterrizaje, que le permite capturar y actualizar datos de perfil.
-   * **[!UICONTROL Suscripción]**: utilice esta plantilla para permitir a los usuarios suscribirse a un [servicio](manage-services.md).
-   * **[!UICONTROL Baja]**: Esta plantilla se puede utilizar en una entrega enviado a los suscriptores de un servicio para permitirles cancelar su suscripción [servicio](manage-services.md).
+   * **[!UICONTROL Suscripción]**: utilice esta plantilla para permitir a los usuarios suscribirse a un [servicio](../audience/manage-services.md).
+   * **[!UICONTROL Baja]**: Esta plantilla se puede utilizar en una entrega enviado a los suscriptores de un servicio para permitirles cancelar su suscripción [servicio](../audience/manage-services.md).
    * **[!UICONTROL Lista de bloqueados de]**: esta plantilla debe utilizarse cuando un perfil ya no quiere que Campaign le siga contactando. Más información sobre la administración de lista de bloqueados de la
 
    ![](assets/lp-templates.png)
