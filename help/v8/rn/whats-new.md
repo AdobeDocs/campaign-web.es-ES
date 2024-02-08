@@ -4,10 +4,10 @@ title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que viene con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Disponibilidad limitada"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Con la interfaz de usuario web de Campaign, la interfaz de usuario refleja los p
 
 Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre de algunos conceptos para que se ajusten a los estándares terminológicos más recientes. Estos cambios solo se aplican a la interfaz de usuario de Campaign Web y no se reflejan en la consola del cliente. Se encuentran detalladas a continuación.
 
-* Ahora, las pruebas son **correos electrónicos de prueba**: para enviar una prueba, utilice el botón **Prueba** en la IU para envío de correo electrónico. El destinatario de las pruebas ahora se denomina **Perfiles de prueba**. [Más información](../preview-test/test-deliveries.md).
-* Las direcciones semilla ahora se utilizan como **Perfiles de prueba**: envíe el correo electrónico de prueba a las direcciones semilla, que son destinatarios adicionales de la base de datos. [Más información](../preview-test/test-deliveries.md).
+* Los destinatarios ahora están **Perfiles**. [Más información](../audience/gs-audiences-recipients.md).
+* Las direcciones semilla ahora son **Perfiles de prueba**. [Más información](../preview-test/test-deliveries.md).
 * El análisis del envío ahora es la **preparación del envío**. Cuando necesite iniciar la preparación del mensaje, haga clic en el botón **Preparar**. [Más información](../monitor/prepare-send.md).
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../preview-test/preview-test.md)
-* Las listas son ahora **Públicos**. [Más información](../audience/about-recipients.md).
+* Las listas son ahora **Públicos**. [Más información](../audience/gs-audiences-recipients.md).
 
 ## Limitaciones{#limitations-beta}
 
 Las limitaciones siguientes se aplican a esta versión:
 
 * Los objetos editables son: destinatarios, envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos y plantillas. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
-* La interfaz de usuario de Administración no está disponible.
+* Las funcionalidades de administración y configuración avanzada no están disponibles en la interfaz de usuario web de Campaign.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
 * Las notificaciones de Adobe Experience Cloud y la Ayuda unificada disponibles en la barra superior aún no están integradas.
 
-Para obtener más información sobre los mecanismos de protección y las limitaciones, consulte [esta página](../get-started/guardrails.md).
+Obtenga más información sobre las funciones admitidas y no admitidas y la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign, [en esta página](../get-started/capability-matrix.md).

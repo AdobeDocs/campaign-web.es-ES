@@ -2,17 +2,15 @@
 audience: end-user
 title: Matriz de funciones de la consola de cliente/interfaz de usuario web de Campaign
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 5%
 
 ---
 
-# Matriz de funciones de la consola de cliente/interfaz de usuario web de Campaign {#capabilities-matrix}
+# Consola de cliente de Campaign y web de Campaign {#capabilities-matrix}
 
 Las funciones clave de Campaign están disponibles en la interfaz de usuario web de Campaign. Esta interfaz fue diseñada principalmente para que los especialistas en marketing planifiquen, inicien y midan sus campañas de marketing. Se muestran todas las funciones [en esta página](../rn/whats-new.md).
 
@@ -61,7 +59,9 @@ Como consecuencia, en la consola del cliente de Campaign, no se puede editar, ac
 
 ## Perfiles, perfiles de prueba y audiencias {#profiles-audiences-capabilities}
 
-Puede crear, administrar y actualizar perfiles y perfiles de prueba tanto en la consola del cliente de Campaign como en la interfaz de usuario web de Campaign. Todos los cambios realizados en una interfaz de usuario se pueden ver en la otra. Sin embargo, es posible que falten algunas configuraciones de destinatario específicas y parámetros avanzados en la nueva interfaz de usuario web de Campaign. Tenga en cuenta que el término &quot;destinatario&quot; se ha cambiado a &quot;perfil&quot; en la nueva interfaz de usuario web.
+Puede crear, administrar y actualizar perfiles y perfiles de prueba tanto en la consola del cliente de Campaign como en la interfaz de usuario web de Campaign. Todos los cambios realizados en una interfaz de usuario se pueden ver en la otra. Sin embargo, es posible que falten algunas configuraciones de destinatario específicas y parámetros avanzados en la nueva interfaz de usuario web de Campaign.
+
+Tenga en cuenta que el término &quot;destinatario&quot; se ha cambiado a &quot;perfil&quot; en la nueva interfaz de usuario web y que &quot;Direcciones semilla&quot; ahora son &quot;Perfiles de prueba&quot;
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Algunas funciones solo están disponibles desde la consola del cliente. Examine 
 
 La interfaz de usuario web de Campaign no muestra las siguientes funcionalidades. Solo están disponibles en la consola del cliente.
 
-Examine los vínculos proporcionados en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"} y obtenga más información.
+Examine los vínculos proporcionados en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"} para obtener más información.
 
 * Cuentas externas. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Creación y extensión de esquemas. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
