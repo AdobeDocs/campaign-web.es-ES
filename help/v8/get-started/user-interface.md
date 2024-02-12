@@ -354,7 +354,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Páginas de aterrizaje predeterminadas"
+>title="Páginas de destino predeterminadas"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]

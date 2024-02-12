@@ -1,12 +1,11 @@
 ---
 title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 94%
+source-wordcount: '844'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Administración de filtros predefinidos"
->abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+>abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
 
 
 <!--TO REMOVE BELOW-->
@@ -30,13 +29,13 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtros predefinidos"
->abstract="La interfaz de usuario web de Campaign le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+>abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
 
 Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el modelador de consultas, por ejemplo, al filtrar una lista de datos o crear el público de un envío.
 
 Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de sus datos o crear sus propios filtros predefinidos y guardarlos.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
@@ -62,11 +61,11 @@ Puede guardar un filtro personalizado desde el [modelador de consultas](../query
 1. Abra el modelador de consultas y defina las condiciones de filtrado. En el ejemplo siguiente, se filtran los destinatarios que viven en Madrid y están suscritos a una Newsletter.
 1. Haga clic en el botón **Seleccionar o guardar filtro** y seleccione **Guardar como filtro**.
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. Seleccione **Crear nuevo filtro** y escriba un nombre y una descripción para él.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
 
@@ -86,12 +85,12 @@ Puede crear un filtro desde la entrada **Filtros predefinidos** en el menú de l
 
 1. Defina la regla para el filtro. Por ejemplo, perfiles de personas de más de 30 años.
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. Guarde los cambios.
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 El filtro se añade a la lista de filtros predefinidos. Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
@@ -104,7 +103,7 @@ Al crear un filtro predefinido, puede activar la opción **Guardar como favorito
 
 Cuando un filtro se guarda como favorito, está disponible para todos los usuarios en la sección **Filtros favoritos** de la lista de creación de filtros, como se muestra a continuación:
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## Uso de un filtro predefinido {#use-predefined-filter}
 
@@ -121,21 +120,21 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 1. Introduzca el nombre del público y haga clic en el botón **Crear público**.
 1. Seleccione la actividad **Consulta** y, en el panel derecho, haga clic en el botón **Crear público**.
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
 1. Desde el **botón Seleccionar o guardar filtro**, elija la opción **Seleccionar filtro personalizado**.
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. Vaya al filtro predefinido que se utilizará para crear el público, selecciónelo y confirme.
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. Compruebe las propiedades de la regla para ese filtro y confirme.
 
    El filtro ahora se utiliza como consulta en la actividad **Consulta**.
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Guarde los cambios y haga clic en el botón **Iniciar** para crear el público y que esté disponible en la lista de públicos.
 
@@ -143,7 +142,7 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 
 Los filtros predefinidos se agrupan en una entrada propia del menú de navegación de la izquierda.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
 A partir de esa lista, puede crear un nuevo filtro como se explica más arriba y:
 

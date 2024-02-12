@@ -2,12 +2,11 @@
 audience: end-user
 title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 25%
+source-wordcount: '959'
+ht-degree: 28%
 
 ---
 
@@ -20,7 +19,7 @@ Estos ajustes están preconfigurados en la plantilla seleccionada al crear el fl
 
 Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barra de acciones sobre el lienzo del flujo de trabajo.
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Propiedades del flujo de trabajo {#properties}
 
@@ -31,7 +30,7 @@ Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barr
 
 El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la que también se puede acceder al crear el flujo de trabajo.
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 Estas propiedades son:
@@ -91,7 +90,7 @@ Cuando el flujo de trabajo es [asociado a una campaña](create-workflow.md), se 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configuración de administración de errores"
->abstract="En esta sección, puede definir cómo debe administrar el flujo de trabajo los errores durante su ejecución. Puede optar por pausar el proceso, ignorar un determinado número de errores o detener la ejecución del flujo de trabajo."
+>abstract="En esta sección, puede definir cómo el flujo de trabajo debe administrar errores durante su ejecución. Puede optar por poner en pausa el proceso, ignorar un determinado número de errores o detener la ejecución del flujo de trabajo."
 
 * **[!UICONTROL Administración de errores]**: Este campo permite definir las acciones que se deben realizar si una tarea de flujo de trabajo presenta errores. Hay tres opciones posibles:
 
