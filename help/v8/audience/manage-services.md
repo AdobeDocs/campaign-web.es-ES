@@ -2,12 +2,11 @@
 audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 30%
+source-wordcount: '933'
+ht-degree: 31%
 
 ---
 
@@ -20,13 +19,11 @@ ht-degree: 30%
 
 Utilice Adobe Campaign Web para administrar y crear sus servicios, como los boletines informativos, y para comprobar las suscripciones o bajas de suscripción a estos servicios.
 
+Se pueden definir varios servicios en paralelo, por ejemplo: boletines para categorías de productos específicas, temas o áreas de un sitio web, suscripciones a varios tipos de mensajes de alerta y notificaciones en tiempo real.
+
 >[!NOTE]
 >
 >Las suscripciones solo se aplican al envío de correo electrónico y SMS.
-
-Se pueden definir varios servicios en paralelo, por ejemplo: boletines para categorías de productos específicas, temas o áreas de un sitio web, suscripciones a varios tipos de mensajes de alerta y notificaciones en tiempo real.
-
-Para obtener más información sobre la administración de suscripciones y bajas, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Acceso a servicios de suscripción {#access-services}
 
@@ -34,11 +31,11 @@ Para acceder a los servicios de suscripción disponibles para su plataforma, sig
 
 1. Vaya a la **[!UICONTROL Servicios de suscripción]** en el carril de navegación izquierdo.
 
-   ![](assets/service-list.png)
+   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
 1. Se muestra la lista de todos los servicios de suscripción existentes. Puede buscar los servicios y filtrar el canal, la carpeta o agregar reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
 
-   ![](assets/service-filters.png)
+   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
 1. Para editar un servicio existente, haga clic en su nombre.
 
@@ -60,13 +57,13 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
 
 1. Seleccione el **[!UICONTROL Crear servicio de suscripción]** botón.
 
-   ![](assets/service-create-button.png)
+   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Seleccione un canal: **[!UICONTROL Correo electrónico]** o **[!UICONTROL SMS]**.
 
 1. En las propiedades del servicio, introduzca una etiqueta y defina **[!UICONTROL Opciones adicionales]** como se quiere.
 
-   ![](assets/service-create-properties.png)
+   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
 
 1. De forma predeterminada, los servicios de se almacenan en **[!UICONTROL Servicios y suscripciones]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
@@ -76,11 +73,11 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
    * Ya ningún destinatario puede suscribirse a este servicio
    * Todos los suscriptores de este servicio cancelan su suscripción automáticamente
 
-   ![](assets/service-create-validity-period.png)
+   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 1. Cuando un usuario se suscribe o cancela la suscripción a un servicio, puede enviar un mensaje de confirmación. Seleccione las plantillas que desea utilizar para ese mensaje según el caso de uso. Estas plantillas deben configurarse con la variable **[!UICONTROL Suscripciones]** asignación de destino. [Más información](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png)
+   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Guardar y revisar]**. El nuevo servicio se agrega al **[!UICONTROL Servicios de suscripción]** lista.
 
@@ -103,21 +100,21 @@ Ahora puede hacer lo siguiente:
 >title="Selección de la plantilla de envíos de cancelación de suscripciones"
 >abstract="Para enviar mensajes de confirmación a los usuarios que cancelan la suscripción al servicio, debe seleccionar una plantilla de envíos específica basada en la asignación de destino **[!UICONTROL Suscripciones]**, sin un destino definido."
 
-Para enviar mensajes de confirmación a los usuarios que se suscriben o cancelan la suscripción a su servicio, debe crear una plantilla de envío con el **[!UICONTROL Suscripciones]** asignación de destino, sin un destino definido. Para ello, siga los pasos a continuación.
+Para enviar mensajes de confirmación a los usuarios que se suscriben o cancelan la suscripción a su servicio, debe crear una plantilla de envío con el **[!UICONTROL Suscripciones]** asignación de destino, sin un destino definido. Para ello, siga los pasos a continuación:
 
 1. Cree una plantilla de envío para la confirmación de suscripción. [Obtenga información sobre cómo crear una plantilla](../msg/delivery-template.md)
 
 1. No seleccione una audiencia para este envío. En su lugar, acceda al envío **[!UICONTROL Configuración]**, vaya a la [Audiencia](../advanced-settings/delivery-settings.md#audience) y seleccione la pestaña **[!UICONTROL Suscripciones]** asignación de destino de la lista.
 
-   ![](assets/service-confirmation-template-mapping.png)
+   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Si no selecciona la variable  **[!UICONTROL Suscripciones]** asignación de destino, los suscriptores no recibirán el mensaje de confirmación. Las asignaciones de destino se definen en la consola de Campaign v8. Obtenga más información en la [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
+   >Si no selecciona la variable  **[!UICONTROL Suscripciones]** asignación de destino, los suscriptores no recibirán el mensaje de confirmación. Obtenga más información sobre las asignaciones de destino en [esta sección](../audience/targeting-dimensions.md) .
 
 1. Edite el contenido de la plantilla de envíos, guárdelo y ciérrelo.
 
-   ![](assets/service-confirmation-template.png)
+   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -148,13 +145,13 @@ Para medir la eficacia de los servicios de suscripción para canales de correo e
 
 1. Seleccione un servicio existente del **[!UICONTROL Servicios de suscripción]** lista. Clic **[!UICONTROL Calcular]** el obtiene el número total de suscriptores.
 
-   ![](assets/service-logs-subscribers-count.png)
+   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
 
 1. En el panel de servicios, seleccione **[!UICONTROL Registros]** para ver la lista de suscriptores de este servicio.
 
    Puede comprobar el número total de suscriptores, el nombre y la dirección de cada destinatario y cuándo se han suscrito o dado de baja de la suscripción. También puede filtrar por ellos.
 
-   ![](assets/service-logs.png)
+   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
 
 1. En el panel de servicios, seleccione **[!UICONTROL Informes]**. Compruebe las luces testigo siguientes:
 
@@ -162,7 +159,7 @@ Para medir la eficacia de los servicios de suscripción para canales de correo e
 
    * Puede ver el número de suscripciones y bajas de suscripción durante un periodo seleccionado. Utilice la lista desplegable para cambiar el intervalo de tiempo.
 
-     ![](assets/service-reports.png)
+     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
 
    * El **[!UICONTROL Evolución general de las suscripciones]** El gráfico muestra el desglose por periodo, incluidas las suscripciones, las bajas, la evolución en los números y el porcentaje de fidelidad.<!--what is Registered?-->
 
