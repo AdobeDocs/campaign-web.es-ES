@@ -2,10 +2,10 @@
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 19%
+source-wordcount: '1340'
+ht-degree: 18%
 
 ---
 
@@ -71,6 +71,8 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+Para crear una página de aterrizaje, siga estos pasos:
+
 1. Desde el **[!UICONTROL Páginas de aterrizaje]** inventario, haga clic en **[!UICONTROL Crear página de aterrizaje]**.
 
    ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
@@ -79,13 +81,13 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
    * **[!UICONTROL Adquisición]**: Esta es la plantilla predeterminada para páginas de aterrizaje, que le permite capturar y actualizar datos de perfil.
    * **[!UICONTROL Suscripción]**: utilice esta plantilla para permitir a los usuarios suscribirse a un [servicio](../audience/manage-services.md).
    * **[!UICONTROL Baja]**: Esta plantilla se puede utilizar en una entrega enviado a los suscriptores de un servicio para permitirles cancelar su suscripción [servicio](../audience/manage-services.md).
-   * **[!UICONTROL Lista de bloqueados de]**: esta plantilla debe utilizarse cuando un perfil ya no quiere que Campaign le siga contactando.
+   * **[!UICONTROL Lista de bloqueados de]**: Esta plantilla debe utilizarse cuando un perfil hace clic en un vínculo de no participación en una entrega y ya no desea que se le contacte.
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Aprenda a implementar los diferentes casos de uso correspondientes a cada plantilla en [esta sección](lp-use-cases.md).
+   >Aprenda a implementar los diferentes casos de uso correspondientes a cada plantilla en [esta página](lp-use-cases.md).
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -101,7 +103,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
    * El **[!UICONTROL Omitir precarga si no hay ID]** La opción debe estar seleccionada si no desea actualizar los perfiles. En este caso, cada perfil introducido se añade a la base de datos después de la aprobación del formulario. Esta opción se utiliza, por ejemplo, cuando se publica el formulario en un sitio web.
 
-1. En el **[!UICONTROL Páginas]** , haga clic en **[!UICONTROL Editar contenido]** para cada página que desee diseñar para esta página de aterrizaje. El contenido de cada página ya está rellenado previamente. Edítelos según sea necesario. [Más información](lp-content.md)
+1. Una página de aterrizaje puede tener páginas posteriores. Para agregar páginas, busque **[!UICONTROL Páginas]** y haga clic en la sección **[!UICONTROL Editar contenido]** para cada página que desee diseñar para esta página de aterrizaje. El contenido de cada página ya está rellenado previamente. Edítelos según sea necesario. [Más información](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
 1. Clic **[!UICONTROL Revisión y publicación]**.
 
-Una vez definidos todos los ajustes y [concebido](lp-content.md) todas las páginas, puede [prueba](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje.
+Una vez definidos todos los ajustes y [concebido](lp-content.md) todas las páginas, puede [prueba](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje, tal y como se detalla a continuación.
 
 ## Prueba de la página de aterrizaje {#test-landing-page}
 
@@ -148,6 +150,8 @@ Una vez definida la configuración y el contenido de la página de aterrizaje, p
 >[!CAUTION]
 >
 >Debe tener perfiles de prueba disponibles para poder previsualizar los mensajes y enviar pruebas. [Más información sobre los perfiles de prueba](../audience/test-profiles.md)
+
+Para probar la página de aterrizaje, siga estos pasos:
 
 1. Después de hacer clic en **[!UICONTROL Revisión y publicación]**, seleccione la **[!UICONTROL Simular contenido]** del panel de página de aterrizaje para acceder a la selección del perfil de prueba.
 
@@ -173,7 +177,7 @@ Una vez definida la configuración y el contenido de la página de aterrizaje, p
 
 ## Publicar la página de aterrizaje {#publish-landing-page}
 
-Una vez que la página de aterrizaje esté lista, publíquela para que esté disponible para usarla en una entrega con el botón correspondiente.
+Una vez que la página de aterrizaje esté lista y validada, publíquela para que esté disponible para su uso en una entrega con el botón correspondiente.
 
 Una vez publicado:
 

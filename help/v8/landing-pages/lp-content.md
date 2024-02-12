@@ -2,9 +2,9 @@
 title: Definición del contenido específico de la página de aterrizaje
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '872'
 ht-degree: 11%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 11%
 >title="Usar componentes de contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
 
-Al editar el contenido de cualquier página de la página de aterrizaje, ya está rellenado previamente.
+Puede editar el contenido de cualquier página de la página de aterrizaje.
 
-La primera página, que se muestra inmediatamente a los usuarios después de que hacen clic en el vínculo a la página de aterrizaje, ya está rellenada con el [componente de formulario específico de la página de aterrizaje](#use-form-component) para la plantilla seleccionada<!-- to enable users to select and submit their choices-->. También puede definir lo siguiente [estilos para la página de aterrizaje](#lp-form-styles).
 
-Para diseñar aún más el contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
+La primera página, que se muestra inmediatamente a los usuarios después de que hacen clic en el vínculo a la página de aterrizaje, ya está rellenada con el [componente de formulario específico de la página de aterrizaje](#use-form-component) para la plantilla seleccionada<!-- to enable users to select and submit their choices-->.
 
 El contenido del **[!UICONTROL Confirmación]**, **[!UICONTROL Error]** y **[!UICONTROL Caducidad]** páginas también está rellenado previamente. Edítelos según sea necesario.
+
+También puede definir lo siguiente [estilos para la página de aterrizaje](#lp-form-styles).
+
+Para diseñar aún más el contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
 
 ## Uso del componente del formulario {#use-form-component}
 
@@ -36,7 +39,7 @@ El contenido del **[!UICONTROL Confirmación]**, **[!UICONTROL Error]** y **[!UI
 >title="Qué sucede al hacer clic en el botón"
 >abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de aterrizaje."
 
-Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, utilice el **[!UICONTROL Form]** componente. Para ello, siga los pasos a continuación.
+Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, edite la **[!UICONTROL Form]** componente. Para ello, siga los pasos a continuación.
 
 1. La página de aterrizaje específica **[!UICONTROL Form]** El componente ya se muestra en el lienzo de la plantilla seleccionada.
 

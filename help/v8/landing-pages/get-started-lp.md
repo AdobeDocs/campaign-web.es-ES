@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '275'
 ht-degree: 13%
 
 ---
@@ -26,9 +26,9 @@ Las páginas de aterrizaje permiten dirigir a los usuarios a formularios en lín
 
 >[!CAUTION]
 >
->Las páginas de destino que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web en la interfaz de usuario web de Campaign.
+>Las páginas de destino que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web creados en la consola del cliente en la interfaz de usuario web de Campaign.
 >
->Obtenga más información sobre los formularios web en la [Documentación de la consola de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Obtenga más información sobre los formularios web en la [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 
