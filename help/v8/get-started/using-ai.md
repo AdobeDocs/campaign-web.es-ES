@@ -3,10 +3,10 @@ title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '541'
+ht-degree: 82%
 
 ---
 
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Desde el campo de entrada, la Ayuda contextual con tecnología de IA de Adobe Campaign ofrece tres preguntas sugeridas. Estas preguntas son generadas por IA y están relacionadas con el cuadro de ayuda y el contexto del producto actual. Seleccione una pregunta para obtener la respuesta.
 
+![Preguntas sugeridas en la Ayuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## Respuestas {#answers-ai}
 
 La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, pero le corresponde a usted contrastar los datos. Puede dar respuestas incorrectas, inexactas o falsas. Asegúrese de consultar la documentación del producto vinculada en cada cuadro de ayuda.
 
 Puede copiar una respuesta en el portapapeles mediante el **Copiar** en la parte inferior de la ventana emergente de ayuda.
+
+![Ayuda contextual para copiar una respuesta](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## Comentarios {#feedback-ai}
 
