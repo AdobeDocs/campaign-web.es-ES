@@ -3,7 +3,7 @@ title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Gracias a las funcionalidades Gen IA de Campaign, este componente transforma su 
 
 >[!AVAILABILITY]
 >
->La ayuda contextual con tecnología de IA está disponible en su versión beta y sujeta a cambios sin previo aviso.
+>* La ayuda contextual con tecnología de IA está disponible en su versión beta y sujeta a cambios sin previo aviso.
 >
->Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
+>* Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
 >
->Por ahora, la ayuda contextual con tecnología de IA no está disponible en el Diseñador de correo electrónico de Campaign.
+>* Por ahora, la ayuda contextual con tecnología de IA no está disponible en el Diseñador de correo electrónico de Campaign.
 
 
 <!--
