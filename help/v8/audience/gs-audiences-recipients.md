@@ -2,16 +2,16 @@
 title: Introducción a perfiles y públicos
 description: Aprenda a trabajar con perfiles y públicos en la web de Campaign
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Introducción a perfiles y públicos {#about-profiles}
 
-En la web de Adobe Campaign, un **perfil** es una persona almacenada en la base de datos que sirve como componente clave para crear públicos para envíos y añadir datos de personalización al contenido. En la base de datos se almacenan varios tipos de perfiles, como **Perfiles de prueba**, diseñados para probar los envíos antes de enviarlos al público final.
+En Adobe Campaign Web, una **perfil** es un registro almacenado en la base de datos que sirve como componente clave para crear audiencias para envíos y añadir datos de personalización al contenido. En la base de datos se almacenan varios tipos de perfiles, como **Perfiles de prueba**, diseñados para probar los envíos antes de enviarlos al público final.
 
 Los **públicos** son conjuntos de perfiles que comparten comportamientos o características similares. Esta colección de personas se puede generar, seleccionar o cargar. Una vez creados, los públicos pueden aprovecharse como público destinatario de los envíos.
 

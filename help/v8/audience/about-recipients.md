@@ -1,10 +1,10 @@
 ---
 title: Introducción a los perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfiles"
->abstract="Un perfil es una persona que está destinada a recibir mensajes enviados por Adobe Campaign. En esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de los perfiles."
+>abstract="Un perfil es un registro dirigido a recibir mensajes enviados por Adobe Campaign. En esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de los perfiles."
 
 ## ¿Qué es un perfil? {#what}
 
-A **perfil**, también conocido como &quot;destinatarios&quot; en la consola del cliente, representa a un individuo almacenado en la base de datos de Campaign, que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido. Adobe Campaign le permite administrar perfiles sin problemas, desde la creación de nuevas entradas al acceso a una vista completa de todos los atributos y suscripciones a servicios de los perfiles, todo a través de la interfaz de usuario web de Campaign.
+A **perfil**, también conocido como &quot;destinatarios&quot; en la consola del cliente, representa un registro almacenado en la base de datos de Campaign, que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido. Adobe Campaign le permite administrar perfiles sin problemas, desde la creación de nuevas entradas al acceso a una vista completa de todos los atributos y suscripciones a servicios de los perfiles, todo a través de la interfaz de usuario web de Campaign.
 
 Además, **[!UICONTROL perfiles de prueba]**, identificados como &quot;perfiles semilla&quot; en la consola del cliente, le permiten dirigirse a destinatarios adicionales que no coinciden con los criterios de objetivo de una entrega determinada. Estos perfiles contienen información de contacto ficticia o información de contacto controlada por el remitente. Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
 
