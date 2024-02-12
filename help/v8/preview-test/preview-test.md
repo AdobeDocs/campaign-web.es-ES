@@ -3,11 +3,10 @@ audience: end-user
 title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Disponibilidad limitada"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -33,7 +32,7 @@ Para ello, [!DNL Adobe Campaign] le permite:
 
 Estas acciones se pueden realizar con el complemento **[!UICONTROL Simular contenido]** , a la que se puede acceder desde la pantalla de edición de contenido del envío o desde el [Diseñador de correo electrónico](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png)
+![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

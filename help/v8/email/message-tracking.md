@@ -3,11 +3,10 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Obtenga información sobre cómo añadir vínculos y rastrear los mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. Agregue una **[!UICONTROL Etiqueta]** y un **[!UICONTROL Vínculo]**.
 
@@ -38,7 +37,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
    * Puede editar el vínculo y cambiar su **[!UICONTROL Destinatario]**.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ El [Diseñador de correo electrónico](create-email-content.md) le permite admin
 
 1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. Puede modificar el **[!UICONTROL Tipo de seguimiento]** si es necesario:
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    Para cada URL individual, puede definir el modo de seguimiento en uno de estos valores:
 
@@ -71,6 +70,6 @@ El [Diseñador de correo electrónico](create-email-content.md) le permite admin
 
 1. Agregue una **[!UICONTROL Categoría]** a su vínculo para agrupar los vínculos rastreados y haga clic en **[!UICONTROL Guardar]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. Después de realizar el envío, puede acceder al informe. En el menú **[!UICONTROL Seguimiento]**, las **[!UICONTROL URL y flujos de clics]** muestran las direcciones URL de su envío más visitadas. [Más información](../reporting/gs-reports.md)

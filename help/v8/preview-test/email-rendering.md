@@ -3,11 +3,10 @@ audience: end-user
 title: Prueba del procesamiento de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Disponibilidad limitada"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -33,21 +32,21 @@ A continuación, siga los pasos a continuación.
 
 1. Seleccione el **[!UICONTROL Procesar correo electrónico]** botón.
 
-   ![](assets/simulate-rendering-button.png)
+   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
 
 1. Clic **Conecte su cuenta de Litmus** en la sección superior derecha.
 
-   ![](assets/simulate-rendering-litmus.png)
+   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
 
 1. Introduzca sus credenciales de e inicie sesión.
 
-   ![](assets/simulate-rendering-credentials.png)
+   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
 
 1. Haga clic en **Ejecutar prueba** para generar previsualizaciones de correo electrónico.
 
 1. Compruebe el contenido de su correo electrónico en clientes populares de escritorio, móviles y web.
 
-   ![](assets/simulate-rendering-previews.png)
+   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -64,7 +63,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

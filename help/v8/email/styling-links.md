@@ -3,11 +3,10 @@ audience: end-user
 title: Definición de un estilo para los vínculos
 description: Aprenda a definir un estilo para los vínculos
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +19,7 @@ Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de 
 
 1. En la pestaña **[!UICONTROL Configuración]**, marque **[!UICONTROL Subrayar vínculo]** para que la etiqueta aparezca subrayada.
 
-   ![](assets/link_1.png)
+   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
 
 1. Elija cómo se redirige a su público con la lista desplegable **[!UICONTROL Destinatario]**:
 
@@ -30,10 +29,10 @@ Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de 
    * **[!UICONTROL Principal]**: abre el vínculo en el marco principal.
    * **[!UICONTROL Superior]**: abre el vínculo en todo el cuerpo de la ventana.
 
-   ![](assets/link_2.png)
+   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
 
 1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Color del vínculo]** en la pestaña **[!UICONTROL Estilos]**.
 
-   ![](assets/link_3.png)
+   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
 
 1. Guarde los cambios.

@@ -3,11 +3,10 @@ audience: end-user
 title: Personalice el fondo del correo electrónico
 description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
 
@@ -28,15 +27,15 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 * Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde el panel izquierdo.
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
 * Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Color de fondo de la ventanilla]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación del panel izquierdo para aplicar un color de fondo específico solo a esa estructura.
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -44,7 +43,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 * Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 * Establezca un color de fondo en el nivel de columna.
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

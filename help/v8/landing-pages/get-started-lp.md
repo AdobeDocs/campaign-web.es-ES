@@ -3,10 +3,9 @@ audience: end-user
 title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de destino en Campaign Web
 feature: Landing Pages
-badge: label="Disponibilidad limitada"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 11%
 
 ---

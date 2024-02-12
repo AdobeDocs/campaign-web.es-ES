@@ -2,16 +2,15 @@
 audience: end-user
 title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
-badge: label="Disponibilidad limitada"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 41%
+source-wordcount: '626'
+ht-degree: 40%
 
 ---
 
-# Importación de un público destinatario de correo electrónico desde un archivo {#audience-from-file}
+# Importación de un público de correo electrónico desde un archivo {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -50,7 +49,7 @@ Para segmentar perfiles desde un archivo local directamente desde la interfaz de
 1. Abra una entrega de correo electrónico existente o [creación de un nuevo envío de correo electrónico](../email/create-email.md).
 1. En la ventana de creación de envíos de correo electrónico, en la sección **Público**, haga clic en el botón **Seleccionar público** y seleccione la opción **Seleccionar del archivo**.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Seleccione el archivo local que desea utilizar. El formato debe alinearse con la variable [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
@@ -60,7 +59,7 @@ Para segmentar perfiles desde un archivo local directamente desde la interfaz de
 
 Al crear y personalizar el contenido del mensaje, puede seleccionar campos del archivo de entrada en la [Editor de personalización](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## Archivo de muestra {#sample-file}
 
@@ -93,7 +92,7 @@ La web de Campaign le permite realizar previsualizaciones y enviar correos elect
 
 1. En el panel derecho de la pantalla aparece una vista previa del contenido de la entrega. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo. [Más información sobre la previsualización del contenido de envío](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. Para enviar correos electrónicos de prueba, haga clic en **[!UICONTROL Prueba]** botón.
 
@@ -105,6 +104,6 @@ La web de Campaign le permite realizar previsualizaciones y enviar correos elect
 
 1. Cuando haya añadido los destinatarios de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar correo electrónico de prueba]** y confirme el envío.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. Puede monitorizar el envío del correo electrónico de prueba mediante la variable **[!UICONTROL Ver registro de correo electrónico de prueba]** botón en cualquier momento. [Más información sobre la monitorización de correos electrónicos de prueba](../preview-test/test-deliveries.md#access-test-deliveries)

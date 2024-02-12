@@ -3,10 +3,9 @@ audience: end-user
 title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Disponibilidad limitada"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
 1. Haga clic en **[!UICONTROL Simular contenido]** botón.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Para seleccionar los perfiles que se utilizarán para previsualizar el contenido personalizado, utilice:
 
@@ -36,11 +35,11 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
    * El **[!UICONTROL Perfiles]** enumera todos los perfiles almacenados en la base de datos. [Aprenda a trabajar con perfiles](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. [Obtenga información sobre cómo agregar reglas mediante el modelador de consultas](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
    En el panel derecho del formulario se muestra una vista previa del contenido de la entrega **[!UICONTROL Simular]** pantalla. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. Si ha añadido varios perfiles, puede cambiar entre ellos en la lista para previsualizar el contenido de envío correspondiente. También puede agregar más perfiles de prueba y borrar la selección utilizando los botones correspondientes del panel izquierdo.
 

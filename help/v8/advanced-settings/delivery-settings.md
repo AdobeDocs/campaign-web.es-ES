@@ -4,10 +4,9 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Disponibilidad limitada"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 61%
 
 ---
@@ -44,7 +43,7 @@ Al asociar una tipología con una plantilla de mensaje o un mensaje, las reglas 
 
 Las tipologías le permiten asegurarse de que los correos electrónicos siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ En el **[!UICONTROL Exclusión]** , puede seleccionar excluir los destinatarios 
 
 **[!UICONTROL Envío]** Los parámetros de son ajustes técnicos que se aplican a su envío.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 El correo electrónico integrado **[!UICONTROL Enrutamiento]** La cuenta externa de se proporciona de forma predeterminada. Contiene los parámetros técnicos que le permiten a la aplicación enviar correos electrónicos.
 
@@ -250,7 +249,7 @@ Asimismo, puede especificar fechas. Para ello, seleccione **[!UICONTROL Establec
 
 **[!UICONTROL Vigencia de recursos]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco). Después de este límite, estos recursos ya no están disponibles.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

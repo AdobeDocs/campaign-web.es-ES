@@ -3,10 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Disponibilidad limitada"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 95%
 
 ---
@@ -33,7 +32,7 @@ La página de inicio de Campaign permite examinar rápida y fácilmente recursos
 
 La sección superior de la página de inicio proporciona detalles sobre las últimas actualizaciones y las nuevas funcionalidades disponibles en el producto, con vínculo a las Notas de la versión y documentación detallada. Utilice la flecha izquierda para desplazarse por las tarjetas de características.
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 Los **indicadores clave de rendimiento** le permiten comprobar la eficacia de la plataforma mediante indicadores clave de rendimiento (KPI) frecuentes. Obtenga más información acerca de los indicadores clave de rendimiento (KPI) en [esta página](../reporting/kpis.md).
 
@@ -71,7 +70,7 @@ En la sección ADMINISTRACIÓN DE CAMPAÑAS, puede acceder a campañas de market
 
   Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Flujos de trabajo**: en esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña. Puede obtener más información sobre los flujos de trabajo [en esta sección](../workflows/gs-workflows.md).
 
@@ -119,7 +118,7 @@ Obtenga información sobre cómo crear y enviar ofertas en correos electrónicos
 
 Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, haga clic en el icono `?` para mostrar la información de ayuda y los vínculos de documentación relacionados.
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
 Lanzado como versión beta dentro de la nueva interfaz de usuario web de Campaign, el **Asistente de conocimientos con tecnología de IA** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
 

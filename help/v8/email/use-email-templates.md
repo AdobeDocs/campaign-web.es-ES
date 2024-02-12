@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Disponibilidad limitada"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 11%
 
 Cuándo [creación de un correo electrónico](../email/create-email.md), use el **[!UICONTROL Seleccionar plantilla de diseño]** de la sección **[!UICONTROL Cree su correo electrónico]** para empezar a crear contenido a partir de una plantilla.
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 Puede elegir entre:
 
@@ -42,17 +41,17 @@ Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas,
 
 1. Para utilizar una plantilla personalizada existente, vaya a la **[!UICONTROL Plantillas guardadas]** pestaña.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. Se muestra la lista de todas las [plantillas guardadas](#save-as-template). Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Seleccione una plantilla de la lista para mostrar su contenido.
 
 1. Utilice las flechas derecha e izquierda para desplazarse entre las plantillas (ejemplo o guardado según su selección).
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la pantalla.
 

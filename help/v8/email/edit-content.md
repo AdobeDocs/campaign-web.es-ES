@@ -3,11 +3,10 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Disponibilidad limitada"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 50%
+source-wordcount: '630'
+ht-degree: 49%
 
 ---
 
@@ -48,11 +47,11 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
 1. Haga clic en **[!UICONTROL Editar contenido]** del menú contextual [panel de envío de correo electrónico](../email/create-email.md) pantalla.
 
-   ![](assets/email-edit-content-button.png)
+   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
 
 1. Se abre la pantalla de edición de contenido de correo electrónico.
 
-   ![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -72,7 +71,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
 1. Expanda el **[!UICONTROL Campos de respuesta]** sección. El nombre y las direcciones del remitente se utilizan de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
-   ![](assets/email-edit-content-reply-to.png)
+   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
 
 1. Defina la **[!UICONTROL Línea de asunto]** del correo electrónico. Escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para agregar [personalización](../personalization/personalize.md) uso de varios atributos y bloques de contenido, u ofertas.
 

@@ -3,11 +3,10 @@ audience: end-user
 title: Trabajo con plantillas de contenido de página de aterrizaje
 description: Aprenda a guardar el contenido de la página de aterrizaje como plantilla de diseño y a reutilizarlo en Campaign Web
 feature: Landing Pages
-badge: label="Disponibilidad limitada"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 14%
+source-wordcount: '213'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +20,7 @@ Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md
 
 1. Seleccionar **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
 
-   ![](assets/lp-save-as-template.png)
+   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
 
 1. Añada un nombre para esta plantilla.
 
@@ -29,7 +28,7 @@ Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md
 
 La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Aprenda a hacerlo en [sección](#use-saved-template) más abajo.
 
-![](assets/lp-saved-template.png)
+![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
 
 ## Uso de una plantilla guardada {#use-saved-template}
 
@@ -37,7 +36,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 1. Al editar el contenido de una página de aterrizaje, haga clic en **[!UICONTROL Más]** y seleccione **[!UICONTROL Cambiar el diseño]**.
 
-   ![](assets/lp-change-your-design.png)
+   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
 
 1. Confirme la elección.
 
@@ -47,11 +46,11 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 1. La lista de todas las plantillas guardadas anteriormente se muestra en la variable **[!UICONTROL Plantillas guardadas]** pestaña. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
-   ![](assets/lp-saved-templates.png)
+   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Seleccione la plantilla que desee en la lista. Una vez seleccionadas, puede desplazarse entre todas las plantillas guardadas con las flechas derecha e izquierda.
 
-   ![](assets/lp-select-saved-template.png)
+   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Usar esta plantilla]**.
 

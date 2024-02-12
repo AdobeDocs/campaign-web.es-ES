@@ -3,11 +3,10 @@ audience: end-user
 title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Disponibilidad limitada"
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 30%
+source-wordcount: '334'
+ht-degree: 29%
 
 ---
 
@@ -30,24 +29,24 @@ Para seleccionar un público existente para el mensaje, siga los pasos a continu
 
 1. Desde el **Audiencia** del asistente de creación de entregas, haga clic en **[!UICONTROL Seleccionar audiencia]** y luego elija **[!UICONTROL Seleccionar audiencia]** para utilizar una audiencia existente.
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
 1. Esta pantalla muestra todas las audiencias existentes, para la carpeta actual.
 
-   ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
    Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla.
 
-   ![](assets/select-audience-folder.png)
+   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
 1. La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al modelador de consultas, que permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
    Por ejemplo, puede definir una regla para filtrar el origen de las audiencias, como se muestra a continuación:
 
-   ![](assets/filter-on-aep-audience.png)
+   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
 
 1. Clic **Confirmar** para añadir la audiencia como destinatario principal de la entrega. Una vez finalizado, aún puede refinar la audiencia mediante el modelador de consultas haciendo clic en **Editar reglas** botón.
 
-   ![](assets/refine-audience.png)
+   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
 
    También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](control-group.md)

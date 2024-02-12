@@ -2,11 +2,10 @@
 audience: end-user
 title: Informes globales para el canal de correo postal
 description: Más información sobre los Informes globales para el canal de correo postal
-badge: label="Disponibilidad limitada"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 6%
+source-wordcount: '634'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +21,7 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 
 El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo electrónico. Las métricas se describen a continuación.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -39,7 +38,7 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 
 La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos relacionados con sus destinatarios, con las métricas detalladas que se proporcionan a continuación.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -55,7 +54,7 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos rela
 
 El **[!UICONTROL Estadísticas de envío]** proporciona un desglose del éxito de cada envío de correo postal, con las métricas detalladas que se describen a continuación.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
@@ -71,7 +70,7 @@ El **[!UICONTROL Estadísticas de envío]** proporciona un desglose del éxito d
 
 ### Causas de exclusión {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 

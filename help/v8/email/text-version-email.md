@@ -3,11 +3,10 @@ audience: end-user
 title: Creación de la versión de texto de un correo electrónico
 description: Aprenda a crear la versión de texto de un correo electrónico
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 96%
 
 ---
 
@@ -21,15 +20,15 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 
 1. En el correo electrónico, seleccione la pestaña **[!UICONTROL Texto sin formato]**.
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. Utilice la opción **[!UICONTROL Sincronizar con HTML]** para deshabilitar la sincronización.
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. Haga clic en la marca de verificación para confirmar su elección.
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. A continuación, puede editar la versión de texto sin formato como desee.
 

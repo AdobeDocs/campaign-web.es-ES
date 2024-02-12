@@ -3,10 +3,9 @@ audience: end-user
 title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
-badge: label="Disponibilidad limitada"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '796'
 ht-degree: 32%
 
 ---
@@ -57,7 +56,7 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
 
 Si selecciona esta opción, todas las olas tienen el mismo tamaño (excepto la última) y el retardo entre cada ola es siempre el mismo.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * Especifique el tamaño de todas las olas en las que divide la entrega. Puede introducir un porcentaje o un valor numérico. Solo la última ola puede variar en tamaño, ya que debe incluir el número restante de mensajes.
 
@@ -71,7 +70,7 @@ Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la ca
 
 Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Entrar **[!UICONTROL 20]** como el tamaño de las olas y **[!UICONTROL 1 día]** en el **[!UICONTROL Intervalo]** field.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## Programar las olas de acuerdo con un calendario {#waves-calendar}
 
@@ -89,7 +88,7 @@ Añada tantas olas como desee. Puede reordenarlos según sus necesidades.
 
 En el ejemplo siguiente, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 Un caso de uso común para utilizar varias olas según un calendario es durante el proceso de aceleración.
 
@@ -99,7 +98,7 @@ Para evitar que se lo considere correo no deseado, puede aumentar progresivament
 
 Para hacer esto, seleccione la opción **[!UICONTROL Programar ondas según un calendario]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 %, la tercera en 20 %, etc.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

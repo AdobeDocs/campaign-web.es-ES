@@ -3,10 +3,9 @@ audience: end-user
 title: Adición de ofertas en los mensajes
 description: Obtenga información sobre cómo añadir y enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Disponibilidad limitada"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 35%
 
 ---
@@ -40,13 +39,13 @@ Para seleccionar las ofertas que desea añadir a la entrega, siga los pasos a co
 
 1. Haga clic en **[!UICONTROL Configuración de ofertas]** en la pantalla de edición de contenido del envío.
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. Configurar qué ofertas se deben proponer a los destinatarios.
 
    Seleccione primero la **[!UICONTROL Espacio de ofertas]** que coincide con el entorno de la oferta. Obtenga información sobre cómo crear un espacio de oferta en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. Para restringir la selección de ofertas del motor, seleccione la **[!UICONTROL Categoría de oferta]** específica en la que se ordenan las ofertas.
 
@@ -90,7 +89,7 @@ Para insertar una oferta mediante el editor de expresiones, siga los pasos a con
 
 1. Coloque el cursor del ratón donde desee insertar la oferta y abra el editor de expresiones utilizando el icono de personalización.
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. Seleccione el **[!UICONTROL Propuestas]** menú. Las propuestas disponibles se muestran en la lista.
 
@@ -100,7 +99,7 @@ Para insertar una oferta mediante el editor de expresiones, siga los pasos a con
 
 1. Defina cada propuesta utilizando los campos de personalización, las funciones de renderización o los atributos de oferta disponibles.
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

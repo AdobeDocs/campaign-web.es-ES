@@ -2,12 +2,11 @@
 audience: end-user
 title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
-badge: label="Disponibilidad limitada"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 96%
 
 ---
 
@@ -19,17 +18,17 @@ La mayoría de los vínculos del menú de navegación izquierdo muestran listas 
 
 Las listas se muestran en columnas. Puede mostrar información adicional cambiando la configuración de la columna. Para ello, haga clic en el icono **Configurar la columna para un diseño personalizado** en la esquina superior derecha de la lista.
 
-![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 En la pantalla **Configuración de columnas**, agregue o quite columnas, y cambie el orden en el que se muestran.
 
 Por ejemplo, para esta configuración:
 
-![](assets/columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 La lista muestra las siguientes columnas:
 
-![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 ## Ordenar datos {#sort-lists}
 
@@ -41,7 +40,7 @@ Para las columnas numéricas o de fecha, la flecha **Arriba** indica que la list
 
 Para buscar elementos más rápidamente, puede utilizar la barra de búsqueda o filtros personalizados e incorporados para adaptar la lista según criterios contextuales.
 
-![](assets/filter.png){width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Encontrará información detallada sobre cómo utilizar los filtros y crear sus propios filtros personalizados en [esta sección](../query/filter.md).
 
@@ -69,5 +68,5 @@ Only most common attributes are displayed by default in the attribute list and f
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
-![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+![](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 -->

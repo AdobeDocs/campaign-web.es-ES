@@ -3,11 +3,10 @@ audience: end-user
 title: Ajustar la alineación vertical y el relleno en el Diseñador de correo electrónico
 description: Aprenda a ajustar la alineación vertical y el relleno
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Disponibilidad limitada"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '173'
+ht-degree: 95%
 
 ---
 
@@ -18,15 +17,15 @@ En este ejemplo, ajustamos el relleno y la alineación vertical dentro de un com
 
 1. Seleccione el componente de estructura directamente en el correo electrónico o utilizando el **[!UICONTROL Árbol de navegación]** disponible en el panel izquierdo.
 
-   ![](assets/alignment_1.png)
+   ![](assets/alignment_1.png){zoomable=&quot;yes&quot;}
 
 1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Seleccionar una columna]** y elija la que desea editar. También puede seleccionarla en el árbol de estructura de la izquierda.
 
-   ![](assets/alignment_2.png)
+   ![](assets/alignment_2.png){zoomable=&quot;yes&quot;}
 
 1. Los parámetros editables para esa columna se muestran en la pestaña **[!UICONTROL Estilos]**. Ajuste la **[!UICONTROL Alineación]** usando la sección específica.
 
-   ![](assets/alignment_3.png)
+   ![](assets/alignment_3.png){zoomable=&quot;yes&quot;}
 
    Por ejemplo, seleccione **[!UICONTROL Inferior]**. El componente de contenido se desplaza a la parte inferior de la columna.
 
@@ -36,7 +35,7 @@ En este ejemplo, ajustamos el relleno y la alineación vertical dentro de un com
    >
    >Haga clic en el icono de candado para romper la sincronización entre el relleno superior/inferior o izquierdo/derecho.
 
-   ![](assets/alignment_4.png)
+   ![](assets/alignment_4.png){zoomable=&quot;yes&quot;}
 
 1. Proceda de forma similar para ajustar la alineación y el relleno de las demás columnas.
 
