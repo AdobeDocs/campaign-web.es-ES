@@ -3,9 +3,9 @@ audience: end-user
 title: Matriz de funciones de la consola de cliente/interfaz de usuario web de Campaign
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2151'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Utilice los vínculos proporcionados para examinar la documentación de Campaign
 
 ## Canales de comunicación {#channels-capabilities}
 
-Con la interfaz de usuario web de Campaign, puede crear, diseñar y enviar notificaciones push, por correo electrónico y SMS, y medir su impacto mediante varios informes dedicados, como se detalla a continuación [en esta sección](../msg/gs-messages.md). Sin embargo, los siguientes canales no están disponibles actualmente.
+Con la interfaz de usuario web de Campaign, puede crear, diseñar y enviar **email**, **SMS** y **notificaciones push**, y mida su impacto utilizando varios informes específicos, como se detalla a continuación [en esta sección](../msg/gs-messages.md). Sin embargo, actualmente están disponibles los siguientes canales **no** disponible: en la aplicación, correo postal, LINE, centro de llamadas/canal personalizado, marketing social con X (Twitter).
 
 Utilice los vínculos proporcionados para examinar la documentación de Campaign v8 (consola de cliente) y obtener más información sobre estos canales.
 
@@ -77,7 +77,6 @@ Examine la [Documentación de Campaign v8 (consola de cliente)](https://experien
 
 * Creación y ejecución de mensajes en tiempo real en correos electrónicos, SMS y push
 * Enriquecimiento y personalización de mensajes
-* Activadores (abandono del carro de compras de Adobe Analytics)
 * Creación de informes y monitorización de mensajería transaccional
 
 ## Diseño de contenido {#content-capabilities}
