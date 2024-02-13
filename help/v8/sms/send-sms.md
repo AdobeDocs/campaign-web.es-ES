@@ -2,12 +2,11 @@
 audience: end-user
 title: Envío de un envío SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 14%
+source-wordcount: '430'
+ht-degree: 13%
 
 ---
 
@@ -26,18 +25,18 @@ Los pasos principales para previsualizar su envío de SMS son los siguientes. En
 
 1. En la página de contenido de la entrega, utilice **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
 
-   ![](assets/sms_send_1.png)
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** para seleccionar uno o varios perfiles de prueba o perfiles.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. En el panel derecho, encontrará una vista previa del envío SMS, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
-   ![](assets/sms_send_3.png)
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 Ahora puede revisar y enviar su mensaje SMS a su público.
 
@@ -49,13 +48,13 @@ El envío de SMS de prueba es un paso importante para garantizar la calidad y ef
 
 ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar SMS de prueba en [esta sección](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Realización de la entrega de SMS {#send-sms}
 
 1. Después de personalizar el contenido del SMS, haga clic en **[!UICONTROL Revisar y enviar]** de su **[!UICONTROL Envío]** página.
 
-   ![](assets/sms_send_4.png)
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
 
@@ -63,7 +62,7 @@ El envío de SMS de prueba es un paso importante para garantizar la calidad y ef
 
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 
-   ![](assets/sms_send_5.png)
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    Si la entrega de SMS se ha programado, haga clic en el **[!UICONTROL Enviar como está programado]** botón. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#schedule-the-delivery-sending).
 

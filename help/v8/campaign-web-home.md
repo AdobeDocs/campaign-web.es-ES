@@ -20,7 +20,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
 >title="Disfrute de la nueva interfaz de usuario de Adobe Campaign"
->abstract="Más moderno, intuitivo y dinámico."
+>abstract="Más moderna, intuitiva y dinámica."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
@@ -58,7 +58,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
 >title="Disfrute de la nueva interfaz de usuario de Adobe Campaign"
->abstract="Más moderno, intuitivo y dinámico."
+>abstract="Más moderna, intuitiva y dinámica."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"

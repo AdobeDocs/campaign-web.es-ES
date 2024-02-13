@@ -2,13 +2,13 @@
 audience: end-user
 title: Generación de correo electrónico con el asistente de contenido
 description: Introducción al Ayudante de contenido
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Para generar contenido de correo electrónico con el asistente de contenido, sig
 
 1. En el menú derecho, seleccione **[!UICONTROL Generación de experiencias]**.
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Ajuste el contenido describiendo lo que desea generar.
 
@@ -46,7 +46,7 @@ Para generar contenido de correo electrónico con el asistente de contenido, sig
    * Para comentarios y encuestas: cree un correo electrónico para invitar a los clientes a proporcionar comentarios sobre su experiencia reciente con el software y participar en una encuesta de mejora de productos.
    * Para correos electrónicos de aniversario o cumpleaños: genere un correo electrónico de cumpleaños, celebrando el día especial del cliente y ofreciéndole un descuento de cumpleaños.
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
 
@@ -56,7 +56,7 @@ Para generar contenido de correo electrónico con el asistente de contenido, sig
 
 1. Elija la **[!UICONTROL Idioma]** y **[!UICONTROL Tono]** que desea que tenga el texto generado. Esto garantizará que el texto sea apropiado para su audiencia y propósito.
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Personalización de **[!UICONTROL Tipo de contenido]** la configuración de recursos se adaptará a las características de los recursos que desee.
 
@@ -64,16 +64,16 @@ Para generar contenido de correo electrónico con el asistente de contenido, sig
 
 1. Examine la **[!UICONTROL Sugerencias de variación]** para encontrar el correo electrónico deseado. Clic **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles o personalice aún más el contenido si es necesario. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
 1. Después de definir el contenido del correo electrónico, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba.  [Más información](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)

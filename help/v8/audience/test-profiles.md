@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear y administrar perfiles de pr
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-badge: label="Disponibilidad limitada"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 14%
 
 ---
@@ -33,17 +33,17 @@ Los pasos para enviar mensajes de prueba a las direcciones semilla se detallan e
 
 Para acceder a la lista de perfiles de prueba, seleccione **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** en el menú de la izquierda y haga clic en **[!UICONTROL Perfiles de prueba]** pestaña.
 
-![](assets/test-profile-list.png)
+![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
 
 * Puede filtrar por un [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
 
 * Puede duplicar cualquier perfil de prueba y actualizarlo según sea necesario. Los pasos para editar un perfil de prueba son los mismos que cuando [creación de un perfil de prueba](#create-test-profile).
 
 * Para eliminar un perfil de prueba, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
 
-  ![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
 
 * Para editar un perfil de prueba, haga clic en el elemento deseado de la lista. Los pasos para editar un perfil de prueba son los mismos que cuando [creación de un perfil de prueba](#create-test-profile).
 
@@ -51,7 +51,7 @@ También puede acceder a los perfiles de prueba a través del **[!UICONTROL Expl
 
 Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así como comprobar los permisos asociados. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png)
+![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
 
 Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar, editar y [crear](#create-test-profile) perfiles de prueba.
 
@@ -68,11 +68,11 @@ Para crear un perfil de prueba, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Crear perfil de prueba]** botón.
 
-   ![](assets/test-profile-create.png)
+   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
 
 1. Complete los detalles del perfil de prueba según sea necesario. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png)
+   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Para crear un perfil de prueba, siga los pasos a continuación.
 
 1. De forma predeterminada, los perfiles de prueba se almacenan en **[!UICONTROL Direcciones semilla]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
-   <!--![](assets/test-profile-folder.png)-->
+   <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -88,13 +88,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. En el **[!UICONTROL Información de contacto]** , introduzca la dirección de correo electrónico y otros datos relevantes. La dirección de correo electrónico se muestra entre corchetes después de la etiqueta del perfil de prueba.
 
-   ![](assets/test-profile-address.png)
+   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
 
 1. Si selecciona la opción **[!UICONTROL Ya no se puede contactar (por ningún canal)]** incluir en la lista de bloqueados casilla de verificación, el perfil de prueba está a la. Este destinatario ya no está dirigido a ningún canal (correo electrónico, SMS, etc.).
 
 1. En el **[!UICONTROL Datos adicionales]** , introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico. [Más información sobre los flujos de trabajo](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png)
+   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
 
    Asegúrese de que se han definido datos de destino adicionales con un alias que comience por &#39;@&#39; en **[!UICONTROL Enriquecimiento]** actividad de flujo de trabajo. De lo contrario, no puede utilizarlo correctamente con sus direcciones semilla en la actividad de envío. [Descubra más información sobre la actividad Enriquecimiento](../workflows/activities/enrichment.md)
 
@@ -103,6 +103,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 El perfil de prueba que acaba de crear ya está listo para utilizarse para enviar una prueba. [Más información](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

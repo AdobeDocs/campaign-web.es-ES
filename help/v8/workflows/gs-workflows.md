@@ -2,11 +2,10 @@
 audience: end-user
 title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
-badge: label="Disponibilidad limitada"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '437'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---

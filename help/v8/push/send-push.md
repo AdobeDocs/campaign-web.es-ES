@@ -2,16 +2,15 @@
 audience: end-user
 title: Envío de una entrega de notificaciones push
 description: Obtenga información sobre cómo enviar una entrega de notificaciones push con Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 1%
+source-wordcount: '396'
+ht-degree: 2%
 
 ---
 
-# Previsualización y envío de una entrega push {#send-push-delivery}
+# Previsualizar y enviar un envío push {#send-push-delivery}
 
 ## Previsualización del envío de notificaciones push {#preview-push}
 
@@ -21,17 +20,17 @@ Los pasos principales para previsualizar la notificación push son los siguiente
 
 1. En la página de contenido de la entrega, utilice **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Añadir suscriptores]** para seleccionar uno o varios perfiles con el fin de previsualizar sus datos en el contenido de las notificaciones push.
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. En el panel derecho, encontrará una vista previa de la notificación push, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 Ahora puede revisar y enviar la notificación push a su audiencia.
 
@@ -42,19 +41,19 @@ Los destinatarios de la prueba pueden revisar elementos como vínculos, imágene
 
 ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar notificaciones push de prueba en [esta sección](../preview-test/test-deliveries.md#subscribers).
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Realización del envío de notificaciones push {#send-push}
 
 1. Después de personalizar el contenido de las notificaciones push, haga clic en **[!UICONTROL Revisar y enviar]** de su **[!UICONTROL Envío]** página.
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
 
    Si se produce algún error, consulte el menú Registros para obtener información detallada sobre el error.
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 
@@ -62,7 +61,7 @@ Los destinatarios de la prueba pueden revisar elementos como vínculos, imágene
 
    Si la entrega push se ha programado, haga clic en el **[!UICONTROL Enviar como está programado]** botón. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 Una vez entregado el envío, puede realizar un seguimiento de los datos de KPI (Indicador de rendimiento clave) de su página de envío y de los datos de **[!UICONTROL Registros]** menú.
 

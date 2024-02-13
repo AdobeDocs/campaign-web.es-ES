@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '659'
-ht-degree: 100%
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -33,15 +33,15 @@ Puede hacer que el contenido del mensaje sea dinámico insertando construcciones
 
 * **Personalizar los mensajes** a cada destinatario específico aprovechando los datos de perfil como su nombre, intereses, dónde viven, qué compraron y mucho más. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
 
-  ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Creación de contenido condicional** para adaptar los envíos a cada destinatario y mostrar únicamente el contenido relevante para un cliente determinado en función de la información que tenga sobre él. Esto le permite mostrar bloques de texto o imágenes específicos basados en condiciones. Por ejemplo, adapte un banner de correo electrónico en función de la suscripción de los destinatarios a un servicio específico.
 
-  ![](assets/condition-sample.png){width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Uso de bloques de personalización** para ahorrar tiempo y aprovechar el contenido personalizado fácilmente reutilizable en sus mensajes. Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a la página espejo del mensaje de correo electrónico. Los bloques de contenido están disponibles en una entrada específica del editor de personalización.
 
-  ![](assets/content-blocks.png){width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 ## Acceso al editor de expresiones {#access}
 
@@ -51,15 +51,15 @@ A continuación se muestran algunos ejemplos sobre cómo acceder al editor de ex
 
 * *Acceso al editor de expresiones desde el campo Nombre del remitente*
 
-  ![](assets/expression-editor-access.png){width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Acceso al editor de expresiones desde un componente de texto de correo electrónico*
 
-  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Acceso al editor de expresiones desde un vínculo en un correo electrónico*
 
-  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 >[!NOTE]
 >

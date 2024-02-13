@@ -2,12 +2,11 @@
 audience: end-user
 title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
-badge: label="Disponibilidad limitada"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 45%
+source-wordcount: '506'
+ht-degree: 44%
 
 ---
 
@@ -42,7 +41,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega y acceda al **[!UICONTROL Opciones adicionales]** menú desplegable. Si la entrega se basa en un esquema ampliado, especifique **Opciones personalizadas** Los campos de están disponibles.
 
@@ -56,7 +55,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información sobre las audiencias](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    Obtenga información sobre cómo seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Clic **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido del mensaje SMS. [Más información](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../msg/offers.md).
 
@@ -78,4 +77,4 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

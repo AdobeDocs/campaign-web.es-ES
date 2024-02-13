@@ -2,11 +2,10 @@
 audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
-badge: label="Disponibilidad limitada"
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '709'
 ht-degree: 41%
 
 ---

@@ -2,12 +2,11 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 26%
+source-wordcount: '802'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +32,7 @@ Para ello, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Crear flujo de trabajo]** en la esquina superior derecha de la pantalla.
 
-   ![](assets/workflow-create.png)
+   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
 
 1. En flujo de trabajo **Propiedades** , seleccione la plantilla que desea utilizar para crear el flujo de trabajo (también puede utilizar la plantilla integrada predeterminada). [Más información sobre las plantillas de flujo de trabajo](#workflow-templates).
 
@@ -41,7 +40,7 @@ Para ello, siga estos pasos:
 
 1. Expanda el **[!UICONTROL Opciones adicionales]** para definir más configuraciones para el flujo de trabajo. Obtenga información sobre cómo configurar las propiedades del flujo de trabajo en [esta página](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png)
+   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
 
 1. Haga clic en **[!UICONTROL Crear flujo de trabajo]** para confirmar la creación del flujo de trabajo.
 
@@ -72,14 +71,14 @@ Para crear una plantilla de flujo de trabajo a partir de un flujo de trabajo exi
 1. Abra para abrir **Flujos de trabajo** y vaya al flujo de trabajo para guardarlo como plantilla.
 1. Haga clic en los tres puntos a la derecha del nombre del flujo de trabajo y seleccione **Copiar como plantilla**.
 
-   ![](assets/wf-copy-as-template.png)
+   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
 
 1. En la ventana emergente, confirme la creación de la plantilla.
 1. En el lienzo de la plantilla de flujo de trabajo, compruebe, añada y configure las actividades según sea necesario.
 1. Vaya a la configuración, desde el **Configuración** para cambiar el nombre de la plantilla de flujo de trabajo e introduzca una descripción.
 1. Seleccione el **carpeta** y **carpeta de ejecución** de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de flujo de trabajo. La carpeta de ejecución es la carpeta en la que se guardan los flujos de trabajo creados basándose en esta plantilla.
 
-   ![](assets/wf-settings-template.png)
+   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
 
    Las demás propiedades son comunes en los flujos de trabajo. Obtenga más información en [esta página](workflow-settings.md#properties)
 
@@ -98,14 +97,14 @@ Para crear una plantilla de flujo de trabajo desde cero, siga estos pasos:
 1. Introduzca la etiqueta y abra las opciones adicionales para introducir una descripción de la plantilla de flujo de trabajo.
 1. Seleccione la carpeta y la carpeta de ejecución de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de flujo de trabajo. La carpeta de ejecución es la carpeta en la que se guardan los flujos de trabajo creados basándose en esta plantilla.
 
-   ![](assets/new-wf-template.png)
+   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
 
    Las demás propiedades son comunes en los flujos de trabajo. Obtenga más información en [esta página](workflow-settings.md#properties)
 
 1. Haga clic en **Crear** para confirmar la configuración.
 1. En el lienzo de la plantilla de flujo de trabajo, añada y configure las actividades según sea necesario.
 
-   ![](assets/wf-template-activities.png)
+   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
 
 1. Guarde los cambios.
 

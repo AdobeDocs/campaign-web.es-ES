@@ -2,12 +2,11 @@
 audience: end-user
 title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
-badge: label="Disponibilidad limitada"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 79%
+source-wordcount: '260'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +30,11 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
 
    Además, haciendo clic en **[!UICONTROL Abrir diálogo de personalización]**, puede incluir campos de personalización, bloques de contenido y contenido dinámico en el mensaje.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. Escriba el mensaje de texto en la **[!UICONTROL Mensaje]** o haga clic en **[!UICONTROL Abrir diálogo de personalización]** opción para definir contenido y añadir contenido dinámico. [Más información](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. De forma predeterminada, el seguimiento está habilitado para los envíos. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**.
 

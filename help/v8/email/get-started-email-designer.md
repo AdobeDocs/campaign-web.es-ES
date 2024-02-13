@@ -2,9 +2,8 @@
 audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la interfaz de usuario web de Campaign
-badge: label="Disponibilidad limitada"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 96%
@@ -61,4 +60,4 @@ En el panel de envío de correo electrónico, vaya a la pantalla [Editar conteni
 
 * **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](create-email-templates.md).
 
-  ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}

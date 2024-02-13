@@ -2,11 +2,10 @@
 audience: end-user
 title: Introducción a los informes
 description: Obtenga información sobre cómo acceder y administrar informes en Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
-source-wordcount: '223'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---

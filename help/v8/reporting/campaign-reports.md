@@ -2,12 +2,11 @@
 audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
-badge: label="Disponibilidad limitada"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 13%
+source-wordcount: '277'
+ht-degree: 21%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 13%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-El **Informes de campaña** proporciona una visión general completa de su **campaña**, incorporando toda la información pertinente sobre las diferentes entregas incluidas. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío por canal: tasa de éxito, participación del público y otras métricas esenciales. Le permiten evaluar la eficacia y el impacto generales de la campaña.
+Los **informes de campaña** ofrecen una descripción general completa de la **campaña**, que incluye toda la información pertinente sobre los distintos envíos incluidos. Estos informes ofrecen un análisis exhaustivo del rendimiento de cada envío por canal: tasa de éxito, participación del público y otras métricas esenciales. Le permiten evaluar la eficacia y el impacto generales de la campaña.
 
 La lista completa de informes y las métricas asociadas para cada canal están disponibles en las siguientes páginas:
 
@@ -39,27 +38,27 @@ Para acceder y administrar los informes de campaña, siga estos pasos:
 
 1. Vaya a **[!UICONTROL Campañas]** menú. Haga clic en **Informes** del panel de la campaña.
 
-   ![](assets/manage_campaign_report_2.png)
+   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
 
    También puede utilizar los tres puntos **Más acciones** junto al nombre de la campaña en la lista de campañas y seleccione **[!UICONTROL Ver informe]**.
 
-   ![](assets/manage_campaign_report_1.png)
+   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
 
 1. En el menú de la izquierda, seleccione un informe de la lista y navegue por la pestaña para mostrar los datos de cada canal.
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. En el tablero, haga clic en **[!UICONTROL Selección de entregas]** si desea dirigirse a una entrega específica incluida en la campaña.
 
 1. En el **[!UICONTROL Rendimiento del envío]** menú, elija un **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
 
-   ![](assets/manage_campaign_report_3.png)
+   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Desde el **[!UICONTROL Elegir carpeta]** , seleccione si desea segmentar envíos o campañas desde una carpeta específica.
 
    También puede seleccionar **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png)
+   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 
 1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
 

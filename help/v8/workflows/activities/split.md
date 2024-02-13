@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
-badge: label="Disponibilidad limitada"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 90%
 
 ---

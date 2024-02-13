@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
-badge: label="Disponibilidad limitada"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '896'
 ht-degree: 59%
 
 ---

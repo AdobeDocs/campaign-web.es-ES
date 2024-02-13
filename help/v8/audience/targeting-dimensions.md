@@ -1,12 +1,11 @@
 ---
 title: Dimensiones de segmentación
 description: Obtenga más información sobre las dimensiones de segmentación en la web de Adobe Campaign
-badge: label="Disponibilidad limitada"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
@@ -27,7 +26,7 @@ Tenga en cuenta que puede cambiar la dimensión de segmentación en un flujo de 
 
 Al seleccionar una dimensión de segmentación (en la configuración del flujo de trabajo o en actividades como **Crear audiencia**, **Reconciliación** o **Cambiar dimensión**), se muestra una selección de los esquemas utilizados comúnmente de forma predeterminada en la lista. Para mostrar todos los esquemas disponibles, active la opción **[!UICONTROL Mostrar todos los esquemas]** botón. La selección de opciones se guarda para cada usuario.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## Dimensiones de segmentación {#list}
 

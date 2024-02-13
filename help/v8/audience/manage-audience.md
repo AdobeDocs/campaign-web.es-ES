@@ -2,11 +2,10 @@
 audience: end-user
 title: Monitorizar y administrar públicos
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 26%
 
 ---
@@ -45,7 +44,7 @@ Al segmentar una audiencia, también puede definir lo siguiente **grupos de cont
 
 Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 Las audiencias pueden proceder de varias fuentes. El **[!UICONTROL Origen]** columns indica dónde se ha creado una audiencia determinada:
 
@@ -63,6 +62,6 @@ Para obtener más información sobre una audiencia, ábrala en la lista. Se mues
 
 El **[!UICONTROL Datos]** permite ver los perfiles que forman parte de la audiencia. Puede personalizar esta vista añadiendo más columnas o aprovechando los filtros avanzados para restringir los datos mostrados.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Para duplicar o eliminar una audiencia, haga clic en **[!UICONTROL Más acción]** disponible en la lista de audiencias junto al nombre de la audiencia o en una pantalla de detalles de audiencia.

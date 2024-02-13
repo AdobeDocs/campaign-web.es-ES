@@ -2,12 +2,11 @@
 audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
-badge: label="Disponibilidad limitada"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -21,11 +20,11 @@ En esta fase de la configuración, el diagrama se muestra con un icono de inicio
 
 Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de flujo de trabajo. Por ejemplo, al añadir la primera actividad de, puede iniciar el flujo de trabajo segmentando una audiencia, dividiendo la ruta del flujo de trabajo o estableciendo un **Esperar** para retrasar la ejecución del flujo de trabajo. Por otro lado, después de un **Crear audiencia** actividad, puede refinar el segmento con actividades de segmentación, realizar una entrega a la audiencia con actividades de canal u organizar el proceso de flujo de trabajo con actividades de control de flujo.
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 Una vez que se ha agregado una actividad al diagrama, aparece un panel derecho que le permite configurar la actividad recién agregada con ajustes específicos. Encontrará información detallada sobre cómo configurar cada actividad en [esta sección](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice el flujo de trabajo. Tenga en cuenta que también puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
 
@@ -45,13 +44,13 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 * Acceda a los **Registros y tareas**.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## Ejemplo {#example}
 
 VIP A continuación, se muestra un ejemplo de flujo de trabajo diseñado para enviar un correo electrónico a todos los clientes (que no sean clientes de la red) con un correo electrónico que estén interesados en las máquinas de café.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 Para ello, se han añadido las actividades siguientes:
 

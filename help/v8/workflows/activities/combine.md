@@ -2,12 +2,11 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
-badge: label="Disponibilidad limitada"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 84%
+source-wordcount: '911'
+ht-degree: 85%
 
 ---
 

@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
-badge: label="Disponibilidad limitada"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '525'
 ht-degree: 35%
 
 ---

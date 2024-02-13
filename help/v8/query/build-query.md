@@ -2,15 +2,15 @@
 audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
-badge: label="Disponibilidad limitada"
-source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1960'
 ht-degree: 15%
 
 ---
 
-# Cree su primera consulta {#build-query}
+# Genere su primera consulta {#build-query}
 
 Para empezar a crear una consulta, acceda al modelador de consultas desde la ubicación que elija, según la acción que desee realizar. El modelador de consultas se abre con un lienzo en blanco. Haga clic en **+** para configurar el primer nodo de la consulta.
 
@@ -24,7 +24,7 @@ Se pueden añadir dos tipos de elementos:
 
   *Destinatarios que se suscribieron al boletín &quot;Deportes&quot;**Y**que viven en Nueva York **O**San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## Adición de componentes de filtrado {#filtering}
 
@@ -47,7 +47,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 1. En el **Atributo** , seleccione el atributo de la base de datos que desee aprovechar para crear la condición. La lista de atributos incluye todos los atributos de la base de datos de Campaign, incluidos los atributos de las tablas vinculadas.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
    *Ejemplo de consulta que devuelve todos los perfiles de 21 años o más:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
@@ -98,15 +98,15 @@ En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en e
 
 1. Navegue dentro de **Marca** y seleccione la **Etiqueta** atributo.
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Defina el valor esperado para el atributo.
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 Este es un ejemplo de consulta en el que se ha seleccionado directamente un vínculo de tabla. Los valores disponibles para esta tabla deben seleccionarse de un selector específico.
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -118,19 +118,19 @@ En este caso, la consulta está dirigida a destinatarios que han realizado compr
 
 1. Seleccione el **Compras** y confirme.
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. Se añade una transición saliente, que le permite crear subcondiciones.
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Seleccione el **Precio** compras de atributo y destino de 1000 $ o más
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Añada subcondiciones para adaptarlas a sus necesidades. Aquí hemos agregado una condición a los perfiles de destino que compraron un producto BrewMaster.
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -140,11 +140,11 @@ Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para
 
 1. Desplácese dentro de la tabla de recopilación deseada y seleccione el atributo en el que desea realizar una operación de acumulado.
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. En el panel de propiedades, active la opción **Datos agregados** y seleccione la función de acumulado que desee.
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### Selección de un público {#audiences}
 
@@ -161,7 +161,7 @@ Para filtrar la consulta utilizando una audiencia existente, siga estos pasos:
 
    *Ejemplo de consulta que devuelve todos los perfiles pertenecientes a la audiencia &quot;Asistentes al festival&quot;:*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### Uso de un filtro predefinido {#predefined-filters}
 
@@ -178,7 +178,7 @@ Para filtrar la consulta utilizando un filtro predefinido, siga estos pasos:
 
    *Ejemplo de consulta que devuelve todos los perfiles correspondientes al filtro predefinido &quot;Clientes inactivos&quot;:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### Copiar y pegar componentes {#copy}
 
@@ -196,11 +196,11 @@ Para copiar y pegar componentes de filtrado, siga estos pasos:
 
    | Copiar un solo componente | Copiar varios componentes |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. Para pegar los componentes, haga clic en el botón + al final de la transición deseada y seleccione **Pegar elementos n**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## Combinación de componentes de filtrado con operadores {#operators}
 
@@ -213,7 +213,7 @@ Cada vez que se añade un nuevo componente de filtrado a la consulta, se vincula
 
 En este ejemplo, se han añadido nuevos componentes de filtrado de tipo audiencia en la segunda transición. El componente está vinculado a la condición de tipo de filtro predefinido con un **Y** operador, lo que significa que los resultados de la consulta incluyen destinatarios dirigidos por el filtro predefinido &quot;Madridians&quot; Y que pertenecen a la audiencia &quot;Cazadores de descuento&quot;.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 Para cambiar el operador utilizado para vincular las condiciones de filtrado, haga clic en él y seleccione el operador deseado en la **Grupo** panel que se abre en el lado derecho.
 
@@ -223,13 +223,13 @@ Los operadores disponibles son:
 * **O (Unión)**: incluye resultados que coinciden con al menos uno de los componentes de filtrado en las transiciones salientes.
 * **EXCEPT (Exclusión)**: excluye los resultados que coinciden con todos los componentes de filtrado de la transición saliente.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 Además, puede crear grupos intermedios de componentes haciendo clic en el **+** en una transición. Esto le permite agregar un operador en esta ubicación específica para agrupar varios componentes y refinar la consulta.
 
 VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir los resultados de las audiencias &quot;recompensar con un&quot; o &quot;&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## Compruebe y valide la consulta
 
@@ -253,4 +253,4 @@ Cuando la consulta esté lista, haga clic en **[!UICONTROL Confirmar]** en la es
 
 Puede modificar la consulta en cualquier momento abriéndola. Tenga en cuenta que al abrir una consulta existente, se muestra en una vista simplificada sin la visibilidad de  **+** botones. Para añadir nuevos elementos a la consulta, seleccione un componente u operador en el lienzo para mostrar el **+** botones.
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

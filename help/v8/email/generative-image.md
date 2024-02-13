@@ -2,13 +2,13 @@
 audience: end-user
 title: Generación de imágenes con el asistente de contenido
 description: Introducción al Ayudante de contenido
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '390'
 ht-degree: 5%
 
 ---
@@ -35,11 +35,11 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
 1. En el menú derecho, seleccione **[!UICONTROL Generación de experiencias]**.
 
-   ![](assets/image-genai-1.png)
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Añada un mensaje para ajustar mejor los resultados.
 
-   ![](assets/image-genai-2.png)
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
 
@@ -51,20 +51,20 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
 1. Personalización de **[!UICONTROL Color y tono]**, **[!UICONTROL Tipo de contenido]**, **[!UICONTROL Iluminación]** y **[!UICONTROL Composición]** configuración para que coincida con las características de recurso deseadas.
 
-   ![](assets/image-genai-3.png)
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Una vez que esté satisfecho con la configuración de la solicitud, haga clic en **[!UICONTROL Generar]**.
 
 1. Examine la **[!UICONTROL Sugerencias de variación]** para encontrar el recurso deseado. Clic **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
 
-   ![](assets/image-genai-5.png)
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
 
-   ![](assets/image-genai-6.png)
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba.  [Más información](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png)
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)

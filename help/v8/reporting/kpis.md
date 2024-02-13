@@ -1,9 +1,8 @@
 ---
 title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
-badge: label="Disponibilidad limitada"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 79%
@@ -28,7 +27,7 @@ De forma predeterminada, las métricas se calculan para los envíos realizados d
 
 Puede seleccionar el canal que desea mostrar. De forma predeterminada, los indicadores reflejan las métricas del canal de correo electrónico.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## Mensaje entregado {#ui-delivered-kpi}
 

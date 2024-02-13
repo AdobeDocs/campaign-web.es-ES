@@ -1,17 +1,16 @@
 ---
 audience: end-user
-title: Filtrado de listas
+title: Filtrar listas
 description: Obtenga información sobre cómo filtrar listas web de Adobe Campaign mediante filtros integrados y personalizados.
-badge: label="Disponibilidad limitada"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 6%
+source-wordcount: '310'
+ht-degree: 7%
 
 ---
 
-
-# Filtrado de listas {#filter-lists}
+# Filtrar listas {#filter-lists}
 
 Adobe Campaign Web proporciona filtros dentro de cada lista de objetos, lo que permite filtrar la información en función de criterios contextuales específicos. Por ejemplo, puede filtrar los envíos según su estado, canal, fecha de contacto o carpeta. También puede ocultar las pruebas.
 
@@ -21,7 +20,7 @@ Para aplicar filtros a una lista, haga clic en **[!UICONTROL Mostrar filtros]** 
 
 Se abre el panel Filtros, que muestra los filtros disponibles para la lista seleccionada. Por ejemplo, puede filtrar las campañas por su estado, fechas de inicio y finalización o carpeta de almacenamiento, mientras que la lista de servicios de suscripción se puede filtrar por su canal y carpeta de almacenamiento.
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Para filtrar una lista según sus propios criterios, cree un filtro personalizado. Para ello, vaya a la parte inferior del panel de filtros y haga clic en **Agregar reglas** botón. [Obtenga información sobre cómo crear filtros personalizados](#custom)
 
@@ -36,6 +35,6 @@ Los filtros personalizados le permiten refinar las listas según sus propios cri
 
    El ejemplo siguiente muestra un filtro personalizado diseñado para mostrar en la lista de campañas las campañas SMS ejecutadas por operadores de los departamentos de Running o Yoga.
 
-   ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Una vez configurado el filtro personalizado, haga clic en **[!UICONTROL Confirmar]** para aplicarlo a la lista.

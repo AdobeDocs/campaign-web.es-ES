@@ -2,13 +2,13 @@
 audience: end-user
 title: Texto con el asistente de contenido
 description: Introducción al Ayudante de contenido
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 4%
 
 ---
@@ -35,13 +35,13 @@ Para generar y mejorar el contenido de un correo electrónico con el Ayudante de
 
 1. Seleccione el **[!UICONTROL Componente Texto]** desea actualizar y acceder al menú Experience generation.
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Ajuste el contenido describiendo lo que desea generar.
 
    Habilite la **[!UICONTROL Mejorar con el contexto actual]** para que el Ayudante de contenido personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Seleccionar **[!UICONTROL Cargar archivo]** para añadir cualquier recurso de marca que contenga contenido que pueda proporcionar un contexto adicional, utilice el Ayudante de contenido.
 
@@ -51,7 +51,7 @@ Para generar y mejorar el contenido de un correo electrónico con el Ayudante de
 
 1. Elija la **[!UICONTROL Idioma]** y **[!UICONTROL Tono]** que desea que tenga el texto generado. Esto garantizará que el texto sea apropiado para su audiencia y propósito.
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Utilice el control deslizante para definir la longitud del texto generado.
 
@@ -59,14 +59,14 @@ Para generar y mejorar el contenido de un correo electrónico con el Ayudante de
 
 1. Examine el contenido generado **[!UICONTROL Variaciones]** y haga clic en **[!UICONTROL Aplicar]** una vez encontrado el contenido adecuado.
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)

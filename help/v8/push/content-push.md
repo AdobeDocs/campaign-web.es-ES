@@ -2,11 +2,10 @@
 audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
-badge: label="Disponibilidad limitada"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1541'
 ht-degree: 46%
 
 ---
@@ -56,7 +55,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
   Para definir el contenido, personalizar los datos y añadir contenido dinámico, haga clic en **[!UICONTROL Mensaje]** y utilice el Editor de expresiones. Puede acceder a este editor para personalizar los mensajes.
 En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación se añaden automáticamente. Estas variables permiten definir el comportamiento de las notificaciones. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
 
-  ![](assets/push_content_4.png)
+  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
 
 * El **[!UICONTROL Mensaje de notificación]**, gestionado automáticamente por el SDK de FCM. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
@@ -64,7 +63,7 @@ En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación s
 
   Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color.
 
-  ![](assets/push_content_3.png)
+  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
 
 >[!TAB iOS]
 
@@ -74,7 +73,7 @@ Puede añadir un **[!UICONTROL Subtítulo]**, valor del parámetro subtitle de l
 
 El modo push silencioso permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
 
-![](assets/push_content_1.png)
+![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
 
 >[!ENDTABS]
 
@@ -127,7 +126,7 @@ Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Exa
 
 >[!TAB Android]
 
-![](assets/push_content_5.png)
+![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
 
 | Parámetro | Descripción |
 |---------|---------|
@@ -143,7 +142,7 @@ Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Exa
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png)
+![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
 
 | Parámetro | Descripción |
 |---------|---------|

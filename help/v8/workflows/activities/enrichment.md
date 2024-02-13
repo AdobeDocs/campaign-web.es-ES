@@ -2,11 +2,10 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
-badge: label="Disponibilidad limitada"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 81%
 
 ---
