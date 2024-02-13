@@ -3,9 +3,9 @@ audience: end-user
 title: Administrar recursos con Adobe Experience Manager as a Cloud Service
 description: Obtenga información sobre cómo administrar contenido con Adobe Experience Manager as a Cloud Service
 badge: label="Disponibilidad limitada"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ La integración de la interfaz web de Adobe Campaign con Adobe Experience Manage
 
 1. Navegue hasta su [!DNL Adobe Experience Manager] Cree una instancia de autor de y haga clic en Experiencia de Adobe en la esquina superior izquierda de la página. Elegir **[!UICONTROL Sites]** en el menú.
 
-1. Acceso **[!UICONTROL Campañas > Nombre de la marca > Área principal > Correo electrónico]**.
+1. Acceso **[!UICONTROL Campañas > Nombre de la marca > Área principal > Nombre de la página]**.
 
 1. Clic **[!UICONTROL Crear]** y seleccione **[!UICONTROL Página]** en el menú desplegable.
 
