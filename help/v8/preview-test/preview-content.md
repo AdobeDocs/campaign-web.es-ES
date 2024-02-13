@@ -3,9 +3,9 @@ audience: end-user
 title: Previsualización del contenido de envío
 description: Obtenga información sobre cómo previsualizar el contenido de la entrega con la interfaz de usuario web de Campaign
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,7 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Para seleccionar los perfiles que se utilizarán para previsualizar el contenido personalizado, utilice:
-
-   * **[!UICONTROL Añadir perfil(es) de prueba]** para previsualizar envíos de correo electrónico y SMS
-
-   * **[!UICONTROL Añadir suscriptor(es)]** para previsualizar notificaciones push
+1. Seleccione los perfiles que desea utilizar para previsualizar el contenido. Para ello, haga clic en el **[!UICONTROL Añadir perfil(es) de prueba]** (para correo electrónico y SMS) o el botón **[!UICONTROL Añadir suscriptor(es)]** (para notificaciones push).
 
 1. Puede combinar perfiles y perfiles de prueba para previsualizar el mensaje de correo electrónico o SMS.
 
@@ -37,11 +33,9 @@ Para obtener una vista previa del contenido del envío, siga los pasos a continu
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda.
+1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda. Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. [Obtenga información sobre cómo agregar reglas mediante el modelador de consultas](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. [Obtenga información sobre cómo agregar reglas mediante el modelador de consultas](../query/query-modeler-overview.md).
 
 1. Clic **[!UICONTROL Seleccionar]** para confirmar la selección.
 
