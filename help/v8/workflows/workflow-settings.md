@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -90,7 +90,7 @@ Cuando el flujo de trabajo es [asociado a una campaña](create-workflow.md), se 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Configuración de administración de errores"
->abstract="En esta sección, puede definir cómo el flujo de trabajo debe administrar errores durante su ejecución. Puede optar por poner en pausa el proceso, ignorar un determinado número de errores o detener la ejecución del flujo de trabajo."
+>abstract="En esta sección, puede definir cómo debe administrar el flujo de trabajo los errores durante su ejecución. Puede optar por pausar el proceso, ignorar un determinado número de errores o detener la ejecución del flujo de trabajo."
 
 * **[!UICONTROL Administración de errores]**: Este campo permite definir las acciones que se deben realizar si una tarea de flujo de trabajo presenta errores. Hay tres opciones posibles:
 

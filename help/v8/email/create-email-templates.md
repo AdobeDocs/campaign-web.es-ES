@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 17%
+ht-degree: 8%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Plantillas de contenido"
->abstract="Para lograr un proceso de diseño acelerado y mejorado, puede crear plantillas de envío independientes con el fin de reutilizar fácilmente el contenido personalizado en Adobe Campaign. Estas plantillas de contenido se pueden diseñar desde cero, en función de las plantillas integradas o personalizadas, crear a partir de un contenido existente o importar al editor de plantillas de contenido."
+>abstract="Para un proceso de diseño acelerado y mejorado, puede crear plantillas de correo electrónico independientes para reutilizar fácilmente el contenido personalizado en Adobe Campaign. Estas plantillas de contenido se pueden diseñar desde cero, en función de plantillas integradas o personalizadas, a partir de un contenido existente o importadas en el editor de plantillas de contenido."
 
-Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Estas plantillas de contenido se pueden diseñar desde cero, en función de las plantillas integradas o personalizadas, crear a partir de un contenido existente o importar al editor de plantillas de contenido.
+Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Estas plantillas de contenido se pueden diseñar desde cero, en función de plantillas integradas o personalizadas, a partir de un contenido existente o importadas en el editor de plantillas de contenido.
 
 Esta funcionalidad permite a los usuarios orientados a contenido trabajar en plantillas independientes para que los usuarios de marketing puedan reutilizarlas y adaptarlas dentro de sus propias campañas de correo electrónico.
 
@@ -30,7 +30,7 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 >
 >Solo actualmente **email** se admiten las plantillas de contenido.
 
-## Plantillas de contenido de acceso {#access-templates}
+## Acceso a plantillas de contenido {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
@@ -75,7 +75,7 @@ Una vez guardada, ahora puede utilizar esta plantilla al crear cualquier [email]
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Defina las propiedades de la plantilla"
->abstract="Defina las propiedades de la plantilla de contenido de correo electrónico para recuperarlas fácilmente cuando sea necesario."
+>abstract="Defina las propiedades de la plantilla de contenido de correo electrónico que desea recuperar fácilmente cuando sea necesario."
 
 Para crear una nueva plantilla de contenido desde el panel de plantillas de contenido, siga estos pasos:
 
