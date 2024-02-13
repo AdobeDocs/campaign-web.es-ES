@@ -2,10 +2,10 @@
 title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 97%
+source-wordcount: '816'
+ht-degree: 79%
 
 ---
 
@@ -36,11 +36,6 @@ Los filtros predefinidos son filtros personalizados que se crean y guardan para 
 Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de sus datos o crear sus propios filtros predefinidos y guardarlos.
 
 ![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->En esa versión del producto, al crear reglas, seleccionar el público de un envío o crear un público en un flujo de trabajo, algunos filtros predefinidos no están disponibles en la interfaz de usuario. Puede usarlos de todos modos. [Más información](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
 
 ## Creación de un filtro predefinido {#create-predefined-filter}
 
@@ -109,20 +104,17 @@ Cuando un filtro se guarda como favorito, está disponible para todos los usuari
 
 Los filtros predefinidos están disponibles al definir las propiedades de una regla. Para acceder a los filtros predefinidos, seleccione la opción **Seleccionar filtro personalizado** en la lista desplegable del modelador de consultas.
 
-Luego podrá acceder a la lista completa de filtros predefinidos disponibles para el contexto dado.
-
-También puede utilizar los métodos abreviados de filtro disponibles en la sección **Filtros favoritos** de la lista desplegable. Puede obtener más información sobre los favoritos en [esta sección](#fav-filter).
+A continuación, puede acceder a la lista completa de filtros predefinidos disponibles para el contexto actual y utilizar los accesos directos disponibles en el **Filtros favoritos** de la lista desplegable. Puede obtener más información sobre los favoritos en [esta sección](#fav-filter).
 
 Por ejemplo, para crear un público a partir de un filtro predefinido, siga estos pasos:
 
-1. Examine la entrada **Públicos** en el menú de la izquierda.
-1. Haga clic en el botón **Crear público**.
+1. Vaya a la **Audiencias** en el menú de la izquierda y haga clic en **Crear audiencia** en la esquina superior izquierda de la lista de audiencias.
 1. Introduzca el nombre del público y haga clic en el botón **Crear público**.
-1. Seleccione la actividad **Consulta** y, en el panel derecho, haga clic en el botón **Crear público**.
+1. Seleccione el **Consulta** y, en el panel derecho, haga clic en el botón **Crear audiencia** botón.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Desde el **botón Seleccionar o guardar filtro**, elija la opción **Seleccionar filtro personalizado**.
+1. Desde el **Seleccionar o guardar filtro** , seleccione el botón **Seleccionar filtro personalizado** opción.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -140,17 +132,17 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 
 ## Administrar los filtros predefinidos {#manage-predefined-filter}
 
-Los filtros predefinidos se agrupan en una entrada propia del menú de navegación de la izquierda.
+Todos los filtros predefinidos se agrupan en la entrada dedicada del menú de navegación de la izquierda.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-A partir de esa lista, puede crear un nuevo filtro como se explica más arriba y:
+Desde esta lista, puede crear un nuevo filtro como se detalla más arriba y realizar las acciones que se enumeran a continuación:
 
-* editar un filtro existente y cambiar sus reglas y propiedades
-* duplicar un filtro predefinido
-* eliminar un filtro predefinido
+* Edite un filtro existente, cambie sus reglas y propiedades.
+* Duplique un filtro predefinido.
+* Eliminar un filtro predefinido.
 
-Puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear públicos. Obtenga más información en [esta sección](#fav-filter).
+También puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear audiencias. Obtenga más información en [esta sección](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

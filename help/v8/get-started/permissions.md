@@ -2,12 +2,11 @@
 audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Obtenga más información sobre los permisos en la interfaz de usuario web de Campaign
-badge: label="Disponibilidad limitada"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
@@ -67,11 +66,11 @@ Para ver los permisos de una carpeta, siga estos pasos:
 1. Desde el menú de navegación de la izquierda de **Explorer**, seleccione una carpeta.
 1. Haga clic en los tres puntos de la esquina superior derecha y seleccione **Permisos de la carpeta**.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Compruebe los detalles en la pantalla, como se muestra a continuación:
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Un grupo o un operador puede tener permisos de lectura, escritura o eliminación sobre los datos almacenados en la carpeta seleccionada.
 
@@ -96,8 +95,8 @@ Para crear una carpeta, siga estos pasos:
 1. Haga clic en los tres puntos de la esquina superior derecha y elija **Crear nueva subcarpeta**.
 1. Introduzca el nombre de la carpeta y guárdela.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente desde cualquier carpeta y guardarlo en esa nueva carpeta, desde la sección **Opciones adicionales** de las propiedades, como se muestra a continuación para un envío:
+   La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente a partir de cualquier carpeta y guardarlo en esa nueva carpeta, desde el **Opciones adicionales** de las propiedades, como se muestra a continuación para una entrega:
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
