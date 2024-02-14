@@ -4,9 +4,9 @@ title: Configuración de envío
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2417'
 ht-degree: 61%
 
 ---
@@ -145,7 +145,7 @@ Puede definir la variable **[!UICONTROL Enviando]** configuración siguiente.
 
 * **[!UICONTROL Probar envío SMTP]**: Esta opción se utiliza para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
 
-* **[!UICONTROL Correo electrónico CCO]**: Esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
+* **[!UICONTROL Correo electrónico CCO]**: Esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 En el **[!UICONTROL Definición de ola]** , seleccione la **[!UICONTROL Envío mediante múltiples olas]** opción para aumentar progresivamente el volumen enviado mediante olas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. [Más información](send-using-waves.md)
 
@@ -192,8 +192,6 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 <!--Currently not visible in UI > ??-->
 
 Los mensajes no enviados temporalmente debido a un error leve o ignorado están sujetos a un reintento automático. De manera predeterminada, se programan cinco reintentos para el primer día del envío con un intervalo mínimo de una hora distribuidos durante las 24 horas del día.
-
-Obtenga más información acerca de la administración de reintentos en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=es){target="_blank"}.
 
 ## Aprobación {#approval}
 
