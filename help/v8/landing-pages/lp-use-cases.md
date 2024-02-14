@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
 product: journey optimizer
 title: Casos de uso de página de aterrizaje
 description: Descubra los casos de uso más comunes con las páginas de aterrizaje en Journey Optimizer
@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3dcd4631a79ce2752e829f8259e0de1177f21984
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 0%
