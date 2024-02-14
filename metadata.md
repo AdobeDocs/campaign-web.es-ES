@@ -5,11 +5,12 @@ version: v8 Web User Interface
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
+git-repo: https://github.com/AdobeDocs/campaign-web.es-ES
 index: true
-source-git-commit: b6b28db5578026b6c8abd095ff46f2b71846ab06
+source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 100%
+source-wordcount: '53'
+ht-degree: 98%
 
 ---
 
