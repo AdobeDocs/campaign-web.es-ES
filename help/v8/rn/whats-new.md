@@ -3,10 +3,10 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que viene con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 74%
+source-wordcount: '1263'
+ht-degree: 65%
 
 ---
 
@@ -80,30 +80,19 @@ Utilice la nueva interfaz de usuario web de Campaign para lo siguiente:
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
 
 
-## Últimas actualizaciones de la versión {#latest-release}
 
-A continuación, se enumeran las funcionalidades clave incluidas en la versión web de disponibilidad limitada de Campaign.
+**Actividades de flujo de trabajo de campaña nuevas y rediseñadas**
 
-* **Más actividades de flujo de trabajo de Campaign**
-
-  Sobrecargue sus campañas de marketing con nuestro **conjunto ampliado de actividades de flujo de trabajo**. Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña.
-
-  Las nuevas actividades incluidas en la última versión de disponibilidad limitada son: **Reconciliación**, **Cargar archivo** y **Guardar público**.
-
-  Obtenga más información en [esta sección](../workflows/gs-workflows.md).
+Sobrecargue sus campañas de marketing con nuestro **conjunto ampliado de actividades de flujo de trabajo**. Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los déclencheur condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes dirigidos e impulsar un mejor rendimiento de la campaña. Obtenga más información en [esta sección](../workflows/gs-workflows.md).
 
 
-* **Público destinatario con el modelador de consultas**
+**Público destinatario con el modelador de consultas**
 
-  La web de Adobe Campaign incorpora un **modelador de consultas potente e intuitivo** que simplifica el proceso de filtrado de bases de datos para seleccionar objetivos específicos según diversos criterios. Incluye el uso de expresiones avanzadas y operadores. El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos.
+La web de Adobe Campaign incorpora un **modelador de consultas potente e intuitivo** que simplifica el proceso de filtrado de bases de datos para seleccionar objetivos específicos según diversos criterios. Incluye el uso de expresiones avanzadas y operadores. El modelador de consultas está disponible en todos los contextos en los que necesite definir reglas para filtrar los datos. Obtenga más información en [esta sección](../query/query-modeler-overview.md).
 
-  Obtenga más información en [esta sección](../query/query-modeler-overview.md).
+**Creación y administración sencillas de perfiles**
 
-* **Creación y administración sencillas de perfiles**
-
-  Puede utilizar la nueva interfaz de usuario web de Campaign para lo siguiente **creación y actualización de destinatarios** en la base de datos directamente desde el menú Recipients. Un formulario simplificado de edición de perfiles le permite introducir la información de contacto y los atributos del destinatario, así como actualizar un destinatario existente, sin utilizar la consola de cliente.
-
-  Obtenga más información en [esta sección](../audience/about-recipients.md).
+Puede utilizar la nueva interfaz de usuario web de Campaign para lo siguiente **creación y actualización de destinatarios** en la base de datos directamente desde el menú Recipients. Un formulario simplificado de edición de perfiles le permite introducir la información de contacto y los atributos del destinatario, así como actualizar un destinatario existente, sin utilizar la consola de cliente. Obtenga más información en [esta sección](../audience/about-recipients.md).
 
 <!--
 * Adobe Experience Manager (AEM) Integration
@@ -120,30 +109,24 @@ A continuación, se enumeran las funcionalidades clave incluidas en la versión 
     Learn more in [this section](../email/generative-gs.md).
 -->
 
-* **Ayuda contextual con tecnología de IA**
+**Ayuda contextual con tecnología de IA**
 
-  Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. La nueva **ayuda contextual con tecnología de IA** le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso. Actualmente, esta funcionalidad está disponible en versión beta para un conjunto limitado de usuarios.
+Haga preguntas y busque orientación directamente en la interfaz de usuario del producto. La nueva **ayuda contextual con tecnología de IA** le ayuda a aprender y aumentar su experiencia en las nuevas funciones de Campaign. En función de la documentación del producto más reciente, le ayuda a encontrar ayuda y a obtener instrucciones paso a paso al instante, a medida que crea sus casos de uso. Actualmente, esta función está disponible en versión beta para un conjunto limitado de usuarios. Obtenga más información en [esta sección](../get-started/using-ai.md).
 
-  Obtenga más información en [esta sección](../get-started/using-ai.md).
+**Filtros predefinidos**
 
-* **Filtros predefinidos**
+Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign le ofrece una interfaz fácil de usar para **administración y personalización de filtros predefinidos** para satisfacer sus necesidades específicas. Cree una vez y guárdela para usarla en el futuro. Obtenga más información en [esta sección](../get-started/predefined-filters.md).
 
-  Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign le ofrece una interfaz fácil de usar para **administración y personalización de filtros predefinidos** para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro.
+**Conversor de HTML para el diseño de correo electrónico**
 
-  Obtenga más información en [esta sección](../get-started/predefined-filters.md).
-
-* **Conversor de HTML para el diseño de correo electrónico**
-
-  Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de correo electrónico de Campaign. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.
-
-  Obtenga más información en [esta sección](../email/existing-content.md).
+Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de correo electrónico de Campaign. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos. Obtenga más información en [esta sección](../email/existing-content.md).
 
 
-* **SMS con ofertas**
+**SMS con ofertas**
 
-  La nueva interfaz de usuario web de Campaign le permite **integración de ofertas con SMS** además del correo electrónico. Llegue a su público desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
+La nueva interfaz de usuario web de Campaign le permite **integración de ofertas con SMS** además del correo electrónico. Llegue a su público desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
 
-  Obtenga más información en [esta sección](../msg/offers.md).
+Obtenga más información en [esta sección](../msg/offers.md).
 
 ## Transición a la interfaz de usuario web de Campaign
 
