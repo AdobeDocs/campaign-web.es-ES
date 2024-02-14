@@ -3,10 +3,10 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que viene con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 65%
+source-wordcount: '1308'
+ht-degree: 62%
 
 ---
 
@@ -130,11 +130,13 @@ Obtenga más información en [esta sección](../msg/offers.md).
 
 ## Transición a la interfaz de usuario web de Campaign
 
-Como usuario de Campaign, puede seguir accediendo a la consola del cliente para crear y administrar recursos y componentes de Campaign. Los datos y la configuración se sincronizan de un entorno a otro. Obtenga más información en [esta sección](../get-started/get-started.md#about-campaign-client-consoleac-client).
+Como usuario de Campaign, puede seguir accediendo a la consola del cliente para crear y administrar recursos y componentes de Campaign. Los datos y la configuración se sincronizan de un entorno a otro. Obtenga más información en [esta sección](../get-started/get-started.md#ac-client).
 
-Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la interfaz de usuario de Campaign Web, en el menú de navegación de la izquierda del explorador. Obtenga más información sobre la vista de Explorer en [esta sección](../get-started/user-interface.md#explorer-user-interface-explorer).
+Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la interfaz de usuario de Campaign Web, en el menú de navegación de la izquierda del explorador. Obtenga más información sobre la vista de Explorer en [esta sección](../get-started/user-interface.md#user-interface-explorer).
 
-Con la interfaz de usuario web de Campaign, la interfaz de usuario refleja los permisos del usuario. Obtenga más información acerca de los permisos en [esta página](../get-started/permissions.md).
+Con la interfaz de usuario web de Campaign, la interfaz de usuario refleja los permisos del usuario. Más información sobre los permisos en [esta página](../get-started/permissions.md).
+
+Funcionalidades e interoperabilidad admitidas y no admitidas entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign [en esta página](../get-started/capability-matrix.md).
 
 ## Actualizaciones terminológicas {#terminology-updates}
 
@@ -156,4 +158,6 @@ Las limitaciones siguientes se aplican a esta versión:
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
 * Las notificaciones de Adobe Experience Cloud y la Ayuda unificada disponibles en la barra superior aún no están integradas.
 
-Obtenga más información sobre las funciones admitidas y no admitidas y la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign, [en esta página](../get-started/capability-matrix.md).
+Al trabajar en la interfaz de usuario web de Campaign con flujos de trabajo creados o modificados en la consola del cliente de Campaign, se aplican limitaciones y protecciones específicas. Se muestran en la lista [en esta sección](../get-started/guardrails.md).
+
+Obtenga más información sobre las funciones compatibles y no compatibles y la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign [en esta página](../get-started/capability-matrix.md).

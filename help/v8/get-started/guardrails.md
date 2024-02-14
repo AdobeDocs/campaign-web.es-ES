@@ -1,15 +1,15 @@
 ---
-title: Protecciones y limitaciones en la interfaz de usuario web de Campaign
-description: Protecciones y limitaciones en la interfaz de usuario web de Campaign
+title: Protecciones y limitaciones en los flujos de trabajo de la interfaz de usuario web de Campaign
+description: Protecciones y limitaciones al trabajar con flujos de trabajo en la interfaz de usuario web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# Mecanismos de protección y limitaciones {#guardrails-limitations}
+# Protecciones y limitaciones de flujos de trabajo {#guardrails-limitations}
 
 Al trabajar en la interfaz de usuario web de Campaign con flujos de trabajo creados o modificados en la consola del cliente de Campaign, se aplican las protecciones y limitaciones enumeradas a continuación.
 
