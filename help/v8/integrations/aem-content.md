@@ -2,9 +2,9 @@
 audience: end-user
 title: Administrar recursos con Adobe Experience Manager as a Cloud Service
 description: Obtenga información sobre cómo administrar contenido con Adobe Experience Manager as a Cloud Service
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 3%
 
 ---
@@ -81,7 +81,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Adobe Campaig
 
    ![](assets/aem_8.png)
 
-1. Si los cambios se realizan directamente en las plantillas en Adobe Experience Manager, simplemente seleccione **[!UICONTROL AEM Actualizar contenido de]** para tener la última versión de la plantilla.
+1. Tenga en cuenta que el contenido no se sincroniza automáticamente. Si los cambios se realizan directamente en las plantillas en Adobe Experience Manager, simplemente seleccione **[!UICONTROL AEM Actualizar contenido de]** para tener la última versión de la plantilla.
 
 1. Para eliminar la vinculación entre Experience Manager y Campaign o para personalizar aún más la plantilla de Experience Manager en el Diseñador de correo electrónico, haga clic en **[!UICONTROL AEM Desvincular contenido de la]**.
 
