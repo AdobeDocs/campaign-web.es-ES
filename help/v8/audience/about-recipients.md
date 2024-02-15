@@ -1,10 +1,10 @@
 ---
 title: Introducción a los perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 23%
+source-wordcount: '549'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,8 @@ Además, **[!UICONTROL perfiles de prueba]**, identificados como &quot;perfiles 
 
 Tanto los perfiles como los perfiles de prueba se pueden utilizar para probar los envíos antes de que lleguen a la audiencia deseada. Al hacerlo, puede obtener una vista previa del contenido y la personalización del mensaje, enviar pruebas para pruebas y validación, evaluar el procesamiento de correos electrónicos en varias plataformas y dispositivos y probar las páginas de aterrizaje. [Obtenga información sobre cómo previsualizar y probar entregas](../preview-test/preview-test.md)
 
+➡️ [Descubra esta función en vídeo](#video)
+
 ## Acceso a la lista de perfiles {#access}
 
 Los perfiles son accesibles y editables en Adobe Campaign Web desde el **[!UICONTROL Administración de clientes]** > **Perfiles** en el carril de navegación izquierdo. También puede acceder a ellas desde el **[!UICONTROL Explorer]** vista, desde el **[!UICONTROL Perfiles y objetivos]** > **[!UICONTROL Destinatarios]** nodo. Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así como comprobar los permisos asociados. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ Puede filtrar la variable **[!UICONTROL Perfiles]** mediante el campo de búsque
 Para acceder a los detalles de un perfil, haga clic en su nombre en la lista. Se abre una vista detallada del perfil, que le permite explorar sus atributos y los servicios a los que se suscribió. [Obtenga información sobre cómo explorar los detalles de los perfiles](create-profile.md)
 
 Para eliminar un perfil, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
+
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo acceder, administrar y explorar perfiles mediante la interfaz de usuario web de Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
