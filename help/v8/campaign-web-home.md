@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 4a74893c3620ee2af3eacb88e7a60b77e4316b11
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '707'
+ht-degree: 91%
 
 ---
 
@@ -89,6 +89,12 @@ Nos encanta presentar la nueva versión de la interfaz de usuario web de Adobe C
 Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a su documentación. Para obtener una lista completa de las principales funcionalidades y actualizaciones de la versión, consulte [esta página](rn/whats-new.md).
 
 >[!BEGINTABS]
+
+>[!TAB Integración de Adobe Experience Manager as a Cloud Service]
+
+La integración entre la interfaz web de Adobe Campaign y Adobe Experience Manager as a Cloud Service optimiza la administración de contenido de correo electrónico. Ahora puede crear y editar contenido de correo electrónico directamente en Adobe Experience Manager e importar sin problemas las plantillas finalizadas en Adobe Campaign para sus envíos.
+
+[![imagen](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
 
 >[!TAB Flujos de trabajo en canales múltiples]
 
