@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 40%
+source-wordcount: '2329'
+ht-degree: 38%
 
 ---
 
@@ -30,12 +30,11 @@ El **Informe de envío de correo electrónico** ofrece información y datos comp
 
 El **[!UICONTROL Población de destinatarios iniciales]** El gráfico muestra datos relativos a los destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++ Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
@@ -48,16 +47,14 @@ Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
 ### Estadísticas de envío {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Estadísticas de envío"
 >abstract="El gráfico **Estadísticas de envío** detalla el éxito de su envío y los errores que se han producido."
 
-
 El **[!UICONTROL Estadísticas de envío]** el gráfico detalla el éxito de su envío. Las métricas se detallan a continuación.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Obtenga más información sobre las métricas de informes de campañas de correo electrónico.
 
@@ -147,7 +144,12 @@ El **[!UICONTROL Estadísticas de difusión]** contiene los datos disponibles de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Desglose de errores por tipo"
->abstract="La tabla y el gráfico **Desglose de errores por tipo** contienen los datos disponibles para cada tipo de error encontrado: usuario desconocido, buzón lleno, dominio inválido y mucho más."
+>abstract="El **Desglose de errores por tipo** El gráfico contiene los datos disponibles para cada tipo de error encontrado: usuario desconocido, buzón lleno, dominio no válido y más."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Desglose de errores por tipo"
+>abstract="El **Desglose de errores por tipo** proporciona un desglose completo de la incidencia de cada tipo de error."
 
 El **[!UICONTROL Desglose de errores por tipo]** La tabla y el gráfico contienen los datos disponibles para el tipo de error. Las métricas se detallan a continuación.
 
@@ -173,15 +175,17 @@ Los errores que se muestran en este informe activan el proceso de cuarentena. Pa
 
 +++
 
-
 ### Desglose de errores por dominio {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Desglose de errores por dominio"
->abstract="La tabla y el gráfico **Desglose de errores por dominio** muestran los datos disponibles para cada tipo de error encontrado según cada dominio."
+>abstract="El **Desglose de errores por dominio** El gráfico muestra los datos disponibles para cada tipo de error encontrado según cada dominio."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Desglose de errores por dominio"
+>abstract="El **Desglose de errores por dominio** proporciona un desglose completo de la incidencia de cada error según el dominio utilizado."
 
 El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico muestran los datos disponibles para detectar los posibles errores encontrados con cada dominio.
 
