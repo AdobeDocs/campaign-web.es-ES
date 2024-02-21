@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
 workflow-type: tm+mt
 source-wordcount: '1640'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Cambiar fuente de datos"
->abstract="El **Cambiar fuente de datos** Esta actividad permite seleccionar una fuente de datos diferente para la tabla de trabajo del flujo de trabajo."
+>abstract="La actividad **Cambiar fuente de datos** le permite seleccionar una fuente de datos diferente para la tabla de trabajo del flujo de trabajo."
 
 
 <!--
@@ -364,10 +364,10 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parámetros de servicios de suscripción"
+>title="Parámetros de los servicios de suscripción"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="Transición saliente de servicios de suscripción"
+>title="Transición de salida de los servicios de suscripción"
 >abstract="Continuará"

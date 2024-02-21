@@ -10,7 +10,7 @@ keywords: aterrizaje, página de aterrizaje, caso de uso
 source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
 source-wordcount: '1309'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="Copie la URL con precaución"
->abstract="Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en las entregas. En su lugar, utilice el **Simular contenido** para probarla y siga los pasos descritos en la documentación para utilizar correctamente la página de aterrizaje."
+>abstract="Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, utilice la función **Simular contenido** para probarla y siga los pasos que se describen en la documentación para utilizar correctamente la página de aterrizaje."
 
 Para utilizar correctamente la página de aterrizaje, debe hacer referencia a ella como un vínculo en una entrega con la opción dedicada.
 

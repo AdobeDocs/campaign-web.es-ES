@@ -5,7 +5,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 18%
+ht-degree: 28%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creación y administración de páginas de destino"
->abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar casos de uso de adquisición, suscripción/baja de suscripción y lista de bloqueados, en función de plantillas integradas."
+>abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de destino para dirigir a los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscribirse o darse de baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
 
 La interfaz de usuario web de Campaign permite crear, diseñar y publicar páginas de destino. Una vez publicado, puede insertar un vínculo al formulario en una entrega. Después de que los destinatarios hagan clic en ese vínculo, se les dirige a la página de aterrizaje correspondiente.
 
@@ -49,13 +49,13 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="Definición del contenido de cada página"
+>title="Defina el contenido de cada página"
 >abstract="Ajuste el contenido de cada página que forma parte de esta página de aterrizaje, como el propio formulario, la página de confirmación que se muestra al enviar el formulario o la página a la que se dirige a los usuarios en caso de que se produzca un error."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Programación de la página de aterrizaje"
->abstract="Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Cuando la página llega al final del periodo de validez, el formulario ya no está disponible. El **Caducidad** página se muestra en su lugar."
+>abstract="Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Cuando la página llega al final del periodo de validez, el formulario ya no está disponible. En su lugar, se muestra la página **Caducidad**."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
@@ -123,7 +123,7 @@ Para crear una página de aterrizaje, siga estos pasos:
      >
      >Si no se define ninguna fecha de inicio, la página de aterrizaje se activa en cuanto se publica.
 
-   * Cuando la página alcanza la fecha de finalización, <!--the landing page is automatically unpublished and -->el formulario ya no está disponible. El **[!UICONTROL Caducidad]** página se muestra en su lugar.
+   * Cuando la página alcanza la fecha de finalización, <!--the landing page is automatically unpublished and -->el formulario ya no está disponible. En su lugar, se muestra la página **[!UICONTROL Caducidad]**.
 
      >[!NOTE]
      >
@@ -187,7 +187,7 @@ Una vez publicado:
 
 >[!CAUTION]
 >
->Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en las entregas. En su lugar, utilice el [Simular contenido](#test-landing-page) función para probarla y siga los pasos descritos en [esta sección](lp-use-cases.md) para utilizar correctamente su página de aterrizaje.
+>Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, utilice el [Simular contenido](#test-landing-page) función para probarla y siga los pasos descritos en [esta sección](lp-use-cases.md) para utilizar correctamente su página de aterrizaje.
 
 ![](assets/lp-published.png){zoomable=&quot;yes&quot;}
 

@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -125,7 +125,7 @@ En el **[!UICONTROL Exclusión]** , puede seleccionar excluir los destinatarios 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Configuración del envío"
->abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede cambiar los modos de entrega y rutina, activar el CCO del correo electrónico, enviar mediante olas y también elegir el formato de los mensajes de correo electrónico enviados. Estas opciones están restringidas únicamente a usuarios expertos."
+>abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede cambiar los modos de envío y rutina, activar el CCO del correo electrónico, enviar por olas y también elegir el formato de los mensajes de correo electrónico enviados. Estas opciones están restringidas únicamente a usuarios expertos."
 
 **[!UICONTROL Envío]** Los parámetros de son ajustes técnicos que se aplican a su envío.
 

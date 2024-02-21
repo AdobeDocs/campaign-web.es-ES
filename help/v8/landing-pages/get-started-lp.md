@@ -6,7 +6,7 @@ feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Páginas de aterrizaje"
->abstract="Descubra la nueva experiencia de la página de aterrizaje. Cree, diseñe y comparta de forma instantánea páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar casos de uso de adquisición, suscripción/baja y lista de bloqueados de datos basados en plantillas integradas."
+>abstract="Descubra la nueva experiencia de la página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de destino para dirigir los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscribirse o darse de baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 [!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.

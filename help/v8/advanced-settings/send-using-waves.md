@@ -6,7 +6,7 @@ feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 32%
+ht-degree: 42%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
->title="Dividir los envíos en varios lotes"
->abstract="En lugar de enviar volúmenes altos de mensajes al mismo tiempo, defina olas para dividir los envíos en varios lotes. Se pueden configurar varias olas del mismo tamaño o definir un calendario para que se envíen las distintas olas."
+>title="División de los envíos en varios lotes"
+>abstract="En lugar de enviar grandes volúmenes de mensajes al mismo tiempo, defina olas para dividir los envíos en varios lotes. Se pueden configurar varias olas del mismo tamaño o definir un calendario para que se envíen las distintas olas."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="Definir el tamaño de cada ola"
->abstract="Debe introducir un tamaño para todas las olas que esté añadiendo. Introduzca un valor numérico (número de mensajes para cada ola) o un porcentaje (0-100%)."
+>title="Definición del tamaño de cada ola"
+>abstract="Debe introducir un tamaño para todas las olas que vaya a añadir. Introduzca un valor numérico (número de mensajes para cada ola) o un porcentaje (0-100 %)."
 
 Para equilibrar la carga, puede dividir los envíos de correo electrónico en varios lotes. Configure el número de lotes y su proporción con respecto a todo el envío, así como el intervalo entre dos olas.
 

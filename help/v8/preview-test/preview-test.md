@@ -6,7 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Previsualización y prueba del contenido"
->abstract="Una vez definido el contenido, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo."
+>abstract="Una vez definido el contenido, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=es" text="Envío de entregas de prueba"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Prueba de páginas de aterrizaje"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=es#test-landing-page" text="Páginas de destino de prueba"
 
 Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje. Este es un paso crucial para garantizar que sea precisa, pero también que esté libre de errores, tanto en la configuración del contenido como de la personalización.
 
