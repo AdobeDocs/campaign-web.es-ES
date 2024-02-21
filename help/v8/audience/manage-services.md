@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 31%
+source-wordcount: '960'
+ht-degree: 30%
 
 ---
 
@@ -128,8 +128,13 @@ Ahora puede seleccionar estos mensajes cuando [creación de un servicio de suscr
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Número total de suscriptores"
+>title="Recuento de suscriptores"
 >abstract="Haga clic en **Calcular** para obtener el número total de suscriptores para este servicio."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Número total de suscriptores"
+>abstract="El indicador clave de rendimiento (KPI) proporciona una vista completa de la base de suscriptores, mostrando el recuento total de personas que se han suscrito a este servicio."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
