@@ -3,16 +3,18 @@ audience: end-user
 title: Introducción a los informes globales
 description: Comprender los informes globales
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 24%
+source-wordcount: '244'
+ht-degree: 21%
 
 ---
 
 # Introducción a los informes globales {#global-report-gs}
 
 Los **informes globales** constituyen una herramienta eficaz que ofrece un resumen global consolidado de las métricas de tráfico y participación para cada canal dentro de la instancia de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o el envío.
+
+Los indicadores clave de rendimiento (KPI) se actualizan cada hora, lo que garantiza perspectivas actualizadas. De forma predeterminada, los datos se filtran para cubrir los últimos 30 días, lo que ofrece una perspectiva actual y relevante del rendimiento de sus campañas y envíos.
 
 La lista completa de informes y las métricas asociadas para cada canal están disponibles en las siguientes páginas:
 
