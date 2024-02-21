@@ -3,9 +3,9 @@ audience: end-user
 title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la interfaz de usuario web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 37%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 37%
 # Establecer un grupo de control {#control-group}
 
 Un grupo de control es una subpoblación excluida del envío. Puede definir un grupo de control para evitar enviar mensajes a una parte de la audiencia y comparar el comportamiento tras la entrega con el destinatario principal. Esta opción le ayuda a medir el impacto de su campaña.
+
+➡️ [Descubra esta función en vídeo](create-audience.md#video)
 
 ## Habilitar grupo de control{#add-a-control-group}
 
@@ -122,5 +124,3 @@ Los perfiles incluidos en la audiencia o que coinciden con el resultado de la co
 Una vez entregado el envío, puede extraer los registros de envío para comparar el comportamiento entre los perfiles que no recibieron la comunicación y el destinatario efectivo. También puede utilizar los registros de envío para crear un nuevo objetivo.
 
 Para ver qué perfiles se eliminaron del destinatario, consulte la **Registros de envío**. Obtenga más información [en esta sección](#check-control-group).
-
-
