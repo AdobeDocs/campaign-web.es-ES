@@ -3,21 +3,26 @@ audience: end-user
 title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 28%
+source-wordcount: '1025'
+ht-degree: 30%
 
 ---
 
 
 # Configuración del flujo de trabajo {#workflow-settings}
 
-Al organizar actividades de flujo de trabajo en el lienzo, puede acceder a la configuración avanzada relacionada con el flujo de trabajo. Por ejemplo, puede establecer una zona horaria específica para el flujo de trabajo, administrar cómo debe comportarse el flujo de trabajo en caso de error o administrar el retraso tras el cual debe purgarse el historial del flujo de trabajo.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Propiedades del flujo de trabajo"
+>abstract="En esta pantalla, elija la plantilla que desea utilizar para crear el flujo de trabajo y especifique una etiqueta. Expanda el **Opciones adicionales** para configurar más opciones, como el nombre interno del flujo de trabajo, su carpeta, zona horaria y grupo de supervisores. Se recomienda encarecidamente seleccionar un grupo de supervisores para que los operadores sean alertados si se produce un error."
+
+Al crear un flujo de trabajo u organizar actividades de flujo de trabajo en el lienzo, puede acceder a la configuración avanzada relacionada con el flujo de trabajo. Por ejemplo, puede establecer una zona horaria específica para el flujo de trabajo, administrar cómo debe comportarse el flujo de trabajo en caso de error o administrar el retraso tras el cual debe purgarse el historial del flujo de trabajo.
 
 Estos ajustes están preconfigurados en la plantilla seleccionada al crear el flujo de trabajo, pero se pueden editar según sea necesario para este flujo de trabajo específico.
 
-Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barra de acciones sobre el lienzo del flujo de trabajo.
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ Para ello, haga clic en el **[!UICONTROL Configuración]** disponible en la barr
 >title="Propiedades del flujo de trabajo"
 >abstract="En esta sección se proporcionan propiedades genéricas de flujo de trabajo a las que también se puede acceder al crear el flujo de trabajo. Puede elegir la plantilla que desea utilizar para crear el flujo de trabajo y especificar una etiqueta. Expanda la sección Opciones adicionales para configurar ajustes específicos, como el flujo de trabajo que almacena la carpeta o la zona horaria."
 
-El **[!UICONTROL Propiedades]** proporciona una configuración genérica a la que también se puede acceder al crear el flujo de trabajo.
+El **[!UICONTROL Propiedades]** proporciona opciones genéricas que se pueden configurar al crear un flujo de trabajo. Para acceder a las propiedades de un flujo de trabajo existente, haga clic en **[!UICONTROL Configuración]** disponible en la barra de acciones sobre el lienzo del flujo de trabajo.
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 

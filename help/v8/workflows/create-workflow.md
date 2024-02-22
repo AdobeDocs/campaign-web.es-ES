@@ -3,20 +3,16 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 25%
+source-wordcount: '745'
+ht-degree: 20%
 
 ---
 
 
 # Creación del flujo de trabajo {#create-first-workflow}
 
->[!CONTEXTUALHELP]
->id="acw_workflow_creation_properties"
->title="Propiedades del flujo de trabajo"
->abstract="En esta pantalla, elija la plantilla que desea utilizar para crear el flujo de trabajo y especifique una etiqueta. Expanda la sección OPCIONES ADICIONALES para configurar más opciones, como el nombre interno del flujo de trabajo, su carpeta, zona horaria y grupo de supervisores. Se recomienda encarecidamente seleccionar un grupo de supervisores para que los operadores sean alertados si se produce un error."
 
 
 >[!CONTEXTUALHELP]
