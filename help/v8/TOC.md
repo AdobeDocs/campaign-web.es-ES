@@ -1,21 +1,21 @@
 ---
 audience: end-user
-user-guide-title: Interfaz de usuario de Adobe Campaign Web
+user-guide-title: Interfaz de usuario web de Adobe Campaign
 user-guide-description: Documentación del producto para la interfaz de usuario web de Adobe Campaign.
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
-breadcrumb-title: Interfaz de usuario web de Campaign
+breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Documentación de Adobe Campaign Web {#v8}
+# Documentación de Adobe Campaign web {#v8}
 
-+ [Documentación de la interfaz de usuario web Adobe Campaign](campaign-web-home.md)
++ [Documentación de la interfaz de usuario web de Adobe Campaign](campaign-web-home.md)
 + [Novedades](rn/whats-new.md)
 + [Actualizaciones de la documentación](rn/documentation-updates.md)
 + Introducción a Adobe Campaign {#start}
@@ -25,7 +25,7 @@ ht-degree: 93%
    + [Examen y filtrado de listas](get-started/list-filters.md)
    + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
-   + [Consola de cliente de Campaign y web de Campaign](get-started/capability-matrix.md)
+   + [Web de cliente y consola de cliente de Campaign](get-started/capability-matrix.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
@@ -91,7 +91,7 @@ ht-degree: 93%
    + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)
    + [Diseño del contenido de la página de aterrizaje](landing-pages/lp-content.md)
    + [Trabajo con plantillas de la página de aterrizaje](landing-pages/lp-templates.md)
-   + [Descubra los casos de uso](landing-pages/lp-use-cases.md)
+   + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
 + Perfiles y audiencias {#audiences}
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)

@@ -6,11 +6,11 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
-# Documentación de la interfaz de usuario web Adobe Campaign {#campaign-documentation}
+# Documentación de la interfaz de usuario web de Campaign {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -82,7 +82,7 @@ ht-degree: 91%
 
 <!--TO REMOVE ABOVE-->
 
-Nos encanta presentar la nueva versión de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
+Nos encanta presentar la nueva versión de la interfaz de usuario web de Adobe Campaign. Nuestra última versión incluye funciones intuitivas, concebidas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecer una ventaja competitiva en todos los canales. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
 
 ## Novedades
 

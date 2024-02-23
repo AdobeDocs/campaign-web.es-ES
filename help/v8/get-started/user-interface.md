@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -120,7 +120,7 @@ Hay disponible una ayuda contextual en la interfaz. Cuando esté disponible, hag
 
 ![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
-Lanzado como versión beta dentro de la nueva interfaz de usuario web de Campaign, el **Asistente de conocimientos con tecnología de IA** la ayuda contextual integrada revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
+Actualmente disponible como versión Beta dentro de la nueva interfaz web de Campaign, el **asistente de conocimientos con tecnología de IA** integrado dentro de la ayuda contextual revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo amplios repositorios de documentación y localizar al instante la información precisa que necesita.
 
 Gracias a las funciones Gen IA de Campaign, este asistente transforma su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, nuestro Asistente de conocimientos con tecnología de IA es su mejor compañero, ya que proporciona una eficacia y precisión inigualables en cada interacción.
 
@@ -354,7 +354,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Páginas de destino predeterminadas"
+>title="Páginas de aterrizaje predeterminadas"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
@@ -369,7 +369,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
->title="Transición de salida de los servicios de suscripción"
+>title="Transición saliente de servicios de suscripción"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
