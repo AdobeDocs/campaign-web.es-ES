@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Introducción a las páginas de aterrizaje
-description: Obtenga información sobre las páginas de destino en Campaign Web
+description: Obtenga información sobre las páginas de aterrizaje en la web de Campaign
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -15,28 +15,28 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Páginas de aterrizaje"
->abstract="Descubra la nueva experiencia de la página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de destino para dirigir los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscribirse o darse de baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
+>abstract="Descubra la nueva experiencia de la página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de aterrizaje para dirigir los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscribirse a darse de baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
 [!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.
 
-En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de una entrega o de un sitio web.
+En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de un envío o en un sitio web.
 
-Las páginas de aterrizaje permiten dirigir a los usuarios a formularios en línea en los que pueden actualizar sus datos, impedir la recepción o la exclusión de comunicaciones o suscribirse a un servicio específico, como una newsletter.
+Adobe Campaign le permite dirigir a los usuarios a formularios en línea, donde pueden actualizar sus datos, optar por suscribirse a darse de baja de la recepción de comunicaciones, o suscribirse a un servicio específico, como una Newsletter.
 
 >[!CAUTION]
 >
->Las páginas de destino que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web creados en la consola del cliente en la interfaz de usuario web de Campaign.
+>Las páginas de aterrizaje que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web creados en la consola del cliente en la interfaz de usuario web de Campaign.
 >
->Obtenga más información sobre los formularios web en la [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Obtenga más información sobre los formularios web en la [documentación de a versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=es){target="_blank"}.
 
 A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 
-* Cree, diseñe y comparta al instante páginas de aterrizaje con funciones listas para usar **plantillas precargadas** coincidencia en diferentes casos de uso. [Más información](create-lp.md)
-* Aprovechamiento [!DNL Adobe Campaign] capacidades de diseño de contenido para crear fácilmente **páginas de aterrizaje adaptables**. [Más información](lp-content.md)
-* Configuración de **flujos de inclusión y exclusión** rápida y sin problemas. [Más información](lp-use-cases.md)
-* Crear servicios de suscripción para permitir a los usuarios **suscripción a un servicio**. [Más información](lp-use-cases.md#lp-subscription)
-* Proporcione a sus destinatarios la **posibilidad de cancelar la suscripción** de recibir sus comunicaciones. [Más información](lp-use-cases.md#lp-unsubscription)
+* Cree, diseñe y comparta al instante páginas de aterrizaje con **plantillas precargadas** listas para usar que corresponden a diferentes casos de uso. [Más información](create-lp.md)
+* Aproveche las funciones de diseño de contenido de [!DNL Adobe Campaign] para crear fácilmente **páginas de aterrizaje adaptables**. [Más información](lp-content.md)
+* Configure **flujos de inclusión y exclusión** de una manera rápida y sin problemas. [Más información](lp-use-cases.md)
+* Cree servicios de suscripción para permitir a los usuarios **suscribirse a un servicio**. [Más información](lp-use-cases.md#lp-subscription)
+* Proporcione a sus destinatarios la **posibilidad de cancelar la suscripción** para dejar de recibir sus comunicaciones. [Más información](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -44,7 +44,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <a href="create-lp.md">
 <img alt="Posible cliente" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Creación de páginas de aterrizaje</strong>
+<div><a href="create-lp.md"><strong>Crear páginas de aterrizaje</strong>
 </div>
 <p>
 </td>
@@ -53,7 +53,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <img alt="Poco frecuente" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="../audience/manage-services.md"><strong>Creación de servicios de suscripción</strong></a>
+<a href="../audience/manage-services.md"><strong>Crear servicios de suscripción</strong></a>
 </div>
 <p></td>
 <td>
@@ -61,7 +61,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <img alt="Validación" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="lp-content.md"><strong>Diseño de páginas de aterrizaje</strong></a>
+<a href="lp-content.md"><strong>Páginas de aterrizaje de diseño</strong></a>
 </div>
 <p>
 </td>

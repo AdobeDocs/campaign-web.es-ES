@@ -4,9 +4,9 @@ title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Para buscar elementos más rápidamente, puede utilizar la barra de búsqueda o 
 
 ![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-Encontrará información detallada sobre cómo utilizar los filtros y crear sus propios filtros personalizados en [esta sección](../query/filter.md).
+Encontrará información detallada sobre cómo utilizar los filtros y crear los suyos personalizados en [esta sección](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
-description: Obtenga más información sobre los permisos en la interfaz de usuario web de Campaign
+description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -97,6 +97,6 @@ Para crear una carpeta, siga estos pasos:
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente a partir de cualquier carpeta y guardarlo en esa nueva carpeta, desde el **Opciones adicionales** de las propiedades, como se muestra a continuación para una entrega:
+   La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente desde cualquier carpeta y guardarlo en esa nueva carpeta, desde la sección **Opciones adicionales** de las propiedades, para un envío, tal como se muestra a continuación:
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

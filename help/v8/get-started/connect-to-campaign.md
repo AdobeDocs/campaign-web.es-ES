@@ -3,9 +3,9 @@ title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario de Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Experience Cloud es la familia integrada de aplicaciones, productos y servicios 
 
 ## Iniciar sesión en Adobe Experience Cloud {#sign-in-to-exc}
 
-Solo puede utilizar el inicio de sesión único (SSO) para conectarse a Campaign. Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. Siga los pasos de la invitación del correo electrónico a Experience Cloud.
+También puede utilizar el inicio de sesión único (SSO) para conectarse a Campaign. Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. Siga los pasos de la invitación del correo electrónico a Experience Cloud.
 
 Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
@@ -52,7 +52,7 @@ Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a uti
 
 Examine la barra superior de la interfaz para lo siguiente:
 
-* compartir comentarios sobre la interfaz de usuario web de Campaign
+* Compartir comentarios sobre la interfaz de usuario web de Campaign
 * cambiar entre sus organizaciones
 * cambiar entre sus soluciones y aplicaciones de Adobe Experience Cloud
 * buscar ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}

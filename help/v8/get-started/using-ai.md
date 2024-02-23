@@ -4,15 +4,15 @@ description: Formular preguntas en las ventanas emergentes de ayuda de la web de
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Ayuda contextual con tecnología de IA {#using-ai}
 
-Obtenga respuestas rápidas, generadas por IA en función de la documentación y del contexto actual del producto con la ayuda contextual con tecnología de IA de preguntas y respuestas disponible en los cuadros de ayuda contextual.
+Obtenga respuestas rápidas, generadas por IA en función de la documentación y del contexto actual del producto, con la ayuda contextual con tecnología de IA de preguntas y respuestas disponible en los cuadros de ayuda contextual.
 
 La **ayuda contextual con Gen IA** integrada dentro de la ayuda contextual revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo amplios repositorios de documentación y localizar al instante la información precisa que necesita.
 
@@ -23,9 +23,9 @@ Gracias a las funcionalidades Gen IA de Campaign, este componente transforma su 
 
 >[!AVAILABILITY]
 >
->* La ayuda contextual con tecnología de IA está disponible en su versión beta y sujeta a cambios sin previo aviso.
+>* La ayuda contextual con tecnología IA está disponible en versión Beta y sujeta a cambios sin previo aviso.
 >
->* Esta funcionalidad solo está disponible en **Inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
+>* Esta funcionalidad solo está disponible en **inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
 >
 >* Por ahora, la ayuda contextual con tecnología de IA no está disponible en el Diseñador de correo electrónico de Campaign.
 
@@ -46,16 +46,16 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Preguntas sugeridas {#questions-ai}
 
-Desde el campo de entrada, la Ayuda contextual con tecnología de IA de Adobe Campaign ofrece tres preguntas sugeridas. Estas preguntas son generadas por IA y están relacionadas con el cuadro de ayuda y el contexto del producto actual. Seleccione una pregunta para obtener la respuesta.
+En el campo de entrada, la ayuda contextual con tecnología de IA de Adobe Campaign ofrece tres preguntas sugeridas. Estas preguntas son generadas por IA y están relacionadas con el cuadro de ayuda y el contexto del producto actual. Seleccione una pregunta para obtener la respuesta.
 
-![Preguntas sugeridas en la Ayuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+![Preguntas sugeridas en la ayuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## Respuestas {#answers-ai}
 
 La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, pero le corresponde a usted contrastar los datos. Puede dar respuestas incorrectas, inexactas o falsas. Asegúrese de consultar la documentación del producto vinculada en cada cuadro de ayuda.
 
-Puede copiar una respuesta en el portapapeles mediante el **Copiar** en la parte inferior de la ventana emergente de ayuda.
+Puede copiar una respuesta en el portapapeles utilizando el icono **Copiar** en la parte inferior de la ventana emergente de ayuda.
 
 ![Ayuda contextual para copiar una respuesta](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 

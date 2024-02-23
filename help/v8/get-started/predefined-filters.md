@@ -3,9 +3,9 @@ title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Administración de filtros predefinidos"
->abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+>abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro."
 
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Administración de filtros predefinidos"
->abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+>abstract="Campaign web ahora le ofrece una interfaz fácil de usar para administrar y personalizar filtros predefinidos para satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro."
 
 <!--TO REMOVE ABOVE-->
 
@@ -29,7 +29,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Filtros predefinidos"
->abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Créelos una sola vez y guárdelos para usarlos en el futuro."
+>abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro."
 
 Los filtros predefinidos son filtros personalizados que se crean y guardan para que estén disponibles para su uso futuro. Se pueden utilizar como accesos directos durante cualquier operación de filtrado con el modelador de consultas, por ejemplo, al filtrar una lista de datos o crear el público de un envío.
 
@@ -104,17 +104,17 @@ Cuando un filtro se guarda como favorito, está disponible para todos los usuari
 
 Los filtros predefinidos están disponibles al definir las propiedades de una regla. Para acceder a los filtros predefinidos, seleccione la opción **Seleccionar filtro personalizado** en la lista desplegable del modelador de consultas.
 
-A continuación, puede acceder a la lista completa de filtros predefinidos disponibles para el contexto actual y utilizar los accesos directos disponibles en el **Filtros favoritos** de la lista desplegable. Puede obtener más información sobre los favoritos en [esta sección](#fav-filter).
+A continuación, puede acceder a la lista completa de filtros predefinidos disponibles para el contexto actual y utilizar los accesos directos disponibles en la sección **Filtros favoritos** de la lista desplegable. Puede obtener más información sobre los favoritos en [esta sección](#fav-filter).
 
 Por ejemplo, para crear un público a partir de un filtro predefinido, siga estos pasos:
 
-1. Vaya a la **Audiencias** en el menú de la izquierda y haga clic en **Crear audiencia** en la esquina superior izquierda de la lista de audiencias.
+1. Vaya a la entrada **Públicos** en el menú de la izquierda y haga clic en **Crear público** en la esquina superior izquierda de la lista de públicos.
 1. Introduzca el nombre del público y haga clic en el botón **Crear público**.
-1. Seleccione el **Consulta** y, en el panel derecho, haga clic en el botón **Crear audiencia** botón.
+1. Seleccione la actividad **Consulta** y, en el panel derecho, haga clic en el botón **Crear público**.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Desde el **Seleccionar o guardar filtro** , seleccione el botón **Seleccionar filtro personalizado** opción.
+1. En el botón **Seleccionar o guardar filtro**, elija la opción **Seleccionar filtro personalizado**.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -132,17 +132,17 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 
 ## Administrar los filtros predefinidos {#manage-predefined-filter}
 
-Todos los filtros predefinidos se agrupan en la entrada dedicada del menú de navegación de la izquierda.
+Los filtros predefinidos se agrupan en una entrada propia del menú de navegación de la izquierda.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-Desde esta lista, puede crear un nuevo filtro como se detalla más arriba y realizar las acciones que se enumeran a continuación:
+A partir de esa lista, puede crear un nuevo filtro tal como se explica más arriba y realizar las acciones que se indican a continuación:
 
-* Edite un filtro existente, cambie sus reglas y propiedades.
+* Edite un filtro existente y cambie sus reglas y propiedades.
 * Duplique un filtro predefinido.
-* Eliminar un filtro predefinido.
+* Elimine un filtro predefinido.
 
-También puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear audiencias. Obtenga más información en [esta sección](#fav-filter).
+También puede añadir un filtro predefinido como favorito para acceder rápidamente a la hora de crear públicos. Obtenga más información en [esta sección](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
