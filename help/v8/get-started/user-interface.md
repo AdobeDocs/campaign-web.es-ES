@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
+source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1692'
 ht-degree: 97%
 
 ---
@@ -376,6 +376,11 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_loadfile_command"
 >title="Comando Cargar archivo"
 >abstract="Permitir el comando arbitrario para el preprocesamiento es un problema de seguridad, deshabilite la opción de seguridad XtkSecurity_Disable_Preproc para forzar el uso de una lista predefinida de comandos."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Eliminar archivo tras importar"
+>abstract="Continuará"
 
 
 
