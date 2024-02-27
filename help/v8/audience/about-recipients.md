@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo monitorizar y administrar perfiles
 source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 22%
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Perfiles"
->abstract="Un perfil es un registro dirigido a recibir mensajes enviados por Adobe Campaign. En esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de los perfiles."
+>abstract="Un perfil es un registro que está destinado a recibir mensajes enviados por Adobe Campaign. En esta lista, puede ver los detalles de los perfiles en función de sus permisos. Utilice las opciones de filtrado para examinar esta lista. Puede editar y actualizar un pequeño conjunto de atributos de los perfiles."
 
 ## ¿Qué es un perfil? {#what}
 

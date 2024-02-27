@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
@@ -144,12 +144,12 @@ El **[!UICONTROL Estadísticas de difusión]** contiene los datos disponibles de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Desglose de errores por tipo"
->abstract="El **Desglose de errores por tipo** El gráfico contiene los datos disponibles para cada tipo de error encontrado: usuario desconocido, buzón lleno, dominio no válido y más."
+>abstract="El gráfico **Desglose de errores por tipo** contiene los datos disponibles para cada tipo de error encontrado: usuario desconocido, buzón lleno, dominio inválido y mucho más."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Desglose de errores por tipo"
->abstract="El **Desglose de errores por tipo** proporciona un desglose completo de la incidencia de cada tipo de error."
+>abstract="La tabla **Desglose de errores por tipo** proporciona un desglose completo de la ocurrencia de cada tipo de error."
 
 El **[!UICONTROL Desglose de errores por tipo]** La tabla y el gráfico contienen los datos disponibles para el tipo de error. Las métricas se detallan a continuación.
 
@@ -180,12 +180,12 @@ Los errores que se muestran en este informe activan el proceso de cuarentena. Pa
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Desglose de errores por dominio"
->abstract="El **Desglose de errores por dominio** El gráfico muestra los datos disponibles para cada tipo de error encontrado según cada dominio."
+>abstract="El gráfico **Desglose de errores por dominio** muestra los datos disponibles para cada tipo de error encontrado según cada dominio."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Desglose de errores por dominio"
->abstract="El **Desglose de errores por dominio** proporciona un desglose completo de la incidencia de cada error según el dominio utilizado."
+>abstract="La tabla **Desglose de errores por dominio** proporciona un desglose completo de la ocurrencia de cada error según el dominio utilizado."
 
 El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico muestran los datos disponibles para detectar los posibles errores encontrados con cada dominio.
 
