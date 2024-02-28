@@ -2,10 +2,10 @@
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 28%
+source-wordcount: '1376'
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 28%
 
 La interfaz de usuario web de Campaign permite crear, diseñar y publicar páginas de destino. Una vez publicado, puede insertar un vínculo al formulario en una entrega. Después de que los destinatarios hagan clic en ese vínculo, se les dirige a la página de aterrizaje correspondiente.
 
-[!DNL Adobe Campaign] viene con cuatro plantillas para administrar los siguientes casos de uso: **acquisition**, **suscripción**, **baja**, y **lista de bloqueados de**.
+[!DNL Adobe Campaign] viene con cuatro plantillas para administrar los siguientes casos de uso: **acquisition**, **suscripción**, **baja**, y **lista de bloqueados de**. [Más información](lp-use-cases.md)
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
@@ -34,7 +34,7 @@ El **[!UICONTROL Páginas de aterrizaje]** inventory muestra todos los artículo
 
 >[!CAUTION]
 >
->No puede mostrar ni editar páginas de destino creadas desde la consola del cliente (formularios web) en la interfaz de usuario web de Campaign. Obtenga más información en la [Documentación de la consola de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>No puede mostrar ni editar páginas de destino creadas desde la consola del cliente (formularios web) en la interfaz de usuario web de Campaign. Obtenga más información en la [Documentación de la consola de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=es){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -58,14 +58,14 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 >abstract="Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Cuando la página llega al final del periodo de validez, el formulario ya no está disponible. En su lugar, se muestra la página **Caducidad**."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Definición de la configuración de la página principal"
->abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, por ejemplo, desde un correo electrónico o un sitio web."
+>id="acw_landingpages_preload"
+>title="Definición de opciones de precarga"
+>abstract="Si la variable **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con el **Omitir precarga si no hay ID** Si se selecciona esta opción, cada perfil introducido se añade a la base de datos después de la aprobación del formulario."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Establecimiento de la página de aterrizaje de la suscripción"
->abstract="Una página de suscripción permite a los clientes suscribirse a un servicio."
+>id="acw_landingpages_storage"
+>title="Definir opciones de almacenamiento"
+>abstract="La sección de precarga permite indicar cómo buscar el registro que se actualiza en la base de datos."
 
 <!--The main steps to create landing pages are as follows:
 
