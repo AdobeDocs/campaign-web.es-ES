@@ -3,10 +3,10 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 15%
+source-wordcount: '2030'
+ht-degree: 16%
 
 ---
 
@@ -236,7 +236,7 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Propiedades de las reglas"
->abstract="Propiedades de las reglas"
+>abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el **Seleccionar o guardar filtro** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
 Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** situado en el lado derecho. Las operaciones disponibles son:
 
