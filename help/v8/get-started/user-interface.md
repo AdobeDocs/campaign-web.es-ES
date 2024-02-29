@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 97%
+source-wordcount: '1637'
+ht-degree: 99%
 
 ---
 
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Seguimiento de informes globales"
 >abstract="Las métricas de la creación de informes de seguimiento se pueden ver en esta pantalla"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="Lista de flujos de trabajo de una campaña"
->abstract="Lista de flujos de trabajo de una campaña"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Previsualización de ofertas de destinatarios"
 >abstract="Previsualización de ofertas de destinatarios"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="Perfil de sólo lectura de los destinatarios"
->abstract="Perfil de sólo lectura de los destinatarios"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="Actividad no editable"
->abstract="Actividad no editable"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Simulación de perfiles de prueba"
 >abstract="Simulación de perfiles de prueba"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Simulación de selección de perfiles de prueba"
 >abstract="Simulación de selección de perfiles de prueba"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Simulación de envío de perfiles de prueba"
 >abstract="Simulación de envío de perfiles de prueba"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="Simulación de registro de correo electrónico"
 >abstract="Simulación de registro de correo electrónico"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="Generar todos los subconjuntos de la misma tabla"
 >abstract="Continuará"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Páginas de aterrizaje predeterminadas"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transición saliente de servicios de suscripción"
 >abstract="Continuará"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="Comando Cargar archivo"
->abstract="Permitir el comando arbitrario para el preprocesamiento es un problema de seguridad, deshabilite la opción de seguridad XtkSecurity_Disable_Preproc para forzar el uso de una lista predefinida de comandos."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="Eliminar archivo tras importar"
->abstract="Continuará"
-
-
 
 
 <!--Update file-->

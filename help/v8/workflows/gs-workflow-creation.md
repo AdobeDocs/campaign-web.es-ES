@@ -3,8 +3,8 @@ audience: end-user
 title: Principios clave de la creación de un flujo de trabajo
 description: Aprenda principios clave de los flujos de trabajo con la web de Adobe Campaign
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -14,7 +14,6 @@ ht-degree: 100%
 # Principios clave de la creación de un flujo de trabajo {#gs-workflow-creation}
 
 Con Adobe Campaign Web, puede crear flujos de trabajo en un lienzo visual para diseñar procesos multicanal como la segmentación, ejecución de campañas o procesamiento de archivos.
-
 
 ## ¿Qué hay dentro de un flujo de trabajo? {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ Campañas ofrece dos formas de crear un flujo de trabajo:
 1. Los flujos de trabajo se pueden crear directamente dentro de una campaña, desde la pestaña **Flujo de trabajo** de la campaña. Cuando se incluye en una campaña, el flujo de trabajo se ejecuta junto con todos los flujos de trabajo de la otra campaña, y todas las métricas de creación de informes se agrupan en el nivel de campaña.
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 Los pasos principales para crear flujos de trabajo son los siguientes:
 

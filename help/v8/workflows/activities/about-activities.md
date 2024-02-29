@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -36,7 +36,6 @@ Estas actividades son específicas para la segmentación, manipulación y enriqu
 * Utilice el [Deduplicación](deduplication.md) actividad para eliminar duplicados en los resultados de las actividades entrantes.
 * Utilice el [Cambiar dimensión](change-dimension.md) actividad para cambiar la dimensión de segmentación mientras crea el flujo de trabajo.
 * Utilice el [Cargar archivo](load-file.md) actividad para trabajar con perfiles y datos almacenados en un archivo externo.
-
 
 ## Actividades del canal {#channel}
 

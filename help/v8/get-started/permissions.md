@@ -3,10 +3,10 @@ audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="Permiso obligatorio"
 >abstract="El administrador debe otorgarle permiso para poder crear este objeto."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Este público es de solo lectura"
 >abstract="No tiene permisos para editar este público. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Este servicio es de solo lectura"
 >abstract="No tiene permisos para editar este servicio. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Perfil de sólo lectura de los destinatarios"
+>abstract="No tiene permisos para editar este perfil. Si es necesario, póngase en contacto con el administrador para que le conceda el acceso."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
