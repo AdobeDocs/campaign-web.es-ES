@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1637'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -371,36 +371,36 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Actualizar datos"
+>title="Actualización de datos"
 >abstract="Continuará"
 

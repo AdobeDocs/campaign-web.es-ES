@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -65,11 +65,11 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Comando Cargar archivo"
->abstract="Permitir el comando arbitrario para el preprocesamiento es un problema de seguridad, deshabilite la opción de seguridad XtkSecurity_Disable_Preproc para forzar el uso de una lista predefinida de comandos."
+>abstract="Permitir el comando arbitrario para el preprocesamiento es un problema de seguridad. Deshabilite la opción de seguridad XtkSecurity_Disable_Preproc para forzar el uso de una lista predefinida de comandos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
->title="Eliminar archivo tras importar"
+>title="Eliminar archivo tras la importación"
 >abstract="Continuará"
 
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
