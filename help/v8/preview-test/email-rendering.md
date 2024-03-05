@@ -3,10 +3,10 @@ audience: end-user
 title: Prueba del procesamiento de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Para ello, puede aprovechar sus **Litmus** cuenta en [!DNL Adobe Campaign] para 
 
 >[!CAUTION]
 >
->El uso del procesamiento de correo electrónico en Campaign envía un correo electrónico de prueba a un sistema de terceros. Al conectar su cuenta de Litmus con [!DNL Campaign], usted reconoce que Adobe no es responsable de ningún dato que usted pueda enviar a ese tercero. La política de correo electrónico de retención de datos Litmus se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estos mensajes de prueba. Para acceder o eliminar dichos datos, deberá ponerse en contacto directamente con Litmus.
+>El uso del procesamiento de correo electrónico en Campaign envía una prueba a un sistema de terceros. Al conectar su cuenta de Litmus con [!DNL Campaign], usted reconoce que Adobe no es responsable de ningún dato que usted pueda enviar a ese tercero. La política de correo electrónico para la retención de datos de Litmus se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estas pruebas. Para acceder o eliminar dichos datos, deberá ponerse en contacto directamente con Litmus.
 
 Para acceder a las funciones de procesamiento de correo electrónico, debe:
 

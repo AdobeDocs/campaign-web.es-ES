@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 66%
+source-wordcount: '1393'
+ht-degree: 58%
 
 ---
 
@@ -157,17 +157,17 @@ Una vez realizada la entrega, el envío real comienza en la fecha de contacto de
 
 Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Vista previa y prueba del correo electrónico {#preview-test}
+## Previsualización de un correo electrónico y envío de pruebas {#preview-test}
 
 Antes de enviar el correo electrónico, puede obtener una vista previa y probarlo para asegurarse de que cumpla con sus expectativas.
 
-En este caso de uso, se obtiene una vista previa del correo electrónico y se envían versiones de prueba a direcciones de correo electrónico específicas para suplantar algunos de los perfiles de destino.
+En este caso de uso, puede previsualizar el correo electrónico y enviar pruebas a direcciones de correo electrónico específicas al suplantar algunos de los perfiles de destino.
 
-Encontrará información adicional sobre cómo previsualizar y probar correos electrónicos en [esta sección](../preview-test/preview-test.md).
+Encontrará información adicional sobre cómo previsualizar un correo electrónico y enviar pruebas en [esta sección](../preview-test/preview-test.md).
 
 1. Para revisar su correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Se muestra una vista previa del correo electrónico, junto con todas las propiedades, público y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar.
 
-1. Para obtener una vista previa del correo electrónico y enviar versiones de prueba, haga clic en **[!UICONTROL Simular contenido]** botón.
+1. Para previsualizar el correo electrónico y enviar pruebas, haga clic en el **[!UICONTROL Simular contenido]** botón.
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ Encontrará información adicional sobre cómo previsualizar y probar correos el
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Para enviar versiones de prueba de su correo electrónico, haga clic en el botón **[!UICONTROL Prueba]**, y a continuación, seleccione el modo que desee utilizar.
+1. Para enviar pruebas, haga clic en **[!UICONTROL Envío de pruebas]** a continuación, seleccione el modo que desee utilizar.
 
-   En este ejemplo, utilice el modo **[!UICONTROL Sustituir desde el destinatario principal]**, que envía versiones de prueba a direcciones de correo electrónico específicas al suplantar algunos de los perfiles a los que se dirige el correo electrónico.
+   En este ejemplo, utilice la variable **[!UICONTROL Sustituir del destinatario principal]** , que envía pruebas a direcciones de correo electrónico específicas mientras suplanta algunos de los perfiles a los que se dirige el correo electrónico.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. Haga clic en **[!UICONTROL Añadir dirección]** y especifique las direcciones de correo electrónico que recibirán las versiones de prueba.
+1. Clic **[!UICONTROL Añadir dirección]** y especifique las direcciones de correo electrónico que reciben las pruebas.
 
    Para cada dirección de correo electrónico, seleccione el perfil que desea suplantar. También puede permitir que Adobe Campaign seleccione un perfil aleatorio de destinatario.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. Haga clic en **[!UICONTROL Enviar correo electrónico de prueba]** y confirme el envío.
+1. Clic **[!UICONTROL Enviar prueba]** y confirme el envío.
 
-   Las versiones de prueba se envían a las direcciones de correo electrónico especificadas mediante el perfil seleccionado con el prefijo **[Prueba x]**.
+   Las pruebas se envían a las direcciones de correo electrónico especificadas utilizando el perfil seleccionado con el **[Prueba x]** prefijo.
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   Puede comprobar el estado del envío y acceder a los correos electrónicos de prueba enviados en cualquier momento haciendo clic en el botón **[!UICONTROL Ver registro de correos electrónicos de prueba]** en la pantalla Simular contenido.
+   Puede comprobar el estado del envío y acceder a las pruebas enviadas en cualquier momento haciendo clic en el **[!UICONTROL Ver pruebas]** en la pantalla simular contenido.
 
 ## Envío y supervisión del correo electrónico {#prepare-send}
 

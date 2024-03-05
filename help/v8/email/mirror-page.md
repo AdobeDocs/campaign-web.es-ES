@@ -3,10 +3,10 @@ audience: end-user
 title: Añadir un vínculo a la página espejo
 description: Aprenda a añadir y administrar el vínculo a la página espejo
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Una vez enviado el correo electrónico, cuando los destinatarios hacen clic en e
 
 >[!NOTE]
 >
->En el correo electrónico de prueba enviado a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+>En la prueba enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
 De forma predeterminada, el período de retención de una página espejo es de 60 días. Después de ese retraso, la página espejo ya no está disponible.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Filtrar listas
 description: Obtenga información sobre cómo filtrar listas web de Adobe Campaign mediante filtros integrados y personalizados.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%

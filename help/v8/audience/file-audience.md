@@ -3,10 +3,10 @@ audience: end-user
 title: Público destinatario desde un archivo
 description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 40%
+source-wordcount: '620'
+ht-degree: 42%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Previsualización y prueba del correo electrónico {#test}
 
-La web de Campaign le permite realizar previsualizaciones y enviar correos electrónicos de prueba al utilizar una audiencia cargada desde un archivo. Para ello, siga estos pasos:
+La web de Campaign le permite obtener una vista previa y enviar pruebas cuando se utiliza una audiencia cargada desde un archivo. Para ello, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Botón Simular contenido]** en la pantalla de edición de contenido de la entrega y haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** botón.
 
@@ -94,7 +94,7 @@ La web de Campaign le permite realizar previsualizaciones y enviar correos elect
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Para enviar correos electrónicos de prueba, haga clic en **[!UICONTROL Prueba]** botón.
+1. Para enviar pruebas, haga clic en **[!UICONTROL Enviar prueba]** botón.
 
 1. Haga clic en **[!UICONTROL Cargar perfiles de prueba]** y seleccione el archivo .txt o .csv que contiene los destinatarios de prueba.
 
@@ -102,8 +102,8 @@ La web de Campaign le permite realizar previsualizaciones y enviar correos elect
    >
    >Asegúrese de que el formato de archivo coincida con el utilizado para cargar la audiencia. Cualquier error de formato mostrará una alerta.
 
-1. Cuando haya añadido los destinatarios de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar correo electrónico de prueba]** y confirme el envío.
+1. Cuando haya añadido los destinatarios de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar prueba]** y confirme el envío.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. Puede monitorizar el envío del correo electrónico de prueba mediante la variable **[!UICONTROL Ver registro de correo electrónico de prueba]** botón en cualquier momento. [Más información sobre la monitorización de correos electrónicos de prueba](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Puede monitorizar el envío de la prueba mediante el **[!UICONTROL Ver pruebas]** botón en cualquier momento. [Más información sobre la monitorización de pruebas](../preview-test/test-deliveries.md#access-test-deliveries)
