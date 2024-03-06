@@ -3,9 +3,9 @@ audience: end-user
 title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 18%
 
 ---
@@ -24,7 +24,7 @@ Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles 
 [!DNL Adobe Campaign Web user interface] le permite:
 
 * [Previsualización del contenido y la personalización del mensaje](preview-content.md)
-* [Envío de pruebas](test-deliveries.md) (pruebas) a destinatarios o suscriptores específicos para pruebas y validación
+* [Envío de pruebas](test-deliveries.md) a destinatarios o suscriptores específicos para pruebas y validación
 * [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares basados en web, móviles y equipos de escritorio
 * [Previsualización y prueba de las páginas de aterrizaje](../landing-pages/create-lp.md#test-landing-page)
 
