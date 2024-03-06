@@ -3,10 +3,10 @@ audience: end-user
 title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 29%
+source-wordcount: '341'
+ht-degree: 31%
 
 ---
 
@@ -35,7 +35,7 @@ Para seleccionar un público existente para el mensaje, siga los pasos a continu
 
    ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla.
+   Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla. [Más información sobre las audiencias de Adobe Experience Platform](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
