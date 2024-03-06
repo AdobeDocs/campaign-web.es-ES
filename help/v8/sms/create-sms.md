@@ -3,7 +3,7 @@ audience: end-user
 title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 44%
@@ -50,7 +50,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
    * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
-   * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.
+   * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
 +++
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información sobre las audiencias](../audience/about-recipients.md).

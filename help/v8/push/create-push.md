@@ -3,7 +3,7 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 31%
@@ -51,7 +51,7 @@ Configure las entregas como se detalla a continuación:
    * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
-   * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.
+   * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
 +++
 
 
