@@ -3,29 +3,16 @@ audience: end-user
 title: Monitorizar y administrar públicos
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 26%
+source-wordcount: '568'
+ht-degree: 25%
 
 ---
 
-# Monitorizar y administrar públicos {#monitor}
+# Monitorizar y administrar públicos {#monitor-manage}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="Propiedades"
->abstract="Aquí puede encontrar un resumen de las propiedades del público, como su origen, carpeta de almacenamiento o estado. Haga clic en el vínculo en la sección **Último flujo de trabajo** para abrir el flujo de trabajo que se ha utilizado para crear el público."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="Tamaño de público"
->abstract="Aquí puede encontrar el número total de perfiles dentro del público. Haga clic en el botón Calcular para actualizar y volver a calcular los resultados del público."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="Error de público"
->abstract="Los datos de público no están disponibles. Espere al final de la ejecución del flujo de trabajo."
+## ¿Qué es una audiencia? {#what}
 
 El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. Obtenga más información sobre las plantillas de envío en [esta página](../msg/delivery-template.md).
 
@@ -42,6 +29,23 @@ Al segmentar una audiencia, también puede definir lo siguiente **grupos de cont
 >
 >Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Crear audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir la audiencia de su envío en un flujo de trabajo de campaña en [esta sección](../workflows/activities/build-audience.md)
 
+## Monitorización de audiencias {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Propiedades"
+>abstract="Aquí puede encontrar un resumen de las propiedades del público, como su origen, carpeta de almacenamiento o estado. Haga clic en el vínculo en la sección **Último flujo de trabajo** para abrir el flujo de trabajo que se ha utilizado para crear el público."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Tamaño de público"
+>abstract="Aquí puede encontrar el número total de perfiles dentro del público. Haga clic en el botón Calcular para actualizar y volver a calcular los resultados del público."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Error de público"
+>abstract="Los datos de público no están disponibles. Espere al final de la ejecución del flujo de trabajo."
+
 Se puede acceder a la lista de audiencias disponibles para utilizar en Campaign Web desde el **[!UICONTROL Audiencias]** menú.
 
 ![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
@@ -52,9 +56,7 @@ Las audiencias pueden proceder de varias fuentes. El **[!UICONTROL Origen]** col
 
 * **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se crean en Adobe Experience Platform y se integran en Campaign Web mediante la integración de fuentes de Adobe y destinos. Obtenga información sobre cómo configurar esta integración en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
->[!NOTE]
->
->Para utilizar audiencias de Adobe Experience Platform en Campaign, debe configurar la integración con Fuentes y destinos de Adobe. Consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+  ➡️ [Descubra esta función en vídeo](#video)
 
 * **[!UICONTROL IU web de Adobe Campaign]**: estas audiencias se crean mediante flujos de trabajo de audiencia web de Campaign. [Obtenga información sobre cómo crear audiencias](create-audience.md)
 
@@ -65,3 +67,11 @@ El **[!UICONTROL Datos]** permite ver los perfiles que forman parte de la audien
 ![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 Para duplicar o eliminar una audiencia, haga clic en **[!UICONTROL Más acción]** disponible en la lista de audiencias junto al nombre de la audiencia o en una pantalla de detalles de audiencia.
+
+## Vídeo explicativo {#video}
+
+Obtenga información sobre cómo crear un destino para utilizar una audiencia de Experience Platform en la interfaz de usuario web de Adobe Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
+
+Encontrará información detallada sobre cómo configurar la integración de fuentes de Adobe y destinos en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
