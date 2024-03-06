@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 90%
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -46,6 +46,11 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >title="Dividir generar complemento"
 >abstract="Una vez configurados todos los subconjuntos, puede seleccionar la población restante que no coincide con ninguno de los subconjuntos e incluirlos en una transición saliente adicional. Para ello, active la opción **Generar complemento**."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Generar todos los subconjuntos de la misma tabla"
+>abstract="Active esta opción para agrupar todos los subconjuntos en una sola transición de salida."
+
 Siga estos pasos para configurar la actividad **División**:
 
 1. Añada una actividad **División** al flujo de trabajo.
@@ -76,7 +81,6 @@ Siga estos pasos para configurar la actividad **División**:
       >[!NOTE]
       >
       >Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo de perfil específico, en orden ascendente o descendente. Para ello, active la opción **[!UICONTROL Habilitar ordenación]**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta.
-
 
 1. Una vez configurados todos los subconjuntos, puede seleccionar la población restante que no coincide con ninguno de los subconjuntos e incluirlos en una transición saliente adicional. Para ello, active la opción **[!UICONTROL Generar complemento]**.
 
