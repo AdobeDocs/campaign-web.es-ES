@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1629'
 ht-degree: 100%
 
 ---
@@ -335,13 +335,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_contenttemplate_readonlymode"
 >title="Esta plantilla es de solo lectura"
 >abstract="Continuará"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_generatesubsets"
->title="Generar todos los subconjuntos de la misma tabla"
->abstract="Continuará"
-
-<!-- ML: not found in wiki pages-->
 
 
 <!-- Subscription activity-->
