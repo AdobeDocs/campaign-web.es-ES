@@ -1,24 +1,20 @@
 ---
 audience: end-user
-title: Configuración de envío
-description: Obtenga más información sobre la configuración de envíos en Campaign Web
-feature: Email
+title: Configuración de la entrega
+description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '2417'
-ht-degree: 62%
+ht-degree: 56%
 
 ---
 
 
-# Configuración de envío de correos electrónicos {#email-del-settings}
+# Configuración del envío {#del-settings}
 
-La configuración de envío de correo electrónico es **parámetros técnicos de envío** que se definen en la plantilla de correo electrónico. Se pueden sobrecargar para cada envío.
-
-Esta configuración está disponible en **Configuración** botón disponible al editar una entrega por correo electrónico o una plantilla de envíos por correo electrónico.
-
-## Configuración de envío de correos electrónicos {#email-delivery-settings}
+La configuración de envío es **parámetros técnicos de envío** que se definen en la plantilla de envíos. Se pueden sobrecargar para cada envío. Esta configuración está disponible en **Configuración** disponible al editar una entrega o una plantilla de envíos.
 
 >[!CAUTION]
 >
@@ -36,12 +32,11 @@ Esta configuración está disponible en **Configuración** botón disponible al 
 >title="Configuración de tipología para el envío"
 >abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
 
-
-Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de preparación para aplicar fácilmente varias reglas de filtrado a una entrega a la vez. Permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas, ya que les permiten controlar, filtrar y priorizar la entrega de entregas.
+Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de preparación para aplicar fácilmente varias reglas de filtrado a una entrega a la vez. Permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos, ya que les permiten controlar, filtrar y priorizar el envío de entregas.
 
 Al asociar una tipología con una plantilla de mensaje o un mensaje, las reglas de tipología incluidas en ella se ejecutan para comprobar la validez de la entrega durante la preparación del mensaje. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío.
 
-Las tipologías le permiten asegurarse de que los correos electrónicos siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).
+Las tipologías permiten asegurarse de que las entregas siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).
 
 ![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
@@ -55,7 +50,6 @@ Las tipologías le permiten asegurarse de que los correos electrónicos siempre 
 >id="acw_email_settings_pressure_parameters"
 >title="Parámetros de presión del envío"
 >abstract="Los pesos del envío le permiten identificar los envíos de mayor prioridad dentro del marco de la administración de la fatiga. Los mensajes con mayor peso tienen prioridad."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
@@ -91,15 +85,14 @@ Utilice el campo **[!UICONTROL Modo de envío]** para seleccionar el modo de eva
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Configuración de la capacidad del envío"
->abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización pueda procesar el envío, los mensajes entrantes que puede generar el envío y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de la versión 8 de Adobe Campaign. En esta pantalla, seleccione una regla asociada al canal de correo electrónico."
+>abstract="Antes de enviar mensajes, utilice reglas de capacidad para asegurarse de que su organización pueda procesar el envío, los mensajes entrantes que puede generar el envío y el número de llamadas que se realizan para ponerse en contacto con los suscriptores, por ejemplo. Las reglas de capacidad se definen en la consola de la versión 8 de Adobe Campaign. En esta pantalla, seleccione una regla asociada al canal."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importancia del destinatario"
 >abstract="La importancia del destinatario es una fórmula que se utiliza para determinar qué destinatarios se mantienen cuando se exceden las reglas de tipología de capacidad."
 
-
-En esta sección, puede seleccionar una regla de capacidad definida en la consola de Adobe Campaign v8. Esta regla está asociada al canal de correo electrónico.
+En esta sección, puede seleccionar una regla de capacidad definida en la consola de Adobe Campaign v8. Esta regla está asociada al canal.
 
 El **[!UICONTROL Importancia del destinatario]** field es una fórmula que se utiliza para determinar qué destinatarios se conservan cuando se exceden las reglas de tipología de capacidad.
 
@@ -112,11 +105,9 @@ El **[!UICONTROL Importancia del destinatario]** field es una fórmula que se ut
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="Configuración del público del envío"
->abstract="Seleccione una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión del envío. "
+>abstract="Seleccione una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión del envío."
 
-En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc.
-
-Obtenga más información sobre las asignaciones de destino en [esta sección](../audience/targeting-dimensions.md).
+En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las asignaciones de destino](../audience/targeting-dimensions.md).
 
 En el **[!UICONTROL Exclusión]** , puede seleccionar excluir los destinatarios que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -131,7 +122,7 @@ En el **[!UICONTROL Exclusión]** , puede seleccionar excluir los destinatarios 
 
 ![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
-El correo electrónico integrado **[!UICONTROL Enrutamiento]** La cuenta externa de se proporciona de forma predeterminada. Contiene los parámetros técnicos que le permiten a la aplicación enviar correos electrónicos.
+El integrado **[!UICONTROL Enrutamiento]** La cuenta externa de se proporciona de forma predeterminada. Contiene los parámetros técnicos que permiten a la aplicación realizar envíos.
 
 Puede definir la variable **[!UICONTROL Enviando]** configuración siguiente.
 
@@ -143,29 +134,23 @@ Puede definir la variable **[!UICONTROL Enviando]** configuración siguiente.
   >
   >Cuando se crea la entrega duplicando una existente, este parámetro se restablece.
 
-* **[!UICONTROL Probar envío SMTP]**: Esta opción se utiliza para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
+* **[!UICONTROL Probar envío SMTP]** (canal de correo electrónico): Esta opción se utiliza para probar el envío a través de SMTP. El correo electrónico se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario del correo electrónico, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
 
-* **[!UICONTROL Correo electrónico CCO]**: Esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Correo electrónico CCO]** (canal de correo electrónico): Esta opción se utiliza para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico CCO al objetivo del mensaje. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 En el **[!UICONTROL Definición de ola]** , seleccione la **[!UICONTROL Envío mediante múltiples olas]** opción para aumentar progresivamente el volumen enviado mediante olas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. [Más información](send-using-waves.md)
 
-También puede cambiar el **[!UICONTROL Formatos de correo]** de los mensajes de correo electrónico enviados como se detalla a continuación.
+Para los correos electrónicos, también puede cambiar la **[!UICONTROL Formatos de correo]** de los mensajes enviados como se detalla a continuación.
 
-* **[!UICONTROL Usar preferencias del destinatario]** (modo predeterminado)
+* **[!UICONTROL Usar preferencias del destinatario]** (modo predeterminado): El formato de correo electrónico se define según los datos almacenados en el perfil de destinatario. Si un destinatario desea recibir correos electrónicos en un formato determinado, este es el formato enviado. Si el campo no está rellenado, se envía un correo electrónico multipart-alternative (consulte a continuación).
 
-  El formato de mensaje se define según los datos almacenados en el perfil de destinatario. Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no está rellenado, se envía un mensaje multipart-alternative (consulte a continuación).
-
-* **[!UICONTROL Permitir que el cliente de correo del destinatario elija el formato más adecuado]**
-
-  El mensaje contiene ambos formatos: texto y HTML. El formato que se muestra al recibirlo depende de la configuración del software de correo del destinatario (multipart-alternative).
+* **[!UICONTROL Permitir que el cliente de correo del destinatario elija el formato más adecuado]**: el correo electrónico contiene ambos formatos, texto y HTML. El formato que se muestra al recibirlo depende de la configuración del software de correo del destinatario (multipart-alternative).
 
   >[!IMPORTANT]
   >
-  >Esta opción incluye ambas versiones del documento. Por lo tanto, esto afecta a la tasa de entrega ya que el tamaño del mensaje es mayor.
+  >Esta opción incluye ambas versiones del documento. Por lo tanto, esto afecta a la tasa de entrega, ya que el tamaño del correo electrónico es mayor.
 
-* **[!UICONTROL Enviar todos los mensajes en formato de texto]**
-
-  El mensaje se envía en formato de texto. El formato de HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el mensaje.
+* **[!UICONTROL Enviar todos los mensajes en formato de texto]**: el correo electrónico se envía en formato de texto. El formato de HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el correo electrónico.
 
 ## Análisis web {#web-analytics}
 
@@ -193,7 +178,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 
 Los mensajes no enviados temporalmente debido a un error leve o ignorado están sujetos a un reintento automático. De manera predeterminada, se programan cinco reintentos para el primer día del envío con un intervalo mínimo de una hora distribuidos durante las 24 horas del día.
 
-## Aprobación {#approval}
+## Aprobación (canal de correo electrónico) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -205,14 +190,12 @@ Los mensajes no enviados temporalmente debido a un error leve o ignorado están 
 >title="Modo de aprobación de los envíos"
 >abstract="Seleccione el modo de aprobación de los envíos basados en esta plantilla. Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no."
 
-Si se generan advertencias durante la preparación del envío, se puede configurar el envío para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar el envío de los mensajes al final de la fase de análisis: esta es la validación **manual**.
+Si se generan advertencias durante la preparación de una entrega de correo electrónico, puede configurar la entrega para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar el envío de correos electrónicos al final de la fase de análisis: esto es **manual** validación.
 
 Puede seleccionar otro modo de aprobación en el campo correspondiente. Los modos disponibles son los siguientes:
 
-* ****[!UICONTROL Manual]****: al final de la fase de análisis, el usuario debe confirmar el envío para iniciarlo.
-
+* **[!UICONTROL Manual]**: al final de la fase de análisis, el usuario debe confirmar el envío para iniciarlo.
 * **[!UICONTROL Semiautomático]**: el envío se realiza automáticamente si la fase de análisis no genera mensajes de advertencia.
-
 * **[!UICONTROL Automático]**: el envío se realiza automáticamente al final de la fase de análisis, sin importar el resultado.
 
 ## Validez {#validity}
@@ -253,16 +236,15 @@ Asimismo, puede especificar fechas. Para ello, seleccione **[!UICONTROL Establec
 
 Obtenga más información sobre el periodo de validez de envíos en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es#validity-period){target="_blank"}.
 
-### Administración de la página espejo {#mirror}
+### Administración de páginas espejo (canal de correo electrónico) {#mirror}
 
-La página espejo es una página HTML a la que se puede acceder en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo.
+La página espejo es una página HTML a la que se puede acceder en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo electrónico.
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
-* **[!UICONTROL Forzar la generación de la página espejo]**: Utilice este modo para generar la página espejo aunque no se inserte ningún vínculo a la página espejo en la entrega.
-* **[!UICONTROL No generar la página espejo]**: Utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en la entrega.
+* **[!UICONTROL Forzar la generación de la página espejo]**: utilice este modo para generar la página espejo aunque no se inserte ningún vínculo a la página espejo en el correo electrónico.
+* **[!UICONTROL No generar la página espejo]**: Utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en el correo electrónico.
 * **[!UICONTROL Genera una página espejo accesible solo mediante el identificador del mensaje]**: Cuando el vínculo de página espejo no está presente en el contenido del correo electrónico, utilice esta opción para habilitar el acceso al contenido de la página espejo, en la ventana del registro de envío, desde la consola del cliente.
-
 
 ### Seguimiento {#tracking}
 
@@ -280,9 +262,8 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 
 **[!UICONTROL Seguimiento]** Los parámetros de se definen en la sección relacionada. Las opciones posibles son las siguientes:
 
-**[!UICONTROL Vigencia de seguimiento]**: utilice esta opción para cambiar la duración durante la cual se activa el seguimiento en las direcciones URL.
-
-**[!UICONTROL URL de sustitución para URL caducadas]**: utilice esta opción para introducir una URL a una página web de reserva: se muestra una vez que ha caducado el seguimiento.
+* **[!UICONTROL Vigencia de seguimiento]**: utilice esta opción para cambiar la duración durante la cual se activa el seguimiento en las direcciones URL.
+* **[!UICONTROL URL de sustitución para URL caducadas]**: utilice esta opción para introducir una URL a una página web de reserva: se muestra una vez que ha caducado el seguimiento.
 
 ## Configuración de prueba {#test-setttings}
 
@@ -295,14 +276,11 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 
 Puede establecer los parámetros de exclusión en esta sección. Las opciones disponibles son las siguientes:
 
-* ****[!UICONTROL Mantener dobles]**** permite autorizar varios envíos a destinatarios que cumplan varios criterios de objetivo.
-
+* **[!UICONTROL Mantener dobles]** permite autorizar varios envíos a destinatarios que cumplan varios criterios de objetivo.
 * **[!UICONTROL Mantener las direcciones incluidas en la lista de bloqueados]** permite excluir de los destinatarios los perfiles a los que ya no se dirige el envío, por ejemplo, tras una cancelación de baja (exclusión).
-
 * **[!UICONTROL Mantener direcciones en cuarentena]** permite excluir del destinatario cualquier perfil con una dirección que no responde.
 
 También puede personalizar la etiqueta de las pruebas:
 
 * Utilice el **[!UICONTROL Mantener el código de envío de la prueba]** para asociar a la prueba el mismo código de envío que el definido para la entrega con el que se relaciona.
-
 * De forma predeterminada, el asunto de la prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Prefijo de la etiqueta]**.
