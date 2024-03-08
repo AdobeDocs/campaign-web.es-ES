@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
-source-wordcount: '435'
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+workflow-type: tm+mt
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 100%
 >abstract="Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn2"
->title="Flujos de trabajo en canales múltiples"
->abstract="Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
-
-<!--TO REMOVE ABOVE-->
 
 ## ¿Qué es un flujo de trabajo?
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 58%
+source-wordcount: '1357'
+ht-degree: 57%
 
 ---
 
@@ -17,17 +17,6 @@ ht-degree: 58%
 >id="acw_homepage_learning_card3"
 >title="Empezar con correos electrónicos"
 >abstract="Puede crear un envío de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de campaña. Obtenga información sobre cómo crear el envío, seleccionar el público y diseñar el contenido del correo electrónico."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Empezar con correos electrónicos"
->abstract="Puede crear un envío de correo electrónico independiente o crear un correo electrónico en el contexto de un flujo de trabajo de campaña. Obtenga información sobre cómo crear el envío, seleccionar el público y diseñar el contenido del correo electrónico."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
