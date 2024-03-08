@@ -1,10 +1,11 @@
 ---
 title: Introducción a los perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
-source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
+exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '538'
+ht-degree: 26%
 
 ---
 
@@ -32,9 +33,9 @@ ht-degree: 25%
 
 ## ¿Qué es un perfil? {#what}
 
-A **perfil**, también conocido como &quot;destinatarios&quot; en la consola del cliente, representa un registro almacenado en la base de datos de Campaign, que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido. Adobe Campaign le permite administrar perfiles sin problemas, desde la creación de nuevas entradas al acceso a una vista completa de todos los atributos y suscripciones a servicios de los perfiles, todo a través de la interfaz de usuario web de Campaign.
+A **perfil**, también conocido como &quot;destinatario&quot; en la consola del cliente, representa un registro almacenado en la base de datos de Campaign, que sirve como componente clave para [crear audiencias](create-audience.md) para entregas y [añadir personalización](../personalization/personalize.md) datos en el contenido. Adobe Campaign le permite administrar perfiles sin problemas, desde la creación de nuevas entradas al acceso a una vista completa de todos los atributos y suscripciones a servicios de los perfiles, todo a través de la interfaz de usuario web de Campaign.
 
-Además, **[!UICONTROL perfiles de prueba]**, identificados como &quot;perfiles semilla&quot; en la consola del cliente, le permiten dirigirse a destinatarios adicionales que no coinciden con los criterios de objetivo de una entrega determinada. Estos perfiles contienen información de contacto ficticia o información de contacto controlada por el remitente. Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
+Además, **[!UICONTROL perfiles de prueba]**, identificados como &quot;perfiles semilla&quot; en la consola del cliente, le permiten dirigirse a destinatarios adicionales que no coinciden con los criterios de objetivo de una entrega determinada. Estos perfiles contienen información de contacto ficticia o información de contacto controlada por el remitente. Los perfiles de prueba son destinatarios de prueba: se utilizan para probar los mensajes enviando pruebas. [Aprenda a trabajar con perfiles de prueba](test-profiles.md)
 
 Tanto los perfiles como los perfiles de prueba se pueden utilizar para probar los envíos antes de que lleguen a la audiencia deseada. Al hacerlo, puede obtener una vista previa del contenido y la personalización del mensaje, enviar pruebas para pruebas y validación, evaluar el procesamiento de correos electrónicos en varias plataformas y dispositivos y probar las páginas de aterrizaje. [Obtenga información sobre cómo previsualizar y probar entregas](../preview-test/preview-test.md)
 

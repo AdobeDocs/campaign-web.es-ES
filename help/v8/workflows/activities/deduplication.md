@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 60%
@@ -62,6 +62,6 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 
 ## Ejemplo{#deduplication-example}
 
-En el siguiente ejemplo, utilice una actividad de anulación de duplicación para excluir duplicados del destinatario antes de realizar una entrega. Los destinatarios duplicados identificados se añaden a una audiencia dedicada que se puede reutilizar si es necesario. Elija la **Correo electrónico** para identificar los duplicados. Mantenga 1 entrada y seleccione la **Aleatorio** método de deduplicación.
+En el siguiente ejemplo, utilice una actividad de anulación de duplicación para excluir duplicados del destinatario antes de realizar una entrega. Los perfiles duplicados identificados se añaden a una audiencia dedicada que se puede reutilizar si es necesario. Elija la **Correo electrónico** para identificar los duplicados. Mantenga 1 entrada y seleccione la **Aleatorio** método de deduplicación.
 
 ![](../assets/workflow-deduplication-example.png)

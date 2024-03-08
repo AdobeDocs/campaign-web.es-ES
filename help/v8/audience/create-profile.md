@@ -2,9 +2,9 @@
 title: Creación de un perfil
 description: Obtenga información sobre cómo crear un perfil en Campaign Web.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 48%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Destinatarios Ya no se puede contactar"
+>title="Ya no se puede contactar"
 >abstract="Esta sección ofrece detalles sobre las preferencias de contacto del perfil. Para modificar cualquier información, realice los cambios directamente en el campo correspondiente y haga clic en el botón **Guardar**, situado en la esquina superior derecha de la pantalla."
 
 >[!CONTEXTUALHELP]

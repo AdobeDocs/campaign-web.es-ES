@@ -3,10 +3,10 @@ audience: end-user
 title: Administración de los suscriptores
 description: Obtenga información sobre cómo administrar y entregar a los suscriptores de un servicio en Adobe Campaign Web
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Los perfiles añadidos se muestran en la variable **[!UICONTROL Suscriptores]** 
 
 ## Eliminación de suscriptores del servicio {#remove-subscribers}
 
-### Cancelar la suscripción manual de destinatarios {#manual-unsubscription}
+### Cancelar la suscripción manual de perfiles {#manual-unsubscription}
 
 Una vez que [suscriptores añadidos](#add-subscribers) Al servicio, puede cancelar manualmente la suscripción de cada uno de ellos. Siga los pasos a continuación.
 
@@ -62,7 +62,7 @@ El destinatario se elimina del **[!UICONTROL Suscriptores]** y ya no está suscr
 
 ### Cancelar automáticamente la suscripción de destinatarios {#automatic-unsubscription}
 
-Un servicio de suscripción puede tener una duración limitada. La suscripción de los destinatarios se cancela automáticamente cuando caduca el periodo de validez.
+Un servicio de suscripción puede tener una duración limitada. La suscripción a los perfiles se cancela automáticamente cuando caduca el período de validez.
 
 Este periodo se especifica cuando [creación del servicio](manage-services.md#create-service). Desde el **[!UICONTROL Opciones adicionales]**, deshabilite la **[!UICONTROL Período de validez ilimitado]** y defina un periodo de validez del servicio.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 30%
+ht-degree: 35%
 
 ---
 
@@ -70,7 +70,7 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
 1. De forma predeterminada, las suscripciones son ilimitadas.
 
    Puede desactivar las **[!UICONTROL Período de validez ilimitado]** para definir una duración de validez del servicio. Una vez finalizado el periodo de validez:
-   * Ya ningún destinatario puede suscribirse a este servicio
+   * Ya ningún perfil puede suscribirse a este servicio
    * Todos los suscriptores de este servicio cancelan su suscripción automáticamente
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
 
 Ahora puede hacer lo siguiente:
 
-* Añada suscriptores a este servicio y cancele la suscripción de destinatarios. [Más información](../msg/send-to-subscribers.md)
+* Añada suscriptores a este servicio y cancele la suscripción de perfiles. [Más información](../msg/send-to-subscribers.md)
 
 * Envíe mensajes a los suscriptores de este servicio. [Descubra cómo](../msg/send-to-subscribers.md)
 

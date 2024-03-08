@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -45,7 +45,7 @@ En el lado derecho, la **Propiedades de regla** le permite realizar las acciones
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Ver resultados:** muestra la lista de los destinatarios a quienes se dirige el público.
+* **Ver resultados:** muestra la lista de perfiles segmentados por la audiencia.
 * **Vista de código**: muestra una versión del público basada en código en SQL.
 * **Mostrar atributos avanzados**: marque esta opción si desea ver la lista completa de atributos de la paleta izquierda: nodos, agrupaciones, vínculos 1-1, vínculos 1-N.
 * **Calcular**: actualiza y muestra el número de perfiles objetivo por la consulta.

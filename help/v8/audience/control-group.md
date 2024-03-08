@@ -3,10 +3,10 @@ audience: end-user
 title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la interfaz de usuario web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -62,7 +62,7 @@ A continuación, utilice el **Límite de tamaño** para establecer el número de
 
 ### Muestra del grupo de control{#control-group-sample}
 
-Por ejemplo, para crear un grupo de control con los 100 destinatarios más jóvenes, siga estos pasos:
+Por ejemplo, para crear un grupo de control con los 100 perfiles más nuevos, siga estos pasos:
 
 1. Seleccione el **Edad** como criterio de ordenación. Deje el **Ascendente** opción ordenar.
 1. Añada el **Fecha de creación** field. Cambie a la **Descendente** opción ordenar.
@@ -70,7 +70,7 @@ Por ejemplo, para crear un grupo de control con los 100 destinatarios más jóve
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-Estos 100 nuevos destinatarios más jóvenes se excluyen del objetivo principal.
+Estos 100 nuevos perfiles más jóvenes se excluyen del objetivo principal.
 
 ### Comprobación del grupo de control {#check-control-group}
 

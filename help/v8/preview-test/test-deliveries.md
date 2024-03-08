@@ -3,7 +3,7 @@ audience: end-user
 title: Envío de pruebas
 description: Obtenga información sobre cómo definir y enviar pruebas
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 14%
@@ -21,7 +21,7 @@ Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo envi
 
 Para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe pruebas a los perfiles de prueba antes de enviarlas a la audiencia de destino. Se debe enviar una prueba cada vez que se realiza un cambio para validar el contenido más reciente. El envío de pruebas es un paso importante para validar la campaña e identificar posibles problemas. Los destinatarios de la prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes o páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de envío.
 
-## Simulación del contenido con destinatarios de prueba {#simulate-content-test-deliveries}
+## Simulación de contenido con perfiles de prueba {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

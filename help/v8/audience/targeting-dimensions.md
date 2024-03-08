@@ -2,10 +2,10 @@
 title: Dimensiones de segmentación
 description: Obtenga más información sobre las dimensiones de segmentación en la web de Adobe Campaign
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 24%
+source-wordcount: '447'
+ht-degree: 18%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Seleccionar la dimensión de segmentación"
->abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios."
+>abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el objetivo se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada es Aplicaciones del suscriptor."
 
 La dimensión de segmentación, también conocida como. asignación de destino, es el tipo de datos que administra una operación. Permite definir la población objetivo: perfiles, beneficiarios de contratos, operadores, suscriptores, etc.
 
@@ -36,12 +36,12 @@ También puede utilizar otras asignaciones de destino integradas en los flujos d
 
 | Nombre | Usar para | Esquema |
 |---|---|---|
-| Destinatarios | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
+| Destinatarios | Envío a perfiles/destinatarios (tabla de destinatarios integrada) | nms:recipient |
 | Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | mns:visitor |
-| Suscripciones | Envío a destinatarios suscritos a un servicio de información como un boletín informativo | nms:subscription |
+| Suscripciones | Envío a perfiles suscritos a un servicio informativo, como un boletín informativo | nms:subscription |
 | Suscripciones de visitantes | Envío a los visitantes que están suscritos a un servicio de información | nms:visitorSub |
 | Operadores | Envío a los operadores de Adobe Campaign | nms:operator |
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria para la entrega | No hay ningún esquema vinculado, no se ha introducido ningún destino |
-| Aplicaciones del suscriptor | Envío a destinatarios suscritos a una aplicación | nms:appSubscriptionRcp |
+| Aplicaciones del suscriptor | Envío a perfiles suscritos a una aplicación | nms:appSubscriptionRcp |
 
-Además, puede crear una nueva asignación de destino según sus necesidades. Esto se realiza desde la consola del cliente. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+Además, puede crear una nueva asignación de destino según sus necesidades. Esta operación solo se realiza desde la consola del cliente. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

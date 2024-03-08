@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorizar y administrar públicos
 description: Obtenga información sobre cómo monitorizar y administrar audiencias en Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ## ¿Qué es una audiencia? {#what}
 
-El público destinatario es el destinatario principal de su envío: los destinatarios que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. Obtenga más información sobre las plantillas de envío en [esta página](../msg/delivery-template.md).
+La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes. El tipo de público destinatario depende de la asignación de destino definida en la plantilla de envíos. Obtenga más información sobre las plantillas de envío en [esta página](../msg/delivery-template.md).
 
 Para definir la población de una audiencia, puede:
 

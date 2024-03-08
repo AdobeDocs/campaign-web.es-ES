@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ El Diseñador de correo electrónico de campañas le permite crear correos elect
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Haga que el contenido sea dinámico</strong><br/>Aprenda a personalizar su contenido en función de la información que haya recopilado sobre sus destinatarios para hacerlo más atractivo y aumentar la probabilidad de que sea leído.</div>
+    <div><strong>Haga que el contenido sea dinámico</strong><br/>Aprenda a personalizar el contenido en función de la información que haya recopilado acerca de sus perfiles para que su contenido sea más atractivo y aumente la probabilidad de que se lea.</div>
     </td>
   </tr>
   <tr style="border: 0;">

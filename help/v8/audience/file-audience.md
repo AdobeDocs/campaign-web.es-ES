@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Público destinatario desde un archivo
-description: Aprenda a utilizar destinatarios de un archivo externo para crear su público de correo electrónico
+title: Importación de un público de correo electrónico desde un archivo
+description: Obtenga información sobre cómo cargar perfiles de un archivo externo para crear su audiencia de correo electrónico
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 42%
+source-wordcount: '622'
+ht-degree: 40%
 
 ---
 
@@ -102,7 +102,7 @@ La web de Campaign le permite obtener una vista previa y enviar pruebas cuando s
    >
    >Asegúrese de que el formato de archivo coincida con el utilizado para cargar la audiencia. Cualquier error de formato mostrará una alerta.
 
-1. Cuando haya añadido los destinatarios de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar prueba]** y confirme el envío.
+1. Cuando haya añadido los perfiles de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar prueba]** y confirme el envío.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '608'
+ht-degree: 10%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Crear perfiles de prueba"
->abstract="Los perfiles de prueba se crean como direcciones semilla. Son destinatarios adicionales presentes en la base de datos y utilizados para dirigirse a perfiles ficticios que no coinciden con los criterios de destino definidos."
+>abstract="Los perfiles de prueba son destinatarios adicionales que permiten previsualizar y probar la personalización y el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje."
 
-Los perfiles de prueba se crean como direcciones semilla. Son destinatarios adicionales en la base de datos utilizada para dirigirse a perfiles ficticios que no coinciden con los criterios de destino definidos. Permiten previsualizar y probar la personalización y el procesamiento antes de realizar la entrega mediante la entrega de pruebas.
+Los perfiles de prueba se utilizan para enviar pruebas y validar el contenido y la configuración del mensaje. Estos perfiles son destinatarios adicionales que le permiten previsualizar y probar la personalización y el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-Los pasos para enviar pruebas a las direcciones semilla se detallan en [esta sección](../preview-test/test-deliveries.md#test-profiles).
+Los pasos para enviar pruebas a los perfiles de prueba se detallan en [esta sección](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->Los perfiles de prueba se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clics]**, **[!UICONTROL Aperturas]**, **[!UICONTROL Baja de suscripciones]**. [Más información sobre los informes]
+>* Los perfiles de prueba se crean como direcciones semilla en la consola del cliente.
+>
+>* Los perfiles de prueba se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clics]**, **[!UICONTROL Aperturas]**, **[!UICONTROL Baja de suscripciones]**.
 
 ## Acceso y administración de perfiles de prueba {#access-test-profiles}
 
@@ -62,7 +64,7 @@ Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar, edita
 >title="Datos adicionales de los perfiles de prueba"
 >abstract="Introduzca los datos de personalización utilizados para los envíos creados en los flujos de trabajo de administración de datos y a los que desea asignar un valor específico."
 
-Para crear un perfil de prueba, siga los pasos a continuación.
+Para crear un perfil de prueba, siga los pasos a continuación:
 
 1. Navegar a **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** y seleccione la **[!UICONTROL Perfiles de prueba]** pestaña.
 
