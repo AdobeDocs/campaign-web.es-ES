@@ -3,10 +3,10 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
+source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -74,7 +74,7 @@ Utilice la nueva interfaz de usuario web de Campaign para lo siguiente:
 
 * Cree, diseñe, personalice, programe y envíe notificaciones push, por correo electrónico y SMS ([más información](../msg/gs-messages.md))
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../email/edit-content.md)
-* Enviar campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
+* Envío de campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
 * Definir públicos destinatarios con el modelador de consultas: [Más información](../audience/about-recipients.md)
 * Previsualizar, probar y enviar mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)
