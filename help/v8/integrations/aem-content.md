@@ -1,23 +1,24 @@
 ---
 audience: end-user
-title: Administrar recursos con Adobe Experience Manager as a Cloud Service
+title: Administración de recursos con Adobe Experience Manager as a Cloud Service
 description: Obtenga información sobre cómo administrar contenido con Adobe Experience Manager as a Cloud Service
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 3%
 
 ---
 
-# Administración de plantillas con [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# Administración de plantillas con [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## Introducción a [!DNL Adobe Experience Manager as a Cloud service]{#create-aem}
+## Introducción a [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem}
 
 La integración de la interfaz web de Adobe Campaign con Adobe Experience Manager facilita la administración optimizada del contenido y los formularios de los envíos de correos electrónicos directamente en la plataforma de Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[Obtenga más información sobre Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png)[Más información sobre Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## Creación de una plantilla en [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## Creación de una plantilla en [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. Navegue hasta su [!DNL Adobe Experience Manager] Cree una instancia de autor de y haga clic en Experiencia de Adobe en la esquina superior izquierda de la página. Elegir **[!UICONTROL Sites]** en el menú.
 
