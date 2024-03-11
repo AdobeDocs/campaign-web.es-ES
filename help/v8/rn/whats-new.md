@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Estamos encantados de presentar la nueva versión de **la interfaz de usuario we
 
 >[!AVAILABILITY]
 >
->Esta versión está disponible para todos los usuarios a partir de [Versión v8.6 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es). Obtenga más información sobre las versiones de Adobe Campaign en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+>Esta versión está disponible para todos los usuarios a partir de la [versión 8.6 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es). Obtenga más información sobre las versiones de Adobe Campaign en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=es){target="_blank"}.
 
 
 ## Funcionalidades clave {#key-features}
@@ -83,7 +83,7 @@ Utilice la nueva interfaz de usuario web de Campaign para lo siguiente:
 
 **Actividades de flujo de trabajo de campaña nuevas y rediseñadas**
 
-Sobrecargue sus campañas de marketing con nuestro **conjunto ampliado de actividades de flujo de trabajo**. Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los déclencheur condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes dirigidos e impulsar un mejor rendimiento de la campaña. Obtenga más información en [esta sección](../workflows/gs-workflows.md).
+Sobrecargue sus campañas de marketing con nuestro **conjunto ampliado de actividades de flujo de trabajo**. Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña. Obtenga más información en [esta sección](../workflows/gs-workflows.md).
 
 
 **Público destinatario con el modelador de consultas**
@@ -115,11 +115,11 @@ Haga preguntas y busque orientación directamente en la interfaz de usuario del 
 
 **Filtros predefinidos**
 
-Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para **administrar y personalizar sin esfuerzo alguno los filtros predefinidos** con el fin de satisfacer sus necesidades específicas. Cree una vez y guárdela para usarla en el futuro. Obtenga más información en [esta sección](../get-started/predefined-filters.md).
+Introducción a la administración de filtros predefinidos. La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para **administrar y personalizar sin esfuerzo alguno los filtros predefinidos** con el fin de satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro. Obtenga más información en [esta sección](../get-started/predefined-filters.md).
 
 **Conversor de HTML para el diseño de correo electrónico**
 
-Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de correo electrónico de Campaign. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos. Obtenga más información en [esta sección](../email/existing-content.md).
+Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de correo electrónico de Campaign. Los bloques de contenido se identifican automáticamente y están disponibles en el diseñador de correo electrónico: utilice sus potentes funcionalidades de diseño para actualizarlos y personalizarlos. Obtenga más información en [esta sección](../email/existing-content.md).
 
 
 **SMS con ofertas**
@@ -134,9 +134,9 @@ Como usuario de Campaign, puede seguir accediendo a la consola del cliente para 
 
 Además, todos los datos y la configuración ya disponibles en la consola del cliente se pueden ver en la interfaz de usuario web de Campaign desde la navegación izquierda de Explorer. Obtenga más información sobre la vista de Explorer en [esta sección](../get-started/user-interface.md#user-interface-explorer).
 
-La interfaz de usuario web de Campaign refleja los permisos del usuario. Más información sobre los permisos en [esta página](../get-started/permissions.md).
+La interfaz de usuario web de Campaign refleja los permisos del usuario. Obtenga más información acerca de los permisos en [esta página](../get-started/permissions.md).
 
-Funcionalidades e interoperabilidad admitidas y no admitidas entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign [en esta página](../get-started/capability-matrix.md).
+Obtenga más información sobre las funcionalidades admitidas y no admitidas, y la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign, [en esta página](../get-started/capability-matrix.md).
 
 ## Actualizaciones terminológicas {#terminology-updates}
 
@@ -158,6 +158,6 @@ Las limitaciones siguientes se aplican a esta versión:
 * Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
 * Las notificaciones de Adobe Experience Cloud y la Ayuda unificada disponibles en la barra superior aún no están integradas.
 
-Al trabajar en la interfaz de usuario web de Campaign con flujos de trabajo creados o modificados en la consola del cliente de Campaign, se aplican limitaciones y protecciones específicas. Se muestran en la lista [en esta sección](../get-started/guardrails.md).
+A la hora de trabajar en la interfaz de usuario web de Campaign con flujos de trabajo creados o modificados en la consola del cliente de Campaign, se aplican mecanismos de protección y limitaciones específicos. Se muestran [en esta sección](../get-started/guardrails.md).
 
-Obtenga más información sobre las funciones compatibles y no compatibles y la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign [en esta página](../get-started/capability-matrix.md).
+Obtenga más información sobre las funcionalidades admitidas y no admitidas, y la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign, [en esta página](../get-started/capability-matrix.md).

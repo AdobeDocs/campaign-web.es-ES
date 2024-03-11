@@ -8,7 +8,7 @@ breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
