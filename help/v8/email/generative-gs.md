@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 1bce844800ad82559bdefebddc96dcec58177f09
+source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 23%
+source-wordcount: '485'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices generativas del usuario de Adobe Experience Cloud sobre IA y lo siguiente: Cualquier solicitud, contexto, información suplementaria u otra entrada que proporcione a esta función (a) debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza"
+>abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier pregunta, contexto, información complementaria u otra entrada que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza"
 
 <!--
 ", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
