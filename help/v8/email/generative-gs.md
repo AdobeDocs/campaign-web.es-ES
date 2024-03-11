@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
+source-git-commit: a404a404207b095a0745768bfe596021dcdcad56
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 21%
@@ -19,7 +19,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices de usuario de IA generativa de Adobe Experience Cloud y a lo siguiente:<br>Cualquier solicitud, contexto, información complementaria u otra información que proporcione a esta función (a) debe estar ligada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza, y (b) no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse a una persona específica).<br>Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso."
+>abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices del usuario de IA generativa de Adobe Experience Cloud y lo siguiente: Cualquier solicitud, contexto, información suplementaria u otra entrada que proporcione a esta función (a) debe estar vinculada a un contexto específico, que puede incluir sus materiales de promoción de la marca, contenido de sitios web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza, y (b) no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Directrices del usuario de IA generativa"
 
 
