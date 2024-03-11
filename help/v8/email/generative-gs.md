@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f87c1e9521bf78be9d1a95ea60d81a1aef06bc90
+source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 22%
@@ -14,14 +14,6 @@ ht-degree: 22%
 ---
 
 # Introducción al Asistente de contenido {#generative-gs}
-
-
->[!CONTEXTUALHELP]
->id="acw_emagica_generate_test_test"
->title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier solicitud, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Directrices del usuario de IA generativa"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,6 +25,14 @@ ht-degree: 22%
 >id="acw_generation_context"
 >title="Definir contexto para la generación de contenido"
 >abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active la alternancia **Mejorar con contenido actual**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar recursos de una marca."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generate_emagica"
+>title="Términos de la IA generativa de Adobe"
+>abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier solicitud, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Directrices del usuario de IA generativa"
+
 
 El asistente de contenido, con tecnología de IA generativa, es una herramienta valiosa para mejorar el contenido del correo electrónico. Simplifica la personalización y la mejora de contenido, optimizando las entregas de correo electrónico para que resuenen mejor en la audiencia.
 
