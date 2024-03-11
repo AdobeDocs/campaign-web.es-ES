@@ -4,9 +4,9 @@ title: Introducción a Adobe Campaign Web
 description: Introducción a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Utilice Campaign para lo siguiente:
 * **Integración de canales de correo electrónico, móviles, en línea y sin conexión en el recorrido del cliente**
 * **Automatización de la entrega de mensajes y ofertas significativos y oportunos**
 
-## Interfaz de usuario web de Discover Campaign {#web}
+## Descubrimiento de la interfaz de usuario web de Campaign {#web}
 
 Inicialmente, solo estaba disponible a través de la [consola del cliente](#ac-client). Aunque ahora, Campaign proporciona una nueva web con una interfaz de usuario (IU) mejorada: con mejores en la facilidad de uso, en la accesibilidad, y un nuevo diseño para mejorar significativamente la experiencia del usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
 
@@ -49,7 +49,7 @@ Como administrador o usuario experto, si necesita acceder a las funciones de la 
 
 Obtenga información sobre cómo conectarse a la web de Adobe Campaign en [esta página](connect-to-campaign.md).
 
-➡️ [Vídeo de Discover Campaign Web](#video)
+➡️ [Descubra la web de Campaign en vídeo](#video)
 
 ## Acerca de la consola del cliente de Campaign {#ac-client}
 
@@ -61,7 +61,7 @@ Algunos objetos solo se pueden crear y administrar en la consola del cliente. Pu
 
 Para obtener más información sobre el uso de Campaign v8 con su consola de cliente, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es){target="_blank"}.
 
-## Vídeo explicativo {#video}
+## Vídeos explicativos {#video}
 
 Obtenga información sobre cómo acceder a la interfaz de usuario web de Campaign y navegar por ella, y cómo personalizar las listas de inventario. Descubra el asistente de conocimiento con tecnología de IA.
 

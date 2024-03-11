@@ -4,9 +4,9 @@ title: Matriz de funciones de la interfaz de usuario web y consola de cliente de
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ Algunas funciones solo están disponibles desde la consola del cliente. Examine 
 
 ## Modelado de datos e ingesta de datos {#data-capabilities}
 
-La interfaz de usuario web de Campaign no muestra las siguientes funcionalidades. Solo están disponibles en la consola del cliente:
+La interfaz de usuario web de Campaign no muestra las siguientes funcionalidades. Solo están disponibles en la consola del cliente. 
 
 ### Cuentas externas {#external}
 
@@ -164,13 +164,13 @@ La creación, modificación y extensión de esquemas está restringida a usuario
 
 ### Funcionalidades de administración de datos de flujos de trabajo {#data}
 
-La administración de datos combina un conjunto de actividades para resolver problemas de objetivos complejos ofreciendo herramientas más eficientes y flexibles como carga de datos, extracción (archivo), actualización de datos, edición de esquemas o flujos de trabajo técnicos de importación y exportación. [Descubra los flujos de trabajo y las funcionalidades de administración de datos en la consola de cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es#data-management){target="_blank"}
+La administración de datos combina un conjunto de actividades para resolver problemas de segmentación complejos ofreciendo herramientas más eficientes y flexibles como la carga de datos, extracción (archivo), actualización de datos, edición de esquemas o flujos de trabajo técnicos de importación y exportación. [Descubra las funcionalidades de administración de datos de flujos de trabajo en la consola de cliente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es#data-management){target="_blank"}
 
 >[!NOTE]
 >
->Aunque algunas de estas actividades solo están disponibles en la consola del cliente, algunas están disponibles en la interfaz de usuario web de Campaign, como la **Enriquecimiento**, **Cargar archivo** o **Cambiar dimensión** actividades. [Obtenga más información sobre las actividades de segmentación y administración de datos en la interfaz de usuario web de Campaign](../workflows/activities/about-activities.md#targeting)
+>Aunque algunas de estas actividades solo están disponibles en la consola del cliente, algunas están disponibles en la interfaz de usuario web de Campaign, como las actividades de **Enriquecimiento**, **Cargar archivo** o **Cambiar dimensión**. [Obtenga más información sobre las actividades de segmentación y administración de datos en la interfaz de usuario web de Campaign](../workflows/activities/about-activities.md#targeting)
 
-### Configuración de acceso de datos federado {#fda}
+### Configuración del acceso de datos federado (FDA) {#fda}
 
 La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es){target="_blank"}
 
