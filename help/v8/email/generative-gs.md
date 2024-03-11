@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 6d3a891bee77ebe8e1e78d816bbec7d9bf4efc1f
+source-git-commit: 1bce844800ad82559bdefebddc96dcec58177f09
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 22%
+source-wordcount: '489'
+ht-degree: 23%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices del usuario de IA generativa de Adobe Experience Cloud y lo siguiente: Cualquier solicitud, contexto, información suplementaria u otra entrada que proporcione a esta función (a) debe estar vinculada a un contexto específico, que puede incluir sus materiales de promoción de la marca, contenido de sitios web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza, y (b) no debe contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso."
+>abstract="El acceso a esta función está sujeto a su acuerdo con las Directrices generativas del usuario de Adobe Experience Cloud sobre IA y lo siguiente: Cualquier solicitud, contexto, información suplementaria u otra entrada que proporcione a esta función (a) debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza"
 
 <!--
-"
+", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
 
