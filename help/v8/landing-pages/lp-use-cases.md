@@ -7,10 +7,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -18,14 +19,14 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
->title="Copie la URL con precaución"
+>title="Copie la URL con cuidado"
 >abstract="Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, utilice la función **Simular contenido** para probarla y siga los pasos que se describen en la documentación para utilizar correctamente la página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
->title="Copie la URL con precaución"
->abstract="Al crear una página de aterrizaje, cuatro plantillas predeterminadas le permiten implementar diferentes casos de uso: añadir o actualizar un perfil a la base de datos de Campaign, suscribir a los clientes a un servicio, cancelar su suscripción a un servicio u optar por la exclusión de usuarios."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Creación de una página de aterrizaje"
+>title="Copie la URL con cuidado"
+>abstract="Al crear una página de aterrizaje, cuatro plantillas predeterminadas le permiten implementar diferentes casos de uso: añadir o actualizar un perfil en la base de datos de Campaign, suscribir a los clientes a un servicio, cancelar su suscripción a un servicio o excluir usuarios."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=es#create-landing-page" text="Creación de una página de aterrizaje"
 
 Para utilizar correctamente la página de aterrizaje, debe hacer referencia a ella como un vínculo en una entrega con la opción dedicada.
 
@@ -214,14 +215,3 @@ Por ejemplo, si elige actualizar el **[!UICONTROL Canal (correo electrónico)]**
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 Este perfil no recibirá comunicaciones por correo electrónico de su marca a menos que se vuelva a suscribir.
-
-
-
-
-
-
-
-
-
-
-

@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ Para comenzar a probar el contenido del mensaje:
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Incluir perfiles de prueba en el público principal"
->abstract="Active esta opción para enviar también el mensaje final a los destinatarios de prueba."
+>abstract="Habilite esta opción para enviar también el mensaje final a los destinatarios de la prueba."
 
 Los perfiles de prueba son destinatarios adicionales en la base de datos. Se crean a partir de **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** menú. [Más información](../audience/test-profiles.md#create-test-profiles)
 

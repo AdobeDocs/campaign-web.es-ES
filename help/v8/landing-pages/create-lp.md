@@ -2,10 +2,11 @@
 title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 26%
+ht-degree: 34%
 
 ---
 
@@ -59,13 +60,13 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
->title="Definición de opciones de precarga"
->abstract="Si la variable **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con el **Omitir precarga si no hay ID** Si se selecciona esta opción, cada perfil introducido se añade a la base de datos después de la aprobación del formulario."
+>title="Definir opciones de precarga"
+>abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con la opción **Omitir precarga si no hay ID** seleccionada, cada perfil introducido se añade a la base de datos después de la aprobación del formulario."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
 >title="Definir opciones de almacenamiento"
->abstract="La sección de precarga permite indicar cómo buscar el registro que se actualiza en la base de datos."
+>abstract="La sección de precarga le permite indicar cómo buscar el registro que se actualiza en la base de datos."
 
 <!--The main steps to create landing pages are as follows:
 
@@ -99,7 +100,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
 1. En el **[!UICONTROL Precarga de datos]** , las dos opciones siguientes están seleccionadas de forma predeterminada:
 
-   * Si la variable **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. El usuario solo tiene que rellenar los campos que faltan y actualizar los valores existentes si es necesario. Esto permite combinar datos para perfiles existentes en lugar de crear duplicados.
+   * Cuando la opción **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. El usuario solo tiene que rellenar los campos que faltan y actualizar los valores existentes si es necesario. Esto permite combinar datos para perfiles existentes en lugar de crear duplicados.
 
    * El **[!UICONTROL Omitir precarga si no hay ID]** La opción debe estar seleccionada si no desea actualizar los perfiles. En este caso, cada perfil introducido se añade a la base de datos después de la aprobación del formulario. Esta opción se utiliza, por ejemplo, cuando se publica el formulario en un sitio web.
 

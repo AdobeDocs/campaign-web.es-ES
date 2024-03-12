@@ -29,7 +29,7 @@ Al segmentar una audiencia, también puede definir lo siguiente **grupos de cont
 >
 >Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia se define en una **Crear audiencia** actividad de flujo de trabajo. En este contexto, no se puede cargar un público destinatario de un archivo para un envío de correo electrónico, y el público destinatario se define solo en esta actividad dedicada. Obtenga información sobre cómo definir la audiencia de su envío en un flujo de trabajo de campaña en [esta sección](../workflows/activities/build-audience.md)
 
-## Monitorización de audiencias {#monitor}
+## Monitorizar públicos {#monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
@@ -68,7 +68,7 @@ El **[!UICONTROL Datos]** permite ver los perfiles que forman parte de la audien
 
 Para duplicar o eliminar una audiencia, haga clic en **[!UICONTROL Más acción]** disponible en la lista de audiencias junto al nombre de la audiencia o en una pantalla de detalles de audiencia.
 
-## Vídeo explicativo {#video}
+## Vídeos explicativos {#video}
 
 Obtenga información sobre cómo crear un destino para utilizar una audiencia de Experience Platform en la interfaz de usuario web de Adobe Campaign.
 

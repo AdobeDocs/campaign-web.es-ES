@@ -6,7 +6,7 @@ exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 20%
+ht-degree: 32%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_global_report"
 >title="Informe global"
->abstract="Los informes globales ofrecen una forma eficaz de analizar el rendimiento de su campaña. Estos informes proporcionan una vista consolidada de las métricas clave de tráfico y participación de cada canal dentro de la campaña."
+>abstract="Los informes globales ofrecen una forma potente y eficaz de analizar el rendimiento de la campaña. Estos informes proporcionan una vista consolidada de las métricas clave de tráfico y participación de cada canal dentro de la campaña."
 
 Los **informes globales** constituyen una herramienta eficaz que ofrece un resumen global consolidado de las métricas de tráfico y participación para cada canal dentro de la instancia de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o el envío.
 
