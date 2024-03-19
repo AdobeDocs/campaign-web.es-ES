@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
->[!TAB Integración de Adobe Experience Manager as a Cloud Service]
+>[!TAB Canal de correo postal]
 
-La integración entre la interfaz web de Adobe Campaign y Adobe Experience Manager as a Cloud Service optimiza la administración de contenido de correo electrónico. Ahora puede crear y editar contenido de correo electrónico directamente en Adobe Experience Manager e importar sin problemas las plantillas finalizadas en Adobe Campaign para sus envíos.
+**Correo directo** El canal ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo postal es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlo con sus proveedores de correo postal para enviar correo a sus clientes.
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![imagen](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Flujos de trabajo en canales múltiples]
+[![imagen](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Descubra nuevas posibilidades para la automatización y la optimización, lo que le permitirá crear recorridos de cliente más dinámicos y personalizados. Desde la segmentación avanzada hasta los activadores condicionales, nuestras actividades de flujo de trabajo adicionales le permiten enviar mensajes segmentados e impulsar un mejor rendimiento de la campaña.
+>[!TAB Modelador de consultas en el Diseñador de correo electrónico]
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+El modelador de consultas ya está disponible para su uso en el Diseñador de correo electrónico. Permite crear condiciones al crear contenido condicional.
 
->[!TAB Composición de público]
+[![imagen](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Cree nuevos públicos en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Combine varios públicos en uno solo, enriquézcalo con atributos externos o divídalo en varios en función de las reglas que elija.
+>[!TAB Nueva actividad de flujo de trabajo Cambiar fuente de datos]
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+El **Cambiar fuente de datos** la actividad de segmentación le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar el rendimiento.
 
->[!TAB Diseñador de correos electrónicos]
+![imagen](assets/do-not-localize/change-data-source.gif)
 
-El Diseñador de correo electrónico de campañas le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Ya sea desde una pizarra en blanco, importando contenido existente o aprovechando las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico.
-
-[![imagen](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![imagen](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
