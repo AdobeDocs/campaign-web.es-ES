@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña
 description: Obtenga información sobre cómo acceder y utilizar los informes de campaña
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 21%
+source-wordcount: '281'
+ht-degree: 24%
 
 ---
 
@@ -31,6 +31,7 @@ La lista completa de informes y las métricas asociadas para cada canal están d
 * [Canal de campaña de correo electrónico](campaign-reports-email.md)
 * [Canal de campaña de SMS](campaign-reports-sms.md)
 * [Canal de campaña push](campaign-reports-push.md)
+* [Canal de campaña de correo directo](campaign-reports-direct-mail.md)
 
 ## Administrar el tablero de informes {#manage-reports}
 

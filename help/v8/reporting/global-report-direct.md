@@ -2,16 +2,16 @@
 audience: end-user
 title: Informes globales para el canal de correo postal
 description: Más información sobre los Informes globales para el canal de correo postal
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '627'
 ht-degree: 5%
 
 ---
 
 # Informes globales para el canal de correo postal {#global-report-direct}
 
-Los informes globales proporcionan a los usuarios una visión general completa de las métricas de tráfico y participación a nivel de canal.
+Los informes globales de correo directo proporcionan a los usuarios una visión general completa de las métricas de tráfico y participación a nivel de canal.
 
 Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** sección. Puede filtrar los datos según la fecha, la carpeta o las reglas del informe. [Más información](global-reports.md)
 
@@ -19,9 +19,14 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 
 ### Información general sobre el envío {#delivery-overview-direct}
 
-El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo electrónico. Las métricas se describen a continuación.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="Información general sobre el envío"
+>abstract="El **Resumen de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo postal. Las métricas se describen a continuación."
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo postal. Las métricas se describen a continuación.
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -36,9 +41,19 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 
 ### Público objetivo {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="Público objetivo"
+>abstract="Los datos del destinatario y la información del mensaje se muestran en la **Audiencia objetivo** gráfico que refleja el análisis de preparación de envíos."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="Público objetivo"
+>abstract="El **Audiencia objetivo** proporciona un desglose detallado de los destinatarios y los mensajes correspondientes, en función de los resultados del proceso de preparación de la entrega."
+
 La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos relacionados con sus destinatarios, con las métricas detalladas que se proporcionan a continuación.
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -52,9 +67,17 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos rela
 
 ### Estadísticas de envío {#delivery-summary-direct-exec-stats}
 
-El **[!UICONTROL Estadísticas de envío]** proporciona un desglose del éxito de cada envío de correo postal, con las métricas detalladas que se describen a continuación.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="Estadísticas de envío"
+>abstract="El **Estadísticas de envío** Este gráfico proporciona perspectivas sobre la eficacia de sus envíos de correo directo, incluidos los envíos correctos y los errores encontrados."
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Estadísticas de envío"
+>abstract="El **Estadísticas de envío** Esta tabla detalla el éxito de su envío por correo postal y los errores que se han producido."
+
+El **[!UICONTROL Estadísticas de envío]** el gráfico y la tabla proporcionan un desglose del éxito de cada envío de correo postal, con métricas detalladas que se describen a continuación.
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
@@ -70,41 +93,35 @@ El **[!UICONTROL Estadísticas de envío]** proporciona un desglose del éxito d
 
 ### Causas de exclusión {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="Exclusiones"
+>abstract="El **Causas de exclusión** La tabla muestra un desglose detallado, por regla, de los mensajes rechazados durante el proceso de preparación de la entrega."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="Causas de exclusión de entrega"
+>abstract="El **Causas de exclusión** Este gráfico ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-## Rendimiento del envío {#delivery-throughput}
++++Más información sobre las Causas de las métricas de exclusión.
 
-Este informe proporciona detalles completos sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica clave utilizada para medir la velocidad de entrega de mensajes es el número de mensajes enviados por hora.
+* **[!UICONTROL Dirección en cuarentena]**: Tipo de error generado cuando la dirección se envía a cuarentena.
 
-## Envíos que no se pueden entregar {#non-deliverables-direct}
+* **[!UICONTROL Dirección no especificada]**: Tipo de error generado al realizar un envío para indicar que la dirección no existe.
 
-### Desglose de errores por tipo {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL Dirección de mala calidad]**: Tipo de error generado cuando la clasificación de calidad de la dirección postal es demasiado baja.
 
-El **[!UICONTROL Desglose de errores por tipo]** La tabla y el gráfico presentan los datos relacionados con los posibles errores experimentados en varios dominios, con métricas específicas que se proporcionan a continuación.
+* **[!UICONTROL Incluir en la lista de bloqueados dirección de]** incluir en la lista de bloqueados : Tipo de error generado cuando se el destinatario cuando se realizó la entrega.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+* **[!UICONTROL Doble]**: Tipo de error generado cuando se excluyó al destinatario porque sus valores de claves no eran únicos.
 
-+++Obtenga más información sobre el desglose de errores por tipo de métrica.
+* **[!UICONTROL Grupo de control]**: la dirección del destinatario forma parte del grupo de control.
 
-* **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante el envío para indicar que la dirección no es válida.
-
-* **[!UICONTROL Dominio no válido]**: Tipo de error generado al realizar un envío para indicar que el dominio de la dirección es incorrecto o no existe.
-
-* **[!UICONTROL Buzón lleno]**: Tipo de error generado después de cinco intentos de entrega para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
-
-* **[!UICONTROL Cuenta deshabilitada]**: Tipo de error generado al realizar un envío para indicar que la dirección ya no existe.
-
-* **[!UICONTROL Rechazado]**: Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software antispam).
-
-* **[!UICONTROL Inaccesible]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc
-
-* **[!UICONTROL Sin conexión]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
+* **[!UICONTROL Destinatario de tamaño limitado]**: se ha alcanzado el tamaño máximo de entrega para el destinatario.
 
 +++
-
-### Desglose de errores por dominio {#delivery-summary-email-breakdown-per-domain}
-
-El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico muestran los datos relacionados con posibles errores dentro de cada dominio. Las métricas son comunes en **[!UICONTROL Desglose de errores por tipo]** tabla y gráfico detallados anteriormente.
 

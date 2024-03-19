@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -45,6 +45,10 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+Varios **Segmentación** actividades, como **Combinar** o **Deduplicación**, le permite procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si utiliza un **Split** actividad, el complemento está formado por la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para utilizar esta capacidad, active la variable **Generar complemento** opción.
+
+![](assets/workflow-split-complement.png)
 
 ## Ejemplo {#example}
 

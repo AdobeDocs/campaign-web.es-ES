@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 6%
+source-wordcount: '947'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## Introducción al contenido condicional {#gs}
 
-El contenido condicional es una práctica funcionalidad que permite crear una personalización dinámica basada en el perfil del destinatario y reemplazar automáticamente bloques de texto e imágenes cuando se cumplen determinadas condiciones. Esta función puede llevar las campañas a otro nivel y ofrecer experiencias personalizadas y enfocadas al público.
+El contenido condicional es una práctica funcionalidad que permite crear una personalización dinámica basada en los datos de perfil del destinatario, sustituyendo automáticamente los bloques de texto y las imágenes cuando se cumplen determinadas condiciones. Esta función puede llevar las campañas a otro nivel y ofrecer experiencias personalizadas y enfocadas al público.
 
 Al configurar los campos de contenido condicional, se puede crear una personalización dinámica avanzada basada en el perfil del destinatario, por ejemplo. Los bloques de texto, los vínculos, la línea de asunto o las imágenes se sustituyen en el contenido del mensaje cuando se cumple una condición concreta. Por ejemplo, puede mostrar &quot;Sr.&quot; o &quot;Sra.&quot; según el valor del campo Género en la base de datos de Adobe Campaign, o incluir un vínculo diferente basado en el idioma preferido del destinatario.
 
@@ -84,7 +84,7 @@ El contenido condicional de los correos electrónicos se puede crear de dos form
 * En el editor de expresiones creando una condición con funciones de ayuda,
 * En un generador de contenido condicional específico al que se puede acceder al diseñar un correo electrónico.
 
-En la siguiente sección se proporcionan instrucciones paso a paso sobre cómo crear condiciones utilizando la capacidad de contenido condicional del diseñador de correo electrónico. Encontrará información detallada sobre cómo crear condiciones con el editor de expresiones [aquí](#condition-perso-editor).
+En la siguiente sección se proporcionan instrucciones paso a paso sobre cómo crear condiciones utilizando la capacidad de contenido condicional del Diseñador de correo electrónico. Encontrará información detallada sobre cómo crear condiciones con el editor de expresiones [aquí](#condition-perso-editor).
 
 En este ejemplo, deseamos crear un mensaje de correo electrónico con varias variantes basadas en el idioma de los destinatarios. Siga estos pasos:
 
@@ -100,13 +100,9 @@ En este ejemplo, deseamos crear un mensaje de correo electrónico con varias var
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Aparecerá un generador de reglas. Proporciona lo siguiente **Perfil**, **Mensaje**, y **Envío** atributos que puede aprovechar para crear su condición.
+1. Se abrirá el modelador de consultas. Permite generar una condición filtrando los datos de perfil del destinatario. [Aprenda a trabajar con el modelador de consultas](../query/query-modeler-overview.md).
 
-   Además, la variable **Condiciones** proporciona condiciones generadas previamente que puede agregar al lienzo para generar fácilmente su variante. Para utilizarlos, haga clic en el **Añadir** luego reemplace los elementos entre `<` y `>`por los elementos deseados. Asegúrese de que el valor especificado para `<value>` el objeto está entre comillas.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. Una vez que la condición de la primera variante del mensaje esté lista, haga clic en **[!UICONTROL Confirmar]**. En este ejemplo, se crea una regla para destinatarios cuyo idioma es &quot;francés&quot;.
+   Una vez que la condición de la primera variante del mensaje esté lista, haga clic en **[!UICONTROL Confirmar]**. En este ejemplo, se crea una regla para destinatarios cuyo idioma es &quot;francés&quot;.
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

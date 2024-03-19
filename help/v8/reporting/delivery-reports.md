@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío
 description: Obtenga información sobre cómo acceder a los informes de envío y cómo utilizarlos
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 42%
+source-wordcount: '272'
+ht-degree: 45%
 
 ---
 
@@ -24,6 +24,7 @@ La lista completa de informes y las métricas asociadas para cada canal están d
 * [Informes de envío de correo electrónico](email-report.md)
 * [Informes de envío de SMS](sms-report.md)
 * [Informes de envío push](push-report.md)
+* [Informes de envío por correo directo](direct-mail.md)
 
 ## Administrar el tablero de informes {#manage-reports}
 

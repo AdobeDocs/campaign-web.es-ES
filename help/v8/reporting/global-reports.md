@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los informes globales
 description: Comprender los informes globales
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 32%
 
 ---
@@ -26,6 +26,7 @@ La lista completa de informes y las métricas asociadas para cada canal están d
 * [Informes globales de correo electrónico](global-report-email.md)
 * [Informes globales de SMS](global-report-sms.md)
 * [Informes globales push](global-report-push.md)
+* [Informes globales de correo directo](global-report-direct.md)
 
 ## Administrar el tablero de informes {#manage-reports}
 

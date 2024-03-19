@@ -3,10 +3,10 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 69%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 69%
 >abstract="El diseñador de correo electrónico permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
 
@@ -105,3 +107,8 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 
+## Vídeos explicativos {#video}
+
+Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, a personalizarlo y a probarlo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

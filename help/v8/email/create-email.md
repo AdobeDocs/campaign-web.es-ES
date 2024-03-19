@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 57%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 57%
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
 Basado en un [plantilla de diseño](../email/create-email-templates.md), el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
+
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Creación del envío de correo electrónico {#create-email}
 
@@ -211,3 +213,9 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 1. Una vez enviado el correo electrónico, puede acceder a los informes específicos para un análisis más detallado haciendo clic en el botón **[!UICONTROL Informes]**.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## Vídeos explicativos {#video}
+
+Obtenga información sobre cómo crear un envío de correo electrónico desde cero, definir el público, diseñar el contenido, simular la previsualización y enviar una prueba.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

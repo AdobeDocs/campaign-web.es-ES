@@ -3,7 +3,7 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 47%
@@ -40,8 +40,6 @@ ht-degree: 47%
 >id="acw_deliveries_push_android_msg"
 >title="Mensaje push de Android"
 >abstract="Defina el contenido de la notificación push para dispositivos Android. Para componer el mensaje, haga clic en los campos **Título** y **Mensaje**. Utilice el editor de expresiones para personalizar datos y añadir contenido dinámico. Para personalizar aún más la notificación push, puede elegir una imagen para añadirla, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color. Para ver más opciones de configuración personalizada, vaya a la sección **Configuración avanzada**."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
