@@ -3,20 +3,20 @@ audience: end-user
 title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
 # Crear públicos {#create-audiences}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="Composición del público"
 >abstract="Cree nuevos públicos en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Combine varios públicos en uno solo, enriquézcalo con atributos externos o divídalo en varios en función de las reglas que elija."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=es" text="Consulte las notas de la versión"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -97,7 +97,7 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure el *
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
 
-## Vídeo explicativo {#video}
+## Vídeos explicativos {#video}
 
 Obtenga información sobre cómo crear y administrar audiencias, cómo seleccionar audiencias para una entrega y definir grupos de control.
 

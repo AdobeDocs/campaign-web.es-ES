@@ -2,19 +2,15 @@
 title: Introducción a los perfiles
 description: Obtenga información sobre cómo monitorizar y administrar perfiles en Campaign Web.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '456'
+ht-degree: 13%
 
 ---
 
 # Introducción a los perfiles {#profiles}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Vista de 360 grados de sus perfiles"
->abstract="Cree nuevos perfiles y monitorícelos con potentes informes y herramientas. Acceda a los atributos, interacciones y registros de sus perfiles. Utilice las opciones de filtrado para examinar la lista de perfiles y editar y actualizar su perfil."
 
 <!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
