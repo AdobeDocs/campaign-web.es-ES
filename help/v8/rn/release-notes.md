@@ -1,10 +1,10 @@
 ---
 title: Últimas notas de la versión
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 45795b35fd2c02f7b513b0d4952504ca3f5f45c3
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '289'
+ht-degree: 9%
 
 ---
 
@@ -24,22 +24,22 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 
 ### Canal de correo directo {#24-3-dm}
 
-**Correo directo** El canal ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo postal es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlo con sus proveedores de correo postal para enviar correo a sus clientes.
+**Correo directo** El canal ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo postal es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlo con sus proveedores de correo postal para enviar correo a sus clientes. [Más información](../direct-mail/gs-direct-mail.md)
 
 ![](../assets/do-not-localize/direct-mail.gif)
 
 ### Nueva actividad de flujo de trabajo Cambiar fuente de datos {#24-3-change-data-source}
 
-El **Cambiar fuente de datos** la actividad de segmentación le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar el rendimiento.
+El **Cambiar fuente de datos** la actividad de segmentación le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar el rendimiento. [Más información](../workflows/activities/change-data-source.md)
 
 ![](../assets/do-not-localize/change-data-source.gif)
 
 ### Mejora de actividad de flujo de trabajo dividido {#24-3-split}
 
-Ahora puede utilizar la variable **Generar todos los subconjuntos de la misma tabla** en la opción **Split** actividad de flujo de trabajo para agrupar todos los subconjuntos en una sola transición de salida.
+Ahora puede utilizar la variable **Generar todos los subconjuntos de la misma tabla** en la opción **Split** actividad de flujo de trabajo para agrupar todos los subconjuntos en una sola transición de salida. [Más información](../workflows/activities/split.md)
 
 ### Modelador de consultas {#24-3-query-modeler}
 
-* El modelador de consultas ya está disponible para su uso en el Diseñador de correo electrónico. Permite crear condiciones al crear contenido condicional.
-* Los valores predefinidos ahora están disponibles para atributos de tipo fecha al crear una condición personalizada.
-* Los operadores ya no se pueden añadir en una nueva transición del diagrama. Solo se pueden añadir en una transición existente antes de filtrar los componentes para agruparlos.
+* El modelador de consultas ya está disponible para su uso en el Diseñador de correo electrónico. Permite crear condiciones al crear contenido condicional. [Más información](../personalization/conditions.md)
+* Los valores predefinidos ahora están disponibles para atributos de tipo fecha al crear una condición personalizada. [Más información](../query/build-query.md)
+* Los operadores ya no se pueden añadir en una nueva transición del diagrama. Solo se pueden añadir en una transición existente antes de filtrar los componentes para agruparlos. [Más información](../query/build-query.md)
