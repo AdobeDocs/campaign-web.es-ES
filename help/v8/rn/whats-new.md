@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Utilice la nueva interfaz de usuario web de Campaign para lo siguiente:
 
 * Cree, diseñe, personalice, programe y envíe notificaciones push, por correo electrónico y SMS ([más información](../msg/gs-messages.md))
 * Crear contenido de correo electrónico personalizado con el diseñador de correo electrónico: [más información](../email/edit-content.md)
-* Envío de campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
+* Enviar campañas en canales múltiples, incluidos SMS y notificaciones push: [Más información](../workflows/activities/channels.md)
 * Definir públicos destinatarios con el modelador de consultas: [Más información](../audience/about-recipients.md)
 * Previsualizar, probar y enviar mensajes: [Más información](../monitor/prepare-send.md)
 * Monitorizar el envío y medir los resultados con informes integrados: [Más información](../reporting/delivery-reports.md)

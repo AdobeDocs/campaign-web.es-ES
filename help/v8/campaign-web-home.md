@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ El **Cambiar fuente de datos** la actividad de segmentación le permite cambiar 
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Haga que el contenido sea dinámico</strong><br/>Aprenda a personalizar el contenido en función de la información que haya recopilado acerca de sus perfiles para que su contenido sea más atractivo y aumente la probabilidad de que se lea.</div>
+    <div><strong>Haga que el contenido sea dinámico</strong><br/>Aprenda a personalizar su contenido en función de la información que haya recopilado sobre sus perfiles para hacerlo más atractivo y aumentar la probabilidad de que sea leído.</div>
     </td>
   </tr>
   <tr style="border: 0;">
