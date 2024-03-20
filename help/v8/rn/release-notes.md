@@ -1,10 +1,10 @@
 ---
 title: Últimas notas de la versión
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
-source-git-commit: 21d856f9651f3a392ba9d927bc26082ce9759396
+source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 9%
+source-wordcount: '341'
+ht-degree: 8%
 
 ---
 
@@ -14,9 +14,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Novedades"
->abstract="Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Las notas de la versión se actualizan varias veces al mes."
->
->"**March release is now live**, including Direct mail channel, the new Change data source workflow activity, and other improvements."
+>abstract="Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Las notas de la versión se actualizan varias veces al mes. **Ya está activa la versión de marzo**, incluido el canal de correo postal, la nueva actividad de flujo de trabajo Cambiar fuente de datos y otras mejoras."
 
 
 <!--Last update: **March 19, 2024**-->
