@@ -3,20 +3,15 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1265'
 ht-degree: 98%
 
 ---
 
 
 # Novedades {#new}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="Notas de la versión"
->abstract="Nuestra última versión incluye funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecerle una ventaja competitiva en todos los canales."
 
 Estamos encantados de presentar la nueva versión de **la interfaz de usuario web de Adobe Campaign**. Nuestra última versión incluye funciones intuitivas, concebidas para simplificar la creación de campañas personalizadas entre canales, obtener resultados excepcionales y ofrecer una ventaja competitiva en todos los canales. La interfaz de usuario (IU) web de Campaign ofrece un lienzo conectado con Adobe Experience Platform para una experiencia unificada.
 
