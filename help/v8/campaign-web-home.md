@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 72%
 
 ---
 
@@ -51,6 +51,12 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
+>[!TAB Ya está aquí la versión de marzo.]
+
+Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.3 de la interfaz de usuario web de Adobe Campaign.
+
+[![imagen](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Canal de correo postal]
 
 **Correo directo** El canal ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo postal es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlo con sus proveedores de correo postal para enviar correo a sus clientes.
@@ -58,12 +64,6 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 ![imagen](assets/do-not-localize/direct-mail.gif)
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Modelador de consultas en el Diseñador de correo electrónico]
-
-El modelador de consultas ya está disponible para su uso en el Diseñador de correo electrónico. Permite crear condiciones al crear contenido condicional.
-
-[![imagen](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Nueva actividad de flujo de trabajo Cambiar fuente de datos]
 
