@@ -4,7 +4,7 @@ title: Introducción a los informes
 description: Obtenga información sobre cómo acceder y administrar informes en Campaign Web
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 

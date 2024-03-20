@@ -3,13 +3,13 @@ audience: end-user
 title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 42%
+ht-degree: 43%
 
 ---
-
 
 # Envío mediante olas {#send-using-waves}
 
@@ -46,7 +46,7 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
 
    >[!CAUTION]
    >
-   >Asegúrese de que las últimas olas no superen la fecha límite de envío, definida en la [Validez](delivery-settings.md#validity) , de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Asegúrese de que las últimas olas no superen la fecha límite de envío, definida en la [Validez](delivery-settings.md#validity) , de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es).
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
 
@@ -99,6 +99,3 @@ Para evitar que se lo considere correo no deseado, puede aumentar progresivament
 Para hacer esto, seleccione la opción **[!UICONTROL Programar ondas según un calendario]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 %, la tercera en 20 %, etc.
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-
