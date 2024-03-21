@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
-description: Aprenda a añadir una actividad de flujo de trabajo de envío (correo electrónico, push, SMS)
+description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS, correo directo)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '971'
+ht-degree: 51%
 
 ---
 
-# Correo electrónico, SMS, actividades push {#channel}
+# Actividades de correo electrónico, SMS, push, correo directo {#channel}
 
-La web de Adobe Campaign le permite automatizar y ejecutar campañas de marketing a través de correos electrónicos, SMS y canales de push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente.
+Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, correo directo y canales push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente.
 
-Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS y push. También puede enviar un correo electrónico de seguimiento a los clientes después de que hayan completado una compra o enviarles un mensaje de cumpleaños personalizado a través de SMS.
+Por ejemplo, puede crear una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS, push y correo directo. También puede enviar un correo electrónico de seguimiento a los clientes después de que hayan completado una compra o enviarles un mensaje de cumpleaños personalizado a través de SMS.
 
 Mediante las actividades del canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios touchpoints e impulsen las conversiones.
 
@@ -24,6 +24,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >* [Creación de envíos de correo electrónico independientes](../../email/create-email.md)
 >* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
+>* [Creación de envíos de correo directo independientes](../../direct-mail/create-direct-mail.md)
 
 ## Requisitos previos {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * Para realizar una entrega recurrente, inicie el flujo de trabajo con una **Planificador** actividad. También puede utilizar un **Planificador** actividad para envíos únicos de una sola toma para establecer la fecha de contacto de ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
-
 
 ## Configuración de la actividad de canal {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 >title="Actividad de mensajería push de Android"
 >abstract="La actividad Push de Android optimiza el proceso de envío de notificaciones Push de Android como parte del flujo de trabajo. Permite enviar mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones Push de Android a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="Actividad de correo directo"
+>abstract="La actividad de correo postal facilita el envío de correo postal dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo postal. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 
-1. Añada una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**.
+1. Añada una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]**, **[!UICONTROL Notificación push (iOS)]** o **[!UICONTROL Correo directo]**.
 
 1. Seleccione el **Tipo de envío**: único o recurrente.
 
