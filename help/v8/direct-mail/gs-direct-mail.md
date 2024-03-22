@@ -2,21 +2,16 @@
 audience: end-user
 title: Introducción a los envíos de correo directo
 description: Obtenga información sobre cómo crear y enviar envíos de correo directo con Adobe Campaign Web
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '213'
+ht-degree: 11%
 
 ---
 
 
 # Introducción a los envíos de correo directo {#gs-direct-mail}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Correo directo"
->abstract="El canal de correo postal ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo postal es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlo con sus proveedores de correo postal para enviar correo a sus clientes."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte las notas de la versión"
 
 
 El correo postal es un canal sin conexión que le permite producir archivos para enviar de forma masiva cartas personalizadas a sus clientes, como postales, folletos o catálogos.

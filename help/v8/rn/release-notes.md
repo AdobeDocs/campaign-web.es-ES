@@ -1,10 +1,10 @@
 ---
 title: Últimas notas de la versión
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
-source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '435'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,20 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 >
 >Esta versión está disponible para todos los usuarios a partir de [Versión v8.6 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es). Obtenga más información acerca de las versiones y actualizaciones de la consola del cliente de Adobe Campaign en [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=es){target="_blank"}.
 
-## Versión de marzo {#24-3-release}
+## Notas de la versión de marzo {#24-3-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Correo directo"
+>abstract="El canal de correo postal ya está disponible para su uso en flujos de trabajo y envíos independientes. Utilice el canal Correo directo sin conexión para crear, personalizar y generar un archivo de extracción, y compartirlo con sus proveedores de correo directo para enviar correo a sus clientes."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte las notas de la versión"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Cambio de la fuente de datos"
+>abstract="Utilice la nueva actividad Cambiar la fuente de datos de la actividad de segmentación del flujo de trabajo para cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar el rendimiento."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte las notas de la versión"
+
 
 **Fecha de lanzamiento**: 19 y 20 de marzo de 2024
 
