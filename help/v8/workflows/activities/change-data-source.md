@@ -2,15 +2,20 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Cambiar fuente de datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Cambiar fuente de datos
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '342'
 ht-degree: 9%
 
 ---
 
 # Cambio de la fuente de datos {#change-data-source}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Cambio de la fuente de datos"
+>abstract="Utilice la nueva actividad Cambiar la fuente de datos de la actividad de segmentación del flujo de trabajo para cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar el rendimiento."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

@@ -4,7 +4,7 @@ title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de aterrizaje en la web de Campaign
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 >id="acw_homepage_welcome_rn5"
 >title="Páginas de aterrizaje"
 >abstract="Descubra la nueva experiencia de la página de aterrizaje. Cree, diseñe y comparta instantáneamente páginas de aterrizaje para dirigir los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscribirse a darse de baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Consulte las notas de la versión"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Consulte las notas de la versión"
 
 [!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.
 
