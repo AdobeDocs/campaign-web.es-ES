@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: adb373464e654667354dbaf5470abc86a1bf3b72
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 99%
 
 ---
 
@@ -376,3 +376,49 @@ Deprecated IDs - to remove in GA: -->
 >title="Actualización de datos"
 >abstract="Continuará"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="Señal externa"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="Parámetros de señal externa"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="Terminer"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="Déclencheur finales"
+>abstract="Continuará"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Código JavaScript"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="Fragmento de JavaScript"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Ejecución de Javascript"
+>abstract="Continuará"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="Transición de JavaScript"
+>abstract="Continuará"
