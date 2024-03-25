@@ -5,7 +5,7 @@ description: Introducción al asistente de IA en Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 5%
@@ -77,7 +77,7 @@ El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugirien
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
+1. Inserte campos de personalización para personalizar el contenido push en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugirien
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)
+1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega push. [Más información](../monitor/prepare-send.md)
