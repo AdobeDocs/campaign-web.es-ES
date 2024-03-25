@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Diseño de una entrega de notificaciones push enriquecidas
-description: Aprenda a diseñar una entrega de notificaciones push enriquecidas con Adobe Campaign Web
+description: Aprenda a diseñar una entrega de notificaciones push enriquecidas para Android con Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1394'
 ht-degree: 9%
 
 ---
 
-# Diseño de una entrega push enriquecida para Android {#content-push}
+# Diseño de una entrega push enriquecida para Android {#rich-push}
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
@@ -23,9 +23,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
 ## Definición del contenido de la notificación {#push-message}
 
-Una vez creado el envío push, puede definir su contenido. Examine las pestañas siguientes para aprender a componer el mensaje para cada plantilla.
-
-Hay tres plantillas disponibles:
+Una vez creado el envío push, puede definir su contenido. Hay tres plantillas disponibles:
 
 * **Plantilla predeterminada** permite enviar notificaciones con un icono simple y una imagen adjunta.
 
