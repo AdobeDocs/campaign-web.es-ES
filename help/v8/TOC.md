@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 90%
 
 ---
 
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [Añadir un vínculo a la página espejo](email/mirror-page.md)
             + [Añadir un preencabezado](email/preheader.md)
             + [Generar la versión de texto](email/text-version-email.md)
-         + Ayudante de contenido {#content-assistant}
-            + [Introducción al Asistente de contenido](email/generative-gs.md)
-            + [Generación de texto con el asistente de contenido](email/generative-content.md)
-            + [Generación de imágenes con el asistente de contenido](email/generative-image.md)
-            + [Generación de correo electrónico con el asistente de contenido](email/generative-email.md)
          + Estilos del contenido {#style}
             + [Introducción al estilo del correo electrónico](email/get-started-email-style.md)
             + [Editar configuración de fondo](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 94%
       + [Crear un envío de correo directo](direct-mail/create-direct-mail.md)
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
       + [Previsualización y envío de una entrega de correo directo](direct-mail/send-direct-mail.md)
+   + Asistente de IA {#ai-assistant}
+      + [Introducción al asistente de IA](email/generative-gs.md)
+      + [Generación de correo electrónico con el asistente de IA](email/generative-content.md)
+      + [Generación de SMS con el asistente de IA](email/generative-sms.md)
+      + [Generación de notificaciones push con el asistente de IA](email/generative-push.md)
    + Haga que el contenido sea dinámico {#dynamic-content}
       + [Introducción al contenido dinámico](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)

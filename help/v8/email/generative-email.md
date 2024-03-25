@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: Generación de correo electrónico con el asistente de contenido
-description: Introducción al Ayudante de contenido
+title: Generación de correo electrónico con el asistente de IA en Campaign
+description: Introducción al asistente de IA en Campaign
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 6%
+source-wordcount: '469'
+ht-degree: 4%
 
 ---
 
-# Generación de un correo electrónico con el Ayudante de contenido {#generative-email}
+# Generación de un correo electrónico con el asistente de IA {#generative-email}
 
-El asistente de contenido mejora el impacto de su comunicación al generar automáticamente contenido de correo electrónico completo, lo que le ahorra tiempo y garantiza una calidad coherente. Con la IA generativa, puede crear sin esfuerzo correos electrónicos atractivos que resuenen con su audiencia, lo que hace que su comunicación sea más eficaz y eficiente.
+El asistente de IA de Campaign mejora el impacto de su comunicación al generar automáticamente contenido de correo electrónico completo, lo que le ahorra tiempo y garantiza una calidad coherente. Con la IA generativa, puede crear sin esfuerzo correos electrónicos atractivos que resuenen con su audiencia, lo que hace que su comunicación sea más eficaz y eficiente.
 
 >[!NOTE]
 >
 >Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations).
 
 
-Para generar contenido de correo electrónico con el asistente de contenido, siga los pasos a continuación. También puede mejorar un contenido existente con el Ayudante de contenido, como se detalla en [esta página](generative-content.md).
+Para generar contenido de correo electrónico con el asistente de IA, siga los pasos a continuación. También puede mejorar un contenido existente con el asistente de IA, como se detalla en [esta página](generative-content.md).
 
 1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Creación de contenido]**.
 
@@ -30,7 +30,7 @@ Para generar contenido de correo electrónico con el asistente de contenido, sig
 
 1. Rellene el **[!UICONTROL Detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-1. Elija la plantilla de diseño en la que desea que el asistente de contenido base el correo electrónico generado.
+1. Elija la plantilla de diseño en la que desea que el asistente de IA base el correo electrónico generado.
 
    También puede importar un archivo de HTML.
 
@@ -48,7 +48,7 @@ Para generar contenido de correo electrónico con el asistente de contenido, sig
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
+1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de IA.
 
    También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 
