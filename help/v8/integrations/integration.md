@@ -4,7 +4,8 @@ description: Aprenda a trabajar con la interfaz de usuario web de Adobe Campaign
 feature: Overview
 role: Admin, User
 level: Beginner
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%

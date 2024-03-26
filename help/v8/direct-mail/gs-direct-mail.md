@@ -2,13 +2,13 @@
 audience: end-user
 title: Introducción a los envíos de correo directo
 description: Obtenga información sobre cómo crear y enviar envíos de correo directo con Adobe Campaign Web
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
 
 ---
-
 
 # Introducción a los envíos de correo directo {#gs-direct-mail}
 

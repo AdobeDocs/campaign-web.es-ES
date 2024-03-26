@@ -2,7 +2,8 @@
 audience: end-user
 title: Informes globales para el canal de correo postal
 description: Más información sobre los Informes globales para el canal de correo postal
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 5%
@@ -124,4 +125,3 @@ El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los p
 * **[!UICONTROL Destinatario de tamaño limitado]**: se ha alcanzado el tamaño máximo de entrega para el destinatario.
 
 +++
-

@@ -2,7 +2,8 @@
 audience: end-user
 title: Informes de campaña para el canal de correo postal
 description: Comprender los informes de campaña del canal de correo directo
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 9%

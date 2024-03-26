@@ -2,13 +2,13 @@
 audience: end-user
 title: Crear un envío de correo directo
 description: Obtenga información sobre cómo crear una entrega de correo directo con Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 28%
 
 ---
-
 
 # Crear un envío de correo directo {#create-direct-mail}
 
@@ -64,4 +64,3 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. Una vez que la entrega de correo postal esté lista, haga clic en **[!UICONTROL Revisar y enviar]** para validar y realizar la entrega y generar el archivo de extracción. [Obtenga información sobre cómo obtener una vista previa y enviar una entrega de correo directo](send-direct-mail.md)
-

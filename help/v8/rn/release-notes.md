@@ -1,7 +1,8 @@
 ---
 title: Últimas notas de la versión
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 8%
