@@ -4,9 +4,9 @@ description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
->[!TAB Ya está aquí la versión de marzo.]
+>[!TAB Esta es la versión de marzo]
 
 Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.3 de la interfaz de usuario web de Adobe Campaign.
 
@@ -59,7 +59,7 @@ Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.3 de l
 
 >[!TAB Canal de correo postal]
 
-**Correo directo** El canal ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo postal es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlo con sus proveedores de correo postal para enviar correo a sus clientes.
+El canal de **correo directo** ya está disponible para su uso en flujos de trabajo y envíos independientes. El correo directo es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlos con sus proveedores de correo directo para enviarles correos a sus clientes.
 
 ![imagen](assets/do-not-localize/direct-mail.gif)
 
@@ -67,7 +67,7 @@ Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.3 de l
 
 >[!TAB Nueva actividad de flujo de trabajo Cambiar fuente de datos]
 
-El **Cambiar fuente de datos** la actividad de segmentación le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar el rendimiento.
+La nueva actividad de direccionamiento **Cambiar fuente de datos** permite cambiar la fuente de datos de la tabla de trabajo de su flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar los rendimientos.
 
 ![imagen](assets/do-not-localize/change-data-source.gif)
 
