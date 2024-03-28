@@ -8,7 +8,7 @@ breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 89%
       + [Introducción a los envíos de correo directo](direct-mail/gs-direct-mail.md)
       + [Crear un envío de correo directo](direct-mail/create-direct-mail.md)
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
-      + [Previsualización y envío de una entrega de correo directo](direct-mail/send-direct-mail.md)
+      + [Previsualización y envío de un correo directo](direct-mail/send-direct-mail.md)
    + Asistente de IA {#ai-assistant}
       + [Introducción al asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con el asistente de IA](email/generative-content.md)
@@ -165,7 +165,7 @@ ht-degree: 89%
       + [Informe de envío de correo electrónico](reporting/email-report.md)
       + [Informe de envío de push](reporting/push-report.md)
       + [Informe de envío de SMS](reporting/sms-report.md)
-      + [Informe de envío por correo directo](reporting/direct-mail.md)
+      + [Informe de envíos de correo directo](reporting/direct-mail.md)
    + Informes de campaña {#campaign-report}
       + [Introducción a los informes de campaña](reporting/campaign-reports.md)
       + [Informe de campaña de correo electrónico](reporting/campaign-reports-email.md)
