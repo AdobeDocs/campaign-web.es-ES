@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 8%
+ht-degree: 29%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="Novedades"
->abstract="Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Las notas de la versión se actualizan varias veces al mes. **Ya está activa la versión de marzo**, incluido el canal de correo postal, la nueva actividad de flujo de trabajo Cambiar fuente de datos y otras mejoras."
+>abstract="Las versiones de la interfaz de usuario de Adobe Campaign Web operan en un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funciones. Las notas de la versión se actualizan varias veces al mes. **Ya está activa la versión de marzo**, incluido el canal de correo directo, la nueva actividad de flujo de trabajo Cambiar fuente de datos y otras mejoras."
 
 
 <!--Last update: **March 19, 2024**-->
 
-Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Por favor, compruébelos regularmente.
+Las versiones de la interfaz de usuario de Adobe Campaign Web operan en un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funciones. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Por favor, compruébelos regularmente.
 
 >[!AVAILABILITY]
 >

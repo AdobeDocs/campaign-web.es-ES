@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 9%
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Cambio de la fuente de datos"
->abstract="El **Cambiar fuente de datos** La actividad de permite seleccionar una fuente de datos diferente para la tabla de trabajo del flujo de trabajo."
+>abstract="La actividad **Cambiar fuente de datos** le permite seleccionar una fuente de datos diferente para la tabla de trabajo del flujo de trabajo."
 
 El **Cambiar fuente de datos** la actividad es una **segmentación** actividad. Esta actividad le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esto proporciona más flexibilidad al permitirle administrar los datos en sus diferentes bases de datos y mejorar el rendimiento.
 

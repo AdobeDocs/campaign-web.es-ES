@@ -6,7 +6,7 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 11%
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ El **Informe de envío por correo directo** ofrece información y datos completo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="Información general sobre el envío"
->abstract="El **Resumen de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo postal. Las métricas se describen a continuación."
+>abstract="La **Información general de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo directo. Las métricas se describen a continuación."
 
 El **[!UICONTROL Resumen de entrega]** proporciona información detallada sobre cómo los visitantes interactúan con cada envío de correo directo, mostrando métricas clave de rendimiento (KPI) esenciales.  Las métricas se describen a continuación.
 
@@ -65,7 +65,7 @@ Pase el ratón sobre una parte del gráfico para ver el número exacto.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="Estadísticas de envío"
->abstract="El **Estadísticas de envío** Este gráfico detalla el éxito de su envío por correo postal y los errores que se han producido."
+>abstract="El gráfico **Estadísticas de envío** detalla el éxito de su envío de correo directo y los errores que se han producido."
 
 El **[!UICONTROL Estadísticas de envío]** el gráfico proporciona una visión general completa del rendimiento de su envío y ofrece métricas detalladas para medir el éxito y la eficacia.
 
@@ -88,7 +88,7 @@ El **[!UICONTROL Estadísticas de envío]** el gráfico proporciona una visión 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="Causas de exclusión de entrega"
->abstract="El **Causas de exclusión** Este gráfico ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
+>abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
 El **[!UICONTROL Causas de exclusión]** El gráfico proporciona un desglose detallado de los motivos por los que los mensajes se rechazan durante el proceso de preparación de la entrega. Este desglose se organiza según varias reglas, lo que ofrece una visión completa de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -117,7 +117,7 @@ El **[!UICONTROL Causas de exclusión]** El gráfico proporciona un desglose det
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Exclusiones"
->abstract="El **[!UICONTROL Exclusiones]** La tabla muestra un desglose detallado, por regla, de los mensajes rechazados durante el proceso de preparación de la entrega."
+>abstract="El gráfico **[!UICONTROL Exclusiones]** muestra un desglose detallado, por regla, de los mensajes rechazados durante el proceso de preparación de la entrega."
 
 El **[!UICONTROL Exclusiones]** proporciona un desglose detallado, clasificado por reglas específicas, de los mensajes rechazados durante la fase de preparación del envío. Este desglose completo permite comprender claramente los motivos por los que se excluyen estos mensajes del proceso de envío.
 

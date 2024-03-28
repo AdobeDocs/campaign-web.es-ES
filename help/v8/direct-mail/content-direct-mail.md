@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenido del archivo de extracción"
->abstract="Haga clic en **Editar contenido** para empezar a diseñar el archivo de extracción requerido por su proveedor de correo postal. Esto le permite definir las propiedades del archivo, como su etiqueta y formato, y especificar las columnas que desea incluir en el archivo."
+>abstract="Haga clic en el botón **Editar contenido** para empezar a diseñar el archivo de extracción requerido por su proveedor de correo directo. Esto le permite definir las propiedades del archivo, como su etiqueta y formato, y especificar las columnas que desea incluir en el archivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
@@ -25,7 +25,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Contenido"
->abstract="En esta sección, especifique las columnas que desea mostrar en el archivo de extracción. Una vez finalizado, puede obtener una previsualización del archivo de extracción mediante la variable **Simular contenido** botón."
+>abstract="En esta sección, especifique las columnas que desea mostrar en el archivo de extracción. Una vez finalizado, puede obtener una previsualización del archivo de extracción mediante el botón **Simular contenido**."
 
 Para diseñar el contenido del archivo de extracción generado por su envío de correo postal, haga clic en **[!UICONTROL Editar contenido]** en la página de envío y, a continuación, configure las propiedades y el contenido del archivo.
 

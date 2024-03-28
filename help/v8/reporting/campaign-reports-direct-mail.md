@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Información general sobre el envío"
->abstract="El **Resumen de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo postal. Las métricas se describen a continuación."
+>abstract="La **Información general de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo directo. Las métricas se describen a continuación."
 
 El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada entrega de correo postal. Las métricas se describen a continuación.
 
@@ -44,7 +44,7 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Estadísticas de público destinatario inicial"
->abstract="Los datos del destinatario y la información del mensaje se muestran en la **Estadísticas de audiencia de destinatario inicial** tabla, que refleja el análisis de preparación de envíos."
+>abstract="Los datos del destinatario y la información del mensaje se muestran en el gráfico **Estadísticas de público destinatario inicial**, que refleja el análisis de preparación de envíos."
 
 El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
 
@@ -65,7 +65,7 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Estadísticas de envío"
->abstract="El **Estadísticas de ejecución** Esta tabla detalla el éxito de su envío por correo postal y los errores que se han producido."
+>abstract="El gráfico **Estadísticas de ejecución** detalla el éxito de su envío de correo directo y los errores que se han producido."
 
 ![](assets/direct-mail-campaign-exec.png)
 

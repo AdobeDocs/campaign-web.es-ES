@@ -6,7 +6,7 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -67,7 +67,7 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Actividad de correo directo"
->abstract="La actividad de correo postal facilita el envío de correo postal dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo postal. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de correo directo facilita el envío de correo directo dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 
