@@ -3,9 +3,9 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1541'
 ht-degree: 47%
 
 ---
@@ -21,12 +21,6 @@ ht-degree: 47%
 >id="acw_deliveries_push_ios_content"
 >title="Contenido push para iOS"
 >abstract="Defina el contenido de la notificación push para dispositivos iOS. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_remind_later"
->title="Botón Recordar más tarde"
->abstract="Por determinar"
-
 
 ## Definición del contenido de la notificación {#push-message}
 
