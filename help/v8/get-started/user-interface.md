@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 85%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Esta plantilla es de solo lectura"
->abstract="Continuará"
-
+>abstract="No tiene permisos para editar esta plantilla. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Páginas de aterrizaje predeterminadas"
->abstract="Continuará"
+>title="Página de aterrizaje predeterminada"
+>abstract="Seleccione la página de aterrizaje predeterminada asociada a este servicio de suscripción."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Servicios de suscripción"
->abstract="Continuará"
+>title="Actividad de servicio de suscripción"
+>abstract="Utilice Adobe Campaign para crear y monitorizar sus servicios, como los boletines informativos, y para comprobar las suscripciones o las bajas a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parámetros de los servicios de suscripción"
->abstract="Continuará"
+>title="Parámetros del servicio de suscripción"
+>abstract="Seleccione y confirme la configuración del servicio de suscripción."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transición saliente de servicios de suscripción"
->abstract="Continuará"
+>abstract="Alternar el **Generación de una transición saliente** para añadir una transición después de la actividad."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Actualización de datos"
->abstract="Continuará"
+>abstract="La actividad **Update data** realiza una actualización en masa de los campos de la base de datos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Actualización de datos"
->abstract="Continuará"
+>title="Seleccione cómo actualizar los datos"
+>abstract="El **Tipo de operación** Este campo permite elegir el proceso que se lleva a cabo en la información de la base de datos. Seleccione la primera opción para añadir datos o actualizar (si ya se ha añadido). También solo puede agregar, actualizar o eliminar datos. Seleccione el **Actualizar y combinar colecciones** para seleccionar un registro principal al que vincular duplicados y eliminar esos duplicados de forma segura."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Actualización de datos"
->abstract="Continuará"
+>title="Identificación de registro"
+>abstract="Especifique cómo identificar los registros de la base de datos: si los datos están relacionados con una dimensión de segmentación existente, seleccione la variable **Uso de la dimensión objetivo** y seleccione la dimensión de segmentación y los campos que desea actualizar. De lo contrario, especifique uno o varios vínculos personalizados para identificar los datos de la base de datos o use directamente las claves de reconciliación."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Actualización de datos"
->abstract="Continuará"
+>title="Seleccionar campos para actualizar"
+>abstract="Seleccione los campos para actualizar y la configuración de reconciliación. Puede usar el complemento **Asignación automática** para identificar automáticamente los campos que se van a actualizar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Actualización de datos"
->abstract="Continuará"
+>title="Opciones avanzadas para actualizar datos"
+>abstract="El **Opciones avanzadas** Esta sección permite especificar configuraciones adicionales para administrar datos y duplicados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Actualización de datos"
->abstract="Continuará"
+>title="Generar una transición saliente"
+>abstract="Alternar el **Generación de una transición saliente** para añadir una transición saliente que se activará al final de la ejecución de la **Actualización de datos** actividad. Por lo general, la actualización marca el final de un flujo de trabajo de objetivos y, por lo tanto, la opción no está activada de forma predeterminada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Actualización de datos"
->abstract="Continuará"
+>title="Generar una transición saliente para los rechazos."
+>abstract="Alternar el **Generación de una transición saliente para rechazos** opción para añadir una transición saliente que contenga registros que no se hayan procesado correctamente después de la actualización (por ejemplo, si hay un duplicado). Por lo general, la actualización marca el final de un flujo de trabajo de objetivos y, por lo tanto, la opción no está activada de forma predeterminada."
 
 
 

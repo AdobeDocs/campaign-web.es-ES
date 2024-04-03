@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 44%
+source-wordcount: '394'
+ht-degree: 42%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Eliminar archivo tras la importación"
->abstract="Continuará"
+>abstract="Alternar el **Eliminar archivo tras importar** para eliminar el archivo original del servidor después de importar el archivo."
 
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
 
