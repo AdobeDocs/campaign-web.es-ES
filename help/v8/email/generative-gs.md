@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Asistente de IA"
->abstract="Una vez que haya creado y personalizado su envío, puede utilizar el asistente de IA para mejorar su contenido. Esta funcionalidad simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
+>abstract="Una vez que haya creado y personalizado su envío, puede utilizar el Asistente de IA para mejorar el contenido.  Esta funcionalidad simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Definición del contexto con el asistente de IA en Campaign"
+>title="Definición del contexto con el asistente de IA de Campaign"
 >abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active la alternancia **Mejorar con contenido actual**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar recursos de una marca."
 
 

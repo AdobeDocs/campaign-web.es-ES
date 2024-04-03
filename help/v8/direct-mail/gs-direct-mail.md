@@ -6,7 +6,7 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 11%
+ht-degree: 32%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Correo directo"
->abstract="El canal de correo postal ya está disponible para su uso en flujos de trabajo y envíos independientes. Utilice el canal Correo directo sin conexión para crear, personalizar y generar un archivo de extracción, y compartirlo con sus proveedores de correo directo para enviar correo a sus clientes."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Consulte las notas de la versión"
+>abstract="El canal de correo directo ya está disponible para su uso en flujos de trabajo y como envíos independientes. El correo directo es un canal sin conexión que le permite crear, personalizar y generar un archivo de extracción y compartirlo con los proveedores de correo directo para que envíen el correo a sus clientes."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
 El correo postal es un canal sin conexión que le permite producir archivos para enviar de forma masiva cartas personalizadas a sus clientes, como postales, folletos o catálogos.
