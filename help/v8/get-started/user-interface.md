@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 85%
+source-wordcount: '2108'
+ht-degree: 79%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Señal externa"
->abstract="Continuará"
+>abstract="El **Señal externa** La actividad permite almacenar en déclencheur la ejecución de un conjunto de tareas en un flujo de trabajo desde una API u otro flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Parámetros de señal externa"
 >abstract="Continuará"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="Continuará"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="Continuará"
+>abstract="El **Código JavaScript** La actividad de ejecuta un código JavaScript en el contexto de un flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Fragmento de JavaScript"
->abstract="Continuará"
+>abstract="Configure el código que desea ejecutar."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Obtenga más información en la documentación de Campaign v8 (consola)"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Ejecución de Javascript"
->abstract="Continuará"
+>title="Ejecución de JavaScript"
+>abstract="De forma predeterminada, la fase de ejecución no puede exceder de 1 hora. Tras esta demora, el proceso se interrumpe con un mensaje de error y la ejecución de la actividad falla. Alternar el **Detener la ejecución después de** para definir un retraso personalizado. Para ignorar este límite, establezca el valor en 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Transición de JavaScript"
->abstract="Continuará"
+>title="Errores de proceso"
+>abstract="Alternar el **Errores de proceso** para añadir una transición saliente que contenga errores."
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extracción de archivos"
->abstract="Continuará"
+>abstract="Actividad de extracción de archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Archivo que extraer"
->abstract="Continuará"
+>abstract="Seleccione el archivo que desea extraer."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Formato de destino"
->abstract="Continuará"
+>abstract="Seleccione el formato."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Procesamiento posterior"
->abstract="Continuará"
+>abstract="Definir un paso posterior al procesamiento"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Transición saliente"
->abstract="Continuará"
+>abstract="Alternar el **Generación de una transición saliente** para añadir una transición saliente después de la actividad actual."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Error de proceso"
->abstract="Continuará"
+>title="Errores de proceso"
+>abstract="Alternar el **Errores de proceso** para añadir una transición saliente que contenga errores."

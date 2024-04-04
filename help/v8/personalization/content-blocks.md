@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 62%
+ht-degree: 58%
 
 ---
 
@@ -35,7 +35,7 @@ Descripción de los bloques de contenido integrados:
 
 * **[!UICONTROL Banner de exclusión predeterminado]**
 * **[!UICONTROL Habilitado por Adobe Campaign]**: inserta el logotipo “Habilitado por Adobe Campaign”.
-* **[!UICONTROL Función de formateo para nombres propios]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
+* **[!UICONTROL Función de formato para sustantivos propios]**: genera el **[!UICONTROL toSmartCase]** Función JavaScript, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Saludos]**: inserta los saludos con el nombre completo del destinatario, seguidos de una coma. Ejemplo: “Hola, John Doe”.
 * **[!UICONTROL Insertar logotipo]**: inserta un logotipo definido en la configuración de la instancia.
 * **[!UICONTROL Enlace a página espejo]**: inserta un enlace a la [página espejo](../email/mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
