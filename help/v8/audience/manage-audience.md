@@ -5,8 +5,8 @@ description: Aprenda a trabajar con audiencias en Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
