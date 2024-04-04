@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
+source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2111'
 ht-degree: 79%
 
 ---
@@ -387,13 +387,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Parámetros de señal externa"
->abstract="Continuará"
+>abstract="Parámetros de señal externa"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
 >title="Activadores finales"
->abstract="Continuará"
+>abstract="Activadores finales"
 
 
 <!--JavaScript-->
