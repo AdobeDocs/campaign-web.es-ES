@@ -3,10 +3,10 @@ audience: end-user
 title: Importación de un público de correo electrónico desde un archivo
 description: Obtenga información sobre cómo cargar perfiles de un archivo externo para crear su audiencia de correo electrónico
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 40%
 >title="Vista previa del archivo"
 >abstract="Compruebe la previsualización de las columnas del archivo externo. Esta pantalla solo muestra hasta 30 registros."
 
-Puede segmentar perfiles almacenados en un archivo externo. Los perfiles no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../personalization/gs-personalization.md). Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Este artículo describe cómo cargar un perfil externo al crear un envío de correo electrónico independiente. Para cargar datos de un archivo en un flujo de trabajo, consulte [esta página](../workflows/activities/load-file.md).
+La interfaz de usuario web de Adobe Campaign permite segmentar perfiles almacenados en un archivo externo. Una vez cargados los perfiles, todos los campos del archivo de entrada están disponibles para su uso para personalizar el envío [Aprenda a personalizar el contenido](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Esta funcionalidad solo está disponible para **envíos de correo electrónico**. No se puede utilizar con envíos SMS o push.
->
->* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
->
->* Los perfiles no se añaden a la base de datos y solo se cargan y están disponibles para este envío de correo electrónico independiente específico.
+Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan y están disponibles únicamente para este envío de correo electrónico independiente específico.
 
-## Seleccionar y configurar el archivo {#upload}
+>[!NOTE]
+>
+>Esta página describe cómo cargar perfiles externos desde un archivo al crear un envío de correo electrónico independiente. Para cargar datos de un archivo en el contexto de un flujo de trabajo, consulte [esta página](../workflows/activities/load-file.md).
 
-Para segmentar perfiles desde un archivo local directamente desde la interfaz de correo electrónico, siga estos pasos:
+## Lectura obligatoria {#must-read}
+
+* Esta capacidad está disponible para **envíos de correo electrónico** solo.
+* Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).
+* No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
+
+## Selección y configuración del archivo de entrada {#upload}
+
+Para segmentar perfiles a partir de un archivo en los correos electrónicos, siga estos pasos:
 
 1. Abra una entrega de correo electrónico existente o [creación de un nuevo envío de correo electrónico](../email/create-email.md).
-1. En la ventana de creación de envíos de correo electrónico, en la sección **Público**, haga clic en el botón **Seleccionar público** y seleccione la opción **Seleccionar del archivo**.
+1. En el **Audiencia** , haga clic en **Seleccionar audiencia** y luego elija **Seleccionar del archivo**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Seleccione el archivo local que desea utilizar. El formato debe alinearse con la variable [archivo de muestra](#sample-file).
+1. Seleccione el archivo local que desea cargar. El formato de archivo debe alinearse con la variable [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
-1. Elija la columna que contiene la dirección de correo electrónico del menú desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
+
+   ![](assets/select-from-file-map.png)
+
+1. Especifique la columna que contiene la dirección de correo electrónico de la **Campo de dirección** lista desplegable. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
 1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
 
-Al crear y personalizar el contenido del mensaje, puede seleccionar campos del archivo de entrada en la [Editor de personalización](../personalization/gs-personalization.md).
+Al crear el contenido del mensaje, puede añadir personalización aprovechando los campos del archivo de entrada. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ Al crear y personalizar el contenido del mensaje, puede seleccionar campos del a
 >title="Importación de un público desde un archivo"
 >abstract="Los formatos compatibles son TXT y CSV. Usar la primera línea como encabezado de columna. Alinee el formato del archivo con el archivo de muestra proporcionado en el vínculo siguiente."
 
-Los formatos compatibles son TXT y CSV. La primera línea es el encabezado de columna.
+Al cargar un archivo externo para segmentar perfiles en los envíos, asegúrese de que el archivo de entrada coincida con las recomendaciones siguientes:
 
-Alinee el formato del archivo con el archivo de ejemplo siguiente:
+* Los formatos compatibles son TXT y CSV.
+* La primera línea del archivo es el encabezado de columna.
+* Alinee el formato del archivo con el archivo de ejemplo siguiente:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Previsualización y prueba del correo electrónico {#test}
 

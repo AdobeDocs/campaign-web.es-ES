@@ -3,10 +3,10 @@ audience: end-user
 title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 31%
 >abstract="Examine la lista para seleccionar un público existente. Utilice el icono “Mostrar filtros” para filtrar la lista o seleccionar una carpeta específica."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
-
 * [Crear una audiencia única](one-time-audience.md) uso del modelador de consultas.
 * [Carga de una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
 
-Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el **Audiencia** menú izquierdo. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Obtenga información sobre cómo monitorizar y administrar audiencias](manage-audience.md)
+Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el **Audiencia** menú izquierdo. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Más información sobre los públicos](manage-audience.md)
 
 Para seleccionar un público existente para el mensaje, siga los pasos a continuación:
 
-1. Desde el **Audiencia** del asistente de creación de entregas, haga clic en **[!UICONTROL Seleccionar audiencia]** y luego elija **[!UICONTROL Seleccionar audiencia]** para utilizar una audiencia existente.
+1. Desde el **Audiencia** del asistente de creación de entregas, haga clic en **[!UICONTROL Seleccionar audiencia]** y luego elija **[!UICONTROL Seleccionar audiencia]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

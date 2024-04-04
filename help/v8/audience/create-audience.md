@@ -3,10 +3,10 @@ audience: end-user
 title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos"
->abstract="Desde esta pantalla, puede acceder a la lista de todos los públicos que se pueden segmentar en los envíos. Haga clic en **Crear** para crear nuevos públicos en un lienzo visual utilizando varias actividades de flujo de trabajo como **División** o **Excluir**."
+>abstract="Desde esta pantalla, puede acceder a la lista de todas las audiencias que pueden segmentarse en flujos de trabajo o envíos independientes. Clic **Crear** para crear una nueva audiencia en un lienzo visual utilizando varias actividades de flujo de trabajo como **Split** o **Excluir**.<br/><br/>El **[!UICONTROL Origen]** Las columnas indican los orígenes de las audiencias: **[!UICONTROL Adobe Campaign]** se han creado audiencias con la consola de Adobe Campaign v8 o la interfaz de usuario web, mientras que **[!UICONTROL Adobe Experience Platform:]** Las audiencias de se han creado en Adobe Experience Platform y se han integrado en Campaign mediante la integración de fuentes de Adobe y destinos."
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="Configuración del público"
->abstract="Introduzca el nombre de público y las opciones adicionales y, a continuación, haga clic en el botón **Crear público**."
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 La web de Campaign le permite crear nuevas audiencias en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Por ejemplo, puede combinar varias audiencias en una sola, enriquecer la audiencia con atributos externos o dividir una en varias audiencias en función de las reglas que elija.
 
