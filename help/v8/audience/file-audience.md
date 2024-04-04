@@ -3,10 +3,10 @@ audience: end-user
 title: Importación de un público de correo electrónico desde un archivo
 description: Obtenga información sobre cómo cargar perfiles de un archivo externo para crear su audiencia de correo electrónico
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '657'
+ht-degree: 29%
 
 ---
 
