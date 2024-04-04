@@ -3,9 +3,9 @@ audience: end-user
 title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '938'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Públicos"
->abstract="Desde esta pantalla, puede acceder a la lista de todas las audiencias que pueden segmentarse en flujos de trabajo o envíos independientes. Clic **Crear** para crear una nueva audiencia en un lienzo visual utilizando varias actividades de flujo de trabajo como **Split** o **Excluir**.<br/><br/>El **[!UICONTROL Origen]** Las columnas indican los orígenes de las audiencias: **[!UICONTROL Adobe Campaign]** se han creado audiencias con la consola de Adobe Campaign v8 o la interfaz de usuario web, mientras que **[!UICONTROL Adobe Experience Platform:]** Las audiencias de se han creado en Adobe Experience Platform y se han integrado en Campaign mediante la integración de fuentes de Adobe y destinos."
+>abstract="Desde esta pantalla, puede acceder a la lista de todas las audiencias que pueden segmentarse en flujos de trabajo o envíos independientes. Clic **Crear** para crear una nueva audiencia en un lienzo visual.<br/><br/>Además de empezar desde cero para crear una audiencia sencilla, también puede aprovechar las actividades de flujo de trabajo para refinar la audiencia. Por ejemplo, puede combinar varias audiencias en una sola, enriquecer la audiencia con atributos externos o dividir una en varias audiencias en función de las reglas que elija."
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 10%
 La web de Campaign le permite crear nuevas audiencias en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Por ejemplo, puede combinar varias audiencias en una sola, enriquecer la audiencia con atributos externos o dividir una en varias audiencias en función de las reglas que elija.
 
 Una vez que haya creado el flujo de trabajo, las audiencias resultantes se almacenan automáticamente en la base de datos de Campaign junto con las existentes. Estas audiencias pueden segmentarse en flujos de trabajo o envíos independientes.
+
+El **[!UICONTROL Origen]** Las columnas indican los orígenes de las audiencias: **[!UICONTROL Adobe Campaign]** se han creado audiencias con la consola de Adobe Campaign v8 o la interfaz de usuario web, mientras que **[!UICONTROL Adobe Experience Platform:]** Las audiencias de se han creado en Adobe Experience Platform y se han integrado en Campaign mediante la integración de fuentes de Adobe y destinos.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
