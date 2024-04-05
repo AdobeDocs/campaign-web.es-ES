@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2129'
 ht-degree: 79%
 
 ---
@@ -452,3 +452,25 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_extractfile_error"
 >title="Errores de proceso"
 >abstract="Alternar el **Errores de proceso** para añadir una transición saliente que contenga errores."
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="Secuencia de comandos de inicialización"
+>abstract="Secuencia de comandos de inicialización"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="Propiedades de ejecución"
+>abstract="Propiedades de ejecución"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="Error de ejecución"
+>abstract="Error de ejecución"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="Script de inicialización de ejecución"
+>abstract="Script de inicialización de ejecución"
