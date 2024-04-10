@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Diseño de una entrega push enriquecida para Android {#rich-push}
+# Diseño de un envío push enriquecido para Android {#rich-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
