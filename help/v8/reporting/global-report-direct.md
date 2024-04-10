@@ -3,9 +3,9 @@ audience: end-user
 title: Informes globales para el canal de correo postal
 description: Más información sobre los Informes globales para el canal de correo postal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 33%
 
 ---
@@ -101,7 +101,7 @@ El **[!UICONTROL Estadísticas de envío]** el gráfico y la tabla proporcionan 
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Causas de exclusión de entrega"
+>title="Causas de exclusión"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
