@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
 source-wordcount: '2209'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
@@ -324,7 +324,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Actividad de servicio de suscripción"
+>title="Actividad del servicio de suscripción"
 >abstract="Utilice Adobe Campaign para crear y monitorizar sus servicios, como los boletines informativos, y para comprobar las suscripciones o las bajas a estos servicios. Las suscripciones solo se aplican al envío de correo electrónico y SMS."
 
 >[!CONTEXTUALHELP]
@@ -335,7 +335,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Transición saliente de servicios de suscripción"
->abstract="Alternar el **Generación de una transición saliente** para añadir una transición después de la actividad."
+>abstract="Alterne la opción **Generar una transición saliente** para añadir una transición después de la actividad."
 
 
 <!--Update file-->
@@ -343,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Actualización de datos"
->abstract="La actividad **Update data** realiza una actualización en masa de los campos de la base de datos."
+>abstract="La actividad **Actualizar datos** realiza una actualización en masa de los campos de la base de datos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="Seleccione cómo actualizar los datos"
->abstract="El **Tipo de operación** Este campo permite elegir el proceso que se lleva a cabo en la información de la base de datos. Seleccione la primera opción para añadir datos o actualizar (si ya se ha añadido). También solo puede agregar, actualizar o eliminar datos. Seleccione el **Actualizar y combinar colecciones** para seleccionar un registro principal al que vincular duplicados y eliminar esos duplicados de forma segura."
+>abstract="El campo **Tipo de operación** permite elegir el proceso que se realizará sobre los datos de la base de datos. Seleccione la primera opción para añadir datos o actualizarlos (si ya se han añadido). También puede solo añadir, actualizar o eliminar datos. Seleccione **Actualizar y combinar colecciones** para seleccionar un registro principal al que vincular duplicados y eliminarlos de forma segura."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="Identificación de registro"
->abstract="Especifique cómo identificar los registros de la base de datos: si los datos están relacionados con una dimensión de segmentación existente, seleccione la variable **Uso de la dimensión objetivo** y seleccione la dimensión de segmentación y los campos que desea actualizar. De lo contrario, especifique uno o varios vínculos personalizados para identificar los datos de la base de datos o use directamente las claves de reconciliación."
+>abstract="Especifique cómo identificar los registros de la base de datos: si los datos están relacionados con una dimensión de segmentación existente, seleccione la opción **Uso de la dimensión de segmentación** y seleccione la dimensión de segmentación y los campos que desea actualizar. De lo contrario, especifique uno o más vínculos personalizados para identificar los datos en la base de datos o use directamente las claves de reconciliación."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Seleccionar campos para actualizar"
->abstract="Seleccione los campos para actualizar y la configuración de reconciliación. Puede usar el complemento **Asignación automática** para identificar automáticamente los campos que se van a actualizar."
+>title="Seleccione los campos que desea actualizar"
+>abstract="Seleccione los campos que desea actualizar y la configuración de reconciliación. Puede utilizar la opción **Asignación automática** para identificar automáticamente los campos que se van a actualizar."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="Opciones avanzadas para actualizar datos"
->abstract="El **Opciones avanzadas** Esta sección permite especificar configuraciones adicionales para administrar datos y duplicados."
+>abstract="La sección **Opciones avanzadas** le permite especificar configuraciones adicionales para administrar datos y duplicados."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="Generar una transición saliente"
->abstract="Alternar el **Generación de una transición saliente** para añadir una transición saliente que se activará al final de la ejecución de la **Actualización de datos** actividad. Por lo general, la actualización marca el final de un flujo de trabajo de objetivos y, por lo tanto, la opción no está activada de forma predeterminada."
+>abstract="Alterne la opción **Generar una transición saliente** para añadir una transición saliente que se activará al final de la ejecución de la actividad **Actualizar datos**. Por lo general, la actualización marca el final de un flujo de trabajo de segmentación y, por lo tanto, la opción no está activada de forma predeterminada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Generar una transición saliente para los rechazos."
->abstract="Alternar el **Generación de una transición saliente para rechazos** opción para añadir una transición saliente que contenga registros que no se hayan procesado correctamente después de la actualización (por ejemplo, si hay un duplicado). Por lo general, la actualización marca el final de un flujo de trabajo de objetivos y, por lo tanto, la opción no está activada de forma predeterminada."
+>title="Genere una transición saliente para rechazos."
+>abstract="Alternar la opción **Generar una transición saliente para rechazos** para añadir una transición saliente que contenga registros que no se hayan procesado correctamente después de la actualización (por ejemplo, si hay un duplicado). Por lo general, la actualización marca el final de un flujo de trabajo de segmentación y, por lo tanto, la opción no está activada de forma predeterminada."
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Señal externa"
->abstract="El **Señal externa** La actividad permite almacenar en déclencheur la ejecución de un conjunto de tareas en un flujo de trabajo desde una API u otro flujo de trabajo."
+>abstract="La actividad **Señal externa** le permite activar la ejecución de un conjunto de tareas en un flujo de trabajo desde una API u otro flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,24 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="El **Código JavaScript** La actividad de ejecuta un código JavaScript en el contexto de un flujo de trabajo."
+>abstract="La actividad de **Código JavaScript** ejecuta un código JavaScript en el contexto de un flujo de trabajo. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Fragmento de JavaScript"
->abstract="Configure el código que desea ejecutar."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Obtenga más información en la documentación de Campaign v8 (consola)"
+>abstract="Configure el código que se va a ejecutar."
+>additional-url="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/api" text="Más información en la documentación de Campaign v8 (consola)"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Ejecución de JavaScript"
->abstract="De forma predeterminada, la fase de ejecución no puede exceder de 1 hora. Tras esta demora, el proceso se interrumpe con un mensaje de error y la ejecución de la actividad falla. Alternar el **Detener la ejecución después de** para definir un retraso personalizado. Para ignorar este límite, establezca el valor en 0."
+>title="Ejecución de Javascript"
+>abstract="De forma predeterminada, la fase de ejecución no puede exceder de 1 hora. Tras este retraso, el proceso se anula con un mensaje de error y la ejecución de la actividad falla. Alterne la opción **Detener ejecución después** para definir un retraso personalizado. Para omitir este límite, establezca el valor en 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Errores de proceso"
->abstract="Alternar el **Errores de proceso** para añadir una transición saliente que contenga errores."
+>abstract="Alternar la opción **Errores de proceso** para añadir una transición saliente que contenga errores."
 
 
 
@@ -427,12 +427,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extracción de archivos"
->abstract="Actividad de extracción de archivo"
+>abstract="Extraer actividad de archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Archivo que extraer"
->abstract="Seleccione el archivo que desea extraer."
+>abstract="Seleccione el archivo que va a extraer."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
@@ -441,25 +441,25 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
->title="Procesamiento posterior"
->abstract="Definir un paso posterior al procesamiento"
+>title="Posprocesamiento"
+>abstract="Definir un paso de posprocesamiento"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Transición saliente"
->abstract="Alternar el **Generación de una transición saliente** para añadir una transición saliente después de la actividad actual."
+>abstract="Alternar la opción **Generar una transición saliente** para añadir una transición saliente después de la actividad actual."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Errores de proceso"
->abstract="Alternar el **Errores de proceso** para añadir una transición saliente que contenga errores."
+>abstract="Alterne la opción **Errores de proceso** para añadir una transición saliente que contenga errores."
 
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_initscript"
->title="Secuencia de comandos de inicialización"
->abstract="Secuencia de comandos de inicialización"
+>title="Script de inicialización"
+>abstract="Script de inicialización"
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution_properties"
