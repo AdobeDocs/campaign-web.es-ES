@@ -6,11 +6,11 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# Informe de envío por correo directo {#direct-mail-report}
+# Informe de envíos de correo directo {#direct-mail-report}
 
 El **Informe de envío por correo directo** ofrece información y datos completos específicos para su envío de correo postal. Proporciona información detallada sobre el rendimiento, la eficacia y los resultados de sus envíos individuales, lo que le proporciona una visión general completa.
 

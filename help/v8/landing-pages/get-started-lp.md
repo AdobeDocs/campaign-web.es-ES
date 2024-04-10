@@ -5,7 +5,7 @@ description: Obtenga información sobre las páginas de aterrizaje en la web de 
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 

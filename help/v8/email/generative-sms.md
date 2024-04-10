@@ -5,10 +5,11 @@ description: Introducción al asistente de IA en Campaign
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
