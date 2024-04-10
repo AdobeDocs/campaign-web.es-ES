@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 94%
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)
-      + [Diseño de una entrega push enriquecida para Android](push/rich-push.md)
+      + [Diseño de un envío push enriquecido para Android](push/rich-push.md)
       + [Diseño de un envío push](push/content-push.md)
       + [Previsualizar y enviar un envío push](push/send-push.md)
    + SMS {#sms}
@@ -76,7 +76,7 @@ ht-degree: 94%
       + [Crear un envío de correo directo](direct-mail/create-direct-mail.md)
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
       + [Previsualización y envío de un correo directo](direct-mail/send-direct-mail.md)
-   + Asistente de IA {#ai-assistant}
+   + Asistente de IA{#ai-assistant}
       + [Introducción al asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con el asistente de IA](email/generative-content.md)
       + [Generación de SMS con el asistente de IA](email/generative-sms.md)
@@ -112,7 +112,7 @@ ht-degree: 94%
       + [Introducción a los públicos](audience/manage-audience.md)
       + [Crear públicos](audience/create-audience.md)
    + Seleccionar los destinatarios del envío {#target-audiences}
-      + [Introducción a la selección de audiencias](audience/delivery-recipients.md)
+      + [Introducción a la selección de públicos](audience/delivery-recipients.md)
       + [Selección de un público existente](audience/add-audience.md)
       + [Crear un público único](audience/one-time-audience.md)
       + [Importación de un público de correo electrónico desde un archivo](audience/file-audience.md)
