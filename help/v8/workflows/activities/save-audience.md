@@ -6,7 +6,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
->title="Generar transición saliente"
->abstract="Utilice esta opción si desea añadir una transición después de **Guardar audiencia** actividad."
+>title="Generar transición de salida"
+>abstract="Utilice esta opción si desea añadir una transición después de la actividad **Guardado de público**."
 
 El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
 

@@ -21,7 +21,7 @@ Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo envi
 
 Para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe pruebas a los perfiles de prueba antes de enviarlas a la audiencia de destino. Se debe enviar una prueba cada vez que se realiza un cambio para validar el contenido más reciente. El envío de pruebas es un paso importante para validar la campaña e identificar posibles problemas. Los destinatarios de la prueba pueden comprobar varios elementos, como vínculos, vínculos de exclusión, imágenes o páginas espejo, así como detectar cualquier error en la renderización, el contenido, la configuración de personalización y la configuración de envío.
 
-## Simulación de contenido con perfiles de prueba {#simulate-content-test-deliveries}
+## Simulación del contenido con perfiles de prueba {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

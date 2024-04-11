@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '2420'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -92,7 +92,7 @@ Hay tres modos disponibles:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Importancia del destinatario"
->abstract="La importancia del destinatario es una fórmula utilizada para determinar qué perfiles se conservan cuando se exceden las reglas de tipología de capacidad."
+>abstract="La importancia del destinatario es una fórmula que se utiliza para determinar qué destinatarios se conservan cuando se exceden las reglas de tipología de capacidad."
 
 En esta sección, puede seleccionar una regla de capacidad definida en la consola de Adobe Campaign v8. Esta regla está asociada al canal.
 

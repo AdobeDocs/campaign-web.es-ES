@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Crear perfiles de prueba"
->abstract="Los perfiles de prueba son destinatarios adicionales que permiten previsualizar y probar la personalización y el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje."
+>abstract="Los perfiles de prueba son destinatarios adicionales que permiten previsualizar y probar la personalización así como el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje."
 
 Los perfiles de prueba se utilizan para enviar pruebas y validar el contenido y la configuración del mensaje. Estos perfiles son destinatarios adicionales que le permiten previsualizar y probar la personalización y el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje.
 

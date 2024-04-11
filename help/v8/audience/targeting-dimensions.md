@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Seleccionar la dimensión de segmentación"
->abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el objetivo se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada es Aplicaciones del suscriptor."
+>abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
 
 La dimensión de segmentación, también conocida como. asignación de destino, es el tipo de datos que administra una operación. Permite definir la población objetivo: perfiles, beneficiarios de contratos, operadores, suscriptores, etc.
 
