@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '599'
 ht-degree: 40%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 40%
 >abstract="El acceso a esta función está sujeto a su acuerdo con las directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier solicitud, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no deben contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=es" text="Directrices del usuario de IA generativa de Adobe"
 
-El asistente de IA es una valiosa herramienta para mejorar el contenido del correo electrónico. Simplifica la personalización y la mejora de contenido, optimizando las entregas de correo electrónico para que resuenen mejor en la audiencia.
+El asistente de IA, con tecnología de Azure OpenAI y Azure AI vision, sirve como una valiosa herramienta para mejorar el contenido del correo electrónico. Simplifica la personalización y la mejora de contenido, optimizando las entregas de correo electrónico para que resuenen mejor en la audiencia.
 
 Esta función ahorra tiempo y garantiza una calidad coherente al generar automáticamente contenido de correo electrónico completo. Al utilizar la IA generativa, puede crear correos electrónicos atractivos sin esfuerzo, lo que mejora la eficacia y la eficiencia de su comunicación.
 
@@ -60,7 +60,8 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 * Cargue el recurso de la marca para tener información precisa sobre el contenido de la marca. De lo contrario, el contenido se basa en información disponible públicamente. El contenido cargado puede tener los siguientes formatos: PDF, JPEG, PNG o archivos ZIP (con formatos de archivo compatibles).
 * El tamaño recomendado para el recurso de marca cargado es inferior a 50 MB. Los archivos más grandes o muchas imágenes pueden funcionar, pero el tiempo de procesamiento aumenta.
 * Utilice plantillas de correo electrónico creadas por Adobe Campaign, preferiblemente [plantillas de correo electrónico integradas](../email/create-email-templates.md), una plantilla específica de la marca o una plantilla personalizada para crear el contenido del correo electrónico. Se recomienda una plantilla de correo electrónico con hasta 8-10 imágenes.
-
+* Asegúrese de informar de cualquier salida problemática utilizando los iconos de miniatura hacia arriba, pulgar hacia abajo o indicador al seleccionar variantes.
+* El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=es)
 
 Las siguientes limitaciones se aplican al asistente de IA en Campaign:
 
@@ -68,8 +69,6 @@ Las siguientes limitaciones se aplican al asistente de IA en Campaign:
 * Solo disponible para los canales de correo electrónico, push y SMS.
 * Puede que el contenido de GenAI no siempre sea preciso: comparta sus comentarios para que nuestros ingenieros puedan perfeccionar los modelos.
 * Puede cargar varios recursos de marca, pero solo puede aprovechar uno para una generación específica.
-
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

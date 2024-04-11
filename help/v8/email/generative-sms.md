@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 6%
+source-wordcount: '473'
+ht-degree: 10%
 
 ---
 
@@ -46,35 +46,42 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. Habilite la **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
+
+   >[!IMPORTANT]
+   >
+   > El mensaje siempre debe estar vinculado a un contexto específico cargando un recurso de marca o habilitando **[!UICONTROL Mejora del contenido actual]** opción.
+
 1. Ajuste el contenido describiendo lo que desea generar en la variable **[!UICONTROL Preguntar]** field.
 
    Si busca ayuda para crear el indicador, acceda al **[!UICONTROL Biblioteca de mensajes]** que proporciona una amplia gama de ideas rápidas para mejorar las entregas.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Habilite la **[!UICONTROL Mejorar con el contexto actual]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
-
-   >[!IMPORTANT]
-   >
-   > El mensaje siempre debe estar vinculado a un contexto específico cargando un recurso de marca o habilitando **[!UICONTROL Mejora del contenido actual]** opción.
-
 1. Seleccionar **[!UICONTROL Cargar recurso de marca]** para añadir cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, utilice el asistente de IA.
 
-1. Seleccione el **[!UICONTROL Estrategia de comunicación]** que mejor se adapte a sus necesidades. Esto afectará al tono y al estilo del texto generado.
+1. Adapte el indicador con las diferentes opciones:
 
-1. Elija la **[!UICONTROL Idioma]** y **[!UICONTROL Tono]** que desea que tenga el texto generado. Esto garantizará que el texto sea apropiado para su audiencia y propósito.
+   * **[!UICONTROL Estrategia de comunicación]**: seleccione el método de comunicación deseado para el texto generado.
+   * **[!UICONTROL Idioma]**: elija el idioma del contenido de la variante.
+   * **[!UICONTROL Tono]**: Asegúrese de que el texto sea apropiado para su audiencia y propósito.
+   * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Utilice el control deslizante para definir la longitud del texto generado.
-
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine el contenido generado **[!UICONTROL Variaciones]** y haga clic en **[!UICONTROL Aplicar]** una vez encontrado el contenido adecuado.
+1. Examine el contenido generado **[!UICONTROL Variaciones]** y haga clic en **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
 
-   Clic **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Vaya a **[!UICONTROL Refinar]** dentro de la opción **[!UICONTROL Previsualizar]** para acceder a funciones de personalización adicionales y ajustar la variación a sus preferencias:
+
+   * **Simplificar idioma**: el asistente de IA le ayuda a escribir mensajes claros y concisos que todos puedan comprender.
+
+   * **Reformular**: el asistente de IA reformula el mensaje para mantener las cosas atractivas para diferentes audiencias.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
 
 1. Inserte campos de personalización para personalizar el contenido de SMS en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega de SMS. [Más información](../monitor/prepare-send.md)
+Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega de SMS. [Más información](../monitor/prepare-send.md)

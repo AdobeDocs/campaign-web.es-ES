@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 7%
+source-wordcount: '546'
+ht-degree: 9%
 
 ---
 
@@ -26,13 +26,22 @@ ht-degree: 7%
 
 >[!ENDSHADEBOX]
 
-Una vez creados y personalizados los correos electrónicos, utilice el asistente de IA en Campaign con tecnología de IA generativa para llevar el contenido al siguiente nivel.
 
 El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que es más probable que resuene en su audiencia.
+
+Con el asistente de IA, el contenido se puede elevar a nuevas alturas. Por ejemplo, se puede utilizar para lo siguiente:
+
+* **Resumir**: condense el contenido largo en resúmenes sucintos para las notificaciones push. Vaya directamente al grano y asegúrese de que los destinatarios capten el mensaje clave al instante.
+* **Elaborado**: Amplíe los temas de las notificaciones push y proporcione detalles y contexto adicionales para una mejor comprensión.
+* **Simplificar idioma**: haga que las notificaciones push sean accesibles para una audiencia más amplia utilizando un lenguaje claro y conciso.
+* **Reformular**: evite la repetición haciendo que el asistente de IA reformule el mensaje de diferentes maneras
+* **Cambiar tono**: cambie el tono emocional de las notificaciones push. Tanto si desea que suene informativo, lúdico o urgente, el asistente de IA puede adaptar el mensaje en consecuencia.
 
 >[!NOTE]
 >
 >Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations).
+
+En el siguiente ejemplo, aprovecharemos el asistente de IA para crear mensajes atractivos para crear una experiencia del cliente más atractiva.
 
 1. Después de crear y configurar la entrega de notificaciones push, haga clic en **[!UICONTROL Editar contenido]**.
 
@@ -87,3 +96,4 @@ El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugirien
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega push. [Más información](../monitor/prepare-send.md)
+
