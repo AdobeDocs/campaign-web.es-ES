@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Texto con el asistente de IA
+title: Contenido generativo
 description: Introducción al asistente de IA en Campaign
 badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
+source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1375'
+ht-degree: 5%
 
 ---
 
