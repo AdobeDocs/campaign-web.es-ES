@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Reconciliación
 description: Aprenda a utilizar la actividad del flujo de trabajo Reconciliación
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 47%
 
 ---
@@ -74,7 +74,7 @@ Mientras que el **Enriquecimiento** La actividad de le permite definir datos adi
 
 Siga estos pasos para configurar el **Reconciliación** actividad:
 
-1. Arrastrar y soltar una **Reconciliación** en el flujo de trabajo. Esta actividad debe añadirse después de una transición que contenga una población cuya dimensión de segmentación no provenga directamente de Adobe Campaign.
+1. Añadir un **Reconciliación** en el flujo de trabajo. Esta actividad debe añadirse después de una transición que contenga una población cuya dimensión de segmentación no provenga directamente de Adobe Campaign.
 
 1. Seleccionar la nueva dimensión de segmentación. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions).
 

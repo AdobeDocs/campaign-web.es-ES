@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 42%
 
 ---
@@ -83,7 +83,7 @@ Esta actividad se puede utilizar con un [Reconciliación](reconciliation.md) act
 
 Siga estos pasos para configurar el **Cargar archivo** actividad:
 
-1. Arrastrar y soltar una **Cargar archivo** en el flujo de trabajo. Haga clic en **Seleccionar del archivo** botón.
+1. Añadir un **Cargar archivo** en el flujo de trabajo. Haga clic en **Seleccionar del archivo** botón.
 
 1. Seleccione el archivo local que desea utilizar. El formato debe estar alineado con esto [archivo de muestra](../../audience/file-audience.md#sample-file).
 
