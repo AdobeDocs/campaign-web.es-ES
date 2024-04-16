@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -55,7 +55,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Omitir transición vacía"
->abstract="Omitir transición vacía."
+>abstract="Omita la transición vacía."
 
 Siga estos pasos para configurar la actividad **División**:
 

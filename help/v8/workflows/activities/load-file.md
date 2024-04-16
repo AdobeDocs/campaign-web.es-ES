@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 42%
+ht-degree: 47%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Eliminar archivo tras la importación"
->abstract="Alternar el **Eliminar archivo tras importar** para eliminar el archivo original del servidor después de importar el archivo."
+>abstract="Activa la opción **Eliminar archivo tras la importación** para eliminar el archivo original del servidor una vez importado el archivo."
 
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
 

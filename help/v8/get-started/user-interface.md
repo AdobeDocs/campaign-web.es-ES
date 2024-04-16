@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -499,13 +499,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
->title="Opciones de transferencia de archivos"
->abstract="Opciones de transferencia de archivos"
+>title="Opciones de transferencia de archivo"
+>abstract="Opciones de transferencia de archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="Transferir actividad de archivo"
->abstract="Transferir actividad de archivo"
+>title="Actividad de transferencia de archivo"
+>abstract="Actividad de transferencia de archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
@@ -519,8 +519,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Eliminar los archivos de origen después de la transferencia"
->abstract="Eliminar los archivos de origen después de la transferencia"
+>title="Eliminar los archivos de origen tras la transferencia"
+>abstract="Eliminar los archivos de origen tras la transferencia"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
@@ -529,13 +529,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Mostrar todos los archivos"
->abstract="Mostrar todos los archivos"
+>title="Listar todos los archivos"
+>abstract="Listar todos los archivos"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
->title="File historization"
->abstract="File historization"
+>title="Historización de archivos"
+>abstract="Historización de archivos"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
