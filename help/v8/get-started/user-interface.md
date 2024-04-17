@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 100%
+source-wordcount: '2279'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Errores de proceso"
 >abstract="Errores de proceso"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="Alertas de envío"
+>id="acw_delivery_alerting_criteria"
+>title="Panel de criterios de alerta de envío"
+>abstract="Panel de criterios de alerta de envío"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Panel de alertas de envío"
+>abstract="Panel de alertas de envío"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Crear criterios de alerta de envío"
+>abstract="Crear criterios de alerta de envío"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicadores para añadir en alertas"
+>abstract="Indicadores para añadir en alertas"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Tipo de alerta"
+>abstract="Tipo de alerta"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Frecuencia de criterios"
+>abstract="Frecuencia de criterios"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Criterios de alertas de envío"
+>abstract="Criterios de alertas de envío"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Parámetros generales de alerta de envío"
 >abstract="Alertas de envío"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Parámetros de criterios de alerta de envío"
+>abstract="Alertas de envío"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Alertas de envío enviadas"
+>abstract="Alertas de envío enviadas"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Historial de alertas de envío"
+>abstract="Historial de alertas de envío"
