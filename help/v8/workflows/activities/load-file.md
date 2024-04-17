@@ -14,7 +14,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
->title="Actividad de carga de archivo"
+>title="Actividad Cargar archivo"
 >abstract="La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con datos almacenados en un archivo externo."
 
 >[!CONTEXTUALHELP]
@@ -34,8 +34,8 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="Rechazar administración para la actividad Cargar archivo"
->abstract="Rechazar administración para la actividad Cargar archivo"
+>title="Gestión de rechazo para la actividad Cargar archivo"
+>abstract="Gestión de rechazo para la actividad Cargar archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -54,8 +54,8 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="Archivo de destino para la actividad Carga de archivo"
->abstract="Archivo de destino para la actividad Carga de archivo"
+>title="Archivo de destino para la actividad Cargar archivo"
+>abstract="Archivo de destino para la actividad Cargar archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
@@ -70,7 +70,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="Eliminar archivo tras la importación"
->abstract="Activa la opción **Eliminar archivo tras la importación** para eliminar el archivo original del servidor una vez importado el archivo."
+>abstract="Active **Eliminar el archivo tras la importación** para eliminar el archivo original del servidor después de importar el archivo."
 
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), o para actualizar perfiles o cualquier otra tabla.
 

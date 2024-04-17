@@ -17,7 +17,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Botón Recordar más tarde"
->abstract="El botón **Recordar más tarde** ofrece la opción de programar un recordatorio. El campo Marca de tiempo requiere un valor que represente la época en segundos."
+>abstract="El botón **Recordar más tarde** proporciona la opción de programar un recordatorio. El campo Marca de tiempo requiere un valor que represente la época en segundos."
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
