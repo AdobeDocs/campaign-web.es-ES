@@ -2,7 +2,8 @@
 audience: end-user
 title: Variables de evento de flujo de trabajo
 description: Descubra cómo aprovechar las variables de eventos en los flujos de trabajo.
-source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
+exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
+source-git-commit: c3f04d3828f22207bd5e9a0e8c334e8f7a57b2c1
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 15%
