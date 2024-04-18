@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 69%
@@ -58,7 +58,7 @@ Para crear su propia consulta, siga estos pasos:
 1. Seleccione **Crear su propia (consulta)**.
 1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
 1. Haga clic en **Continuar**.
-1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../audience/../query/query-modeler-overview.md)
+1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
 >[!TAB Leer audiencia]
 
