@@ -587,12 +587,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Parámetros generales de alerta de envío"
->abstract="Alertas de envío"
+>abstract="Alertas sobre el envío"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parámetros de criterios de alerta de envío"
->abstract="Alertas de envío"
+>abstract="Alertas sobre el envío"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
