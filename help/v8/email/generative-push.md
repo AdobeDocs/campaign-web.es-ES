@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 9%
 * **[Generación de notificaciones push con el asistente de IA](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que es más probable que resuene en su audiencia.
 
@@ -51,7 +50,7 @@ En el siguiente ejemplo, aprovecharemos el asistente de IA para crear mensajes a
 
    >[!IMPORTANT]
    >
-   > El mensaje siempre debe estar vinculado a un contexto específico cargando un recurso de marca o habilitando **[!UICONTROL Mejora del contenido actual]** opción.
+   > El mensaje siempre debe estar vinculado al contenido actual.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 

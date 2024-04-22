@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1351'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ En el siguiente ejemplo, utilizaremos el asistente de IA para refinar un correo 
 
 1. Habilite la **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
-   El mensaje siempre debe estar vinculado a un contexto específico cargando un recurso de marca o habilitando **[!UICONTROL Mejora del contenido actual]** opción.
+   El mensaje siempre debe estar vinculado al contenido actual.
 
 1. Ajuste el contenido describiendo lo que desea generar en la variable **[!UICONTROL Preguntar]** field.
 
@@ -109,7 +109,7 @@ En el siguiente ejemplo, aprovecharemos el asistente de IA para mejorar el conte
 
 1. Habilite la **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
-   El mensaje siempre debe estar vinculado a un contexto específico cargando un recurso de marca o habilitando **[!UICONTROL Mejora del contenido actual]** opción.
+   El mensaje siempre debe estar vinculado al contenido actual.
 
 1. Ajuste el contenido describiendo lo que desea generar en la variable **[!UICONTROL Preguntar]** field.
 
