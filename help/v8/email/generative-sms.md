@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '479'
 ht-degree: 10%
 
 ---
@@ -75,9 +75,11 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
 1. Vaya a **[!UICONTROL Refinar]** dentro de la opción **[!UICONTROL Previsualizar]** para acceder a funciones de personalización adicionales y ajustar la variación a sus preferencias:
 
-   * **Simplificar idioma**: el asistente de IA le ayuda a escribir mensajes claros y concisos que todos puedan comprender.
+   * **[!UICONTROL Usar como contenido de referencia]**: la variante elegida servirá como contenido de referencia para generar otros resultados.
 
-   * **Reformular**: el asistente de IA reformula el mensaje para mantener las cosas atractivas para diferentes audiencias.
+   * **[!UICONTROL Utilizar un lenguaje más sencillo]**: el asistente de IA le ayuda a escribir mensajes claros y concisos que todos puedan comprender.
+
+   * **[!UICONTROL Reformular]**: el asistente de IA reformula el mensaje para mantener las cosas atractivas para diferentes audiencias.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
