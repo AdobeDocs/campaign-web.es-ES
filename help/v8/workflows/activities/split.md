@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '855'
 ht-degree: 86%
 
 ---
@@ -56,6 +56,11 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >id="acw_orchestration_split_emptytransition"
 >title="Omitir transición vacía"
 >abstract="Omita la transición vacía."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Habilitar superposición de poblaciones de salida"
+>abstract="Habilitar superposición de poblaciones de salida"
 
 Siga estos pasos para configurar la actividad **División**:
 
