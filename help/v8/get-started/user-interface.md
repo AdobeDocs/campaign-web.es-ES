@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -494,8 +494,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
->title="Transferencia de archivo"
->abstract="Transferencia de archivo"
+>title="Transferir archivo"
+>abstract="Transferir archivo"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -551,8 +551,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Panel de criterios de alerta de envío"
->abstract="Panel de criterios de alerta de envío"
+>title="Panel de criterios de alertas de envío"
+>abstract="Panel de criterios de alertas de envío"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
@@ -561,8 +561,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="Crear criterios de alerta de envío"
->abstract="Crear criterios de alerta de envío"
+>title="Crear criterios de alertas de envío"
+>abstract="Crear criterios de alertas de envío"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
@@ -586,13 +586,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="Parámetros generales de alerta de envío"
->abstract="Alertas sobre el envío"
+>title="Parámetros generales de alertas de envío"
+>abstract="Alertas de envío"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="Parámetros de criterios de alerta de envío"
->abstract="Alertas sobre el envío"
+>title="Parámetros de criterios de alertas de envío"
+>abstract="Alertas de envío"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
