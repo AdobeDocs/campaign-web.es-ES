@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: ht
-source-wordcount: '2279'
-ht-degree: 100%
+source-git-commit: b8541fa0fe3a7ce905a202b719087132b7b8da14
+workflow-type: tm+mt
+source-wordcount: '2287'
+ht-degree: 99%
 
 ---
 
@@ -488,6 +488,11 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_incrementalquery_history"
 >title="Historial de consultas incrementales"
 >abstract="Historial de consultas incrementales"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Consulta incremental Datos procesados"
+>abstract="Consulta incremental Datos procesados"
 
 
 <!-- Transfer file activity -->
