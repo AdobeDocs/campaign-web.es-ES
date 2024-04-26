@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 99%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="Creación de destinatarios"
->abstract="Creación de destinatarios"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Información general de tarjeta de destinatarios"
 >abstract="Información general de tarjeta de destinatarios"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Mostrar atributos avanzados"
->abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Campos avanzados del generador de reglas"
->abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Atributos avanzados del generador de reglas"
->abstract="Solo los atributos más comunes se muestran de forma predeterminada en la lista de atributos. Active el selector **Mostrar atributos avanzados** para ver todos los atributos disponibles para la lista actual en la paleta izquierda del generador de reglas, como nodos, agrupaciones, vínculos 1-1 y vínculos 1-N."
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="Esta plantilla es de solo lectura"
->abstract="No tiene permisos para editar esta plantilla. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
 
 <!-- Subscription activity-->
 
