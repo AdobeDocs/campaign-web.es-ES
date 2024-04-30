@@ -59,8 +59,8 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
->title="Habilitar superposición de poblaciones de salida"
->abstract="Habilitar superposición de poblaciones de salida"
+>title="Habilitar la superposición de poblaciones de salida"
+>abstract="Habilitar la superposición de poblaciones de salida"
 
 Siga estos pasos para configurar la actividad **División**:
 
