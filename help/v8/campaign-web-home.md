@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ La nueva actividad de direccionamiento **Cambiar fuente de datos** permite cambi
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introducción</strong><br/><a href="get-started/user-interface.md">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conectarse a Campaign</a> - <a href="get-started/using-ai.md">Ayuda contextual con tecnología de IA</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
+      <strong>Introducción a</strong><br/><a href="get-started/user-interface.md">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conexión a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
