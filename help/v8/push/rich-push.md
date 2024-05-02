@@ -5,9 +5,9 @@ description: Aprenda a diseñar una entrega de notificaciones push enriquecidas 
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 11%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 11%
 >id="acw_deliveries_push_remind_later"
 >title="Botón Recordar más tarde"
 >abstract="El botón **Recordar más tarde** proporciona la opción de programar un recordatorio. El campo Marca de tiempo requiere un valor que represente la época en segundos."
+
+>[!AVAILABILITY]
+>
+>Esta función se encuentra en **Disponibilidad limitada** (LA).
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 

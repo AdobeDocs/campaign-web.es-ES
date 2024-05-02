@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '1088'
 ht-degree: 5%
 
 ---
@@ -34,13 +34,25 @@ Para quitar una actividad, selecciónela en el lienzo y haga clic en **Eliminar*
 >
 >Tiene la opción de personalizar el nombre de las transiciones entre cada actividad. Para ello, seleccione la transición y cambie su etiqueta en el panel derecho.
 
+## La barra de herramientas {#toolbar}
+
+La barra de herramientas situada en la esquina superior derecha del lienzo proporciona opciones para manipular fácilmente las actividades y navegar en el lienzo:
+
+* **Modo de selección múltiple**: seleccione varias actividades para eliminarlas todas a la vez o cópielas y péguelas. Consulte [esta sección](#copy).
+* **Rotar**: cambie el lienzo verticalmente.
+* **Ajustar a pantalla**: adapte el nivel de zoom del lienzo a la pantalla.
+* **Alejar** / **Ampliar**: Aleje o en el lienzo.
+* **Mostrar mapa**: abre una instantánea del lienzo en el que se muestra que se encuentra.
+
+![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+
 ## Administrar actividades {#manage}
 
 Al agregar actividades, los botones de acción están disponibles en el panel de propiedades, lo que le permite realizar varias operaciones. Puede hacer lo siguiente:
 
 * **Eliminar** la actividad del lienzo.
 * **Deshabilitar/habilitar** la actividad. Cuando se ejecuta el flujo de trabajo, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y el flujo de trabajo se detiene.
-* **Copiar** la actividad. A continuación, puede pegarlo en cualquier flujo de trabajo haciendo clic en **+** en una transición y seleccione &quot;Pegar 1 actividad&quot;.
+* **Copiar** la actividad. Consulte [esta sección](#copy).
 * Acceda a los **Registros y tareas**.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 
@@ -49,6 +61,50 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 Varios **Segmentación** actividades, como **Combinar** o **Deduplicación**, le permite procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si utiliza un **Split** actividad, el complemento está formado por la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para utilizar esta capacidad, active la variable **Generar complemento** opción.
 
 ![](assets/workflow-split-complement.png)
+
+## Copiar actividades {#copy}
+
+Puede copiar actividades de flujo de trabajo y pegarlas en cualquier flujo de trabajo. El flujo de trabajo de destino puede estar en una pestaña diferente del explorador.
+
+Para copiar actividades, tiene dos opciones:
+
+* copie una actividad con el botón acción.
+
+  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+* copie varias actividades con el botón de la barra de herramientas.
+
+  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+Para pegar las actividades copiadas, haga clic en **+** en una transición y seleccione Pegar actividad X.
+
+![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+## Opciones de ejecución {#execution}
+
+Todas las actividades permiten administrar sus opciones de ejecución. Seleccione una actividad y haga clic en **Opciones de ejecución** botón. Esto permite definir el modo de ejecución y el comportamiento de la actividad en caso de errores.
+
+![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+### Propiedades
+
+El **Ejecución** permite definir la acción que se lleva a cabo cuando se inicia la tarea.
+
+El **Duración máxima de la ejecución** permite especificar una duración como &quot;30 segundos&quot; o &quot;1h&quot;. Si la actividad no termina después de que haya transcurrido la duración especificada, se activa una alerta. Esto no afecta al funcionamiento del flujo de trabajo.
+
+El **Zona horaria** Este campo permite seleccionar la zona horaria de la actividad. Adobe Campaign le permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura cuando se crea la instancia.
+
+**La afinidad** Este campo permite forzar la ejecución de un flujo de trabajo o una actividad de flujo de trabajo en un equipo concreto. Para ello, debe especificar una o varias afinidades para el flujo de trabajo o actividad en cuestión.
+
+El **Comportamiento** permite definir el procedimiento que se debe seguir si se utilizan tareas asincrónicas.
+
+### Administración de errores
+
+El **En caso de error** Este campo permite especificar la acción que se debe llevar a cabo si la actividad experimenta un error.
+
+### Script de inicialización
+
+El **Script de inicialización** permite inicializar variables o modificar propiedades de actividad. Haga clic en **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad. Consulte la sección relacionada con [variables de evento](../workflows/event-variables.md).
 
 ## Ejemplo {#example}
 

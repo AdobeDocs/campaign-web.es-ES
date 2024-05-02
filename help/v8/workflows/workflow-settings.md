@@ -3,10 +3,10 @@ audience: end-user
 title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 32%
+source-wordcount: '1067'
+ht-degree: 31%
 
 ---
 
@@ -103,3 +103,8 @@ Cuando el flujo de trabajo es [asociado a una campaña](create-workflow.md), se 
    * **[!UICONTROL Anular el proceso]**: el flujo de trabajo se detiene automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie el flujo de trabajo con la variable **[!UICONTROL Inicio]** botones.
 
 * **[!UICONTROL Consecutive errors]**: este campo está disponible cuando la variable **[!UICONTROL Ignorar]** El valor está seleccionado en **[!UICONTROL En caso de errores]** field. Puede especificar el número de errores que se pueden omitir antes de que se detenga el proceso. Una vez alcanzado este número, el estado del flujo de trabajo cambia a **[!UICONTROL Failed]**. Si el valor de este campo es 0, el flujo de trabajo nunca se detiene, independientemente del número de errores.
+
+## Script de inicialización {#initialization-script}
+
+El **Script de inicialización** permite inicializar variables o modificar propiedades de actividad. Haga clic en **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta el flujo de trabajo. Consulte la sección relacionada con [variables de evento](../workflows/event-variables.md).
+
