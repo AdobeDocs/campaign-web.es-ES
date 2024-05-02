@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 35%
+source-wordcount: '1074'
+ht-degree: 32%
 
 ---
 
@@ -53,6 +53,11 @@ Para acceder a los servicios de suscripción disponibles para su plataforma, sig
 >title="Selección de un mensaje de confirmación"
 >abstract="Cuando un usuario se suscribe o cancela la suscripción a un servicio, puede enviar un mensaje de confirmación. Seleccione las plantillas que usará en ese mensaje."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Página de aterrizaje predeterminada"
+>abstract="Seleccione las páginas de aterrizaje predeterminadas asociadas a este servicio."
+
 Para crear un servicio de suscripción, siga los pasos a continuación.
 
 1. Seleccione el **[!UICONTROL Crear servicio de suscripción]** botón.
@@ -81,9 +86,25 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
 
 1. Clic **[!UICONTROL Guardar y revisar]**. El nuevo servicio se agrega al **[!UICONTROL Servicios de suscripción]** lista.
 
+1. También puede seleccionar las páginas de aterrizaje predeterminadas de suscripción y de cancelación de suscripción asociadas a este servicio.
+
+   >[!AVAILABILITY]
+   >
+   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   Una vez finalizado, cuando [inserción de un vínculo](../email/message-tracking.md) en un correo electrónico, seleccione **[!UICONTROL Vínculo de suscripción]** o **[!UICONTROL Vínculo de baja]**. Al hacer clic en ese vínculo, se dirige a los usuarios a la página de aterrizaje de suscripción o de cancelación de suscripción a la que se hace referencia en el servicio. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. Guarde y revise los cambios.
+
 Ahora puede hacer lo siguiente:
 
-* Añada suscriptores a este servicio y cancele la suscripción de perfiles. [Más información](../msg/send-to-subscribers.md)
+* Añadir manualmente suscriptores a este servicio y cancelar la suscripción de perfiles. [Más información](../audience/manage-subscribers.md)
+
+* Invite a sus clientes a suscribirse a este servicio a través de una página de aterrizaje. [Más información](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Envíe mensajes a los suscriptores de este servicio. [Descubra cómo](../msg/send-to-subscribers.md)
 
