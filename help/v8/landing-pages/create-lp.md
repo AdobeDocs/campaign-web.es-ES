@@ -3,10 +3,10 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 34%
+source-wordcount: '1504'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,9 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definir opciones de precarga"
->abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con la opción **Omitir precarga si no hay ID** seleccionada, cada perfil introducido se añade a la base de datos después de la aprobación del formulario."
+>abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con el **Autorizar ausencia de ID** Si se selecciona esta opción, cualquier visitante, incluidos los usuarios anónimos, puede acceder a la página de aterrizaje."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -98,21 +100,41 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. En el **[!UICONTROL Precarga de datos]** , las dos opciones siguientes están seleccionadas de forma predeterminada:
+1. En el **[!UICONTROL Precarga de datos]** , están disponibles las dos opciones siguientes:
 
    * Cuando la opción **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. El usuario solo tiene que rellenar los campos que faltan y actualizar los valores existentes si es necesario. Esto permite combinar datos para perfiles existentes en lugar de crear duplicados.
 
-   * El **[!UICONTROL Omitir precarga si no hay ID]** La opción debe estar seleccionada si no desea actualizar los perfiles. En este caso, cada perfil introducido se añade a la base de datos después de la aprobación del formulario. Esta opción se utiliza, por ejemplo, cuando se publica el formulario en un sitio web.
+     >[!NOTE]
+     >
+     >Esta opción está seleccionada de forma predeterminada para todas las plantillas de página de aterrizaje.
 
-1. Una página de aterrizaje puede tener páginas posteriores. Para agregar páginas, busque **[!UICONTROL Páginas]** y haga clic en la sección **[!UICONTROL Editar contenido]** para cada página que desee diseñar para esta página de aterrizaje. El contenido de cada página ya está rellenado previamente. Edítelos según sea necesario. [Más información](lp-content.md)
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * El **[!UICONTROL Autorizar ausencia de ID]** permite que cualquier visitante acceda a la página de aterrizaje. Si se anula la selección de esta opción, se impide que los visitantes anónimos la utilicen, lo que significa que solo los usuarios identificados pueden acceder al formulario y enviarlo.
+
+     >[!AVAILABILITY]
+     >
+     >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+
+     Para el **[!UICONTROL Adquisición]** y **[!UICONTROL Suscripción]** plantillas, esta opción está seleccionada de forma predeterminada. Para el **[!UICONTROL Baja]** y **[!UICONTROL Lista de bloqueados de]** plantillas, esta opción no está seleccionada de forma predeterminada y no se puede modificar<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+
+1. Una página de aterrizaje puede tener páginas posteriores. Para agregar páginas, examine la **[!UICONTROL Páginas]** y haga clic en la sección **[!UICONTROL Editar contenido]** para cada página que desee diseñar para esta página de aterrizaje. El contenido de cada página ya está rellenado previamente. Edítelos según sea necesario. [Más información](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. El **[!UICONTROL Actualización del registro cargado previamente]** está seleccionada de forma predeterminada. Permite actualizar los perfiles almacenados en la base de datos a través de la página de aterrizaje. La casilla de precarga le permite indicar cómo buscar el registro que se actualiza en la base de datos.
+1. En el **[!UICONTROL Almacenamiento]** , la sección **[!UICONTROL Actualización del registro cargado previamente]** está seleccionada de forma predeterminada. Permite actualizar los perfiles almacenados en la base de datos a través de la página de aterrizaje. La casilla de precarga le permite indicar cómo buscar el registro que se actualiza en la base de datos.
 
    También puede elegir entre los campos del contexto actual de la página de aterrizaje, los que se utilizan para encontrar el perfil correspondiente en la base de datos. Para ello, anule la selección del **[!UICONTROL Actualización del registro cargado previamente]** y marque los campos deseados en **[!UICONTROL Opciones de reconciliación]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. Crear **[!UICONTROL Datos adicionales]** para almacenar datos internos cuando se envía la página de aterrizaje. Estos datos no son visibles para los usuarios que visitan la página. Solo se tienen en cuenta los valores constantes.
+
+   >[!AVAILABILITY]
+   >
+   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Seleccionar **[!UICONTROL Habilitar programación]** y fije las fechas.
 
@@ -161,6 +183,8 @@ Para probar la página de aterrizaje, siga estos pasos:
 1. Desde el **[!UICONTROL Simular]** , seleccione uno o más perfiles de prueba.
 
    Los pasos para seleccionar perfiles de prueba son los mismos que al probar un mensaje. Se encuentran detalladas en la [Previsualización y prueba](../preview-test/preview-test.md) sección.
+
+1. Al probar una página de aterrizaje dinámica (con la variable **[!UICONTROL Servicio desde URL]** opción seleccionada - [obtenga más información](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Seleccionar **[!UICONTROL Abrir vista previa]** para probar la página de aterrizaje.
 
