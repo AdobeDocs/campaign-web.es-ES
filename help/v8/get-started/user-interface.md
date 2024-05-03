@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1644'
 ht-degree: 99%
 
 ---
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Previsualización de ofertas de destinatarios"
 >abstract="Previsualización de ofertas de destinatarios"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Fragmentos"
->abstract="Fragmentos"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="Guardar fragmentos"
->abstract="Guardar fragmentos"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="Creación de fragmentos"
->abstract="Creación de fragmentos"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="Propiedades de fragmentos"
->abstract="Propiedades de fragmentos"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="Tipo de fragmentos"
->abstract="Tipo de fragmentos"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="Lista de fragmentos"
->abstract="Lista de fragmentos"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="Detalles de fragmentos"
->abstract="Detalles de fragmentos"
 
 
 
