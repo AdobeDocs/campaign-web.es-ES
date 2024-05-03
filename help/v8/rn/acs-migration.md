@@ -2,13 +2,13 @@
 audience: end-user
 title: Transición del Campaign Standard a la web de Adobe Campaign
 description: Interfaz de usuario web de Discover Campaign
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Campaign Standard de la transición a Campaign v8{#welcome}
 
@@ -64,10 +64,10 @@ La mayoría de los conceptos son similares entre la interfaz web de Campaign y e
 * Los recursos personalizados son **Esquemas** en la interfaz de usuario web de Campaign.
 * Las actividades de marketing ya no existen.
 * Los mensajes son **Envíos**.
-* Los operadores son **Usuarios**.
-* Los derechos asignados son **Funciones**.
-* Los grupos de operadores son **Grupos de seguridad**.
-* Los permisos de carpeta son **Unidades organizativas**
+* Los usuarios son **Operadores**.
+* Los roles son **Derechos asignados**.
+* Los grupos de seguridad son **Grupos de operadores**.
+* Las unidades organizativas son **Permisos de carpeta**
 
 ## Nuevas características {#new-features}
 
