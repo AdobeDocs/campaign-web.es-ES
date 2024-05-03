@@ -3,17 +3,16 @@ audience: end-user
 title: Añadir fragmentos visuales a los correos electrónicos
 description: Aprenda a añadir fragmentos visuales a los correos electrónicos
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 4%
 
 ---
 
 # Añadir fragmentos visuales a los correos electrónicos {#use-visual-fragments}
 
-Puede utilizar un fragmento visual en una [envío por correo electrónico](get-started-email-designer.md), o en un [plantilla de contenido](use-email-templates.md).
-
+Puede utilizar un fragmento visual en una [envío por correo electrónico](get-started-email-designer.md), o en un [plantilla de contenido](use-email-templates.md). Los pasos se detallan a continuación.
 
 
 >[!NOTE]
