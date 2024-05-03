@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
->[!TAB Esta es la versión de marzo]
+>[!TAB Ya está aquí la versión de abril.]
 
-Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.3 de la interfaz de usuario web de Adobe Campaign.
+Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.4 de la interfaz de usuario web de Adobe Campaign.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Canal de correo postal]
+>[!TAB Nuevas actividades de flujo de trabajo]
 
-El canal de **correo directo** ya está disponible para su uso en flujos de trabajo y envíos independientes. El correo directo es un canal sin conexión que le permite crear, personalizar y generar archivos de extracción, así como compartirlos con sus proveedores de correo directo para enviarles correos a sus clientes.
+Esta versión incorpora las siguientes actividades de flujo de trabajo: Actualización de datos, Servicios de suscripción, Extracción de archivo, Transferencia de archivo, Prueba, Código JavaScript, Señal externa, Consulta incremental.
 
-![imagen](assets/do-not-localize/direct-mail.gif)
+[![imagen](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Notificación push enriquecida]
 
->[!TAB Nueva actividad de flujo de trabajo Cambiar fuente de datos]
+Ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido multimedia enriquecido.
 
-La nueva actividad de direccionamiento **Cambiar fuente de datos** permite cambiar la fuente de datos de la tabla de trabajo de su flujo de trabajo. Esta actividad proporciona más flexibilidad al permitirle administrar datos en sus diferentes bases de datos y mejorar los rendimientos.
-
-![imagen](assets/do-not-localize/change-data-source.gif)
-
-[![imagen](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![imagen](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
