@@ -2,14 +2,21 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Consulta incremental
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Consulta incremental
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 20%
+source-wordcount: '786'
+ht-degree: 22%
 
 ---
 
 # Consulta incremental {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Actividad de consulta incremental"
+>abstract="Utilice la nueva actividad Consulta incremental para consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

@@ -2,14 +2,24 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Actualizar datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Actualización de datos
-source-git-commit: 347f8f84a8eda60538366eb3dc49f8d7e06379c3
+exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 32%
+source-wordcount: '541'
+ht-degree: 31%
 
 ---
 
 # Actualización de datos {#update-data}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Actividad Actualizar datos"
+>abstract="La actividad Actualizar datos ya está disponible para su uso en flujos de trabajo. Utilice la actividad Update data para realizar una actualización masiva de los campos de la base de datos. Se proponen varias opciones para personalizar el tipo de actualización."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
+
+
 
 El **Actualización de datos** la actividad es una **Administración de datos** actividad. Permite realizar una actualización masiva de los campos de la base de datos. Varias opciones permiten personalizar la actualización de datos.
 
