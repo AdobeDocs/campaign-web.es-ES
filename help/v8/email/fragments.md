@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: Trabajo con fragmentos
-description: Aprenda a trabajar con fragmentos
+title: Creación de fragmentos de contenido
+description: Aprenda a crear con fragmentos de contenido
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '843'
 ht-degree: 6%
 
 ---
 
-# Trabajo con fragmentos {#fragments}
+# Creación de fragmentos de contenido {#fragments}
 
 
 >[!CONTEXTUALHELP]
