@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 13%
+source-wordcount: '1227'
+ht-degree: 14%
 
 ---
 
@@ -42,10 +42,6 @@ El **Cargar archivo** la configuración de actividad incluye dos pasos. En prime
 ![](../assets/workflow-load-file.png)
 
 ### Configuración del archivo de muestra {#sample}
-
->[!AVAILABILITY]
->
->Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que se ejecutan en un servidor de Campaign v8.7 y no se puede implementar en ningún otro entorno.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
 >
 >Antes de cargar el archivo de destino, asegúrese de que se adhiera al formato del archivo de muestra. Cualquier discrepancia en el formato de archivo, la estructura de columnas o el número de columnas puede provocar errores durante la ejecución del flujo de trabajo.
 
+Para definir el archivo de destino que se va a cargar, siga estos pasos:
+
 1. En el **[!UICONTROL Archivo de destino]** , especifique la acción que se realizará al recuperar el archivo que se va a cargar en el servidor.
 
    * **[!UICONTROL Cargar archivo desde el equipo local]**: seleccione el archivo que desea cargar desde el equipo.
@@ -150,10 +148,6 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
 >title="Eliminar archivo tras la importación"
 >abstract="Active **Eliminar el archivo tras la importación** para eliminar el archivo original del servidor después de importar el archivo."
 
-
->[!AVAILABILITY]
->
->Estas opciones se encuentran en disponibilidad limitada (LA). Están restringidos a los clientes que se ejecutan en un servidor de Campaign v8.7 y no se pueden implementar en ningún otro entorno.
 
 1. En el **Rechazar administración** , especifique cómo debe comportarse la actividad en caso de errores:
 

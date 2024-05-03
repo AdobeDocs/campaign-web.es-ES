@@ -2,9 +2,9 @@
 title: Últimas notas de la versión
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1137'
 ht-degree: 25%
 
 ---
@@ -17,7 +17,7 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 
 ## Notas de la versión de abril {#april-24-4-release}
 
-**Fecha de lanzamiento**: 30 de abril de 2024
+**Fecha de lanzamiento**: 2 de mayo de 2024
 
 ### Nuevas características {#new-24-4}
 
@@ -26,12 +26,12 @@ Las siguientes funciones están disponibles para todos los usuarios a partir de 
 **Nuevas actividades de flujo de trabajo**
 
 * **Actualización de datos** : Utilice esta actividad para realizar actualizaciones masivas de los campos de la base de datos. Varias opciones permiten personalizar la actualización de datos. [Más información](../workflows/activities/update-data.md)
-* **Servicios de suscripción** : Utilice esta actividad para suscribirse o cancelar la suscripción de varios perfiles a un servicio o de un servicio en una sola acción. [Más información](../workflows/activities/subscription-services.md)
+* **Servicios de suscripción** : utilice esta actividad para suscribir o cancelar la suscripción de varios perfiles a un servicio o de un servicio en una sola acción. [Más información](../workflows/activities/subscription-services.md)
 * **Extraer archivo** : utilice esta actividad para exportar datos de Adobe Campaign a otro sistema como archivo externo. [Más información](../workflows/activities/extract-file.md)
 * **Transferir archivo** : utilice esta actividad para recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado puede ser el protocolo servidor a servidor o el protocolo HTTP. [Más información](../workflows/activities/transfer-file.md)
 * **Prueba** : Utilice esta actividad para habilitar transiciones basadas en condiciones especificadas. [Más información](../workflows/activities/test.md)
 * **Código JavaScript** : Utilice esta actividad para ejecutar un fragmento de código JavaScript en el contexto de un flujo de trabajo. [Más información](../workflows/activities/javascript-code.md)
-* **Señal externa** : Utilice esta actividad para almacenar en déclencheur la ejecución de un flujo de trabajo desde otro flujo de trabajo* o una llamada de API. [Más información](../workflows/activities/external-signal.md)
+* **Señal externa** : Utilice esta actividad para almacenar en déclencheur la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada de API. [Más información](../workflows/activities/external-signal.md)
 * **Consulta incremental** : Utilice esta actividad para consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto le permite dirigirse únicamente a elementos nuevos. [Más información](../workflows/activities/incremental-query.md)
 
 **Plantillas de notificaciones push enriquecidas**
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Informes dinámicos** : Como usuario Campaign Standard migrado, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Mejora de la actividad del archivo de carga** - El **Cargar archivo** la actividad se ha mejorado con varias secciones que le permiten cargar un archivo de muestra, administrar errores y rechazos y eliminar archivos cargados después de ejecutar la actividad. [Más información](../workflows/activities/load-file.md)
-
 * **Páginas de aterrizaje** - Las siguientes mejoras para las páginas de aterrizaje solo están disponibles para los usuarios que realizan la transición desde Campaign Standard:
 
    * Ahora puede hacer referencia a una página de aterrizaje de suscripción/baja predeterminada al configurar un servicio. Al diseñar un correo electrónico, si define un vínculo a esa página de aterrizaje, los usuarios que envíen el formulario de página de aterrizaje se suscriben o cancelan su suscripción automáticamente a este servicio. [Más información](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 Las mejoras siguientes están disponibles para todos los clientes a partir de la versión de abril.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* Ahora puede copiar/pegar actividades de un flujo de trabajo en otro flujo de trabajo desde una pestaña diferente del explorador. [Más información](../workflows/orchestrate-activities.md#copy-activities-copy)
+* El **Cargar archivo** la actividad se ha mejorado con varias secciones que le permiten cargar un archivo de muestra, administrar errores y rechazos y eliminar archivos cargados después de ejecutar la actividad. [Más información](../workflows/activities/load-file.md)
+
+
+* Ahora puede **copiar/pegar actividades** de un flujo de trabajo a otro desde una pestaña diferente del explorador. [Más información](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Todas las actividades de flujo de trabajo ahora permiten administrar sus opciones de ejecución. Esto permite definir el modo de ejecución y el comportamiento de la actividad en caso de errores. [Más información](../workflows/orchestrate-activities.md#execution-options-execution)
+* Todas las actividades de flujo de trabajo ahora permiten administrar sus **opciones de ejecución**. Esto permite definir el modo de ejecución y el comportamiento de la actividad en caso de errores. [Más información](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ Las mejoras siguientes están disponibles para todos los clientes a partir de la
 
 <!--* **Support of custom fields**-->
 
-* Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. En la interfaz de usuario web de Campaign, estos campos personalizados ahora están visibles en varias pantallas, por ejemplo, los detalles de un perfil o un perfil de prueba. En la interfaz de usuario web, no se pueden crear campos personalizados, pero ahora se puede modificar la forma en que se muestran. [Más información](../administration/custom-fields.md)
+* **Campos personalizados** Hay atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. En la interfaz de usuario web de Campaign, estos campos personalizados ahora están visibles en varias pantallas, por ejemplo, los detalles de un perfil o un perfil de prueba. En la interfaz de usuario web, no se pueden crear campos personalizados, pero ahora se puede modificar la forma en que se muestran. [Más información](../administration/custom-fields.md)
 
 
 ## Notas de la versión de marzo {#24-3-release}
