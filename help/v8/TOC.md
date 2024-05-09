@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [Novedades](rn/whats-new.md)
    + [Último lanzamiento](rn/release-notes.md)
    + [Actualizaciones de la documentación](rn/documentation-updates.md)
-   + [Del Campaign Standard a la versión 8](rn/acs-migration.md)
+   + [De Campaign Standard a la versión 8](rn/acs-migration.md)
 + Introducción a Adobe Campaign {#start}
    + [Introducción](get-started/get-started.md)
    + [Conéctese a Campaign](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [Examen y filtrado de listas](get-started/list-filters.md)
    + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
-   + [Consola de cliente y web de Campaign](get-started/capability-matrix.md)
+   + [Web y Consola de cliente de Campaign](get-started/capability-matrix.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [Configurar el contenido de correo electrónico](email/edit-content.md)
          + Administración de contenido reutilizable {#manage-reusable-content}
             + [Trabajo con plantillas de contenido](email/create-email-templates.md)
-            + [Trabajo con fragmentos](email/fragments.md)
+            + [Trabajo con fragmentos visuales](email/fragments.md)
             + [Añadir fragmentos visuales a los correos electrónicos](email/use-visual-fragments.md)
          + Comience a dar forma al correo electrónico {#start-design}
             + [Introducción al Diseñador de correo electrónico](email/get-started-email-designer.md)
@@ -197,5 +197,5 @@ ht-degree: 96%
    + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Administración {#administration}
-   + [Configuración de campos personalizados](administration/custom-fields.md)
+   + [Configuración de los campos personalizados](administration/custom-fields.md)
 

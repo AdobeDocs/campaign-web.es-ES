@@ -5,9 +5,9 @@ description: Aprenda a crear con fragmentos de contenido
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '887'
 ht-degree: 5%
 
 ---
@@ -167,7 +167,7 @@ Para eliminar un fragmento, siga estos pasos:
 
 >[!CAUTION]
 >
->Al eliminar un fragmento de contenido, los envíos de correo electrónico y las plantillas que lo utilizan se actualizan y el fragmento se elimina del contenido del mensaje. Puede interrumpir la herencia si es necesario. [Más información](use-visual-fragments.md#break-inheritance)
+>Al eliminar un fragmento de contenido, se actualizan las entregas de correo electrónico y las plantillas que lo utilizan: el fragmento se elimina del contenido del correo electrónico, pero se sigue haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, debe interrumpir la herencia antes de eliminar el fragmento, [como se detalla en esta sección](use-visual-fragments.md#break-inheritance).
 >
 
 ### Duplicación de un fragmento {#duplicate-fragments}

@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1369'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 **Tabla de contenido**
 
 * [Introducción al asistente de IA](generative-gs.md)
-* **[Generación de correo electrónico con el asistente de IA](generative-content.md)**
+* Generación de correo electrónico con el asistente de IA
 * [Generación de SMS con el asistente de IA](generative-sms.md)
 * [Generación de notificaciones push con el asistente de IA](generative-push.md)
 
@@ -216,10 +216,10 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## Vídeos explicativos {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+Aprenda a utilizar el asistente de IA para generar contenido, texto e imágenes completos de correo electrónico.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+
