@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 11%
@@ -32,7 +32,7 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
 >[!NOTE]
 >
->Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations).
+>Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#generative-guardrails).
 
 1. Después de crear y configurar el envío de SMS, haga clic en **[!UICONTROL Editar contenido]**.
 
