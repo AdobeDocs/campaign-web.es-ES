@@ -4,9 +4,9 @@ description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Esta versión incorpora las siguientes actividades de flujo de trabajo: Actualiz
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Notificación push enriquecida]
+>[!TAB Notificación de push incorrecta]
 
-Ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido multimedia enriquecido.
+Ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ Ahora puede enviar notificaciones push enriquecidas a través de Android. Las no
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introducción a</strong><br/><a href="get-started/user-interface.md">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conexión a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
+      <strong>Introducción</strong><br/><a href="get-started/user-interface.md">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conectarse a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
