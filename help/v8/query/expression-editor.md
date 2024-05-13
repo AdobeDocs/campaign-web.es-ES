@@ -3,10 +3,10 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 77%
+source-wordcount: '2106'
+ht-degree: 74%
 
 ---
 
@@ -91,6 +91,11 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Devuelve la desviación estándar de una columna de número, cadena o fecha.<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento<br /> </td> 
+   <td> StringAgg()&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -145,6 +150,16 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Convierte la marca de tiempo NTZ (marca de tiempo sin zona horaria) en TZ (marca de tiempo con zona horaria) aplicando la TZ de sesión definida<br/> </td> 
    <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Comparar dos fechas<br/> </td> 
+   <td> DateCmp()&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -279,7 +294,17 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Convierte una cadena en una fecha + hora.<br /> </td> 
-   <td> ToDateTime(&lt;string&gt;)<br /> </td>  
+   <td> ToDateTime(&lt;cadena&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Convierte una cadena en una marca de tiempo<br /> </td> 
+   <td> ToTimestamp()&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Convertir una fecha y hora a la zona horaria<br /> </td> 
+   <td> ToTimeZone()&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> <strong>Descripción</strong><br /> </td> 
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Cifrar la cadena proporcionada en el argumento<br /> </td> 
+   <td> AESEncrypt()&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Devuelve el valor 1 si la condición es verdadera. Si no es así, devuelve el valor 2.<br /> </td> 
@@ -522,11 +547,11 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> Devuelve el valor 2 si la cadena 1 está vacía; en caso contrario, devuelve el valor 3<br /> </td> 
    <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> Devuelve un ID único<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Devuelve la cadena vacía si el argumento es NULL<br /> </td> 
@@ -631,11 +656,11 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> Devuelve la longitud de la cadena<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Línea</strong><br /> </td> 
+   <td> Extraer línea n de cadena<br /> </td> 
+   <td> Line()&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Devuelve la cadena en minúscula<br /> </td> 
@@ -665,6 +690,11 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrae el valor de un campo XML de su XPath y de los datos del campo<br /> </td> 
    <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Reemplaza todas las apariciones de un valor de cadena especificado por otro valor de cadena.<br /> </td> 
+   <td> Replace()&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
