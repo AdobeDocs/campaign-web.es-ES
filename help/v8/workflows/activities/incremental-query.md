@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Consulta incremental
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Consulta incremental
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 22%
+source-wordcount: '794'
+ht-degree: 23%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 22%
 >id="acw_orchestration_incrementalquery_history"
 >title="Historial de consultas incrementales"
 >abstract="Historial de consultas incrementales"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Datos procesados de consulta incremental"
+>abstract="Datos procesados de consulta incremental"
 
 El **Consulta incremental** la actividad es una **Segmentación** actividad que permite consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos.
 
