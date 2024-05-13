@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cambiar fuente de datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Cambiar fuente de datos
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 16%
+source-wordcount: '343'
+ht-degree: 13%
 
 ---
 
@@ -24,6 +24,10 @@ En los flujos de trabajo, los datos que pasan de una actividad a otra a través 
 En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que tenga que forzar el flujo de trabajo para que utilice una base de datos diferente para realizar estas operaciones añadiendo una **[!UICONTROL Cambiar fuente de datos]** actividad.
 
 Encontrará información detallada sobre la arquitectura de Campaign en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+
+>[!IMPORTANT]
+>
+>Tenga en cuenta que las **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROOL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 <!--
 
