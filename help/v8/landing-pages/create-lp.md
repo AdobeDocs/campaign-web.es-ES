@@ -3,10 +3,10 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 28%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Para acceder a la lista de página de aterrizaje, seleccione **[!UICONTROL Admin
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-El **[!UICONTROL Páginas de aterrizaje]** inventory muestra todos los artículos creados. Puede filtrarlos con el **Mostrar filtros** botón. Puede restringir los resultados a un específico [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando la variable [modelador de consultas](../query/query-modeler-overview.md).
+El **[!UICONTROL Páginas de aterrizaje]** inventory muestra todos los artículos creados. Puede filtrarlos con el **[!UICONTROL Mostrar filtros]** botón. Puede restringir los resultados a un específico [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando la variable [modelador de consultas](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 
@@ -61,7 +61,7 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definir opciones de precarga"
->abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con el **Autorizar ausencia de ID** Si se selecciona esta opción, cualquier visitante, incluidos los usuarios anónimos, puede acceder a la página de aterrizaje."
+>abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con la opción **Autorizar ausencia de ID** seleccionada, cualquier visitante, incluidos los usuarios anónimos, puede acceder a la página de aterrizaje."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -114,7 +114,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
      >[!AVAILABILITY]
      >
-     >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+     >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
      Para el **[!UICONTROL Adquisición]** y **[!UICONTROL Suscripción]** plantillas, esta opción está seleccionada de forma predeterminada. Para el **[!UICONTROL Baja]** y **[!UICONTROL Lista de bloqueados de]** plantillas, esta opción no está seleccionada de forma predeterminada y no se puede modificar<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
@@ -132,7 +132,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    >[!AVAILABILITY]
    >
-   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
