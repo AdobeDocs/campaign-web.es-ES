@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 20%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -53,12 +53,12 @@ Desde la lista, puede editar, duplicar o eliminar plantillas de contenido existe
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Diseño de plantilla de contenido"
->abstract="Diseño de plantilla de contenido"
+>abstract="Diseñe la plantilla de contenido de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Selección de plantilla de contenido"
->abstract="Selección de plantilla de contenido"
+>abstract="Seleccione la plantilla de contenido de correo electrónico."
 
 Las plantillas de contenido se pueden crear mediante [guardar un correo electrónico existente como plantilla](#save-as-template), o desde la lista de plantillas de correo electrónico, a través de **Crear plantilla de contenido** botón, [como se detalla a continuación](#create-template-from-scratch).
 

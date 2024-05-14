@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 42%
+source-wordcount: '726'
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de fil
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Lista de flujos de trabajo de una campaña"
->abstract="Lista de flujos de trabajo de una campaña"
+>abstract="El **Flujo de trabajo** La pestaña enumera todos los flujos de trabajo vinculados a la campaña actual."
 
 En el **Examinar** de la lista de campañas, haga clic en el nombre de una campaña para mostrar sus detalles.
 

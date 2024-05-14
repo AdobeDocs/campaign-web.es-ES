@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 69%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -33,12 +33,12 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuración de la actividad Generar público{#build-audience-configuration}
+## Configuración de la actividad Generar público {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="Público"
->abstract="Público"
+>abstract="Seleccione la audiencia, del mismo modo que utiliza una audiencia para diseñar una nueva entrega."
 
 Siga estos pasos para configurar la actividad **Generar público destinatario**:
 

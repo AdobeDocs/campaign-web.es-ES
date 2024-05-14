@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo Extraer archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Extraer archivo
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 7%
+source-wordcount: '875'
+ht-degree: 15%
 
 ---
 
@@ -14,13 +15,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Extracción de archivos"
->abstract="El **Extraer archivo** La actividad de permite exportar datos desde Adobe Campaign en forma de archivo externo. A continuación, los datos se pueden exportar a una ubicación de servidor como SFTP, Cloud Storage o el servidor de Campaign mediante la actividad Transferir archivo."
+>abstract="La actividad **Extraer archivo** permite exportar datos desde Adobe Campaign en forma de archivo externo. A continuación, los datos se pueden exportar a una ubicación de servidor como SFTP, Cloud Storage o el servidor de Campaign mediante la actividad Transferir archivo."
 
 El **Extraer archivo** la actividad es una **Administración de datos** actividad. Utilice esta actividad para exportar datos desde Adobe Campaign en forma de archivo externo. A continuación, los datos se pueden exportar a una ubicación de servidor como SFTP, Cloud Storage o el servidor de Campaign mediante la actividad Transferir archivo.
 
 Para configurar la variable **Extraer archivo** actividad, añadir una **Extraer archivo** en el flujo de trabajo y, a continuación, siga los pasos a continuación.
 
-## Configure el archivo que desea extraer {#extract-configuration}
+## Configurar el archivo que va a extraer {#extract-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
@@ -48,12 +49,12 @@ El **[!UICONTROL Archivo para extraer]** permite configurar las propiedades del 
 
 1. Para ordenar el archivo extraído en función de un atributo, active la opción **[!UICONTROL Habilitar ordenación]** a continuación, elija el atributo por el que desea ordenar el archivo, junto con el método de clasificación deseado (ascendente o descendente). Puede ordenar cualquier atributo de la dimensión de segmentación actual, independientemente de si se ha agregado o no a las columnas del archivo.
 
-## Configuración del formato del archivo extraído {#file}
+## Configurar el formato del archivo extraído {#file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Formato de destino"
->abstract="Seleccione el formato."
+>abstract="Seleccione las distintas opciones para configurar el formato del archivo extraído."
 
 El **[!UICONTROL Destino]** Esta sección permite configurar el formato del archivo extraído.
 
@@ -76,12 +77,12 @@ El **[!UICONTROL Destino]** Esta sección permite configurar el formato del arch
 
    ![](../assets/extract-file-format.png)
 
-## Añadir una fase de procesamiento posterior {#script}
+## Añadir una fase posprocessamiento {#script}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Posprocesamiento"
->abstract="Definir un paso de posprocesamiento"
+>abstract="Defina un paso de posprocesamiento para aplicar, como compresión o encriptado."
 
 El **[!UICONTROL Exportar script de modificación]** permite aplicar una fase de procesamiento para ejecutarla durante la extracción de datos, como compresión o encriptado. Para ello, haga clic en el **[!UICONTROL Editar script]** botón.
 
