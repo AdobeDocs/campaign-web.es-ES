@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 15%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Transferir archivo al servidor remoto"
->abstract="Transferir archivo al servidor remoto"
+>abstract="Especifique el servidor al que desea conectarse."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Eliminar los archivos de origen tras la transferencia"
->abstract="Eliminar los archivos de origen tras la transferencia"
+>abstract="Borre los archivos de origen después de una transferencia correcta."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Mostrar los registros de sesión"
->abstract="Mostrar los registros de sesión"
+>abstract="La información relacionada con la operación de transferencia se muestra en los registros de flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Listar todos los archivos"
->abstract="Listar todos los archivos"
+>abstract="Esta opción indexa todos los archivos presentes en el servidor en el **vars.filenames** variable de evento."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Procesar archivos que faltan"
->abstract="Procesar archivos que faltan"
+>abstract="Esta opción le permite activar una transición saliente &quot;Sin archivo&quot; después de la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Errores de proceso"
->abstract="Errores de proceso"
+>abstract="Esta opción le permite activar una transición saliente de &quot;error&quot; después de la actividad."
 
 El **Transferir archivo** la actividad es una **Administración de datos** actividad. Permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
 
@@ -145,7 +145,7 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
    +++Opciones adicionales para **[!UICONTROL Transferencia de archivos]** actividades de tipo
 
    * **[!UICONTROL Eliminar los archivos de origen después de la transferencia]**: borre los archivos de origen después de una transferencia correcta.
-   * **[!UICONTROL Mostrar los registros de sesión]**: Cuando se activa esta opción, la información relacionada con la operación de transferencia se muestra en los registros de flujo de trabajo una vez ejecutado el flujo de trabajo.
+   * **[!UICONTROL Mostrar los registros de sesión]**: Cuando se activa esta opción, la información relacionada con la operación de transferencia se muestra en los registros de flujo de trabajo una vez que se ha ejecutado el flujo de trabajo.
    * **[!UICONTROL Mostrar todos los archivos]** (Acciones de lista de archivos): esta opción indexa todos los archivos presentes en el servidor en el `vars.filenames` , en la que los nombres de archivo están separados por el evento `n` caracteres. [Aprenda a trabajar con variables de eventos](../event-variables.md)
 
 +++
