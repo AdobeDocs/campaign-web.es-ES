@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="Transferir archivo"
->abstract="El **Transferir archivo** La actividad de le permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado puede ser el protocolo servidor a servidor o el protocolo HTTP."
+>abstract="La actividad **Transferir archivo** permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
@@ -66,7 +67,7 @@ ht-degree: 11%
 >title="Errores de proceso"
 >abstract="Errores de proceso"
 
-El **Transferir archivo** la actividad es una **Administración de datos** actividad. Permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado puede ser el protocolo servidor a servidor o el protocolo HTTP.
+El **Transferir archivo** la actividad es una **Administración de datos** actividad. Permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
 
 >[!NOTE]
 >

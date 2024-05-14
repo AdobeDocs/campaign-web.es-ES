@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -55,7 +55,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Omitir transición vacía"
->abstract="Alternar el **[!UICONTROL Omitir transición vacía]** opción activada para desactivar la transición de salida para este subconjunto si la población entrante está vacía."
+>abstract="Active la opción **[!UICONTROL Omitir transición vacía]** para deshabilitar la transición de salida para este subconjunto si la población entrante está vacía."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"

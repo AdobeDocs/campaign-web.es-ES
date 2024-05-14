@@ -6,7 +6,7 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Actividad Actualizar datos"
->abstract="La actividad Actualizar datos ya está disponible para su uso en flujos de trabajo. Utilice la actividad Update data para realizar una actualización masiva de los campos de la base de datos. Se proponen varias opciones para personalizar el tipo de actualización."
+>abstract="La actividad Actualizar datos ya está disponible para su uso en flujos de trabajo. La actividad Actualizar datos permite realizar una actualización masiva de los campos de la base de datos. Se proponen varias opciones para personalizar el tipo de actualización."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 

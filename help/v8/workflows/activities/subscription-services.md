@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Actividad de servicios de suscripción"
->abstract="Utilice la nueva actividad de flujo de trabajo Servicios de suscripción para administrar las suscripciones a un servicio. Puede suscribirse o cancelar la suscripción de una población y también actualizar varias suscripciones desde un archivo externo. Como opción, también es posible enviar un mensaje de confirmación para notificar a los suscriptores."
+>title="Actividad de los servicios de suscripción"
+>abstract="Utilice la nueva actividad de flujo de trabajo Servicios de suscripción para administrar las suscripciones a un servicio. Puede suscribirse o cancelar la suscripción de una población y también actualizar varias suscripciones desde un archivo externo. Como opción, también es posible enviar un mensaje de confirmación para notificárselo a los suscriptores."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Actividad de servicios de suscripción"
->abstract="La actividad Servicios de suscripción permite suscribir a un servicio o cancelar dicha suscripción de varios perfiles en una sola acción."
+>title="Actividad de los servicios de suscripción"
+>abstract="La actividad Servicios de suscripción permite suscribirse o darse de baja en varios perfiles de un servicio en una sola acción."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Parámetros generales del servicio de suscripción"
->abstract="Elija el servicio deseado y elija la acción que desea realizar (suscripción o baja). Alternar en **Enviar mensaje de confirmación** opción activada para notificar a la población de que se han suscrito o dado de baja del servicio seleccionado."
+>abstract="Elija el servicio deseado y elija la acción que desea realizar (suscripción o baja). Active la opción **Enviar mensaje de confirmación** para notificar a la población de que se ha suscrito o dado de baja del servicio seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"

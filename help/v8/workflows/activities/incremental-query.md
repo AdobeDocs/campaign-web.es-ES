@@ -6,7 +6,7 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 23%
+ht-degree: 28%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Consulta incremental"
->abstract="El **Consulta incremental** la actividad es una **Segmentación** actividad que permite consultar la base de datos utilizando el modelador de consultas. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos."
+>abstract="La actividad de **Consulta incremental** es una actividad de **Segmentación** que permite consultar la base de datos utilizando el modelador de consultas. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"

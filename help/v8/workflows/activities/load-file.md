@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 14%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Actividad Cargar archivo"
->abstract="La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con datos almacenados en un archivo externo. Los perfiles y los datos no se agregan a la base de datos, pero todos los campos del archivo de entrada están disponibles para la personalización, la actualización de perfiles o cualquier otra tabla. "
+>abstract="La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con los datos almacenados en un archivo externo. Los perfiles y los datos no se añaden a la base de datos, pero todos los campos del archivo de entrada están disponibles para la personalización, o para actualizar perfiles o cualquier otra tabla. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -41,22 +41,22 @@ El **Cargar archivo** la configuración de actividad incluye dos pasos. En prime
 
 ![](../assets/workflow-load-file.png)
 
-### Configuración del archivo de muestra {#sample}
+### Configurar el archivo de muestra {#sample}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="Archivo de muestra"
->abstract="Cargue un archivo de muestra para seleccionar la estructura de archivos deseada."
+>abstract="Para seleccionar la estructura de archivo prevista cargue un archivo de muestra. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="Formato para la actividad Cargar archivo"
->abstract="En el **Formato** , especifique el formato del archivo para garantizar que los datos se importan correctamente."
+>abstract="En la sección **Formato**, especifique cómo se formatea el archivo para garantizar que los datos se importen correctamente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Reasignación de valores para la actividad Carga de archivo"
->abstract="Utilice esta opción para asignar valores específicos de los archivos cargados con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede agregar una asignación para reemplazar automáticamente esos valores con caracteres &quot;0&quot;/&quot;1&quot;."
+>abstract="Utilice esta opción para asignar valores específicos de los archivos cargados con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede añadir una asignación para reemplazar automáticamente esos valores por los caracteres &quot;0&quot;/&quot;1&quot;."
 
 Siga estos pasos para configurar el archivo de muestra utilizado para definir la estructura de archivos esperada:
 
@@ -86,28 +86,28 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
    * **[!UICONTROL Separadores]** (tipos de datos fecha, hora, entero y número)*: especifique los caracteres que se utilizarán como separadores.
    * **[!UICONTROL Permitir valores NULL]**: especifique cómo administrar los valores vacíos en la columna. La opción &quot;Adobe Campaign default&quot; generará un error si hay un valor vacío.
    * **[!UICONTROL Error de procesamiento]** (tipo de datos de cadena): especifique el comportamiento en caso de errores en una de las líneas.
-   * **[!UICONTROL Reasignación de valores]**: Esta opción le permite asignar valores específicos con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede agregar una asignación para reemplazar automáticamente esos valores con caracteres &quot;0&quot;/&quot;1&quot;.
+   * **[!UICONTROL Reasignación de valores]**: Esta opción le permite asignar valores específicos con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede añadir una asignación para reemplazar automáticamente esos valores por los caracteres &quot;0&quot;/&quot;1&quot;.
 
 +++
 
-1. En el **Formato** , especifique el formato del archivo para garantizar que los datos se importan correctamente.
+1. En la sección **Formato**, especifique cómo se formatea el archivo para garantizar que los datos se importen correctamente.
 
-### Defina el archivo de destino que desea cargar {#target}
+### Definición del archivo de destino para cargar {#target}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="Archivo de destino para la actividad Cargar archivo"
->abstract="En el **[!UICONTROL Archivo de destino]** , especifique cómo recuperar el archivo para cargarlo en el servidor."
+>abstract="En la sección **[!UICONTROL Archivo de destino]**, especifique cómo recuperar el archivo para cargarlo en el servidor."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="Nombre del archivo"
->abstract="Especifique el nombre del campo que se va a cargar en el servidor. Haga clic en **[!UICONTROL Abrir diálogo de personalización]** para aprovechar el editor de expresiones, incluidas las variables de evento, para calcular el nombre del archivo."
+>abstract="Especifique el nombre del campo que se va a cargar en el servidor. Haga clic en el icono de **[!UICONTROL Abrir cuadro de diálogo de personalización]** para utilizar el editor de expresiones, incluidas las variables de evento, para calcular el nombre del archivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Base de datos de destino"
->abstract="Si accede a un **[!UICONTROL Cargar archivo]** actividad de que ya se ha configurado en la consola del cliente, una actividad de **[!UICONTROL Base de datos Target]** está disponible si ha configurado la actividad para cargar el archivo en una base de datos externa."
+>abstract="Si accede a una actividad **[!UICONTROL Cargar archivo]** que ya se ha configurado en la consola del cliente, hay disponible una sección adicional **[!UICONTROL Base de datos de destino]** si ha configurado la actividad para cargar el archivo en una base de datos externa."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -128,7 +128,7 @@ Para definir el archivo de destino que se va a cargar, siga estos pasos:
 
    * **[!UICONTROL Preprocesar el archivo]**: cargue el archivo especificado en la transición anterior y aplíquele un comando de preprocesamiento como **[!UICONTROL Descompresión]** o **[!UICONTROL Descifrar]**.
 
-   * **[!UICONTROL Calculado]**: Cargue el archivo cuyo nombre se especifica en la variable **[!UICONTROL Nombre de archivo]** field. Haga clic en **[!UICONTROL Abrir diálogo de personalización]** para aprovechar el editor de expresiones, incluidas las variables de evento, para calcular el nombre del archivo.
+   * **[!UICONTROL Calculado]**: Cargue el archivo cuyo nombre se especifica en la variable **[!UICONTROL Nombre de archivo]** field. Haga clic en el icono de **[!UICONTROL Abrir cuadro de diálogo de personalización]** para utilizar el editor de expresiones, incluidas las variables de evento, para calcular el nombre del archivo.
 
    ![](../assets/workflow-load-file-config.png)
 
@@ -141,7 +141,7 @@ Para definir el archivo de destino que se va a cargar, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="Gestión de rechazo para la actividad Cargar archivo"
->abstract="En el **Rechazar administración** , especifique cómo debe comportarse la actividad en caso de errores. Puede definir el número máximo de errores que desea permitir y alternar entre **[!UICONTROL Mantener rechazos en un archivo]** opción para descargar en el servidor un archivo que contenga los errores producidos durante la importación."
+>abstract="En la sección **Rechazar administración**, especifique cómo debe comportarse la actividad en caso de errores. Puede definir el número máximo de errores que desea permitir y activar la opción **[!UICONTROL Mantener rechazos en un archivo]** para descargar en el servidor un archivo que contenga los errores producidos durante la importación."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad de flujo de trabajo JavaScript code
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Código JavaScript
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 9%
+ht-degree: 30%
 
 ---
 
@@ -14,12 +15,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="El **Código JavaScript** Esta actividad permite ejecutar una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Esto le permite realizar acciones o recopilar información de la base de datos. Uso **Sencilla** Actividades de código JavaScript para ejecutar un fragmento de código en la ejecución del flujo de trabajo. **Avanzadas** Las actividades de código JavaScript permiten realizar operaciones más complejas ejecutando dos fragmentos de código diferentes en orden secuencial. La primera vez que se inicia el flujo de trabajo, se ejecuta la primera llamada de. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el código definido en la segunda llamada."
+>abstract="La actividad de **Código JavaScript** le permite ejecutar una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Esto le permite realizar acciones o recopilar información de la base de datos. Utilice actividades de código JavaScript **sencillo** para ejecutar un fragmento de código en la ejecución del flujo de trabajo. **Avanzadas** Las actividades de código JavaScript permiten realizar operaciones más complejas ejecutando dos fragmentos de código diferentes en orden secuencial. La primera vez que se inicia el flujo de trabajo, se ejecuta la primera llamada. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el código definido en la segunda llamada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Fragmento de JavaScript"
->abstract="Defina la secuencia de comandos que se ejecutará al ejecutar la actividad. Si está configurando un **Avanzadas** En la actividad de JavaScript, es necesario editar dos fragmentos de código: el primer código de llamada que se ejecuta en la primera ejecución del flujo de trabajo y el siguiente código de llamada que se ejecuta en las siguientes llamadas del flujo de trabajo."
+>abstract="Defina la secuencia de comandos que se ejecutará al ejecutar la actividad. Si está configurando una actividad de JavaScript **avanzada**, es necesario editar dos fragmentos de código: el primer código de llamada que se ejecuta en la primera ejecución del flujo de trabajo y el siguiente código de llamada que se ejecuta en las siguientes llamadas del flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
@@ -29,7 +30,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transición de JavaScript"
->abstract="Si desea añadir varias transiciones de salida, haga clic en el **[!UICONTROL Añadir transiciones]** botón. Esto le permite, por ejemplo, almacenar en déclencheur una transición específica basada en una condición específica definida en la actividad JavaScript code. Esta opción está disponible para **Avanzadas** Solo actividades de código JavaScript."
+>abstract="Si desea añadir varias transiciones de salida, haga clic en el botón **[!UICONTROL Añadir transiciones]**. Esto le permite, por ejemplo, activar una transición específica basada en una condición específica definida en la actividad del código JavaScript. Esta opción solo está disponible en las actividades de código JavaScript **avanzadas**."
 
 El **Código JavaScript** la actividad es una **Administración de datos** actividad. Utilice esta actividad para ejecutar un script JavaScript en el contexto de un flujo de trabajo. Esto le permite recopilar información de la base de datos o realizar otras operaciones complejas.
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: Uso de la actividad Señal externa
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Señal externa
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Señal externa"
->abstract="El **Señal externa** La actividad permite almacenar en déclencheur la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada de API."
+>abstract="La actividad de **Señal externa** permite activar la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada de API."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
