@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 26%
@@ -28,7 +28,7 @@ Por ejemplo, puede cambiar la dimensión objetivo de un flujo de trabajo de &quo
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROOL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+>Tenga en cuenta que las **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 ## Configuración de la actividad Change dimension {#configure}
 
