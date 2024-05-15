@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1177'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Transferir origen de archivo"
->abstract="Transferir origen de archivo"
+>abstract="Introduzca el nombre de archivo deseado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Procesar archivos que faltan"
->abstract="Esta opción le permite activar una transición saliente &quot;Sin archivo&quot; después de la actividad."
+>abstract="Esta opción le permite activar una **Sin archivo** transición saliente después de la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Errores de proceso"
->abstract="Esta opción le permite activar una transición saliente de &quot;error&quot; después de la actividad."
+>abstract="Esta opción le permite activar una **Error** transición saliente después de la actividad."
 
 El **Transferir archivo** la actividad es una **Administración de datos** actividad. Permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
 
