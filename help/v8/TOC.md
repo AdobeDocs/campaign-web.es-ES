@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
-workflow-type: ht
-source-wordcount: '685'
-ht-degree: 100%
+source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 99%
 
 ---
 
@@ -198,4 +198,4 @@ ht-degree: 100%
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Administración {#administration}
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-
++ [Documentación de la consola del cliente de Campaign v8 >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
