@@ -1,14 +1,17 @@
 ---
 title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
+hide: true
+hidefromtoc: true
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 5%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
-# Configuración de campos personalizados {#custom-fields}
+# Configuración de los campos personalizados {#custom-fields}
 
 Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Obtenga más información en la [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
@@ -31,19 +34,19 @@ Para configurar los campos personalizados, siga estos pasos:
 
 1. En **Administration**, haga clic en **Esquemas**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. Busque el esquema deseado, por ejemplo, la variable **Destinatarios (nms)** esquema.
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. Haga clic en **Más acciones** y seleccione **Editar detalles personalizados**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    El **Editar detalles personalizados** La pantalla muestra todos los campos personalizados y su tipo.
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    Esta pantalla le permite realizar las siguientes acciones:
 
@@ -54,4 +57,4 @@ Para configurar los campos personalizados, siga estos pasos:
 
 1. Vaya a la pantalla que muestra el campo personalizado. En nuestro ejemplo, es la pantalla de detalles del perfil.
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
