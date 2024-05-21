@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 43%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,6 @@ Estas actividades son específicas de la segmentación. Le permiten crear uno o 
 
 ## Actividades de administración de datos {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Actividades de extracción y carga de archivos"
->abstract="Hay nuevas actividades de administración de datos disponibles en los flujos de trabajo. Utilice la actividad Extraer archivo para exportar datos de Adobe Campaign a otro sistema como archivo externo. Utilice esta actividad de Carga de archivo para trabajar con perfiles y datos almacenados en un archivo externo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
-
 Estas actividades son específicas para manipular y enriquecer datos de población.
 
 * [Extraer archivo](extract-file.md): exporte datos de Adobe Campaign a otro sistema como archivo externo.
@@ -60,15 +54,6 @@ Estas actividades son específicas para manipular y enriquecer datos de poblaci�
 Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en varios canales. Puede combinar actividades de canal en el lienzo para crear flujos de trabajo entre canales que puedan almacenar en déclencheur acciones basadas en el comportamiento del cliente. Lo siguiente **Canal** Hay actividades disponibles: notificaciones push por correo electrónico, SMS, Android y iOS. [Obtenga información sobre cómo configurar una entrega en el contexto de un flujo de trabajo](channels.md).
 
 ## Actividades de control de flujo {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Actividades de flujo de trabajo avanzadas"
->abstract="Ahora puede configurar actividades de prueba, código JavaScript y señal externa en un flujo de trabajo. Utilice la actividad de prueba para habilitar transiciones de flujo de trabajo basadas en condiciones. Añada una actividad JavaScript Code para ejecutar un fragmento de código JS en el contexto del flujo de trabajo. Configure una actividad Señal externa para activar la ejecución del flujo de trabajo desde una API u otro flujo de trabajo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
