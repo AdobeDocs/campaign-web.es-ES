@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 100%
    + [Novedades](rn/whats-new.md)
    + [Último lanzamiento](rn/release-notes.md)
    + [Actualizaciones de la documentación](rn/documentation-updates.md)
-   + [De Campaign Standard a la versión 8](rn/acs-migration.md)
 + Introducción a Adobe Campaign {#start}
    + [Introducción](get-started/get-started.md)
    + [Conéctese a Campaign](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 100%
    + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
    + [Web y Consola de cliente de Campaign](get-started/capability-matrix.md)
+   + [De Campaign Standard a la versión 8](rn/acs-migration.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 100%
    + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Variables de eventos de flujo de trabajo](workflows/event-variables.md)
    + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
+   + [Acerca de los flujos de trabajo de solo lectura](workflows/readonly-workflows.md)
    + Cree y ejecute su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 100%
    + [Filtrar listas](query/filter.md)
 + Creación de informes {#reports}
    + [Introducción a los informes](reporting/gs-reports.md)
+   + [Pista de auditoría](reporting/audit-trail.md)
    + [Exportación de informes](reporting/export-reports.md)
    + [Indicadores clave de rendimiento](reporting/kpis.md)
    + Informes de envío {#delivery-report}
