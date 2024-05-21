@@ -3,10 +3,10 @@ audience: end-user
 title: Diseño de una entrega de correo directo
 description: Aprenda a diseñar su envío de correo postal con Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -52,14 +52,18 @@ Para diseñar el contenido del archivo de extracción generado por su envío de 
 
 1. Alternar en **[!UICONTROL Cantidad solicitada]** para restringir el número de destinatarios de su envío.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Configuración de las columnas del archivo de extracción {#content}
 
 En el **[!UICONTROL Contenido]** , especifique las columnas que se mostrarán en el archivo de extracción. Para ello, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Añadir atributo]** para crear una nueva columna.
-1. Seleccione el atributo que se mostrará en la columna y confirme la acción. Una vez añadida la columna, puede cambiar su etiqueta y modificar el atributo asociado con el icono de edición.
+1. Seleccione el atributo que se mostrará en la columna y confirme la acción. Tenga en cuenta que puede aprovechar el editor de expresiones para seleccionar el atributo que desea utilizar haciendo clic en **[!UICONTROL Editar expresión]** botón.
+
+   ![](assets/dm-add-attribute.png)
+
+1. Una vez añadida la columna, puede cambiar su etiqueta y modificar el atributo asociado con el icono de edición.
 1. Repita estos pasos para agregar tantas columnas como sea necesario para el archivo de extracción.
 1. Para ordenar el archivo de extracción con una de las columnas, haga clic en el icono en la **[!UICONTROL Ordenando]** y seleccione el método de clasificación deseado.
 1. Para cambiar la posición de una columna, utilice las flechas arriba y abajo.

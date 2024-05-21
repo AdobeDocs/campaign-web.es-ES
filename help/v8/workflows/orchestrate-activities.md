@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
+source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 5%
+source-wordcount: '1068'
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ En esta fase de la configuración, el diagrama se muestra con un icono de inicio
 
 Aparecerá una lista de actividades que se pueden agregar al diagrama. Las actividades disponibles dependen de su posición en el diagrama de flujo de trabajo. Por ejemplo, al añadir la primera actividad de, puede iniciar el flujo de trabajo segmentando una audiencia, dividiendo la ruta del flujo de trabajo o estableciendo un **Esperar** para retrasar la ejecución del flujo de trabajo. Por otro lado, después de un **Crear audiencia** actividad, puede refinar el segmento con actividades de segmentación, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de flujo de trabajo con actividades de control de flujo.
 
-![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-start.png){zoomable="yes"}
 
 Una vez que se ha agregado una actividad al diagrama, aparece un panel derecho que le permite configurar la actividad recién agregada con ajustes específicos. Encontrará información detallada sobre cómo configurar cada actividad en [esta sección](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 Repita este proceso para agregar tantas actividades como desee según las tareas que desee que realice el flujo de trabajo. Tenga en cuenta que también puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
 
@@ -44,7 +44,7 @@ La barra de herramientas situada en la esquina superior derecha del lienzo propo
 * **Alejar** / **Ampliar**: Aleje o en el lienzo.
 * **Mostrar mapa**: abre una instantánea del lienzo en el que se muestra que se encuentra.
 
-![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Administrar actividades {#manage}
 
@@ -56,7 +56,7 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 * Acceda a los **Registros y tareas**.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
 
-![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 Varios **Segmentación** actividades, como **Combinar** o **Deduplicación**, le permite procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si utiliza un **Split** actividad, el complemento está formado por la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para utilizar esta capacidad, active la variable **Generar complemento** opción.
 
@@ -70,21 +70,21 @@ Para copiar actividades, tiene dos opciones:
 
 * copie una actividad con el botón acción.
 
-  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * copie varias actividades con el botón de la barra de herramientas.
 
-  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Para pegar las actividades copiadas, haga clic en **+** en una transición y seleccione Pegar actividad X.
 
-![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## Opciones de ejecución {#execution}
 
 Todas las actividades permiten administrar sus opciones de ejecución. Seleccione una actividad y haga clic en **Opciones de ejecución** botón. Esto permite definir el modo de ejecución y el comportamiento de la actividad en caso de errores.
 
-![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### Propiedades
 
@@ -110,7 +110,7 @@ El **Script de inicialización** permite inicializar variables o modificar propi
 
 VIP A continuación, se muestra un ejemplo de flujo de trabajo diseñado para enviar un correo electrónico a todos los clientes (que no sean clientes de la red) con un correo electrónico que estén interesados en las máquinas de café.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 Para ello, se han añadido las actividades siguientes:
 
