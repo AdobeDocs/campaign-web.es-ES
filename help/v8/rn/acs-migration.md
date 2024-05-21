@@ -4,9 +4,9 @@ title: Transición de Campaign Standard a la web de Adobe Campaign
 description: Interfaz de usuario web de Discover Campaign
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Obtenga más información sobre las funcionalidades admitidas y no admitidas, y 
 
 ## Terminología {#terminology}
 
-La mayoría de los conceptos son similares entre la versión 8 de Campaign y Campaign Standard. Sin embargo, hay algunas diferencias. Estos son algunos ejemplos de diferencias terminológicas entre Campaign Standard y la versión 8 de Campaign:
+La mayoría de los conceptos son similares entre Campaign v8 y Campaign Standard. Sin embargo, hay algunas diferencias. Estos son algunos ejemplos de diferencias terminológicas entre Campaign Standard y Campaign v8:
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -63,14 +63,14 @@ La mayoría de los conceptos son similares entre la versión 8 de Campaign y Cam
 
 * Los recursos personalizados son **Esquemas**
 * Los mensajes se denominan **Envíos**
-* Los usuarios de productos son **Operadores**
+* Los usuarios de productos son **Operadores**.
 * Las funciones se configuran con **Derechos asignados**
-* Los grupos de seguridad son **Grupos de operadores**
-* Las unidades organizativas se administran mediante **Permisos de carpeta**
+* Los grupos de seguridad son **Grupos de operadores**.
+* Las entidades organizativas son **Permisos de la carpeta**
 
 ## Nuevas características {#new-features}
 
-Para que pueda realizar la transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8. Se detallan en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}.
+Para que pueda realizar la transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8. Se detallan en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}
 
 * **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}.
 
@@ -78,7 +78,7 @@ Para que pueda realizar la transición sin problemas a Campaign v8, se han añad
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y construir su propio ecosistema al interconectar Adobe Campaign con el panel de tecnologías que utiliza. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=es){target="_blank"}.
 
-* **Páginas de aterrizaje** : Se han introducido algunas mejoras en las páginas de aterrizaje de Campaign v8 para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de aterrizaje [documentación](../landing-pages/get-started-lp.md).
+* **Páginas de aterrizaje**: se han introducido algunas mejoras en las páginas de aterrizaje de Campaign v8 para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de aterrizaje [documentación](../landing-pages/get-started-lp.md).
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
