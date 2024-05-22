@@ -3,10 +3,10 @@ audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 92%
 
 ---
 
@@ -91,10 +91,16 @@ Puede crear, cambiar el nombre, reordenar y mover carpetas para organizar los co
 Para crear una carpeta, siga estos pasos:
 
 1. Desde el menú de navegación de la izquierda de **Explorer**, seleccione una carpeta.
-1. Haga clic en los tres puntos de la esquina superior derecha y elija **Crear nueva subcarpeta**.
-1. Introduzca el nombre de la carpeta y guárdela.
+1. Haga clic en los tres puntos de la esquina superior derecha y elija **Crear nueva carpeta**.
+1. Introduzca el nombre de la carpeta.
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Seleccione el tipo de carpeta. De forma predeterminada, el tipo de carpeta principal está seleccionado, &quot;Deliveries&quot;, en nuestro ejemplo. Para cambiar el tipo de carpeta, haga clic en el icono de carpeta y seleccione cualquier otro tipo.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Haga clic en **Create**.
 
    La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente desde cualquier carpeta y guardarlo en esa nueva carpeta, desde la sección **Opciones adicionales** de las propiedades, para un envío, tal como se muestra a continuación:
 
