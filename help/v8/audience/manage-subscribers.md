@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo administrar y entregar a los suscr
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 4%
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
@@ -24,15 +24,15 @@ Para añadir suscriptores manualmente, siga los pasos a continuación.
 
 1. Vaya a la **[!UICONTROL Suscriptores]** y haga clic en **[!UICONTROL Añadir suscriptores]**.
 
-   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-tab.png){zoomable="yes"}
 
 1. Seleccione los perfiles que desee añadir en la lista y haga clic en **[!UICONTROL Confirmar]**.
 
-   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Enviar]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> para que los destinatarios seleccionados reciban la suscripción [mensaje de confirmación](manage-services.md#create-confirmation-message) que definió al [creación del servicio](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -50,13 +50,13 @@ Una vez que [suscriptores añadidos](#add-subscribers) Al servicio, puede cancel
 
 1. Haga clic en el icono de tres puntos junto al nombre del destinatario deseado y seleccione **[!UICONTROL Eliminar]**.
 
-   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete.png){zoomable="yes"}
 
 1. Confirme la eliminación.
 
 1. Clic **[!UICONTROL Enviar]** para que el destinatario seleccionado reciba la baja [mensaje de confirmación](manage-services.md#create-confirmation-message) que definió al [creación del servicio](manage-services.md#create-service).
 
-   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 
 El destinatario se elimina del **[!UICONTROL Suscriptores]** y ya no está suscrito a su servicio.
 
@@ -66,6 +66,6 @@ Un servicio de suscripción puede tener una duración limitada. La suscripción 
 
 Este periodo se especifica cuando [creación del servicio](manage-services.md#create-service). Desde el **[!UICONTROL Opciones adicionales]**, deshabilite la **[!UICONTROL Período de validez ilimitado]** y defina un periodo de validez del servicio.
 
-![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
+![](assets/service-create-validity-period.png){zoomable="yes"}
 
 Una vez que caduca la duración especificada, se cancela la suscripción de forma automática a todos los suscriptores de ese servicio.

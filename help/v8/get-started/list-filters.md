@@ -5,7 +5,7 @@ description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -18,17 +18,17 @@ La mayoría de los vínculos del menú de navegación izquierdo muestran listas 
 
 Las listas se muestran en columnas. Puede mostrar información adicional cambiando la configuración de la columna. Para ello, haga clic en el icono **Configurar la columna para un diseño personalizado** en la esquina superior derecha de la lista.
 
-![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 En la pantalla **Configuración de columnas**, agregue o quite columnas, y cambie el orden en el que se muestran.
 
 Por ejemplo, para esta configuración:
 
-![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 La lista muestra las siguientes columnas:
 
-![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Ordenar datos {#sort-lists}
 
@@ -40,9 +40,9 @@ Para las columnas numéricas o de fecha, la flecha **Arriba** indica que la list
 
 Para buscar elementos más rápidamente, puede utilizar la barra de búsqueda o filtros personalizados e incorporados para adaptar la lista según criterios contextuales.
 
-![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Encontrará información detallada sobre cómo utilizar los filtros y crear los suyos personalizados en [esta sección](../query/filter.md).
+Encontrará información detallada sobre cómo utilizar los filtros y crear sus propios filtros personalizados en [esta sección](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

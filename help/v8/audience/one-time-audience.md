@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo crear una audiencia única para un
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 29%
+source-wordcount: '224'
+ht-degree: 28%
 
 ---
 
@@ -22,11 +22,11 @@ Para crear una nueva audiencia única para una entrega, siga estos pasos:
 
 1. En la sección **Público** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar el público]**.
 
-   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder0.png){zoomable="yes"}
 
 1. Seleccionar **Cree su propio** para abrir el modelador de consultas, que le permite definir la población de destino filtrando los datos contenidos en la base de datos. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-modeler.png){zoomable="yes"}
 
 1. Una vez preparada la consulta, haga clic en **Confirmar** para utilizar la audiencia resultante como objetivo principal de su envío.
 

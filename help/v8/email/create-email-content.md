@@ -5,7 +5,7 @@ description: Aprenda a diseñar el contenido de sus correos electrónicos desde 
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '617'
 ht-degree: 71%
 
 ---
@@ -61,7 +61,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Desde el [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring) página principal, seleccione la **[!UICONTROL Diseñe desde cero]** opción.
 
-   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. Para diseñar el contenido del correo electrónico, arrastre y suelte **[!UICONTROL Estructuras]** en el lienzo para definir el diseño del correo electrónico.
 
@@ -71,7 +71,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Añadir tantos como sea necesario **[!UICONTROL Estructuras]** si es necesario, y edite su configuración en el panel dedicado de la derecha.
 
-   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. Puede seleccionar el **[!UICONTROL Columna n:n]** para definir el número de columnas que desea (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
 
@@ -83,7 +83,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Cada componente se puede personalizar aún más mediante la variable **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-styles.png){zoomable="yes"}
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
@@ -93,7 +93,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 [Más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 
-   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-links.png){zoomable="yes"}
 
 1. Si es necesario, puede personalizar aún más el correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** en el menú avanzado. Esto le permite editar el código fuente del correo electrónico, por ejemplo, para agregar etiquetas HTML personalizadas o de seguimiento. [Obtenga más información sobre el editor de código](code-content.md)
 
@@ -103,7 +103,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar el procesamiento del correo electrónico. Puede elegir la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 

@@ -4,7 +4,7 @@ description: Obtenga más información sobre las dimensiones de segmentación en
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 24%
 
 ---
@@ -26,7 +26,7 @@ Tenga en cuenta que puede cambiar la dimensión de segmentación en un flujo de 
 
 Al seleccionar una dimensión de segmentación (en la configuración del flujo de trabajo o en actividades como **Crear audiencia**, **Reconciliación** o **Cambiar dimensión**), se muestra una selección de los esquemas utilizados comúnmente de forma predeterminada en la lista. Para mostrar todos los esquemas disponibles, active la opción **[!UICONTROL Mostrar todos los esquemas]** botón. La selección de opciones se guarda para cada usuario.
 
-![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
+![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## Dimensiones de segmentación {#list}
 

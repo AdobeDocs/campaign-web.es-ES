@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo monitorizar los registros de enví
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 72%
+source-wordcount: '357'
+ht-degree: 71%
 
 ---
 
@@ -40,39 +40,39 @@ Se muestran todos los pasos, advertencias y errores de validación. Los iconos d
 * El icono amarillo indica un error de procesamiento no crítico.
 * El icono rojo indica un error crítico que impide realizar el envío. Deben corregirse los errores críticos para que se realice la entrega.
 
-![](assets/logs.png){zoomable=&quot;yes&quot;}
+![](assets/logs.png){zoomable="yes"}
 
 
 ## Envíos {#deliveries-tab}
 
 La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
-![](assets/logs2.png){zoomable=&quot;yes&quot;}
+![](assets/logs2.png){zoomable="yes"}
 
 ## Exclusiones {#exclusion-tab}
 
 La pestaña **Registros de exclusión** contiene todos los mensajes que se han excluido del destinatario y especifica el motivo de error del envío.
 
-![](assets/logs3.png){zoomable=&quot;yes&quot;}
+![](assets/logs3.png){zoomable="yes"}
 
 ## Causas de exclusión {#exclusion-causes-tab}
 
 El **Causas de exclusión** La pestaña muestra, por cada causa posible, el número de mensajes que se han excluido del destinatario.
 
-![](assets/logs4.png){zoomable=&quot;yes&quot;}
+![](assets/logs4.png){zoomable="yes"}
 
 ## Direcciones URL rastreadas {#tracked-urls-tab}
 
 El **URL seguidas** reagrupa las direcciones URL contenidas en los mensajes enviados, incluido su tipo de dirección URL y la dirección URL de origen.
 
-![](assets/logs5.png){zoomable=&quot;yes&quot;}
+![](assets/logs5.png){zoomable="yes"}
 
 ## Seguimiento {#tracking-tab}
 
 La pestaña **Seguimiento** enumera el historial de seguimiento de este envío. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, es decir, todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento.
 
 
-![](assets/logs6.png){zoomable=&quot;yes&quot;}
+![](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >

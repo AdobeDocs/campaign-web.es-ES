@@ -5,7 +5,7 @@ description: Aprenda a añadir atributos de estilo en línea
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
@@ -19,13 +19,13 @@ En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento
 
 1. Desde la pestaña **[!UICONTROL Estilos]**, haga clic en el menú desplegable **[!UICONTROL Avanzadas]**.
 
-   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_1.png){zoomable="yes"}
 
 1. Modifique los valores de los atributos existentes.
 
 1. Puede agregar propiedades nuevas mediante el botón **+**. Puede añadir cualquier atributo y valor que sea compatible con CSS.
 
-   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_2.png){zoomable="yes"}
 
 El estilo se aplica al elemento seleccionado.
 

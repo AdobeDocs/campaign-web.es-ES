@@ -5,8 +5,8 @@ description: Comprender los informes globales
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 32%
+source-wordcount: '275'
+ht-degree: 30%
 
 ---
 
@@ -36,15 +36,15 @@ Para acceder y administrar sus informes globales, siga estos pasos:
 
 1. En el menú de la izquierda, seleccione un informe de la lista y navegue por la pestaña para mostrar los datos de cada canal.
 
-   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_3.png){zoomable="yes"}
 
 1. En el tablero, elija una **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
 
-   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_1.png){zoomable="yes"}
 
 1. Desde el **[!UICONTROL Elegir carpeta]** , seleccione si desea segmentar envíos o campañas desde una carpeta específica.
 
-   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_2.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 

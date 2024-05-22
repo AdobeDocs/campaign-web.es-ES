@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 11%
+source-wordcount: '467'
+ht-degree: 9%
 
 ---
 
@@ -44,7 +44,7 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
 1. Acceda a la **[!UICONTROL Mostrar asistente de IA]** menú.
 
-   ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Habilite la **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
@@ -56,7 +56,7 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
    Si busca ayuda para crear el indicador, acceda al **[!UICONTROL Biblioteca de mensajes]** que proporciona una amplia gama de ideas rápidas para mejorar las entregas.
 
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Seleccionar **[!UICONTROL Cargar recurso de marca]** para añadir cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, utilice el asistente de IA.
 
@@ -67,7 +67,7 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
    * **[!UICONTROL Tono]**: Asegúrese de que el texto sea apropiado para su audiencia y propósito.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
-   ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
@@ -81,16 +81,16 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
    * **[!UICONTROL Reformular]**: el asistente de IA reformula el mensaje para mantener las cosas atractivas para diferentes audiencias.
 
-   ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
 
 1. Inserte campos de personalización para personalizar el contenido de SMS en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
-   ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-5.png){zoomable="yes"}
 
 1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
 
-   ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-6.png){zoomable="yes"}
 
 Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega de SMS. [Más información](../monitor/prepare-send.md)

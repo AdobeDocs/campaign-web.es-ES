@@ -5,8 +5,8 @@ description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 58%
+source-wordcount: '564'
+ht-degree: 57%
 
 ---
 
@@ -21,7 +21,7 @@ El generador de reglas permite definir la población objetivo de la entrega filt
 
 La paleta, situada en la parte izquierda, contiene todos los elementos que se pueden filtrar para crear un público. Puede utilizar la barra de búsqueda para buscar elementos rápidamente. Los mosaicos contenidos en la paleta deben moverse al lienzo central para que se puedan configurar y tener en cuenta.
 
-![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
 
 La paleta se divide en dos pestañas:
 
@@ -37,13 +37,13 @@ La paleta se divide en dos pestañas:
 
 El lienzo es la zona central en la que se pueden configurar y combinar las reglas basadas en los elementos agregados desde la paleta. Para agregar una regla nueva, arrastre un mosaico desde la paleta y suéltelo en el lienzo. A continuación, se le pueden presentar opciones específicas del contexto según el tipo de datos que se agreguen.
 
-![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
 
 ## El panel Propiedades de regla
 
 En el lado derecho, la **Propiedades de regla** le permite realizar las acciones que se indican a continuación.
 
-![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
 
 * **Ver resultados:** muestra la lista de perfiles segmentados por la audiencia.
 * **Vista de código**: muestra una versión del público basada en código en SQL.
@@ -63,26 +63,26 @@ En este ejemplo, creamos un público para dirigirlo a todos los clientes que viv
 
 1. En la pestaña **Atributos** de la paleta, busque el campo **Fecha de nacimiento**. Arrastre el mosaico y suéltelo en el lienzo.
 
-   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder6.png){zoomable="yes"}
 
 1. En el lienzo, elija el operador **Después** e introduzca la fecha deseada.
 
-   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder7.png){zoomable="yes"}
 
 1. En la paleta, busque el campo **Ciudad** y añádalo al lienzo debajo de la primera regla.
 
-   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder8.png){zoomable="yes"}
 
 1. En el campo de texto, introduzca el nombre de la primera ciudad y, a continuación, pulse Intro.
 
-   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder9.png){zoomable="yes"}
 
 1. Repita esta acción para el segundo nombre de ciudad.
 
-   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder10.png){zoomable="yes"}
 
 1. Haga clic en **Ver resultados** para mostrar la lista y el número de destinatarios que coinciden con la consulta. También puede añadir columnas para visualizar y comprobar los datos. En nuestro ejemplo, agregue la columna **Ciudad** y debería ver Atlanta y Seattle.
 
-   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder11.png){zoomable="yes"}
 
 1. Haga clic en **Confirmar**.

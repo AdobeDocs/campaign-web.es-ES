@@ -8,8 +8,8 @@ level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 26%
+source-wordcount: '1085'
+ht-degree: 24%
 
 ---
 
@@ -48,24 +48,24 @@ Una plantilla puede incluir:
 
 Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Campaign Management]** > **[!UICONTROL Envíos]** en el menú de la izquierda y vaya a **Plantillas** pestaña.
 
-![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
+![](assets/templates-tab.png){zoomable="yes"}
 
 Todas las plantillas que se [created](#create-a-delivery-template) en el entorno actual.
 
 Puede filtrar las plantillas de contenido por canales y carpetas. También puede establecer filtros avanzados generando una regla con atributos de entrega. [Más información sobre el modelador de consultas](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
+![](assets/templates-filters.png){zoomable="yes"}
 
 Para editar una plantilla, haga clic en el elemento que desee en la lista. A partir de ahí:
 
 * Puede modificar su contenido, propiedades, audiencia y cualquier oferta adjunta a él.
 * También puede probar la plantilla. [Más información](#test-template)
 
-![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
+![](assets/templates-edition.png){zoomable="yes"}
 
 Para eliminar o [duplicado](#copy-an-existing-template) Para crear una plantilla, seleccione la acción correspondiente en la **[!UICONTROL Más acciones]** menú, ya sea desde el **[!UICONTROL Plantillas]** o desde una pantalla de edición de plantilla.
 
-![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
+![](assets/templates-more-actions.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -96,15 +96,15 @@ Para duplicar una plantilla de envíos, siga estos pasos:
 
 1. Confirme la duplicación.
 
-   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
 
 1. El nuevo panel de plantillas se abre en la pantalla central. Edite la configuración de la plantilla según sea necesario.
 
-   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicated-item.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
 
-   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-review-screen.png){zoomable="yes"}
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
@@ -119,7 +119,7 @@ Para guardar una entrega como plantilla, siga los pasos a continuación:
 1. Vaya a la **[!UICONTROL Administración de campañas]** > **[!UICONTROL Envíos]** menú.
 1. Desde el **[!UICONTROL Examinar]** , haga clic en **[!UICONTROL Más acciones]** a la derecha del nombre de envío deseado y seleccione **[!UICONTROL Copiar como plantilla]**.
 
-   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-convert-delivery.png){zoomable="yes"}
 
    También puede seleccionar una plantilla de la lista y seleccionar esta opción en la pantalla de edición de plantillas.
 
@@ -144,12 +144,12 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
 1. Haga clic en **[!UICONTROL Crear plantilla]** botón.
 
-   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-create-button.png){zoomable="yes"}
 
 1. Seleccione el canal que desee utilizar para la plantilla.
 1. La plantilla de envío integrada de ese canal se utiliza de forma predeterminada para ayudarle a crear su propia plantilla. Utilice el botón dedicado a la derecha del canal seleccionado para seleccionar otra plantilla si es necesario.
 
-   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-channel-browse.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Crear plantilla]** botón de nuevo.
 
@@ -179,7 +179,7 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 
 1. Haga clic en **[!UICONTROL Simular contenido]** en la parte superior derecha de la pantalla.
 
-   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-simulate-button.png){zoomable="yes"}
 
 1. Seleccione uno o varios perfiles de prueba para comprobar el procesamiento del correo electrónico. También puede seleccionar perfiles reales de la base de datos. [Más información sobre los perfiles de prueba](../audience/test-profiles.md)
 
@@ -187,7 +187,7 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 
 [Más información sobre la previsualización de contenido](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-stimulate.png){zoomable="yes"}
 
 1. Cierre la ventana para volver a la pantalla de edición de la plantilla.
 

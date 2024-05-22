@@ -5,7 +5,7 @@ description: Aprenda a añadir y administrar el vínculo a la página espejo
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '439'
 ht-degree: 96%
 
 ---
@@ -30,15 +30,15 @@ Para añadir un vínculo a una página espejo en el correo electrónico:
 
 1. Seleccione un elemento y haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual.
 
-   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
 1. Seleccione el icono **[!UICONTROL Añadir personalización]** para acceder al menú de personalización.
 
-   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Bloque de contenido]**, seleccione **[!UICONTROL URL de página espejo]** y haga clic en **[!UICONTROL Agregar]**.
 
-   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
    Para obtener más información sobre la inserción de bloques de contenido personalizado, consulte [esta sección](../personalization/personalize.md#personalize-emails).
 

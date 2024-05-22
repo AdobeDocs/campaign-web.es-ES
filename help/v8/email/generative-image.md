@@ -8,8 +8,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 6%
+source-wordcount: '379'
+ht-degree: 3%
 
 ---
 
@@ -35,11 +35,11 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
 1. En el menú derecho, seleccione **[!UICONTROL Generación de experiencias]**.
 
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. Añada un mensaje para ajustar mejor los resultados.
 
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable="yes"}
 
 1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el Ayudante de contenido.
 
@@ -51,20 +51,20 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de contenido para opt
 
 1. Personalización de **[!UICONTROL Color y tono]**, **[!UICONTROL Tipo de contenido]**, **[!UICONTROL Iluminación]** y **[!UICONTROL Composición]** configuración para que coincida con las características de recurso deseadas.
 
-   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Una vez que esté satisfecho con la configuración de la solicitud, haga clic en **[!UICONTROL Generar]**.
 
 1. Examine la **[!UICONTROL Sugerencias de variación]** para encontrar el recurso deseado. Clic **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable="yes"}
 
 1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba.  [Más información](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega por correo electrónico. [Más información](../monitor/prepare-send.md)

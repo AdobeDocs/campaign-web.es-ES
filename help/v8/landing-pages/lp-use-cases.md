@@ -10,8 +10,8 @@ keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 11%
+source-wordcount: '1353'
+ht-degree: 9%
 
 ---
 
@@ -40,13 +40,13 @@ En el [!DNL Adobe Campaign Web] En primer lugar, cuatro plantillas predeterminad
 
 1. Defina las propiedades y la configuración de la página de aterrizaje.
 
-   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. Según su caso, seleccione la opción **[!UICONTROL Adquisición]**, **[!UICONTROL Suscripción]**, **[!UICONTROL Baja]** o **[!UICONTROL Lista de bloqueados de]** página.
 
 1. Se muestra el contenido de la página. Seleccione la parte correspondiente al formulario de página de aterrizaje.
 
-   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-form.png){zoomable="yes"}
 
 1. Edite el contenido según la plantilla seleccionada:
 
@@ -59,7 +59,7 @@ En el [!DNL Adobe Campaign Web] En primer lugar, cuatro plantillas predeterminad
 
 1. Edite el **[!UICONTROL Confirmación]** según sea necesario, así como la **[!UICONTROL Error]** y **[!UICONTROL Caducidad]** páginas. El **[!UICONTROL Confirmación]** se mostrará a los destinatarios una vez que envíen el formulario.
 
-   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. [Prueba](create-lp.md#test-landing-page) y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
 
@@ -67,7 +67,7 @@ En el [!DNL Adobe Campaign Web] En primer lugar, cuatro plantillas predeterminad
 
 1. [Inserción de un vínculo](../email/message-tracking.md#insert-links) en el contenido del mensaje. Seleccionar **[!UICONTROL Página de aterrizaje]** como el **[!UICONTROL Tipo de vínculo]** y elija la página de aterrizaje que ha creado.
 
-   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-email-link.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ La primera plantilla permite agregar o actualizar un perfil a la base de datos d
 
 1. Además, puede añadir una casilla de verificación para invitar a sus clientes a suscribirse al servicio de boletín informativo. [Obtenga información sobre cómo crear un servicio](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
@@ -105,11 +105,11 @@ La primera plantilla permite agregar o actualizar un perfil a la base de datos d
 
 Una vez recibido el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje y envían el formulario, su perfil se añade a la base de datos de Campaign o se actualiza con la información que han proporcionado.
 
-![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 Si optó por recibir su newsletter, se suscribirá al servicio correspondiente.
 
-![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Suscripción a un servicio {#lp-subscription}
 
@@ -124,13 +124,13 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
 1. Comience creando una plantilla de confirmación para los usuarios que se suscriban a su evento, de modo que pueda seleccionarla fácilmente al crear el servicio. [Más información](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
 1. Cree un servicio de suscripción, que almacenará a los usuarios registrados en su evento. [Obtenga información sobre cómo crear un servicio](../audience/manage-services.md)
 
 1. Seleccione la plantilla que creó como correo electrónico de confirmación que los usuarios recibirán tras la suscripción.
 
-   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [Creación de una página de aterrizaje](create-lp.md#create-landing-page) para permitir que los destinatarios se registren en el evento. Seleccione el **[!UICONTROL Suscripción]** plantilla.
 
@@ -140,7 +140,7 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
 1. En el **[!UICONTROL Suscripciones y servicios]** , seleccione el servicio que creó para su evento. Deje el **[!UICONTROL Suscribirse si está marcado]** opción activada.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -170,11 +170,11 @@ Puede permitir a sus clientes cancelar la suscripción a un servicio mediante un
 
 1. Puede añadir un **[!UICONTROL Casilla]** , seleccione el servicio y seleccione la **[!UICONTROL Cancelar suscripción si está marcado]** opción.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
 1. También puede expandir la variable **[!UICONTROL Llamada a la acción]** y seleccione la sección **[!UICONTROL Actualizaciones adicionales]** opción. Seleccione el servicio y marque **[!UICONTROL Opción de exclusión]** opción.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
@@ -198,7 +198,7 @@ Puede configurar un **[!UICONTROL Lista de bloqueados de]** página de aterrizaj
 
 1. En la lista desplegable correspondiente, seleccione **[!UICONTROL Canal (correo electrónico)]** para permitir que los destinatarios se excluyan únicamente de las comunicaciones por correo electrónico. También puede seleccionar **[!UICONTROL Por todos los canales]** para excluirlos a todos de todas las comunicaciones en todos los canales.
 
-   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
@@ -212,6 +212,6 @@ Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya
 
 Por ejemplo, si elige actualizar el **[!UICONTROL Canal (correo electrónico)]** en la página de aterrizaje, la opción **[!UICONTROL Ya no se puede contactar por correo electrónico]** se marcará la opción.
 
-![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 Este perfil no recibirá comunicaciones por correo electrónico de su marca a menos que se vuelva a suscribir.

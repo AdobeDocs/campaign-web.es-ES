@@ -5,8 +5,8 @@ description: Comprensión de los informes globales del canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 32%
+source-wordcount: '583'
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 
 El **[!UICONTROL Resumen de entrega]** Este informe ofrece indicadores clave de rendimiento (KPI) completos que proporcionan una perspectiva exhaustiva de los patrones de interacción de los visitantes con cada envío de SMS. A continuación se describen las métricas siguientes.
 
-![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -50,7 +50,7 @@ El **[!UICONTROL Resumen de entrega]** Este informe ofrece indicadores clave de 
 
 El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos relacionados con los destinatarios para cada envío de SMS enviado. Las métricas se detallan a continuación.
 
-![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -71,7 +71,7 @@ El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos re
 
 El **[!UICONTROL Estadísticas de envío]** Esta tabla detalla el éxito de cada envío de SMS. Las métricas se detallan a continuación.
 
-![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
@@ -98,7 +98,7 @@ El **[!UICONTROL Causas de exclusión]** El gráfico y la tabla muestran los mot
 
 Los tipos de error se enumeran en la [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Rendimiento del envío {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Los tipos de error se enumeran en la [Documentación de Adobe Campaign v8 (conso
 >title="Rendimiento del envío de SMS"
 >abstract="El informe **Rendimiento del envío** proporciona una amplia perspectiva de la eficacia del sistema de entrega de mensajes SMS y presenta información general detallada de las tasas de éxito y error en un período de tiempo especificado."
 
-![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
 El **[!UICONTROL Rendimiento de entrega]** Este informe ofrece una visión completa de la eficacia del sistema de entrega de mensajes SMS, con un resumen detallado de las tasas de éxito y error durante un periodo especificado.

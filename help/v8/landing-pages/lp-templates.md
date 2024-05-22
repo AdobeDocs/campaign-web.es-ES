@@ -6,8 +6,8 @@ feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 17%
+source-wordcount: '203'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md
 
 1. Seleccionar **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
 
-   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-save-as-template.png){zoomable="yes"}
 
 1. Añada un nombre para esta plantilla.
 
@@ -29,7 +29,7 @@ Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md
 
 La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Aprenda a hacerlo en [sección](#use-saved-template) más abajo.
 
-![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/lp-saved-template.png){zoomable="yes"}
 
 ## Uso de una plantilla guardada {#use-saved-template}
 
@@ -37,7 +37,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 1. Al editar el contenido de una página de aterrizaje, haga clic en **[!UICONTROL Más]** y seleccione **[!UICONTROL Cambiar el diseño]**.
 
-   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-change-your-design.png){zoomable="yes"}
 
 1. Confirme la elección.
 
@@ -47,11 +47,11 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 1. La lista de todas las plantillas guardadas anteriormente se muestra en la variable **[!UICONTROL Plantillas guardadas]** pestaña. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
-   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-saved-templates.png){zoomable="yes"}
 
 1. Seleccione la plantilla que desee en la lista. Una vez seleccionadas, puede desplazarse entre todas las plantillas guardadas con las flechas derecha e izquierda.
 
-   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-select-saved-template.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Usar esta plantilla]**.
 

@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo administrar recursos con Adobe Exp
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 7%
+source-wordcount: '379'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. Desde la página de inicio, acceda al menú avanzado y seleccione [!DNL Experience Manager Assets].
 
-   ![](assets/assets_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_1.png){zoomable="yes"}
 
 1. En **Administración de recursos**, haga clic en **Assets** y elija el repositorio para sus recursos en Adobe Campaign.
 
@@ -36,25 +36,25 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. Una vez en la carpeta seleccionada o creada, haga clic en **[!UICONTROL Añadir recursos]** para cargar un nuevo recurso en la carpeta.
 
-   ![](assets/assets_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_2.png){zoomable="yes"}
 
 1. Desde el **[!UICONTROL Cargar archivos]**, haga clic en **[!UICONTROL Examinar]** y elija si desea **[!UICONTROL Examinar archivos]** o **[!UICONTROL Examen de carpetas]**.
 
 1. Seleccione el archivo que desee cargar. Cuando termine, haga clic en **[!UICONTROL Cargar]**.
 
-   ![](assets/assets_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_3.png){zoomable="yes"}
 
 1. Para acceder al menú avanzado de administración de recursos, seleccione el recurso que acaba de cargar.
 
    Para obtener más información sobre cómo administrar sus recursos, consulte esta sección [página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
-   ![](assets/assets_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_4.png){zoomable="yes"}
 
 1. Para editar aún más los recursos con Adobe Photoshop Express, haga doble clic en ellos. A continuación, en el menú de la derecha, seleccione **[!UICONTROL Modo de edición]** icono. [Más información](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. Desde [!DNL Adobe Campaign], seleccione la **[!UICONTROL Selector de recursos]** del panel izquierdo del diseñador de correo electrónico.
 
-   ![](assets/assets_6.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_6.png){zoomable="yes"}
 
 1. Seleccione el creado anteriormente **[!UICONTROL Assets]** carpeta. También puede buscar su recurso o su carpeta en la barra de búsqueda.
 
@@ -62,8 +62,8 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. Arrastre y suelte su recurso en el contenido del correo electrónico.
 
-   ![](assets/assets_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_5.png){zoomable="yes"}
 
 1. Puede personalizar aún más los recursos, como agregar un vínculo externo o un texto, mediante la variable **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]** pestañas. [Más información sobre la configuración de componentes](../email/content-components.md)
 
-   ![](assets/assets_7.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_7.png){zoomable="yes"}

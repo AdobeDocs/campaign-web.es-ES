@@ -5,8 +5,8 @@ description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 44%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -41,7 +41,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
-   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_1.png){zoomable="yes"}
 
 1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega y acceda al **[!UICONTROL Opciones adicionales]** menú desplegable. Si la entrega se basa en un esquema ampliado, especifique **Opciones personalizadas** Los campos de están disponibles.
 
@@ -55,7 +55,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información sobre las audiencias](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_2.png){zoomable="yes"}
 
    Obtenga información sobre cómo seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
 
@@ -65,7 +65,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Clic **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido del mensaje SMS. [Más información](content-sms.md)
 
-   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_4.png){zoomable="yes"}
 
    Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../msg/offers.md).
 
@@ -77,4 +77,4 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_3.png){zoomable="yes"}

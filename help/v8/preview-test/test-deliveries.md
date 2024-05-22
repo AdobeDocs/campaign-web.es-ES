@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo definir y enviar pruebas
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 15%
+source-wordcount: '1124'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ Para comenzar a probar el contenido del mensaje:
 1. Haga clic en **[!UICONTROL Simular contenido]** botón.
 1. Haga clic en **[!UICONTROL Enviar prueba]** para enviar pruebas.
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Seleccione los destinatarios de la prueba.
 
@@ -78,17 +78,17 @@ A continuación se detallan los pasos para enviar pruebas a los perfiles de prue
 
 1. Desde el **[!UICONTROL Modo]** lista desplegable, elija **[!UICONTROL Perfiles de prueba]** para dirigirse a destinatarios ficticios que recibirán la entrega de prueba o SMS.
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
 1. Si ya ha seleccionado perfiles para [previsualización del mensaje](preview-content.md) en la pantalla content simulation, esos perfiles se preseleccionan como destinatarios de pruebas. Puede borrar la selección o agregar destinatarios adicionales mediante el **[!UICONTROL Añadir perfil(es) de prueba]** botón.
 
 1. Al examinar el perfil de prueba o las listas de perfiles, puede utilizar filtros para restringir la búsqueda. Por ejemplo, puede definir una regla para buscar todos los perfiles de prueba con la variable **[!UICONTROL Perspectiva]** estado. Obtenga información sobre cómo agregar reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. Para enviar también el mensaje final a los destinatarios de la prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
 1. Una vez seleccionados los perfiles de prueba, puede [enviar la prueba](#send-test).
 
@@ -108,7 +108,7 @@ Para sustituir los datos de perfil del destinatario principal, siga los pasos a 
 
 1. Haga clic en **[!UICONTROL Añadir dirección]** y especifique la dirección de correo electrónico o el número de teléfono que recibirá la prueba.
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ Para sustituir los datos de perfil del destinatario principal, siga los pasos a 
 
 1. Confirme el destinatario y repita la operación para añadir tantas direcciones de correo electrónico o números de teléfono como sea necesario.
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. Para enviar también el mensaje final a los destinatarios de la prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
 
@@ -130,13 +130,13 @@ Al diseñar con notificaciones push, las pruebas solo se pueden enviar a los sus
 
 1. En el contenido de la entrega push, haga clic en **[!UICONTROL Simular contenido]** y el botón **[!UICONTROL Enviar prueba]** botón.
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. Si ya ha seleccionado suscriptores a [previsualización de la entrega](preview-content.md) en la pantalla de simulación de contenido, esos perfiles se preseleccionan como suscriptores de prueba.
 
    Puede borrar su selección y/o añadir suscriptores adicionales usando el botón dedicado.
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. Para enviar también la notificación push final a los suscriptores de prueba, seleccione la **[!UICONTROL Incluir la población de prueba en el destinatario principal]** opción.
 
@@ -150,7 +150,7 @@ Para enviar la prueba a los destinatarios seleccionados, siga los pasos a contin
 
 1. Confirme el envío.
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. Envíe tantas pruebas como sea necesario hasta que haya finalizado el contenido de su envío.
 
@@ -166,8 +166,8 @@ Una vez enviadas las pruebas, puede acceder a sus registros desde **[!UICONTROL 
 
 Estos registros le permiten acceder a todas las pruebas enviadas para el envío seleccionado y visualizar estadísticas específicas relacionadas con su envío. [Obtenga información sobre cómo monitorizar los registros de envío](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
 También puede acceder a las pruebas enviadas desde el [lista de envíos](../msg/gs-messages.md), como cualquier envío.
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo acceder y utilizar los informes de
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 25%
+source-wordcount: '658'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ El **Informe de envío por correo directo** ofrece información y datos completo
 
 El **[!UICONTROL Resumen de entrega]** proporciona información detallada sobre cómo los visitantes interactúan con cada envío de correo directo, mostrando métricas clave de rendimiento (KPI) esenciales.  Las métricas se describen a continuación.
 
-![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -45,11 +45,11 @@ El **[!UICONTROL Resumen de entrega]** proporciona información detallada sobre 
 
 El **[!UICONTROL Población de destinatarios iniciales]** El gráfico muestra datos relativos a los destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
 Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de envío de correo directo.
 
@@ -69,7 +69,7 @@ Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
 El **[!UICONTROL Estadísticas de envío]** el gráfico proporciona una visión general completa del rendimiento de su envío y ofrece métricas detalladas para medir el éxito y la eficacia.
 
-![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de correo directo.
 
@@ -92,7 +92,7 @@ El **[!UICONTROL Estadísticas de envío]** el gráfico proporciona una visión 
 
 El **[!UICONTROL Causas de exclusión]** El gráfico proporciona un desglose detallado de los motivos por los que los mensajes se rechazan durante el proceso de preparación de la entrega. Este desglose se organiza según varias reglas, lo que ofrece una visión completa de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Más información sobre las Causas de las métricas de exclusión.
 
@@ -121,6 +121,6 @@ El **[!UICONTROL Causas de exclusión]** El gráfico proporciona un desglose det
 
 El **[!UICONTROL Exclusiones]** proporciona un desglose detallado, clasificado por reglas específicas, de los mensajes rechazados durante la fase de preparación del envío. Este desglose completo permite comprender claramente los motivos por los que se excluyen estos mensajes del proceso de envío.
 
-![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 Las métricas disponibles son las mismas que para el [Causas de exclusión](#direct-mail-delivery-exclusions) descrito anteriormente.

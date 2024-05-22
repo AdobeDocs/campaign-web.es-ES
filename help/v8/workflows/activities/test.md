@@ -2,7 +2,8 @@
 audience: end-user
 title: Uso de la actividad Test workflow
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Prueba
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 2%

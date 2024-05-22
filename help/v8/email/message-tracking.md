@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo añadir vínculos y rastrear los m
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 66%
+source-wordcount: '535'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Elija el tipo de vínculo que desea crear:
 
-   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Vínculo externo]**: inserte un vínculo a una dirección URL externa.
 
@@ -38,11 +38,11 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
    * **[!UICONTROL Página de aterrizaje]**: inserte un vínculo a una página de aterrizaje. Si selecciona una página de aterrizaje dinámica (con la variable **[!UICONTROL Servicio desde URL]** opción seleccionada), puede seleccionar cualquier servicio de la lista. [Más información](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
    * **[!UICONTROL Vínculo de suscripción]**: Inserte un vínculo a un servicio de suscripción. Cuando los usuarios hacen clic en el vínculo, se les dirige a la página de aterrizaje de suscripción a la que se hace referencia en el servicio seleccionado. [Más información](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
    * **[!UICONTROL Vínculo de baja]**: Inserte un vínculo a un servicio de baja. Cuando los suscriptores hacen clic en el vínculo, se les dirige a la página de aterrizaje de baja a la que se hace referencia en el servicio seleccionado. [Más información](../audience/manage-services.md#create-service)
 
@@ -59,7 +59,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
    * Puede editar el vínculo y cambiar su **[!UICONTROL Destinatario]**.
    * Puede elegir subrayar el vínculo o no marcando la opción correspondiente.
 
-   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -77,11 +77,11 @@ El [Diseñador de correo electrónico](create-email-content.md) le permite admin
 
 1. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
 
-   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. Puede modificar el **[!UICONTROL Tipo de seguimiento]** si es necesario:
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    Para cada URL individual, puede definir el modo de seguimiento en uno de estos valores:
 
@@ -92,6 +92,6 @@ El [Diseñador de correo electrónico](create-email-content.md) le permite admin
 
 1. Agregue una **[!UICONTROL Categoría]** a su vínculo para agrupar los vínculos rastreados y haga clic en **[!UICONTROL Guardar]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. Después de realizar el envío, puede acceder al informe. En el menú **[!UICONTROL Seguimiento]**, las **[!UICONTROL URL y flujos de clics]** muestran las direcciones URL de su envío más visitadas. [Más información](../reporting/gs-reports.md)

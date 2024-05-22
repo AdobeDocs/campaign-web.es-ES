@@ -5,8 +5,8 @@ description: Comprender los informes de campaña del canal de correo directo
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 22%
+source-wordcount: '520'
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 
 El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada entrega de correo postal. Las métricas se describen a continuación.
 
-![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -48,7 +48,7 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 
 El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de las estadísticas de audiencia de destinatario inicial.
 
@@ -90,7 +90,7 @@ El **[!UICONTROL Estadísticas de ejecución]** proporciona un desglose del éxi
 >title="Flujos de clics generados"
 >abstract="La tabla **Flujos de clics generados** muestra los datos disponibles en relación con la interacción de los destinatarios con el envío."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 El **Flujos de clics generados** La tabla ilustra los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 

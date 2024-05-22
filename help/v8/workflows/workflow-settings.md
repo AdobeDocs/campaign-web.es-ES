@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo configurar los ajustes del flujo d
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1063'
 ht-degree: 31%
 
 ---
@@ -22,7 +22,7 @@ Al crear un flujo de trabajo u organizar actividades de flujo de trabajo en el l
 
 Estos ajustes están preconfigurados en la plantilla seleccionada al crear el flujo de trabajo, pero se pueden editar según sea necesario para este flujo de trabajo específico.
 
-![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Propiedades del flujo de trabajo {#properties}
 
@@ -34,7 +34,7 @@ Estos ajustes están preconfigurados en la plantilla seleccionada al crear el fl
 El **[!UICONTROL Propiedades]** proporciona opciones genéricas que se pueden configurar al crear un flujo de trabajo. Para acceder a las propiedades de un flujo de trabajo existente, haga clic en **[!UICONTROL Configuración]** disponible en la barra de acciones sobre el lienzo del flujo de trabajo.
 
 
-![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
 
 
 Estas propiedades son:

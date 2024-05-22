@@ -1,11 +1,11 @@
 ---
-title: Últimas notas de la versión
-description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
+title: Notas de la versión de la interfaz de usuario web de Campaign v8
+description: Descubra las nuevas funciones que se incluyen en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+workflow-type: tm+mt
+source-wordcount: '1461'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,45 @@ ht-degree: 100%
 >title="Notas de la versión "
 >abstract="Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, las notas de la versión de Campaign se actualizan varias veces al mes, con las últimas funciones, mejoras y correcciones. Le recomendamos que las revise regularmente."
 
-<!--Last update: **March 19, 2024**-->
-
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+
+## Notas de la versión de mayo {#24-5-release}
+
+**Fecha de lanzamiento**: miércoles, 21 de mayo de 2024
+
+A partir de la versión de mayo, todos los usuarios tendrán a su disposición las siguientes funciones y mejoras.
+
+### Pista de auditoría  {#24-5-1}
+
+El nuevo **Pista de auditoría** proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en su instancia de Adobe Campaign en tiempo real. Ofrece un método cómodo para rastrear todos los cambios en los datos de Campaign, abordando consultas como: el estado de los flujos de trabajo, las personas más recientes para modificarlos o las actividades realizadas por los usuarios dentro de la instancia. [Más información](../reporting/audit-trail.md)
+
+### Campos personalizados {#24-5-2}
+
+**Campos personalizados** son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. En la interfaz de usuario web de Campaign, estos campos personalizados ahora están visibles en varias pantallas, por ejemplo, los detalles de un perfil o un perfil de prueba. En la interfaz de usuario web, no se pueden crear campos personalizados, pero ahora se puede modificar la forma en que se muestran. [Más información](../administration/custom-fields.md)
+
+### Creación de vínculos entre tablas {#24-5-3}
+
+Ahora puede crear vínculos con otra tabla en la **Enriquecimiento** actividad de flujo de trabajo. Utilice el nuevo **Definición de vínculo** de los parámetros de actividad para crear un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si se cargan datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, ahora se puede crear un vínculo hacia la lista del país para actualizar esta información en sus perfiles. [Más información](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### Mejoras generales {#improvements-24-5}
+
+* **Correo directo** : ahora puede aprovechar el editor de expresiones para seleccionar los atributos que se mostrarán en los archivos de extracción de correo postal. [Más información](../direct-mail/content-direct-mail.md)
+
+* **Administración de carpetas** : ahora puede crear una subcarpeta de un tipo diferente a la carpeta principal. [Más información](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **Globalización** : Como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología utilizada en los productos y las aplicaciones de Adobe Experience Cloud. Esto afecta al término alemán &quot;Title&quot;, que se cambia a &quot;Label&quot; cuando se relaciona con el nombre de un objeto. Los cambios se implementarán progresivamente en la interfaz de usuario y en la documentación de.
+
 
 ## Notas de la versión de abril {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Ahora puede enviar notificaciones push enriquecidas a través de Android. Las no
 
 Tenga en cuenta que esta función se encuentra en **Disponibilidad limitada** (LA).
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### Nuevas funciones en disponibilidad limitada {#acs-24-4}
 
@@ -91,9 +122,7 @@ Las mejoras siguientes están disponibles para todos los clientes a partir de la
 
 * La opción “Do not activate the transition if the population is empty” (No activar la transición si la población está vacía) en **Actividad dividida** le permite elegir si el flujo de trabajo debe pasar a la siguiente actividad cuando el resultado del segmento esté vacío. [Más información](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## Notas de la versión de marzo {#24-3-release}
 

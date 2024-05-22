@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo crear audiencias en Adobe Campaign
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 16%
+source-wordcount: '871'
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ Para crear una audiencia, siga estos pasos:
 
    * La &quot;nueva audiencia&quot; **[!UICONTROL Guardar audiencia]** La actividad de representa el último paso del flujo de trabajo, lo que permite guardar los resultados como una nueva audiencia.
 
-   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience-blank.png){zoomable="yes"}
 
    >[!IMPORTANT]
    >
@@ -59,7 +59,7 @@ Para crear una audiencia, siga estos pasos:
    >
    >Las actividades de canal no están disponibles para su uso en flujos de trabajo de audiencia.
 
-   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
+   ![](assets/audience-creation-canvas.png){zoomable="yes"}
 
 1. Configure las variables **[!UICONTROL Guardar audiencia]** actividad para especificar cómo desea guardar la población calculada en sentido ascendente en el flujo de trabajo. [Obtenga información sobre cómo configurar una actividad Guardar audiencia](../workflows/activities/save-audience.md)
 
@@ -73,7 +73,7 @@ Ahora puede utilizar esta audiencia como el destinatario principal de una entreg
 
 El ejemplo siguiente muestra un flujo de trabajo de audiencia configurado para dirigirse a clientes mujeres que viven en Nueva York y crear dos audiencias nuevas en función de su última compra (equipo de yoga o de running).
 
-![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-example.png){zoomable="yes"}
 
 1. El **[!UICONTROL Crear audiencia]** La actividad se dirige a todos los perfiles femeninos que viven en Nueva York.
 1. El **[!UICONTROL Enriquecimiento]** La actividad enriquece a la audiencia con información de la tabla Compras para identificar qué tipo de producto compraron los clientes.
@@ -92,7 +92,7 @@ De forma predeterminada, al volver a ejecutar un flujo de trabajo de audiencia, 
 
 Si prefiere no reemplazar los resultados de audiencia existentes, configure el **Guardar audiencia** actividades para alinearse con sus necesidades. Por ejemplo, puede cambiar el **Etiqueta de audiencia** para almacenar los nuevos resultados en una nueva audiencia o añadir los nuevos resultados al contenido de audiencia existente sin borrar los datos anteriores. [Obtenga información sobre cómo configurar una actividad Guardar audiencia](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
+![](assets/edit-audience-save.png){zoomable="yes"}
 
 ## Vídeos explicativos {#video}
 

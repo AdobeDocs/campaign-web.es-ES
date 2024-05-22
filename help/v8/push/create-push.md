@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo crear una entrega de notificacione
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 31%
+source-wordcount: '704'
+ht-degree: 30%
 
 ---
 
@@ -36,7 +36,7 @@ Para crear un nuevo envío push independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
-   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_1.png){zoomable="yes"}
 
 ## Configuración de la entrega {#configure-push-settings}
 
@@ -68,7 +68,7 @@ Primero debe seleccionar la aplicación y, a continuación, puede refinar la aud
 
 1. Desde el **[!UICONTROL Audiencia]** , seleccione la aplicación que desee utilizar para este envío. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede ajustar a una audiencia específica haciendo clic en **[!UICONTROL Seleccionar audiencia]** botón.
 
-   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_2.png){zoomable="yes"}
 
 1. Seleccione una audiencia existente o cree su propia audiencia con el fin de restringir la población objetivo para la entrega push. Para las notificaciones push, la opción predeterminada [dimensión objetivo](../audience/about-recipients.md#targeting-dimensions) es **Aplicación de suscriptor** (nms:appSubscriptionRcp), que está vinculado a la tabla de destinatarios.
 
@@ -82,7 +82,7 @@ Primero debe seleccionar la aplicación y, a continuación, puede refinar la aud
 
 Para definir el contenido de la notificación, haga clic en **[!UICONTROL Editar contenido]**. [Más información](content-push.md)
 
-![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_5.png){zoomable="yes"}
 
 Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../msg/offers.md).
 
@@ -100,7 +100,7 @@ Para programar una entrega push independiente a una fecha y hora específicas, s
 
 Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas que haya definido para el destinatario.
 
-![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_3.png){zoomable="yes"}
 
 Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#gs-schedule)
 
@@ -108,4 +108,4 @@ Obtenga más información sobre la programación de entregas en [esta sección](
 
 Clic **[!UICONTROL Configuración de la entrega]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_4.png){zoomable="yes"}

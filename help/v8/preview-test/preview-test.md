@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 18%
+source-wordcount: '193'
+ht-degree: 17%
 
 ---
 
@@ -30,7 +30,7 @@ Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles 
 
 Estas acciones se pueden realizar con el complemento **[!UICONTROL Simular contenido]** , a la que se puede acceder desde la pantalla de edición de contenido del envío o desde el [Diseñador de correo electrónico](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

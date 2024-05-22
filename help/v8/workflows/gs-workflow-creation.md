@@ -5,7 +5,7 @@ description: Aprenda principios clave de los flujos de trabajo con la web de Ado
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Con Adobe Campaign Web, puede crear flujos de trabajo en un lienzo visual para d
 
 El diagrama de flujo de trabajo es una representación de lo que se supone que debe suceder. Describe las diversas tareas que se realizan y cómo se relacionan entre sí.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
 Cada flujo de trabajo contiene:
 
@@ -38,15 +38,15 @@ Campañas ofrece dos formas de crear un flujo de trabajo:
 
 1. Los flujos de trabajo se pueden crear como flujos de trabajo independientes a partir del menú **Flujos de trabajo**.
 
-   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-standalone-wf.png){zoomable="yes"}
 
 1. Los flujos de trabajo se pueden crear directamente dentro de una campaña, desde la pestaña **Flujo de trabajo** de la campaña. Cuando se incluye en una campaña, el flujo de trabajo se ejecuta junto con todos los flujos de trabajo de la otra campaña, y todas las métricas de creación de informes se agrupan en el nivel de campaña.
 
-   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 Los pasos principales para crear flujos de trabajo son los siguientes:
 
-![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-creation-process.png){zoomable="yes"}
 
 Estos pasos se detallan en la siguiente sección:
 

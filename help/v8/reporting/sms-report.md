@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo acceder y utilizar los informes de
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 46%
+source-wordcount: '504'
+ht-degree: 45%
 
 ---
 
@@ -30,7 +30,7 @@ La **Información general sobre el envío de SMS** ofrece una amplia descripció
 
 El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las tasas de éxito y error, y cómo los visitantes interactúan con los mensajes SMS.
 
-![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -53,7 +53,7 @@ El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clav
 
 El **Población de destino** los gráficos y las tablas muestran datos relativos a la audiencia. Las métricas se detallan a continuación.
 
-![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -72,7 +72,7 @@ El **Población de destino** los gráficos y las tablas muestran datos relativos
 
 El **Estadísticas generales** El informe presenta los datos de los mensajes SMS enviados. Las métricas se detallan a continuación.
 
-![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -92,7 +92,7 @@ El **Estadísticas generales** El informe presenta los datos de los mensajes SMS
 
 El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -103,4 +103,4 @@ El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los motivos que 
 
 Este informe presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
-![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_sms_2.png){zoomable="yes"}

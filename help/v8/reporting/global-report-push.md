@@ -5,8 +5,8 @@ description: Comprensión de los informes globales del canal push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 26%
+source-wordcount: '546'
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 
 El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con cada envío de notificación push. Las métricas se detallan a continuación.
 
-![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -50,7 +50,7 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 
 El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos relacionados con los destinatarios para cada envío de notificación push enviado. Las métricas se detallan a continuación.
 
-![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -71,7 +71,7 @@ El **[!UICONTROL Audiencia objetivo]** La tabla y el gráfico presentan datos re
 
 El **[!UICONTROL Estadísticas de envío]** Esta tabla detalla el éxito de cada envío de notificaciones push. Las métricas se detallan a continuación.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
@@ -105,6 +105,6 @@ Los tipos de error de notificaciones push se enumeran en [Documentación de Adob
 >title="Informe de rendimiento del envío"
 >abstract="El informe **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío de notificaciones push de toda la plataforma dentro de un período de tiempo especificado."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
+![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 El **[!UICONTROL Rendimiento de entrega]** Este informe ofrece información completa sobre la eficacia del sistema de entrega de notificaciones push, y ofrece un resumen detallado de las tasas de éxito y error durante un periodo especificado.

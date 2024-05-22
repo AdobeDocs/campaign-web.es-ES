@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -153,7 +153,7 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
    +++Opciones adicionales para **[!UICONTROL Descarga web]** actividades de tipo
 
    * **[!UICONTROL Seguir redirecciones]**: la redirección de archivos permite utilizar invalidaciones para dirigir la entrada o salida de datos a un dispositivo de un tipo diferente.
-   * **[!UICONTROL Añadir los encabezados HTTP al archivo]**: En algunos casos, es posible que desee agregar encabezados HTTP adicionales a un archivo. Normalmente, estos encabezados se utilizan para proporcionar información adicional con fines de resolución de problemas, por ejemplo [Intercambio de recursos de origen cruzado (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS)o para establecer directivas de almacenamiento en caché específicas.
+   * **[!UICONTROL Añadir los encabezados HTTP al archivo]**: En algunos casos, es posible que desee agregar encabezados HTTP adicionales a un archivo. Lo más habitual es que estos encabezados se utilicen para proporcionar información adicional para la resolución de problemas, para [Cross-origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o para establecer directivas específicas de almacenamiento en caché.
    * **[!UICONTROL Omitir el código de retorno HTTP]**: los códigos de retorno HTTP, también conocidos como códigos de estado HTTP, indican el resultado de una solicitud HTTP.
 
 1. El **[!UICONTROL Errores de proceso]** La opción le permite activar una transición saliente de &quot;error&quot; después de la actividad si se produce algún error durante la transferencia.

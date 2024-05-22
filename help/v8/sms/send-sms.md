@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 16%
+source-wordcount: '418'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +25,7 @@ Los pasos principales para previsualizar su envío de SMS son los siguientes. En
 
 1. En la página de contenido de la entrega, utilice **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
 
-   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_1.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** para seleccionar uno o varios perfiles de prueba o perfiles.
 
@@ -36,7 +36,7 @@ Los pasos principales para previsualizar su envío de SMS son los siguientes. En
 
 1. En el panel derecho, encontrará una vista previa del envío SMS, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
-   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_3.png){zoomable="yes"}
 
 Ahora puede revisar y enviar su mensaje SMS a su público.
 
@@ -48,13 +48,13 @@ El envío de pruebas es un paso importante para garantizar la calidad y la efica
 
 ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo enviar pruebas en [esta sección](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
+![](assets/sms_send_6.png){zoomable="yes"}
 
 ## Realización de la entrega de SMS {#send-sms}
 
 1. Después de personalizar el contenido del SMS, haga clic en **[!UICONTROL Revisar y enviar]** de su **[!UICONTROL Envío]** página.
 
-   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_4.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
 
@@ -62,7 +62,7 @@ El envío de pruebas es un paso importante para garantizar la calidad y la efica
 
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 
-   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_5.png){zoomable="yes"}
 
    Si la entrega de SMS se ha programado, haga clic en el **[!UICONTROL Enviar como está programado]** botón. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#schedule-the-delivery-sending).
 

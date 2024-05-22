@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo crear una entrega de correo direct
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 28%
+source-wordcount: '460'
+ht-degree: 26%
 
 ---
 
@@ -22,11 +22,11 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega y acceda al **[!UICONTROL Opciones adicionales]** menú desplegable. Si la entrega se basa en un esquema ampliado, especifique **Opciones personalizadas** Los campos de están disponibles.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Configure la siguiente configuración según sus necesidades.
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
@@ -41,7 +41,7 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
    * [Obtenga información sobre cómo seleccionar una audiencia existente](../audience/add-audience.md)
    * [Obtenga información sobre cómo crear una audiencia nueva](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
 
 1. Clic **[!UICONTROL Editar contenido]** para definir la información (columnas) que se van a exportar al archivo de extracción. [Más información](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
 1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el archivo de extracción se generará automáticamente en la fecha y hora exactas que haya definido. [Obtenga información sobre cómo programar entregas](../msg/gs-messages.md#gs-schedule).
 
@@ -61,6 +61,6 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
 
 1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. Una vez que la entrega de correo postal esté lista, haga clic en **[!UICONTROL Revisar y enviar]** para validar y realizar la entrega y generar el archivo de extracción. [Obtenga información sobre cómo obtener una vista previa y enviar una entrega de correo directo](send-direct-mail.md)

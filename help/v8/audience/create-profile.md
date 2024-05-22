@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear un perfil en Campaign Web.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 48%
 
 ---
@@ -52,7 +52,7 @@ Para crear un perfil, siga estos pasos:
 
 1. Se muestra la lista de atributos disponibles para el perfil, organizados en diferentes secciones detalladas en la siguiente tabla.
 
-   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-profile.png){zoomable="yes"}
 
    | Sección Atributos | Descripción |
    |  ---  |  ---  |

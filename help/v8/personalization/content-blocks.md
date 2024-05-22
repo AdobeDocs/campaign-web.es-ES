@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 58%
+source-wordcount: '427'
+ht-degree: 57%
 
 ---
 
@@ -23,13 +23,13 @@ Para añadir un bloque de contenido a una entrega, siga estos pasos:
 
 1. Busque el campo donde desea agregar un bloque de contenido y haga clic en **[!UICONTROL Abrir diálogo de personalización]** para abrir el editor de expresiones.
 
-   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable="yes"}{width="800" align="center"}
 
 1. En el editor de expresiones, busque **[!UICONTROL Bloques de contenido]** menú izquierdo.
 
 1. Para añadir un bloque de contenido, coloque el cursor en la ubicación deseada dentro del contenido y haga clic en el botón &quot;+&quot; para insertarlo.
 
-   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 Descripción de los bloques de contenido integrados:
 

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear y administrar filtros predef
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Los filtros predefinidos son filtros personalizados que se crean y guardan para 
 
 Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de sus datos o crear sus propios filtros predefinidos y guardarlos.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 ## Creación de un filtro predefinido {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ Puede guardar un filtro personalizado desde el [modelador de consultas](../query
 1. Abra el modelador de consultas y defina las condiciones de filtrado. En el ejemplo siguiente, se filtran los destinatarios que viven en Madrid y están suscritos a una Newsletter.
 1. Haga clic en el botón **Seleccionar o guardar filtro** y seleccione **Guardar como filtro**.
 
-   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. Seleccione **Crear nuevo filtro** y escriba un nombre y una descripción para él.
 
-   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
    Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
 
@@ -71,12 +71,12 @@ Puede crear un filtro desde la entrada **Filtros predefinidos** en el menú de l
 
 1. Defina la regla para el filtro. Por ejemplo, perfiles de personas de más de 30 años.
 
-   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. Guarde los cambios.
 
-   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-filter.png){zoomable="yes"}
 
 
 El filtro se añade a la lista de filtros predefinidos. Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter).
@@ -89,7 +89,7 @@ Al crear un filtro predefinido, puede activar la opción **Guardar como favorito
 
 Cuando un filtro se guarda como favorito, está disponible para todos los usuarios en la sección **Filtros favoritos** de la lista de creación de filtros, como se muestra a continuación:
 
-![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## Uso de un filtro predefinido {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 1. Introduzca el nombre del público y haga clic en el botón **Crear público**.
 1. Seleccione la actividad **Consulta** y, en el panel derecho, haga clic en el botón **Crear público**.
 
-   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. En el botón **Seleccionar o guardar filtro**, elija la opción **Seleccionar filtro personalizado**.
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. Vaya al filtro predefinido que se utilizará para crear el público, selecciónelo y confirme.
 
-   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. Compruebe las propiedades de la regla para ese filtro y confirme.
 
    El filtro ahora se utiliza como consulta en la actividad **Consulta**.
 
-   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. Guarde los cambios y haga clic en el botón **Iniciar** para crear el público y que esté disponible en la lista de públicos.
 
@@ -125,7 +125,7 @@ Por ejemplo, para crear un público a partir de un filtro predefinido, siga esto
 
 Los filtros predefinidos se agrupan en una entrada propia del menú de navegación de la izquierda.
 
-![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
+![](assets/list-of-filters.png){zoomable="yes"}
 
 A partir de esa lista, puede crear un nuevo filtro tal como se explica más arriba y realizar las acciones que se indican a continuación:
 

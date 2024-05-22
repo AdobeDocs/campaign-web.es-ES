@@ -5,8 +5,8 @@ feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 13%
+source-wordcount: '1133'
+ht-degree: 15%
 
 ---
 
@@ -38,7 +38,7 @@ Para diseñar aún más el contenido de la página de aterrizaje:
 
   >[!AVAILABILITY]
   >
-  >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+  >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 ## Uso del componente del formulario {#use-form-component}
 
@@ -62,7 +62,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. Selecciónelo. El **[!UICONTROL Contenido de formulario]** La pestaña se muestra en la paleta derecha para permitirle editar los diferentes campos del formulario.
 
-   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-component.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. Expanda el primer campo de texto, si lo hay, o agregue uno con la variable **[!UICONTROL Añadir]** botón. Desde el **[!UICONTROL Campo de texto 1]** , puede editar el tipo de campo, el campo de base de datos que desea actualizar, la etiqueta y el texto que se mostrará dentro del campo antes de que los usuarios introduzcan un valor.
 
-   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-text-field.png){zoomable="yes"}
 
 1. Compruebe la **[!UICONTROL Definir campo de formulario como obligatorio]** si es necesario. En ese caso, la página de aterrizaje solo se puede enviar si el usuario ha rellenado este campo.
 
@@ -80,7 +80,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. Expanda la casilla de verificación, si la hay, o agregue una usando la variable **[!UICONTROL Añadir]** botón. Seleccione si esa casilla de verificación debe actualizar un servicio o un campo de la base de datos.
 
-   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-checkbox.png){zoomable="yes"}
 
    Si selecciona **[!UICONTROL Suscripción y servicios]**, seleccione una [servicio](../audience/manage-services.md) de la lista y elija entre las dos opciones siguientes:
 
@@ -97,7 +97,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. Una vez añadidos o actualizados todos los campos, haga clic en **[!UICONTROL Llamada a la acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en la variable **[!UICONTROL Form]** componente. [Descubra cómo](#define-actions-on-form-submission)
 
-   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Guarde el contenido para volver al [propiedades de página de aterrizaje](create-lp.md#create-landing-page).
 
@@ -122,19 +122,19 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
    * Todos los canales: al enviar el formulario, los usuarios se incluyen o excluyen (según la plantilla seleccionada) de todas las comunicaciones de la marca en todos los canales.
    * Un campo de la base de datos: seleccione un campo de la lista de atributos y defina si debe establecerse en True o False al enviar el formulario.
 
-   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-additionnal-updates.png){zoomable="yes"}
 
 1. Seleccione el **[!UICONTROL Servicio desde URL]** para permitir que la página de aterrizaje se utilice en varios servicios, haciéndola dinámica. Defina si desea incluir o excluir usuarios al enviar el formulario.
 
    >[!AVAILABILITY]
    >
-   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
-   ![](assets/lp-form-service-from-url.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Al diseñar un correo electrónico, si define una **[!UICONTROL Página de aterrizaje]** Vínculo de tipo a esta página de aterrizaje; podrá seleccionar cualquier servicio de la lista. A continuación, puede seleccionar otros servicios al definir otros vínculos a esta página de aterrizaje. [Más información sobre la inserción de vínculos](../email/message-tracking.md)
 
-   ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
 ## Definir estilos de formulario de una página de aterrizaje {#lp-form-styles}
 
@@ -142,17 +142,17 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. El **[!UICONTROL Campo de texto]** se expande de forma predeterminada. Permite editar el aspecto de los campos de texto, como la fuente de la etiqueta, la posición de la etiqueta, el color de fondo del campo o el borde del campo.
 
-   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-text-styles.png){zoomable="yes"}
 
 1. Expanda el **[!UICONTROL Casilla]** para definir el aspecto de las casillas de verificación y el texto correspondiente. Por ejemplo, puede ajustar la familia y el tamaño de la fuente o el color del borde de la casilla de verificación.
 
-   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
 1. Expanda y edite cualquier otra sección correspondiente a otros campos que haya agregado (botón de opción, lista desplegable, fecha y hora, etc.) a su formulario.
 
 1. Expanda el **[!UICONTROL Llamada a la acción]** para modificar el aspecto del botón en el formulario de componentes. Por ejemplo, puede cambiar la fuente, agregar un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
 
-   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Puede obtener una vista previa de algunos de los ajustes, como el color de la etiqueta del botón al pasar el ratón por encima, utilizando **[!UICONTROL Simular contenido]** botón. [Más información](create-lp.md#test-landing-page)
 

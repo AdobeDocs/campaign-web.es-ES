@@ -5,7 +5,7 @@ description: Aprenda a crear la primera consulta en el modelador de consultas we
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2098'
 ht-degree: 74%
 
 ---
@@ -24,7 +24,7 @@ El editor de expresiones está disponible en el modelador de consultas **[!UICON
 
 | Acceso desde el **Atributo** campo | Acceso desde el **Valor** campo |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 El editor de expresiones proporciona lo siguiente:
 
@@ -34,13 +34,13 @@ El editor de expresiones proporciona lo siguiente:
 
 Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
 
-![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable="yes"}
 
 Cuando la expresión esté lista, haga clic en **[!UICONTROL Confirmar]** botón. La expresión se muestra en el campo seleccionado. Para editarlo, abra el editor de expresiones y realice los cambios deseados.
 
 El ejemplo siguiente muestra una expresión configurada para **[!UICONTROL Valor]** field. Para editarlo, debe abrir el editor de expresiones utilizando **[!UICONTROL Editar expresión]** botón.
 
-![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Funciones de ayuda
 

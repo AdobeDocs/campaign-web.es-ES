@@ -5,8 +5,8 @@ description: Más información sobre los Informes globales para el canal de corr
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 33%
+source-wordcount: '620'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 
 La **[!UICONTROL Información general de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo directo. Las métricas se describen a continuación.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -54,7 +54,7 @@ La **[!UICONTROL Información general de entrega]** presenta métricas clave de 
 
 La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos relacionados con sus destinatarios, con las métricas detalladas que se proporcionan a continuación.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -104,7 +104,7 @@ El **[!UICONTROL Estadísticas de envío]** el gráfico y la tabla proporcionan 
 >title="Causas de exclusión"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 

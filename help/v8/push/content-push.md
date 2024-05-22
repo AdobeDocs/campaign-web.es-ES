@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo diseñar una entrega de notificaci
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1531'
 ht-degree: 47%
 
 ---
@@ -53,7 +53,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
   Para definir el contenido, personalizar los datos y añadir contenido dinámico, haga clic en **[!UICONTROL Mensaje]** y utilice el Editor de expresiones. Puede acceder a este editor para personalizar los mensajes.
 En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación se añaden automáticamente. Estas variables permiten definir el comportamiento de las notificaciones. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
 
-  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/push_content_4.png){zoomable="yes"}
 
 * El **[!UICONTROL Mensaje de notificación]**, gestionado automáticamente por el SDK de FCM. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
@@ -61,7 +61,7 @@ En el **[!UICONTROL Variables de aplicación]** , las variables de Aplicación s
 
   Para personalizar aún más la notificación push, puede elegir una imagen para añadirla a la notificación push, el icono de la notificación para mostrar en los dispositivos de los perfiles y su color.
 
-  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
@@ -71,7 +71,7 @@ Puede añadir un **[!UICONTROL Subtítulo]**, valor del parámetro subtitle de l
 
 El modo push silencioso permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
 
-![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -124,7 +124,7 @@ Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Exa
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | Parámetro | Descripción |
 |---------|---------|
@@ -140,7 +140,7 @@ Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Exa
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_2.png){zoomable="yes"}
 
 | Parámetro | Descripción |
 |---------|---------|

@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo acceder y utilizar los informes de
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 39%
+source-wordcount: '476'
+ht-degree: 38%
 
 ---
 
@@ -30,7 +30,7 @@ El **Informe de envío push** ofrece una descripción general completa del canal
 
 El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con los mensajes push.
 
-![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_3.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío push.
 
@@ -53,7 +53,7 @@ El **[!UICONTROL Resumen del envío]** Este informe proporciona indicadores clav
 
 El **Población de destino** los gráficos y las tablas muestran datos relativos a la audiencia: mensajes para enviar y exclusiones. Las métricas se detallan a continuación.
 
-![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_4.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío push.
 
@@ -72,7 +72,7 @@ El **Población de destino** los gráficos y las tablas muestran datos relativos
 
 El **Estadísticas generales** presenta datos para las notificaciones push enviadas: éxito, errores y cuarentenas. Las métricas se detallan a continuación.
 
-![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_5.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío push.
 
@@ -94,7 +94,7 @@ El **Estadísticas generales** presenta datos para las notificaciones push envia
 El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la sección [Documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -105,4 +105,4 @@ El **[!UICONTROL Exclusiones]** el gráfico y la tabla muestran los distintos mo
 
 El **Rendimiento del envío** Este informe presenta información detallada sobre el rendimiento de entrega de toda la plataforma en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
-![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_2.png){zoomable="yes"}

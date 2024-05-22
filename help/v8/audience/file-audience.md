@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo cargar perfiles de un archivo exte
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 29%
+source-wordcount: '649'
+ht-degree: 28%
 
 ---
 
@@ -53,7 +53,7 @@ Para segmentar perfiles a partir de un archivo en los correos electrónicos, sig
 1. Abra una entrega de correo electrónico existente o [creación de un nuevo envío de correo electrónico](../email/create-email.md).
 1. En el **Audiencia** , haga clic en **Seleccionar audiencia** y luego elija **Seleccionar del archivo**.
 
-   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-from-file.png){zoomable="yes"}
 
 1. Seleccione el archivo local que desea cargar. El formato de archivo debe alinearse con la variable [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
@@ -66,7 +66,7 @@ Para segmentar perfiles a partir de un archivo en los correos electrónicos, sig
 
 Al crear el contenido del mensaje, puede añadir personalización aprovechando los campos del archivo de entrada. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
+![](assets/select-external-perso.png){zoomable="yes"}
 
 ## Archivo de muestra {#sample-file}
 
@@ -101,7 +101,7 @@ La web de Campaign le permite obtener una vista previa y enviar pruebas cuando s
 
 1. En el panel derecho de la pantalla aparece una vista previa del contenido de la entrega. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo. [Más información sobre la previsualización del contenido de envío](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Para enviar pruebas, haga clic en **[!UICONTROL Enviar prueba]** botón.
 
@@ -113,6 +113,6 @@ La web de Campaign le permite obtener una vista previa y enviar pruebas cuando s
 
 1. Cuando haya añadido los perfiles de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar prueba]** y confirme el envío.
 
-   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-test.png){zoomable="yes"}
 
 1. Puede monitorizar el envío de la prueba mediante el **[!UICONTROL Ver pruebas]** botón en cualquier momento. [Más información sobre la monitorización de pruebas](../preview-test/test-deliveries.md#access-test-deliveries)

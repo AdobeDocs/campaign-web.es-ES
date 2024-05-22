@@ -4,8 +4,8 @@ description: Descubra cómo explorar los detalles de un perfil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 12%
+source-wordcount: '173'
+ht-degree: 10%
 
 ---
 
@@ -22,14 +22,14 @@ La información sobre el perfil se organiza de la siguiente manera:
 
 * El **[!UICONTROL Detalles]** permite examinar los atributos integrados y personalizados del perfil. Para editar un atributo, realice cambios en el campo deseado y haga clic en **[!UICONTROL Guardar]** botón. Encontrará información detallada sobre los atributos de los perfiles en la [Creación de un perfil](create-profile.md) sección.
 
-  ![](assets/profile-details.png){zoomable=&quot;yes&quot;}
+  ![](assets/profile-details.png){zoomable="yes"}
 
 * El **[!UICONTROL Suscripciones]** proporciona una perspectiva de los servicios a los que está suscrito el perfil. [Más información sobre los servicios de suscripción](manage-services.md)
 
-  ![](assets/profile-subscriptions.png){zoomable=&quot;yes&quot;}
+  ![](assets/profile-subscriptions.png){zoomable="yes"}
 
 * Además, la variable **[!UICONTROL Registros]** situado en la esquina superior derecha de la pantalla, permite ver el historial de las interacciones del perfil mediante el envío, la exclusión y los registros de seguimiento. [Más información sobre los registros de envío](../monitor/delivery-logs.md)
 
   Desde estos registros, también puede revisar las ofertas presentadas al perfil seleccionado en la **[!UICONTROL Propuestas]** pestaña. [Más información sobre las ofertas](../msg/offers.md)
 
-  ![](assets/profile-logs.png){zoomable=&quot;yes&quot;}
+  ![](assets/profile-logs.png){zoomable="yes"}

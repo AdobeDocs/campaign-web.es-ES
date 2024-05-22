@@ -3,9 +3,9 @@ audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="Este flujo de trabajo es de solo lectura"
 >abstract="No tiene permisos para editar este flujo de trabajo. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Este flujo de trabajo es de solo lectura"
->abstract="No puede editar este flujo de trabajo porque el lienzo no está admitido o no es compatible."
+
 
 El control de acceso puede restringir el acceso a objetos y datos de listas principales, como envíos, destinatarios o flujos de trabajo. Estas restricciones también se aplican en el árbol de navegación de **Explorer.** Además, necesita permisos para crear, eliminar, duplicar y editar objetos desde la interfaz de usuario.
 
@@ -68,11 +65,11 @@ Para ver los permisos de una carpeta, siga estos pasos:
 1. Desde el menú de navegación de la izquierda de **Explorer**, seleccione una carpeta.
 1. Haga clic en los tres puntos de la esquina superior derecha y seleccione **Permisos de la carpeta**.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Compruebe los detalles en la pantalla, como se muestra a continuación:
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    Un grupo o un operador puede tener permisos de lectura, escritura o eliminación sobre los datos almacenados en la carpeta seleccionada.
 
@@ -97,8 +94,8 @@ Para crear una carpeta, siga estos pasos:
 1. Haga clic en los tres puntos de la esquina superior derecha y elija **Crear nueva subcarpeta**.
 1. Introduzca el nombre de la carpeta y guárdela.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente desde cualquier carpeta y guardarlo en esa nueva carpeta, desde la sección **Opciones adicionales** de las propiedades, para un envío, tal como se muestra a continuación:
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}

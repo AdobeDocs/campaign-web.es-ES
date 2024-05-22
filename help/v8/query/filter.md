@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo filtrar listas web de Adobe Campai
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 7%
+source-wordcount: '306'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Para aplicar filtros a una lista, haga clic en **[!UICONTROL Mostrar filtros]** 
 
 Se abre el panel Filtros, que muestra los filtros disponibles para la lista seleccionada. Por ejemplo, puede filtrar las campañas por su estado, fechas de inicio y finalización o carpeta de almacenamiento, mientras que la lista de servicios de suscripción se puede filtrar por su canal y carpeta de almacenamiento.
 
-![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Para filtrar una lista según sus propios criterios, cree un filtro personalizado. Para ello, vaya a la parte inferior del panel de filtros y haga clic en **Agregar reglas** botón. [Obtenga información sobre cómo crear filtros personalizados](#custom)
 
@@ -36,6 +36,6 @@ Los filtros personalizados le permiten refinar las listas según sus propios cri
 
    El ejemplo siguiente muestra un filtro personalizado diseñado para mostrar en la lista de campañas las campañas SMS ejecutadas por operadores de los departamentos de Running o Yoga.
 
-   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Una vez configurado el filtro personalizado, haga clic en **[!UICONTROL Confirmar]** para aplicarlo a la lista.

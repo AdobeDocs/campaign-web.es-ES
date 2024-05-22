@@ -4,7 +4,7 @@ description: Descubra cómo comprender los indicadores de rendimiento clave
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ De forma predeterminada, las métricas se calculan para los envíos realizados d
 
 Puede seleccionar el canal que desea mostrar. De forma predeterminada, los indicadores reflejan las métricas del canal de correo electrónico.
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## Mensaje entregado {#ui-delivered-kpi}
 

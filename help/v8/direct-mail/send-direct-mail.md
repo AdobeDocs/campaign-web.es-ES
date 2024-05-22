@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo obtener una vista previa y enviar 
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 3%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,13 @@ Los pasos principales para previsualizar el archivo de extracción son los sigui
 
 1. En la página de contenido de la entrega, utilice **[!UICONTROL Simular contenido]** para previsualizar el contenido personalizado.
 
-   ![](assets/dm-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-simulate.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Añadir perfil(es) de prueba]** para seleccionar uno o varios perfiles para previsualizar sus datos en el contenido del archivo de extracción.
 
 1. En el panel derecho, encontrará una vista previa del archivo de extracción, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
-   ![](assets/dm-preview-right.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-preview-right.png){zoomable="yes"}
 
 ## Envío de pruebas {#test-dm}
 
@@ -42,7 +42,7 @@ Para las entregas de correo postal, la entrega de pruebas genera una muestra del
 
 1. En el panel de envío de prueba, haga clic en **[!UICONTROL Previsualizar archivo]** para acceder a una previsualización del archivo de extracción.
 
-   ![](assets/dm-proof.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-proof.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,13 +54,13 @@ Una vez que el correo postal esté listo para enviarse a sus clientes, puede rea
 
 1. Después de diseñar el contenido del archivo de extracción, haga clic en **[!UICONTROL Revisar y enviar]** de su **[!UICONTROL Envío]** página.
 
-   ![](assets/dm-review-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-review-send.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Preparar]** y supervisar el progreso y las estadísticas proporcionadas.
 
    Si se produce algún error, consulte la **[!UICONTROL Registros]** para obtener información detallada sobre el error.
 
-   ![](assets/dm-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-prepare.png){zoomable="yes"}
 
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 

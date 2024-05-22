@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo preparar y enviar un correo electr
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 40%
+source-wordcount: '891'
+ht-degree: 38%
 
 ---
 
@@ -25,12 +25,12 @@ A continuación se enumeran los pasos principales para preparar el envío.
 
 1. En el panel de envío, haga clic en **[!UICONTROL Revisar y enviar]**.
 
-   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
 1. Haga clic en **[!UICONTROL Preparar]** situado en la esquina superior derecha y confirme.
 
-   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -40,14 +40,14 @@ A continuación se enumeran los pasos principales para preparar el envío.
 
    Puede detener la preparación en cualquier momento utilizando **[!UICONTROL Detener preparación]** botón.
 
-   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-stop-preparation.png){zoomable="yes"}
 
    >[!NOTE]
    >Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede iniciarla o detenerla sin riesgo alguno.
 
 1. Cuando finalice la preparación, compruebe los indicadores claves de rendimiento (KPI). Si el número de mensajes que desea enviar no coincide con sus expectativas, modifique el público y reinicie la preparación.
 
-   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-preparation-complete.png){zoomable="yes"}
 
    Estos son los diferentes KPI mostrados:
 
@@ -57,11 +57,11 @@ A continuación se enumeran los pasos principales para preparar el envío.
 
 1. Haga clic en el botón **[!UICONTROL Registros]** y compruebe que no haya errores. El último mensaje de registro muestra los mensajes de error y los errores. [Más información](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-logs.png){zoomable="yes"}
 
 1. Si la preparación detecta un error crítico que impide que se realice el envío, el estado de preparación aparece como erróneo en el panel de envío.
 
-   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-prepare-error.png){zoomable="yes"}
 
 1. Si realiza cambios en la entrega después de la preparación, debe reiniciar la preparación para que los cambios se tengan en cuenta.
 
@@ -80,7 +80,7 @@ Para enviar un correo electrónico inmediatamente, siga los pasos a continuació
 
 1. En el panel de envío, haga clic en **[!UICONTROL Enviar]** en la esquina superior derecha.
 
-   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send.png){zoomable="yes"}
 
 1. Confirme esta acción para enviar inmediatamente el mensaje al destinatario principal.
 
@@ -94,7 +94,7 @@ Si ha programado el correo electrónico para enviarlo en una fecha y hora poster
 
 1. En el panel de envío, haga clic en **[!UICONTROL Botón Enviar como programado]** en la esquina superior derecha.
 
-   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
 1. Clic **[!UICONTROL Confirmar envío]**. La entrega se realiza en la fecha programada y se envía al destinatario principal.
 
@@ -110,7 +110,7 @@ Si la entrega está programado o no<!--TBC-->, se pueden realizar dos acciones e
 
 * Clic **[!UICONTROL Detener envío]** para interrumpir el envío inmediatamente. Ni la preparación ni el envío se pueden reanudar una vez detenidos.
 
-![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
 ## Compruebe los KPI mostrados {#check-kpis}
 
@@ -150,7 +150,7 @@ Si la entrega está programado o no<!--TBC-->, se pueden realizar dos acciones e
 
 Una vez completado el envío, puede comprobar los KPI mostrados:
 
-![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
+![](assets/email-send-kpis.png){zoomable="yes"}
 
 * **[!UICONTROL Enviado]**: el número de mensajes enviados. El porcentaje mostrado se basa en el número total de mensajes que se van a enviar.
 

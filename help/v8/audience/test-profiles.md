@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 22%
+source-wordcount: '592'
+ht-degree: 20%
 
 ---
 
@@ -35,17 +35,17 @@ Los pasos para enviar pruebas a los perfiles de prueba se detallan en [esta secc
 
 Para acceder a la lista de perfiles de prueba, seleccione **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** en el menú de la izquierda y haga clic en **[!UICONTROL Perfiles de prueba]** pestaña.
 
-![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
+![](assets/test-profile-list.png){zoomable="yes"}
 
 * Puede filtrar por un [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * Puede duplicar cualquier perfil de prueba y actualizarlo según sea necesario. Los pasos para editar un perfil de prueba son los mismos que cuando [creación de un perfil de prueba](#create-test-profile).
 
 * Para eliminar un perfil de prueba, seleccione la opción correspondiente en la **[!UICONTROL Más acciones]** menú.
 
-  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * Para editar un perfil de prueba, haga clic en el elemento deseado de la lista. Los pasos para editar un perfil de prueba son los mismos que cuando [creación de un perfil de prueba](#create-test-profile).
 
@@ -53,7 +53,7 @@ También puede acceder a los perfiles de prueba a través del **[!UICONTROL Expl
 
 Desde allí puede examinar, crear y administrar carpetas o subcarpetas, así como comprobar los permisos asociados. [Obtenga información sobre cómo crear carpetas](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
+![](assets/test-profiles-folders.png){zoomable="yes"}
 
 Desde el **[!UICONTROL Explorer]** vista también puede filtrar, eliminar, editar y [crear](#create-test-profile) perfiles de prueba.
 
@@ -70,11 +70,11 @@ Para crear un perfil de prueba, siga los pasos a continuación:
 
 1. Haga clic en **[!UICONTROL Crear perfil de prueba]** botón.
 
-   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-create.png){zoomable="yes"}
 
 1. Complete los detalles del perfil de prueba según sea necesario. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -90,13 +90,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. En el **[!UICONTROL Información de contacto]** , introduzca la dirección de correo electrónico y otros datos relevantes. La dirección de correo electrónico se muestra entre corchetes después de la etiqueta del perfil de prueba.
 
-   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-address.png){zoomable="yes"}
 
 1. Si selecciona la opción **[!UICONTROL Ya no se puede contactar (por ningún canal)]** incluir en la lista de bloqueados casilla de verificación, el perfil de prueba está a la. Este destinatario ya no está dirigido a ningún canal (correo electrónico, SMS, etc.).
 
 1. En el **[!UICONTROL Datos adicionales]** , introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico. [Más información sobre los flujos de trabajo](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-additional-data.png){zoomable="yes"}
 
    Asegúrese de que se han definido datos de destino adicionales con un alias que comience por &#39;@&#39; en **[!UICONTROL Enriquecimiento]** actividad de flujo de trabajo. De lo contrario, no puede utilizarlo correctamente con sus direcciones semilla en la actividad de envío. [Descubra más información sobre la actividad Enriquecimiento](../workflows/activities/enrichment.md)
 

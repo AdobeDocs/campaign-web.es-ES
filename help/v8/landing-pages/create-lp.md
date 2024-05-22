@@ -5,8 +5,8 @@ feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 32%
+source-wordcount: '1478'
+ht-degree: 31%
 
 ---
 
@@ -25,11 +25,11 @@ La interfaz de usuario web de Campaign permite crear, diseñar y publicar págin
 
 Para acceder a la lista de página de aterrizaje, seleccione **[!UICONTROL Administración de campañas]** > **[!UICONTROL Páginas de aterrizaje]** en el menú de la izquierda.
 
-![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory.png){zoomable="yes"}
 
 El **[!UICONTROL Páginas de aterrizaje]** inventory muestra todos los artículos creados. Puede filtrarlos con el **[!UICONTROL Mostrar filtros]** botón. Puede restringir los resultados a un específico [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando la variable [modelador de consultas](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -78,7 +78,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
 1. Desde el **[!UICONTROL Páginas de aterrizaje]** inventario, haga clic en **[!UICONTROL Crear página de aterrizaje]**.
 
-   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-create-button.png){zoomable="yes"}
 
 1. Seleccione una plantilla:
    * **[!UICONTROL Adquisición]**: Esta es la plantilla predeterminada para páginas de aterrizaje, que le permite capturar y actualizar datos de perfil.
@@ -86,7 +86,7 @@ Para crear una página de aterrizaje, siga estos pasos:
    * **[!UICONTROL Baja]**: Esta plantilla se puede utilizar en una entrega enviado a los suscriptores de un servicio para permitirles cancelar su suscripción [servicio](../audience/manage-services.md).
    * **[!UICONTROL Lista de bloqueados de]**: Esta plantilla debe utilizarse cuando un perfil hace clic en un vínculo de no participación en una entrega y ya no desea que se le contacte.
 
-   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    De forma predeterminada, las páginas de aterrizaje se almacenan en **[!UICONTROL Aplicaciones web]** carpeta. Puede cambiarlo navegando a la ubicación deseada en la **[!UICONTROL Opciones adicionales]**. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-properties.png){zoomable="yes"}
 
 1. En el **[!UICONTROL Precarga de datos]** , están disponibles las dos opciones siguientes:
 
@@ -120,13 +120,13 @@ Para crear una página de aterrizaje, siga estos pasos:
 
 1. Una página de aterrizaje puede tener páginas posteriores. Para agregar páginas, examine la **[!UICONTROL Páginas]** y haga clic en la sección **[!UICONTROL Editar contenido]** para cada página que desee diseñar para esta página de aterrizaje. El contenido de cada página ya está rellenado previamente. Edítelos según sea necesario. [Más información](lp-content.md)
 
-   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-pages.png){zoomable="yes"}
 
 1. En el **[!UICONTROL Almacenamiento]** , la sección **[!UICONTROL Actualización del registro cargado previamente]** está seleccionada de forma predeterminada. Permite actualizar los perfiles almacenados en la base de datos a través de la página de aterrizaje. La casilla de precarga le permite indicar cómo buscar el registro que se actualiza en la base de datos.
 
    También puede elegir entre los campos del contexto actual de la página de aterrizaje, los que se utilizan para encontrar el perfil correspondiente en la base de datos. Para ello, anule la selección del **[!UICONTROL Actualización del registro cargado previamente]** y marque los campos deseados en **[!UICONTROL Opciones de reconciliación]**.
 
-   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-storage.png){zoomable="yes"}
 
 1. Crear **[!UICONTROL Datos adicionales]** para almacenar datos internos cuando se envía la página de aterrizaje. Estos datos no son visibles para los usuarios que visitan la página. Solo se tienen en cuenta los valores constantes.
 
@@ -134,11 +134,11 @@ Para crear una página de aterrizaje, siga estos pasos:
    >
    >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
-   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-additional-data.png){zoomable="yes"}
 
 1. Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Seleccionar **[!UICONTROL Habilitar programación]** y fije las fechas.
 
-   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-schedule.png){zoomable="yes"}
 
    * La página de aterrizaje se publica automáticamente en la fecha y la hora de inicio especificadas.
 
@@ -178,7 +178,7 @@ Para probar la página de aterrizaje, siga estos pasos:
 
 1. Después de hacer clic en **[!UICONTROL Revisión y publicación]**, seleccione la **[!UICONTROL Simular contenido]** del panel de página de aterrizaje para acceder a la selección del perfil de prueba.
 
-   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-simulate-content.png){zoomable="yes"}
 
 1. Desde el **[!UICONTROL Simular]** , seleccione uno o más perfiles de prueba.
 
@@ -188,13 +188,13 @@ Para probar la página de aterrizaje, siga estos pasos:
 
 1. Seleccionar **[!UICONTROL Abrir vista previa]** para probar la página de aterrizaje.
 
-   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-open-preview.png){zoomable="yes"}
 
 1. La vista previa de la página de aterrizaje se abrirá en una nueva pestaña. Los elementos personalizados se sustituyen por los datos de perfil de prueba seleccionados.
 
    Si seleccionó la **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** opción en la configuración de la página de aterrizaje, los campos del formulario se rellenan automáticamente previamente con los datos del perfil de prueba correspondientes.<!--TBC-->
 
-   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-preview.png){zoomable="yes"}
 
 1. Seleccione otros perfiles de prueba para previsualizar el procesamiento de cada variante de la página de aterrizaje.
 
@@ -214,6 +214,6 @@ Una vez publicado:
 >
 >Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, utilice el [Simular contenido](#test-landing-page) función para probarla y siga los pasos descritos en [esta sección](lp-use-cases.md) para utilizar correctamente su página de aterrizaje.
 
-![](assets/lp-published.png){zoomable=&quot;yes&quot;}
+![](assets/lp-published.png){zoomable="yes"}
 
 Puede monitorizar el impacto de su página de aterrizaje mediante registros<!--and specific reports-->. Haga clic en **[!UICONTROL Registros]** botón.

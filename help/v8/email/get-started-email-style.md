@@ -5,7 +5,7 @@ description: Descubra las distintas formas de ajustar el estilo del contenido de
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Una vez que haya empezado a crear el contenido de su correo electrónico en [!DN
 
 Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de estructura o a un componente de contenido.
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajustes de estilo de su correo electrónico.
 

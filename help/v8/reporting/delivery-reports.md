@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo acceder a los informes de envío y
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 45%
+source-wordcount: '262'
+ht-degree: 43%
 
 ---
 
@@ -36,24 +36,24 @@ Para mostrar y administrar informes, siga estos pasos:
 
 1. De su **[!UICONTROL Envío]** panel, haga clic en **[!UICONTROL Informes]**.
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
    También puede utilizar los tres puntos **Más acciones** junto al nombre de la entrega en la lista de envíos y seleccione **[!UICONTROL Ver informe]**.
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. En el menú de la izquierda, seleccione un informe de la lista.
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
 1. Si la entrega es recurrente, seleccione una entrega específica sobre la que informar haciendo clic en **[!UICONTROL Selección de entregas]**.
 
    También puede aplicar un período de tiempo al informe seleccionando la variable **[!UICONTROL Fecha de contacto]**.
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
 1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
 
    El **[!UICONTROL Ver por]** Las opciones de permiten filtrar por direcciones URL, etiquetas o categorías.
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

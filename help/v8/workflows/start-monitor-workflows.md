@@ -5,8 +5,8 @@ description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 6%
+source-wordcount: '569'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Una vez que se ejecuta el flujo de trabajo, cada actividad en el lienzo se ejecu
 
 Puede realizar un seguimiento del progreso de los perfiles de destino en tiempo real mediante un flujo visual. Esto le permite identificar rápidamente el estado de cada actividad y el número de perfiles en transición entre ellas.
 
-![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-execution.png){zoomable="yes"}
 
 ## Transiciones de flujo de trabajo {#transitions}
 
@@ -31,7 +31,7 @@ En los flujos de trabajo, los datos que pasan de una actividad a otra a través 
 * Clic **[!UICONTROL Previsualizar esquema]** para mostrar el esquema de la tabla de trabajo.
 * Clic **[!UICONTROL Previsualizar resultados]** para visualizar los datos transportados en la transición seleccionada.
 
-![](assets/transition.png){zoomable=&quot;yes&quot;}
+![](assets/transition.png){zoomable="yes"}
 
 ## Monitorización de la ejecución de actividades {#activities}
 
@@ -39,10 +39,10 @@ Los indicadores visuales de la esquina superior derecha de cada cuadro de activi
 
 | Indicador visual | Descripción |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | La actividad se está ejecutando. |
-| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
-| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de flujo de trabajo para obtener más información. |
-| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | La actividad se ha ejecutado correctamente. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | La actividad se está ejecutando. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | La actividad requiere su atención. Esto puede implicar confirmar el envío de una entrega o realizar la acción necesaria. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | La actividad ha encontrado un error. Para resolver el problema, abra los registros de flujo de trabajo para obtener más información. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | La actividad se ha ejecutado correctamente. |
 
 ## Monitorización de registros y tareas {#logs-tasks}
 
@@ -50,7 +50,7 @@ La monitorización de registros y tareas de flujos de trabajo es un paso clave p
 
 El **[!UICONTROL Registros y tareas]** proporciona un historial de la ejecución del flujo de trabajo, registrando todas las acciones del usuario y los errores encontrados. Este historial se guarda durante la duración especificada en el flujo de trabajo [opciones de ejecución](workflow-settings.md). Durante esta duración, todos los mensajes se guardan, incluso después de reiniciar el flujo de trabajo. Si no desea guardar los mensajes de una ejecución anterior, haga clic en el **[!UICONTROL Purge history]** botón.
 
-![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-logs.png){zoomable="yes"}
 
 Hay dos tipos de información disponibles:
 

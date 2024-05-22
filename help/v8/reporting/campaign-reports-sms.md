@@ -5,8 +5,8 @@ description: Comprensión de los informes de campaña del canal SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 20%
+source-wordcount: '490'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 
 El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de SMS. Las métricas se detallan a continuación.
 
-![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -49,7 +49,7 @@ El **[!UICONTROL Resumen de entrega]** Este informe proporciona indicadores clav
 El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 
-![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -74,7 +74,7 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su envío. Las métricas se detallan a continuación.
 
 
-![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -100,7 +100,7 @@ El **[!UICONTROL Estadísticas de ejecución]** La tabla detalla el éxito de su
 
 El **[!UICONTROL Flujos de clics generados]** La tabla muestra datos relativos a la interacción de los destinatarios con el envío. Las métricas se detallan a continuación.
 
-![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
+![](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
