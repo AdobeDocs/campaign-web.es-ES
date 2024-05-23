@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 14%
+ht-degree: 21%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Eliminar los archivos de origen tras la transferencia"
->abstract="Borre los archivos de origen después de una transferencia correcta."
+>abstract="Borre los archivos de origen cuando haya realizado correctamente una transferencia."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
@@ -50,7 +50,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Listar todos los archivos"
->abstract="Esta opción indexa todos los archivos presentes en el servidor en el **vars.filenames** variable de evento."
+>abstract="Esta opción indexa todos los archivos presentes en el servidor en la variable de evento **vars.filenames**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Procesar archivos que faltan"
->abstract="Esta opción le permite activar una **Sin archivo** transición saliente después de la actividad."
+>abstract="Esta opción le permite activar una transición de salida **No hay archivo** después de la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Errores de proceso"
->abstract="Esta opción le permite activar una **Error** transición saliente después de la actividad."
+>abstract="Esta opción le permite activar una transición de salida de **Error** después de la actividad."
 
 El **Transferir archivo** la actividad es una **Administración de datos** actividad. Permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
 

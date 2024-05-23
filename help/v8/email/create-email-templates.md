@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -53,7 +53,7 @@ Desde la lista, puede editar, duplicar o eliminar plantillas de contenido existe
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Diseño de plantilla de contenido"
->abstract="Diseñe la plantilla de contenido de correo electrónico."
+>abstract="Diseñe la plantilla de contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"

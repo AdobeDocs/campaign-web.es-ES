@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '2092'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -156,8 +156,8 @@ Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
->title="Seleccionar la audiencia"
->abstract="Mediante el uso de **Seleccionar audiencia** , puede elegir la audiencia que desee utilizar para filtrar la consulta."
+>title="Seleccionar el público"
+>abstract="Mediante la opción **Seleccionar público**, puede elegir el público que desea utilizar para filtrar la consulta."
 
 Para filtrar la consulta utilizando una audiencia existente, siga estos pasos:
 
@@ -174,7 +174,7 @@ Para filtrar la consulta utilizando una audiencia existente, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Filtro predefinido"
->abstract="Mediante el uso de **Filtro predefinido** , puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
+>abstract="Mediante la opción **Filtro predefinido**, puede seleccionar un filtro predefinido de la lista de filtros personalizados o de favoritos."
 
 Para filtrar la consulta utilizando un filtro predefinido, siga estos pasos:
 
@@ -213,7 +213,7 @@ Para copiar y pegar componentes de filtrado, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Grupo"
->abstract="En este panel, puede cambiar el operador utilizado para vincular las condiciones de filtrado."
+>abstract="En este panel, puede cambiar el operador que se utiliza para vincular las condiciones de filtrado."
 
 Cada vez que se añade un nuevo componente de filtrado a la consulta, se vincula automáticamente al otro componente mediante una variable **Y** operador. Esto significa que los resultados de los dos componentes de filtrado se combinan.
 

@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -82,7 +82,7 @@ El **[!UICONTROL Destino]** Esta sección permite configurar el formato del arch
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Posprocesamiento"
->abstract="Defina un paso de posprocesamiento para aplicar, como compresión o encriptado."
+>abstract="Defina un paso de postprocesamiento para aplicar, como comprimir o encriptar."
 
 El **[!UICONTROL Exportar script de modificación]** permite aplicar una fase de procesamiento para ejecutarla durante la extracción de datos, como compresión o encriptado. Para ello, haga clic en el **[!UICONTROL Editar script]** botón.
 
