@@ -3,10 +3,10 @@ audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ Obtenga más información sobre los permisos de usuario en la [Documentación de
 
 
 ## Trabajar con carpetas {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Propiedades de carpeta"
+>abstract="Propiedades de carpeta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Seguridad de carpeta"
+>abstract="Seguridad de carpeta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restricciones de carpeta"
+>abstract="Restricciones de carpeta"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Programación de carpetas"
+>abstract="Programación de carpetas"
 
 Puede crear, cambiar el nombre, reordenar y mover carpetas para organizar los componentes y los datos. También puede eliminar carpetas desde el mismo menú.
 
