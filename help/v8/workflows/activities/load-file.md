@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ Para definir el archivo de destino que se va a cargar, siga estos pasos:
 
 1. En el **Rechazar administración** , especifique cómo debe comportarse la actividad en caso de errores:
 
-   * En el **[!UICONTROL Eliminar]** , especifique el número máximo de errores autorizados al procesar el archivo que se va a cargar. Por ejemplo, si el valor se establece en &quot;20&quot;, la ejecución del flujo de trabajo fallará si hay más de 20 errores al cargar el archivo.
+   * En el **[!UICONTROL Número de errores permitidos]** , especifique el número máximo de errores autorizados al procesar el archivo que se va a cargar. Por ejemplo, si el valor se establece en &quot;20&quot;, la ejecución del flujo de trabajo fallará si hay más de 20 errores al cargar el archivo.
 
    * Para conservar los errores que se produjeron al cargar el archivo, cambie el **[!UICONTROL Mantener rechazos en un archivo]** y especifique el nombre que desee para el archivo en la **[!UICONTROL Archivo de rechazo]** field.
 
