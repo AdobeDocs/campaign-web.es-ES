@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 46%
+source-wordcount: '1300'
+ht-degree: 44%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 46%
 >abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de resonar con el público destinatario."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si se cargan datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, se debe crear un vínculo hacia la lista del país para actualizar esta información en sus perfiles."
+>abstract="Definición de vínculo"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Reconciliación de enriquecimiento"
 >abstract="reconciliación de enriquecimiento"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Definición de vínculo"
->abstract="Unión simple"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
