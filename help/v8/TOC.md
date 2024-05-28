@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 99%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 99%
    + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Acceso y permisos](get-started/permissions.md)
    + [Web y Consola de cliente de Campaign](get-started/capability-matrix.md)
-   + [De Campaign Standard a la versión 8](rn/acs-migration.md)
+   + [De Campaign Standard a v8](rn/acs-migration.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
@@ -64,6 +64,7 @@ ht-degree: 99%
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
          + [Envío mediante múltiples olas](advanced-settings/send-using-waves.md)
          + [Monitorización de los registros de envío](monitor/delivery-logs.md)
+         + [Programar el envío de una entrega](monitor/schedule-sending.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)
@@ -133,7 +134,7 @@ ht-degree: 99%
    + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
    + [Variables de eventos de flujo de trabajo](workflows/event-variables.md)
    + [Acceso y administración de flujos de trabajo](workflows/access-monitor.md)
-   + [Acerca de los flujos de trabajo de solo lectura](workflows/readonly-workflows.md)
+   + [Acerca de los flujos de trabajo solo de lectura](workflows/readonly-workflows.md)
    + Cree y ejecute su primer flujo de trabajo {#create-workflow}
       + [Principios clave de la creación de un flujo de trabajo](workflows/gs-workflow-creation.md)
       + [Creación del flujo de trabajo](workflows/create-workflow.md)

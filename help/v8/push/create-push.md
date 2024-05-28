@@ -3,7 +3,7 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 30%
@@ -102,7 +102,7 @@ Después de iniciar la entrega, el mensaje se envía automáticamente en la fech
 
 ![](assets/push_create_3.png){zoomable="yes"}
 
-Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-messages.md#gs-schedule)
+Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule)
 
 ## Configuración avanzada del envío {#adv-push}
 

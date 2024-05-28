@@ -3,7 +3,7 @@ audience: end-user
 title: Crear un envío de correo directo
 description: Obtenga información sobre cómo crear una entrega de correo directo con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 26%
@@ -53,7 +53,7 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
 
    ![](assets/dm-content.png){zoomable="yes"}
 
-1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el archivo de extracción se generará automáticamente en la fecha y hora exactas que haya definido. [Obtenga información sobre cómo programar entregas](../msg/gs-messages.md#gs-schedule).
+1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el archivo de extracción se generará automáticamente en la fecha y hora exactas que haya definido. [Obtenga información sobre cómo programar entregas](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
