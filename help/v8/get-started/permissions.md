@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -111,16 +111,16 @@ Puede crear, cambiar el nombre, reordenar y mover carpetas para organizar los co
 Para crear una carpeta, siga estos pasos:
 
 1. Desde el menú de navegación de la izquierda de **Explorer**, seleccione una carpeta.
-1. Haga clic en los tres puntos de la esquina superior derecha y elija **Crear nueva carpeta**.
+1. Haga clic en los tres puntos de la esquina superior derecha y seleccione **Crear nueva subcarpeta**.
 1. Introduzca el nombre de la carpeta.
 
    ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Seleccione el tipo de carpeta. De forma predeterminada, el tipo de carpeta principal está seleccionado, &quot;Deliveries&quot;, en nuestro ejemplo. Para cambiar el tipo de carpeta, haga clic en el icono de carpeta y seleccione cualquier otro tipo.
+1. Seleccione el tipo de carpeta. De forma predeterminada, el tipo de carpeta principal está seleccionado, “Deliveries” (envíos), en nuestro ejemplo. Para cambiar el tipo de carpeta, haga clic en el icono de carpeta y seleccione cualquier otro tipo.
 
    ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Haga clic en **Create**.
+1. Haga clic en **Crear**.
 
    La carpeta se agrega como una subcarpeta de la carpeta actual. Navegue hasta esa nueva carpeta para crear componentes directamente en ella. También puede crear un componente desde cualquier carpeta y guardarlo en esa nueva carpeta, desde la sección **Opciones adicionales** de las propiedades, para un envío, tal como se muestra a continuación:
 
