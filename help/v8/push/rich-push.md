@@ -6,7 +6,7 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="Envío push enriquecido"
+>title="Entrega de push enriquecido"
 >abstract="Ahora puede enviar notificaciones push enriquecidas a través de Android. Por ahora, esta capacidad está en disponibilidad limitada."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
