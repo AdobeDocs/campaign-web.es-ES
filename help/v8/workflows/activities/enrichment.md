@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
+source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si se cargan datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, se debe crear un vínculo hacia la lista del país para actualizar esta información en sus perfiles."
->abstract="Definición de vínculo"
+>title="Definición de vínculo"
+>abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si se cargan datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, se debe crear un vínculo hacia la lista del país para actualizar esta información en sus perfiles.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
