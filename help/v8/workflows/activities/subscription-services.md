@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad Servicios de suscripción
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Servicios de suscripción
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 17%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 17%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Generar una transición saliente"
 >abstract="Alterne la opción **Generar una transición saliente** para añadir una transición después de la actividad."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Información adicional"
+>abstract="Información adicional"
 
 El **Servicios de suscripción** la actividad es una **Administración de datos** actividad. Permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
 
