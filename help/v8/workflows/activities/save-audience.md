@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Guardar audiencia
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
+source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 16%
 
 ---
@@ -53,4 +53,4 @@ El contenido de la audiencia guardada está disponible en la vista de detalles d
 
 ## Ejemplo{#save-audience-example}
 
-El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a los diferentes servicios de aplicaciones disponibles. El **Guardar audiencia** la actividad actualiza la audiencia eliminando perfiles que han dejado de suscribirse al servicio desde la última ejecución del flujo de trabajo y añadiendo los perfiles recién suscritos.
+El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. El **Guardar audiencia** la actividad actualiza la audiencia eliminando perfiles que han dejado de suscribirse al servicio desde la última ejecución del flujo de trabajo y añadiendo los perfiles recién suscritos.
