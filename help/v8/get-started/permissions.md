@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,18 +84,18 @@ Obtenga más información sobre los permisos de usuario en la [Documentación de
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_properties"
->title="Propiedades de carpeta"
->abstract="Propiedades de carpeta"
+>title="Propiedades de carpetas"
+>abstract="Propiedades de carpetas"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_security"
->title="Seguridad de carpeta"
->abstract="Seguridad de carpeta"
+>title="Seguridad de carpetas"
+>abstract="Seguridad de carpetas"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
->title="Restricciones de carpeta"
->abstract="Restricciones de carpeta"
+>title="Restricciones de carpetas"
+>abstract="Restricciones de carpetas"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
