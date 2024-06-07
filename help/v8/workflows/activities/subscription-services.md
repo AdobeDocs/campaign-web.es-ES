@@ -14,13 +14,13 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Actividad de los servicios de suscripción"
->abstract="La actividad Servicios de suscripción permite suscribirse o darse de baja en varios perfiles de un servicio en una sola acción."
+>title="Actividad Servicios de suscripción"
+>abstract="La actividad Servicios de suscripción permite suscribirse o cancelar la suscripción en varios perfiles de un servicio en una sola acción."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="Parámetros generales del servicio de suscripción"
->abstract="Elija el servicio deseado y elija la acción que desea realizar (suscripción o baja). Active la opción **Enviar mensaje de confirmación** para notificar a la población de que se ha suscrito o dado de baja del servicio seleccionado."
+>abstract="Elija el servicio deseado y elija la acción que desea realizar (suscribirse o cancelar la suscripción). Active la opción **Enviar un mensaje de confirmación** para notificar a la población que se ha suscrito o ha cancelado la suscripción del servicio seleccionado."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
