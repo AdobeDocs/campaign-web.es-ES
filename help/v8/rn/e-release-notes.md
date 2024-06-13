@@ -3,10 +3,10 @@ title: Notas de la versión preliminar de la interfaz de usuario web de Campaign
 description: Descubra las nuevas funciones que se incluyen en la próxima versión de la interfaz de usuario web de Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ A partir de la versión de junio, todas las funciones y mejoras disponibles para
 
 ### Fragmentos de contenido {#24-6-1}
 
-* Ahora puede crear, utilizar y guardar **fragmentos visuales** para combinar rápidamente los correos electrónicos y las plantillas de contenido. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios correos electrónicos de Adobe Campaign para un proceso de diseño mejorado y acelerado. [Más información](../email/fragments.md)
-
-* Ahora puede crear, utilizar y administrar **fragmentos de expresión** para crear contenido personalizado rápidamente. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios contenidos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
+Ahora puede crear, utilizar y administrar **visual** y **expresión** fragmentos para combinar rápidamente los correos electrónicos y las plantillas de contenido. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios correos electrónicos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
 
 ### Listas semilla {#24-6-2}
 
@@ -42,3 +40,4 @@ Ahora puede crear planes y programas para organizar sus campañas. Al definir un
 
 ### Mejoras {#improvements-24-6}
 
+* **Reconciliación en la actividad de enriquecimiento**: la actividad Enrichment ahora se puede utilizar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como, por ejemplo, datos cargados mediante una actividad de archivo de carga. Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign.
