@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '704'
 ht-degree: 99%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 99%
 + [Documentación de la interfaz de usuario web de Adobe Campaign](campaign-web-home.md)
 + Notas de la versión {#release-notes}
    + [Novedades](rn/whats-new.md)
+   + [Notas de la versión preliminar](rn/e-release-notes.md)
    + [Último lanzamiento](rn/release-notes.md)
    + [Actualizaciones de la documentación](rn/documentation-updates.md)
 + Introducción a Adobe Campaign {#start}
