@@ -4,7 +4,7 @@ title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
 ht-degree: 100%
 
