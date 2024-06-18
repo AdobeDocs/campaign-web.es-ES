@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../campaign-classic.en"
+		},
+		{
+			"path": "../../../../campaign.en"
+		}
+	],
+	"settings": {}
+}
