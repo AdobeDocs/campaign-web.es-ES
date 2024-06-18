@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 100%
 >abstract="Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, las notas de la versión de Campaign se actualizan varias veces al mes, con las últimas funciones, mejoras y correcciones. Le recomendamos que las revise regularmente."
 
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+
+## Notas de la versión de junio {#24-6-release}
+
+**Fecha de lanzamiento**: 18 y 19 de junio de 2024
+
+A partir de la versión de junio, todas las funciones y mejoras disponibles para todos los usuarios serán las siguientes:
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### Alertas de envío {#24-6-3}
+
+La función de alerta de entrega es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus entregas. [Más información](../msg/delivery-alerting.md)
+
+### Planes y programas {#24-6-4}
+
+Ahora puede crear planes y programas para organizar sus campañas. Al definir una jerarquía de carpetas, puede organizar sus campañas en programas y sus programas en planes. [Más información](../administration/plans-programs.md)
+
+### Mejoras {#improvements-24-6}
+
+* **Reconciliación en la actividad de enriquecimiento**: la actividad Enrichment ahora se puede utilizar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como, por ejemplo, datos cargados mediante una actividad de archivo de carga. Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign. [Más información](../workflows/activities/enrichment.md)
 
 ## Notas de la versión de mayo {#24-5-release}
 
