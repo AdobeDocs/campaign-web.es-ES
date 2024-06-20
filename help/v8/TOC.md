@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 99%
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de pruebas](preview-test/test-deliveries.md)
       + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
+   + Alerta de envío {#delivery-alerting}
+      + [Introducción a las alertas de envío](msg/delivery-alerting.md)
+      + [Paneles de alertas de envío](msg/delivery-alerting-dashboards.md)
+      + [Criterios de alertas de envío](msg/delivery-alerting-criteria.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
    + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 99%
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
    + [Cree su primera campaña](campaigns/create-campaigns.md)
+   + [Planes y programas](administration/plans-programs.md)
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
    + [Mecanismos de protección y limitaciones](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 99%
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuración {#conf}
    + [Configuración de los campos personalizados](administration/custom-fields.md)
+   + [Crear y administrar una carpeta](administration/create-manage-folder.md)
 + [Documentación de Campaign v8 (consola) >](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home)

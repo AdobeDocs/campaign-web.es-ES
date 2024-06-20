@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 54%
+source-wordcount: '1664'
+ht-degree: 42%
 
 ---
 
@@ -111,6 +111,36 @@ Para crear un vínculo, siga estos pasos:
 
 Un ejemplo de flujo de trabajo con vínculos está disponible en la [Ejemplos](#link-example) sección.
 
+## Reconciliación de datos {#reconciliation}
+
+El **Enriquecimiento** La actividad se puede utilizar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único.
+
+Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign.
+
+Siga los pasos para configurar una **Enriquecimiento** actividad con un vínculo de reconciliación:
+
+1. Haga clic en **Añadir vínculo** botón en el **Reconciliación** sección.
+1. Identifique los datos con los que desea crear un vínculo de reconciliación.
+
+   * Para crear un vínculo de reconciliación con los datos de la base de datos de Campaign, seleccione **Esquema de base** y elija el esquema donde se almacena el objetivo.
+   * Para crear un vínculo de reconciliación con los datos procedentes de la transición de entrada, seleccione **Esquema temporal** y elija la transición de flujo de trabajo en la que se almacenan los datos de destino.
+
+1. El **Etiqueta** y **Nombre** los campos se rellenan automáticamente en función del esquema de destino seleccionado. Si es necesario, puede cambiar sus valores.
+
+1. En el **Criterios de reconciliación** , especifique cómo desea reconciliar los datos de las tablas de origen y destino:
+
+   * **Unión simple**: Reconcilie un campo específico de la tabla de origen con otro campo de la tabla de destino. Para ello, haga clic en el **Añadir unión** y especifique el botón **Origen** y **Destino** campos que se utilizarán para la reconciliación.
+
+     >[!NOTE]
+     >
+     >Puede usar uno o más **Unión simple** criterios, en cuyo caso todos deben verificarse para que los datos puedan vincularse.
+
+   * **Unión avanzada**: utilice el modelador de consultas para configurar los criterios de reconciliación. Para ello, haga clic en el **Crear condición** a continuación, defina los criterios de reconciliación creando su propia regla con las operaciones AND y OR.
+
+El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínculo entre la tabla de destinatarios de la base de datos de Adobe Campaign y una tabla temporal generada como **Cargar archivo** actividad. En este ejemplo, la actividad Enrichment concilia ambas tablas utilizando la dirección de correo electrónico como criterios de reconciliación.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## Ejemplos {#example}
 
 ### Atributo de enriquecimiento único {#single-attribute}
@@ -177,48 +207,17 @@ Ahora necesitamos aplicar la ordenación para recuperar las tres **últimas** co
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### Enriquecimiento con datos vinculados {#link-example}
 
-El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínculo entre dos transiciones. La primera transición identifica los datos de perfil mediante una actividad de consulta, mientras que la segunda transición incluye datos de compra almacenados en un archivo cargado mediante una actividad de archivo de carga.
+El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínculo entre dos transiciones. Las primeras transiciones dirigen los datos de perfil mediante una **Consulta** , mientras que la segunda transición incluye datos de compra almacenados en un archivo cargado a través de una actividad de archivo de carga.
 
-* El primero **Enriquecimiento** la actividad vincula nuestro conjunto principal (datos del **Consulta** actividad) con el esquema de **Cargar archivo** actividad. Esto nos permite hacer coincidir cada perfil objetivo por la consulta con los datos de compra correspondientes.
+![](../assets/enrichment-uc-link.png)
+
+* El primero **Enriquecimiento** la actividad vincula el conjunto principal (datos del **Consulta** actividad) con el esquema de **Cargar archivo** actividad. Esto nos permite hacer coincidir cada perfil objetivo por la consulta con los datos de compra correspondientes.
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * Un segundo **Enriquecimiento** actividad se añade para enriquecer los datos de la tabla de flujo de trabajo con los datos de compra procedentes de **Cargar archivo** actividad. Esto nos permite utilizar esos datos en actividades adicionales, por ejemplo, para personalizar mensajes enviados a los clientes con información sobre su compra.
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

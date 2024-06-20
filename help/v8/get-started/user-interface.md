@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Script de inicialización de ejecución"
 >abstract="Script de inicialización de ejecución"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="Panel de criterios de alertas de envío"
->abstract="Panel de criterios de alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="Panel de alertas de envío"
->abstract="Panel de alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="Crear criterios de alertas de envío"
->abstract="Crear criterios de alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="Indicadores para añadir en alertas"
->abstract="Indicadores para añadir en alertas"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="Tipo de alerta"
->abstract="Tipo de alerta"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="Frecuencia de criterios"
->abstract="Frecuencia de criterios"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="Criterios de alertas de envío"
->abstract="Criterios de alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="Parámetros generales de alertas de envío"
->abstract="Alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="Parámetros de criterios de alertas de envío"
->abstract="Alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="Alertas de envío enviadas"
->abstract="Alertas de envío enviadas"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="Historial de alertas de envío"
->abstract="Historial de alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="Crear panel de alertas de envío"
->abstract="Crear panel de alertas de envío"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Creación de un criterio de alerta"
->abstract="Para crear sus propios filtros de envío, cree un nuevo filtro predefinido en la consola de Campaign v8 desde **Administration** > **Configuración** > **Filtros predefinidos** nodo."
 
 <!-- IDs -->
 
