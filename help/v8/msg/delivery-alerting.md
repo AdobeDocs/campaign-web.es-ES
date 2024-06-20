@@ -2,15 +2,22 @@
 audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 2%
 
 ---
 
-
 # Introducción a las alertas de entrega {#gs-delivery-alerting}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Alertas de envío"
+>abstract="Las alertas de envío ya están disponibles en Campaign. Esta capacidad es un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre sus ejecuciones de envíos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 Alerta de entrega es un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre sus ejecuciones de entregas. Los destinatarios pueden monitorizar los envíos en curso procesados por Adobe Campaign y tomar las medidas adecuadas si surgen problemas.
 

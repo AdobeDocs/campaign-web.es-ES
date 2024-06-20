@@ -2,14 +2,21 @@
 audience: end-user
 title: Planes y programas
 description: Obtenga información sobre cómo crear y configurar planes y programas en Adobe Campaign
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Planes y programas
+# Planes y programas {#plan-and-programs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Planes y programas"
+>abstract="Ahora puede configurar la jerarquía de carpetas para planes y programas de marketing en la interfaz de usuario web de Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 Adobe Campaign permite configurar la jerarquía de carpetas para planes y programas de marketing.
 
