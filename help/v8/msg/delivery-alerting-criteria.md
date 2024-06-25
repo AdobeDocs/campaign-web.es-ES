@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 7%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="Panel de criterios de alertas de envío"
->abstract="La interfaz de usuario web de Campaign proporciona criterios de alerta predefinidos (entregas con bajo rendimiento, entregas cuya preparación ha fallado...) que puede añadir a su panel. También puede crear sus propios criterios para adaptarlos a sus necesidades."
+>abstract="La interfaz de usuario web de Campaign proporciona criterios de alerta predefinidos (envíos con bajo rendimiento, envíos cuya preparación ha fallado...) que puede añadir a su panel. También puede crear sus propios criterios para adaptarlos a sus necesidades."
 
 La interfaz de usuario web de Campaign proporciona criterios de alerta predefinidos (entregas con bajo rendimiento, entregas cuya preparación ha fallado...) que puede añadir a su panel. También puede crear sus propios criterios para adaptarlos a sus necesidades.
 
@@ -49,12 +49,12 @@ Los criterios de alerta predefinidos están disponibles en la interfaz de usuari
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicadores para añadir en alertas"
->abstract="Seleccione los indicadores que se mostrarán como columnas en la sección &quot;Detalles&quot; de las alertas de correo electrónico."
+>abstract="Seleccione los indicadores que se mostrarán como columnas en la sección “Detalles” de las alertas de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Tipo de alerta"
->abstract="Especifique el **Tipo de alerta** para el criterio, es decir, la etiqueta y el color que se muestran junto al criterio de entrega en la sección &quot;Resumen&quot; de las alertas."
+>abstract="Especifique el **Tipo de alerta** para el criterio, es decir, la etiqueta y el color que se muestran junto al criterio de envío en la sección “Resumen” de las alertas."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
@@ -85,7 +85,7 @@ Para crear un nuevo criterio, siga estos pasos:
 
 1. En el **Indicadores para añadir en alertas** , elija los indicadores que se mostrarán como columnas en la sección &quot;Detalles&quot; de las alertas de correo electrónico.
 
-1. Especifique el **Tipo de alerta** para el criterio, es decir, la etiqueta y el color que se muestran junto al criterio de entrega en la sección &quot;Resumen&quot; de las alertas.
+1. Especifique el **Tipo de alerta** para el criterio, es decir, la etiqueta y el color que se muestran junto al criterio de envío en la sección “Resumen” de las alertas.
 
 1. El **Frecuencia de criterios** Esta sección permite controlar la frecuencia de alertas por día para cada entrega que cumpla los criterios:
 

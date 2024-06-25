@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -111,7 +111,7 @@ Un ejemplo de flujo de trabajo con vínculos está disponible en la [Ejemplos](#
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Reconciliación de datos"
->abstract="La actividad de flujo de trabajo Enrichment ahora se puede utilizar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como, por ejemplo, datos cargados mediante una actividad de archivo de carga."
+>abstract="La actividad Enriquecimiento de flujo de trabajo ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Carga de archivo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
