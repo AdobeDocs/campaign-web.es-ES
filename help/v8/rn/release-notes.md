@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 
 **Fecha de lanzamiento**: 18 y 19 de junio de 2024
 
-A partir de la versión de junio, todas las funciones y mejoras disponibles para todos los usuarios serán las siguientes:
+Las siguientes funciones y mejoras están disponibles para todos los usuarios a partir de la versión de junio.
 <!--
 ### Visual fragments {#24-6-1}
 
@@ -34,11 +34,11 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### Alertas de envío {#24-6-3}
 
-La función de alerta de entrega es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus entregas. [Más información](../msg/delivery-alerting.md)
+La función de alertas de envío es un sistema de administración de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contienen información sobre la ejecución de sus envíos. [Más información](../msg/delivery-alerting.md)
 
 ### Planes y programas {#24-6-4}
 
-Ahora puede crear planes y programas para organizar sus campañas. Al definir una jerarquía de carpetas, puede organizar sus campañas en programas y sus programas en planes. [Más información](../administration/plans-programs.md)
+Ahora puede crear planes y programas para organizar sus campañas. Al definir una jerarquía de carpetas, puede organizar sus campañas en programas, y sus programas en planes. [Más información](../administration/plans-programs.md)
 
 ### Mejoras {#improvements-24-6}
 

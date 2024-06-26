@@ -8,7 +8,7 @@ breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 97%
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de pruebas](preview-test/test-deliveries.md)
       + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
-   + Alerta de envío {#delivery-alerting}
+   + Alertas de envío{#delivery-alerting}
       + [Introducción a las alertas de envío](msg/delivery-alerting.md)
       + [Paneles de alertas de envío](msg/delivery-alerting-dashboards.md)
       + [Criterios de alertas de envío](msg/delivery-alerting-criteria.md)
