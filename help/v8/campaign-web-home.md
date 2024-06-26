@@ -4,13 +4,13 @@ description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Documentación de la interfaz de usuario web de Campaign {#campaign-documentation}
+# Documentación de la interfaz de usuario web de Adobe Campaign {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -51,15 +51,15 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
->[!TAB ¡La versión de junio está activa!]
+>[!TAB ¡Ya está aquí la versión de junio!]
 
 Descubra las nuevas funciones y mejoras que se incluyen en la versión 24.6 de la interfaz de usuario web de Adobe Campaign.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Alerta de envío]
+>[!TAB Alertas de envío]
 
-Alerta de entrega es un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre sus ejecuciones de entregas.
+Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
