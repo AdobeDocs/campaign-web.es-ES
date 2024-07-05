@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '1062'
 ht-degree: 83%
 
 ---
@@ -60,7 +60,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Habilitar la superposición de poblaciones de salida"
->abstract="Habilitar la superposición de poblaciones de salida"
+>abstract=" El **[!UICONTROL Habilitar superposición de poblaciones de salida]** Esta opción permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos."
 
 Siga estos pasos para configurar la actividad **División**:
 
@@ -102,6 +102,11 @@ Siga estos pasos para configurar la actividad **División**:
    >[!NOTE]
    >
    >El **[!UICONTROL Generar todos los subconjuntos de la misma tabla]** permite agrupar todos los subconjuntos en una sola transición de salida.
+
+1. La opción **[!UICONTROL Enable overlapping of output populations]** permite administrar poblaciones que pertenecen a varios subconjuntos:
+
+   * Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes.
+   * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos.
 
 La actividad está configurada. En la ejecución del flujo de trabajo, la población se segmenta en los diferentes subconjuntos, en el orden en que se hayan añadido a la actividad.
 
