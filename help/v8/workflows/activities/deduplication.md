@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 60%
+source-wordcount: '602'
+ht-degree: 57%
 
 ---
 
@@ -55,8 +55,9 @@ Siga estos pasos para configurar el **Deduplicación** actividad:
 1. Seleccione el **Método de deduplicación** para usar:
 
    * **Selección aleatoria**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
-   * **Uso de una expresión**: esto permite mantener los registros en los que el valor de la expresión introducida es el más pequeño o el más grande.
-   * **Following a list of values**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón Add situado encima de la lista de valores.
+   * **Uso de una expresión**: Mantenga los registros en los que el valor de la expresión introducida es el más pequeño o el más grande.
+   * **Valores no vacíos**: Mantenga los registros para los que la expresión no está vacía.
+   * **Siguiendo una lista de valores**: defina una prioridad de valor para uno o varios campos. Para definir los valores, haga clic en **Atributo** para seleccionar un campo o crear una expresión, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en **Botón Añadir** situado encima de la lista de valores.
 
 1. Seleccione la opción **Generate complement** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad.
 
