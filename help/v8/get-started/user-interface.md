@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
-workflow-type: ht
-source-wordcount: '1555'
-ht-degree: 100%
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+workflow-type: tm+mt
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="Editar atributos personalizados"
 >abstract="Editar atributos personalizados"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="Mensajería transaccional"
+>abstract="Mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Propiedades de mensajería transaccional"
+>abstract="Propiedades de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Evento de mensajería transaccional"
+>abstract="Evento de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Contexto de mensajería transaccional"
+>abstract="Contexto de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Contenido de mensajería transaccional"
+>abstract="Contenido de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personalización de mensajería transaccional"
+>abstract="Personalización de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Personalización de mensajería transaccional"
+>abstract="Personalización de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="Registros de exclusión de mensajería transaccional"
+>abstract="Registros de exclusión de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Contexto de mensajería transaccional"
+>abstract="Contexto de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Historial de eventos de mensajería transaccional"
+>abstract="Historial de eventos de mensajería transaccional"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Previsualización del historial de eventos de mensajería transaccional"
+>abstract="Previsualización del historial de eventos de mensajería transaccional"
+
