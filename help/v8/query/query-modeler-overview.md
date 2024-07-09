@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 21%
+source-wordcount: '558'
+ht-degree: 20%
 
 ---
 
@@ -59,4 +59,4 @@ La barra de herramientas situada en la esquina superior derecha del lienzo propo
 
 ### El panel Propiedades de la regla {#rule-properties}
 
-En el lado derecho, la **[!UICONTROL Propiedades de regla]** Este panel proporciona información sobre la consulta. Permite realizar varias operaciones para comprobar la consulta y asegurarse de que se adapta a sus necesidades. [Obtenga información sobre cómo comprobar y validar la consulta](build-query.md#check-and-validate-your-query)
+En el lado derecho, la **[!UICONTROL Propiedades de regla]** Este panel proporciona información sobre la consulta. Permite realizar varias operaciones para comprobar la consulta y asegurarse de que se adapta a sus necesidades. Este panel se muestra al crear una consulta para crear una audiencia. [Obtenga información sobre cómo comprobar y validar la consulta](build-query.md#check-and-validate-your-query)

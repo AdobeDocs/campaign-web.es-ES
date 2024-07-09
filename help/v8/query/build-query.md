@@ -3,9 +3,9 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '2092'
+source-wordcount: '2103'
 ht-degree: 21%
 
 ---
@@ -244,7 +244,7 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 >title="Propiedades de las reglas"
 >abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de las reglas** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **Seleccionar o guardar filtro** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
-Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** situado en el lado derecho. Las operaciones disponibles son:
+Una vez que haya creado la consulta en el lienzo, puede comprobarla con el **Propiedades de regla** panel situado en el lado derecho Este panel se muestra al crear una consulta para crear una audiencia. Las operaciones disponibles son:
 
 * **Ver resultados:** Muestra los datos resultantes de la consulta.
 * **Vista de código**: Muestra una versión basada en código de la consulta en SQL.
