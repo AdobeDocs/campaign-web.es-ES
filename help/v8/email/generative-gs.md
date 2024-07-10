@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 39%
+source-wordcount: '644'
+ht-degree: 38%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 39%
 >abstract="El acceso a esta función está sujeto a su acuerdo con las directrices de usuario de IA generativa de Adobe Experience Cloud. Cualquier indicación, contexto, información complementaria u otra información que proporcione a esta función debe estar vinculada a un contexto específico, que puede incluir materiales de promoción de la marca, contenido del sitio web, datos, esquemas para dichos datos, plantillas u otros documentos de confianza y no deben contener información personal (la información personal incluye cualquier cosa que pueda vincularse de nuevo a una persona específica). Debe revisar cualquier resultado de esta función para comprobar su precisión y asegurarse de que sea adecuado para su caso de uso."
 >additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
 
-A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de manera eficiente y rápida. El asistente de IA de Campaign es la capacidad de generación de contenido de Adobe que revoluciona la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca.
+A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de manera eficiente y rápida. El asistente de IA en Campaign, con tecnología de Azure OpenAI y Azure Vision, es la capacidad de generación de contenido de IA de Adobe que revoluciona la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca.
 
 AI Assistant hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
 >[!NOTE]
 >
->Esta funcionalidad está disponible en su versión beta y sujeta a cambios sin previo aviso.
+>Esta funcionalidad está disponible en su versión de Beta y sujeta a cambios sin previo aviso.
 
 ## Mecanismos de protección y limitaciones {#generative-guardrails}
 
