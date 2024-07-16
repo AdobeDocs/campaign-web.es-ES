@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -60,7 +60,7 @@ La actividad **División** es una actividad **Segmentación** que permite segmen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Habilitar la superposición de poblaciones de salida"
->abstract=" El **[!UICONTROL Habilitar superposición de poblaciones de salida]** Esta opción permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos."
+>abstract=" La opción **[!UICONTROL Habilitar la superposición de poblaciones de salida]** permite administrar poblaciones que pertenecen a varios subconjuntos. Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes. Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos."
 
 Siga estos pasos para configurar la actividad **División**:
 
@@ -72,7 +72,7 @@ Siga estos pasos para configurar la actividad **División**:
 
    >[!IMPORTANT]
    >
-   >Si la variable **Split** Cuando se ejecuta la actividad, la población se segmenta en los diferentes subconjuntos en el orden en que se añaden a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
+   >Cuando se ejecuta la actividad **Split**, la población se segmenta en los diferentes subconjuntos en el orden en que se agregan a la actividad. Por ejemplo, si el primer subconjunto recupera el 70 % de la población inicial, el siguiente subconjunto añadido aplicará sus criterios de selección solo al 30 % restante, y así sucesivamente.
    >
    >Antes de iniciar el flujo de trabajo, asegúrese de haber ordenado los subconjuntos en el orden que se adapte a sus necesidades. Para ello, utilice los botones de flecha para cambiar la posición de un subconjunto.
 
@@ -86,7 +86,7 @@ Siga estos pasos para configurar la actividad **División**:
 
    1. Para limitar el número de perfiles seleccionados por el subconjunto, active la opción **[!UICONTROL Habilitar límite]** y especifique el número o los porcentajes de la población que desea incluir.
 
-   1. Para desactivar una transición si la población entrante está vacía, cambie el **[!UICONTROL Omitir transición vacía]** opción activada. Si ningún perfil coincide con el subconjunto, el flujo de trabajo no pasará a la siguiente actividad.
+   1. Para deshabilitar una transición si la población entrante está vacía, active la opción **[!UICONTROL Omitir transición vacía]**. Si ningún perfil coincide con el subconjunto, el flujo de trabajo no pasará a la siguiente actividad.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -101,7 +101,7 @@ Siga estos pasos para configurar la actividad **División**:
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Generar todos los subconjuntos de la misma tabla]** permite agrupar todos los subconjuntos en una sola transición de salida.
+   >La opción **[!UICONTROL Generate all subsets in the same table]** permite agrupar todos los subconjuntos en una sola transición de salida.
 
 1. La opción **[!UICONTROL Enable overlapping of output populations]** permite administrar poblaciones que pertenecen a varios subconjuntos:
 
