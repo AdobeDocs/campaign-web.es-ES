@@ -4,10 +4,10 @@ description: Descubra las nuevas funciones incluidas en la próxima versión de 
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: e9bba947dd1065287e698d20cf1b6b55c423003b
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 50%
 
 ---
 
@@ -17,28 +17,29 @@ La interfaz de usuario web de Adobe Campaign ofrece continuamente nuevas funcio
 
 **Las notas de la versión preliminar que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad final de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md), en la fecha de lanzamiento.
 
-## Notas de la versión de junio {#24-6-release}
+## Notas de la versión de julio {#24-7-release}
 
-**Fecha de lanzamiento**: 18 y 19 de junio de 2024
+**Fecha de la versión**: 30 y 31 de julio de 2024
 
-Las siguientes funciones y mejoras están disponibles para todos los usuarios a partir de la versión de junio.
+Las siguientes funciones y mejoras están disponibles a partir de la versión de julio.
 
-### Fragmentos de contenido {#24-6-1}
+### Fragmentos de expresión {#24-7-1}
 
-Ahora puede crear, utilizar y administrar fragmentos **visuales** y **de expresión** fragmentos para combinar rápidamente los correos electrónicos y las plantillas de contenido. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios correos electrónicos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
+Ahora puede crear, usar y administrar **fragmentos de expresiones** para generar contenido personalizado rápidamente. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios contenidos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
 
-### Listas semilla {#24-6-2}
+### Listas semilla {#24-7-2}
 
 Una lista semilla, también conocida como. **Grupo de reventado**, es una lista de direcciones semilla. Se utiliza para incluir direcciones específicas en los envíos y, a continuación, concentrarse en los perfiles que no coinciden con los criterios objetivo definidos. De este modo, los destinatarios que estén fuera del público del envío pueden recibirlo como lo haría cualquier otro destinatario objetivo. Puede utilizar direcciones semilla al enviar pruebas o para proteger la lista de su campaña de correo.
 
-### Alertas de envío {#24-6-3}
+### Plantillas de notificaciones push enriquecidas {#24-7.3}
 
-La función de alertas de envío es un sistema de administración de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contienen información sobre la ejecución de sus envíos.
+Ahora puede enviar notificaciones push enriquecidas. Una notificación push enriquecida es una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido multimedia enriquecido. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android.
 
-### Planes y programas {#24-6-4}
+>[!AVAILABILITY]
+>
+>Esta funcionalidad requiere una actualización de la versión 8.6.3 o 8.7.2 de Campaign. [Obtenga más información en las notas de la versión de la consola del cliente de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
 
-Ahora puede crear planes y programas para organizar sus campañas. Al definir una jerarquía de carpetas, puede organizar sus campañas en programas, y sus programas en planes.
 
-### Mejoras {#improvements-24-6}
+### Mejoras {#improvements-24-7}
 
-* **Reconciliación en la actividad de enriquecimiento**: la actividad de enriquecimiento ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema, o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Cargar archivo. Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign.
+* **Administración de carpetas**: ahora puede administrar permisos y restricciones en las carpetas.
