@@ -15,9 +15,9 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
 >title="Paneles de alertas de envío"
->abstract="Alertas de envío es un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos. Los paneles de alertas de envío le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
+>abstract="Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos. Los paneles de alertas de envío le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
 
-Los paneles de alertas de entrega le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellas desde **Alerta de envío** menú en el panel de navegación izquierdo, bajo el **Paneles** pestaña.
+Los paneles de alertas de entrega le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellos desde el menú **Alerta de entrega** del panel de navegación izquierdo, en la pestaña **Paneles**.
 
 ![](assets/alerting-dashboard-list.png)
 
@@ -45,49 +45,49 @@ Los paneles de alertas de entrega le permiten especificar quién recibirá alert
 
 Para crear un panel de envío, siga estos pasos:
 
-1. Vaya a **Alerta de envío** en el panel de navegación izquierdo y haga clic en **Crear panel de envío**.
+1. Vaya al menú **Alerta de envío** en el panel de navegación izquierdo y haga clic en **Crear panel de envío**.
 
    ![](assets/alerting-dashboard.png)
 
-1. Asigne un nombre al tablero en la **Etiqueta** field. El **Nombre interno** El campo se rellena automáticamente y es de solo lectura.
+1. Asigne un nombre al tablero en el campo **Etiqueta**. El campo **Nombre interno** se rellena automáticamente y es de solo lectura.
 
-1. En el **Seleccionar grupo de alertas** , especifique el campo **grupo de operadores** para recibir las alertas enviadas por este panel. Todos los miembros del grupo de operadores seleccionado recibirán las alertas.
+1. En el campo **Seleccionar grupo de alertas**, especifique el **grupo de operadores** que recibirá las alertas enviadas por este panel. Todos los miembros del grupo de operadores seleccionado recibirán las alertas.
 
-   Obtenga más información sobre permisos y grupos de operadores en la [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Obtenga más información sobre permisos y grupos de operadores en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
-1. En el **Criterios de alerta de envío** , agregue los criterios que desee utilizar para enviar alertas. Elija entre criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas. [Aprenda a trabajar con criterios](../msg/delivery-alerting-criteria.md)
+1. En la sección **Criterios de alerta de envío**, agregue los criterios que desee utilizar para enviar alertas. Elija entre criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas. [Aprenda a trabajar con criterios](../msg/delivery-alerting-criteria.md)
 
-1. Los criterios tienen valores de parámetros predeterminados que definen cómo se deben aplicar. Puede cambiar estos valores para adaptarlos a sus necesidades desde el **Parámetros de criterio** sección.
+1. Los criterios tienen valores de parámetros predeterminados que definen cómo se deben aplicar. Puede cambiar estos valores para adaptarlos a sus necesidades desde la sección **Parámetros de criterios**.
 
    ![](assets/alerting-criteria-parameters.png)
 
-   Por ejemplo, de forma predeterminada, la variable **Tamaño mínimo del destinatario del envío** el parámetro criteria se establece en 50, lo que significa que una entrega se incluirá en la alerta que envía este panel solo si se dirige al menos a 50 perfiles. Puede cambiar este parámetro si desea incluir envíos dirigidos a menos de 50 perfiles.
+   Por ejemplo, de forma predeterminada, el parámetro de criterio **Tamaño mínimo del destinatario del envío** está establecido en 50, lo que significa que un envío se incluirá en la alerta que envía este panel solo si se dirige al menos a 50 perfiles. Puede cambiar este parámetro si desea incluir envíos dirigidos a menos de 50 perfiles.
 
    Expanda la sección siguiente para obtener más información sobre cada parámetro de criterio:
 
    +++Parámetros de criterios disponibles
 
-   * **Tamaño mínimo del destinatario del envío**: Por ejemplo, si introduce 100 en este campo, se envía una notificación solo para las entregas con un objetivo igual o superior a 100 destinatarios. Este parámetro se aplica a todos los criterios.
-   * **Período de monitorización antes y después de la fecha de contacto (en horas)**: Número de horas antes y después de la hora actual. Solo se tienen en cuenta las entregas que tienen una fecha de contacto en este intervalo de tiempo. Este parámetro se aplica a todos los criterios. De forma predeterminada, el valor de este campo se establece en 24 horas.
-   * **Proporción máxima de errores de rechazos leves**: se envía una notificación para todas las entregas con una proporción de errores de devolución suave mayor que el valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
-   * **Proporción máxima de errores de rechazos graves**: se envía una notificación para todas las entregas con una proporción de errores de devolución dura mayor que el valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
-   * **Umbral de tiempo mínimo para la entrega en estado &quot;Start pending&quot; (en minutos)**: se envía una notificación para todas las entregas con un estado Start pending más largo que la duración especificada en este campo, Start pending, lo que significa que el sistema aún no ha tenido en cuenta los mensajes.
-   * **Tiempo mínimo necesario para el cálculo del rendimiento (en minutos)**: Solo se tienen en cuenta los envíos iniciados (con estado En curso) durante más tiempo del especificado para el criterio Envíos con bajo rendimiento.
-   * **Porcentaje máximo de mensajes procesados para el cálculo del rendimiento**: Solo se tienen en cuenta las entregas con un porcentaje de mensajes procesados inferior al porcentaje especificado para el criterio Envíos con bajo rendimiento.
-   * **Rendimiento mínimo esperado (en mensajes enviados por hora)**: Solo se tienen en cuenta los envíos con un rendimiento inferior al valor especificado para el criterio Envíos con un rendimiento bajo.
-   * **Proporción procesada mínima requerida para el criterio &quot;Entregas en curso&quot;**: Solo se tienen en cuenta las entregas con un porcentaje de mensajes procesados superior al porcentaje especificado.
+   * **Tamaño mínimo del destinatario del envío**: Por ejemplo, si escribe 100 en este campo, solo se envía una notificación para los envíos cuyo destino sea igual o mayor que 100 destinatarios. Este parámetro se aplica a todos los criterios.
+   * **Período de supervisión antes y después de la fecha de contacto (en horas)**: Número de horas antes y después de la hora actual. Solo se tienen en cuenta las entregas que tienen una fecha de contacto en este intervalo de tiempo. Este parámetro se aplica a todos los criterios. De forma predeterminada, el valor de este campo se establece en 24 horas.
+   * **Proporción máxima de errores de rechazos leves**: se envía una notificación para todos los envíos con una proporción de errores de rechazos leves mayor que el valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
+   * **Proporción máxima de errores de rechazos graves**: se envía una notificación para todos los envíos con una proporción de errores de rechazos graves mayor que el valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
+   * **Umbral de tiempo mínimo para la entrega en estado &#39;Start pending&#39; (en minutos)**: se envía una notificación para todas las entregas con un estado Start pending por más tiempo que la duración especificada en este campo, el estado Start pending significa que el sistema aún no ha tenido en cuenta los mensajes.
+   * **Tiempo mínimo requerido para el cálculo del rendimiento (en minutos)**: En los envíos con criterio de rendimiento bajo solo se tienen en cuenta los envíos iniciados (con estado En curso) durante más tiempo del especificado.
+   * **Porcentaje máximo de mensajes procesados para el cálculo del rendimiento**: Para los envíos con un criterio de rendimiento bajo solo se tienen en cuenta los envíos con un porcentaje de mensajes procesados inferior al porcentaje especificado.
+   * **Rendimiento mínimo esperado (en mensajes enviados por hora)**: Para los envíos con un criterio de rendimiento bajo solo se tienen en cuenta los envíos con un rendimiento inferior al valor especificado.
+   * **Proporción procesada mínima requerida para el criterio &quot;Envíos en curso&quot;**: solo se tienen en cuenta los envíos con un porcentaje de mensajes procesados superior al porcentaje especificado.
 
 +++
 
-1. De forma predeterminada, los paneles de alertas están desactivados, lo que significa que las alertas de correo electrónico vinculadas a este panel no se envían. Para habilitar el tablero inmediatamente, cambie el **Habilitado** en la opción **General** , junto al campo de selección del grupo de alertas.
+1. De forma predeterminada, los paneles de alertas están desactivados, lo que significa que las alertas de correo electrónico vinculadas a este panel no se envían. Para habilitar el panel inmediatamente, active la opción **Enabled** en la sección **General**, junto al campo de selección del grupo de alertas.
 
    También puede guardar el tablero y habilitarlo más adelante.
 
    ![](assets/alerting-dashboard-enable.png)
 
-1. Para guardar el tablero de alertas, haga clic en **Guardar** botón.
+1. Para guardar el panel de alertas, haga clic en el botón **Guardar**.
 
-El panel de alertas se abre con datos en blanco. Cuando esté listo para activarlo y enviar notificaciones, haga clic en el **Configuración** y cambie el **Habilitado** opción si no lo ha hecho anteriormente.
+El panel de alertas se abre con datos en blanco. Cuando esté listo para activarlo y enviar notificaciones, haga clic en el botón **Configuración** y active la opción **Habilitado** si no lo ha hecho anteriormente.
 
 Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se envía una notificación de alerta al grupo de operadores especificado.
 
@@ -103,14 +103,14 @@ Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se
 >title="Historial de alertas de envío"
 >abstract="El panel **Historial** contiene todas las alertas enviadas desde este panel. Haga clic en un elemento para acceder a las alertas correspondientes enviadas en ese momento concreto."
 
-Se puede acceder a todos los paneles de alertas creados desde el **Alerta de envío** menú, en el **Paneles** pestaña.
+Se puede acceder a todos los paneles de alertas creados desde el menú **Alerta de entrega**, en la pestaña **Paneles**.
 
 ![](assets/alerting-dashboard-list.png)
 
-Puede duplicar o eliminar un tablero mediante el **Más acciones** situado junto a su nombre.
+Puede duplicar o eliminar un tablero usando el botón **Más acciones** ubicado junto a su nombre.
 
 Para acceder a una vista detallada de un panel, haga clic en su nombre en la lista. Desde esta pantalla, puede visualizar la última alerta enviada. Todas las alertas enviadas se muestran en el panel izquierdo. Haga clic en un elemento para acceder a las alertas correspondientes enviadas en ese momento concreto.
 
 ![](assets/alerting-dashboard-details.png)
 
-Para editar el tablero, haga clic en **Configuración** en la esquina superior derecha y realice los cambios que desee.
+Para editar el panel, haga clic en el botón **Configuración** en la esquina superior derecha y realice los cambios que desee.
