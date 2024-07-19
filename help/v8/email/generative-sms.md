@@ -32,38 +32,38 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
 >[!NOTE]
 >
->Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#generative-guardrails).
+>Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 
-1. Después de crear y configurar el envío de SMS, haga clic en **[!UICONTROL Editar contenido]**.
+1. Después de crear y configurar tu envío de SMS, haz clic en **[!UICONTROL Editar contenido]**.
 
-   Para obtener más información sobre cómo configurar la entrega de SMS, consulte [esta página](../sms/create-sms.md).
+   Para obtener más información sobre cómo configurar su envío de SMS, consulte [esta página](../sms/create-sms.md).
 
-1. Rellene el **[!UICONTROL Detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido]**.
+1. Complete **[!UICONTROL detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido]**.
 
 1. Personalice su mensaje SMS según sea necesario. [Más información](../sms/content-sms.md)
 
-1. Acceda a la **[!UICONTROL Mostrar asistente de IA]** menú.
+1. Acceda al menú **[!UICONTROL Mostrar asistente de IA]**.
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
-1. Habilite la **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
    >[!IMPORTANT]
    >
    > El mensaje siempre debe estar vinculado al contenido actual.
 
-1. Ajuste el contenido describiendo lo que desea generar en la variable **[!UICONTROL Preguntar]** field.
+1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
-   Si busca ayuda para crear el indicador, acceda al **[!UICONTROL Biblioteca de mensajes]** que proporciona una amplia gama de ideas rápidas para mejorar las entregas.
+   Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que ofrece una amplia gama de ideas para mejorar los envíos.
 
    ![](assets/sms-genai-2.png){zoomable="yes"}
 
-1. Seleccionar **[!UICONTROL Cargar recurso de marca]** para añadir cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, utilice el asistente de IA.
+1. Seleccione **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el Ayudante de IA.
 
 1. Adapte el indicador con las diferentes opciones:
 
-   * **[!UICONTROL Estrategia de comunicación]**: seleccione el método de comunicación deseado para el texto generado.
-   * **[!UICONTROL Idioma]**: elija el idioma del contenido de la variante.
+   * **[!UICONTROL Estrategia de comunicación]**: seleccione el enfoque de comunicación que desee para el texto generado.
+   * **[!UICONTROL Idioma]**: elige el idioma del contenido de la variante.
    * **[!UICONTROL Tono]**: Asegúrese de que el texto sea apropiado para su audiencia y propósito.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
@@ -71,25 +71,25 @@ Esta práctica herramienta proporciona sugerencias inteligentes para perfecciona
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine el contenido generado **[!UICONTROL Variaciones]** y haga clic en **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
 
-1. Vaya a **[!UICONTROL Refinar]** dentro de la opción **[!UICONTROL Previsualizar]** para acceder a funciones de personalización adicionales y ajustar la variación a sus preferencias:
+1. Vaya a la opción **[!UICONTROL Refinar]** dentro de la ventana de **[!UICONTROL Vista previa]** para acceder a características de personalización adicionales y ajustar la variación a sus preferencias:
 
    * **[!UICONTROL Usar como contenido de referencia]**: la variante elegida servirá como contenido de referencia para generar otros resultados.
 
-   * **[!UICONTROL Utilizar un lenguaje más sencillo]**: el asistente de IA le ayuda a escribir mensajes claros y concisos que todos puedan comprender.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: el asistente de IA le ayuda a escribir mensajes claros y concisos que todos puedan entender.
 
-   * **[!UICONTROL Reformular]**: el asistente de IA reformula el mensaje para mantener las cosas atractivas para diferentes audiencias.
+   * **[!UICONTROL Reformular]**: el Asistente de IA reformula el mensaje para mantener las cosas atractivas para distintas audiencias.
 
    ![](assets/sms-genai-4.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
+1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
 1. Inserte campos de personalización para personalizar el contenido de SMS en función de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 
-1. Después de definir el contenido del mensaje, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
+1. Después de definir el contenido del mensaje, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la representación y compruebe la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
 
    ![](assets/sms-genai-6.png){zoomable="yes"}
 

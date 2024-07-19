@@ -30,23 +30,23 @@ El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugirien
 
 >[!NOTE]
 >
->Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#generative-guardrails).
+>Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 
 En el siguiente ejemplo, aprovecharemos el asistente de IA para crear mensajes atractivos para crear una experiencia del cliente más atractiva.
 
 1. Después de crear y configurar la entrega de notificaciones push, haga clic en **[!UICONTROL Editar contenido]**.
 
-   Para obtener más información sobre cómo configurar la entrega push, consulte [esta página](../push/create-push.md).
+   Para obtener más información sobre cómo configurar su envío push, consulte [esta página](../push/create-push.md).
 
-1. Rellene el **[!UICONTROL Detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido]**.
+1. Complete **[!UICONTROL detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido]**.
 
 1. Personalice la notificación push según sea necesario. [Más información](../push/content-push.md)
 
-1. Acceda a la **[!UICONTROL Mostrar asistente de IA]** menú.
+1. Acceda al menú **[!UICONTROL Mostrar asistente de IA]**.
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Habilite la **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función de su envío, nombre de envío y audiencia seleccionada.
 
    >[!IMPORTANT]
    >
@@ -54,41 +54,41 @@ En el siguiente ejemplo, aprovecharemos el asistente de IA para crear mensajes a
 
    ![](assets/push-genai-3.png){zoomable="yes"}
 
-1. Ajuste el contenido describiendo lo que desea generar en la variable **[!UICONTROL Preguntar]** field.
+1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
-   Si busca ayuda para crear el indicador, acceda al **[!UICONTROL Biblioteca de mensajes]** que proporciona una amplia gama de ideas rápidas para mejorar las entregas.
+   Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que ofrece una amplia gama de ideas para mejorar los envíos.
 
    ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. Seleccionar **[!UICONTROL Cargar recurso de marca]** para añadir cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, utilice el asistente de IA.
+1. Seleccione **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el Ayudante de IA.
 
 1. Elija el campo que desea generar: **[!UICONTROL Título]**, **[!UICONTROL Subtítulo]** o **[!UICONTROL Mensaje]**.
 
 1. Adapte el indicador con las diferentes opciones:
 
-   * **[!UICONTROL Estrategia de comunicación]**: elija el estilo de comunicación más adecuado para el texto generado.
-   * **[!UICONTROL Idioma]**: seleccione el idioma en el que desea que se genere el contenido.
+   * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
+   * **[!UICONTROL Idioma]**: seleccione el idioma en el que desea que se genere su contenido.
    * **[!UICONTROL Tono]**: el tono del correo electrónico debe interesar a la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine el contenido generado **[!UICONTROL Variaciones]** y haga clic en **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
 
-1. Vaya a **[!UICONTROL Refinar]** dentro de la opción **[!UICONTROL Previsualizar]** para acceder a funciones de personalización adicionales:
+1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
    * **[!UICONTROL Usar como contenido de referencia]**: la variante elegida servirá como contenido de referencia para generar otros resultados.
 
-   * **[!UICONTROL Reformular]**: el asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
+   * **[!UICONTROL Reformular]**: el Ayudante de IA puede reformular el mensaje de diferentes maneras, lo que mantiene la escritura fresca y atractiva para diversas audiencias.
 
-   * **[!UICONTROL Utilizar un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
+1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. A continuación, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
+1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y compruebe la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
 
    ![](assets/push-genai-6.png){zoomable="yes"}
 

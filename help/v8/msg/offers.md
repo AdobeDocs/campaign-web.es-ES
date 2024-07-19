@@ -13,7 +13,7 @@ ht-degree: 35%
 
 # Añadir ofertas a los mensajes {#offers-content}
 
-Puede añadir ofertas a los envíos en la interfaz de usuario web de Adobe Campaign. Estas ofertas están disponibles en **Ofertas** menú de la izquierda que permite acceder a la lista de ofertas. Todas estas ofertas son de solo lectura y deben haberse creado en la consola del cliente de Campaign, utilizando **[!UICONTROL Interacción]** módulo. Para obtener más información sobre la interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
+Puede añadir ofertas a los envíos en la interfaz de usuario web de Adobe Campaign. Estas ofertas están disponibles en el menú de la izquierda **Ofertas**, que le permite acceder a la lista de ofertas. Todas estas ofertas son de solo lectura y deben haberse creado en la consola del cliente de Campaign, utilizando el módulo **[!UICONTROL Interaction]**. Para obtener más información sobre interacción y cómo administrar un catálogo de ofertas en la consola, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=es){target="_blank"}.
 
 
 Los pasos para enviar ofertas con una entrega son los siguientes:
@@ -37,19 +37,19 @@ Adobe Campaign le permite responder en tiempo real durante una interacción con 
 
 Para seleccionar las ofertas que desea añadir a la entrega, siga los pasos a continuación.
 
-1. Haga clic en **[!UICONTROL Configuración de ofertas]** en la pantalla de edición de contenido del envío.
+1. Haga clic en el botón **[!UICONTROL Configurar ofertas]** de la pantalla de edición de contenido de entrega.
 
    ![](assets/offer-setup.png){zoomable="yes"}
 
 1. Configurar qué ofertas se deben proponer a los destinatarios.
 
-   Seleccione primero la **[!UICONTROL Espacio de ofertas]** que coincide con el entorno de la oferta. Obtenga información sobre cómo crear un espacio de oferta en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
+   Seleccione primero el **[!UICONTROL espacio de ofertas]** que coincida con el entorno de ofertas. Aprenda a crear un espacio de ofertas en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
    ![](assets/offer-create-content.png){zoomable="yes"}
 
 1. Para restringir la selección de ofertas del motor, seleccione la **[!UICONTROL Categoría de oferta]** específica en la que se ordenan las ofertas.
 
-   Al seleccionar una carpeta, todas las subcarpetas se incluyen automáticamente y no se pueden eliminar. Tenga en cuenta que la variable [!DNL Campaign] La interfaz de no refleja este comportamiento.
+   Al seleccionar una carpeta, todas las subcarpetas se incluyen automáticamente y no se pueden eliminar. Tenga en cuenta que la interfaz [!DNL Campaign] no refleja este comportamiento.
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Para seleccionar las ofertas que desea añadir a la entrega, siga los pasos a co
 
 1. (opcional) Introduzca una temática para filtrar las categorías. Las temáticas son palabras clave definidas en sentido ascendente en las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
 
-1. Utilice el **[!UICONTROL Propuestas]** para especificar el número de ofertas que desea insertar en la entrega.
+1. Utilice el campo **[!UICONTROL Proposiciones]** para especificar el número de ofertas que desea insertar en la entrega.
 
 1. Seleccione la opción **[!UICONTROL Excluir destinatarios no elegibles]** si es necesario.
 
@@ -77,11 +77,11 @@ Una vez configuradas las ofertas que desea proponer en la entrega, puede inserta
 
 ## Inserción de ofertas en la entrega {#insert}
 
-Las ofertas se pueden añadir a la entrega utilizando [editor de expresiones](../personalization/gs-personalization.md#access). Se pueden insertar en la línea de asunto o en el cuerpo del envío.
+Las ofertas se pueden agregar a la entrega mediante el [editor de expresiones](../personalization/gs-personalization.md#access). Se pueden insertar en la línea de asunto o en el cuerpo del envío.
 
 >[!CAUTION]
 >
->Antes de insertar una oferta en una entrega, asegúrese de que tiene lo siguiente [ha configurado qué ofertas proponer con ese envío](#configure).
+>Antes de insertar una oferta en una entrega, asegúrese de tener [configurado qué ofertas proponer con esa entrega](#configure).
 
 Para insertar una oferta mediante el editor de expresiones, siga los pasos a continuación.
 
@@ -91,11 +91,11 @@ Para insertar una oferta mediante el editor de expresiones, siga los pasos a con
 
    ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
-1. Seleccione el **[!UICONTROL Propuestas]** menú. Las propuestas disponibles se muestran en la lista.
+1. Seleccione el menú **[!UICONTROL Proposiciones]**. Las propuestas disponibles se muestran en la lista.
 
    >[!NOTE]
    >
-   >El número de propuestas se define al [configuración de ofertas](#configure) para el envío actual.
+   >El número de propuestas se define al [configurar ofertas](#configure) para la entrega actual.
 
 1. Defina cada propuesta utilizando los campos de personalización, las funciones de renderización o los atributos de oferta disponibles.
 
@@ -103,7 +103,7 @@ Para insertar una oferta mediante el editor de expresiones, siga los pasos a con
 
    >[!NOTE]
    >
-   >El número de propuestas disponibles depende del modo en que se configura la visualización del motor y su orden depende de la prioridad de las ofertas. Obtenga más información en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >El número de propuestas disponibles depende del modo en que se configura la visualización del motor y su orden depende de la prioridad de las ofertas. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Guarde los cambios.
 

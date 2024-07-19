@@ -18,7 +18,7 @@ Adobe Campaign le permite recopilar datos, incluida la información personal y c
 
 * En primer lugar, absténgase de enviar correos electrónicos no solicitados, notificaciones push y mensajes SMS (&quot;correo no deseado&quot;). Adobe cree firmemente en los principios del marketing autorizado para fomentar la lealtad y el valor de tiempo de vida del cliente; por lo tanto, prohíbe estrictamente el uso de Adobe Campaign para la entrega de mensajes no solicitados. [Más información](#denylisted-profiles)
 
-* Los destinatarios siempre deben aceptar recibir comunicaciones proporcionándoles la capacidad de excluirse de las entregas<!-- and keep honoring opt-out requests as quickly as possible-->. [Más información](#opt-out)
+* Los destinatarios siempre deben aceptar recibir comunicaciones al proporcionarles la capacidad de no participar en los envíos<!-- and keep honoring opt-out requests as quickly as possible-->. [Más información](#opt-out)
 
 * A través del proceso de administración de suscripciones, puede administrar las preferencias de sus destinatarios y rastrear qué destinatarios han elegido qué tipo de suscripciones. [Más información](../../delivery/using/about-services-and-subscriptions.md)
 
@@ -35,7 +35,7 @@ Al realizar envíos a través de la web de Adobe Campaign, siempre debe asegurar
 
 ### Exclusión de correo electrónico {#email-opt-out}
 
-Para proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones por correo electrónico, siempre debe incluir un **vínculo de cancelación de suscripción** en cada correo electrónico enviado a los destinatarios.
+Para proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones por correo electrónico, siempre debe incluir **vínculo para cancelar la suscripción** en cada correo electrónico enviado a los destinatarios.
 
 Para realizar esto, siga los pasos a continuación.
 
@@ -47,17 +47,17 @@ Para realizar esto, siga los pasos a continuación.
 
    ![](../email/assets/message-tracking-insert-link.png)
 
-1. En el **[!UICONTROL Url]** , pegue el vínculo a la página de aterrizaje de terceros.
+1. En el campo **[!UICONTROL Url]**, pegue el vínculo a la página de aterrizaje de terceros.
 
 1. Haga clic en el icono **[!UICONTROL Vínculos]** del panel izquierdo para mostrar la lista de todas las direcciones URL del contenido que se va a rastrear.
 
 1. Haga clic en el icono de lápiz situado junto al nuevo vínculo para editarlo.
 
-1. Modifique la **[!UICONTROL Tipo de seguimiento]** y configúrelo en **[!UICONTROL Opción de exclusión]**.
+1. Modifique el **[!UICONTROL Tipo de seguimiento]** y configúrelo en **[!UICONTROL Exclusión]**.
 
    ![](../email/assets/message-tracking-edit-a-link.png)
 
-1. Clic **[!UICONTROL Guardar]** y enviar el mensaje. [Más información](../monitor/prepare-send.md)
+1. Haz clic en **[!UICONTROL Guardar]** y envía el mensaje. [Más información](../monitor/prepare-send.md)
 
 1. Una vez recibido el mensaje, si el destinatario hace clic en el vínculo para cancelar la suscripción, se muestra la página de aterrizaje.
 
@@ -67,13 +67,13 @@ Para realizar esto, siga los pasos a continuación.
 
 ## Incluir en la lista de bloqueados perfiles de {#denylisted-profiles}
 
-Después de una baja (exclusión), los perfiles se encuentran en la **lista de bloqueados de** para un canal determinado: esto implica que ya no se tienen en cuenta para las entregas.
+Después de una baja (exclusión), los perfiles se encuentran en la **lista de bloqueados de** para un canal determinado: esto implica que ya no están en el punto de mira de ningún envío.
 
 >[!NOTE]
 >
 >Si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega.
 
-Puede comprobar si un perfil está en la lista de bloqueados de la para uno o más canales en la **[!UICONTROL Ya no se puede contactar]** de la sección del perfil **[!UICONTROL Detalles]** pestaña. [Más información](../audience/about-recipients.md#access)
+Puede comprobar si un perfil se encuentra en la lista de bloqueados de la para uno o más canales en la sección **[!UICONTROL Ya no se puede contactar con]** de la pestaña **[!UICONTROL Detalles]** del perfil. [Más información](../audience/about-recipients.md#access)
 
 ![](assets/profile-no-longer-contact.png)
 

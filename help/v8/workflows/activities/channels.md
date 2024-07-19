@@ -21,10 +21,10 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >[!NOTE]
 >
 >También puede crear una entrega con una sola toma, fuera del contexto de un flujo de trabajo de la campaña. Obtenga más información en estas secciones:
->* [Creación de envíos de correo electrónico independientes](../../email/create-email.md)
->* [Creación de envíos de SMS independientes](../../sms/create-sms.md)
+>* [Crear envío de correo electrónico independiente](../../email/create-email.md)
+>* [Crear envío de SMS independiente](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
->* [Creación de envíos de correo directo independientes](../../direct-mail/create-direct-mail.md)
+>* [Crear envío de correo postal independiente](../../direct-mail/create-direct-mail.md)
 
 ## Requisitos previos {#channel-activity-prereq}
 
@@ -32,15 +32,15 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 
 * Antes de insertar una actividad de canal, debe definir la audiencia. La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal, sino dentro de una actividad dedicada, como:
 
-   * A **Crear audiencia** actividad. [Más información](build-audience.md).
+   * Una actividad **Generar audiencia**. [Más información](build-audience.md).
 
      ![](../../msg/assets/add-delivery-in-wf.png)
 
-   * A **Cargar archivo** actividad seguida de un **Reconciliación** actividad. [Más información](load-file.md).
+   * Una actividad **Load file** seguida de una actividad **Reconciliation**. [Más información](load-file.md).
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-* Para realizar una entrega recurrente, inicie el flujo de trabajo con una **Planificador** actividad. También puede utilizar un **Planificador** actividad para envíos únicos de una sola toma para establecer la fecha de contacto de ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
+* Para realizar una entrega recurrente, inicie el flujo de trabajo con una actividad **Scheduler**. También puede usar una actividad **Scheduler** para envíos únicos de una sola toma a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
 
 ## Configuración de la actividad de canal {#create-a-delivery-in-a-workflow}
 
@@ -71,28 +71,28 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 
-1. Añada una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]**, **[!UICONTROL Notificación push (iOS)]** o **[!UICONTROL Correo directo]**.
+1. Agregue una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]**, **[!UICONTROL Notificación push (iOS)]** o **[!UICONTROL Correo directo]**.
 
-1. Seleccione el **Tipo de envío**: único o recurrente.
+1. Seleccione **Tipo de entrega**: individual o recurrente.
 
-   * A **Entrega única** es una entrega de una sola toma que se envía una sola vez, por ejemplo, un correo electrónico de Black Friday.
-   * A **Envío recurrente** se envía varias veces en función de su frecuencia de ejecución definida en una [actividad del planificador](scheduler.md). Cada vez que se ejecuta el flujo de trabajo, la audiencia se recalcula y la entrega se envía a la audiencia actualizada, con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente, por ejemplo.
+   * Una **entrega única** es una entrega de una sola toma que se envía una sola vez, por ejemplo un correo electrónico de Black Friday.
+   * Se realiza **una entrega recurrente** varias veces según su frecuencia de ejecución definida en una [actividad de planificador](scheduler.md). Cada vez que se ejecuta el flujo de trabajo, la audiencia se recalcula y la entrega se envía a la audiencia actualizada, con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente, por ejemplo.
 
 1. Seleccione una **Plantilla** de envío. Las plantillas son opciones de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal, que se rellena previamente de forma predeterminada. [Más información](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Puede seleccionar la plantilla en el panel izquierdo de configuración de actividad de canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar público destinatario** para seleccionar un público destinatario con la asignación de destino correcta. Obtenga más información sobre las asignaciones de destino en [esta sección](../../audience/targeting-dimensions.md)
+   Puede seleccionar la plantilla en el panel izquierdo de configuración de actividad de canal. Si el público seleccionado anteriormente no es compatible con el canal, no se puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar público destinatario** para seleccionar un público destinatario con la asignación de destino correcta. Obtenga más información acerca de las asignaciones de destino en [esta sección](../../audience/targeting-dimensions.md)
 
 1. Haga clic en **Crear envío**. A continuación, puede definir la configuración del mensaje y el contenido del mismo modo que crea un envío independiente. También puede probar y simular el contenido. [Más información](../../msg/gs-messages.md)
 
-1. Vuelva al flujo de trabajo. Si desea continuar con el flujo de trabajo, cambie el **Generación de una transición saliente** para añadir una transición después de la actividad del canal.
+1. Vuelva al flujo de trabajo. Si desea continuar con su flujo de trabajo, active la opción **Generar una transición saliente** para agregar una transición después de la actividad del canal.
 
 1. Haga clic en **Iniciar** para iniciar el flujo de trabajo.
 
    De forma predeterminada, el inicio de un flujo de trabajo activa la fase de preparación de mensajes, sin enviarlos inmediatamente.
 
-1. Abra la actividad de canal para confirmar el envío desde el **Revisar y enviar** botón.
+1. Abra la actividad del canal para confirmar el envío desde el botón **Revisar y enviar**.
 
 1. En el panel de envíos, haga clic en **Enviar**.
 

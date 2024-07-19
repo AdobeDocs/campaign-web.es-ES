@@ -23,7 +23,7 @@ ht-degree: 83%
 >title="Transiciones de la actividad de bifurcación"
 >abstract="De forma predeterminada, se crean dos transiciones con una actividad de **bifurcación**. Haga clic en el botón **Añadir transición** para definir una transición de salida adicional e introducir su etiqueta."
 
-El **Tenedor** la actividad es una **Control de flujo** actividad. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
+La actividad **Fork** es una actividad de **control de flujo**. Permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
 ## Configuración de la actividad Fork{#fork-configuration}
 

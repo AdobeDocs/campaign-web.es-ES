@@ -27,7 +27,7 @@ Siga estos pasos para configurar la actividad **Esperar**:
 
 1. Especifique la **Duración** de la espera entre las transiciones entrantes y salientes.
 
-1. Seleccione la unidad de tiempo en la **Períodos** campo: segundos, minutos, horas, días.
+1. Seleccione la unidad de tiempo en el campo **Periodos**: segundos, minutos, horas, días.
 
 ## Ejemplo{#wait-example}
 

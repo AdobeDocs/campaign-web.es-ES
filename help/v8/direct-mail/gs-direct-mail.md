@@ -18,9 +18,9 @@ Al crear una entrega de correo postal, Adobe Campaign genera automáticamente un
 
 Para crear envíos de correo directo, tiene tres opciones:
 
-* **Flujos de trabajo**: Después de añadir una actividad de canal de correo postal al flujo de trabajo y configurar los ajustes básicos, puede crear el contenido de sus envíos de correo postal desde el menú del panel derecho. Para obtener instrucciones detalladas sobre cómo configurar el flujo de trabajo, consulte [esta página](../workflows/gs-workflow-creation.md).
-* **Campañas**: Una vez creada una campaña, puede crear una entrega de correo directo. Para obtener más información sobre la configuración de la campaña, consulte [esta página](../campaigns/gs-campaigns.md).
-* **Entregas independientes.**: involucre a los clientes de forma directa e instantánea con la entrega de correo postal individual, sin necesidad de flujos de trabajo o campañas. [Obtenga información sobre cómo crear una entrega](../msg/gs-deliveries.md)
+* **Flujos de trabajo**: después de agregar una actividad de canal de correo postal al flujo de trabajo y configurar los ajustes básicos, puede crear el contenido de los envíos de correo postal desde el menú del panel derecho. Para obtener instrucciones detalladas sobre cómo configurar el flujo de trabajo, consulte [esta página](../workflows/gs-workflow-creation.md).
+* **Campañas**: Una vez que haya creado una campaña, puede crear una entrega de correo directo. Para obtener más información sobre la configuración de la campaña, consulte [esta página](../campaigns/gs-campaigns.md).
+* **Envíos independientes**: Capte clientes de forma directa e instantánea con envíos de correo directo individuales, sin necesidad de flujos de trabajo ni campañas. [Aprenda a crear una entrega](../msg/gs-deliveries.md)
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

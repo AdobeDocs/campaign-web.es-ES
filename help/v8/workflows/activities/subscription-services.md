@@ -32,49 +32,49 @@ ht-degree: 18%
 >title="Más información"
 >abstract="Más información"
 
-El **Servicios de suscripción** la actividad es una **Administración de datos** actividad. Permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
+La actividad **Servicios de suscripción** es una actividad de **Administración de datos**. Permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
 
 ## Configure la actividad Subscription services {#subscription-services-configuration}
 
-Siga estos pasos para configurar el **Servicios de suscripción** actividad:
+Siga estos pasos para configurar la actividad **Servicios de suscripción**:
 
-1. Añadir un **Servicios de suscripción** en el flujo de trabajo. Puede utilizar esta actividad después de segmentar perfiles o importar un archivo con datos identificados.
+1. Agregue una actividad **Servicios de suscripción** a su flujo de trabajo. Puede utilizar esta actividad después de segmentar perfiles o importar un archivo con datos identificados.
 
 1. Seleccione el servicio para el que desea administrar las suscripciones mediante una de las siguientes opciones:
 
-   * **[!UICONTROL Seleccione un servicio específico]**: Seleccione manualmente un servicio utilizando **[!UICONTROL Servicio]** field.
+   * **[!UICONTROL Seleccionar un servicio específico]**: Seleccione manualmente un servicio mediante el campo **[!UICONTROL Servicio]**.
 
-   * **[!UICONTROL Desde transición entrante]**: utilice el servicio especificado en la transición entrante. Por ejemplo, puede importar un archivo que especifique el servicio que se va a administrar para cada línea. El servicio en el que se realiza la operación se selecciona dinámicamente para cada perfil.
+   * **[!UICONTROL De transición entrante]**: use el servicio especificado en la transición entrante. Por ejemplo, puede importar un archivo que especifique el servicio que se va a administrar para cada línea. El servicio en el que se realiza la operación se selecciona dinámicamente para cada perfil.
 
    ![](../assets/workflow-subscription-service.png)
 
-1. Seleccione la operación que desea realizar: **Suscribirse** o **Cancelar suscripción**.
+1. Seleccione la operación que desea realizar: **Suscribirse** o **Cancelar la suscripción**.
 
    Si el servicio se define en la transición entrante, puede elegir cómo recuperar esta operación:
 
-   * **Seleccione un tipo de operación específico**: Seleccione manualmente la operación que desea realizar (**Suscribirse** o **Cancelar suscripción**)
+   * **Seleccionar un tipo de operación específico**: Seleccione manualmente la operación que desea realizar (**Suscribirse** o **Cancelar la suscripción**)
 
-   * **Seleccionar un tipo de operación de una ruta de transición entrante**: seleccione la columna de los datos de entrada que especifica la operación que se realizará para cada registro. Por ejemplo, puede importar un archivo que especifique la operación que se va a realizar para cada línea en una columna &quot;operación&quot;.
+   * **Seleccione un tipo de operación de una ruta de transición entrante**: seleccione la columna de los datos entrantes que especifica la operación que se realizará para cada registro. Por ejemplo, puede importar un archivo que especifique la operación que se va a realizar para cada línea en una columna &quot;operación&quot;.
 
-     Aquí solo se pueden seleccionar campos booleanos o enteros. Asegúrese de que los datos que contienen la operación que se va a realizar coinciden con este formato. Por ejemplo, si está cargando datos desde una actividad de Cargar archivo, compruebe que ha establecido correctamente el formato de la columna que contiene la operación en **[!UICONTROL Cargar archivo]** actividad. Se presenta un ejemplo en [esta sección](#uc2).
+     Aquí solo se pueden seleccionar campos booleanos o enteros. Asegúrese de que los datos que contienen la operación que se va a realizar coinciden con este formato. Por ejemplo, si está cargando datos desde una actividad de Cargar archivo, compruebe que ha establecido correctamente el formato de la columna que contiene la operación en la actividad **[!UICONTROL Cargar archivo]**. Se presenta un ejemplo en [esta sección](#uc2).
 
      >[!CAUTION]
      >
-     >De forma predeterminada, si selecciona esta opción, la variable **Servicios de suscripción** La actividad espera tener una definición de vínculo a **Servicios (nms)** configuradas en el flujo de trabajo. Para ello, asegúrese de haber configurado un vínculo de reconciliación en una **Actividad de enriquecimiento** en el flujo de trabajo. Hay disponible un ejemplo que muestra cómo utilizar esta opción [aquí](#uc2).
+     >De manera predeterminada, si selecciona esta opción, la actividad **Subscription services** espera tener una definición de vínculo a la tabla **Services (nms)** configurada en el flujo de trabajo. Para ello, asegúrese de que ha configurado un vínculo de reconciliación en una **actividad de enriquecimiento** hacia arriba en el flujo de trabajo. Hay disponible [aquí](#uc2) un ejemplo que muestra cómo usar esta opción.
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
-1. Para notificar a los destinatarios que se han suscrito o dado de baja del servicio seleccionado, cambie el **[!UICONTROL Enviar un mensaje de confirmación]** opción activada. El contenido de esta notificación se define en una plantilla de envío asociada al servicio de información.
+1. Para notificar a los destinatarios que se han suscrito o dado de baja del servicio seleccionado, active la opción **[!UICONTROL Enviar un mensaje de confirmación]**. El contenido de esta notificación se define en una plantilla de envío asociada al servicio de información.
 
-1. Si utiliza datos de una transición entrante, se debe crear un **[!UICONTROL Información adicional]** se muestra esta sección, que le permite especificar los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se definirá ninguna fecha ni ningún origen al ejecutar el flujo de trabajo.
+1. Si usa datos de una transición entrante, se muestra la sección **[!UICONTROL Información adicional]**, que le permite especificar los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se definirá ninguna fecha ni ningún origen al ejecutar el flujo de trabajo.
 
-   * Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en la **[!UICONTROL Fecha]** field.
+   * Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el campo **[!UICONTROL Fecha]**.
 
-   * En el **[!UICONTROL Ruta de origen]** , defina el origen de la suscripción. Puede establecerlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la variable **[!UICONTROL Establecer una constante como origen]** opción.
+   * En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede establecerlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer una constante como origen]**.
 
    ![](../assets/workflow-subscription-service-additional.png)
 
-1. Para añadir una transición saliente después de la actividad, cambie el **[!UICONTROL Generación de una transición saliente]** opción activada.
+1. Para agregar una transición saliente después de la actividad, active la opción **[!UICONTROL Generar una transición saliente]**.
 
 ## Ejemplos {#example}
 
@@ -84,9 +84,9 @@ Este flujo de trabajo siguiente muestra cómo suscribir una audiencia a un servi
 
 ![](../assets/workflow-subscription-service-uc1.png)
 
-* A **[!UICONTROL Crear audiencia]** la actividad se dirige a una audiencia existente.
+* Una actividad **[!UICONTROL Generar audiencia]** se dirige a una audiencia existente.
 
-* A **[!UICONTROL Servicios de suscripción]** La actividad de permite seleccionar el servicio al que se deben suscribir los perfiles.
+* Una actividad **[!UICONTROL Servicios de suscripción]** le permite seleccionar el servicio al que se deben suscribir los perfiles.
 
 ### Actualización de varios estados de suscripción de un archivo {#uc2}
 
@@ -94,7 +94,7 @@ El flujo de trabajo siguiente muestra cómo importar un archivo que contiene per
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Cargar archivo]** La actividad de carga un archivo CSV que contiene los datos y define la estructura de las columnas importadas. Las columnas &quot;servicio&quot; y &quot;operación&quot; especifican el servicio que se va a actualizar y la operación que se va a realizar (suscripción o baja).
+* Una actividad **[!UICONTROL Cargar archivo]** carga un archivo CSV que contiene los datos y define la estructura de las columnas importadas. Las columnas &quot;servicio&quot; y &quot;operación&quot; especifican el servicio que se va a actualizar y la operación que se va a realizar (suscripción o baja).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -106,23 +106,23 @@ El flujo de trabajo siguiente muestra cómo importar un archivo que contiene per
   ```
 
   Como ha visto, la operación se especifica en el archivo como “sub” o “unsub”. El sistema espera que un valor **booleano** o **entero** reconozca la operación que se va a realizar: “0” para cancelar la suscripción y “1” para suscribirse. Para hacer coincidir este requisito:
-   * El **Tipo de datos** para la columna &quot;operación&quot; se establece en entero.
-   * A **Reasignación de valores** debe realizarse para que coincidan los valores &quot;sub&quot; y &quot;unsub&quot; con los valores &quot;1&quot; y &quot;0&quot;.
+   * El **tipo de datos** de la columna &quot;operación&quot; está establecido en entero.
+   * Se debe realizar una **reasignación de valores** para que coincida con los valores &quot;sub&quot; y &quot;unsub&quot; con los valores &quot;1&quot; y &quot;0&quot;.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Si el archivo ya utiliza “0” y “1” para identificar la operación, no es necesario volver a asignar esos valores. Solo asegúrese de que la columna se procesa como **Booleano** o **Entero** en las columnas del archivo de ejemplo.
+  Si el archivo ya utiliza “0” y “1” para identificar la operación, no es necesario volver a asignar esos valores. Solo asegúrese de que la columna se procese como **booleano** o **entero** en las columnas del archivo de muestra.
 
-* A **[!UICONTROL Reconciliación]** La actividad identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. El **email** del archivo coincide con el campo **email** del recurso de perfil.
+* Una actividad **[!UICONTROL Reconciliation]** identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. El campo **correo electrónico** del archivo coincide con el campo **correo electrónico** del recurso de perfil.
 
   ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
 
-* Un **[!UICONTROL Enriquecimiento]** La actividad de crea un vínculo de reconciliación a la tabla &quot;Servicios (nms)&quot;, con una unión simple entre la columna &quot;servicio&quot; del archivo cargado y el campo &quot;nombre interno&quot; de los servicios en la base de datos.
+* Una actividad **[!UICONTROL Enrichment]** crea un vínculo de reconciliación con la tabla &quot;Services (nms)&quot;, con una simple unión entre la columna &quot;service&quot; del archivo cargado y el campo &quot;internal name&quot; de servicios en la base de datos.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Servicios de suscripción]** identifica los servicios que se van a actualizar como procedentes de la transición.
+* **[!UICONTROL Servicios de suscripción]** identifica los servicios que se van a actualizar como procedentes de la transición.
 
-  El **[!UICONTROL Tipo de operación]** se identifica como proveniente de **operación** del archivo. Aquí solo se pueden seleccionar los campos booleano o entero. Si la columna del archivo que contiene la operación que se va a realizar no aparece en la lista, asegúrese de que ha configurado correctamente el formato de columna en la **[!UICONTROL Cargar archivo]** actividad de, tal como se explicó anteriormente en este ejemplo.
+  El **[!UICONTROL tipo de operación]** se ha identificado como proveniente del campo **operation** del archivo. Aquí solo se pueden seleccionar los campos booleano o entero. Si la columna del archivo que contiene la operación que se va a realizar no aparece en la lista, asegúrese de que ha establecido correctamente el formato de columna en la actividad **[!UICONTROL Cargar archivo]**, tal como se explicó anteriormente en este ejemplo.
 
   ![](../assets/workflow-subscription-service-uc2-subscription.png)

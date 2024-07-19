@@ -19,7 +19,7 @@ ht-degree: 19%
 
 
 
-Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Obtenga más información en la [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Obtenga más información en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
 Estos campos personalizados se muestran en varias pantallas, por ejemplo, los detalles de un perfil o un perfil de prueba.
 
@@ -38,28 +38,28 @@ Los campos personalizados están disponibles en los siguientes esquemas:
 
 Para configurar los campos personalizados, siga estos pasos:
 
-1. En **Administration**, haga clic en **Esquemas**.
+1. En **Administración**, haga clic en **Esquemas**.
 
    ![](assets/custom-fields.png){zoomable="yes"}
 
-1. Busque el esquema deseado, por ejemplo, la variable **Destinatarios (nms)** esquema.
+1. Busque el esquema deseado; por ejemplo, el esquema **Destinatarios (nms)**.
 
    ![](assets/custom-fields2.png){zoomable="yes"}
 
-1. Haga clic en **Más acciones** y seleccione **Editar detalles personalizados**.
+1. Haga clic en el botón **Más acciones** y seleccione **Editar detalle personalizado**.
 
    ![](assets/custom-fields3.png){zoomable="yes"}
 
-   El **Editar detalles personalizados** La pantalla muestra todos los campos personalizados y su tipo.
+   La pantalla **Editar detalle personalizado** muestra todos los campos personalizados y su tipo.
 
    ![](assets/custom-fields4.png){zoomable="yes"}
 
    Esta pantalla le permite realizar las siguientes acciones:
 
    * cambie el orden de los diferentes campos mediante las flechas arriba y abajo.
-   * haga que el campo sea obligatorio: marque la **Obligatorio** cuadro.
-   * hacer visible u ocultar el campo: haga clic en el icono **Visible** botón.
-   * añada una condición de visibilidad: haga clic en **Visible si** y escriba la expresión xtk utilizando las funciones xtk disponibles.
+   * haga el campo obligatorio: marque la casilla **Obligatorio**.
+   * haga el campo visible u ocultarlo: haga clic en el botón **Visible**.
+   * agregue una condición de visibilidad: haga clic en el botón **Visible if** y escriba la expresión xtk mediante las funciones xtk disponibles.
 
 1. Vaya a la pantalla que muestra el campo personalizado. En nuestro ejemplo, es la pantalla de detalles del perfil.
 

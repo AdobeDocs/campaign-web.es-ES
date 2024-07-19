@@ -12,7 +12,7 @@ ht-degree: 32%
 
 # Actualización de datos {#update-data}
 
-El **Actualización de datos** la actividad es una **Administración de datos** actividad. Permite realizar una actualización masiva de los campos de la base de datos. Varias opciones permiten personalizar la actualización de datos.
+La actividad **Actualizar datos** es una actividad **Administración de datos**. Permite realizar una actualización masiva de los campos de la base de datos. Varias opciones permiten personalizar la actualización de datos.
 
 <!--
 The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
@@ -30,7 +30,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configure la actividad Update data{#update-data-configuration}
 
-Para configurar la variable **Actualización de datos** actividad, comience añadiendo la actividad al flujo de trabajo y defina una etiqueta.
+Para configurar la actividad **Actualizar datos**, comience agregando la actividad al flujo de trabajo y defina una etiqueta.
 
 ![](../assets/workflow-update-data.png)
 
@@ -38,9 +38,9 @@ Para configurar la variable **Actualización de datos** actividad, comience aña
 
 El campo **Operation type** permite elegir el proceso que se lleva a cabo en la información de la base de datos:
 
-* **Insertar o actualizar**: insertar datos o actualizarlos si los registros ya existen en la base de datos.
+* **Insertar o actualizar**: inserte datos o actualícelos si los registros ya existen en la base de datos.
 * **Insertar**: insertar solo datos. Los registros que ya existen no se actualizan. Si se definen los criterios de reconciliación, solo se añaden los registros que no se han cuadrado.
-* **Actualizar**: actualizar los datos de los registros que ya existen solo en la base de datos.
+* **Actualizar**: actualice los datos de los registros que ya existen solamente en la base de datos.
 * **Delete**: eliminar datos.
 
 El campo **Batch size** permite seleccionar el número de elementos de transición entrantes que se deben actualizar. Por ejemplo, si establece 500, se actualizarán los 500 primeros registros analizados.
@@ -49,21 +49,21 @@ El campo **Batch size** permite seleccionar el número de elementos de transici�
 
 Esta sección le permite especificar cómo identificar los registros de la base de datos:
 
-* Si las entradas de datos están relacionadas con una dimensión de segmentación existente, seleccione la **Uso de la dimensión objetivo** y selecciónela en la pestaña **Dimensión de segmentación a actualizar** field.
-* También puede seleccionar la variable **Uso de vínculos personalizados** y especifique uno o más vínculos que permitan la identificación de los datos en la base de datos
-* Si el tipo de operación seleccionado requiere una actualización, debe utilizar el **Uso de reglas de reconciliación** opción.
+* Si las entradas de datos están relacionadas con una dimensión de segmentación existente, seleccione la opción **Using the targeting dimension** y selecciónela en el campo **Targeting dimension to update**.
+* También puede seleccionar **mediante vínculos personalizados** y especificar uno o más vínculos que permitan la identificación de los datos en la base de datos
+* Si el tipo de operación seleccionado requiere una actualización, debe usar la opción **Usar reglas de reconciliación**.
 
 ### Campos que actualizar
 
-En el **Campos para actualizar** , añada los campos en los que se aplicará la actualización y, si es necesario, añada condiciones para que se realice la actualización. Para ello, utilice el **Se tendrá en cuenta si** field. Las condiciones se aplican una tras otra en orden de lista. Utilice las flechas de la derecha para cambiar el orden de las actualizaciones. Puede utilizar el mismo campo de destino varias veces.
+En la sección **Campos para actualizar**, agregue los campos en los que se aplicará la actualización y, si es necesario, agregue las condiciones para que se realice esta actualización. Para ello, utilice el campo **Taken into account if**. Las condiciones se aplican una tras otra en orden de lista. Utilice las flechas de la derecha para cambiar el orden de las actualizaciones. Puede utilizar el mismo campo de destino varias veces.
 
-Los campos se pueden vincular automáticamente mediante la variable **Asignación automática** botón. La vinculación automática detecta los campos con el mismo nombre.
+Puede vincular automáticamente los campos usando el botón **Asignación automática**. La vinculación automática detecta los campos con el mismo nombre.
 
-Durante un **Insertar o actualizar** tipo de operación, puede seleccionar individualmente la operación que desea aplicar a cada campo. Para ello, seleccione el valor que desee en la **Tipo de operación** field.
+Durante un tipo de operación **Insert or update**, puede seleccionar individualmente la operación que desea aplicar a cada campo. Para ello, seleccione el valor que desee en el campo **Operation type**.
 
 ### Opciones avanzadas
 
-El **Opciones avanzadas** permite especificar opciones adicionales para trabajar con la actualización de datos y para administrar duplicados.
+**Opciones avanzadas** le permite especificar opciones adicionales para trabajar con la actualización de datos y para administrar duplicados.
 
 <!--
 * **Disable automatic key management**
@@ -75,6 +75,6 @@ El **Opciones avanzadas** permite especificar opciones adicionales para trabajar
 
 Las dos últimas opciones permiten realizar acciones específicas:
 
-* **Generación de una transición saliente**: crea una transición saliente que se activa al final de la ejecución. La actualización normalmente indica el final de un flujo de trabajo de objetivos, por lo que la opción no se activa de forma predeterminada.
+* **Generar una transición saliente**: crea una transición saliente que se activará al final de la ejecución. La actualización normalmente indica el final de un flujo de trabajo de objetivos, por lo que la opción no se activa de forma predeterminada.
 
 * **Generar una transición saliente para los rechazos**: crea una transición saliente que contiene registros que no se han procesado correctamente después de la actualización (por ejemplo, si hay un duplicado). Por lo general, la actualización marca el final de un flujo de trabajo de segmentación y, por lo tanto, la opción no está activada de forma predeterminada.

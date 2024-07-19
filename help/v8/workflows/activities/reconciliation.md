@@ -32,13 +32,13 @@ ht-degree: 47%
 >title="Complemento de generación de reconciliación"
 >abstract="Complemento de generación de reconciliación"
 
-El **Reconciliación** la actividad es una **Segmentación** actividad que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.
+La actividad **Reconciliation** es una actividad **Targeting** que permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de una tabla de trabajo, por ejemplo, los datos cargados de un archivo externo.
 
-Por ejemplo, la actividad **Reconciliación** se puede colocar después de la actividad **Cargar archivo** para importar datos no estándar a la base de datos. En este caso, la variable **Reconciliación** La actividad permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
+Por ejemplo, la actividad **Reconciliación** se puede colocar después de la actividad **Cargar archivo** para importar datos no estándar a la base de datos. En este caso, la actividad **Reconciliation** permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de resultados.
 
 ## Prácticas recomendadas {#reconciliation-best-practices}
 
-Mientras que el **Enriquecimiento** La actividad de le permite definir datos adicionales para procesarlos en el flujo de trabajo (puede utilizar un **Enriquecimiento** actividad para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), **Reconciliación** La actividad le permite vincular datos no identificados a recursos existentes.
+Aunque la actividad **Enrichment** le permite definir datos adicionales para procesarlos en el flujo de trabajo (puede usar una actividad **Enrichment** para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la actividad **Reconciliation** le permite vincular datos no identificados a recursos existentes.
 
 >[!NOTE]
 >La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos.  Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
@@ -72,23 +72,23 @@ Mientras que el **Enriquecimiento** La actividad de le permite definir datos adi
 >title="Atributo de reconciliación"
 >abstract="Seleccione el atributo que desea utilizar para reconciliar los datos y haga clic en Confirmar."
 
-Siga estos pasos para configurar el **Reconciliación** actividad:
+Siga estos pasos para configurar la actividad **Reconciliation**:
 
-1. Añadir un **Reconciliación** en el flujo de trabajo. Esta actividad debe añadirse después de una transición que contenga una población cuya dimensión de segmentación no provenga directamente de Adobe Campaign.
+1. Agregue una actividad **Reconciliation** al flujo de trabajo. Esta actividad debe añadirse después de una transición que contenga una población cuya dimensión de segmentación no provenga directamente de Adobe Campaign.
 
 1. Seleccionar la nueva dimensión de segmentación. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Seleccione los campos que se utilizarán para la reconciliación. Se pueden utilizar uno o más criterios de reconciliación.
 
-   1. Para utilizar atributos para reconciliar datos, seleccione **Atributos simples** opción. El **Origen** field enumera los campos disponibles en la transición de entrada que se van a conciliar. El **Destino** field corresponde a los campos de la dimensión de segmentación seleccionada. Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione la opción **Correo electrónico** para deduplicar perfiles en función de su dirección de correo electrónico.
+   1. Para usar atributos para reconciliar datos, seleccione la opción **Atributos simples**. El campo **Source** enumera los campos disponibles en la transición de entrada que deben conciliarse. El campo **Destino** corresponde a los campos de la dimensión de segmentación seleccionada. Los datos se concilian cuando el origen y el destino son iguales. Por ejemplo, seleccione los campos **Correo electrónico** para anular la duplicación de perfiles según su dirección de correo electrónico.
 
-      Para añadir otros criterios de reconciliación, haga clic en **Añadir regla** botón. Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
+      Para agregar otros criterios de reconciliación, haga clic en el botón **Agregar regla**. Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Para utilizar otros atributos para reconciliar datos, seleccione la opción **Condiciones de reconciliación avanzadas** opción. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md).
+   1. Para usar otros atributos para reconciliar datos, seleccione la opción **Condiciones de reconciliación avanzadas**. A continuación, puede crear su propia condición de reconciliación utilizando el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md).
 
-1. Puede filtrar los datos para conciliarlos mediante el **Crear filtro** botón. Esto permite crear una condición personalizada mediante el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
+1. Puede filtrar los datos para conciliarlos usando el botón **Crear filtro**. Esto permite crear una condición personalizada mediante el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
 De forma predeterminada, los datos no conciliados se mantienen en la transición saliente y están disponibles en la tabla de trabajo para su uso futuro. Para quitar los datos no reconciliados, desactive la opción **Mantener datos no reconciliados**.
 
@@ -116,13 +116,13 @@ Se crea con las siguientes actividades:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Reconciliación** actividad que identifica los datos entrantes como perfiles, utilizando el **email** y **Fecha de nacimiento** como criterios de reconciliación.
+* Una actividad **Reconciliation** que identifica los datos entrantes como perfiles, usando los campos **email** y **Date of birth** como criterios de reconciliación.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* A [Guardar audiencia](save-audience.md) actividad para crear una nueva audiencia basada en estas actualizaciones. También puede reemplazar el **Guardar audiencia** actividad de un **Fin** actividad si no es necesario crear o actualizar una audiencia específica. Los perfiles de destinatario se actualizan en cualquier caso al ejecutar el flujo de trabajo.
+* Una actividad [Guardar audiencia](save-audience.md) para crear una audiencia nueva basada en estas actualizaciones. También puede reemplazar la actividad **Guardar audiencia** por una actividad **Finalizar** si no es necesario crear o actualizar una audiencia específica. Los perfiles de destinatario se actualizan en cualquier caso al ejecutar el flujo de trabajo.
 
 
 ## Compatibilidad {#reconciliation-compat}
 
-El **Reconciliación** La actividad no existe en la consola del cliente. Todo **Enriquecimientos** las actividades creadas en la consola de cliente con las opciones de reconciliación habilitadas se muestran como **Reconciliación** actividades en la interfaz de usuario web de Campaign.
+La actividad **Reconciliation** no existe en la consola del cliente. Todas las actividades **Enrichments** creadas en la consola del cliente con las opciones de reconciliación habilitadas se muestran como actividades **Reconciliation** en la interfaz de usuario web de Campaign.

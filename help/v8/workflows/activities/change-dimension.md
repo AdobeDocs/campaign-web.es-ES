@@ -22,30 +22,30 @@ ht-degree: 26%
 >title="Actividad cambiar dimensión"
 >abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que genera un público. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión “contratos” a la dimensión “clientes."
 
-El **Cambiar dimensión** la actividad es una **Segmentación** actividad. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea el flujo de trabajo. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
+La actividad **Cambiar dimensión** es una actividad **Segmentación**. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea el flujo de trabajo. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
 
 Por ejemplo, puede cambiar la dimensión objetivo de un flujo de trabajo de &quot;Destinatarios&quot; a &quot;Aplicación de suscriptores&quot; para enviar notificaciones push a los destinatarios objetivo.
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+>Tenga en cuenta que las actividades **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** no deben agregarse en una fila. Si necesita usar ambas actividades consecutivamente, asegúrese de incluir una actividad **[!UICONTROL Enrichement]** entre ellas. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 ## Configuración de la actividad Change dimension {#configure}
 
-Siga estos pasos para configurar el **Cambiar dimensión** actividad:
+Siga estos pasos para configurar la actividad **Cambiar dimensión**:
 
-1. Añadir un **Cambiar dimensión** a su flujo de trabajo.
+1. Agregue una actividad **Cambiar dimensión** a su flujo de trabajo.
 
    ![](../assets/workflow-change-dimension.png)
 
-1. Defina el **Nueva dimensión de destino**. Durante el cambio de dimensión, se guardan todos los registros. Otras opciones aún no están disponibles.
+1. Defina **Nueva dimensión de destino**. Durante el cambio de dimensión, se guardan todos los registros. Otras opciones aún no están disponibles.
 
 1. Ejecute el flujo de trabajo para ver el resultado. Compare los datos de las tablas antes y después de la actividad de dimensión cambiante y compare la estructura de las tablas de flujo de trabajo.
 
 ## Ejemplo {#example}
 
-En este ejemplo, deseamos enviar un envío SMS a todos los perfiles que han realizado una compra. Para ello, primero utilizamos una **[!UICONTROL Crear audiencia]** actividad vinculada a una dimensión de segmentación personalizada Comprar para segmentar todas las compras que se han producido.
+En este ejemplo, deseamos enviar un envío SMS a todos los perfiles que han realizado una compra. Para ello, en primer lugar utilizamos una actividad **[!UICONTROL Generar audiencia]** vinculada a una dimensión de segmentación personalizada &quot;Compra&quot; para segmentar todas las compras que se produjeron.
 
-A continuación, utilizamos una **[!UICONTROL Cambiar dimensión]** actividad para cambiar la dimensión de segmentación del flujo de trabajo a &quot;Destinatarios&quot;. Esto nos permite segmentar los destinatarios que coincidan con la consulta.
+Luego usamos una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación del flujo de trabajo a &quot;Recipients&quot;. Esto nos permite segmentar los destinatarios que coincidan con la consulta.
 
 ![](../assets/workflow-change-dimension-example.png)

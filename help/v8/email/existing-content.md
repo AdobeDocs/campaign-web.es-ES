@@ -17,7 +17,7 @@ ht-degree: 38%
 >title="Usar contenido de correo electrónico existente"
 >abstract="El Diseñador de correo electrónico le permite importar contenido HTML existente. Este contenido puede ser un archivo HTML con una hoja de estilos incorporada o una carpeta .zip con el archivo HTML, la hoja de estilos (.css) y las imágenes."
 
-Puede importar contenido existente del HTML en el Diseñador de correo electrónico. Este contenido puede ser el siguiente:
+Puede importar contenido existente del HTML en Email Designer. Este contenido puede ser el siguiente:
 
 * Un **archivo HTML** con una hoja de estilo incorporada.
 * Una **carpeta .zip** con el archivo HTML, la hoja de estilo (.css) y las imágenes.
@@ -26,31 +26,31 @@ Puede importar contenido existente del HTML en el Diseñador de correo electrón
   >
   >No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta característica en vídeo](#video)
 
 Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
-1. En el [Diseñador de correo electrónico](get-started-email-designer.md) página de inicio, seleccione **[!UICONTROL Importar HTML]**.
+1. En la página de inicio de [Email Designer](get-started-email-designer.md), seleccione **[!UICONTROL Importar HTML]**.
 
    ![](assets/html-import.png){zoomable="yes"}
 
 1. Arrastre y suelte el archivo HTML o .zip que contiene el contenido HTML y haga clic en **[!UICONTROL Importar]**.
 
-1. Una vez cargado el contenido del HTML, el contenido se encuentra en **[!UICONTROL Modo de compatibilidad]**.
+1. Una vez cargado el contenido del HTML, el contenido estará en **[!UICONTROL modo de compatibilidad]**.
 
    En este modo, solo puede personalizar el texto, agregar vínculos o incluir recursos en el contenido.
 
    ![](assets/html-imported.png){zoomable="yes"}
 
-1. Para poder aprovechar los componentes de contenido del Diseñador de correo electrónico, acceda al **[!UICONTROL convertidor HTML]** y haga clic en **[!UICONTROL Convertir]**.
+1. Para poder aprovechar los componentes de contenido de Email Designer, accede a la pestaña **[!UICONTROL convertidor de HTML]** y haz clic en **[!UICONTROL Convertir]**.
 
    ![](assets/html-imported-2.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   > Uso de un `<table>` como la primera capa de un archivo de HTML puede causar pérdida de estilo, incluida la configuración de fondo y anchura en la etiqueta de capa superior.
+   > El uso de una etiqueta `<table>` como primera capa en un archivo de HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de capa superior.
 
-1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades del Diseñador de correo electrónico [Más información](content-components.md).
+1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades de Email Designer [Más información](content-components.md).
 
 ## Vídeos explicativos {#video}
 

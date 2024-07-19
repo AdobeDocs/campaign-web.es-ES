@@ -32,15 +32,15 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 
-1. Escriba el mensaje de texto en la **[!UICONTROL Mensaje]** o haga clic en **[!UICONTROL Abrir diálogo de personalización]** opción para definir contenido y añadir contenido dinámico. [Más información](../personalization/gs-personalization.md)
+1. Escriba su mensaje de texto en el campo **[!UICONTROL Mensaje]** o haga clic en la opción **[!UICONTROL Abrir cuadro de diálogo de personalización]** para definir contenido y agregar contenido dinámico. [Más información](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. De forma predeterminada, el seguimiento está habilitado para los envíos. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**.
 
-1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
+1. Haga clic en **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
-1. Acceda a la **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido personalizado. [Más información](send-sms.md#preview-sms)
+1. Acceda al menú **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido personalizado. [Más información](send-sms.md#preview-sms)
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa.
 

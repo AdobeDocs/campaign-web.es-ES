@@ -25,11 +25,11 @@ La lista completa de informes y las métricas asociadas para cada canal están d
 
 Para acceder y administrar los informes de campaña, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Campañas]** menú. Haga clic en **Informes** del panel de la campaña.
+1. Vaya al menú **[!UICONTROL Campañas]**. Haga clic en el botón **Informes** del panel de campañas.
 
    ![](assets/manage_campaign_report_2.png){zoomable="yes"}
 
-   También puede utilizar los tres puntos **Más acciones** junto al nombre de la campaña en la lista de campañas y seleccione **[!UICONTROL Ver informe]**.
+   También puede usar el botón de tres puntos **Más acciones** junto al nombre de la campaña en la lista de campañas y seleccionar **[!UICONTROL Ver informe]**.
 
    ![](assets/manage_campaign_report_1.png){zoomable="yes"}
 
@@ -37,18 +37,18 @@ Para acceder y administrar los informes de campaña, siga estos pasos:
 
    ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. En el tablero, haga clic en **[!UICONTROL Selección de entregas]** si desea dirigirse a una entrega específica incluida en la campaña.
+1. En el tablero, haga clic en **[!UICONTROL Seleccionar entregas]** si desea segmentar una entrega específica incluida en la campaña.
 
-1. En el **[!UICONTROL Rendimiento del envío]** menú, elija un **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
+1. En el menú **[!UICONTROL Rendimiento de entrega]**, elija un **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
 
    ![](assets/manage_campaign_report_3.png){zoomable="yes"}
 
-1. Desde el **[!UICONTROL Elegir carpeta]** , seleccione si desea segmentar envíos o campañas desde una carpeta específica.
+1. En el campo **[!UICONTROL Seleccionar carpeta]**, seleccione si desea segmentar envíos o campañas desde una carpeta específica.
 
    También puede seleccionar **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
    ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
+1. Entre las **[!UICONTROL URL y los flujos de clics]**, también puedes elegir los **[!UICONTROL vínculos más visitados]** o el **[!UICONTROL período de tiempo]**.
 
-   El **[!UICONTROL Ver por]** Las opciones de permiten filtrar por direcciones URL, etiquetas o categorías.
+   Las opciones de **[!UICONTROL Ver por]** le permiten filtrar por direcciones URL, etiquetas o categorías.

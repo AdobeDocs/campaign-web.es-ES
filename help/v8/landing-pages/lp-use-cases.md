@@ -34,15 +34,15 @@ Para utilizar correctamente la página de aterrizaje, debe hacer referencia a el
 >
 >Para aprovechar al máximo la página de aterrizaje, no puede copiar y pegar el vínculo que se muestra en el panel de envío publicado directamente en las entregas o en una página web. Aprenda a hacerlo correctamente en esta sección.
 
-En el [!DNL Adobe Campaign Web] En primer lugar, cuatro plantillas predeterminadas le permiten implementar diferentes casos de uso. Sin embargo, los pasos principales siguen siendo los mismos y se detallan a continuación.
+En el diagrama inferior [!DNL Adobe Campaign Web], cuatro plantillas predeterminadas le permiten implementar diferentes casos de uso. Sin embargo, los pasos principales siguen siendo los mismos y se detallan a continuación.
 
-1. [Creación de una página de aterrizaje](create-lp.md#create-landing-page) y seleccione la plantilla que desee, según el caso de uso.
+1. [Cree una página de aterrizaje](create-lp.md#create-landing-page) y seleccione la plantilla que elija según su caso de uso.
 
 1. Defina las propiedades y la configuración de la página de aterrizaje.
 
    ![](assets/lp-uc-properties.png){zoomable="yes"}
 
-1. Según su caso, seleccione la opción **[!UICONTROL Adquisición]**, **[!UICONTROL Suscripción]**, **[!UICONTROL Baja]** o **[!UICONTROL Lista de bloqueados de]** página.
+1. Según el caso, seleccione la página **[!UICONTROL Adquisición]**, **[!UICONTROL Suscripción]**, **[!UICONTROL Baja]** o **[!UICONTROL Lista de bloqueados de la suscripción]**.
 
 1. Se muestra el contenido de la página. Seleccione la parte correspondiente al formulario de página de aterrizaje.
 
@@ -57,15 +57,15 @@ En el [!DNL Adobe Campaign Web] En primer lugar, cuatro plantillas predeterminad
 
 1. Modifique el resto del contenido según sea necesario, guarde los cambios y cierre.
 
-1. Edite el **[!UICONTROL Confirmación]** según sea necesario, así como la **[!UICONTROL Error]** y **[!UICONTROL Caducidad]** páginas. El **[!UICONTROL Confirmación]** se mostrará a los destinatarios una vez que envíen el formulario.
+1. Edite la página **[!UICONTROL Confirmación]** según sea necesario, así como las páginas **[!UICONTROL Error]** y **[!UICONTROL Caducidad]**. La página **[!UICONTROL Confirmación]** se mostrará a los destinatarios cuando envíen el formulario.
 
    ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
-1. [Prueba](create-lp.md#test-landing-page) y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
+1. [Probar](create-lp.md#test-landing-page) y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
 
-1. Crear un [email](../email/create-email.md) envío para dirigir el tráfico a la página de aterrizaje.
+1. Cree un envío de [correo electrónico](../email/create-email.md) para dirigir el tráfico a la página de aterrizaje.
 
-1. [Inserción de un vínculo](../email/message-tracking.md#insert-links) en el contenido del mensaje. Seleccionar **[!UICONTROL Página de aterrizaje]** como el **[!UICONTROL Tipo de vínculo]** y elija la página de aterrizaje que ha creado.
+1. [Inserte un vínculo](../email/message-tracking.md#insert-links) en el contenido del mensaje. Seleccione **[!UICONTROL Página de aterrizaje]** como **[!UICONTROL Tipo de vínculo]** y elija la página de aterrizaje que ha creado.
 
    ![](assets/lp-uc-email-link.png){zoomable="yes"}
 
@@ -79,29 +79,29 @@ Una vez recibido el correo electrónico, si los destinatarios hacen clic en el v
 
 * Se aplicará cualquier otra acción definida en la página de aterrizaje. Por ejemplo: los usuarios se suscribirán a su servicio o no recibirán más comunicaciones de usted.
 
-A continuación se muestran algunos ejemplos de cómo puede utilizar [!DNL Adobe Campaign] páginas de aterrizaje en los diferentes casos de uso posibles.
+A continuación se muestran algunos ejemplos de cómo puede usar las páginas de aterrizaje [!DNL Adobe Campaign] en los diferentes casos de uso posibles.
 
 ## Adquisición de perfil {#lp-acquisition}
 
 La primera plantilla permite agregar o actualizar un perfil a la base de datos de Campaign.
 
-1. Cuándo [creación de la página de aterrizaje](create-lp.md#create-landing-page), seleccione la **[!UICONTROL Adquisición]** plantilla.
+1. Al [crear su página de aterrizaje](create-lp.md#create-landing-page), seleccione la plantilla **[!UICONTROL Adquisición]**.
 
-1. En las propiedades de la página de aterrizaje, asegúrese de seleccionar la **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** para cargar previamente cualquier información existente del perfil y evitar la creación de duplicados.
+1. En las propiedades de la página de aterrizaje, asegúrese de seleccionar la opción **[!UICONTROL Rellenar previamente con los datos a los que se hace referencia en el formulario]** para cargar previamente cualquier información existente del perfil y evitar la creación de duplicados.
 
-1. Seleccione el **[!UICONTROL Adquisición]** para editar su contenido.
+1. Seleccione la página **[!UICONTROL Adquisición]** para editar su contenido.
 
 1. Edite los campos de texto según sea necesario según la información que desee recopilar en los perfiles.
 
-1. Además, puede añadir una casilla de verificación para invitar a sus clientes a suscribirse al servicio de boletín informativo. [Obtenga información sobre cómo crear un servicio](../audience/manage-services.md)
+1. Además, puede añadir una casilla de verificación para invitar a sus clientes a suscribirse al servicio de boletín informativo. [Aprenda a crear un servicio](../audience/manage-services.md)
 
    ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
-1. Revisar y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
+1. Revisa y [publica](create-lp.md#publish-landing-page) tu página de aterrizaje.
 
-1. Crear un [email](../email/create-email.md) y [añadir un vínculo](../email/message-tracking.md#insert-links) a la página de aterrizaje.
+1. Cree un [correo electrónico](../email/create-email.md) y [agregue un vínculo](../email/message-tracking.md#insert-links) a su página de aterrizaje.
 
 Una vez recibido el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje y envían el formulario, su perfil se añade a la base de datos de Campaign o se actualiza con la información que han proporcionado.
 
@@ -118,7 +118,7 @@ Si optó por recibir su newsletter, se suscribirá al servicio correspondiente.
 >title="Establecimiento de la página de aterrizaje de la suscripción"
 >abstract="Una página de suscripción permite a los clientes suscribirse a un servicio."
 
-Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscripción a un servicio](../audience/manage-services.md) (como un boletín informativo o un evento) a través de una página de aterrizaje. Siga los pasos a continuación.
+Uno de los casos de uso más comunes consiste en invitar a tus clientes a [suscribirse a un servicio](../audience/manage-services.md) (como una newsletter o un evento) a través de una página de aterrizaje. Siga los pasos a continuación.
 
 <!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
 
@@ -126,19 +126,19 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
    ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
-1. Cree un servicio de suscripción, que almacenará a los usuarios registrados en su evento. [Obtenga información sobre cómo crear un servicio](../audience/manage-services.md)
+1. Cree un servicio de suscripción, que almacenará a los usuarios registrados en su evento. [Aprenda a crear un servicio](../audience/manage-services.md)
 
 1. Seleccione la plantilla que creó como correo electrónico de confirmación que los usuarios recibirán tras la suscripción.
 
    ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
-1. [Creación de una página de aterrizaje](create-lp.md#create-landing-page) para permitir que los destinatarios se registren en el evento. Seleccione el **[!UICONTROL Suscripción]** plantilla.
+1. [Crea una página de aterrizaje](create-lp.md#create-landing-page) para permitir que tus destinatarios se registren en tu evento. Seleccione la plantilla **[!UICONTROL Subscription]**.
 
-1. Seleccione el **[!UICONTROL Suscripción]** para editar su contenido.
+1. Seleccione la página **[!UICONTROL Suscripción]** para editar su contenido.
 
-1. Se muestra el contenido de la página. Seleccione la parte correspondiente al formulario de la página de aterrizaje y expanda **[!UICONTROL Casilla 1]** sección.
+1. Se muestra el contenido de la página. Seleccione la parte correspondiente al formulario de la página de aterrizaje y expanda la sección **[!UICONTROL Casilla de verificación 1]**.
 
-1. En el **[!UICONTROL Suscripciones y servicios]** , seleccione el servicio que creó para su evento. Deje el **[!UICONTROL Suscribirse si está marcado]** opción activada.
+1. En el campo **[!UICONTROL Suscripciones y servicios]**, seleccione el servicio que creó para su evento. Deje activada la opción **[!UICONTROL Suscribirse si está marcada]**.
 
    ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
@@ -146,9 +146,9 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
-1. Revisar y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
+1. Revisa y [publica](create-lp.md#publish-landing-page) tu página de aterrizaje.
 
-1. Crear un [email](../email/create-email.md) y [añadir un vínculo](../email/message-tracking.md#insert-links) para dirigir el tráfico a la página de aterrizaje de registro.
+1. Cree un [correo electrónico](../email/create-email.md) y [agregue un vínculo](../email/message-tracking.md#insert-links) para dirigir el tráfico a la página de aterrizaje de registro.
 
 1. Diseñe el correo electrónico para anunciar que el registro está abierto para su evento.
 
@@ -160,57 +160,57 @@ Puede permitir a sus clientes cancelar la suscripción a un servicio mediante un
 
 1. Asegúrese de haber creado una plantilla de confirmación para los usuarios que cancelan la suscripción al servicio, de modo que pueda seleccionarla fácilmente al crearlo. [Más información](../audience/manage-services.md#create-confirmation-message)
 
-1. En su [servicio de suscripción](../audience/manage-services.md), seleccione la plantilla que creó como correo electrónico de confirmación que los usuarios recibirán al cancelar la suscripción.
+1. En su [servicio de suscripción](../audience/manage-services.md), seleccione la plantilla que creó como el correo electrónico de confirmación que los usuarios recibirán al cancelar la suscripción.
 
-1. [Creación de una página de aterrizaje](create-lp.md#create-landing-page). Seleccione el **[!UICONTROL Baja]** plantilla.
+1. [Crear una página de aterrizaje](create-lp.md#create-landing-page). Seleccione la plantilla **[!UICONTROL Baja]**.
 
-1. Seleccione el **[!UICONTROL Baja]** para editar su contenido.
+1. Seleccione la página **[!UICONTROL Baja]** para editar su contenido.
 
 1. Se muestra el contenido de la página. Seleccione la parte correspondiente al formulario de página de aterrizaje.
 
-1. Puede añadir un **[!UICONTROL Casilla]** , seleccione el servicio y seleccione la **[!UICONTROL Cancelar suscripción si está marcado]** opción.
+1. Puede agregar una sección **[!UICONTROL Casilla de verificación]**, seleccionar el servicio y seleccionar la opción **[!UICONTROL Cancelar la suscripción si está marcada]**.
 
    ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
-1. También puede expandir la variable **[!UICONTROL Llamada a la acción]** y seleccione la sección **[!UICONTROL Actualizaciones adicionales]** opción. Seleccione el servicio y marque **[!UICONTROL Opción de exclusión]** opción.
+1. También puede expandir la sección **[!UICONTROL Llamada a la acción]** y seleccionar la opción **[!UICONTROL Actualizaciones adicionales]**. Seleccione el servicio y marque la opción **[!UICONTROL Opt out]**.
 
    ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
-1. Revisar y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
+1. Revisa y [publica](create-lp.md#publish-landing-page) tu página de aterrizaje.
 
-1. Crear un [email](../email/create-email.md) y [añadir un vínculo](../email/message-tracking.md#insert-links) a la página de aterrizaje.
+1. Crear un [correo electrónico](../email/create-email.md) y [agregar un vínculo](../email/message-tracking.md#insert-links) a la página de aterrizaje.
 
 Una vez recibido el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje y envían el formulario, se les dirige a la página de confirmación de baja y se les elimina del servicio de suscripción correspondiente.
 
 ## Lista de bloqueados {#lp-denylist}
 
-Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la recepción de comunicaciones de una marca es un requisito legal. Por lo tanto, siempre debe incluir un **vínculo de cancelación de suscripción** en cada correo electrónico enviado a los destinatarios. Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
+Proporcionar a los destinatarios la capacidad de cancelar su suscripción a la recepción de comunicaciones de una marca es un requisito legal. Por lo tanto, siempre debe incluir un **vínculo para cancelar la suscripción** en cada mensaje de correo electrónico enviado a los destinatarios. Al hacer clic en este vínculo, los destinatarios se dirigen a una página de aterrizaje que incluye un botón para confirmar la exclusión.
 
-Puede configurar un **[!UICONTROL Lista de bloqueados de]** página de aterrizaje que permite a los usuarios desactivar todas las entregas.
+Puede configurar una página de aterrizaje de **[!UICONTROL Lista de bloqueados]** que permitirá a los usuarios desactivar todas las entregas.
 
-1. Cuándo [creación de la página de aterrizaje](create-lp.md#create-landing-page), seleccione la **[!UICONTROL Lista de bloqueados de]** plantilla.
+1. Cuando [cree su página de aterrizaje](create-lp.md#create-landing-page), seleccione la plantilla **[!UICONTROL Incluir en la lista de bloqueados]** de la.
 
-1. Seleccione el **[!UICONTROL Lista de bloqueados de]** para editar su contenido.
+1. Incluir en la lista de bloqueados Seleccione la página **** para editar su contenido.
 
-1. Expanda el **[!UICONTROL Llamada a la acción]** y seleccione la sección **[!UICONTROL Actualizaciones adicionales]** opción.
+1. Expanda la sección **[!UICONTROL Llamada a la acción]** y seleccione la opción **[!UICONTROL Actualizaciones adicionales]**.
 
-1. En la lista desplegable correspondiente, seleccione **[!UICONTROL Canal (correo electrónico)]** para permitir que los destinatarios se excluyan únicamente de las comunicaciones por correo electrónico. También puede seleccionar **[!UICONTROL Por todos los canales]** para excluirlos a todos de todas las comunicaciones en todos los canales.
+1. En la lista desplegable correspondiente, seleccione **[!UICONTROL Canal (correo electrónico)]** para permitir que sus destinatarios se excluyan únicamente de las comunicaciones por correo electrónico. También puedes seleccionar **[!UICONTROL Por todos los canales]** para elegir entre todas las comunicaciones en todos los canales.
 
    ![](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
-1. Revisar y [publicar](create-lp.md#publish-landing-page) su página de aterrizaje.
+1. Revisa y [publica](create-lp.md#publish-landing-page) tu página de aterrizaje.
 
-1. Crear un [email](../email/create-email.md) y [añadir un vínculo](../email/message-tracking.md#insert-links) a la página de aterrizaje para permitir que los usuarios puedan excluirse de la recepción de comunicaciones.
+1. Cree un [correo electrónico](../email/create-email.md) y [agregue un vínculo](../email/message-tracking.md#insert-links) a su página de aterrizaje para permitir que los usuarios puedan desactivar la recepción de comunicaciones.
 
 Una vez recibido el correo electrónico, si los destinatarios hacen clic en el vínculo a la página de aterrizaje y envían el formulario, se les dirigirá a la página de confirmación de la lista de bloqueados de la aplicación y su perfil se actualizará con la información que proporcionaron.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a **[!UICONTROL Perfiles]** y seleccione ese perfil.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya al menú **[!UICONTROL Perfiles]** y seleccione ese perfil.
 
-Por ejemplo, si elige actualizar el **[!UICONTROL Canal (correo electrónico)]** en la página de aterrizaje, la opción **[!UICONTROL Ya no se puede contactar por correo electrónico]** se marcará la opción.
+Por ejemplo, si elige actualizar la opción **[!UICONTROL Canal (correo electrónico)]** en su página de aterrizaje, se comprobará la opción **[!UICONTROL Ya no contacte por correo electrónico]**.
 
 ![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 

@@ -51,7 +51,7 @@ Para crear un envío independiente, siga estos pasos:
 1. Haga clic en el botón **[!UICONTROL Revisar y enviar]** para comprobar su configuración.
 1. Utilice el botón **[!UICONTROL Simular contenido]** para probar el envío y la configuración de personalización. Puede obtener más información sobre la simulación de mensajes en [esta sección](../preview-test/preview-test.md).
 1. Haga clic en el botón **[!UICONTROL Preparar]** para calcular el público destinatario y generar los mensajes. El paso de preparación puede tardar unos minutos. Cuando la preparación haya finalizado, los mensajes estarán listos para enviarse. En caso de error, vaya a los **Registros** para comprobar las alertas y advertencias.
-1. Compruebe los resultados y haga clic en **[!UICONTROL Enviar]** para empezar a enviar mensajes.
+1. Compruebe los resultados y haga clic en el botón **[!UICONTROL Enviar]** para comenzar a enviar mensajes.
 1. Una vez enviados los mensajes, vaya a la sección **Informes** para acceder a métricas clave. Obtenga más información sobre los informes de envíos en [esta sección](../reporting/delivery-reports.md).
 
 >[!TAB Creación de un envío en un flujo de trabajo]
@@ -59,8 +59,8 @@ Para crear un envío independiente, siga estos pasos:
 Para crear un envío en un flujo de trabajo, siga estos pasos:
 
 1. Cree un flujo de trabajo o abra uno existente. [Más información sobre los flujos de trabajo](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Adición y configuración de un [**[!UICONTROL Crear audiencia]**](../workflows/activities/build-audience.md) actividad.
-1. Haga clic en el icono `+` y seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información sobre las actividades del canal de envíos en un flujo de trabajo y cómo definir un contenido de envío en [esta sección](../workflows/activities/channels.md).
+1. Agregue y configure una actividad [**[!UICONTROL Generar audiencia]**](../workflows/activities/build-audience.md).
+1. Haga clic en el icono `+` y seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información acerca de las actividades del canal de envío en un flujo de trabajo y cómo definir un contenido de envío en [esta sección](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 

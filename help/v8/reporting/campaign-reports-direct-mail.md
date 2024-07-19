@@ -23,15 +23,15 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >title="Información general sobre el envío"
 >abstract="La **Información general de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo directo. Las métricas se describen a continuación."
 
-El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada entrega de correo postal. Las métricas se describen a continuación.
+La **[!UICONTROL descripción general de la entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen una perspectiva detallada de la interacción de los visitantes con cada entrega de correo directo. Las métricas se describen a continuación.
 
 ![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
-* **[!UICONTROL Mensajes para enviar]**: Número total de mensajes procesados durante la preparación de la entrega.
+* **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
-* **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Errores]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
@@ -46,7 +46,7 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 >title="Estadísticas de público destinatario inicial"
 >abstract="Los datos del destinatario y la información del mensaje se muestran en el gráfico **Estadísticas de público destinatario inicial**, que refleja el análisis de preparación de envíos."
 
-El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla muestra datos relativos a los destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
+La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se calculan durante la preparación de la entrega y muestran: la audiencia inicial, el número de mensajes que se van a enviar y el número de destinatarios excluidos.
 
 ![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
@@ -54,9 +54,9 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-* **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
+* **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar las reglas: direcciones faltantes, en cuarentena, en la lista de bloqueados, etc.
+* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en lista de bloqueados de la, etc.
 
 +++
 
@@ -69,17 +69,17 @@ El **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** La tabla 
 
 ![](assets/direct-mail-campaign-exec.png)
 
-El **[!UICONTROL Estadísticas de ejecución]** proporciona un desglose del éxito de cada envío de correo postal, con las métricas detalladas que se describen a continuación.
+La tabla **[!UICONTROL Estadísticas de ejecución]** proporciona un desglose del éxito de cada envío de correo postal, con las métricas detalladas que se describen a continuación.
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
-* **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
+* **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
+* **[!UICONTROL Errores]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
 +++
 
@@ -92,11 +92,11 @@ El **[!UICONTROL Estadísticas de ejecución]** proporciona un desglose del éxi
 
 ![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
-El **Flujos de clics generados** La tabla ilustra los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
+La tabla **Flujos de clics generados** ilustra las razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
 +++Obtenga más información sobre las métricas de flujos de clics generados.
 
-* **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
+* **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en un envío al menos una vez.
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 

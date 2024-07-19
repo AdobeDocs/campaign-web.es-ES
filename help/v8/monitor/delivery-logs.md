@@ -17,7 +17,7 @@ ht-degree: 71%
 >title="Registros de envío"
 >abstract="Los registros de envío muestran los detalles del envío. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics."
 
-Una vez preparada la entrega y haciendo clic en el botón **Enviar** , vaya a los registros de envío para comprobar las advertencias, los errores, el estado, las exclusiones y los datos de seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
+Una vez que la entrega está preparada y usted hizo clic en el botón **Enviar**, examine los registros de entrega para comprobar las advertencias, los errores, el estado, las exclusiones y los datos de seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
 
 Para ver los registros, acceda al panel del envío y haga clic en el botón **Registros**.
 
@@ -57,13 +57,13 @@ La pestaña **Registros de exclusión** contiene todos los mensajes que se han e
 
 ## Causas de exclusión {#exclusion-causes-tab}
 
-El **Causas de exclusión** La pestaña muestra, por cada causa posible, el número de mensajes que se han excluido del destinatario.
+La ficha **Causas de exclusión** muestra, para cada causa posible, el número de mensajes que se han excluido del destino.
 
 ![](assets/logs4.png){zoomable="yes"}
 
 ## Direcciones URL rastreadas {#tracked-urls-tab}
 
-El **URL seguidas** reagrupa las direcciones URL contenidas en los mensajes enviados, incluido su tipo de dirección URL y la dirección URL de origen.
+La pestaña **URL rastreadas** reagrupa las URL contenidas en los mensajes enviados, incluido su tipo de URL y su URL de origen.
 
 ![](assets/logs5.png){zoomable="yes"}
 

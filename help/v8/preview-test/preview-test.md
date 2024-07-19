@@ -24,16 +24,16 @@ Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles 
 [!DNL Adobe Campaign Web user interface] le permite:
 
 * [Previsualización del contenido y la personalización del mensaje](preview-content.md)
-* [Envío de pruebas](test-deliveries.md) a destinatarios o suscriptores específicos para pruebas y validación
-* [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares basados en web, móviles y equipos de escritorio
+* [Enviar pruebas](test-deliveries.md) a destinatarios o suscriptores específicos para pruebas y validación
+* [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares de escritorio, móviles y basados en la web
 * [Previsualización y prueba de las páginas de aterrizaje](../landing-pages/create-lp.md#test-landing-page)
 
-Estas acciones se pueden realizar con el complemento **[!UICONTROL Simular contenido]** , a la que se puede acceder desde la pantalla de edición de contenido del envío o desde el [Diseñador de correo electrónico](../email/get-started-email-designer.md).
+Estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del envío o desde el [Designer de correo electrónico](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >
->La simulación de contenido también está disponible en [resumen del envío](../monitor/prepare-send.md) después de hacer clic en **[!UICONTROL Revisar y enviar]** botón.
+>La simulación de contenido también está disponible en [resumen de envío](../monitor/prepare-send.md) después de hacer clic en el botón **[!UICONTROL Revisar y enviar]**.
 >
->Si va a segmentar una audiencia cargada desde un archivo, consulte [esta sección](../audience/file-audience.md#preview--test-your-email-test) para obtener información sobre cómo previsualizar y probar el envío.
+>Si está dirigiéndose a una audiencia cargada desde un archivo, consulte [esta sección](../audience/file-audience.md#preview--test-your-email-test) para obtener información sobre cómo obtener una vista previa y probar su envío.

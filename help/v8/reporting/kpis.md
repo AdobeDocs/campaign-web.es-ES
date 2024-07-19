@@ -97,7 +97,7 @@ Estas métricas se basan en la tabla Seguimiento consolidado (`nms:trackingStats
 
 Los destinatarios pueden optar por recibir comunicaciones por correo electrónico y SMS.
 
-El **Suscripciones** Este indicador muestra los siguientes KPI, para cada canal el porcentaje del número de suscripciones comparado con el número total de mensajes enviados correctamente.
+El indicador **Suscripciones** muestra los siguientes KPI, para cada canal el porcentaje del número de suscripciones comparado con el número total de mensajes enviados correctamente.
 
 
 >[!NOTE]
@@ -155,7 +155,7 @@ Durante la fase de preparación, se genera el archivo de extracción de correo p
 
 Nunca puede ser el 100% de los mensajes enviados en comparación con el total de mensajes preparados, ya que algunas direcciones pueden faltar o estar incompletas.
 
-El **Enviado** Este indicador muestra los siguientes KPI, para el canal de correo postal:
+El indicador **Enviado** muestra los siguientes KPI para el canal de correo postal:
 
 * Porcentaje del número de mensajes enviados comparado con el número total de mensajes preparados.
 

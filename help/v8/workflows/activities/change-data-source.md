@@ -17,17 +17,17 @@ ht-degree: 13%
 >title="Cambio de la fuente de datos"
 >abstract="La actividad **Cambiar fuente de datos** le permite seleccionar una fuente de datos diferente para la tabla de trabajo del flujo de trabajo."
 
-El **Cambiar fuente de datos** la actividad es una **segmentación** actividad. Esta actividad le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esto proporciona más flexibilidad al permitirle administrar los datos en sus diferentes bases de datos y mejorar el rendimiento.
+La actividad **Cambiar fuente de datos** es una actividad **segmentación**. Esta actividad le permite cambiar la fuente de datos utilizada por la tabla de trabajo del flujo de trabajo. Esto proporciona más flexibilidad al permitirle administrar los datos en sus diferentes bases de datos y mejorar el rendimiento.
 
-En los flujos de trabajo, los datos que pasan de una actividad a otra a través de transiciones se almacenan en un **Tabla de trabajo**. De forma predeterminada, las tablas de trabajo se crean en la misma base de datos que el origen de los datos procesados. Por ejemplo, al consultar la tabla &quot;Perfiles&quot;, almacenada en la base de datos en la nube, se crea una tabla de trabajo en la misma base de datos en la nube.
+En los flujos de trabajo, los datos que pasan de una actividad a otra mediante transiciones se almacenan en una **Tabla de trabajo** temporal. De forma predeterminada, las tablas de trabajo se crean en la misma base de datos que el origen de los datos procesados. Por ejemplo, al consultar la tabla &quot;Perfiles&quot;, almacenada en la base de datos en la nube, se crea una tabla de trabajo en la misma base de datos en la nube.
 
-En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que tenga que forzar el flujo de trabajo para que utilice una base de datos diferente para realizar estas operaciones añadiendo una **[!UICONTROL Cambiar fuente de datos]** actividad.
+En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que deba forzar el flujo de trabajo para que utilice una base de datos diferente para realizar estas operaciones agregando una actividad **[!UICONTROL Cambiar fuente de datos]**.
 
-Encontrará información detallada sobre la arquitectura de Campaign en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+>Tenga en cuenta que las actividades **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** no deben agregarse en una fila. Si necesita usar ambas actividades consecutivamente, asegúrese de incluir una actividad **[!UICONTROL Enrichement]** entre ellas. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 <!--
 
@@ -45,16 +45,16 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configuración de la actividad Cambiar fuente de datos {#configure}
 
-Siga estos pasos para configurar el **Cambiar dimensión** actividad:
+Siga estos pasos para configurar la actividad **Cambiar dimensión**:
 
 ![](../assets/workflow-change-data-source-add.png)
 
-1. Añadir un **Cambiar fuente de datos** a su flujo de trabajo.
+1. Agregue una actividad **Cambiar fuente de datos** a su flujo de trabajo.
 
 1. Defina el origen de datos al que desea mover la tabla de trabajo:
 
-   * **[!UICONTROL Base de datos de Campaign predeterminada (PostgreSQL)]**: utilice la base de datos local predeterminada de Campaign.
-   * **[!UICONTROL Cuenta externa de FDA]**: utilice bases de datos de nube externas conectadas a Adobe Campaign mediante la función de acceso de datos federado.
+   * **[!UICONTROL Base de datos de Campaign predeterminada (PostgreSQL)]**: use la base de datos local de Campaign predeterminada.
+   * **[!UICONTROL Cuenta externa de FDA]**: use bases de datos de nube externas conectadas a Adobe Campaign mediante la capacidad de acceso de datos federado.
 
      >[!AVAILABILITY]
      >

@@ -35,15 +35,15 @@ Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un
 
 Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
+1. Vaya al menú **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón **[!UICONTROL Crear envío]**.
 
-1. En el **[!UICONTROL Canal]** , elija SMS como canal y seleccione una plantilla. [Más información sobre las plantillas](../msg/delivery-template.md)
+1. En la sección **[!UICONTROL Canal]**, elija SMS como canal y seleccione una plantilla. [Más información sobre las plantillas](../msg/delivery-template.md)
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
    ![](assets/sms_create_1.png){zoomable="yes"}
 
-1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega y acceda al **[!UICONTROL Opciones adicionales]** menú desplegable. Si la entrega se basa en un esquema ampliado, especifique **Opciones personalizadas** Los campos de están disponibles.
+1. Escriba una **[!UICONTROL Etiqueta]** para la entrega y acceda a la lista desplegable de **[!UICONTROL Opciones adicionales]**. Si su entrega se basa en un esquema ampliado, hay **campos de opciones personalizadas** específicos disponibles.
 
    +++Configure la siguiente configuración según sus necesidades.
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
@@ -57,24 +57,24 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
    ![](assets/sms_create_2.png){zoomable="yes"}
 
-   Obtenga información sobre cómo seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
+   Aprenda a seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
 
-   Obtenga información sobre cómo crear una nueva audiencia en [esta página](../audience/one-time-audience.md)
+   Aprenda a crear una audiencia nueva en [esta página](../audience/one-time-audience.md)
 
-1. Encienda el **[!UICONTROL Habilitar grupo de control]** opción para establecer un grupo de control para medir el impacto del envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
+1. Active la opción **[!UICONTROL Habilitar grupo de control]** para establecer un grupo de control y medir el impacto de su envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
 
-1. Clic **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido del mensaje SMS. [Más información](content-sms.md)
+1. Haz clic en **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido de tu mensaje SMS. [Más información](content-sms.md)
 
    ![](assets/sms_create_4.png){zoomable="yes"}
 
-   Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../msg/offers.md).
+   Desde esta pantalla, también puedes [simular tu contenido](../preview-test/preview-test.md) y [configurar ofertas](../msg/offers.md).
 
-1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario. Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule).
+1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas definidas para el destinatario. Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar el **Planificador** actividad. Obtenga más información en [esta página](../workflows/activities/scheduler.md).
+   >Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar la actividad **Planificador**. Obtenga más información en [esta página](../workflows/activities/scheduler.md).
 
-1. Clic **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
+1. Haga clic en **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png){zoomable="yes"}

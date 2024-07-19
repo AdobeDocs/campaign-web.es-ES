@@ -19,22 +19,22 @@ El asistente de IA de Campaign mejora el impacto de su comunicación al generar 
 
 >[!NOTE]
 >
->Antes de empezar a utilizar esta capacidad, lea la información relacionada [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations).
+>Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#guardrails-and-limitations) relacionadas.
 
 
-Para generar contenido de correo electrónico con el asistente de IA, siga los pasos a continuación. También puede mejorar un contenido existente con el asistente de IA, como se detalla en [esta página](generative-content.md).
+Para generar contenido de correo electrónico con el asistente de IA, siga los pasos a continuación. También puede mejorar un contenido existente con el Asistente de IA, como se detalla en [esta página](generative-content.md).
 
-1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Creación de contenido]**.
+1. Después de crear y configurar la entrega por correo electrónico, haga clic en **[!UICONTROL Crear contenido]**.
 
-   Para obtener más información sobre cómo configurar la entrega por correo electrónico, consulte [esta página](../email/create-email-content.md).
+   Para obtener más información sobre cómo configurar su envío por correo electrónico, consulte [esta página](../email/create-email-content.md).
 
-1. Rellene el **[!UICONTROL Detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]**.
+1. Complete **[!UICONTROL detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
 1. Elija la plantilla de diseño en la que desea que el asistente de IA base el correo electrónico generado.
 
    También puede importar un archivo de HTML.
 
-1. En el menú derecho, seleccione **[!UICONTROL Generación de experiencias]**.
+1. En el menú de la derecha, seleccione **[!UICONTROL Generación de experiencias]**.
 
    ![](assets/email-genai-1.png){zoomable="yes"}
 
@@ -48,31 +48,31 @@ Para generar contenido de correo electrónico con el asistente de IA, siga los p
 
    ![](assets/email-genai-2.png){zoomable="yes"}
 
-1. Seleccionar **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional, consulte el asistente de IA.
+1. Seleccione **[!UICONTROL Cargar archivo]** si desea agregar cualquier recurso de marca que contenga contenido que pueda proporcionar contexto adicional con el Ayudante de IA.
 
-   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar archivos actualizados anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
+   También puede hacer clic en **[!UICONTROL Contenido cargado]** para buscar los archivos que se han actualizado anteriormente. Tenga en cuenta que el contenido cargado está disponible exclusivamente para que el usuario actual lo reutilice.
 
-1. Seleccione el **[!UICONTROL Estrategia de comunicación]** que mejor se adapte a sus necesidades. Esto afectará al tono y al estilo del correo electrónico generado.
+1. Seleccione la **[!UICONTROL estrategia de comunicación]** que mejor se adapte a sus necesidades. Esto afectará al tono y al estilo del correo electrónico generado.
 
-1. Elija la **[!UICONTROL Idioma]** y **[!UICONTROL Tono]** que desea que tenga el texto generado. Esto garantizará que el texto sea apropiado para su audiencia y propósito.
+1. Elija el **[!UICONTROL idioma]** y el **[!UICONTROL tono]** que desea que tenga el texto generado. Esto garantizará que el texto sea apropiado para su audiencia y propósito.
 
    ![](assets/email-genai-3.png){zoomable="yes"}
 
-1. Personalización de **[!UICONTROL Tipo de contenido]** la configuración de recursos se adaptará a las características de los recursos que desee.
+1. Personalice la configuración de recursos de **[!UICONTROL tipo de contenido]** para que coincida con las características de recursos que desee.
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine la **[!UICONTROL Sugerencias de variación]** para encontrar el correo electrónico deseado. Clic **[!UICONTROL Previsualizar]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine **[!UICONTROL sugerencias de variación]** para encontrar el correo electrónico deseado. Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
 
    ![](assets/email-genai-4.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Seleccionar]** una vez encontrado el contenido adecuado.
+1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
    ![](assets/email-genai-5.png){zoomable="yes"}
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos de perfiles o personalice aún más el contenido si es necesario. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
-1. Después de definir el contenido del correo electrónico, haga clic en **[!UICONTROL Simular contenido]** para controlar el procesamiento y comprobar la configuración de personalización con perfiles de prueba.  [Más información](../preview-test/preview-content.md)
+1. Después de definir el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y compruebe la configuración de personalización con perfiles de prueba.  [Más información](../preview-test/preview-content.md)
 
    ![](assets/email-genai-6.png){zoomable="yes"}
 

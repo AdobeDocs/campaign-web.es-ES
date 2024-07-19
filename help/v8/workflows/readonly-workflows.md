@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Acerca de los flujos de trabajo de solo lectura
+title: Acerca de los flujos de trabajo solo de lectura
 description: Descubra por qué los flujos de trabajo están en modo de solo lectura
-source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
+exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
+source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# Acerca de los flujos de trabajo de solo lectura {#readonly-workflows}
+# Acerca de los flujos de trabajo solo de lectura {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
@@ -18,7 +19,7 @@ ht-degree: 4%
 
 Algunos flujos de trabajo pueden estar en modo de solo lectura. Se puede ver con :
 
-- La mención **[!UICONTROL ** Solo lectura **]**  cerca de la **[!UICONTROL Configuración]** botón
+- La mención **[!UICONTROL ** Solo lectura **]** cerca del botón **[!UICONTROL Configuración]**
 - Los botones de acción no están accesibles
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
@@ -52,6 +53,6 @@ En el caso de un flujo de trabajo de campaña de solo lectura, el usuario no pue
 ### Flujos de trabajo técnicos
 
 Los flujos de trabajo técnicos están en modo de solo lectura para los usuarios de Campaign.
-Los flujos de trabajo técnicos integrados están en modo de solo lectura para todos, incluso para los usuarios administradores. Pero el usuario puede **pause** o **parada** si es necesario. Esas son las únicas acciones permitidas. [Obtenga más información aquí](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+Los flujos de trabajo técnicos integrados están en modo de solo lectura para todos, incluso para los usuarios administradores. Pero el usuario puede **pausar** o **detener** si es necesario. Esas son las únicas acciones permitidas. [Obtenga más información aquí](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}

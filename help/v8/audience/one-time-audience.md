@@ -15,8 +15,8 @@ ht-degree: 28%
 En esta sección se describe cómo crear una audiencia al crear una nueva entrega. En este caso, los perfiles que se incluyen en la audiencia de envío se segmentan consultando la base de datos con el modelador de consultas. La audiencia resultante solo se utiliza una vez para este envío. No se guarda en la lista de audiencias.
 
 Al definir el objetivo principal de una entrega, también puede:
-* [Seleccionar una audiencia existente](add-audience.md) desde el **[!UICONTROL Audiencias]** lista.
-* [Carga de una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
+* [Seleccione una audiencia existente](add-audience.md) de la lista **[!UICONTROL Audiencias]**.
+* [Cargar una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
 
 Para crear una nueva audiencia única para una entrega, siga estos pasos:
 
@@ -24,10 +24,10 @@ Para crear una nueva audiencia única para una entrega, siga estos pasos:
 
    ![](assets/segment-builder0.png){zoomable="yes"}
 
-1. Seleccionar **Cree su propio** para abrir el modelador de consultas, que le permite definir la población de destino filtrando los datos contenidos en la base de datos. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
+1. Seleccione **Crear su propio** para abrir el modelador de consultas, que le permite definir la población de destino filtrando los datos contenidos en la base de datos. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png){zoomable="yes"}
 
-1. Una vez preparada la consulta, haga clic en **Confirmar** para utilizar la audiencia resultante como objetivo principal de su envío.
+1. Una vez que la consulta esté lista, haga clic en **Confirmar** para usar la audiencia resultante como destinatario principal de la entrega.
 
    También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](control-group.md)

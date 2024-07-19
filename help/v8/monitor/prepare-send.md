@@ -15,30 +15,30 @@ ht-degree: 38%
 
 ## Preparación del envío {#prepare}
 
-Cuando haya definido su [content](../email/edit-content.md), [audiencia](../audience/add-audience.md), y [programación](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), está listo para preparar su envío de correo electrónico.
+Cuando hayas definido tu [contenido](../email/edit-content.md), [audiencia](../audience/add-audience.md) y [programación](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), estarás listo para preparar tu envío de correo electrónico.
 
 Durante la preparación, la población objetivo se calcula y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas.
 
-Las reglas de validación utilizadas durante la preparación de la entrega se describen en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+Las reglas de validación utilizadas durante la preparación de la entrega se describen en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 A continuación se enumeran los pasos principales para preparar el envío.
 
-1. En el panel de envío, haga clic en **[!UICONTROL Revisar y enviar]**.
+1. En el panel de entregas, haga clic en **[!UICONTROL Revisar y enviar]**.
 
    ![](assets/email-review-and-send.png){zoomable="yes"}
 
 
-1. Haga clic en **[!UICONTROL Preparar]** situado en la esquina superior derecha y confirme.
+1. Haga clic en el botón **[!UICONTROL Preparar]** situado en la esquina superior derecha y confirme la acción.
 
    ![](assets/email-prepare.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si programó su envío y deshabilitó la **[!UICONTROL Habilitar confirmación antes de enviar]** opción, los pasos de preparación y envío se agrupan en la variable **[!UICONTROL Preparar y enviar]** botón. [Más información sobre la programación](../msg/gs-deliveries.md#gs-schedule)
+   >Si programaste tu envío y deshabilitaste la opción **[!UICONTROL Habilitar confirmación antes de enviar]**, los pasos de preparación y envío se agrupan bajo el botón **[!UICONTROL Preparar y enviar]**. [Más información sobre la programación](../msg/gs-deliveries.md#gs-schedule)
 
 1. Se muestra el progreso de la preparación. En función del tamaño de la población de destinatarios, esta operación puede tardar algún tiempo.
 
-   Puede detener la preparación en cualquier momento utilizando **[!UICONTROL Detener preparación]** botón.
+   Puede detener la preparación en cualquier momento con el botón **[!UICONTROL Detener preparación]**.
 
    ![](assets/email-stop-preparation.png){zoomable="yes"}
 
@@ -52,8 +52,8 @@ A continuación se enumeran los pasos principales para preparar el envío.
    Estos son los diferentes KPI mostrados:
 
    * **[!UICONTROL Objetivos]**: el número de destinatarios objetivo.
-   * **[!UICONTROL Para enviar]**: el número de mensajes que se enviarán.
-   * **[!UICONTROL Para excluir]**: el número de mensajes excluidos por un [reglas de tipología](../advanced-settings/delivery-settings.md#typology).
+   * **[!UICONTROL Para entregar]**: el número de mensajes que se enviarán.
+   * **[!UICONTROL Para excluir]**: el número de mensajes excluidos por una [regla de tipología](../advanced-settings/delivery-settings.md#typology).
 
 1. Haga clic en el botón **[!UICONTROL Registros]** y compruebe que no haya errores. El último mensaje de registro muestra los mensajes de error y los errores. [Más información](delivery-logs.md)
 
@@ -70,7 +70,7 @@ Una vez completada la preparación sin errores, el mensaje está listo para envi
 ## Envío del mensaje {#send}
 
 
-Una vez que [preparación](#prepare) se ha completado. Ahora puede enviar su correo electrónico.
+Una vez completada la [preparación](#prepare), ahora puede enviar su correo electrónico.
 
 Si el mensaje está programado, se enviará en la fecha y la hora definidas. [Más información](../msg/gs-deliveries.md#gs-schedule)
 
@@ -78,7 +78,7 @@ Si el mensaje está programado, se enviará en la fecha y la hora definidas. [M�
 
 Para enviar un correo electrónico inmediatamente, siga los pasos a continuación.
 
-1. En el panel de envío, haga clic en **[!UICONTROL Enviar]** en la esquina superior derecha.
+1. En el panel de envío, haga clic en el botón **[!UICONTROL Enviar]** en la esquina superior derecha.
 
    ![](assets/email-send.png){zoomable="yes"}
 
@@ -90,25 +90,25 @@ Para enviar un correo electrónico inmediatamente, siga los pasos a continuació
 
 Si ha programado el correo electrónico para enviarlo en una fecha y hora posteriores, siga los pasos a continuación.
 
-1. Antes de golpear el **[!UICONTROL Revisar y enviar]** , asegúrese de definir una programación para el correo electrónico. [Más información](../msg/gs-deliveries.md#gs-schedule)
+1. Antes de pulsar el botón **[!UICONTROL Revisar y enviar]**, asegúrese de definir una programación para el correo electrónico. [Más información](../msg/gs-deliveries.md#gs-schedule)
 
-1. En el panel de envío, haga clic en **[!UICONTROL Botón Enviar como programado]** en la esquina superior derecha.
+1. En el panel de envío, haga clic en el botón **[!UICONTROL Enviar como programado]** en la esquina superior derecha.
 
    ![](assets/email-send-as-scheduled.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Confirmar envío]**. La entrega se realiza en la fecha programada y se envía al destinatario principal.
+1. Haga clic en **[!UICONTROL Confirmar envío]**. La entrega se realiza en la fecha programada y se envía al destinatario principal.
 
    >[!NOTE]
    >
-   >Si ha desactivado la variable **[!UICONTROL Habilitar confirmación antes de enviar]** opción, los pasos de preparación y envío se agrupan en la variable **[!UICONTROL Preparar y enviar]** botón. [Más información sobre la programación](../msg/gs-deliveries.md#gs-schedule)
+   >Si deshabilitaste la opción **[!UICONTROL Habilitar confirmación antes de enviar]**, los pasos de preparación y envío se agrupan bajo el botón **[!UICONTROL Preparar y enviar]**. [Más información sobre la programación](../msg/gs-deliveries.md#gs-schedule)
 
 ## Pausar o detener el envío {#pause-stop-sending}
 
-Si la entrega está programado o no<!--TBC-->, se pueden realizar dos acciones en cualquier momento durante el proceso de envío:
+Independientemente de si la entrega está programada o no<!--TBC-->, se pueden realizar dos acciones en cualquier momento durante el proceso de entrega:
 
-* Clic **[!UICONTROL Pausar envío]** para interrumpir el envío de los mensajes. Puede reanudar el envío en cualquier momento.
+* Haga clic en **[!UICONTROL Pausar el envío]** para interrumpir el envío de los mensajes. Puede reanudar el envío en cualquier momento.
 
-* Clic **[!UICONTROL Detener envío]** para interrumpir el envío inmediatamente. Ni la preparación ni el envío se pueden reanudar una vez detenidos.
+* Haga clic en **[!UICONTROL Detener envío]** para interrumpir el envío inmediatamente. Ni la preparación ni el envío se pueden reanudar una vez detenidos.
 
 ![](assets/email-send-pause-or-stop.png){zoomable="yes"}
 
@@ -160,7 +160,7 @@ Una vez completado el envío, puede comprobar los KPI mostrados:
 
 * **[!UICONTROL Clics]**: el número de destinatarios que hicieron clic al menos una vez en el correo electrónico. El porcentaje mostrado es el número de clics distintos comparado con el número de mensajes enviados.
 
-* **[!UICONTROL Errores]**: el número de correos electrónicos con el estado de error. El porcentaje mostrado se basa en el número total de mensajes enviados.
+* **[!UICONTROL Errores]**: número de correos electrónicos con el estado de error. El porcentaje mostrado se basa en el número total de mensajes enviados.
 
 >[!NOTE]
 >

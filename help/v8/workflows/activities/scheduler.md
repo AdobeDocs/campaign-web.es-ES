@@ -19,13 +19,13 @@ ht-degree: 35%
 >abstract="La actividad **Planificador** permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo."
 
 
-El **Planificador** la actividad es una **Control de flujo** actividad. Permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
+La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
 
 ## Prácticas recomendadas{#scheduler-best-practices}
 
 * No planifique un flujo de trabajo para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
-* Si desea realizar una entrega con una sola toma en el flujo de trabajo, puede añadir una actividad de planificador y configurarla para que se ejecute **Una**. También puede definir la variable **Programación** en la configuración de la entrega.
-* Si desea realizar una entrega recurrente en el flujo de trabajo, debe utilizar un **Planificador** y establezca la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
+* Si desea realizar una entrega de una sola vez en el flujo de trabajo, puede agregar una actividad de planificador y configurarla para que se ejecute **Una vez**. También puede definir **Schedule** en la configuración de la entrega.
+* Si desea realizar un envío recurrente en el flujo de trabajo, debe utilizar una actividad **Scheduler** y establecer la frecuencia de ejecución. La actividad de entrega recurrente no permite definir una programación.
 
 ## Configure la actividad Planificador {#scheduler-configuration}
 
@@ -40,27 +40,27 @@ El **Planificador** la actividad es una **Control de flujo** actividad. Permite 
 >title="Opciones del planificador"
 >abstract="Defina la frecuencia del planificador. Se puede ejecutar en un momento específico, una o varias veces al día, a la semana o al mes."
 
-Siga estos pasos para configurar el **Planificador** actividad:
+Siga estos pasos para configurar la actividad **Planificador**:
 
 ![](../assets/workflow-scheduler.png)
 
-1. Añadir un **Planificador** a su flujo de trabajo.
+1. Agregue una actividad **Scheduler** al flujo de trabajo.
 
-1. Configure las variables **Frecuencia de ejecución**:
+1. Configure **Frecuencia de ejecución**:
 
-   * **Una**: el flujo de trabajo se ejecuta una sola vez.
+   * **Una vez**: el flujo de trabajo se ejecuta una sola vez.
 
    * **Diario**: el flujo de trabajo se ejecuta a una hora específica una vez al día.
 
    * **Varias veces al día:** el flujo de trabajo se ejecuta regularmente varias veces al día. Puede configurar ejecuciones en momentos específicos o de forma periódica.
 
-   * **Semanalmente**: el flujo de trabajo se ejecuta en un momento determinado una o varias veces a la semana.
+   * **Semanal**: el flujo de trabajo se ejecuta en un momento determinado una o varias veces a la semana.
 
    * **Mensual**: el flujo de trabajo se ejecuta en un momento determinado una o varias veces al mes. Puede seleccionar meses cuando necesite que se ejecute el flujo de trabajo. También puede configurar ejecuciones en días de semana del mes específicos, como el segundo martes de mes.
 
 1. Defina los detalles de ejecución según la frecuencia seleccionada. Los campos de detalle pueden variar según la frecuencia utilizada (tiempo, frecuencia de repetición, días especificados, etc.).
 
-1. Clic **Previsualizar tiempos de lanzamiento** para comprobar la programación de las siguientes diez ejecuciones del flujo de trabajo.
+1. Haga clic en **Previsualizar horas de inicio** para comprobar la programación de las siguientes diez ejecuciones del flujo de trabajo.
 
 1. Defina el periodo de validez del planificador:
 
@@ -70,7 +70,7 @@ Siga estos pasos para configurar el **Planificador** actividad:
 
 >[!NOTE]
 >
->Si desea iniciar el flujo de trabajo de inmediato, puede hacer clic en el **Ejecutar tarea pendiente** en la barra de acciones superior del planificador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
+>Si desea iniciar el flujo de trabajo de inmediato, puede hacer clic en **Ejecutar tarea pendiente** en la barra de acciones superior del programador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
 
 ## Ejemplo{#scheduler-example}
 

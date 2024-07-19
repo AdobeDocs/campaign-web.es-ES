@@ -14,7 +14,7 @@ ht-degree: 28%
 
 Los informes globales proporcionan a los usuarios una visión general completa de las métricas de tráfico y participación a nivel de canal.
 
-Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** sección. Puede filtrar los datos según la fecha, la carpeta o las reglas del informe. [Más información](global-reports.md)
+Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Informes]**. Puede filtrar los datos según la fecha, la carpeta o las reglas del informe. [Más información](global-reports.md)
 
 ## Resumen de envíos {#delivery-summary-email}
 
@@ -25,23 +25,23 @@ Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** secci
 >title="Información general sobre el envío"
 >abstract="La **información general sobre el envío** proporciona indicadores clave de rendimiento (KPI) que ofrecen información detallada sobre cómo el público interactúa con el envío de correo electrónico y las campañas que envía."
 
-El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo electrónico. Las métricas se describen a continuación.
+La **[!UICONTROL descripción general de la entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información detallada sobre la interacción de los visitantes con cada envío de correo electrónico. Las métricas se describen a continuación.
 
 ![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
-* **[!UICONTROL Mensajes para enviar]**: Número total de mensajes procesados durante la preparación de la entrega.
+* **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
-* **[!UICONTROL Entregado]**: Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Aperturas totales]**: Número total de destinatarios objetivo que abrieron un mensaje al menos una vez.
+* **[!UICONTROL Total opens]**: Número total de destinatarios objetivo que abrieron un mensaje al menos una vez.
 
 * **[!UICONTROL Clics totales]**: Número total de destinatarios que hicieron clic en una entrega al menos una vez.
 
 * **[!UICONTROL Devoluciones y errores]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Cancela la suscripción]**: Número de destinatarios que hicieron clic en las bajas de suscripción.
+* **[!UICONTROL Cancelaciones de suscripciones]**: Número de destinatarios que hicieron clic en las cancelaciones de suscripciones.
 +++
 
 ### Público objetivo {#delivery-summary-email-initial-target}
@@ -51,7 +51,7 @@ El **[!UICONTROL Resumen de entrega]** presenta métricas clave de rendimiento (
 >title="Estadísticas de público destinatario inicial"
 >abstract="La tabla y el gráfico **Público objetivo** ofrecen información detallada sobre la participación de los destinatarios, lo que le ayuda a evaluar la eficacia de sus campañas y envíos."
 
-La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos relacionados con sus destinatarios, con las métricas detalladas que se proporcionan a continuación.
+La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** muestran datos relacionados con sus destinatarios con métricas detalladas que se proporcionan a continuación.
 
 ![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
@@ -59,9 +59,9 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos rela
 
 * **[!UICONTROL Audiencia objetivo]**: Número total de destinatarios objetivo.
 
-* **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
+* **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Exclusión]**: Número total de direcciones ignoradas durante el análisis al aplicar las reglas: direcciones faltantes, en cuarentena, en la lista de bloqueados, etc.
+* **[!UICONTROL Exclusión]**: número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en la lista de bloqueados de la, etc.
 
 +++
 
@@ -72,19 +72,19 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** Muestre datos rela
 >title="Estadísticas de envío"
 >abstract="El gráfico y la tabla **Estadísticas de envíos** describen las métricas clave, incluidas las entregas correctas, los errores y las nuevas cuarentenas, y ofrecen información general concisa para evaluar el rendimiento de la entrega."
 
-El **[!UICONTROL Estadísticas de envío]** Esta tabla proporciona un desglose del éxito de cada envío de correo electrónico, con las métricas detalladas que se describen a continuación.
+La tabla **[!UICONTROL Estadísticas de envío]** proporciona un desglose del éxito de cada envío de correo electrónico, con las métricas detalladas que se describen a continuación.
 
 ![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
-* **[!UICONTROL Mensaje para enviar]**: Número total de mensajes que desea enviar después de la preparación de la entrega.
+* **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Errores/devoluciones]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
+* **[!UICONTROL Errores / Devoluciones]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
 +++
 
@@ -99,7 +99,7 @@ El **[!UICONTROL Estadísticas de envío]** Esta tabla proporciona un desglose d
 
 El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-Los tipos de error de correo electrónico se enumeran en la [Documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -114,9 +114,9 @@ El informe Delivery Throughput proporciona una visión detallada de la eficacia 
 
 +++Obtenga más información sobre las métricas de rendimiento de entrega.
 
-* **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Errores]**: Número total de errores acumulados durante los envíos y el procesamiento automático de los rechazos en relación con el número de mensajes que se desea enviar.
+* **[!UICONTROL Errores]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
 +++
 
@@ -131,25 +131,25 @@ El informe Delivery Throughput proporciona una visión detallada de la eficacia 
 
 ![](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
-El **[!UICONTROL Desglose de errores por tipo]** La tabla y el gráfico presentan los datos relacionados con los posibles errores experimentados en varios dominios, con métricas específicas que se proporcionan a continuación.
+La tabla y el gráfico **[!UICONTROL Desglose de errores por tipo]** presentan los datos relacionados con posibles errores experimentados en varios dominios, con métricas específicas que se proporcionan a continuación.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 +++Obtenga más información sobre el desglose de errores por tipo de métrica.
 
-* **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante el envío para indicar que la dirección de correo electrónico no es válida.
+* **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
-* **[!UICONTROL Dominio no válido]**: Tipo de error generado al realizar un envío para indicar que el dominio de la dirección de correo electrónico es incorrecto o no existe.
+* **[!UICONTROL Dominio no válido]**: Tipo de error generado al realizar una entrega para indicar que el dominio de la dirección de correo electrónico es incorrecto o no existe.
 
 * **[!UICONTROL Buzón lleno]**: Tipo de error generado después de cinco intentos de entrega para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
 
-* **[!UICONTROL Cuenta deshabilitada]**: Tipo de error generado al realizar un envío para indicar que la dirección ya no existe.
+* **[!UICONTROL Cuenta deshabilitada]**: Tipo de error generado al realizar una entrega para indicar que la dirección ya no existe.
 
 * **[!UICONTROL Rechazado]**: Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software antispam).
 
 * **[!UICONTROL Inaccesible]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc
 
-* **[!UICONTROL Sin conexión]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
+* **[!UICONTROL No conectado]**: Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
 
 +++
 
@@ -162,7 +162,7 @@ Los errores que se muestran en este informe activan el proceso de cuarentena. Pa
 
 ![](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
-El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico muestran los datos relacionados con posibles errores dentro de cada dominio. Las métricas son comunes en **[!UICONTROL Desglose de errores por tipo]** tabla y gráfico detallados anteriormente.
+La tabla y el gráfico **[!UICONTROL Desglose de errores por dominio]** muestran los datos relacionados con posibles errores dentro de cada dominio. Las métricas son comunes con la tabla **[!UICONTROL Desglose de errores por tipo]** y el gráfico detallado anteriormente.
 
 ## Indicadores de seguimiento {#tracking-indicators-email}
 
@@ -173,23 +173,23 @@ El **[!UICONTROL Desglose de errores por dominio]** La tabla y el gráfico muest
 >title="Estadísticas de envío"
 >abstract="Los indicadores clave de rendimiento (KPI) de las **Estadísticas de envíos** proporcionan una amplia descripción general del rendimiento de las entregas y las campañas, y ofrecen información detallada sobre las entregas correctas, los errores encontrados y la participación de los usuarios."
 
-El **[!UICONTROL Estadísticas de envío]** Las métricas de ofrecen indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos asociados con cada envío de correo electrónico. A continuación se proporcionan más detalles sobre estas métricas.
+Las métricas **[!UICONTROL Delivery statistics]** ofrecen indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre los datos asociados con cada envío de correo electrónico. A continuación se proporcionan más detalles sobre estas métricas.
 
 ![](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
-* **[!UICONTROL Mensajes para enviar]**: Número total de mensajes procesados durante la preparación de la entrega.
+* **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
-* **[!UICONTROL Correcto]**: Número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
 * **[!UICONTROL Aperturas únicas]**: Número total de destinatarios objetivo que abrieron un mensaje al menos una vez.
 
-* **[!UICONTROL Total de aperturas]**: número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+* **[!UICONTROL Total de aperturas]**: Número de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
 
-* **[!UICONTROL Clics en el vínculo de no participación]**: Número de clics en el vínculo de baja de suscripción.
+* **[!UICONTROL Clics en el vínculo de no participación]**: número de clics en el vínculo de baja de suscripción.
 
-* **[!UICONTROL Clics en el vínculo reflejado]**: Número de clics en el vínculo a la página espejo.
+* **[!UICONTROL Clics en el vínculo reflejado]**: número de clics en el vínculo a la página espejo.
 
 * **[!UICONTROL Estimación de reenvíos]**: Estimación del número de correos electrónicos reenviados por los destinatarios objetivo.
 +++
@@ -201,7 +201,7 @@ El **[!UICONTROL Estadísticas de envío]** Las métricas de ofrecen indicadores
 >title="Tasa de clics y de aperturas"
 >abstract="La tabla correspondiente a las **Tasas de clics y de aperturas** revela la participación de los destinatarios en su envío, mostrando datos sobre las tasas de clics y de aperturas para obtener una descripción general rápida y reveladora."
 
-El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
+La tabla **[!UICONTROL Tasa de clics y aperturas]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
 
 ![](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
@@ -209,11 +209,11 @@ El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a 
 
 * **[!UICONTROL Enviado]**: Número total de mensajes enviados.
 
-* **[!UICONTROL Reclamaciones]**: número y porcentaje de mensajes de este dominio que el destinatario ha notificado como no deseados.
+* **[!UICONTROL Quejas]**: número y porcentaje de mensajes de este dominio que el destinatario ha notificado como no deseados.
 
-* **[!UICONTROL Aperturas únicas]**: número y porcentaje de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+* **[!UICONTROL Aperturas únicas]**: Número y porcentaje de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
 
-* **[!UICONTROL Clics únicos]**: número y porcentaje de destinatarios objetivo diferentes que hicieron clic en el mismo envío al menos una vez.
+* **[!UICONTROL Clics únicos]**: Número y porcentaje de destinatarios objetivo diferentes que hicieron clic en el mismo envío al menos una vez.
 
 * **[!UICONTROL Reactividad sin procesar]**: porcentaje del número de destinatarios que hicieron clic en una entrega al menos una vez comparado con el número de destinatarios que abrieron una entrega al menos una vez.
 +++
@@ -227,7 +227,7 @@ El **[!UICONTROL Tasa de apertura y clics]** La tabla muestra datos relativos a 
 >title="URL y flujos de clics"
 >abstract="El informe **URL y flujos de clics** proporciona indicadores clave de rendimiento (KPI) esenciales que brindan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante un envío."
 
-El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores clave de rendimiento (KPI) que proporcionan una perspectiva detallada de las direcciones URL que recibieron el mayor número de clics durante una entrega. Las métricas se detallan a continuación.
+El informe **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las URL que recibieron el mayor número de clics durante una entrega. Las métricas se detallan a continuación.
 
 ![](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
@@ -235,9 +235,9 @@ El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores c
 
 * **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
-* **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
+* **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en un envío al menos una vez.
 
-* **[!UICONTROL Total de clics]**: Número total de clics en los vínculos de los envíos.
+* **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
 * **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
 +++
@@ -249,15 +249,15 @@ El **[!UICONTROL URL y flujos de clics]** Este informe proporciona indicadores c
 >title="Los 10 vínculos más visitados"
 >abstract="El gráfico y la tabla **Los 10 vínculos más visitados** presentan datos completos sobre la interacción del destinatario con cada vínculo."
 
-El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla contienen los datos disponibles sobre el comportamiento del destinatario por vínculo. Las métricas se detallan a continuación.
+El gráfico y la tabla **[!UICONTROL Los 10 vínculos más visitados]** contienen los datos disponibles sobre el comportamiento del destinatario por vínculo. Las métricas se detallan a continuación.
 
 ![](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
 +++Obtenga más información sobre las 10 métricas de vínculos más visitadas.
 
-* **[!UICONTROL Total de clics]**: Número total de clics en los vínculos de los envíos.
+* **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Porcentaje]**: porcentaje de usuarios que interactuaron con el envío.
+* **[!UICONTROL Porcentaje]**: Porcentaje de usuarios que interactuaron con el envío.
 
 +++
 
@@ -268,7 +268,7 @@ El **[!UICONTROL Los 10 vínculos más visitados]** el gráfico y la tabla conti
 >title="Desglose de los clics con el tiempo"
 >abstract="El gráfico **Desglose de los clics con el tiempo** ofrece una vista completa de cómo interactúan los destinatarios con los vínculos a lo largo del período de tiempo establecido."
 
-El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico contiene los datos disponibles sobre el comportamiento del destinatario por vínculo.
+El gráfico **[!UICONTROL Desglose de clics a lo largo del tiempo]** contiene los datos disponibles del comportamiento del destinatario por vínculo.
 
 ![](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
@@ -279,14 +279,14 @@ El **[!UICONTROL Desglose de los clics a lo largo del tiempo]** El gráfico cont
 >title="Actividades del usuario"
 >abstract="La representación gráfica de **Actividades del usuario** ofrece un desglose detallado de las interacciones de los destinatarios, que presenta las aperturas y los clics a través de un formato de gráfico informativo."
 
-El **[!UICONTROL Actividades de usuario]** Este informe muestra el desglose de aperturas y clics en forma de gráfico. Las métricas de este informe se detallan a continuación.
+El informe **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico. Las métricas de este informe se detallan a continuación.
 
 ![](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de actividades de usuario.
 
-* **[!UICONTROL Total de clics]**: Número total de clics en los vínculos de los envíos.
+* **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Total de aperturas]**: número total de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
+* **[!UICONTROL Total de aperturas]**: Número total de destinatarios objetivo diferentes para este dominio que han abierto un mensaje al menos una vez.
 
 +++

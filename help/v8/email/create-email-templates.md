@@ -28,7 +28,7 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 
 >[!NOTE]
 >
->Solo actualmente **email** se admiten las plantillas de contenido.
+>Actualmente solo se admiten **plantillas de contenido de correo electrónico**.
 
 ## Plantillas de contenido de acceso {#access-templates}
 
@@ -37,11 +37,11 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 >title="Edite el contenido de la plantilla"
 >abstract="Haga clic en el botón **Editar contenido** para actualizar el contenido con el Diseñador de correo electrónico."
 
-Para acceder a la lista de plantillas de contenido, vaya a **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** desde el carril izquierdo.
+Para acceder a la lista de plantillas de contenido, vaya al menú **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas de contenido]** desde el carril izquierdo.
 
 ![](assets/content-template-list.png){zoomable="yes"}
 
-Este panel muestra todas las plantillas de contenido disponibles en forma de lista. Puede filtrar por un [carpeta](../get-started/permissions.md#folders) mediante la lista desplegable o agregue reglas utilizando [modelador de consultas](../query/query-modeler-overview.md).
+Este panel muestra todas las plantillas de contenido disponibles en forma de lista. Puede filtrar una [carpeta](../get-started/permissions.md#folders) específica mediante la lista desplegable o agregar reglas mediante [modelador de consultas](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png){zoomable="yes"}
 
@@ -60,9 +60,9 @@ Desde la lista, puede editar, duplicar o eliminar plantillas de contenido existe
 >title="Selección de plantilla de contenido"
 >abstract="Seleccione la plantilla de contenido de correo electrónico."
 
-Las plantillas de contenido se pueden crear mediante [guardar un correo electrónico existente como plantilla](#save-as-template), o desde la lista de plantillas de correo electrónico, a través de **Crear plantilla de contenido** botón, [como se detalla a continuación](#create-template-from-scratch).
+Las plantillas de contenido se pueden crear [guardando un correo electrónico existente como plantilla](#save-as-template) o de la lista de plantillas de correo electrónico, mediante el botón **Crear plantilla de contenido**, [como se detalla a continuación](#create-template-from-scratch).
 
-Una vez guardada, ahora puede utilizar esta plantilla al crear cualquier [email](../email/create-email.md) dentro [!DNL Adobe Campaign]. [Descubra cómo](use-email-templates.md)
+Una vez guardado, ahora puede usar esta plantilla al crear cualquier [correo electrónico](../email/create-email.md) dentro de [!DNL Adobe Campaign]. [Descubra cómo](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -79,51 +79,51 @@ Una vez guardada, ahora puede utilizar esta plantilla al crear cualquier [email]
 
 Para crear una nueva plantilla de contenido desde el panel de plantillas de contenido, siga estos pasos:
 
-1. Navegue hasta la lista de plantillas de contenido desde **[!UICONTROL Gestión de contenido]** > **[!UICONTROL Plantillas de contenido]** carril izquierdo.
+1. Vaya a la lista de plantillas de contenido desde el carril izquierdo de **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas de contenido]**.
 
-1. Seleccionar **[!UICONTROL Crear plantilla]**.
+1. Seleccione **[!UICONTROL Crear plantilla]**.
 
    ![](assets/content-template-create.png){zoomable="yes"}
 
-1. Introduzca la etiqueta de plantilla y las propiedades. Puede seleccionar la carpeta en la que desea almacenar la plantilla. De forma predeterminada, las plantillas de contenido se almacenan en una carpeta específica de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Recursos]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Plantillas de contenido]**. Más información sobre las carpetas en [esta página](../get-started/permissions.md#folders)
+1. Introduzca la etiqueta de plantilla y las propiedades. Puede seleccionar la carpeta en la que desea almacenar la plantilla. De manera predeterminada, las plantillas de contenido se almacenan en una carpeta específica de la jerarquía de Adobe Campaign: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Más información sobre las carpetas de [esta página](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Crear]** y elija cómo desea diseñar la plantilla entre las distintas opciones:
+1. Haga clic en **[!UICONTROL Crear]** y elija cómo desea diseñar la plantilla a partir de las distintas opciones:
 
-   * [Diseño del contenido desde cero](create-email-content.md) mediante la interfaz del Diseñador de correo electrónico.
+   * [Diseñe su contenido desde cero](create-email-content.md) a través de la interfaz de Designer de correo electrónico.
 
-   * [Codifique o copie y pegue el HTML sin procesar](code-content.md) directamente en el Diseñador de correo electrónico.
+   * [Codifique o copie y pegue el HTML sin procesar](code-content.md) directamente en el Designer de correo electrónico.
 
-   * [Importación de contenido de HTML existente](existing-content.md) desde un archivo o una carpeta .zip.
+   * [Importe contenido existente del HTML](existing-content.md) desde un archivo o una carpeta .zip.
 
-   * Utilice contenido existente de una lista de plantillas integradas o personalizadas. Los pasos para utilizar una plantilla de contenido en un correo electrónico se describen en [esta sección](use-email-templates.md).
+   * Utilice contenido existente de una lista de plantillas integradas o personalizadas. Los pasos para usar una plantilla de contenido en un correo electrónico se describen en [esta sección](use-email-templates.md).
 
    ![](assets/email_designer-templates.png){zoomable="yes"}
 
-1. Se muestra el Diseñador de correo electrónico. Edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico, según la opción seleccionada. Aprenda a utilizar el Diseñador de correo electrónico en [esta sección](get-started-email-designer.md).
+1. Se muestra el Designer de correo electrónico. Edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico, según la opción seleccionada. Aprenda a usar el Designer de correo electrónico en [esta sección](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
-1. Una vez preparada la plantilla, haga clic en **[!UICONTROL Guardar]**.
+1. Una vez que la plantilla esté lista, haz clic en **[!UICONTROL Guardar]**.
 
-   Si es necesario, haga clic en la flecha situada junto al nombre de la plantilla para volver al **[!UICONTROL Detalles]** y editar la plantilla.
+   Si es necesario, haga clic en la flecha situada junto al nombre de la plantilla para volver a la pantalla **[!UICONTROL Detalles]** y editar la plantilla.
 
    ![](assets/content-template-save-back.png){zoomable="yes"}
 
-La plantilla está disponible en el **[!UICONTROL Plantillas de contenido]** lista. [Más información](#access-templates)
+La plantilla está disponible en la lista **[!UICONTROL Plantillas de contenido]**. [Más información](#access-templates)
 
-Ahora puede utilizar esta plantilla para crear un nuevo contenido: está disponible en el **[!UICONTROL Plantillas guardadas]** del Diseñador de correo electrónico. [Descubra cómo](use-email-templates.md)
+Ahora puede usar esta plantilla para generar un nuevo contenido: está disponible en la pestaña **[!UICONTROL Plantillas guardadas]** de Email Designer. [Descubra cómo](use-email-templates.md)
 
 ### Guardar contenido de correo electrónico como plantilla {#save-as-template}
 
-Una vez que [diseño de un correo electrónico](create-email-content.md), puede guardar este contenido como una plantilla para su reutilización futura. Las plantillas guardadas están disponibles para todos los usuarios de su entorno de Adobe Campaign.
+Una vez que [diseñó un correo electrónico](create-email-content.md), puede guardar este contenido como una plantilla para reutilizarlo en el futuro. Las plantillas guardadas están disponibles para todos los usuarios de su entorno de Adobe Campaign.
 
 Para guardar un contenido de correo electrónico como plantilla, siga los pasos a continuación:
 
-1. En el diseñador de correo electrónico, haga clic en **[!UICONTROL Más]** en la parte superior derecha de la pantalla.
+1. En el diseñador de correo electrónico, haga clic en el botón **[!UICONTROL Más]** en la parte superior derecha de la pantalla.
 
-1. Seleccionar **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
+1. Seleccione **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
 
    ![](assets/email_designer-save-template.png){zoomable="yes"}
 
@@ -131,9 +131,9 @@ Para guardar un contenido de correo electrónico como plantilla, siga los pasos 
 
    ![](assets/email_designer-template-name.png){zoomable="yes"}
 
-La plantilla se guarda y se muestra en la **[!UICONTROL Plantillas de contenido]** lista. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
+La plantilla se guardará y se mostrará en la lista **[!UICONTROL Plantillas de contenido]**. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
 
-Ahora puede utilizar esta plantilla para crear un nuevo contenido: está disponible en el **[!UICONTROL Plantillas guardadas]** del Diseñador de correo electrónico. [Descubra cómo](use-email-templates.md)
+Ahora puede usar esta plantilla para generar un nuevo contenido: está disponible en la pestaña **[!UICONTROL Plantillas guardadas]** de Email Designer. [Descubra cómo](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png){zoomable="yes"}
 
@@ -165,7 +165,7 @@ Para actualizar una plantilla de contenido existente, siga estos pasos:
 
 1. En la lista de plantillas de contenido, haga clic en la etiqueta de la plantilla para modificarla y editarla.
 
-1. Haga clic en **[!UICONTROL Editar contenido]** para actualizar el contenido con el [Diseñador de correo electrónico](get-started-email-designer.md).
+1. Haz clic en el botón **[!UICONTROL Editar contenido]** para actualizar el contenido con el [Designer de correo electrónico](get-started-email-designer.md).
 
 ![](assets/content-template-edition.png){zoomable="yes"}
 
@@ -181,7 +181,7 @@ Existen dos formas de eliminar una plantilla de contenido:
 
   ![Eliminar una plantilla de contenido del tablero](assets/content-template-list-delete.png)
 
-* en la propia plantilla de contenido, haga clic en **Más** y luego seleccione **Eliminar**
+* en la propia plantilla de contenido, haga clic en el botón **Más** y seleccione **Eliminar**
 
 
 >[!NOTE]
@@ -193,9 +193,9 @@ Existen dos formas de eliminar una plantilla de contenido:
 
 Existen dos formas de duplicar una plantilla de contenido:
 
-* en la lista de plantillas de contenido, haga clic en el botón de puntos suspensivos y seleccione **Duplicar**
+* en la lista de plantillas de contenido, haga clic en el botón de puntos suspensivos y seleccione **Duplicate**
 
-* en la propia plantilla de contenido, haga clic en **Más** y luego seleccione **Duplicar**
+* en la propia plantilla de contenido, haga clic en el botón **Más** y, a continuación, seleccione **Duplicar**
 
 En ambos casos, confirme la duplicación para crear la nueva plantilla de contenido. La etiqueta de la nueva plantilla de contenido es **Copia de`<label of the initial campaign`**. Vaya a la configuración de la plantilla para actualizar esta etiqueta.
 

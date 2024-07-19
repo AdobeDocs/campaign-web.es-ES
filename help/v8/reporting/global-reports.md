@@ -32,22 +32,22 @@ La lista completa de informes y las métricas asociadas para cada canal están d
 
 Para acceder y administrar sus informes globales, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Informes]** menú dentro de **[!UICONTROL Informes]** sección.
+1. Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Informes]**.
 
 1. En el menú de la izquierda, seleccione un informe de la lista y navegue por la pestaña para mostrar los datos de cada canal.
 
    ![](assets/global_report_manage_3.png){zoomable="yes"}
 
-1. En el tablero, elija una **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
+1. En el tablero, elija **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
 
    ![](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. Desde el **[!UICONTROL Elegir carpeta]** , seleccione si desea segmentar envíos o campañas desde una carpeta específica.
+1. En el campo **[!UICONTROL Seleccionar carpeta]**, seleccione si desea segmentar envíos o campañas desde una carpeta específica.
 
    ![](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
+1. Haga clic en **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
-1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
+1. Entre las **[!UICONTROL URL y los flujos de clics]**, también puedes elegir los **[!UICONTROL vínculos más visitados]** o el **[!UICONTROL período de tiempo]**.
 
-   El **[!UICONTROL Ver por]** Las opciones de permiten filtrar por direcciones URL, etiquetas o categorías.
+   Las opciones de **[!UICONTROL Ver por]** le permiten filtrar por direcciones URL, etiquetas o categorías.

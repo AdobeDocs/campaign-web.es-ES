@@ -32,13 +32,13 @@ Adobe Campaign ofrece varios tipos de informes para cada envío a los que puede 
 
 Para mostrar y administrar informes, siga estos pasos:
 
-1. Para generar un informe para una entrega específica, vaya a **[!UICONTROL Envíos]** y seleccione la entrega sobre la que desea informar.
+1. Para generar un informe para una entrega específica, vaya al menú **[!UICONTROL Envíos]** y seleccione la entrega sobre la que desee informar.
 
-1. De su **[!UICONTROL Envío]** panel, haga clic en **[!UICONTROL Informes]**.
+1. En el panel **[!UICONTROL Envío]**, haga clic en **[!UICONTROL Informes]**.
 
    ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   También puede utilizar los tres puntos **Más acciones** junto al nombre de la entrega en la lista de envíos y seleccione **[!UICONTROL Ver informe]**.
+   También puede usar el botón de tres puntos **Más acciones** junto al nombre de la entrega en la lista de entregas y seleccionar **[!UICONTROL Ver informe]**.
 
    ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
@@ -46,14 +46,14 @@ Para mostrar y administrar informes, siga estos pasos:
 
    ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. Si la entrega es recurrente, seleccione una entrega específica sobre la que informar haciendo clic en **[!UICONTROL Selección de entregas]**.
+1. Si tu entrega es recurrente, selecciona una entrega específica sobre la que informar haciendo clic en **[!UICONTROL Seleccionar entregas]**.
 
-   También puede aplicar un período de tiempo al informe seleccionando la variable **[!UICONTROL Fecha de contacto]**.
+   También puede aplicar un período de tiempo a su informe seleccionando la **[!UICONTROL fecha de contacto]**.
 
    ![](assets/delivery-recurring.png){zoomable="yes"}
 
-1. Desde el **[!UICONTROL URL y flujos de clics]**, también puede elegir la **[!UICONTROL Principales vínculos visitados]** o el **[!UICONTROL Período de tiempo]**.
+1. Entre las **[!UICONTROL URL y los flujos de clics]**, también puedes elegir los **[!UICONTROL vínculos más visitados]** o el **[!UICONTROL período de tiempo]**.
 
-   El **[!UICONTROL Ver por]** Las opciones de permiten filtrar por direcciones URL, etiquetas o categorías.
+   Las opciones de **[!UICONTROL Ver por]** le permiten filtrar por direcciones URL, etiquetas o categorías.
 
    ![](assets/manage_delivery_report_5.png){zoomable="yes"}

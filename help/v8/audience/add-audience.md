@@ -19,14 +19,14 @@ ht-degree: 31%
 >abstract="Examine la lista para seleccionar un público existente. Utilice el icono “Mostrar filtros” para filtrar la lista o seleccionar una carpeta específica."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
-* [Crear una audiencia única](one-time-audience.md) uso del modelador de consultas.
-* [Carga de una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
+* [Cree una audiencia única](one-time-audience.md) con el modelador de consultas.
+* [Cargar una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
 
-Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el **Audiencia** menú izquierdo. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Más información sobre los públicos](manage-audience.md)
+Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el menú de la izquierda **Audiencia**. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Más información sobre los públicos](manage-audience.md)
 
 Para seleccionar un público existente para el mensaje, siga los pasos a continuación:
 
-1. Desde el **Audiencia** del asistente de creación de entregas, haga clic en **[!UICONTROL Seleccionar audiencia]** y luego elija **[!UICONTROL Seleccionar audiencia]**.
+1. En la sección **Audience** del asistente de creación de envíos, haga clic en el botón **[!UICONTROL Seleccionar audiencia]** y, a continuación, elija **[!UICONTROL Seleccionar audiencia]**.
 
    ![](assets/create-audience.png){zoomable="yes"}
 
@@ -34,17 +34,17 @@ Para seleccionar un público existente para el mensaje, siga los pasos a continu
 
    ![](assets/create-audience2.png){zoomable="yes"}
 
-   Para elegir una audiencia de Adobe Experience Platform, vaya al `AEP Audiences folder` en la sección de filtro de la pantalla. [Más información sobre las audiencias de Adobe Experience Platform](manage-audience.md#monitor)
+   Para elegir una audiencia de Adobe Experience Platform, vaya a `AEP Audiences folder` desde la sección de filtros de la pantalla. [Más información sobre las audiencias de Adobe Experience Platform](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable="yes"}
 
-1. La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al modelador de consultas, que permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
+1. La sección de filtro le permite acceder a las opciones de filtrado para restringir la lista de audiencias. Para ello, haga clic en **Agregar reglas** para acceder al modelador de consultas, que le permite crear filtros avanzados para la lista de audiencias. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md)
 
    Por ejemplo, puede definir una regla para filtrar el origen de las audiencias, como se muestra a continuación:
 
    ![](assets/filter-on-aep-audience.png){zoomable="yes"}
 
-1. Clic **Confirmar** para añadir la audiencia como destinatario principal de la entrega. Una vez finalizado, aún puede refinar la audiencia mediante el modelador de consultas haciendo clic en **Editar reglas** botón.
+1. Haga clic en **Confirmar** para agregar su audiencia como destino principal de la entrega. Una vez finalizado, aún puede refinar la audiencia mediante el modelador de consultas si hace clic en el botón **Editar reglas**.
 
    ![](assets/refine-audience.png){zoomable="yes"}
 

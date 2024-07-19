@@ -27,19 +27,19 @@ En muchos casos, proporciona un breve resumen del contenido y, por lo general, t
 
 Para definir el preencabezado del correo electrónico, siga los pasos a continuación.
 
-1. Desde el [Diseñador de correo electrónico](create-email-content.md), añada al menos una **[!UICONTROL Estructura]** para empezar a diseñar el correo electrónico.
+1. En [Email Designer](create-email-content.md), agrega al menos un componente **[!UICONTROL Structure]** para comenzar a diseñar tu correo electrónico.
 
 1. Haga clic en el icono **[!UICONTROL Árbol de navegación]** en el panel izquierdo y seleccione **[!UICONTROL Cuerpo]**.
 
    ![](assets/preheader_body.png){zoomable="yes"}
 
-1. Desde el **[!UICONTROL Configuración]** pestaña, introduzca texto para el preencabezado.
+1. En la ficha **[!UICONTROL Configuración]**, escriba texto para el encabezado previo.
 
-1. Para personalizarlo aún más, haga clic en **[!UICONTROL Añadir personalización]** a la izquierda del cuadro de diálogo **[!UICONTROL Preencabezado]** field.
+1. Para personalizarlo aún más, haga clic en el icono **[!UICONTROL Agregar personalización]** a la izquierda del campo **[!UICONTROL Preencabezado]**.
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Desde el **[!UICONTROL Editar personalización]** ventana, puede añadir [campos de personalización](../personalization/personalize.md), [bloques de contenido](../personalization/content-blocks.md) y [contenido condicional](../personalization/conditions.md) utilizando las entradas dedicadas de la izquierda.
+1. Desde la ventana **[!UICONTROL Editar Personalization]**, puede agregar [campos de personalización](../personalization/personalize.md), [bloques de contenido](../personalization/content-blocks.md) y [contenido condicional](../personalization/conditions.md) con las entradas específicas de la izquierda.
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

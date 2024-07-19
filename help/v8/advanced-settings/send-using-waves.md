@@ -31,11 +31,11 @@ Para equilibrar la carga, puede dividir los envíos de correo electrónico en va
 
 Para realizar envíos mediante olas, siga los pasos a continuación.
 
-1. Abra el [configuración de envío](delivery-settings.md#retries).
+1. Abra [configuración de envío](delivery-settings.md#retries).
 
-1. Vaya a la **[!UICONTROL Envío]** sección.
+1. Vaya a la sección **[!UICONTROL Envío]**.
 
-1. Seleccione el **[!UICONTROL Envío mediante múltiples olas]** opción.
+1. Seleccione la opción **[!UICONTROL Enviar usando múltiples ondas]**.
 
 1. Para configurar las olas, se puede:
 
@@ -46,11 +46,11 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
 
    >[!CAUTION]
    >
-   >Asegúrese de que las últimas olas no superen la fecha límite de envío, definida en la [Validez](delivery-settings.md#validity) , de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Comprobación de programación de olas]**, garantiza que la última ola se programe antes del límite de validez del envío. Obtenga más información sobre las reglas de control en la [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es).
+   >Asegúrese de que las últimas olas no superen la fecha límite de entrega definida en la pestaña [Validez](delivery-settings.md#validity); de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Verificación de programación de ondas]**, garantiza que la última ola se programe antes del límite de validez de la entrega. Obtenga más información sobre las reglas de control en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es).
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
 
-1. Para supervisar sus envíos, vaya a [registros de envío](../monitor/delivery-logs.md). Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
+1. Para supervisar tus envíos, ve a [registros de envío](../monitor/delivery-logs.md). Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
 
 ## Programar varias olas del mismo tamaño {#waves-same-size}
 
@@ -60,15 +60,15 @@ Si selecciona esta opción, todas las olas tienen el mismo tamaño (excepto la �
 
 * Especifique el tamaño de todas las olas en las que divide la entrega. Puede introducir un porcentaje o un valor numérico. Solo la última ola puede variar en tamaño, ya que debe incluir el número restante de mensajes.
 
-  Por ejemplo, si introduce **[!UICONTROL 30 %]** en el **[!UICONTROL Tamaño de olas]** , las tres primeras olas representan el 30 % de todos los mensajes incluidos en la entrega y la cuarta representa el 10 % restante.
+  Por ejemplo, si escribe **[!UICONTROL 30%]** en el campo **[!UICONTROL Tamaño de las olas]**, las tres primeras olas representan el 30% de todos los mensajes incluidos en la entrega y la cuarta representa el 10% restante.
 
-* En el **[!UICONTROL Intervalo]** , especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si introduce **[!UICONTROL 2 días]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
+* En la sección **[!UICONTROL Intervalo]**, especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si escribe **[!UICONTROL 2 días]**, la primera ola comienza inmediatamente, la segunda ola comenzará en dos días, la tercera ola en cuatro días, etc.
 
 Un caso de uso común para utilizar varias olas del mismo tamaño es con un centro de llamadas involucrado. Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
 
 Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
 
-Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Entrar **[!UICONTROL 20]** como el tamaño de las olas y **[!UICONTROL 1 día]** en el **[!UICONTROL Intervalo]** field.
+Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Escriba **[!UICONTROL 20]** como tamaño de olas y **[!UICONTROL 1 día]** en el campo **[!UICONTROL Intervalo]**.
 
 ![](assets/waves-call-center.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mi
 
 Si selecciona esta opción, debe definir el día y la hora de inicio de cada ola que envíe, así como el tamaño de cada ola.
 
-* En el **[!UICONTROL Inicio]** , especifique el retardo entre el inicio de dos olas consecutivas.
+* En los campos **[!UICONTROL Iniciar]**, especifique el retardo entre el inicio de dos olas consecutivas.
 
 * En la columna **[!UICONTROL Tamaño]**, introduzca un número fijo o un porcentaje.
 

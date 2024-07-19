@@ -12,13 +12,13 @@ ht-degree: 25%
 
 # Codifique su propio contenido de correo electrónico {#code-content}
 
-Utilice el **[!UICONTROL Codifique su propio código]** para importar el HTML sin procesar o codificar el contenido del correo electrónico.
+Use el modo **[!UICONTROL Codifique su propio]** para importar el HTML sin procesar o codifique el contenido de su correo electrónico.
 
 >[!CAUTION]
 >
 >Este método requiere habilidades de HTML.
 
-1. En el [Diseñador de correo electrónico](get-started-email-designer.md) página de inicio, seleccione **[!UICONTROL Codifique su propio código]**.
+1. En la página de inicio de [Enviar correo electrónico a Designer](get-started-email-designer.md), seleccione **[!UICONTROL Codifique su propio código]**.
 
    ![](assets/code-your-own.png){zoomable="yes"}
 
@@ -28,6 +28,6 @@ Utilice el **[!UICONTROL Codifique su propio código]** para importar el HTML si
 
    ![](assets/code-editor-personalization.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Simular contenido]** para comprobar el diseño y la personalización del mensaje con perfiles de prueba. [Más información](../preview-test/preview-test.md)
+1. Haga clic en el botón **[!UICONTROL Simular contenido]** para comprobar el diseño y la personalización del mensaje mediante perfiles de prueba. [Más información](../preview-test/preview-test.md)
 
-1. Cuando el código esté listo, haga clic en **[!UICONTROL Guardar y cerrar]** para volver a la pantalla de creación de mensajes y finalizar el mensaje.
+1. Una vez que el código esté listo, haz clic en **[!UICONTROL Guardar y cerrar]** para volver a la pantalla de creación de mensajes y finalizar el mensaje.

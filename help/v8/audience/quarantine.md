@@ -2,7 +2,8 @@
 audience: end-user
 title: Acerca de la cuarentena
 description: Comprensión de la administración de direcciones en cuarentena
-source-git-commit: 9abf58c35fcf396e3003f9ecba728cd77df844a1
+exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
+source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 13%
@@ -13,7 +14,7 @@ ht-degree: 13%
 
 Adobe Campaign administra las direcciones en cuarentena (correo electrónico, SMS, notificación push).
 
-La cuarentena solo se aplica a un **dirección de email**, a **número de teléfono**, o a **token de dispositivo**, pero no al propio perfil. Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva, y luego puede volver a recibir entregas. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena.
+La cuarentena solo se aplica a una **dirección de correo electrónico**, un **número de teléfono** o un **token de dispositivo**, pero no al propio perfil. Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva, y luego puede volver a recibir entregas. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena.
 
 
 >[!CAUTION]
@@ -22,7 +23,7 @@ La cuarentena solo se aplica a un **dirección de email**, a **número de teléf
 
 ## ¿Qué es la cuarentena?
 
-La cuarentena es la forma de **administración de direcciones no válidas en envíos**.
+La cuarentena es la forma de **administrar las direcciones no válidas en las entregas**.
 
 Si una entrega tiene una alta tasa de direcciones no válidas, puede considerarse como correo no deseado. Incluir en la lista de bloqueados Al administrar esas direcciones con cuarentena, se evitará que los proveedores de Internet le. Esto es importante para su reputación.
 
@@ -43,7 +44,7 @@ Muchas razones pueden enviar una dirección a cuarentena:
 
 ## Dónde encontrar las direcciones en cuarentena
 
-Puede ver todas las direcciones en cuarentena de la instancia en **[!UICONTROL Explorer]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Gestión de no entregables]** > **[!UICONTROL No entregables y direcciones]**. Esta sección enumera los elementos en cuarentena para los canales de correo electrónico, SMS y notificaciones push.
+Puede ver todas las direcciones en cuarentena de su instancia en **[!UICONTROL Explorador]** > **[!UICONTROL Administración]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Administración de no entregables]** > **[!UICONTROL No entregables y direcciones]**. Esta sección enumera los elementos en cuarentena para los canales de correo electrónico, SMS y notificaciones push.
 
 ![](assets/quarantine_location.png){zoomable="yes"}
 

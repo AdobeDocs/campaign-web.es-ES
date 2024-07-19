@@ -48,7 +48,7 @@ ht-degree: 48%
 
 Para crear un perfil, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** y haga clic en **[!UICONTROL Crear perfil]** en la esquina superior derecha de la pantalla.
+1. Vaya a **[!UICONTROL Administración de clientes]** > **[!UICONTROL Perfiles]** y haga clic en el botón **[!UICONTROL Crear perfil]** en la esquina superior derecha de la pantalla.
 
 1. Se muestra la lista de atributos disponibles para el perfil, organizados en diferentes secciones detalladas en la siguiente tabla.
 
@@ -56,14 +56,14 @@ Para crear un perfil, siga estos pasos:
 
    | Sección Atributos | Descripción |
    |  ---  |  ---  |
-   | **Detalles básicos** | Información básica sobre el perfil, como el nombre o la fecha de nacimiento.<br/>De forma predeterminada, los perfiles se almacenan en **[!UICONTROL Destinatarios]** carpeta. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders) |
+   | **Detalles básicos** | Información básica sobre el perfil, como el nombre o la fecha de nacimiento.<br/>De forma predeterminada, los perfiles se almacenan en la carpeta **[!UICONTROL Destinatarios]**. Puede cambiarlo navegando a la ubicación deseada. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders) |
    | **Información de contacto** | La información de contacto del perfil, como la dirección de correo electrónico o el número de teléfono. |
    | **Dirección** | La dirección postal del perfil. Esta sección también proporciona una evaluación de la calidad de la dirección. La dirección de un perfil se considera válida si se especifican los campos &quot;Apellidos&quot;, &quot;Ciudad&quot; y &quot;Código postal&quot;. |
    | **Detalles de la cuenta** | Información sobre la cuenta del perfil, como su estado o número de cuenta. |
    | **Ya no se puede contactar** | Las preferencias de contacto del perfil. Cuando se selecciona cualquiera de estas opciones, el perfil se encuentra en la lista de bloqueados de la.<br/>Por ejemplo, si el destinatario hace clic en un vínculo para darse de baja de un boletín, esta información se agrega a los datos de contacto. Este destinatario ya no está dirigido a los canales seleccionados. Obtenga más información sobre la administración de cuarentena en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"} |
-   | **Campos personalizados** | Si se han configurado campos personalizados, estos se muestran en esta sección. Los campos personalizados son atributos adicionales añadidos a **[!UICONTROL Perfiles]** mediante la consola de Adobe Campaign. Obtenga más información en la [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"} |
+   | **Campos personalizados** | Si se han configurado campos personalizados, estos se muestran en esta sección. Los campos personalizados son atributos adicionales agregados al esquema **[!UICONTROL Profiles]** a través de la consola Adobe Campaign. Obtenga más información en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"} |
    | **Otros** | Atributos integrados adicionales. |
 
 1. Una vez configurado el perfil, haga clic en **[!UICONTROL Crear]** para guardarlo en la base de datos.
 
-   Una vez finalizado, puede editar el perfil en cualquier momento abriéndolo en la lista de perfiles. [Obtenga información sobre cómo explorar los detalles de los perfiles](profile-view.md)
+   Una vez finalizado, puede editar el perfil en cualquier momento abriéndolo en la lista de perfiles. [Aprenda a explorar los detalles de los perfiles](profile-view.md)

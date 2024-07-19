@@ -55,11 +55,11 @@ ht-degree: 71%
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta característica en vídeo](#video)
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
 
-1. Desde el [Diseñador de correo electrónico](get-started-email-designer.md#start-authoring) página principal, seleccione la **[!UICONTROL Diseñe desde cero]** opción.
+1. En la página de inicio de [Email Designer](get-started-email-designer.md#start-authoring), seleccione la opción **[!UICONTROL Diseñar desde cero]**.
 
    ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
@@ -69,19 +69,19 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
    >
    >El apilado de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
 
-1. Añadir tantos como sea necesario **[!UICONTROL Estructuras]** si es necesario, y edite su configuración en el panel dedicado de la derecha.
+1. Agregue tantas **[!UICONTROL estructuras]** como sea necesario y edite su configuración en el panel dedicado de la derecha.
 
    ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Puede seleccionar el **[!UICONTROL Columna n:n]** para definir el número de columnas que desea (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
+1. Puede seleccionar el componente **[!UICONTROL n:n column]** para definir el número de columnas que desee (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
 
    >[!NOTE]
    >
    >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de la estructura. No se puede quitar una columna que no esté vacía.
 
-1. Desde el **[!UICONTROL Componentes]** , arrastre y suelte todos los elementos que necesite en una o varias estructuras. [Más información sobre los componentes de contenido](content-components.md)
+1. Desde la sección **[!UICONTROL Componentes]**, arrastre y suelte todos los elementos que necesite en una o más estructuras. [Más información sobre los componentes de contenido](content-components.md)
 
-1. Cada componente se puede personalizar aún más mediante la variable **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** a la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Cada componente se puede personalizar aún más usando las fichas **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** de la derecha. Por ejemplo, puede cambiar el estilo, el relleno o el margen del texto de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
    ![](assets/email_designer-styles.png){zoomable="yes"}
 
@@ -89,7 +89,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Añada vínculos al contenido.
 
-   Haga clic en **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realizará un seguimiento. Puede modificar sus **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario.
+   Haga clic en la ficha **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realizará un seguimiento. Puede modificar su **[!UICONTROL tipo de seguimiento]** o **[!UICONTROL etiqueta]** y agregar **[!UICONTROL categorías]** si es necesario.
 
 [Más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 

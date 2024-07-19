@@ -17,7 +17,7 @@ ht-degree: 42%
 >title="Programación de campañas"
 >abstract="Establezca o modifique la programación de campañas."
 
-Para acceder y administrar sus campañas, haga clic en **[!UICONTROL Campañas]** menú en el panel de navegación izquierdo.
+Para acceder y administrar sus campañas, haga clic en el menú **[!UICONTROL Campañas]** en el panel de navegación izquierdo.
 
 ## Lista de campañas {#access-campaigns}
 
@@ -51,19 +51,19 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de fil
 >title="Lista de flujos de trabajo de una campaña"
 >abstract="La pestaña **Flujo de trabajo** enumera todos los flujos de trabajo vinculados a la campaña actual."
 
-En el **Examinar** de la lista de campañas, haga clic en el nombre de una campaña para mostrar sus detalles.
+En la ficha **Examinar** de la lista de campañas, haga clic en el nombre de una campaña para mostrar sus detalles.
 
 ![Panel de campañas](assets/campaign-dashboard.png)
 
-El estado y la programación de la campaña se muestran en la parte superior de la pantalla. Puede usar el complemento **Configuración** para actualizar las propiedades de la campaña, como su etiqueta, carpeta y descripción. También puede cambiar la programación de la campaña desde la pantalla de configuración. Obtenga más información acerca de la programación de campañas en [esta sección](create-campaigns.md#campaign-schedule).
+El estado y la programación de la campaña se muestran en la parte superior de la pantalla. Puede usar el botón **Configuración** para actualizar las propiedades de la campaña, como su etiqueta, carpeta y descripción. También puede cambiar la programación de la campaña desde la pantalla de configuración. Obtenga más información acerca de la programación de campañas en [esta sección](create-campaigns.md#campaign-schedule).
 
-En el panel de campañas, utilice la variable **Registros** y **Informes** para monitorizar la campaña. Obtenga más información en esta [sección](create-campaigns.md#create-campaigns)
+Desde el panel de campañas, usa los botones **Registros** e **Informes** para monitorear tu campaña. Obtenga más información en esta [sección](create-campaigns.md#create-campaigns)
 
 Para cada campaña, el panel muestra dos pestañas principales: Flujos de trabajo y Envíos.
 
-* El **Flujos de trabajo** La pestaña enumera todos los flujos de trabajo asociados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
+* La pestaña **Flujos de trabajo** enumera todos los flujos de trabajo asociados a la campaña. Esta pestaña también le permite crear un nuevo flujo de trabajo dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
-* El **Envíos** La pestaña enumera todas las entregas creados en la campaña actual. También puede crear un nuevo envío dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
+* La ficha **Envíos** enumera todos los envíos creados en la campaña actual. También puede crear un nuevo envío dentro de la campaña. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
@@ -74,11 +74,11 @@ Para cada campaña, el panel muestra dos pestañas principales: Flujos de trabaj
 
 Tiene dos formas de eliminar una campaña:
 
-* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Eliminar**
+* en la lista de campañas, haga clic en el botón de puntos suspensivos y luego seleccione **Eliminar**
 
-  ![Eliminación de una campaña de la lista de campañas](assets/delete-a-campaign-from-list.png)
+  ![Eliminar una campaña de la lista de campañas](assets/delete-a-campaign-from-list.png)
 
-* en la propia campaña, haga clic en **Más** y luego seleccione **Eliminar**
+* en la campaña misma, haga clic en el botón **Más** y luego seleccione **Eliminar**
 
   ![Eliminar una campaña del panel de campañas](assets/delete-a-campaign-from-dashboard.png)
 
@@ -87,9 +87,9 @@ Tiene dos formas de eliminar una campaña:
 
 Tiene dos formas de duplicar una campaña:
 
-* en la lista de campañas, haga clic en el botón de puntos suspensivos y seleccione **Duplicar**
+* en la lista de campañas, haga clic en el botón de puntos suspensivos y luego seleccione **Duplicate**
 
-* en la propia campaña, haga clic en **Más** y luego seleccione **Duplicar**
+* en la campaña misma, haga clic en el botón **Más** y luego seleccione **Duplicar**
 
 En ambos casos, confirme la duplicación para crear la nueva campaña. La etiqueta de la campaña **Copia de`<label of the initial campaign`**. Vaya a la configuración de la campaña para actualizar esta etiqueta.
 
@@ -101,16 +101,16 @@ Las plantillas de campaña contienen ajustes preconfigurados que se pueden reuti
 Una plantilla de campaña puede almacenar la siguiente información:
 
 * la campaña **Configuración**
-* la campaña  **Programación**
+* la campaña **Programar**
 * plantillas de flujo de trabajo
 * plantillas de envío
 
 Para crear una plantilla de campaña, siga estos pasos:
 
-1. Haga clic en **[!UICONTROL Campañas]** , vaya a la **Plantillas** y, a continuación, haga clic en **[!UICONTROL Crear plantilla]** botón.
-1. Seleccione el **Plantilla** para usar. Esto le permite basar la nueva plantilla en una plantilla creada anteriormente.
+1. Haga clic en el menú **[!UICONTROL Campañas]**, vaya a la pestaña **Plantillas** y, a continuación, haga clic en el botón **[!UICONTROL Crear plantilla]**.
+1. Seleccione la **plantilla** que desea utilizar. Esto le permite basar la nueva plantilla en una plantilla creada anteriormente.
 1. Proporcione una etiqueta para la plantilla.
-1. Si es necesario, puede cambiar lo siguiente **Opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
-1. Defina el **Programación** de la campaña. Obtenga información sobre cómo establecer la programación de campañas en [esta sección](create-campaigns.md#campaign-schedule)
-1. Haga clic en **Create**.
+1. Si es necesario, puede cambiar las siguientes **opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
+1. Defina el **Horario** de su campaña. Aprenda a establecer la programación de su campaña en [esta sección](create-campaigns.md#campaign-schedule)
+1. Haga clic en **Crear**.
 1. Añada flujos de trabajo y plantillas de envío a la campaña.

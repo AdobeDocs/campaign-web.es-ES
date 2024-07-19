@@ -30,9 +30,9 @@ Puede crear una entrega de notificaciones push independiente o crear una notific
 
 Para crear un nuevo envío push independiente, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón  **[!UICONTROL Creación de envíos]** botón.
+1. Vaya al menú **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón **[!UICONTROL Crear envío]**.
 
-1. En el **[!UICONTROL Canal]** , elija **Notificación push** como canal y seleccione una plantilla, según el sistema operativo del dispositivo elegido: Android o iOS. [Más información sobre las plantillas](../msg/delivery-template.md)
+1. En la sección **[!UICONTROL Canal]**, elija **Notificación push** como canal y seleccione una plantilla, según el sistema operativo del dispositivo elegido: Android o iOS. [Más información sobre las plantillas](../msg/delivery-template.md)
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
@@ -42,9 +42,9 @@ Para crear un nuevo envío push independiente, siga estos pasos:
 
 Configure las entregas como se detalla a continuación:
 
-1. Introduzca una **[!UICONTROL Etiqueta]** para la entrega. De forma predeterminada, la etiqueta se establece con la etiqueta de la plantilla seleccionada. Se debe actualizar.
+1. Escriba una **[!UICONTROL Etiqueta]** para la entrega. De forma predeterminada, la etiqueta se establece con la etiqueta de la plantilla seleccionada. Se debe actualizar.
 
-1. Examine la **[!UICONTROL Opciones adicionales]** desplegable para personalizar las opciones, si es necesario. Si la entrega se basa en un esquema ampliado, especifique **Opciones personalizadas** Los campos de están disponibles.
+1. Examine la lista desplegable **[!UICONTROL Opciones adicionales]** para personalizar las opciones, si es necesario. Si su entrega se basa en un esquema ampliado, hay **campos de opciones personalizadas** específicos disponibles.
 
    +++Configure la siguiente configuración según sus necesidades.
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
@@ -66,17 +66,17 @@ Configure las entregas como se detalla a continuación:
 
 Primero debe seleccionar la aplicación y, a continuación, puede refinar la audiencia de notificaciones push como se detalla a continuación:
 
-1. Desde el **[!UICONTROL Audiencia]** , seleccione la aplicación que desee utilizar para este envío. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede ajustar a una audiencia específica haciendo clic en **[!UICONTROL Seleccionar audiencia]** botón.
+1. En la sección **[!UICONTROL Audience]**, seleccione la aplicación que desee utilizar para este envío. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede ajustar la audiencia a una audiencia específica haciendo clic en el botón **[!UICONTROL Seleccionar audiencia]**.
 
    ![](assets/push_create_2.png){zoomable="yes"}
 
-1. Seleccione una audiencia existente o cree su propia audiencia con el fin de restringir la población objetivo para la entrega push. Para las notificaciones push, la opción predeterminada [dimensión objetivo](../audience/about-recipients.md#targeting-dimensions) es **Aplicación de suscriptor** (nms:appSubscriptionRcp), que está vinculado a la tabla de destinatarios.
+1. Seleccione una audiencia existente o cree su propia audiencia con el fin de restringir la población objetivo para la entrega push. Para las notificaciones push, la [dimensión de destino](../audience/about-recipients.md#targeting-dimensions) predeterminada es **Aplicación de suscriptor** (nms:appSubscriptionRcp), que está vinculada a la tabla de destinatarios.
 
-   Obtenga información sobre cómo seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
+   Aprenda a seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
 
-   Obtenga información sobre cómo crear una nueva audiencia en [esta página](../audience/one-time-audience.md)
+   Aprenda a crear una audiencia nueva en [esta página](../audience/one-time-audience.md)
 
-1. Encienda el **[!UICONTROL Habilitar grupo de control]** opción para establecer un grupo de control para medir el impacto del envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
+1. Active la opción **[!UICONTROL Habilitar grupo de control]** para establecer un grupo de control y medir el impacto de su envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
 
 ## Definición del contenido de las notificaciones push {#create-content-push}
 
@@ -84,17 +84,17 @@ Para definir el contenido de la notificación, haga clic en **[!UICONTROL Editar
 
 ![](assets/push_create_5.png){zoomable="yes"}
 
-Desde esta pantalla, también puede [simular el contenido](../preview-test/preview-test.md) y [configuración de ofertas](../msg/offers.md).
+Desde esta pantalla, también puedes [simular tu contenido](../preview-test/preview-test.md) y [configurar ofertas](../msg/offers.md).
 
 ## Programe los envíos de entregas {#schedule-push}
 
-Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar el **Planificador** actividad. Obtenga más información en [esta página](../workflows/activities/scheduler.md). Los pasos siguientes solo se aplican a envíos independientes.
+Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe utilizar la actividad **Planificador**. Obtenga más información en [esta página](../workflows/activities/scheduler.md). Los pasos siguientes solo se aplican a envíos independientes.
 
 Para programar una entrega push independiente a una fecha y hora específicas, siga estos pasos:
 
-1. Vaya a la **[!UICONTROL Programación]** de las propiedades de entrega.
+1. Vaya a la sección **[!UICONTROL Programar]** de las propiedades de entrega.
 
-1. Utilice el **[!UICONTROL Habilitar programación]** para activarlo.
+1. Utilice la opción **[!UICONTROL Habilitar programación]** para activarla.
 
 1. Establezca la fecha y la hora deseadas para el envío.
 
@@ -102,10 +102,10 @@ Después de iniciar la entrega, el mensaje se envía automáticamente en la fech
 
 ![](assets/push_create_3.png){zoomable="yes"}
 
-Obtenga más información sobre la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule)
+Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule)
 
 ## Configuración avanzada del envío {#adv-push}
 
-Clic **[!UICONTROL Configuración de la entrega]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
+Haga clic en **[!UICONTROL Configurar opciones de envío]** para acceder a las opciones avanzadas relacionadas con su plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
 ![](assets/push_create_4.png){zoomable="yes"}

@@ -32,7 +32,7 @@ ht-degree: 28%
 >title="Vista previa del archivo"
 >abstract="Compruebe la previsualización de las columnas del archivo externo. Esta pantalla solo muestra hasta 30 registros."
 
-La interfaz de usuario web de Adobe Campaign permite segmentar perfiles almacenados en un archivo externo. Una vez cargados los perfiles, todos los campos del archivo de entrada están disponibles para su uso para personalizar el envío [Aprenda a personalizar el contenido](../personalization/personalize.md).
+La interfaz de usuario web de Adobe Campaign permite segmentar perfiles almacenados en un archivo externo. Una vez cargados los perfiles, todos los campos del archivo de entrada están disponibles para usarlos para personalizar la entrega [Aprenda a personalizar el contenido](../personalization/personalize.md).
 
 Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan y están disponibles únicamente para este envío de correo electrónico independiente específico.
 
@@ -42,7 +42,7 @@ Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan 
 
 ## Lectura obligatoria {#must-read}
 
-* Esta capacidad está disponible para **envíos de correo electrónico** solo.
+* Esta funcionalidad solo está disponible para **envíos de correo electrónico**.
 * Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV).
 * No puede utilizar [grupos de control](control-group.md) al cargar la población de público destinatario desde un archivo externo.
 
@@ -50,17 +50,17 @@ Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan 
 
 Para segmentar perfiles a partir de un archivo en los correos electrónicos, siga estos pasos:
 
-1. Abra una entrega de correo electrónico existente o [creación de un nuevo envío de correo electrónico](../email/create-email.md).
-1. En el **Audiencia** , haga clic en **Seleccionar audiencia** y luego elija **Seleccionar del archivo**.
+1. Abra una entrega de correo electrónico existente o [cree una nueva entrega de correo electrónico](../email/create-email.md).
+1. En la sección **Audiencia**, haga clic en el botón **Seleccionar audiencia** y luego elija **Seleccionar del archivo**.
 
    ![](assets/select-from-file.png){zoomable="yes"}
 
-1. Seleccione el archivo local que desea cargar. El formato de archivo debe alinearse con la variable [archivo de muestra](#sample-file).
+1. Seleccione el archivo local que desea cargar. El formato de archivo debe alinearse con el [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
 
    ![](assets/select-from-file-map.png)
 
-1. Especifique la columna que contiene la dirección de correo electrónico de la **Campo de dirección** lista desplegable. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
+1. Especifique la columna que contiene la dirección de correo electrónico de la lista desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
 1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
 
@@ -95,24 +95,24 @@ Al cargar un archivo externo para segmentar perfiles en los envíos, asegúrese 
 
 La web de Campaign le permite obtener una vista previa y enviar pruebas cuando se utiliza una audiencia cargada desde un archivo. Para ello, siga estos pasos:
 
-1. Haga clic en **[!UICONTROL Botón Simular contenido]** en la pantalla de edición de contenido de la entrega y haga clic en **[!UICONTROL Añadir perfil(es) de prueba]** botón.
+1. Haga clic en el botón **[!UICONTROL Simular contenido]** de la pantalla de edición de contenido de envío y luego haga clic en el botón **[!UICONTROL Agregar perfiles de prueba]**.
 
-1. Se muestran los perfiles contenidos en el archivo cargado. Seleccione los perfiles que desee utilizar para obtener una vista previa del contenido y haga clic en **[!UICONTROL Seleccionar]**.
+1. Se muestran los perfiles contenidos en el archivo cargado. Seleccione los perfiles que desee usar para obtener una vista previa del contenido y haga clic en **[!UICONTROL Seleccionar]**.
 
-1. En el panel derecho de la pantalla aparece una vista previa del contenido de la entrega. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo. [Más información sobre la previsualización del contenido de envío](../preview-test/preview-content.md)
+1. En el panel derecho de la pantalla aparece una vista previa del contenido de la entrega. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo. [Más información sobre la vista previa del contenido de envío](../preview-test/preview-content.md)
 
    ![](assets/file-upload-preview.png){zoomable="yes"}
 
-1. Para enviar pruebas, haga clic en **[!UICONTROL Enviar prueba]** botón.
+1. Para enviar pruebas, haga clic en el botón **[!UICONTROL Enviar prueba]**.
 
-1. Haga clic en **[!UICONTROL Cargar perfiles de prueba]** y seleccione el archivo .txt o .csv que contiene los destinatarios de prueba.
+1. Haga clic en el botón **[!UICONTROL Cargar perfiles de prueba]** y seleccione el archivo .txt o .csv que contiene los destinatarios de prueba.
 
    >[!CAUTION]
    >
    >Asegúrese de que el formato de archivo coincida con el utilizado para cargar la audiencia. Cualquier error de formato mostrará una alerta.
 
-1. Cuando haya añadido los perfiles de prueba y esté listo para enviar las pruebas, haga clic en el **[!UICONTROL Enviar prueba]** y confirme el envío.
+1. Cuando se agreguen los perfiles de prueba y esté listo para enviar las pruebas, haga clic en el botón **[!UICONTROL Enviar prueba]** y confirme el envío.
 
    ![](assets/file-upload-test.png){zoomable="yes"}
 
-1. Puede monitorizar el envío de la prueba mediante el **[!UICONTROL Ver pruebas]** botón en cualquier momento. [Más información sobre la monitorización de pruebas](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Puede monitorizar el envío de la prueba en cualquier momento con el botón **[!UICONTROL Ver pruebas]**. [Más información sobre la supervisión de pruebas](../preview-test/test-deliveries.md#access-test-deliveries)

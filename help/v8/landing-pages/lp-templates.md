@@ -15,11 +15,11 @@ ht-degree: 13%
 
 ## Guardar una página como plantilla {#save-as-template}
 
-Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md), puede guardarlo para su reutilización futura. Para realizar esto, siga los pasos a continuación.
+Una vez que hayas diseñado el [contenido de la página de aterrizaje](lp-content.md), puedes guardarlo para reutilizarlo en el futuro. Para realizar esto, siga los pasos a continuación.
 
-1. Haga clic en **[!UICONTROL Más]** en la parte superior derecha de la pantalla.
+1. Haga clic en el botón **[!UICONTROL Más]** en la parte superior derecha de la pantalla.
 
-1. Seleccionar **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
+1. Seleccione **[!UICONTROL Guardar como plantilla de contenido]** en el menú desplegable.
 
    ![](assets/lp-save-as-template.png){zoomable="yes"}
 
@@ -27,7 +27,7 @@ Una vez que haya diseñado su [contenido de página de aterrizaje](lp-content.md
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Aprenda a hacerlo en [sección](#use-saved-template) más abajo.
+La próxima vez que cree una página de aterrizaje, puede utilizar esta plantilla para crear su contenido. Aprenda a hacerlo en la [sección](#use-saved-template) a continuación.
 
 ![](assets/lp-saved-template.png){zoomable="yes"}
 
@@ -35,7 +35,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
 <!--Not for GA?-->
 
-1. Al editar el contenido de una página de aterrizaje, haga clic en **[!UICONTROL Más]** y seleccione **[!UICONTROL Cambiar el diseño]**.
+1. Al editar el contenido de una página de aterrizaje, haga clic en el botón **[!UICONTROL Más]** y seleccione **[!UICONTROL Cambiar el diseño]**.
 
    ![](assets/lp-change-your-design.png){zoomable="yes"}
 
@@ -45,7 +45,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
    >
    >Esta acción elimina y reemplaza el contenido actual por el de la nueva plantilla.
 
-1. La lista de todas las plantillas guardadas anteriormente se muestra en la variable **[!UICONTROL Plantillas guardadas]** pestaña. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
+1. La lista de todas las plantillas guardadas previamente se muestra en la ficha **[!UICONTROL Plantillas guardadas]**. Puede ordenarlas **[!UICONTROL Por nombre]**, **[!UICONTROL Última modificación]** y **[!UICONTROL Última creación]**.
 
    ![](assets/lp-saved-templates.png){zoomable="yes"}
 
@@ -53,7 +53,7 @@ La próxima vez que cree una página de aterrizaje, puede utilizar esta plantill
 
    ![](assets/lp-select-saved-template.png){zoomable="yes"}
 
-1. Clic **[!UICONTROL Usar esta plantilla]**.
+1. Haga clic en **[!UICONTROL Usar esta plantilla]**.
 
 1. Edite el contenido como desee con el diseñador de páginas de aterrizaje.
 

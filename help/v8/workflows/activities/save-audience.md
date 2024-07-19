@@ -22,35 +22,35 @@ ht-degree: 16%
 >title="Generar transición de salida"
 >abstract="Utilice esta opción si desea añadir una transición después de la actividad **Guardado de público**."
 
-El **Guardar audiencia** la actividad es una **Segmentación** actividad. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se añaden a la lista de audiencias de aplicación y están disponibles a través del **Audiencias** menú.
+La actividad **Guardar audiencia** es una actividad de **segmentación**. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se agregan a la lista de audiencias de aplicación y están disponibles a través del menú **Audiencias**.
 
-Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en el mismo flujo de trabajo, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **Crear audiencia** o una **Combinar** actividad.
+Esta actividad se utiliza esencialmente para mantener los grupos de población calculados en el mismo flujo de trabajo, convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
 
 ## Configuración de la actividad Guardar audiencia{#save-audience-configuration}
 
-Siga estos pasos para configurar el **Guardar audiencia** actividad:
+Siga estos pasos para configurar la actividad **Guardar audiencia**:
 
 ![](../assets/workflow-save-audience.png)
 
-1. Añadir un **Guardar audiencia** a su flujo de trabajo.
+1. Agregue una actividad **Guardar audiencia** a su flujo de trabajo.
 
-1. En el **Modo** , seleccione la acción que desee llevar a cabo:
+1. En la lista desplegable **Modo**, seleccione la acción que desee llevar a cabo:
 
-   * **Crear o actualizar una audiencia existente**: defina un **Etiqueta de audiencia**. Si la audiencia ya existe, se actualiza; de lo contrario, se crea una nueva.
+   * **Crear o actualizar una audiencia existente**: defina una **etiqueta de audiencia**. Si la audiencia ya existe, se actualiza; de lo contrario, se crea una nueva.
 
-   * **Actualizar una audiencia existente**: elija el **Audiencia** desea actualizar entre la lista de audiencias existentes.
+   * **Actualizar una audiencia existente**: elija la **audiencia** que desee actualizar entre la lista de audiencias existentes.
 
-1. Seleccione el **Modo de actualización** que se aplicará a las audiencias existentes:
+1. Seleccione el **modo de actualización** que se aplicará a las audiencias existentes:
 
-   * **Reemplazar contenido de audiencia por nuevos datos**: todo el contenido de la audiencia se sustituye. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad Guardar audiencia. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
+   * **Reemplazar contenido de audiencia por nuevos datos**: se reemplaza todo el contenido de audiencia. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad Guardar audiencia. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
 
-   * **Audiencia completa con nuevos datos**: el contenido de audiencia anterior se conserva y se añaden a él los datos de la transición de entrada de la actividad guardar audiencia.
+   * **Audiencia completa con nuevos datos**: el contenido de audiencia anterior se conserva y los datos de la transición de entrada de la actividad Guardar audiencia se agregan a ella.
 
-1. Compruebe la **Generación de una transición saliente** si desea añadir una transición después de la variable **Guardar audiencia** actividad.
+1. Marque la opción **Generar una transición saliente** si desea agregar una transición después de la actividad **Guardar audiencia**.
 
-El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el **Audiencias** menú. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante del flujo de trabajo **Guardar audiencia** actividad.
+El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **Audiencias**. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante de la actividad **Guardar audiencia** del flujo de trabajo.
 
 
 ## Ejemplo{#save-audience-example}
 
-El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. El **Guardar audiencia** la actividad actualiza la audiencia eliminando perfiles que han dejado de suscribirse al servicio desde la última ejecución del flujo de trabajo y añadiendo los perfiles recién suscritos.
+El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Se agrega un planificador para ejecutar el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. La actividad **Guardar audiencia** actualiza la audiencia eliminando perfiles que se han dado de baja del servicio desde la última ejecución del flujo de trabajo y agregando los perfiles recién suscritos.

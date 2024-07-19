@@ -12,7 +12,7 @@ ht-degree: 57%
 
 # Trabajar con el generador de reglas {#segment-builder}
 
-El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Puede utilizarlo para crear una audiencia a partir de un flujo de trabajo mediante una **[!UICONTROL Crear audiencia]** actividad de o directamente al crear una entrega para crear una audiencia única.
+El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Puede utilizarlo para crear una audiencia a partir de un flujo de trabajo con una actividad **[!UICONTROL Generar audiencia]** o directamente al crear una entrega para crear una audiencia única.
 
 * [Obtenga información sobre cómo crear y guardar una audiencia](create-audience.md)
 * [Obtenga información sobre cómo crear una audiencia única para una entrega](one-time-audience.md)
@@ -27,11 +27,11 @@ La paleta se divide en dos pestañas:
 
 * **Atributos**: esta pestaña permite acceder a todos los campos disponibles del esquema. La lista de campos depende del esquema de segmentación definido en la plantilla de correo electrónico.
 
-* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola de Campaign Classic o desde Adobe Experience Platform. Obtenga información sobre cómo monitorizar y administrar audiencias en [esta sección](manage-audience.md)
+* **Audiencias**: esta pestaña le permite filtrar con una de las audiencias existentes definidas en la consola de Campaign Classic o desde Adobe Experience Platform. Aprenda a monitorizar y administrar las audiencias en [esta sección](manage-audience.md)
 
   >[!NOTE]
   >
-  >Para aprovechar los públicos de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [Documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
+  >Para aprovechar los públicos de Adobe Experience Platform, debe configurar la integración con Destinos. Consulte la [documentación de destinos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"}.
 
 ## El lienzo
 
@@ -41,15 +41,15 @@ El lienzo es la zona central en la que se pueden configurar y combinar las regla
 
 ## El panel Propiedades de regla
 
-En el lado derecho, la **Propiedades de regla** le permite realizar las acciones que se indican a continuación.
+A la derecha, el panel **Propiedades de regla** le permite realizar las acciones que se indican a continuación.
 
 ![](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
 
-* **Ver resultados:** muestra la lista de perfiles segmentados por la audiencia.
+* **Ver resultados:** muestra la lista de perfiles dirigidos por la audiencia.
 * **Vista de código**: muestra una versión del público basada en código en SQL.
 * **Mostrar atributos avanzados**: marque esta opción si desea ver la lista completa de atributos de la paleta izquierda: nodos, agrupaciones, vínculos 1-1, vínculos 1-N.
-* **Calcular**: actualiza y muestra el número de perfiles objetivo por la consulta.
-* **Seleccionar o guardar filtro**: utilice un filtro predefinido para filtrar la consulta o guárdela como un nuevo filtro para su reutilización futura. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md)
+* **Calcular**: actualiza y muestra el número de perfiles dirigidos por la consulta.
+* **Seleccione o guarde el filtro**: use un filtro predefinido para filtrar la consulta o guárdela como un nuevo filtro para su reutilización futura. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
   >

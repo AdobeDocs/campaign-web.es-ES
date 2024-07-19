@@ -19,10 +19,10 @@ ht-degree: 28%
 
 Puede exportar fácilmente los distintos informes al formato PDF o CSV, lo que le permite compartirlos, manipularlos o imprimirlos.
 
-1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Exportar como archivo de PDF]** o **[!UICONTROL Exportar como archivo CSV]**.
+1. En el informe, haga clic en **[!UICONTROL Exportar]** y seleccione **[!UICONTROL Exportar como archivo PDF]** o **[!UICONTROL Exportar como archivo CSV]**.
 
    ![](assets/global_report_export.png){zoomable="yes"}
 
-1. Busque la carpeta en la que desea guardar el archivo, cambie el nombre si es necesario y haga clic en **[!UICONTROL Guardar]**.
+1. Busque la carpeta donde desea guardar el archivo, cambie su nombre si es necesario y haga clic en **[!UICONTROL Guardar]**.
 
 El informe ya está disponible para verlo o compartirlo en un PDF o archivo CSV.

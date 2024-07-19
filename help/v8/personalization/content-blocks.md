@@ -9,7 +9,7 @@ exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -21,11 +21,11 @@ Para añadir un bloque de contenido a una entrega, siga estos pasos:
 
 1. Abra una entrega y edite su contenido.
 
-1. Busque el campo donde desea agregar un bloque de contenido y haga clic en **[!UICONTROL Abrir diálogo de personalización]** para abrir el editor de expresiones.
+1. Busque el campo donde desee agregar un bloque de contenido y haga clic en el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]** para abrir el editor de expresiones.
 
    ![](assets/content-block-access.png){zoomable="yes"}{width="800" align="center"}
 
-1. En el editor de expresiones, busque **[!UICONTROL Bloques de contenido]** menú izquierdo.
+1. En el editor de expresiones, vaya al menú izquierdo de **[!UICONTROL Bloques de contenido]**.
 
 1. Para añadir un bloque de contenido, coloque el cursor en la ubicación deseada dentro del contenido y haga clic en el botón &quot;+&quot; para insertarlo.
 
@@ -35,7 +35,7 @@ Descripción de los bloques de contenido integrados:
 
 * **[!UICONTROL Banner de exclusión predeterminado]**
 * **[!UICONTROL Habilitado por Adobe Campaign]**: inserta el logotipo “Habilitado por Adobe Campaign”.
-* **[!UICONTROL Función de formato para sustantivos propios]**: genera el **[!UICONTROL toSmartCase]** Función JavaScript, que cambia la primera letra de cada palabra a mayúscula.
+* **[!UICONTROL Función de formato para los sustantivos propios]**: genera la función de JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Saludos]**: inserta los saludos con el nombre completo del destinatario, seguidos de una coma. Ejemplo: “Hola, John Doe”.
 * **[!UICONTROL Insertar logotipo]**: inserta un logotipo definido en la configuración de la instancia.
 * **[!UICONTROL Enlace a página espejo]**: inserta un enlace a la [página espejo](../email/mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
@@ -46,10 +46,10 @@ Descripción de los bloques de contenido integrados:
 * **[!UICONTROL Vínculo de registro]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: “Para registrarse, haga clic aquí”.
 * **[!UICONTROL Vínculo de registro (con referencia)]**: inserta un vínculo de suscripción que permite identificar el visitante y el envío. Este vínculo se define en la configuración de la instancia.
 * **[!UICONTROL URL de la página de registro]**: inserta una URL de suscripción.
-* Vínculos para compartir en redes sociales
+* Vínculos de uso compartido en redes sociales
 * **[!UICONTROL Estilo de los correos electrónicos de contenido]** y **[!UICONTROL Estilo de las notificaciones]**: generan un código que da formato a un correo electrónico con estilos HTML predefinidos.
 * **[!UICONTROL Vínculo de baja]**: inserta un vínculo que permite cancelar la suscripción a todos los envíos (lista de bloqueados). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
 
 >[!NOTE]
 >
->Puede definir nuevos bloques desde la consola de Adobe Campaign v8 que le permitan optimizar la personalización de las entregas. Obtenga más información en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>Puede definir nuevos bloques desde la consola de Adobe Campaign v8 que le permitan optimizar la personalización de las entregas. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.

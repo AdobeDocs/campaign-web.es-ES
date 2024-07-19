@@ -27,7 +27,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 >[!NOTE]
 >
->Las audiencias cargadas desde un archivo no se pueden segmentar con una actividad Generar audiencia. Para ello, debe utilizar un **Cargar archivo** actividad seguida de un **Reconciliación** actividad. [Más información](../../audience/about-recipients.md)
+>Las audiencias cargadas desde un archivo no se pueden segmentar con una actividad Generar audiencia. Para ello, necesita usar una actividad **Cargar archivo** seguida de una actividad **Reconciliación**. [Más información](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -51,7 +51,7 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
 >[!BEGINTABS]
 
->[!TAB Cree su propio (consulta)]
+>[!TAB Cree su propia (consulta)]
 
 Para crear su propia consulta, siga estos pasos:
 

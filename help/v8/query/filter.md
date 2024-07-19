@@ -16,23 +16,23 @@ Adobe Campaign Web proporciona filtros dentro de cada lista de objetos, lo que p
 
 ## Aplicar filtros{#apply}
 
-Para aplicar filtros a una lista, haga clic en **[!UICONTROL Mostrar filtros]** situado en la esquina superior izquierda de la lista, junto a la barra de búsqueda.
+Para aplicar filtros a una lista, haga clic en el botón **[!UICONTROL Mostrar filtros]** situado en la esquina superior izquierda de la lista, junto a la barra de búsqueda.
 
 Se abre el panel Filtros, que muestra los filtros disponibles para la lista seleccionada. Por ejemplo, puede filtrar las campañas por su estado, fechas de inicio y finalización o carpeta de almacenamiento, mientras que la lista de servicios de suscripción se puede filtrar por su canal y carpeta de almacenamiento.
 
 ![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Para filtrar una lista según sus propios criterios, cree un filtro personalizado. Para ello, vaya a la parte inferior del panel de filtros y haga clic en **Agregar reglas** botón. [Obtenga información sobre cómo crear filtros personalizados](#custom)
+Para filtrar una lista según sus propios criterios, cree un filtro personalizado. Para ello, vaya a la parte inferior del panel de filtros y haga clic en el botón **Agregar reglas**. [Aprenda a crear filtros personalizados](#custom)
 
-Una vez aplicados a una lista, los filtros son visibles debajo de la barra de búsqueda. Puede quitar un filtro individual en cualquier momento o quitar todos los filtros haciendo clic en el icono **Borrar todo** botón.
+Una vez aplicados a una lista, los filtros son visibles debajo de la barra de búsqueda. Puede quitar un filtro individual en cualquier momento o quitar todos los filtros haciendo clic en el botón **Borrar todo**.
 
 ## Creación de filtros personalizados {#custom}
 
 Los filtros personalizados le permiten refinar las listas según sus propios criterios específicos. Se diseñan utilizando el modelador de consultas de Campaign. Para crear un filtro personalizado, siga estos pasos:
 
-1. Abra el panel de filtros y haga clic en **Agregar reglas** situado en la parte inferior del panel.
+1. Abra el panel Filtros y haga clic en el botón **Agregar reglas** ubicado en la parte inferior del panel.
 
-1. Se abrirá el modelador de consultas. Defina y combine los criterios de filtro para adaptarlos a sus necesidades. Encontrará información detallada sobre cómo utilizar el modelador de consultas en [esta sección](../query/query-modeler-overview.md).
+1. Se abrirá el modelador de consultas. Defina y combine los criterios de filtro para adaptarlos a sus necesidades. Encontrará información detallada sobre cómo usar el modelador de consultas en [esta sección](../query/query-modeler-overview.md).
 
    El ejemplo siguiente muestra un filtro personalizado diseñado para mostrar en la lista de campañas las campañas SMS ejecutadas por operadores de los departamentos de Running o Yoga.
 

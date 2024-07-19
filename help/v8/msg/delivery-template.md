@@ -24,18 +24,18 @@ Para lograr un proceso de diseño acelerado y mejorado, puede crear plantillas d
 
 Una plantilla puede incluir:
 
-* El **carpeta** y **carpeta de ejecución** de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de envíos. La carpeta de ejecución es la carpeta en la que se guardan los envíos creados basándose en esta plantilla.
+* La **carpeta** y **carpeta de ejecución** de la plantilla. La carpeta es la ubicación donde se guarda la plantilla de envíos. La carpeta de ejecución es la carpeta en la que se guardan los envíos creados basándose en esta plantilla.
 * [Tipologías](../advanced-settings/delivery-settings.md#typology),
 * La dirección del remitente,
-* Un [audiencia](../audience/about-recipients.md), incluido [grupos de control](../audience/control-group.md),
-* Personalizado [content](../email/edit-content.md),
+* Una [audiencia](../audience/about-recipients.md), incluidos [grupos de control](../audience/control-group.md),
+* [contenido personalizado](../email/edit-content.md),
 * [Campos personalizados](../personalization/personalize.md) y [contenido condicional](../personalization/conditions.md),
-* Vínculos a [página espejo](../email/mirror-page.md) y baja [vínculos](../email/message-tracking.md),
+* Vínculos a [página espejo](../email/mirror-page.md) y [vínculos](../email/message-tracking.md) de baja,
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 >[!NOTE]
 >
->Las plantillas de envío son diferentes de [plantillas de contenido](../email/create-email-templates.md), que le permiten reutilizar únicamente el contenido de sus correos electrónicos y empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo proporcionadas de forma predeterminada.
+>Las plantillas de envío son diferentes de las [plantillas de contenido](../email/create-email-templates.md), lo que le permite reutilizar solamente el contenido de sus correos electrónicos y empezar a crear contenido con una de las plantillas de correo electrónico de ejemplo que se proporcionan de forma predeterminada.
 
 
 ## Acceso y administración de plantillas de envíos {#access-manage-templates}
@@ -46,11 +46,11 @@ Una plantilla puede incluir:
 >abstract="Utilice plantillas de envío para crear y guardar la configuración de envío para su uso futuro en todas las campañas. Puede crear plantillas de envío desde cero, duplicar una plantilla existente o convertir un envío en una plantilla."
 
 
-Para acceder a la lista de plantillas de contenido, seleccione **[!UICONTROL Campaign Management]** > **[!UICONTROL Envíos]** en el menú de la izquierda y vaya a **Plantillas** pestaña.
+Para obtener acceso a la lista de plantillas de contenido, seleccione **[!UICONTROL Campaign Management]** > **[!UICONTROL Envíos]** en el menú de la izquierda y desplácese hasta la ficha **Plantillas**.
 
 ![](assets/templates-tab.png){zoomable="yes"}
 
-Todas las plantillas que se [created](#create-a-delivery-template) en el entorno actual.
+Se muestran todas las plantillas [creadas](#create-a-delivery-template) en el entorno actual.
 
 Puede filtrar las plantillas de contenido por canales y carpetas. También puede establecer filtros avanzados generando una regla con atributos de entrega. [Más información sobre el modelador de consultas](../audience/../query/query-modeler-overview.md)
 
@@ -63,7 +63,7 @@ Para editar una plantilla, haga clic en el elemento que desee en la lista. A par
 
 ![](assets/templates-edition.png){zoomable="yes"}
 
-Para eliminar o [duplicado](#copy-an-existing-template) Para crear una plantilla, seleccione la acción correspondiente en la **[!UICONTROL Más acciones]** menú, ya sea desde el **[!UICONTROL Plantillas]** o desde una pantalla de edición de plantilla.
+Para eliminar o [duplicar](#copy-an-existing-template) una plantilla, seleccione la acción correspondiente en el menú **[!UICONTROL Más acciones]**, ya sea en la lista **[!UICONTROL Plantillas]** o en una pantalla de edición de plantilla.
 
 ![](assets/templates-more-actions.png){zoomable="yes"}
 
@@ -75,9 +75,9 @@ Para eliminar o [duplicado](#copy-an-existing-template) Para crear una plantilla
 
 Para crear una plantilla de envíos, puede:
 
-* Duplicación de una plantilla existente: [Más información](#copy-an-existing-template)
-* Conversión de una entrega existente en una plantilla: [Más información](#convert-an-existing-delivery)
-* Creación de una plantilla de envíos desde cero: [Más información](#create-a-new-template)
+* Duplicar una plantilla existente: [Más información](#copy-an-existing-template)
+* Convertir una entrega existente en una plantilla: [Más información](#convert-an-existing-delivery)
+* Crear una plantilla de envíos desde cero: [Más información](#create-a-new-template)
 
 ### Duplicación de una plantilla de envíos existente {#copy-an-existing-template}
 
@@ -89,8 +89,8 @@ Campaign viene con un conjunto de plantillas integradas para cada canal: correo 
 
 Para duplicar una plantilla de envíos, siga estos pasos:
 
-1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
-1. Haga clic en **[!UICONTROL Más acciones]** a la derecha del nombre de la plantilla deseada y seleccione  **[!UICONTROL Duplicar]**.
+1. Vaya a la pestaña **Plantillas**, en el menú de la izquierda **Envíos**. [Más información](#access-manage-templates)
+1. Haga clic en el botón **[!UICONTROL Más acciones]** a la derecha del nombre de plantilla deseado y seleccione **[!UICONTROL Duplicar]**.
 
    También puede seleccionar una plantilla de la lista y seleccionar esta opción en la pantalla de edición de plantillas.
 
@@ -102,13 +102,13 @@ Para duplicar una plantilla de envíos, siga estos pasos:
 
    ![](assets/templates-duplicated-item.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
+1. Haga clic en el botón **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
 
    ![](assets/templates-review-screen.png){zoomable="yes"}
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
-La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
+La nueva plantilla se agrega a la lista [**Plantillas**](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
 ### Conversión de un envío en una plantilla {#convert-an-existing-delivery}
 
@@ -116,8 +116,8 @@ Cualquier envío se puede convertir en una plantilla para futuras acciones de en
 
 Para guardar una entrega como plantilla, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Administración de campañas]** > **[!UICONTROL Envíos]** menú.
-1. Desde el **[!UICONTROL Examinar]** , haga clic en **[!UICONTROL Más acciones]** a la derecha del nombre de envío deseado y seleccione **[!UICONTROL Copiar como plantilla]**.
+1. Vaya al menú **[!UICONTROL Administración de campañas]** > **[!UICONTROL Envíos]**.
+1. En la ficha **[!UICONTROL Examinar]**, haga clic en el botón **[!UICONTROL Más acciones]** que se encuentra a la derecha del nombre de entrega deseado y seleccione **[!UICONTROL Copiar como plantilla]**.
 
    ![](assets/templates-convert-delivery.png){zoomable="yes"}
 
@@ -127,11 +127,11 @@ Para guardar una entrega como plantilla, siga los pasos a continuación:
 
 1. El nuevo panel de plantillas se abre en la pantalla central. Edite la configuración de la plantilla según sea necesario.
 
-1. Haga clic en **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
+1. Haga clic en el botón **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
-La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
+La nueva plantilla se agrega a la lista [**Plantillas**](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
 ### Creación de una nueva plantilla de envíos {#create-a-new-template}
 
@@ -141,8 +141,8 @@ La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates).
 
 Para configurar una plantilla de envíos desde cero, siga los pasos a continuación:
 
-1. Vaya a la **Plantillas** pestaña, desde el **Envíos** menú izquierdo. [Más información](#access-manage-templates)
-1. Haga clic en **[!UICONTROL Crear plantilla]** botón.
+1. Vaya a la pestaña **Plantillas**, en el menú de la izquierda **Envíos**. [Más información](#access-manage-templates)
+1. Haga clic en el botón **[!UICONTROL Crear plantilla]**.
 
    ![](assets/templates-create-button.png){zoomable="yes"}
 
@@ -151,9 +151,9 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 
    ![](assets/templates-channel-browse.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Crear plantilla]** botón de nuevo.
+1. Vuelva a hacer clic en el botón **[!UICONTROL Crear plantilla]**.
 
-1. Defina las propiedades de la plantilla, [audiencia](../audience/add-audience.md) y contenido según el canal seleccionado.
+1. Defina las propiedades de la plantilla, [audiencia](../audience/add-audience.md) y el contenido según el canal seleccionado.
 
    >[!NOTE]
    >
@@ -163,21 +163,21 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
    > * [Canal de notificaciones push](../push/gs-push.md)
    > * [Canal de SMS](../sms/create-sms.md)
 
-1. Además, se puede acceder a la configuración avanzada de las plantillas de correo electrónico, como las reglas de tipología y las asignaciones de destino, a través de **[!UICONTROL Configuración]** situado en la parte superior derecha de la pantalla. [Más información](../advanced-settings/delivery-settings.md)
+1. Además, para las plantillas de correo electrónico, se puede acceder a la configuración avanzada, como las reglas de tipología y las asignaciones de destino, a través del botón **[!UICONTROL Settings]** ubicado en la parte superior derecha de la pantalla. [Más información](../advanced-settings/delivery-settings.md)
 
-1. Haga clic en **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
+1. Haga clic en el botón **[!UICONTROL Revisar]** para guardar y revisar la plantilla. Puede seguir editando todos sus ajustes, eliminándolos y duplicándolos.
 
 1. Pruebe el procesamiento de la plantilla si es necesario. [Más información](#test-template)
 
-La nueva plantilla se agrega a [**Plantillas** lista](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
+La nueva plantilla se agrega a la lista [**Plantillas**](#access-manage-templates). Ahora puede seleccionarlo al crear un nuevo envío.
 
 ## Prueba de una plantilla de envíos {#test-template}
 
 Puede probar la renderización de cualquier plantilla de envío, ya se cree desde cero o a partir de un contenido existente. Para ello, siga los pasos a continuación.
 
-1. Vaya a la **Plantillas** a través del **[!UICONTROL Administración de campañas]** > **[!UICONTROL Envíos]** y seleccione cualquier plantilla. [Más información](#access-manage-templates)
+1. Vaya a la ficha **Plantillas** a través del menú **[!UICONTROL Administración de campañas]** > **[!UICONTROL Envíos]** y seleccione cualquier plantilla. [Más información](#access-manage-templates)
 
-1. Haga clic en **[!UICONTROL Simular contenido]** en la parte superior derecha de la pantalla.
+1. Haga clic en el botón **[!UICONTROL Simular contenido]** en la parte superior derecha de la pantalla.
 
    ![](assets/templates-simulate-button.png){zoomable="yes"}
 

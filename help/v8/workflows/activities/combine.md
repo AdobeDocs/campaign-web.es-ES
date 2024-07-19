@@ -17,7 +17,7 @@ ht-degree: 85%
 >title="Actividad de combinación"
 >abstract="La actividad **Combinar** permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varias poblaciones destinatarias."
 
-El **Combinar** la actividad es una **Segmentación** actividad. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios. Estos son los tipos de segmentación disponibles:
+La actividad **Combinar** es una actividad **Segmentación**. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios. Estos son los tipos de segmentación disponibles:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -66,14 +66,14 @@ Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 >title="Opciones de reconciliación"
 >abstract="Seleccione el **tipo de reconciliación** para definir cómo gestionar duplicados."
 
-En el **Combinar** actividad, puede configurar un **Union**. Para ello, debe seleccionar la **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
+En la actividad **Combinar**, puede configurar una **Unión**. Para ello, debe seleccionar **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
 * **Solo claves**: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones entrantes tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
 * **Una selección de columnas**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
 ## Intersección {#combine-intersection}
 
-En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, debe seguir los pasos adicionales a continuación:
+En la actividad **Combinar**, puede configurar una **intersección**. Para ello, debe seguir los pasos adicionales a continuación:
 
 1. Seleccione el **Tipo de reconciliación** para definir cómo se gestionan los duplicados. Consulte la sección [Unión](#union).
 1. Seleccione la opción **Generar complemento** si desea procesar la población restante. El complemento contendrá la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se añadirá una transición saliente adicional a la actividad.
@@ -100,7 +100,7 @@ En el **Combinar** actividad, puede configurar un **Intersección**. Para ello, 
 >title="Combinar generar complemento"
 >abstract="Active la opción Generar complemento para procesar la población restante en una transición adicional."
 
-En el **Combinar** actividad, puede configurar un **Exclusión**. Para ello, debe seguir los pasos adicionales a continuación:
+En la actividad **Combinar**, puede configurar una **Exclusión**. Para ello, debe seguir los pasos adicionales a continuación:
 
 1. En la sección **Conjuntos que unir**, seleccione el **Conjunto principal** de las transiciones entrantes. Es el conjunto desde el que se excluyen los elementos. Los demás conjuntos coinciden con elementos antes de excluirse del conjunto principal.
 1. Si es necesario, puede manipular las tablas entrantes. De hecho, para excluir un público destinatario de otra dimensión, se debe devolver este público destinatario a la misma dimensión de segmentación que el público destinatario principal. Para ello, haga clic en **Añadir una regla** en la sección **Reglas de exclusión** y especifique las condiciones del cambio de dimensión. La reconciliación de datos se lleva a cabo mediante un atributo o una unión.
@@ -108,7 +108,7 @@ En el **Combinar** actividad, puede configurar un **Exclusión**. Para ello, deb
 
 ## Ejemplos{#combine-examples}
 
-En el siguiente ejemplo, se utiliza un **Combinar** y agregamos una actividad de **unión** recuperar todos los perfiles de las dos consultas: personas entre 18 y 27 años y personas entre 34 y 40 años.
+En el ejemplo siguiente, se usa una actividad **Combine** y se agrega una **unión** para recuperar todos los perfiles de las dos consultas: personas de entre 18 y 27 años y personas de entre 34 y 40 años.
 
 ![](../assets/workflow-union-example.png)
 

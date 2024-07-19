@@ -15,26 +15,26 @@ ht-degree: 3%
 
 Antes de enviar el correo electrónico, asegúrese de que el mensaje se muestra a los destinatarios de una forma óptima en una gran variedad de clientes y dispositivos web.
 
-Para ello, puede aprovechar sus **Litmus** cuenta en [!DNL Adobe Campaign] para previsualizar instantáneamente su procesamiento de correo electrónico en diferentes contextos y comprobar la compatibilidad en los principales escritorios y aplicaciones (webmail, servicio de mensajes, móvil, etc.).
+Para ello, puede aprovechar su cuenta de **Litmus** en [!DNL Adobe Campaign] para obtener una vista previa instantánea del procesamiento de correo electrónico en diferentes contextos y comprobar la compatibilidad en las aplicaciones y los escritorios principales (correo web, servicio de mensajes, móvil, etc.).
 
 >[!CAUTION]
 >
->El uso del procesamiento de correo electrónico en Campaign envía una prueba a un sistema de terceros. Al conectar su cuenta de Litmus con [!DNL Campaign], usted reconoce que Adobe no es responsable de ningún dato que usted pueda enviar a ese tercero. La política de correo electrónico para la retención de datos de Litmus se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estas pruebas. Para acceder o eliminar dichos datos, deberá ponerse en contacto directamente con Litmus.
+>El uso del procesamiento de correo electrónico en Campaign envía una prueba a un sistema de terceros. Al conectar su cuenta de Litmus con [!DNL Campaign], reconoce que Adobe no es responsable de ningún dato que pueda enviar a ese tercero. La política de correo electrónico para la retención de datos de Litmus se aplica a estos correos electrónicos, incluidos los datos de personalización que pueden incluirse en estas pruebas. Para acceder o eliminar dichos datos, deberá ponerse en contacto directamente con Litmus.
 
 Para acceder a las funciones de procesamiento de correo electrónico, debe:
 
 * Tener una cuenta de Litmus
-* Seleccionar perfiles o perfiles de prueba: aprenda en [esta sección](preview-content.md)
+* Seleccionar perfiles o perfiles de prueba: aprenda cómo en [esta sección](preview-content.md)
 
 A continuación, siga los pasos a continuación.
 
-1. En el [Editar contenido](../email/edit-content.md) pantalla o en el [Diseñador de correo electrónico](../email/get-started-email-designer.md), haga clic en **[!UICONTROL Simular contenido]** botón.
+1. En la pantalla [Editar contenido](../email/edit-content.md) o en el [Designer de correo electrónico](../email/get-started-email-designer.md), haga clic en el botón **[!UICONTROL Simular contenido]**.
 
-1. Seleccione el **[!UICONTROL Procesar correo electrónico]** botón.
+1. Seleccione el botón **[!UICONTROL Procesar correo electrónico]**.
 
    ![](assets/simulate-rendering-button.png){zoomable="yes"}
 
-1. Clic **Conecte su cuenta de Litmus** en la sección superior derecha.
+1. Haga clic en **Conectar su cuenta de Litmus** en la sección superior derecha.
 
    ![](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
@@ -42,7 +42,7 @@ A continuación, siga los pasos a continuación.
 
    ![](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
-1. Haga clic en **Ejecutar prueba** para generar previsualizaciones de correo electrónico.
+1. Haga clic en el botón **Ejecutar prueba** para generar vistas previas de correo electrónico.
 
 1. Compruebe el contenido de su correo electrónico en clientes populares de escritorio, móviles y web.
 
