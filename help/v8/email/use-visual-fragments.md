@@ -2,33 +2,29 @@
 audience: end-user
 title: Añadir fragmentos visuales a los correos electrónicos
 description: Aprenda a añadir fragmentos visuales a los correos electrónicos
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 4%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
 # Añadir fragmentos visuales a los correos electrónicos {#use-visual-fragments}
 
-Puede utilizar un fragmento visual en una [envío por correo electrónico](get-started-email-designer.md), o en un [plantilla de contenido](use-email-templates.md). Los pasos se detallan a continuación.
+Puede usar un fragmento visual en [envío de correo electrónico](get-started-email-designer.md) o en [plantilla de contenido](use-email-templates.md). Los pasos se detallan a continuación. Aprenda a crear y administrar fragmentos en [esta sección](fragments.md).
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Obtenga información sobre cómo crear y administrar fragmentos en [esta sección](fragments.md).
-
+>Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 ## Usar un fragmento {#use-fragment}
 
 Para insertar un fragmento en un contenido de correo electrónico, siga los pasos a continuación:
 
-1. Abra cualquier contenido de correo electrónico o plantilla con la variable [Diseñador de correo electrónico](get-started-email-designer.md).
+1. Abra cualquier contenido de correo electrónico o plantilla con [Email Designer](get-started-email-designer.md).
 
-1. Seleccione el **[!UICONTROL Fragmentos]** del carril izquierdo.
+1. Seleccione el icono **[!UICONTROL Fragmentos]** del carril izquierdo.
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +38,7 @@ Para insertar un fragmento en un contenido de correo electrónico, siga los paso
    >
    >Los fragmentos se ordenan por fecha de creación: los fragmentos visuales añadidos recientemente se muestran primero en la lista.
 
-   Si algunos fragmentos se modificaron o agregaron mientras editaba el contenido, haga clic en **Actualizar** para actualizar la lista con los cambios más recientes.
+   Si se han modificado o agregado fragmentos mientras edita el contenido, haga clic en el icono **Actualizar** para actualizar la lista con los cambios más recientes.
 
 1. Arrastre y suelte cualquier fragmento de la lista en el área en la que desee insertarlo. Al igual que cualquier otro componente, puede mover el fragmento por el contenido.
 
@@ -50,17 +46,17 @@ Para insertar un fragmento en un contenido de correo electrónico, siga los paso
 
    ![](assets/fragment-right-pane.png)
 
-   Desde el **[!UICONTROL Configuración]** pestaña, puede:
+   En la ficha **[!UICONTROL Configuración]**, puede:
 
    * Elija los dispositivos en los que desea que se muestre el fragmento.
-   * Haga clic en **Editar contenido** para abrir el contenido de este fragmento. [Más información](../email/fragments.md#edit-fragments)
+   * Haga clic en el botón **Editar contenido** para abrir el contenido de este fragmento. [Más información](../email/fragments.md#edit-fragments)
 
-     Puede personalizar aún más el fragmento mediante el **[!UICONTROL Estilos]** pestaña.
+     Puede personalizar aún más el fragmento mediante la ficha **[!UICONTROL Estilos]**.
 
 1. Si es necesario, puede romper la herencia con el fragmento original. [Más información](#break-inheritance)
 También puede eliminar el fragmento del contenido o duplicarlo. Estas acciones se pueden realizar directamente desde el menú contextual que se muestra sobre el fragmento.
 
-1. Añada tantos fragmentos como desee y **[!UICONTROL Guardar]** sus cambios.
+1. Agregue tantos fragmentos como desee y **[!UICONTROL guarde]** sus cambios.
 
 ## Romper herencia {#break-inheritance}
 
