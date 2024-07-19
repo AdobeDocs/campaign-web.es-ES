@@ -4,10 +4,10 @@ description: Descubra las nuevas funciones incluidas en la próxima versión de 
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 55%
+source-wordcount: '454'
+ht-degree: 46%
 
 ---
 
@@ -50,14 +50,13 @@ Ahora puede enviar notificaciones push enriquecidas. Una notificación push enri
 
 #### Fragmentos de contenido {#LA-24-7}
 
-Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios contenidos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
+Ahora puede crear y utilizar fragmentos de contenido. Un fragmento de contenido es un componente reutilizable al que se puede hacer referencia en uno o varios mensajes. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. Esta funcionalidad permite generar previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar rápidamente el contenido del mensaje en un proceso de diseño mejorado.
 
-* Ahora puede crear, usar y administrar **fragmentos de expresiones** para generar contenido personalizado rápidamente.
+Hay dos tipos de fragmentos disponibles:
 
-* Ahora puede crear, usar y guardar **fragmentos visuales** para ensamblar rápidamente sus correos electrónicos y plantillas de contenido. [Más información](../email/fragments.md)
+* **Los fragmentos de expresión** son expresiones predefinidas que están disponibles en una entrada dedicada en el editor de expresiones.
+* **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico o en plantillas de contenido. [Más información](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**Los fragmentos visuales** están en disponibilidad limitada (LA). Esta capacidad está restringida a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se puede implementar en ningún otro entorno.
