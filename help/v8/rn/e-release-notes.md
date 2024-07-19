@@ -4,10 +4,10 @@ description: Descubra las nuevas funciones incluidas en la próxima versión de 
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 50%
+source-wordcount: '379'
+ht-degree: 55%
 
 ---
 
@@ -22,10 +22,6 @@ La interfaz de usuario web de Adobe Campaign ofrece continuamente nuevas funcio
 **Fecha de la versión**: 30 y 31 de julio de 2024
 
 Las siguientes funciones y mejoras están disponibles a partir de la versión de julio.
-
-### Fragmentos de expresión {#24-7-1}
-
-Ahora puede crear, usar y administrar **fragmentos de expresiones** para generar contenido personalizado rápidamente. Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios contenidos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
 
 ### Listas semilla {#24-7-2}
 
@@ -42,4 +38,26 @@ Ahora puede enviar notificaciones push enriquecidas. Una notificación push enri
 
 ### Mejoras {#improvements-24-7}
 
-* **Administración de carpetas**: ahora puede administrar permisos y restricciones en las carpetas.
+**Administración de carpetas**: ahora puede administrar permisos y restricciones en las carpetas.
+
+### Nuevas funciones en disponibilidad limitada {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>Las siguientes capacidades están en disponibilidad limitada (LA). Están restringidos a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+>
+>Consulte las siguientes páginas de documentación: [Campaign Standard de la transición a Campaign v8](../rn/acs-migration.md) y [Funciones para usuarios de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es).
+
+#### Fragmentos de contenido {#LA-24-7}
+
+Un fragmento es un componente reutilizable creado previamente al que se puede hacer referencia en varios contenidos de Adobe Campaign para un proceso de diseño mejorado y acelerado.
+
+* Ahora puede crear, usar y administrar **fragmentos de expresiones** para generar contenido personalizado rápidamente.
+
+* Ahora puede crear, usar y guardar **fragmentos visuales** para ensamblar rápidamente sus correos electrónicos y plantillas de contenido. [Más información](../email/fragments.md)
+
+
+
+
+
+
