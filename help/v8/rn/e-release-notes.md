@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ La interfaz de usuario web de Adobe Campaign ofrece continuamente nuevas funcio
 
 ## Notas de la versión de julio {#24-7-release}
 
-**Fecha de la versión**: 30 y 31 de julio de 2024
+**Fecha de lanzamiento**: 30-31 de julio de 2024
 
-Las siguientes funciones y mejoras están disponibles a partir de la versión de julio.
+Las siguientes funciones y mejoras están disponibles para todos los usuarios a partir de la versión de julio.
 
 ### Fragmentos de contenido {#24-7-1}
 
-Ahora puede crear y utilizar fragmentos de contenido. Un fragmento de contenido es un componente reutilizable al que se puede hacer referencia en uno o varios mensajes. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. Esta funcionalidad permite generar previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar rápidamente el contenido del mensaje en un proceso de diseño mejorado.
+Ahora puede crear y utilizar fragmentos de contenido. Un fragmento de contenido es un componente reutilizable al que se puede hacer referencia en uno o varios mensajes. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. Esta funcionalidad se utiliza para la construcción previa de múltiples bloques de contenido personalizado que pueden ser utilizados por los usuarios de marketing para combinar rápidamente los contenidos de correo electrónico en un proceso de diseño mejorado.
 
 Hay dos tipos de fragmentos disponibles:
 
@@ -34,7 +34,7 @@ Hay dos tipos de fragmentos disponibles:
 
   >[!AVAILABILITY]
   >
-  >**Los fragmentos visuales** están en disponibilidad limitada (LA). Esta capacidad está restringida a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se puede implementar en ningún otro entorno.
+  >**Los fragmentos visuales** están en disponibilidad limitada (LA). Esta capacidad está restringida a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 ### Listas semilla {#24-7-2}
 
@@ -42,12 +42,12 @@ Una lista semilla, también conocida como. **Grupo de reventado**, es una lista 
 
 ### Plantillas de notificaciones push enriquecidas {#24-7-3}
 
-Ahora puede enviar notificaciones push enriquecidas. Una notificación push enriquecida es una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido multimedia enriquecido. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android.
+Ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android.
 
 >[!AVAILABILITY]
 >
->Esta capacidad requiere una actualización de la versión 8.6.3 o 8.7.2 de Campaign. Obtenga más información en [Notas de la versión de la consola del cliente de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
+>Esta capacidad requiere una actualización de la versión 8.6.3 o 8.7.2. Obtenga más información en [Notas de la versión de la consola del cliente de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes)
 
 ### Mejoras {#improvements-24-7}
 
-**Administración de carpetas**: ahora puede administrar permisos y restricciones en las carpetas.
+**Administración de carpetas**: ahora puede administrar permisos y restricciones de las carpetas.
