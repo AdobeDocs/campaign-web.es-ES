@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '392'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 * Seleccione un público destinatario existente, creado como una lista en la consola del cliente.
 * Seleccione un público destinatario de Adobe Experience Platform.
-* Cree una nueva audiencia con el generador de modeladores de consultas definiendo y combinando criterios de filtrado.
+* Cree una nueva audiencia con el modelador de consultas definiendo y combinando criterios de filtrado.
 
 >[!NOTE]
 >
