@@ -2,7 +2,7 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enr
 ### Mejoras {#improvements-24-7}
 
 **Administración de carpetas**: ahora puede administrar permisos y restricciones de las carpetas.
-
 
 ## Notas de la versión de junio {#24-6-release}
 
