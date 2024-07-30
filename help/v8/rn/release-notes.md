@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 99%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ Hay dos tipos de fragmentos disponibles:
   >
   >**Los fragmentos visuales** están en disponibilidad limitada (LA). Esta capacidad está restringida a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
-### Listas semilla {#24-7-2}
+### Grupo de reventado {#24-7-2}
 
-Una lista semilla, también conocida como. **Grupo de reventado**, es una lista de direcciones semilla. Se utiliza para incluir direcciones específicas en los envíos y, a continuación, concentrarse en los perfiles que no coinciden con los criterios objetivo definidos. De este modo, los destinatarios que estén fuera del público del envío pueden recibirlo como lo haría cualquier otro destinatario objetivo. Puede utilizar direcciones semilla al enviar pruebas o para proteger la lista de su campaña de correo.
+Un **grupo de reventado** es una lista de direcciones semilla. Se utiliza para incluir direcciones específicas en los envíos y, a continuación, concentrarse en los perfiles que no coinciden con los criterios objetivo definidos. De este modo, los destinatarios que estén fuera del público del envío pueden recibirlo como lo haría cualquier otro destinatario objetivo. Puede utilizar direcciones semilla al enviar pruebas o para proteger la lista de correo. [Más información](../audience/trap-group.md)
 
 ### Plantillas de notificaciones push enriquecidas {#24-7-3}
 
@@ -47,7 +47,7 @@ Ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enr
 
 >[!AVAILABILITY]
 >
->Esta capacidad requiere una actualización de Campaign v8.6.3 <!--or v8.7.2-->. Obtenga más información en la consola del cliente de Campaign v8 [notas de la versión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes).
+>Esta capacidad requiere una actualización de Campaign v8.6.3 <!--or v8.7.2-->. Obtenga más información en la consola de cliente de Campaign v8 [notas de la versión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Mejoras {#improvements-24-7}
 

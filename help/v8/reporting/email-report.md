@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '2289'
-ht-degree: 42%
+ht-degree: 41%
 
 ---
 
@@ -279,7 +279,7 @@ El informe de **[!UICONTROL URL y flujos de clics]** proporciona indicadores cla
 
 * **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
+* **[!UICONTROL Platform average]**: la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
 
 +++
 

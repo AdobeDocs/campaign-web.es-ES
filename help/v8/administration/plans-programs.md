@@ -3,7 +3,7 @@ audience: end-user
 title: Planes y programas
 description: Obtenga información sobre cómo crear y configurar planes y programas en Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # Planes y programas {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Planes y programas"
 >abstract="Ahora puede configurar la jerarquía de carpetas para planes y programas de marketing en la interfaz de usuario web de Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
@@ -74,7 +74,7 @@ Para administrar **[!UICONTROL opciones personalizadas]**:
 
 ![](assets/program_edit.png){zoomable="yes"}
 
-Puede configurarlos de la siguiente manera:
+Puede configurarlas:
 
 ![](assets/program_customfields.png){zoomable="yes"}
 
@@ -82,9 +82,9 @@ Puede configurarlos de la siguiente manera:
 
 Tiene dos formas de vincular una campaña a un programa:
 
-### Forma #1 : Ya tiene un programa y desea crear una campaña vinculada a él
+### Forma #1: ya tiene un programa y desea crear una campaña vinculada a él
 
-Para vincular una nueva campaña a su programa, cree directamente su campaña en el programa:
+Para vincular una nueva campaña al programa, cree directamente la campaña en el programa:
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ La configuración de **[!UICONTROL Carpeta]** se rellenará automáticamente con
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### Forma #2 : ya tiene una campaña y desea vincularla a un programa existente
+### Forma #2: ya tiene una campaña y desea vincularla a un programa existente
 
 Vaya al botón **[!UICONTROL Configuración]** de la campaña que desea vincular a su programa:
 

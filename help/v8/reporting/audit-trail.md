@@ -4,7 +4,7 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 # Pista de auditoría{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="Pista de auditoría"
 >abstract="La nueva pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en la instancia de Adobe Campaign en tiempo real."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
@@ -92,11 +92,11 @@ Para acceder a la **[!UICONTROL pista de auditoría]** de su instancia:
 
 1. La ventana **[!UICONTROL Entidad de auditoría]** le proporciona información más detallada sobre la entidad elegida, como:
 
-   * **[!UICONTROL Tipo]** : flujo de trabajo, opciones, envíos o esquemas.
-   * **[!UICONTROL Entidad]** : Nombre interno de sus actividades.
-   * **[!UICONTROL Modificado por]** : Nombre de usuario de la última persona que modificó esta entidad por última vez.
-   * **[!UICONTROL Acción]** : última acción realizada en esta entidad, ya sea Creada, Modificada o Eliminada.
-   * **[!UICONTROL Fecha de modificación]** : Fecha de la última acción realizada en esta entidad.
+   * **[!UICONTROL Tipo]**: flujo de trabajo, opciones, envíos o esquemas.
+   * **[!UICONTROL Entidad]**: Nombre interno de sus actividades.
+   * **[!UICONTROL Modificado por]**: Nombre de usuario de la última persona que modificó esta entidad por última vez.
+   * **[!UICONTROL Acción]**: última acción realizada en esta entidad, ya sea Creada, Modificada o Eliminada.
+   * **[!UICONTROL Fecha de modificación]**: Fecha de la última acción realizada en esta entidad.
 
    El bloque de código proporciona más información sobre lo que se ha cambiado exactamente en la entidad.
 

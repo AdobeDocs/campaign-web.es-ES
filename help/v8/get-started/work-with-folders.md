@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajo con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 12%
@@ -57,7 +57,7 @@ En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Deliveries]*
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-1. Cambie el tipo de carpeta haciendo clic en el icono de Folder type si es necesario y selecciónela en la lista presentada, como se muestra a continuación:
+1. Cambie el tipo de su carpeta haciendo clic en el icono de Tipo de carpeta si es necesario y selecciónela en la lista presentada, como se muestra a continuación:
 
 ![](assets/folder_type.png){zoomable="yes"}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 50%
@@ -31,7 +31,7 @@ ht-degree: 50%
 >id="acw_deliveries_email_options"
 >title="Editar seguimiento"
 >abstract="De forma predeterminada, el seguimiento está habilitado para el envío, lo que significa que se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje. Puede desactivar esta opción desde aquí."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=es" text="Adición de vínculos y seguimiento de mensajes"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adición de vínculos y seguimiento de mensajes"
 
 La pantalla del correo electrónico **[!UICONTROL Editar contenido]** le permite:
 

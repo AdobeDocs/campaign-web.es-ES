@@ -3,10 +3,10 @@ audience: end-user
 title: Informes globales del canal de correo electrónico
 description: Más información sobre los informes globales del canal de correo electrónico
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1592'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -239,7 +239,7 @@ El informe **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave 
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
+* **[!UICONTROL Platform average]**: la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
 +++
 
 ### Los 10 vínculos más visitados {#top10-global-report-email}

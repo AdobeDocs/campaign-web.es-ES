@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal de correo electrónico
 description: Más información sobre los informes de campaña para el canal de correo electrónico
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -246,7 +246,7 @@ El informe **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave 
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Platform average]** : la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
+* **[!UICONTROL Platform average]**: la tasa promedio, mostrada debajo de cada tasa (reacción, distintos clics y clics acumulados), se calcula para los envíos realizados durante los seis meses anteriores. Solo se tienen en cuenta los envíos con la misma tipología y en el mismo canal. Se excluyen las pruebas.
 
 +++
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Acerca de la cuarentena
 description: Comprensión de la administración de direcciones en cuarentena
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 13%
@@ -33,7 +33,7 @@ La cuarentena le ayudará a reducir el coste de envío de SMS mediante la exclus
 
 ## Por qué se envía una dirección a cuarentena
 
-Muchas razones pueden enviar una dirección a cuarentena:
+Muchas razones pueden enviar una dirección a la cuarentena:
 
 - Para SMS, números de teléfono erróneos
 - En el caso de los SMS, cuando el perfil responde a un mensaje SMS con una palabra clave como &quot;STOP&quot;

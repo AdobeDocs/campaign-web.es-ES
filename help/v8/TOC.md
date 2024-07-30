@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [Crear un público único](audience/one-time-audience.md)
       + [Importación de un público de correo electrónico desde un archivo](audience/file-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
+      + [Agregar un grupo de reventado](audience/trap-group.md)
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Crear y administrar servicios de suscripción](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)
