@@ -2,22 +2,14 @@
 title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 19%
+source-wordcount: '225'
+ht-degree: 8%
 
 ---
 
 # Configuración de los campos personalizados {#custom-fields}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Campos personalizados"
->abstract="Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Ahora están disponibles en la interfaz de usuario web."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
-
-
 
 Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Obtenga más información en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 

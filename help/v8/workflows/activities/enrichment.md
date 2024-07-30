@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 44%
+source-wordcount: '1636'
+ht-degree: 43%
 
 ---
 
@@ -106,14 +106,6 @@ Para crear un vínculo, siga estos pasos:
 Hay disponible un ejemplo de flujo de trabajo con vínculos en la sección [Ejemplos](#link-example).
 
 ## Reconciliación de datos {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Reconciliación de datos"
->abstract="La actividad Enriquecimiento de flujo de trabajo ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Carga de archivo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
-
 
 La actividad **Enrichment** se puede usar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único.
 
