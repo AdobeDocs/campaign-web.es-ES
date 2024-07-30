@@ -2,10 +2,10 @@
 title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario de Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,51 @@ Si tiene acceso a varios entornos, incluido el Panel de control de Campaign, hag
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
+
+### Control de acceso {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Permiso obligatorio"
+>abstract="El administrador debe otorgarle permiso para poder crear este objeto."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Este público es de solo lectura"
+>abstract="No tiene permisos para editar este público. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Este servicio es de solo lectura"
+>abstract="No tiene permisos para editar este servicio. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Perfil de solo lectura de los destinatarios"
+>abstract="No tiene permisos para editar este perfil. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Esta campaña es de solo lectura"
+>abstract="No tiene permisos para editar esta campaña. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Este envío es de solo lectura"
+>abstract="No tiene permisos para editar este envío. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Este flujo de trabajo es de solo lectura"
+>abstract="No tiene permisos para editar este flujo de trabajo. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
+
+El control de acceso puede restringir el acceso a objetos y datos de listas principales, como envíos, destinatarios o flujos de trabajo. Estas restricciones también se aplican en el árbol de navegación del Explorador. Además, necesita permisos para crear, eliminar, duplicar y editar objetos desde la interfaz de usuario.
+
+Todos los permisos de la web de Campaign se sincronizan con los permisos de la consola del cliente de Campaign. Solo los administradores de Campaign pueden definir y modificar permisos de usuario.
+
+A medida que navega por la interfaz de usuario web de Campaign, puede acceder a datos, objetos y funcionalidades en función de sus permisos. Por ejemplo, si no tiene permisos de acceso a una carpeta, no podrá verla. Los permisos también afectan a la administración de objetos y datos. Sin permisos de escritura para una carpeta específica, no se puede crear un envío en dicha carpeta, aunque se pueda ver en la interfaz de usuario.
+
+Puede aprender a [ver y administrar permisos aquí](permissions.md).
 
 ## Navegación superior de Adobe Experience Cloud {#top-bar}
 

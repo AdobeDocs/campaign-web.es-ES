@@ -1,0 +1,31 @@
+---
+audience: end-user
+title: Añadir fragmentos de expresiones en el editor de expresiones
+description: Aprenda a crear con fragmentos de contenido
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
+
+---
+
+# Añadir fragmentos de expresiones en el editor de expresiones {#expression}
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Fragmentos"
+>abstract="Todos los fragmentos de expresiones creados en la zona protegida actual se muestran en esta lista. Para utilizar un fragmento, haga clic en el botón + para agregar el ID de fragmento al editor."
+
+<!-- pas vu dans l'UI-->
+
+Los fragmentos de expresión se pueden aprovechar en cualquier campo que se pueda editar con el editor de expresiones. Para añadir fragmentos de expresión al contenido, siga los pasos a continuación.
+
+1. Abra [el editor de expresiones](../personalization/gs-personalization.md) y seleccione el menú **[!UICONTROL Fragmentos]** en el panel izquierdo.
+
+   La lista muestra todos los fragmentos de expresiones que se han creado en la zona protegida actual.
+
+1. Haga clic en el icono `+` junto a un fragmento de expresión para añadirlo a su contenido.
+
+   ![](assets/fragment-add-expression.png)
+
+1. El ID de fragmento se agrega al editor. Si abre el fragmento de expresión correspondiente y lo edita desde la interfaz, los cambios se sincronizan. Se propagan automáticamente a todos los **[!UICONTROL borradores]** envíos que contienen ese ID de fragmento.

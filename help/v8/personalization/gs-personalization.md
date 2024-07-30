@@ -1,6 +1,6 @@
 ---
-title: Introducción al contenido dinámico
-description: Aprenda a hacer que su contenido sea dinámico mediante la personalización, el contenido condicional y los bloques de contenido integrados.
+title: ¿Cómo hacer que su contenido sea dinámico?
+description: Aprenda a hacer que el contenido sea dinámico mediante la personalización y el contenido condicional.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# Introducción al contenido dinámico {#gs-dynamic-content}
+# ¿Cómo hacer que su contenido sea dinámico? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalización"
->abstract="El editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia ajustada del contenido. Puede personalizar los mensajes para cada destinatario aprovechando los datos de perfil y crear contenido condicional para adaptar el mensaje a cada destinatario y mostrar solo el contenido relevante. Además, hay bloques de personalización disponibles para añadir contenido personalizado predefinido a los envíos."
+>abstract="El editor de expresiones permite seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia ajustada del contenido. Puede personalizar los mensajes para cada destinatario aprovechando los datos de perfil y creando contenido condicional para adaptar el mensaje a cada destinatario y mostrar solo el contenido relevante."
 
 Como experto en marketing, es crucial dirigirse a los clientes que están genuinamente interesados en sus ofertas y comprometerse con ellas proporcionando contenido efectivo y relevante. Dada la amplia gama de destinatarios que encuentra, crear varios fragmentos de contenido de marketing para atraer a diferentes personas puede consumir tiempo y ser un derroche. Aquí es donde el contenido dinámico entra en juego.
 
@@ -38,10 +38,6 @@ Puede hacer que el contenido del mensaje sea dinámico insertando construcciones
 * **Creación de contenido condicional** para adaptar los envíos a cada destinatario y mostrar únicamente el contenido relevante para un cliente determinado en función de la información que tenga sobre él. Esto le permite mostrar bloques de texto o imágenes específicos basados en condiciones. Por ejemplo, adapte un banner de correo electrónico en función de la suscripción de los destinatarios a un servicio específico.
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **Uso de bloques de personalización** para ahorrar tiempo y aprovechar el contenido personalizado fácilmente reutilizable en sus mensajes. Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a la página espejo del mensaje de correo electrónico. Los bloques de contenido están disponibles en una entrada específica del editor de personalización.
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## Acceso al editor de expresiones {#access}
 
@@ -64,35 +60,3 @@ A continuación se muestran algunos ejemplos sobre cómo acceder al editor de ex
 >[!NOTE]
 >
 >Además del editor de expresiones, también puede aprovechar un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
-
-## Vamos a profundizar {#dive-deeper}
-
-Ahora que comprende cómo hacer que el contenido sea dinámico, es hora de profundizar en estas secciones de documentación para empezar a trabajar con la función.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="Personalización del contenido" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>Adición de personalización</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="Posible cliente" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>Adición de contenido condicional</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="Poco frecuente" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>Adición de bloques de contenido integrados</strong></a>
-</div>
-<p></td>
-</tr></table>

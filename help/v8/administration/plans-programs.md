@@ -3,7 +3,7 @@ audience: end-user
 title: Planes y programas
 description: Obtenga información sobre cómo crear y configurar planes y programas en Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -28,7 +28,7 @@ Para organizarlas mejor, Adobe recomienda la siguiente jerarquía: Planificar `>
 
 ## Creación y configuración de un plan {#create-plan}
 
-Para crear un plan, debes crear una carpeta con el tipo de carpeta **[!UICONTROL Plan]** [Más información acerca de cómo crear una carpeta](create-manage-folder.md).
+Para crear un plan, debes crear una carpeta con el tipo de carpeta **[!UICONTROL Plan]** [Más información acerca de cómo crear una carpeta](../get-started/work-with-folders.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Puede configurarlas:
 
 ## Creación y configuración de un programa
 
-Para crear un programa en tu plan ([Más información sobre cómo crear un plan](#create-plan)), debes estar en tu plan y crear una carpeta con el tipo de carpeta **[!UICONTROL Programa]** [Más información sobre cómo crear una carpeta](create-manage-folder.md).
+Para crear un programa en tu plan ([Más información sobre cómo crear un plan](#create-plan)), debes estar en tu plan y crear una carpeta con el tipo de carpeta **[!UICONTROL Programa]** [Más información sobre cómo crear una carpeta](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 

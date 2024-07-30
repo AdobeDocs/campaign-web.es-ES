@@ -3,10 +3,10 @@ audience: end-user
 title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 78%
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenido SMS"
->abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, bloques de contenido y contenido dinámico. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
+>abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, fragmentos de expresiones y contenido dinámico. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
 
 1. En la página **[!UICONTROL Editar contenido]**, puede personalizar el nombre del remitente accediendo al **[!UICONTROL Campo del remitente]** e introduciendo el nombre preferido.
 
-   Además, haciendo clic en **[!UICONTROL Abrir diálogo de personalización]**, puede incluir campos de personalización, bloques de contenido y contenido dinámico en el mensaje.
+   Además, al hacer clic en **[!UICONTROL Abrir cuadro de diálogo de personalización]**, puede incluir campos de personalización, fragmentos de expresiones y contenido dinámico en el mensaje.
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

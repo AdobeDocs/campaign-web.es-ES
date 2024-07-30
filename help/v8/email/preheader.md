@@ -3,7 +3,7 @@ audience: end-user
 title: Añadir un encabezado previo en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 47%
@@ -39,7 +39,7 @@ Para definir el preencabezado del correo electrónico, siga los pasos a continua
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Desde la ventana **[!UICONTROL Editar Personalization]**, puede agregar [campos de personalización](../personalization/personalize.md), [bloques de contenido](../personalization/content-blocks.md) y [contenido condicional](../personalization/conditions.md) con las entradas específicas de la izquierda.
+1. Desde la ventana **[!UICONTROL Editar Personalization]**, puede agregar [campos personalizados](../personalization/personalize.md), [fragmentos de expresiones](../content/use-expression-fragments.md) y [contenido condicional](../personalization/conditions.md) con las entradas específicas de la izquierda.
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

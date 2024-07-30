@@ -4,8 +4,8 @@ description: Descubra las nuevas funciones incluidas en la próxima versión de 
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
-workflow-type: ht
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Ahora puede crear y utilizar fragmentos de contenido. Un fragmento de contenido 
 Hay dos tipos de fragmentos disponibles:
 
 * **Los fragmentos de expresión** son expresiones predefinidas que están disponibles en una entrada dedicada en el editor de expresiones.
-* **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico o en plantillas de contenido. [Más información](../email/fragments.md)
+* **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico o en plantillas de contenido. [Más información](../content/fragments.md)
 
   >[!AVAILABILITY]
   >

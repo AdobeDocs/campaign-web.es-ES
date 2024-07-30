@@ -3,10 +3,10 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 71%
+source-wordcount: '620'
+ht-degree: 66%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Añadir estructuras"
->abstract="Los componentes de estructura definen el diseño del fragmento. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
+>abstract="Las estructuras definen el diseño del fragmento de contenido. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definición de columnas de fragmento"
->abstract="El diseñador de correo electrónico permite definir fácilmente el diseño del fragmento mediante la definición de la estructura de columnas."
+>title="Definición de columnas de fragmento de contenido"
+>abstract="La Designer de correo electrónico permite definir fácilmente el diseño del fragmento de contenido mediante la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

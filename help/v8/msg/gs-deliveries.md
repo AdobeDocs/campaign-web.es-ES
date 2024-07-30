@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 91%
 
 ---
 
@@ -89,9 +89,9 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
   Los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. [Más información](../personalization/personalize.md)
 
-* Inserción predefinida de los **bloques de contenido**
+* Insertando **fragmentos de expresión** predefinidos
 
-  Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. Los bloques de contenido están disponibles en la entrada del editor de personalización. [Más información](../personalization/personalize.md#ootb-content-blocks)
+  Campaign viene con un conjunto de fragmentos de expresión que contienen un procesamiento específico que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. los fragmentos de expresiones están disponibles en una entrada dedicada del editor de personalización. Además, también puede crear sus propios fragmentos de expresiones para adaptarlos a sus necesidades. [Aprenda a utilizar fragmentos de expresiones](../content/use-expression-fragments.md)
 
 * Cree **contenido condicional**
 
