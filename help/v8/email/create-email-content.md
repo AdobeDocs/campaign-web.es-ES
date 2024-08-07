@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Definición de columnas de fragmento de contenido"
->abstract="La Designer de correo electrónico permite definir fácilmente el diseño del fragmento de contenido mediante la estructura de columnas."
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño del fragmento de contenido mediante la definición de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

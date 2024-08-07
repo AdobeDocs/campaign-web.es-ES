@@ -5,7 +5,7 @@ description: Aprenda a crear fragmentos de contenido
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 8%
+ht-degree: 30%
 
 ---
 
@@ -14,20 +14,20 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="Definir sus propios fragmentos de contenido"
->abstract="Defina las propiedades del fragmento y el tipo de fragmento que desea crear. A continuación, puede utilizar el diseñador de correo electrónico o el editor de expresiones para configurar el contenido del fragmento."
+>title="Defina sus propios fragmentos de contenido"
+>abstract="Defina las propiedades de los fragmentos y el tipo de fragmento que desea crear. A continuación, puede utilizar el diseñador de correo electrónico o el editor de expresiones para configurar el contenido del fragmento."
 
 <!-- pas vu dans l'UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Propiedades de fragmentos"
->abstract="Introduzca la etiqueta del fragmento. Si es necesario, puede definir opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción."
+>abstract="Introduzca la etiqueta del fragmento.  Si es necesario, puede definir opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Tipo de fragmento de contenido"
->abstract="Elija el tipo de fragmento que desea crear. **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico o en plantillas de contenido. **Los fragmentos de expresión** son expresiones predefinidas que están disponibles en una entrada dedicada en el editor de expresiones."
+>abstract="Seleccione el tipo de fragmento que desea crear. **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico o en plantillas de contenido. **Los fragmentos de expresión** son expresiones predefinidas que están disponibles en una entrada dedicada en el editor de expresiones."
 
 Existen dos formas de crear fragmentos de contenido:
 
@@ -48,7 +48,7 @@ Para crear un fragmento de contenido desde cero, siga los pasos a continuación.
 
    ![](assets/fragments-list.png)
 
-1. Introduzca la etiqueta del fragmento. Si es necesario, puede definir opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción.
+1. Introduzca la etiqueta del fragmento.  Si es necesario, puede definir opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción.
 
 1. Elija el tipo de fragmento que desea crear: **Fragmento visual** o **Fragmento de expresión**. [Conozca las diferencias entre los fragmentos visuales y de expresión](fragments.md)
 
@@ -74,12 +74,12 @@ El fragmento de contenido ya está listo para usarse al crear cualquier entrega 
 * [Añadir fragmentos visuales a los correos electrónicos](use-visual-fragments.md)
 * [Añadir fragmento de expresión al editor de expresiones](use-expression-fragments.md)
 
-## Guardar un contenido como fragmento visual {#save-as-fragment}
+## Guardar contenido como fragmento visual {#save-as-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Guardar como fragmento"
->abstract="Para guardar un contenido como fragmento visual, seleccione los elementos que desee incluir en el fragmento, incluidos los campos de personalización y el contenido dinámico. Sólo se pueden seleccionar secciones adyacentes entre sí. No puede seleccionar una estructura vacía u otro fragmento de contenido. Este contenido es un fragmento independiente, se añade a la lista de fragmentos y se puede acceder a él desde el menú dedicado. Puede utilizar este fragmento al crear cualquier correo electrónico o plantilla de contenido dentro de Campaign."
+>abstract="Para guardar contenido como fragmento visual, seleccione los elementos que desee incluir en el fragmento, incluidos los campos de personalización y el contenido dinámico. Solo se pueden seleccionar secciones adyacentes entre sí. No se puede seleccionar una estructura vacía u otro fragmento de contenido. Este contenido será entonces un fragmento independiente, que se añade a la lista de fragmentos y al que se puede acceder desde el menú dedicado. Este fragmento se podrá utilizar al generar cualquier correo electrónico o plantilla de contenido dentro de Campaign."
 
 <!--pas vu dans l'UI-->
 
@@ -95,7 +95,7 @@ Cualquier contenido del correo electrónico se puede guardar como fragmento visu
 
    >[!CAUTION]
    >
-   >Sólo se pueden seleccionar secciones adyacentes entre sí. No puede seleccionar una estructura vacía u otro fragmento de contenido.
+   >Solo se pueden seleccionar secciones adyacentes entre sí. No puede seleccionar una estructura vacía u otro fragmento de contenido.
 
    ![](assets/fragment-save-as-screen.png)
 

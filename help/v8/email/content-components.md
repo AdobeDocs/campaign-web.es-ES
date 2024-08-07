@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 65%
+ht-degree: 67%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="Acerca del contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que puede utilizar para crear el diseño de un fragmento de contenido."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un fragmento de contenido."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

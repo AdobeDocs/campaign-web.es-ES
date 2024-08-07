@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -21,12 +21,12 @@ Puede usar un fragmento visual en [envío de correo electrónico](../email/get-s
 
 ![](assets/fragments.gif)
 
-## Usar un fragmento visual {#use-fragment}
+## Uso de un fragmento visual {#use-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Opciones de fragmentos"
->abstract="Este panel proporciona opciones relacionadas con el fragmento seleccionado. Permite elegir en qué dispositivos desea que se muestre el fragmento y abrir el contenido de este fragmento. Use la ficha **[!UICONTROL Estilos]** para personalizar aún más el fragmento. También puede romper la herencia con el fragmento visual original."
+>abstract="Este panel proporciona opciones relacionadas con el fragmento seleccionado. Permite elegir en qué dispositivos desea que se muestre el fragmento y abrir el contenido de este fragmento. Use la pestaña **[!UICONTROL Estilos]** para personalizar aún más el fragmento. También puede romper la herencia con el fragmento visual original."
 
 <!-- pas vu dans l'UI-->
 

@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 38%
+ht-degree: 59%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
->title="Definir sus propios fragmentos de contenido"
->abstract="Un fragmento de contenido es un componente reutilizable al que se puede hacer referencia en uno o varios mensajes de todas las campañas. Esta capacidad se utiliza para generar previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar contenido rápidamente en un proceso de diseño mejorado. Existen dos tipos de fragmentos de contenido: fragmentos visuales, disponibles en el diseñador de correo electrónico, y fragmentos de expresiones en el editor de expresiones."
+>title="Defina sus propios fragmentos de contenido"
+>abstract="Un fragmento de contenido es un componente reutilizable al que se puede hacer referencia en uno o varios mensajes de distintas campañas. Esta capacidad se utiliza para la construcción previa de varios bloques de contenido personalizado que pueden ser utilizados por los usuarios de marketing para montar rápidamente los contenidos de correo electrónico en un proceso de diseño mejorado. Existen dos tipos de fragmentos de contenido: fragmentos visuales, disponibles en el diseñador de correo electrónico, y fragmentos de expresiones en el editor de expresiones."
 
 ## ¿Qué son los fragmentos de contenido? {#what}
 

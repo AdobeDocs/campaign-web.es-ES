@@ -5,7 +5,7 @@ description: Aprenda a crear con fragmentos de contenido
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Fragmentos"
->abstract="Todos los fragmentos de expresiones creados en la zona protegida actual se muestran en esta lista. Para utilizar un fragmento, haga clic en el botón + para agregar el ID de fragmento al editor."
+>abstract="Todos los fragmentos de expresiones creados en la zona protegida actual se muestran en esta lista. Para utilizar un fragmento, haga clic en el botón + para añadir el ID del fragmento al editor."
 
 <!-- pas vu dans l'UI-->
 
