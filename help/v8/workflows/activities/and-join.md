@@ -5,8 +5,8 @@ description: Aprenda a utilizar la actividad de flujo de trabajo Combinación-Y
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
 source-wordcount: '1713'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -81,9 +81,9 @@ En la sección ADMINISTRACIÓN DE CONTENIDO, puede ver las plantillas y fragment
 
 * **Plantillas de contenido**: para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Esta funcionalidad, que solo está disponible para correos electrónicos, permite a los usuarios orientados a contenido trabajar en plantillas independientes para que los usuarios de marketing puedan reutilizarlas y adaptarlas dentro de sus propias campañas de correo electrónico. Obtenga más información en [esta sección](../email/create-email-templates.md).
 
-* **Fragmentos**: un fragmento es un componente reutilizable al que se puede hacer referencia en uno o más envíos de campañas. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. [Aprenda a trabajar con fragmentos](../content/fragments.md)
+* **Fragmentos**: un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios envíos de distintas campañas. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. [Aprenda a trabajar con fragmentos](../content/fragments.md)
 
-Esta funcionalidad permite crear previamente varios bloques de contenido personalizados que los usuarios de marketing pueden utilizar para ensamblar rápidamente el contenido del correo electrónico en un proceso de diseño mejorado.
+Esta funcionalidad se utiliza para la construcción previa de múltiples bloques de contenido personalizado que pueden ser utilizados por los usuarios de marketing para combinar rápidamente los contenidos de correo electrónico en un proceso de diseño mejorado.
 
 ### Administración de clientes {#user-interface-customer-management}
 
