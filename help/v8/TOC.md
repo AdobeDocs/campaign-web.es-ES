@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 93%
    + [Descubra la interfaz](get-started/user-interface.md)
    + [Examen y filtrado de listas](get-started/list-filters.md)
    + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
-   + [Trabajar con carpetas](get-started/work-with-folders.md)
+   + [Trabajo con carpetas](get-started/work-with-folders.md)
    + [Permisos](get-started/permissions.md)
-   + [Web y Consola de cliente de Campaign](get-started/capability-matrix.md)
+   + [Consola web y de cliente de Campaign](get-started/capability-matrix.md)
    + [De Campaign Standard a v8](rn/acs-migration.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
 + Mensajes y envíos {#msg}
@@ -47,9 +47,9 @@ ht-degree: 93%
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)
-      + Inserción enriquecida {#rich-push}
+      + Push enriquecido {#rich-push}
          + [Diseño de un envío push enriquecido para Android](push/rich-push.md)
-         + [Diseño de una entrega push enriquecida con iOS](push/rich-push-ios.md)
+         + [Diseño de un envío push enriquecido para iOS](push/rich-push-ios.md)
       + [Diseño de un envío push](push/content-push.md)
       + [Previsualizar y enviar un envío push](push/send-push.md)
    + SMS {#sms}
@@ -79,8 +79,8 @@ ht-degree: 93%
       + [Introducción a las alertas de envío](msg/delivery-alerting.md)
       + [Paneles de alertas de envío](msg/delivery-alerting-dashboards.md)
       + [Criterios de alertas de envío](msg/delivery-alerting-criteria.md)
-+ Administración de contenido {#content}
-   + Crear contenido dinámico {#dynamic-content}
++ Gestión de contenidos {#content}
+   + Creación de contenido dinámico {#dynamic-content}
       + [¿Cómo hacer que su contenido sea dinámico?](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)
       + [Generación de contenido condicional](personalization/conditions.md)
@@ -88,10 +88,10 @@ ht-degree: 93%
       + [Trabajo con plantillas de contenido](email/create-email-templates.md)
       + Fragmentos de contenido {#fragments}
          + [Introducción a los fragmentos de contenido](content/fragments.md)
-         + [Creación y edición de fragmentos de contenido](content/create-fragment.md)
-         + [Uso de fragmentos visuales en los correos electrónicos](content/use-visual-fragments.md)
-         + [Usar fragmentos de expresiones en el editor de expresiones](content/use-expression-fragments.md)
-   + Diseñar correos electrónicos {#email-design}
+         + [Creación y edición de los fragmentos de contenido](content/create-fragment.md)
+         + [Uso de fragmentos visuales en correos electrónicos](content/use-visual-fragments.md)
+         + [Uso de fragmentos de expresiones en el editor de expresiones](content/use-expression-fragments.md)
+   + Diseño de correos electrónicos {#email-design}
       + [Introducción al Diseñador de correo electrónico](email/get-started-email-designer.md)
       + Comience a dar forma al correo electrónico {#start-design}
          + [Empezar desde cero](email/create-email-content.md)
@@ -134,7 +134,7 @@ ht-degree: 93%
       + [Crear un público único](audience/one-time-audience.md)
       + [Importación de un público de correo electrónico desde un archivo](audience/file-audience.md)
       + [Establecer un grupo de control](audience/control-group.md)
-      + [Agregar un grupo de reventado](audience/trap-group.md)
+      + [Añadir un grupo de reventado](audience/trap-group.md)
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Crear y administrar servicios de suscripción](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)

@@ -3,9 +3,9 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Hay dos tipos de fragmentos disponibles:
 
 ### Grupo de reventado {#24-7-2}
 
-Un **grupo de reventado** es una lista de direcciones semilla. Se utiliza para incluir direcciones específicas en los envíos y, a continuación, concentrarse en los perfiles que no coinciden con los criterios objetivo definidos. De este modo, los destinatarios que estén fuera del público del envío pueden recibirlo como lo haría cualquier otro destinatario objetivo. Puede utilizar direcciones semilla al enviar pruebas o para proteger la lista de correo. [Más información](../audience/trap-group.md)
+Un **grupo de reventado** es una lista de direcciones semilla. Se utiliza para incluir direcciones específicas en los envíos y, a continuación, concentrarse en los perfiles que no coinciden con los criterios objetivo definidos. De este modo, los destinatarios que estén fuera del público del envío pueden recibirlo como lo haría cualquier otro destinatario objetivo. Puede utilizar direcciones semilla al enviar pruebas o para proteger la lista de su campaña de correo. [Más información](../audience/trap-group.md)
 
 ### Plantillas de notificaciones push enriquecidas {#24-7-3}
 
@@ -49,7 +49,7 @@ Ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enr
 
 >[!AVAILABILITY]
 >
->Esta capacidad requiere una actualización de Campaign v8.6.3 <!--or v8.7.2-->. Obtenga más información en la consola de cliente de Campaign v8 [notas de la versión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Esta capacidad requiere una actualización a la versión 8.6.3 de Campaign<!--or v8.7.2-->. Obtenga más información en las [Notas de la versión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la consola del cliente de la versión 8 de Campaign.
 
 ### Mejoras {#improvements-24-7}
 
