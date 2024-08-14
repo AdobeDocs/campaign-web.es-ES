@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
 source-wordcount: '1713'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -345,8 +345,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="Propiedades push de mensajería transaccional"
->abstract="Propiedades push de mensajería transaccional"
+>title="Propiedades de push de mensajería transaccional"
+>abstract="Propiedades de push de mensajería transaccional"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"

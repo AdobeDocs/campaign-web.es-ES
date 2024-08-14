@@ -5,7 +5,7 @@ description: Aprenda a utilizar un grupo de reventado para su envío en la inter
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Grupo de reventado"
->abstract="Puede utilizar un grupo de captura para incluir direcciones específicas en los envíos con el fin de monitorizar y verificar el proceso de distribución mediante perfiles de destino que no coinciden con los criterios de destino definidos."
+>abstract="Puede utilizar un grupo de reventado para incluir direcciones específicas en los envíos con el fin de monitorizar y verificar el proceso de distribución mediante perfiles de direccionamiento que no coinciden con los criterios de destino definidos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 Se usa un **[!UICONTROL grupo de reventado]** (también conocido como **[!UICONTROL lista semilla]**) para incluir direcciones específicas en las entregas a fin de supervisar y verificar el proceso de distribución mediante perfiles de destino que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance de la entrega pueden recibirlo como lo haría cualquier otro destinatario.

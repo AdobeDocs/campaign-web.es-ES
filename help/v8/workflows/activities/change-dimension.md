@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="Actividad cambiar dimensión"
->abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que genera un público. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión “contratos” a la dimensión “clientes."
+>abstract="Esta actividad le permite cambiar la dimensión de segmentación a medida que genera un público. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, puede cambiar de la dimensión “contratos” a la dimensión “clientes”."
 
 La actividad **Cambiar dimensión** es una actividad **Segmentación**. Esta actividad le permite cambiar la dimensión de segmentación a medida que crea el flujo de trabajo. Desplace el eje en función de la plantilla de datos y la dimensión de entrada. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
 
