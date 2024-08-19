@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a Adobe Campaign Web
 description: Introducción a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
+source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Utilice Campaign para lo siguiente:
 * **Integración de canales de correo electrónico, móviles, en línea y sin conexión en el recorrido del cliente**
 * **Automatización de la entrega de mensajes y ofertas significativos y oportunos**
 
-## Descubrimiento de la interfaz de usuario web de Campaign {#web}
+## Interfaz de usuario web de Discover Campaign {#web}
 
 Inicialmente, solo estaba disponible a través de la [consola del cliente](#ac-client). Aunque ahora, Campaign proporciona una nueva web con una interfaz de usuario (IU) mejorada: con mejores en la facilidad de uso, en la accesibilidad, y un nuevo diseño para mejorar significativamente la experiencia del usuario. Esta nueva interfaz de usuario moderna simplifica el diseño y el envío de las campañas de marketing, y aporta coherencia junto con otras soluciones de Adobe, como Adobe Experience Platform.
 
@@ -53,7 +53,7 @@ Obtenga información sobre cómo conectarse a la web de Adobe Campaign en [esta 
 
 ## Acerca de la consola del cliente de Campaign {#ac-client}
 
-La consola del cliente de Campaign es una aplicación basada en el explorador que se instala en el sistema. Utiliza la API de servicios web para conectarse al servidor de aplicaciones de Campaign.
+La consola de cliente está diseñada para que los administradores y los usuarios avanzados realicen sus tareas. La consola del cliente de Campaign es una aplicación basada en el explorador que se instala en el sistema. Utiliza la API de servicios web para conectarse al servidor de aplicaciones de Campaign.
 
 Los datos de campaña se almacenan en el servidor de aplicaciones. Los datos están disponibles tanto en la consola del cliente como en la interfaz de usuario web de Campaign. Por ejemplo, si crea una plantilla de envíos mediante la consola del cliente, también estará disponible en la interfaz de usuario web de Campaign. Y si crea un envío de correo electrónico en la interfaz de usuario web de Campaign, también puede acceder a este envío desde la consola del cliente.
 
