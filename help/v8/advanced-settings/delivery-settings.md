@@ -4,9 +4,9 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2416'
 ht-degree: 56%
 
 ---
@@ -286,3 +286,9 @@ También puede personalizar la etiqueta de las pruebas:
 
 * Use **[!UICONTROL Mantener el código de envío de la prueba]** para asociar a la prueba el mismo código de envío que el definido para la entrega con el que se relaciona.
 * De forma predeterminada, el asunto de la prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Prefijo de la etiqueta]**.
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variables"
+>abstract="Variables"
