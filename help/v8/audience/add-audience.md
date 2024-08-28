@@ -3,10 +3,10 @@ audience: end-user
 title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 31%
+source-wordcount: '347'
+ht-degree: 36%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 31%
 >id="acw_deliveries_email_audience_select"
 >title="Selección de un público existente"
 >abstract="Examine la lista para seleccionar un público existente. Utilice el icono “Mostrar filtros” para filtrar la lista o seleccionar una carpeta específica."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Perfeccionar destinatario"
+>abstract="Estas reglas solo se pueden cambiar en la consola de escritorio."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="Público destinatario adicional"
+>abstract="Estas reglas solo se pueden cambiar en la consola de escritorio."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
 * [Cree una audiencia única](one-time-audience.md) con el modelador de consultas.
