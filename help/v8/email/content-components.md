@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1199'
 ht-degree: 65%
 
 ---
@@ -150,8 +150,7 @@ Utilice el componente **[!UICONTROL HTML]** para copiar y pegar las diferentes p
 
 >[!IMPORTANT]
 >
->El acceso al menú de Assets está limitado a los usuarios con una licencia de Adobe de Experience Essentials activa. Si no dispone de esta licencia, el menú Assets no estará disponible.
-
+>El acceso al menú de Assets está limitado a los usuarios con una licencia activa de Adobe Experience Manager as a Cloud Service. Si no dispone de esta licencia, el menú Assets no estará disponible.
 
 Utilice el componente **[!UICONTROL Imagen]** para insertar un archivo de imagen desde el equipo en el correo electrónico.
 
