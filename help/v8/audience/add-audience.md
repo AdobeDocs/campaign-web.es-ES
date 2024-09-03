@@ -3,10 +3,10 @@ audience: end-user
 title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 36%
+source-wordcount: '323'
+ht-degree: 31%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 36%
 >id="acw_deliveries_email_audience_select"
 >title="Selección de un público existente"
 >abstract="Examine la lista para seleccionar un público existente. Utilice el icono “Mostrar filtros” para filtrar la lista o seleccionar una carpeta específica."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="Perfeccionar destinatario"
->abstract="Estas reglas solo se pueden cambiar en la consola de escritorio."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="Público destinatario adicional"
->abstract="Estas reglas solo se pueden cambiar en la consola de escritorio."
 
 En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
 * [Cree una audiencia única](one-time-audience.md) con el modelador de consultas.
@@ -58,4 +48,4 @@ Para seleccionar un público existente para el mensaje, siga los pasos a continu
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](control-group.md)
+1. También puede establecer un grupo de control para medir el impacto de sus campañas. El grupo de control no recibe el mensaje. Esto le permite comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](control-group.md)

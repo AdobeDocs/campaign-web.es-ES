@@ -3,10 +3,10 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 31%
+source-wordcount: '1619'
+ht-degree: 28%
 
 ---
 
@@ -98,6 +98,8 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    De manera predeterminada, las páginas de destino se almacenan en la carpeta **[!UICONTROL Aplicaciones web]**. Puede cambiarlo si busca la ubicación deseada en **[!UICONTROL Opciones adicionales]**. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
+   También puede configurar el captcha para proteger la página de aterrizaje. [Obtenga más información aquí](#captcha).
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. En la sección **[!UICONTROL Carga previa de datos]**, están disponibles las dos opciones siguientes:
@@ -155,6 +157,28 @@ Para crear una página de aterrizaje, siga estos pasos:
 1. Haga clic en **[!UICONTROL Revisar y publicar]**.
 
 Una vez que haya definido toda la configuración y [diseñado](lp-content.md) todas las páginas, puede [probar](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje como se detalla a continuación.
+
+## Proteja su página de aterrizaje con un captcha {#captcha}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que usan **Adobe Campaign v8.7.2 actualizado con la última versión de corrección**, y no se puede implementar en ningún otro entorno.
+
+La configuración de un captcha le ayuda a proteger la página de aterrizaje del spam y los abusos.
+
+Para usarlo, vaya a las **[!UICONTROL Propiedades]** de su página de aterrizaje.
+En **[!UICONTROL Opciones adicionales]** también. Active la opción **[!UICONTROL Habilitar solución captcha adicional]**.
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+Para comprobar la configuración del captcha, haga clic en el botón **[!UICONTROL Revisar y publicar]** y en **[!UICONTROL Simular contenido]**. Al enviar el formulario, verá el widget captcha funcionando durante la validación como se muestra a continuación.
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>El widget captcha en Adobe Campaign v8 es ALTCHA y funciona en modo flotante. Aparece durante la validación y desaparece una vez completado el proceso.
+
 
 ## Prueba de la página de aterrizaje {#test-landing-page}
 

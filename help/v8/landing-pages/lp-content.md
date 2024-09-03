@@ -3,10 +3,10 @@ title: Definición del contenido específico de la página de aterrizaje
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
+source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 15%
+source-wordcount: '1226'
+ht-degree: 16%
 
 ---
 
@@ -135,6 +135,20 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
    Al diseñar un correo electrónico, si define un vínculo de tipo **[!UICONTROL Página de aterrizaje]** a esta página de aterrizaje, podrá seleccionar cualquier servicio de la lista. A continuación, puede seleccionar otros servicios al definir otros vínculos a esta página de aterrizaje. [Más información sobre cómo insertar vínculos](../email/message-tracking.md)
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+
+1. Puede enviar un mensaje sobre el envío de la página de aterrizaje. [Obtenga más información aquí](#lp-message)
+
+### Enviar un mensaje después del envío {#lp-message}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
+
+Para enviar automáticamente un mensaje de confirmación después del envío de una página de aterrizaje, siga estos pasos:
+1. En la sección **[!UICONTROL LLAMADA A LA ACCIÓN]**, marque la opción **[!UICONTROL Enviar correo electrónico de confirmación]**.
+1. En la lista desplegable asociada, elija la plantilla de mensaje transaccional que debe enviarse.
+
+![](assets/lp-confirmation.png){zoomable="yes"}
 
 ## Definir estilos de formulario de una página de aterrizaje {#lp-form-styles}
 

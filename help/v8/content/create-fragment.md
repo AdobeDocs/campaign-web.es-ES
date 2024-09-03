@@ -2,10 +2,10 @@
 audience: end-user
 title: Crear fragmentos de contenido
 description: Aprenda a crear fragmentos de contenido
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 30%
+source-wordcount: '1013'
+ht-degree: 27%
 
 ---
 
@@ -141,11 +141,23 @@ Para eliminar un fragmento de contenido, siga estos pasos:
 >
 >Al eliminar un fragmento, se actualizan las entregas y las plantillas que lo utilizan: el fragmento se elimina del contenido, pero se sigue haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, debe interrumpir la herencia antes de eliminar el fragmento [, tal como se detalla en esta sección ](use-visual-fragments.md#break-inheritance).
 
+### Archivar un fragmento de contenido {#archive}
+
+Puede limpiar la lista de fragmentos de los fragmentos que ya no son relevantes para su marca. Para ello, haga clic en el botón **[!UICONTROL Más acciones]** que está junto al fragmento deseado y seleccione **[!UICONTROL Archivar]**. El fragmento se eliminará de la lista de fragmentos, lo que impedirá que los usuarios lo utilicen en futuros correos electrónicos o plantillas.
+
+Para acceder a los fragmentos archivados, utilice el panel de filtrado para mostrarlos. Para desarchivar un fragmento, haga clic en el botón **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Desarchivar]**.
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>Si archiva un fragmento que se utiliza en un contenido, ese contenido no se ve afectado.
+
 ### Duplicación de un fragmento de contenido {#duplicate-fragments}
 
 Puede duplicar fácilmente un fragmento de contenido para crear uno nuevo. Para duplicar un fragmento existente, siga estos pasos:
 
-1. Vaya a la lista de fragmentos y haga clic en el botón **[!UICONTROL Más acciones]** que está junto al fragmento que desea eliminar.
+1. Examine la lista de fragmentos y haga clic en el botón **[!UICONTROL Más acciones]** que está junto al fragmento que desea duplicar.
 1. Haga clic en **Duplicar** y confirme.
 1. Introduzca la etiqueta del nuevo fragmento y guarde los cambios.
 

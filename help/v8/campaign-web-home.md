@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 89%
 
 ---
 
@@ -51,23 +51,23 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
->[!TAB Ya está aquí la versión de julio.]
+>[!TAB ¡La versión de agosto está activa!]
 
 Descubra las nuevas funciones y mejoras que se incluyen en la versión de julio de 2024 de la interfaz de usuario web de Adobe Campaign.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Alertas de envío]
+>[!TAB Distribución de valores]
 
-Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos.
+Al acceder a la lista de campos para personalizar, ahora puede comprobar cómo se distribuyen los valores para cada campo.
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB Planes y programas]
+>[!TAB Captcha en páginas de aterrizaje]
 
-Adobe Campaign permite configurar la jerarquía de carpetas para planes y programas de marketing.
+Ahora puede añadir captcha para proteger la página de aterrizaje del spam y los abusos causados por los bots. Esta capacidad está en disponibilidad limitada.
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
