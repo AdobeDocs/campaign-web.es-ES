@@ -1,134 +1,45 @@
 ---
 product: campaign
-title: Trabajar con envíos
-description: Aprenda a crear el primer envío en la web de Campaign
+title: Acceso a entregas
+description: Obtenga información sobre cómo acceder y administrar los envíos en Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 91%
+source-wordcount: '454'
+ht-degree: 68%
 
 ---
 
-# Trabajar con envíos {#work-with-deliveries}
+# Acceso a entregas {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
 >abstract="Un envío es una comunicación que se envía a un público a través de un canal específico: correo electrónico, SMS o Push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de los envíos completados. Haga clic en el botón **Crear envío** para añadir un nuevo envío."
 
-## Creación de un envío {#create-delivery}
-
-Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]** o crear envíos en el contexto de un flujo de trabajo, incluidos o no en una campaña.
-
-Examine las pestañas siguientes para aprender a crear un envío:
-
->[!BEGINTABS]
-
->[!TAB Creación de un envío independiente]
-
-Para crear un envío independiente, siga estos pasos:
-
-1. Vaya al menú **[!UICONTROL Envíos]** en la navegación de la izquierda y haga clic en el botón **[!UICONTROL Creación de envíos]**.
-
-   ![](assets/create-a-delivery.png){zoomable="yes"}
-
-1. Elija un canal para el envío.
-1. Defina el público del envío para el público destinatario principal y el grupo de control. [Más información sobre las audiencias](../audience/about-recipients.md).
-
-   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
-
-1. Definición del contenido del mensaje. Obtenga más información acerca de los canales de envío y cómo definir un contenido de envío en estas secciones:
-
-   * [Canal de correo electrónico](../email/create-email.md)
-   * [Canal de notificaciones push](../push/gs-push.md)
-   * [Canal de SMS](../sms/create-sms.md)
-
-1. (opcional) Defina la [programación](#gs-schedule) de envíos. Si no se define ninguna programación, los mensajes se envían inmediatamente después de hacer clic en el botón **[!UICONTROL Enviar]**.
-1. Haga clic en el botón **[!UICONTROL Revisar y enviar]** para comprobar su configuración.
-1. Utilice el botón **[!UICONTROL Simular contenido]** para probar el envío y la configuración de personalización. Puede obtener más información sobre la simulación de mensajes en [esta sección](../preview-test/preview-test.md).
-1. Haga clic en el botón **[!UICONTROL Preparar]** para calcular el público destinatario y generar los mensajes. El paso de preparación puede tardar unos minutos. Cuando la preparación haya finalizado, los mensajes estarán listos para enviarse. En caso de error, vaya a los **Registros** para comprobar las alertas y advertencias.
-1. Compruebe los resultados y haga clic en el botón **[!UICONTROL Enviar]** para comenzar a enviar mensajes.
-1. Una vez enviados los mensajes, vaya a la sección **Informes** para acceder a métricas clave. Obtenga más información sobre los informes de envíos en [esta sección](../reporting/delivery-reports.md).
-
->[!TAB Creación de un envío en un flujo de trabajo]
-
-Para crear un envío en un flujo de trabajo, siga estos pasos:
-
-1. Cree un flujo de trabajo o abra uno existente. [Más información sobre los flujos de trabajo](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Agregue y configure una actividad [**[!UICONTROL Generar audiencia]**](../workflows/activities/build-audience.md).
-1. Haga clic en el icono `+` y seleccione una actividad de envío: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]** o **[!UICONTROL Notificación push (iOS)]**. Obtenga más información acerca de las actividades del canal de envío en un flujo de trabajo y cómo definir un contenido de envío en [esta sección](../workflows/activities/channels.md).
-
-   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
-
-1. Inicie el flujo de trabajo y compruebe los registros.
-
-También puede añadir envíos en una campaña sin crear un flujo de trabajo. Para conseguirlo, vaya a la pestaña **[!UICONTROL Envíos]** de la campaña y haga clic en el botón **[!UICONTROL Creación de envíos]**.
-
-![](assets/new-campaign-delivery.png){zoomable="yes"}
-
-Los pasos de configuración son similares a los de los envíos independientes.
-
-Para obtener más información sobre cómo configurar una campaña y administrar los envíos que pertenecen a una campaña, consulte [esta sección](../campaigns/gs-campaigns.md).
-
->[!ENDTABS]
-
-
-## Adición de personalización {#personalization}
-
-Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información acerca las funcionalidades de personalización](../personalization/gs-personalization.md).
-
-Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados. Las funcionalidades de personalización se pueden combinar para mejorar sus mensajes y crear una experiencia de usuario personalizada.
-
-Puede personalizar el contenido del mensaje haciendo lo siguiente:
-
-* Inserción dinámica de **campos de personalización**
-
-  Los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. [Más información](../personalization/personalize.md)
-
-* Insertando **fragmentos de expresión** predefinidos
-
-  Campaign viene con un conjunto de fragmentos de expresión que contienen un procesamiento específico que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. los fragmentos de expresiones están disponibles en una entrada dedicada del editor de personalización. Además, también puede crear sus propios fragmentos de expresiones para adaptarlos a sus necesidades. [Aprenda a utilizar fragmentos de expresiones](../content/use-expression-fragments.md)
-
-* Cree **contenido condicional**
-
-  Configure el contenido condicional para añadir una personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando se cumple una condición concreta. [Más información](../personalization/conditions.md)
-
-* Añadir **ofertas personalizadas**
-
-  Inserte ofertas personalizadas en el contenido del mensaje, según la ubicación del destinatario, el tiempo actual o la última orden de compra. [Más información](../msg/offers.md)
-
-## Previsualizar y probar sus envíos
-
-Una vez definido el contenido del mensaje, puede obtener una vista previa para controlar la renderización de los mensajes y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-test.md)
-
-## Programación de los envíos de entregas {#gs-schedule}
+## Acceso a entregas {#access}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Establecer una fecha y hora de contacto"
->abstract="Defina la fecha y la hora exacta de envío. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura."
+>id="acw_deliveries_additional_target"
+>title="Público destinatario adicional"
+>abstract="Estas reglas solo se pueden cambiar en la consola del cliente."
 
-Puede establecer la fecha y la hora exacta para enviar los mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura.
+Se puede acceder a los envíos desde el menú **[!UICONTROL Envíos]** del panel de navegación izquierdo. En esta lista se muestran todos los envíos creados desde la consola del cliente o desde la interfaz de usuario web. Desde esta pantalla, puede monitorizar todas las entregas existentes, duplicarlas o eliminarlas, o crear otras nuevas.
 
-Para programar el envío del correo electrónico, abra el correo electrónico a enviar y busque la sección **[!UICONTROL Programación]**. Utilice la opción **[!UICONTROL Habilitar programación]** para activarlo y establezca la fecha y hora deseadas para el envío. Una vez que realice esto, el envío real comenzará en la fecha de contacto que haya definido.
+![](assets/deliveries-list.png)
 
-![](assets/schedule.png){zoomable="yes"}
+Para abrir una entrega, haga clic en su nombre en la lista. La entrega se abre, lo que le permite realizar varias acciones, como editar sus parámetros, comprobar su ejecución o monitorizar su rendimiento mediante informes dedicados.
 
-De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que el correo electrónico se envíe en la fecha y hora programadas. Si necesita enviar el correo electrónico automáticamente en la fecha y hora programadas, puede deshabilitar esta opción.
+![](assets/delivery-details.png)
 
-Obtenga información sobre los pasos para realizar un envío programado en [esta sección](../monitor/prepare-send.md#schedule-the-send).
-
-## Registros de seguimiento y monitorización {#gs-tracking-logs}
-
-La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
-
-Puede monitorizarlas después de enviar un envío, así como comprender cómo se administran los errores y las cuarentenas.
-
-Obtenga más información acerca de las capacidades de informes y monitorización en [esta sección](../reporting/gs-reports.md).
+>[!NOTE]
+>
+>Si abre una entrega creada en la consola del cliente, puede que se muestre la sección **[!UICONTROL Destino adicional]** para la audiencia. Esto significa que se han configurado varios objetivos para este envío. Estos parámetros solo se pueden modificar en la consola.
+>
+>![](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Duplicación de un envío {#delivery-duplicate}
 

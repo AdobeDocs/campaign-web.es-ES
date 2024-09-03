@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 20%
+source-wordcount: '620'
+ht-degree: 19%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 20%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="Modelador de consultas"
 >abstract="Defina criterios de filtrado para destinatarios o cualquier otra dimensión de segmentación de la base de datos. Aproveche el público de Adobe Experience Platform para detallar aún más el público destinatario y maximizar el impacto de su campaña."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="Perfeccionar destinatario"
+>abstract="Estas reglas solo se pueden cambiar en la consola del cliente."
 
 La interfaz de usuario web de Adobe Campaign incluye un modelador de consultas que simplifica el proceso de filtrado de la base de datos en función de diversos criterios. Garantiza la compatibilidad total con las consultas creadas en la consola del cliente, lo que facilita una transición sin problemas a la interfaz de usuario web.
 
@@ -38,6 +43,12 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 | **Filtrar datos de informes**: agregue una regla para filtrar los datos mostrados en los informes. [Aprenda a trabajar con informes](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Personalizar listas**: cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, listas de envíos, etc. [Aprenda a filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Generar contenido condicional**: haga que el contenido del correo electrónico sea dinámico al crear condiciones que definan qué contenido debe mostrarse a distintos destinatarios, lo que garantiza mensajes personalizados y relevantes. [Aprenda a crear contenido condicional](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>Al acceder a un objeto creado en la consola del cliente donde se han aplicado reglas como una audiencia o un filtro predefinido, puede mostrarse la sección **[!UICONTROL Refine target]**. Esto significa que se han configurado parámetros adicionales para refinar el objetivo de la regla. Estos parámetros solo se pueden modificar en la consola.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Interfaz del modelador de consultas {#interface}
 

@@ -4,10 +4,10 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 56%
+source-wordcount: '2787'
+ht-degree: 50%
 
 ---
 
@@ -288,7 +288,68 @@ También puede personalizar la etiqueta de las pruebas:
 * De forma predeterminada, el asunto de la prueba lleva el prefijo &quot;PROOF #&quot;, donde # es el número de la prueba. Se puede cambiar este prefijo en el campo **[!UICONTROL Prefijo de la etiqueta]**.
 
 
+
+
+## Configuración de SMTP para envío de correo electrónico {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="Parámetros de SMTP"
+>abstract="Puede añadir parámetros SMTP adicionales a su envío de correo electrónico."
+
+Puede añadir parámetros SMTP adicionales a su envío de correo electrónico. Puede hacerlo en la pestaña SMTP de la configuración de entrega.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### Codificación de caracteres {#character-encoding}
+
+La sección **[!UICONTROL Codificación de caracteres]** le permite establecer una codificación específica. La codificación predeterminada es UTF-8, que funciona para la mayoría de los caracteres. Sin embargo, es posible que algunos proveedores de correo electrónico no muestren los caracteres especiales correctamente si no admiten la codificación estándar UTF-8.
+
+Por ejemplo, si desea enviar un correo electrónico con caracteres japoneses, es mejor utilizar una codificación que admita específicamente esos caracteres para que la audiencia de Japón pueda ver todo correctamente.
+
+Para ello, active la opción **[!UICONTROL Force the encoding used for messages]** y seleccione la codificación correcta en la lista que admite los caracteres especiales.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### Correos electrónicos rechazados {#bounce-emails}
+
+La pestaña **[!UICONTROL SMTP]** de la configuración de entrega también le permite configurar la administración de los correos electrónicos rechazados.
+
+* **[!UICONTROL Errores a la dirección]**: Si activa la opción **[!UICONTROL Usar la dirección de error predeterminada definida para la plataforma]**, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma. Si no lo activa, puede definir una dirección de error específica para la entrega.
+
+* **[!UICONTROL Dirección de rechazo]**: también puede definir otra dirección a la que se reenviarán los mensajes de correo electrónico rechazados sin procesar. Esta dirección permite investigar las razones de la devolución cuando la aplicación no pudo calificar automáticamente los correos electrónicos.
+
+Estos dos campos se pueden personalizar tal como se describe en [esta sección](../personalization/gs-personalization.md).
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### Encabezados SMTP adicionales {#smtp-headers}
+
+Puede agregar **[!UICONTROL encabezados SMTP]** a su envío de correo electrónico, en la pestaña SMTP de la configuración de envío.
+
+La secuencia de comandos introducida en esta ventana debe hacer referencia a un encabezado por línea en el siguiente formulario: nombre:valor.
+
+Los valores se codifican automáticamente si es necesario.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
+
+## Adición de variables {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
 >abstract="Variables"
+
+Puede añadir variables al envío, que pueden ser útiles para el seguimiento. Para ello,
+vaya a la ficha **[!UICONTROL Variables]** como se muestra a continuación.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Haga clic en el botón **[!UICONTROL Agregar variables]** para escribir los detalles de la variable y, a continuación, haga clic en **[!UICONTROL Confirmar]** para guardar los cambios.
+
+![](assets/variables-add.png){zoomable="yes"}
