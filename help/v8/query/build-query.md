@@ -3,9 +3,9 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 20%
 
 ---
@@ -30,19 +30,17 @@ Se pueden añadir dos tipos de elementos:
 
 ## Distribución de valores en una consulta {#distribution-values-query}
 
-La distribución de valores ayuda a conocer el porcentaje de un valor en un campo de una tabla. Conocer la distribución de valores dentro de una consulta puede ayudarle a refinar su segmentación.
+La distribución de valores muestra el porcentaje de cada valor de un campo dentro de una tabla, según los parámetros de consulta actuales. Conocer la distribución de valores dentro de una consulta puede ayudarle a refinar la segmentación.
 
-Para acceder a la función, en la consulta, haga clic en el botón de selección de atributos como se muestra a continuación. A continuación, haga clic en el icono **[!UICONTROL Información]** que se encuentra junto al atributo seleccionado. Puede tener acceso al botón **[!UICONTROL Distribución de valores]**.
+Para acceder a esta opción, en la consulta, haga clic en el botón de selección de atributos como se muestra a continuación. A continuación, haga clic en el icono **[!UICONTROL Información]** que se encuentra junto al atributo seleccionado. Tiene acceso al botón **[!UICONTROL Distribución de valores]**.
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Para los campos con muchos valores, solo se muestran los veinte primeros valores. Una notificación **[!UICONTROL carga parcial]** le avisará.
-
->[!NOTE]
+>* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En tal caso, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >
-> La característica **[!UICONTROL Distribución de valores]** es accesible en todos los selectores de atributos.
+>* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos.
 
 ## Adición de componentes de filtrado {#filtering}
 
