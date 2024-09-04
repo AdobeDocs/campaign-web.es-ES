@@ -4,9 +4,9 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
+source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
 workflow-type: tm+mt
-source-wordcount: '2826'
+source-wordcount: '2801'
 ht-degree: 50%
 
 ---
@@ -343,9 +343,8 @@ Los valores se codifican automáticamente si es necesario.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
->abstract="Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido de envío y los flujos de trabajo."
+>abstract="Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido de la entrega y los flujos de trabajo."
 
-Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido de envío y los flujos de trabajo.
 
 Para agregar una variable, vaya a la pestaña **[!UICONTROL Variables]**, como se muestra a continuación.
 
