@@ -4,9 +4,9 @@ title: Introducción a mensajes y envíos en Adobe Campaign Web
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Examine las secciones siguientes para aprender a crear y enviar mensajes.
       <img alt="Push" src="assets/do-not-localize/direct-mail.jpg">
     </a>
     <div>
-    <a href="../direct-mail/gs-direct-mail.md"><strong>Crear mensajes de correo postal</strong></a>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>Creación de mensajes de correo directo</strong></a>
     </div>
     <p>
     </td>
