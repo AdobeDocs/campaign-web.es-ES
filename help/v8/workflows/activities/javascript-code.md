@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo JavaScript code
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo JavaScript code
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 29%
+source-wordcount: '944'
+ht-degree: 26%
 
 ---
 
@@ -26,11 +26,6 @@ ht-degree: 29%
 >id="acw_orchestration_javascript_execution"
 >title="Ejecución de Javascript"
 >abstract="Configure el retraso de ejecución para detener la actividad después de un periodo de ejecución. De forma predeterminada, la fase de ejecución no puede exceder de 1 hora. Tras este retraso, el proceso se anula con un mensaje de error y la ejecución de la actividad falla. Para omitir este límite, establezca el valor en 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="Transición de JavaScript"
->abstract="Si desea añadir varias transiciones de salida, haga clic en el botón **[!UICONTROL Añadir transiciones]**. Esto le permite, por ejemplo, activar una transición específica basada en una condición específica definida en la actividad del código JavaScript. Esta opción solo está disponible en las actividades de código JavaScript **avanzadas**."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
