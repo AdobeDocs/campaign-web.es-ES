@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinación-Y
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinación-Y
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Esta actividad solo activa su transición saliente una vez que se activan todas 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Configurar la actividad de AND-join"
+>title="Opciones de combinación"
 >abstract="Seleccione las actividades que desea unir. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar."
 
 Siga estos pasos para configurar la actividad **Combinación-Y**:

@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 43%
+source-wordcount: '1705'
+ht-degree: 41%
 
 ---
 
@@ -16,26 +16,6 @@ ht-degree: 43%
 >id="acw_orchestration_enrichment"
 >title="Actividad de enriquecimiento"
 >abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_data"
->title="Actividad de enriquecimiento"
->abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de resonar con el público destinatario."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Definición de vínculo"
->abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo hacia la tabla del país para actualizar esta información en sus perfiles."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="Reconciliación de enriquecimiento"
->abstract="reconciliación de enriquecimiento"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="Datos de enriquecimiento"
->abstract="Seleccione los datos que desee utilizar para enriquecer el flujo de trabajo. Se pueden seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de público destinatario o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
 
 La actividad **Enriquecimiento** es una actividad de **Segmentación**. La actividad de enriquecimiento permite mejorar los datos segmentados con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.
 
@@ -63,6 +43,16 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
 ## Añadir datos de enriquecimiento {#enrichment-add}
 
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="Datos de enriquecimiento"
+>abstract="Seleccione los datos que desee utilizar para enriquecer el flujo de trabajo. Se pueden seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de público destinatario o un vínculo de recopilación, que es un vínculo con una cardinalidad 1-N entre las tablas."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Actividad de enriquecimiento"
+>abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de resonar con el público destinatario."
+
 1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
 
    Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada uno de estos tipos se detalla en los ejemplos siguientes:
@@ -76,6 +66,11 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
    ![](../assets/workflow-enrichment1.png)
 
 ## Creación de vínculos entre tablas {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Definición de vínculo"
+>abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo hacia la tabla del país para actualizar esta información en sus perfiles."
 
 La sección **[!UICONTROL Link definition]** le permite crear un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo hacia la tabla del país para actualizar esta información en sus perfiles.
 
@@ -106,6 +101,11 @@ Para crear un vínculo, siga estos pasos:
 Hay disponible un ejemplo de flujo de trabajo con vínculos en la sección [Ejemplos](#link-example).
 
 ## Reconciliación de datos {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="Reconciliación"
+>abstract="La actividad **Enrichment** se puede usar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único."
 
 La actividad **Enrichment** se puede usar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único.
 

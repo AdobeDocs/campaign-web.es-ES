@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 85%
+source-wordcount: '1046'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selección del tipo de segmentación"
->abstract="Seleccione cómo combinar públicos: unión, intersección o exclusión."
+>abstract="Seleccione cómo combinar audiencias. La **Unión** le permite agrupar el resultado de varias actividades en un solo destino. La **intersección** le permite mantener solamente los elementos comunes a las diferentes poblaciones de entrada de la actividad. La **Exclusión** permite excluir elementos de una población según determinados criterios. "
 
 Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 
@@ -57,14 +57,9 @@ Siga estos pasos comunes para comenzar a configurar la actividad **Combinar**:
 ## Unión {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="Opciones de reconciliación de intersección"
->abstract="Seleccione el tipo de reconciliación para definir cómo se gestionan los duplicados."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Opciones de reconciliación"
->abstract="Seleccione el **tipo de reconciliación** para definir cómo gestionar duplicados."
+>abstract="Seleccione **Tipo de reconciliación** para definir cómo se gestionan los duplicados. De manera predeterminada, la opción **Keys** está activada, lo que significa que la actividad solo mantiene un elemento cuando los elementos de las diferentes transiciones de entrada tienen la misma clave. Utilice la opción **A selection of columns** para definir la lista de columnas a las que se aplica la reconciliación de datos."
 
 En la actividad **Combinar**, puede configurar una **Unión**. Para ello, debe seleccionar **Tipo de reconciliación** para definir cómo se gestionan los duplicados:
 
@@ -72,6 +67,11 @@ En la actividad **Combinar**, puede configurar una **Unión**. Para ello, debe s
 * **Una selección de columnas**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
 ## Intersección {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Opciones de reconciliación de intersección"
+>abstract="Seleccione **Tipo de reconciliación** para definir cómo se gestionan los duplicados. De manera predeterminada, la opción **Keys** está activada, lo que significa que la actividad solo mantiene un elemento cuando los elementos de las diferentes transiciones de entrada tienen la misma clave. Utilice la opción **A selection of columns** para definir la lista de columnas a las que se aplica la reconciliación de datos."
 
 En la actividad **Combinar**, puede configurar una **intersección**. Para ello, debe seguir los pasos adicionales a continuación:
 
