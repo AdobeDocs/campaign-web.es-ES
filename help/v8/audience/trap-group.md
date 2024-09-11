@@ -2,7 +2,8 @@
 audience: end-user
 title: Usar un grupo de reventado
 description: Aprenda a utilizar un grupo de reventado para su envío en la interfaz de usuario web de Campaign
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 17%
@@ -12,7 +13,7 @@ ht-degree: 17%
 # Usar un grupo de reventado {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Grupo de reventado"
 >abstract="Puede utilizar un grupo de reventado para incluir direcciones específicas en los envíos con el fin de monitorizar y verificar el proceso de distribución mediante perfiles de direccionamiento que no coinciden con los criterios de destino definidos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"

@@ -4,21 +4,14 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 1%
 
 ---
 
 # Pista de auditoría{#audit-trail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Pista de auditoría"
->abstract="La nueva pista de auditoría proporciona un registro detallado y cronológico de todas las acciones y eventos que se han realizado en la instancia de Adobe Campaign en tiempo real."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
-
 
 En la interfaz de usuario web de Adobe Campaign, la función **[!UICONTROL Pista de auditoría]** proporciona a los usuarios una visibilidad completa de todas las modificaciones realizadas en entidades importantes de su instancia, normalmente aquellas que afectan de manera significativa al funcionamiento sin problemas de la instancia.
 
