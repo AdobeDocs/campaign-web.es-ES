@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: SMS con el asistente de IA en la web de Adobe Campaign para la aceleración de contenido
-description: Introducción al asistente de IA en la web de Adobe Campaign para la aceleración de contenido
+title: SMS con el asistente de IA para la aceleración de contenido
+description: Introducción al asistente de IA para la aceleración de contenido
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
 
-# Generación de SMS con el asistente de IA en Adobe Campaign Web: acelerador de contenido {#generative-sms}
+# Generación de SMS con el asistente de IA: acelerador de contenido {#generative-sms}
 
 >[!IMPORTANT]
 >

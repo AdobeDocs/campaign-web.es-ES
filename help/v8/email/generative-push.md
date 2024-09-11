@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Notificación push con el asistente de IA en Journey Optimizer para la aceleración de contenido
-description: Introducción al asistente de IA en Journey Optimizer para la aceleración de contenido
+title: Notificación push con el asistente de IA para la aceleración de contenido
+description: Introducción al asistente de IA para la aceleración de contenido
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
 
-# Generación de notificaciones push con el asistente de IA en Journey Optimizer: acelerador de contenido  {#generative-push}
+# Generación de notificaciones push con el asistente de IA: acelerador de contenido {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Adobe Campaign Web para la aceleración de contenido. Para obtener más información, póngase en contacto con su representante Adobe.
 
-El asistente de IA de Journey Optimizer para la aceleración de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que probablemente interesará más a su audiencia.
+El asistente de IA para la aceleración de contenido puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que es más probable que resuene en su audiencia.
 
 En el siguiente ejemplo, aprovecharemos el asistente de IA para crear mensajes atractivos para crear una experiencia del cliente más atractiva.
 
