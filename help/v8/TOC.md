@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [Crear un envío de correo directo](direct-mail/create-direct-mail.md)
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
       + [Previsualización y envío de un correo directo](direct-mail/send-direct-mail.md)
-   + Asistente de IA{#ai-assistant}
-      + [Introducción al asistente de IA](email/generative-gs.md)
-      + [Generación de correo electrónico con el asistente de IA](email/generative-content.md)
-      + [Generación de SMS con el asistente de IA](email/generative-sms.md)
-      + [Generación de notificaciones push con el asistente de IA](email/generative-push.md)
    + [Añadir ofertas a los mensajes](msg/offers.md)
    + [Enviar mensajes a los suscriptores](msg/send-to-subscribers.md)
    + [Configuración del envío](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [Ajustar alineación vertical y relleno](email/alignment-and-padding.md)
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
+   + Asistente de IA para el acelerador de contenido {#ai-assistant}
+      + [Introducción al asistente de IA](email/generative-gs.md)
+      + [Generación de correo electrónico con el asistente de IA](email/generative-content.md)
+      + [Generación de SMS con el asistente de IA](email/generative-sms.md)
+      + [Generación de notificaciones push con el asistente de IA](email/generative-push.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
    + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)

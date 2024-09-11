@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e9022e53ff8733ecdfcca1aec2ba31ca6c79c3ad
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 52%
+source-wordcount: '481'
+ht-degree: 59%
 
 ---
 
@@ -18,9 +18,29 @@ ht-degree: 52%
 
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
+## Actualizaciones de septiembre {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Asistente de IA en Adobe Campaign Web: acelerador de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una vez que haya creado y adaptado su mensaje, llévelo al siguiente nivel con el asistente de IA de Adobe Campaign Web para la aceleración de contenido. Esta potente herramienta le permite optimizar el impacto de su contenido mediante la generación de una amplia gama de atractivos textos, títulos principales e imágenes visualmente atractivas.</p>
+<p>Sumérjase en una experiencia práctica con <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nuestra vista previa de características en vivo</a>, diseñada para que explore sus características de primera mano y comprenda plenamente sus capacidades.</a>.</p>
+<p>Para obtener más información, consulte la <a href="../email/generative-gs.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Notas de la versión de agosto {#24-8-release}
 
-**Fecha de la versión**: 3 de septiembre de 2024
+**Fecha de lanzamiento**: 3 de septiembre de 2024
 
 Las siguientes funciones y mejoras están disponibles a partir de la versión de agosto.
 
@@ -38,7 +58,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 >
 >Consulte las siguientes páginas de documentación: [Campaign Standard transition to Campaign v8](../rn/acs-migration.md) y [Características para usuarios Campaign Standards](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}.
 
-* **Marca para correo postal**: los administradores técnicos ahora pueden definir una o varias marcas para centralizar los parámetros que afectan la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Ahora puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **Promoción de la marca para correo directo**: ahora los administradores técnicos pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Ahora puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **Suscripciones con páginas de aterrizaje**: ahora puede vincular una página de aterrizaje a un servicio y enviar un mensaje de confirmación cuando los usuarios lo validen. [Más información](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
