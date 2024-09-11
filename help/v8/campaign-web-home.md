@@ -3,9 +3,9 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1b31adb5de2e2fd9d2d6a835e899b4dfc6fe22f2
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 83%
 
 ---
@@ -53,7 +53,7 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!TAB Asistente de IA - Acelerador de contenido]
 
-Sumérjase en una experiencia práctica con la vista previa de funciones en vivo de [AI Assistant Content Accelerator](../v8/email/generative-gs.md), diseñada para explorar sus características de primera mano y comprender plenamente sus capacidades.
+✨ Sumérjase en una experiencia práctica con la vista previa de las funciones en directo de [AI Assistant Content Accelerator](../v8/email/generative-gs.md), diseñada para que explore sus características de primera mano y comprenda sus capacidades.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
