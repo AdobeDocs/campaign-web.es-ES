@@ -2,9 +2,9 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: c08c18d9e97401459c0f6855a1fda47cf2a01111
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '481'
 ht-degree: 59%
 
 ---
@@ -33,6 +33,7 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 <p>Sumérjase en una experiencia práctica con <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">nuestra vista previa de características en vivo</a>, diseñada para que explore sus características de primera mano y comprenda plenamente sus capacidades.</a>.</p>
 <p>Para obtener más información, consulte la <a href="../email/generative-gs.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>Fecha de disponibilidad: 12 de septiembre</p>
 </td>
 </tr>
 </tbody>
