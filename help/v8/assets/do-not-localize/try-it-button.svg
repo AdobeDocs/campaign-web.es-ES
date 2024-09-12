@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="95" height="32" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 95 32">
+<svg width="95" height="32" id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.08 32">
   <defs>
     <style>
       .cls-1 {
@@ -13,17 +13,34 @@
       }
 
       .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-5 {
         fill: #0165dc;
+      }
+
+      .cls-6 {
+        letter-spacing: .05em;
+      }
+
+      .cls-7 {
+        letter-spacing: .01em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
       }
     </style>
   </defs>
-  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
-  <g>
-    <g id="Layer_1">
-      <path id="Background" class="cls-3" d="M17.1.2h61.6c9,0,16.2,7.2,16.2,16h0c0,8.8-7.3,16-16.2,16H17.1C8.2,32.2.9,25.1.9,16.2h0C.9,7.4,8.2.2,17.1.2Z"/>
-      <g id="Text" class="cls-2">
-        <text class="cls-1" transform="translate(16.9 21.2)"><tspan x="0" y="0">Try it now</tspan></text>
-      </g>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <path id="Background" class="cls-5" d="M16.22,0h61.64c8.96,0,16.22,7.16,16.22,16h0c0,8.84-7.26,16-16.22,16H16.22C7.26,32,0,24.84,0,16h0C0,7.16,7.26,0,16.22,0Z"/>
+    <g id="Text" class="cls-2">
+      <text class="cls-1" transform="translate(16.04 21)"><tspan class="cls-4" x="0" y="0">T</tspan><tspan class="cls-6" x="6.16" y="0">r</tspan><tspan class="cls-3" x="11.31" y="0">y </tspan><tspan class="cls-8" x="20.97" y="0">i</tspan><tspan x="24.23" y="0">t n</tspan><tspan class="cls-7" x="39.06" y="0">o</tspan><tspan x="46.6" y="0">w</tspan></text>
     </g>
   </g>
 </svg>
