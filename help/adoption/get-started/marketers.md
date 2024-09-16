@@ -3,10 +3,10 @@ title: Introducción a Adobe Campaign v8 para especialistas en marketing
 description: Descubra la funcionalidad clave de Campaign v8. Va dirigido a los especialistas en marketing que migran de Campaign Standard a Campaign v8.
 role: User
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Esta guía proporciona información general sobre las funcionalidades clave de Campaign v8 para los especialistas en marketing que realizan la transición de Campaign Standard a Campaign v8.
 
-Puede acceder a Adobe Campaign v8 a través de la consola del cliente o la interfaz de usuario web. La interfaz web permite crear, administrar y ejecutar acciones de marketing clave. La nueva interfaz de Adobe Campaign Web ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. Obtenga más información en esta sección. [Más información](../../v8/get-started/user-interface.md).
+Puede acceder a Adobe Campaign v8 a través de la consola del cliente o la interfaz de usuario web. La interfaz web permite crear, administrar y ejecutar acciones de marketing clave. La nueva interfaz de Adobe Campaign Web ofrece una experiencia de usuario moderna e intuitiva para simplificar el diseño y el envío de las campañas de marketing. [Más información](../../v8/get-started/user-interface.md).
 
 Con la migración, todos los datos de Campaign Standard se importan en Campaign v8, lo que garantiza una transición sin problemas con una interrupción mínima de las operaciones en curso.
 
