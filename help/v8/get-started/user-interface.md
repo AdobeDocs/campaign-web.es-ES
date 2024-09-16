@@ -3,8 +3,8 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
-workflow-type: ht
+source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
+workflow-type: tm+mt
 source-wordcount: '1713'
 ht-degree: 100%
 
@@ -124,7 +124,7 @@ Currently released as a Beta version within the new Campaign Web user interface,
 
 Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-Learn more in [this section](using-ai.md).
+Learn more in [this section](-using-ai.md).
 
 -->
 
