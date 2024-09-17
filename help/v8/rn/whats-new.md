@@ -3,7 +3,7 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
+source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 100%
@@ -92,15 +92,13 @@ Puede utilizar la nueva interfaz de usuario web de Campaign para **crear y actua
     With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
--->
-<!--
+
 * **Gen AI for Email content**
 
     Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
     Learn more in [this section](../email/generative-gs.md).
--->
-<!--
+
 **AI-powered Contextual Help**
 
 Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/-using-ai.md).-->
