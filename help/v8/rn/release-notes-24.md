@@ -1,16 +1,17 @@
 ---
-title: Notas de la versión anteriores de la interfaz de usuario web de Campaign v8
-description: Versiones de la interfaz de usuario web de Campaign 2024
-source-git-commit: 0cb44b82fa19f3960f3855947a9a6178a2bd71b7
-workflow-type: tm+mt
+title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
+description: Notas de la versión de la interfaz de usuario web de Campaign 2024
+exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: ht
 source-wordcount: '1869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión 2024 {#2024-release}
 
-Esta página lista todos los cambios y mejoras disponibles en **versiones de 2024**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
+Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2024**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
 
 ## Notas de la versión de julio {#24-7-release}
 

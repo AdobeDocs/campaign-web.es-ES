@@ -4,9 +4,9 @@ title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -82,28 +82,28 @@ Elija **[!UICONTROL Eliminar carpeta]**.
 
 La distribución de valores ayuda a conocer el porcentaje de un valor en una columna dentro de una tabla.
 
-Para conocer la distribución de los valores en una carpeta, proceda como se muestra a continuación:
+Para conocer la distribución de valores en una carpeta, proceda como se indica a continuación:
 
-Por ejemplo, entre las entregas, queremos saber la distribución de los valores de la columna **Channel**.
+Por ejemplo, entre los envíos, queremos conocer la distribución de valores de la columna **Canal**.
 
-Para obtener esta información, vaya a la carpeta **[!UICONTROL Deliveries]** y haga clic en el icono **[!UICONTROL Configurar columnas]**.
+Para obtener esta información, vaya a la carpeta **[!UICONTROL Envíos]** y haga clic en el icono **[!UICONTROL Configurar columnas]**.
 
-En la ventana **[!UICONTROL Configurar columnas]**, haga clic en el icono **[!UICONTROL Información]** de la columna que desee conocer. A continuación, haga clic en el botón **[!UICONTROL Distribución de valores]**.
+En la ventana **[!UICONTROL Configurar columnas]**, haga clic en el icono **[!UICONTROL Información]** de la columna de la que desee información. A continuación, haga clic en el botón **[!UICONTROL Distribución de valores]**.
 
 ![](assets/values_deliveries.png){zoomable="yes"}
 
-Obtendrá el porcentaje de los valores en la columna **[!UICONTROL Canal]**.
+Obtendrá el porcentaje de los valores de la columna **[!UICONTROL Canal]**.
 
 ![](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Para las columnas con muchos valores, solo se muestran los veinte primeros valores. Una notificación **[!UICONTROL carga parcial]** le avisará.
+> Para las columnas con muchos valores, solo se mostrarán los primeros veinte valores. Una notificación **[!UICONTROL Carga parcial]** le avisará de esto.
 
-También puede tener la distribución de los valores de un vínculo.
+También puede disponer de la distribución de valores de un vínculo.
 
-En la lista de atributos, haga clic en el botón **+** situado junto al vínculo deseado, como se muestra a continuación. Esto agrega el vínculo a las **[!UICONTROL columnas de salida]**. Ahora puede tener el icono **[!UICONTROL Información]**, que le permite ver la distribución de sus valores. Si no desea mantener el vínculo en las **[!UICONTROL Columnas de salida]**, asegúrese de hacer clic en el botón **[!UICONTROL Cancelar]**.
+En la lista de atributos, haga clic en el botón **+** situado junto al vínculo deseado, como se muestra a continuación. Esto añade el vínculo a las **[!UICONTROL Columnas de salida]**. Ahora puede disponer del icono **[!UICONTROL Información]**, que le permite ver la distribución de sus valores. Si no desea mantener el vínculo en las **[!UICONTROL Columnas de salida]**, asegúrese de hacer clic en el botón **[!UICONTROL Cancelar]**.
 
 ![](assets/values_link.png){zoomable="yes"}
 
-También es posible tener la distribución de valores en un modelador de consultas. [Obtenga más información aquí](../query/build-query.md#distribution-of-values-in-a-query).
+También es posible disponer de la distribución de valores en un modelador de consultas. [Más información aquí](../query/build-query.md#distribution-of-values-in-a-query).
