@@ -3,10 +3,10 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -114,9 +114,7 @@ Ahora puede **importar y convertir cualquier contenido de HTML** en el editor de
 
 **SMS con ofertas**
 
-La nueva interfaz de usuario web de Campaign ahora permite **integrar ofertas con SMS** además de los correos electrónicos. Llegue a su público desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada.
-
-Obtenga más información en [esta sección](../msg/offers.md).
+La nueva interfaz de usuario web de Campaign ahora permite **integrar ofertas con SMS** además de los correos electrónicos. Llegue a su público desde sus dispositivos móviles y envíe promociones y notificaciones oportunas. Aumente sus esfuerzos de marketing aprovechando el poder de las ofertas integradas a través de SMS en nuestra plataforma web avanzada. Obtenga más información en [esta sección](../msg/offers.md).
 
 ## Transición a la interfaz de usuario web de Campaign
 
