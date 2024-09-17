@@ -36,7 +36,7 @@ ht-degree: 96%
    + [Ayuda contextual con tecnología de IA](get-started/-using-ai.md)
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
-   + [Acceso a entregas](msg/gs-deliveries.md)
+   + [Acceso a los envíos](msg/gs-deliveries.md)
    + [Creación de un envío](msg/create-deliveries.md)
    + [Uso de plantillas de envío](msg/delivery-template.md)
    + Correos electrónicos {#email}
