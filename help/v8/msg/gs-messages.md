@@ -4,7 +4,7 @@ title: Introducción a mensajes y envíos en Adobe Campaign Web
 description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

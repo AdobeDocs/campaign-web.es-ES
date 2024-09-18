@@ -5,13 +5,13 @@ description: Aprenda a crear el primer envío en la web de Campaign
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 88%
 
 ---
-
 
 # Creación de un envío {#create-delivery}
 

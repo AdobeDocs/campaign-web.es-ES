@@ -98,7 +98,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    De manera predeterminada, las páginas de destino se almacenan en la carpeta **[!UICONTROL Aplicaciones web]**. Puede cambiarlo si busca la ubicación deseada en **[!UICONTROL Opciones adicionales]**. [Aprenda a trabajar con carpetas](../get-started/permissions.md#folders)
 
-   También puede configurar el captcha para proteger la página de aterrizaje. [Obtenga más información aquí](#captcha).
+   También puede configurar el captcha para proteger la página de aterrizaje. [Más información aquí](#captcha).
 
    ![](assets/lp-properties.png){zoomable="yes"}
 

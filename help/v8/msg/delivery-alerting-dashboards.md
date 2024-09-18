@@ -53,7 +53,7 @@ Para crear un panel de envío, siga estos pasos:
 
 1. En el campo **Seleccionar grupo de alertas**, especifique el **grupo de operadores** que recibirá las alertas enviadas por este panel. Todos los miembros del grupo de operadores seleccionado recibirán las alertas.
 
-   Obtenga más información sobre permisos y grupos de operadores en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Obtenga más información sobre permisos y grupos de operadores en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. En la sección **Criterios de alerta de envío**, agregue los criterios que desee utilizar para enviar alertas. Elija entre criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas. [Aprenda a trabajar con criterios](../msg/delivery-alerting-criteria.md)
 

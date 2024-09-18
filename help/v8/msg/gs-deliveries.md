@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Acceso a entregas
+title: Acceso a los envíos
 description: Obtenga información sobre cómo acceder y administrar los envíos en Campaign Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
@@ -9,18 +9,18 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
-# Acceso a entregas {#work-with-deliveries}
+# Acceso a los envíos {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
 >abstract="Un envío es una comunicación que se envía a un público a través de un canal específico: correo electrónico, SMS o Push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de los envíos completados. Haga clic en el botón **Crear envío** para añadir un nuevo envío."
 
-## Acceso a entregas {#access}
+## Acceso a los envíos {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"

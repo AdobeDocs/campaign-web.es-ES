@@ -5,8 +5,8 @@ description: Aprenda principios clave de los flujos de trabajo con la web de Ado
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 

@@ -2,14 +2,15 @@
 audience: end-user
 title: Diseño de una entrega de notificaciones push enriquecidas de iOS
 description: Aprenda a diseñar una entrega de notificaciones push enriquecidas con iOS con Adobe Campaign Web
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 15%
 
 ---
 
-# Diseño de una entrega push enriquecida con iOS {#rich-push}
+# Diseño de un envío push enriquecido para iOS {#rich-push}
 
 >[!IMPORTANT]
 >
@@ -210,4 +211,3 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 | **[!UICONTROL Id. de subproceso]** | Establezca el identificador utilizado para agrupar las notificaciones relacionadas. |
 | **[!UICONTROL Categoría]** | Establezca el nombre de su ID de categoría, que mostrará botones de acción. Estas notificaciones proporcionan al usuario una forma más rápida de realizar distintas tareas en respuesta a una notificación sin necesidad de abrir ni navegar por la aplicación. |
 | **[!UICONTROL Id. de contenido de destino]** | Establezca un identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación. |
-
