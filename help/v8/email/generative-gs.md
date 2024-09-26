@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Introducción al acelerador de contenido del asistente de IA
+title: Introducción al Acelerador de contenido del Asistente de IA
 description: Introducción al acelerador de contenido del asistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 19%
+ht-degree: 29%
 
 ---
 
-# Trabajar con el acelerador de contenido del asistente de IA  {#generative-gs}
+# Trabajo con el Acelerador de contenido del Asistente de IA  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="Acelerador de contenido del asistente de IA"
->abstract="AI Assistant hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados."
+>title="Acelerador de contenido del Asistente de IA"
+>abstract="El Asistente de IA hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
@@ -43,7 +43,7 @@ ht-degree: 19%
 
 A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de manera eficiente y rápida. AI Assistant de Adobe Campaign Web for Content Acceleration, con tecnología Microsoft Azure OpenAI y Adobe Firefly, es la capacidad de generación de contenido de IA de Adobe que revoluciona la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca.
 
-AI Assistant hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
+El Asistente de IA hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
 >[!IMPORTANT]
 >

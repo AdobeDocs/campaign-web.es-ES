@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
->title="Perfeccionar destinatario"
->abstract="Estas reglas solo se pueden cambiar en la consola del cliente."
+>title="Refinamiento de destinatarios"
+>abstract="Estas reglas solo pueden modificarse en la consola del cliente. "
 
 La interfaz de usuario web de Adobe Campaign incluye un modelador de consultas que simplifica el proceso de filtrado de la base de datos en función de diversos criterios. Garantiza la compatibilidad total con las consultas creadas en la consola del cliente, lo que facilita una transición sin problemas a la interfaz de usuario web.
 

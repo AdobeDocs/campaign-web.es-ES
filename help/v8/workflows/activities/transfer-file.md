@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 19%
+ht-degree: 31%
 
 ---
 
@@ -90,14 +90,14 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
 
 1. De forma predeterminada, para la carga de archivos, los archivos cargados en un servidor se guardan automáticamente. Si no desea conservar este historial, desactive la opción **[!UICONTROL Mantener el historial de archivos enviados]**.
 
-## Configuración de historización {#historization}
+## Configuración de la historización {#historization}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="Historización de archivos"
->abstract="Cada vez que se ejecuta una actividad **[!UICONTROL Transferir archivo]**, almacena los archivos cargados o descargados en una carpeta dedicada. Se crea una carpeta para cada actividad Transferir archivo de un flujo de trabajo. De manera predeterminada, los archivos se guardan en el directorio de almacenamiento predeterminado de la carpeta de instalación de Adobe Campaign (`/vars`) antes de procesarse. Para usar una carpeta específica, desactive la opción **[!UICONTROL Usar un directorio de almacenamiento predeterminado]** e introduzca la ruta del directorio."
+>abstract="Cada vez que se ejecuta una actividad de **[!UICONTROL Transferencia de archivos]**, almacena los archivos cargados o descargados en una carpeta específica. Se crea una carpeta para cada actividad de Transferencia de archivos de un flujo de trabajo. De manera predeterminada, los archivos se guardan en el directorio de almacenamiento predeterminado de la carpeta de instalación de Adobe Campaign (`/vars`) antes de procesarse. Para usar una carpeta específica, desactive la opción **[!UICONTROL Usar un directorio de almacenamiento predeterminado]** e introduzca la ruta del directorio."
 
-Cada vez que se ejecuta una actividad **[!UICONTROL Transferir archivo]**, almacena los archivos cargados o descargados en una carpeta dedicada. Se crea una carpeta para cada actividad Transferir archivo de un flujo de trabajo. De manera predeterminada, los archivos se guardan en el directorio de almacenamiento predeterminado de la carpeta de instalación de Adobe Campaign (`/vars`) antes de procesarse. Para usar una carpeta específica, desactive la opción **[!UICONTROL Usar un directorio de almacenamiento predeterminado]** e introduzca la ruta del directorio.
+Cada vez que se ejecuta una actividad de **[!UICONTROL Transferencia de archivos]**, almacena los archivos cargados o descargados en una carpeta específica. Se crea una carpeta para cada actividad de Transferencia de archivos de un flujo de trabajo. De manera predeterminada, los archivos se guardan en el directorio de almacenamiento predeterminado de la carpeta de instalación de Adobe Campaign (`/vars`) antes de procesarse. Para usar una carpeta específica, desactive la opción **[!UICONTROL Usar un directorio de almacenamiento predeterminado]** e introduzca la ruta del directorio.
 
 ![](../assets/workflow-transfer-file-historization.png)
 

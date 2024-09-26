@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 41%
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 1. Añada una actividad **Enriquecimiento**
 1. Si se han configurado varias transiciones en el flujo de trabajo, puede utilizar el campo **[!UICONTROL Conjunto principal]** para definir qué transición debe utilizarse como conjunto principal para enriquecerse con datos.
 
-## Añadir datos de enriquecimiento {#enrichment-add}
+## Adición de datos de enriquecimiento {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -105,9 +105,9 @@ Hay disponible un ejemplo de flujo de trabajo con vínculos en la sección [Ejem
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Reconciliación"
->abstract="La actividad **Enrichment** se puede usar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único."
+>abstract="La actividad **Enriquecimiento** ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Carga de archivo. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino añadiendo una clave externa en la tabla objetivo para almacenar una referencia al registro único."
 
-La actividad **Enrichment** se puede usar para reconciliar datos del esquema de la base de datos de Campaign con datos de otro esquema o con datos procedentes de un esquema temporal como datos cargados mediante una actividad de archivo de carga. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa para almacenar una referencia al registro único.
+La actividad **Enriquecimiento** ahora se puede utilizar para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Carga de archivo. Este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino añadiendo una clave externa en la tabla objetivo para almacenar una referencia al registro único.
 
 Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign.
 

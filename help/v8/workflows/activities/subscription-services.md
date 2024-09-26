@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 16%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Más información"
->abstract="Especifique los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se definirá ninguna fecha ni ningún origen al ejecutar el flujo de trabajo. Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el campo **[!UICONTROL Fecha]**. En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede establecerlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer una constante como origen]**."
+>abstract="Especifique los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se definirá ninguna fecha ni ningún origen al ejecutar el flujo de trabajo. Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el campo **[!UICONTROL Fecha]**. En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer un valor constante como origen]**. "
 
 La actividad **Servicios de suscripción** es una actividad de **Administración de datos**. Permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
 
@@ -70,7 +70,7 @@ Siga estos pasos para configurar la actividad **Servicios de suscripción**:
 
    * Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el campo **[!UICONTROL Fecha]**.
 
-   * En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede establecerlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer una constante como origen]**.
+   * En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer un valor constante como origen]**. 
 
    ![](../assets/workflow-subscription-service-additional.png)
 

@@ -6,7 +6,7 @@ exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 3%
+ht-degree: 37%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="Actividad de prueba"
->abstract="La actividad **Test** es una actividad **Flow control**. Permite habilitar transiciones en función de condiciones especificadas."
+>abstract="La actividad **Prueba** es una actividad de **Control de flujo**. Permite habilitar transiciones en función de condiciones especificadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Condiciones"
->abstract="La actividad **Test** puede tener varias transiciones de salida. Durante la ejecución del flujo de trabajo, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, el flujo de trabajo continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, los flujos de trabajo se detienen en este punto."
+>abstract="La actividad **Prueba** puede tener varias transiciones de salida. Durante la ejecución del flujo de trabajo, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, el flujo de trabajo continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, el flujo de trabajo se detienen en este punto."
 
-La actividad **Test** es una actividad **Flow control**. Permite habilitar transiciones en función de condiciones especificadas.
+La actividad **Prueba** es una actividad de **Control de flujo**. Permite habilitar transiciones en función de condiciones especificadas.
 
 ## Configuración de la actividad Test {#test-configuration}
 
@@ -40,7 +40,7 @@ Siga estos pasos para configurar la actividad **Test**:
 
 1. Puede agregar varias transiciones de salida a una actividad **[!UICONTROL Test]**. Para ello, haga clic en el botón **[!UICONTROL Agregar condición]** y configure la etiqueta y la condición asociada para cada transición.
 
-1. Durante la ejecución del flujo de trabajo, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, el flujo de trabajo continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, los flujos de trabajo se detienen en este punto.
+1. Durante la ejecución del flujo de trabajo, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, el flujo de trabajo continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, el flujo de trabajo se detienen en este punto.
 
 ## Ejemplo {#example}
 

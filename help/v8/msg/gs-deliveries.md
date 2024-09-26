@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 69%
+ht-degree: 71%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
->title="Público destinatario adicional"
->abstract="Estas reglas solo se pueden cambiar en la consola del cliente."
+>title="Destino adicional"
+>abstract="Estas reglas solo pueden modificarse en la consola del cliente. "
 
 Se puede acceder a los envíos desde el menú **[!UICONTROL Envíos]** del panel de navegación izquierdo. En esta lista se muestran todos los envíos creados desde la consola del cliente o desde la interfaz de usuario web. Desde esta pantalla, puede monitorizar todas las entregas existentes, duplicarlas o eliminarlas, o crear otras nuevas.
 
