@@ -343,7 +343,7 @@ Los valores se codifican automáticamente si es necesario.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variables"
->abstract="Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido de la entrega y los flujos de trabajo."
+>abstract="Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido del envío y los flujos de trabajo."
 
 Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido de la entrega y los flujos de trabajo. Las variables almacenadas se utilizan para establecer valores que permanecen constantes en todos los mensajes dentro de la entrega. También se pueden configurar en plantillas de envío.
 
