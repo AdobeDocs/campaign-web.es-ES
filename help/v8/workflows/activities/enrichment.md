@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1709'
 ht-degree: 49%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 49%
 >id="acw_orchestration_enrichment"
 >title="Actividad de enriquecimiento"
 >abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Propuesta de oferta"
+>abstract="Propuesta de oferta"
 
 La actividad **Enriquecimiento** es una actividad de **Segmentación**. La actividad de enriquecimiento permite mejorar los datos segmentados con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.
 
