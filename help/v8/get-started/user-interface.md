@@ -4,7 +4,7 @@ title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1762'
 ht-degree: 100%
 
@@ -397,23 +397,23 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="Acerca de "
->abstract="Acerca de "
+>title="Acerca de"
+>abstract="Acerca de"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Acerca de la instancia"
->abstract="Acerca de la instancia"
+>title="Acerca de instancia"
+>abstract="Acerca de instancia"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="Acerca de la web"
->abstract="Acerca de la web"
+>title="Acerca de web"
+>abstract="Acerca de web"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="Acerca de los paquetes"
->abstract="Acerca de los paquetes"
+>title="Acerca de paquetes"
+>abstract="Acerca de paquetes"
 
 <!--Schema-->
 

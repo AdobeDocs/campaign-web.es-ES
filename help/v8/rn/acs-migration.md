@@ -4,9 +4,9 @@ title: Transición de Campaign Standard a la web de Adobe Campaign
 description: Interfaz de usuario web de Discover Campaign
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Nos complace anunciar que los usuarios de Adobe Campaign Standard ahora pueden r
 * Integración con Adobe Experience Platform: la versión 8 de los Cloud Services administrados se conecta perfectamente con Adobe Experience Platform, lo que permite a los clientes aprovechar todo el potencial de sus datos y ofrecer campañas personalizadas e impactantes en todos los canales.
 * Interfaz de usuario y experiencia coherentes: puede estar seguro de que la transición a la versión 8 de Cloud Services administrados no interrumpirá el flujo de trabajo. Seguirá disfrutando de la interfaz de usuario y la experiencia del usuario, lo que garantiza una curva de aprendizaje mínima para su equipo.
 
-**Como usuario Campaign Standard que está realizando la transición a Campaign v8, aprenda a iniciar [en este documento](../../adoption/home.md).**
+**Como usuario Campaign Standard en proceso de transición a Campaign v8, obtenga más información sobre cómo empezar [en este documento](../../adoption/home.md).**
 
 <!--
 As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
