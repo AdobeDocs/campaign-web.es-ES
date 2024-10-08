@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="Transición de JavaScript"
->abstract="Para agregar una o varias transiciones de salida, haga clic en el botón **[!UICONTROL Agregar transiciones]** y especifique una etiqueta y un nombre interno para cada transición."
+>abstract="Para añadir una o varias transiciones de salida, haga clic en el botón **[!UICONTROL Añadir transiciones]** y especifique una etiqueta y un nombre interno para cada transición."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
@@ -78,7 +78,7 @@ Para configurar una actividad de Advanced JavaScript code, siga estos pasos:
    * Haga clic en **[!UICONTROL Editar el código de la primera llamada]** para definir el script que se ejecutará durante la primera llamada.
    * Haga clic en **[!UICONTROL Editar código de llamada siguiente]** para definir el script que se ejecutará durante las siguientes llamadas del flujo de trabajo. (opcional)
 
-1. Para agregar una o varias transiciones de salida, haga clic en el botón **[!UICONTROL Agregar transiciones]** y especifique una etiqueta y un nombre interno para cada transición.
+1. Para añadir una o varias transiciones de salida, haga clic en el botón **[!UICONTROL Añadir transiciones]** y especifique una etiqueta y un nombre interno para cada transición.
 
    En este ejemplo hemos configurado dos transiciones activadas por la secuencia de comandos en el fragmento de código en función de condiciones específicas.
 
