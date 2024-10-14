@@ -10,7 +10,7 @@ ht-degree: 47%
 
 ---
 
-# Añadir un encabezado previo a un correo electrónico {#preheader}
+# Añadir un preencabezado a un correo electrónico {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
