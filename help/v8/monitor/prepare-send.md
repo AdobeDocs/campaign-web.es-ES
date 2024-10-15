@@ -3,7 +3,7 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 38%
@@ -19,7 +19,7 @@ Cuando hayas definido tu [contenido](../email/edit-content.md), [audiencia](../a
 
 Durante la preparación, la población objetivo se calcula y el contenido del mensaje se genera para cada perfil incluido en el objetivo. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o en la fecha y hora programadas.
 
-Las reglas de validación utilizadas durante la preparación de la entrega se describen en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
+Las reglas de validación utilizadas durante la preparación de la entrega se describen en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 A continuación se enumeran los pasos principales para preparar el envío.
 
