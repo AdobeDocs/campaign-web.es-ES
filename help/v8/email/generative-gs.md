@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción al Acelerador de contenido del Asistente de IA
 description: Introducción al acelerador de contenido del asistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '835'
 ht-degree: 29%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 29%
 >Sumérjase en una experiencia práctica con [nuestra vista previa de características en vivo](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator), diseñada para permitirle explorar sus características de primera mano y comprender plenamente sus capacidades.
 
 
-A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de manera eficiente y rápida. AI Assistant de Adobe Campaign Web for Content Acceleration, con tecnología Microsoft Azure OpenAI y Adobe Firefly, es la capacidad de generación de contenido de IA de Adobe que revoluciona la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca.
+A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de manera eficiente y rápida. El acelerador de contenido asistente de IA de Adobe Campaign Web, con tecnología Microsoft Azure OpenAI y Adobe Firefly, es la capacidad de generación de contenido de IA de Adobe que revoluciona la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca.
 
 El Asistente de IA hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
@@ -49,7 +49,7 @@ El Asistente de IA hace que la creación y ejecución de campañas de marketing 
 >
 >* Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](#generative-guardrails) relacionadas.
 >
->* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Adobe Campaign Web para la aceleración de contenido. Para obtener más información, póngase en contacto con su representante Adobe.
+>* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el acelerador de contenido del asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
 ## Acceso al acelerador de contenido del asistente de IA {#generative-access}
 
@@ -70,7 +70,7 @@ Obtenga información sobre cómo definir permisos en Campaign en [esta sección]
 
 ## Mecanismos de protección y limitaciones {#generative-guardrails}
 
-A continuación, se enumeran las directrices generales para utilizar el asistente de IA en la web de Adobe Campaign para la aceleración de contenido para la generación de correo electrónico:
+A continuación, se enumeran las directrices generales para utilizar el acelerador de contenido asistente de IA en Adobe Campaign Web para la generación de correo electrónico:
 
 * La calidad del contenido generado se ve fuertemente influida por el objetivo de marketing que defina. Utilice un indicador bien definido para el modelo GenAI para interpretar con precisión. 
 * Cargue el recurso de la marca para tener información precisa sobre el contenido de la marca. De lo contrario, el contenido se basa en información disponible públicamente. El contenido cargado puede tener los siguientes formatos: PDF, JPEG, PNG o archivos ZIP (con formatos de archivo compatibles).
@@ -80,9 +80,9 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 * El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Como parte del compromiso de Adobe de fomentar la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplicará Contentes credentials cuando se descargue o exporte contenido o un proyecto que incluya un recurso generado por el Firefly. [Más información](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-Las siguientes limitaciones se aplican al asistente de IA en Adobe Campaign Web para la aceleración de contenido:
+Las siguientes limitaciones se aplican al acelerador de contenido del asistente de IA en Adobe Campaign Web:
 
-* El asistente de IA de Adobe Campaign Web para la aceleración de contenido solo está disponible actualmente en inglés. Las entradas que no sean en inglés pueden producir resultados incoherentes o erróneos. En este momento no se abordarán ni mejorarán los problemas que surjan de las respuestas que no sean en inglés.
+* El acelerador de contenido del asistente de IA en la web de Adobe Campaign solo es compatible actualmente en inglés. Las entradas que no sean en inglés pueden producir resultados incoherentes o erróneos. En este momento no se abordarán ni mejorarán los problemas que surjan de las respuestas que no sean en inglés.
 * Solo disponible para los canales de correo electrónico, push y SMS.
 * Puede que el contenido de GenAI no siempre sea preciso: comparta sus comentarios para que nuestros ingenieros puedan perfeccionar los modelos.
 * Puede cargar varios recursos de marca, pero solo puede aprovechar uno para una generación específica.
