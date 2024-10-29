@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,14 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!BEGINTABS]
 
+
+>[!TAB Versión de octubre de 2024]
+
+Ya está activa la versión de octubre, que incluye mensajería transaccional, cuentas externas y más mejoras.
+
+[![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB Acelerador de contenido del Asistente de IA]
 
 ✨ Sumérjase en una experiencia práctica con la previsualización de las funciones en vivo del [Acelerador de contenido del Asistente de IA](../v8/email/generative-gs.md), diseñada para que explore las funciones en primera persona y comprenda plenamente todo su potencial.
@@ -62,12 +70,6 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 Al acceder a la lista de campos para personalización, ahora puede comprobar cómo se distribuyen los valores para cada campo.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB Captcha en páginas de aterrizaje]
-
-Ahora puede añadir captcha para proteger su página de aterrizaje contra spam y abusos causados por bots. Esta capacidad tiene disponibilidad limitada.
-
-[![imagen](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
