@@ -3,10 +3,10 @@ audience: end-user
 title: Matriz de funciones de la interfaz de usuario web y consola de cliente de Campaign
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -68,15 +68,17 @@ Todos los públicos creados en la consola del cliente de Campaign o en Adobe Exp
 
 Los trabajos de importación y exportación en un solo paso que se describen en la [documentación de la versión 8 de Campaign (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=es#import-jobs){target="_blank"} no están disponibles en la interfaz de usuario web de Campaign. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## Mensajería transaccional {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-Actualmente, las funciones de mensajería transaccional que están incluidas en el paquete de productos del Centro de mensajería no están disponibles en la nueva interfaz de usuario web de Campaign.
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Examine la [documentación de la versión 8 de Campaign (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=es){target="_blank"} y obtenga más información sobre las funcionalidades de mensajería en tiempo real, como las siguientes:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* Creación y ejecución de mensajes en tiempo real en correos electrónicos, SMS y push
-* Enriquecimiento y personalización de mensajes
-* Creación de informes y monitorización de mensajería transaccional
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## Diseño de contenido {#content-capabilities}
 
@@ -155,7 +157,7 @@ La interfaz de usuario web de Campaign no muestra las siguientes funcionalidades
 
 ### Cuentas externas {#external}
 
-Adobe Campaign incluye un conjunto de cuentas externas predefinidas para conectarse con sistemas externos. Como administrador del sistema de Campaign, puede crear y administrar cuentas externas solo desde la consola del cliente.[Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=es){target="_blank"}
+Adobe Campaign incluye un conjunto de cuentas externas predefinidas para conectarse con sistemas externos. Como administrador del sistema de Campaign, puede crear y administrar cuentas externas. [Más información](../administration/external-account.md)
 
 ### Creación y extensión de esquemas {#schema}
 

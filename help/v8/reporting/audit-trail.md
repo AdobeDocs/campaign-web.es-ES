@@ -4,9 +4,9 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
 * **Cuenta externa** le permite comprobar las modificaciones realizadas en cuentas externas en la versión 8 de Campaign, utilizadas por procesos técnicos como flujos de trabajo técnicos o flujos de trabajo de campaña.
 
-  Para obtener más información sobre la cuenta externa, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Para obtener más información sobre la cuenta externa, consulte esta [página](../administration/external-account.md).
 
 * **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en la asignación de entregas en Campaign V8.
 

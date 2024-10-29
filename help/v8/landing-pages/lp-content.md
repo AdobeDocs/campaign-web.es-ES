@@ -3,7 +3,7 @@ title: Definición del contenido específico de la página de aterrizaje
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -145,7 +145,9 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 Para enviar automáticamente un mensaje de confirmación después del envío de una página de aterrizaje, siga estos pasos:
+
 1. En la sección **[!UICONTROL LLAMADA A LA ACCIÓN]**, marque la opción **[!UICONTROL Enviar correo electrónico de confirmación]**.
+
 1. En la lista desplegable asociada, elija la plantilla de mensaje transaccional que debe enviarse.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
