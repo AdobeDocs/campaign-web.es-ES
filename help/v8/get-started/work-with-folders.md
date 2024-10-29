@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ Configure el tipo de carpeta haciendo clic en el botón **[!UICONTROL Confirmar]
 Si desea crear una carpeta sin un tipo específico, elija el tipo **[!UICONTROL Carpeta genérica]**.
 
 También puede [crear y administrar carpetas en la consola de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views).
+
+
+## Reordenar carpetas {#reorder-folders}
+
+Puede reordenar las carpetas según sus necesidades. Para ello, haga clic en **[!UICONTROL Reordenar carpetas]** como se muestra a continuación.
+
+En nuestro ejemplo, la carpeta **Deliveries** contiene 4 carpetas.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+Puede cambiar el orden de las carpetas arrastrando y soltando **o usando** flechas arriba y abajo **.**
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## Eliminación de una carpeta {#delete-a-folder}
 
