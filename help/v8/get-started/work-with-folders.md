@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Programación de carpetas"
 >abstract="Programación de carpetas"
 
-## Acerca de las carpetas
+## Acerca de las carpetas {#about-folders}
 
 Las carpetas son objetos de Adobe Campaign que permiten organizar los componentes y los datos.
 
@@ -43,7 +43,7 @@ Puede crear, cambiar el nombre, reordenar y mover carpetas en el árbol de naveg
 Puede configurar un tipo de carpeta. Por ejemplo: una carpeta de envíos.
 El icono de la carpeta cambia según este tipo.
 
-## Creación de una nueva carpeta
+## Creación de una nueva carpeta {#create-a-folder}
 
 Para crear una carpeta nueva en la interfaz de usuario de Adobe Campaign Web, siga estos pasos:
 
@@ -52,8 +52,7 @@ En el menú **[!UICONTROL …]**, encontrará **[!UICONTROL Crear nueva carpeta]
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Al crear una carpeta nueva, de forma predeterminada, el tipo de carpeta es el tipo de la carpeta principal.
-En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Envíos]**.
+Al crear una carpeta nueva, de forma predeterminada, el tipo de carpeta es el tipo de carpeta principal. En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Envíos]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Si desea crear una carpeta sin un tipo específico, elija el tipo **[!UICONTROL 
 
 También puede [crear y administrar carpetas en la consola de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-## Eliminación de una carpeta
+## Eliminación de una carpeta {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ En la lista de atributos, haga clic en el botón **+** situado junto al vínculo
 ![](assets/values_link.png){zoomable="yes"}
 
 También es posible disponer de la distribución de valores en un modelador de consultas. [Más información aquí](../query/build-query.md#distribution-of-values-in-a-query).
+
+### Filtrado de valores {#filter-values}
+
+Mediante los **[!UICONTROL filtros avanzados]** en la ventana de distribución de valores, puede filtrar los resultados según las condiciones especificadas.
+
+En el ejemplo de la lista de envíos anterior, que muestra la distribución por canal, puede, por ejemplo, filtrarla para mostrar solo los envíos cuyo estado es **Finalizado**.
+
+![](assets/values_filter.png){zoomable="yes"}

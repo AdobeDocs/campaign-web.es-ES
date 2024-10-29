@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 4%
+source-wordcount: '1189'
+ht-degree: 3%
 
 ---
 
@@ -48,21 +48,27 @@ La barra de herramientas situada en la esquina superior derecha del lienzo propo
 
 ## Administrar actividades {#manage}
 
-Al agregar actividades, los botones de acción están disponibles en el panel de propiedades, lo que le permite realizar varias operaciones. Puede hacer lo siguiente:
+Al agregar actividades, los botones de acción están disponibles en el panel de propiedades, lo que le permite realizar varias operaciones.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+Puede hacer lo siguiente:
 
 * **Eliminar** la actividad del lienzo.
 * **Deshabilitar/Habilitar** la actividad. Cuando se ejecuta el flujo de trabajo, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y el flujo de trabajo se detiene.
-* **Copie** la actividad. Consulte [esta sección](#copy).
-* Acceda a los **registros y tareas** de la actividad.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. No se ejecutan la tarea correspondiente ni todas las que la siguen en la misma ruta.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Copie** la actividad. Consulte [esta sección](#copy).
+* **Mover** una actividad y todos sus nodos secundarios a otra transición. Ver [esta sección](#move)
+* Acceda a las **opciones de ejecución** de la actividad.
+* Acceda a los **registros y tareas** de la actividad.
 
 Varias actividades **Targeting**, como **Combine** o **Deduplication**, le permiten procesar la población restante e incluirla en una transición saliente adicional. Por ejemplo, si está usando una actividad **Split**, el complemento consiste en la población que no coincide con ninguno de los subconjuntos definidos anteriormente. Para usar esta capacidad, active la opción **Generar complemento**.
 
 ![](assets/workflow-split-complement.png)
 
-## Copiar actividades {#copy}
+## Mover o copiar actividades {#move-copy}
+
+### Copiar y pegar actividades {#copy}
 
 Puede copiar actividades de flujo de trabajo y pegarlas en cualquier flujo de trabajo. El flujo de trabajo de destino puede estar en una pestaña diferente del explorador.
 
@@ -79,6 +85,20 @@ Para copiar actividades, tiene dos opciones:
 Para pegar las actividades copiadas, haga clic en el botón **+** de una transición y seleccione &quot;Pegar actividad X&quot;.
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Mover actividades y sus nodos secundarios {#move}
+
+Journey Optimizer le permite mover una actividad junto con todo el contenido de sus nodos secundarios (incluidas todas las transiciones y actividades dentro de ella) al final de otra transición dentro del mismo flujo de trabajo.
+
+Este proceso desconecta la actividad y todo lo que se encuentra en su transición saliente de la ubicación inicial, lo que la mueve a la nueva transición objetivo.
+
+Para mover una actividad:
+
+1. Seleccione la actividad que desee mover.
+1. En el panel de propiedades de la actividad, haga clic en el botón **Mover**.
+1. Seleccione la transición en la que desea colocar la actividad y su transición saliente y, a continuación, confirme la selección.
+
+![](assets/activity-move.png)
 
 ## Opciones de ejecución {#execution}
 

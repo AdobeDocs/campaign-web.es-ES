@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 49%
+source-wordcount: '2061'
+ht-degree: 40%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 49%
 >title="Actividad de enriquecimiento"
 >abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Propuesta de oferta"
->abstract="Propuesta de oferta"
 
 La actividad **Enriquecimiento** es una actividad de **Segmentación**. La actividad de enriquecimiento permite mejorar los datos segmentados con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.
 
@@ -140,6 +136,56 @@ El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínc
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Añadir ofertas {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Propuesta de oferta"
+>abstract="La actividad Enrichment permite agregar ofertas para cada perfil."
+
+La actividad **[!UICONTROL Enrichment]** le permite agregar ofertas para cada perfil.
+
+Para ello, siga los pasos para configurar una actividad **[!UICONTROL Enrichment]** con una oferta:
+
+1. En la actividad **[!UICONTROL Enrichment]**, en la sección **[!UICONTROL Propuesta de oferta]**, haga clic en el botón **[!UICONTROL Agregar oferta]**
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. Tiene dos opciones para la selección de ofertas:
+
+   * **[!UICONTROL Buscar la mejor oferta en la categoría]** : marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de ofertas, categoría o tema(s), fecha de contacto, número de ofertas que desea mantener). El motor calculará las mejores ofertas para agregar según estos parámetros. Se recomienda completar el campo Category o el campo Theme en vez de ambos al mismo tiempo.
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL A predefined offer]**: marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. Después de seleccionar tu oferta, haz clic en el botón **[!UICONTROL Confirmar]**.
+
+Ahora puede utilizar la oferta en la actividad envío.
+
+### Uso de las ofertas de la actividad Enrichment
+
+Dentro de un flujo de trabajo, si desea utilizar las ofertas que obtiene de una actividad de enriquecimiento en su envío, siga los pasos a continuación:
+
+1. Abra la actividad envío y vaya en la edición de contenido. Haga clic en el botón **[!UICONTROL Configuración de ofertas]** y seleccione en la lista desplegable el **[!UICONTROL Espacio de ofertas]** correspondiente a su oferta.
+Si desea ver solamente ofertas de la actividad de enriquecimiento, establezca el número de **[!UICONTROL Proposiciones]** en 0 y guarde las modificaciones.
+
+   ![](../assets/offers-settings.png)
+
+1. En el diseñador de correo electrónico, al agregar una personalización con ofertas, haga clic en el icono **[!UICONTROL Proposiciones]**, se mostrarán las ofertas que obtenga de la actividad **[!UICONTROL Enriquecimiento]**. Abra la oferta que desee elegir haciendo clic en ella.
+
+   ![](../assets/offers-propositions.png)
+
+   Vaya a **[!UICONTROL Funciones de procesamiento]** y elija **[!UICONTROL Procesamiento de HTML]** o **[!UICONTROL Procesamiento de texto]** según sus necesidades.
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>Si elige tener más de una oferta en la actividad **[!UICONTROL Enrichment]** en la opción **[!UICONTROL Number of offers to keep]**, todas las ofertas se mostrarán al hacer clic en el icono **[!UICONTROL Propositions]**.
+
 ## Ejemplos {#example}
 
 ### Atributo de enriquecimiento único {#single-attribute}
@@ -156,10 +202,10 @@ A continuación, simplemente añadimos un único atributo de enriquecimiento, po
 
 En este caso de uso más complejo, seleccionaremos un vínculo de colección, que es un vínculo con una cardinalidad 1-N entre tablas. Vamos a recuperar las tres últimas compras con un importe menor a 100 €. Para ello, debe definir lo siguiente:
 
-* un atributo de enriquecimiento: el campo **Cantidad total**
+* un atributo de enriquecimiento: el campo **Price**
 * número de líneas que se van a recuperar: 3
 * un filtro: filtre los artículos que superen los 100 €
-* un orden: orden descendente en el campo **Fecha del pedido**.
+* un orden: orden descendente en el campo **Fecha de orden**.
 
 #### Añadir el atributo {#add-attribute}
 
@@ -167,9 +213,9 @@ Aquí es donde se selecciona el vínculo de colección que se utilizará como da
 
 1. Haga clic dentro del campo **Atributo**.
 1. Haga clic en **Mostrar atributos avanzados**.
-1. Seleccione el campo **Cantidad total** de la tabla **Compras**.
+1. Seleccione el campo **Price** de la tabla **Purchases**.
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### Definir la configuración de la colección{#collection-settings}
 
@@ -178,21 +224,23 @@ A continuación, defina cómo se recopilan los datos y el número de registros q
 1. Seleccionar **Recopilar datos** en el menú desplegable **Seleccione cómo se recopilan los datos**.
 1. Escriba &quot;3&quot; en el campo **Líneas a recuperar (Columnas a crear)**.
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, seleccione **Datos acumulados** en su lugar y seleccione **Promedio** en el menú desplegable **Función de acumulado**.
 
-![](../assets/workflow-enrichment5.png)
+Utilice los campos **Etiqueta** y **Alias** de su atributo para que sea más comprensible, como se muestra a continuación.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Definición de los filtros{#collection-filters}
 
 Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los elementos superiores a 100 $. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
-1. Haga clic en **Editar filtros**.
-1. Añada los dos filtros siguientes: **Cantidad total** existe Y **Cantidad total** es menor que 100. El primero filtra los valores NULOS, ya que aparecerían como el valor más alto.
+1. Haga clic en **Crear filtros**.
+1. Agregue los dos filtros siguientes: **Price** existe Y **Price** es menor que 100. El primero filtra los valores NULOS, ya que aparecerían como el valor más alto.
 1. Haga clic en **Confirmar**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### Definición de la ordenación{#collection-sorting}
 
@@ -204,7 +252,7 @@ Ahora necesitamos aplicar la ordenación para recuperar las tres **últimas** co
 1. Haga clic en **Confirmar**.
 1. Seleccione **Descendente** desde el menú desplegable **Ordenar**.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Enriquecimiento con datos vinculados {#link-example}
 
