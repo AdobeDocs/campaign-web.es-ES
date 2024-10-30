@@ -4,9 +4,9 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2888'
 ht-degree: 51%
 
 ---
@@ -351,6 +351,8 @@ Para agregar una variable, vaya a la pestaña **[!UICONTROL Variables]**, como s
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Haga clic en el botón **[!UICONTROL Agregar variables]** para escribir los detalles de la variable y, a continuación, haga clic en **[!UICONTROL Confirmar]** para guardar los cambios.
+Haga clic en el botón **[!UICONTROL Agregar variables]** para escribir los detalles de la variable. Puede agregar directamente su valor o utilizar una expresión para él activando la casilla de verificación **[!UICONTROL El valor es el resultado de una expresión]**. A continuación, haga clic en **[!UICONTROL Confirmar]** para guardar los cambios.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+Más información acerca de [usar variables para la personalización](../personalization/personalize.md#variables-personalization) y [usar variables para el contenido dinámico](../personalization/conditions.md#variables-conditional).
