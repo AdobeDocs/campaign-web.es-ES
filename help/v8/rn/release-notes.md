@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 44%
+source-wordcount: '407'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 44%
 
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
-## Versión de octubre {#24-10-release}
+Los cambios y mejoras disponibles con versiones anteriores se enumeran [en esta página](release-notes-24.md).
+
+## Versión de octubre de 2024 {#24-10-release}
 
 **Fecha de la versión**: 29 de octubre de 2024
 
