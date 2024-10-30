@@ -2,16 +2,16 @@
 audience: end-user
 product: campaign
 title: Trabajo con plantillas de contenido
-description: Aprenda a crear plantillas para reutilizar contenido en correos electrónicos de Adobe Campaign
+description: Learn how to create templates to reuse content in Adobe Campaign emails
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 18%
+source-wordcount: '1018'
+ht-degree: 17%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 18%
 >title="Plantillas de contenido"
 >abstract="Para lograr un proceso de diseño acelerado y mejorado, puede crear plantillas de envío independientes con el fin de reutilizar fácilmente el contenido personalizado en Adobe Campaign. Estas plantillas de contenido se pueden diseñar desde cero, en función de las plantillas integradas o personalizadas, crear a partir de un contenido existente o importar al editor de plantillas de contenido."
 
-Para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Estas plantillas de contenido se pueden diseñar desde cero, en función de las plantillas integradas o personalizadas, crear a partir de un contenido existente o importar al editor de plantillas de contenido.
+[!DNL Adobe Campaign] Estas plantillas de contenido se pueden diseñar desde cero, en función de las plantillas integradas o personalizadas, crear a partir de un contenido existente o importar al editor de plantillas de contenido.
 
-Esta funcionalidad permite a los usuarios orientados a contenido trabajar en plantillas independientes para que los usuarios de marketing puedan reutilizarlas y adaptarlas dentro de sus propias campañas de correo electrónico.
+This functionality enables content-oriented users to work on standalone templates so that marketing users can reuse and adapt them inside their own email campaigns.
 
 >[!NOTE]
 >
->Actualmente solo se admiten **plantillas de contenido de correo electrónico**.
+>****
 
 ## Plantillas de contenido de acceso {#access-templates}
 
@@ -47,6 +47,17 @@ Este panel muestra todas las plantillas de contenido disponibles en forma de lis
 
 Desde la lista, puede editar, duplicar o eliminar plantillas de contenido existentes. Utilice el botón de la sección superior para crear una plantilla de contenido.
 
+### Plantilla de contenido en modo de solo lectura {#template-readonly}
+
+Los derechos de acceso se pueden aplicar a las plantillas de contenido.
+
+Si no tiene permisos de edición para una plantilla de contenido determinada, esta se mostrará en **modo de solo lectura**. En este caso, el botón **[!UICONTROL Editar contenido]** se reemplaza con el botón **[!UICONTROL Ver contenido]**, lo que le permite ver la plantilla sin realizar ningún cambio.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+Como se muestra a continuación, todos los iconos de funciones están desactivados, lo que limita la interacción únicamente a la visualización.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Crear plantillas de contenido {#create-content-templates}
 
@@ -62,13 +73,13 @@ Desde la lista, puede editar, duplicar o eliminar plantillas de contenido existe
 
 Las plantillas de contenido se pueden crear [guardando un correo electrónico existente como plantilla](#save-as-template) o de la lista de plantillas de correo electrónico, mediante el botón **Crear plantilla de contenido**, [como se detalla a continuación](#create-template-from-scratch).
 
-Una vez guardado, ahora puede usar esta plantilla al crear cualquier [correo electrónico](../email/create-email.md) dentro de [!DNL Adobe Campaign]. [Descubra cómo](use-email-templates.md)
+[](../email/create-email.md)[!DNL Adobe Campaign] [Descubra cómo](use-email-templates.md)
 
 >[!NOTE]
 >
->* Los cambios realizados en las plantillas de contenido no se propagan a los correos electrónicos.
+>* Changes made to content templates are not propagated to emails.
 >
->* Del mismo modo, cuando las plantillas se utilizan en un mensaje de correo electrónico, las ediciones que realice en el contenido del correo electrónico no afectarán a la plantilla de contenido utilizada anteriormente.
+>* Similarly, when templates are used in an email, any edits you make to your email content do not impact the previously used content template.
 
 ### Creación de una nueva plantilla de contenido {#create-template-from-scratch}
 
@@ -97,21 +108,21 @@ Para crear una nueva plantilla de contenido desde el panel de plantillas de cont
 
    * [Importe contenido existente del HTML](existing-content.md) desde un archivo o una carpeta .zip.
 
-   * Utilice contenido existente de una lista de plantillas integradas o personalizadas. Los pasos para usar una plantilla de contenido en un correo electrónico se describen en [esta sección](use-email-templates.md).
+   * Utilice contenido existente de una lista de plantillas integradas o personalizadas. [](use-email-templates.md)
 
    ![](assets/email_designer-templates.png){zoomable="yes"}
 
-1. Se muestra el Designer de correo electrónico. Edite el contenido según sea necesario, del mismo modo que lo haría para cualquier correo electrónico, según la opción seleccionada. Aprenda a usar el Designer de correo electrónico en [esta sección](get-started-email-designer.md).
+1. The Email Designer displays. Edit your content as needed, the same way you would do for any email, according to the option you selected. [](get-started-email-designer.md)
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
-1. Una vez que la plantilla esté lista, haz clic en **[!UICONTROL Guardar]**.
+1. ****
 
-   Si es necesario, haga clic en la flecha situada junto al nombre de la plantilla para volver a la pantalla **[!UICONTROL Detalles]** y editar la plantilla.
+   ****
 
    ![](assets/content-template-save-back.png){zoomable="yes"}
 
-La plantilla está disponible en la lista **[!UICONTROL Plantillas de contenido]**. [Más información](#access-templates)
+**** [Más información](#access-templates)
 
 Ahora puede usar esta plantilla para generar un nuevo contenido: está disponible en la pestaña **[!UICONTROL Plantillas guardadas]** de Email Designer. [Descubra cómo](use-email-templates.md)
 
@@ -133,14 +144,14 @@ Para guardar un contenido de correo electrónico como plantilla, siga los pasos 
 
 La plantilla se guardará y se mostrará en la lista **[!UICONTROL Plantillas de contenido]**. Se convierte en una plantilla de contenido independiente a la que se puede acceder, editar y eliminar como cualquier otro elemento de la lista. [Más información](#access-manage-templates)
 
-Ahora puede usar esta plantilla para generar un nuevo contenido: está disponible en la pestaña **[!UICONTROL Plantillas guardadas]** de Email Designer. [Descubra cómo](use-email-templates.md)
+**** [Descubra cómo](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
 >
->Los cambios realizados en esa nueva plantilla no se propagan al correo electrónico del que procede. Del mismo modo, cuando el contenido original se edita dentro de ese correo electrónico, la nueva plantilla no se modifica.
+>Any change to that new template is not propagated to the email it comes from. Similarly, when the original content is edited within that email, the new template is not modified.
 
 <!--
 
@@ -159,25 +170,25 @@ You can test the rendering of any email content template, whether created from s
 -->
 
 
-## Modificación de una plantilla de contenido {#modify-delete}
+## Modify a content template {#modify-delete}
 
-Para actualizar una plantilla de contenido existente, siga estos pasos:
+To update an existing content template, follow these steps:
 
-1. En la lista de plantillas de contenido, haga clic en la etiqueta de la plantilla para modificarla y editarla.
+1. From the list of content templates, click on the label of the template to modify to edit it.
 
-1. Haz clic en el botón **[!UICONTROL Editar contenido]** para actualizar el contenido con el [Designer de correo electrónico](get-started-email-designer.md).
+1. ****[](get-started-email-designer.md)
 
 ![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Los cambios realizados en las plantillas de contenido no se propagan a los correos electrónicos que utilizan esta plantilla de contenido.
+>Changes made to content templates are not propagated to emails using this content template.
 
-## Eliminación de una plantilla de contenido {#content-delete}
+## Delete a content template {#content-delete}
 
-Existen dos formas de eliminar una plantilla de contenido:
+You have two ways to delete a content template:
 
-* en la lista de plantillas de contenido, haga clic en el botón de puntos suspensivos y seleccione **Eliminar**
+* ****
 
   ![Eliminar una plantilla de contenido del tablero](assets/content-template-list-delete.png)
 
