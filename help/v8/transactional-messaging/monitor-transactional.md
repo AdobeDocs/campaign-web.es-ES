@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo monitorizar un mensaje transaccion
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ Puede ver los detalles allí.
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="Historial de eventos de mensajería transaccional"
->abstract="Puede obtener una vista de los eventos que almacenan en déclencheur el mensaje transaccional."
+>title="Historial de eventos de la mensajería transaccional"
+>abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="Previsualización del historial de eventos de mensajería transaccional"
->abstract="Puede obtener una vista de los eventos que almacenan en déclencheur el mensaje transaccional."
+>title="Vista previa del historial de eventos de la mensajería transaccional"
+>abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
 
 También puede obtener una vista de los eventos que almacenan en déclencheur el mensaje transaccional.
 Para verlos, vaya a la sección **[!UICONTROL Historial de eventos]**.

@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -141,7 +141,7 @@ El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínc
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="Propuesta de oferta"
->abstract="La actividad Enrichment permite agregar ofertas para cada perfil."
+>abstract="La actividad Enriquecimiento le permite añadir ofertas para cada perfil."
 
 La actividad **[!UICONTROL Enrichment]** le permite agregar ofertas para cada perfil.
 

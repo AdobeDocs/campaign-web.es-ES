@@ -5,7 +5,7 @@ description: Acerca de la mensajería transaccional con Adobe Campaign Web
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="Mensajería transaccional"
->abstract="La mensajería transaccional es un módulo especializado en Adobe Campaign diseñado para gestionar mensajes activados."
+>abstract="La mensajería transaccional es un módulo especializado de Adobe Campaign diseñado para gestionar los mensajes activados."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"

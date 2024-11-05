@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo crear un mensaje transaccional en 
 source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -40,23 +40,23 @@ Para crear una plantilla de mensaje transaccional, siga los pasos a continuació
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
->title="Propiedades de mensajería transaccional"
+>title="Propiedades de la mensajería transaccional"
 >abstract="Rellene este formulario para configurar las propiedades de la mensajería transaccional"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_email_properties"
->title="Propiedades de correo electrónico de mensajería transaccional"
->abstract="Rellene este formulario para configurar las propiedades del correo electrónico de mensajería transaccional"
+>title="Propiedades de correo electrónico de la mensajería transaccional"
+>abstract="Rellene este formulario para configurar las propiedades del correo electrónico de la mensajería transaccional"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_sms_properties"
->title="Propiedades del SMS de mensajería transaccional"
->abstract="Rellene este formulario para configurar las propiedades del SMS de mensajería transaccional"
+>title="Propiedades de SMS de la mensajería transaccional"
+>abstract="Rellene este formulario para configurar las propiedades de SMS de la mensajería transaccional"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_push_properties"
->title="Propiedades push de la mensajería transaccional"
->abstract="Rellene este formulario para configurar las propiedades push de la mensajería transaccional"
+>title="Propiedades de Push de la mensajería transaccional"
+>abstract="Rellene este formulario para configurar las propiedades de Push de la mensajería transaccional"
 
 La sección **[!UICONTROL Propiedades]** de un mensaje transaccional le ayudará a configurar:
 
@@ -87,15 +87,15 @@ Al hacer clic en el icono de búsqueda, accede a una aplicación móvil incluida
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
->title="Contexto de mensajería transaccional"
->abstract="El ejemplo de contexto le permite crear un evento de prueba para previsualizar el mensaje transaccional recibido con la personalización del perfil."
+>title="Contexto de la mensajería transaccional"
+>abstract="La muestra de contexto le permite crear un evento de prueba para obtener una vista previa del mensaje transaccional recibido con la personalización del perfil."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="Contexto de mensajería transaccional"
->abstract="El ejemplo de contexto le permite crear un evento de prueba para previsualizar el mensaje transaccional recibido con la personalización del perfil. "
+>title="Contexto de la mensajería transaccional"
+>abstract="La muestra de contexto le permite crear un evento de prueba para obtener una vista previa del mensaje transaccional recibido con la personalización del perfil. "
 
-El ejemplo de contexto le permite crear un evento de prueba para previsualizar el mensaje transaccional recibido con la personalización del perfil.
+La muestra de contexto le permite crear un evento de prueba para obtener una vista previa del mensaje transaccional recibido con la personalización del perfil.
 
 Este paso es opcional. Puede utilizar la plantilla sin el ejemplo de contexto, pero el inconveniente es que no puede obtener una vista previa del contenido personalizado.
 
@@ -105,12 +105,12 @@ El contenido del contexto depende de la personalización que necesite.
 
 ![](assets/transactional-context.png){zoomable="yes"}
 
-### Contenido de plantilla de mensaje transaccional {#transactional-content}
+### Contenido de la plantilla de mensaje transaccional {#transactional-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_content"
->title="Contenido de mensajería transaccional"
->abstract="Aprenda a crear el contenido de mensajería transaccional"
+>title="Contenido de la mensajería transaccional"
+>abstract="Aprenda a crear el contenido de la mensajería transaccional"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
@@ -178,9 +178,9 @@ Los déclencheur ahora pueden insertar el envío del mensaje transaccional.
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
 >title="Evento de mensajería transaccional"
->abstract="La configuración del tipo de evento vincula el mensaje al evento de déclencheur."
+>abstract="La configuración del tipo de evento vincula el mensaje al evento del activador."
 
-La configuración del tipo de evento vincula el mensaje al evento de déclencheur.
+La configuración del tipo de evento vincula el mensaje al evento del activador.
 
 En la interfaz de usuario web de Campaign, puede seleccionar un tipo de evento ya creado o crear directamente el tipo de evento en esta página de configuración.
 
