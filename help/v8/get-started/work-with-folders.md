@@ -4,9 +4,9 @@ title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ En el menú **[!UICONTROL …]**, encontrará **[!UICONTROL Crear nueva carpeta]
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Al crear una carpeta nueva, de forma predeterminada, el tipo de carpeta es el tipo de carpeta principal. En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Envíos]**.
+Al crear una carpeta nueva, de forma predeterminada, el tipo de carpeta es el tipo de la carpeta principal. En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Envíos]**.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -71,11 +71,11 @@ También puede [crear y administrar carpetas en la consola de Adobe Campaign](ht
 
 Puede reordenar las carpetas según sus necesidades. Para ello, haga clic en **[!UICONTROL Reordenar carpetas]** como se muestra a continuación.
 
-En nuestro ejemplo, la carpeta **Deliveries** contiene 4 carpetas.
+En nuestro ejemplo, la carpeta **Envíos** contiene 4 carpetas.
 
 ![](assets/folder-reorder.png){zoomable="yes"}
 
-Puede cambiar el orden de las carpetas arrastrando y soltando **o usando** flechas arriba y abajo **.**
+Puede cambiar el orden de las carpetas mediante la acción de **arrastrar y soltar** o usando las **flechas arriba y abajo**
 
 ![](assets/folder-draganddrop.png){zoomable="yes"}
 
@@ -121,10 +121,10 @@ En la lista de atributos, haga clic en el botón **+** situado junto al vínculo
 
 También es posible disponer de la distribución de valores en un modelador de consultas. [Más información aquí](../query/build-query.md#distribution-of-values-in-a-query).
 
-### Filtrado de valores {#filter-values}
+### Filtro de los valores {#filter-values}
 
 Mediante los **[!UICONTROL filtros avanzados]** en la ventana de distribución de valores, puede filtrar los resultados según las condiciones especificadas.
 
-En el ejemplo de la lista de envíos anterior, que muestra la distribución por canal, puede, por ejemplo, filtrarla para mostrar solo los envíos cuyo estado es **Finalizado**.
+En el ejemplo de la lista de envíos anterior, que muestra la distribución por canal, puede, por ejemplo, filtrarla para mostrar solo los envíos cuyo estado sea **Finalizado**.
 
 ![](assets/values_filter.png){zoomable="yes"}

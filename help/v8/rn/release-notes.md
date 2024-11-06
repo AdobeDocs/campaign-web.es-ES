@@ -3,9 +3,9 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 42%
 
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
-Los cambios y mejoras disponibles con versiones anteriores se enumeran [en esta página](release-notes-24.md).
+Los cambios y las mejoras disponibles con las versiones anteriores se muestran [en esta página](release-notes-24.md).
 
 ## Versión de octubre de 2024 {#24-10-release}
 
-**Fecha de la versión**: 29 de octubre de 2024
+**Fecha de publicación**: 29 de octubre de 2024
 
 Las siguientes funciones y mejoras están disponibles a partir de la versión de octubre.
 
@@ -37,7 +37,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede configurar y administrar cuentas externas directamente a través de la interfaz de usuario web de Adobe Campaign. Esta nueva función facilita la configuración de diferentes tipos de cuentas externas, como correos electrónicos rechazados (POP3) o instancias de ejecución.</p>
+<p>Ahora puede configurar y administrar cuentas externas directamente a través de la interfaz de usuario web de Adobe Campaign. Esta nueva función facilita la configuración de diferentes tipos de cuentas externas, como los correos electrónicos rechazados (POP3) o las instancias de ejecución.</p>
 <p>Para obtener más información, consulte la <a href="../administration/external-account.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -54,7 +54,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>La mensajería transaccional (Centro de mensajería) ya está disponible en la interfaz de usuario web de Campaign. Este complemento está diseñado para activar mensajes que se generan a partir de eventos activados desde sistemas de información y puede ser: factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta, creación de cuenta de sitio web, etc.</p>
+<p>La mensajería transaccional (Centro de mensajes) ya está disponible en la interfaz de usuario web de Campaign. Este complemento se ha diseñado para activar mensajes que se generan a partir de eventos desencadenados desde los sistemas de información y pueden ser: una factura, una confirmación de pedido, una confirmación de envío, un cambio de contraseña, una notificación de no disponibilidad del producto, el estado de la cuenta, una creación de cuenta en un sitio web, etc.</p>
 <p>Para obtener más información, consulte la <a href="../transactional-messaging/transactional.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -79,17 +79,17 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 
 ### Mejoras
 
-* **Actividades de flujo de trabajo**: ahora puede mover una actividad y todos sus nodos secundarios de una transición a otra dentro de un flujo de trabajo. Hay disponible un botón **Mover** dedicado en el panel de propiedades de la actividad para realizar esto. [Más información](../workflows/orchestrate-activities.md#move)
+* **Actividades del flujo de trabajo**: ahora puede mover una actividad y todos sus nodos secundarios de una transición a otra dentro de un flujo de trabajo. Hay disponible un botón **Mover** dedicado en el panel de propiedades de la actividad para realizar esto. [Más información](../workflows/orchestrate-activities.md#move)
 
 * **Actividad de enriquecimiento del flujo de trabajo**
 
-   * Ahora puede definir un Alias y una Label al crear un nuevo campo en la actividad **Enrichment**. [Más información](../workflows/activities/enrichment.md#collection-settings)
-   * Ahora puede agregar ofertas para cada perfil en la actividad **Enrichment**. [Más información](../workflows/activities/enrichment.md##add-offers)
+   * Ahora puede definir un Alias y una Etiqueta al crear un nuevo campo en la actividad **Enriquecimiento**. [Más información](../workflows/activities/enrichment.md#collection-settings)
+   * Ahora puede añadir ofertas para cada perfil en la actividad **Enriquecimiento**. [Más información](../workflows/activities/enrichment.md##add-offers)
 
 * **Distribución de valores**: al acceder a la lista de campos para personalización, ahora puede comprobar cómo se distribuyen los valores para cada campo. Una ventana emergente dedicada muestra el número y el porcentaje de cada valor. [Más información](../query/build-query.md#distribution-values-query)
 
-* **Información de versión y sistema**: Ahora puede obtener acceso a los detalles de las versiones de la instancia, tanto para la consola de cliente como para la interfaz de usuario web. Esta nueva sección también enumera todos los paquetes integrados instalados en el entorno. [Más información](../get-started/user-interface.md#user-interface-about)
+* **Información de versión y sistema**: ahora puede obtener acceso a los detalles de las versiones de la instancia, tanto para la consola de cliente como para la interfaz de usuario web. En esta nueva sección también se muestran todos los paquetes integrados instalados en el entorno. [Más información](../get-started/user-interface.md#user-interface-about)
 
 * **Listas**: ahora puede reordenar fácilmente los valores de una lista. [Más información](../get-started/work-with-folders.md)
 
-* **Envío**: ahora se puede acceder a las variables de envío desde los campos de personalización. [Más información](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* **Envío**: ahora puede acceder a la variable de envío desde los campos de personalización. [Más información](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)

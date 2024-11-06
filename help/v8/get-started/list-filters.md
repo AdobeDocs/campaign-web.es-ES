@@ -4,9 +4,9 @@ title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Las listas se muestran en columnas. Puede mostrar información adicional cambian
 
 En la pantalla **Configuración de columnas**, agregue o quite columnas, y cambie el orden en el que se muestran.
 
-Puede cambiar el orden de la lista arrastrando y soltando **o usando** flechas arriba y abajo **, como se muestra a continuación:**
+Puede cambiar el orden de la lista mediante **arrastrar y soltar** o usando las **flechas arriba y abajo**, tal como se muestra a continuación:
 
 ![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

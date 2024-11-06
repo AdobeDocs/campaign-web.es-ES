@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,37 +45,37 @@ Además, puede acceder a las páginas de ayuda principales de Adobe Campaign Web
 >[!CONTEXTUALHELP]
 >id="acw_about"
 >title="Página Acerca de"
->abstract="La página Acerca de suministra detalles sobre la instancia de Adobe Campaign"
+>abstract="La página Acerca de ofrece detalles sobre la instancia de Adobe Campaign"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
->title="Acerca de la instancia"
->abstract="En la sección Instancia se ofrece información clave sobre el cliente de la consola, incluida la versión y el número de compilación asociado"
+>title="Acerca de Instancia"
+>abstract="La sección Instancia proporciona información clave sobre el cliente de la consola, incluida la versión y el número de compilación asociado"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="Acerca de la web"
+>title="Acerca de Web"
 >abstract="La sección Web muestra la versión de la interfaz de usuario web de Campaign, con la última fecha de actualización de la misma, si está disponible."
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
->title="Acerca de los paquetes instalados"
->abstract="La sección Paquetes instalados enumera todos los módulos, funciones e integraciones presentes en la instancia."
+>title="Acerca de Paquetes instalados"
+>abstract="La sección Paquetes instalados muestra todos los módulos, funciones e integraciones presentes en la instancia."
 
-En la parte inferior de la página, el vínculo **[!UICONTROL Acerca de]** proporciona detalles acerca de su instancia de Adobe Campaign. esa información está en modo de solo lectura.
+En la parte inferior de la página, el vínculo **[!UICONTROL Acerca de]** proporciona detalles acerca de su instancia de Adobe Campaign. Esa información está en modo de solo lectura.
 
 ![](assets/about-link.png){zoomable="yes"}
 
-La sección **Instance** proporciona información clave sobre su cliente de consola, incluidos la **versión** y el número **build** asociado.
+La sección **Instancia** suministra información clave sobre su cliente de consola, incluidos la **versión** y el número de **compilación** asociado.
 
 * La **versión** hace referencia a la versión oficial que está utilizando,
 * La **compilación** hace referencia a una iteración específica de esa versión.
 
 Tanto los números de versión como los de compilación son cruciales para la resolución de problemas, ya que ayudan a determinar exactamente qué funciones y correcciones están presentes en su entorno.
 
-La sección **Web** muestra la versión de la interfaz de usuario web de Campaign, con la última fecha de actualización, si está disponible. Esto ayuda a realizar un seguimiento de los cambios o mejoras realizados en la interfaz de usuario web de Campaign.
+La sección **Web** muestra la versión de la interfaz de usuario web de Campaign, con la última fecha de actualización, si está disponible. Esto le ayuda a realizar un seguimiento de los cambios o mejoras realizados en la interfaz de usuario web de Campaign.
 
-La sección **Paquetes instalados** enumera todos los módulos, características e integraciones presentes en su instancia. Estos paquetes amplían la funcionalidad de Adobe Campaign, lo que le permite realizar tareas especializadas como la integración con otras soluciones de Adobe o la activación de flujos de trabajo específicos. Dado el gran número de paquetes, puede realizar un estudio dentro de esta sección para comprobar rápidamente si hay un módulo en particular instalado en la instancia.
+La sección **Paquetes instalados** muestra todos los módulos, características e integraciones presentes en su instancia. Estos paquetes amplían la funcionalidad de Adobe Campaign, lo que le permite realizar tareas especializadas como la integración con otras soluciones de Adobe o la habilitación de flujos de trabajo específicos. Dado el gran número de paquetes, puede realizar una búsqueda dentro de esta sección para comprobar rápidamente si hay un módulo en particular instalado en la instancia.
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -155,13 +155,13 @@ Obtenga información sobre cómo crear y enviar ofertas en correos electrónicos
 ### Administración {#left-nav-admin}
 
 
-* **Pista de auditoría**: la entrada **Pista de auditoría** proporciona a los usuarios una visibilidad completa de todas las modificaciones realizadas en entidades importantes dentro de la instancia, normalmente aquellas que afectan significativamente al funcionamiento sin problemas de la instancia. [Más información](../reporting/audit-trail.md)
+* **Pista de auditoría**: la entrada **Pista de auditoría** ofrece a los usuarios una visibilidad completa de todas las modificaciones realizadas en entidades importantes dentro de la instancia, normalmente aquellas que tienen un impacto significativo en el buen funcionamiento de la instancia. [Más información](../reporting/audit-trail.md)
 
 * **Cuentas externas**: cree nuevas cuentas externas usando la interfaz de usuario web para satisfacer sus necesidades específicas y garantizar transferencias de datos sin problemas. [Más información](../administration/external-account.md)
 
-* **Esquemas**: los campos personalizados son atributos adicionales agregados a los esquemas predeterminados a través de la consola de Adobe Campaign. [Más información](../administration/custom-fields.md)
+* **Esquemas**: los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. [Más información](../administration/custom-fields.md)
 
-* **Alerta de entrega** - Alerta de entrega es un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre sus ejecuciones de entrega. [Más información](../msg/delivery-alerting.md)
+* **Alertas de envío**: son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos. [Más información](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
