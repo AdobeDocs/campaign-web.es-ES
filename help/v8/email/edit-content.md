@@ -31,7 +31,7 @@ ht-degree: 50%
 >id="acw_deliveries_email_options"
 >title="Editar seguimiento"
 >abstract="De forma predeterminada, el seguimiento está habilitado para el envío, lo que significa que se realiza el seguimiento de todos los vínculos incluidos en el contenido del mensaje. Puede desactivar esta opción desde aquí."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adición de vínculos y seguimiento de mensajes"
+>additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Adición de vínculos y seguimiento de mensajes"
 
 La pantalla del correo electrónico **[!UICONTROL Editar contenido]** le permite:
 
