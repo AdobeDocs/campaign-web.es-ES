@@ -3,9 +3,9 @@ title: Creación de una página de aterrizaje
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1629'
 ht-degree: 28%
 
 ---
@@ -23,11 +23,15 @@ La interfaz de usuario web de Campaign permite crear, diseñar y publicar págin
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 
-Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Administración de campañas]** > **[!UICONTROL Páginas de aterrizaje]** en el menú de la izquierda.
+Para acceder a la lista de páginas de aterrizaje, seleccione **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]** en el menú de la izquierda.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-El inventario **[!UICONTROL Páginas de aterrizaje]** muestra todos los elementos creados. Puede filtrarlos con el botón **[!UICONTROL Mostrar filtros]**. Puede restringir los resultados a una [carpeta](../get-started/permissions.md#folders) específica mediante la lista desplegable o agregar reglas mediante [modelador de consultas](../query/query-modeler-overview.md).
+El inventario **[!UICONTROL Páginas de aterrizaje]** muestra todos los elementos creados. Puede filtrarlos con el botón **[!UICONTROL Mostrar filtros]**.
+
+* Puede filtrar los elementos que ha creado o modificado.
+
+* Puede restringir los resultados a una [carpeta](../get-started/permissions.md#folders) específica mediante la lista desplegable o agregar reglas mediante [modelador de consultas](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 

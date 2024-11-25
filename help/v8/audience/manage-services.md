@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 33%
 
 ---
@@ -29,7 +29,7 @@ Se pueden definir varios servicios en paralelo, por ejemplo: boletines para cate
 
 Para acceder a los servicios de suscripción disponibles para su plataforma, siga los pasos a continuación.
 
-1. Vaya al menú **[!UICONTROL Servicios de suscripción]** en el carril de navegación izquierdo.
+1. Vaya al menú **[!UICONTROL Servicios de suscripción]** en el carril de navegación izquierdo, en **[!UICONTROL Administración de clientes]**.
 
    ![](assets/service-list.png){zoomable="yes"}
 
