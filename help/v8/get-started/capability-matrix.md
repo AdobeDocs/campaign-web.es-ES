@@ -180,7 +180,7 @@ La configuración de Campaign y la conexión a sistemas externos están restring
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_approval"
 >title="Administración de aprobaciones"
->abstract="La administración de aprobaciones solo está disponible desde la consola del cliente. "
+>abstract="Esta administración de aprobaciones solo está disponible desde la consola del cliente. "
 
 La interfaz de usuario web de Campaign no muestra la administración de aprobaciones para contenido, envíos, flujos de trabajo, campañas y objetivos. Solo están disponibles en la consola del cliente.
 

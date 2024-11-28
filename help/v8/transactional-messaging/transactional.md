@@ -20,7 +20,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Mensajería transaccional"
->abstract="La mensajería transaccional es un módulo especializado de Adobe Campaign que gestiona los mensajes activados. Estos mensajes se generan automáticamente en respuesta a los eventos procedentes de los sistemas de información."
+>abstract="La mensajería transaccional es un módulo especializado de Adobe Campaign diseñado para gestionar los mensajes activados. Estos mensajes se generan automáticamente en respuesta a los eventos procedentes de los sistemas de información."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 <!-- >>[!CONTEXTUALHELP]
@@ -28,7 +28,7 @@ ht-degree: 24%
 >title="Transactional messaging exclusion logs"
 >abstract="Transactional messaging exclusion logs" -->
 
-La mensajería transaccional es un módulo especializado de Adobe Campaign que gestiona los mensajes activados. Estos mensajes se generan automáticamente en respuesta a eventos procedentes de sistemas de información. Algunos ejemplos comunes de estos eventos son hacer clic en botones o vínculos, abandonar el carro de compras, solicitar alertas de disponibilidad de productos, crear o modificar cuentas, etc.
+La mensajería transaccional es un módulo especializado de Adobe Campaign diseñado para gestionar los mensajes activados. Estos mensajes se generan automáticamente en respuesta a eventos procedentes de sistemas de información. Algunos ejemplos comunes de estos eventos son hacer clic en botones o vínculos, abandonar el carro de compras, solicitar alertas de disponibilidad de productos, crear o modificar cuentas, etc.
 
 Los mensajes transaccionales se utilizan para enviar:
 
