@@ -4,9 +4,9 @@ title: Matriz de funciones de la interfaz de usuario web y consola de cliente de
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Utilice los vínculos proporcionados para examinar la documentación de la versi
 * **Calendario de marketing**. El calendario de campañas muestra todos los programas, planes, campañas y envíos en una cronología global. Esta funcionalidad solo está disponible en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es#campaign-calendar){target="_blank"}
 * **Programas y campañas** Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. En la interfaz de usuario web de Campaign, todas las campañas están asociadas a un plan y programa integrados predeterminados. Solo puede crear y administrar planes y programas en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es#work-with-plan-and-program){target="_blank"}
 * **Proveedores, administración de presupuestos y costes**. Puede configurar los proveedores de servicios implicados en los trabajos realizados en las campañas, incluidas las estructuras de costes, y administrar los presupuestos dentro de cada programa y campaña. Esta funcionalidad solo está disponible en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=es){target="_blank"}
-* **Marketing distribuido** (marketing central/local). Adobe Campaign ofrece una aplicación de marketing distribuido para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta funcionalidad solo está disponible en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}
+* **Marketing distribuido** (marketing central/local). Adobe Campaign ofrece una aplicación de Marketing distribuido para implementar campañas cooperativas entre entidades centrales (sedes centrales, Departamentos de Marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta funcionalidad solo está disponible en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}
 * **Administración de recursos de marketing** (MRM), objetivos, simulaciones y control de costes. Adobe Campaign ofrece una aplicación Gestor de recursos de marketing (MRM) que le permite controlar las acciones de marketing de forma colaborativa mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing involucrados. Esta funcionalidad solo está disponible en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=es){target="_blank"}
 * **Administración de tareas**. Como parte de la aplicación MRM, las tareas de Campaign se pueden crear, asignar, rastrear y monitorizar desde el panel de campañas. Esta funcionalidad solo está disponible en la consola de cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=es){target="_blank"}
 

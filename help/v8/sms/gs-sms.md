@@ -4,9 +4,9 @@ title: Introducción a los envíos de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ El canal SMS ofrece tres métodos para crear envíos SMS:
 
 * **Envíos independientes**: cree envíos SMS individuales para una comunicación rápida y directa con sus clientes, sin necesidad de flujos de trabajo ni campañas.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar el canal SMS en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar el canal SMS en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=es){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
