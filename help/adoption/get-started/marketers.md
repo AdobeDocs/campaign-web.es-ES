@@ -3,13 +3,13 @@ title: Introducción a Adobe Campaign v8 para especialistas en marketing
 description: Descubra la funcionalidad clave de Campaign v8. Va dirigido a los especialistas en marketing que migran de Campaign Standard a Campaign v8.
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Introducción para especialistas en marketing {#acs-gs-marketers}
 
@@ -182,7 +182,7 @@ Vínculos útiles:
    * Aprenda a [programar un envío independiente](../../v8/msg/gs-deliveries.md#gs-schedule)
    * Aprenda a [programar un envío en un flujo de trabajo](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)
 
-* **AGREGAR ofertas**: puede agregar ofertas a las entregas en la interfaz de usuario web de Adobe Campaign. Estas ofertas están disponibles en el menú de la izquierda Ofertas, que le permite acceder a la lista de ofertas.  Aprenda a [agregar ofertas a sus mensajes](../../v8/msg/offers.md)
+* **Agregar ofertas**: puede agregar ofertas a las entregas en la interfaz de usuario web de Adobe Campaign. Estas ofertas están disponibles en el menú de la izquierda Ofertas, que le permite acceder a la lista de ofertas.  Aprenda a [agregar ofertas a sus mensajes](../../v8/msg/offers.md)
 
 >[!AVAILABILITY]
 >
@@ -316,7 +316,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de 
 
 ### Correo directo {#acs-gs-marketers-direct-mail}
 
-El correo postal es un canal sin conexión que le permite producir archivos para enviar de forma masiva cartas personalizadas a sus clientes, como postales, folletos o catálogos. Al crear una entrega de correo postal, Adobe Campaign genera automáticamente un archivo de extracción que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil.
+El correo directo es un canal sin conexión que le permite producir archivos para enviar de forma masiva cartas personalizadas a sus clientes, como postales, folletos o catálogos. Al crear un envío de correo directo, Adobe Campaign genera automáticamente un archivo de extracción que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil.
 
 En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de correo directo son similares a los de Campaign Standard.
 
