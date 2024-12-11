@@ -3,10 +3,10 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
-workflow-type: ht
-source-wordcount: '2027'
-ht-degree: 100%
+source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
+workflow-type: tm+mt
+source-wordcount: '2054'
+ht-degree: 98%
 
 ---
 
@@ -446,3 +446,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Iniciar actualización de base de datos"
 >abstract="Esquema"
+
+
+
+<!-- Target Mapping -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_properties"
+>title="Propiedades de asignación de destino"
+>abstract="Propiedades de asignación de destino"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_mapping"
+>title="Asignación de destino"
+>abstract="Asignación de destino"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_denylist"
+>title="Lista de bloqueados de asignación de destino"
+>abstract="Lista de bloqueados de asignación de destino"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_storage"
+>title="Almacenamiento de asignación de destino"
+>abstract="Denegación de almacenamiento de asignación de destino"
