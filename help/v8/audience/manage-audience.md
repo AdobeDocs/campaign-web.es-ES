@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los públicos
 description: Aprenda a trabajar con audiencias en Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 25%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 25%
 >id="acw_audiences_count"
 >title="Tamaño de público"
 >abstract="Aquí puede encontrar el número total de perfiles dentro del público. Haga clic en el botón **Calcular** para actualizar y volver a calcular los resultados del público."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Direccionamiento"
+>abstract="Direccionamiento"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
