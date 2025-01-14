@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
+source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2108'
 ht-degree: 98%
 
 ---
@@ -519,3 +519,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="Enumerar los valores de enumeración"
 >abstract="Enumerar los valores de enumeración"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="Reglas empresariales"
+>abstract="Reglas empresariales"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="Propiedades del conjunto de reglas"
+>abstract="Propiedades del conjunto de reglas"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="Afinidad de IP"
+>abstract="Afinidad de IP"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="Propiedades de regla"
+>abstract="Propiedades de regla"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="Filtrado"
+>abstract="Filtrado"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="Código"
+>abstract="Código"
