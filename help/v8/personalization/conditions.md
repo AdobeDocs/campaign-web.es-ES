@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,11 @@ Para crear contenido condicional, debe crear condiciones en el **editor de expre
 Además del editor de expresiones, puede aprovechar un generador de contenido condicional **dedicado** al diseñar un mensaje de correo electrónico que le permita crear varias variantes para un elemento del cuerpo del correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](#condition-condition-builder)
 
 ## Creación de condiciones en el editor de expresiones {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="Condiciones"
+>abstract="Este menú le permite aprovechar las funciones de ayuda para definir contenido condicional."
 
 Para definir contenido condicional para una entrega mediante el editor de expresiones, siga los pasos a continuación. En este ejemplo, deseamos crear contenido condicional basado en el idioma de los destinatarios (francés o inglés).
 

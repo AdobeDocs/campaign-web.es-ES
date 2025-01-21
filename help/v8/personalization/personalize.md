@@ -6,15 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
 
 # Personalización de su contenido {#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="Añadir fecha actual"
+>abstract="Este menú proporciona funciones relacionadas con el formato de fecha que puede aprovechar para personalizar el contenido."
 
 El Personalization del contenido de la entrega es una función clave que le permite adaptar los mensajes a destinatarios individuales, lo que hace que la comunicación sea más relevante y atractiva.
 
