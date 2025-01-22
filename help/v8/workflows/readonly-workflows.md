@@ -3,7 +3,7 @@ audience: end-user
 title: Acerca de los flujos de trabajo solo de lectura
 description: Descubra por qué los flujos de trabajo están en modo de solo lectura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Algunos flujos de trabajo pueden estar en modo de solo lectura. Se puede ver con :
 
-- La mención **[!UICONTROL ** Solo lectura **]** cerca del botón **[!UICONTROL Configuración]**
+- La mención **[!UICONTROL Solo lectura]** cerca del botón **[!UICONTROL Configuración]**
 - Los botones de acción no están accesibles
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
