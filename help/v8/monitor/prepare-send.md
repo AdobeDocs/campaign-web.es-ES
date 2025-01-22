@@ -3,9 +3,9 @@ audience: end-user
 title: Preparación y envío de un correo electrónico
 description: Obtenga información sobre cómo preparar y enviar un correo electrónico con la interfaz de usuario web de Campaign
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '889'
 ht-degree: 38%
 
 ---
@@ -136,14 +136,14 @@ Independientemente de si la entrega está programada o no<!--TBC-->, se pueden r
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="Métricas enviadas"
+>title="Enviado"
 >abstract="Número total de mensajes procesados durante el análisis de entregas."
 >additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/kpis" text="Comprender los indicadores clave de rendimiento (KPI)"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="Métricas de errores"
+>title="Errores"
 >abstract="Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados."
 >additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/kpis" text="Comprender los indicadores clave de rendimiento (KPI)"
 

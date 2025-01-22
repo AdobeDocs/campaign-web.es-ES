@@ -3,9 +3,9 @@ audience: end-user
 title: Acerca de los flujos de trabajo solo de lectura
 description: Descubra por qué los flujos de trabajo están en modo de solo lectura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '225'
 ht-degree: 13%
 
 ---
@@ -17,42 +17,40 @@ ht-degree: 13%
 >title="Este flujo de trabajo es de solo lectura"
 >abstract="No puede editar este flujo de trabajo debido a sus derechos o al tipo de flujo de trabajo."
 
-Algunos flujos de trabajo pueden estar en modo de solo lectura. Se puede ver con :
+Algunos flujos de trabajo son de solo lectura. Los flujos de trabajo técnicos integrados siempre son de solo lectura, pero esta reestructuración también se puede activar en otros tipos de flujo de trabajo.
 
-- La mención **[!UICONTROL Solo lectura]** cerca del botón **[!UICONTROL Configuración]**
-- Los botones de acción no están accesibles
+Es posible que los usuarios de Campaign tengan acceso restringido a los datos de Adobe Campaign. Un administrador de Campaign puede otorgarles el derecho de ver algunas funciones, pero no de editarlas o modificarlas. Los permisos de usuario sobre los datos son clave para garantizar la seguridad de los datos y los procesos. Obtenga más información acerca de la administración de permisos en Campaign en [esta sección](../get-started/permissions.md)
+
+Cuando un flujo de trabajo está en modo de solo lectura:
+
+* La mención **[!UICONTROL Solo lectura]** cerca del botón **[!UICONTROL Configuración]**
+* Los botones de acción no están accesibles
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
 
-No puede editar nada en un flujo de trabajo de solo lectura. No tiene permiso para cambiar la configuración de las actividades.
-
+Los usuarios no pueden editar nada en un flujo de trabajo de solo lectura. no se les permite cambiar la configuración de las actividades.
 
 ![](assets/scheduler-readonly.png){zoomable="yes"}
 
-
-Tampoco tiene derechos para eliminar el flujo de trabajo.
+Los usuarios no pueden eliminar el flujo de trabajo.
 
 ![](assets/readonly-rights.png){zoomable="yes"}
 
-## Por qué flujos de trabajo de solo lectura
 
-El modo de solo lectura es para usuarios que no tienen permiso y derechos de acceso para editar esos flujos de trabajo. [Obtenga más información aquí](../get-started/permissions.md)
-
-Un usuario de una campaña puede tener restricciones en los datos a los que puede acceder en Adobe Campaign. El administrador puede darle la posibilidad de ver algunas funciones, pero no trabajar en ellas.
-
-## Tipos de flujos de trabajo de solo lectura
+## Tipos de flujos de trabajo de solo lectura {#readonly-workflow-types}
 
 Según el tipo de flujo de trabajo, el modo de solo lectura puede ser diferente.
 
-### Flujos de trabajo de la campaña
+### Flujos de trabajo de la campaña {#readonly-campaign-wf}
 
 En el caso de un flujo de trabajo de campaña de solo lectura, el usuario no puede acceder al botón de monitorización.
 
 ![](assets/readonly-campaign-workflow.png){zoomable="yes"}
 
-### Flujos de trabajo técnicos
+### Flujos de trabajo técnicos {#readonly-tech-wf}
 
-Los flujos de trabajo técnicos están en modo de solo lectura para los usuarios de Campaign.
-Los flujos de trabajo técnicos integrados están en modo de solo lectura para todos, incluso para los usuarios administradores. Pero el usuario puede **pausar** o **detener** si es necesario. Esas son las únicas acciones permitidas. [Obtenga más información aquí](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+Los flujos de trabajo técnicos integrados son de solo lectura para todos los usuarios de la campaña, incluso para el administrador. Sin embargo, los usuarios pueden **pausar** o **detenerlos** si es necesario. Esas son las únicas acciones permitidas.
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}
+
+Obtenga más información acerca de los flujos de trabajo técnicos en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
