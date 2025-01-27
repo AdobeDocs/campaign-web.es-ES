@@ -4,9 +4,9 @@ title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -454,23 +454,23 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
->title="Propiedades de asignación de destino"
->abstract="Propiedades de asignación de destino"
+>title="Propiedades de asignación de destinatario"
+>abstract="Propiedades de asignación de destinatario"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="Asignación de destino"
->abstract="Asignación de destino"
+>title="Asignación de destinatario"
+>abstract="Asignación de destinatario"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
->title="Lista de bloqueados de asignación de destino"
->abstract="Lista de bloqueados de asignación de destino"
+>title="Lista de bloqueados de asignación de destinatario"
+>abstract="Lista de bloqueados de asignación de destinatario"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
->title="Almacenamiento de asignación de destino"
->abstract="Denegación de almacenamiento de asignación de destino"
+>title="Almacenamiento de asignación de destinatario"
+>abstract="Almacenamiento denegado de asignación de destinatario"
 
 <!-- Favorites & recents -->
 
@@ -488,8 +488,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_options_create"
->title="Crear opción"
->abstract="Crear opción"
+>title="Opción Crear"
+>abstract="Opción Crear"
 
 <!-- JavaScript codes -->
 
@@ -517,5 +517,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
->title="Enumerar los valores de enumeración"
->abstract="Enumerar los valores de enumeración"
+>title="Lista de valores de enumeración"
+>abstract="Lista de valores de enumeración"

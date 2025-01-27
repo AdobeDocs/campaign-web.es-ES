@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [Acceso a los envíos](msg/gs-deliveries.md)
    + [Creación de un envío](msg/create-deliveries.md)
    + [Uso de plantillas de envío](msg/delivery-template.md)
-   + [Trabajo con tipologías](msg/typologies.md)
+   + [Trabajar con tipologías](msg/typologies.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
       + [Configurar el contenido de correo electrónico](email/edit-content.md)
