@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Crear un envío de correo directo
+title: Creación de un envío de correo directo
 description: Obtenga información sobre cómo crear una entrega de correo directo con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
@@ -10,7 +10,7 @@ ht-degree: 26%
 
 ---
 
-# Crear un envío de correo directo {#create-direct-mail}
+# Creación de un envío de correo directo {#create-direct-mail}
 
 Puede crear una entrega de correo postal independiente o crear una entrega de correo directo en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo postal independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

@@ -3,7 +3,7 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 

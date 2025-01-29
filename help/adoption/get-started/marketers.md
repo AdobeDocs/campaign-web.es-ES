@@ -6,8 +6,8 @@ level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2453'
+ht-degree: 18%
 
 ---
 
@@ -311,7 +311,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de 
 >
 >* Adobe Campaign v8 es compatible con Android y con el canal push de iOS. Para la transición de flujos de trabajo y envíos existentes mediante el canal push, conéctese con su administrador de transición de Adobe Campaign. Más información sobre [Configuración del canal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 >
->* Tenga en cuenta que el SDK V4 para aplicaciones móviles estaba [obsoleto en el Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} hace unos años. Ya debería haber realizado la transición al SDK de Adobe Experience Platform, que es el mismo que se utiliza en la versión 8 de Campaign.
+>* Tenga en cuenta que SDK V4 para aplicaciones móviles estaba [obsoleto en Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} hace unos años. Ya debería haber realizado la transición a Adobe Experience Platform SDK, que es el mismo que se usa en Campaign v8.
 > 
 
 ### Correo directo {#acs-gs-marketers-direct-mail}

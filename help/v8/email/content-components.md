@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -94,7 +94,7 @@ Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones
 
 ## Texto {#text}
 
-Utilice el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) uso de las pestañas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
+Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) con las fichas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
 
 1. En el menú **[!UICONTROL Contenido]**, arrastre y suelte **[!UICONTROL Texto]** en un componente **[!UICONTROL Estructura]**.
 

@@ -55,7 +55,7 @@ En el menú **[!UICONTROL Variables de aplicación]**, las variables de aplicaci
 
   ![](assets/push_content_4.png){zoomable="yes"}
 
-* **[!UICONTROL Mensaje de notificación]**, gestionado automáticamente por el SDK de FCM. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
+* El **[!UICONTROL mensaje de notificación]**, gestionado automáticamente por FCM SDK. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
   Para componer el mensaje, haga clic en los campos **[!UICONTROL Título]** y **[!UICONTROL Mensaje]**. Utilice el Editor de expresiones para definir contenido, personalizar datos y agregar contenido dinámico.
 

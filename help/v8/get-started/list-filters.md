@@ -4,7 +4,7 @@ title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 100%
 
@@ -172,7 +172,7 @@ ht-degree: 100%
       + [Cambio de la fuente de datos](workflows/activities/change-data-source.md)
       + [Cambio de dimensión](workflows/activities/change-dimension.md)
       + [Combinar](workflows/activities/combine.md)
-      + [Anulación de duplicación](workflows/activities/deduplication.md)
+      + [Deduplicación](workflows/activities/deduplication.md)
       + [Correo electrónico, SMS, push, correo directo](workflows/activities/channels.md)
       + [Enriquecimiento ](workflows/activities/enrichment.md)
       + [Señal externa](workflows/activities/external-signal.md)

@@ -93,7 +93,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
    * **[!UICONTROL No si está marcado]**.<!--TBC-->
 
-1. Puede eliminar y agregar tantos campos (como campos de texto, botones de opción, casillas de verificación, listas desplegables, etc.) según sea necesario.
+1. Puede eliminar y agregar tantos campos (como campos de texto, botones de opción, casillas de verificación, listas desplegables, etc.) como sea necesario.
 
 1. Una vez que se hayan agregado o actualizado todos los campos, haga clic en **[!UICONTROL Llamar a la acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**. [Descubra cómo](#define-actions-on-form-submission)
 
@@ -164,7 +164,7 @@ Para enviar automáticamente un mensaje de confirmación después del envío de 
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Expanda y edite cualquier otra sección correspondiente a otros campos que haya agregado (botón de opción, lista desplegable, fecha y hora, etc.) a su formulario.
+1. Expanda y edite cualquier otra sección correspondiente a otros campos que haya agregado (botón de opción, lista desplegable, fecha y hora, etc.) al formulario.
 
 1. Expanda la sección **[!UICONTROL Llamada a la acción]** para modificar el aspecto del botón en el formulario de componente. Por ejemplo, puede cambiar la fuente, agregar un borde, editar el color de la etiqueta al pasar el ratón por encima o ajustar la alineación del botón.
 

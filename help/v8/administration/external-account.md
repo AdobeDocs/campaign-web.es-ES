@@ -92,10 +92,10 @@ Para configurar la cuenta externa **[!UICONTROL Bounce mails (POP3)]**:
 
   Tipo de cifrado elegido entre:
 
-   * De forma predeterminada (POP3 si el puerto 110, POP3S si el puerto 995)
+   * De forma predeterminada (POP3 si es el puerto 110, POP3S si es el puerto 995)
    * POP3 que cambia a SSL después del envío de STARTTLS
    * POP3 no seguro (puerto 110 de forma predeterminada)
-   * POP3 secure above SSL (puerto 995 por defecto)
+   * POP3 seguro sobre SSL (puerto 995 por defecto)
 
 * **[!UICONTROL Función]**
 

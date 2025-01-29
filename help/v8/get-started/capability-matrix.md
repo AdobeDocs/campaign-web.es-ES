@@ -4,7 +4,7 @@ title: Matriz de funciones de la interfaz de usuario web y consola de cliente de
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 100%
 

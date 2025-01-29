@@ -2,7 +2,8 @@
 audience: end-user
 title: Validación de mensajes transaccionales
 description: Obtenga información sobre cómo validar un mensaje transaccional en la interfaz de usuario web de Campaign
-source-git-commit: e0d87d22d9712837f085f94f9d9ba63e96f36b36
+exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%

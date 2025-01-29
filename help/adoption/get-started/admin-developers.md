@@ -3,13 +3,13 @@ title: Introducción a Adobe Campaign v8 para administradores y desarrolladores.
 description: Este tutorial ofrece una descripción general de la funcionalidad clave administrativa y de administración de datos de Campaign v8. Está dirigido a los administradores y al experto en marketing técnico que migran de Campaign Standard a Campaign v8.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 8%
 
 ---
-
 
 # Introducción para administradores y desarrolladores {#acs-gs-admin}
 
@@ -277,7 +277,7 @@ Vínculos útiles:
 
 El uso de plantillas de envío es un requisito en Campaign v8, como en Campaign Standard.
 
-Para un proceso de diseño acelerado y mejorado, cree plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en sus campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez. Aprenda a crear plantillas de envío en la [interfaz de usuario web de Campaign](../../v8/msg/delivery-template.md). Consulte también cómo crear plantillas de envío en la consola del cliente en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
+Para un proceso de diseño acelerado y mejorado, cree plantillas de envío para reutilizar fácilmente el contenido y la configuración personalizados en sus campañas. Esta funcionalidad le permite estandarizar la apariencia creativa para ejecutar y lanzar las campañas con mayor rapidez. Aprenda a crear plantillas de envío en la [interfaz de usuario web de Campaign](../../v8/msg/delivery-template.md). Consulte también cómo crear plantillas de envío en la consola del cliente en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
 
 ### Reglas de tipología {#acs-gs-admin-rules}
 
@@ -305,4 +305,3 @@ Como usuario Campaign Standard que migra a Campaign v8, le sucede lo siguiente:
 Tenga en cuenta que Campaign también se puede integrar con Adobe Experience Manager 6.5. Para configurar esta integración, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
 * Si el entorno de su Campaign Standard se ha integrado con **Déclencheur**, debe configurarla en Campaign v8 como se detalla en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
 * Si su entorno de Campaign Standard se integró con **Adobe Target**, debe configurarla en Campaign v8 como se detalla en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.
-

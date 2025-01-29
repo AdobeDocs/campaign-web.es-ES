@@ -3,7 +3,8 @@ title: Migración de usuarios técnicos a la consola de Adobe Developer
 description: Obtenga información sobre cómo migrar la administración de acceso de usuarios de Campaign Standard a Campaign V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 3%
@@ -108,11 +109,3 @@ A continuación se muestra una lista de asignaciones de grupos de seguridad de C
 * Administradores de aplicaciones de Adobe Experience Manager
 
 * Cuenta de retransmisión
- 
-
-
- 
-
- 
-
-

@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Supervisión de mensajes transaccionales
+title: Monitorización de mensajes transaccionales
 description: Obtenga información sobre cómo monitorizar un mensaje transaccional en la interfaz de usuario web de Campaign
-source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
+exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
-# Supervisión de mensajes transaccionales
+# Monitorización de mensajes transaccionales
 
 Después de la publicación y el envío del mensaje transaccional, puede tener informes y registros sobre él.
 
