@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Trabajo con tipologías
+title: Trabajar con tipologías
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
+source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
-
-# Trabajo con tipologías {#typologies}
+# Trabajar con tipologías {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
