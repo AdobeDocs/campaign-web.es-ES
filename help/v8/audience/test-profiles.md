@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 20%
+source-wordcount: '614'
+ht-degree: 19%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 20%
 >abstract="Los perfiles de prueba son destinatarios adicionales que permiten previsualizar y probar la personalización así como el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje."
 
 Los perfiles de prueba se utilizan para enviar pruebas y validar el contenido y la configuración del mensaje. Estos perfiles son destinatarios adicionales que le permiten previsualizar y probar la personalización y el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje.
+
+➡️ [Descubra esta característica en vídeo](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 El perfil de prueba que acaba de crear ya está listo para utilizarse para enviar una prueba. [Más información](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## Vídeos explicativos {#video}
+
+Obtenga información sobre cómo crear y administrar perfiles de prueba mediante la interfaz de usuario web de Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
