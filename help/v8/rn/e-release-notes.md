@@ -4,7 +4,7 @@ description: Descubra las nuevas funciones incluidas en la próxima versión de 
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 28%
@@ -67,6 +67,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Las tipologías validan que las entregas siempre contienen los elementos necesarios (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>Ahora puede crear enumeraciones directamente mediante la interfaz de usuario web de Adobe Campaign. Una enumeración es una lista de valores sugeridos por el sistema para rellenar campos. Utilice enumeraciones para estandarizar los valores de estos campos, ayudar con la entrada de datos o utilizar en las consultas.</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>Ahora puede acceder a las opciones técnicas de la interfaz de usuario web de Adobe Campaign y crear sus propias opciones personalizadas para adaptarlas a sus necesidades. Esto resulta particularmente útil cuando se trabaja con actividades de flujo de trabajo de código JavaScript para almacenar datos intermedios.</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>Ahora puede crear códigos JavaScript en la interfaz de usuario web de Adobe Campaign. Esto le permite crear funciones reutilizables que se pueden utilizar en distintos flujos de trabajo, de forma similar a una biblioteca.</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
