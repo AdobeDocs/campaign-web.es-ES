@@ -4,10 +4,10 @@ description: Descubra las nuevas funciones incluidas en la próxima versión de 
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 28%
+source-wordcount: '511'
+ht-degree: 18%
 
 ---
 
@@ -51,7 +51,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de usuario web de Campaign. Con este modo, los mensajes se generan en un archivo de entrada que se puede compartir con el proveedor externo. El modo Envío externo es el predeterminado para el canal de correo directo.</p>
+<p>Ahora puede definir envíos externos y plantillas de envío externas en la interfaz web de Campaign. En este modo, los mensajes se compilan en un archivo de entrada, que se puede compartir con el proveedor externo. De forma predeterminada, el modo de envío externo se utiliza para el canal de correo postal.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Control y filtrado de los envíos con tipologías</strong><br/></th>
+<th><strong>Creación de reglas empresariales (reglas de tipología)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Las tipologías validan que las entregas siempre contienen los elementos necesarios (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).</p>
+<p>Ahora puede crear tipologías y reglas de tipología en la interfaz web de Adobe Campaign. Una tipología es una colección de reglas de tipología que ayudan a controlar, filtrar y priorizar las entregas. Las tipologías garantizan que las entregas siempre contengan los elementos necesarios (como un vínculo de cancelación de suscripción o una línea de asunto) y apliquen reglas de filtrado para excluir grupos específicos de la audiencia de destino (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
