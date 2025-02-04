@@ -10,7 +10,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 24%
+ht-degree: 75%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
->title="Propiedades de tipología"
+>title="Propiedades de la tipología"
 >abstract="Propiedades del conjunto de reglas"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="Afinidad de IP"
->abstract="La administración de afinidades con direcciones IP permite un mejor control del tráfico SMTP saliente mediante la asociación de distintas direcciones IP con cada tipo de tráfico en función de la tipología de su acción de entrega."
+>abstract="La administración de afinidades con direcciones IP permite un mejor control del tráfico SMTP de salida mediante la asociación de distintas direcciones IP con cada tipo de tráfico en función de la tipología de su acción de envío."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
->title="Propiedades de reglas de tipología"
->abstract="Propiedades de regla"
+>title="Propiedades de la regla de tipología"
+>abstract="Propiedades de la regla"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"

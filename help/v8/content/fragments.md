@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 58%
+ht-degree: 69%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="Añadir fragmentos de expresiones"
->abstract="Los fragmentos de expresión son bloques de contenido predefinidos que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. También puede crear sus propios fragmentos de expresiones para adaptarlos a sus necesidades."
+>abstract="Los fragmentos de expresiones son bloques de contenido predefinidos que contienen un procesamiento específico que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. También puede crear sus propios fragmentos de expresiones para adaptarlos a sus necesidades."
 
 ## ¿Qué son los fragmentos de contenido? {#what}
 

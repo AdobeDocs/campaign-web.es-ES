@@ -256,7 +256,7 @@ VIP VIP En el ejemplo siguiente, hemos creado un grupo intermedio para incluir l
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
->title="Propiedades de regla"
+>title="Propiedades de la regla"
 >abstract="Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de regla** situado en el lado derecho.<br/>Este panel permite mostrar los datos resultantes, recuperar una versión de código SQL de la consulta y comprobar el número de registros de destino.<br/>Utilice el botón **Seleccionar o guardar filtro** para guardar la consulta como un filtro predefinido o reemplazar el contenido del lienzo con un filtro existente."
 
 Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel **Propiedades de regla** situado en el lado derecho. Este panel se muestra al crear una consulta para crear una audiencia. Las operaciones disponibles son:
