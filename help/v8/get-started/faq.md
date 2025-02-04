@@ -1,9 +1,9 @@
 ---
 title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '803'
 ht-degree: 5%
 
 ---
@@ -28,15 +28,15 @@ Para saber por dónde empezar, visite [esta página](../get-started/get-started.
 
 +++ ¿Cuáles son las nuevas funciones y capacidades de la nueva interfaz de usuario web?
 
-La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de audiencias, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP.  Active la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con el asistente de contenido de IA general, integrado de forma nativa en el diseñador de mensajes de WYSIWYG.
+La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de audiencias, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP.  Active la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con el acelerador de contenido asistente de IA, integrado de forma nativa en el diseñador de mensajes de WYSIWYG.
 
-Los especialistas en marketing pueden utilizar IA generativa para la ideación de correo electrónico del HTML completo y la generación de texto e imágenes con refinamiento y sugerencias de variantes.  Las nuevas características y capacidades se pueden revisar en [esta página](../rn/whats-new.md). Para obtener más información acerca de la nueva interfaz y verla en acción, visite [esta página](../get-started/user-interface.md). Además, puede visitar las [páginas de Tutorials](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} para obtener más información sobre la nueva interfaz.
+Los especialistas en marketing pueden utilizar IA generativa para la ideación de correo electrónico del HTML completo y la generación de texto e imágenes con refinamiento y sugerencias de variantes. Las nuevas características y capacidades se pueden revisar en [esta página](../rn/whats-new.md). Para obtener más información acerca de la nueva interfaz y verla en acción, visite [esta página](../get-started/user-interface.md). Además, puede visitar [Tutorials](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} para obtener más información sobre la nueva interfaz mediante un conjunto de vídeos explicativos.
 
 +++
 
 +++  ¿Podemos seguir utilizando la consola de Campaign mientras realizamos la transición a la nueva interfaz web?
 
-La consola del cliente de Campaign se puede utilizar en paralelo a la nueva interfaz. Sin embargo, hay funcionalidades que no están disponibles en la nueva interfaz de usuario (por ahora). Para comparar capacidades en la nueva interfaz de usuario y en la consola del cliente de Campaign, visite [esta página](../get-started/capability-matrix.md).
+La consola del cliente de Campaign se puede utilizar en paralelo a la nueva interfaz. Sin embargo, hay funcionalidades que no están disponibles en la nueva interfaz de usuario (por ahora). Para comparar las capacidades de la nueva interfaz de usuario web y la consola del cliente de Campaign, visite [esta página](../get-started/capability-matrix.md).
 
 +++
 
@@ -54,7 +54,7 @@ Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Ad
 
 +++  Actualmente utilizo Adobe Campaign Classic v7 híbrido o local: ¿cuál es mi ruta para acceder a la nueva interfaz de usuario?
 
-Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Adobe Campaign. El primer paso es obtener una licencia para los SKU de Cloud Service administrados avanzados o empresariales y luego migrar a la nube con la ayuda de Adobe Consulting o un socio. Póngase en contacto con el punto de contacto del Adobe. Obtenga más información en la [página de transición](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} dedicada.
+Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Adobe Campaign y conectarse a Campaign con su Adobe ID. El primer paso es obtener una licencia para los SKU de Cloud Service administrados avanzados o empresariales y luego migrar a la nube con la ayuda de Adobe Consulting o un socio. Póngase en contacto con el punto de contacto del Adobe. Obtenga más información en la [página de transición](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} dedicada.
 +++
 
 +++ ¿Significa esto que se ha terminado la compatibilidad con Adobe Campaign Classic v7?
@@ -75,7 +75,7 @@ Por ahora, todas las funciones estarán disponibles a través de la consola si n
 +++
 
 
-+++ ¿Existen limitaciones o protecciones de la nueva interfaz de usuario?
++++ ¿Existen limitaciones o protecciones de la nueva interfaz de usuario web?
 
-Las protecciones y limitaciones se pueden revisar en [esta página](../get-started/guardrails.md).
+Las protecciones y limitaciones de Campaign v8 se enumeran [aquí](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Además, se aplican protecciones específicas a los flujos de trabajo en la interfaz de usuario web. Se pueden revisar en [esta página](../get-started/guardrails.md). Ver también [Adobe Campaign Managed Cloud Services | Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 +++
