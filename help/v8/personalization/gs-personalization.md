@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Puede hacer que el contenido del mensaje sea dinámico insertando construcciones
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [Descubra esta característica en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Acceso al editor de expresiones {#access}
 

@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La interfaz de usuario web de Adobe Campaign ofrece continuamente nuevas funcio
 
 ## Versión de enero de 2025 {#25-1-release}
 
-**Fecha de la versión**: 5 de febrero de 2025
+**Fecha de lanzamiento**: 5 de febrero de 2025
 
 Las siguientes funciones y mejoras están disponibles a partir de la versión de enero.
 
@@ -45,13 +45,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Uso de un sistema de terceros para realizar envíos</strong><br/></th>
+<th><strong>Uso de un sistema de terceros para remitir envíos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir envíos externos y plantillas de envío externas en la interfaz web de Campaign. En este modo, los mensajes se compilan en un archivo de entrada, que se puede compartir con el proveedor externo. De forma predeterminada, el modo de envío externo se utiliza para el canal de correo postal.</p>
+<p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de entrada que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el utilizado para el canal de correo directo.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear tipologías y reglas de tipología en la interfaz web de Adobe Campaign. Una tipología es una colección de reglas de tipología que ayudan a controlar, filtrar y priorizar las entregas. Las tipologías garantizan que las entregas siempre contengan los elementos necesarios (como un vínculo de cancelación de suscripción o una línea de asunto) y apliquen reglas de filtrado para excluir grupos específicos de la audiencia de destino (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).</p>
+<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de Adobe Campaign Web. Una tipología es una colección de reglas de tipología que permiten controlar, filtrar y priorizar los envíos. Las tipologías garantizan que los envíos contengan siempre los elementos necesarios (como un vínculo para cancelar la suscripción o una línea de asunto) y apliquen reglas de filtrado para excluir grupos específicos del público destinatario (como los que han cancelado la suscripción, los competidores o los clientes no fidelizados).</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
@@ -83,7 +83,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear enumeraciones directamente mediante la interfaz de usuario web de Adobe Campaign. Una enumeración es una lista de valores sugeridos por el sistema para rellenar campos. Utilice enumeraciones para estandarizar los valores de estos campos, ayudar con la entrada de datos o utilizar en las consultas.</p>
+<p>Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar los campos. Utilice las enumeraciones para estandarizar los valores de estos campos, facilitar la introducción de datos o utilizarlas en las consultas.</p>
 <img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
@@ -100,7 +100,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede acceder a las opciones técnicas de la interfaz de usuario web de Adobe Campaign y crear sus propias opciones personalizadas para adaptarlas a sus necesidades. Esto resulta particularmente útil cuando se trabaja con actividades de flujo de trabajo de código JavaScript para almacenar datos intermedios.</p>
+<p>Ahora puede acceder a las opciones técnicas de la interfaz de usuario de Adobe Campaign Web y crear sus propias opciones personalizadas para adaptarlas a sus necesidades. Esto resulta particularmente útil cuando se trabaja con actividades de flujo de trabajo de código JavaScript para almacenar datos intermedios.</p>
 <img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
@@ -112,13 +112,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Definir y llamar a códigos JavaScript</strong><br/></th>
+<th><strong>Definir y llamar códigos JavaScript</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear códigos JavaScript en la interfaz de usuario web de Adobe Campaign. Esto le permite crear funciones reutilizables que se pueden utilizar en distintos flujos de trabajo, de forma similar a una biblioteca.</p>
+<p>Ahora puede crear códigos JavaScript en la interfaz de usuario de Adobe Campaign Web. Esto le permite crear funciones reutilizables que se pueden utilizar en distintos flujos de trabajo, de forma similar a una biblioteca.</p>
 <img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
@@ -135,6 +135,6 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
    * Ahora puede organizar los campos en la interfaz con más flexibilidad: los campos pueden abarcar una sola columna o agruparse en subsecciones para una mejor organización
    * Ahora puede establecer campos específicos como de solo lectura
 
-* Filtros recientes y favoritos: para reutilizar rápidamente atributos que se utilizan con frecuencia, ahora puede agregarlos a Favoritos. Esto garantiza que sean fácilmente accesibles para tareas futuras. Además de los favoritos, también puede ver y utilizar los atributos seleccionados más recientemente.
+* Filtros recientes y favoritos: para reutilizar rápidamente atributos que se utilizan con frecuencia, ahora puede añadirlos a favoritos. Esto garantiza que sean fácilmente accesibles para tareas futuras. Además de los favoritos, también puede ver y utilizar los atributos seleccionados más recientemente.
 
 
