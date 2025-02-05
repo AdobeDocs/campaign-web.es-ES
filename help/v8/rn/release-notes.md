@@ -2,9 +2,9 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '663'
 ht-degree: 85%
 
 ---
@@ -74,7 +74,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <td>
 <p>Ahora puede crear tipologías y reglas de tipología en la interfaz de Adobe Campaign Web. Una tipología es una colección de reglas de tipología que permiten controlar, filtrar y priorizar los envíos. Las tipologías garantizan que los envíos contengan siempre los elementos necesarios (como un vínculo para cancelar la suscripción o una línea de asunto) y apliquen reglas de filtrado para excluir grupos específicos del público destinatario (como los que han cancelado la suscripción, los competidores o los clientes no fidelizados).</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../administration/typologies.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <td>
 <p>Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar los campos. Utilice las enumeraciones para estandarizar los valores de estos campos, facilitar la introducción de datos o utilizarlas en las consultas.</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../administration/enumerations.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <td>
 <p>Ahora puede acceder a las opciones técnicas de la interfaz de usuario de Adobe Campaign Web y crear sus propias opciones personalizadas para adaptarlas a sus necesidades. Esto resulta particularmente útil cuando se trabaja con actividades de flujo de trabajo de código JavaScript para almacenar datos intermedios.</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../administration/options.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <td>
 <p>Ahora puede crear códigos JavaScript en la interfaz de usuario de Adobe Campaign Web. Esto le permite crear funciones reutilizables que se pueden utilizar en distintos flujos de trabajo, de forma similar a una biblioteca.</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../administration/javascript-codes.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
