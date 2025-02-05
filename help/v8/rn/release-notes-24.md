@@ -2,9 +2,9 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Notas de la versión de la interfaz de usuario web de Campaign 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # Notas de la versión 2024 {#2024-release}
 
 Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2024**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
+
+
+## Versión de octubre de 2024 {#24-10-release}
+
+**Fecha de publicación**: 29 de octubre de 2024
+
+Las siguientes funciones y mejoras están disponibles a partir de la versión de octubre.
+
+### Funciones
+
+<table>
+<thead>
+<tr>
+<th><strong>Cuentas externas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede configurar y administrar cuentas externas directamente a través de la interfaz de usuario web de Adobe Campaign. Esta nueva función facilita la configuración de diferentes tipos de cuentas externas, como los correos electrónicos rechazados (POP3) o las instancias de ejecución.</p>
+<p>Para obtener más información, consulte la <a href="../administration/external-account.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mensajería transaccional</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La mensajería transaccional (Centro de mensajes) ya está disponible en la interfaz de usuario web de Campaign. Este complemento se ha diseñado para activar mensajes que se generan a partir de eventos desencadenados desde los sistemas de información y pueden ser: una factura, una confirmación de pedido, una confirmación de envío, un cambio de contraseña, una notificación de no disponibilidad del producto, el estado de la cuenta, una creación de cuenta en un sitio web, etc.</p>
+<p>Para obtener más información, consulte la <a href="../transactional-messaging/transactional.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Mejoras
+
+* **Actividades del flujo de trabajo**: ahora puede mover una actividad y todos sus nodos secundarios de una transición a otra dentro de un flujo de trabajo. Hay disponible un botón **Mover** dedicado en el panel de propiedades de la actividad para realizar esto. [Más información](../workflows/orchestrate-activities.md#move)
+
+* **Actividad de enriquecimiento del flujo de trabajo**
+
+   * Ahora puede definir un Alias y una Etiqueta al crear un nuevo campo en la actividad **Enriquecimiento**. [Más información](../workflows/activities/enrichment.md#collection-settings)
+   * Ahora puede añadir ofertas para cada perfil en la actividad **Enriquecimiento**. [Más información](../workflows/activities/enrichment.md##add-offers)
+
+* **Distribución de valores**: al acceder a la lista de campos para personalización, ahora puede comprobar cómo se distribuyen los valores para cada campo. Una ventana emergente dedicada muestra el número y el porcentaje de cada valor. [Más información](../query/build-query.md#distribution-values-query)
+
+* **Información de versión y sistema**: ahora puede obtener acceso a los detalles de las versiones de la instancia, tanto para la consola de cliente como para la interfaz de usuario web. En esta nueva sección también se muestran todos los paquetes integrados instalados en el entorno. [Más información](../get-started/user-interface.md#user-interface-about)
+
+* **Listas**: ahora puede reordenar fácilmente los valores de una lista. [Más información](../get-started/work-with-folders.md)
+
+* **Envío**: ahora puede acceder a la variable de envío desde los campos de personalización. [Más información](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## Actualizaciones de septiembre {#9-2024}

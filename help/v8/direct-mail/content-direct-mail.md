@@ -3,9 +3,9 @@ audience: end-user
 title: Diseño de una entrega de correo directo
 description: Aprenda a diseñar su envío de correo postal con Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '573'
 ht-degree: 21%
 
 ---
@@ -59,7 +59,7 @@ Para diseñar el contenido del archivo de extracción generado por su envío de 
 En la sección **[!UICONTROL Contenido]**, especifique las columnas que se mostrarán en el archivo de extracción. Para ello, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Agregar atributo]** para crear una columna nueva.
-1. Seleccione el atributo que se mostrará en la columna y confirme la acción. Tenga en cuenta que puede aprovechar el editor de expresiones para seleccionar el atributo que se va a utilizar haciendo clic en el botón **[!UICONTROL Editar expresión]**.
+1. Seleccione el atributo que se mostrará en la columna y confirme la acción. Tenga en cuenta que puede aprovechar el editor de expresiones para seleccionar el atributo que se va a utilizar haciendo clic en el botón **[!UICONTROL Editar expresión]**. [Aprenda a seleccionar atributos y agregarlos a favoritos](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

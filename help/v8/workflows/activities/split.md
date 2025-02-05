@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -93,7 +93,7 @@ Siga estos pasos para configurar la actividad **División**:
 
       >[!NOTE]
       >
-      >Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo de perfil específico, en orden ascendente o descendente. Para ello, active la opción **[!UICONTROL Habilitar ordenación]**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta.
+      >Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados según un [atributo de perfil](../../get-started/attributes.md) específico, en orden de subida o de bajada. Para ello, active la opción **[!UICONTROL Habilitar ordenación]**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta.
 
 1. Una vez configurados todos los subconjuntos, puede seleccionar la población restante que no coincide con ninguno de los subconjuntos e incluirlos en una transición saliente adicional. Para ello, active la opción **[!UICONTROL Generar complemento]**.
 

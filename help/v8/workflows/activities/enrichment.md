@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2071'
 ht-degree: 41%
 
 ---
@@ -54,7 +54,7 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 >title="Actividad de enriquecimiento"
 >abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También para crear campañas y mensajes de marketing personalizados que tengan más probabilidades de resonar con el público destinatario."
 
-1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos.
+1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que se utilizará para enriquecer los datos. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md)
 
    Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada uno de estos tipos se detalla en los ejemplos siguientes:
    * [Atributo de enriquecimiento único](#single-attribute)

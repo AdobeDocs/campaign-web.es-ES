@@ -3,7 +3,7 @@ title: Definición del contenido específico de la página de aterrizaje
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -87,10 +87,9 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
    * **[!UICONTROL Suscribirse si está marcado]**: los usuarios deben marcar la casilla para dar su consentimiento (inclusión).
    * **[!UICONTROL Cancelar la suscripción si está marcada]**: los usuarios deben marcar la casilla para eliminar su consentimiento (exclusión).
 
-   Si selecciona **[!UICONTROL Campo]**, seleccione un campo de la lista de atributos y elija entre las dos opciones siguientes:
+   Si selecciona **[!UICONTROL Campo]**, seleccione un campo de la [lista de atributos](../get-started/attributes.md) y elija entre las dos opciones siguientes:
 
    * **[!UICONTROL Sí, si está marcado]**.<!--TBC-->
-
    * **[!UICONTROL No si está marcado]**.<!--TBC-->
 
 1. Puede eliminar y agregar tantos campos (como campos de texto, botones de opción, casillas de verificación, listas desplegables, etc.) como sea necesario.

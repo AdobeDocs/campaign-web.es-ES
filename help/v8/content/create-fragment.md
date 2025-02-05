@@ -3,10 +3,10 @@ audience: end-user
 title: Crear fragmentos de contenido
 description: Aprenda a crear fragmentos de contenido
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 27%
+source-wordcount: '1003'
+ht-degree: 26%
 
 ---
 
@@ -56,7 +56,7 @@ Para crear un fragmento de contenido desde cero, siga los pasos a continuación.
 
    >[!AVAILABILITY]
    >
-   >Los fragmentos visuales están en disponibilidad limitada (LA). Están restringidos a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
+   >Los fragmentos visuales requieren una actualización de Campaign v8.6.4. Obtenga más información en las [notas de la versión de la consola del cliente de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Haga clic en el botón **Create**.
 

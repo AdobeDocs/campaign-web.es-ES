@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Extraer archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Extraer archivo
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '885'
 ht-degree: 18%
 
 ---
@@ -39,7 +39,7 @@ La sección **[!UICONTROL Archivo para extraer]** le permite configurar las prop
 1. Especifique las columnas que desea presentar en el archivo extraído. Para ello, siga estos pasos:
 
    1. Haga clic en **[!UICONTROL Agregar columna de salida]**.
-   1. Seleccione el atributo que se mostrará en la columna y confirme la acción. Los atributos disponibles dependen de la dimensión objetivo del flujo de trabajo.
+   1. Seleccione el atributo que se mostrará en la columna y confirme la acción. Los atributos disponibles dependen de la dimensión objetivo del flujo de trabajo. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md)
    1. Una vez agregada la columna, puede cambiar su **[!UICONTROL Etiqueta]** y modificar el **[!UICONTROL Atributo]** asociado.
    1. Si desea aplicar una transformación a los valores de la columna, selecciónela en la lista desplegable. Por ejemplo, puede cambiar todos los valores de la columna seleccionada a mayúsculas.
 

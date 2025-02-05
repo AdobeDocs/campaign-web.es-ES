@@ -4,10 +4,10 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 51%
+source-wordcount: '2765'
+ht-degree: 50%
 
 ---
 
@@ -25,24 +25,16 @@ La configuración de envío es de **parámetros técnicos de envío** que se def
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
+>abstract="Las tipologías le permiten estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configuración de tipología para el envío"
->abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación. Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign."
+>abstract="Las reglas de tipología permiten estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
-Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de preparación para aplicar fácilmente varias reglas de filtrado a un envío a la vez. Permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos, ya que les permiten controlar, filtrar y priorizar el envío de entregas.
-
-Al asociar una tipología con una plantilla de mensaje o un mensaje, las reglas de tipología incluidas en ella se ejecutan para comprobar la validez de la entrega durante la preparación del mensaje. Los perfiles que coinciden con los criterios dentro de una regla de tipología se excluyen de las audiencias de envío.
-
-Las tipologías permiten asegurarse de que las entregas siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).
+Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de preparación para aplicar fácilmente varias reglas de filtrado a un envío a la vez. Permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas, ya que les permiten controlar, filtrar y priorizar la entrega de entregas. [Aprenda a crear tipologías y reglas de tipología](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->Las tipologías y reglas de tipología se crean en la consola del cliente de Campaign. Obtenga más información acerca de las reglas de presión y cómo configurar la administración de fatiga en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
 
 ### Parámetros de presión {#pressure-parameters}
 

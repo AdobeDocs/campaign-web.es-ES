@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2032'
 ht-degree: 100%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Script de inicialización de ejecución"
 >abstract="Script de inicialización de ejecución"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="Editar detalle personalizado"
->abstract="Editar detalle personalizado"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="Propiedades del separador"
->abstract="Propiedades del separador"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="Configuración de atributos"
->abstract="Configuración de atributos"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="General"
->abstract="General"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="Propiedades del vínculo"
->abstract="Propiedades de vínculo"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="Diseño"
->abstract="Diseño"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="Almacenamiento de asignación de destinatario"
 >abstract="Almacenamiento denegado de asignación de destinatario"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="Favoritos y Recientes"
->abstract="Favoritos y Recientes"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Opciones"
->abstract="Opciones"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Opción Crear"
->abstract="Opción Crear"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="Códigos JavaScript"
->abstract="Códigos JavaScript"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="Crear código JavaScript"
->abstract="Crear código JavaScript"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="Enumeraciones"
->abstract="Enumeraciones"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="Propiedades"
->abstract="Propiedades"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="Lista de valores de enumeración"
->abstract="Lista de valores de enumeración"

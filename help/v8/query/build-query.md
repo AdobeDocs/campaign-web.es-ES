@@ -3,10 +3,10 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 20%
+source-wordcount: '2242'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,7 @@ Para acceder a esta opción, en la consulta, haga clic en el botón de selecció
 >
 >* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En tal caso, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >
->* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos.
+>* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos. [Aprenda a seleccionar atributos](../get-started/attributes.md)
 >* Puede agregar condiciones a los resultados usando los **[!Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adición de componentes de filtrado {#filtering}
@@ -62,7 +62,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
 
 1. Haga clic en el botón **+** del nodo deseado y seleccione **[!UICONTROL Condición personalizada]**. El panel de propiedades de condición personalizada se abre en el lado derecho.
 
-1. En el campo **Atributo**, seleccione el atributo de la base de datos que desee aprovechar para crear su condición. La lista de atributos incluye todos los atributos de la base de datos de Campaign, incluidos los atributos de las tablas vinculadas.
+1. En el campo **Atributo**, seleccione el atributo de la base de datos que desee aprovechar para crear su condición. La lista de atributos incluye todos los atributos de la base de datos de Campaign, incluidos los atributos de las tablas vinculadas. [Aprenda a seleccionar atributos y agregarlos a favoritos](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

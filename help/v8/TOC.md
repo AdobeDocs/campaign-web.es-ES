@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Documentación de la interfaz de usuario web de Adobe Campaign](campaign-web-home.md)
 + Notas de la versión {#release-notes}
    + [Novedades](rn/whats-new.md)
-   + [Notas de la versión preliminar](rn/e-release-notes.md)
+   + [Versión preliminar](rn/e-release-notes.md)
    + [Último lanzamiento](rn/release-notes.md)
    + Versiones anteriores {#previous-release-notes}
       + [Versiones de 2024](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 100%
    + [Examen y filtrado de listas](get-started/list-filters.md)
    + [Trabajo con filtros predefinidos](get-started/predefined-filters.md)
    + [Trabajo con carpetas](get-started/work-with-folders.md)
+   + [Seleccionar atributos y añadirlos a favoritos](get-started/attributes.md)
    + [Permisos](get-started/permissions.md)
    + [Consola web y de cliente de Campaign](get-started/capability-matrix.md)
    + [De Campaign Standard a v8](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 100%
    + [Acceso a los envíos](msg/gs-deliveries.md)
    + [Creación de un envío](msg/create-deliveries.md)
    + [Uso de plantillas de envío](msg/delivery-template.md)
-   + [Trabajar con tipologías](msg/typologies.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
       + [Configurar el contenido de correo electrónico](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 100%
       + [Creación de un mensaje transaccional](transactional-messaging/create-transactional.md)
       + [Validación del mensaje transaccional](transactional-messaging/validate-transactional.md)
       + [Monitorización de mensajes transaccionales](transactional-messaging/monitor-transactional.md)
+   + [Envío de envíos externos](msg/send-external-deliveries.md)
    + [Añadir ofertas a los mensajes](msg/offers.md)
    + [Enviar mensajes a los suscriptores](msg/send-to-subscribers.md)
    + [Configuración del envío](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 100%
 + Configuración {#conf}
    + [Configuración de los campos personalizados](administration/custom-fields.md)
    + [Configuración de cuentas externas](administration/external-account.md)
+   + [Trabajar con tipologías](administration/typologies.md)
+   + [Administración de enumeraciones](administration/enumerations.md)
+   + [Configurar  [!DNL Campaign] opciones](administration/options.md)
+   + [Trabajo con códigos JavaScript](administration/javascript-codes.md)
 + [Documentación de Campaign v8 (consola) >](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home)
