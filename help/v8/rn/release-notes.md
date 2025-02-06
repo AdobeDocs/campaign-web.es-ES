@@ -2,7 +2,7 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,7 +145,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>El acelerador de contenido asistente de IA ya está disponible con las entregas de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
-<p>Para obtener más información sobre el acelerador de contenido del asistente de IA, consulte la <a href="../email/generative-gs.md">documentación detallada</a>.</p>
+<p>Para obtener más información sobre el acelerador de contenido del asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
