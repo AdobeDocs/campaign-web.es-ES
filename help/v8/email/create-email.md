@@ -22,7 +22,7 @@ Aprenda a crear su primer correo electrónico de destino. En este caso de uso, s
 
 En función de una [plantilla de diseño](../email/create-email-templates.md) predefinida, el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
-➡️ [Descubra esta característica en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Creación del envío de correo electrónico {#create-email}
 

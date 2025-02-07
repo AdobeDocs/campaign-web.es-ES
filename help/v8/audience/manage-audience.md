@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ Las audiencias pueden proceder de varias fuentes. Las columnas **[!UICONTROL Ori
 
 * **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado en Adobe Experience Platform y se integran en el sitio web de Campaign mediante la integración de orígenes y destinos de Adobe. Aprenda a configurar esta integración en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
-  ➡️ [Descubra esta característica en vídeo](#video)
+  ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Para obtener más información sobre una audiencia, ábrala en la lista. Se muestran las propiedades de la audiencia, junto con el número de perfiles incluidos en la audiencia. Puede actualizar el recuento de audiencias en cualquier momento con el botón **[!UICONTROL Calcular]**.
 

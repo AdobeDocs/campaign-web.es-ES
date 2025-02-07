@@ -2,7 +2,8 @@
 audience: end-user
 title: Seleccione atributos y agréguelos a favoritos
 description: Aprenda a trabajar con atributos y acceder fácilmente a los atributos favoritos y utilizados recientemente.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 6%

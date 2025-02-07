@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 71%
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar el cuerpo del correo electrónico en cuestión de segundos.
 
-➡️ [Descubra esta característica en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
 

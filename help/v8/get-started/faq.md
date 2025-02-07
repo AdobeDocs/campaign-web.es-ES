@@ -1,13 +1,13 @@
 ---
 title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
 description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
-source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
+exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
+source-git-commit: 0183534ca68960261fa59582dba2e2220e60b024
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 5%
 
 ---
-
 
 # Preguntas frecuentes
 

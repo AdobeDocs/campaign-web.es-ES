@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Una vez que haya creado el flujo de trabajo, las audiencias resultantes se almac
 
 Las columnas **[!UICONTROL Origin]** indican el origen de las audiencias: Se han creado audiencias de **[!UICONTROL Adobe Campaign]** con la consola de Adobe Campaign v8 o la interfaz de usuario web, mientras que se han creado audiencias de **[!UICONTROL Adobe Experience Platform:]** en Adobe Experience Platform y se han integrado en Campaign mediante la integración de fuentes de Adobe y destinos.
 
-➡️ [Descubra esta característica en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Cree su primera audiencia {#create}
 

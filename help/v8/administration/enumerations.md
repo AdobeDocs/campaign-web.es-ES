@@ -1,7 +1,8 @@
 ---
 title: Administración de enumeraciones
 description: Aprenda a trabajar con enumeraciones
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 14%
