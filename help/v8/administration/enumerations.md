@@ -2,14 +2,21 @@
 title: Administración de enumeraciones
 description: Aprenda a trabajar con enumeraciones
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 14%
+source-wordcount: '600'
+ht-degree: 16%
 
 ---
 
 # Administración de enumeraciones {#enumerations}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Creación de enumeraciones"
+>abstract="Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar campos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"

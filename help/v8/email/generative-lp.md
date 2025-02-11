@@ -3,14 +3,21 @@ audience: end-user
 title: Página de aterrizaje con el acelerador de contenido del asistente de IA
 description: Introducción al acelerador de contenido del asistente de IA
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: e7b93168c3827691049376ecd257d2c6df554007
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1549'
 ht-degree: 1%
 
 ---
 
 # Generación de páginas de aterrizaje con el acelerador de contenido del asistente de IA {#generative-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Generación de páginas de aterrizaje con IA"
+>abstract="Ahora puede utilizar el acelerador de contenido del asistente de IA para crear los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
+
 
 >[!IMPORTANT]
 >

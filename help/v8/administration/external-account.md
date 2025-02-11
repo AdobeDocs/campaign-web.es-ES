@@ -2,25 +2,20 @@
 title: Administrar cuenta externa
 description: Obtenga información sobre cómo configurar cuentas externas
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 18%
+source-wordcount: '686'
+ht-degree: 14%
 
 ---
 
 # Administración de cuentas externas {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Cuentas externas"
->abstract="Ahora puede conectarse a plataformas adicionales o personalizar las conexiones para adaptarlas al flujo de trabajo y crear fácilmente nuevas cuentas externas para satisfacer sus necesidades específicas y garantizar las transferencias de datos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
-
 >[!AVAILABILITY]
 >
-> Tenga en cuenta que las cuentas externas actualmente solo están disponibles para Rebotar correos (POP3), Enrutamiento y la instancia de Ejecución, con tipos de cuenta adicionales que se añadirán en el futuro.
-> Las cuentas externas no admitidas creadas en la consola de Adobe Campaign están visibles en la interfaz de usuario web, pero no se pueden editar ni acceder a ellas.
+>* Actualmente, las cuentas externas solo están disponibles para las instancias de correos rechazados (POP3), Enrutamiento y Ejecución. En el futuro se agregarán tipos de cuenta adicionales.
+>
+>* Las cuentas externas no admitidas creadas en la consola de Adobe Campaign están visibles en la interfaz de usuario web, pero no se pueden editar ni acceder a ellas.
 
 Adobe Campaign incluye un conjunto de cuentas externas preconfiguradas para facilitar la integración con varios sistemas. Si necesita conectarse a plataformas adicionales o personalizar las conexiones para adaptarlas al flujo de trabajo, ahora puede crear fácilmente nuevas cuentas externas mediante la interfaz de usuario web para satisfacer sus necesidades específicas y garantizar transferencias de datos sin problemas.
 
