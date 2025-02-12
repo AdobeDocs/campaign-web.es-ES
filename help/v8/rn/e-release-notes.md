@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de entrada que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el utilizado para el canal de correo directo.</p>
+<p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de entrada que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el que se utiliza para el canal de correo directo.</p>
 </td>
 </tr>
 </tbody>

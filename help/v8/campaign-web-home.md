@@ -4,9 +4,9 @@ description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!TAB Versión de enero de 2025]
 
-Ya está activa la versión de enero, que incluye mensajería transaccional, cuentas externas y más mejoras.
+Ya está disponible la versión de enero, que incluye mensajería transaccional, cuentas externas y más mejoras.
 
 [![Botón Más información](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -67,14 +67,14 @@ Ya está activa la versión de enero, que incluye mensajería transaccional, cue
 
 >[!TAB Preguntas frecuentes]
 
-Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se enumeran en una nueva página dedicada.
+Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se indican en una nueva página dedicada.
 
 [![Botón Más información](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
 
-## Empieza con los conceptos básicos
+## Empiece con los conceptos básicos
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
