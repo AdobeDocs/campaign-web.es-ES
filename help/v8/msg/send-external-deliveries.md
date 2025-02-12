@@ -6,16 +6,16 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
-# Envío de envíos externos {#gs-direct-mail}
+# Envíos externos {#gs-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Creación de envíos externos"
->abstract="Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de salida, que se puede compartir con el proveedor externo. De forma predeterminada, el modo de envío externo es el utilizado para el canal de correo directo."
+>abstract="Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de salida que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el que se utiliza para el canal de correo directo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
