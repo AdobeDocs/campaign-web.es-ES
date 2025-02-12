@@ -3,9 +3,9 @@ audience: end-user
 title: Descubra la interfaz
 description: Interfaz de usuario de Adobe Campaign Web
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '2032'
+source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
+workflow-type: tm+mt
+source-wordcount: '2036'
 ht-degree: 100%
 
 ---
@@ -417,6 +417,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Target Mapping -->
 
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_list"
+>title="Asignaciones de destino"
+>abstract="Asignaciones de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
