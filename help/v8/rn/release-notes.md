@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de salida, que se puede compartir con el proveedor externo. De forma predeterminada, el modo de envío externo es el utilizado para el canal de correo directo.</p>
+<p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de salida que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el que se utiliza para el canal de correo directo.</p>
 <img src="assets/do-not-localize/external-delivery.gif">
 <p>Para obtener más información, consulte la <a href="../msg/send-external-deliveries.md">documentación detallada</a>.</p>
 </td>
@@ -138,15 +138,15 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Generación de páginas de aterrizaje con el acelerador de contenido del asistente de IA</strong><br/></th>
+<th><strong>Generación de la página de aterrizaje con el Acelerador de contenido del Asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El acelerador de contenido asistente de IA ya está disponible con las entregas de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
+<p>El Acelerador de contenido del Asistente de IA ya está disponible con los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obtener más información sobre el acelerador de contenido del asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
+<p>Para obtener más información sobre el Acelerador de contenido del Asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -166,4 +166,4 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 
 * Filtros recientes y favoritos: para reutilizar rápidamente atributos que se utilizan con frecuencia, ahora puede añadirlos a favoritos. Esto garantiza que sean fácilmente accesibles para tareas futuras. Además de los favoritos, también puede ver y utilizar los atributos seleccionados más recientemente.
 
-* Cuentas externas: el nuevo tipo **[!UICONTROL Enrutamiento]** está disponible para su selección al crear una nueva cuenta externa. Permite configurar una cuenta externa específica para utilizarla en los envíos externos. [Más información](../administration/external-account.md#routing)
+* Cuentas externas: el nuevo tipo de **[!UICONTROL Enrutamiento]** está disponible para su selección al crear una nueva cuenta externa. Le permite configurar una cuenta externa específica para utilizarla en los envíos externos. [Más información](../administration/external-account.md#routing)
