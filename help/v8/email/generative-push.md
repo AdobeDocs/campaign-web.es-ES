@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Notificación push con el acelerador de contenido del asistente de IA
-description: Introducción al acelerador de contenido del asistente de IA
+title: Notificación push con el asistente de IA
+description: Introducción al asistente de IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
 
-# Generación de notificaciones push con el acelerador de contenido del asistente de IA {#generative-push}
+# Generación de notificaciones push con el asistente de IA {#generative-push}
 
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el acelerador de contenido del asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-El acelerador de contenido del asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que es más probable que resuene en su audiencia.
+El asistente de IA puede ayudarle a optimizar el impacto de sus envíos sugiriendo contenido diferente que es más probable que resuene en su audiencia.
 
 En el siguiente ejemplo, aprovecharemos el asistente de IA para crear mensajes atractivos para crear una experiencia del cliente más atractiva.
 

@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -138,15 +138,15 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Generación de la página de aterrizaje con el Acelerador de contenido del Asistente de IA</strong><br/></th>
+<th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Acelerador de contenido del Asistente de IA ya está disponible con los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
+<p>El asistente de IA ya está disponible con las entregas de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Para obtener más información sobre el Acelerador de contenido del Asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
+<p>Para obtener más información sobre el Asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

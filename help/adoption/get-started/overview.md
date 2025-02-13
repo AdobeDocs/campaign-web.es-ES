@@ -4,9 +4,9 @@ description: Conozca los pasos necesarios para empezar a utilizar la nueva aplic
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -59,7 +59,7 @@ A continuación, se enumeran las mejoras clave incluidas en Adobe Campaign v8.
 
 ### Nuevas funciones de la versión 8 de Adobe Campaign {#ac-new-features}
 
-Como usuario Campaign Standard que está realizando la transición a Adobe Campaign v8, ya tiene a su disposición las siguientes funciones:
+Como usuario de Campaign Standard que está realizando la transición a Adobe Campaign v8, ya tiene a su disposición las siguientes funciones:
 
 * **Inserción enriquecida**
 
@@ -93,7 +93,7 @@ Como usuario Campaign Standard que está realizando la transición a Adobe Campa
 
   Adobe Experience Manager as a Cloud Service ofrece agilidad nativa de la nube, lo que le permite acelerar su tiempo de respuesta al valor y adaptarse a las cambiantes necesidades empresariales. Esta integración no solo mejora las funciones de administración de contenido, sino que también le permite ofrecer experiencias más personalizadas y atractivas a sus clientes en todos los puntos de contacto.
 
-* **Asistente de IA - Acelerador de contenido**
+* **Ayudante de IA**
 
   El Asistente de IA de Campaign hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
@@ -105,7 +105,7 @@ Como usuario Campaign Standard que está realizando la transición a Adobe Campa
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Proporciona una variante de plantillas de correo electrónico y genera y vuelve a generar imágenes. Obtenga más información acerca del Ayudante de IA - Acelerador de contenido en [esta sección](../../v8/email/generative-content.md). Adobe Campaign v8 tiene un asistente de IA disponible para [correo electrónico](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) y [push](../../v8/email/generative-push.md).
+  Proporciona una variante de plantillas de correo electrónico y genera y vuelve a generar imágenes. Obtenga más información acerca del Asistente de IA en [esta sección](../../v8/email/generative-content.md). Adobe Campaign v8 tiene un asistente de IA disponible para [correo electrónico](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) y [push](../../v8/email/generative-push.md).
 
 * **Infraestructura de SMS actualizada: SMS v2.0**
 
@@ -124,7 +124,7 @@ Como usuario Campaign Standard que está realizando la transición a Adobe Campa
 
 Adobe Campaign v8 está disponible como Managed Cloud Service y proporciona supervisión proactiva, alertas oportunas y control de servicios. Adobe Managed Cloud Service proporciona a los especialistas en marketing una solución de administración de campañas en canales múltiples más ágil, segura y escalable con un bajo coste total de propiedad. La nueva oferta combina servicios con supervisión proactiva y alertas oportunas.
 
-## Funcionalidades del Campaign Standard añadidas en la versión 8 de {#ac-v8-added}
+## Funciones de Campaign Standard añadidas a la versión 8 de {#ac-v8-added}
 
 Para que pueda realizar la transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8. Se detallan en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}
 

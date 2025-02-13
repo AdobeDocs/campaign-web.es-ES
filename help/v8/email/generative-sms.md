@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: SMS con el acelerador de contenido del asistente de IA
-description: Introducción al acelerador de contenido del asistente de IA
+title: SMS con el asistente de IA
+description: Introducción al asistente de IA
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
 
-# Generación de SMS con el acelerador de contenido del asistente de IA {#generative-sms}
+# Generación de SMS con el asistente de IA {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el acelerador de contenido del asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-Una vez que haya creado y personalizado sus mensajes SMS para adaptarlos a su audiencia, lleve su comunicación al siguiente nivel con la ayuda del acelerador de contenido asistente de IA en Adobe Campaign Web, con tecnología de IA innovadora.
+Una vez que haya creado y personalizado sus mensajes SMS para adaptarlos a su audiencia, lleve su comunicación al siguiente nivel con la ayuda del asistente de IA en Adobe Campaign Web, con tecnología de IA innovadora.
 
 Esta práctica herramienta proporciona sugerencias inteligentes para perfeccionar el contenido, lo que garantiza que los mensajes resuenen de forma eficaz y maximice la participación.
 
@@ -99,7 +99,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para el acelerador de contenido del asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 

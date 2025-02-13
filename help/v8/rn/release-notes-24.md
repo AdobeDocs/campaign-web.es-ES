@@ -2,10 +2,10 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Notas de la versión de la interfaz de usuario web de Campaign 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '2506'
-ht-degree: 100%
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+workflow-type: tm+mt
+source-wordcount: '2502'
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Acelerador de contenido del Asistente de IA</strong><br/></th>
+<th><strong>Asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Una vez que haya creado y adaptado su mensaje, llévelo al siguiente nivel con el Acelerador de contenido del Asistente de IA de Adobe Campaign Web. Esta potente herramienta le permite optimizar el impacto de su contenido mediante la generación de una serie de atractivos textos, títulos principales e imágenes visualmente atractivas.</p>
+<p>Una vez que haya creado y adaptado su mensaje, llévelo al siguiente nivel con el asistente de IA de Adobe Campaign Web. Esta potente herramienta le permite optimizar el impacto de su contenido mediante la generación de una serie de atractivos textos, títulos principales e imágenes visualmente atractivas.</p>
 <p>Sumérjase en una experiencia práctica con <a href="https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator">nuestra previsualización de funciones en vivo</a>, diseñada para que explore las funciones en primera persona y comprenda plenamente todo su potencial.</a>.</p>
 <p>Para obtener más información, consulte la <a href="../email/generative-gs.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

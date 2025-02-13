@@ -1,15 +1,15 @@
 ---
-title: Casos de uso del Ayudante de IA para el acelerador de contenido
-description: Descubra, a través de casos de uso, cómo utilizar el Asistente de IA para el acelerador de contenido
+title: Casos de uso del Asistente de IA
+description: Descubra, a través de casos de uso, cómo utilizar el asistente de IA
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 1%
 
 ---
 
-# Casos de uso del Ayudante de IA para el acelerador de contenido {#generative-uc}
+# Casos de uso del Asistente de IA {#generative-uc}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. Abra la sección **[!UICONTROL Asistente de IA]**.
 
-1. Activa la función **[!UICONTROL Usar contenido original]** del asistente de IA para el acelerador de contenido para adaptar el nuevo contenido según los detalles de la entrega, incluidos el nombre de la entrega y la audiencia de destino.
+1. Active la función **[!UICONTROL Usar contenido original]** del asistente de IA para adaptar el nuevo contenido según los detalles de la entrega, incluidos el nombre de la entrega y la audiencia de destino.
 
 1. Ajuste el contenido especificando la solicitud en el cuadro **[!UICONTROL Preguntar]** y personalice la configuración según sea necesario.
 
@@ -89,11 +89,11 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Después de configurar su envío, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Elija el recurso que desea modificar con el Ayudante de IA para el acelerador de contenido.
+1. Seleccione el recurso que desea modificar con el asistente de IA.
 
 1. En el menú del panel derecho, elija **[!UICONTROL Asistente de IA]**.
 
-1. Active la opción **[!UICONTROL Estilo de referencia]** para que el Ayudante de IA para el acelerador de contenido pueda generar contenido nuevo usando el material de referencia.
+1. Active la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA pueda generar contenido nuevo usando el material de referencia.
 
 1. Haga clic en **[!UICONTROL Cargar imagen]** para incluir una imagen que agregue contexto a la variación.
 

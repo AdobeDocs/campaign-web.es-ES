@@ -4,7 +4,7 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -75,7 +75,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
 Para acceder a la **[!UICONTROL pista de auditoría]** de su instancia:
 
-1. En el menú **[!UICONTROL Administración]**, seleccione **[!UICONTROL Pista de auditoría]** .
+1. En el menú **[!UICONTROL Administración]**, seleccione **[!UICONTROL Pista de auditoría]**.
 
    ![](assets/audit-trail-1.png)
 
