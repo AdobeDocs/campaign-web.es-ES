@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 Los cambios y las mejoras disponibles con las versiones anteriores se muestran [en esta página](release-notes-24.md).
+
+## Versión de febrero de 2025 {#25-2-release}
+
+**Fecha de la versión**: 18 de febrero de 2025
+
+Las siguientes funciones y mejoras están disponibles a partir de la versión de febrero.
+
+### Funciones {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Creación de reglas empresariales (reglas de tipología)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos. Las tipologías se utilizan para validar que los envíos siempre contienen componentes obligatorios (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de la audiencia (como suscriptores que se han dado de baja, competidores o clientes que no son fieles).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Para obtener más información, consulte la <a href="../administration/typologies.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Asignaciones de destino</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede crear asignaciones de destino en la interfaz de usuario web de Campaign. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema. La asignación de destino permite definir la audiencia de destino: perfiles, beneficiarios de contratos, operadores, suscriptores, clientes potenciales, etc.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Para obtener más información, consulte la <a href="../administration/target-mappings.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Detalles del esquema</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. Ahora se puede acceder a la edición de campos personalizados desde el botón <b>Editar campos personalizados</b> disponible en los detalles del esquema.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versión de enero de 2025 {#25-1-release}
 
@@ -62,25 +121,6 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Mejoras {#25-1-improvements}

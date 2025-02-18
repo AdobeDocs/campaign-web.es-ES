@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [Versión preliminar](rn/e-release-notes.md)
    + [Último lanzamiento](rn/release-notes.md)
    + Versiones anteriores {#previous-release-notes}
+      + [Versiones de 2025](rn/release-notes-25.md)
       + [Versiones de 2024](rn/release-notes-24.md)
    + [Actualizaciones de la documentación](rn/documentation-updates.md)
 + Introducción a Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuración {#conf}
+   + [Trabajo con reglas empresariales (tipologías)](administration/typologies.md)
+   + [Administrar asignaciones de destino](administration/target-mappings.md)
+   + [Usar esquemas](administration/schemas.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-   + [Configuración de cuentas externas](administration/external-account.md)
-   + [Trabajar con tipologías](administration/typologies.md)
-   + [Administración de enumeraciones](administration/enumerations.md)
    + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
+   + [Configuración de cuentas externas](administration/external-account.md)
+   + [Administración de enumeraciones](administration/enumerations.md)
    + [Trabajo con códigos JavaScript](administration/javascript-codes.md)
 + [Documentación de Campaign v8 (consola) >](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home)

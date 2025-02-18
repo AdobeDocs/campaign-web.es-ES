@@ -2,9 +2,9 @@
 title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados y su visibilidad en la interfaz.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -68,9 +68,11 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
    Utilice el filtro **[!UICONTROL Editable]** del panel de filtros para identificar rápidamente esquemas con campos personalizados.
 
-   ![](assets/custom-fields-list.png)
+   ![](assets/custom-fields-open.png)
 
-1. Haga clic en el icono de lápiz situado junto al nombre del esquema para acceder a sus campos personalizados. En este ejemplo, queremos agregar campos para el esquema **[!UICONTROL Recipients]**.
+1. Seleccione el nombre del esquema en la lista para abrirlo. Una vista de esquema detallada muestra [Más información sobre los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Editar detalle personalizado]** para acceder a los campos personalizados. En este ejemplo, queremos agregar campos para el esquema **[!UICONTROL Recipients]**.
+
+   ![](assets/custom-fields-edit.png)
 
 1. Se muestra la lista de campos personalizados en la interfaz para la visualización del esquema. En este caso, el campo &quot;CRM Id&quot; es visible en la pantalla de detalles de los perfiles y se ha marcado como obligatorio.
 
@@ -78,9 +80,9 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. Para agregar un campo personalizado a la interfaz, haga clic en el botón **[!UICONTROL Agregar]** en la esquina superior derecha de la pantalla y elija una de las siguientes opciones:
+1. Para añadir un campo personalizado a la interfaz, haga clic en el botón de puntos suspensivos y elija una de las siguientes opciones:
 
-   * **[!UICONTROL Atributos personalizados]**: seleccione uno o varios campos personalizados para mostrarlos en la interfaz.
+   * **[!UICONTROL Seleccionar campos personalizados]**: seleccione uno o varios campos personalizados para mostrarlos en la interfaz.
    * **[!UICONTROL Rellenar automáticamente la lista de campos personalizados]**: agregue todos los campos personalizados definidos para el esquema a la interfaz.
 
    ![](assets/custom-fields-add.png)
@@ -91,7 +93,7 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
    * **Hacer los campos obligatorios**: Seleccione la casilla de verificación **Obligatorio**.
    * **Editar configuración de campos**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Editar]**. [Más información](#settings)
    * **Eliminar campos**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Eliminar]**.
-   * **Organice los campos en subsecciones en la interfaz**: haga clic en **[!UICONTROL Agregar]** y elija **[!UICONTROL Separador]**. [Más información](#separator)
+   * **Organice los campos en subsecciones en la interfaz**: haga clic en el botón de los tres puntos situado junto a las flechas arriba y abajo y elija **[!UICONTROL Agregar separador]**. [Más información](#separator)
 
 ## Configuración de campos personalizados {#settings}
 
@@ -124,7 +126,7 @@ Los ajustes disponibles son:
 
 La interfaz de usuario web de Campaign le permite añadir separadores para agrupar campos personalizados en la interfaz y mejorar así la legibilidad. Para ello, siga estos pasos:
 
-1. Haga clic en el botón **[!UICONTROL Agregar]** y seleccione **[!UICONTROL Separador]**.
+1. Haga clic en el botón de los tres puntos situado junto a las flechas arriba y abajo y seleccione **[!UICONTROL Agregar separador]**.
 
 1. Se agrega a la lista una nueva línea que representa el separador. Haga clic en el botón de los tres puntos y elija **[!UICONTROL Editar]** para asignar un nombre a la subsección.
 
