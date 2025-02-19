@@ -1,19 +1,27 @@
 ---
 title: Usar esquemas
 description: Aprenda a trabajar con esquemas.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # Usar esquemas {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Trabajo con esquemas"
+>abstract="Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. También se puede acceder a la edición de campos personalizados desde el botón **Editar detalle personalizado**."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Esquemas"
->abstract="**[!DNL Adobe Campaign]** utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Desde esta pantalla, puede ver todos los esquemas existentes. Los filtros están disponibles para ayudar a refinar la lista, como mostrar solo esquemas editables."
+>abstract="**[!DNL Adobe Campaign]** utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Desde esta pantalla, puede ver todos los esquemas existentes y acceder a los detalles de un esquema seleccionando su nombre en la lista. Los filtros están disponibles para ayudar a refinar la lista, como mostrar solo esquemas editables."
 
 ## Acerca de los esquemas {#about}
 

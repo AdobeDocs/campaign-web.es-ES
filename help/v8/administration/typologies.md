@@ -3,14 +3,21 @@ audience: end-user
 title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 9%
+source-wordcount: '1449'
+ht-degree: 10%
 
 ---
 
 # Trabajo con reglas empresariales (tipologías) {#typologies}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Reglas empresariales"
+>abstract="Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

@@ -1,14 +1,21 @@
 ---
 title: Administrar asignaciones de destino
 description: Obtenga información sobre cómo administrar las asignaciones de destino.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 4%
+source-wordcount: '787'
+ht-degree: 5%
 
 ---
 
 # Administrar asignaciones de destino {#target-mappings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Asignaciones de destino"
+>abstract="Ahora puede crear asignaciones de destino en la interfaz de usuario web de Campaign. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

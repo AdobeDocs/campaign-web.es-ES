@@ -3,20 +3,14 @@ audience: end-user
 title: Introducción a envíos externos
 description: Obtenga información sobre cómo crear y enviar envíos externos con Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 16%
+source-wordcount: '465'
+ht-degree: 7%
 
 ---
 
 # Envíos externos {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Creación de envíos externos"
->abstract="Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de salida que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el que se utiliza para el canal de correo directo."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
 Adobe Campaign le permite gestionar envíos creados fuera de Campaign para enviar correos electrónicos personalizados en masa, mensajes SMS o notificaciones push (iOS y Android) a través de un sistema externo.
