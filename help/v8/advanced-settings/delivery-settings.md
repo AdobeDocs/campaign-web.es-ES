@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '2765'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -25,12 +25,12 @@ La configuración de envío es de **parámetros técnicos de envío** que se def
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Tipología"
->abstract="Las tipologías le permiten estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Configuración de tipología para el envío"
->abstract="Las reglas de tipología permiten estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durante la fase de preparación para aplicar fácilmente varias reglas de filtrado a un envío a la vez. Permiten a los especialistas en marketing estandarizar las prácticas comerciales en todas las entregas, ya que les permiten controlar, filtrar y priorizar la entrega de entregas. [Aprenda a crear tipologías y reglas de tipología](../administration/typologies.md)
 
@@ -144,7 +144,7 @@ En el caso de los mensajes de correo electrónico, también puede cambiar los **
   >
   >Esta opción incluye ambas versiones del documento. Por lo tanto, esto afecta a la tasa de entrega, ya que el tamaño del correo electrónico es mayor.
 
-* **[!UICONTROL Enviar todos los mensajes en formato de texto]**: El correo electrónico se envía en formato de texto. El formato de HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el correo electrónico.
+* **[!UICONTROL Enviar todos los mensajes en formato de texto]**: El correo electrónico se envía en formato de texto. El formato HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el correo electrónico.
 
 ## Análisis web {#web-analytics}
 

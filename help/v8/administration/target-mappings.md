@@ -1,10 +1,11 @@
 ---
 title: Administrar asignaciones de destino
 description: Obtenga información sobre cómo administrar las asignaciones de destino.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Asignaciones de destino"
->abstract="Ahora puede crear asignaciones de destino en la interfaz de usuario web de Campaign. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema."
+>abstract="Ahora puede crear asignaciones de destino en la interfaz de usuario web de Adobe Campaign. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
@@ -42,7 +43,7 @@ Para obtener más información sobre las asignaciones de destino integradas prop
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="Asignación de destinatario"
->abstract="La sección **[!UICONTROL Mapping]** permite identificar qué atributos del esquema de la asignación de destino se utilizarán para los distintos campos de direcciones de envío."
+>abstract="La sección **[!UICONTROL Asignación]** le permite identificar qué atributos del esquema de la asignación de destino se utilizarán para los distintos campos de direcciones de envío."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"

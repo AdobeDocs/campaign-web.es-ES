@@ -9,7 +9,7 @@ ht-degree: 2%
 
 ---
 
-# Configurar las opciones de [!DNL Campaign] {#options}
+# Configurar opciones de [!DNL Campaign] {#options}
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"

@@ -5,7 +5,7 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 16%
+ht-degree: 34%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Creación de enumeraciones"
->abstract="Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar campos."
+>abstract="Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar campos. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
@@ -26,12 +26,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="Propiedades"
->abstract="Defina las propiedades de la enumeración, como su nombre, nombre interno y tipo. Las enumeraciones **[!UICONTROL Cerradas]** tienen una lista fija de valores que solo se pueden modificar desde el menú **[!UICONTROL Enumeraciones]**. Las enumeraciones **[!UICONTROL Open]** permiten a los usuarios agregar nuevos valores directamente en los campos basándose en esta enumeración. Las enumeraciones **[!UICONTROL System]** están asociadas a campos del sistema. Las enumeraciones **[!UICONTROL Emoticon]** se usan para actualizar la lista de emoticonos."
+>abstract="Defina las propiedades de la enumeración, como su nombre, nombre interno y tipo. Las enumeraciones **[!UICONTROL Cerradas]** tienen una lista fija de valores que solo se pueden modificar desde el menú **[!UICONTROL Enumeraciones]**. Las enumeraciones **[!UICONTROL Abiertas]** permiten a los usuarios añadir nuevos valores directamente en los campos basándose en esta enumeración. Las enumeraciones del **[!UICONTROL Sistema]** están asociadas a campos del sistema. Las enumeraciones de tipo **[!UICONTROL Emoticono]** se usan para actualizar la lista de emoticonos."
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
 >title="Lista de valores de enumeración"
->abstract="Para agregar un valor a la enumeración, haga clic en el botón **[!UICONTROL Agregar valor]** y configúrelo según sea necesario."
+>abstract="Para añadir un valor a la enumeración, haga clic en el botón **[!UICONTROL Añadir valor]** y configúrelo según sea necesario."
 
 ## ¿Qué son las enumeraciones? {#about}
 
@@ -56,7 +56,7 @@ Para crear una enumeración, siga estos pasos:
    * Las enumeraciones **[!UICONTROL Cerradas]** tienen una lista fija de valores que solo se pueden modificar desde el menú **[!UICONTROL Enumeraciones]**.
    * Las enumeraciones **[!UICONTROL Open]** permiten a los usuarios agregar nuevos valores directamente en los campos basándose en esta enumeración.
    * Las enumeraciones **[!UICONTROL System]** están asociadas a campos del sistema.
-   * Las enumeraciones **[!UICONTROL Emoticon]** se usan para actualizar la lista de emoticonos.
+   * Las enumeraciones de tipo **[!UICONTROL Emoticono]** se usan para actualizar la lista de emoticonos.
 
 1. Haga clic en **[!UICONTROL Crear]**. Se muestran los detalles de la enumeración, lo que le permite agregar valores a la lista.
 

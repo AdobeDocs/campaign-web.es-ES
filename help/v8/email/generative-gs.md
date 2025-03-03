@@ -6,11 +6,11 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
-# Trabajar con el asistente de IA {#generative-gs}
+# Trabajo con el Asistente de IA {#generative-gs}
 
 
 >[!CONTEXTUALHELP]

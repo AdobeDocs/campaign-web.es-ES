@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '1449'
-ht-degree: 10%
+ht-degree: 27%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Reglas empresariales"
->abstract="Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos."
+>abstract="Ahora puede crear tipologías y reglas de tipología en la interfaz web de Adobe Campaign. La tipología permite controlar, filtrar y priorizar los envíos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Tipologías y reglas de tipología"
->abstract="Las tipologías le permiten estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
+>abstract="Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 ## Acerca de las tipologías
 
-Las tipologías le permiten estandarizar las prácticas comerciales en todas las entregas. Una **tipología** es una colección de **reglas de tipología** que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación.
+Las reglas de tipología permiten a los especialistas en marketing estandarizar las prácticas comerciales en todos los envíos. Una **tipología** es una colección de **reglas de tipología** que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de las reglas de tipología quedan excluidos de los públicos de envío en la fase de preparación.
 
 Las tipologías garantizan que las entregas siempre contengan determinados elementos (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de los destinatarios deseados (como suscriptores que se han dado de baja, competidores o clientes que no sean fieles).
 
@@ -45,12 +45,12 @@ Los pasos principales para aplicar tipologías a los mensajes son los siguientes
 1. [Reglas de tipología de referencia en la tipología](#add-rules).
 1. [Aplicar la tipología a un mensaje](#message).
 
-## Creación de una tipología {#typology}
+## Creación de una topología {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Propiedades de la tipología"
->abstract="Defina las propiedades de la tipología y expanda la sección **[!UICONTROL Opciones adicionales]** para acceder a la configuración avanzada. Utilice el campo **[!UICONTROL afinidad de IP]** para asociar afinidades de IP con tipologías. Esto le permite controlar mejor el tráfico SMTP saliente, definiendo qué direcciones IP específicas se pueden utilizar para cada afinidad."
+>abstract="Defina las propiedades de la tipología y expanda la sección **[!UICONTROL Opciones adicionales]** para acceder a la configuración avanzada. Utilice el campo **[!UICONTROL afinidad de IP]** para asociar afinidades de IP con tipologías. Esto le permite controlar mejor el tráfico SMTP de salida, definiendo qué direcciones IP específicas se pueden utilizar para cada afinidad."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -82,7 +82,7 @@ La tipología abre los detalles abiertos. Desde esta pantalla, puede hacer refer
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
 >title="Propiedades de la regla de tipología"
->abstract="Defina las propiedades de la regla de tipología. Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío, mientras que las reglas de **Filtrado** excluyen segmentos de la audiencia de destino según criterios específicos.<br/><br/>También puede cambiar el orden de ejecución de la regla para administrar la secuencia en la que se ejecutarán las reglas de tipología cuando se ejecuten varias reglas del mismo tipo durante la misma fase de procesamiento de mensajes."
+>abstract="Defina las propiedades de la regla de tipología. Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío, mientras que las reglas de **Filtrado** excluyen segmentos del público destinatario de acuerdo con criterios específicos.<br/><br/>También puede cambiar el orden de ejecución de la regla para administrar la secuencia en la que se ejecutarán las reglas de tipología cuando se ejecuten varias reglas del mismo tipo durante la misma fase de procesamiento de mensajes."
 
 Para crear una regla de tipología, vaya al menú **[!UICONTROL Reglas de negocio]** y luego seleccione la pestaña **[!UICONTROL Reglas de tipología]**.
 
@@ -100,7 +100,7 @@ Defina las propiedades de la regla de tipología:
 
    * **Control**: garantiza la calidad del mensaje y la validez antes del envío (por ejemplo, visualización de caracteres, longitud de SMS, formato de dirección, acortamiento de URL). Se crean mediante una interfaz de script para definir una lógica compleja para las comprobaciones y modificaciones de contenido.
 
-   * Las reglas de **filtrado** excluyen segmentos de la audiencia de destino según criterios específicos (por ejemplo: edad, ubicación, país, números de teléfono). Estas reglas están vinculadas a una dimensión objetivo.
+   * Las reglas de **filtrado** excluyen segmentos del público destinatario de acuerdo con criterios específicos (por ejemplo: edad, ubicación, país, números de teléfono). Estas reglas están vinculadas a una dimensión objetivo.
 
    >[!NOTE]
    >
@@ -153,12 +153,12 @@ Defina las propiedades de la regla de tipología:
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtrado"
->abstract="Las reglas de **filtrado** excluyen segmentos de la audiencia de destino según criterios específicos (por ejemplo: edad, ubicación, país, números de teléfono). Seleccione la dimensión de segmentación de la regla de tipología y haga clic en el botón **[!UICONTROL Agregar reglas]** para acceder al modelador de consultas y generar la regla."
+>abstract="Las reglas de **filtrado** excluyen segmentos del público destinatario de acuerdo con criterios específicos (por ejemplo: edad, ubicación, país, números de teléfono). Seleccione la dimensión de segmentación de la regla de tipología y haga clic en el botón **[!UICONTROL Añadir reglas]** para acceder al modelador de consultas y generar la regla."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Código"
->abstract="Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío (por ejemplo: visualización de caracteres, longitud de SMS, formato de dirección, acortamiento de URL). Se crean mediante código JavaScript."
+>abstract="Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío (por ejemplo: visualización de caracteres, longitud de SMS, formato de dirección, acortamiento de URL). Se crean mediante el código JavaScript."
 
 Una vez definidas las propiedades de la regla de tipología, puede generar el contenido de la regla.
 

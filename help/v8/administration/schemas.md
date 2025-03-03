@@ -1,10 +1,11 @@
 ---
 title: Usar esquemas
 description: Aprenda a trabajar con esquemas.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 26%
 
 ---
 
@@ -12,8 +13,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Trabajo con esquemas"
->abstract="Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. También se puede acceder a la edición de campos personalizados desde el botón **Editar detalle personalizado**."
+>title="Usar esquemas"
+>abstract="Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. También puede acceder a la edición de campos personalizados en el botón **Editar detalle personalizado**."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 
@@ -21,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Esquemas"
->abstract="**[!DNL Adobe Campaign]** utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Desde esta pantalla, puede ver todos los esquemas existentes y acceder a los detalles de un esquema seleccionando su nombre en la lista. Los filtros están disponibles para ayudar a refinar la lista, como mostrar solo esquemas editables."
+>abstract="**[!DNL Adobe Campaign]** utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Desde esta pantalla, puede ver todos los esquemas existentes y acceder a los detalles de un esquema seleccionando su nombre en la lista. Hay filtros disponibles para ayudarle a restringir la lista, como mostrar solo los esquemas editables."
 
 ## Acerca de los esquemas {#about}
 
@@ -46,7 +47,7 @@ Se puede acceder a los esquemas desde el menú **[!UICONTROL Administración]** 
 
 ![](assets/schemas-list.png)
 
-Desde esta pantalla, puede ver todos los esquemas existentes. Los filtros están disponibles para ayudar a refinar la lista, como mostrar solo esquemas editables.
+Desde esta pantalla, puede ver todos los esquemas existentes. Hay filtros disponibles para ayudarle a restringir la lista, como mostrar solo los esquemas editables.
 
 Para abrir un esquema, seleccione su nombre. Se muestra una vista de esquema detallada.
 
