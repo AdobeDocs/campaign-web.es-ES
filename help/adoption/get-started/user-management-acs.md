@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo migrar la administración de acces
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 2%
@@ -89,7 +89,9 @@ Mediante **Grupos** y **Derechos asignados**, se puede otorgar acceso a **Operad
 Dado que un **Programa** se trata como una **Carpeta** en Campaign V8, su acceso se puede administrar de la misma manera que cualquier otra carpeta. Después de la migración, los administradores de Campaign Standard pueden seguir estos pasos:
 
 1. Desde el explorador, haga clic con el botón derecho en cualquier carpeta y seleccione **[!UICONTROL Propiedades...]**.
+
 1. Vaya a la ficha **[!UICONTROL Seguridad]**.
+
 1. Modifique los permisos del grupo de operadores según el modelo de acceso deseado. 
 
 ## Asignación de perfil de producto para acceder a las API de REST 
