@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 98%
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
    + Asistente de IA{#ai-assistant}
-      + [Trabajar con el asistente de IA](email/generative-gs.md)
+      + [Trabajo con el Asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con IA](email/generative-content.md)
       + [Generación de SMS con IA](email/generative-sms.md)
       + [Generación de notificaciones push con IA](email/generative-push.md)
@@ -229,8 +229,8 @@ ht-degree: 98%
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuración {#conf}
    + [Trabajo con reglas empresariales (tipologías)](administration/typologies.md)
-   + [Administrar asignaciones de destino](administration/target-mappings.md)
-   + [Usar esquemas](administration/schemas.md)
+   + [Administrar asignaciones de público destinatario](administration/target-mappings.md)
+   + [Trabajo con esquemas](administration/schemas.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
    + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Configuración de cuentas externas](administration/external-account.md)

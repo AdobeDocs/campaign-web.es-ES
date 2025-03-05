@@ -4,9 +4,9 @@ title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,9 +76,9 @@ Utilice la nueva interfaz de usuario web de Campaign para lo siguiente:
 
 Despídase de la molestia de tener que crear contenido manualmente y adopte la nueva era de campañas optimizadas con nuestro innovador diseñador de contenido con tecnología Microsoft Azure OpenAI y Adobe Firefly.
 
-Redefina el envío de contenido con nuestro editor avanzado de arrastrar y soltar WYSIWYG, diseñado para mayor sencillez y eficacia. Con una integración perfecta con AEM, funciones de contenido dinámico y el asistente de IA que cambia el juego, esta herramienta todo en uno hace que la creación de entregas sea intuitiva, eficiente y altamente personalizada.
+Redefina el envío de contenido con nuestro editor avanzado de arrastrar y soltar WYSIWYG, diseñado para mayor sencillez y eficacia. Gracias a su integración perfecta con AEM, capacidades de contenido dinámico y el revolucionario Asistente de IA, esta herramienta todo en uno hace que la creación de envíos sea intuitiva, eficiente y altamente personalizada.
 
-Aproveche el poder de los algoritmos avanzados del asistente de IA para crear contenido atractivo y personalizado que genere resultados. Aumente sus tasas de apertura, tasa de clics y conversiones con la generación inteligente de contenido basado en IA. Obtenga más información en [esta sección](../email/generative-gs.md).
+Aproveche el poder de los algoritmos avanzados del Asistente de IA para crear contenido atractivo y adaptado que genere resultados. Aumente sus tasas de apertura, tasa de clics y conversiones con la generación inteligente de contenido basado en IA. Obtenga más información en [esta sección](../email/generative-gs.md).
 
 **Actividades de flujo de trabajo de campaña nuevas y rediseñadas**
 

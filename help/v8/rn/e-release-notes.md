@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: 256d78c616891b4893186c6ad58cb6cbc4f6cde1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La interfaz de usuario web de Adobe Campaign ofrece continuamente nuevas funcio
 
 ## Versión de febrero de 2025 {#25-2-ern}
 
-**Fecha de la versión**: 18 de febrero de 2025
+**Fecha de lanzamiento**: 18 de febrero de 2025
 
 Las siguientes funciones y mejoras están disponibles a partir de la versión de febrero.
 
@@ -34,7 +34,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos. Las tipologías se utilizan para validar que los envíos siempre contienen componentes obligatorios (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de la audiencia (como suscriptores que se han dado de baja, competidores o clientes que no son fieles).</p>
+<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario de Adobe Campaign Web. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos. Le permiten asegurarse de que los envíos siempre contengan componentes obligatorios (como un vínculo de cancelación de suscripción o una línea de asunto) o reglas de filtrado para excluir grupos de su público (como suscriptores que han cancelado la suscripción, competidores o clientes que no sean fieles).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Para obtener más información, consulte la <a href="../administration/typologies.md">documentación detallada</a>.</p>
 </td>
@@ -45,13 +45,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Asignaciones de destino</strong><br/></th>
+<th><strong>Asignaciones de público destinatario</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear asignaciones de destino en la interfaz de usuario web de Campaign. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema. La asignación de destino permite definir la audiencia de destino: perfiles, beneficiarios de contratos, operadores, suscriptores, clientes potenciales, etc.</p>
+<p>Ahora puede crear asignaciones de público destinatario en la interfaz de usuario de Campaign Web. Las asignaciones de público destinatario definen cómo los distintos canales de envío (correo electrónico, SMS o notificaciones push) se vinculan a los campos de datos de un esquema. La asignación de público destinatario permite definir el público: perfiles, beneficiarios de contratos, operadores, suscriptores, clientes potenciales, etc.</p>
 <p>Para obtener más información, consulte la <a href="../administration/typologies.md">documentación detallada</a>.</p>
 </td>
 </tr>

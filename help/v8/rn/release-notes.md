@@ -3,9 +3,9 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Los cambios y las mejoras disponibles con las versiones anteriores se muestran [
 
 ## Versión de febrero de 2025 {#25-2-release}
 
-**Fecha de la versión**: 18 de febrero de 2025
+**Fecha de lanzamiento**: 18 de febrero de 2025
 
 Las siguientes funciones y mejoras están disponibles a partir de la versión de febrero.
 
@@ -37,7 +37,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario web de Adobe Campaign. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos. Las tipologías se utilizan para validar que los envíos siempre contienen componentes obligatorios (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de la audiencia (como suscriptores que se han dado de baja, competidores o clientes que no son fieles).</p>
+<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario de Adobe Campaign Web. Las tipologías permiten controlar, filtrar y priorizar la entrega de envíos. Le permiten asegurarse de que los envíos siempre contengan componentes obligatorios (como un vínculo de cancelación de suscripción o una línea de asunto) o reglas de filtrado para excluir grupos de su público (como suscriptores que han cancelado la suscripción, competidores o clientes que no sean fieles).</p>
 <img src="assets/do-not-localize/typology.gif">
 <p>Para obtener más información, consulte la <a href="../administration/typologies.md">documentación detallada</a>.</p>
 </td>
@@ -48,13 +48,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Asignaciones de destino</strong><br/></th>
+<th><strong>Asignaciones de público destinatario</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear asignaciones de destino en la interfaz de usuario web de Campaign. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema. La asignación de destino permite definir la audiencia de destino: perfiles, beneficiarios de contratos, operadores, suscriptores, clientes potenciales, etc.</p>
+<p>Ahora puede crear asignaciones de público destinatario en la interfaz de usuario de Campaign Web. Las asignaciones de público destinatario definen cómo los distintos canales de envío (correo electrónico, SMS o notificaciones push) se vinculan a los campos de datos de un esquema. La asignación de público destinatario permite definir el público: perfiles, beneficiarios de contratos, operadores, suscriptores, clientes potenciales, etc.</p>
 <img src="assets/do-not-localize/target-mapping.gif">
 <p>Para obtener más información, consulte la <a href="../administration/target-mappings.md">documentación detallada</a>.</p>
 </td>
@@ -177,13 +177,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
+<th><strong>Generación de la página de aterrizaje con el Asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El asistente de IA ya está disponible con las entregas de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
+<p>El Asistente de IA ya está disponible con los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información sobre el Asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
 </td>
