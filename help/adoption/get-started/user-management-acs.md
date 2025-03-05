@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo migrar la administración de acces
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 3%
+source-wordcount: '982'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ En la tabla siguiente se describe el método de migración para grupos de funcio
 
 Tanto en Adobe Campaign Standard como en Campaign V8, **los grupos de seguridad** y **los grupos de operadores** están asignados a perfiles de producto en Admin Console. Si desea asignar un **grupo de seguridad** o **grupo de operadores** a un usuario, puede vincular el **perfil de producto** correspondiente en Admin Console. Esta asociación se sincroniza cuando el usuario inicia sesión. [Más información sobre el perfil del producto](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-| **grupo de seguridad de Campaign Standard** | **Grupo de operadores de Campaign V8** |
+| **Grupo de seguridad de Campaign Standard** | **Grupo de operadores de Campaign V8** |
 |----------|---------|
 | Administradores | Administradores |
 | Supervisores de envío | Administradores |
@@ -46,9 +46,13 @@ Tanto en Adobe Campaign Standard como en Campaign V8, **los grupos de seguridad*
 
 ## Enfoque de migración de funciones de usuario a derechos asignados
 
-En Adobe Campaign Standard, el término **función de usuario** se denomina **derecho asignado** en Campaign V8. La tabla siguiente describe la terminología utilizada para **Derechos asignados** en Campaign V8 correspondientes a **Funciones de usuario** en el Campaign Standard.
+>[!CAUTION]
+>
+>Durante la migración de Adobe Campaign Standard a Campaign V8, los usuarios con la función **Modelo de datos** pero no la función **Administración** obtendrán automáticamente acceso a **Administración**, ya que la creación de esquemas en Campaign V8 requiere derechos de administración. Para evitarlo, quite la función **Modelo de datos** antes de la migración.
 
-| **Rol de usuario Campaign Standard** | **Campaña V8 con nombre correcto** | **Descripción**  |
+En Adobe Campaign Standard, el término **función de usuario** se denomina **derecho asignado** en Campaign V8. La tabla siguiente describe la terminología utilizada para **Derechos asignados** en Campaign V8 correspondientes a **Funciones de usuario** en Campaign Standard.
+
+| **Función de usuario de Campaign Standard** | **Campaña V8 con nombre correcto** | **Descripción**  |
 |----------|---------|---------|
 | Administración | Administración | El usuario con derecho de administración tiene acceso completo a la instancia. |
 | Modelo de datos  | Administración | El derecho para ejecutar publicaciones y crear recursos personalizados. Funcionalidad relacionada con la creación de esquemas disponible para el administrador en Campaign V8.  |
@@ -64,6 +68,12 @@ En Adobe Campaign Standard, el término **función de usuario** se denomina **de
 
 ## Enfoque de migración desde la unidad organizativa
 
+>[!CAUTION]
+>
+>Las unidades organizativas en Adobe Campaign Standard sin **All (all)** como elemento principal directo o indirecto no se migrarán a Campaign V8.
+></br>
+>A los usuarios de varios grupos de seguridad se les asigna la unidad organizativa del grupo de seguridad de mayor clasificación. Si varios grupos tienen unidades de nivel superior paralelas, el inicio de sesión está restringido en Campaign Standard, pero concede un acceso más amplio en Campaign v8 después de la migración, lo que podría escalar los privilegios. Para evitarlo, evite asignar usuarios a grupos de seguridad con unidades organizativas paralelas.
+
 En Adobe Campaign Standard, la **unidad organizativa** t está asignada al modelo de jerarquía **Folder** existente en Campaign V8 para mantener un control de acceso similar. [Más información sobre la administración de carpetas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
@@ -76,7 +86,7 @@ En la versión 8 de Campaign, **los programas** se representan como **carpetas**
 
 Mediante **Grupos** y **Derechos asignados**, se puede otorgar acceso a **Operadores** a **Carpetas** específicas dentro de la jerarquía de navegación, con la capacidad de asignar permisos de lectura, escritura y eliminación. [Más información sobre la administración de carpetas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
-Dado que un **Programa** se trata como una **Carpeta** en Campaign V8, su acceso se puede administrar de la misma manera que cualquier otra carpeta. Después de la migración, los administradores de Campaign Standards pueden seguir estos pasos:
+Dado que un **Programa** se trata como una **Carpeta** en Campaign V8, su acceso se puede administrar de la misma manera que cualquier otra carpeta. Después de la migración, los administradores de Campaign Standard pueden seguir estos pasos:
 
 1. Desde el explorador, haga clic con el botón derecho en cualquier carpeta y seleccione **[!UICONTROL Propiedades...]**.
 1. Vaya a la ficha **[!UICONTROL Seguridad]**.
@@ -86,11 +96,11 @@ Dado que un **Programa** se trata como una **Carpeta** en Campaign V8, su acceso
 
 Para acceder a las API transaccionales desde la instancia de ejecución en Campaign V8, se requiere un nuevo **perfil de producto**, además de los perfiles de producto **Administrador** y **Centro de mensajes**. Este nuevo **perfil de producto** se agregará a las cuentas técnicas existentes o creadas previamente en Campaign Standard.
 
-Después de la migración, los usuarios de Campaign Standard deben revisar sus **asignaciones de perfiles de producto** y asignar el **perfil de producto** correspondiente si no desean vincular sus **cuentas técnicas** al perfil de producto **Administrator**. Para integraciones futuras, recomendamos usar la versión 8 de Campaign **ID de inquilino** en la **URL de REST** en lugar del Campaign Standard anterior **ID de inquilino**.
+Después de la migración, los usuarios de Campaign Standard deben revisar sus **asignaciones de perfiles de producto** y asignar el **perfil de producto** correspondiente si no desean vincular sus **cuentas técnicas** al perfil de producto **Administrador**. Para integraciones futuras, recomendamos usar la versión 8 de Campaign **ID de inquilino** en la **URL de REST** en lugar de la versión anterior de Campaign Standard **ID de inquilino**.
 
-## Migración del acceso a los recursos integrados de Campaign para operadores de Campaign Standard
+## Migración del acceso a los recursos integrados de Campaign para los operadores de Campaign Standard
 
-Los operadores migrados de Campaign Standard tendrán acceso de lectura a recursos integrados específicos en Campaign V8.
+Los operadores migrados de Campaign Standard tendrán acceso de lectura a recursos integrados específicos en la versión 8 de Campaign.
 
 ## Grupos y funciones de seguridad no migrados {#non-migrated-groups-roles}
 
@@ -109,3 +119,5 @@ A continuación se muestra una lista de asignaciones de grupos de seguridad de C
 * Administradores de aplicaciones de Adobe Experience Manager
 
 * Cuenta de retransmisión
+
+Tenga en cuenta que las funciones personalizadas creadas y asignadas a usuarios en Adobe Campaign Standard no se migrarán a Campaign V8.
