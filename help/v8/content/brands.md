@@ -5,7 +5,7 @@ description: Aprenda a crear y administrar las directrices de marca
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -104,6 +104,6 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands_5.png)
 
-Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú del asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el asistente de IA](gs-generative.md)
+Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú del asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el asistente de IA](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
