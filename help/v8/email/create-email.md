@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 56%
+source-wordcount: '1493'
+ht-degree: 51%
 
 ---
 
@@ -162,6 +162,10 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >El botón **[!UICONTROL Simular contenido]** está deshabilitado en casos de uso específicos. Las limitaciones se detallan [en esta sección](#content-simulation-limitations).
+
 1. En el lado izquierdo, seleccione los perfiles que desee utilizar para previsualizar el correo electrónico.
 
    El panel derecho muestra una vista previa del correo electrónico en función del perfil seleccionado. Si ha añadido varios perfiles, puede alternarlos para previsualizar el correo electrónico correspondiente.
@@ -190,6 +194,37 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
    ![](assets/proof-sent.png){zoomable="yes"}
 
    Puede comprobar el estado del envío y acceder a las pruebas enviadas en cualquier momento haciendo clic en el botón **[!UICONTROL Ver pruebas]** en la pantalla Simular contenido.
+
+## Limitaciones de simulación de contenido {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="No se admite la simulación de contenido"
+>abstract="El botón **Simular contenido** está deshabilitado porque el envío multilingüe contiene solo una configuración regional."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="No se admite la simulación de contenido"
+>abstract="El botón **Simular contenido** está deshabilitado porque no es compatible con los envíos reconciliados en esta fase."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="No se admite la simulación de contenido"
+>abstract="El botón **Simular contenido** está deshabilitado porque no se admite en el modo de acceso federado completo (FDAC) de Campaign Enterprise."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="No se admite la simulación de contenido"
+>abstract="El botón **Simular contenido** está deshabilitado porque no se ha cargado ningún contenido."
+
+En algunos casos, no se puede realizar la simulación de contenido y el botón **[!UICONTROL Simular contenido]** está deshabilitado.
+
+La simulación de contenido no es compatible en estos casos:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* Con envíos reconciliados,
+* Cuando el modelo de implementación de Campaign es [Adobe Campaign Enterprise Full Federated Access (FDAC)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* Cuando no se ha cargado ningún archivo.
 
 ## Envío y supervisión del correo electrónico {#prepare-send}
 
