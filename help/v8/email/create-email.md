@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 51%
 
 ---
@@ -164,7 +164,7 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
 
    >[!NOTE]
    >
-   >El botón **[!UICONTROL Simular contenido]** está deshabilitado en casos de uso específicos. Las limitaciones se detallan [en esta sección](#content-simulation-limitations).
+   >El botón **[!UICONTROL Simular contenido]** está deshabilitado en contextos específicos. Las limitaciones se detallan [en esta sección](#content-simulation-limitations).
 
 1. En el lado izquierdo, seleccione los perfiles que desee utilizar para previsualizar el correo electrónico.
 
@@ -195,7 +195,7 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
 
    Puede comprobar el estado del envío y acceder a las pruebas enviadas en cualquier momento haciendo clic en el botón **[!UICONTROL Ver pruebas]** en la pantalla Simular contenido.
 
-## Limitaciones de simulación de contenido {#content-simulation-limitations}
+### Limitaciones de simulación de contenido {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
