@@ -37,18 +37,18 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 
 | Uso | Ejemplo |
 |  ---  |  ---  |
-| **Definir audiencias**: especifique la población a la que desee dirigirse en sus mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. [Aprenda a crear audiencias](../audience/one-time-audience.md) | ![](assets/access-audience.png) |
-| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como **División** y **Reconciliación**, para cumplir con los requisitos específicos. [Más información sobre las actividades del flujo de trabajo](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png) |
-| **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante diversas operaciones de filtrado, tanto si está trabajando con listas de datos como formando la audiencia para una entrega. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png) |
-| **Filtrar datos de informes**: agregue una regla para filtrar los datos mostrados en los informes. [Aprenda a trabajar con informes](../reporting/gs-reports.md) | ![](assets/access-reports.png) |
-| **Personalizar listas**: cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, listas de envíos, etc. [Aprenda a filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png) |
-| **Generar contenido condicional**: haga que el contenido del correo electrónico sea dinámico al crear condiciones que definan qué contenido debe mostrarse a distintos destinatarios, lo que garantiza mensajes personalizados y relevantes. [Aprenda a crear contenido condicional](../personalization/conditions.md) | ![](assets/conditional-content.png) |
+| **Definir audiencias**: especifique la población a la que desee dirigirse en sus mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. [Aprenda a crear audiencias](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como **División** y **Reconciliación**, para cumplir con los requisitos específicos. [Más información sobre las actividades del flujo de trabajo](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante diversas operaciones de filtrado, tanto si está trabajando con listas de datos como formando la audiencia para una entrega. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Filtrar datos de informes**: agregue una regla para filtrar los datos mostrados en los informes. [Aprenda a trabajar con informes](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personalizar listas**: cree reglas personalizadas para filtrar los datos mostrados en listas como destinatarios, listas de envíos, etc. [Aprenda a filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Generar contenido condicional**: haga que el contenido del correo electrónico sea dinámico al crear condiciones que definan qué contenido debe mostrarse a distintos destinatarios, lo que garantiza mensajes personalizados y relevantes. [Aprenda a crear contenido condicional](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
 >Al acceder a un objeto creado en la consola del cliente donde se han aplicado reglas como una audiencia o un filtro predefinido, puede mostrarse la sección **[!UICONTROL Refine target]**. Esto significa que se han configurado parámetros adicionales para refinar el objetivo de la regla. Estos parámetros solo se pueden modificar en la consola.
 >
->![](assets/target-warning.png)
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Interfaz del modelador de consultas {#interface}
 
@@ -59,7 +59,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 
 El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable="yes"}
 
 ### El lienzo central {#canvas}
 
