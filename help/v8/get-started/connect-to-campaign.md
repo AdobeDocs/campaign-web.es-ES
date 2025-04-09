@@ -2,10 +2,10 @@
 title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario de Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ También puede utilizar el inicio de sesión único (SSO) para conectarse a Camp
 
 Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
-1. Conéctese a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-1. Inicie sesión con su Adobe ID o Enterprise ID. Obtenga más información sobre los tipos de identidad en Adobe en [este artículo](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+1. Inicie sesión con su Adobe ID o Enterprise ID. Obtenga más información acerca de los tipos de identidad en Adobe en [este artículo](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 
    Después de iniciar sesión en Experience Cloud, podrá acceder rápidamente a todas sus soluciones y aplicaciones.
 
@@ -31,7 +31,7 @@ Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Obtenga más información sobre las organizaciones de Adobe Experience Cloud en [este artículo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){target="_blank"}.
+   Obtenga más información acerca de las organizaciones en Adobe Experience Cloud en [este artículo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){target="_blank"}.
 
 
 ## Acceso a Adobe Campaign {#access-to-campaign}
@@ -133,13 +133,6 @@ Para cambiar el idioma, haga lo siguiente:
 1. Haga clic en el icono del perfil, en la parte superior derecha, y luego seleccione **Preferencias**.
 1. A continuación, haga clic en el vínculo de idioma mostrado debajo de su dirección de correo electrónico.
 1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no se haya localizado en su primer idioma.
-
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
 
 ## Temáticas oscuras y claras {#dark-theme}
 

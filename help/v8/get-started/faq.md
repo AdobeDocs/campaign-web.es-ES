@@ -1,11 +1,11 @@
 ---
-title: Uso de la ayuda contextual con tecnología de IA en la web de Campaign
-description: Formular preguntas en las ventanas emergentes de ayuda de la web de Campaign
+title: Preguntas frecuentes
+description: Preguntas más frecuentes sobre la interfaz de usuario web de Campaign
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ En la siguiente sección se indican las preguntas más frecuentes sobre la nueva
 
 +++ ¿Qué versión de Adobe Campaign se requiere para acceder a la nueva interfaz de usuario web?
 
-Para tener acceso a la nueva interfaz de usuario, se requiere la versión 8.6 de Adobe Campaign y [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} es obligatorio. Puede consultar información adicional sobre IMS [aquí](https://experienceleague.adobe.com/es/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"}. Para los clientes de Adobe Campaign Managed Cloud Services que busquen información adicional sobre la actualización a la nueva versión, póngase en contacto con el administrador de transición asignado.
+Para acceder a la nueva interfaz de usuario, se requiere la versión 8.6 de Adobe Campaign y [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} es obligatorio. Se puede revisar información adicional sobre IMS [aquí](https://experienceleague.adobe.com/es/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"}. Para los clientes de Adobe Campaign Managed Cloud Services que busquen información adicional sobre la actualización a la nueva versión, póngase en contacto con el administrador de transición asignado.
 
 +++
 
@@ -30,7 +30,7 @@ Para saber por dónde empezar, visite [esta página](../get-started/get-started.
 
 La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de público, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP.  Estimule la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con el Asistente de IA, integrado de forma nativa en el diseñador de mensajes WYSIWYG.
 
-Los especialistas en marketing pueden utilizar la IA generativa para elaborar correos electrónicos HTML completos y generar texto e imágenes con sugerencias de ajustes y variantes. Las nuevas características y capacidades se pueden consultar en [esta página](../rn/whats-new.md). Para obtener más información sobre la nueva interfaz y verla en acción, visite [esta página](../get-started/user-interface.md). Además, puede visitar los [Tutoriales](https://experienceleague.adobe.com/es/docs/campaign-web-learn/tutorials/overview){target="_blank"} para obtener más información sobre la nueva interfaz mediante un conjunto de vídeos explicativos.
+Los especialistas en marketing pueden utilizar la IA generativa para elaborar correos electrónicos HTML completos y generar texto e imágenes con sugerencias de ajustes y variantes. Las nuevas características y capacidades se pueden consultar en [esta página](../rn/whats-new.md). Para obtener más información sobre la nueva interfaz y verla en acción, visite [esta página](../get-started/user-interface.md). Además, puede visitar los [Tutoriales](https://experienceleague.adobe.com/es/docs/campaign-web-learn/tutorials/overview){target="_blank"} para obtener más información acerca de la nueva interfaz mediante un conjunto de vídeos explicativos.
 
 +++
 
@@ -48,7 +48,7 @@ Los cambios y las nuevas funciones se anuncian en las notas de la versión y en 
 
 +++  Actualmente estoy en Adobe Campaign Classic v7. ¿Cuál es mi ruta para acceder a la nueva interfaz de usuario?
 
-Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Adobe Campaign y conectarse a Campaign con su Adobe ID. El primer paso es obtener una licencia de Managed Cloud Services, SKU Advanced o Enterprise. Póngase en contacto con el equipo de Adobe o con el punto de contacto principal. Si ya está en Managed Cloud Services Advanced o Enterprise, póngase en contacto con su administrador de transición para programar la actualización a la versión 8. Visite la [página de transición](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} dedicada para obtener información adicional.
+Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Adobe Campaign y conectarse a Campaign con su Adobe ID. El primer paso es obtener una licencia de Managed Cloud Services, SKU Advanced o Enterprise. Póngase en contacto con el equipo de Adobe o con el punto de contacto principal. Si ya está en Managed Cloud Services Advanced o Enterprise, póngase en contacto con su administrador de transición para programar la actualización a la versión 8. Visite la [página de transición](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} dedicada para obtener más información.
 
 +++
 
@@ -59,7 +59,7 @@ Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Ad
 
 +++ ¿Significa esto que se ha terminado la compatibilidad con Adobe Campaign Classic v7?
 
-Adobe Campaign Classic v7 será compatible hasta el 31/3/2027. Visite la página [Productos y periodos de servicio técnico](https://helpx.adobe.com/es/support/programs/eol-matrix.html){target="_blank"}.
+Adobe Campaign Classic v7 será compatible hasta el 31/3/2027. Visite la página [Productos y periodos de soporte técnico](https://helpx.adobe.com/es/support/programs/eol-matrix.html){target="_blank"}.
 +++
 
 +++ Actualmente estoy en Adobe Campaign Standard. ¿Cuál es mi ruta para acceder a la nueva interfaz de usuario?
@@ -77,5 +77,5 @@ Por ahora, todas las funciones estarán disponibles a través de la consola si n
 
 +++ ¿Existen limitaciones o mecanismos de protección para la nueva interfaz de usuario web?
 
-Los mecanismos de protección y las limitaciones de Campaign v8 se indican [aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Además, se aplican mecanismos de protección específicos a los flujos de trabajo en la interfaz de usuario web. Los puede consultar en [esta página](../get-started/guardrails.md). Vea también [Adobe Campaign Managed Cloud Services | Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Las protecciones y limitaciones de Campaign v8 se enumeran [aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Además, se aplican mecanismos de protección específicos a los flujos de trabajo en la interfaz de usuario web. Los puede consultar en [esta página](../get-started/guardrails.md). Ver también [Adobe Campaign Managed Cloud Services | Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 +++
