@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 # Documentación de Adobe Campaign web {#v8}
 
 + [Documentación de la interfaz de usuario web de Adobe Campaign](campaign-web-home.md)
-+ Notas de la versión {#release-notes}
++ Notas de la versión  {#release-notes}
    + [Novedades](rn/whats-new.md)
    + [Versión preliminar](rn/e-release-notes.md)
    + [Último lanzamiento](rn/release-notes.md)
@@ -68,7 +68,7 @@ ht-degree: 99%
       + [Crear un envío de correo directo](direct-mail/create-direct-mail.md)
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
       + [Previsualización y envío de un correo directo](direct-mail/send-direct-mail.md)
-   + Mensajes transaccionales{#transactional-messages}
+   + Mensajes transaccionales {#transactional-messages}
       + [Introducción a los mensajes transaccionales](transactional-messaging/transactional.md)
       + [Creación de un mensaje transaccional](transactional-messaging/create-transactional.md)
       + [Validación del mensaje transaccional](transactional-messaging/validate-transactional.md)
@@ -82,16 +82,16 @@ ht-degree: 99%
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de pruebas](preview-test/test-deliveries.md)
       + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
-   + Alertas de envío{#delivery-alerting}
+   + Alertas de envío {#delivery-alerting}
       + [Introducción a las alertas de envío](msg/delivery-alerting.md)
       + [Paneles de alertas de envío](msg/delivery-alerting-dashboards.md)
       + [Criterios de alertas de envío](msg/delivery-alerting-criteria.md)
-+ Gestión de contenidos {#content}
++ Gestión de contenido {#content}
    + Creación de contenido dinámico {#dynamic-content}
       + [¿Cómo hacer que su contenido sea dinámico?](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)
       + [Generación de contenido condicional](personalization/conditions.md)
-   + Reutilizar contenido {#manage-reusable-content}
+   + Reutilizar contenido  {#manage-reusable-content}
       + [Trabajo con plantillas de contenido](email/create-email-templates.md)
       + Fragmentos de contenido {#fragments}
          + [Introducción a los fragmentos de contenido](content/fragments.md)
@@ -100,7 +100,7 @@ ht-degree: 99%
          + [Uso de fragmentos de expresiones en el editor de expresiones](content/use-expression-fragments.md)
    + Diseño de correos electrónicos {#email-design}
       + [Introducción al Diseñador de correo electrónico](email/get-started-email-designer.md)
-      + Comience a dar forma al correo electrónico {#start-design}
+      + Empiece a dar forma a su correo electrónico {#start-design}
          + [Empezar desde cero](email/create-email-content.md)
          + [Importar el contenido de su correo electrónico](email/existing-content.md)
          + [Programe su propio contenido](email/code-content.md)
@@ -117,21 +117,21 @@ ht-degree: 99%
          + [Ajustar alineación vertical y relleno](email/alignment-and-padding.md)
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
-   + Asistente de IA{#ai-assistant}
+   + Asistente de IA {#ai-assistant}
       + [Trabajo con el Asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con IA](email/generative-content.md)
       + [Generación de SMS con IA](email/generative-sms.md)
       + [Generación de notificaciones push con IA](email/generative-push.md)
       + [Generación de la página de aterrizaje con IA](email/generative-lp.md)
       + [Casos de uso del Asistente de IA](email/generative-uc.md)
-      + [Creación y administración de marcas (beta)](content/brands.md)
+      + [Cree y administre sus marcas (beta)](content/brands.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
    + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)
    + [Diseño del contenido de la página de aterrizaje](landing-pages/lp-content.md)
    + [Trabajo con plantillas de la página de aterrizaje](landing-pages/lp-templates.md)
    + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
-+ Perfiles y audiencias {#audiences}
++ Perfiles y públicos {#audiences}
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
    + [Dimensiones de segmentación](audience/targeting-dimensions.md)
    + [Cuarentena](audience/quarantine.md)
@@ -143,7 +143,7 @@ ht-degree: 99%
    + Trabajo con públicos {#audiences}
       + [Introducción a los públicos](audience/manage-audience.md)
       + [Crear públicos](audience/create-audience.md)
-   + Seleccionar los destinatarios del envío {#target-audiences}
+   + Seleccione los destinatarios del envío {#target-audiences}
       + [Introducción a la selección de públicos](audience/delivery-recipients.md)
       + [Selección de un público existente](audience/add-audience.md)
       + [Crear un público único](audience/one-time-audience.md)
@@ -153,7 +153,7 @@ ht-degree: 99%
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Crear y administrar servicios de suscripción](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)
-+ Campañas en canales múltiples {#campaigns}
++ Campañas en canales múltiples  {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
    + [Cree su primera campaña](campaigns/create-campaigns.md)
