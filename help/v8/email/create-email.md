@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
 source-wordcount: '1492'
-ht-degree: 51%
+ht-degree: 56%
 
 ---
 
@@ -195,12 +195,12 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
 
    Puede comprobar el estado del envío y acceder a las pruebas enviadas en cualquier momento haciendo clic en el botón **[!UICONTROL Ver pruebas]** en la pantalla Simular contenido.
 
-### Limitaciones de simulación de contenido {#content-simulation-limitations}
+### Limitaciones de la simulación de contenido {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
 >title="No se admite la simulación de contenido"
->abstract="El botón **Simular contenido** está deshabilitado porque el envío multilingüe contiene solo una configuración regional."
+>abstract="El botón **Simular contenido** está deshabilitado porque el envío multilingüe solo contiene una configuración regional."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
