@@ -3,32 +3,32 @@ audience: end-user
 title: Crear y administrar una carpeta
 description: Obtenga información sobre cómo crear y administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 34%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
 # Crear y administrar una carpeta
 
-En Adobe Campaign, puede crear nuevas carpetas para administrar el árbol de navegación. En **[!UICONTROL Explorer]**, vaya a la carpeta en la que desea crear la nueva carpeta.
+En Adobe Campaign, puede crear nuevas carpetas para administrar el árbol de navegación. En **[!UICONTROL Explorer]**, vaya a la carpeta donde desea crear la nueva carpeta.
 
-En el botón **[!UICONTROL ...]**, tiene **[!UICONTROL Crear nueva carpeta]**
+En el botón **[!UICONTROL ...]**, seleccione **[!UICONTROL Crear nueva carpeta]**.
 
-![](assets/folder_create.png){zoomable="yes"}
+![Captura de pantalla que muestra la opción Crear nueva carpeta bajo el botón ...](assets/folder_create.png){zoomable="yes"}
 
-Al crear una carpeta nueva, de forma predeterminada, el tipo de carpeta es el tipo de la carpeta principal.
-En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Envíos]**.
+Al crear una carpeta nueva, el tipo de carpeta toma como valor predeterminado el tipo de carpeta principal.\
+En este ejemplo, se crea una carpeta en la carpeta **[!UICONTROL Deliveries]**.
 
-![](assets/folder_new.png){zoomable="yes"}
+![Captura de pantalla que muestra una nueva carpeta creada en la carpeta Envíos](assets/folder_new.png){zoomable="yes"}
 
-Puede cambiar el tipo de su carpeta haciendo clic en el icono de Folder type, y puede elegirlo en la lista presentada:
+Para cambiar el tipo de carpeta, haga clic en el icono Folder type y seleccione un tipo en la lista presentada.
 
-![](assets/folder_type.png){zoomable="yes"}
+![Captura de pantalla que muestra la lista de tipos de carpetas disponibles para la selección](assets/folder_type.png){zoomable="yes"}
 
-Configurará el tipo de carpeta haciendo clic en el botón **[!UICONTROL Confirmar]**.
+Configure el tipo de carpeta haciendo clic en el botón **[!UICONTROL Confirmar]**.
 
-Si desea crear una carpeta sin un tipo específico, elija el tipo **[!UICONTROL Carpeta genérica]**.
+Para crear una carpeta sin un tipo específico, seleccione el tipo **[!UICONTROL Carpeta genérica]**.
 
-En la consola de Adobe Campaign, se explica el proceso de creación y administración de una carpeta [aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views), y tiene la posibilidad de configurar permisos en las carpetas. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+En la consola de Adobe Campaign, el proceso para crear y administrar carpetas se explica [aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views). También puede configurar permisos para carpetas. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions).

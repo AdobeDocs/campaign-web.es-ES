@@ -4,23 +4,23 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
 
-# Pista de auditoría{#audit-trail}
+# Pista de auditoría {#audit-trail}
 
-En la interfaz de usuario web de Adobe Campaign, la función **[!UICONTROL Pista de auditoría]** proporciona a los usuarios una visibilidad completa de todas las modificaciones realizadas en entidades importantes de su instancia, normalmente aquellas que afectan de manera significativa al funcionamiento sin problemas de la instancia.
+En la interfaz de usuario web de Adobe Campaign, la función **[!UICONTROL Pista de auditoría]** proporciona a los usuarios una visibilidad completa de todas las modificaciones realizadas en entidades importantes de su instancia, normalmente aquellas que afectan significativamente al funcionamiento sin problemas de la instancia.
 
 >[!IMPORTANT]
 >
->* La interfaz de usuario web de Adobe Campaign no audita los cambios realizados en los derechos de usuario, plantillas, personalización o campañas.
+>* La interfaz de usuario web de Adobe Campaign no audita los cambios realizados en los derechos de usuario, las plantillas, la personalización o las campañas.
 >* Solo los administradores de la instancia pueden administrar la pista de auditoría.
 
-La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiempo real un registro detallado de las acciones y eventos que tienen lugar en la instancia de Adobe Campaign. Ofrece un método cómodo para acceder a un registro cronológico de datos, y abordar consultas como: el estado de los flujos de trabajo, las personas más recientes para modificarlos o las actividades realizadas por los usuarios dentro de la instancia.
+La función **[!UICONTROL Pista de auditoría]** registra constantemente un registro detallado de las acciones y eventos que se producen en la instancia de Adobe Campaign en tiempo real. Ofrece un método cómodo para acceder a un registro cronológico de datos, y abordar consultas como el estado de los flujos de trabajo, las personas más recientes para modificarlos o las actividades realizadas por los usuarios dentro de la instancia.
 
 +++ Más información sobre las Entidades disponibles de pista de auditoría
 
@@ -34,9 +34,9 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
    * Pause
    * Stop
    * Restart
-   * Limpieza igual al historial de purga de acciones
+   * Limpieza, que es igual a la acción Purgar historial
    * Simular, que es igual a la acción Iniciar en modo de simulación
-   * Activación igual a la acción Ejecutar tareas pendientes ahora
+   * Activación, que es igual a la acción Ejecutar tareas pendientes ahora
    * Interrupción incondicional
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../workflows/gs-workflows.md).
@@ -51,15 +51,15 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente en tiem
 
 * **Cuenta externa** le permite comprobar las modificaciones realizadas en cuentas externas en la versión 8 de Campaign, utilizadas por procesos técnicos como flujos de trabajo técnicos o flujos de trabajo de campaña.
 
-  Para obtener más información sobre la cuenta externa, consulte esta [página](../administration/external-account.md).
+  Para obtener más información sobre cuentas externas, consulte esta [página](../administration/external-account.md).
 
 * **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en la asignación de entregas en Campaign V8.
 
   Para obtener más información sobre la asignación de envíos, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Aplicación web** le permite comprobar las modificaciones realizadas en los formularios web de Campaign V8 que se usan para crear páginas con campos de entrada y selección, y que pueden incluir datos de la base de datos.
+* **Aplicación web** permite comprobar las modificaciones realizadas en los formularios web en Campaign V8, utilizadas para crear páginas con campos de entrada y selección, que pueden incluir datos de la base de datos.
 
-  Para obtener más información sobre la aplicación web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
+  Para obtener más información sobre las aplicaciones web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * **Oferta** le permite comprobar las actividades y las últimas modificaciones realizadas en sus ofertas.
 
@@ -77,20 +77,20 @@ Para acceder a la **[!UICONTROL pista de auditoría]** de su instancia:
 
 1. En el menú **[!UICONTROL Administración]**, seleccione **[!UICONTROL Pista de auditoría]**.
 
-   ![](assets/audit-trail-1.png)
+   ![Captura de pantalla que muestra el menú Administración con la opción Pista de auditoría seleccionada](assets/audit-trail-1.png)
 
 1. La ventana **[!UICONTROL Pista de auditoría]** se abre con la lista de sus entidades. La interfaz de usuario web de Adobe Campaign audita las acciones de creación, edición y eliminación de flujos de trabajo, opciones, envíos y esquemas.
 
    Seleccione una de las entidades para obtener más información sobre las últimas modificaciones.
 
-1. La ventana **[!UICONTROL Entidad de auditoría]** le proporciona información más detallada sobre la entidad elegida, como:
+1. La ventana **[!UICONTROL Entidad de auditoría]** proporciona información detallada sobre la entidad elegida, como:
 
    * **[!UICONTROL Tipo]**: flujo de trabajo, opciones, envíos o esquemas.
    * **[!UICONTROL Entidad]**: Nombre interno de sus actividades.
-   * **[!UICONTROL Modificado por]**: Nombre de usuario de la última persona que modificó esta entidad por última vez.
+   * **[!UICONTROL Modificado por]**: Nombre de usuario de la última persona que modificó esta entidad.
    * **[!UICONTROL Acción]**: última acción realizada en esta entidad, ya sea Creada, Modificada o Eliminada.
    * **[!UICONTROL Fecha de modificación]**: Fecha de la última acción realizada en esta entidad.
 
    El bloque de código proporciona más información sobre lo que se ha cambiado exactamente en la entidad.
 
-   ![](assets/audit-trail-2.png)
+   ![Captura de pantalla que muestra la ventana Entidad de auditoría con información detallada sobre las modificaciones](assets/audit-trail-2.png)

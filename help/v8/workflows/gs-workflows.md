@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '313'
+ht-degree: 26%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 ## ¿Qué es un flujo de trabajo?
 
-El marketing multicanal es esencial para cualquier empresa que busque llegar a sus clientes de forma eficaz. Adobe Campaign proporciona un entorno gráfico completo que le permite diseñar procesos complejos que le pueden ayudar a administrar sus campañas de marketing con facilidad.
+El marketing multicanal es esencial para cualquier empresa que pretenda llegar a sus clientes de forma eficaz. Adobe Campaign proporciona un entorno gráfico completo que le permite diseñar procesos complejos para administrar sus campañas de marketing con facilidad.
 
-Con los flujos de trabajo, puede orquestar toda la gama de procesos y tareas, mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta el envío. Además, puede sincronizar sus canales con una interfaz única y fácil de usar para la orquestación de campañas.
+Con los flujos de trabajo, puede organizar una amplia gama de procesos y tareas, mejorando la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega. Además, puede sincronizar los canales mediante una interfaz única y fácil de usar para la orquestación de campañas.
 
-Una de las ventajas más importantes del uso de flujos de trabajo es que resulta sencillo entregar contenido personalizado a los clientes en todos los canales. Tanto si sus clientes prefieren recibir mensajes por correo electrónico o por móvil, Adobe Campaign le permite ofrecer una experiencia contextual y coherente en cualquier canal, lo que convierte el recorrido de cada cliente en una experiencia única.
+Una de las ventajas clave de los flujos de trabajo es su capacidad para simplificar la entrega de contenido personalizado a los clientes en todos los canales. Tanto si los clientes prefieren recibir mensajes por correo electrónico como si lo hacen mediante dispositivos móviles, Adobe Campaign garantiza una experiencia coherente y contextual en cualquier canal, lo que transforma el recorrido de cada cliente en una experiencia única.
 
 ## Usos prácticos de los flujos de trabajo
 
-Los flujos de trabajo son increíblemente versátiles y se pueden utilizar en varios contextos, como la segmentación para administrar públicos o enviar mensajes, la administración de datos (ETL) para manipular datos e importarlos a la base de datos de Adobe Campaign.
+Los flujos de trabajo son muy versátiles y aplicables en varios contextos, incluido el direccionamiento para administrar audiencias o enviar mensajes, la administración de datos (ETL) para manipular datos y la importación de datos en la base de datos de Adobe Campaign.
 
-Con el entorno gráfico completo de Adobe Campaign, puede elaborar procesos como segmentación, ejecución de campañas o procesamiento de archivos. Los flujos de trabajo también pueden incluir usuarios. Les puede asignar tareas o hacer que aprueben tareas realizadas, lo que facilita la administración del trabajo de su equipo y garantiza que todo se realice correctamente.
+Con el entorno gráfico de Adobe Campaign, se diseñan procesos como la segmentación, la ejecución de campañas y el procesamiento de archivos. Los flujos de trabajo también implican a los usuarios al asignar tareas o al requerir la aprobación para tareas realizadas, simplificar la administración del equipo y garantizar la precisión.
 
-A continuación se muestran algunos ejemplos de cómo puede utilizar flujos de trabajo con Adobe Campaign:
+A continuación, se muestran algunos ejemplos de cómo se pueden utilizar los flujos de trabajo con Adobe Campaign:
 
 * Inicie una campaña de seguimiento para clientes inactivos,
 * Envíe un correo electrónico de bienvenida a todos los nuevos suscriptores de un servicio,
@@ -34,7 +34,7 @@ A continuación se muestran algunos ejemplos de cómo puede utilizar flujos de t
 
 ## Vamos a profundizar
 
-Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en Adobe Campaign, es hora de profundizar en las secciones de documentación para empezar a trabajar con la función.
+Ahora que comprende qué son los flujos de trabajo y sus capacidades en Adobe Campaign, explore las siguientes secciones de documentación para empezar a trabajar con esta función.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +48,7 @@ Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en 
 </td>
 <td>
 <a href="create-workflow.md">
-<img alt="Posible cliente" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="Cree y ejecute su primer flujo de trabajo" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-workflow.md"><strong>Cree y ejecute su primer flujo de trabajo</strong>
 </div>
@@ -56,7 +56,7 @@ Ahora que conoce qué son los flujos de trabajo y qué puede hacer con ellos en 
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="Poco frecuente" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="Trabajo con actividades del flujo de trabajo" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>Trabajo con actividades del flujo de trabajo</strong></a>

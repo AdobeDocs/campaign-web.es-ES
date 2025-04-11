@@ -2,12 +2,12 @@
 cloud: Experience Cloud
 solution: Campaign, Campaign v8, Campaign v8 Web User Interface
 version: Campaign v8, Campaign v8 Web User Interface
-product: adobe campaign-web
+product: adobe campaign
 feature-set: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.es-ES
 index: true
-source-git-commit: e6fe6597d5cfc15cb99c40f0c3b702c7357b4370
+source-git-commit: 3d3dfd1b1d2de70cc37ae35246a9f162d40a72b3
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 98%

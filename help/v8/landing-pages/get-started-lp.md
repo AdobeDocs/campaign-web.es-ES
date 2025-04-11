@@ -4,10 +4,10 @@ title: Introducción a las páginas de aterrizaje
 description: Obtenga información sobre las páginas de aterrizaje en la web de Campaign
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 [!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.
 
-En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de un envío o en un sitio web.
+En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de una entrega o de un sitio web.
 
-Adobe Campaign le permite dirigir a los usuarios a formularios en línea, donde pueden actualizar sus datos, optar por suscribirse a darse de baja de la recepción de comunicaciones, o suscribirse a un servicio específico, como una Newsletter.
+Las páginas de aterrizaje permiten dirigir a los usuarios a formularios en línea en los que pueden actualizar sus datos, excluirse o excluirse de la recepción de comunicaciones o suscribirse a un servicio específico, como una newsletter.
 
 >[!CAUTION]
 >
 >Las páginas de aterrizaje que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web creados en la consola del cliente en la interfaz de usuario web de Campaign.
 >
->Obtenga más información sobre los formularios web en la [documentación de a versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=es){target="_blank"}.
+>Obtenga más información acerca de los formularios web en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=es){target="_blank"}.
 
 A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 
@@ -37,7 +37,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Posible cliente" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Creación de páginas de aterrizaje con plantillas rellenadas previamente" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>Crear páginas de aterrizaje</strong>
 </div>
@@ -45,7 +45,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Poco frecuente" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Configuración de servicios de suscripción para usuarios" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>Crear servicios de suscripción</strong></a>
@@ -53,7 +53,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Validación" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Diseño de páginas de aterrizaje adaptables" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Páginas de aterrizaje de diseño</strong></a>
@@ -62,7 +62,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="Validación" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Trabajo con plantillas de contenido para páginas de aterrizaje" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>Trabajo con plantillas de contenido</strong></a>

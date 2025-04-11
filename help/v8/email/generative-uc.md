@@ -2,9 +2,9 @@
 title: Casos de uso del Asistente de IA
 description: Descubra, a través de casos de uso, cómo utilizar el asistente de IA
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 
 ## Usar contenido existente
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demostración de la reutilización del contenido existente con el asistente de IA](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Después de configurar su envío, seleccione **[!UICONTROL Editar contenido]**.
 
@@ -31,11 +31,11 @@ ht-degree: 1%
 
 1. Explore las **[!UICONTROL variaciones]** disponibles y haga clic en **[!UICONTROL Vista previa]** para ver la variación seleccionada en pantalla completa.
 
-Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la entrega.
+Una vez definido el contenido, la audiencia y la programación, prepare el envío.
 
 ## Refinar variación
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![Demostración de refinar las variaciones de contenido con el Asistente de IA](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Una vez configurada la entrega, haz clic en **[!UICONTROL Editar contenido]**.
 
@@ -49,7 +49,7 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. En la ventana de **[!UICONTROL vista previa]**, ve a la opción **[!UICONTROL Refinar]** para personalizarla más, incluyendo:
 
-   * **[!UICONTROL Usar como contenido de referencia]**: la variación seleccionada actuará como referencia para generar más contenido.
+   * **[!UICONTROL Usar como contenido de referencia]**: La variación seleccionada actúa como referencia para generar más contenido.
 
    * **[!UICONTROL Elaborar]**: permita que el asistente de IA expanda ciertos puntos y ofrezca más profundidad y detalle para una mejor participación.
 
@@ -59,13 +59,13 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
    * **[!UICONTROL Use un idioma más sencillo]**: Simplifique el idioma con el Asistente de IA para garantizar que el mensaje sea claro y accesible para todos los lectores.
 
-   Además, puedes ajustar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu contenido.
+   Además, ajusta el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu contenido.
 
-1. Cuando haya encontrado el contenido correcto, haga clic en **[!UICONTROL Seleccionar]**.
+1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Seleccionar]**.
 
 ## Generar imagen similar
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![Demostración de la generación de imágenes similares con el Asistente de IA](assets/do-not-localize/uc-image-similar.gif)
 
 1. Después de configurar su envío, seleccione **[!UICONTROL Editar contenido]**.
 
@@ -81,11 +81,11 @@ Una vez definido el contenido, la audiencia y la programación, estará listo pa
 
 1. Elija **[!UICONTROL Generar similares]** para explorar variaciones de imágenes que se asemejan mucho a la opción actual y que ofrecen diseños alternativos con un tema similar.
 
-1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
+1. Haz clic en **[!UICONTROL Seleccionar]** cuando encuentres el contenido apropiado.
 
 ## Cargar una referencia de estilo
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![Demostración de cómo cargar una referencia de estilo para el Asistente de IA](assets/do-not-localize/uc-image-reference.gif)
 
 1. Después de configurar su envío, haga clic en **[!UICONTROL Editar contenido]**.
 

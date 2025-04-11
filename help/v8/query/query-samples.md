@@ -5,12 +5,13 @@ description: Aprenda a trabajar con el modelador de consultas.
 hide: true
 hidefromtoc: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 42%
+source-wordcount: '179'
+ht-degree: 41%
 
 ---
+
 
 # Ejemplos de consultas {#query-samples}
 
@@ -18,17 +19,17 @@ ht-degree: 42%
 
 * Recupere los nombres y correos electrónicos de los destinatarios cuyo dominio de correo electrónico es &quot;orange.co.uk&quot; y que no viven en Londres.
 
-* destinatarios no contactados durante los últimos 7 días.
+* Destinatarios no contactados durante los últimos 7 días.
 
-* dominios de correo electrónico que han sido objetivos más de 30 veces durante las entregas anteriores.
+* Dominios de correo electrónico que han sido objetivos más de 30 veces durante envíos anteriores.
 
 ## Consultas sobre envíos {#number-of-clicks-for-a-specific-delivery}
 
-* número de clics de una entrega específica.
+* Número de clics de una entrega específica.
 
-* destinatarios que no hayan abierto un correo electrónico en los últimos 7 días.
+* Destinatarios que no han abierto un correo electrónico en los últimos 7 días.
 
-* perfiles que han abierto un envío en las últimas 2 semanas:
+* Perfiles que han abierto una entrega en las últimas 2 semanas.
 
 * Realizar un seguimiento después de una entrega anterior.
 
