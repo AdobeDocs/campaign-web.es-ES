@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 24%
 
 ---
 
@@ -18,11 +18,10 @@ ht-degree: 30%
 >abstract="Seleccione una plantilla de notificación push para iniciar el envío push. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envío"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Propiedades del envío push"
->abstract="Definición de las propiedades de los envíos push. Introduzca la etiqueta de la notificación push y utilice las **Opciones adicionales** para configurar el nombre interno, la carpeta de entrega y el código. También puede escribir una descripción personalizada."
+>abstract="Definición de las propiedades de los envíos push. Introduzca la etiqueta de la notificación push y utilice **Opciones adicionales** para configurar el nombre interno, la carpeta de entrega y el código. También puede escribir una descripción personalizada."
 
 Puede crear una entrega de notificaciones push independiente o crear una notificación push en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para una entrega push independiente (de una sola toma). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -36,7 +35,7 @@ Para crear un nuevo envío push independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
-   ![](assets/push_create_1.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la creación de una entrega push](assets/push_create_1.png){zoomable="yes"}
 
 ## Configuración de la entrega {#configure-push-settings}
 
@@ -54,35 +53,33 @@ Configure las entregas como se detalla a continuación:
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
 +++
 
-
 ## Seleccione el público del envío push {#create-audience-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="Definición del público de la notificación push"
->abstract="Para definir el público del mensaje, primero debe seleccionar la aplicación asociada a la entrega push. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede restringirla a un público específico haciendo clic en el botón **Seleccionar público**. Si es necesario, añada un grupo de control para medir el impacto del envío."
+>abstract="Para definir la audiencia del mensaje, primero debe seleccionar la aplicación asociada a la entrega push. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede restringirla a un público específico haciendo clic en el botón **Seleccionar público**. Si es necesario, añada un grupo de control para medir el impacto del envío."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=es" text="Establecer un grupo de control"
-
 
 Primero debe seleccionar la aplicación y, a continuación, puede refinar la audiencia de notificaciones push como se detalla a continuación:
 
 1. En la sección **[!UICONTROL Audience]**, seleccione la aplicación que desee utilizar para este envío. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede ajustar la audiencia a una audiencia específica haciendo clic en el botón **[!UICONTROL Seleccionar audiencia]**.
 
-   ![](assets/push_create_2.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la selección de audiencias para la entrega push](assets/push_create_2.png){zoomable="yes"}
 
 1. Seleccione una audiencia existente o cree su propia audiencia con el fin de restringir la población objetivo para la entrega push. Para las notificaciones push, la [dimensión de destino](../audience/about-recipients.md#targeting-dimensions) predeterminada es **Aplicación de suscriptor** (nms:appSubscriptionRcp), que está vinculada a la tabla de destinatarios.
 
-   Aprenda a seleccionar una audiencia existente en [esta página](../audience/add-audience.md)
+   Aprenda a seleccionar una audiencia existente en [esta página](../audience/add-audience.md).
 
-   Aprenda a crear una audiencia nueva en [esta página](../audience/one-time-audience.md)
+   Aprenda a crear una audiencia nueva en [esta página](../audience/one-time-audience.md).
 
-1. Active la opción **[!UICONTROL Habilitar grupo de control]** para establecer un grupo de control y medir el impacto de su envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo hicieron. [Más información](../audience/control-group.md)
+1. Active la opción **[!UICONTROL Habilitar grupo de control]** para establecer un grupo de control y medir el impacto de su envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo recibieron. [Más información](../audience/control-group.md).
 
 ## Definición del contenido de las notificaciones push {#create-content-push}
 
-Para definir el contenido de la notificación, haga clic en **[!UICONTROL Editar contenido]**. [Más información](content-push.md)
+Para definir el contenido de la notificación, haga clic en **[!UICONTROL Editar contenido]**. [Más información](content-push.md).
 
-![](assets/push_create_5.png){zoomable="yes"}
+![Captura de pantalla que muestra la edición de contenido para la entrega push](assets/push_create_5.png){zoomable="yes"}
 
 Desde esta pantalla, también puedes [simular tu contenido](../preview-test/preview-test.md) y [configurar ofertas](../msg/offers.md).
 
@@ -100,12 +97,12 @@ Para programar una entrega push independiente a una fecha y hora específicas, s
 
 Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas que haya definido para el destinatario.
 
-![](assets/push_create_3.png){zoomable="yes"}
+![Captura de pantalla que muestra las opciones de programación de la entrega push](assets/push_create_3.png){zoomable="yes"}
 
-Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule)
+Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule).
 
 ## Configuración avanzada del envío {#adv-push}
 
-Haga clic en **[!UICONTROL Configurar opciones de envío]** para acceder a las opciones avanzadas relacionadas con su plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
+Haga clic en **[!UICONTROL Configurar opciones de envío]** para acceder a las opciones avanzadas relacionadas con su plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md).
 
-![](assets/push_create_4.png){zoomable="yes"}
+![Captura de pantalla que muestra la configuración avanzada de la entrega push](assets/push_create_4.png){zoomable="yes"}

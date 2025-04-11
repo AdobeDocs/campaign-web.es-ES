@@ -3,16 +3,16 @@ audience: end-user
 title: Informes de campaña para el canal SMS
 description: Comprensión de los informes de campaña del canal SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 18%
+source-wordcount: '521'
+ht-degree: 15%
 
 ---
 
 # Informes de campaña para el canal SMS {#campaign-reports-sms-channel}
 
-Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal SMS. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal SMS. Obtenga información sobre cómo acceder a los informes de campaña en [esta página](campaign-reports.md).
 
 ## Resumen de envíos {#delivery-summary-sms}
 
@@ -21,10 +21,9 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >title="Información general sobre el envío"
 >abstract="El informe **Información general sobre el envío** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de los SMS."
 
-
 El informe **[!UICONTROL Información general de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de SMS. Las métricas se detallan a continuación.
 
-![](assets/campaign_report_sms_1.png){zoomable="yes"}
+![Informe de descripción general de envío que muestra las métricas de SMS](assets/campaign_report_sms_1.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -38,18 +37,16 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 +++
 
-
 ### Estadísticas de público destinatario inicial {#delivery-summary-sms-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="Estadísticas de público destinatario inicial"
->abstract="La tabla **Estadísticas del público destinatario inicial** muestra datos relativos a los destinatarios"
+>abstract="La tabla **Estadísticas iniciales de audiencias de destino** muestra datos relativos a sus destinatarios."
 
 La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
 
-
-![](assets/campaign_report_sms_2.png){zoomable="yes"}
+![Tabla de estadísticas de audiencias de destino inicial que muestra los datos del destinatario](assets/campaign_report_sms_2.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
@@ -57,41 +54,36 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en lista de bloqueados de la, etc.
+* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar reglas, como direcciones que faltan, en cuarentena o en la lista de bloqueados de la.
 
 +++
 
-
 ### Estadísticas de ejecución {#delivery-summary-sms-exec-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_exec_stats"
 >title="Estadísticas de ejecución"
 >abstract="La tabla **Estadísticas de ejecución** detalla el éxito de su envío: mensajes para entregar, éxitos, errores y nuevas cuarentenas."
 
-
 La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su envío. Las métricas se detallan a continuación.
 
-
-![](assets/campaign_report_sms_3.png){zoomable="yes"}
+![Tabla de estadísticas de ejecución que muestra las métricas de éxito de envío](assets/campaign_report_sms_3.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente, en relación con el número de mensajes que se van a enviar.
 
 * **[!UICONTROL Errores]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido), en relación con el número de mensajes que se van a enviar.
 
   Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
 ### Flujos de clics generados {#delivery-summary-sms-click-streams}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_click_streams"
@@ -100,7 +92,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a cómo interactuaron los destinatarios con el envío. Las métricas se detallan a continuación.
 
-![](assets/campaign_report_sms_4.png){zoomable="yes"}
+![Tabla de flujos de clics generados que muestra los datos de interacción del destinatario](assets/campaign_report_sms_4.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas de SMS.
 

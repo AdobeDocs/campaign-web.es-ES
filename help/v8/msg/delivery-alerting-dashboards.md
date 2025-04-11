@@ -3,10 +3,10 @@ audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 25%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 Los paneles de alertas de entrega le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellos desde el menú **Alerta de entrega** del panel de navegación izquierdo, en la pestaña **Paneles**.
 
-![](assets/alerting-dashboard-list.png)
+![Captura de pantalla que muestra la lista de paneles de alertas en el menú Alerta de entrega.](assets/alerting-dashboard-list.png)
 
 ## Crear un panel de envíos {#dashboards}
 
@@ -45,21 +45,21 @@ Los paneles de alertas de entrega le permiten especificar quién recibirá alert
 
 Para crear un panel de envío, siga estos pasos:
 
-1. Vaya al menú **Alerta de envío** en el panel de navegación izquierdo y haga clic en **Crear panel de envío**.
+1. Vaya al menú **Alerta de entrega** en el panel de navegación izquierdo y haga clic en **Crear panel de entrega**.
 
-   ![](assets/alerting-dashboard.png)
+   ![Captura de pantalla que muestra la opción Crear panel de envío en el menú Alerta de envío.](assets/alerting-dashboard.png)
 
 1. Asigne un nombre al tablero en el campo **Etiqueta**. El campo **Nombre interno** se rellena automáticamente y es de solo lectura.
 
 1. En el campo **Seleccionar grupo de alertas**, especifique el **grupo de operadores** que recibirá las alertas enviadas por este panel. Todos los miembros del grupo de operadores seleccionado recibirán las alertas.
 
-   Obtenga más información sobre permisos y grupos de operadores en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Obtenga más información acerca de permisos y grupos de operadores en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. En la sección **Criterios de alerta de envío**, agregue los criterios que desee utilizar para enviar alertas. Elija entre criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas. [Aprenda a trabajar con criterios](../msg/delivery-alerting-criteria.md)
 
-1. Los criterios tienen valores de parámetros predeterminados que definen cómo se deben aplicar. Puede cambiar estos valores para adaptarlos a sus necesidades desde la sección **Parámetros de criterios**.
+1. Los criterios tienen valores de parámetro predeterminados que definen cómo se deben aplicar. Puede cambiar estos valores para adaptarlos a sus necesidades desde la sección **Parámetros de criterios**.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![Captura de pantalla que muestra la sección Parámetros de criterio en el panel de envío.](assets/alerting-criteria-parameters.png)
 
    Por ejemplo, de forma predeterminada, el parámetro de criterio **Tamaño mínimo del destinatario del envío** está establecido en 50, lo que significa que un envío se incluirá en la alerta que envía este panel solo si se dirige al menos a 50 perfiles. Puede cambiar este parámetro si desea incluir envíos dirigidos a menos de 50 perfiles.
 
@@ -83,7 +83,7 @@ Para crear un panel de envío, siga estos pasos:
 
    También puede guardar el tablero y habilitarlo más adelante.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![Captura de pantalla que muestra la opción de alternancia habilitada en la configuración del panel de envío.](assets/alerting-dashboard-enable.png)
 
 1. Para guardar el panel de alertas, haga clic en el botón **Guardar**.
 
@@ -105,12 +105,12 @@ Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se
 
 Se puede acceder a todos los paneles de alertas creados desde el menú **Alerta de entrega**, en la pestaña **Paneles**.
 
-![](assets/alerting-dashboard-list.png)
+![Captura de pantalla que muestra la lista de paneles de alertas en el menú Alerta de entrega.](assets/alerting-dashboard-list.png)
 
 Puede duplicar o eliminar un tablero usando el botón **Más acciones** ubicado junto a su nombre.
 
 Para acceder a una vista detallada de un panel, haga clic en su nombre en la lista. Desde esta pantalla, puede visualizar la última alerta enviada. Todas las alertas enviadas se muestran en el panel izquierdo. Haga clic en un elemento para acceder a las alertas correspondientes enviadas en ese momento concreto.
 
-![](assets/alerting-dashboard-details.png)
+![Captura de pantalla que muestra la vista detallada de un panel de alertas.](assets/alerting-dashboard-details.png)
 
 Para editar el panel, haga clic en el botón **Configuración** en la esquina superior derecha y realice los cambios que desee.

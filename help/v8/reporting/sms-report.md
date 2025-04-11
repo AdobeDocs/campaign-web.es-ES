@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío de SMS
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío de SMS
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 45%
+source-wordcount: '608'
+ht-degree: 32%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 45%
 >title="Envío de creación de informes"
 >abstract="La pestaña **Envío** dentro del informe proporciona una perspectiva detallada de las interacciones de los visitantes con los envíos y cualquier posible error que hayan encontrado."
 
-La **Información general sobre el envío de SMS** ofrece una amplia descripción general del envío de SMS, que proporciona amplia información y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío.
+La **descripción general de la entrega de SMS** proporciona un resumen detallado de su entrega de SMS, con información exhaustiva y datos específicos. Incluye información completa sobre el rendimiento, la eficacia y los resultados de su envío.
 
 ## Resumen de envíos {#delivery-summary}
 
@@ -28,9 +28,9 @@ La **Información general sobre el envío de SMS** ofrece una amplia descripció
 >title="Información general sobre el envío de SMS"
 >abstract="La **Información general sobre el envío de SMS** ofrece una amplia descripción general del envío de SMS, que proporciona amplia información y datos específicos. Proporciona información completa sobre el rendimiento, la eficacia y los resultados de su envío."
 
-El informe **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las tasas de éxito y error, y sobre cómo los visitantes interactúan con los mensajes SMS.
+El informe **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de rendimiento (KPI) que ofrecen información detallada sobre las tasas de éxito y error, así como la forma en que los visitantes interactúan con los mensajes SMS.
 
-![](assets/reporting_sms_3.png){zoomable="yes"}
+![Descripción: la imagen muestra el informe Resumen de entrega, que incluye KPI como tasas de éxito, tasas de error y participación del visitante.](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -51,9 +51,9 @@ El informe **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de 
 >title="Población de destino de SMS"
 >abstract="El gráfico y las tablas de la **Población de destino** muestran datos relativos al público de SMS: mensajes a enviar y exclusiones."
 
-El gráfico **población objetivo** y la tabla muestran datos relativos a su audiencia. Las métricas se detallan a continuación.
+El gráfico y la tabla de **población objetivo** muestran datos relacionados con su audiencia. Las métricas se detallan a continuación.
 
-![](assets/reporting_sms_4.png){zoomable="yes"}
+![Descripción: la imagen muestra el gráfico y la tabla de población objetivo, que incluye métricas como los mensajes que se van a enviar y las exclusiones.](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -61,7 +61,6 @@ El gráfico **población objetivo** y la tabla muestran datos relativos a su aud
 
 * **[!UICONTROL Exclusiones]**: número y tasa porcentual de perfiles que se han excluido del análisis.
 +++
-
 
 ### Estadísticas generales {#sms-delivery-overall}
 
@@ -72,7 +71,7 @@ El gráfico **población objetivo** y la tabla muestran datos relativos a su aud
 
 El informe **Estadísticas generales** presenta datos para los mensajes SMS enviados. Las métricas se detallan a continuación.
 
-![](assets/reporting_sms_5.png){zoomable="yes"}
+![Descripción: la imagen muestra el informe Estadísticas generales, que incluye métricas como tasas de éxito, errores y cuarentenas.](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
@@ -92,7 +91,7 @@ El informe **Estadísticas generales** presenta datos para los mensajes SMS envi
 
 El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png){zoomable="yes"}
+![Descripción: la imagen muestra el gráfico y la tabla Exclusiones, que detallan los motivos por los que se excluyen los perfiles de usuario de la recepción de mensajes.](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -101,6 +100,6 @@ El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los motivos que impi
 >title="Rendimiento del envío de SMS"
 >abstract="El informe **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío en un período de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora."
 
-Este informe presenta información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
+Este informe proporciona información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
-![](assets/reporting_sms_2.png){zoomable="yes"}
+![Descripción: la imagen muestra el informe Rendimiento de entrega, que incluye métricas como el número de mensajes enviados por hora dentro de un intervalo de tiempo especificado.](assets/reporting_sms_2.png){zoomable="yes"}

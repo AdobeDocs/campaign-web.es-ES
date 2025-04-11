@@ -3,10 +3,10 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 50%
+source-wordcount: '647'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definición del contenido del correo electrónico"
->abstract="La pantalla **Editar contenido** le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como añadir archivos adjuntos u ofertas y acceder al Diseñador de correo electrónico para darle a su mensaje un aspecto pulido."
+>abstract="La pantalla **Editar contenido** le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como agregar archivos adjuntos u ofertas y acceder al Designer de correo electrónico para darle un aspecto pulido al mensaje."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Adjuntar archivos a un correo electrónico"
->abstract="Seleccione uno o varios archivos para insertarlos en el mensaje. Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto en el correo electrónico."
+>abstract="Seleccione uno o varios archivos para insertar en el mensaje. Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -35,9 +35,9 @@ ht-degree: 50%
 
 La pantalla del correo electrónico **[!UICONTROL Editar contenido]** le permite:
 
-* Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto
-* Realizar acciones adicionales, como agregar archivos adjuntos o configurar ofertas
-* Acceda a [Email Designer](get-started-email-designer.md#start-authoring) para comenzar a crear el contenido apropiado de su correo electrónico
+* Defina los elementos básicos del mensaje, como la dirección del remitente y la línea de asunto.
+* Realice acciones adicionales, como agregar archivos adjuntos o configurar ofertas.
+* Acceda a [Email Designer](get-started-email-designer.md#start-authoring) para comenzar a crear el contenido apropiado de su correo electrónico.
 
 >[!NOTE]
 >
@@ -47,11 +47,11 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
 1. Haga clic en el botón **[!UICONTROL Editar contenido]** de la pantalla [panel de envío de correo electrónico](../email/create-email.md).
 
-   ![](assets/email-edit-content-button.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el botón Editar contenido en el panel de envío de correo electrónico.](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. Se abre la pantalla de edición de contenido de correo electrónico.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el panel de edición de contenido de correo electrónico.](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -63,23 +63,23 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
    >
    >Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Eva de Luma&quot;.
 
-1. El campo de dirección **[!UICONTROL De correo electrónico]** también se define en la plantilla de correo electrónico. Asegúrese de que el dominio de dirección sea el mismo que el subdominio que delegó en Adobe.
+1. El campo de dirección **[!UICONTROL De correo electrónico]** también se define en la plantilla de correo electrónico. Asegúrese de que el dominio de dirección coincida con el subdominio que delegó en Adobe.
 
    >[!NOTE]
    >
    >Puede cambiar la parte que precede a &#39;@&#39;, pero no la dirección de dominio.
 
-1. Expanda la sección **[!UICONTROL Campos de respuesta]**. El nombre y las direcciones del remitente se utilizan de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+1. Expanda la sección **[!UICONTROL Campos de respuesta]**. El nombre y las direcciones del remitente se utilizan de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el equipo de atención al cliente podrá atenderla.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la sección Campos de respuesta en el editor de contenido de correo electrónico.](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Defina la **[!UICONTROL Línea de asunto]** del correo electrónico. Escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para agregar [personalización](../personalization/personalize.md) con varios atributos y fragmentos de expresiones u ofertas.
+1. Defina la **[!UICONTROL Línea de asunto]** del correo electrónico. Escriba el asunto directamente en el campo dedicado o abra el Editor de expresiones para agregar [personalización](../personalization/personalize.md) mediante varios atributos, fragmentos de expresiones u ofertas.
 
-1. Si desea adjuntar un archivo al correo electrónico, haga clic en el botón **[!UICONTROL Añadir adjunto]** y a continuación, seleccione uno o varios archivos.
+1. Si desea adjuntar un archivo al correo electrónico, haga clic en el botón **[!UICONTROL Agregar archivo adjunto]** y, a continuación, seleccione uno o varios archivos.
 
    >[!NOTE]
    >
-   >    Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto en el correo electrónico.
+   >Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico.
 
    <!--limitation on size + number of files?-->
 
@@ -87,7 +87,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
    A continuación, puede insertarlos en el correo electrónico mediante campos de personalización. [Aprenda a enviar ofertas](../msg/offers.md)
 
-1. Haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico con [Email Designer](get-started-email-designer.md#start-authoring). En estas secciones encontrará información adicional sobre cómo diseñar el contenido del correo electrónico:
+1. Haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]** para estructurar y diseñar el contenido del correo electrónico con [Email Designer](get-started-email-designer.md#start-authoring). Encontrará información adicional sobre cómo diseñar contenido de correo electrónico en estas secciones:
 
    * [Crear correos electrónicos desde cero](create-email-content.md)
    * [Estilos del contenido](get-started-email-style.md)
@@ -96,7 +96,6 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
    >
    >También puede pasar el ratón sobre la vista previa del correo electrónico y seleccionar **[!UICONTROL Abrir diseñador de correo electrónico]**.
 
-1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**. [Aprenda a añadir vínculos y a administrar el seguimiento](message-tracking.md)
+1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**. [Aprenda a agregar vínculos y administrar el seguimiento](message-tracking.md).
 
-1. Una vez definido el contenido del correo electrónico, utilice el botón **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. [Obtenga información sobre cómo previsualizar y probar el correo electrónico](../preview-test/preview-test.md)
-
+1. Una vez definido el contenido del correo electrónico, utilice el botón **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. [Obtenga información sobre cómo obtener una vista previa y probar tu correo electrónico](../preview-test/preview-test.md).

@@ -3,10 +3,10 @@ audience: end-user
 title: Importación de un público de correo electrónico desde un archivo
 description: Obtenga información sobre cómo cargar perfiles de un archivo externo para crear su audiencia de correo electrónico
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 28%
+source-wordcount: '691'
+ht-degree: 24%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 28%
 >title="Vista previa del archivo"
 >abstract="Compruebe la previsualización de las columnas del archivo externo. Esta pantalla solo muestra hasta 30 registros."
 
-La interfaz de usuario web de Adobe Campaign permite segmentar perfiles almacenados en un archivo externo. Una vez cargados los perfiles, todos los campos del archivo de entrada están disponibles para usarlos para personalizar la entrega [Aprenda a personalizar el contenido](../personalization/personalize.md).
+La interfaz de usuario web de Adobe Campaign permite segmentar perfiles almacenados en un archivo externo. Una vez cargados los perfiles, todos los campos del archivo de entrada están disponibles para su uso para personalizar la entrega [Aprenda a personalizar el contenido](../personalization/personalize.md).
 
 Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan y están disponibles únicamente para este envío de correo electrónico independiente específico.
 
@@ -51,22 +51,22 @@ Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan 
 Para segmentar perfiles a partir de un archivo en los correos electrónicos, siga estos pasos:
 
 1. Abra una entrega de correo electrónico existente o [cree una nueva entrega de correo electrónico](../email/create-email.md).
-1. En la sección **Audiencia**, haga clic en el botón **Seleccionar audiencia** y luego elija **Seleccionar del archivo**.
+1. En la sección **Audiencia**, haga clic en el botón **Seleccionar audiencia** y, a continuación, elija **Seleccionar del archivo**.
 
-   ![](assets/select-from-file.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la opción Seleccionar del archivo en la sección Audiencia](assets/select-from-file.png){zoomable="yes"}
 
 1. Seleccione el archivo local que desea cargar. El formato de archivo debe alinearse con el [archivo de muestra](#sample-file).
 1. Obtenga una vista previa y compruebe cómo se asignan los datos en la sección central de la pantalla.
 
-   ![](assets/select-from-file-map.png)
+   ![Captura de pantalla que muestra la vista previa de asignación de datos en la sección central](assets/select-from-file-map.png)
 
-1. Especifique la columna que contiene la dirección de correo electrónico de la lista desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados si dispone de dicha información en el archivo de entrada.
-1. Ajuste la configuración de columna y cómo dar formato a los datos desde las opciones disponibles.
+1. Especifique la columna que contiene la dirección de correo electrónico de la lista desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados de la si dispone de dicha información en el archivo de entrada.
+1. Ajuste la configuración de columna y defina cómo dar formato a los datos mediante las opciones disponibles.
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
 
-Al crear el contenido del mensaje, puede añadir personalización aprovechando los campos del archivo de entrada. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
+Al crear el contenido del mensaje, agregue personalización aprovechando los campos del archivo de entrada. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable="yes"}
+![Captura de pantalla que muestra opciones de personalización usando campos del archivo de entrada](assets/select-external-perso.png){zoomable="yes"}
 
 ## Archivo de muestra {#sample-file}
 
@@ -101,7 +101,7 @@ La web de Campaign le permite obtener una vista previa y enviar pruebas cuando s
 
 1. En el panel derecho de la pantalla aparece una vista previa del contenido de la entrega. Los elementos personalizados se sustituyen por los datos del perfil seleccionado en el panel izquierdo. [Más información sobre la vista previa del contenido de envío](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la vista previa del contenido de la entrega con elementos personalizados](assets/file-upload-preview.png){zoomable="yes"}
 
 1. Para enviar pruebas, haga clic en el botón **[!UICONTROL Enviar prueba]**.
 
@@ -113,6 +113,6 @@ La web de Campaign le permite obtener una vista previa y enviar pruebas cuando s
 
 1. Cuando se agreguen los perfiles de prueba y esté listo para enviar las pruebas, haga clic en el botón **[!UICONTROL Enviar prueba]** y confirme el envío.
 
-   ![](assets/file-upload-test.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el proceso de envío de pruebas](assets/file-upload-test.png){zoomable="yes"}
 
-1. Puede monitorizar el envío de la prueba en cualquier momento con el botón **[!UICONTROL Ver pruebas]**. [Más información sobre la supervisión de pruebas](../preview-test/test-deliveries.md#access-test-deliveries)
+1. Monitorice el envío de la prueba en cualquier momento con el botón **[!UICONTROL Ver pruebas]**. [Más información sobre la supervisión de pruebas](../preview-test/test-deliveries.md#access-test-deliveries)

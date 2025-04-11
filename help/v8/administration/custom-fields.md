@@ -2,20 +2,19 @@
 title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados y su visibilidad en la interfaz.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 24%
+source-wordcount: '1003'
+ht-degree: 20%
 
 ---
-
 
 # Configuración de los campos personalizados {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="Editar detalle personalizado"
->abstract="Se muestran todos los campos personalizados en la interfaz para el esquema seleccionado. Puede cambiar el orden en que aparecen en la interfaz mediante las flechas arriba y abajo, y agrupar los campos en subsecciones añadiendo separadores. Para eliminar un campo personalizado o editar la configuración, como las condiciones de visibilidad, haga clic en el botón de los tres puntos."
+>abstract="Se muestran todos los campos personalizados en la interfaz para el esquema seleccionado. Puede cambiar el orden en que se muestran en la interfaz mediante las flechas arriba y abajo y agrupar los campos en subsecciones añadiendo separadores. Para eliminar un campo personalizado o editar la configuración, como las condiciones de visibilidad, haga clic en el botón de los tres puntos."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -46,7 +45,7 @@ ht-degree: 24%
 
 Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Permiten personalizar esquemas incluyendo nuevos atributos para adaptarlos a las necesidades de la organización. Obtenga información sobre cómo ampliar un esquema en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
-Los campos personalizados se pueden mostrar en varias pantallas, como los detalles del perfil, en la interfaz web de Campaign. Los administradores pueden controlar qué campos son visibles y cómo aparecen. Estos cambios se aplican a todos los usuarios de Campaign.
+Los campos personalizados se pueden mostrar en varias pantallas, como los detalles de perfil en la interfaz web de Campaign. Los administradores pueden controlar qué campos son visibles y cómo aparecen. Estos cambios se aplican a todos los usuarios de Campaign.
 
 >[!NOTE]
 >
@@ -69,30 +68,30 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
    Utilice el filtro **[!UICONTROL Editable]** del panel de filtros para identificar rápidamente esquemas con campos personalizados.
 
-   ![](assets/custom-fields-open.png)
+   ![Captura de pantalla que muestra el menú Esquemas y el filtro Editable en el panel de navegación](assets/custom-fields-open.png)
 
-1. Seleccione el nombre del esquema en la lista para abrirlo. Una vista de esquema detallada muestra [Más información sobre los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Editar detalle personalizado]** para acceder a los campos personalizados. En este ejemplo, queremos agregar campos para el esquema **[!UICONTROL Recipients]**.
+1. Seleccione el nombre del esquema en la lista para abrirlo. Se muestra una vista de esquema detallada. [Más información sobre los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Editar detalle personalizado]** para acceder a los campos personalizados. En este ejemplo, se agregan campos para el esquema **[!UICONTROL Recipients]**.
 
-   ![](assets/custom-fields-edit.png)
+   ![Captura de pantalla que muestra el botón Editar detalle personalizado en la vista de esquema](assets/custom-fields-edit.png)
 
-1. Se muestra la lista de campos personalizados en la interfaz para la visualización del esquema. En este caso, el campo &quot;CRM Id&quot; es visible en la pantalla de detalles de los perfiles y se ha marcado como obligatorio.
+1. Aparecerá la lista de campos personalizados que se muestran en la interfaz para el esquema. En este caso, el campo &quot;CRM Id&quot; es visible en la pantalla de detalles de los perfiles y se ha marcado como obligatorio.
 
    | Configuración de campos personalizados | Procesamiento en la interfaz |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![Captura de pantalla que muestra la configuración de campos personalizados](assets/custom-fields-detail.png){zoomable="yes"} | ![Captura de pantalla que muestra el procesamiento del campo CRM Id en la interfaz](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. Para añadir un campo personalizado a la interfaz, haga clic en el botón de puntos suspensivos y elija una de las siguientes opciones:
 
    * **[!UICONTROL Seleccionar campos personalizados]**: seleccione uno o varios campos personalizados para mostrarlos en la interfaz.
    * **[!UICONTROL Rellenar automáticamente la lista de campos personalizados]**: agregue todos los campos personalizados definidos para el esquema a la interfaz.
 
-   ![](assets/custom-fields-add.png)
+   ![Captura de pantalla que muestra las opciones para agregar campos personalizados](assets/custom-fields-add.png)
 
 1. Una vez añadidos los campos personalizados, puede:
 
    * **Reordenar campos**: utilice las flechas arriba y abajo.
    * **Hacer los campos obligatorios**: Seleccione la casilla de verificación **Obligatorio**.
-   * **Editar configuración de campos**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Editar]**. [Más información](#settings)
+   * **Editar configuración de campo**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Editar]**. [Más información](#settings)
    * **Eliminar campos**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Eliminar]**.
    * **Organice los campos en subsecciones en la interfaz**: haga clic en el botón de los tres puntos situado junto a las flechas arriba y abajo y elija **[!UICONTROL Agregar separador]**. [Más información](#separator)
 
@@ -100,7 +99,7 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
 Para configurar opciones específicas para cada campo personalizado, haga clic en el botón de puntos suspensivos situado junto al campo deseado y seleccione **[!UICONTROL Editar]**.
 
-![](assets/custom-fields-settings.png)
+![Captura de pantalla que muestra el menú de configuración de los campos personalizados](assets/custom-fields-settings.png)
 
 Los ajustes disponibles son:
 
@@ -117,7 +116,7 @@ Los ajustes disponibles son:
 
   +++Ver ejemplo
 
-  ![](assets/custom-fields-ref.png)
+  ![Captura de pantalla que muestra un ejemplo de configuración de filtro para campos personalizados](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,7 +124,7 @@ Los ajustes disponibles son:
 
 ## Organizar campos personalizados en subsecciones {#separator}
 
-La interfaz de usuario web de Campaign le permite añadir separadores para agrupar campos personalizados en la interfaz y mejorar así la legibilidad. Para ello, siga estos pasos:
+La interfaz de usuario web de Campaign permite agregar separadores para agrupar los campos personalizados en la interfaz de usuario y mejorar así la legibilidad. Para ello, siga estos pasos:
 
 1. Haga clic en el botón de los tres puntos situado junto a las flechas arriba y abajo y seleccione **[!UICONTROL Agregar separador]**.
 
@@ -137,4 +136,4 @@ La interfaz de usuario web de Campaign le permite añadir separadores para agrup
 
    | Configuración de campos personalizados | Procesamiento en la interfaz |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![Captura de pantalla que muestra la configuración de un separador](assets/custom-fields-separator.png){zoomable="yes"} | ![Captura de pantalla que muestra el procesamiento de una subsección en la interfaz](assets/custom-fields-section.png){zoomable="yes"} |

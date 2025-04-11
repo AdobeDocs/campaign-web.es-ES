@@ -3,16 +3,16 @@ audience: end-user
 title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 18%
+source-wordcount: '533'
+ht-degree: 15%
 
 ---
 
 # Informes de campaña para el canal push {#campaign-reports-push-channel}
 
-Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal push. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal push. Obtenga información sobre cómo acceder a los informes de campaña en [esta página](campaign-reports.md).
 
 ## Resumen de envíos {#delivery-summary-push}
 
@@ -23,8 +23,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 
 El informe **[!UICONTROL Información general de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
 
-![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
-
+![Métricas de resumen de envío mostradas en el informe Información general de envío](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas push.
 
@@ -32,7 +31,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 * **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Errores]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
+* **[!UICONTROL Errores]**: Número total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Clics totales]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
@@ -40,16 +39,14 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 ### Estadísticas de público destinatario inicial {#delivery-summary-push-initial-target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Estadísticas de público destinatario inicial"
->abstract="La tabla **Estadísticas del público destinatario inicial** muestra datos relativos a los destinatarios"
+>abstract="La tabla **Estadísticas iniciales de audiencias de destino** muestra datos relativos a sus destinatarios."
 
 La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
 
-![](assets/campaign-reporting-push-target.png){zoomable="yes"}
-
+![Estadísticas de audiencia de destinatario iniciales mostradas en el informe](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas push.
 
@@ -57,7 +54,7 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en lista de bloqueados de la, etc.
+* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar reglas, como direcciones que faltan, en cuarentena o en la lista de bloqueados de la.
 
 +++
 
@@ -70,17 +67,17 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su envío. Las métricas se detallan a continuación.
 
-![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
+![Estadísticas de ejecución mostradas en el informe](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas push.
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente, en relación con el número de mensajes que se van a enviar.
 
 * **[!UICONTROL Errores]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje, error de carga útil, por ejemplo) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje o error de carga útil, por ejemplo) en relación con el número de mensajes que se van a enviar.
 
   Los tipos de error de notificaciones push se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
@@ -95,7 +92,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a cómo interactuaron los destinatarios con el envío. Las métricas se detallan a continuación.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![Flujos de clics generados mostrados en el informe](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++Obtenga más información sobre las métricas de informes de campañas push.
 
@@ -103,6 +100,6 @@ La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a c�
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
+* **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que hicieron clic en una entrega en relación con el número estimado de destinatarios objetivo que abrieron una entrega.
 
 +++

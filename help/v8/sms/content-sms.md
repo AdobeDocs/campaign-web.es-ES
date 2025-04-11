@@ -3,10 +3,10 @@ audience: end-user
 title: Diseño de un envío por SMS
 description: Aprenda a diseñar su envío de SMS
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 71%
+source-wordcount: '275'
+ht-degree: 37%
 
 ---
 
@@ -15,28 +15,28 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="Contenido SMS"
->abstract="Cree el contenido de sus envíos de SMS y personalícelo con campos de personalización, fragmentos de expresiones y contenido dinámico. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
+>abstract="Cree el contenido de sus envíos SMS y personalícelo con campos de personalización, fragmentos de expresiones y contenido dinámico. Para empezar a componer el mensaje, haga clic en el botón **Editar contenido**."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="Contenido del mensaje SMS"
->abstract="Defina el contenido del mensaje SMS. Para componer el mensaje, haga clic en el campo **Mensaje** e introduzca el contenido. Utilice el Editor de expresiones para añadir datos personalizados y contenido dinámico. También puede personalizar el nombre del remitente. De forma predeterminada, el seguimiento está habilitado para todas las entregas de SMS, de modo que puede medir cuándo los destinatarios hacen clic en los vínculos."
+>abstract="Defina el contenido del mensaje SMS. Para componer el mensaje, haga clic en el campo **Mensaje** e introduzca el contenido. Utilice el Editor de expresiones para añadir datos personalizados y contenido dinámico. También puede personalizar el nombre del remitente. De forma predeterminada, el seguimiento está habilitado para todas las entregas de SMS, lo que le permite medir cuándo los destinatarios hacen clic en los vínculos."
 
 Para diseñar el contenido de un envío SMS, siga estos pasos:
 
 1. En la página del envío, haga clic en el botón **[!UICONTROL Editar contenido]** para diseñar el contenido del SMS.
 
-1. En la página **[!UICONTROL Editar contenido]**, puede personalizar el nombre del remitente accediendo al **[!UICONTROL Campo del remitente]** e introduciendo el nombre preferido.
+1. En la página **[!UICONTROL Editar contenido]**, personalice el nombre del remitente. Para ello, acceda al **[!UICONTROL campo Remitente]** e introduzca el nombre preferido.
 
-   Además, al hacer clic en **[!UICONTROL Abrir cuadro de diálogo de personalización]**, puede incluir campos de personalización, fragmentos de expresiones y contenido dinámico en el mensaje.
+   Además, haga clic en **[!UICONTROL Abrir cuadro de diálogo de personalización]** para incluir campos de personalización, fragmentos de expresiones y contenido dinámico en el mensaje.
 
-   ![](assets/sms_content_1.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la página Editar contenido con opciones para personalizar el nombre del remitente y agregar campos de personalización](assets/sms_content_1.png){zoomable="yes"}
 
 1. Escriba su mensaje de texto en el campo **[!UICONTROL Mensaje]** o haga clic en la opción **[!UICONTROL Abrir cuadro de diálogo de personalización]** para definir contenido y agregar contenido dinámico. [Más información](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el campo Mensaje con opciones para agregar contenido dinámico](assets/sms_content_2.png){zoomable="yes"}
 
-1. De forma predeterminada, el seguimiento está habilitado para los envíos. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**.
+1. De forma predeterminada, el seguimiento está habilitado para los envíos. Deshabilite esta opción de la **[!UICONTROL sección de características opcionales]** si es necesario.
 
 1. Haga clic en **[!UICONTROL Configuración]** para acceder a las opciones avanzadas relacionadas con la plantilla de envíos. [Más información](../advanced-settings/delivery-settings.md)
 
@@ -44,4 +44,4 @@ Para diseñar el contenido de un envío SMS, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa.
 
-Ahora puede revisar y enviar su mensaje SMS a su público.
+Revise y envíe su mensaje SMS a su audiencia.

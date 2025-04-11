@@ -3,9 +3,9 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cambiar fuente de datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Cambiar fuente de datos
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '354'
 ht-degree: 13%
 
 ---
@@ -23,15 +23,15 @@ En los flujos de trabajo, los datos que pasan de una actividad a otra mediante t
 
 En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que deba forzar el flujo de trabajo para que utilice una base de datos diferente para realizar estas operaciones agregando una actividad **[!UICONTROL Cambiar fuente de datos]**.
 
-Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las actividades **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** no deben agregarse en una fila. Si necesita usar ambas actividades consecutivamente, asegúrese de incluir una actividad **[!UICONTROL Enrichement]** entre ellas. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+>Tenga en cuenta que las actividades **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** no deben agregarse en una fila. Si necesita usar ambas actividades consecutivamente, incluya una actividad **[!UICONTROL Enrichment]** entre ellas. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Configuración de la actividad Cambiar fuente de datos {#configure}
 
-Siga estos pasos para configurar la actividad **Cambiar dimensión**:
+Siga estos pasos para configurar la actividad **Cambiar fuente de datos**:
 
-![](../assets/workflow-change-data-source-add.png)
+![Captura de pantalla que muestra cómo agregar la actividad Cambiar fuente de datos a un flujo de trabajo.](../assets/workflow-change-data-source-add.png)
 
 1. Agregue una actividad **Cambiar fuente de datos** a su flujo de trabajo.
 
@@ -65,6 +65,6 @@ Siga estos pasos para configurar la actividad **Cambiar dimensión**:
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

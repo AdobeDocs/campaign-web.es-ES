@@ -4,10 +4,10 @@ title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 42%
+source-wordcount: '803'
+ht-degree: 37%
 
 ---
 
@@ -46,7 +46,7 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
 
    >[!CAUTION]
    >
-   >Asegúrese de que las últimas olas no superen la fecha límite de entrega definida en la pestaña [Validez](delivery-settings.md#validity); de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Verificación de programación de ondas]**, garantiza que la última ola se programe antes del límite de validez de la entrega. Obtenga más información sobre las reglas de control en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es).
+   >Asegúrese de que las últimas olas no superen la fecha límite de entrega definida en la pestaña [Validez](delivery-settings.md#validity); de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Verificación de programación de ondas]**, garantiza que la última ola se programe antes del límite de validez de la entrega. Obtenga más información acerca de las reglas de control en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es).
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
 
@@ -56,7 +56,7 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
 
 Si selecciona esta opción, todas las olas tienen el mismo tamaño (excepto la última) y el retardo entre cada ola es siempre el mismo.
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![Ejemplo de olas con el mismo tamaño](assets/waves-same-size.png){zoomable="yes"}
 
 * Especifique el tamaño de todas las olas en las que divide la entrega. Puede introducir un porcentaje o un valor numérico. Solo la última ola puede variar en tamaño, ya que debe incluir el número restante de mensajes.
 
@@ -70,17 +70,17 @@ Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la ca
 
 Para ello, seleccione la opción **[!UICONTROL Programar múltiples ondas del mismo tamaño]**. Escriba **[!UICONTROL 20]** como tamaño de olas y **[!UICONTROL 1 día]** en el campo **[!UICONTROL Intervalo]**.
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![Ejemplo de olas para el procesamiento del centro de llamadas](assets/waves-call-center.png){zoomable="yes"}
 
 ## Programar las olas de acuerdo con un calendario {#waves-calendar}
 
-Si selecciona esta opción, debe definir el día y la hora de inicio de cada ola que envíe, así como el tamaño de cada ola.
+Si selecciona esta opción, defina el día/hora de inicio de cada ola que esté enviando, así como el tamaño de cada ola.
 
 * En los campos **[!UICONTROL Iniciar]**, especifique el retardo entre el inicio de dos olas consecutivas.
 
 * En la columna **[!UICONTROL Tamaño]**, introduzca un número fijo o un porcentaje.
 
-Añada tantas olas como desee. Puede reordenarlos según sus necesidades.
+Añada tantas olas como sea necesario. Reordene según sus necesidades.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ Añada tantas olas como desee. Puede reordenarlos según sus necesidades.
 
 En el ejemplo siguiente, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![Ejemplo de olas programadas por el calendario](assets/waves-calendar.png){zoomable="yes"}
 
 Un caso de uso común para utilizar varias olas según un calendario es durante el proceso de aceleración.
 
 Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
 
-Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante el uso de olas. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
+Para evitar que se lo considere correo no deseado, aumente progresivamente el volumen enviado mediante el uso de olas. Esto garantiza un desarrollo fluido de la fase de inicio y reduce la tasa general de direcciones no válidas.
 
 Para hacer esto, seleccione la opción **[!UICONTROL Programar ondas según un calendario]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 %, la tercera en 20 %, etc.
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![Ejemplo de olas para el proceso de aceleración](assets/waves-ramp-up.png){zoomable="yes"}

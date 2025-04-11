@@ -3,66 +3,64 @@ audience: end-user
 title: Monitorización de mensajes transaccionales
 description: Obtenga información sobre cómo monitorizar un mensaje transaccional en la interfaz de usuario web de Campaign
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 15%
+source-wordcount: '301'
+ht-degree: 5%
 
 ---
 
 # Monitorización de mensajes transaccionales
 
-Después de la publicación y el envío del mensaje transaccional, puede tener informes y registros sobre él.
+Después de publicar y enviar el mensaje transaccional, puede acceder a los informes y registros relacionados con él.
 
 ## Registros de mensajes transaccionales {#transactional-logs}
 
-Una vez publicado el mensaje, puede revisar su ejecución haciendo clic en el botón **[!UICONTROL Registros]**.
+Una vez publicado el mensaje, revise su ejecución haciendo clic en el botón **[!UICONTROL Registros]**.
 
-![](assets/transactional-logs.png){zoomable="yes"}
+![Captura de pantalla que muestra el botón Registros en la interfaz de mensajes transaccionales.](assets/transactional-logs.png){zoomable="yes"}
 
-Esto le proporciona acceso a registros detallados sobre la publicación del mensaje en la pestaña **[!UICONTROL logs]**.
+Esto proporciona acceso a registros detallados sobre la publicación del mensaje en la pestaña **[!UICONTROL logs]**.
 
-![](assets/transactional-logslist.png){zoomable="yes"}
+![Captura de pantalla que muestra la lista de registros detallada en la pestaña de registros.](assets/transactional-logslist.png){zoomable="yes"}
 
 Además, puede ver la lista de **[!UICONTROL Pruebas]** enviadas junto con sus registros en la pestaña correspondiente.
 
 ## Historial de mensajes transaccionales {#transactional-history}
 
-En la sección **[!UICONTROL Mensajes activados]**, puede ver detalles sobre todos los mensajes transaccionales que se han ejecutado. Para tener acceso a esto, vaya a **[!UICONTROL Mensajes transaccionales]**. En la pestaña **[!UICONTROL History]**, puede ver la lista de mensajes transaccionales ejecutados junto con su estado y la información adicional.
+En la sección **[!UICONTROL Mensajes activados]**, vea los detalles sobre todos los mensajes transaccionales ejecutados. Para tener acceso a esto, vaya a **[!UICONTROL Mensajes transaccionales]**. En la ficha **[!UICONTROL History]**, vea la lista de mensajes transaccionales ejecutados junto con su estado e información adicional.
 
-![](assets/transactional-history.png){zoomable="yes"}
+![Captura de pantalla que muestra la ficha de historial con una lista de mensajes transaccionales ejecutados.](assets/transactional-history.png){zoomable="yes"}
 
-Investigue allí para encontrar su mensaje y haga clic en él.
-Puede ver los detalles allí.
+Busque su mensaje y haga clic en él para ver sus detalles.
 
-![](assets/transactional-reporting.png){zoomable="yes"}
+![Captura de pantalla que muestra los informes detallados de un mensaje transaccional seleccionado.](assets/transactional-reporting.png){zoomable="yes"}
 
 ## Historial de eventos {#event-history}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Historial de eventos de la mensajería transaccional"
->abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
+>abstract="Puede ver los eventos que almacenan en déclencheur el mensaje transaccional."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="Vista previa del historial de eventos de la mensajería transaccional"
->abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
+>abstract="Puede ver los eventos que almacenan en déclencheur el mensaje transaccional."
 
-También puede obtener una vista de los eventos que almacenan en déclencheur el mensaje transaccional.
-Para verlos, vaya a la sección **[!UICONTROL Historial de eventos]**.
+Puede ver los eventos que almacenan en déclencheur el mensaje transaccional. Para acceder a ellos, vaya a la sección **[!UICONTROL Historial de eventos]**.
 
-Se pueden ver con el nombre del tipo de evento.
+Los eventos se muestran con su nombre de tipo de evento.
 
-![](assets/event-history.png){zoomable="yes"}
+![Captura de pantalla que muestra la sección del historial de eventos con nombres de tipo de evento.](assets/event-history.png){zoomable="yes"}
 
-Para obtener más información, como se muestra a continuación, haga clic en el ID **[!UICONTROL Evento]**:
+Haga clic en el ID **[!UICONTROL Evento]** para obtener más información, como:
 
 * La información de contacto
-* Todo sobre las fechas del proceso
+* Información sobre las fechas de proceso
 
-Incluso puede obtener una vista previa del mensaje enviado con el botón **[!UICONTROL Vista previa]** y ver los datos recibidos que ponen en déclencheur el mensaje con el botón **[!UICONTROL Ver datos]**.
+Previsualice el mensaje enviado con el botón **[!UICONTROL Vista previa]** y vea los datos recibidos que activaron el mensaje con el botón **[!UICONTROL Ver datos]**.
 
-![](assets/event-details.png){zoomable="yes"}
+![Captura de pantalla que muestra información detallada del evento, incluidas las opciones de vista previa y visualización de datos.](assets/event-details.png){zoomable="yes"}
 
 El botón **[!UICONTROL Más]** le permite eliminar el historial de eventos.

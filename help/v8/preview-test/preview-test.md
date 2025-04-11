@@ -3,9 +3,9 @@ audience: end-user
 title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 17%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 17%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=es" text="Envío de pruebas"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=es#test-landing-page" text="Páginas de aterrizaje de prueba"
 
-Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje. Este es un paso crucial para garantizar que sea precisa, pero también que esté libre de errores, tanto en la configuración del contenido como de la personalización.
+Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje. Este paso garantiza la precisión y elimina los errores tanto en la configuración de contenido como de personalización.
 
 [!DNL Adobe Campaign Web user interface] le permite:
 
@@ -28,9 +28,9 @@ Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles 
 * [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares de escritorio, móviles y basados en la web
 * [Previsualización y prueba de las páginas de aterrizaje](../landing-pages/create-lp.md#test-landing-page)
 
-Estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del envío o desde el [Designer de correo electrónico](../email/get-started-email-designer.md).
+Realice estas acciones con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla Editar contenido de su envío o desde el [Designer de correo electrónico](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png){zoomable="yes"}
+![Botón Simular contenido en la pantalla de edición de contenido de tu envío](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

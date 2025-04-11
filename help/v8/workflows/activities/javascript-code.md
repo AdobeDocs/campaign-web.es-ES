@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo JavaScript code
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo JavaScript code
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 34%
+source-wordcount: '965'
+ht-degree: 23%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="La actividad de **Código JavaScript** le permite ejecutar una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Esto le permite realizar acciones o recopilar información de la base de datos. Utilice actividades de código JavaScript **sencillo** para ejecutar un fragmento de código en la ejecución del flujo de trabajo. **Avanzadas** Las actividades de código JavaScript permiten realizar operaciones más complejas ejecutando dos fragmentos de código diferentes en orden secuencial. La primera vez que se inicia el flujo de trabajo, se ejecuta la primera llamada. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el código definido en la segunda llamada."
+>abstract="La actividad de **Código JavaScript** le permite ejecutar una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Esto permite realizar acciones o recopilar información de la base de datos. Utilice **Simple** actividades de código JavaScript para ejecutar un fragmento de código durante la ejecución del flujo de trabajo. Las actividades de código JavaScript **Advanced** le permiten realizar operaciones más complejas mediante la ejecución secuencial de dos fragmentos de código diferentes. La primera vez que se inicia el flujo de trabajo, se ejecuta la primera llamada de. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el código definido en la segunda llamada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="Fragmento de JavaScript"
->abstract="Defina la secuencia de comandos que se ejecutará al ejecutar la actividad. Si está configurando una actividad de JavaScript **avanzada**, es necesario editar dos fragmentos de código: el primer código de llamada que se ejecuta en la primera ejecución del flujo de trabajo y el siguiente código de llamada que se ejecuta en las siguientes llamadas del flujo de trabajo."
+>abstract="Defina la secuencia de comandos que se ejecutará al ejecutar la actividad. Si está configurando una actividad de JavaScript **Advanced**, edite dos fragmentos de código: el primer código de llamada que se ejecutará durante la primera ejecución del flujo de trabajo y el siguiente que se ejecutará durante las ejecuciones posteriores del flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
@@ -37,7 +37,7 @@ ht-degree: 34%
 >title="Errores de proceso"
 >abstract="Active la opción **[!UICONTROL Procesar errores]** para mantener los errores que se producen durante la ejecución del script en una transición de salida adicional."
 
-La actividad **JavaScript code** es una actividad de **administración de datos**. Utilice esta actividad para ejecutar un script de JavaScript en el contexto de un flujo de trabajo. Esto le permite recopilar información de la base de datos o realizar otras operaciones complejas.
+La actividad **JavaScript code** es una actividad de **administración de datos**. Utilice esta actividad para ejecutar un script de JavaScript en el contexto de un flujo de trabajo. Esto permite recopilar información de la base de datos o realizar otras operaciones complejas.
 
 ## Configuración de la actividad JavaScript code {#javascript-code-configuration}
 
@@ -48,25 +48,25 @@ Siga estos pasos para configurar la actividad **JavaScript code**:
 1. Elija el tipo de actividad que desea crear:
 
    * **Simple**: ejecute un fragmento de código.
-   * **Avanzado**: esta opción le permite realizar operaciones más avanzadas mediante la ejecución de dos fragmentos de código diferentes. [Aprenda a configurar una actividad avanzada de JavaScript](#advanced)
+   * **Avanzado**: realice operaciones más avanzadas ejecutando dos fragmentos de código diferentes. [Aprenda a configurar una actividad avanzada de JavaScript](#advanced)
 
    >[!NOTE]
    >
-   >Con la interfaz de usuario web de Campaign, hemos consolidado dos actividades en una al combinar las funcionalidades de código JavaScript **Simple** y **Advanced**. Esta consolidación no afecta a la funcionalidad de la actividad de ninguna manera.
+   >Con la interfaz de usuario web de Campaign, se han consolidado dos actividades en una al combinar las funcionalidades de código JavaScript **Simple** y **Advanced**. Esta consolidación no afecta a la funcionalidad de la actividad.
 
-1. Confirme y haga clic en el botón **[!UICONTROL Editar código]** para abrir el editor de expresiones. El panel izquierdo proporciona sintaxis predefinida que puede aprovechar para crear su código, incluidas variables de evento. [Aprenda a trabajar con variables de eventos y el editor de expresiones](../event-variables.md)
+1. Confirme y, a continuación, haga clic en el botón **[!UICONTROL Editar código]** para abrir el editor de expresiones. El panel izquierdo proporciona sintaxis predefinida que puede utilizar para generar el código, incluidas las variables de evento. [Aprenda a trabajar con variables de eventos y el editor de expresiones](../event-variables.md).
 
-   ![](../assets/javascript-editor.png)
+   ![Interfaz del editor de expresiones para la actividad de código de JavaScript](../assets/javascript-editor.png)
 
 1. En la sección **[!UICONTROL Execution]**, configure el retraso para detener la actividad después de un período de ejecución. De forma predeterminada, la fase de ejecución no puede exceder de 1 hora. Tras este retraso, el proceso se anula con un mensaje de error y la ejecución de la actividad falla. Para omitir este límite, establezca el valor en 0.
 
-   ![](../assets/javascript-config.png)
+   ![Interfaz de configuración para retraso de ejecución](../assets/javascript-config.png)
 
 1. Active la opción **[!UICONTROL Procesar errores]** para mantener los errores que se producen durante la ejecución del script en una transición de salida adicional.
 
 ## Actividades de código JavaScript avanzadas {#advanced}
 
-Las actividades avanzadas de JavaScript le permiten realizar operaciones complejas. Le permite hacer lo siguiente:
+Las actividades avanzadas de JavaScript le permiten realizar operaciones complejas. Estas actividades permiten:
 
 * Ejecute dos fragmentos de código diferentes. El primer fragmento de código se ejecuta la primera vez que se inicia el flujo de trabajo. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el fragmento de código definido en la segunda llamada.
 * Añada varias transiciones de salida con las que pueda interactuar dinámicamente mediante una secuencia de comandos.
@@ -76,13 +76,13 @@ Para configurar una actividad de Advanced JavaScript code, siga estos pasos:
 1. Seleccione el tipo **Advanced** y, a continuación, configure los fragmentos de código para ejecutar:
 
    * Haga clic en **[!UICONTROL Editar el código de la primera llamada]** para definir el script que se ejecutará durante la primera llamada.
-   * Haga clic en **[!UICONTROL Editar código de llamada siguiente]** para definir el script que se ejecutará durante las siguientes llamadas del flujo de trabajo. (opcional)
+   * Haga clic en **[!UICONTROL Editar código de llamada siguiente]** para definir el script que se ejecutará durante las llamadas subsiguientes del flujo de trabajo. (opcional)
 
 1. Para añadir una o varias transiciones de salida, haga clic en el botón **[!UICONTROL Añadir transiciones]** y especifique una etiqueta y un nombre interno para cada transición.
 
-   En este ejemplo hemos configurado dos transiciones activadas por la secuencia de comandos en el fragmento de código en función de condiciones específicas.
+   En este ejemplo, la secuencia de comandos configura y activa dos transiciones en el fragmento de código en función de condiciones específicas.
 
-   ![](../assets/javascript-transitions.png)
+   ![Ejemplo de transiciones configuradas](../assets/javascript-transitions.png)
 
 1. Complete la configuración de la actividad e inicie el flujo de trabajo.
 
@@ -92,14 +92,14 @@ Para configurar una actividad de Advanced JavaScript code, siga estos pasos:
 
 Este ejemplo muestra cómo inicializar una variable en función del número de perfiles objetivo por un flujo de trabajo.
 
-![](../assets/javascript-example1.png)
+![Ejemplo de inicialización de variable basada en el recuento de perfiles](../assets/javascript-example1.png)
 
-VIP A continuación, se muestran perfiles de segmentación de perfiles de la base de datos de. Queremos crear una variable denominada &quot;canal&quot; con un valor que dependa del número de perfiles objetivo por la actividad Generar audiencia:
+En este ejemplo, los perfiles de VIP de la base de datos están segmentados. Se crea una variable denominada &quot;canal&quot; con un valor que depende del número de perfiles objetivo por la actividad Generar audiencia:
 
-* Si hay más de 1000 perfiles objetivo, inicialice la variable con el valor &quot;email&quot;.
+* Si hay más de 1000 perfiles de destino, inicialice la variable con el valor &quot;email&quot;.
 * De lo contrario, inícielo con el valor &quot;sms&quot;.
 
-Para ello, siga estos pasos:
+Para conseguir esto, siga estos pasos:
 
 1. Agregue una actividad **JavaScript code** con el tipo **Simple** después de la actividad **Generar audiencia**.
 
@@ -107,9 +107,9 @@ Para ello, siga estos pasos:
 
    ```
    if (vars.recCount > 1000)
-       vars.channel ="email"
+       vars.channel = "email";
    else
-       vars.channel = "sms"
+       vars.channel = "sms";
    ```
 
 1. Inicie el flujo de trabajo. La variable &quot;channel&quot; se crea con el valor &quot;email&quot; o &quot;sms&quot;, según el número de perfiles objetivo por la actividad **Generar audiencia**.
@@ -118,13 +118,13 @@ Para ello, siga estos pasos:
 
 Este ejemplo muestra cómo almacenar en déclencheur una transición en función del valor de una variable.
 
-![](../assets/javascript-example2-transitions.png)
+![Ejemplo de transiciones activadas por valores de variables](../assets/javascript-example2-transitions.png)
 
-En este caso, el flujo de trabajo comienza con una actividad **Señal externa**, a la cual se pasa una variable (`interest`) desde otro flujo de trabajo. El valor de la variable es &quot;running&quot; o &quot;yoga&quot;, según las operaciones de filtrado realizadas en el flujo de trabajo inicial.
+En este ejemplo, el flujo de trabajo comienza con una actividad **Señal externa**, a la que se pasa una variable (`interest`) desde otro flujo de trabajo. El valor de la variable es &quot;running&quot; o &quot;yoga&quot;, según las operaciones de filtrado realizadas en el flujo de trabajo inicial.
 
-Queremos almacenar en déclencheur diferentes transiciones en el flujo de trabajo, en función del valor de la variable.
+Las distintas transiciones del flujo de trabajo se activan en función del valor de la variable.
 
-Para ello, siga estos pasos:
+Para conseguir esto, siga estos pasos:
 
 1. Agregue una actividad **JavaScript code** después de la actividad External signal con el tipo **Advanced**.
 
@@ -133,10 +133,10 @@ Para ello, siga estos pasos:
 1. Haga clic en **Editar el código de la primera llamada** y configure el fragmento de código como se muestra a continuación:
 
    ```
-   if (vars.interest=="running")
+   if (vars.interest == "running")
        task.postEvent(task.transitionByName("running"));
    else
        task.postEvent(task.transitionByName("yoga"));
    ```
 
-1. Complete la configuración de cada transición para adaptarla a sus necesidades e inicie el flujo de trabajo. Una de las dos transiciones de salida está activada, según el valor de la variable `interest` que se ha pasado a través de la actividad **Señal externa**.
+1. Complete la configuración de cada transición para adaptarla a sus necesidades y, a continuación, inicie el flujo de trabajo. Una de las dos transiciones de salida se activa en función del valor de la variable `interest` pasada a través de la actividad **Señal externa**.

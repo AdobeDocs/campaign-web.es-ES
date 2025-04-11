@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 31%
+source-wordcount: '1253'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,7 @@ La actividad **Transferir archivo** es una actividad **Administración de datos*
 
 >[!NOTE]
 >
->Con la interfaz de usuario web de Campaign, hemos consolidado dos actividades en una al combinar las capacidades **Transferencia de archivos** y **Descarga web**. Esta consolidación no afecta a la funcionalidad de la actividad de ninguna manera.
+>Con la interfaz de usuario web de Campaign, se han consolidado dos actividades en una al combinar las capacidades **Transferencia de archivos** y **Descarga web**. Esta consolidación no afecta a la funcionalidad de la actividad de ninguna manera.
 
 Siga los pasos detallados a continuación para configurar la actividad **Transferir archivo**.
 
@@ -49,15 +49,15 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
 
 1. Agregue una actividad **Transferir archivo** al flujo de trabajo y, a continuación, especifique el tipo de transferencia que se realizará según el protocolo que desee utilizar:
 
-   * Para el protocolo HTTP, seleccione **[!UICONTROL Descarga web]**. Esto le permite hacer que un GET o POST descargue un archivo en una dirección URL explícita, una cuenta externa o una instancia de Adobe Campaign.
+   * Para el protocolo HTTP, seleccione **[!UICONTROL Descarga web]**. Esto le permite realizar una operación GET o POST para descargar un archivo en una dirección URL explícita, una cuenta externa o una instancia de Adobe Campaign.
    * Para otros protocolos de servidor a servidor y acciones relacionadas, seleccione **[!UICONTROL Transferencia de archivos]**.
 
-1. Seleccione la acción que se realizará con la actividad. Las acciones disponibles dependen del tipo de transferencia que haya seleccionado. Expanda las secciones siguientes para obtener más información.
+1. Seleccione la acción que se realizará con la actividad. Las acciones disponibles dependen del tipo de transferencia seleccionado. Expanda las secciones siguientes para obtener más información.
 
    +++Acciones disponibles con las actividades de tipo **Transferencia de archivos**
 
    * **[!UICONTROL Descarga de archivos]**: Descargue un archivo del servidor.
-   * **[!UICONTROL Carga de archivos]**: cargue un archivo en el servidor.
+   * **[!UICONTROL Carga de archivos]**: Cargue un archivo en el servidor.
    * **[!UICONTROL Comprobar si el archivo existe]**: Compruebe si hay un archivo determinado en el servidor. Genera dos transiciones salientes después de la actividad: &quot;El archivo existe&quot; y &quot;El archivo no existe&quot;.
    * **[!UICONTROL Lista de archivos]**: enumera todos los archivos disponibles en el servidor.
 
@@ -70,7 +70,7 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
 
 +++
 
-   ![](../assets/workflow-transfer-file-action.png)
+   ![Captura de pantalla que muestra opciones de acción de archivo de transferencia de flujo de trabajo](../assets/workflow-transfer-file-action.png)
 
 1. De forma predeterminada, para las acciones de carga de archivos, la actividad utiliza el archivo especificado en la actividad anterior. Para usar un archivo diferente, desactiva la opción **[!UICONTROL Usar archivo de actividad anterior]** y haz clic en el botón **[!UICONTROL Agregar archivo]**.
 
@@ -84,9 +84,9 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
    * **[!UICONTROL Configuración rápida]**: escriba la dirección URL del archivo (o carpeta para acciones de lista de archivos).
    * **[!UICONTROL Adobe Campaign instance]** (actividades de tipo Web download): Descargue un archivo de un servidor de instancias de Adobe Campaign.
 
-   ![](../assets/workflow-transfer-file-server.png)
+   ![Captura de pantalla que muestra las opciones de configuración del servidor de archivos de transferencia de flujo de trabajo](../assets/workflow-transfer-file-server.png)
 
-1. Para las acciones del POST de descarga web, puede pasar parámetros adicionales con la operación. Para ello, haga clic en el botón **[!UICONTROL Agregar parámetro]** y después especifique el nombre y el valor de los parámetros. Puede añadir tantos parámetros como sea necesario.
+1. Para las acciones POST de descarga web, puede pasar parámetros adicionales con la operación. Para ello, haga clic en el botón **[!UICONTROL Agregar parámetro]** y, a continuación, especifique el nombre y el valor de los parámetros. Puede añadir tantos parámetros como sea necesario.
 
 1. De forma predeterminada, para la carga de archivos, los archivos cargados en un servidor se guardan automáticamente. Si no desea conservar este historial, desactive la opción **[!UICONTROL Mantener el historial de archivos enviados]**.
 
@@ -99,31 +99,31 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
 
 Cada vez que se ejecuta una actividad de **[!UICONTROL Transferencia de archivos]**, almacena los archivos cargados o descargados en una carpeta específica. Se crea una carpeta para cada actividad de Transferencia de archivos de un flujo de trabajo. De manera predeterminada, los archivos se guardan en el directorio de almacenamiento predeterminado de la carpeta de instalación de Adobe Campaign (`/vars`) antes de procesarse. Para usar una carpeta específica, desactive la opción **[!UICONTROL Usar un directorio de almacenamiento predeterminado]** e introduzca la ruta del directorio.
 
-![](../assets/workflow-transfer-file-historization.png)
+![Captura de pantalla que muestra la configuración de historial de archivos de transferencia de flujo de trabajo](../assets/workflow-transfer-file-historization.png)
 
-Es importante poder limitar el tamaño de esta carpeta para conservar el espacio físico en el servidor. Para ello, puede definir un número máximo de archivos o un tamaño total para la carpeta de la actividad. De forma predeterminada, se autorizan 100 archivos y 50 MB.
+Es importante limitar el tamaño de esta carpeta para conservar el espacio físico en el servidor. Para ello, defina un número máximo de archivos o un tamaño total para la carpeta de la actividad. De forma predeterminada, se autorizan 100 archivos y 50 MB.
 
 Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera:
 
 * Solo se tienen en cuenta los archivos creados más de 24 horas antes de la ejecución de la actividad.
-* Si el número de archivos que se tienen en cuenta es mayor que el valor del campo **[!UICONTROL Número de archivos]**, se eliminarán los archivos más antiguos hasta que se alcance el número máximo de archivos permitidos.
-* Si el tamaño total de los archivos que se tienen en cuenta es mayor que el valor del parámetro **[!UICONTROL Tamaño máximo (en MB)]**, se eliminarán los archivos más antiguos hasta que se alcance el Tamaño máximo (en MB) permitido.
+* Si el número de archivos que se tienen en cuenta supera el valor del campo **[!UICONTROL Número de archivos]**, se eliminarán los archivos más antiguos hasta que se alcance el número máximo de archivos permitidos.
+* Si el tamaño total de los archivos que se tienen en cuenta supera el valor del parámetro **[!UICONTROL Tamaño máximo (en MB)]**, se eliminarán los archivos más antiguos hasta que se alcance el tamaño máximo permitido.
 
 >[!CAUTION]
 >
->Si la actividad no se vuelve a ejecutar, no se comprueba ni depura la carpeta. Tenga esto en cuenta a la hora de transferir archivos de gran tamaño.
+>Si la actividad no se vuelve a ejecutar, no se comprueba ni depura la carpeta. Tenga cuidado al transferir archivos grandes.
 
 ## Opciones avanzadas y de administración de errores {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Eliminar los archivos de origen tras la transferencia"
->abstract="Borre los archivos de origen cuando haya realizado correctamente una transferencia."
+>abstract="Borre los archivos de origen después de una transferencia correcta."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="Mostrar los registros de sesión"
->abstract="La información relacionada con la operación de transferencia se muestra en los registros de flujo de trabajo."
+>abstract="La información relacionada con la operación de transferencia se muestra en los registros del flujo de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"

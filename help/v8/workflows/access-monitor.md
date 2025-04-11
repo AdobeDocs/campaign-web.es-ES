@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 28%
+source-wordcount: '351'
+ht-degree: 17%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 28%
 >title="Flujos de trabajo"
 >abstract="En esta pantalla, puede acceder a la lista completa de flujos de trabajo de la campaña e independientes, comprobar su estado actual, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo. Vaya a la pestaña “Plantillas” para acceder a las plantillas de flujo de trabajo disponibles."
 
-El menú **[!UICONTROL Flujos de trabajo]** le permite acceder a la lista completa de flujos de trabajo. Esta lista incluye **flujos de trabajo independientes** que se han creado a partir de esta pantalla, y **flujos de trabajo de campaña** que se han creado dentro de una campaña.
+El menú **[!UICONTROL Flujos de trabajo]** proporciona acceso a la lista completa de flujos de trabajo. Esta lista incluye **flujos de trabajo independientes**, creados a partir de esta pantalla, y **flujos de trabajo de campaña**, creados dentro de una campaña.
 
-![](assets/workflow-list.png){zoomable="yes"}
+![Pantalla de lista de flujos de trabajo que muestra flujos de trabajo independientes y de campaña](assets/workflow-list.png){zoomable="yes"}
 
 Cada flujo de trabajo de la lista muestra información sobre su [estado actual](#status), la última vez que se ejecutó o modificó, y la siguiente fecha y hora de ejecución programada.
 
-Puede personalizar las columnas mostradas haciendo clic en el icono **[!UICONTROL Configurar la columna para un diseño personalizado]** situado en la esquina superior derecha de la lista. Esto permite agregar información adicional a la lista, como la última actividad con error para cada flujo de trabajo o la dimensión de segmentación aplicada.
+Personalice las columnas mostradas haciendo clic en el icono **[!UICONTROL Configurar columna para un diseño personalizado]** ubicado en la esquina superior derecha de la lista. Esto le permite agregar información adicional a la lista, como la última actividad con error para cada flujo de trabajo o la dimensión de segmentación aplicada.
 
-Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. Por ejemplo, puede filtrar los flujos de trabajo para mostrar solo los que pertenecen a una campaña o los procesados durante un intervalo de fechas específico.
+Además, hay disponible una barra de búsqueda y filtros para simplificar la búsqueda dentro de la lista. Por ejemplo, filtre los flujos de trabajo para mostrar solo los que pertenecen a una campaña o los procesados durante un intervalo de fechas específico.
 
 Para duplicar o eliminar un flujo de trabajo, haga clic en el botón de puntos suspensivos y luego seleccione **[!UICONTROL Duplicar]** o **[!UICONTROL Eliminar]**.
 
@@ -47,8 +47,8 @@ Encontrará información detallada sobre cómo iniciar y supervisar la ejecució
 
 ## Plantillas de flujo de trabajo {#templates}
 
-La ficha **[!UICONTROL Plantillas]** enumera todas las plantillas de flujos de trabajo disponibles.
+La ficha **[!UICONTROL Plantillas]** enumera todas las plantillas de flujo de trabajo disponibles.
 
 Las plantillas de flujo de trabajo contienen actividades preconfiguradas y configuraciones de propiedad generales que se pueden reutilizar para crear nuevos flujos de trabajo.
 
-Puede crear plantillas de flujo de trabajo a partir de un flujo de trabajo existente o desde cero. [Aprenda a crear plantillas de flujo de trabajo](create-workflow.md#workflow-templates)
+Cree plantillas de flujo de trabajo desde un flujo de trabajo existente o desde cero. [Aprenda a crear plantillas de flujo de trabajo](create-workflow.md#workflow-templates)

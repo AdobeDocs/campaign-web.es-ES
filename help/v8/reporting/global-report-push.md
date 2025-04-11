@@ -3,10 +3,10 @@ audience: end-user
 title: Informes globales del canal push
 description: Comprensión de los informes globales del canal push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 25%
+source-wordcount: '600'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Info
 
 El informe **[!UICONTROL Información general de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con cada envío de notificaciones push. Las métricas se detallan a continuación.
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![Métricas de resumen de envíos que muestran KPI relacionados con el rendimiento de las notificaciones push.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -50,7 +50,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** presentan datos relacionados con sus destinatarios para cada envío de notificación push enviado. Las métricas se detallan a continuación.
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![Métricas de audiencia segmentadas que muestran datos relacionados con los destinatarios y exclusiones para las notificaciones push.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -58,7 +58,7 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** presentan datos re
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Exclusión]**: número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en la lista de bloqueados de la, etc.
+* **[!UICONTROL Exclusión]**: número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en lista de bloqueados de la y motivos similares.
 
 +++
 
@@ -71,7 +71,7 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** presentan datos re
 
 La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío de notificación push. Las métricas se detallan a continuación.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![Métricas de estadísticas de envío que muestran tasas de éxito, errores y cuarentenas para notificaciones push.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Más información sobre las Métricas de estadísticas de envío.
 
@@ -81,7 +81,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 * **[!UICONTROL Errores / Devoluciones]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje, error de carga útil, por ejemplo) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje, error de carga útil y motivos similares) en relación con el número de mensajes que se van a enviar.
 
   Los tipos de error de notificaciones push se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
@@ -105,6 +105,6 @@ Los tipos de error de notificaciones push se enumeran en la [documentación de A
 >title="Informe de rendimiento del envío"
 >abstract="El informe **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío de notificaciones push de toda la plataforma dentro de un período de tiempo especificado."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![Métricas de rendimiento del envío que muestran tasas de éxito y error para las notificaciones push durante un período especificado.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 El informe **[!UICONTROL Rendimiento de entrega]** ofrece una visión completa de la eficacia del sistema de entrega de notificaciones push, con un resumen detallado de las tasas de éxito y error durante un periodo especificado.

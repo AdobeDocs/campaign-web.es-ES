@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 47%
 
 ---
 
@@ -21,47 +21,47 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="Personalización"
->abstract="El editor de personalización permite seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada del contenido. Puede personalizar los mensajes para cada destinatario aprovechando los datos de perfil y crear contenido condicional para adaptar el mensaje a cada destinatario y mostrar solo el contenido relevante."
+>abstract="El editor de personalización permite seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. Puede personalizar los mensajes para cada destinatario aprovechando los datos de perfil y crear contenido condicional para adaptar el mensaje a cada destinatario y mostrar solo el contenido relevante."
 
-Como experto en marketing, es crucial dirigirse a los clientes que están genuinamente interesados en sus ofertas y comprometerse con ellas proporcionando contenido efectivo y relevante. Dada la amplia gama de destinatarios que encuentra, crear varios fragmentos de contenido de marketing para atraer a diferentes personas puede consumir tiempo y ser un derroche. Aquí es donde el contenido dinámico entra en juego.
+Como experto en marketing, es crucial dirigirse a los clientes que están genuinamente interesados en sus ofertas y comprometerlas proporcionando contenido eficaz y relevante. Dada la amplia gama de destinatarios que encuentra, crear varios fragmentos de contenido de marketing para atraer a diferentes personas puede consumir tiempo y ser un derroche. Aquí es donde el contenido dinámico se vuelve esencial.
 
-Las funcionalidades de contenido dinámico de Adobe Campaign Web le permiten personalizar el contenido en función de la información que haya recopilado sobre los destinatarios. Al utilizar contenido dinámico, se asegura de que sus esfuerzos de marketing sean más relevantes, lo que evita la comercialización de productos o servicios no deseados o innecesarios. Este método hace que el contenido sea más atractivo y aumenta la probabilidad de que se lea. Además, le permite personalizar el contenido, lo que hace que los destinatarios sientan que están recibiendo información de una persona, en lugar de una máquina.
+Las funciones de contenido dinámico de Adobe Campaign Web le permiten personalizar el contenido en función de la información recopilada sobre los destinatarios. Al utilizar contenido dinámico, se asegura de que sus esfuerzos de marketing sean más relevantes, lo que evita la comercialización de productos o servicios no deseados o innecesarios. Este método hace que el contenido sea más atractivo y aumenta la probabilidad de que se lea. Además, le permite personalizar el contenido, lo que hace que los destinatarios sientan que están recibiendo información de una persona, en lugar de una máquina.
 
 ## ¿Cómo hacer que su contenido sea dinámico? {#make-content-dyn}
 
-Puede hacer que el contenido del mensaje sea dinámico insertando construcciones JavaScript en el editor de expresiones de Campaign Web. Al enviar mensajes, Adobe Campaign interpreta estas expresiones para entregar el contenido correcto a cada uno de los destinatarios:
+Puede hacer que el contenido del mensaje sea dinámico insertando construcciones de JavaScript en el editor de expresiones web de Campaign. Al enviar mensajes, Adobe Campaign interpreta esas expresiones para entregar el contenido correcto a cada uno de los destinatarios:
 
-* **Personalizar los mensajes** a cada destinatario específico aprovechando los datos de perfil como su nombre, intereses, dónde viven, qué compraron y mucho más. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
+* **Personalizar los mensajes** a cada destinatario específico aprovechando los datos de perfil como su nombre, intereses, dónde viven, qué compraron y mucho más. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización relacionado con el destinatario, el mensaje o la entrega. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. La siguiente sintaxis inserta la ciudad del destinatario en el contenido: `<%= recipient.location.city %>`.
 
-  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
+  [Descripción: ejemplo de inserción de la ciudad del destinatario en la línea de asunto mediante atributos de personalización.](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **Creación de contenido condicional** para adaptar los envíos a cada destinatario y mostrar únicamente el contenido relevante para un cliente determinado en función de la información que tenga sobre él. Esto le permite mostrar bloques de texto o imágenes específicos basados en condiciones. Por ejemplo, adapte un banner de correo electrónico en función de la suscripción de los destinatarios a un servicio específico.
 
-  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
+  [Descripción: ejemplo de contenido condicional en un banner de correo electrónico basado en la suscripción del destinatario.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Acceso al editor de expresiones {#access}
 
-Adobe Campaign Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. El editor de expresiones está disponible para todos los canales en todos los campos con el **[!UICONTROL cuadro de diálogo Abrir personalización]**, como el campo de línea de asunto o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
+Adobe Campaign Web proporciona un editor de expresiones en el que puede seleccionar, organizar, personalizar y validar todos los datos para crear una experiencia personalizada para el contenido. El editor de expresiones está disponible para todos los canales, en todos los campos con el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]**, como el campo de línea de asunto, o los vínculos de correo electrónico y los componentes de contenido de texto/botón.
 
-A continuación se muestran algunos ejemplos sobre cómo acceder al editor de expresiones en función del contenido que desee hacer dinámico:
+A continuación, se muestran algunos ejemplos de cómo acceder al editor de expresiones en función del contenido que desee hacer dinámico:
 
 * *Acceso al editor de expresiones desde el campo Nombre del remitente*
 
-  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
+  [Descripción: ejemplo de acceso al editor de expresiones desde el campo Nombre del remitente.](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *Acceso al editor de expresiones desde un componente de texto de correo electrónico*
 
-  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
+  [Descripción: ejemplo de acceso al editor de expresiones desde un componente de texto de correo electrónico.](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *Acceso al editor de expresiones desde un vínculo en un correo electrónico*
 
-  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
+  [Descripción: ejemplo de acceso al editor de expresiones desde un vínculo en un mensaje de correo electrónico.](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >
->Además del editor de expresiones, también puede aprovechar un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
+>Además del editor de expresiones, también puede utilizar un generador de contenido condicional dedicado al diseñar un correo electrónico. [Aprenda a crear contenido condicional en correos electrónicos](conditions.md)
 
 ## Vídeos explicativos {#video}
 

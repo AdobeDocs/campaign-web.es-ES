@@ -2,49 +2,48 @@
 title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario de Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
+source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 93%
+source-wordcount: '884'
+ht-degree: 68%
 
 ---
 
 # Conexión a Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz de Adobe Campaign Web en esta página.
+Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign en esta página.
 
 ## Iniciar sesión en Adobe Experience Cloud {#sign-in-to-exc}
 
 También puede utilizar el inicio de sesión único (SSO) para conectarse a Campaign. Normalmente, los administradores de Experience Cloud otorgan acceso a aplicaciones y servicios. Siga los pasos de la invitación del correo electrónico a Experience Cloud.
 
-Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son:
+Para iniciar sesión en Adobe Experience Cloud, siga estos pasos básicos:
 
-1. Vaya a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+1. Conéctese a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
 1. Inicie sesión con su Adobe ID o Enterprise ID. Obtenga más información acerca de los tipos de identidad en Adobe en [este artículo](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 
    Después de iniciar sesión en Experience Cloud, podrá acceder rápidamente a todas sus soluciones y aplicaciones.
 
-   ![](assets/exc-home.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la página principal de Adobe Experience Cloud](assets/exc-home.png){zoomable="yes"}
 
 1. Compruebe que se encuentra en la organización correcta.
 
-   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![Captura de pantalla que muestra la selección de organizaciones en Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
    Obtenga más información acerca de las organizaciones en Adobe Experience Cloud en [este artículo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){target="_blank"}.
-
 
 ## Acceso a Adobe Campaign {#access-to-campaign}
 
 Para acceder a su entorno de Campaign, seleccione **Campaign** en la sección de **Acceso rápido** de la página de inicio de Adobe Experience Cloud.
 
-Si ya está conectado a otra solución de Adobe Experience Cloud, también puede navegar al entorno de Campaign desde el conmutador de soluciones en la parte superior derecha de la pantalla.
+Si ya está conectado a otra solución de Adobe Experience Cloud, vaya al entorno de Campaign desde el conmutador de soluciones en la parte superior derecha de la pantalla.
 
-![](assets/solution-switcher.png){zoomable="yes"}
+![Captura de pantalla que muestra el conmutador de soluciones en Adobe Experience Cloud](assets/solution-switcher.png){zoomable="yes"}
 
 Si tiene acceso a varios entornos, incluido el Panel de control de Campaign, haga clic en el botón **Iniciar** para la instancia correcta.
 
-![](assets/launch-campaign.png){zoomable="yes"}
+![Captura de pantalla que muestra el botón Iniciar para Adobe Campaign](assets/launch-campaign.png){zoomable="yes"}
 
 Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a utilizar la interfaz de usuario en [esta página](user-interface.md).
 
@@ -85,9 +84,9 @@ Ahora está conectado a Campaign. Obtenga información sobre cómo empezar a uti
 >title="Este flujo de trabajo es de solo lectura"
 >abstract="No tiene permisos para editar este flujo de trabajo. Si es necesario, póngase en contacto con el administrador para que le conceda acceso."
 
-El control de acceso puede restringir el acceso a objetos y datos de listas principales, como envíos, destinatarios o flujos de trabajo. Estas restricciones también se aplican en el árbol de navegación del Explorador. Además, necesita permisos para crear, eliminar, duplicar y editar objetos desde la interfaz de usuario.
+El control de acceso restringe el acceso a objetos y datos de listas principales, como envíos, destinatarios o flujos de trabajo. Estas restricciones también se aplican en el árbol de navegación del Explorador. Además, necesita permisos para crear, eliminar, duplicar y editar objetos desde la interfaz de usuario.
 
-Todos los permisos de la web de Campaign se sincronizan con los permisos de la consola del cliente de Campaign. Solo los administradores de Campaign pueden definir y modificar los permisos de usuario.
+Todos los permisos de Campaign Web se sincronizan con los permisos de la consola del cliente de Campaign. Solo los administradores de Campaign pueden definir y modificar los permisos de usuario.
 
 A medida que navega por la interfaz de usuario web de Campaign, puede acceder a datos, objetos y funcionalidades en función de sus permisos. Por ejemplo, si no tiene permisos de acceso a una carpeta, no podrá verla. Los permisos también afectan a la administración de objetos y datos. Sin permisos de escritura para una carpeta específica, no se puede crear un envío en dicha carpeta, aunque se pueda ver en la interfaz de usuario.
 
@@ -97,18 +96,18 @@ Puede aprender a [ver y administrar los permisos aquí](permissions.md).
 
 Examine la barra superior de la interfaz para lo siguiente:
 
-* Compartir comentarios sobre la interfaz de usuario web de Campaign
-* cambiar entre sus organizaciones
-* cambiar entre sus soluciones y aplicaciones de Adobe Experience Cloud
-* buscar ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}
-* comprobar las notificaciones del producto
-* editar el perfil de Adobe y administrar la configuración, como [actualizar su idioma favorito](#language-pref) o [cambiar a la temática clara/oscura](#dark-theme)
+* Comparta comentarios sobre la interfaz de usuario web de Campaign.
+* Cambiar entre sus organizaciones.
+* Cambie entre sus soluciones de Adobe Experience Cloud y las aplicaciones.
+* Busque ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}.
+* Compruebe las notificaciones del producto.
+* Edita tu perfil de Adobe y administra la configuración, como [actualizar tu idioma favorito](#language-pref) o [cambiar al tema claro u oscuro](#dark-theme).
 
-![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+![Captura de pantalla que muestra la barra de navegación superior de Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Navegadores admitidos {#browsers}
 
-Adobe Campaign Web está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que tenga problemas al utilizar determinadas funciones en versiones anteriores u otros exploradores.
+Adobe Campaign Web está diseñada para funcionar de forma óptima con la última versión de Google Chrome, Safari y Microsoft Edge. Es posible que encuentre problemas al utilizar determinadas funciones en versiones anteriores u otros navegadores.
 
 ## Preferencias de idioma {#language-pref}
 
@@ -125,18 +124,18 @@ Adobe Campaign Web está disponible actualmente en los siguientes idiomas:
 * Chino simplificado - CHS
 * Chino tradicional - CHT
 
-
 El idioma predeterminado de la web de Campaign viene determinado por el idioma preferido especificado en el perfil de usuario. No está relacionado con el idioma del servidor de Campaign y de la consola del cliente.
 
 Para cambiar el idioma, haga lo siguiente:
 
 1. Haga clic en el icono del perfil, en la parte superior derecha, y luego seleccione **Preferencias**.
-1. A continuación, haga clic en el vínculo de idioma mostrado debajo de su dirección de correo electrónico.
+1. Haga clic en el vínculo de idioma que aparece debajo de la dirección de correo electrónico.
 1. Seleccione el idioma preferido y haga clic en **Guardar**. Puede seleccionar un segundo idioma en caso de que el componente que esté utilizando no se haya localizado en su primer idioma.
+
 
 ## Temáticas oscuras y claras {#dark-theme}
 
-Adobe Campaign está disponible en temáticas claras y oscuras. De forma predeterminada, la interfaz de usuario está habilitada en la temática clara. Para cambiar a la temática oscura, haga clic en su icono de perfil y utilice la opción **Temática oscura** para habilitarla o deshabilitarla.
+Adobe Campaign está disponible en temáticas claras y oscuras. De forma predeterminada, la interfaz de usuario está habilitada en la temática clara. Para cambiar al tema oscuro, haz clic en tu icono de perfil y usa la opción **Tema oscuro** para habilitarlo o deshabilitarlo.
 
 La configuración del perfil de usuario y las preferencias de cuenta se detallan en [esta sección](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#preferences){target="_blank"}.
 

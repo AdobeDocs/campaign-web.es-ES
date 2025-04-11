@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -36,49 +36,45 @@ ht-degree: 100%
 
 Las carpetas son objetos de Adobe Campaign que permiten organizar los componentes y los datos.
 
-Puede crear, cambiar el nombre, reordenar y mover carpetas en el árbol de navegación. También puede eliminarlos según sus derechos.
+Puede crear, cambiar el nombre, reordenar y mover carpetas en el árbol de navegación. También puede eliminarlos en función de sus derechos.
 
-![](assets/folders.png){zoomable="yes"}
+![Interfaz de carpetas que muestra la organización de carpetas](assets/folders.png){zoomable="yes"}
 
-Puede configurar un tipo de carpeta. Por ejemplo: una carpeta de envíos.
-El icono de la carpeta cambia según este tipo.
+Puede configurar un tipo de carpeta. Por ejemplo, una carpeta de envíos. El icono de la carpeta cambia según su tipo.
 
 ## Creación de una nueva carpeta {#create-a-folder}
 
 Para crear una carpeta nueva en la interfaz de usuario de Adobe Campaign Web, siga estos pasos:
 
-1. En **[!UICONTROL Explorer]**, vaya a la carpeta en la que desea crear una nueva.
-En el menú **[!UICONTROL …]**, encontrará **[!UICONTROL Crear nueva carpeta]**
+1. En **[!UICONTROL Explorer]**, vaya a la carpeta donde desea crear la nueva carpeta. En el menú **[!UICONTROL ...]**, seleccione **[!UICONTROL Crear nueva carpeta]**.
 
-![](assets/folder_create.png){zoomable="yes"}
+![Crear nueva opción de carpeta en el menú del Explorador](assets/folder_create.png){zoomable="yes"}
 
-Al crear una carpeta nueva, de forma predeterminada, el tipo de carpeta es el tipo de la carpeta principal. En nuestro ejemplo, creamos una carpeta en la carpeta **[!UICONTROL Envíos]**.
+Al crear una carpeta nueva, el tipo de carpeta toma como valor predeterminado el tipo de carpeta principal. En este ejemplo, se crea una carpeta en la carpeta **[!UICONTROL Deliveries]**.
 
-![](assets/folder_new.png){zoomable="yes"}
+![Nueva carpeta creada en la carpeta Envíos](assets/folder_new.png){zoomable="yes"}
 
-1. Cambie el tipo de su carpeta haciendo clic en el icono de Tipo de carpeta, si fuera necesario, y selecciónela en la lista que se muestra, como se indica a continuación:
+1. Cambie el tipo de carpeta haciendo clic en el icono de tipo de carpeta si es necesario y seleccione el tipo deseado en la lista presentada, como se muestra a continuación:
 
-![](assets/folder_type.png){zoomable="yes"}
+![Interfaz de selección de tipo de carpeta](assets/folder_type.png){zoomable="yes"}
 
 Configure el tipo de carpeta haciendo clic en el botón **[!UICONTROL Confirmar]**.
 
-Si desea crear una carpeta sin un tipo específico, elija el tipo **[!UICONTROL Carpeta genérica]**.
+Si desea crear una carpeta sin un tipo específico, seleccione el tipo **[!UICONTROL Carpeta genérica]**.
 
 También puede [crear y administrar carpetas en la consola de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views).
 
-
 ## Reordenar carpetas {#reorder-folders}
 
-Puede reordenar las carpetas según sus necesidades. Para ello, haga clic en **[!UICONTROL Reordenar carpetas]** como se muestra a continuación.
+Puede reordenar las carpetas según sus necesidades. Para ello, haga clic en **[!UICONTROL Reordenar carpetas]**, como se muestra a continuación.
 
-En nuestro ejemplo, la carpeta **Envíos** contiene 4 carpetas.
+En este ejemplo, la carpeta **Deliveries** contiene cuatro subcarpetas.
 
-![](assets/folder-reorder.png){zoomable="yes"}
+![Reordenar la interfaz de carpetas que muestra la jerarquía de carpetas](assets/folder-reorder.png){zoomable="yes"}
 
-Puede cambiar el orden de las carpetas mediante la acción de **arrastrar y soltar** o usando las **flechas arriba y abajo**
+Puede cambiar el orden de las carpetas arrastrando y soltando **o usando** flechas arriba y abajo **.**
 
-![](assets/folder-draganddrop.png){zoomable="yes"}
-
+![Funcionalidad de arrastrar y soltar para reordenar carpetas](assets/folder-draganddrop.png){zoomable="yes"}
 
 ## Eliminación de una carpeta {#delete-a-folder}
 
@@ -86,45 +82,44 @@ Puede cambiar el orden de las carpetas mediante la acción de **arrastrar y solt
 >
 >Al eliminar una carpeta, también se eliminan todos los datos almacenados en ella.
 
-Para eliminar una carpeta, selecciónela en el árbol del **[!UICONTROL Explorer]** y haga clic en el menú **[!UICONTROL …]**.
-Elija **[!UICONTROL Eliminar carpeta]**.
+Para eliminar una carpeta, selecciónela en el árbol **[!UICONTROL Explorer]** y haga clic en el menú **[!UICONTROL ...]**. Elija **[!UICONTROL Eliminar carpeta]**.
 
-![](assets/folder_delete.png){zoomable="yes"}
+![Eliminar opción de carpeta en el menú del Explorador](assets/folder_delete.png){zoomable="yes"}
 
 ## Distribución de valores en una carpeta {#distribution-values-folder}
 
-La distribución de valores ayuda a conocer el porcentaje de un valor en una columna dentro de una tabla.
+La distribución de valores ayuda a comprender el porcentaje de un valor en una columna dentro de una tabla.
 
-Para conocer la distribución de valores en una carpeta, proceda como se indica a continuación:
+Para ver la distribución de los valores en una carpeta, proceda como se explica a continuación.
 
-Por ejemplo, entre los envíos, queremos conocer la distribución de valores de la columna **Canal**.
+Por ejemplo, entre las entregas, es posible que desee conocer la distribución de los valores en la columna **Canal**.
 
-Para obtener esta información, vaya a la carpeta **[!UICONTROL Envíos]** y haga clic en el icono **[!UICONTROL Configurar columnas]**.
+Para obtener esta información, vaya a la carpeta **[!UICONTROL Deliveries]** y haga clic en el icono **[!UICONTROL Configurar columnas]**.
 
-En la ventana **[!UICONTROL Configurar columnas]**, haga clic en el icono **[!UICONTROL Información]** de la columna de la que desee información. A continuación, haga clic en el botón **[!UICONTROL Distribución de valores]**.
+En la ventana **[!UICONTROL Configurar columnas]**, haga clic en el icono **[!UICONTROL Información]** relacionado con la columna que desea analizar. A continuación, haga clic en el botón **[!UICONTROL Distribución de valores]**.
 
-![](assets/values_deliveries.png){zoomable="yes"}
+![Distribución de la interfaz de valores para los envíos](assets/values_deliveries.png){zoomable="yes"}
 
-Obtendrá el porcentaje de los valores de la columna **[!UICONTROL Canal]**.
+Verá el porcentaje de valores en la columna **[!UICONTROL Canal]**.
 
-![](assets/values_percentage.png){zoomable="yes"}
+![Distribución porcentual de los valores en la columna del canal](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Para las columnas con muchos valores, solo se mostrarán los primeros veinte valores. Una notificación **[!UICONTROL Carga parcial]** le avisará de esto.
+>Para las columnas con muchos valores, solo se muestran los veinte primeros valores. Una notificación **[!UICONTROL Carga parcial]** le advierte.
 
-También puede disponer de la distribución de valores de un vínculo.
+También puede ver la distribución de los valores de un vínculo.
 
-En la lista de atributos, haga clic en el botón **+** situado junto al vínculo deseado, como se muestra a continuación. Esto añade el vínculo a las **[!UICONTROL Columnas de salida]**. Ahora puede disponer del icono **[!UICONTROL Información]**, que le permite ver la distribución de sus valores. Si no desea mantener el vínculo en las **[!UICONTROL Columnas de salida]**, asegúrese de hacer clic en el botón **[!UICONTROL Cancelar]**.
+En la lista de atributos, haga clic en el botón **+** situado junto al vínculo deseado, como se muestra a continuación. Esto añade el vínculo a las **[!UICONTROL Columnas de salida]**. Ahora puede acceder al icono **[!UICONTROL Información]**, que le permite ver la distribución de sus valores. Si no desea mantener el vínculo en las **[!UICONTROL Columnas de salida]**, haga clic en el botón **[!UICONTROL Cancelar]**.
 
-![](assets/values_link.png){zoomable="yes"}
+![Distribución de valores para un vínculo en Output columns](assets/values_link.png){zoomable="yes"}
 
-También es posible disponer de la distribución de valores en un modelador de consultas. [Más información aquí](../query/build-query.md#distribution-of-values-in-a-query).
+También es posible ver la distribución de los valores en un modelador de consultas. [Más información aquí](../query/build-query.md#distribution-of-values-in-a-query).
 
 ### Filtro de los valores {#filter-values}
 
 Mediante los **[!UICONTROL filtros avanzados]** en la ventana de distribución de valores, puede filtrar los resultados según las condiciones especificadas.
 
-En el ejemplo de la lista de envíos anterior, que muestra la distribución por canal, puede, por ejemplo, filtrarla para mostrar solo los envíos cuyo estado sea **Finalizado**.
+En el ejemplo de la lista de envíos anterior, que muestra la distribución por canal, puede filtrarla para mostrar solo los envíos con un estado de **Finalizado**.
 
-![](assets/values_filter.png){zoomable="yes"}
+![Filtros avanzados aplicados a la distribución de valores](assets/values_filter.png){zoomable="yes"}

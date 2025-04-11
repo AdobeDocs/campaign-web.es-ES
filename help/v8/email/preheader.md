@@ -3,10 +3,10 @@ audience: end-user
 title: Añadir un encabezado previo en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 47%
+source-wordcount: '249'
+ht-degree: 34%
 
 ---
 
@@ -31,17 +31,17 @@ Para definir el preencabezado del correo electrónico, siga los pasos a continua
 
 1. Haga clic en el icono **[!UICONTROL Árbol de navegación]** en el panel izquierdo y seleccione **[!UICONTROL Cuerpo]**.
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el icono del árbol de navegación y la selección del cuerpo en la interfaz de Designer de correo electrónico.](assets/preheader_body.png){zoomable="yes"}
 
 1. En la ficha **[!UICONTROL Configuración]**, escriba texto para el encabezado previo.
 
 1. Para personalizarlo aún más, haga clic en el icono **[!UICONTROL Agregar personalización]** a la izquierda del campo **[!UICONTROL Preencabezado]**.
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la ficha Configuración y el icono Agregar personalización en la interfaz de Designer de correo electrónico.](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Desde la ventana **[!UICONTROL Editar Personalization]**, puede agregar [campos personalizados](../personalization/personalize.md), [fragmentos de expresiones](../content/use-expression-fragments.md) y [contenido condicional](../personalization/conditions.md) con las entradas específicas de la izquierda.
+1. Desde la ventana **[!UICONTROL Editar Personalization]**, agregue [campos de personalización](../personalization/personalize.md), [fragmentos de expresiones](../content/use-expression-fragments.md) y [contenido condicional](../personalization/conditions.md) utilizando las entradas dedicadas de la izquierda.
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la ventana Editar Personalization con opciones para campos de personalización, fragmentos de expresiones y contenido condicional.](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Confirmar]**.
 

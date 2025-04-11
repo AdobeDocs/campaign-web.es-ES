@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 70%
+source-wordcount: '414'
+ht-degree: 62%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
-![](../assets/workflow-audience.png)
+![Captura de pantalla que muestra la interfaz de configuración de audiencia del flujo de trabajo.](../assets/workflow-audience.png)
 
 1. Añadir una actividad **Generar público destinatario**.
 1. Defina una etiqueta.
@@ -56,7 +56,7 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 Para crear su propia consulta, siga estos pasos:
 
 1. Seleccione **Crear su propia (consulta)**.
-1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
+1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
@@ -70,8 +70,8 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 >[!ENDTABS]
 
-## Ejemplos{#build-audience-examples}
+## Ejemplos {#build-audience-examples}
 
 A continuación, se muestra un ejemplo de flujo de trabajo con dos actividades **Generar público destinatario**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
 
-![](../assets/workflow-audience-example.png)
+![Captura de pantalla que muestra un flujo de trabajo de ejemplo con dos actividades Generar audiencia dirigidas a distintas audiencias.](../assets/workflow-audience-example.png)

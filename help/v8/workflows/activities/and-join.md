@@ -3,26 +3,25 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinación-Y
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinación-Y
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 45%
 
 ---
 
 # Combinación-Y {#join}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **AND-join** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto le permite asegurarse de que ciertas actividades hayan finalizado antes de continuar con la ejecución del flujo de trabajo."
+>abstract="La actividad **AND-join** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto garantiza que determinadas actividades se completen antes de continuar ejecutando el flujo de trabajo."
 
-La actividad **Combinación-Y** es una actividad de **Control de flujo**. Le permite sincronizar varias ramas de ejecución de un flujo de trabajo.
+La actividad **Combinación-Y** es una actividad de **Control de flujo**. Sincroniza varias ramas de ejecución de un flujo de trabajo.
 
-Esta actividad solo activa su transición saliente una vez que se activan todas las transiciones entrantes; es decir, una vez que todas las actividades anteriores han finalizado. Esto le permite asegurarse de que ciertas actividades han finalizado antes de continuar con la ejecución del flujo de trabajo.
+Esta actividad almacena en déclencheur su transición saliente solo después de activar todas las transiciones entrantes. En otras palabras, se activa una vez completadas todas las actividades anteriores. Esto garantiza que determinadas actividades hayan finalizado antes de continuar ejecutando el flujo de trabajo.
 
-## Configuración de la actividad And-join{#and-join-configuration}
+## Configuración de la actividad And-join {#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
@@ -31,15 +30,15 @@ Esta actividad solo activa su transición saliente una vez que se activan todas 
 
 Siga estos pasos para configurar la actividad **Combinación-Y**:
 
-![](../assets/workflow-andjoin.png)
+![Captura de pantalla que muestra la interfaz de configuración para la actividad AND-join.](../assets/workflow-andjoin.png)
 
-1. Añada varias actividades, como actividades del canal, para formar al menos dos ramas de ejecución diferentes.
+1. Añada varias actividades, como actividades de canal, para formar, al menos, dos ramas de ejecución diferentes.
 1. Añada una actividad **Combinación-Y** a cualquiera de las ramas.
-1. En la sección **Opciones de combinación**, compruebe todas las actividades anteriores que desee combinar.
-1. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes.
+1. En la sección **Combinar opciones**, compruebe todas las actividades anteriores a las que desee unirse.
+1. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante se debe conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes.
 
-## Ejemplo{#and-join-example}
+## Ejemplo {#and-join-example}
 
-El siguiente ejemplo muestra dos ramas de flujo de trabajo con un envío de correo electrónico y SMS. La actividad Combinación-Y se activará cuando ambas transiciones entrantes estén habilitadas. Las notificaciones push solo se envían una vez finalizados ambos envíos.
+El siguiente ejemplo muestra dos ramas de flujo de trabajo con un envío de correo electrónico y SMS. Los déclencheur AND-join cuando ambas transiciones de entrada están habilitadas. Las notificaciones push solo se envían una vez completados ambos envíos.
 
-![](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![Ejemplo de un flujo de trabajo con dos ramas, que muestra el envío de correo electrónico y SMS seguido de notificaciones push.](../assets/workflow-andjoin-example.png){zoomable="yes"}

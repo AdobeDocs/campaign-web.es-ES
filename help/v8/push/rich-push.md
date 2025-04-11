@@ -3,9 +3,9 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push enriquecidas
 description: Aprenda a diseñar una entrega de notificaciones push enriquecidas con Android con Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3379'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
 * El **[!UICONTROL mensaje de notificación]**, gestionado automáticamente por FCM SDK. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
-![](assets/rich_push.png){zoomable="yes"}
+![Captura de pantalla de la página Entregar en Android](assets/rich_push.png){zoomable="yes"}
 
 ## Definición del contenido de la notificación {#push-message}
 

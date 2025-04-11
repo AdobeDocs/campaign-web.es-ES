@@ -3,10 +3,10 @@ audience: end-user
 title: Informes globales para el canal de correo postal
 description: Más información sobre los Informes globales para el canal de correo postal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 32%
+source-wordcount: '659'
+ht-degree: 27%
 
 ---
 
@@ -25,9 +25,9 @@ Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Info
 >title="Información general sobre el envío"
 >abstract="La **Información general de entrega** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo directo. Las métricas se describen a continuación."
 
-La **[!UICONTROL Información general de entrega]** presenta métricas clave de rendimiento (KPI) que ofrecen información exhaustiva sobre la interacción de los visitantes con cada envío de correo directo. Las métricas se describen a continuación.
+La **[!UICONTROL descripción general de la entrega]** presenta métricas clave de rendimiento (KPI), que ofrecen información detallada sobre la interacción de los visitantes con cada envío de correo postal. Las métricas se describen a continuación.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![Esta imagen muestra las métricas de información general de envío para los envíos de correo directo.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de información general de entrega.
 
@@ -35,9 +35,10 @@ La **[!UICONTROL Información general de entrega]** presenta métricas clave de 
 
 * **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Errores]**: Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
+* **[!UICONTROL Errores]**: Errores totales acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Cancelaciones de suscripciones]**: Número de destinatarios que hicieron clic en las cancelaciones de suscripciones.
+* **[!UICONTROL Cancelaciones de suscripción]**: número de destinatarios que hicieron clic en los vínculos de cancelación de suscripción.
+
 +++
 
 ### Público objetivo {#delivery-summary-direct-initial-target}
@@ -54,7 +55,7 @@ La **[!UICONTROL Información general de entrega]** presenta métricas clave de 
 
 La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** muestran datos relacionados con sus destinatarios con métricas detalladas que se proporcionan a continuación.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![Esta imagen muestra las métricas de audiencia de destino para los envíos de correo directo.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++Más información sobre las Métricas de audiencia segmentadas.
 
@@ -62,7 +63,7 @@ La tabla y el gráfico de **[!UICONTROL Audiencia objetivo]** muestran datos rel
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Exclusión]**: número total de direcciones omitidas durante el análisis al aplicar reglas: dirección que falta, en cuarentena, en la lista de bloqueados de la, etc.
+* **[!UICONTROL Exclusión]**: número total de direcciones omitidas durante el análisis al aplicar reglas, como direcciones que faltan, en cuarentena o en una lista de bloqueados de la.
 
 +++
 
@@ -84,11 +85,11 @@ El gráfico y la tabla de **[!UICONTROL estadísticas de envío]** proporcionan 
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Éxito]**: número de mensajes procesados correctamente, en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Errores / Devoluciones]**: Número total de errores acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Errores / Devoluciones]**: Errores totales acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (por ejemplo, usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
 +++
 
@@ -104,13 +105,13 @@ El gráfico y la tabla de **[!UICONTROL estadísticas de envío]** proporcionan 
 >title="Causas de exclusión"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![Esta imagen muestra las causas de las métricas de exclusión para los envíos de correo directo.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
 +++Más información sobre las Causas de las métricas de exclusión.
 
-* **[!UICONTROL Dirección en cuarentena]**: Tipo de error generado cuando la dirección se pone en cuarentena.
+* **[!UICONTROL Dirección en cuarentena]**: Tipo de error generado cuando una dirección se pone en cuarentena.
 
 * **[!UICONTROL Dirección no especificada]**: Tipo de error generado al realizar un envío para indicar que la dirección no existe.
 
@@ -118,7 +119,7 @@ El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los p
 
 * **[!UICONTROL Dirección Incluir en la lista de bloqueados incluida en la lista de bloqueados]**: Tipo de error generado cuando se realizó el envío y se creó el destinatario cuando se realizó el envío. Se ha generado un error al crear la dirección de correo electrónico del destinatario. Se ha generado un error de tipo de error cuando el destinatario se ha.
 
-* **[!UICONTROL Double]**: Tipo de error generado cuando se excluyó al destinatario porque sus valores de claves no eran únicos.
+* **[!UICONTROL Double]**: Tipo de error generado cuando se excluyó al destinatario porque sus valores clave no eran únicos.
 
 * **[!UICONTROL Grupo de control]**: la dirección del destinatario forma parte del grupo de control.
 
