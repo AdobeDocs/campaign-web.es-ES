@@ -13,8 +13,9 @@ ht-degree: 40%
 # Personalice el fondo del correo electrónico {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-Al configurar fondos con el Designer de correo electrónico, Adobe recomienda lo siguiente:
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
 1. En la mayoría de los casos, establezca los colores de fondo en el nivel de columna.

@@ -13,8 +13,10 @@ ht-degree: 12%
 # Selección de un público existente {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-En esta sección se explica cómo seleccionar una audiencia existente al definir la población objetivo de una entrega. Al definir el objetivo principal de una entrega, también puede:
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [Cree una audiencia única](one-time-audience.md) con el modelador de consultas.
 * [Cargar una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
 
