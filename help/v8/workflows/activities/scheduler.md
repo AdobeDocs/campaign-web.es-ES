@@ -13,8 +13,9 @@ ht-degree: 9%
 # Planificador {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## Prácticas recomendadas {#scheduler-best-practices}
 
