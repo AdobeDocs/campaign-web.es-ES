@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >
-La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
+>La actividad **Scheduler** es una actividad **Flow control**. Permite programar cuándo se inicia el flujo de trabajo. La actividad debe considerarse como un inicio programado. Solo se puede utilizar como primera actividad del flujo de trabajo.
 
 ## Prácticas recomendadas {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ La actividad **Scheduler** es una actividad **Flow control**. Permite programar 
 
 ## Configure la actividad Planificador {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 Siga estos pasos para configurar la actividad **Planificador**:
 
