@@ -23,11 +23,11 @@ Para definir la población del público destinatario, puede hacer lo siguiente:
 
 * Seleccione un público destinatario existente, creado como una lista en la consola del cliente.
 * Seleccione un público destinatario de Adobe Experience Platform.
-* Cree una nueva audiencia con el modelador de consultas definiendo y combinando criterios de filtrado.
+* Cree una nueva audiencia con el consulta modelador definiendo y combinando criterios de filtrado.
 
 >[!NOTE]
 >
->Las audiencias cargadas desde un archivo no se pueden segmentar con una actividad Generar audiencia. Para ello, necesita usar una actividad **Cargar archivo** seguida de una actividad **Reconciliación**. [Más información](../../audience/about-recipients.md)
+>Los Audiences cargados desde un archivo no se pueden segmentar mediante un actividad de audiencia de compilación. Para ello, debe utilizar una actividad de **archivo de carga** seguida de una **actividad de reconciliación** . [Más información](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
-![Captura de pantalla que muestra la interfaz de configuración de audiencia del flujo de trabajo.](../assets/workflow-audience.png)
+![Captura de pantalla que muestra la flujo de trabajo audiencia interfaz de configuración.](../assets/workflow-audience.png)
 
 1. Añadir una actividad **Generar público destinatario**.
 1. Defina una etiqueta.
@@ -51,14 +51,14 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 
 >[!BEGINTABS]
 
->[!TAB Cree su propia (consulta)]
+>[!TAB Crear los tuyos (consulta)]
 
-Para crear su propia consulta, siga estos pasos:
+Para crear su propia consulta, seguir estos pasos:
 
 1. Seleccione **Crear su propia (consulta)**.
-1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
+1. Elija la **Dimensión de segmentación**. El dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios del contrato, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre direccionamiento dimensiones](../../audience/about-recipients.md#targeting-dimensions)
 1. Haga clic en **Continuar**.
-1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
+1. Utilice el modelador de consulta para definir su consulta, de la misma manera que crea un audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el consulta modelador](../../query/query-modeler-overview.md)
 
 >[!TAB Leer audiencia]
 
@@ -66,7 +66,7 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 1. Seleccione **Leer público destinatario**.
 1. Haga clic en **Continuar**.
-1. Seleccione la audiencia, del mismo modo que utiliza una audiencia para diseñar una nueva entrega. Consulte esta [sección](../../audience/add-audience.md).
+1. Seleccione su audiencia, del mismo modo en que utiliza un audiencia al diseñar un nuevo envío. Consulte esta [sección](../../audience/add-audience.md).
 
 >[!ENDTABS]
 
@@ -74,4 +74,4 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 A continuación, se muestra un ejemplo de flujo de trabajo con dos actividades **Generar público destinatario**. El primero se dirige al público de jugadores de póquer, seguido de un envío por correo electrónico. El segundo se dirige al público de clientes VIP, seguido de un envío por SMS.
 
-![Captura de pantalla que muestra un flujo de trabajo de ejemplo con dos actividades Generar audiencia dirigidas a distintas audiencias.](../assets/workflow-audience-example.png)
+![Captura de pantalla que muestra un ejemplo flujo de trabajo con dos actividades de audiencia de compilación direccionamiento audiencias distintas.](../assets/workflow-audience-example.png)

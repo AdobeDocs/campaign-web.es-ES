@@ -23,23 +23,23 @@ ht-degree: 51%
 >title="Transiciones de la actividad de bifurcación"
 >abstract="De forma predeterminada, se crean dos transiciones con una actividad de **bifurcación**. Haga clic en el botón **Añadir transición** para definir una transición de salida adicional e introducir su etiqueta."
 
-La actividad **Fork** es una actividad de **control de flujo**. Permite crear transiciones de salida para el inicio de varias actividades simultáneamente.
+La **actividad Fork** es un **actividad de control** Flujo. Permite crear transiciones salientes para inicio varias actividades simultáneamente.
 
-## Configuración de la actividad Fork {#fork-configuration}
+## Configurar la actividad de bifurcación {#fork-configuration}
 
 Siga estos pasos para configurar la actividad **Tenedor**:
 
-![Captura de pantalla de configuración de actividad de ramificación de flujo de trabajo](../assets/workflow-fork.png)
+![captura de pantalla de configuración del actividad del flujo de trabajo](../assets/workflow-fork.png)
 
 1. Añada una actividad **Tenedor** al flujo de trabajo.
 1. Haga clic en **Agregar transición** para añadir una nueva transición saliente. De forma predeterminada, se definen dos transiciones.
-1. Añada una etiqueta a cada transición.
+1. añadir una etiqueta a cada transición.
 
 ## Ejemplo {#fork-example}
 
-En el ejemplo siguiente, se usan dos actividades **Fork**:
+En el siguiente ejemplo se utilizan dos **actividades de bifurcación** :
 
 * Uno antes de las dos consultas, para ejecutarlas simultáneamente.
-* Uno después de la intersección, para enviar un correo electrónico y un SMS al mismo tiempo a la población de destino.
+* Uno después de la intersección, para enviar un correo electrónico y un SMS al mismo tiempo a la población objetivo.
 
-![Captura de pantalla de ejemplo de ramificación de flujo de trabajo](../assets/workflow-fork-example.png)
+![Ejemplo de ramificación del flujo de trabajo captura de pantalla](../assets/workflow-fork-example.png)

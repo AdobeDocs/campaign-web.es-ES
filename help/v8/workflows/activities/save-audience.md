@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Uso de la actividad de flujo de trabajo Guardar audiencia
+title: Utilice el Guardar audiencia flujo de trabajo actividad
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
@@ -20,36 +20,36 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Generar transición de salida"
->abstract="Utilice esta opción si desea agregar una transición después de la actividad **Guardar audiencia**."
+>abstract="Utilice esta opción si desea agregar un transición después del **actividad audiencia** Guardar."
 
-La actividad **Guardar audiencia** es una actividad de **segmentación**. Esta actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas se agregan a la lista de audiencias de aplicación y están disponibles a través del menú **Audiencias**.
+El **Guardar audiencia** actividad es un **actividad de segmentación** . Este actividad permite actualizar un audiencia existente o crear un nuevo audiencia a partir de la población calculada en una secuencia flujo de trabajo. Las audiencias creadas se añaden a la lista de aplicación audiencias y están disponibles a través del **menú Audiences** .
 
-Esta actividad se utiliza principalmente para retener grupos de población calculados en el mismo flujo de trabajo convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades de segmentación, como una **audiencia de compilación** o una actividad **Combinar**.
+Este actividad se utiliza principalmente para retener los grupos de población calculados de la misma flujo de trabajo convirtiéndolos en audiencias reutilizables. Conéctelo a otras actividades direccionamiento, como un **audiencia** de compilación o una **combinación** de actividad.
 
-## Configuración de la actividad Guardar audiencia {#save-audience-configuration}
+## Configurar el Guardar audiencia actividad {#save-audience-configuration}
 
-Siga estos pasos para configurar la actividad **Guardar audiencia**:
+Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
-![Descripción: configuración del flujo de trabajo para la actividad Guardar audiencia](../assets/workflow-save-audience.png)
+![Descripción: configuración de flujo de trabajo para Guardar audiencia actividad](../assets/workflow-save-audience.png)
 
-1. Agregue una actividad **Guardar audiencia** a su flujo de trabajo.
+1. añadir una **Guardar audiencia** actividad a su flujo de trabajo.
 
-1. En la lista desplegable **Modo**, seleccione la acción que desee realizar:
+1. In the **Mode** drop-down, select the action you want to perform:
 
-   * **Crear o actualizar una audiencia existente**: defina una **etiqueta de audiencia**. Si la audiencia ya existe, se actualiza; de lo contrario, se crea una nueva.
+   * **Crear o actualice un audiencia** existente: Defina una etiqueta **de** audiencia. Si la audiencia ya existe, se actualiza; De lo contrario, se crea una nueva audiencia.
 
-   * **Actualizar una audiencia existente**: elija la **audiencia** que desee actualizar de la lista de audiencias existentes.
+   * **Actualizar un audiencia** existente: elija la **audiencia** que desea actualizar desde el lista de audiencias existentes.
 
-1. Seleccione el **modo de actualización** que se aplica a las audiencias existentes:
+1. Seleccione el modo **de** actualización aplicable a las audiencias existentes:
 
-   * **Reemplazar contenido de audiencia por datos nuevos**: se reemplaza todo el contenido de audiencia y se pierden datos antiguos. Solo se conservan los datos de la transición entrante de la actividad **Guardar audiencia**. Esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
+   * **Reemplazar audiencia contenido con datos** nuevos: se reemplazan todos los datos audiencia contenido y los datos antiguos se pierden. Solo se conservan los datos del transición entrante del actividad de Guardar **audiencia** . Esta opción borra el tipo de audiencia y el dimensión de segmentación del audiencia actualizado.
 
-   * **Audiencia completa con nuevos datos**: El contenido de audiencia anterior se conserva y los datos de la transición entrante de la actividad **Guardar audiencia** se agregan a ella.
+   * **Todas las aplicaciones audiencia con datos** nuevos: se conserva el contenido de audiencia antiguo y se le agregan los datos del transición entrante del actividad de **audiencia** de Guardar.
 
-1. Marque la opción **Generar una transición saliente** si desea agregar una transición después de la actividad **Guardar audiencia**.
+1. Marque la **opción Generar un transición** saliente si desea agregar un transición después del actividad de audiencia **** Guardar.
 
-El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **Audiencias**. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante de la actividad **Guardar audiencia** del flujo de trabajo.
+El contenido del audiencia guardado está disponible en la vista detallada del audiencia, al que se puede acceder desde el **menú Audiences** . Las columnas disponibles en este vista corresponden a las columnas del transición entrante del Guardar del flujo de trabajo **actividad de audiencia** .
 
 ## Ejemplo {#save-audience-example}
 
-El siguiente ejemplo ilustra una actualización de audiencia simple desde la segmentación. Un planificador ejecuta el flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. La actividad **Guardar audiencia** actualiza la audiencia eliminando perfiles que han cancelado la suscripción al servicio desde la última ejecución del flujo de trabajo y agregando perfiles recién suscritos.
+The following example illustrates a simple audience update from targeting. Una planificador ejecuta la flujo de trabajo una vez al mes. Una consulta recupera todos los perfiles suscritos a las diferentes aplicaciones disponibles. El **Guardar audiencia** actividad actualiza el audiencia eliminando los perfiles que se han dado de baja del servicio desde la última flujo de trabajo de ejecución y agregando perfiles recién suscritos.

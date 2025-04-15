@@ -34,7 +34,7 @@ El informe **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de 
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
-* **[!UICONTROL Total enviado]**: Porcentaje y número total de mensajes procesados durante la preparación de la entrega.
+* **[!UICONTROL Total enviado]**: porcentaje y número total de mensajes procesados durante la preparación de la envío.
 
 * **[!UICONTROL Éxito]**: porcentaje y número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.
 
@@ -57,7 +57,7 @@ El gráfico y la tabla de **población objetivo** muestran datos relacionados co
 
 +++ Obtenga más información sobre las métricas de informes de envío de SMS.
 
-* **[!UICONTROL Para entregar]**: Número total y porcentaje de mensajes procesados durante la preparación de la entrega.
+* **[!UICONTROL Para entregar]**: número total y porcentaje de mensajes procesados durante la preparación de la envío.
 
 * **[!UICONTROL Exclusiones]**: número y tasa porcentual de perfiles que se han excluido del análisis.
 +++
@@ -102,4 +102,4 @@ El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los motivos que impi
 
 Este informe proporciona información detallada sobre el rendimiento del envío en un periodo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
-![Descripción: la imagen muestra el informe Rendimiento de entrega, que incluye métricas como el número de mensajes enviados por hora dentro de un intervalo de tiempo especificado.](assets/reporting_sms_2.png){zoomable="yes"}
+![Descripción: la imagen muestra el informe de rendimiento de entrega, que incluye métricas como el número de mensajes enviados por hora dentro de un periodo de tiempo específico.](assets/reporting_sms_2.png){zoomable="yes"}

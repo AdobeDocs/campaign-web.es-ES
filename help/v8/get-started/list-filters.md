@@ -12,19 +12,19 @@ ht-degree: 44%
 
 # Examen y filtrado de listas {#list-screens}
 
-La mayoría de los vínculos del menú de navegación de la izquierda muestran listas de objetos, como la lista de **envíos** o **campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista y filtrar estas listas, como se detalla a continuación.
+La mayoría de los vínculos de la izquierda menú de navegación muestran listas de objetos, como el lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la lista mostrar y filtrar estas listas, como se detalla a continuación.
 
 ## Personalizar pantallas de lista {#custom-lists}
 
 Las listas se muestran en columnas. Puede mostrar información adicional cambiando la configuración de la columna. Para ello, haga clic en el icono **Configurar la columna para un diseño personalizado** en la esquina superior derecha de la lista.
 
-[La captura de pantalla muestra el icono Configurar columna que se utilizó para personalizar el diseño de las columnas de la lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[El captura de pantalla muestra el icono Configurar columna, utilizado para personalizar el diseño de lista columnas.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 En la pantalla **Configuración de columnas**, agregue o quite columnas, y cambie el orden en el que se muestran.
 
 Puede cambiar el orden de la lista mediante **arrastrar y soltar** o usando las **flechas arriba y abajo**, tal como se muestra a continuación:
 
-[La captura de pantalla muestra cómo reordenar columnas de lista mediante botones de arrastrar y soltar o de flecha.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[El captura de pantalla muestra cómo reordenar lista columnas mediante los botones de arrastrar y soltar o de flecha.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Por ejemplo, para esta configuración:
 
@@ -32,21 +32,21 @@ Por ejemplo, para esta configuración:
 
 La lista muestra las siguientes columnas:
 
-[La captura de pantalla muestra la lista resultante con columnas configuradas según la configuración del ejemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[El captura de pantalla muestra el lista resultante con columnas configuradas según los ajustes de ejemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 ## Ordenar datos {#sort-lists}
 
-Para ordenar los elementos de la lista, haga clic en cualquier encabezado de columna. Se muestra una flecha (Arriba o Abajo) que indica que la lista está ordenada en esa columna.
+Para ordenar los elementos de la lista, haga clic en cualquier encabezado de columna. Se muestra una flecha (arriba o abajo) que indica que el lista está ordenado en esa columna.
 
-Para las columnas numéricas o de fecha, la flecha **Arriba** indica que la lista se ordena en orden ascendente, mientras que la flecha **Abajo** indica un orden descendente. Para las columnas de cadena o alfanuméricas, los valores aparecen en orden alfabético.
+Para las columnas numérica o fecha, la **flecha arriba** indica que la lista está ordenada en orden ascendente, mientras que la **flecha abajo** indica un orden de bajada. Para las columnas de cadena o alfanuméricas, los valores aparecen en orden alfabético.
 
 ## Filtros {#list-built-in-filters}
 
-Para buscar elementos más rápido, utilice la barra de búsqueda o los filtros integrados y personalizados para adaptar la lista en función de criterios contextuales.
+Para encontrar elementos más rápidamente, utilice la barra de búsqueda o la filtros integrada y personalizada para adaptar el lista en función de criterios contextuales.
 
-[La captura de pantalla muestra las opciones de filtro disponibles para perfeccionar la vista de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La captura de pantalla muestra las opciones de filtro disponibles para perfeccionar el vista lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Encontrará información detallada sobre cómo usar filtros y crear sus propios filtros personalizados en [esta sección](../query/filter.md).
+En esta sección](../query/filter.md) encontrará [información detallada sobre cómo usar filtros y crear sus propias filtros personalizadas.
 
 <!--
 ## Use advanced attributes {#adv-attributes}

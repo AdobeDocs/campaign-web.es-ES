@@ -67,11 +67,11 @@ Para definir contenido condicional para una entrega mediante el editor de expres
 
    Utilice la función de ayuda **else if** para generar condiciones con múltiples variantes de contenido. Por ejemplo, la expresión siguiente muestra tres variantes de un mensaje según el idioma de los destinatarios:
 
-   ![Captura de pantalla que muestra una condición con múltiples variantes basadas en el idioma de los destinatarios.](assets/condition-sample3.png){zoomable="yes"}{width="800" align="center"}
+   ![Captura de pantalla que muestra una condición con varias variantes según el idioma de los destinatarios.](assets/condition-sample3.png){zoomable="yes"}{width="800" align="center"}
 
    >[!NOTE]
    >
-   >Cada vez que se agrega una función de ayuda, las etiquetas de apertura (`<%`) y cierre (`%>`) se agregan automáticamente antes y después de la función.
+   >Cada vez que se agrega una función auxiliar, las etiquetas opening (`<%`) y closing (`%>`) se agregan automáticamente antes y después de la función.
    >
    >Ejemplo después de agregar una función de ayuda &quot;Else&quot; dentro de una expresión:
    >

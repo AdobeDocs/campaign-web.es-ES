@@ -69,7 +69,7 @@ Para eliminar un envío de la lista de envíos, siga estos pasos:
 
 ![Eliminando un envío de la interfaz de la lista de envíos](assets/delete-delivery-from-list.png)
 
-Todas los envíos están disponibles en estas listas, pero los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, elimine la actividad de entrega del flujo de trabajo.
+Todas los envíos están disponibles en estas listas, pero los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una envío creada en el contexto de una flujo de trabajo, elimine la actividad envío del flujo de trabajo.
 
 Para eliminar un envío de un flujo de trabajo, siga estos pasos:
 

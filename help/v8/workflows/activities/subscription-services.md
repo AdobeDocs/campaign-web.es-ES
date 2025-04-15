@@ -32,9 +32,9 @@ ht-degree: 18%
 >title="Más información"
 >abstract="Especifique los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se definirá ninguna fecha ni ningún origen al ejecutar el flujo de trabajo. Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el campo **[!UICONTROL Fecha]**. En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer un valor constante como origen]**. "
 
-La actividad **Servicios de suscripción** es una actividad de **Administración de datos**. Permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
+La **actividad de servicios** de suscripción es un **actividad de administración de** datos. Permite crear o eliminar una suscripción a una servicio informativo para la población especificada en el transición.
 
-## Configure la actividad Subscription services {#subscription-services-configuration}
+## Configurar los servicios de suscripción actividad {#subscription-services-configuration}
 
 Siga estos pasos para configurar la actividad **Servicios de suscripción**:
 
@@ -64,11 +64,11 @@ Siga estos pasos para configurar la actividad **Servicios de suscripción**:
 
    ![Captura de pantalla de la interfaz entrante del servicio de suscripción de flujo de trabajo.](../assets/workflow-subscription-service-inbound.png)
 
-1. Para notificar a los destinatarios que se han suscrito o dado de baja del servicio seleccionado, active la opción **[!UICONTROL Enviar un mensaje de confirmación]**. El contenido de esta notificación se define en una plantilla de envío asociada al servicio de información.
+1. Para notificar a los destinatarios que se han suscrito o dado de baja del servicio seleccionado, active la opción **[!UICONTROL Enviar un mensaje de confirmación]**. El contenido de este notificación se define en una plantilla de envíos asociada al servicio informativo.
 
-1. Si usa datos de una transición entrante, se muestra la sección **[!UICONTROL Información adicional]**, que le permite especificar los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se definirá ninguna fecha ni ningún origen al ejecutar el flujo de trabajo.
+1. Si está utilizando datos de un transición entrante, aparece una **[!UICONTROL sección de información]** adicional que le permite especificar los datos y el origen de la suscripción para cada registro. Puede dejar esta sección vacía, en cuyo caso no se establecerá ninguna fecha ni origen al ejecutar el flujo de trabajo.
 
-   * Si los datos de entrada contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el campo **[!UICONTROL Fecha]**.
+   * Si los datos entrantes contienen una columna que indica la fecha de suscripción del perfil al servicio, puede seleccionarla en el **[!UICONTROL campo Fecha]** .
 
    * En el campo **[!UICONTROL Ruta de origen]**, defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la opción **[!UICONTROL Establecer un valor constante como origen]**. 
 
@@ -105,8 +105,8 @@ El flujo de trabajo siguiente muestra cómo importar un archivo que contiene per
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  Como ha visto, la operación se especifica en el archivo como &quot;sub&quot; o &quot;unsub&quot;. El sistema espera que un valor **booleano** o **entero** reconozca la operación que se va a realizar: “0” para cancelar la suscripción y “1” para suscribirse. Para hacer coincidir este requisito:
-   * El **tipo de datos** de la columna &quot;operación&quot; está establecido en entero.
+  Como habrás notado, la operación se especifica en el archivo como &quot;sub&quot; o &quot;unsub&quot;. El sistema espera que un valor **booleano** o **entero** reconozca la operación que se va a realizar: “0” para cancelar la suscripción y “1” para suscribirse. Para cumplir este requisito:
+   * El **tipo** de datos de la columna &quot;operación&quot; se establece en entero.
    * Se debe realizar una **reasignación de valores** para que coincida con los valores &quot;sub&quot; y &quot;unsub&quot; con los valores &quot;1&quot; y &quot;0&quot;.
 
   ![Captura de pantalla de la interfaz de asignación de servicios de suscripción de flujo de trabajo.](../assets/workflow-subscription-service-uc2-mapping.png)

@@ -15,11 +15,11 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Actividad AND-join"
->abstract="La actividad **AND-join** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto garantiza que determinadas actividades se completen antes de continuar ejecutando el flujo de trabajo."
+>abstract="La actividad **AND-join** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que han finalizado todas las actividades anteriores. Esto garantiza que ciertas actividades se completen antes de continuar con la ejecución del flujo de trabajo."
 
-La actividad **Combinación-Y** es una actividad de **Control de flujo**. Sincroniza varias ramas de ejecución de un flujo de trabajo.
+La actividad **Combinación-Y** es una actividad de **Control de flujo**. Sincroniza varias ramas de ejecución de una flujo de trabajo.
 
-Esta actividad almacena en déclencheur su transición saliente solo después de activar todas las transiciones entrantes. En otras palabras, se activa una vez completadas todas las actividades anteriores. Esto garantiza que determinadas actividades hayan finalizado antes de continuar ejecutando el flujo de trabajo.
+Este actividad desencadena su transición saliente solo después de que se hayan activado todas las transiciones entrantes. En otras palabras, se activa una vez que se completan todas las actividades anteriores. Esto garantiza que ciertas actividades finalicen antes de continuar con la ejecución del flujo de trabajo.
 
 ## Configuración de la actividad And-join {#and-join-configuration}
 
@@ -30,15 +30,15 @@ Esta actividad almacena en déclencheur su transición saliente solo después de
 
 Siga estos pasos para configurar la actividad **Combinación-Y**:
 
-![Captura de pantalla que muestra la interfaz de configuración para la actividad AND-join.](../assets/workflow-andjoin.png)
+![Captura de pantalla que muestra la interfaz de configuración para el actividad AND-join.](../assets/workflow-andjoin.png)
 
-1. Añada varias actividades, como actividades de canal, para formar, al menos, dos ramas de ejecución diferentes.
+1. añadir varias actividades, como canal actividades, para formar al menos dos ramas de ejecución diferentes.
 1. Añada una actividad **Combinación-Y** a cualquiera de las ramas.
-1. En la sección **Combinar opciones**, compruebe todas las actividades anteriores a las que desee unirse.
-1. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante se debe conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes.
+1. En la **sección Opciones** de combinación, marque todas las actividades anteriores a las que desea unirse.
+1. En el **menú desplegable Conjunto** principal, elija qué población de transición entrante desea conservar. La transición saliente solo puede contener una de las poblaciones de transición entrantes.
 
 ## Ejemplo {#and-join-example}
 
-El siguiente ejemplo muestra dos ramas de flujo de trabajo con un envío de correo electrónico y SMS. Los déclencheur AND-join cuando ambas transiciones de entrada están habilitadas. Las notificaciones push solo se envían una vez completados ambos envíos.
+El siguiente ejemplo muestra dos ramas de flujo de trabajo con un envío de correo electrónico y SMS. La unión AND se activa cuando ambas transiciones entrantes están habilitadas. Las notificaciones push solo se envían después de que se hayan completado ambos envíos.
 
-![Ejemplo de un flujo de trabajo con dos ramas, que muestra el envío de correo electrónico y SMS seguido de notificaciones push.](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![Ejemplo de una flujo de trabajo con dos ramas que muestra envío correo electrónico y SMS seguidas de notificaciones push.](../assets/workflow-andjoin-example.png){zoomable="yes"}

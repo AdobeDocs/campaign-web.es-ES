@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Creación de mensajes transaccionales
-description: Obtenga información sobre cómo crear un mensaje transaccional en la interfaz de usuario web de Campaign
+title: Crear mensajes transaccionales
+description: Aprenda a crear un mensaje transaccional en Campaign interfaz web del usuario
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
@@ -10,15 +10,15 @@ ht-degree: 11%
 
 ---
 
-# Creación de mensajes transaccionales
+# Crear mensajes transaccionales
 
-En la mensajería transaccional, un evento déclencheur el envío de un mensaje personalizado. Para habilitar esto, cree una plantilla de mensaje para cada tipo de evento. Estas plantillas contienen toda la información necesaria para personalizar el mensaje transaccional.
+En el mensajería transaccional, una evento activa el envío de un mensaje personalizado. Para habilitar esto, cree un plantilla de mensaje para cada tipo de evento. Estas plantillas contienen toda la información necesaria para personalizar el mensaje transaccional.
 
-## Creación de una plantilla de mensaje transaccional {#transactional-template}
+## Crear un plantilla de mensaje transaccional {#transactional-template}
 
-En la interfaz de usuario web de Campaign, el primer paso en la configuración de la mensajería transaccional es la creación de la plantilla o la creación directa del mensaje. Esto difiere de [la configuración de los mensajes transaccionales en la consola del cliente](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+En Campaign interfaz web de usuario, el primer paso en la configuración del mensajería transaccional es la creación del plantilla o la creación directa del mensaje. Es diferente a [la configuración de los mensajes transaccionales en la consola](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional) del cliente.
 
-Se puede utilizar una plantilla de mensaje transaccional para previsualizar el contenido de envío recibido por el perfil antes de que llegue a la audiencia final. Por ejemplo, un administrador puede configurar las plantillas, preparándolas para que las utilicen los usuarios de marketing.
+Se puede utilizar un plantilla de mensaje transaccional para previsualización el envío contenido recibido por el perfil antes de que llegue al audiencia final. Por ejemplo, un administrador puede configurar las plantillas, preparándolas para que las utilicen los usuarios de marketing.
 
 Para crear una plantilla de mensaje transaccional, siga los pasos a continuación:
 
@@ -26,7 +26,7 @@ Para crear una plantilla de mensaje transaccional, siga los pasos a continuació
 
   ![Captura de pantalla que muestra la sección de plantillas transaccionales en la interfaz de usuario web de Campaign.](assets/transactional-templates.png){zoomable="yes"}
 
-* En la nueva página mostrada, elija el canal de la plantilla. Para este ejemplo, seleccione el canal **[!UICONTROL Correo electrónico]**. También puede trabajar desde otra plantilla de mensaje y seleccionarla en la lista de plantillas.
+* En la nueva página mostrada, elija el canal de la plantilla. Para este ejemplo, seleccione el canal **[!UICONTROL Correo electrónico]**. También puede trabajar desde otro plantilla de mensajes y seleccionarlo en el lista de plantillas.
 
   ![Captura de pantalla que muestra la selección de canales para las plantillas de mensajes transaccionales.](assets/transactional-template-channel.png){zoomable="yes"}
 
@@ -79,9 +79,9 @@ La sección **[!UICONTROL Propiedades]** de un mensaje transaccional le ayuda a 
 
 En esta sección, seleccione la aplicación en la que desea insertar el mensaje.
 
-Al hacer clic en el icono de búsqueda, acceda a la lista de aplicaciones móviles de la instancia de Adobe Campaign.
+Al hacer clic en el icono búsqueda, acceda a la lista de aplicaciones móviles en su Adobe Campaign instancia.
 
-![Captura de pantalla que muestra la selección de la aplicación móvil para los mensajes transaccionales.](assets/transactional-mobileapp.png){zoomable="yes"}
+![Captura de pantalla que muestra la selección de aplicaciones móviles para mensajes transaccionales.](assets/transactional-mobileapp.png){zoomable="yes"}
 
 ### Muestra de contexto {#context-sample}
 
@@ -115,22 +115,22 @@ El contenido del contexto depende de la personalización que necesite.
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_personalization"
 >title="Personalización de la mensajería transaccional"
->abstract="Aprenda a personalizar el contenido de la mensajería transaccional."
+>abstract="Aprenda a personalizar el mensajería transaccional contenido."
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_event_context"
 >title="Contexto del evento"
 >abstract="Este menú proporciona variables del evento activador que puede aprovechar para personalizar el contenido del mensaje transaccional."
 
-Trabajar en el contenido de un mensaje transaccional es similar a la creación de contenido de una entrega. Haz clic en **[!UICONTROL Abrir el diseñador de correo electrónico]** o **[!UICONTROL Editar el cuerpo del correo electrónico]** y selecciona un contenido de plantilla o importa el código de HTML.
+Trabajar el contenido de una mensaje transaccional es similar a la creación contenido de una envío. Haga clic en **[!UICONTROL Abrir correo electrónico diseñador]** o **[!UICONTROL Editar correo electrónico cuerpo]** y seleccione una plantilla contenido o importe su código HTML.
 
-![Captura de pantalla que muestra la creación de contenido para las plantillas de mensajes transaccionales.](assets/template-content.png){zoomable="yes"}
+![Captura de pantalla que muestra la creación contenido para mensaje transaccional plantillas.](assets/template-content.png){zoomable="yes"}
 
-Para personalizar el contenido, haz clic en la sección donde quieras agregarlo y elige el icono **[!UICONTROL Agregar Personalization]**.
+Para agregar personalización al contenido, haga clic en la sección donde desea agregarlo y elija el **[!UICONTROL icono de añadir Personalización]** .
 
-![Captura de pantalla que muestra el icono de personalización en el editor de contenido.](assets/template-perso.png){zoomable="yes"}
+![Captura de pantalla que muestra el icono personalización en el editor contenido.](assets/template-perso.png){zoomable="yes"}
 
-Acceda a la ventana **[!UICONTROL Editar personalización]**. Para agregar variables desde el evento de déclencheur, haga clic en el icono **[!UICONTROL Contexto de evento]**. Navegue por el contexto que definió para la plantilla ([más información acerca del contexto](#context-sample)) y haga clic en el botón **[!UICONTROL +]** para insertar la variable requerida.
+Acceda a la ventana de ]**personalización de Editar**[!UICONTROL . Para agregar variables desde el evento activador, haga clic en el icono de contexto ]**Evento**[!UICONTROL . Navegue por el contexto que definió para su plantilla ([obtenga más información sobre el contexto](#context-sample)) y haga clic en el **[!UICONTROL botón +]** para insertar el variable requerido.
 
 La siguiente imagen muestra cómo añadir personalización para el nombre.
 
@@ -144,7 +144,7 @@ En este ejemplo, agrega el nombre y los apellidos y personaliza el vínculo de b
 
 En esta fase de la creación de la plantilla, previsualice el contenido de la plantilla y compruebe la personalización.
 
-Para ello, rellene la [muestra de contexto](#context-sample) y haga clic en el botón **[!UICONTROL Simular contenido]**.
+Para ello, rellene el ejemplo de [contexto y haga clic en el **[!UICONTROL botón](#context-sample) Simular contenido]**.
 
 ![Captura de pantalla que muestra la vista previa de la plantilla de mensaje transaccional.](assets/template-preview.png){zoomable="yes"}
 

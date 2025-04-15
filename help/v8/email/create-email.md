@@ -19,7 +19,7 @@ ht-degree: 42%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-En función de una [plantilla de diseño](../email/create-email-templates.md) predefinida, el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
+Basado en un plantilla](../email/create-email-templates.md) de diseño predefinido[, el correo electrónico también cuenta con contenido personalizadas basadas en los atributos de perfil del cliente.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -41,9 +41,9 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
 
 1. Vaya al menú **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón **[!UICONTROL Crear envío]**.
 
-   ![Captura de pantalla que muestra el botón Crear envío en el menú Envíos](../msg/assets/create-a-delivery.png)
+   ![Captura de pantalla que muestra el botón de envío Crear en el menú Entregas](../msg/assets/create-a-delivery.png)
 
-1. Seleccione **[!UICONTROL Correo electrónico]** como canal y elija una plantilla de envíos de correo electrónico en la lista.
+1. Seleccione **[!UICONTROL Correo electrónico]** como canal y elija un plantilla de envíos de correo electrónico del lista.
 
    >[!NOTE]
    >
@@ -52,12 +52,12 @@ Para crear un nuevo envío de correo electrónico independiente, siga los pasos 
    ![Captura de pantalla que muestra la selección del canal de correo electrónico y la plantilla](assets/channel-template.png){zoomable="yes"}
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
-1. Introduzca una etiqueta para la entrega y configure opciones adicionales según sus necesidades:
+1. Introduzca una etiqueta para el envío y configure opciones adicionales según sus necesidades:
 
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
    * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
-   * **[!UICONTROL Código de envío]**: utilice este campo para organizar los envíos según sus propias convenciones de nomenclatura.
-   * **[!UICONTROL Descripción]**: especifique una descripción para la entrega.
+   * **[!UICONTROL Código]** de envío: Utilice este campo para organizar los envíos según su propia convención de nombres.
+   * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza del correo electrónico con fines de clasificación.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -107,9 +107,9 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![Captura de pantalla que muestra el botón Editar contenido](assets/email-edit-content.png){zoomable="yes"}
 
-   Esto le lleva a una interfaz específica en la que puede configurar el contenido del correo electrónico y acceder al Designer de correo electrónico. [Más información](edit-content.md)
+   Esto le lleva a una interfaz dedicada donde puede configurar el contenido correo electrónico y acceder al Diseñador de correo electrónico. [Más información](edit-content.md)
 
-   ![Captura de pantalla que muestra la interfaz de Designer de correo electrónico](assets/edit-content.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la interfaz de Email Designer](assets/edit-content.png){zoomable="yes"}
 
 1. Introduzca la línea de asunto del correo electrónico y personalícelo con el Editor de expresiones. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
 
@@ -117,13 +117,13 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Para diseñar el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, use [una plantilla de contenido predefinida](create-email-templates.md).
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, utilice un [plantilla contenido](create-email-templates.md) predefinido.
 
-   ![Captura de pantalla que muestra la selección de una plantilla de contenido predefinida](assets/select-template.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la selección de un contenido predefinido plantilla](assets/select-template.png){zoomable="yes"}
 
-1. Una vez seleccionada la plantilla, se mostrará en [Email Designer](create-email-content.md), donde podrá realizar los cambios necesarios y agregar personalización.
+1. Una vez que haya seleccionado el plantilla, se muestra en el Diseñador](create-email-content.md) de [correo electrónico, donde puede realizar las ediciones necesarias y agregar personalización.
 
-   Por ejemplo, para añadir personalización al título del correo electrónico, seleccione el bloque de componentes y haga clic en **[!UICONTROL Añadir Personalization]**.
+   Por ejemplo, para añadir personalización al título del correo electrónico, seleccione el bloque de componentes y haga clic en **[!UICONTROL añadir Personalización]**.
 
    ![Captura de pantalla que muestra el proceso de personalización](assets/add-perso.png){zoomable="yes"}
 
@@ -145,9 +145,9 @@ Cuando se realiza una entrega en el contexto de un flujo de trabajo, se debe uti
 
 Una vez realizada la entrega, el envío real comienza en la fecha de contacto definida.
 
-Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-deliveries.md#schedule-the-delivery-sending).
+Obtenga más información sobre envío programación en [esta sección](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## Previsualización de un correo electrónico y envío de pruebas {#preview-test}
+## Vista previa un correo electrónico y enviar pruebas {#preview-test}
 
 Antes de enviar el correo electrónico, puede obtener una vista previa y probarlo para asegurarse de que cumpla con sus expectativas.
 
@@ -155,15 +155,15 @@ En este caso de uso, puede previsualizar el correo electrónico y enviar pruebas
 
 Encontrará información adicional sobre cómo obtener una vista previa de un correo electrónico y enviar pruebas en [esta sección](../preview-test/preview-test.md).
 
-1. Para revisar su correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Esto muestra una previsualización del correo electrónico, junto con todas las propiedades, la audiencia y la programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar.
+1. Para revisar su correo electrónico, haga clic en **[!UICONTROL Revisar y enviar]**. Muestra un previsualización del correo electrónico, junto con todas las propiedades, audiencia y programación configuradas. Puede editar cualquiera de estos elementos haciendo clic en el botón modificar.
 
-1. Para obtener una vista previa del correo electrónico y enviar pruebas, haga clic en el botón **[!UICONTROL Simular contenido]**.
+1. Para previsualización el correo electrónico y enviar pruebas, haga clic en el **[!UICONTROL botón Simular contenido]** .
 
    ![Captura de pantalla que muestra el botón Simular contenido](assets/review-email.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >El botón **[!UICONTROL Simular contenido]** está deshabilitado en contextos específicos. Las limitaciones se detallan [en esta sección](#content-simulation-limitations).
+   >La **[!UICONTROL botón Simular contenido]** está deshabilitada en contextos específicos. Las limitaciones se detallan [en esta sección](#content-simulation-limitations).
 
 1. En el lado izquierdo, seleccione los perfiles que desee utilizar para previsualizar el correo electrónico.
 
@@ -180,19 +180,19 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
 
    ![Captura de pantalla que muestra la selección del modo de envío de prueba](assets/proof-mode.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Agregar dirección]** y especifique las direcciones de correo electrónico que recibirán las pruebas.
+1. Haga clic en **[!UICONTROL añadir dirección]** y especifique las direcciones correo electrónico que reciben las pruebas.
 
    Para cada dirección de correo electrónico, seleccione el perfil que desea suplantar. También puede permitir que Adobe Campaign seleccione un perfil aleatorio de destinatario.
 
-   ![Captura de pantalla que muestra la adición de direcciones de correo electrónico para pruebas](assets/proof-test-profile.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la adición de direcciones de correo electrónico para las pruebas](assets/proof-test-profile.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Enviar revisión]** y confirme el envío.
 
    Las pruebas se envían a las direcciones de correo electrónico especificadas utilizando el perfil seleccionado con el prefijo **[Proof x]**.
 
-   ![Captura de pantalla que muestra la confirmación del envío de pruebas](assets/proof-sent.png){zoomable="yes"}
+   ![Captura de pantalla que muestra la confirmación del envío del prueba](assets/proof-sent.png){zoomable="yes"}
 
-   Puede comprobar el estado del envío y acceder a las pruebas enviadas en cualquier momento haciendo clic en el botón **[!UICONTROL Ver pruebas]** en la pantalla Simular contenido.
+   Puede comprobar el estado del envío y acceder a las pruebas enviadas en cualquier momento haciendo clic en el **[!UICONTROL botón Ver]** pruebas en la pantalla de simulación contenido.
 
 ### Limitaciones de la simulación de contenido {#content-simulation-limitations}
 
@@ -237,7 +237,7 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 1. Durante el proceso de envío, puede realizar un seguimiento del progreso y ver las estadísticas en tiempo real directamente en esta pantalla.
 
-   ![Captura de pantalla que muestra el progreso de envío del correo electrónico](assets/sending-email.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el progreso de envío de correo electrónico](assets/sending-email.png){zoomable="yes"}
 
    <!--
     ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
@@ -246,7 +246,7 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 1. Una vez enviado el correo electrónico, puede acceder a los informes específicos para un análisis más detallado haciendo clic en el botón **[!UICONTROL Informes]**.
 
-![Captura de pantalla que muestra el botón Informes](assets/reports.png){zoomable="yes"}
+![Captura de pantalla que muestra el botón de informes](assets/reports.png){zoomable="yes"}
 
 ## Vídeos explicativos {#video}
 

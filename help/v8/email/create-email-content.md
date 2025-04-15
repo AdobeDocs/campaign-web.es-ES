@@ -52,25 +52,25 @@ ht-degree: 54%
 >title="Definición de columnas de plantilla"
 >abstract="El diseñador de correo electrónico permite definir fácilmente el diseño de la plantilla mediante la definición de la estructura de columnas."
 
-El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al añadir y mover elementos estructurales con sencillas acciones de arrastrar y soltar, diseña el cuerpo del correo electrónico en cuestión de segundos.
+El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, diseña el cuerpo de su correo electrónico en segundos.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
+Para inicio la creación de su contenido correo electrónico, seguir los pasos que se describen a continuación.
 
-1. En la página de inicio de [Email Designer](get-started-email-designer.md#start-authoring), seleccione la opción **[!UICONTROL Diseñar desde cero]**.
+1. En la [página de inicio Diseñador](get-started-email-designer.md#start-authoring) de correo electrónico, seleccione la **[!UICONTROL opción Diseño desde cero]** .
 
-   ![Captura de pantalla que muestra la página de inicio de Designer de correo electrónico con la opción &quot;Diseñar desde cero&quot; resaltada.](assets/email_designer-from-scratch.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el página de inicio del Diseñador de correo electrónico con la opción &quot;Diseño desde cero&quot; resaltada.](assets/email_designer-from-scratch.png){zoomable="yes"}
 
-1. Para diseñar el contenido del correo electrónico, arrastre y suelte **[!UICONTROL Estructuras]** en el lienzo para definir el diseño del correo electrónico.
+1. Inicio diseñar su contenido correo electrónico arrastrando y soltando **[!UICONTROL estructuras]** en el lienzo para definir el diseño de su correo electrónico.
 
    >[!NOTE]
    >
    >El apilado de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
 
-1. Agregue tantas **[!UICONTROL estructuras]** como sea necesario y edite su configuración en el panel dedicado de la derecha.
+1. añadir tantas **[!UICONTROL estructuras]** como sea necesario y edite su configuración en el panel dedicado de la derecha.
 
-   ![Captura de pantalla que muestra el panel de componentes de estructura en el Designer de correo electrónico.](assets/email_designer_structure_components.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el panel de componentes de estructura en el Diseñador de correo electrónico.](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. Seleccione el componente **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). Defina el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
 
@@ -78,36 +78,36 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
    >
    >Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de la estructura. No se puede quitar una columna que no esté vacía.
 
-1. Desde la sección **[!UICONTROL Componentes]**, arrastre y suelte tantos elementos como sea necesario en una o más estructuras. [Más información sobre los componentes de contenido](content-components.md)
+1. En la **[!UICONTROL sección Componentes]** , arrastre y coloque tantos elementos como sea necesario en una o más estructuras. [Más información sobre los componentes de contenido](content-components.md)
 
-1. Personalice cada componente con las fichas **[!UICONTROL Configuración]** o **[!UICONTROL Estilo]** de la derecha. Por ejemplo, cambie el estilo del texto, el relleno o el margen de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
+1. Personalice cada componente mediante las **[!UICONTROL fichas Configuración]** o **[!UICONTROL Estilo]** de la derecha. Por ejemplo, cambie el estilo del texto, el relleno o el margen de cada componente. [Obtenga más información sobre la alineación y el relleno](alignment-and-padding.md)
 
-   ![Captura de pantalla que muestra las opciones de personalización de estilo del correo electrónico Designer.](assets/email_designer-styles.png){zoomable="yes"}
+   ![Captura de pantalla que muestra las opciones de personalización de estilo en el Diseñador de correo electrónico.](assets/email_designer-styles.png){zoomable="yes"}
 
-1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos del perfil. [Más información sobre la personalización de contenido](../personalization/personalize.md)
+1. Inserte campos de personalización para personalizar los contenido de correo electrónico basándose en perfil datos. [Más información sobre la personalización de contenido](../personalization/personalize.md)
 
-1. Añada vínculos al contenido.
+1. añadir vínculos a su contenido.
 
-   Haga clic en la ficha **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realizará un seguimiento. Modifique su **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario.
+   Haga clic en el **[!UICONTROL pestaña Vínculos]** del panel izquierdo para mostrar todas las direcciones URL de la contenido que se rastrearán. Modifique su **[!UICONTROL tipo]** o **[!UICONTROL Etiquetar]** de seguimiento y agregue **[!UICONTROL categorías]** si es necesario.
 
-[Más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
+[Más información sobre enlaces y mensajes seguimiento](message-tracking.md)
 
-   ![Captura de pantalla que muestra la pestaña de vínculos en el Designer de correo electrónico.](assets/email_designer-links.png){zoomable="yes"}
+   ![Captura de pantalla que muestra los vínculos pestaña en el Diseñador de correo electrónico.](assets/email_designer-links.png){zoomable="yes"}
 
-1. Si es necesario, personalice aún más su correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** desde el menú avanzado. Esto le permite editar el código fuente del correo electrónico, por ejemplo, para añadir etiquetas de seguimiento o HTML personalizadas. [Obtenga más información sobre el editor de código](code-content.md)
+1. Si es necesario, personalice aún más su correo electrónico haciendo clic en **[!UICONTROL el editor]** Cambiar a código en el menú avanzado. Esto permite editar el código fuente de la correo electrónico, por ejemplo, para agregar etiquetas HTML seguimiento o personalizadas. [Obtenga más información sobre el editor de código](code-content.md)
 
    >[!CAUTION]
    >
    >No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
 
-1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar el procesamiento del correo electrónico. Elija la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
+1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar el procesamiento del correo electrónico. Seleccione la escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 
-   ![Captura de pantalla que muestra las opciones de simulación en el Designer de correo electrónico.](assets/email_designer-simulate.png){zoomable="yes"}
+   ![Captura de pantalla que muestra las opciones de simulación en el Diseñador de correo electrónico.](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 
 ## Vídeos explicativos {#video}
 
-Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizarlo y probarlo.
+Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizar y prueba su correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

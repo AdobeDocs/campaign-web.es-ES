@@ -19,35 +19,35 @@ ht-degree: 27%
 
 Los **informes globales** constituyen una herramienta eficaz que ofrece un resumen global consolidado de las métricas de tráfico y participación para cada canal dentro de la instancia de Campaign. Estos informes constan de varios widgets, cada uno de los cuales ofrece una perspectiva distinta sobre el rendimiento de la campaña o el envío.
 
-Los indicadores clave de rendimiento (KPI) se actualizan cada hora, lo que garantiza perspectivas actualizadas. De forma predeterminada, los filtros de datos abarcan los últimos 30 días, lo que ofrece una perspectiva actual y relevante del rendimiento de sus campañas y envíos.
+Los indicadores de rendimiento clave (KPI) se actualizan cada hora, lo que garantiza información actualizada. De forma predeterminada, los datos filtros cubrir los últimos 30 días, lo que ofrece una perspectiva actual y relevante sobre el rendimiento de sus campañas y entregas.
 
-La lista completa de informes y las métricas asociadas para cada canal están disponibles en las siguientes páginas:
+La lista completa de informes y métricas asociadas para cada canal está disponible en las siguientes páginas:
 
-* [Informes globales de correo electrónico](global-report-email.md)
+* [Enviar informes globales por correo electrónico](global-report-email.md)
 * [Informes globales de SMS](global-report-sms.md)
-* [Informes globales push](global-report-push.md)
-* [Informes globales de correo directo](global-report-direct.md)
+* [Impulsar informes globales](global-report-push.md)
+* [correo postal informes globales](global-report-direct.md)
 
-## Administrar el tablero de informes {#manage-reports}
+## Administrar el informe panel {#manage-reports}
 
-Para acceder y administrar sus informes globales, siga estos pasos:
+Para acceder a los informes globales y administrar ellos, seguir estos pasos:
 
-1. Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Informes]**.
+1. Navegue hasta el **[!UICONTROL menú Informes]** dentro de la **[!UICONTROL sección Informes]** .
 
-1. En el menú de la izquierda, seleccione un informe de la lista y navegue por la pestaña para mostrar los datos de cada canal.
+1. En el menú de la izquierda, seleccione un informe de la lista y navegue por la pestaña para ver los datos de cada canal.
 
-   ![Captura de pantalla que muestra el menú izquierdo y las pestañas para navegar por los datos de cada canal](assets/global_report_manage_3.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el menú y las pestañas de la izquierda para desplazarse por los datos de cada canal](assets/global_report_manage_3.png){zoomable="yes"}
 
-1. En el tablero, elija **Inicio** y **[!UICONTROL Hora de finalización]** para segmentar datos específicos.
+1. En el panel, elija un Inicio **y**[!UICONTROL  una hora ]**de** finalización para destino datos específicos.
 
-   ![Captura de pantalla que muestra el panel con opciones para seleccionar la hora de inicio y finalización para la segmentación de datos](assets/global_report_manage_1.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el panel con opciones para seleccionar la hora inicio y la hora de finalización de los datos direccionamiento](assets/global_report_manage_1.png){zoomable="yes"}
 
-1. En el campo **[!UICONTROL Seleccionar carpeta]**, seleccione si desea segmentar envíos o campañas desde una carpeta específica.
+1. En el **[!UICONTROL campo Seleccionar carpeta]** , seleccione si desea destino envíos o campañas desde una carpeta específica.
 
    ![Captura de pantalla que muestra el campo de la carpeta de selección para seleccionar envíos o campañas](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Agregar reglas]** para empezar a crear consultas y filtrar mejor los datos de informes. [Aprenda a utilizar el modelador de consultas](../query/query-modeler-overview.md).
+1. Haga clic en **[!UICONTROL añadir reglas]** para inicio la generación de consultas para filtrar mejor sistema de informes datos. [Aprenda a utilizar el modelador](../query/query-modeler-overview.md) de consulta.
 
-1. Entre las **[!UICONTROL URL y los flujos de clics]**, elija los **[!UICONTROL vínculos más visitados]** o el **[!UICONTROL período de tiempo]**.
+1. En las URL y las **[!UICONTROL secuencias de clics]**, elija los **[!UICONTROL vínculos]** más visitados o el período ]**de**[!UICONTROL  tiempo.
 
-   Las opciones de **[!UICONTROL Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.
+   Las **[!UICONTROL opciones Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.

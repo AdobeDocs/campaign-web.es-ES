@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # Informes de campaña para el canal de correo postal {#campaign-reports-direct-mail}
 
-Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo postal. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo postal. Obtenga información sobre cómo acceder a sus informes de campaña en [este Página](campaign-reports.md).
 
 ## Resumen de envíos {#delivery-summary-direct}
 
@@ -31,9 +31,9 @@ La **[!UICONTROL descripción general de la entrega]** presenta métricas clave 
 
 * **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
-* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
+* **[!UICONTROL Entregados: número de mensajes enviados correctamente, en relación con el número total de mensajes enviados]**.
 
-* **[!UICONTROL Errores]**: Errores totales acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
+* **[!UICONTROL Errores]**: errores totales acumulados durante el procesamiento de envío y devolución automática, en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Clics totales]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
@@ -54,9 +54,9 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-* **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
+* **[!UICONTROL Enviar mensaje que se va a enviar]**: número total de mensajes que deben entregarse después de envío preparación.
 
-* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar reglas, como direcciones que faltan, direcciones en cuarentena o direcciones en una lista de bloqueados de la.
+* **[!UICONTROL rechazado por reglas]**: número total de direcciones ignoradas durante el análisis al aplicar reglas, como direcciones faltantes, direcciones en cuarentena o direcciones en una lista de denegación.
 
 +++
 
@@ -77,9 +77,9 @@ La tabla **[!UICONTROL Execution statistics]** proporciona un desglose del éxit
 
 * **[!UICONTROL Éxito]**: número de mensajes procesados correctamente, en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Errores]**: Errores totales acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Errores]**: errores totales acumulados durante los envíos y el procesamiento automático de rechazos, en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (por ejemplo, usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevo cuarentenas]**: número total de direcciones en cuarentena después de un envío fallido (por ejemplo, usuario desconocido, dominio inválido), en relación con el número de mensajes que se van a enviar.
 
 +++
 
@@ -100,6 +100,6 @@ La tabla **Flujos de clics generados** ilustra las razones que impidieron que lo
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que hicieron clic en una entrega en relación con el número estimado de destinatarios objetivo que abrieron una entrega.
+* **[!UICONTROL Reactividad]**: proporción del número de destinatarios objetivo que hicieron clic en un envío, en relación con el número estimado de destinatarios objetivo que abrieron un envío.
 
 +++

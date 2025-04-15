@@ -17,43 +17,43 @@ ht-degree: 25%
 >title="Informes agregados para envíos"
 >abstract="Seleccione al menos dos envíos para mostrar un informe de datos agregados."
 
-Los **informes de envío** proporcionan información y datos detallados centrados exclusivamente en sus **envíos** en cada canal. Estos informes ofrecen información detallada sobre el rendimiento, la eficacia y los resultados de las entregas individuales, lo que proporciona una visión general completa.
+Los **informes de envío** proporcionan información y datos detallados centrados exclusivamente en sus **envíos** en cada canal. Estos informes oferta información detallada sobre el rendimiento, la eficacia y los resultados de sus entregas individuales, proporcionando una visión general completa.
 
-La lista completa de informes y las métricas asociadas para cada canal están disponibles en las siguientes páginas:
+La lista completa de informes y métricas asociadas para cada canal está disponible en las siguientes páginas:
 
-* [Informes de envío de correo electrónico](email-report.md)
+* [Correo electrónico informes de envío](email-report.md)
 * [Informes de envío de SMS](sms-report.md)
 * [Informes de envío push](push-report.md)
-* [Informes de envío por correo directo](direct-mail.md)
+* [correo postal informes de envío](direct-mail.md)
 
-## Administrar el tablero de informes {#manage-reports}
+## Administrar el informe panel {#manage-reports}
 
-Adobe Campaign ofrece varios tipos de informes para cada envío a los que puede acceder. Estos informes miden y visualizan el impacto y el rendimiento de sus mensajes en un panel integrado.
+Adobe Campaign ofrece varios tipos de informes para cada envío a los que puede acceder. Estos informes medir y visualizan el impacto y el rendimiento de sus mensajes en un panel integrado.
 
-Para mostrar y administrar informes, siga estos pasos:
+Para mostrar y administrar informes, seguir estos pasos:
 
-1. Para generar un informe para una entrega específica, vaya al menú **[!UICONTROL Envíos]** y seleccione la entrega sobre la que desee informar.
+1. Para generar un informe para un envío específico, vaya al **[!UICONTROL menú Entregas]** y seleccione el envío del que desee informar.
 
-1. En el panel **[!UICONTROL Envío]**, haga clic en **[!UICONTROL Informes]**.
+1. En el **[!UICONTROL panel de envíos]** , haga clic en **[!UICONTROL Informes]**.
 
-   ![Panel de envío que muestra la opción Informes](assets/manage_delivery_report_1.png){zoomable="yes"}
+   ![Los panel de entrega muestran la opción Informes](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   También puede usar el botón de tres puntos **Más acciones** junto al nombre de la entrega en la lista de entregas y seleccionar **[!UICONTROL Ver informe]**.
+   Como alternativa, utilice los tres puntos Más acciones **botón** junto al nombre del envío en el lista de envíos y seleccione **[!UICONTROL Ver informe]**.
 
-   ![Lista de envíos con el botón Más acciones resaltado](assets/manage_delivery_report_2.png){zoomable="yes"}
+   ![lista de entrega con Más acciones botón resaltadas](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. En el menú de la izquierda, seleccione un informe de la lista.
 
    ![Menú de selección de informes en el panel izquierdo](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. Si tu entrega es recurrente, selecciona una entrega específica sobre la que informar haciendo clic en **[!UICONTROL Seleccionar entregas]**.
+1. Si su envío es recurrente, seleccione un envío específico para informar haciendo clic en **[!UICONTROL Seleccionar envíos]**.
 
-   También puede aplicar un período de tiempo a su informe seleccionando la **[!UICONTROL fecha de contacto]**.
+   También puede aplicar un período de tiempo al informe seleccionando la fecha ]**de**[!UICONTROL  contacto.
 
-   ![Selección de envío recurrente con la opción Fecha de contacto](assets/delivery-recurring.png){zoomable="yes"}
+   ![Selección de envío recurrente con opción Fecha de contacto](assets/delivery-recurring.png){zoomable="yes"}
 
-1. Entre las **[!UICONTROL URL y los flujos de clics]**, elija los **[!UICONTROL vínculos más visitados]** o el **[!UICONTROL período de tiempo]**.
+1. En las URL y las **[!UICONTROL secuencias de clics]**, elija los **[!UICONTROL vínculos]** más visitados o el período ]**de**[!UICONTROL  tiempo.
 
-   Las opciones de **[!UICONTROL Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.
+   Las **[!UICONTROL opciones Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.
 
-   ![Ver por opciones para filtrar direcciones URL, etiquetas o categorías](assets/manage_delivery_report_5.png){zoomable="yes"}
+   ![Ver las opciones de filtrado de direcciones URL, etiquetas o categorías](assets/manage_delivery_report_5.png){zoomable="yes"}
