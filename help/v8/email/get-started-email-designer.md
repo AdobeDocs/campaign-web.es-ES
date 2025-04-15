@@ -3,10 +3,10 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 45%
+source-wordcount: '409'
+ht-degree: 61%
 
 ---
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 Al enviar correos electrónicos, tenga en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con el procesamiento del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que puede que el proveedor de correo electrónico no admita para el reenvío. Por ejemplo, si utiliza la clase CSS &quot;is-desktop-hidden&quot; para ocultar una imagen en dispositivos móviles, es posible que no se represente correctamente.
 
-Para minimizar estos problemas de procesamiento, mantenga la estructura de diseño del correo electrónico lo más sencilla posible. Utilice un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Al seguir estas prácticas recomendadas, se garantiza que los correos electrónicos se representen de forma coherente, independientemente de cómo los destinatarios los vean o reenvíen.
+Para minimizar estos problemas de procesamiento, recomendamos mantener la estructura de diseño del correo electrónico tan simple como sea posible. Intente utilizar un solo diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Cuando utilice imágenes en los correos electrónicos, evite las imágenes que tengan más de 2 MB o utilice vínculos de imagen codificados.
+
+Al seguir estas prácticas recomendadas, puede ayudar a garantizar que los correos electrónicos se representen correctamente de forma coherente, independientemente de cómo los destinatarios los vean o reenvíen.
 
 ## Comience a crear el contenido {#start-authoring}
 
