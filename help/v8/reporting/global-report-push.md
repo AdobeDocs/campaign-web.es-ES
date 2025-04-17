@@ -3,7 +3,7 @@ audience: end-user
 title: Informes globales del canal push
 description: Comprensión de los informes globales del canal push
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 23%
@@ -83,7 +83,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje, error de carga útil y motivos similares) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de notificaciones push se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
 
-Los tipos de error de notificaciones push se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Rendimiento del envío {#delivery-throughput-sms}
 

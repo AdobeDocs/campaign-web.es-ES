@@ -1,10 +1,10 @@
 ---
 title: Introducción a Adobe Campaign v8 para especialistas en marketing
-description: Descubra la funcionalidad clave de Campaign v8. Va dirigido a los especialistas en marketing que migran de Campaign Standard a Campaign v8.
+description: Descubra la funcionalidad clave de Campaign v8. Está dirigido a los especialistas en marketing que migran de Campaign Standard a Campaign v8.
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 18%
@@ -70,12 +70,12 @@ En este vídeo, aprenderá a crear y administrar audiencias, a seleccionar audie
 
 Consulte [Introducción a las audiencias](../../v8/audience/manage-audience.md){target="_blank"} para obtener más información.
 
-Como en Campaign Standard, puede añadir un grupo de control al envío. Puede definir un grupo de control para evitar enviar mensajes a una parte de la audiencia y comparar el comportamiento tras la entrega con el destinatario principal. Esta opción le ayuda a medir el impacto de su campaña.
+Al igual que en Campaign Standard, puede agregar un grupo de control al envío. Puede definir un grupo de control para evitar enviar mensajes a una parte de la audiencia y comparar el comportamiento tras la entrega con el destinatario principal. Esta opción le ayuda a medir el impacto de su campaña.
 Aprenda a [establecer un grupo de control](../../v8/audience/control-group.md){target="_blank"}.
 
 >[!AVAILABILITY]
 >
->* Todas las audiencias creadas mediante la actividad de Consulta del Campaign Standard se transforman en filtros predefinidos en Campaign v8 durante la transición. Campaign v8 también admite la actividad Query.
+>* Todas las audiencias creadas mediante la actividad Campaign Standard Query se transforman en filtros predefinidos en Campaign v8 durante la transición. Campaign v8 también admite la actividad Query.
 >
 >* La audiencia de lectura se transforma en actividad de consulta con [filtro predefinido](../../v8/query/build-query.md)
 >
@@ -192,7 +192,7 @@ Vínculos útiles:
 >
 >* Los envíos que se encuentran en uno de los siguientes estados se han migrado como envíos cancelados: Para envíos cancelados/Reintento en curso.
 >
->* Los vínculos de seguimiento, los vínculos de URL de página espejo y los vínculos de suscripción/cancelación de suscripción funcionan como en Campaign Standard.
+>* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/cancelación de suscripción funcionan como en Campaign Standard.
 >
 >Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} en Adobe Campaign.
 
@@ -204,11 +204,11 @@ Obtenga información sobre cómo crear un envío de correo electrónico desde ce
 
 Aprenda a crear su primer correo electrónico de destino en [Crear su primera documentación de correo electrónico](../../v8/email/create-email.md)
 
-En Campaign v8, los pasos detallados para crear, probar y enviar un envío de correo electrónico son similares a los de un Campaign Standard.
+En Campaign v8, los pasos detallados para crear, probar y enviar un envío de correo electrónico son similares a Campaign Standard.
 
 1. **Diseñar y definir contenido**
 
-   El diseñador de correo electrónico de Campaign v8 es similar al que está disponible en Campaign Standard. Como recordatorio, el Campaign Standard[editor de correo electrónico heredado quedó obsoleto](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} hace unos años. Ya debería haber realizado la transición a Campaign Email Designer para crear y personalizar el contenido del correo electrónico.
+   El diseñador de correo electrónico de Campaign v8 es similar al disponible en Campaign Standard. Como recordatorio, el editor de correo electrónico heredado de Campaign Standard[quedó obsoleto](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} hace unos años. Ya debería haber realizado la transición a Campaign Email Designer para crear y personalizar el contenido del correo electrónico.
 
    Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Obtenga información sobre cómo estructurar y diseñar un correo electrónico desde cero, cómo personalizarlo y probarlo en el siguiente vídeo:
 
@@ -216,7 +216,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar un envío de co
 
    El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva de arrastrar y soltar. Obtenga más información en la [documentación de Designer por correo electrónico](../../v8/email/get-started-email-designer.md)
 
-   Obtenga información sobre cómo crear un correo electrónico cargando un HTML, cómo hacerlo compatible con el Designer de correo electrónico y cómo convertirlo en una plantilla en este vídeo:
+   Obtenga información sobre cómo crear un correo electrónico cargando HTML, cómo hacerlo compatible con el Designer de correo electrónico y cómo convertirlo en una plantilla en este vídeo:
 
    >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
@@ -242,7 +242,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar un envío de co
 
 Los envíos SMS proporcionan una forma práctica y eficaz de enviar mensajes de texto a los dispositivos móviles de los clientes. Con esta función, puede crear, personalizar y previsualizar mensajes basados en texto para una comunicación eficaz.
 
-En Campaign v8, los pasos detallados para crear, probar y enviar un envío SMS son similares a los de un Campaign Standard.
+En Campaign v8, los pasos detallados para crear, probar y enviar un envío SMS son similares a Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -277,7 +277,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar un envío SMS s
 
 Las notificaciones push son esenciales para ponerse en contacto con los usuarios de su aplicación móvil, incluso cuando no estén utilizando activamente la aplicación. Sirven para varios fines, como proporcionar actualizaciones, impulsar acciones específicas y notificar ofertas.
 
-En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de notificaciones push son similares a los de un Campaign Standard.
+En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de notificaciones push son similares a Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -309,7 +309,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de 
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 es compatible con Android y con el canal push de iOS. Para la transición de flujos de trabajo y envíos existentes mediante el canal push, conéctese con su administrador de transición de Adobe Campaign. Más información sobre [Configuración del canal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+>* Adobe Campaign v8 es compatible con Android y con el canal push de iOS. Para la transición de flujos de trabajo y envíos existentes mediante el canal push, conéctese con su administrador de transición de Adobe Campaign. Más información sobre [Configuración de canal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 >
 >* Tenga en cuenta que SDK V4 para aplicaciones móviles estaba [obsoleto en Campaign Standard](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} hace unos años. Ya debería haber realizado la transición a Adobe Experience Platform SDK, que es el mismo que se usa en Campaign v8.
 > 
@@ -333,7 +333,7 @@ Tenga en cuenta que el canal en la aplicación no está disponible en Campaign v
 
 La interfaz de usuario web de Adobe Campaign v8 viene con una experiencia de usuario reimaginada para las páginas de aterrizaje. Campaign le permite crear, diseñar y compartir páginas de aterrizaje. Adobe Campaign le permite dirigir a los usuarios a formularios en línea, donde pueden actualizar sus datos, optar por suscribirse a darse de baja de la recepción de comunicaciones, o suscribirse a un servicio específico, como una Newsletter.
 
-Como usuario Campaign Standard que está realizando la transición a Campaign v8, las páginas de destino existentes se han migrado a la interfaz de usuario web de Campaign. Puede acceder a la misma gama de funcionalidades.
+Como usuario de Campaign Standard que realiza la transición a Campaign v8, las páginas de aterrizaje existentes se han migrado a la interfaz de usuario web de Campaign. Puede acceder a la misma gama de funcionalidades.
 
 Obtenga más información acerca de las páginas de aterrizaje en las siguientes secciones:
 

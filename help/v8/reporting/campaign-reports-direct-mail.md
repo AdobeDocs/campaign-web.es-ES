@@ -3,7 +3,7 @@ audience: end-user
 title: Informes de campaña para el canal de correo postal
 description: Comprender los informes de campaña del canal de correo directo
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # Informes de campaña para el canal de correo postal {#campaign-reports-direct-mail}
 
-Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo postal. Obtenga información sobre cómo acceder a sus informes de campaña en [este Página](campaign-reports.md).
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo postal. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
 
 ## Resumen de envíos {#delivery-summary-direct}
 
@@ -31,9 +31,9 @@ La **[!UICONTROL descripción general de la entrega]** presenta métricas clave 
 
 * **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
-* **[!UICONTROL Entregados: número de mensajes enviados correctamente, en relación con el número total de mensajes enviados]**.
+* **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
 
-* **[!UICONTROL Errores]**: errores totales acumulados durante el procesamiento de envío y devolución automática, en relación con el número total de mensajes enviados.
+* **[!UICONTROL Errores]**: Errores totales acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
 * **[!UICONTROL Clics totales]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 
@@ -50,13 +50,13 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 ![Estadísticas de la audiencia de destinatario inicial para campañas de correo directo](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Obtenga más información sobre las métricas de las estadísticas de audiencia de destinatario inicial.
++++Obtenga más información acerca de las métricas de estadísticas de audiencia de destinatario inicial.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
-* **[!UICONTROL Enviar mensaje que se va a enviar]**: número total de mensajes que deben entregarse después de envío preparación.
+* **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
-* **[!UICONTROL rechazado por reglas]**: número total de direcciones ignoradas durante el análisis al aplicar reglas, como direcciones faltantes, direcciones en cuarentena o direcciones en una lista de denegación.
+* **[!UICONTROL Rechazado por reglas]**: Número total de direcciones ignoradas durante el análisis al aplicar reglas, como direcciones que faltan, direcciones en cuarentena o direcciones en una lista de bloqueados de la.
 
 +++
 
@@ -77,9 +77,9 @@ La tabla **[!UICONTROL Execution statistics]** proporciona un desglose del éxit
 
 * **[!UICONTROL Éxito]**: número de mensajes procesados correctamente, en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Errores]**: errores totales acumulados durante los envíos y el procesamiento automático de rechazos, en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Errores]**: Errores totales acumulados durante las entregas y el procesamiento automático de los rechazos en relación con el número de mensajes que se van a enviar.
 
-* **[!UICONTROL Nuevo cuarentenas]**: número total de direcciones en cuarentena después de un envío fallido (por ejemplo, usuario desconocido, dominio inválido), en relación con el número de mensajes que se van a enviar.
+* **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (por ejemplo, usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
 +++
 
@@ -94,12 +94,12 @@ La tabla **[!UICONTROL Execution statistics]** proporciona un desglose del éxit
 
 La tabla **Flujos de clics generados** ilustra las razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-+++Obtenga más información sobre las métricas de flujos de clics generados.
++++Obtenga más información acerca de las métricas de flujos de clics generados.
 
 * **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en un envío al menos una vez.
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 
-* **[!UICONTROL Reactividad]**: proporción del número de destinatarios objetivo que hicieron clic en un envío, en relación con el número estimado de destinatarios objetivo que abrieron un envío.
+* **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que hicieron clic en una entrega en relación con el número estimado de destinatarios objetivo que abrieron una entrega.
 
 +++

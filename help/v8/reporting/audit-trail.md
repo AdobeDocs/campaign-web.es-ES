@@ -4,7 +4,7 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -24,7 +24,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 +++ Más información sobre las Entidades disponibles de pista de auditoría
 
-* **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas en la consola del cliente de Campaign V8.
+* **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas dentro de la consola del cliente de Campaign v8.
 
   Para obtener información detallada sobre los esquemas, consulte [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
@@ -41,7 +41,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../workflows/gs-workflows.md).
 
-* **Seguimiento de auditoría de opciones** le permite supervisar las actividades y las modificaciones recientes realizadas en las opciones de Campaign V8.
+* **Seguimiento de auditoría de opciones** le permite supervisar las actividades y las modificaciones recientes realizadas en las opciones de Campaign v8.
 
   Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
@@ -49,15 +49,15 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
   Para obtener más información sobre las entregas, consulte esta [página](../msg/gs-deliveries.md).
 
-* **Cuenta externa** le permite comprobar las modificaciones realizadas en cuentas externas en la versión 8 de Campaign, utilizadas por procesos técnicos como flujos de trabajo técnicos o flujos de trabajo de campaña.
+* **Cuenta externa** le permite comprobar las modificaciones realizadas en cuentas externas en Campaign v8, utilizadas por procesos técnicos como flujos de trabajo técnicos o flujos de trabajo de campaña.
 
   Para obtener más información sobre cuentas externas, consulte esta [página](../administration/external-account.md).
 
-* **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en la asignación de entregas en Campaign V8.
+* **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en la asignación de entregas en Campaign v8.
 
   Para obtener más información sobre la asignación de envíos, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
-* **Aplicación web** permite comprobar las modificaciones realizadas en los formularios web en Campaign V8, utilizadas para crear páginas con campos de entrada y selección, que pueden incluir datos de la base de datos.
+* **Aplicación web** le permite comprobar las modificaciones realizadas en los formularios web en Campaign v8, utilizados para crear páginas con campos de entrada y selección, y que pueden incluir datos de la base de datos.
 
   Para obtener más información sobre las aplicaciones web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
@@ -65,7 +65,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
   Para obtener más información sobre las ofertas, consulte esta [página](../msg/offers.md).
 
-* **Operador** le permite supervisar las actividades y las modificaciones recientes realizadas en sus Operadores en Campaign V8.
+* **Operador** le permite supervisar las actividades y las modificaciones recientes realizadas en sus Operadores en Campaign v8.
 
   Para obtener más información sobre los operadores, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 18%
@@ -38,7 +38,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 | Uso | Ejemplo |
 |  ---  |  ---  |
 | **Definir audiencias**: especifique la población a la que desee dirigirse en sus mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. [Aprenda a crear audiencias](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagen que muestra cómo acceder a la interfaz de creación de audiencias] |
-| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades del flujo de trabajo](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo acceder a las opciones de personalización del flujo de trabajo] |
+| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades de flujo de trabajo](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo acceder a las opciones de personalización del flujo de trabajo] |
 | **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante diversas operaciones de filtrado, tanto si está trabajando con listas de datos como formando la audiencia para una entrega. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo acceder a los filtros predefinidos] |
 | **Filtrar datos de informes**: agregue reglas para filtrar los datos mostrados en los informes. [Aprenda a trabajar con informes](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagen que muestra cómo filtrar datos en los informes] |
 | **Personalizar listas**: cree reglas personalizadas para filtrar los datos mostrados en listas como las de destinatarios o entregas. [Aprenda a filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo personalizar filtros de lista] |

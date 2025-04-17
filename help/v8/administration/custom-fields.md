@@ -2,7 +2,7 @@
 title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados y su visibilidad en la interfaz.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 20%
@@ -70,7 +70,7 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
    ![Captura de pantalla que muestra el menú Esquemas y el filtro Editable en el panel de navegación](assets/custom-fields-open.png)
 
-1. Seleccione el nombre del esquema en la lista para abrirlo. Se muestra una vista de esquema detallada. [Más información sobre los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Editar detalle personalizado]** para acceder a los campos personalizados. En este ejemplo, se agregan campos para el esquema **[!UICONTROL Recipients]**.
+1. Seleccione el nombre del esquema en la lista para abrirlo. Se muestra una vista de esquema detallada. [Más información acerca de los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Editar detalle personalizado]** para acceder a los campos personalizados. En este ejemplo, se agregan campos para el esquema **[!UICONTROL Recipients]**.
 
    ![Captura de pantalla que muestra el botón Editar detalle personalizado en la vista de esquema](assets/custom-fields-edit.png)
 
