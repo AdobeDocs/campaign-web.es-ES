@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo migrar la administración de acces
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,9 @@ En Adobe Campaign Standard y Campaign v8 se utilizan los siguientes conceptos pa
 
 ## Enfoque de migración del grupo de seguridad al grupo de operadores
 
-### Notas de precaución
-
-Las capacidades de estas funciones/derechos asignados pueden variar en la implementación, lo que podría causar problemas de autorización (por ejemplo, elevación de privilegios o interrupciones en la funcionalidad). Recomendamos a los usuarios que revisen estas asignaciones después de la transición para garantizar un control de acceso adecuado. [Más información sobre los permisos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
-
-### Grupos de seguridad y grupos de operadores
+>[!IMPORTANT]
+>
+>Las capacidades de estas funciones/derechos asignados pueden variar en la implementación, lo que podría causar problemas de autorización (por ejemplo, elevación de privilegios o interrupciones en la funcionalidad). Recomendamos a los usuarios que revisen estas asignaciones después de la transición para garantizar un control de acceso adecuado. [Más información sobre los permisos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 En la tabla siguiente se describe el método de migración para grupos de funciones de usuario al realizar la transición de Adobe Campaign Standard a Campaign v8. En Campaign Standard, se usa un **grupo de seguridad**, denominado **grupo de operadores** en Campaign v8, para asignar un conjunto de funciones a un usuario. Aunque algunos grupos de operadores/grupos de seguridad están disponibles de forma predeterminada, los usuarios pueden crear grupos nuevos o modificar los existentes si es necesario.
 
@@ -48,11 +46,9 @@ Tanto en Adobe Campaign Standard como en Campaign v8, **los grupos de seguridad*
 
 ## Enfoque de migración de funciones de usuario a derechos asignados
 
-### Notas de precaución
-
-Durante la migración de Adobe Campaign Standard a Campaign v8, los usuarios con la función **Modelo de datos** pero no la función **Administración** obtendrán automáticamente acceso a **Administración**, ya que la creación de esquemas en Campaign v8 requiere derechos de administración. Para evitarlo, quite la función **Modelo de datos** antes de la migración.
-
-### Funciones de usuario y derechos asignados
+>[!IMPORTANT]
+>
+>Durante la migración de Adobe Campaign Standard a Campaign v8, los usuarios con la función **Modelo de datos** pero no la función **Administración** obtendrán automáticamente acceso a **Administración**, ya que la creación de esquemas en Campaign v8 requiere derechos de administración. Para evitarlo, quite la función **Modelo de datos** antes de la migración.
 
 En Adobe Campaign Standard, el término **función de usuario** se denomina **derecho asignado** en Campaign v8. La tabla siguiente describe la terminología utilizada para **Derechos asignados** en Campaign v8 correspondientes a **Funciones de usuario** en Campaign Standard.
 
@@ -72,13 +68,12 @@ En Adobe Campaign Standard, el término **función de usuario** se denomina **de
 
 ## Enfoque de migración desde la unidad organizativa
 
-### Notas de precaución
+>[!IMPORTANT]
+>
+>Las unidades organizativas en Adobe Campaign Standard sin **All (all)** como elemento principal directo o indirecto no se migrarán a Campaign v8.
+></br>
+>A los usuarios de varios grupos de seguridad se les asigna la unidad organizativa del grupo de seguridad de mayor clasificación. Si varios grupos tienen unidades de nivel superior paralelas, el sistema selecciona la unidad organizativa del usuario en Campaign Standard y el usuario solo tendría acceso a la unidad organizativa seleccionada por el sistema y a sus elementos secundarios. En Campaign v8 después de la migración, el usuario tendría acceso a **todas las unidades organizativas asignadas y a sus elementos secundarios**, lo que podría escalar privilegios. Para evitarlo, evite asignar usuarios a grupos de seguridad con unidades organizativas paralelas. Más información sobre la [asignación paralela de unidades organizativas](#parallel-assignments).
 
-Las unidades organizativas en Adobe Campaign Standard sin **All (all)** como elemento principal directo o indirecto no se migrarán a Campaign v8.
-
-A los usuarios de varios grupos de seguridad se les asigna la unidad organizativa del grupo de seguridad de mayor clasificación. Si varios grupos tienen unidades de nivel superior paralelas, el sistema selecciona la unidad organizativa del usuario en Campaign Standard y el usuario solo tendría acceso a la unidad organizativa seleccionada por el sistema y a sus elementos secundarios. En Campaign v8 después de la migración, el usuario tendría acceso a **todas las unidades organizativas asignadas y a sus elementos secundarios**, lo que podría escalar privilegios. Para evitarlo, evite asignar usuarios a grupos de seguridad con unidades organizativas paralelas. Más información sobre la [asignación paralela de unidades organizativas](#parallel-assignments).
-
-### Unidades de organización y administración de carpetas
 
 En Adobe Campaign Standard, la **unidad organizativa** está asignada al modelo de jerarquía **Folder** existente en Campaign v8 para mantener un control de acceso similar. [Más información acerca de la administración de carpetas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
