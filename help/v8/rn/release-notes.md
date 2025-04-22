@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 56%
+source-wordcount: '836'
+ht-degree: 53%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 56%
 >title="Notas de la versión "
 >abstract="Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, las notas de la versión de Campaign se actualizan varias veces al mes, con las últimas funciones, mejoras y correcciones. Le recomendamos que las revise regularmente."
 
-Adobe Campaign versiones de interfaz de usuario Web funcionan con un modelo de envío continuo, que permite un enfoque escalable y por fases para el implementación de características. En consecuencia, estos Notas de la versión se actualizan varias veces al mes. Revíselos regularmente.
+Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de entrega continua, que permite un enfoque escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelos con regularidad.
 
-En este Página](release-notes-24.md) se enumeran [los cambios y mejoras disponibles en versiones anteriores.
+Los cambios y mejoras disponibles con versiones anteriores se enumeran [en esta página](release-notes-24.md).
 
 ## Versión de febrero de 2025 {#25-2-release}
 
@@ -37,8 +37,8 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario de Adobe Campaign Web. Las tipologías controlan, filtran y priorizan el envío de envíos. Las tipologías validan que los envíos siempre contengan componentes obligatorios (como un vincular de baja o una línea de asunto) o reglas de filtrado para excluir grupos de su audiencia (gustar no suscriptores, competidores o clientes que no sean fidelizados).</p>
-<img src="assets/do-not-localize/typology.gif" alt="Ilustración de creación de reglas de tipología en Adobe Campaign interfaz Web de Usuario">
+<p>Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario de Adobe Campaign Web. Las tipologías controlan, filtran y dan prioridad a la entrega de envíos. Las tipologías validan que las entregas siempre contienen componentes obligatorios (como un vínculo de baja o una línea de asunto) o reglas de filtrado para excluir grupos de la audiencia (como suscriptores que se han dado de baja, competidores o clientes que no son fieles).</p>
+<img src="assets/do-not-localize/typology.gif" alt="Ilustración de la creación de reglas de tipología en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../administration/typologies.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -54,8 +54,8 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear asignaciones de público destinatario en la interfaz de usuario de Campaign Web. Las asignaciones de público destinatario definen cómo los distintos canales de envío (correo electrónico, SMS o notificaciones push) se vinculan a los campos de datos de un esquema. El asignación de destino define los audiencia objetivo: perfiles, beneficiarios de contratos, operadores, suscriptores, prospectos y otros.</p>
-<img src="assets/do-not-localize/target-mapping.gif" alt="Ilustración de destino creación de asignaciones en Adobe Campaign interfaz Web de Usuario">
+<p>Ahora puede crear asignaciones de público destinatario en la interfaz de usuario de Campaign Web. Las asignaciones de público destinatario definen cómo los distintos canales de envío (correo electrónico, SMS o notificaciones push) se vinculan a los campos de datos de un esquema. La asignación de destino define la audiencia de destino: perfiles, beneficiarios de contratos, operadores, suscriptores, clientes potenciales y otros.</p>
+<img src="assets/do-not-localize/target-mapping.gif" alt="Ilustración de la creación de asignaciones de destino en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../administration/target-mappings.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -71,8 +71,8 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. Ahora se puede acceder a la edición de campos personalizados desde los <b>campos</b> personalizados Editar botón disponibles en los detalles de esquema.</p>
-<img src="assets/do-not-localize/schemas.gif" alt="Ilustración de detalles de esquema y edición de campos personalizados en Adobe Campaign interfaz web del usuario">
+<p>Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. Ahora se puede acceder a la edición de campos personalizados desde el botón <b>Editar campos personalizados</b> disponible en los detalles del esquema.</p>
+<img src="assets/do-not-localize/schemas.gif" alt="Ilustración de la edición de detalles de esquema y campos personalizados en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -96,8 +96,8 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Los fragmentos visuales son bloques visuales predefinidos que se pueden reutilizar en varias entregas correo electrónico o en plantillas contenido. Esta función ya está disponible para todos los clientes que ejecuten la versión 8.6.4 o superior del servidor.</p>
-<img src="assets/do-not-localize/visual-fragment.gif" alt="Ilustración de creación y uso de fragmentos visuales en Adobe Campaign interfaz Web de Usuario">
+<p>Los fragmentos visuales son bloques visuales predefinidos que se pueden reutilizar en varios envíos de correo electrónico o en plantillas de contenido. Esta función ya está disponible para todos los clientes que ejecuten la versión 8.6.4 o superior del servidor.</p>
+<img src="assets/do-not-localize/visual-fragment.gif" alt="Ilustración de la creación y el uso de fragmentos visuales en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../content/use-visual-fragments.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -114,7 +114,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>Ahora puede definir envíos externos y plantillas de envío externo en la interfaz de Campaign Web. En este modo, los mensajes se compilan en un archivo de salida que se puede compartir con su proveedor externo. De forma predeterminada, el modo de envío externo es el que se utiliza para el canal de correo directo.</p>
-<img src="assets/do-not-localize/external-delivery.gif" alt="Ilustración de configuración de envío externo en Adobe Campaign interfaz Web del usuario">
+<img src="assets/do-not-localize/external-delivery.gif" alt="Ilustración de la configuración de envíos externos en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../msg/send-external-deliveries.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -130,8 +130,8 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar los campos. Utilice enumeraciones para estandarizar los valores de estos campos, ayudar con la entrada de datos o utilizarlos dentro de las consultas.</p>
-<img src="assets/do-not-localize/enumerations.gif" alt="Ilustración de administración de lista desglosada en Adobe Campaign interfaz Web de Usuario">
+<p>Ahora puede crear enumeraciones directamente mediante la interfaz de usuario de Adobe Campaign Web. Una enumeración es una lista de valores sugeridos por el sistema para rellenar los campos. Utilice enumeraciones para estandarizar los valores de estos campos, ayudar con la entrada de datos o utilizar en las consultas.</p>
+<img src="assets/do-not-localize/enumerations.gif" alt="Ilustración de la administración de listas desglosadas en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../administration/enumerations.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -148,7 +148,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tr>
 <td>
 <p>Ahora puede acceder a las opciones técnicas de la interfaz de usuario de Adobe Campaign Web y crear sus propias opciones personalizadas para adaptarlas a sus necesidades. Esto resulta particularmente útil cuando se trabaja con actividades de flujo de trabajo de código JavaScript para almacenar datos intermedios.</p>
-<img src="assets/do-not-localize/options.gif" alt="Ilustración de creación de opciones personalizadas en Adobe Campaign interfaz Web de Usuario">
+<img src="assets/do-not-localize/options.gif" alt="Ilustración de la creación de opciones personalizadas en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../administration/options.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -164,8 +164,8 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear códigos JavaScript en la interfaz de usuario de Adobe Campaign Web. Esto le permite crear funciones reutilizables que se pueden utilizar en toda flujos de trabajo, de forma similar a un biblioteca.</p>
-<img src="assets/do-not-localize/javascript.gif" alt="Ilustración de creación de código de JavaScript en Adobe Campaign interfaz web del usuario">
+<p>Ahora puede crear códigos JavaScript en la interfaz de usuario de Adobe Campaign Web. Esto permite crear funciones reutilizables que se pueden utilizar en distintos flujos de trabajo, de forma similar a una biblioteca.</p>
+<img src="assets/do-not-localize/javascript.gif" alt="Ilustración de la creación de código JavaScript en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información, consulte la <a href="../administration/javascript-codes.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -175,14 +175,14 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Generación de la página de aterrizaje con el Asistente de IA</strong><br/></th>
+<th><strong>Generación de páginas de aterrizaje con el asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Asistente de IA ya está disponible con los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
-<img src="assets/do-not-localize/ai-lp.gif" alt="Ilustración de uso de AI Assistant para la generación de página de aterrizaje en Adobe Campaign interfaz de usuario web">
+<p>El asistente de IA ya está disponible con los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
+<img src="assets/do-not-localize/ai-lp.gif" alt="Ilustración del uso del asistente de IA para la generación de páginas de aterrizaje en la interfaz de usuario web de Adobe Campaign">
 <p>Para obtener más información sobre el Asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -193,10 +193,10 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 
 * Personalice la visualización de los campos personalizados en la interfaz:
    * Seleccione campos personalizados adicionales para mostrar en la interfaz.
-   * Defina reglas para mostrar campos personalizados de tipo vincular, como restringir lista valores en función de la entrada de otro campo.
-   * Organice los campos en la interfaz de manera más flexible: los campos pueden abarcar una sola columna o agruparse en subsecciones para una mejor organización.
-   * Definir campos específicos como de solo lectura.
+   * Establecer reglas para mostrar campos personalizados de tipo vínculo, como restringir valores de lista basados en la entrada de otro campo.
+   * Organizar los campos en la interfaz de forma más flexible: los campos pueden abarcar una sola columna o agruparse en subsecciones para mejorar la organización.
+   * Establezca campos específicos como de solo lectura.
 
-* Recientes y Favoritos filtros: añadir atributos utilizados frecuentemente en Favoritos para un acceso rápido. Además de favoritos, vista y utilice los atributos seleccionados más recientemente.
+* Filtros recientes y favoritos: Agregue atributos utilizados frecuentemente a favoritos para acceder rápidamente a ellos. Además de Favoritos, vea y utilice los atributos seleccionados más recientemente.
 
 * Cuentas externas: el nuevo tipo de **[!UICONTROL Enrutamiento]** está disponible para su selección al crear una nueva cuenta externa. Le permite configurar una cuenta externa específica para utilizarla en los envíos externos. [Más información](../administration/external-account.md#routing).

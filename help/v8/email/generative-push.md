@@ -3,10 +3,10 @@ audience: end-user
 title: Notificación push con el asistente de IA
 description: Introducción al asistente de IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ En el siguiente ejemplo, el asistente de IA se aprovecha para crear mensajes atr
 
    ![Captura de pantalla que muestra el menú Mostrar asistente de IA](assets/push-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -44,7 +44,7 @@ En el siguiente ejemplo, el asistente de IA se aprovecha para crear mensajes atr
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
-   * **[!UICONTROL Tono]**: ajusta el tono de tu correo electrónico para que resuene en tu audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA adapta el mensaje en consecuencia.
+   * **[!UICONTROL Tono]**: ajusta el tono de tu correo electrónico para que resuene en tu audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
 
    ![Captura de pantalla que muestra las opciones de configuración de texto](assets/push-genai-3.png){zoomable="yes"}
 
@@ -57,7 +57,7 @@ En el siguiente ejemplo, el asistente de IA se aprovecha para crear mensajes atr
 
    ![Captura de pantalla que muestra las opciones de configuración de imagen](assets/push-genai-4.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand Assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Cambie los recursos que desee incluir en la generación.
 

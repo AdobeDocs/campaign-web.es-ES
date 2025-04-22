@@ -3,9 +3,9 @@ audience: end-user
 title: Contenido generativo
 description: Introducción al asistente de IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1525'
 ht-degree: 1%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 1%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-Una vez que haya creado y personalizado sus correos electrónicos, utilice el asistente de IA de Adobe Campaign Web para mejorar su contenido.
+Una vez que haya creado y personalizado sus correos electrónicos, utilice el asistente de IA en Adobe Campaign Web para mejorar su contenido.
 
-El asistente de IA de la web de Adobe Campaign ayuda a optimizar el impacto de las entregas mediante la generación de correos electrónicos completos, contenido de texto de destino e imágenes adaptadas para resonar con la audiencia. Esto mejora sus campañas de correo electrónico para una mejor participación.
+El asistente de IA de Adobe Campaign Web ayuda a optimizar el impacto de las entregas mediante la generación de correos electrónicos completos, contenido de texto de destino e imágenes adaptadas para resonar con la audiencia. Esto mejora sus campañas de correo electrónico para una mejor participación.
 
-Con sus campañas de correo electrónico, utilice el asistente de IA para generar correos electrónicos, textos o imágenes completos. Explore las pestañas siguientes para aprender a utilizar el asistente de IA en Adobe Campaign Web.
+Con sus campañas de correo electrónico, utilice el asistente de IA para generar correos electrónicos, textos o imágenes completos. Explore las pestañas siguientes para aprender a utilizar el asistente de IA en la web de Adobe Campaign.
 
 >[!BEGINTABS]
 
 >[!TAB Generación completa de correo electrónico]
 
-En el siguiente ejemplo, aproveche el asistente de IA de Adobe Campaign Web para refinar un correo electrónico existente y personalizarlo para un evento especial.
+En el siguiente ejemplo, aproveche el asistente de IA en Adobe Campaign Web para refinar un correo electrónico existente y personalizarlo para un evento especial.
 
 1. Después de crear y configurar tu envío por correo electrónico, haz clic en **[!UICONTROL Editar contenido]**.
 
@@ -39,7 +39,7 @@ En el siguiente ejemplo, aproveche el asistente de IA de Adobe Campaign Web para
 
    ![Captura de pantalla que muestra el menú Asistente de IA en Adobe Campaign Web](assets/full-email-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -52,7 +52,7 @@ En el siguiente ejemplo, aproveche el asistente de IA de Adobe Campaign Web para
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
-   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA adapta el mensaje en consecuencia.
+   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
 
    ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ En el siguiente ejemplo, aproveche el asistente de IA de Adobe Campaign Web para
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
-   * **[!UICONTROL Reformular]**: el Asistente de IA reformula el mensaje de diferentes maneras, lo que mantiene la escritura fresca y atractiva para diversas audiencias.
+   * **[!UICONTROL Reformular]**: el Asistente de IA reformula su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
    * **[!UICONTROL Use un lenguaje más sencillo]**: Simplifique su idioma para garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
@@ -103,7 +103,7 @@ En el siguiente ejemplo, aproveche el asistente de IA para mejorar el contenido 
 
    ![Captura de pantalla que muestra la selección de componentes de texto en Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -114,7 +114,7 @@ En el siguiente ejemplo, aproveche el asistente de IA para mejorar el contenido 
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
-   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA adapta el mensaje en consecuencia.
+   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
    * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
    ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
@@ -161,7 +161,7 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
    ![Captura de pantalla que muestra el menú Asistente de IA para la generación de imágenes en Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 

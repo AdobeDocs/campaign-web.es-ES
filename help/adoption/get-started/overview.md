@@ -4,9 +4,9 @@ description: Conozca los pasos necesarios para empezar a utilizar la nueva aplic
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1555'
 ht-degree: 29%
 
 ---
@@ -93,7 +93,7 @@ Como usuario de Campaign Standard que está realizando la transición a Adobe Ca
 
   Adobe Experience Manager as a Cloud Service ofrece agilidad nativa de la nube, lo que le permite acelerar su tiempo de respuesta al valor y adaptarse a las cambiantes necesidades empresariales. Esta integración no solo mejora las funciones de administración de contenido, sino que también le permite ofrecer experiencias más personalizadas y atractivas a sus clientes en todos los puntos de contacto.
 
-* **Ayudante de IA**
+* **Asistente de IA**
 
   El Asistente de IA de Campaign hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
@@ -126,7 +126,7 @@ Adobe Campaign v8 está disponible como Managed Cloud Service y proporciona supe
 
 ## Funciones de Campaign Standard añadidas a la versión 8 de {#ac-v8-added}
 
-Para que pueda realizar la transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8. Se detallan en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}
+Para que pueda realizar la transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8. Se encuentran detalladas en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}.
 
 * **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}.
 

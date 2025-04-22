@@ -2,9 +2,9 @@
 title: Casos de uso del Asistente de IA
 description: Descubra, a través de casos de uso, cómo utilizar el asistente de IA
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -51,13 +51,13 @@ Una vez definido el contenido, la audiencia y la programación, prepare el enví
 
    * **[!UICONTROL Usar como contenido de referencia]**: La variación seleccionada actúa como referencia para generar más contenido.
 
-   * **[!UICONTROL Elaborar]**: permita que el asistente de IA expanda ciertos puntos y ofrezca más profundidad y detalle para una mejor participación.
+   * **[!UICONTROL Elaborar]**: permita que el Asistente de IA se expanda en ciertos puntos y ofrezca más profundidad y detalle para una mejor participación.
 
-   * **[!UICONTROL Resumir]**: para obtener información detallada, use el Asistente de IA para crear resúmenes concisos que sean más fáciles de asimilar para los destinatarios de correo electrónico.
+   * **[!UICONTROL Resumir]**: Para obtener información detallada, use el Asistente para IA para crear resúmenes concisos que sean más fáciles de asimilar para los destinatarios de correo electrónico.
 
    * **[!UICONTROL Reformular]**: el Asistente de IA puede presentar el mensaje de diferentes maneras, lo que ayuda a mantener el contenido actualizado para una variedad de audiencias.
 
-   * **[!UICONTROL Use un idioma más sencillo]**: Simplifique el idioma con el Asistente de IA para garantizar que el mensaje sea claro y accesible para todos los lectores.
+   * **[!UICONTROL Use un idioma más sencillo]**: Simplifique el idioma con el Asistente de IA para asegurarse de que el mensaje sea claro y accesible para todos los lectores.
 
    Además, ajusta el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu contenido.
 
@@ -89,7 +89,7 @@ Una vez definido el contenido, la audiencia y la programación, prepare el enví
 
 1. Después de configurar su envío, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Seleccione el recurso que desea modificar con el asistente de IA.
+1. Seleccione el recurso que desea modificar mediante el Asistente de IA.
 
 1. En el menú del panel derecho, elija **[!UICONTROL Asistente de IA]**.
 

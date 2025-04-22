@@ -3,9 +3,9 @@ audience: end-user
 title: SMS con el asistente de IA
 description: Introducción al asistente de IA
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ Esta herramienta proporciona sugerencias inteligentes para refinar el contenido,
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
-   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA adapta el mensaje en consecuencia.
+   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
    * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
    ![Captura de pantalla que muestra las opciones de configuración de texto](assets/sms-genai-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand Assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Cambie los recursos que desee incluir en la generación.
 
@@ -97,7 +97,7 @@ Al definir el contenido, la audiencia y la programación, prepare el envío de S
 
    ![Captura de pantalla que muestra el menú del Asistente de IA](assets/sms-text-1.png){zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para que el asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Usar contenido de referencia]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
 
@@ -114,7 +114,7 @@ Al definir el contenido, la audiencia y la programación, prepare el envío de S
 
    ![Captura de pantalla que muestra las opciones de configuración de texto](assets/sms-text-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Brand Assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que contenga contenido que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Cambie los recursos que desee incluir en la generación.
 
@@ -125,8 +125,8 @@ Al definir el contenido, la audiencia y la programación, prepare el envío de S
 1. Vaya a la opción **[!UICONTROL Refinar]** dentro de la ventana de **[!UICONTROL Vista previa]** para acceder a características de personalización adicionales y ajustar la variación a sus preferencias:
 
    * **[!UICONTROL Usar como contenido de referencia]**: la variante elegida sirve como contenido de referencia para generar otros resultados.
-   * **[!UICONTROL Reformular]**: el Ayudante de IA puede reformular el mensaje de diferentes maneras, lo que mantiene la escritura fresca y atractiva para diversas audiencias.
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el asistente de IA para simplificar el lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Reformular]**: el Asistente de IA puede reformular su mensaje de diferentes maneras, manteniendo su escritura fresca y atractiva para diversas audiencias.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 

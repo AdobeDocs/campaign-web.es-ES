@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ Los usuarios pueden introducir los detalles manualmente o cargar un documento de
 
    ![Pestaña de contenido visual con opciones de imagen de ejemplo](assets/brands_3.png)
 
-1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el asistente de IA.
+1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el Asistente de IA.
 
 1. Para modificar tu marca publicada, haz clic en **[!UICONTROL Editar marca]**.
 
@@ -104,6 +104,6 @@ Los usuarios pueden introducir los detalles manualmente o cargar un documento de
 
    ![Opciones de menú avanzadas en el panel Marcas](assets/brands_5.png)
 
-Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú del asistente de IA. Esto permite al asistente de IA generar contenido y recursos alineados con las especificaciones. [Más información sobre el asistente de IA](../email/generative-gs.md)
+Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú Asistente de IA. Esto permite al asistente de IA generar contenido y recursos alineados con las especificaciones. [Más información sobre el Asistente de IA](../email/generative-gs.md)
 
 ![Menú del asistente de IA con la lista desplegable de Marca](assets/brands_6.png)
