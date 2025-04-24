@@ -6,30 +6,30 @@ hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Ayuda contextual con tecnología de IA {#using-ai}
 
-Obtenga respuestas rápidas y generadas por IA basadas en la documentación del producto y el contexto actual del producto, mediante la ayuda contextual con tecnología de IA de preguntas y respuestas disponible en los cuadros de ayuda contextual del producto.
+Obtenga respuestas rápidas, generadas por IA en función de la documentación y del contexto actual del producto, con la ayuda contextual con tecnología de IA de preguntas y respuestas disponible en los cuadros de ayuda contextual.
 
-La **Ayuda contextual con la generación AI**, integrada en la ayuda contextual, revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo vastos repositorios de documentación y localizar al instante la información precisa que necesita.
+La **ayuda contextual con Gen IA** integrada dentro de la ayuda contextual revoluciona la búsqueda de documentación y la respuesta a preguntas sobre procedimientos al examinar sin esfuerzo amplios repositorios de documentación y localizar al instante la información precisa que necesita.
 
-Gracias a las capacidades de Campaign Gen AI, este componente mejora su experiencia, lo que simplifica la recuperación de información y la resolución de problemas. Tanto si busca orientación para una tarea compleja como si navega por documentos extensos, la Ayuda contextual con tecnología de IA sirve como su compañero definitivo, proporcionando una eficiencia y precisión inigualables en cada interacción.
+Gracias a las funcionalidades Gen IA de Campaign, este componente mejora su experiencia, lo que facilita la recuperación de información y la resolución de problemas. Tanto si busca orientación en una tarea compleja como si navega por documentos extensos, la ayuda contextual con tecnología de IA es su mejor compañero, ya que proporciona una eficacia y precisión inigualables en cada interacción.
 
 <!--
 [Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
 
 >[!AVAILABILITY]
 >
->* La ayuda contextual con tecnología de IA está disponible en su versión de Beta y está sujeta a cambios sin previo aviso.
+>* La ayuda contextual con tecnología IA está disponible en versión Beta y está sujeta a cambios sin previo aviso.
 >
->* Esta funcionalidad solo está disponible en **inglés**. En esta versión no se admiten otros idiomas. Como resultado, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de usar esta capacidad.
+>* Esta funcionalidad solo está disponible en **inglés**. En esta versión no se admiten otros idiomas. Por consiguiente, asegúrese de que [su idioma preferido](connect-to-campaign.md#language-pref) está configurado en inglés antes de utilizar esta función.
 >
->* La ayuda contextual con tecnología de IA no está disponible en Campaign Email Designer en este momento.
+>* Por ahora, la ayuda contextual con tecnología de IA no está disponible en el Diseñador de correo electrónico de Campaign.
 
 <!--
 ## Consent {#consent-ai}
@@ -47,32 +47,32 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Preguntas sugeridas {#questions-ai}
 
-Desde el campo de entrada, la Ayuda contextual con tecnología de IA de Adobe Campaign proporciona tres preguntas sugeridas. Estas preguntas son generadas por IA, están relacionadas con el cuadro de ayuda y se alinean con el contexto del producto actual. Seleccione una pregunta para obtener la respuesta.
+En el campo de entrada, la ayuda contextual con tecnología de IA de Adobe Campaign proporciona tres preguntas sugeridas. Estas preguntas son generadas por IA, están relacionadas con el cuadro de ayuda y se alinean con el contexto del producto actual. Seleccione una pregunta para obtener la respuesta.
 
 [Ejemplo de preguntas sugeridas en la ayuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 ## Respuestas {#answers-ai}
 
-La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, pero le corresponde a usted contrastar los datos. Puede generar información incorrecta, inexacta o engañosa. Compruebe siempre la documentación del producto vinculada en cada cuadro de ayuda.
+La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, pero le corresponde a usted contrastar los datos. Puede dar respuestas incorrectas, inexactas o falsas. Compruebe siempre la documentación del producto vinculada en cada cuadro de ayuda.
 
-Copie una respuesta al portapapeles usando el icono **Copiar** en la parte inferior de la ventana emergente de ayuda.
+Puede copiar una respuesta en el portapapeles utilizando el icono **Copiar** en la parte inferior de la ventana emergente de ayuda.
 
 [Ejemplo de copia de una respuesta en la ayuda contextual](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 ## Comentarios {#feedback-ai}
 
-Los modelos de inteligencia artificial y aprendizaje automático mejoran con el tiempo para abordar mejor los casos de uso específicos. La Ayuda contextual de Campaign con tecnología de IA sigue mejorando. Utilice el <img src="assets/do-not-localize/thumb.png" width="10%"/> botones cada vez que lea una respuesta para marcar respuestas inadecuadas a nuestros ingenieros.
+Los modelos de inteligencia artificial y aprendizaje automático mejoran con el tiempo para abordar mejor los casos de uso específicos. La Ayuda contextual de Campaign con tecnología de IA sigue mejorando. Utilice los botones <img src="assets/do-not-localize/thumb.png" width="10%"/> cada vez que lea una respuesta, para marcar cualquier respuesta inapropiada a nuestros ingenieros.
 
 ## Recomendaciones {#recommendations-ai}
 
-Al hacer una pregunta en la Ayuda contextual con tecnología de IA, se tiene en cuenta el contexto actual del producto, como la pantalla en la que se encuentra y el contenido del cuadro de ayuda actual.
+Al hacer una pregunta a la ayuda contextual con tecnología de IA, se tiene en cuenta el contexto actual del producto, es decir, la pantalla en la que se encuentra y el contenido del cuadro de ayuda actual.
 
-Como resultado, la práctica recomendada es hacer preguntas relacionadas con el contexto de la interfaz de usuario. Por ejemplo, si necesita aprender a enviar una entrega push en un flujo de trabajo, vaya a la entrada de menú izquierda **Workflow** y utilice un cuadro de ayuda contextual en ese contexto específico. Para obtener más información sobre las métricas de creación de informes, vaya a los informes de campaña o entrega y comience desde allí.
+Así pues, la práctica recomendada es hacer preguntas relacionadas con el contexto de la interfaz de usuario. Por ejemplo, si necesita aprender a realizar un envío push en un flujo de trabajo, vaya a la entrada **Flujo de trabajo** del menú izquierdo y utilice un cuadro de ayuda contextual en ese contexto específico. Para obtener más información sobre las métricas de creación de informes, vaya a los informes de campaña o envío y comience desde allí.
 
-Para maximizar los beneficios de la ayuda contextual con tecnología de IA, siga estas recomendaciones:
+Para maximizar los beneficios de la Ayuda contextual con tecnología de IA, siga estas recomendaciones:
 
-* Sea preciso y específico, evitando la ambigüedad. Las respuestas precisas dependen de preguntas claras.
-* Proporcione información detallada sobre lo que está intentando aprender para ayudar a la Ayuda contextual con tecnología de IA a encontrar la información correcta.
-* Reformule y perfeccione sus preguntas para mejorar la precisión de las respuestas. Si la respuesta no es útil, pruebe con diferentes enfoques y agregue contexto.
+* Sea preciso y específico, evitando ambigüedades. Las respuestas precisas dependen de preguntas claras.
+* Proporcione información detallada sobre lo que está tratando de aprender para ayudar a la Ayuda contextual con tecnología de IA a encontrar la información correcta.
+* Reformule y perfeccione las preguntas para mejorar la precisión de las respuestas. Si la respuesta no es útil, pruebe diferentes enfoques y añada contexto.
 * Utilice términos y palabras apropiados con un tono neutro.
-* Valore las respuestas y proporcione comentarios para ayudar a los ingenieros a mejorar los resultados.
+* Califique las respuestas y proporcione comentarios para ayudar a los ingenieros a mejorar los resultados.

@@ -4,9 +4,9 @@ title: Introducción a los envíos de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ El canal SMS ofrece tres métodos para crear envíos SMS:
 
 * **Envíos independientes**: cree envíos SMS individuales para una comunicación rápida y directa con sus clientes, sin necesidad de flujos de trabajo ni campañas.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar el canal SMS en [Documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=es){target="_blank"}.
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar el canal SMS en la [documentación de la versión 8 de Campaign (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=es){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -44,7 +44,7 @@ El canal SMS ofrece tres métodos para crear envíos SMS:
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="Envío de un envío SMS" src="assets/do-not-localize/send_sms.png">
+<img alt="Envío de SMS" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>Envío de un envío de SMS</strong></a>

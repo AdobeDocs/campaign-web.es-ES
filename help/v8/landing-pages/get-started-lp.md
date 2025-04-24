@@ -5,9 +5,9 @@ description: Obtenga información sobre las páginas de aterrizaje en la web de 
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 60%
 
 [!DNL Adobe Campaign] le permite crear, diseñar y compartir páginas de aterrizaje.
 
-En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de una entrega o de un sitio web.
+En el contexto de las campañas de marketing, una página de aterrizaje es una página web independiente a la que se dirige a un visitante una vez que hace clic en un vínculo de un envío o en un sitio web.
 
-Las páginas de aterrizaje permiten dirigir a los usuarios a formularios en línea en los que pueden actualizar sus datos, excluirse o excluirse de la recepción de comunicaciones o suscribirse a un servicio específico, como una newsletter.
+Las páginas de aterrizaje le permiten dirigir a los usuarios a formularios en línea, donde pueden actualizar sus datos, optar por suscribirse o darse de baja de la recepción de comunicaciones, o suscribirse a un servicio específico, como una newsletter.
 
 >[!CAUTION]
 >
 >Las páginas de aterrizaje que crea en la interfaz de usuario web de Campaign son diferentes de los formularios web creados desde la consola del cliente. No puede mostrar ni editar formularios web creados en la consola del cliente en la interfaz de usuario web de Campaign.
 >
->Obtenga más información acerca de los formularios web en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=es){target="_blank"}.
+>Obtenga más información sobre los formularios web en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=es){target="_blank"}.
 
 A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 
@@ -39,7 +39,7 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <a href="create-lp.md">
 <img alt="Creación de páginas de aterrizaje con plantillas rellenadas previamente" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Crear páginas de aterrizaje</strong>
+<div><a href="create-lp.md"><strong>Creación de páginas de aterrizaje</strong>
 </div>
 <p>
 </td>
@@ -48,12 +48,12 @@ A continuación, se enumeran las funciones clave de las páginas de aterrizaje:
 <img alt="Configuración de servicios de suscripción para usuarios" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="../audience/manage-services.md"><strong>Crear servicios de suscripción</strong></a>
+<a href="../audience/manage-services.md"><strong>Creación de servicios de suscripción</strong></a>
 </div>
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Diseño de páginas de aterrizaje adaptables" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Páginas de aterrizaje de diseño adaptable" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>Páginas de aterrizaje de diseño</strong></a>
