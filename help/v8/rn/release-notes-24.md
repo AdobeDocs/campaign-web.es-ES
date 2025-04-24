@@ -5,7 +5,7 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '2501'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -156,7 +156,7 @@ Ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enr
 
 >[!AVAILABILITY]
 >
->Esta capacidad requiere una actualización a la versión 8.6.3 de Campaign<!--or v8.7.2-->. Obtenga más información en la consola del cliente de Campaign v8 [notas de la versión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Esta capacidad requiere una actualización a la versión 8.6.3 de Campaign<!--or v8.7.2-->. Obtenga más información en las [Notas de la versión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} de la consola del cliente de la versión 8 de Campaign.
 
 ### Mejoras {#improvements-24-7}
 
@@ -272,7 +272,7 @@ Las mejoras siguientes están disponibles para todos los clientes a partir de la
 
 >[!AVAILABILITY]
 >
->Esta versión está disponible para todos los usuarios a partir de la [versión 8.6 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es). Obtenga más información acerca de las versiones y actualizaciones de la consola del cliente de Adobe Campaign en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=es){target="_blank"}.
+>Esta versión está disponible para todos los usuarios a partir de la [versión 8.6 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es). Obtenga más información sobre las versiones y actualizaciones de la consola de cliente de Adobe Campaign en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=es){target="_blank"}.
 
 **Fecha de lanzamiento**: 19 y 20 de marzo de 2024
 
