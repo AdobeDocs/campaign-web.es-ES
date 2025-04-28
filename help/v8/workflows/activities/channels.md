@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
-description: Aprenda a añadir un actividad de flujo de trabajo de envío (correo electrónico, push, SMS, correo postal).
+description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS, correo directo)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
@@ -10,19 +10,19 @@ ht-degree: 17%
 
 ---
 
-# Actividades de correo electrónico, SMS, push correo postal {#channel}
+# Actividades de correo electrónico, SMS, push, correo directo {#channel}
 
-Adobe Campaign Web le permite automatizar y ejecutar campañas marketing en canales correo electrónico, SMS correo directo y push. Puede combinar actividades canal en el lienzo de flujo de trabajo para crear flujos de trabajo canal cruzadas que desencadenen acciones basadas en el comportamiento y los datos del cliente.
+Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, correo directo y canales push. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente.
 
-Por ejemplo, cree una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS, push y correo directo. También puede enviar un correo electrónico de seguir después de que un cliente complete una compra o enviar un mensaje de cumpleaños personalizado a un cliente a través de SMS.
+Por ejemplo, cree una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS, push y correo directo. También puede enviar un correo electrónico de seguimiento después de que un cliente complete una compra o enviar un mensaje de cumpleaños personalizado a un cliente a través de SMS.
 
-Mediante actividades canal, cree campañas completas y personalizadas que involucren a los clientes a través de múltiples puntos de contacto y conversiones dirigir.
+Mediante actividades de canal, cree campañas completas y personalizadas que involucren a los clientes en varios puntos de contacto e impulsen las conversiones.
 
 >[!NOTE]
 >
->También puede crear una envío one-shot fuera del contexto de una flujo de trabajo de campaña. Obtenga más información en estas secciones:
->* [Crear correo electrónico independiente envío](../../email/create-email.md)
->* [Crear SMS independientes envío](../../sms/create-sms.md)
+>También puede crear una entrega de una sola toma fuera del contexto de un flujo de trabajo de la campaña. Obtenga más información en estas secciones:
+>* [Crear envío de correo electrónico independiente](../../email/create-email.md)
+>* [Crear envío de SMS independiente](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
 >* [Crear envío de correo postal independiente](../../direct-mail/create-direct-mail.md)
 
@@ -40,19 +40,19 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 
      ![Captura de pantalla que muestra los criterios de reconciliación](../assets/workflow-reconciliation-criteria.png) del flujo de trabajo
 
-* Para enviar una envío recurrente, inicio su flujo de trabajo un **actividad programador** . Utilice un **actividad programador** para envíos únicos únicos a fin de establecer la fecha de contacto para ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
+* Para realizar una entrega recurrente, inicie el flujo de trabajo con una actividad **Scheduler**. Utilice una actividad **Scheduler** para realizar envíos únicos con una sola toma a fin de establecer la fecha de contacto de ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
 
 ## Configuración de la actividad de canal {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
->title="Actividad de correo electrónico"
->abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de correos electrónicos a un destino calculado dentro de la misma flujo de trabajo. Puede combinar actividades canal en el lienzo de flujo de trabajo para crear flujos de trabajo canal cruzadas que desencadenen acciones basadas en el comportamiento y los datos del cliente."
+>title="Actividad de Correo electrónico"
+>abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de correos electrónicos a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Actividad de SMS"
->abstract="La actividad de SMS facilita el envío de SMS dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de SMS a una destino calculada dentro de la misma flujo de trabajo. Puede combinar actividades canal en el lienzo de flujo de trabajo para crear flujos de trabajo canal cruzadas que desencadenen acciones basadas en el comportamiento y los datos del cliente."
+>abstract="La actividad de SMS facilita el envío de SMS dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de SMS a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
@@ -75,12 +75,12 @@ Para configurar una entrega en el contexto de un flujo de trabajo, siga los paso
 
 1. Seleccione **Tipo de entrega**: individual o recurrente.
 
-   * Un **envío** único es un envío de una sola vez que se envía una sola vez, como un correo electrónico del Black Friday.
+   * Una **entrega única** es una entrega con una sola toma que se realiza una sola vez, como un correo electrónico de Black Friday.
    * Se realiza **una entrega recurrente** varias veces según su frecuencia de ejecución definida en una [actividad de planificador](scheduler.md). Cada vez que se ejecuta el flujo de trabajo, la audiencia se vuelve a calcular y se realiza la entrega a la audiencia actualizada con el contenido actualizado. Puede ser un boletín semanal o un correo electrónico de cumpleaños recurrente.
 
 1. Seleccione una **Plantilla** de envío. Las plantillas son ajustes de envío preconfigurados específicos de un canal. Hay disponible una plantilla integrada para cada canal que se rellena previamente de forma predeterminada. [Más información](../../msg/delivery-template.md)
 
-   ![Captura de pantalla que muestra actividad de envío en un flujo de trabajo](../assets/delivery-activity-in-wf.png)
+   ![Captura de pantalla que muestra la actividad de envío en un flujo de trabajo](../assets/delivery-activity-in-wf.png)
 
    Seleccione la plantilla en el panel izquierdo de la configuración de la actividad del canal. Si la audiencia seleccionada anteriormente no es compatible con el canal, no puede seleccionar una plantilla. Para resolver esto, actualice la actividad **Generar público destinatario** para seleccionar un público destinatario con la asignación de destino correcta. Obtenga más información acerca de las asignaciones de destino en [esta sección](../../audience/targeting-dimensions.md).
 
@@ -98,9 +98,9 @@ Para configurar una entrega en el contexto de un flujo de trabajo, siga los paso
 
 ## Ejemplos {#cross-channel-workflow-sample}
 
-Este es un ejemplo de flujo de trabajo canal cruzada con segmentación y dos envíos. El flujo de trabajo se dirige a todos los clientes que viven en París y están interesados en las máquinas de café. Entre esta población, se envía un correo electrónico a los clientes habituales y se envía un SMS a VIP clientes.
+Este es un ejemplo de flujo de trabajo en canales múltiples con segmentación y dos envíos. El flujo de trabajo está dirigido a todos los clientes que viven en París y están interesados en las máquinas de café. Entre esta población, se envía un correo electrónico a los clientes normales y un SMS a los clientes de VIP.
 
-![Captura de pantalla que muestra un ejemplo de flujo de trabajo canal cruzado](../assets/workflow-channel-example.png)
+![Captura de pantalla que muestra un ejemplo de flujo de trabajo en canales múltiples](../assets/workflow-channel-example.png)
 
 También puede crear un flujo de trabajo recurrente para enviar un SMS personalizado todos los primeros días del mes a las 20:00 a todos los clientes que viven en París.
 
