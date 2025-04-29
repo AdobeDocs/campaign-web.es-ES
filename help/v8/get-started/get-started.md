@@ -4,9 +4,9 @@ title: Introducción a Adobe Campaign Web
 description: Introducción a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '566'
+ht-degree: 100%
 
 ---
 
