@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los públicos
 description: Aprenda a trabajar con audiencias en Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 19%
+source-wordcount: '388'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Propiedades"
->abstract="Aquí puede encontrar un resumen de las propiedades audiencia, como su origen o su carpeta almacenamiento. Haga clic en el vínculo en la sección **Último flujo de trabajo** para abrir el flujo de trabajo que se ha utilizado para crear el público."
+>abstract="Aquí puede encontrar un resumen de las propiedades de la audiencia, como su origen o su carpeta de almacenamiento. Haga clic en el vínculo en la sección **Último flujo de trabajo** para abrir el flujo de trabajo que se ha utilizado para crear el público."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
@@ -32,30 +32,32 @@ ht-degree: 19%
 >title="Error de público"
 >abstract="Los datos de público no están disponibles. Espere al final de la ejecución del flujo de trabajo."
 
-El audiencia es el principal destino de tu envío: los perfiles que reciben los mensajes. La lista de audiencias disponibles para su uso en Campaign Web es accesible desde el **[!UICONTROL menú Audiences]** .
+La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes. Se puede acceder a la lista de audiencias disponibles para usar en Campaign Web desde el menú **[!UICONTROL Audiencias]**.
 
-![Captura de pantalla que muestra el lista de audiencias disponibles en Campaign web.](assets/audiences-list.png){zoomable="yes"}
+![Captura de pantalla que muestra la lista de audiencias disponibles en Campaign Web.](assets/audiences-list.png){zoomable="yes"}
 
-Audiences pueden originarse en múltiples fuentes. La **[!UICONTROL columna Origen]** indica dónde se ha creado un audiencia determinado:
+Las audiencias pueden proceder de varias fuentes. La columna **[!UICONTROL Origen]** indica dónde se ha creado una audiencia determinada:
 
-* **[!UICONTROL Adobe Campaign]**: estas audiencias se han creado en [Adobe Campaign interfaz](create-audience.md) web de usuario o en la consola](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=es){target="_blank"} de [cliente de Adobe Campaign v8.
+* **[!UICONTROL Adobe Campaign]**: estas audiencias se han creado en la [interfaz de usuario web de Adobe Campaign](create-audience.md) o en la [consola de cliente de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=es){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado dentro de Adobe Experience Platform y se integran en Campaign Web mediante la integración Adobe Systems Orígenes y destinos. Obtenga información sobre cómo configurar esta integración en [Campaign documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"} de v8 (consola de cliente).
+* **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado en Adobe Experience Platform y se integran en el sitio web de Campaign mediante la integración de orígenes y destinos de Adobe. Aprenda a configurar esta integración en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
   ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-Para obtener más información sobre un audiencia, ábralo desde la lista. Se muestran las propiedades audiencia, junto con el número de perfiles incluidos en la audiencia. Actualizar el recuento de audiencia en cualquier momento mediante la **[!UICONTROL botón Calcular]** .
+Para obtener información adicional sobre una audiencia, ábrala en la lista. Se muestran las propiedades de la audiencia junto con el número de perfiles incluidos en la audiencia. Actualice el recuento de audiencias en cualquier momento con el botón **[!UICONTROL Calcular]**.
 
-El **[!UICONTROL pestaña Datos]** permite visualizar los perfiles que forman parte del audiencia. Personalice este vista agregando columnas adicionales o utilice filtros avanzadas para perfeccionar los datos mostrados.
+Para obtener una vista previa del esquema temporal de una audiencia, haga clic en el botón **[!UICONTROL Vista previa del esquema]** en la sección Propiedades.
 
-![Captura de pantalla que muestra audiencia detalles, incluidos perfiles y opciones de personalización.](assets/audiences-details.png){zoomable="yes"}
+La ficha **[!UICONTROL Datos]** le permite visualizar los perfiles que forman parte de la audiencia. Personalice esta vista añadiendo columnas adicionales o utilice filtros avanzados para restringir los datos mostrados.
 
-Para duplicado o eliminar un audiencia, haga clic en el **[!UICONTROL botón de acción]** Más disponible en el lista de audiencias junto al nombre del audiencia o dentro de una pantalla de detalles del audiencia.
+![Captura de pantalla que muestra detalles de audiencia, incluidos perfiles y opciones de personalización.](assets/audiences-details.png){zoomable="yes"}
+
+Para duplicar o eliminar una audiencia, haga clic en el botón **[!UICONTROL Más acción]** disponible en la lista de audiencias junto al nombre de la audiencia o dentro de una pantalla de detalles de audiencia.
 
 ## Vídeos explicativos {#video}
 
-Aprenda a crear un destino para utilizar un audiencia de Experience Platform en Adobe Campaign interfaz de usuario web.
+Obtenga información sobre cómo crear un destino para utilizar una audiencia de Experience Platform en la interfaz de usuario web de Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Encontrará información detallada sobre cómo configurar la integración de Adobe Systems orígenes y destinos en [Campaign documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"} de la versión 8 (consola del cliente).
+Encontrará información detallada sobre cómo configurar la integración de orígenes y destinos de Adobe en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.

@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 99%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 99%
       + [Crear un envío de correo directo](direct-mail/create-direct-mail.md)
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
       + [Previsualización y envío de un correo directo](direct-mail/send-direct-mail.md)
+   + Centro de llamadas {#call-center}
+      + [Introducción a las entregas del centro de llamadas](call-center/gs-call-center.md)
+      + [Creación y envío de una entrega de centro de llamadas](call-center/create-call-center.md)
    + Mensajes transaccionales {#transactional-messages}
       + [Introducción a los mensajes transaccionales](transactional-messaging/transactional.md)
       + [Creación de un mensaje transaccional](transactional-messaging/create-transactional.md)

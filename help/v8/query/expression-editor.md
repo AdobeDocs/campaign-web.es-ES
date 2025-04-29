@@ -3,10 +3,10 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 71%
+source-wordcount: '2192'
+ht-degree: 68%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 71%
 
 La edición de una expresión implica la introducción manual de condiciones para formar una regla. Este modo permite utilizar funciones avanzadas, que permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos y ordenación.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >La sección siguiente proporciona información sobre cómo trabajar con el editor de expresiones para generar reglas. Tenga en cuenta que la sintaxis utilizada para generar reglas difiere de la utilizada para agregar personalización.
+
+>[!IMPORTANT]
+>
+>Hay disponible una nueva interfaz para el modelador de consultas. Para cambiar a esta nueva experiencia del generador de reglas, presione el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
+>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabajo con el editor de expresiones {#edit}
 
@@ -41,7 +46,17 @@ Cuando la expresión esté lista, haga clic en el botón **[!UICONTROL Confirmar
 
 El ejemplo siguiente muestra una expresión configurada para el campo **[!UICONTROL Value]**. Para editarlo, abra el editor de expresiones con el botón **[!UICONTROL Editar expresión]**.
 
+>[!BEGINTABS]
+
+>[!TAB Modelador de consultas clásico]
+
 ![Ejemplo de expresión de edición para el campo Valor](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB Nuevo generador de reglas]
+
+![Ejemplo de expresión de edición para el campo Valor](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Funciones de ayuda
 

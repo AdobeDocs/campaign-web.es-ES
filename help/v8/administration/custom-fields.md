@@ -2,9 +2,9 @@
 title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados y su visibilidad en la interfaz.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '988'
 ht-degree: 20%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Editar detalle personalizado"
+>title="Edición de pantalla"
 >abstract="Se muestran todos los campos personalizados en la interfaz para el esquema seleccionado. Puede cambiar el orden en que se muestran en la interfaz mediante las flechas arriba y abajo y agrupar los campos en subsecciones añadiendo separadores. Para eliminar un campo personalizado o editar la configuración, como las condiciones de visibilidad, haga clic en el botón de los tres puntos."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
    ![Captura de pantalla que muestra el menú Esquemas y el filtro Editable en el panel de navegación](assets/custom-fields-open.png)
 
-1. Seleccione el nombre del esquema en la lista para abrirlo. Se muestra una vista de esquema detallada. [Más información acerca de los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Editar detalle personalizado]** para acceder a los campos personalizados. En este ejemplo, se agregan campos para el esquema **[!UICONTROL Recipients]**.
+1. Seleccione el nombre del esquema en la lista para abrirlo. Se muestra una vista de esquema detallada. [Más información acerca de los detalles del esquema](../administration/schemas.md). Haga clic en el botón **[!UICONTROL Edición en pantalla]** para acceder a los campos personalizados. En este ejemplo, se agregan campos para el esquema **[!UICONTROL Recipients]**.
 
-   ![Captura de pantalla que muestra el botón Editar detalle personalizado en la vista de esquema](assets/custom-fields-edit.png)
+   ![Captura de pantalla que muestra el botón de definición de pantalla en la vista de esquema](assets/custom-fields-edit.png)
 
-1. Aparecerá la lista de campos personalizados que se muestran en la interfaz para el esquema. En este caso, el campo &quot;CRM Id&quot; es visible en la pantalla de detalles de los perfiles y se ha marcado como obligatorio.
+   Aparecerá la lista de campos personalizados que se muestran en la interfaz para el esquema.
 
-   | Configuración de campos personalizados | Procesamiento en la interfaz |
-   |  ---  |  ---  |
-   | ![Captura de pantalla que muestra la configuración de campos personalizados](assets/custom-fields-detail.png){zoomable="yes"} | ![Captura de pantalla que muestra el procesamiento del campo CRM Id en la interfaz](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Haga clic en el botón **[!UICONTROL Vista previa]** para mostrar los campos personalizados en una pantalla de ejemplo.
+
+   ![](assets/custom-fields-edit2.png)
+
+   En este caso, el campo &quot;Cantidad&quot; se ha marcado como obligatorio.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Para añadir un campo personalizado a la interfaz, haga clic en el botón de puntos suspensivos y elija una de las siguientes opciones:
 
@@ -89,7 +93,7 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
 1. Una vez añadidos los campos personalizados, puede:
 
-   * **Reordenar campos**: utilice las flechas arriba y abajo.
+   * **Reordenar campos**: utilice las flechas arriba y abajo o mueva campos arrastrando y soltando.
    * **Hacer los campos obligatorios**: Seleccione la casilla de verificación **Obligatorio**.
    * **Editar configuración de campo**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Editar]**. [Más información](#settings)
    * **Eliminar campos**: haga clic en el botón de puntos suspensivos y elija **[!UICONTROL Eliminar]**.

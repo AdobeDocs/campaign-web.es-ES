@@ -3,16 +3,21 @@ audience: end-user
 title: Filtrar listas
 description: Obtenga información sobre cómo filtrar listas web de Adobe Campaign mediante filtros integrados y personalizados.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
 # Filtrar listas {#filter-lists}
 
 Adobe Campaign Web proporciona filtros dentro de cada lista de objetos, lo que permite filtrar la información en función de criterios contextuales específicos. Por ejemplo, puede filtrar las entregas según su estado, canal, fecha de contacto o carpeta. También puede ocultar las pruebas.
+
+>[!IMPORTANT]
+>
+>Hay disponible una interfaz completamente nueva para el modelador de consultas. El nuevo generador de reglas le permite crear la consulta con mayor facilidad gracias a su interfaz simplificada. Para cambiar a esta experiencia, pulse el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
+>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Aplicar filtros {#apply}
 

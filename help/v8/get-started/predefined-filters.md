@@ -2,10 +2,10 @@
 title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,11 @@ ht-degree: 100%
 >id="acw_predefined-filters-dashboard"
 >title="Filtros predefinidos"
 >abstract="La interfaz de usuario web de Campaign ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo alguno los filtros predefinidos con el fin de satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Crear un criterio de alerta"
+>abstract="Puede crear sus propios filtros de envío desde el menú Customer Management > Predefined filters."
 
 Los filtros predefinidos son personalizados se crean y guardan para su uso futuro. Actúan como accesos directos durante las operaciones de filtrado con el modelador de consultas. Por ejemplo, se pueden usar al filtrar una lista de datos o al crear el público de un envío.
 

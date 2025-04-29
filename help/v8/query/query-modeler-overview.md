@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 18%
+source-wordcount: '888'
+ht-degree: 14%
 
 ---
 
@@ -54,10 +54,16 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 
 El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 
+>[!IMPORTANT]
+>
+>Hay disponible una interfaz completamente nueva para el modelador de consultas. El nuevo generador de reglas le permite crear la consulta con mayor facilidad gracias a su interfaz simplificada. Para cambiar a esta experiencia, pulse el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
+>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Nueva experiencia de usuario"
->abstract="Utilice este conmutador para cambiar entre el modelador de consultas clásico y la nueva experiencia del generador de reglas."
+>title="Nueva experiencia con el generador de reglas"
+>abstract="Utilice este conmutador para cambiar entre el modelador de consultas clásico y la experiencia del nuevo generador de reglas. El nuevo generador de reglas le permite crear la consulta más fácilmente, gracias a su interfaz simplificada e intuitiva."
 
 ![Imagen que muestra la interfaz del modelador de consultas](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ El modelador de consultas proporciona un lienzo central en el que generar la con
 
 El lienzo central del modelador de consultas es donde se agregan y combinan los diferentes componentes para generar la consulta. [Aprenda a crear una consulta](build-query.md)
 
-La barra de herramientas situada en la esquina superior derecha del lienzo proporciona opciones para manipular fácilmente los componentes de la consulta y navegar por el lienzo:
+>[!BEGINTABS]
+
+>[!TAB Modelador de consultas clásico]
+
+La barra de herramientas situada en la esquina inferior derecha del lienzo proporciona opciones para manipular fácilmente los componentes de la consulta y navegar por el lienzo:
 
 * **Modo de selección múltiple**: seleccione varios componentes de filtrado para copiarlos y pegarlos en la ubicación que elija.
 * **Rotar**: cambie el lienzo verticalmente.
 * **Ajustar a pantalla**: adapta el nivel de zoom del lienzo a la pantalla.
 * **Alejar** / **Acercar**: Aleja o acerca en el lienzo.
 * **Mostrar mapa**: abre una instantánea del lienzo que muestra tu ubicación actual.
+
+>[!TAB Nueva experiencia para el generador de reglas]
+
+La barra de herramientas situada en la esquina superior derecha del lienzo proporciona opciones para manipular fácilmente los componentes de la consulta y navegar por el lienzo:
+
+* **Subir selección**: suba el componente una fila.
+* **Mover hacia abajo la selección**: mueva el componente hacia abajo una fila.
+* **Selección de grupo**: coloque dos componentes en un grupo.
+* **Desagrupar selección**: separe los componentes de un solo grupo.
+* **Expandir todo**: expanda todos los grupos.
+* **Contraer todo**: Contraer todos los grupos.
+* **Quitar todos**: quite todos los grupos y componentes.
+
+>[!ENDTABS]
 
 ### El panel Propiedades de la regla {#rule-properties}
 
