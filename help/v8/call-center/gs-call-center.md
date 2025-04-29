@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Introducción a las entregas del centro de llamadas
+title: Introducción al canal del centro de llamadas
 description: Obtenga información sobre cómo crear y enviar envíos del centro de llamadas con Adobe Campaign Web
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
 
-
-# Introducción a las entregas de correo del centro de llamadas {#gs-call-center}
+# Introducción al canal del centro de llamadas {#gs-call-center}
 
 El canal del centro de llamadas permite exportar listas de contactos segmentadas para campañas telefónicas salientes directamente desde la interfaz de usuario web de Adobe Campaign. Puede utilizarlo para coordinar llamadas a través de equipos internos o centros de contacto externos.
 
