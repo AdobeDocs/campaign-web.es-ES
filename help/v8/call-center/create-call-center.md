@@ -2,9 +2,10 @@
 audience: end-user
 title: Creación de una entrega de centro de llamadas
 description: Obtenga información sobre cómo crear una entrega de centro de llamadas con Adobe Campaign Web
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ Puede crear una entrega independiente del centro de llamadas o crear una en el c
 Para crear y enviar una nueva entrega independiente del centro de llamadas, siga estos pasos principales:
 
 1. Cree la entrega [leer más](#create-delivery)
-1. Seleccione la audiencia [leer más](#select-audience)
+1. Defina la audiencia, [leer más](#select-audience)
 1. Editar el contenido, [leer más](#edit-content)
 1. Previsualice y envíe el envío, [leer más](#preview-send)
 
@@ -42,7 +43,7 @@ Siga estos pasos para crear la entrega y configurar sus propiedades:
 >
 >Puede programar el envío para que se realice en una fecha específica. Para obtener más información, consulte [esta sección](../msg/gs-deliveries.md#gs-schedule).
 
-## Selección del público{#select-audience}
+## Definición del público{#select-audience}
 
 Ahora, debe definir la audiencia a la que se dirige el archivo de extracción.
 
@@ -65,7 +66,7 @@ Ahora, debe definir la audiencia a la que se dirige el archivo de extracción.
 
 ## Edición del contenido{#edit-content}
 
-Ahora, vamos a diseñar el contenido del archivo de extracción que generará la entrega del centro de llamadas.
+Ahora, vamos a editar el contenido del archivo de extracción que generará el envío del centro de llamadas.
 
 1. En la página de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
 
@@ -101,7 +102,7 @@ Cuando el contenido de la entrega está listo, puede previsualizarlo con perfile
 
 Los pasos principales para obtener una vista previa y enviar el archivo de extracción son los siguientes. Hay más detalles disponibles en [esta página](../direct-mail/send-direct-mail.md).
 
-1. Desde la página de contenido de la entrega, use **[!UICONTROL Simular contenido]**.
+1. En la página de contenido de la entrega, haga clic en el botón **[!UICONTROL Simular contenido]**.
 
    ![Captura de pantalla que muestra la opción de simular contenido en la página de contenido de envío](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ Una vez entregado el envío, el archivo de extracción se genera automáticament
 Rastree los datos de KPI (indicador de rendimiento clave) de su página de entrega y los datos del menú **[!UICONTROL Registros]**.
 
 Empiece a medir el impacto del mensaje con los informes integrados. [Más información](../reporting/direct-mail.md)
-
-

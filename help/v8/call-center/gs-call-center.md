@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción al canal del centro de llamadas
 description: Obtenga información sobre cómo crear y enviar envíos del centro de llamadas con Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
 
@@ -24,41 +24,4 @@ Puede utilizar el canal del centro de llamadas de una de las siguientes maneras:
 * **Campañas**: Una vez que hayas creado una campaña, puedes agregar una entrega al centro de llamadas. Para obtener más información sobre la configuración de campañas, consulte [esta página](../campaigns/gs-campaigns.md).
 * **Envíos independientes**: cree un envío único del centro de llamadas, sin necesidad de flujos de trabajo ni campañas. [Aprenda a crear una entrega](../msg/gs-deliveries.md)
 
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-push.md">
-<img alt="Create a push delivery" src="assets/do-not-localize/push_create.jpeg">
-</a>
-<div><a href="create-push.md"><strong>Create a push delivery</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-push.md">
-<img alt="Design a push delivery" src="assets/do-not-localize/push_design.jpeg">
-</a>
-<div>
-<a href="content-push.md"><strong>Design a push delivery<strong></strong></a>
-</div>
-<p></td>
-<td>
-<a href="send-push.md">
-<img alt="Send a push delivery" src="assets/do-not-localize/push_send.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Send a push delivery</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="send-push.md">
-<img alt="Push delivery report" src="assets/do-not-localize/push_report.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Push delivery report</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
--->
+Para aprender a crear y enviar una entrega del centro de llamadas, consulte esta [página](../call-center/create-call-center.md)
