@@ -46,4 +46,4 @@ Para eliminar un perfil, seleccione la opción correspondiente en el **[!UICONTR
 
 Aprenda a acceder, administrar y explorar perfiles utilizando la interfaz de Campaign Web usuario.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448367?quality=12&captions=spa)

@@ -110,4 +110,4 @@ Para inicio la creación de su contenido correo electrónico, seguir los pasos q
 
 Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizar y prueba su correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453568/?quality=12&captions=spa)

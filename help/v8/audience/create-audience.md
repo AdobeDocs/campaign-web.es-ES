@@ -98,4 +98,4 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure las 
 
 Aprenda a versión y administrar audiencias, a seleccionar audiencias para una envío y a definir grupos de control.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453205?quality=12&captions=spa)
