@@ -50,7 +50,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 >
 >![Imagen que muestra una advertencia sobre el refinamiento de destinos](assets/target-warning.png){zoomable="yes"}
 
-## Interfaz del modelador de consultas {#interface}
+## Interfaz del modelador de consultas  {#interface}
 
 El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 
