@@ -39,7 +39,7 @@ Para crear un audiencia, seguir estos pasos:
 
 1. Se crea automáticamente un nuevo flujo de trabajo, que le permite combinar actividades para generar su audiencia. De manera predeterminada, el lienzo contiene dos actividades principales:
 
-   * La actividad de audiencia ]**de compilación &quot;Consulta&quot;**[!UICONTROL  es el punto de partida de su flujo de trabajo. Le permite crear un audiencia y utilizarlo como base para su flujo de trabajo.
+   * La actividad de audiencia **de compilación &quot;Consulta&quot;** es el punto de partida de su flujo de trabajo. Le permite crear un audiencia y utilizarlo como base para su flujo de trabajo.
 
    * El &quot;Nuevo audiencia&quot; **[!UICONTROL Guardar audiencia]** actividad representa el paso final en su flujo de trabajo. Permite guardar los resultados como un nuevo audiencia.
 
@@ -53,7 +53,7 @@ Para crear un audiencia, seguir estos pasos:
 
 1. Abra la actividad **[!UICONTROL Generar audiencia]** y use el modelador de consultas para definir la población que se incluirá en la audiencia filtrando los datos contenidos en la base de datos. [Aprenda a configurar una actividad Generar audiencia](../workflows/activities/build-audience.md)
 
-1. Si desea realizar operaciones adicionales en la población objetivo en el flujo de trabajo, añada tantas actividades como sea necesario y conéctelas. Para obtener más información sobre cómo configurar flujo de trabajo actividades, consulte la documentación](../workflows/activities/about-activities.md) flujos de trabajo[.
+1. Si desea realizar operaciones adicionales en la población objetivo en el flujo de trabajo, añada tantas actividades como sea necesario y conéctelas. Para obtener más información sobre cómo configurar flujo de trabajo actividades, consulte la documentación[&#128279;](../workflows/activities/about-activities.md) flujos de trabajo.
 
    >[!NOTE]
    >

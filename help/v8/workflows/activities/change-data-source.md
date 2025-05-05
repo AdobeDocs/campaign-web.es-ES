@@ -27,7 +27,7 @@ Puede encontrar información detallada sobre Campaign arquitectura en [Campaign 
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las actividades Cambiar Dimension ]**y**[!UICONTROL  Cambiar fuente ]**de**[!UICONTROL  datos no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, incluya una **[!UICONTROL actividad de enriquecimiento]** entre ellas. Esto garantiza una ejecución correcta y evita posibles conflictos o errores.
+>Tenga en cuenta que las actividades Cambiar Dimension **y**&#x200B;[!UICONTROL &#x200B; Cambiar fuente &#x200B;]&#x200B;**de** datos no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, incluya una **[!UICONTROL actividad de enriquecimiento]** entre ellas. Esto garantiza una ejecución correcta y evita posibles conflictos o errores.
 
 <!--
 

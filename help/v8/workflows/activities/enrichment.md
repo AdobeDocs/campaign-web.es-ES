@@ -94,7 +94,7 @@ Para crear una vincular, seguir estos pasos:
 
 1. Defina los criterios de conciliación para que los datos del conjunto primario coincidan con el esquema vinculado. Hay dos tipos de combinaciones disponibles:
 
-   * **Unión** simple: seleccione un atributo específico para hacer coincidir los datos de los dos esquemas. Haga clic en añadir unirse **y seleccione los atributos Origen****y** Destino **que desea utilizar como criterios de reconciliación.**
+   * **Unión** simple: seleccione un atributo específico para hacer coincidir los datos de los dos esquemas. Haga clic en añadir unirse **y seleccione los atributos Origen**&#x200B;**y** Destino **que desea utilizar como criterios de reconciliación.**
    * **Avanzadas unirse: Crear una unión usando condiciones avanzadas**. Haga clic en **añadir unión** y haga clic en el **botón condición** Crear para abrir el modelador de consulta.
 
 Encontrará un flujo de trabajo ejemplo de uso de vínculos en la [sección Ejemplos](#link-example) .
@@ -112,7 +112,7 @@ Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil,
 
 Siga los pasos para configurar una **actividad de enriquecimiento con una vincular de reconciliación** :
 
-1. Haga clic en la botón añadir **vincular de la** sección Reconciliación ****.
+1. Haga clic en la botón añadir **vincular de la** sección Reconciliación **&#x200B;**.
 1. Identifique los datos con los que desee crear una vincular de reconciliación.
 
    * Para crear una vincular de reconciliación con los datos de la base de datos Campaign, seleccione **esquema** base de datos y elija la esquema donde se almacena la destino.

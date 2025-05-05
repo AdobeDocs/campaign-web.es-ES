@@ -38,7 +38,7 @@ Para acceder a los informes globales y administrar ellos, seguir estos pasos:
 
    ![Captura de pantalla que muestra el menú y las pestañas de la izquierda para desplazarse por los datos de cada canal](assets/global_report_manage_3.png){zoomable="yes"}
 
-1. En el panel, elija un Inicio **y**[!UICONTROL  una hora ]**de** finalización para destino datos específicos.
+1. En el panel, elija un Inicio **y**&#x200B;[!UICONTROL &#x200B; una hora &#x200B;]&#x200B;**de** finalización para destino datos específicos.
 
    ![Captura de pantalla que muestra el panel con opciones para seleccionar la hora inicio y la hora de finalización de los datos direccionamiento](assets/global_report_manage_1.png){zoomable="yes"}
 
@@ -48,6 +48,6 @@ Para acceder a los informes globales y administrar ellos, seguir estos pasos:
 
 1. Haga clic en **[!UICONTROL añadir reglas]** para inicio la generación de consultas para filtrar mejor sistema de informes datos. [Aprenda a utilizar el modelador](../query/query-modeler-overview.md) de consulta.
 
-1. En las URL y las **[!UICONTROL secuencias de clics]**, elija los **[!UICONTROL vínculos]** más visitados o el período ]**de**[!UICONTROL  tiempo.
+1. En las URL y las **[!UICONTROL secuencias de clics]**, elija los **[!UICONTROL vínculos]** más visitados o el período **de** tiempo.
 
    Las **[!UICONTROL opciones Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.

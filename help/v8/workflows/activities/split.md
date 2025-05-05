@@ -92,7 +92,7 @@ Siga estos pasos para configurar la actividad **División**:
 
       >[!NOTE]
       >
-      >Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo](../../get-started/attributes.md) perfil específico[, en orden ascendente o de bajada. Para ello, active la opción **[!UICONTROL Habilitar ordenación]**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta.
+      >Al establecer un límite de población para un subconjunto, puede clasificar los perfiles seleccionados en función de un atributo[&#128279;](../../get-started/attributes.md) perfil específico, en orden ascendente o de bajada. Para ello, active la opción **[!UICONTROL Habilitar ordenación]**. Por ejemplo, puede restringir un subconjunto para incluir solo los 50 perfiles con la cantidad de compra más alta.
 
 1. Una vez configurados todos los subconjuntos, puede seleccionar la población restante que no coincide con ninguno de los subconjuntos e incluirlos en una transición saliente adicional. Para ello, active la opción **[!UICONTROL Generar complemento]**.
 

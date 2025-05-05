@@ -100,7 +100,7 @@ Para sustituir perfil datos de la destino principal, seguir los pasos siguientes
 
 1. En el contenido de su envío, haga clic en el botón **[!UICONTROL Simular contenido]** y luego en el botón **[!UICONTROL Enviar prueba]**.
 
-1. En la **[!UICONTROL lista desplegable Modo, elija**[!UICONTROL  Sustituir del destino ]**principal para enviar un prueba a una dirección correo electrónico o número de]** teléfono específicos mientras muestra datos de un perfil existente.
+1. En la **[!UICONTROL lista desplegable Modo, elija**&#x200B;[!UICONTROL &#x200B; Sustituir del destino &#x200B;]&#x200B;**principal para enviar un prueba a una dirección correo electrónico o número de]** teléfono específicos mientras muestra datos de un perfil existente.
 
    >[!CAUTION]
    >

@@ -38,9 +38,9 @@ La **[!UICONTROL sección Archivo a extracción]** permite configurar las propie
 
 1. Especifique las columnas que desea presentar en el archivo extraído. Para ello, siga estos pasos:
 
-   1. Haga clic en la añadir columna **** de salida.
+   1. Haga clic en la añadir columna **&#x200B;**&#x200B;de salida.
    1. Seleccione el atributo que desea mostrar en la columna y, a continuación, confirme la selección. Los atributos disponibles dependen del dimensión de segmentación del flujo de trabajo. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
-   1. Una vez añadida la columna, puede cambiar su **[!UICONTROL Etiquetar y modificar el atributo asociado****.]**
+   1. Una vez añadida la columna, puede cambiar su **[!UICONTROL Etiquetar y modificar el atributo asociado**&#x200B;**.]**
    1. Si desea aplicar un transformación a los valores de la columna, selecciónelo en la lista desplegable. Por ejemplo, puede cambiar todos los valores de la columna seleccionada a mayúsculas.
 
 1. Repita estos pasos para agregar tantas columnas como sea necesario en el archivo extracción. Para cambiar la posición de una columna, utilice las flechas arriba y abajo.
@@ -84,7 +84,7 @@ La **[!UICONTROL sección formato de destino]** le permite configurar el formato
 >title="Posprocesamiento"
 >abstract="Defina un paso de procesamiento electrónico de entrada para aplicar, gustar compresión o cifrado."
 
-La **[!UICONTROL secuencia de comandos]** de modificación Exportar permite aplicar un fase de procesamiento para ejecutar durante el extracción de datos, como compresión o cifrado. Para ello, haga clic en la secuencia de comandos ]**de**[!UICONTROL  Editar botón.
+La **[!UICONTROL secuencia de comandos]** de modificación Exportar permite aplicar un fase de procesamiento para ejecutar durante el extracción de datos, como compresión o cifrado. Para ello, haga clic en la secuencia de comandos **de** Editar botón.
 
 Se abrirá la editor expresión, permitiéndole introducir el comando que desea aplicar al archivo. El panel izquierdo proporciona sintaxis predefinida que puede impulsar para versión la secuencia de comandos. [Aprenda a trabajar con variables evento y con el editor expresión](../event-variables.md).
 

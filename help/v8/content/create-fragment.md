@@ -44,7 +44,7 @@ Una vez guardado, el fragmento de contenido está disponible para su uso en cual
 
 Para crear un fragmento de contenido desde cero, seguir los pasos que se describen a continuación.
 
-1. [Acceda al lista](#access-manage-fragments) de fragmentos a través del menú izquierdo Fragmentos ]****[!UICONTROL  de > **[!UICONTROL Administración]** de contenido y seleccione **[!UICONTROL Crear fragmento]**.
+1. [Acceda al lista](#access-manage-fragments) de fragmentos a través del menú izquierdo Fragmentos **&#x200B;**&#x200B;de > **[!UICONTROL Administración]** de contenido y seleccione **[!UICONTROL Crear fragmento]**.
 
    ![Pantalla de lista de fragmentos que muestra la opción Crear fragmento](assets/fragments-list.png)
 

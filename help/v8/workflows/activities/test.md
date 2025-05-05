@@ -39,7 +39,7 @@ Siga estos pasos para configurar el **actividad de prueba** :
 
    ![Configuración predeterminada del actividad de prueba](../assets/workflow-test-default.png)
 
-1. añadir varias transiciones de salida a un **[!UICONTROL actividad de prueba]** . Para ello, haga clic en el botón condición **** de añadir y configure la etiqueta y la condición asociada para cada transición.
+1. añadir varias transiciones de salida a un **[!UICONTROL actividad de prueba]** . Para ello, haga clic en el botón condición **&#x200B;**&#x200B;de añadir y configure la etiqueta y la condición asociada para cada transición.
 
 1. Durante la ejecución del flujo de trabajo, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, el flujo de trabajo continúa en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, el flujo de trabajo se detiene en este punto.
 

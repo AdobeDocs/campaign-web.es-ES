@@ -34,7 +34,7 @@ Los perfiles son accesibles y editables en Adobe Campaign Web desde la **[!UICON
 >
 >En función de sus permisos, es posible que no tenga acceso a la lista completa de perfiles almacenados en la base de datos. [Más información sobre los permisos](../get-started/permissions.md)
 
-Filtrar los **[!UICONTROL perfiles]** lista utilizando el campo de búsqueda o los filtros disponibles en el **botón de filtros** de Mostrar. Restrinja los resultados a una carpeta](../get-started/permissions.md#folders) específica [mediante el lista desplegable o agregue reglas mediante el modelador](../query/query-modeler-overview.md) consulta[.
+Filtrar los **[!UICONTROL perfiles]** lista utilizando el campo de búsqueda o los filtros disponibles en el **botón de filtros** de Mostrar. Restrinja los resultados a una carpeta[&#128279;](../get-started/permissions.md#folders) específica [mediante el lista desplegable o agregue reglas mediante el modelador](../query/query-modeler-overview.md) consulta.
 
 ![Filtros disponibles en los perfiles lista](assets/profiles-list-filters.png){zoomable="yes"}
 

@@ -63,6 +63,6 @@ Siga estos pasos para configurar el **actividad de deduplicación** :
 
 ## Ejemplo {#deduplication-example}
 
-En el ejemplo siguiente, utilice un actividad de deduplicación para excluir duplicados del destino antes de enviar un envío. Los perfiles duplicados identificados se añaden a un audiencia específico que se puede reutilizar si es necesario. Elija la dirección de **correo electrónico** para identificar los duplicados. Mantenga 1 entrada y seleccione el método de **** deduplicación aleatorio.
+En el ejemplo siguiente, utilice un actividad de deduplicación para excluir duplicados del destino antes de enviar un envío. Los perfiles duplicados identificados se añaden a un audiencia específico que se puede reutilizar si es necesario. Elija la dirección de **correo electrónico** para identificar los duplicados. Mantenga 1 entrada y seleccione el método de **&#x200B;**&#x200B;deduplicación aleatorio.
 
 ![Ejemplo de actividad deduplicación en una flujo de trabajo](../assets/workflow-deduplication-example.png)

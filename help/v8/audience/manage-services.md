@@ -29,11 +29,11 @@ Se pueden definir varios servicios en paralelo, por ejemplo: boletines informati
 
 Para acceder a los servicios de suscripción disponibles para su plataforma, seguir los pasos que se indican a continuación.
 
-1. Examinar al menú Servicios ]**de**[!UICONTROL  suscripción situado a la izquierda navegación carril, en **[!UICONTROL Gestión de]** clientes.
+1. Examinar al menú Servicios **de** suscripción situado a la izquierda navegación carril, en **[!UICONTROL Gestión de]** clientes.
 
    ![Captura de pantalla que muestra el menú Servicios de suscripción a la izquierda navegación carril en Gestión de clientes](assets/service-list.png){zoomable="yes"}
 
-1. Se muestra el lista de todos los servicios de suscripción existentes. Puede búsqueda los servicios y filtrar por canal, carpeta o agregar reglas con el modelador](../query/query-modeler-overview.md) consulta[.
+1. Se muestra el lista de todos los servicios de suscripción existentes. Puede búsqueda los servicios y filtrar por canal, carpeta o agregar reglas con el modelador[&#128279;](../query/query-modeler-overview.md) consulta.
 
    ![Captura de pantalla que muestra el lista de los servicios de suscripción con filtros para canal, carpeta y reglas](assets/service-filters.png){zoomable="yes"}
 
@@ -84,7 +84,7 @@ Para crear una servicio de suscripción, seguir los pasos que se describen a con
 
    ![Captura de pantalla que muestra el mensaje de confirmación plantilla selección](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Guardar y revisar]**. El nuevo servicio se añade al lista de servicios ]**de**[!UICONTROL  suscripción.
+1. Haga clic en **[!UICONTROL Guardar y revisar]**. El nuevo servicio se añade al lista de servicios **de** suscripción.
 
 1. Seleccione la suscripción predeterminada y baja páginas de destino asociadas con este servicio.
 
@@ -124,7 +124,7 @@ Para enviar mensajes de confirmación a los usuarios que se suscriben o cancelar
 
 1. Crear un plantilla de envíos para la confirmación de la suscripción. [Aprenda a crear una plantilla](../msg/delivery-template.md)
 
-1. No seleccione un audiencia para este envío. En su lugar, acceda al Configuración de envío ****, vaya al [pestaña de audiencias](../advanced-settings/delivery-settings.md#audience) y seleccione el **[!UICONTROL asignación de destino Suscripciones]** en el lista.
+1. No seleccione un audiencia para este envío. En su lugar, acceda al Configuración de envío **&#x200B;**, vaya al [pestaña de audiencias](../advanced-settings/delivery-settings.md#audience) y seleccione el **[!UICONTROL asignación de destino Suscripciones]** en el lista.
 
    ![Captura de pantalla que muestra la selección asignación de destino para un plantilla de envíos](assets/service-confirmation-template-mapping.png){zoomable="yes"}
 

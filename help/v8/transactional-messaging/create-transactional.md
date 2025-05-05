@@ -130,7 +130,7 @@ Para agregar personalización al contenido, haga clic en la sección donde desea
 
 ![Captura de pantalla que muestra el icono personalización en el editor contenido.](assets/template-perso.png){zoomable="yes"}
 
-Acceda a la ventana de ]**personalización de Editar**[!UICONTROL . Para agregar variables desde el evento activador, haga clic en el icono de contexto ]**Evento**[!UICONTROL . Navegue por el contexto que definió para su plantilla ([obtenga más información sobre el contexto](#context-sample)) y haga clic en el **[!UICONTROL botón +]** para insertar el variable requerido.
+Acceda a la ventana de **personalización de Editar**&#x200B;[!UICONTROL . Para agregar variables desde el evento activador, haga clic en el icono de contexto &#x200B;]&#x200B;**Evento**. Navegue por el contexto que definió para su plantilla ([obtenga más información sobre el contexto](#context-sample)) y haga clic en el **[!UICONTROL botón +]** para insertar el variable requerido.
 
 La siguiente imagen muestra cómo añadir personalización para el nombre.
 
@@ -144,7 +144,7 @@ En este ejemplo, agrega el nombre y los apellidos y personaliza el vínculo de b
 
 En esta fase de la creación de la plantilla, previsualice el contenido de la plantilla y compruebe la personalización.
 
-Para ello, rellene el ejemplo de [contexto y haga clic en el **[!UICONTROL botón](#context-sample) Simular contenido]**.
+Para ello, rellene el ejemplo de [contexto y haga clic en el **[[!UICONTROL botón]](#context-sample) Simular contenido]**.
 
 ![Captura de pantalla que muestra la vista previa de la plantilla de mensaje transaccional.](assets/template-preview.png){zoomable="yes"}
 

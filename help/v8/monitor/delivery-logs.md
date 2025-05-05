@@ -17,7 +17,7 @@ ht-degree: 55%
 >title="Registros de envío"
 >abstract="Los registros de envío muestran los detalles del envío. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics."
 
-Una vez preparada la envío y haga clic en Enviar **** botón, vaya a la registros de envío para comprobar las advertencias, los errores, el estado, las exclusiones y los datos seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
+Una vez preparada la envío y haga clic en Enviar **&#x200B;**&#x200B;botón, vaya a la registros de envío para comprobar las advertencias, los errores, el estado, las exclusiones y los datos seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
 
 Para ver los registros, acceda al panel del envío y haga clic en el botón **Registros**.
 

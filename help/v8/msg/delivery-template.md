@@ -28,14 +28,14 @@ Un plantilla incluye:
 * [Tipologías](../advanced-settings/delivery-settings.md#typology),
 * La dirección del remitente,
 * Un [audiencia](../audience/about-recipients.md), incluidos [los grupos](../audience/control-group.md) de control,
-* contenido](../email/edit-content.md) personalizados[,
+* contenido[&#128279;](../email/edit-content.md) personalizados,
 * [Campos](../personalization/personalize.md) personalizados y [contenido](../personalization/conditions.md) condicional,
-* Vínculos a [vínculos](../email/message-tracking.md) página espejo](../email/mirror-page.md) y baja[,
+* Vínculos a [vínculos](../email/message-tracking.md) página espejo[&#128279;](../email/mirror-page.md) y baja,
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 >[!NOTE]
 >
->Las plantillas de entrega difieren de las plantillas](../email/create-email-templates.md) de [contenido, que le permiten reutilizar solo el contenido de sus correos electrónicos y inicio crear contenido con una de las plantillas de correo electrónico de muestra proporcionadas de fábrica.
+>Las plantillas de entrega difieren de las plantillas[&#128279;](../email/create-email-templates.md) de contenido, que le permiten reutilizar solo el contenido de sus correos electrónicos y inicio crear contenido con una de las plantillas de correo electrónico de muestra proporcionadas de fábrica.
 
 ## Acceso y administración de plantillas de envíos {#access-manage-templates}
 
@@ -140,7 +140,7 @@ El nuevo plantilla se agrega al [**lista](#access-manage-templates) Plantillas**
 Para configurar una plantilla de envíos desde cero, seguir estos pasos:
 
 1. Examinar a la **pestaña Plantillas** desde el menú Entregas **a la** izquierda. [Más información](#access-manage-templates)
-1. Haga clic en el botón de plantilla **** Crear.
+1. Haga clic en el botón de plantilla **&#x200B;**&#x200B;Crear.
 
    ![Crear plantilla botón](assets/templates-create-button.png){zoomable="yes"}
 
@@ -162,7 +162,7 @@ Para configurar una plantilla de envíos desde cero, seguir estos pasos:
    > * [Canal de notificaciones push](../push/gs-push.md)
    > * [Canal de SMS](../sms/create-sms.md)
 
-1. Además, para correo electrónico plantillas, se puede acceder a la configuración avanzada, como las reglas de tipología y las asignaciones destino, a través de la botón de Configuración **** ubicada en la parte superior derecha de la pantalla. [Más información](../advanced-settings/delivery-settings.md)
+1. Además, para correo electrónico plantillas, se puede acceder a la configuración avanzada, como las reglas de tipología y las asignaciones destino, a través de la botón de Configuración **&#x200B;**&#x200B;ubicada en la parte superior derecha de la pantalla. [Más información](../advanced-settings/delivery-settings.md)
 
 1. Haga clic en el **[!UICONTROL botón Revisar]** para guardar y revisar su plantilla. Aún puede editar todas sus configuraciones, eliminarlas y duplicado.
 
@@ -174,7 +174,7 @@ La nueva plantilla se agrega a la lista [**Plantillas**](#access-manage-template
 
 Puede prueba la representación de cualquier plantilla de envíos, ya sea que se haya creado desde cero o a partir de un contenido existente. Para ello, siga estos pasos:
 
-1. Examinar al **menú Plantillas** pestaña a través del menú de administración ]**de**[!UICONTROL  Campaign > **[!UICONTROL Entregas]** y seleccione cualquier plantilla. [Más información](#access-manage-templates)
+1. Examinar al **menú Plantillas** pestaña a través del menú de administración **de** Campaign > **[!UICONTROL Entregas]** y seleccione cualquier plantilla. [Más información](#access-manage-templates)
 
 1. Haga clic en el botón **[!UICONTROL Simular contenido]** en la parte superior derecha de la pantalla.
 

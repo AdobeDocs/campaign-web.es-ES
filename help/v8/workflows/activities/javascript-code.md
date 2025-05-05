@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="Código JavaScript"
->abstract="La actividad de **Código JavaScript** le permite ejecutar una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Esto le permite realizar acciones o recopilar información de la base de datos. Utilice **actividades de código de JavaScript simple** para ejecutar un fragmento de código durante flujo de trabajo ejecución. **** Avanzadas JavaScript actividades de código permiten realizar operaciones más complejas mediante la ejecución secuencial de dos fragmentos de código diferentes. La primera vez que se inicia la flujo de trabajo, se ejecuta la primera llamada. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el código definido en la segunda llamada."
+>abstract="La actividad de **Código JavaScript** le permite ejecutar una secuencia de comandos JavaScript en el contexto de un flujo de trabajo. Esto le permite realizar acciones o recopilar información de la base de datos. Utilice **actividades de código de JavaScript simple** para ejecutar un fragmento de código durante flujo de trabajo ejecución. **&#x200B;**&#x200B;Avanzadas JavaScript actividades de código permiten realizar operaciones más complejas mediante la ejecución secuencial de dos fragmentos de código diferentes. La primera vez que se inicia la flujo de trabajo, se ejecuta la primera llamada. Cada vez que se vuelve a ejecutar el flujo de trabajo, se ejecuta el código definido en la segunda llamada."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"

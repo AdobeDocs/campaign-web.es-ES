@@ -32,7 +32,7 @@ En la interfaz web de Campaign, **los fragmentos visuales son bloques visuales p
 
 Para insertar un fragmento visual en correo electrónico contenido, seguir estos pasos:
 
-1. Abra cualquier correo electrónico o contenido plantilla con el Diseñador](../email/get-started-email-designer.md) de [correo electrónico.
+1. Abra cualquier correo electrónico o contenido plantilla con el Diseñador[&#128279;](../email/get-started-email-designer.md) de correo electrónico.
 
 1. Seleccione el **[!UICONTROL icono Fragmentos]** de la izquierda carril.
 
@@ -48,7 +48,7 @@ Para insertar un fragmento visual en correo electrónico contenido, seguir estos
    >
    >Los fragmentos se ordenan por fecha de creación. Los fragmentos añadidos recientemente aparecen primero en la lista.
 
-   Si se modifican o agregan fragmentos visuales mientras edita el contenido, haga clic en el icono Actualizar **** para actualizar el lista con los cambios más recientes.
+   Si se modifican o agregan fragmentos visuales mientras edita el contenido, haga clic en el icono Actualizar **&#x200B;**&#x200B;para actualizar el lista con los cambios más recientes.
 
 1. Arrastre y coloque cualquier fragmento visual del lista en el área donde desea insertarlo. Como cualquier otro componente, puede mover el fragmento en su contenido.
 

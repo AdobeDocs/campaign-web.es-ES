@@ -23,7 +23,8 @@ ht-degree: 2%
 
 Adobe Campaign Web incluye opciones técnicas que permiten configurar las aplicación de forma más específica. Algunas de estas opciones están integradas, mientras que otras se pueden agregar manualmente según sea necesario.
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >Las opciones integradas están preconfiguradas y solo los usuarios avanzados deben modificarlas. Si tiene alguna pregunta o solicitud, póngase en contacto con su representante de Adobe.
 
 ## Opciones de Campaign de acceso {#access}
@@ -33,7 +34,8 @@ Opciones están disponibles en el **[!UICONTROL menú Administración]** / **[!U
 ![](assets/options-list.png)\
 [Opciones lista muestran en el menú Administración / Opciones]
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario Web, la lista es idéntica y funciona gustar espejo. Para obtener más detalles sobre las opciones disponibles, consulte la lista de opciones en [Campaign documentación](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} de v7.
 
 Desde las opciones lista, puede:
@@ -44,7 +46,7 @@ Desde las opciones lista, puede:
 
 ## Crear una opción {#create}
 
-La interfaz de Adobe Campaign Web usuario le permite crear opciones personalizadas que satisfagan sus necesidades. Esto es especialmente útil cuando se trabaja con código ]**JavaScript**[!UICONTROL  flujo de trabajo actividades para tienda datos intermedios.
+La interfaz de Adobe Campaign Web usuario le permite crear opciones personalizadas que satisfagan sus necesidades. Esto es especialmente útil cuando se trabaja con código **JavaScript** flujo de trabajo actividades para tienda datos intermedios.
 
 Para crear una opción:
 
@@ -73,6 +75,6 @@ En el siguiente ejemplo, se crea una opción personalizada denominada `sampleOpt
 
    ![Registros de flujo de trabajo que muestran el valor actualizado de la opción personalizada](assets/options-sample-logs.png)
 
-1. El valor actualizado ahora está visible en el menú Opciones ****.
+1. El valor actualizado ahora está visible en el menú Opciones **&#x200B;**.
 
    ![Opciones menú que muestra el valor actualizado de la opción personalizada](assets/options-sample-updated.png)

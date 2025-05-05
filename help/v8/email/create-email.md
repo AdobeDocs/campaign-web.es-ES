@@ -19,7 +19,7 @@ ht-degree: 42%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-Basado en un plantilla](../email/create-email-templates.md) de diseño predefinido[, el correo electrónico también cuenta con contenido personalizadas basadas en los atributos de perfil del cliente.
+Basado en un plantilla[&#128279;](../email/create-email-templates.md) de diseño predefinido, el correo electrónico también cuenta con contenido personalizadas basadas en los atributos de perfil del cliente.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -121,7 +121,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![Captura de pantalla que muestra la selección de un contenido predefinido plantilla](assets/select-template.png){zoomable="yes"}
 
-1. Una vez que haya seleccionado el plantilla, se muestra en el Diseñador](create-email-content.md) de [correo electrónico, donde puede realizar las ediciones necesarias y agregar personalización.
+1. Una vez que haya seleccionado el plantilla, se muestra en el Diseñador[&#128279;](create-email-content.md) de correo electrónico, donde puede realizar las ediciones necesarias y agregar personalización.
 
    Por ejemplo, para añadir personalización al título del correo electrónico, seleccione el bloque de componentes y haga clic en **[!UICONTROL añadir Personalización]**.
 

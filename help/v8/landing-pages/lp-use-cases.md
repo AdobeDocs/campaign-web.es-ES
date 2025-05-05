@@ -38,7 +38,7 @@ En la [!DNL Adobe Campaign Web] interfaz, cuatro plantillas listas para usar le 
 
    ![Captura de pantalla que muestra la interfaz de configuración y propiedades de página de aterrizaje.](assets/lp-uc-properties.png){zoomable="yes"}
 
-1. Según su caso, seleccione la **[!UICONTROL lista]** de adquisición ]**,**[!UICONTROL  suscripción ]**,**[!UICONTROL  baja ]**o**[!UICONTROL  denegación Página.
+1. Según su caso, seleccione la **[!UICONTROL lista]** de adquisición **,**&#x200B;[!UICONTROL &#x200B; suscripción &#x200B;]&#x200B;**,**&#x200B;[!UICONTROL &#x200B; baja &#x200B;]&#x200B;**o** denegación Página.
 
 1. Se muestra el contenido del Página. Seleccione la parte correspondiente al formulario página de aterrizaje.
 
@@ -61,7 +61,7 @@ En la [!DNL Adobe Campaign Web] interfaz, cuatro plantillas listas para usar le 
 
 1. Crear un [envío correo electrónico](../email/create-email.md) para dirigir tráfico al página de aterrizaje.
 
-1. [Inserte un vincular](../email/message-tracking.md#insert-links) en el contenido de mensajes. Seleccione **[!UICONTROL Página]** de destino como Tipo ]**de**[!UICONTROL  vínculo y elija el página de aterrizaje que ha creado.
+1. [Inserte un vincular](../email/message-tracking.md#insert-links) en el contenido de mensajes. Seleccione **[!UICONTROL Página]** de destino como Tipo **de** vínculo y elija el página de aterrizaje que ha creado.
 
    ![Captura de pantalla que muestra la correo electrónico vincular la interfaz de inserción.](assets/lp-uc-email-link.png){zoomable="yes"}
 
@@ -129,7 +129,7 @@ Uno de los casos de uso más comunes consiste en invitar a sus clientes a [suscr
 
 1. [Crear un página de aterrizaje](create-lp.md#create-landing-page) para permitir que los destinatarios se registren en el evento. Seleccione el plantilla de **[!UICONTROL suscripción]** .
 
-1. Seleccione el Página de suscripción ]**para editar su**[!UICONTROL  contenido.
+1. Seleccione el Página de suscripción **para editar su** contenido.
 
 1. Se muestra el contenido del Página. Seleccione la parte correspondiente al formulario de página de aterrizaje y amplíe la **[!UICONTROL sección Casilla de verificación 1]** .
 
@@ -159,7 +159,7 @@ Puede permitir a sus clientes cancelar la suscripción desde un servicio mediant
 
 1. [Crear un página de aterrizaje](create-lp.md#create-landing-page). Seleccione el plantilla Cancelación de **[!UICONTROL suscripción]** .
 
-1. Seleccione el Página Cancelar suscripción **** para editar su contenido.
+1. Seleccione el Página Cancelar suscripción **&#x200B;**&#x200B;para editar su contenido.
 
 1. Se muestra el contenido del Página. Seleccione la parte correspondiente al formulario página de aterrizaje.
 

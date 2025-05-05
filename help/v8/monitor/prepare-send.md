@@ -18,7 +18,7 @@ Cuando defina su [contenido](../email/edit-content.md), [audiencia](../audience/
 
 Durante la preparación del envío, se calcula la población destino y se genera el contenido del mensaje para cada perfil incluido en el destino. Una vez finalizada la preparación, los mensajes están listos para ser enviados, ya sea inmediatamente o en la fecha y hora programadas.
 
-Las reglas validación utilizadas durante la preparación envío se describen en la documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"} de [Campaign v8 (consola de cliente).
+Las reglas validación utilizadas durante la preparación envío se describen en la documentación[&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"} de Campaign v8 (consola de cliente).
 
 A continuación se detallan los pasos principales para preparar el envío.
 

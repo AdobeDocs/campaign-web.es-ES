@@ -144,11 +144,11 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
 1. Utilice el editor de expresión para definir contenido, personalizar datos y agregar contenido dinámico. [Más información](../personalization/personalize.md)
 
-1. añadir la URL que define la acción ]**Haga**[!UICONTROL  clic asociada a un clic usuario en su notificación. Esto determina el comportamiento cuando el usuario interactúa con el notificación, como al abrir una pantalla específica o realizar una acción específica en la aplicación.
+1. añadir la URL que define la acción **Haga** clic asociada a un clic usuario en su notificación. Esto determina el comportamiento cuando el usuario interactúa con el notificación, como al abrir una pantalla específica o realizar una acción específica en la aplicación.
 
 1. Seleccione el **[!UICONTROL tipo de vínculo]** de la dirección URL que agregó al campo **[!UICONTROL Acción de clic]**:
 
-   * **[!UICONTROL URL web]**L: Las URL web dirigen a los usuarios al contenido en línea. Al hacer clic, solicitan al explorador web predeterminado del dispositivos que se abra y navegue hasta el URL designado.
+   * **[!UICONTROL URL web]**&#x200B;L: Las URL web dirigen a los usuarios al contenido en línea. Al hacer clic, solicitan al explorador web predeterminado del dispositivos que se abra y navegue hasta el URL designado.
 
    * **[!UICONTROL Enlace]** profundo: los vínculos profundos son URL que guían a los usuarios a secciones específicas dentro de una aplicación igualado si la aplicación está cerrada. Al hacer clic, puede aparecer un cuadro de diálogo que permite a los usuarios elegir entre varias aplicaciones capaces de manejar el vincular.
 
@@ -260,7 +260,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
 >[!TAB Catálogo de productos]
 
-1. En el menú desplegable Tipo de **[!UICONTROL notificación, seleccione**[!UICONTROL  Catálogo ]**]** de productos.
+1. En el menú desplegable Tipo de **[!UICONTROL notificación, seleccione**&#x200B;[!UICONTROL &#x200B; Catálogo &#x200B;]&#x200B;**]** de productos.
 
    ![](assets/rich_push_catalog_1.png)
 
@@ -284,7 +284,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
 1. Para personalizar aún más su notificación, puede elegir el icono del **[!UICONTROL notificación]** para mostrar en el dispositivos de sus perfiles.
 
-1. Introduzca el texto y la **imagen de hacer clic para la acción**.****
+1. Introduzca el texto y la **imagen de hacer clic para la acción**.**&#x200B;**
 
 1. Elija el **[!UICONTROL tipo de]** visualización entre horizontal o vertical.
 
@@ -302,7 +302,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
 >[!TAB Clasificación del producto]
 
-1. En el menú desplegable Tipo ]**de notificación, seleccione**[!UICONTROL  Clasificación ]**del**[!UICONTROL  producto.
+1. En el menú desplegable Tipo **de notificación, seleccione**&#x200B;[!UICONTROL &#x200B; Clasificación &#x200B;]&#x200B;**del** producto.
 
    ![](assets/rich_push_rating_1.png)
 

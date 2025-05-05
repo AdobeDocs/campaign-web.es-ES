@@ -48,11 +48,11 @@ Para mostrar y administrar informes, seguir estos pasos:
 
 1. Si su envío es recurrente, seleccione un envío específico para informar haciendo clic en **[!UICONTROL Seleccionar envíos]**.
 
-   También puede aplicar un período de tiempo al informe seleccionando la fecha ]**de**[!UICONTROL  contacto.
+   También puede aplicar un período de tiempo al informe seleccionando la fecha **de** contacto.
 
    ![Selección de envío recurrente con opción Fecha de contacto](assets/delivery-recurring.png){zoomable="yes"}
 
-1. En las URL y las **[!UICONTROL secuencias de clics]**, elija los **[!UICONTROL vínculos]** más visitados o el período ]**de**[!UICONTROL  tiempo.
+1. En las URL y las **[!UICONTROL secuencias de clics]**, elija los **[!UICONTROL vínculos]** más visitados o el período **de** tiempo.
 
    Las **[!UICONTROL opciones Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.
 

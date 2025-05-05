@@ -81,7 +81,7 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
   Los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Por envío, puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. [Más información](../personalization/personalize.md)
 
-* Inserción de fragmentos de expresión predefinidos ****
+* Inserción de fragmentos de expresión predefinidos **&#x200B;**
 
   Campaign viene con un conjunto de fragmentos de expresión que contienen procesamientos específicos que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. Los fragmentos de expresiones están disponibles en una entrada dedicada del editor de personalización. Además, puede crear sus propios fragmentos de expresiones para adaptarlos a sus necesidades. [Aprenda a usar fragmentos de expresión](../content/use-expression-fragments.md)
 

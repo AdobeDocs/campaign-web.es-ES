@@ -70,7 +70,7 @@ Para acceder a esta opción, en la consulta, haga clic en el botón de selecció
 >
 >* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En estos casos, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos. [Aprenda a seleccionar atributos](../get-started/attributes.md)
->* Puede agregar condiciones a los resultados usando los **[!Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
+>* Puede agregar condiciones a los resultados usando los **[ !Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adición de componentes de filtrado {#filtering}
 
@@ -122,7 +122,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
    | Como | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Jon%s&quot;. El carácter comodín actúa como un &quot;joker&quot; para encontrar nombres como &quot;Jones&quot;. |
    | Not like | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Smi%h&quot;. Los destinatarios cuyo apellido sea &quot;Smith&quot; no se devolverán. |
 
-+++
+   +++
 
 1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones web de Campaign para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el botón **Editar expresión**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 

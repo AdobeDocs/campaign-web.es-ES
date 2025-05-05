@@ -46,7 +46,7 @@ Siga estos pasos para configurar el **Guardar audiencia** actividad:
 
    * **Todas las aplicaciones audiencia con datos** nuevos: se conserva el contenido de audiencia antiguo y se le agregan los datos del transición entrante del actividad de **audiencia** de Guardar.
 
-1. Marque la **opción Generar un transición** saliente si desea agregar un transición después del actividad de audiencia **** Guardar.
+1. Marque la **opción Generar un transición** saliente si desea agregar un transición después del actividad de audiencia **&#x200B;**&#x200B;Guardar.
 
 El contenido del audiencia guardado está disponible en la vista detallada del audiencia, al que se puede acceder desde el **menú Audiences** . Las columnas disponibles en este vista corresponden a las columnas del transición entrante del Guardar del flujo de trabajo **actividad de audiencia** .
 

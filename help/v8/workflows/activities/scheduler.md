@@ -60,7 +60,8 @@ Siga estos pasos para configurar la actividad **Planificador**:
    * **Permanente (nunca caduca)**: el flujo de trabajo se ejecuta según la frecuencia especificada, sin límites en el lapso de tiempo ni número de iteraciones.
    * **Periodo** de validez: El flujo de trabajo se ejecuta según el Frecuencia especificado, hasta una fecha concreta. Especifique las fechas de inicio y finalización.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Si desea inicio la flujo de trabajo de inmediato, haga clic en **Ejecutar tarea** pendientes en la barra de acciones superior del planificador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
 
 ## Ejemplo {#scheduler-example}

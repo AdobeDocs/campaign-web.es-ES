@@ -87,7 +87,7 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
    * **[!UICONTROL Error al procesar]** (tipo de datos de cadena): especifique el comportamiento en caso de errores en una de las líneas.
    * **[!UICONTROL Reasignación de valores]**: esta opción le permite asignar valores específicos con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede añadir una asignación para reemplazar automáticamente esos valores por los caracteres &quot;0&quot;/&quot;1&quot;.
 
-+++
+   +++
 
 1. En la sección **Formato**, especifique cómo se formatea el archivo para garantizar que los datos se importen correctamente.
 

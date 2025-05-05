@@ -77,7 +77,7 @@ Para crear una panel de envío, seguir estos pasos:
    * **Rendimiento mínimo esperado (en mensajes enviados por hora):** solo se tienen en cuenta cuenta los envíos con un rendimiento inferior al valor especificado para el criterio Envíos con bajo rendimiento.
    * **Proporción mínima procesada requerida para el criterio** &quot;Entregas en curso&quot;: solo se toman en cuenta los envíos con un porcentaje de mensajes procesados superior al porcentaje especificado.
 
-+++
+   +++
 
 1. De forma predeterminada, los tableros de alertas están deshabilitados, lo que significa que no se envían correo electrónico alertas vinculadas a este panel. Para habilitar el panel inmediatamente, active la **opción Habilitado** en la **sección General** , junto al campo alerta grupo selección.
 
@@ -107,7 +107,7 @@ Se puede acceder a todos los paneles de alerta creados desde el **menú Alertas 
 
 ![Captura de pantalla que muestra el lista de los paneles de alerta en el menú Alertas de envío.](assets/alerting-dashboard-list.png)
 
-Puede duplicado o eliminar un panel mediante el botón de acciones **** Más junto al nombre.
+Puede duplicado o eliminar un panel mediante el botón de acciones **&#x200B;**&#x200B;Más junto al nombre.
 
 Para acceder a una vista detallada de una panel, haga clic en su nombre en la lista. Desde esta pantalla, puede visualizar los últimos alerta enviados. Todas las alertas enviadas aparecen en el panel izquierdo. Haga clic en un elemento para acceder a las alertas correspondientes enviadas en ese momento concreto.
 

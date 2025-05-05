@@ -51,7 +51,8 @@ Configure las entregas como se detalla a continuación:
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
-+++
+
+   +++
 
 ## Seleccione el público del envío push {#create-audience-push}
 
