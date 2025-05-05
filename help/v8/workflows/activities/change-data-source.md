@@ -23,7 +23,7 @@ En flujos de trabajo, los datos transportados de una actividad a otra a través 
 
 En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que deba forzar a la flujo de trabajo a utilizar una base de datos diferente para realizar estas operaciones agregando un **[!UICONTROL actividad de fuente de datos]** cambio.
 
-Puede encontrar información detallada sobre Campaign arquitectura en [Campaign documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html) de la versión 8 (consola del cliente).
+Puede encontrar información detallada sobre Campaign arquitectura en [Campaign documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=es) de la versión 8 (consola del cliente).
 
 >[!IMPORTANT]
 >

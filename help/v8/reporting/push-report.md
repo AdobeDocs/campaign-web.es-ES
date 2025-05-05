@@ -85,7 +85,7 @@ El informe **Estadísticas generales** presenta datos para las notificaciones pu
 >title="Exclusiones push"
 >abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
-El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){_blank}.
 
 ![Esta captura de pantalla muestra el gráfico y la tabla Exclusiones, que muestran motivos que impiden que los perfiles de usuario excluidos reciban mensajes.](assets/reporting_push_6.png){zoomable="yes"}
 

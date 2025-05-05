@@ -44,7 +44,7 @@ Para probar inicio el contenido del mensaje:
 
    * Para SMS y correos electrónicos, puedes usar [perfiles de prueba](#test-profiles), que son destinatarios adicionales específicos en la base de datos. También puede usar el modo [substitution from main target](#substitution-profiles), que envía la prueba a una dirección de prueba de correo electrónico o a un número de teléfono, y usa datos de personalización de un perfil existente. Esto le permite experimentar el mensaje como lo harían los destinatarios, lo que le ofrece una representación precisa del contenido que recibirá el perfil.
 
-   * Para los mensajes push, puede usar [suscriptores](#subscribers), que son suscriptores ficticios agregados a la base de datos. Se crean en la consola [!DNL Campaign]. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * Para los mensajes push, puede usar [suscriptores](#subscribers), que son suscriptores ficticios agregados a la base de datos. Se crean en la consola [!DNL Campaign]. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=es){target="_blank"}
 
    A continuación, encontrará la configuración detallada para cada modo.
 

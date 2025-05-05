@@ -33,7 +33,7 @@ El **actividad de señal** externa es un **actividad de control** Flujo. Permite
 
 >[!NOTE]
 >
->Este Página explica los pasos principales para configurar un **[!UICONTROL actividad de señal]** externa en Campaign interfaz web del usuario y activarlo desde otro flujo de trabajo o una llamada API. En la documentación[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example) de Campaign v8 (consola de cliente) encontrará información detallada sobre cómo activar una flujo de trabajo, prácticas recomendadas y cómo trabajar con Campaign API.
+>Este Página explica los pasos principales para configurar un **[!UICONTROL actividad de señal]** externa en Campaign interfaz web del usuario y activarlo desde otro flujo de trabajo o una llamada API. En la documentación[&#128279;](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example) de Campaign v8 (consola de cliente) encontrará información detallada sobre cómo activar una flujo de trabajo, prácticas recomendadas y cómo trabajar con Campaign API.
 
 Siga estos pasos para configurar el actividad de **señal** externa y activar su ejecución:
 

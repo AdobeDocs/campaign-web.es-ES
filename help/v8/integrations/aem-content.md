@@ -16,7 +16,7 @@ ht-degree: 5%
 
 La integración de la interfaz web de Adobe Campaign con Adobe Experience Manager permite una administración optimizada del contenido y los formularios de los envíos de correos electrónicos directamente en la plataforma de Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png) [Más información sobre Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [Más información sobre Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=es)
 
 ## Crear una plantilla en [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -32,7 +32,7 @@ La integración de la interfaz web de Adobe Campaign con Adobe Experience Manage
 
    ![[Captura de pantalla que muestra el campo de nombre y selección de la plantilla &quot;Correo electrónico de Adobe Campaign&quot;.]](assets/aem_2.png)
 
-1. Personalice el contenido del correo electrónico añadiendo componentes como, por ejemplo, campos de personalización de Adobe Campaign. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
+1. Personalice el contenido del correo electrónico añadiendo componentes como, por ejemplo, campos de personalización de Adobe Campaign. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=es#editing-email-content)
 
 1. Una vez que el correo electrónico esté listo, vaya al menú **[!UICONTROL Información de la página]** y haga clic en **[!UICONTROL Iniciar flujo de trabajo]**.
 

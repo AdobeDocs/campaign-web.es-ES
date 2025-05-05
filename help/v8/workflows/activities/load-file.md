@@ -30,7 +30,7 @@ ht-degree: 30%
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se agregan a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), para actualizar perfiles o cualquier otra tabla.
 
 >[!NOTE]
->Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Con la consola Interfaz de usuario web, puede cargar archivos de hasta un tamaño máximo de 50 MB. En la consola del cliente, la actividad Data Loading tiene un límite de 150 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Con la consola Interfaz de usuario web, puede cargar archivos de hasta un tamaño máximo de 50 MB. En la consola del cliente, la actividad Data Loading tiene un límite de 150 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=es){target="_blank"}
 
 Esta actividad se puede usar con una actividad [Reconciliation](reconciliation.md) para vincular datos no identificados a recursos existentes. Por ejemplo, la actividad **Cargar archivo** se puede colocar antes de una actividad **Reconciliación** si se importan datos no estándar en la base de datos.
 

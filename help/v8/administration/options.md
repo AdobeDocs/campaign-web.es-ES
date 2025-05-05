@@ -36,7 +36,7 @@ Opciones están disponibles en el **[!UICONTROL menú Administración]** / **[!U
 
 >[!NOTE]
 >\
->Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario Web, la lista es idéntica y funciona gustar espejo. Para obtener más detalles sobre las opciones disponibles, consulte la lista de opciones en [Campaign documentación](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} de v7.
+>Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario Web, la lista es idéntica y funciona gustar espejo. Para obtener más detalles sobre las opciones disponibles, consulte la lista de opciones en [Campaign documentación](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} de v7.
 
 Desde las opciones lista, puede:
 
