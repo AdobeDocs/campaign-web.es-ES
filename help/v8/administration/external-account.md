@@ -154,7 +154,7 @@ Para configurar la cuenta externa **[!UICONTROL Execution instance]**:
 
 * **[!UICONTROL Método]** - Elija entre servicio Web o acceso de datos federado (FDA).
 
-  Para FDA, seleccione su cuenta de FDA. Tenga en cuenta que la conexión de Campaign a sistemas externos está restringida a usuarios avanzados y solo está disponible desde la consola del cliente. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/fda#_blank)
+  Para FDA, seleccione su cuenta de FDA. Tenga en cuenta que la conexión de Campaign a sistemas externos está restringida a usuarios avanzados y solo está disponible desde la consola del cliente. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Crear flujo de trabajo de archivado]**: para cada instancia de ejecución registrada en el Centro de mensajes, independientemente de si tiene una o varias instancias, cree un flujo de trabajo de archivado independiente para cada cuenta externa asociada a la instancia de ejecución.
 
@@ -206,7 +206,7 @@ Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe config
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Para saber dónde encontrar el ID de clave de acceso y la clave de acceso secret
 
 ### Azure Blob Storage {#azure-blob-external-account}
 
-La cuenta externa **[!UICONTROL Azure Blob Storage]** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transferir archivo]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+La cuenta externa **[!UICONTROL Azure Blob Storage]** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transferir archivo]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Para configurar la cuenta externa de **[!UICONTROL Azure]** para que funcione co
 
 ## Hadoop
 
-La cuenta externa Hadoop permite conectar la instancia de Campaign a la base de datos externa Hadoop. Puede obtener más información sobre Hadoop en [Documentación de la consola de Campaign V7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
+La cuenta externa Hadoop permite conectar la instancia de Campaign a la base de datos externa Hadoop. Puede obtener más información sobre Hadoop en [Documentación de la consola de Campaign V7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}.
 
 ![Captura de pantalla que muestra la configuración de la cuenta externa de Hadoop.](assets/external-hadoop.png)
 

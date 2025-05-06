@@ -134,7 +134,7 @@ Defina las propiedades de la regla de tipología:
 
    **[!UICONTROL Al final del análisis]**: aplique comprobaciones que requieran una personalización completa del mensaje.
 
-   +++
++++
 
    * **[!UICONTROL Nivel]**: especifique el nivel de alerta para la regla. Expanda la sección siguiente para obtener más información.
 
@@ -148,7 +148,7 @@ Defina las propiedades de la regla de tipología:
 
    **[!UICONTROL Detallado]**: muestra información en los registros del servidor.
 
-   +++
++++
 
 ### Creación del contenido de la regla {#build}
 
