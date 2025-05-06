@@ -3,14 +3,20 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '926'
 ht-degree: 14%
 
 ---
 
 # Trabajar con el modelador de consultas {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Nuevo generador de reglas"
+>abstract="Ahora hay disponible un nuevo generador de reglas para ayudarle a definir condiciones complejas en una interfaz de usuario mejorada. Puede cambiar del generador de reglas antiguo al nuevo según sea necesario."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

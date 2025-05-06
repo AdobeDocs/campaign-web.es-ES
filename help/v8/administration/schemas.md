@@ -2,20 +2,14 @@
 title: Trabajo con esquemas
 description: Aprenda a trabajar con esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 21%
+source-wordcount: '479'
+ht-degree: 18%
 
 ---
 
 # Trabajo con esquemas {#schemas}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Usar esquemas"
->abstract="Ahora puede acceder a los detalles de un esquema seleccionando su nombre en la lista. También se puede acceder a la edición de campos personalizados desde el botón **Edición de pantalla**."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
@@ -37,7 +31,7 @@ Los esquemas desempeñan un papel clave en:
 
 Cada entidad de Adobe Campaign tiene un esquema específico que garantiza la coherencia y la organización de los datos.
 
-Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Acceso a esquemas en la interfaz de usuario web {#access}
 
