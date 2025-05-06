@@ -2,7 +2,7 @@
 title: Administrar asignaciones de público destinatario
 description: Obtenga información sobre cómo administrar las asignaciones de destino.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 # Administrar asignaciones de público destinatario {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="Asignaciones de destino"
 >abstract="Ahora puede crear asignaciones de público destinatario en la interfaz de usuario de Campaign Web. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
@@ -30,7 +30,7 @@ Se puede acceder a las asignaciones de destino desde el menú **[!UICONTROL Admi
 
 ![Pantalla de lista de asignaciones de destino que muestra las asignaciones disponibles](assets/target-mappings-list.png)
 
-Para obtener más información sobre las asignaciones de destino integradas proporcionadas con Adobe Campaign, consulte la [documentación de la consola del cliente de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
+Para obtener más información sobre las asignaciones de destino integradas que se proporcionan con Adobe Campaign, consulte la [documentación de la consola del cliente de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
 ## Creación de una asignación de destino {#create-mapping}
 
@@ -84,7 +84,7 @@ Para crear una nueva asignación de destino, acceda al menú **[!UICONTROL Admin
 
    1. **[!UICONTROL Registros de seguimiento]**: active la opción **[!UICONTROL Generar un esquema para el seguimiento]** para generar un esquema de almacenamiento para los registros de seguimiento.
 
-   +++
++++
 
 1. Utilice la sección **[!UICONTROL Mapping]** para identificar qué atributos del esquema de la asignación de destino se utilizarán en cada campo de dirección de entrega. Para cada campo, seleccione el atributo que desee asignar. También puede crear una expresión para identificar el campo. Por ejemplo, aplique una función menor al atributo address.
 

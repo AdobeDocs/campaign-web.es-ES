@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 14%
@@ -13,7 +13,7 @@ ht-degree: 14%
 # Trabajo con reglas empresariales (tipologías) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn4"
 >title="Reglas empresariales"
 >abstract="Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario de Adobe Campaign Web. La tipología permite controlar, filtrar y priorizar los envíos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
@@ -134,7 +134,7 @@ Defina las propiedades de la regla de tipología:
 
    **[!UICONTROL Al final del análisis]**: aplique comprobaciones que requieran una personalización completa del mensaje.
 
-   +++
++++
 
    * **[!UICONTROL Nivel]**: especifique el nivel de alerta para la regla. Expanda la sección siguiente para obtener más información.
 
@@ -148,7 +148,7 @@ Defina las propiedades de la regla de tipología:
 
    **[!UICONTROL Detallado]**: muestra información en los registros del servidor.
 
-   +++
++++
 
 ### Creación del contenido de la regla {#build}
 
