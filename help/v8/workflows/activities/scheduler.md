@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Planificador
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Planificador
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 24%
@@ -46,8 +46,8 @@ Siga estos pasos para configurar la actividad **Planificador**:
 1. Configure **Frecuencia de ejecución**:
 
    * **Una vez**: el flujo de trabajo se ejecuta una sola vez.
-   * **Diario**: el flujo de trabajo se ejecuta a una hora específica, una vez al día.
-   * **Varias veces al día**: El flujo de trabajo se ejecuta regularmente varias veces al día. Establezca ejecuciones en momentos específicos o periódicamente.
+   * **Diario**: el flujo de trabajo se ejecuta a una hora específica una vez al día.
+   * **Varias veces al día**: el flujo de trabajo se ejecuta regularmente varias veces al día. Configure las ejecuciones en momentos específicos o de forma periódica.
    * **Semanal**: el flujo de trabajo se ejecuta en un momento determinado una o varias veces a la semana.
    * **Mensual**: el flujo de trabajo se ejecuta en un momento determinado una o varias veces al mes. Seleccione los meses en los que debe ejecutarse el flujo de trabajo. También puede configurar ejecuciones en días de semana del mes específicos, como el segundo martes de cada mes.
 
@@ -58,11 +58,10 @@ Siga estos pasos para configurar la actividad **Planificador**:
 1. Defina el periodo de validez del planificador:
 
    * **Permanente (nunca caduca)**: el flujo de trabajo se ejecuta según la frecuencia especificada, sin límites en el lapso de tiempo ni número de iteraciones.
-   * **Periodo** de validez: El flujo de trabajo se ejecuta según el Frecuencia especificado, hasta una fecha concreta. Especifique las fechas de inicio y finalización.
+   * **Período de validez**: el flujo de trabajo se ejecuta según la frecuencia especificada, hasta una fecha específica. Especifique las fechas de inicio y finalización.
 
 >[!NOTE]
->\
->Si desea inicio la flujo de trabajo de inmediato, haga clic en **Ejecutar tarea** pendientes en la barra de acciones superior del planificador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
+>Si desea iniciar el flujo de trabajo de inmediato, haga clic en **Ejecutar tarea pendiente** en la barra de acciones superior del programador. Este botón solo está disponible cuando se ha iniciado el flujo de trabajo.
 
 ## Ejemplo {#scheduler-example}
 
