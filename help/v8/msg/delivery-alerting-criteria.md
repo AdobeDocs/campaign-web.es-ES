@@ -2,8 +2,12 @@
 audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 18%
