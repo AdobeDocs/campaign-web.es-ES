@@ -4,9 +4,9 @@ description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -133,4 +133,4 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
 ## Recursos adicionales
 
 * [Descripción del producto Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es){target="_blank"}
+* [Documentación de la versión 8 de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es){target="_blank"}

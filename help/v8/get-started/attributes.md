@@ -4,9 +4,9 @@ title: Seleccionar atributos y añadirlos a favoritos
 description: Aprenda a trabajar con atributos y acceda fácilmente a los atributos favoritos y utilizados recientemente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ El menú **[!UICONTROL Favoritos y recientes]** del selector de atributos propor
 
 ![Menú Favoritos y atributos recientes, que muestra los atributos favoritos y los utilizados recientemente.](assets/attributes-favorite.png)
 
-Para agregar un atributo a favoritos, haga clic en el botón Expandir y seleccione **[!UICONTROL Agregar a favoritos]**. A continuación, el atributo se añade automáticamente a la lista de favoritos. Para eliminar un atributo de favoritos, vuelva a seleccionar el icono de estrella.
+Para añadir un atributo a favoritos, haga clic en el botón Expandir y seleccione **[!UICONTROL Añadir a favoritos]**. A continuación, el atributo se añade automáticamente a la lista de favoritos. Para eliminar un atributo de favoritos, vuelva a seleccionar el icono de estrella.
 
 Los usuarios pueden añadir hasta 20 atributos favoritos. Los atributos favoritos y recientes están asociados con cada usuario dentro de una organización, lo que garantiza la accesibilidad entre diferentes máquinas y proporciona una experiencia perfecta en toda dispositivos.
 
 ## Identificar la distribución de valores dentro de una tabla {#distribution}
 
-El botón **Distribución de valores**, disponible al hacer clic en el botón de expansión situado junto al atributo, permite a los usuarios analizar la distribución de los valores de ese atributo en la tabla. Esta función es útil para comprender los valores disponibles, sus recuentos y sus porcentajes. También ayuda a evitar problemas como la incoherencia en las mayúsculas o en la ortografía al crear consultas o expresiones.
+El botón **Distribución de valores**, aparece al hacer clic en el botón de expansión situado junto al atributo, y permite a los usuarios analizar la distribución de valores de ese atributo dentro de la tabla. Esta función es útil para comprender los valores disponibles, sus recuentos y sus porcentajes. También ayuda a evitar problemas como la incoherencia en las mayúsculas o en la ortografía al crear consultas o expresiones.
 
 ![Interfaz de herramienta de distribución de valores, que muestra recuentos y porcentajes de valores de atributo.](assets/attributes-distribution-values.png)
 

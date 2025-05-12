@@ -4,9 +4,9 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
