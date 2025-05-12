@@ -8,7 +8,7 @@ breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 96%
       + [Diseño del archivo de extracción](direct-mail/content-direct-mail.md)
       + [Previsualización y envío de un correo directo](direct-mail/send-direct-mail.md)
    + Centro de llamadas {#call-center}
-      + [Introducción a las entregas del centro de llamadas](call-center/gs-call-center.md)
-      + [Creación y envío de una entrega de centro de llamadas](call-center/create-call-center.md)
+      + [Introducción a los envíos de centros de llamadas](call-center/gs-call-center.md)
+      + [Creación y envío de un envío al centro de llamadas](call-center/create-call-center.md)
    + Mensajes transaccionales {#transactional-messages}
       + [Introducción a los mensajes transaccionales](transactional-messaging/transactional.md)
       + [Creación de un mensaje transaccional](transactional-messaging/create-transactional.md)
@@ -121,7 +121,7 @@ ht-degree: 96%
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
    + Asistente de IA {#ai-assistant}
-      + [Trabajar con el asistente de IA](email/generative-gs.md)
+      + [Trabajo con el Asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con IA](email/generative-content.md)
       + [Generación de SMS con IA](email/generative-sms.md)
       + [Generación de notificaciones push con IA](email/generative-push.md)
