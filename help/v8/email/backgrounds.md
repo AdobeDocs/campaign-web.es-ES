@@ -3,7 +3,7 @@ audience: end-user
 title: Personalice el fondo del correo electrónico
 description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 44%
@@ -41,7 +41,6 @@ A continuación se muestran las opciones de configuración de fondo disponibles 
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Asegúrese de no definir un color de fondo de ventanilla móvil, ya que puede ocultar los colores de fondo de la estructura.
 
 * Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
@@ -50,7 +49,6 @@ A continuación se muestran las opciones de configuración de fondo disponibles 
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utiliza el color de fondo de fila en su lugar. Seleccione un color de fondo de reserva adecuado en caso de que no se pueda mostrar la imagen.
 
 * Establezca un color de fondo en el nivel de columna.
@@ -59,7 +57,6 @@ A continuación se muestran las opciones de configuración de fondo disponibles 
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto proporciona más flexibilidad al editar todo el contenido del correo electrónico.
 
   También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
