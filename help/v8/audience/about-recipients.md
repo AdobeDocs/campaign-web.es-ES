@@ -46,4 +46,4 @@ Para eliminar un perfil, seleccione la opción correspondiente en el menú **[!U
 
 Obtenga información sobre cómo acceder, administrar y explorar perfiles mediante la interfaz de usuario web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448367?quality=12&captions=spa)
