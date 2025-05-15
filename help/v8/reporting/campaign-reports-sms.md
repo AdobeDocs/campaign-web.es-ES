@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido), en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
+  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#sms-quarantines){target="_blank"}.
 
 +++
 
