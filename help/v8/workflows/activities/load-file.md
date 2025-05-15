@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 30%
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se agregan a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), para actualizar perfiles o cualquier otra tabla.
 
 >[!NOTE]
->Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Con la consola Interfaz de usuario web, puede cargar archivos de hasta un tamaño máximo de 50 MB. En la consola del cliente, la actividad Data Loading tiene un límite de 150 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=es){target="_blank"}
+>Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Con la consola Interfaz de usuario web, puede cargar archivos de hasta un tamaño máximo de 50 MB. En la consola del cliente, la actividad Data Loading tiene un límite de 150 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Esta actividad se puede usar con una actividad [Reconciliation](reconciliation.md) para vincular datos no identificados a recursos existentes. Por ejemplo, la actividad **Cargar archivo** se puede colocar antes de una actividad **Reconciliación** si se importan datos no estándar en la base de datos.
 
@@ -55,7 +55,7 @@ La configuración de la actividad **Cargar archivo** implica dos pasos. En prime
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Reasignación de valores para la actividad Carga de archivo"
->abstract="Utilice esta opción para asignar valores específicos de los archivos cargados con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede agregar una asignación para reemplazar automáticamente esos valores con caracteres &quot;0&quot;/&quot;1&quot;."
+>abstract="Utilice esta opción para asignar valores específicos de los archivos cargados con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede añadir una asignación para reemplazar automáticamente esos valores por los caracteres &quot;0&quot;/&quot;1&quot;."
 
 Siga estos pasos para configurar el archivo de muestra utilizado para definir la estructura de archivos esperada:
 
@@ -87,7 +87,7 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
    * **[!UICONTROL Error al procesar]** (tipo de datos de cadena): especifique el comportamiento en caso de errores en una de las líneas.
    * **[!UICONTROL Reasignación de valores]**: esta opción le permite asignar valores específicos con valores nuevos. Por ejemplo, si la columna contiene valores &quot;True&quot;/&quot;False&quot;, puede añadir una asignación para reemplazar automáticamente esos valores por los caracteres &quot;0&quot;/&quot;1&quot;.
 
-   +++
++++
 
 1. En la sección **Formato**, especifique cómo se formatea el archivo para garantizar que los datos se importen correctamente.
 
@@ -106,7 +106,7 @@ Siga estos pasos para configurar el archivo de muestra utilizado para definir la
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Base de datos de destino"
->abstract="Si accede a una actividad **[!UICONTROL Cargar archivo]** que ya se ha configurado en la consola del cliente, hay disponible una sección **[!UICONTROL Base de datos de Target]** adicional si ha configurado la actividad para cargar el archivo en una base de datos externa."
+>abstract="Si accede a una actividad **[!UICONTROL Cargar archivo]** que ya se ha configurado en la consola del cliente, hay disponible una sección adicional **[!UICONTROL Base de datos de destino]** si ha configurado la actividad para cargar el archivo en una base de datos externa."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"

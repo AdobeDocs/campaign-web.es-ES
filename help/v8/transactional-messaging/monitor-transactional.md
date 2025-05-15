@@ -6,7 +6,7 @@ exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -41,12 +41,12 @@ Busque su mensaje y haga clic en él para ver sus detalles.
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Historial de eventos de la mensajería transaccional"
->abstract="Puede ver los eventos que almacenan en déclencheur el mensaje transaccional."
+>abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="Vista previa del historial de eventos de la mensajería transaccional"
->abstract="Puede ver los eventos que almacenan en déclencheur el mensaje transaccional."
+>abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
 
 Puede ver los eventos que almacenan en déclencheur el mensaje transaccional. Para acceder a ellos, vaya a la sección **[!UICONTROL Historial de eventos]**.
 

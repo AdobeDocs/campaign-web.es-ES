@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Definición de la configuración de la página principal"
->abstract="La página principal se muestra inmediatamente a los usuarios después de que hacen clic en el vínculo a la página de aterrizaje, como desde un correo electrónico o un sitio web."
+>abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, por ejemplo, desde un correo electrónico o un sitio web."
 
 Puede editar el contenido de cualquier página de la página de aterrizaje.
 
@@ -94,9 +94,9 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. Elimine y agregue tantos campos (como campos de texto, botones de opción, casillas de verificación, listas desplegables, etc.) como sea necesario.
 
-1. Una vez que se hayan agregado o actualizado todos los campos, haga clic en **[!UICONTROL Llamar a la acción]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**. [Descubra cómo](#define-actions-on-form-submission)
+1. Una vez que se hayan agregado o actualizado todos los campos, haga clic en **[!UICONTROL Call to action]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**. [Descubra cómo](#define-actions-on-form-submission)
 
-   ![Configuración de llamada a la acción en el componente de formulario](assets/lp-call-to-action.png){zoomable="yes"}
+   ![Configuración de Call to action en el componente de formulario](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Guarde el contenido para volver a las [propiedades de la página de aterrizaje](create-lp.md#create-landing-page).
 
@@ -145,7 +145,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 Para enviar un mensaje de confirmación automáticamente después del envío de una página de aterrizaje, siga estos pasos:
 
-1. En la sección **[!UICONTROL LLAMADA A LA ACCIÓN]**, marque la opción **[!UICONTROL Enviar correo electrónico de confirmación]**.
+1. En la sección **[!UICONTROL CALL TO ACTION]**, marque la opción **[!UICONTROL Enviar correo electrónico de confirmación]**.
 
 1. En la lista desplegable asociada, elija la plantilla de mensaje transaccional que debe enviarse.
 
@@ -165,9 +165,9 @@ Para enviar un mensaje de confirmación automáticamente después del envío de 
 
 1. Expanda y edite cualquier otra sección correspondiente a otros campos que haya agregado (botón de opción, lista desplegable, fecha y hora, etc.) al formulario.
 
-1. Expanda la sección **[!UICONTROL Llamada a la acción]** para modificar el aspecto del botón en el formulario de componente. Por ejemplo, cambie la fuente, agregue un borde, edite el color de la etiqueta al pasar el ratón por encima o ajuste la alineación del botón.
+1. Expanda la sección **[!UICONTROL Call to action]** para modificar el aspecto del botón en el formulario de componente. Por ejemplo, cambie la fuente, agregue un borde, edite el color de la etiqueta al pasar el ratón por encima o ajuste la alineación del botón.
 
-   ![Configuración del estilo de llamada a la acción](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![Configuración de estilo de Call to action](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Previsualice algunos de los ajustes, como el color de la etiqueta del botón al pasar el ratón por encima, usando el botón **[!UICONTROL Simular contenido]**. [Más información](create-lp.md#test-landing-page)
 

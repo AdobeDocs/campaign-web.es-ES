@@ -6,7 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="Actividad Esperar"
->abstract="La actividad **Wait** se usa para retrasar la transición de una actividad a otra."
+>abstract="La actividad **Esperar** se utiliza para retrasar la transición de una actividad a otra."
 
 La actividad **Esperar** es una actividad de **Control de flujo**. Permite que transcurra un cierto tiempo entre la ejecución de dos actividades. Por ejemplo, se puede utilizar para esperar varios días después de una actividad de entrega de correo electrónico y, a continuación, analizar las aperturas y los clics generados durante este periodo antes de realizar operaciones de seguimiento, como enviar un correo electrónico de recordatorio o crear una audiencia.
 

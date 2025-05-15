@@ -6,13 +6,13 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 17%
+ht-degree: 40%
 
 ---
 
 # Actividades de correo electrónico, SMS, push, correo directo {#channel}
 
-Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, correo directo y canales push. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente.
+Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, correo directo y canales push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente.
 
 Por ejemplo, cree una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS, push y correo directo. También puede enviar un correo electrónico de seguimiento después de que un cliente complete una compra o enviar un mensaje de cumpleaños personalizado a un cliente a través de SMS.
 
@@ -47,27 +47,27 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="Actividad de Correo electrónico"
->abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de correos electrónicos a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
+>abstract="La actividad Correo electrónico facilita el envío de correos electrónicos dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de correos electrónicos a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="Actividad de SMS"
->abstract="La actividad de SMS facilita el envío de SMS dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de SMS a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
+>abstract="La actividad de SMS facilita el envío de SMS dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de envío de SMS a un destinatario calculado dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
->title="Actividad push de iOS"
->abstract="La actividad Push de iOS optimiza el proceso de envío de notificaciones Push de iOS como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones push de iOS a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
+>title="Actividad Push de iOS"
+>abstract="La actividad Push de iOS optimiza el proceso de envío de notificaciones Push de iOS como parte del flujo de trabajo. Permite enviar mensajes únicos y recurrentes, automatizando el envío de notificaciones push de iOS a un destinatario predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Actividad de mensajería push de Android"
->abstract="La actividad Push de Android optimiza el proceso de envío de notificaciones Push de Android como parte del flujo de trabajo. Permite la entrega de mensajes recurrentes y únicos, lo que automatiza el envío de notificaciones push de Android a un destino predefinido dentro del mismo flujo de trabajo. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
+>title="Actividad de mensajería Push de Android"
+>abstract="La actividad Push de Android optimiza el proceso de envío de notificaciones Push de Android como parte del flujo de trabajo. Permite enviar mensajes únicos y recurrentes, automatizando el envío de notificaciones push de Android a un destinatario predefinido dentro del mismo flujo de trabajo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"
 >title="Actividad de correo directo"
->abstract="La actividad de correo directo facilita el envío de correo directo dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de generación del archivo de extracción requerido por los proveedores de correo postal. Puede combinar actividades de canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que almacenen en déclencheur las acciones en función del comportamiento y los datos del cliente."
+>abstract="La actividad de correo directo facilita el envío de correo directo dentro del flujo de trabajo, lo que permite mensajes únicos y recurrentes. Automatiza el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente."
 
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 

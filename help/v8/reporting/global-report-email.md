@@ -6,7 +6,7 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -99,7 +99,7 @@ La tabla **[!UICONTROL Estadísticas de envío]** proporciona un desglose del é
 
 El gráfico y la tabla de exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){target="_blank"}.
+Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -133,7 +133,7 @@ El informe Delivery Throughput proporciona una visión detallada de la eficacia 
 
 La tabla y el gráfico **[!UICONTROL Desglose de errores por tipo]** presentan los datos relacionados con posibles errores experimentados en varios dominios, con métricas específicas que se proporcionan a continuación.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es){target="_blank"}.
+Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 +++Obtenga más información sobre el desglose de errores por tipo de métrica.
 
@@ -171,7 +171,7 @@ La tabla y el gráfico **[!UICONTROL Desglose de errores por dominio]** muestran
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Estadísticas de envío"
->abstract="Los indicadores clave de rendimiento (KPI) **Estadísticas de entrega** proporcionan una visión general del rendimiento de las entregas y las campañas, y ofrecen una perspectiva de las entregas exitosas, los errores encontrados y la participación del usuario."
+>abstract="Los indicadores clave de rendimiento (KPI) de las **Estadísticas de envíos** proporcionan una amplia información general del rendimiento de los envíos y las campañas, ofreciendo información detallada sobre los envíos correctos, los errores encontrados y la participación del usuario."
 
 Las métricas **[!UICONTROL Delivery statistics]** ofrecen indicadores clave de rendimiento (KPI), que proporcionan información detallada sobre los datos asociados con cada envío de correo electrónico. A continuación se proporcionan más detalles sobre estas métricas.
 
@@ -247,7 +247,7 @@ El informe **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="Los 10 vínculos más visitados"
->abstract="Los **10 vínculos más visitados** presentan datos completos sobre la interacción del destinatario con cada vínculo."
+>abstract="El gráfico y la tabla **Los 10 vínculos más visitados** presentan datos completos sobre la interacción del destinatario con cada vínculo."
 
 El gráfico y la tabla **[!UICONTROL Los 10 vínculos más visitados]** contienen los datos disponibles sobre el comportamiento del destinatario por vínculo. Las métricas se detallan a continuación.
 

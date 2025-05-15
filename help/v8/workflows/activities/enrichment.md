@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -25,20 +25,20 @@ Los datos de enriquecimiento pueden provenir de:
 * **La misma tabla de trabajo** que la que se segmentó en el flujo de trabajo:
    * Dirija la actividad a un grupo de clientes y agregue el campo &quot;Fecha de nacimiento&quot; a la tabla de trabajo actual.
 
-* **Otra tabla** de trabajo:
-   * Target una grupo de clientes y añada los campos &quot;Importe&quot; y &quot;Tipo de producto&quot; de la tabla &quot;Compra&quot;.
+* **Otra tabla de trabajo**:
+   * Dirija la actividad a un grupo de clientes y añada los campos &quot;Cantidad&quot; y &quot;Tipo de producto&quot; desde la tabla &quot;Compra&quot;.
 
-Una vez que los datos enriquecimiento se agregan al flujo de trabajo, se pueden usar en actividades posteriores para segmento a los clientes en grupos distintos en función de sus comportamientos, preferencias y necesidades. También se puede usar para crear mensajes de marketing personalizados y campañas que resuenen con su audiencia destino.
+Una vez añadidos los datos de enriquecimiento al flujo de trabajo, se pueden utilizar en actividades posteriores para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También se puede utilizar para crear mensajes de marketing personalizados y campañas que interesen a la audiencia objetivo.
 
-Por ejemplo, puede agregar información relacionada con las compras de los clientes a la tabla flujo de trabajo y usar estos datos para personalizar los correos electrónicos con su última compra o la cantidad gastada en estas compras.
+Por ejemplo, puede añadir información relacionada con las compras de los clientes a la tabla de flujo de trabajo y utilizar estos datos para personalizar correos electrónicos con su última compra o con la cantidad gastada en estas compras.
 
-## añadir un actividad de enriquecimiento {#enrichment-configuration}
+## Añadir una actividad de enriquecimiento {#enrichment-configuration}
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 
 1. Añada actividades como **Generar público destinatario** y **Combinar**.
 1. Añada una actividad **Enriquecimiento**
-1. Si hay varias transiciones configuradas en su flujo de trabajo, utilice el **[!UICONTROL campo Conjunto]** primario para definir qué transición debe utilizarse como el conjunto principal para enriquecimiento.
+1. Si hay varias transiciones configuradas en el flujo de trabajo, utilice el campo **[!UICONTROL Conjunto principal]** para definir qué transición se debe utilizar como conjunto principal para el enriquecimiento.
 
 ## Adición de datos de enriquecimiento {#enrichment-add}
 
@@ -50,9 +50,9 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Actividad de enriquecimiento"
->abstract="Una vez que enriquecimiento datos se agregan al flujo de trabajo, se pueden usar en actividades posteriores para segmento a los clientes en distintos grupos en función de sus comportamientos, preferencias y necesidades, o para crear mensajes y campañas de marketing personalizados que resuenen con su audiencia destino."
+>abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades o para crear mensajes y campañas de marketing personalizados que resuenen con el público destinatario."
 
-1. Haga clic en **añadir enriquecimiento datos** y seleccione el atributo que desea utilizar para enriquecimiento. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
+1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que desee usar para el enriquecimiento. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
 
    Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada tipo se detalla en los ejemplos siguientes:
    * [Atributo de enriquecimiento único](#single-attribute)
@@ -62,42 +62,42 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
    >
    >El **botón Editar expresión** de la pantalla de selección de atributos le permite generar expresiones avanzadas para seleccionar el atributo. [Aprenda a trabajar con el editor de expresiones](../../query/expression-editor.md).
 
-   ![Captura de pantalla que muestra la pantalla de selección de datos de enriquecimiento](../assets/workflow-enrichment1.png)
+   ![Captura de pantalla que muestra la pantalla de selección de datos enriquecidos](../assets/workflow-enrichment1.png)
 
 ## Creación de vínculos entre tablas {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Definición de vínculo"
->abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de destinatarios, debe crear un vincular a la tabla de países para actualizar esta información en sus perfiles."
+>abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos desde un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo con la tabla del país para poder actualizar esta información en sus perfiles."
 
-La **[!UICONTROL sección de definición]** de vínculo permite crear una vincular entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de destinatarios, debe crear un vincular a la tabla de países para actualizar esta información en sus perfiles.
+La sección **[!UICONTROL Link definition]** le permite crear un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Campaign. Por ejemplo, si carga datos desde un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo con la tabla del país para poder actualizar esta información en sus perfiles.
 
-Hay varios tipos de enlaces disponibles:
+Hay varios tipos de vínculos disponibles:
 
-* **[!UICONTROL 1 cardinalidad vincular]** simple: Cada registro del conjunto primario está asociado con uno y solo un registro de los datos vinculados.
-* **[!UICONTROL 0 o 1 cardinalidad vincular]** simple: Cada registro del conjunto primario está asociado con 0 o 1 registro de los datos vinculados, pero no más de uno.
-* **[!UICONTROL N cardinalidad colección vincular]**: Cada registro del conjunto primario está asociado con 0, 1 o más (N) registros de los datos vinculados.
+* **[!UICONTROL 1 vínculo simple de cardinalidad]**: Cada registro del conjunto principal está asociado con un registro de los datos vinculados y solo con uno.
+* **[!UICONTROL 0 o 1 vínculo simple de cardinalidad]**: Cada registro del conjunto principal está asociado con 0 o 1 registro de los datos vinculados, pero no más de uno.
+* **[!UICONTROL Vínculo de recopilación de cardinalidad N]**: Cada registro del conjunto principal está asociado con 0, 1 o más registros (N) de los datos vinculados.
 
-Para crear una vincular, seguir estos pasos:
+Para crear un vínculo, siga estos pasos:
 
 1. En la sección **[!UICONTROL Definición de vínculo]**, haga clic en el botón **[!UICONTROL Agregar vínculo]**.
 
-   ![Captura de pantalla que muestra la sección de definición del vincular](../assets/workflow-enrichment-link.png)
+   ![Captura de pantalla que muestra la sección de definición de vínculo](../assets/workflow-enrichment-link.png)
 
-1. En la **lista desplegable Tipo de relación** , elija el tipo de vincular que desee crear.
+1. En la lista desplegable **Tipo de relación**, elija el tipo de vínculo que desea crear.
 
-1. Identifique el destino en el que desea vincular el conjunto principal:
+1. Identifique el objetivo al que desea vincular el conjunto principal:
 
-   * Para vincular una tabla existente en la base de datos, elija **[!UICONTROL esquema]** base de datos y seleccione la tabla deseada en el **[!UICONTROL campo Target esquema]** .
-   * Para vincular con los datos del transición de entrada, elija **Temporal esquema** y seleccione el transición cuyos datos desea utilizar.
+   * Para vincular una tabla existente en la base de datos, elija **[!UICONTROL Esquema de base de datos]** y seleccione la tabla deseada del campo **[!UICONTROL Esquema de destino]**.
+   * Para vincularse con datos de la transición de entrada, elija **Esquema temporal** y seleccione la transición cuyos datos desee utilizar.
 
-1. Defina los criterios de conciliación para que los datos del conjunto primario coincidan con el esquema vinculado. Hay dos tipos de combinaciones disponibles:
+1. Defina los criterios de reconciliación para hacer coincidir los datos del conjunto principal con el esquema vinculado. Hay dos tipos de uniones disponibles:
 
-   * **Unión** simple: seleccione un atributo específico para hacer coincidir los datos de los dos esquemas. Haga clic en añadir unirse **y seleccione los atributos Origen**&#x200B;**y** Destino **que desea utilizar como criterios de reconciliación.**
-   * **Avanzadas unirse: Crear una unión usando condiciones avanzadas**. Haga clic en **añadir unión** y haga clic en el **botón condición** Crear para abrir el modelador de consulta.
+   * **Combinación simple**: seleccione un atributo específico para hacer coincidir los datos de los dos esquemas. Haga clic en **Agregar unión** y seleccione los atributos **Source** y **Destination** que se utilizarán como criterios de reconciliación.
+   * **Unión avanzada**: cree una unión con condiciones avanzadas. Haga clic en **Agregar unión** y haga clic en el botón **Crear condición** para abrir el modelador de consultas.
 
-Encontrará un flujo de trabajo ejemplo de uso de vínculos en la [sección Ejemplos](#link-example) .
+Hay disponible un ejemplo de flujo de trabajo con vínculos en la sección [Ejemplos](#link-example).
 
 ## Reconciliación de datos {#reconciliation}
 
@@ -110,12 +110,12 @@ La actividad **Enriquecimiento** ahora se puede utilizar para reconciliar los da
 
 Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign.
 
-Siga los pasos para configurar una **actividad de enriquecimiento con una vincular de reconciliación** :
+Siga los pasos para configurar una actividad **Enrichment** con un vínculo de reconciliación:
 
-1. Haga clic en la botón añadir **vincular de la** sección Reconciliación **&#x200B;**.
-1. Identifique los datos con los que desee crear una vincular de reconciliación.
+1. Haga clic en el botón **Agregar vínculo** en la sección **Reconciliación**.
+1. Identifique los datos con los que desea crear un vínculo de reconciliación.
 
-   * Para crear una vincular de reconciliación con los datos de la base de datos Campaign, seleccione **esquema** base de datos y elija la esquema donde se almacena la destino.
+   * Para crear un vínculo de reconciliación con los datos de la base de datos de Campaign, seleccione **Database schema** y elija el esquema donde se almacena el destino.
    * Para crear un vínculo de reconciliación con datos procedentes de la transición de entrada, seleccione **Temporary schema** y elija la transición de flujo de trabajo en la que se almacenan los datos de destino.
 
 1. Los campos **Etiqueta** y **Nombre** se rellenan automáticamente en función del esquema de destino seleccionado. Si es necesario, puede cambiar sus valores.
@@ -126,11 +126,11 @@ Siga los pasos para configurar una **actividad de enriquecimiento con una vincul
 
      >[!NOTE]
      >
-     >Puede utilizar uno o más **criterios simples de unión** , en cuyo caso todos deben verificarse para que los datos puedan vincularse entre sí.
+     >Puede usar uno o más criterios **Simple join**, en cuyo caso todos deben verificarse para que los datos puedan vincularse.
 
-   * **Avanzadas unirse**: Utilice el modelador de consulta para configurar los criterios de conciliación. Para ello, haga clic en la condición **de Crear** botón defina los criterios de conciliación creando sus propios regla mediante las operaciones Y y O.
+   * **Unión avanzada**: use el modelador de consultas para configurar los criterios de reconciliación. Para ello, haga clic en el botón **Crear condición** y defina los criterios de reconciliación creando su propia regla con las operaciones AND y OR.
 
-El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vincular entre la tabla de destinatarios de la base de datos Adobe Campaign y una tabla temporal generada por un **actividad de carga de archivos** . En este ejemplo, el actividad de enriquecimiento reconcilia ambas tablas utilizando la dirección del correo electrónico como criterios de conciliación.
+El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínculo entre la tabla de destinatarios de la base de datos de Adobe Campaign y una tabla temporal que ha generado una actividad **Cargar archivo**. En este ejemplo, la actividad Enrichment concilia ambas tablas utilizando la dirección de correo electrónico como criterios de reconciliación.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -141,17 +141,17 @@ El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vincu
 >title="Propuesta de oferta"
 >abstract="La actividad Enriquecimiento le permite añadir ofertas para cada perfil."
 
-La **[!UICONTROL actividad de enriquecimiento]** permite añadir ofertas para cada perfil.
+La actividad **[!UICONTROL Enrichment]** le permite agregar ofertas para cada perfil.
 
-Para ello, siga seguir los pasos para configurar una **[!UICONTROL actividad de enriquecimiento]** con un oferta:
+Para ello, siga los pasos para configurar una actividad **[!UICONTROL Enrichment]** con una oferta:
 
-1. En la **[!UICONTROL sección Propuesta]** de oferta de la actividad **[!UICONTROL Enriquecimiento]**, haga clic en la **[!UICONTROL añadir oferta]** botón
+1. En la actividad **[!UICONTROL Enrichment]**, en la sección **[!UICONTROL Propuesta de oferta]**, haga clic en el botón **[!UICONTROL Agregar oferta]**
 
    ![](../assets/enrichment-addoffer.png)
 
-1. La selección oferta tiene dos opciones:
+1. Tiene dos opciones para la selección de ofertas:
 
-   * **[!UICONTROL Search para la mejor oferta en categoría]** : marque esta opción y especifique los parámetros de llamada al motor de oferta (espacio de ofertas, categoría o tema(s), fecha de contacto, número de ofertas para conservar). El motor calculará las mejores ofertas para agregar según estos parámetros. Se recomienda completar el campo Categoría o el campo Tema, en lugar de ambos al mismo tiempo.
+   * **[!UICONTROL Buscar la mejor oferta en la categoría]** : marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de ofertas, categoría o tema(s), fecha de contacto, número de ofertas que desea mantener). El motor calculará las mejores ofertas para agregar según estos parámetros. Se recomienda completar el campo Category o el campo Theme en vez de ambos al mismo tiempo.
 
      ![](../assets/enrichment-bestoffer.png)
 
@@ -159,11 +159,11 @@ Para ello, siga seguir los pasos para configurar una **[!UICONTROL actividad de 
 
      ![](../assets/enrichment-predefinedoffer.png)
 
-1. Después de seleccionar su oferta, haga clic en **[!UICONTROL Confirmar]** botón.
+1. Después de seleccionar tu oferta, haz clic en el botón **[!UICONTROL Confirmar]**.
 
-Ahora puede utilizar el oferta en el actividad envío.
+Ahora puede utilizar la oferta en la actividad envío.
 
-### Uso de las ofertas de Enrichment actividad
+### Uso de las ofertas de la actividad Enrichment
 
 Dentro de un flujo de trabajo, si desea utilizar las ofertas que obtiene de una actividad de enriquecimiento en su envío, siga los pasos a continuación:
 
@@ -182,7 +182,7 @@ Si desea ver solamente ofertas de la actividad de enriquecimiento, establezca el
 
 >[!NOTE]
 >
->Si elige tener más de un oferta en la **[!UICONTROL actividad de enriquecimiento]** en la **[!UICONTROL opción Número de ofertas para mantener]** , todas las ofertas se muestran al hacer clic en el icono de **[!UICONTROL propuestas]** .
+>Si elige tener más de una oferta en la actividad **[!UICONTROL Enrichment]** en la opción **[!UICONTROL Number of offers to keep]**, todas las ofertas se mostrarán al hacer clic en el icono **[!UICONTROL Propositions]**.
 
 ## Ejemplos {#example}
 
@@ -200,7 +200,7 @@ A continuación, simplemente añadimos un único atributo de enriquecimiento, po
 
 En este caso de uso más complejo, seleccionaremos un vínculo de colección, que es un vínculo con una cardinalidad 1-N entre tablas. Vamos a recuperar las tres últimas compras con un importe menor a 100 €. Para ello, debe definir lo siguiente:
 
-* un atributo enriquecimiento: el **campo Precio**
+* un atributo de enriquecimiento: el campo **Price**
 * número de líneas que se van a recuperar: 3
 * un filtro: filtre los artículos que superen los 100 €
 * un orden: orden descendente en el campo **Fecha de orden**.
@@ -211,7 +211,7 @@ Aquí es donde se selecciona el vínculo de colección que se utilizará como da
 
 1. Haga clic dentro del campo **Atributo**.
 1. Haga clic en **Mostrar atributos avanzados**.
-1. Seleccione el **campo Precio** de la **tabla Compras** .
+1. Seleccione el campo **Price** de la tabla **Purchases**.
 
 <!-- ![](../assets/workflow-enrichment3.png) -->
 
@@ -226,16 +226,16 @@ A continuación, defina cómo se recopilan los datos y el número de registros q
 
 Si desea, por ejemplo, obtener la cantidad promedio de compras para un cliente, seleccione **Datos acumulados** en su lugar y seleccione **Promedio** en el menú desplegable **Función de acumulado**.
 
-Utilice los **campos Etiquetar** y **Alias** de su atributo para hacerlo más comprensible, como se muestra a continuación.
+Utilice los campos **Etiqueta** y **Alias** de su atributo para que sea más comprensible, como se muestra a continuación.
 
 ![](../assets/workflow-enrichment5bis.png)
 
 #### Definición de los filtros{#collection-filters}
 
-Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los elementos superiores a 100$. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
+Aquí, definimos el valor máximo del atributo de enriquecimiento. Filtramos los elementos superiores a 100 $. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
 1. Haga clic en **Crear filtros**.
-1. añadir los dos filtros siguientes: **El precio** existe Y **el precio** es menor que 100. El primero filtra los valores NULOS, ya que aparecerían como el valor más alto.
+1. Agregue los dos filtros siguientes: **Price** existe Y **Price** es menor que 100. El primero filtra los valores NULOS, ya que aparecerían como el valor más alto.
 1. Haga clic en **Confirmar**.
 
 ![](../assets/workflow-enrichment6bis.png)
@@ -254,15 +254,15 @@ Ahora necesitamos aplicar la ordenación para recuperar las tres **últimas** co
 
 ### Enriquecimiento con datos vinculados {#link-example}
 
-El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vincular entre dos transiciones. La primera transición tiene como objetivo perfil datos mediante un **actividad de consulta** , mientras que la segunda transición incluye datos de compra almacenados en un archivo cargado a través de una actividad de carga de archivos.
+El ejemplo siguiente muestra un flujo de trabajo configurado para crear un vínculo entre dos transiciones. La primera transición identifica los datos de perfil mediante una actividad **Query**, mientras que la segunda transición incluye datos de compra almacenados en un archivo cargado mediante una actividad de archivo Load.
 
 ![](../assets/enrichment-uc-link.png)
 
-* La primera **actividad de enriquecimiento vincula** el conjunto primario (datos del actividad de **consulta** ) con el esquema del **actividad del archivo** de carga. Esto nos permite hacer coincidir cada perfil objetivo del consulta con los datos de compra correspondientes.
+* La primera actividad **Enrichment** vincula el conjunto principal (datos de la actividad **Query**) con el esquema de la actividad **Cargar archivo**. Esto nos permite hacer coincidir cada perfil objetivo por la consulta con los datos de compra correspondientes.
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Se añade una segunda **actividad de enriquecimiento** para enriquecer los datos de la tabla flujo de trabajo con los datos de compra procedentes de la **actividad Cargar archivo** . Esto nos permite utilizar esos datos en otras actividades, por ejemplo, para personalizar los mensajes enviados a los clientes con información sobre su compra.
+* Se agrega una segunda actividad **Enrichment** para enriquecer los datos de la tabla de flujo de trabajo con los datos de compra procedentes de la actividad **Cargar archivo**. Esto nos permite utilizar esos datos en actividades adicionales, por ejemplo, para personalizar mensajes enviados a los clientes con información sobre su compra.
 
   ![](../assets/enrichment-uc-link-data.png)
 

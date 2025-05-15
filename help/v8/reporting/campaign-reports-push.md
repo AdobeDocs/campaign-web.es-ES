@@ -6,7 +6,7 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Estadísticas de público destinatario inicial"
->abstract="La tabla **Estadísticas iniciales de audiencias de destino** muestra datos relativos a sus destinatarios."
+>abstract="La tabla **Estadísticas de público destinatario inicial** muestra datos relativos a los destinatarios."
 
 La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
 
@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje o error de carga útil, por ejemplo) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){target="_blank"}.
+  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 

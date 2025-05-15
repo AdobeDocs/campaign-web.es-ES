@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creación y administración de páginas de destino"
->abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a páginas web en línea donde puede administrar casos de uso de adquisición, suscripción/baja y lista de bloqueados de suscripciones, en función de plantillas integradas."
+>abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscripción o baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
 
 La interfaz de usuario web de Campaign permite crear, diseñar y publicar páginas de destino. Después de la publicación, puede insertar un vínculo al formulario en una entrega. Cuando los destinatarios hacen clic en ese vínculo, se les dirige a la página de aterrizaje correspondiente.
 

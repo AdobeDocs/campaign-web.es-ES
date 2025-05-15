@@ -6,7 +6,7 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="Estadísticas de público destinatario inicial"
->abstract="La tabla **Estadísticas iniciales de audiencias de destino** muestra datos relativos a sus destinatarios."
+>abstract="La tabla **Estadísticas de público destinatario inicial** muestra datos relativos a los destinatarios."
 
 La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
 
@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido), en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#sms-quarantines){target="_blank"}.
+  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 

@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="Definición del contenido del correo electrónico"
->abstract="La pantalla **Editar contenido** le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como agregar archivos adjuntos u ofertas y acceder al Designer de correo electrónico para darle un aspecto pulido al mensaje."
+>abstract="La pantalla **Editar contenido** le permite definir elementos básicos del mensaje, como la dirección del remitente y la línea de asunto, realizar acciones adicionales como añadir archivos adjuntos u ofertas y acceder al Diseñador de correo electrónico para darle a su mensaje un aspecto pulido."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Adjuntar archivos a un correo electrónico"
->abstract="Seleccione uno o varios archivos para insertar en el mensaje. Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico."
+>abstract="Seleccione uno o varios archivos para insertarlos en su mensaje. Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo por correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -36,7 +36,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Añadir idiomas"
->abstract="En esta pestaña, encontrará una lista de idiomas en los que se enviará la entrega. Para agregar más idiomas, haga clic en el botón Add Language o duplique otro idioma en esta pestaña."
+>abstract="En esta pestaña, encontrará una lista de idiomas en los que se va a realizar el envío. Para añadir más idiomas, haga clic en el botón Añadir idioma o duplique otro idioma con esta pestaña."
 
 La pantalla del correo electrónico **[!UICONTROL Editar contenido]** le permite:
 
@@ -87,7 +87,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
    >[!NOTE]
    >
-   >Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico.
+   >Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo por correo electrónico.
 
    <!--limitation on size + number of files?-->
 
@@ -129,7 +129,7 @@ Para crear variantes de idioma, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >El botón **[!UICONTROL Agregar idioma]** solo está disponible si la dimensión de destino contiene el esquema de idioma. Para obtener más información sobre los esquemas y las dimensiones de Target, consulte la [documentación detallada](https://experienceleague.adobe.com/es/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >El botón **[!UICONTROL Agregar idioma]** solo está disponible si la dimensión de destino contiene el esquema de idioma. Para obtener más información sobre los esquemas y las dimensiones de Target, consulte la [documentación detallada](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Para crear variantes de idioma, siga estos pasos:
 
    >[!NOTE]
    >
-   >Los idiomas disponibles a través de esta lista dependen de los valores definidos por el atributo Language (valores como: system, user, dbenum, etc.) Obtenga más información acerca de la administración de la enumeración en esta [sección](https://experienceleague.adobe.com/es/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Los idiomas disponibles a través de esta lista dependen de los valores definidos por el atributo Language (valores como: system, user, dbenum, etc.) Obtenga más información acerca de la administración de la enumeración en esta [sección](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

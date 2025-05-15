@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="Nuevo generador de reglas"
->abstract="Ahora hay disponible un nuevo generador de reglas para ayudarle a definir condiciones complejas en una interfaz de usuario mejorada. Puede cambiar del generador de reglas antiguo al nuevo según sea necesario."
+>abstract="Ahora hay disponible un nuevo generador de reglas para definir condiciones complejas en una interfaz de usuario mejorada. Puede cambiar del generador de reglas antiguo al nuevo según sea necesario."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
@@ -69,7 +69,7 @@ El modelador de consultas proporciona un lienzo central en el que generar la con
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="Nueva experiencia con el generador de reglas"
->abstract="Utilice este conmutador para cambiar entre el modelador de consultas clásico y la experiencia del nuevo generador de reglas. El nuevo generador de reglas le permite crear la consulta más fácilmente, gracias a su interfaz simplificada e intuitiva."
+>abstract="Utilice este conmutador para cambiar entre el modelador de consultas clásico y la nueva experiencia del generador de reglas. El nuevo generador de reglas le permite crear la consulta más fácilmente, gracias a su interfaz simplificada e intuitiva."
 
 ![Imagen que muestra la interfaz del modelador de consultas](assets/query-interface.png){zoomable="yes"}
 

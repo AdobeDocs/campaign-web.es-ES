@@ -6,7 +6,7 @@ exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 16%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Fragmentos"
->abstract="Todos los fragmentos de expresiones creados en la zona protegida actual se muestran en esta lista. Para utilizar un fragmento, haga clic en el botón + para añadir el ID de fragmento al editor."
+>abstract="Todos los fragmentos de expresiones creados en la zona protegida actual se muestran en esta lista. Para utilizar un fragmento, haga clic en el botón + para añadir el ID del fragmento al editor."
 
 <!-- pas vu dans l'UI-->
 

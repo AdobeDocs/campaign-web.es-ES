@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Envíos"
->abstract="Una entrega de de es una comunicación enviada a una audiencia a través de un canal específico: correo electrónico, SMS o push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de los envíos completados. Haga clic en el botón **Crear envío** para añadir un nuevo envío."
+>abstract="Un envío es una comunicación que se envía a un público a través de un canal específico: correo electrónico, SMS o Push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de los envíos completados. Haga clic en el botón **Crear envío** para añadir un nuevo envío."
 
 ## Acceso a los envíos {#access}
 
@@ -69,7 +69,7 @@ Para eliminar un envío de la lista de envíos, siga estos pasos:
 
 ![Eliminando un envío de la interfaz de la lista de envíos](assets/delete-delivery-from-list.png)
 
-Todas los envíos están disponibles en estas listas, pero los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una envío creada en el contexto de una flujo de trabajo, elimine la actividad envío del flujo de trabajo.
+Todas los envíos están disponibles en estas listas, pero los envíos creados en un flujo de trabajo no se pueden eliminar de allí. Para eliminar una entrega creada en el contexto de un flujo de trabajo, elimine la actividad de entrega del flujo de trabajo.
 
 Para eliminar un envío de un flujo de trabajo, siga estos pasos:
 

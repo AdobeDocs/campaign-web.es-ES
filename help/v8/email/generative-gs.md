@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: Introducción al asistente de IA
+title: Introducción al Asistente de IA
 description: Introducción al asistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
-# Trabajar con el asistente de IA {#generative-gs}
+# Trabajo con el Asistente de IA {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Asistente de IA"
->abstract="Después de crear y personalizar su envío, utilice el asistente de IA para mejorar su contenido. Esta función simplifica la personalización y la mejora de contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
+>abstract="Después de crear y personalizar su envío, utilice el asistente de IA para mejorar su contenido. Esta función simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Definición del contexto con el asistente de IA de Campaign"
->abstract="Para usar el contenido seleccionado como entrada para la generación de contenido, active la opción **Mejorar con contenido actual**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar recursos de marca."
+>abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active el conmutador **Mejorar con el contenido actual**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar los recursos de marca."
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función depende de la aceptación de las Directrices de usuario de IA generativa de Adobe Experience Cloud. Revise la precisión de cualquier resultado de esta función y asegúrese de que sea apropiado para su caso de uso."
+>abstract="El acceso a esta función está sujeto a su acuerdo con las directrices de usuario de la IA generativa de Adobe Experience Cloud. Revise cualquier resultado de esta función para verificar su exactitud y asegúrese de que sea adecuado para su caso de uso."
 >additional-url="https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
 
 >[!INFO]
@@ -69,7 +69,7 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 * Use [plantillas de correo electrónico](../email/create-email-templates.md), plantillas específicas de la marca o plantillas personalizadas para crear el contenido de su correo electrónico con el Ayudante de IA. Se recomiendan plantillas de correo electrónico con hasta 8-10 imágenes.
 * Informe de cualquier salida problemática mediante los iconos de miniaturas hacia arriba, miniaturas hacia abajo o indicadores al seleccionar variantes.
 * El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html).
+* Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Las siguientes limitaciones se aplican a AI Assistant en Adobe Campaign Web:
 

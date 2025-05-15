@@ -10,7 +10,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -53,12 +53,12 @@ Los criterios de alerta predefinidos están disponibles en la interfaz de usuari
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="Indicadores para añadir en alertas"
->abstract="Seleccione los indicadores que se mostrarán como columnas en la sección &quot;Detalles&quot; de las alertas de correo electrónico."
+>abstract="Seleccione los indicadores que se mostrarán como columnas en la sección “Detalles” de las alertas de correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="Tipo de alerta"
->abstract="Especifique el **Tipo de alerta** para el criterio, lo que significa que la etiqueta y el color se mostrarán junto al criterio de entrega en la sección &quot;Resumen&quot; de las alertas."
+>abstract="Especifique el **Tipo de alerta** para el criterio, es decir, la etiqueta y el color que se muestran junto al criterio de envío en la sección “Resumen” de las alertas."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"

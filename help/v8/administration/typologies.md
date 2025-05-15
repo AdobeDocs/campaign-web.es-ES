@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 14%
+ht-degree: 29%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
 >title="Tipologías y reglas de tipología"
->abstract="Las tipologías permiten estandarizar las prácticas comerciales en todas las entregas. Una tipología es una colección de reglas de tipología que le permiten controlar, filtrar y priorizar la entrega de envíos. Los criterios de coincidencia de perfiles dentro de una regla de tipología se excluyen de las audiencias de envío durante la fase de preparación."
+>abstract="Las tipologías le permiten estandarizar las prácticas comerciales en todos los envíos. Una tipología es una colección de reglas de tipología que le permite controlar, filtrar y priorizar el envío de entregas. Los perfiles que coinciden con los criterios dentro de una regla de tipología quedan excluidos de los públicos de envío en la fase de preparación."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="Filtrado"
->abstract=" Hay dos tipos de reglas de tipología disponibles: reglas de <br/><br/>**Control** que garantizan la calidad y validez del mensaje antes del envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la dirección URL. <br/><br/>**Filtrado** reglas que excluyen segmentos de la audiencia de destino según criterios específicos, como edad, ubicación, país o números de teléfono."
+>abstract=" Hay dos tipos de reglas de tipología disponibles: las reglas de <br/><br/>**Control**, que garantizan la calidad y validez del mensaje antes del envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la dirección URL. Las reglas de <br/><br/>**Filtrado**, que excluyen segmentos del público destinatario de acuerdo con criterios específicos, como la edad, la ubicación, el país o los números de teléfono. "
 
 ## Acerca de las tipologías
 
-Las tipologías permiten estandarizar las prácticas comerciales en todas las entregas. Una **tipología** es una colección de **reglas de tipología** que le permiten controlar, filtrar y priorizar la entrega de envíos. Los criterios de coincidencia de perfiles dentro de una regla de tipología se excluyen de las audiencias de envío durante la fase de preparación.
+Las tipologías le permiten estandarizar las prácticas comerciales en todos los envíos. Una **tipología** es una colección de **reglas de tipología** que le permiten controlar, filtrar y priorizar la entrega de envíos. Los perfiles que coinciden con los criterios dentro de una regla de tipología quedan excluidos de los públicos de envío en la fase de preparación.
 
 Las tipologías garantizan que las entregas siempre contengan determinados elementos, como un vínculo de baja o una línea de asunto, o reglas de filtrado para excluir grupos de los destinatarios deseados, como suscriptores que se han dado de baja, competidores o clientes que no sean fieles.
 
@@ -54,7 +54,7 @@ Los pasos principales para aplicar tipologías a los mensajes son los siguientes
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="Propiedades de la tipología"
->abstract="Defina las propiedades de la tipología y expanda la sección **[!UICONTROL Opciones adicionales]** para acceder a la configuración avanzada. Utilice el campo **[!UICONTROL afinidad de IP]** para asociar afinidades de IP con tipologías. Esto le permite controlar mejor el tráfico SMTP saliente definiendo qué direcciones IP específicas se pueden utilizar para cada afinidad."
+>abstract="Defina las propiedades de la tipología y expanda la sección **[!UICONTROL Opciones adicionales]** para acceder a la configuración avanzada. Utilice el campo **[!UICONTROL afinidad de IP]** para asociar afinidades de IP con tipologías. Esto le permite controlar mejor el tráfico SMTP de salida, definiendo qué direcciones IP específicas se pueden utilizar para cada afinidad."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -134,7 +134,7 @@ Defina las propiedades de la regla de tipología:
 
    **[!UICONTROL Al final del análisis]**: aplique comprobaciones que requieran una personalización completa del mensaje.
 
-   +++
++++
 
    * **[!UICONTROL Nivel]**: especifique el nivel de alerta para la regla. Expanda la sección siguiente para obtener más información.
 
@@ -148,19 +148,19 @@ Defina las propiedades de la regla de tipología:
 
    **[!UICONTROL Detallado]**: muestra información en los registros del servidor.
 
-   +++
++++
 
 ### Creación del contenido de la regla {#build}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
 >title="Filtrado"
->abstract="Las reglas de **filtrado** excluyen segmentos de la audiencia de destino según criterios específicos, como edad, ubicación, país o números de teléfono. Seleccione la dimensión de segmentación de la regla de tipología y haga clic en el botón **[!UICONTROL Añadir reglas]** para acceder al modelador de consultas y generar la regla."
+>abstract="Las reglas de **Filtrado** excluyen segmentos del público destinatario de acuerdo con criterios específicos: por ejemplo: edad, ubicación, país o números de teléfono. Seleccione la dimensión de segmentación de la regla de tipología y haga clic en el botón **[!UICONTROL Añadir reglas]** para acceder al modelador de consultas y generar la regla."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_code"
 >title="Código"
->abstract="Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la URL. Estas reglas se crean con código JavaScript."
+>abstract="Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío: por ejemplo: visualización de caracteres, longitud de SMS, formato de dirección o acortamiento de URL. Estas reglas se crean mediante el código de JavaScript."
 
 Una vez definidas las propiedades de la regla de tipología, cree el contenido de la regla.
 

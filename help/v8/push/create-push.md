@@ -6,7 +6,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Propiedades del envío push"
->abstract="Definición de las propiedades de los envíos push. Introduzca la etiqueta de la notificación push y utilice **Opciones adicionales** para configurar el nombre interno, la carpeta de entrega y el código. También puede escribir una descripción personalizada."
+>abstract="Definición de las propiedades de los envíos push. Introduzca la etiqueta de la notificación push y utilice las **Opciones adicionales** para configurar el nombre interno, la carpeta de envío y el código. También puede escribir una descripción personalizada."
 
 Puede crear una entrega de notificaciones push independiente o crear una notificación push en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para una entrega push independiente (de una sola toma). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-## Creación de una entrega push {#create-push-delivery}
+## Creación de un envío push {#create-push-delivery}
 
 Para crear un nuevo envío push independiente, siga estos pasos:
 
@@ -51,15 +51,14 @@ Configure las entregas como se detalla a continuación:
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
-
-   +++
++++
 
 ## Seleccione el público del envío push {#create-audience-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="Definición del público de la notificación push"
->abstract="Para definir la audiencia del mensaje, primero debe seleccionar la aplicación asociada a la entrega push. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede restringirla a un público específico haciendo clic en el botón **Seleccionar público**. Si es necesario, añada un grupo de control para medir el impacto del envío."
+>abstract="Para definir el público del mensaje, primero debe seleccionar la aplicación asociada al envío Push. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede restringirla a un público específico haciendo clic en el botón **Seleccionar público**. Si es necesario, añada un grupo de control para medir el impacto del envío."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=es" text="Establecer un grupo de control"
 
 Primero debe seleccionar la aplicación y, a continuación, puede refinar la audiencia de notificaciones push como se detalla a continuación:

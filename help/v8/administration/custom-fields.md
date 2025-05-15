@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Edición de pantalla"
->abstract="Se muestran todos los campos personalizados en la interfaz para el esquema seleccionado. Puede cambiar el orden en que se muestran en la interfaz mediante las flechas arriba y abajo y agrupar los campos en subsecciones añadiendo separadores. Para eliminar un campo personalizado o editar la configuración, como las condiciones de visibilidad, haga clic en el botón de los tres puntos."
+>title="Edición en pantalla"
+>abstract="Se muestran todos los campos personalizados en la interfaz para el esquema seleccionado. Puede cambiar el orden en que aparecen en la interfaz mediante las flechas arriba y abajo, y agrupar los campos en subsecciones añadiendo separadores. Para eliminar un campo personalizado o editar la configuración, como las condiciones de visibilidad, haga clic en el botón de los tres puntos."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -43,7 +43,7 @@ ht-degree: 20%
 >title="Configuración de atributos"
 >abstract="Configuración de atributos"
 
-Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Permiten personalizar esquemas incluyendo nuevos atributos para adaptarlos a las necesidades de la organización. Obtenga información sobre cómo ampliar un esquema en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=es){target="_blank"}.
+Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Permiten personalizar esquemas incluyendo nuevos atributos para adaptarlos a las necesidades de la organización. Obtenga información sobre cómo ampliar un esquema en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}.
 
 Los campos personalizados se pueden mostrar en varias pantallas, como los detalles de perfil en la interfaz web de Campaign. Los administradores pueden controlar qué campos son visibles y cómo aparecen. Estos cambios se aplican a todos los usuarios de Campaign.
 
@@ -122,7 +122,7 @@ Los ajustes disponibles son:
 
   ![Captura de pantalla que muestra un ejemplo de configuración de filtro para campos personalizados](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Abarcar dos columnas]**: de forma predeterminada, los campos personalizados se muestran en la interfaz en dos columnas. Active esta opción para mostrar el campo personalizado en todo el ancho de la pantalla en lugar de en dos columnas.
 

@@ -6,7 +6,7 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 Existen dos formas de crear fragmentos de contenido:
 
-* Crear un fragmento desde cero mediante el **[!UICONTROL menú dedicado Fragmentos]** . [Descubra cómo](#create-from-scratch)
+* Cree un fragmento desde cero mediante el menú específico **[!UICONTROL Fragmentos]**. [Descubra cómo](#create-from-scratch)
 * Al diseñar contenido, guarde una parte del contenido como un fragmento. [Descubra cómo](#save-as-fragment)
 
   >[!NOTE]
@@ -40,11 +40,11 @@ Existen dos formas de crear fragmentos de contenido:
 
 Una vez guardado, el fragmento de contenido está disponible para su uso en cualquier entrega o plantilla de contenido.
 
-## Crear un fragmento de contenido desde cero {#create-from-scratch}
+## Creación de un fragmento de contenido desde cero {#create-from-scratch}
 
-Para crear un fragmento de contenido desde cero, seguir los pasos que se describen a continuación.
+Para crear un fragmento de contenido desde cero, siga los pasos a continuación.
 
-1. [Acceda al lista](#access-manage-fragments) de fragmentos a través del menú izquierdo Fragmentos **&#x200B;**&#x200B;de > **[!UICONTROL Administración]** de contenido y seleccione **[!UICONTROL Crear fragmento]**.
+1. [Acceda a la lista de fragmentos](#access-manage-fragments) a través del menú de la izquierda de **[!UICONTROL Administración de contenido]** > **[!UICONTROL Fragmentos]** y seleccione **[!UICONTROL Crear fragmento]**.
 
    ![Pantalla de lista de fragmentos que muestra la opción Crear fragmento](assets/fragments-list.png)
 
@@ -64,9 +64,9 @@ Para crear un fragmento de contenido desde cero, seguir los pasos que se describ
 
      ![Pantalla de Designer de correo electrónico para fragmentos visuales](assets/fragment-designer.png)
 
-   * Se abre el Editor de expresiones para **fragmentos de expresiones**. Use sus capacidades de personalización y creación para versión el contenido y, a continuación, haga clic en **Confirmar**. [Aprenda a trabajar con el editor de expresión](../personalization/personalize.md)
+   * Se abre el Editor de expresiones para **fragmentos de expresiones**. Use sus capacidades de personalización y creación para generar el contenido y luego haga clic en **Confirmar**. [Aprenda a trabajar con el editor de expresiones](../personalization/personalize.md)
 
-     ![Pantalla de editor de expresión para fragmentos de expresión](assets/fragment-expression.png)
+     ![Pantalla del editor de expresiones para fragmentos de expresiones](assets/fragment-expression.png)
 
 1. Una vez que el contenido esté listo, haga clic en **Guardar**.
 
@@ -79,7 +79,7 @@ El fragmento de contenido ya está listo para usarse al crear cualquier entrega 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Guardar como fragmento"
->abstract="Para guardar contenido como un fragmento visual, seleccione los elementos que desee incluir en el fragmento, incluidos campos de personalización y contenido dinámico. Sólo se pueden seleccionar secciones adyacentes. No se pueden seleccionar estructuras vacías u otros fragmentos de contenido. El contenido se convertirá entonces en un fragmento independiente, agregado al lista de fragmento y accesible desde el menú dedicado. Este fragmento se puede utilizar al crear cualquier correo electrónico o plantilla de contenido dentro de Campaign."
+>abstract="Para guardar el contenido como un fragmento visual, seleccione los elementos que desee incluir en el fragmento, incluidos los campos de personalización y el contenido dinámico. Solo se pueden seleccionar secciones adyacentes. No se pueden seleccionar estructuras vacías u otros fragmentos de contenido. El contenido se convertirá entonces en un fragmento independiente, que se añade a la lista de fragmentos y al que se puede acceder desde el menú dedicado. Este fragmento se podrá utilizar al generar cualquier correo electrónico o plantilla de contenido dentro de Campaign."
 
 <!--pas vu dans l'UI-->
 
@@ -91,11 +91,11 @@ Cualquier contenido del correo electrónico se puede guardar como un fragmento v
 
    ![Guardar como opción de fragmento en el correo electrónico Designer](assets/fragment-save-as.png)
 
-1. Se muestra la **[!UICONTROL pantalla Guardar como fragmento]** . Seleccione los elementos que desea incluir en el fragmento, incluidos campos de personalización y contenido dinámico.
+1. Se muestra la pantalla **[!UICONTROL Guardar como fragmento]**. Seleccione los elementos que desea incluir en el fragmento, incluidos los campos de personalización y el contenido dinámico.
 
    >[!CAUTION]
    >
-   >Sólo se pueden seleccionar secciones adyacentes. No se pueden seleccionar estructuras vacías u otros fragmentos de contenido.
+   >Solo se pueden seleccionar secciones adyacentes. No se pueden seleccionar estructuras vacías u otros fragmentos de contenido.
 
    ![Guardar como pantalla de fragmento que muestra la selección de elementos](assets/fragment-save-as-screen.png)
 
@@ -107,7 +107,7 @@ Cualquier contenido del correo electrónico se puede guardar como un fragmento v
 
 >[!NOTE]
 >
->Los cambios en el nuevo fragmento no se propagan al correo electrónico o a la plantilla desde la que se origina. Del mismo modo, cuando el contenido original se edita dentro del correo electrónico o plantilla, el nuevo fragmento no se modifica.
+>Los cambios en el nuevo fragmento no se propagan al correo electrónico o a la plantilla desde la que se origina. Del mismo modo, cuando el contenido original se edita dentro del correo electrónico o la plantilla, el nuevo fragmento no se modifica.
 
 ## Administrar los fragmentos de contenido {#manage-fragments}
 
@@ -135,11 +135,11 @@ Para eliminar un fragmento de contenido, siga estos pasos:
 1. Vaya a la lista de fragmentos y haga clic en el botón **[!UICONTROL Más acciones]** que está junto al fragmento que desea eliminar.
 1. Haga clic en **Eliminar** y confirme.
 
-   ![Eliminar opción en el fragmento lista](assets/fragment-list-more-actions.png)
+   ![Eliminar opción en la lista de fragmentos](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->Al eliminar un fragmento, se actualizan las entregas y las plantillas que lo utilizan. El fragmento se eliminará del contenido, pero se seguirá haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, interrumpa la herencia antes de eliminar el fragmento [ tal como se detalla en esta sección ](use-visual-fragments.md#break-inheritance).
+>Al eliminar un fragmento, se actualizan los envíos y las plantillas que lo utilizan. El fragmento se eliminará del contenido, pero se seguirá haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, interrumpa la herencia antes de eliminar el fragmento [ tal como se detalla en esta sección ](use-visual-fragments.md#break-inheritance).
 
 ### Archivar un fragmento de contenido {#archive}
 
@@ -147,11 +147,11 @@ Puede limpiar la lista de fragmentos archivando fragmentos que ya no son relevan
 
 Para acceder a los fragmentos archivados, utilice el panel de filtrado para mostrarlos. Para desarchivar un fragmento, haga clic en el botón **[!UICONTROL Más acciones]** y seleccione **[!UICONTROL Desarchivar]**.
 
-![Opción Desarchivar para fragmentos](assets/fragment-unarchive.png)
+![Opción de desarchivar los fragmentos](assets/fragment-unarchive.png)
 
 >[!NOTE]
 >
->Si archiva un fragmento utilizado en un contenido, ese contenido no se verá afectado.
+>Si archiva un fragmento utilizado en un contenido, ese contenido no se ve afectado.
 
 ### Duplicación de un fragmento de contenido {#duplicate-fragments}
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Utilice el actividad Transferir archivo
-description: Aprenda a usar el archivo de transferencia flujo de trabajo actividad
+title: Uso de la actividad Transferir archivo
+description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 27%
 >title="Transferir origen de archivo"
 >abstract="Introduzca el nombre de archivo deseado."
 
-La **actividad Transferir archivo** es un **actividad de administración de** datos. Le permite recibir o enviar archivos, prueba para presencia de archivos o lista archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
+La actividad **Transferir archivo** es una actividad **Administración de datos**. Permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
 
 >[!NOTE]
 >
@@ -47,46 +47,46 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
 
 ## Seleccione el protocolo y la operación de transferencia {#protocol}
 
-1. añadir un actividad de transferencia **de archivos** en su flujo de trabajo y, a continuación, especifique el tipo de transferencia que desea realizar en función del protocolo que desee utilizar:
+1. Agregue una actividad **Transferir archivo** al flujo de trabajo y, a continuación, especifique el tipo de transferencia que se realizará según el protocolo que desee utilizar:
 
-   * Para el protocolo HTTP, seleccione **[!UICONTROL Descarga]** web. Esto le permite realizar una operación GET o POST para descargar un archivo en un URL explícito, un cuenta externa o un instancia Adobe Campaign.
-   * Para otros protocolos de servidor a servidor y acciones relacionadas, seleccione **[!UICONTROL Archivo transferencia]**.
+   * Para el protocolo HTTP, seleccione **[!UICONTROL Descarga web]**. Esto le permite realizar una operación GET o POST para descargar un archivo en una dirección URL explícita, una cuenta externa o una instancia de Adobe Campaign.
+   * Para otros protocolos de servidor a servidor y acciones relacionadas, seleccione **[!UICONTROL Transferencia de archivos]**.
 
-1. Seleccione la acción que se va a realizar con el actividad. Las acciones disponibles dependen del tipo de transferencia que haya seleccionado. Expanda las secciones siguientes para obtener más información.
+1. Seleccione la acción que se realizará con la actividad. Las acciones disponibles dependen del tipo de transferencia seleccionado. Expanda las secciones siguientes para obtener más información.
 
    +++Acciones disponibles con las actividades de tipo **Transferencia de archivos**
 
-   * **[!UICONTROL Archivo descargar]**: descargue un archivo del servidor.
-   * **[!UICONTROL Archivo cargar]**: subir un archivo al servidor.
-   * **[!UICONTROL Test to see if file exists]**: Compruebe si un determinado archivo está presente en el servidor. Genera dos transiciones de salida después del actividad: &quot;Archivo existe&quot; y &quot;Archivo no existe&quot;.
-   * **[!UICONTROL Archivo listado]**: Enumere todos los archivos disponibles en el servidor.
+   * **[!UICONTROL Descarga de archivos]**: Descargue un archivo del servidor.
+   * **[!UICONTROL Carga de archivos]**: Cargue un archivo en el servidor.
+   * **[!UICONTROL Comprobar si el archivo existe]**: Compruebe si hay un archivo determinado en el servidor. Genera dos transiciones salientes después de la actividad: &quot;El archivo existe&quot; y &quot;El archivo no existe&quot;.
+   * **[!UICONTROL Lista de archivos]**: enumera todos los archivos disponibles en el servidor.
 
-   +++
++++
 
-   +++Acciones disponibles con **actividades de tipo descargar** web
+   +++Acciones disponibles con las actividades de tipo **Web download**
 
-   * **[!UICONTROL Transferencia simple (GET)]**: recupere un archivo.
-   * **[!UICONTROL Transferir mediante un formulario (POST):]** cargue un archivo y parámetros adicionales.
+   * **[!UICONTROL Transferencia simple (GET)]**: Recupere un archivo.
+   * **[!UICONTROL Transferir mediante un formulario (POST)]**: Cargue un archivo y parámetros adicionales.
 
-   +++
++++
 
-   ![Captura de pantalla que muestra flujo de trabajo las opciones de acción de transferir archivo](../assets/workflow-transfer-file-action.png)
+   ![Captura de pantalla que muestra opciones de acción de archivo de transferencia de flujo de trabajo](../assets/workflow-transfer-file-action.png)
 
-1. De forma predeterminada, para las acciones de cargar archivos, el actividad utiliza el archivo especificado en el actividad anterior. Para usar un archivo diferente, desactive la **[!UICONTROL opción Usar archivo del actividad]** anterior y haga clic en el **[!UICONTROL botón archivo]** añadir.
+1. De forma predeterminada, para las acciones de carga de archivos, la actividad utiliza el archivo especificado en la actividad anterior. Para usar un archivo diferente, desactiva la opción **[!UICONTROL Usar archivo de actividad anterior]** y haz clic en el botón **[!UICONTROL Agregar archivo]**.
 
-   En el **[!UICONTROL campo Origen]** , introduzca el nombre de archivo deseado o utilice la editor expresión para calcular el nombre de archivo mediante evento variables. [Aprenda a trabajar con variables evento y con el editor expresión](../event-variables.md). Repita la operación para agregar tantos archivos como sea necesario.
+   En el campo **[!UICONTROL Source]**, escriba el nombre de archivo deseado o use el editor de expresiones para calcular el nombre de archivo mediante variables de evento. [Aprenda a trabajar con variables de eventos y el editor de expresiones](../event-variables.md). Repita la operación para agregar tantos archivos como sea necesario.
 
 ## Definir el destino de la transferencia {#destination}
 
 1. En la sección **[!UICONTROL Servidor remoto]**, especifique el servidor al que desea conectarse mediante uno de estos métodos:
 
    * **[!UICONTROL Usar parámetros de conexión definidos en una cuenta externa]**: conéctese a un servidor mediante los parámetros de conexión de una cuenta externa. En el campo **[!UICONTROL Carpeta de servidor]**, especifique la ruta al archivo (o a la carpeta para las acciones de lista de archivos).
-   * **[!UICONTROL Configuración]** rápida: Introduzca el URL del archivo (o carpeta para las acciones de listado de archivos).
-   * **[!UICONTROL Adobe Campaign instancia]** (actividades de tipo descargar web): Descargue un archivo de un servidor instancia de Adobe Campaign.
+   * **[!UICONTROL Configuración rápida]**: escriba la dirección URL del archivo (o carpeta para acciones de lista de archivos).
+   * **[!UICONTROL Adobe Campaign instance]** (actividades de tipo Web download): Descargue un archivo de un servidor de instancias de Adobe Campaign.
 
-   ![Captura de pantalla que muestra flujo de trabajo las opciones de configuración del servidor de transferencia de archivos](../assets/workflow-transfer-file-server.png)
+   ![Captura de pantalla que muestra las opciones de configuración del servidor de archivos de transferencia de flujo de trabajo](../assets/workflow-transfer-file-server.png)
 
-1. Para las acciones de POST descargar web, puede pasar parámetros adicionales con la operación. Para ello, haga clic en el botón **[!UICONTROL Agregar parámetro]** y, a continuación, especifique el nombre y el valor de los parámetros. Puede agregar tantos parámetros como sea necesario.
+1. Para las acciones POST de descarga web, puede pasar parámetros adicionales con la operación. Para ello, haga clic en el botón **[!UICONTROL Agregar parámetro]** y, a continuación, especifique el nombre y el valor de los parámetros. Puede añadir tantos parámetros como sea necesario.
 
 1. De forma predeterminada, para la carga de archivos, los archivos cargados en un servidor se guardan automáticamente. Si no desea conservar este historial, desactive la opción **[!UICONTROL Mantener el historial de archivos enviados]**.
 
@@ -106,19 +106,19 @@ Es importante limitar el tamaño de esta carpeta para conservar el espacio físi
 Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera:
 
 * Solo se tienen en cuenta los archivos creados más de 24 horas antes de la ejecución de la actividad.
-* Si el número de archivos incluidos en cuenta supera el valor del campo Número de **[!UICONTROL archivos]** , los archivos más antiguos se eliminan hasta que se alcanza el número máximo permitido de archivos.
-* Si el tamaño total de los archivos tomados en cuenta supera el valor del **[!UICONTROL parámetro Tamaño máximo (en MB),]** los archivos más antiguos se eliminan hasta que se alcanza el tamaño máximo permitido.
+* Si el número de archivos que se tienen en cuenta supera el valor del campo **[!UICONTROL Número de archivos]**, se eliminarán los archivos más antiguos hasta que se alcance el número máximo de archivos permitidos.
+* Si el tamaño total de los archivos que se tienen en cuenta supera el valor del parámetro **[!UICONTROL Tamaño máximo (en MB)]**, se eliminarán los archivos más antiguos hasta que se alcance el tamaño máximo permitido.
 
 >[!CAUTION]
 >
->Si la actividad no se ejecuta de nuevo, su carpeta no se comprueba ni se purga. Tenga cuidado al transferir archivos grandes.
+>Si la actividad no se vuelve a ejecutar, no se comprueba ni depura la carpeta. Tenga cuidado al transferir archivos grandes.
 
 ## Opciones avanzadas y de administración de errores {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Eliminar los archivos de origen tras la transferencia"
->abstract="Borre los archivos de origen después de una transferencia correcta."
+>abstract="Borre los archivos de origen cuando haya realizado correctamente una transferencia."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
@@ -140,7 +140,7 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
 >title="Errores de proceso"
 >abstract="Esta opción le permite activar una transición de salida de **Error** después de la actividad."
 
-1. En las **[!UICONTROL opciones]** de Avanzadas hay disponibles opciones adicionales según el tipo de actividad que esté configurando. Amplíe las secciones siguientes para obtener más información.
+1. En **[!UICONTROL Opciones avanzadas]**, hay opciones adicionales disponibles según el tipo de actividad que esté configurando. Expanda las secciones siguientes para obtener más información.
 
    +++Opciones adicionales para las actividades de tipo **[!UICONTROL Transferencia de archivos]**
 
@@ -148,12 +148,12 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
    * **[!UICONTROL Mostrar los registros de sesión]**: cuando se activa esta opción, la información relacionada con la operación de transferencia se muestra en los registros de flujo de trabajo una vez que se ha ejecutado el flujo de trabajo.
    * **[!UICONTROL Enumerar todos los archivos]** (Acciones de lista de archivos): esta opción indiza todos los archivos presentes en el servidor en la variable de evento `vars.filenames`, en la que los nombres de archivo están separados por los caracteres `n`. [Aprenda a trabajar con variables de eventos](../event-variables.md)
 
-   +++
++++
 
-   +++Opciones adicionales para **[!UICONTROL actividades de tipo descargar]** web
+   +++Opciones adicionales para las actividades de tipo **[!UICONTROL Web download]**
 
-   * **[!UICONTROL Siga las redirecciones]**: Archivo redirección le permite utilizar anulaciones para dirigir la entrada o salida de datos a un dispositivos de un tipo diferente.
-   * **[!UICONTROL añadir los encabezados HTTP al archivo]**: En algunos casos, es posible que desee agregar encabezados HTTP adicionales a un archivo. Lo más habitual es que estos encabezados se utilicen para proporcionar información adicional para la resolución de problemas, para [Cross-origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o para establecer directivas específicas de almacenamiento en caché.
+   * **[!UICONTROL Seguir redirecciones]**: La redirección de archivos permite usar invalidaciones para dirigir la entrada o salida de datos a un dispositivo de un tipo diferente.
+   * **[!UICONTROL Agregar los encabezados HTTP al archivo]**: en algunos casos, es posible que desee agregar encabezados HTTP adicionales a un archivo. Lo más habitual es que estos encabezados se utilicen para proporcionar información adicional para la resolución de problemas, para [Cross-origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o para establecer directivas específicas de almacenamiento en caché.
    * **[!UICONTROL Ignore el código de retorno HTTP]**: los códigos de retorno HTTP, también conocidos como códigos de estado HTTP, indican el resultado de una solicitud HTTP.
 
 1. La opción **[!UICONTROL Process errors]** le permite activar una transición saliente de &quot;Error&quot; después de la actividad si se produce algún error durante la transferencia.

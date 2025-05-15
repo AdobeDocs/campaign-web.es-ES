@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Contenido del archivo de extracción"
->abstract="Haga clic en el botón **Editar contenido** para empezar a diseñar el archivo de extracción requerido por su proveedor de correo directo. Esto permite definir las propiedades del archivo, como su etiqueta y formato, y especificar las columnas que desea incluir en el archivo."
+>abstract="Haga clic en el botón **Editar contenido** para empezar a diseñar el archivo de extracción requerido por su proveedor de correo directo. Esto le permite definir las propiedades del archivo, como su etiqueta y formato, y especificar las columnas que desea incluir en el archivo."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="Propiedades del archivo"
->abstract="Configure las propiedades del archivo de extracción, como su nombre y formato. Puede personalizar el nombre del archivo mediante atributos de la base de datos utilizando el editor de expresiones."
+>abstract="Configure las propiedades del archivo de extracción, como su nombre y formato. Puede personalizar el nombre del archivo usando atributos de la base de datos mediante el editor de expresiones."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="Contenido"
->abstract="En esta sección, especifique las columnas que desea mostrar en el archivo de extracción. Una vez finalizado, puede obtener una vista previa del archivo de extracción con el botón **Simular contenido**."
+>abstract="En esta sección, especifique las columnas que desea mostrar en el archivo de extracción. Cuando haya terminado, podrá, puede obtener una vista previa del archivo de extracción mediante el botón **Simular contenido**."
 
 Para diseñar el contenido del archivo de extracción generado por su envío de correo postal, haga clic en el botón **[!UICONTROL Editar contenido]** de su página de envío y, a continuación, configure las propiedades y el contenido del archivo.
 

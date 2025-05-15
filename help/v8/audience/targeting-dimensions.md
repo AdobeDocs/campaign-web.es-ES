@@ -5,7 +5,7 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Seleccionar la dimensión de segmentación"
->abstract="La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
+>abstract="La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, en el caso de los correos electrónicos y SMS, el destinatario se selecciona en la tabla integrada Destinatarios. Para las notificaciones push, la dimensión de destino predeterminada son las aplicaciones del suscriptor."
 
 La dimensión de segmentación, también conocida como asignación de destino, es el tipo de datos que administra una operación. Define la población objetivo, como perfiles, beneficiarios de contratos, operadores o suscriptores.
 
@@ -44,4 +44,4 @@ Utilice otras asignaciones de destino integradas en flujos de trabajo y envíos,
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 | Aplicaciones del suscriptor | Perfiles suscritos a una aplicación | nms:appSubscriptionRcp |
 
-Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es#new-mapping){target="_blank"}.
+Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
