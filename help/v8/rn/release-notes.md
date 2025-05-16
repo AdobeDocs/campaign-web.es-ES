@@ -3,9 +3,9 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ Los cambios y mejoras disponibles con las versiones anteriores se recogen en las
 <table>
 <thead>
 <tr>
-<th><strong>Puntuación de alineación de marca (Beta)</strong><br/></th>
+<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La función de puntuación de alineación de marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
+<p>La función de puntuación de alineación con la marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
 <p>Para obtener más información, consulte la <a href="../content/brands-score.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>

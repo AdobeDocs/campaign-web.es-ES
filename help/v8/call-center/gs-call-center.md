@@ -4,9 +4,9 @@ title: Introducción al canal del centro de llamadas
 description: Aprenda a crear y realizar envíos a los centros de llamadas con Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Canal de centro de llamadas"
+>title="Canal del centro de llamadas"
 >abstract="El canal del centro de llamadas ahora está disponible en la interfaz de usuario de Campaign Web. Este canal hace referencia a un método de comunicación utilizado para administrar y rastrear las comunicaciones gestionadas a través de un centro de llamadas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 

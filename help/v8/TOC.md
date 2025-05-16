@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -128,8 +128,8 @@ ht-degree: 99%
       + [Generación de la página de aterrizaje con IA](email/generative-lp.md)
       + [Casos de uso del Asistente de IA](email/generative-uc.md)
       + Marcas (beta) {#ai-assistant}
-         + [Cree y administre sus marcas](content/brands.md)
-         + [Evaluar la puntuación de alineación de la marca](content/brands-score.md)
+         + [Creación y administración de sus marcas](content/brands.md)
+         + [Evaluación de la puntuación de alineación con la marca](content/brands-score.md)
 + Páginas de aterrizaje {#landing-pages}
    + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
    + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)
