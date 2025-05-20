@@ -3,14 +3,14 @@ audience: end-user
 title: Creación de una entrega de centro de llamadas
 description: Obtenga información sobre cómo crear una entrega de centro de llamadas con Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
-# Creación y envío de una entrega de centro de llamadas {#create-call-center}
+# Creación y envío de un envío al centro de llamadas {#create-call-center}
 
 Puede crear una entrega independiente del centro de llamadas o crear una en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío independiente (de una sola toma). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -62,7 +62,7 @@ Ahora, debe definir la audiencia a la que se dirige el archivo de extracción.
 >
 >Los destinatarios del centro de llamadas deben contener al menos sus nombres y número de teléfono. Los destinatarios con información incompleta se excluyen de las entregas del centro de llamadas.
 >
->Para aprender a configurar grupos de control, consulte esta [página](../audience/control-group.md)
+>Para aprender a configurar grupos de control, consulte esta [página](../audience/control-group.md).
 
 ## Edición del contenido{#edit-content}
 
@@ -72,7 +72,7 @@ Ahora, vamos a editar el contenido del archivo de extracción que generará el e
 
    ![Captura de pantalla que muestra la edición de contenido de un envío del centro de llamadas](assets/cc-content0.png){zoomable="yes"}
 
-1. Especifique el campo **[!UICONTROL Nombre de archivo]**. Para aprender a personalizar el nombre de archivo, consulte esta [página](../personalization/personalize.md).
+1. Especifique **[!UICONTROL nombre de archivo]**. Para aprender a personalizar el nombre de archivo, consulte esta [página](../personalization/personalize.md).
 
 1. Seleccione un **[!UICONTROL formato de archivo]**: **Texto**, **Texto con columnas de ancho fijo**, **CSV (Excel)** o **XML**.
 
@@ -120,7 +120,7 @@ Los pasos principales para obtener una vista previa y enviar el archivo de extra
 
 1. Haga clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final y confirme.
 
-Una vez entregado el envío, el archivo de extracción se genera automáticamente y se exporta a la ubicación especificada en la cuenta externa **[!UICONTROL Routing]** seleccionada en la [configuración avanzada](../advanced-settings/delivery-settings.md) de la plantilla de envío.
+Una vez entregado el envío, el archivo de extracción se genera automáticamente y se exporta a la ubicación especificada en la cuenta externa **[!UICONTROL Routing]** seleccionada en la [configuración avanzada](../advanced-settings/delivery-settings.md) de la plantilla de envío. También puede obtener una vista previa del archivo haciendo clic en el botón **Vista previa del archivo**, en la sección **Contenido** de la pantalla.
 
 Rastree los datos de KPI (indicador de rendimiento clave) de su página de entrega y los datos del menú **[!UICONTROL Registros]**.
 

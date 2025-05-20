@@ -3,10 +3,10 @@ audience: end-user
 title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ En la sección **[!UICONTROL Seguridad]** de la **[!UICONTROL Configuración de 
 Puede hacer clic directamente en los permisos y cambiarlos entre **[!UICONTROL Permitido]** o **[!UICONTROL Denegado]**.
 
 ![Ejemplo de permisos denegados en la configuración de seguridad de carpetas](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>No debería poder crear un objeto para el que no tenga al menos una carpeta con derechos de escritura.
+>
+>No necesita ser administrador para crear fragmentos, pero debe tener derechos de escritura en al menos una carpeta &quot;Fragmento visual de contenido&quot;. De lo contrario, no podrá crear un fragmento visual.
 
 Si la opción **[!UICONTROL Propagar]** está habilitada, todos los permisos definidos para una carpeta se aplican a todas sus subcarpetas. Estos permisos pueden anularse para cada subcarpeta.
 
