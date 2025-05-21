@@ -112,4 +112,4 @@ El perfil de prueba que acaba de crear ya está listo para utilizarse para envia
 
 Obtenga información sobre cómo crear y administrar perfiles de prueba mediante la interfaz de usuario web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442898?quality=12&captions=spa)
