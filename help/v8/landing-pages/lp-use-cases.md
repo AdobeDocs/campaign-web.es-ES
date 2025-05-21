@@ -187,7 +187,7 @@ Puede configurar una página de aterrizaje de **[!UICONTROL Lista de bloqueados]
 
 1. Cuando [cree su página de aterrizaje](create-lp.md#create-landing-page), seleccione la plantilla **[!UICONTROL Incluir en la lista de bloqueados]** de la.
 
-1. Incluir en la lista de bloqueados Seleccione la página **** para editar su contenido.
+1. Incluir en la lista de bloqueados Seleccione la página **&#x200B;**&#x200B;para editar su contenido.
 
 1. Expanda la sección **[!UICONTROL Call to action]** y seleccione la opción **[!UICONTROL Actualizaciones adicionales]**.
 

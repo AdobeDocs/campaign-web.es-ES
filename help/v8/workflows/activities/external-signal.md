@@ -51,7 +51,7 @@ Siga estos pasos para configurar la actividad **Señal externa** y déclencheur 
 
      ![La captura de pantalla muestra el nombre interno del flujo de trabajo junto a su etiqueta.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * **Nombre de la actividad de señal externa**, que se muestra en **[!UICONTROL Opciones de ejecución]** del flujo de trabajo.
 
@@ -59,7 +59,7 @@ Siga estos pasos para configurar la actividad **Señal externa** y déclencheur 
 
      ![La captura de pantalla muestra el nombre de la actividad Señal externa en las Opciones de ejecución.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. Para almacenar en déclencheur el flujo de trabajo, ejecute la función de JavaScript `PostEvent`. Esta función permite pasar variables con los valores que elija y utilizarlas en el flujo de trabajo activado.
 
@@ -79,6 +79,6 @@ Siga estos pasos para configurar la actividad **Señal externa** y déclencheur 
 
    ![La captura de pantalla muestra un ejemplo de activación de la actividad Señal externa mediante la función PostEvent.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * Para almacenar en déclencheur una actividad **[!UICONTROL External signal]** desde una llamada API, siga los pasos detallados en la documentación de la API de Campaign. [Aprenda a utilizar el método `PostEvent` estático](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=es).
