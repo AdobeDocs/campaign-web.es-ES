@@ -37,7 +37,7 @@ En primer lugar, debe configurar el canal externo personalizado. Estos son los p
 1. Cree una nueva cuenta externa de enrutamiento.
 1. Cree una nueva plantilla de envío asociada al nuevo canal.
 
-Para obtener más información, consulte la [documentación de la consola del cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Para obtener más información, consulte la [documentación de la consola del cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=es)
 
 ## Creación del envío{#create-delivery}
 
