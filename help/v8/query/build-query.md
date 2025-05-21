@@ -70,7 +70,7 @@ Para acceder a esta opción, en la consulta, haga clic en el botón de selecció
 >
 >* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En estos casos, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos. [Aprenda a seleccionar atributos](../get-started/attributes.md)
->* Puede agregar condiciones a los resultados usando los **[ !Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
+>* Puede agregar condiciones a los resultados usando los **[!Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adición de componentes de filtrado {#filtering}
 
@@ -115,14 +115,14 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
    | No en | Funciona como el operador Is included in. En este caso, los destinatarios se excluyen según los valores introducidos. | Fecha de nacimiento (@birthDate) no incluida en &quot;12/10/1979,12/10/1984&quot;. Los destinatarios nacidos dentro de estas fechas no se devolverán. |
    | Is empty | Devuelve los resultados que coinciden con un valor vacío en la segunda columna Valor. | Móvil (@mobilePhone) está vacío devuelve todos los destinatarios que no tienen número de móvil. |
    | Is not empty | Funciona de forma inversa al operador Is empty. No es necesario introducir datos en la segunda columna Valor. | Correo electrónico (@email) no está vacío. |
-   | Comienza con | Devuelve los resultados que comienzan con el valor ingresado. | N.º cuenta (@account) comienza con “32010”. |
+   | Comienza por | Devuelve los resultados que comienzan con el valor ingresado. | N.º cuenta (@account) comienza con “32010”. |
    | No empieza con | Devuelve los resultados que no comienzan con el valor introducido. | N.º cuenta (@account) no comienza con &quot;20&quot;. |
    | Contiene | Devuelve los resultados que contienen al menos el valor introducido. | Dominio de correo electrónico (@domain) contiene &quot;mail&quot; devuelve todos los nombres de dominio que contienen &quot;mail&quot;, como &quot;gmail.com&quot;. |
    | Does not contain | Devuelve los resultados que no contienen el valor introducido. | Email domain (@domain) no contiene &quot;vo&quot;. Los nombres de dominio que contengan &quot;vo&quot;, como &quot;voila.fr&quot;, no aparecerán en los resultados. |
    | Como | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Jon%s&quot;. El carácter comodín actúa como un &quot;joker&quot; para encontrar nombres como &quot;Jones&quot;. |
    | Not like | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Smi%h&quot;. Los destinatarios cuyo apellido sea &quot;Smith&quot; no se devolverán. |
 
-   +++
++++
 
 1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones web de Campaign para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el botón **Editar expresión**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 

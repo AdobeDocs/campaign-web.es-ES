@@ -6,13 +6,13 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
 # Introducción a los informes de campaña {#campaign-reports}
 
-Los **informes de campaña** proporcionan una descripción general completa de tu **campaña**, que incorpora toda la información relevante con respecto a los diferentes envíos incluidos. Estos informes ofrecen un análisis detallado del rendimiento de cada envío por canal, incluidas las tasas de éxito, la participación de la audiencia y otras métricas clave. Le ayudan a evaluar la eficacia y el impacto generales de su campaña.
+Los **informes de campaña** ofrecen una descripción general completa de la **campaña**, que incluye toda la información pertinente sobre los distintos envíos incluidos. Estos informes ofrecen un análisis detallado del rendimiento de cada envío por canal, incluidas las tasas de éxito, la participación de la audiencia y otras métricas clave. Le ayudan a evaluar la eficacia y el impacto generales de su campaña.
 
 La lista completa de informes y las métricas asociadas para cada canal se encuentran disponibles en las siguientes páginas:
 

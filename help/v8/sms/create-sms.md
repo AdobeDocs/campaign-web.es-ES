@@ -49,8 +49,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
-
-   +++
++++
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información sobre las audiencias](../audience/about-recipients.md).
 

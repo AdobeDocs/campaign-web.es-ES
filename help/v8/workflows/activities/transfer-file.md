@@ -61,14 +61,14 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
    * **[!UICONTROL Comprobar si el archivo existe]**: Compruebe si hay un archivo determinado en el servidor. Genera dos transiciones salientes después de la actividad: &quot;El archivo existe&quot; y &quot;El archivo no existe&quot;.
    * **[!UICONTROL Lista de archivos]**: enumera todos los archivos disponibles en el servidor.
 
-   +++
++++
 
    +++Acciones disponibles con las actividades de tipo **Web download**
 
    * **[!UICONTROL Transferencia simple (GET)]**: Recupere un archivo.
    * **[!UICONTROL Transferir mediante un formulario (POST)]**: Cargue un archivo y parámetros adicionales.
 
-   +++
++++
 
    ![Captura de pantalla que muestra opciones de acción de archivo de transferencia de flujo de trabajo](../assets/workflow-transfer-file-action.png)
 
@@ -148,7 +148,7 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
    * **[!UICONTROL Mostrar los registros de sesión]**: cuando se activa esta opción, la información relacionada con la operación de transferencia se muestra en los registros de flujo de trabajo una vez que se ha ejecutado el flujo de trabajo.
    * **[!UICONTROL Enumerar todos los archivos]** (Acciones de lista de archivos): esta opción indiza todos los archivos presentes en el servidor en la variable de evento `vars.filenames`, en la que los nombres de archivo están separados por los caracteres `n`. [Aprenda a trabajar con variables de eventos](../event-variables.md)
 
-   +++
++++
 
    +++Opciones adicionales para las actividades de tipo **[!UICONTROL Web download]**
 

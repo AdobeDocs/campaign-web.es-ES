@@ -40,7 +40,7 @@ Las audiencias pueden proceder de varias fuentes. La columna **[!UICONTROL Orige
 
 * **[!UICONTROL Adobe Campaign]**: estas audiencias se han creado en la [interfaz de usuario web de Adobe Campaign](create-audience.md) o en la [consola de cliente de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=es){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado en Adobe Experience Platform y se integran en el sitio web de Campaign mediante la integración de orígenes y destinos de Adobe. Aprenda a configurar esta integración en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=es){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado en Adobe Experience Platform y se integran en el sitio web de Campaign mediante la integración de orígenes y destinos de Adobe. Aprenda a configurar esta integración en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
   ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -60,4 +60,4 @@ Obtenga información sobre cómo crear un destino para utilizar una audiencia de
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Encontrará información detallada sobre cómo configurar la integración de orígenes y destinos de Adobe en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=es){target="_blank"}.
+Encontrará información detallada sobre cómo configurar la integración de orígenes y destinos de Adobe en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.

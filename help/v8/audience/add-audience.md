@@ -6,7 +6,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ En esta sección se explica cómo seleccionar una audiencia existente al definir
 * [Cree una audiencia única](one-time-audience.md) con el modelador de consultas.
 * [Cargar una audiencia desde un archivo externo](file-audience.md) (solo para correos electrónicos).
 
-Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el menú de la izquierda **Audiencia**. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Más información sobre las audiencias](manage-audience.md)
+Se puede acceder a las audiencias a las que se pueden dirigir los envíos desde el menú de la izquierda **Audiencia**. Se originan en varias fuentes, como la consola del cliente, los flujos de trabajo de audiencia web de Campaign o Adobe Experience Platform. [Más información sobre los públicos](manage-audience.md)
 
 Para seleccionar un público existente para el mensaje, siga los pasos a continuación:
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Envío de un envío SMS
-description: Aprenda a enviar SMS con Adobe Campaign Web
+title: Envío de SMS
+description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -34,9 +34,9 @@ Los pasos principales para previsualizar su envío de SMS son los siguientes. En
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
     -->
 
-1. En el panel derecho, vista un previsualización de la envío SMS, donde los elementos personalizados se reemplazan dinámicamente con datos del perfil seleccionado.
+1. En el panel derecho, vea una vista previa del envío SMS, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
-   ![Vista previa panel que muestra envío SMS personalizados](assets/sms_send_3.png){zoomable="yes"}
+   ![Panel de vista previa que muestra envío personalizado de SMS](assets/sms_send_3.png){zoomable="yes"}
 
 Revise y envíe su mensaje SMS a su audiencia.
 
@@ -52,13 +52,13 @@ El envío de pruebas es crucial para garantizar la calidad y la eficacia de su e
 
 ## Realización de la entrega de SMS {#send-sms}
 
-1. Después de personalizar su contenido de SMS, haga clic en **[!UICONTROL Revisar y enviar]** desde su **[!UICONTROL Página de entrega]** .
+1. Después de personalizar el contenido de tu SMS, haz clic en **[!UICONTROL Revisar y enviar]** desde tu página de **[!UICONTROL Envío]**.
 
-   ![Revisar y enviar SMS envío](assets/sms_send_4.png){zoomable="yes"}
+   ![Revisar y enviar envío de SMS](assets/sms_send_4.png){zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Preparar]** y monitor el progreso y las estadísticas proporcionadas.
+1. Haga clic en **[!UICONTROL Preparar]** y supervise el progreso y las estadísticas proporcionadas.
 
-   Si se producen errores, consulte el menú Registros para obtener información detallada sobre el fallo.
+   Si se producen errores, consulte el menú Registros para obtener información detallada sobre el error.
 
 1. Envíe los mensajes haciendo clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final.
 

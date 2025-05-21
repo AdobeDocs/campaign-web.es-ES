@@ -84,7 +84,7 @@ Para crear una nueva asignación de destino, acceda al menú **[!UICONTROL Admin
 
    1. **[!UICONTROL Registros de seguimiento]**: active la opción **[!UICONTROL Generar un esquema para el seguimiento]** para generar un esquema de almacenamiento para los registros de seguimiento.
 
-   +++
++++
 
 1. Utilice la sección **[!UICONTROL Mapping]** para identificar qué atributos del esquema de la asignación de destino se utilizarán en cada campo de dirección de entrega. Para cada campo, seleccione el atributo que desee asignar. También puede crear una expresión para identificar el campo. Por ejemplo, aplique una función menor al atributo address.
 

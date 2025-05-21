@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ En el botón **[!UICONTROL ...]**, seleccione **[!UICONTROL Crear nueva carpeta]
 ![Captura de pantalla que muestra la opción Crear nueva carpeta bajo el botón ...](assets/folder_create.png){zoomable="yes"}
 
 Al crear una carpeta nueva, el tipo de carpeta toma como valor predeterminado el tipo de carpeta principal.\
-En este ejemplo, se crea una carpeta en la carpeta **[!UICONTROL Deliveries]**.
+En este ejemplo, se crea una carpeta en la carpeta **[!UICONTROL Envíos]**.
 
 ![Captura de pantalla que muestra una nueva carpeta creada en la carpeta Envíos](assets/folder_new.png){zoomable="yes"}
 

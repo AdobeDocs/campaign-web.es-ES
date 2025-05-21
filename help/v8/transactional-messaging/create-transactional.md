@@ -16,7 +16,7 @@ En la mensajería transaccional, un evento déclencheur el envío de un mensaje 
 
 ## Creación de una plantilla de mensaje transaccional {#transactional-template}
 
-En la interfaz de usuario web de Campaign, el primer paso en la configuración de la mensajería transaccional es la creación de la plantilla o la creación directa del mensaje. Esto difiere de [la configuración de los mensajes transaccionales en la consola del cliente](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional).
+En la interfaz de usuario web de Campaign, el primer paso en la configuración de la mensajería transaccional es la creación de la plantilla o la creación directa del mensaje. Esto difiere de [la configuración de los mensajes transaccionales en la consola del cliente](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Se puede utilizar una plantilla de mensaje transaccional para previsualizar el contenido de envío recibido por el perfil antes de que llegue a la audiencia final. Por ejemplo, un administrador puede configurar las plantillas, preparándolas para que las utilicen los usuarios de marketing.
 
@@ -66,7 +66,7 @@ La sección **[!UICONTROL Propiedades]** de un mensaje transaccional le ayuda a 
 * La **[!UICONTROL carpeta de ejecución]**, donde se almacena el mensaje después de la ejecución.
 * El **[!UICONTROL código de envío]**, que es un código que ayuda a reconocer el mensaje para la creación de informes, si es necesario.
 * La **[!UICONTROL Descripción]**.
-* La **[!UICONTROL Naturaleza]**, que es la naturaleza de su entrega, como se muestra en la enumeración *deliveryNature*. [Más información sobre las enumeraciones](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* La **[!UICONTROL Naturaleza]**, que es la naturaleza de su entrega, como se muestra en la enumeración *deliveryNature*. [Más información sobre las enumeraciones](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![Captura de pantalla que muestra la sección de propiedades de una plantilla de mensaje transaccional.](assets/template-properties.png){zoomable="yes"}
 

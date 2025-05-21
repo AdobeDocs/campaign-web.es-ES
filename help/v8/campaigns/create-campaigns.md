@@ -24,32 +24,32 @@ ht-degree: 35%
 
 Para crear una nueva campaña, defina su configuración, programe e incluya flujos de trabajo y envíos.
 
-## Crear el campaña {#campaign-create}
+## Creación de la campaña {#campaign-create}
 
-Para crear una nueva campaña, seguir estos pasos:
+Para crear una nueva campaña, siga estos pasos:
 
-1. Haga clic en el **[!UICONTROL menú Campañas]** y haga clic en el **[!UICONTROL Crear campaña]** botón.
+1. Haga clic en el menú **[!UICONTROL Campañas]** y luego en el botón **[!UICONTROL Crear campaña]**.
 
    ![Captura de pantalla que muestra el botón &quot;Crear campaña&quot; en el menú Campañas](assets/create-campaign-button.png)
 
-1. Seleccione la **plantilla** que desea utilizar y proporcione una etiqueta para el campaña. [Más información](manage-campaigns.md#manage-campaign-templates).
-1. Si es necesario, cambie las siguientes **opciones** adicionales: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
-1. Defina el **horario** de su campaña. Obtén información sobre cómo configurar tu horario de campaña en [esta sección](#campaign-schedule).
+1. Seleccione la **plantilla** que desea usar y proporcione una etiqueta para la campaña. [Más información](manage-campaigns.md#manage-campaign-templates).
+1. Si es necesario, cambie las siguientes **opciones adicionales**: nombre interno, carpeta, usuario asignado, descripción y naturaleza.
+1. Defina el **Horario** de su campaña. Aprenda a establecer la programación de su campaña en [esta sección](#campaign-schedule).
 1. Haga clic en **Crear**.
 
-   ![Captura de pantalla que muestra la pantalla de propiedades de campaña, incluidos los campos de nombre interno, carpeta, usuario asignado, descripción y naturaleza.](assets/create-a-campaign-properties.png)
+   ![Captura de pantalla que muestra la pantalla de propiedades de la campaña, incluidos los campos de nombre interno, carpeta, usuario asignado, descripción y naturaleza.](assets/create-a-campaign-properties.png)
 
-1. añadir flujos de trabajo y entregas a su campaña:
+1. Añadir flujos de trabajo y envíos a la campaña:
 
-   * En la **pestaña Flujos de** trabajo, haga clic en **Crear flujo de trabajo**. Al crear el campaña, se añade automáticamente un flujo de trabajo predeterminado. Obtén más información sobre cómo [crear una flujo de trabajo](../workflows/create-workflow.md).
+   * En la ficha **Flujos de trabajo**, haga clic en **Crear flujo de trabajo**. Al crear la campaña, se añade automáticamente un flujo de trabajo predeterminado. Más información sobre cómo [crear un flujo de trabajo](../workflows/create-workflow.md).
 
-   * En la **pestaña Envíos** , haga clic en **Crear envío**. [Más información](../msg/gs-messages.md)
+   * En la ficha **Envíos**, haga clic en **Crear envío**. [Más información](../msg/gs-messages.md)
 
-## Monitoree y rastree su campaña {#campaign-monitoring}
+## Monitorización y seguimiento de la campaña {#campaign-monitoring}
 
-Campaign monitoreo es un paso clave para analizar la efectividad de su campaña. Abra el campaña y haga clic en el **botón Registros** .
+La monitorización de campañas es un paso clave para analizar la eficacia de su campaña. Abra la campaña y haga clic en el botón **Registros**.
 
-También puede vista los informes dedicados haciendo clic en el **botón Informes** . Consulte esta [sección](../reporting/campaign-reports.md).
+También puede ver los informes dedicados si hace clic en el botón **Informes**. Consulte esta [sección](../reporting/campaign-reports.md).
 
 ## Definición de la programación de la campaña {#campaign-schedule}
 
@@ -58,15 +58,15 @@ También puede vista los informes dedicados haciendo clic en el **botón Informe
 >title="Programación de campañas"
 >abstract="Seleccione la programación de la campaña. Puede crear la campaña que comienza cuando se llega a la fecha de inicio. De forma predeterminada, la fecha de inicio de la campaña es la fecha de creación y dura 5 días. Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro."
 
-El campaña comienza cuando se llega a la fecha inicio. Mientras no se alcance la fecha inicio, el campaña tiene el estado de **[!UICONTROL borrador]** . Cuando se llega a **[!UICONTROL la fecha inicio, se convierte en En progreso]**. Una vez que se alcanza la fecha de finalización, el campaña se establece en **[!UICONTROL Completado]**.
+La campaña comienza cuando se llega a la fecha de inicio. Siempre que no se llegue a la fecha de inicio, la campaña tendrá el estado **[!UICONTROL Borrador]**. Cuando llega la fecha de inicio, cambia a **[!UICONTROL En curso]**. Una vez que llegue la fecha de finalización, la campaña se establece en **[!UICONTROL Completada]**.
 
-Las fechas Inicio y final se muestran en el lista campaña y se pueden utilizar como filtro. Consulte esta [sección](manage-campaigns.md#access-campaigns).
+Las fechas de inicio y finalización se muestran en la lista de campañas y se pueden utilizar como filtro. Consulte esta [sección](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >
->Puede modificar estas propiedades más adelante desde el **icono Configurar campaña junto** a la etiqueta campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard).
+>Puede modificar estas propiedades más adelante, desde el icono **Configurar configuración de campaña** situado junto a la etiqueta de campaña. Consulte esta [sección](gs-campaigns.md#campaign-dashboard).
 
-Una vez que se alcanza la fecha, las entregas creadas en ese campaña en el contexto de un flujo de trabajo, que están listas para ser enviadas, se envían realmente. Para ello, la flujo de trabajo debe haberse iniciado.
+Una vez que llega la fecha, se envían los envíos creados en esa campaña en el contexto de un flujo de trabajo, que están listos para enviarse. Para ello, se debe haber iniciado el flujo de trabajo.
 
 <!--
     +++WORKF

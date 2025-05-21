@@ -17,11 +17,11 @@ ht-degree: 55%
 >title="Registros de envío"
 >abstract="Los registros de envío muestran los detalles del envío. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics."
 
-Una vez preparada la envío y haga clic en Enviar **&#x200B;**&#x200B;botón, vaya a la registros de envío para comprobar las advertencias, los errores, el estado, las exclusiones y los datos seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
+Una vez que la entrega esté preparada y haga clic en el botón **Enviar**, busque los registros de entrega para comprobar las advertencias, los errores, el estado, las exclusiones y los datos de seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
 
 Para ver los registros, acceda al panel del envío y haga clic en el botón **Registros**.
 
-Las fichas disponibles son las siguientes:
+Las pestañas disponibles son las siguientes:
 
 * [Registros](#logs-tab)
 * [Envíos](#deliveries-tab)
@@ -34,43 +34,43 @@ Las fichas disponibles son las siguientes:
 
 La pestaña **Registros** contiene todos los mensajes relacionados con los envíos y las pruebas. Los iconos específicos le permiten identificar los errores o las advertencias.
 
-Se enumeran todos los pasos validación, advertencias y errores. Los iconos de color muestran el tipo de mensaje:
+Se muestran todos los pasos, advertencias y errores de validación. Los iconos de color muestran el tipo de mensaje:
 
 * El icono gris indica los mensajes informativos.
 * El icono amarillo indica un error de procesamiento no crítico.
-* El icono rojo indica un error de esencial que impide enviar el envío. Los errores críticos deben corregirse para que se envíe la envío.
+* El icono rojo indica un error crítico que impide realizar el envío. Deben corregirse los errores críticos para que se realice la entrega.
 
-![ Los registros pestaña que muestran validación pasos, advertencias y errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
+![ La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
 
 ## Envíos {#deliveries-tab}
 
 La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
-![ Los envíos pestaña muestran un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
+![ pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusiones {#exclusion-tab}
 
 La pestaña **Registros de exclusión** contiene todos los mensajes que se han excluido del destinatario y especifica el motivo de error del envío.
 
-![Exclusiones pestaña enumerar mensajes excluidos y motivos de errores de envío.](assets/logs3.png){zoomable="yes"}
+![La pestaña Exclusiones enumera los mensajes excluidos y los motivos de los errores de envío.](assets/logs3.png){zoomable="yes"}
 
 ## Causas de exclusión {#exclusion-causes-tab}
 
-La **pestaña causas de exclusión** muestra, para cada posible causa, el número de mensajes que se han excluido del destino.
+La ficha **Causas de exclusión** muestra, para cada causa posible, el número de mensajes que se han excluido del destino.
 
-![Las causas de exclusión pestaña muestran el número de mensajes excluidos por cada causa.](assets/logs4.png){zoomable="yes"}
+![Causas de exclusión ficha que muestra el número de mensajes excluidos para cada causa.](assets/logs4.png){zoomable="yes"}
 
 ## Direcciones URL rastreadas {#tracked-urls-tab}
 
-El **pestaña de direcciones** URL rastreadas reagrupa las direcciones URL contenidas en los mensajes enviados, incluidos su tipo de URL y su URL de origen.
+La pestaña **URL rastreadas** reagrupa las URL contenidas en los mensajes enviados, incluido su tipo de URL y su URL de origen.
 
-![Las direcciones URL rastreadas pestaña muestran las direcciones URL contenidas en los mensajes enviados, sus tipos y las direcciones URL de origen.](assets/logs5.png){zoomable="yes"}
+![Pestaña Direcciones URL rastreadas que muestra las direcciones URL contenidas en los mensajes enviados, sus tipos y las direcciones URL de origen.](assets/logs5.png){zoomable="yes"}
 
 ## Seguimiento {#tracking-tab}
 
-La pestaña **Seguimiento** enumera el historial de seguimiento de este envío. Este pestaña muestra seguimiento datos de los mensajes enviados, incluidas todas las direcciones URL sujetas a seguimiento por Adobe Campaign.
+La pestaña **Seguimiento** enumera el historial de seguimiento de este envío. Esta pestaña muestra los datos de seguimiento de los mensajes enviados, incluidas todas las direcciones URL sobre las que Adobe Campaign realiza un seguimiento.
 
-![El seguimiento pestaña que muestra el historial de seguimiento y los datos de los mensajes enviados.](assets/logs6.png){zoomable="yes"}
+![Pestaña Seguimiento que muestra el historial de seguimiento y los datos de los mensajes enviados.](assets/logs6.png){zoomable="yes"}
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: Personalización del contenido en Campaign
-description: Aprenda a personalizar su contenido en Adobe Campaign Web
+description: Aprenda a personalizar el contenido en Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -32,11 +32,11 @@ Puede personalizar cualquier envío con datos de perfil mediante el editor de ex
 
 ### Sintaxis de Personalization {#syntax}
 
-Las etiquetas de personalización seguir una sintaxis específica: `<%= table.field %>`. Por ejemplo, para insertar el apellido del destinatario desde la tabla de destinatario, utilice la `<%= recipient.lastName %>` sintaxis.
+Las etiquetas de Personalization siguen una sintaxis específica: `<%= table.field %>`. Por ejemplo, para insertar el apellido del destinatario de la tabla de destinatarios, utilice la sintaxis `<%= recipient.lastName %>`.
 
-Durante el proceso de preparación del envío, Adobe Campaign interpreta estas etiquetas y las reemplaza con los valores de campo correspondientes para cada destinatario. Se vista el reemplazo real simulando su contenido.
+Durante el proceso de preparación de la entrega, Adobe Campaign interpreta estas etiquetas y las sustituye por los valores de campo correspondientes para cada destinatario. Puede ver el reemplazo real simulando el contenido.
 
-Al cargar contactos desde un archivo externo para un envío correo electrónico independiente, todos los campos del archivo de entrada están disponibles para personalización. La sintaxis es la siguiente: `<%= dataSource.field %>`.
+Al cargar contactos desde un archivo externo para una entrega de correo electrónico independiente, todos los campos del archivo de entrada están disponibles para la personalización. La sintaxis es: `<%= dataSource.field %>`.
 
 ### Añadir etiquetas de personalización {#add}
 
@@ -46,24 +46,24 @@ Para añadir etiquetas de personalización a un envío, siga estos pasos:
 
    ![Captura de pantalla que muestra cómo acceder al diálogo de personalización](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
-1. Se abre el editor de expresiones. Los campos personalizados disponibles en la base de datos de Adobe Campaign se organizan en varios menús a la izquierda de la pantalla:
+1. Se abre el editor de expresiones. Los campos personalizados disponibles en la base de datos de Adobe Campaign están organizados en varios menús a la izquierda de la pantalla:
 
-   ![Captura de pantalla que muestra el menú del campo personalización](assets/perso-insert-field.png){zoomable="yes"}{width="800" align="center"}
+   ![Captura de pantalla que muestra el menú de campo personalizado](assets/perso-insert-field.png){zoomable="yes"}{width="800" align="center"}
 
    | Menú | Descripción |
    |------|-------------|
-   | ![Suscriptores aplicación icono de menú](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | El **[!UICONTROL menú de aplicación]** de suscriptores enumera los campos relacionados con los suscriptores de una aplicación, como el terminal utilizado o el sistema operativo. *Este menú solo está disponible para notificaciones push.* |
+   | ![Icono de menú de aplicación para suscriptores](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | El menú **[!UICONTROL Aplicación de suscriptores]** enumera campos relacionados con los suscriptores de una aplicación, como el terminal utilizado o el sistema operativo. *Este menú solo está disponible para notificaciones push.* |
    | ![Icono de menú de destinatarios](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | El menú **[!UICONTROL Destinatario]** enumera los campos definidos en la tabla de destinatarios, como los nombres de los destinatarios, las edades o las direcciones. Cuando [se cargan contactos desde un archivo externo](../audience/file-audience.md) para una entrega de correo electrónico independiente, este menú enumera todos los campos disponibles en el archivo de entrada. |
    | ![Icono de menú de mensaje](assets/do-not-localize/perso-message-menu.png){zoomable="yes"} | El menú **[!UICONTROL Mensaje]** enumera los campos relacionados con los registros de envío, incluidos todos los mensajes enviados a los destinatarios o dispositivos en todos los canales, como la fecha del último evento con un destinatario determinado. |
-   | ![Icono del menú Envío](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | El **[!UICONTROL menú Envío]** muestra campos relacionados con los parámetros necesarios para realizar envíos, como la canal o etiqueta envío. |
+   | ![Icono de menú de envío](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | El menú **[!UICONTROL Envío]** enumera los campos relacionados con los parámetros necesarios para realizar envíos, como el canal o la etiqueta de envío. |
 
    >[!NOTE]
    >
-   >De forma predeterminada, cada menú enumera todos los campos dentro de la tabla seleccionada (Destinatarios, / Enviar mensaje / Entrega). Si desea incluir campos de tablas vinculadas a la tabla seleccionada, habilite la **[!UICONTROL opción Mostrar atributos]** avanzados situada debajo del lista.
+   >De forma predeterminada, cada menú enumera todos los campos de la tabla seleccionada (Destinatarios, / Mensaje / Envío). Si desea incluir campos de tablas vinculadas a la tabla seleccionada, habilite la opción **[!UICONTROL Mostrar atributos avanzados]** ubicada debajo de la lista.
 
-1. Para agregar un campo personalización, coloque el cursor en la ubicación deseada dentro de su contenido y haga clic en el `+` botón para insertarlo.
+1. Para agregar un campo de personalización, coloque el cursor en la ubicación deseada dentro del contenido y haga clic en el botón `+` para insertarlo.
 
-1. Una vez que el contenido esté listo, guárdelo y prueba la representación de la personalización simulando su contenido. El siguiente ejemplo muestra los personalización de un mensaje SMS con los nombres de los destinatarios.
+1. Una vez que el contenido esté listo, guárdelo y pruebe el procesamiento de la personalización simulando el contenido. El ejemplo siguiente muestra la personalización de un mensaje SMS con los nombres de los destinatarios.
 
    ![Captura de pantalla que muestra la previsualización de personalización de SMS con el nombre del destinatario](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
@@ -75,12 +75,12 @@ También se utilizan variables para personalizar el envío. Más información so
 
 Por ejemplo, la variable `deliveryType` se define como se muestra a continuación.
 
-![Captura de pantalla que muestra la definición del variable deliveryType](assets/variables-deliveryType.png){zoomable="yes"}
+![Captura de pantalla que muestra la definición de la variable deliveryType](assets/variables-deliveryType.png){zoomable="yes"}
 
-Este variable se utiliza en la contenido de la envío mediante el **[!UICONTROL icono de Personalización]** de añadir y la expresión `<%= variables.deliveryType %>` de este ejemplo.
+Esta variable se usa en el contenido de la entrega mediante el icono **[!UICONTROL Agregar Personalization]** y la expresión `<%= variables.deliveryType %>` para este ejemplo.
 
-![Captura de pantalla que muestra el uso del variable deliveryType en personalización](assets/variables-perso.png){zoomable="yes"}
+![Captura de pantalla que muestra el uso de la variable deliveryType en la personalización](assets/variables-perso.png){zoomable="yes"}
 
-Compruebe el uso de su variable con el **[!UICONTROL botón Simular contenido]** .
+Compruebe el uso de la variable con el botón **[!UICONTROL Simular contenido]**.
 
-![Captura de pantalla que muestra los simulación de contenido con la variable deliveryType](assets/variables-simulate.png){zoomable="yes"}
+![Captura de pantalla que muestra la simulación de contenido con la variable deliveryType](assets/variables-simulate.png){zoomable="yes"}
