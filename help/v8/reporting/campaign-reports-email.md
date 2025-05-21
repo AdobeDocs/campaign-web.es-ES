@@ -83,7 +83,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+  Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){target="_blank"}.
 
 +++
 
@@ -143,7 +143,7 @@ La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a c�
 
 La tabla y el gráfico **[!UICONTROL Desglose de errores por tipo]** contienen los datos disponibles para los posibles errores encontrados para cada tipo de dominio. Las métricas se detallan a continuación.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es){target="_blank"}.
 
 ![Captura de pantalla del desglose de errores por tipo, gráfico y tabla](assets/campaign_report_email_6.png){zoomable="yes"}
 

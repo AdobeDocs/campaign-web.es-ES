@@ -23,7 +23,7 @@ En los flujos de trabajo, los datos que pasan de una actividad a otra mediante t
 
 En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que deba forzar el flujo de trabajo para que utilice una base de datos diferente para realizar estas operaciones agregando una actividad **[!UICONTROL Cambiar fuente de datos]**.
 
-Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
+Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=es).
 
 >[!IMPORTANT]
 >
