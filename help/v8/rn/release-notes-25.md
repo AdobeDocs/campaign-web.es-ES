@@ -2,7 +2,7 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: a0ca24df649cc5bdca6d58a6519ffb03b2234cb4
+source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 98%
@@ -31,7 +31,7 @@ Las siguientes funciones están disponibles para todos los usuarios a partir de 
 <tr>
 <td>
 <p>El canal del centro de llamadas ahora está disponible en la interfaz de usuario de Campaign Web. Este canal se refiere a un método de comunicación utilizado para administrar y rastrear comunicaciones o interacciones que se gestionan a través de un centro de llamadas, generalmente llamadas telefónicas realizadas por agentes a clientes o clientes potenciales.</p>
-<p>Nota: Los informes no están disponibles en la interfaz de usuario web para el canal del centro de llamadas. Debe navegar a la consola del cliente para acceder a los informes.</p></td>
+<p>Nota: Los informes no están disponibles en la interfaz de usuario web para el canal del centro de llamadas. Debe navegar a la consola del cliente para acceder a los informes.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>Para obtener más información, consulte la <a href="../call-center/gs-call-center.md">documentación detallada</a>.</p>
 </td>
