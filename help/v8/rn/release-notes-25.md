@@ -3,7 +3,7 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1281'
 ht-degree: 100%
 
