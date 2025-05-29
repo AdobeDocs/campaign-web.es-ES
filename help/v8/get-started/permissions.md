@@ -4,9 +4,9 @@ title: Administración de permisos en la interfaz de usuario web de Campaign
 description: Más información sobre los permisos en la interfaz de usuario web de Campaign
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Puede hacer clic directamente en los permisos y cambiarlos entre **[!UICONTROL 
 >
 >No debería poder crear un objeto para el que no tenga al menos una carpeta con derechos de escritura.
 >
->No necesita ser administrador para crear fragmentos, pero debe tener derechos de escritura en al menos una carpeta &quot;Fragmento visual de contenido&quot;. De lo contrario, no podrá crear un fragmento visual.
+>No necesita ser administrador para crear fragmentos, pero debe tener derechos de escritura en al menos una carpeta “Fragmento visual de contenido”. De lo contrario, no podrá crear un fragmento visual.
 
 Si la opción **[!UICONTROL Propagar]** está habilitada, todos los permisos definidos para una carpeta se aplican a todas sus subcarpetas. Estos permisos pueden anularse para cada subcarpeta.
 
