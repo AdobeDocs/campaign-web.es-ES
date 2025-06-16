@@ -4,15 +4,23 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2800'
 ht-degree: 51%
 
 ---
 
 
 # Configuración del envío {#del-settings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="Configuración de envío de SMS"
+>abstract="Los parámetros de envío SMS son ajustes técnicos que se aplican a su envío SMS. Puede definir la dirección del remitente, los parámetros de servicio, el modo de transmisión y mucho más. Estas opciones están restringidas únicamente a usuarios expertos."
+
+
 
 La configuración de envío es de **parámetros técnicos de envío** que se definen en la plantilla de envío. Se pueden sobrecargar para cada envío. Esta configuración está disponible en el botón **Configuración** disponible al editar una entrega o una plantilla de envíos.
 
@@ -103,13 +111,13 @@ El campo **[!UICONTROL Importancia del destinatario]** es una fórmula que se us
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las asignaciones de destino](../audience/targeting-dimensions.md).
 
-En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=es){target="_blank"}
+En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Envío {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Configuración del envío"
+>title="Configuración global del envío"
 >abstract="Los parámetros de envío son las configuraciones técnicas que se aplican a su envío. Puede cambiar los modos de envío y rutina, activar el CCO del correo electrónico, enviar por olas y también elegir el formato de los mensajes de correo electrónico enviados. Estas opciones están restringidas únicamente a usuarios expertos."
 
 Los parámetros **[!UICONTROL Envío]** son ajustes técnicos que se aplican a su envío.
@@ -159,7 +167,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 
 >[!NOTE]
 >
->Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=es#external-account-ac){target="_blank"}.
+>Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Reintentos {#retries}
 
