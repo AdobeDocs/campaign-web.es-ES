@@ -111,7 +111,7 @@ El campo **[!UICONTROL Importancia del destinatario]** es una fórmula que se us
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las asignaciones de destino](../audience/targeting-dimensions.md).
 
-En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=es){target="_blank"}
 
 ## Envío {#delivery}
 
@@ -167,7 +167,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 
 >[!NOTE]
 >
->Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=es#external-account-ac){target="_blank"}.
 
 ## Reintentos {#retries}
 
