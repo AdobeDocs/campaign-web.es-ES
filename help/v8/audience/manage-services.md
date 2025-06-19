@@ -55,8 +55,8 @@ Para acceder a los servicios de suscripción disponibles para su plataforma, sig
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Página de aterrizaje predeterminada"
->abstract="Seleccione las páginas de aterrizaje predeterminadas asociadas a este servicio."
+>title="Página de destino predeterminada"
+>abstract="Seleccione las páginas de destino predeterminadas asociadas a este servicio."
 
 Para crear un servicio de suscripción, siga los pasos a continuación.
 

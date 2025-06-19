@@ -15,18 +15,18 @@ ht-degree: 9%
 
 ---
 
-# Cómo utilizar una página de aterrizaje {#lp-use-cases}
+# Cómo utilizar una página de destino {#lp-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_url"
 >title="Copie la URL con cuidado"
->abstract="Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, utilice la función **Simular contenido** para probarla y siga los pasos que se describen en la documentación para utilizar correctamente la página de aterrizaje."
+>abstract="Para probar o aprovechar al máximo la página de destino, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, utilice la función **Simular contenido** para probarla y siga los pasos que se describen en la documentación para utilizar correctamente la página de destino."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="Copie la URL con cuidado"
->abstract="Al crear una página de aterrizaje, cuatro plantillas predeterminadas le permiten implementar diferentes casos de uso: añadir o actualizar un perfil en la base de datos de Campaign, suscribir a los clientes a un servicio, cancelar su suscripción a un servicio o excluir usuarios."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=es#create-landing-page" text="Creación de una página de aterrizaje"
+>abstract="Al crear una página de destino, cuatro plantillas predeterminadas le permiten implementar diferentes casos de uso: añadir o actualizar un perfil en la base de datos de Campaign, suscribir a los clientes a un servicio, cancelar su suscripción a un servicio o excluir usuarios."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=es#create-landing-page" text="Creación de una página de destino"
 
 Para utilizar correctamente la página de aterrizaje, haga referencia a ella como vínculo en un mensaje con la opción dedicada. No puede copiar y pegar el vínculo mostrado en el panel de envío publicado directamente en las entregas o en una página web. En su lugar, use la capacidad **Simular contenido** para probarlo.
 
@@ -110,7 +110,7 @@ Si optó por recibir su newsletter, se suscribirá al servicio correspondiente.
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="Establecimiento de la página de aterrizaje de la suscripción"
+>title="Establecimiento de la página de destino de la suscripción"
 >abstract="Una página de suscripción permite a los clientes suscribirse a un servicio."
 
 Uno de los casos de uso más comunes consiste en invitar a tus clientes a [suscribirse a un servicio](../audience/manage-services.md) (como una newsletter o un evento) a través de una página de aterrizaje. Siga los pasos a continuación.
@@ -187,7 +187,7 @@ Puede configurar una página de aterrizaje de **[!UICONTROL Lista de bloqueados]
 
 1. Cuando [cree su página de aterrizaje](create-lp.md#create-landing-page), seleccione la plantilla **[!UICONTROL Incluir en la lista de bloqueados]** de la.
 
-1. Incluir en la lista de bloqueados Seleccione la página **&#x200B;**&#x200B;para editar su contenido.
+1. Incluir en la lista de bloqueados Seleccione la página **** para editar su contenido.
 
 1. Expanda la sección **[!UICONTROL Call to action]** y seleccione la opción **[!UICONTROL Actualizaciones adicionales]**.
 

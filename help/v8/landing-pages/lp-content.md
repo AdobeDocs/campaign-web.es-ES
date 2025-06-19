@@ -1,5 +1,5 @@
 ---
-title: Definición del contenido específico de la página de aterrizaje
+title: Definición del contenido específico de la página de destino
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
@@ -10,17 +10,17 @@ ht-degree: 16%
 
 ---
 
-# Definición del contenido específico de la página de aterrizaje {#lp-content}
+# Definición del contenido específico de la página de destino {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Usar componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de destino. Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones, utilice el componente de formulario."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Definición de la configuración de la página principal"
->abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de aterrizaje, por ejemplo, desde un correo electrónico o un sitio web."
+>abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de destino, por ejemplo, desde un correo electrónico o un sitio web."
 
 Puede editar el contenido de cualquier página de la página de aterrizaje.
 
@@ -45,12 +45,12 @@ Para diseñar aún más el contenido de la página de aterrizaje:
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="Definir los campos del componente de formulario"
->abstract="Defina cómo verán y enviarán sus opciones los destinatarios desde la página de aterrizaje."
+>abstract="Defina cómo verán y enviarán sus opciones los destinatarios desde la página de destino."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="Qué sucede al hacer clic en el botón"
->abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de aterrizaje."
+>abstract="Defina lo que sucederá cuando los usuarios envíen el formulario de página de destino."
 
 Para definir contenido específico que permita a los usuarios seleccionar y enviar sus opciones desde la página de aterrizaje, edite el componente **[!UICONTROL Formulario]**. Siga los pasos a continuación.
 
@@ -151,7 +151,7 @@ Para enviar un mensaje de confirmación automáticamente después del envío de 
 
 ![Configuración de correo electrónico de confirmación en el componente del formulario](assets/lp-confirmation.png){zoomable="yes"}
 
-## Definir estilos de formulario de una página de aterrizaje {#lp-form-styles}
+## Definir estilos de formulario de una página de destino {#lp-form-styles}
 
 1. Para modificar los estilos del contenido del componente del formulario, cambie en cualquier momento a la pestaña **[!UICONTROL Estilos]**.
 

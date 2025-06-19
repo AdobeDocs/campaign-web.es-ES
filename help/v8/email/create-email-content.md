@@ -20,7 +20,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Añadir estructuras"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
+>abstract="Los componentes de estructura definen el diseño de la página de destino. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
@@ -39,8 +39,8 @@ ht-degree: 54%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definición de columnas de página de aterrizaje"
->abstract="El diseñador de correo electrónico permite definir fácilmente el diseño de la página de aterrizaje mediante la definición de la estructura de columnas."
+>title="Definición de columnas de página de destino"
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño de la página de destino mediante la definición de la estructura de columnas."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
@@ -110,4 +110,4 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizarlo y probarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453568/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

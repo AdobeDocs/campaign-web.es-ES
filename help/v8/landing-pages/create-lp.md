@@ -1,5 +1,5 @@
 ---
-title: Creación de una página de aterrizaje
+title: Creación de una página de destino
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
@@ -16,7 +16,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Creación y administración de páginas de destino"
->abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de aterrizaje para dirigir a los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscripción o baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
+>abstract="Adobe Campaign le permite crear, diseñar y compartir páginas de destino para dirigir a los usuarios a las páginas web en línea en las que puede administrar la adquisición, suscripción o baja e incluir en la lista de bloqueados los casos de uso, en función de las plantillas integradas."
 
 La interfaz de usuario web de Campaign permite crear, diseñar y publicar páginas de destino. Después de la publicación, puede insertar un vínculo al formulario en una entrega. Cuando los destinatarios hacen clic en ese vínculo, se les dirige a la página de aterrizaje correspondiente.
 
@@ -45,27 +45,27 @@ El inventario **[!UICONTROL Páginas de aterrizaje]** muestra todos los elemento
 
 Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos suspensivos junto a una página de aterrizaje para seleccionar la acción deseada.
 
-## Creación de una página de aterrizaje {#create-landing-page}
+## Creación de una página de destino {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="Definición de las propiedades de la página de aterrizaje"
->abstract="Rellene los campos de propiedades como la etiqueta y modifique el esquema si es necesario. Además, puede editar el nombre interno, cambiar la carpeta donde se almacena la página de aterrizaje y proporcionar una descripción."
+>title="Definición de las propiedades de la página de destino"
+>abstract="Rellene los campos de propiedades como la etiqueta y modifique el esquema si es necesario. Además, puede editar el nombre interno, cambiar la carpeta donde se almacena la página de destino y proporcionar una descripción."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Defina el contenido de cada página"
->abstract="Ajuste el contenido de cada página que forma parte de esta página de aterrizaje, como el propio formulario, la página de confirmación que se muestra al enviar el formulario o la página a la que se dirige a los usuarios en caso de que se produzca un error."
+>abstract="Ajuste el contenido de cada página que forma parte de esta página de destino, como el propio formulario, la página de confirmación que se muestra al enviar el formulario o la página a la que se dirige a los usuarios en caso de que se produzca un error."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="Programación de la página de aterrizaje"
->abstract="Defina una fecha de inicio y una fecha de finalización para la página de aterrizaje. Cuando la página llega al final del periodo de validez, el formulario ya no está disponible. En su lugar, se muestra la página **Caducidad**."
+>title="Programación de la página de destino"
+>abstract="Defina una fecha de inicio y una fecha de finalización para la página de destino. Cuando la página llega al final del periodo de validez, el formulario ya no está disponible. En su lugar, se muestra la página **Caducidad**."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Definir opciones de precarga"
->abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con la opción **Autorizar ausencia de ID** seleccionada, cualquier visitante, incluidos los usuarios anónimos, puede acceder a la página de aterrizaje."
+>abstract="Cuando la opción **Rellene previamente los datos a los que se hace referencia en el formulario** está seleccionada, si el visitante de la página de destino coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. Con la opción **Autorizar ausencia de ID** seleccionada, cualquier visitante, incluidos los usuarios anónimos, puede acceder a la página de destino."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -108,7 +108,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
 1. En la sección **[!UICONTROL Carga previa de datos]**, están disponibles las siguientes opciones:
 
-   * Cuando la opción **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** está seleccionada, si el visitante de la página de aterrizaje coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. El usuario solo tiene que rellenar los campos que faltan y actualizar los valores existentes si es necesario. Esto permite combinar datos para perfiles existentes en lugar de crear duplicados.
+   * Cuando la opción **[!UICONTROL Rellene previamente los datos a los que se hace referencia en el formulario]** está seleccionada, si el visitante de la página de destino coincide con un perfil de la base de datos, la información del perfil se precarga automáticamente en el formulario. El usuario solo tiene que rellenar los campos que faltan y actualizar los valores existentes si es necesario. Esto permite combinar datos para perfiles existentes en lugar de crear duplicados.
 
      >[!NOTE]
      >
@@ -140,7 +140,7 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    ![Captura de pantalla que muestra la sección de datos adicionales.](assets/lp-additional-data.png){zoomable="yes"}
 
-1. Puede definir una fecha de inicio y una fecha de finalización para la página de aterrizaje. Seleccione **[!UICONTROL Habilitar la programación]** y establezca las fechas.
+1. Puede definir una fecha de inicio y una fecha de finalización para la página de destino. Seleccione **[!UICONTROL Habilitar la programación]** y establezca las fechas.
 
    ![Captura de pantalla que muestra las opciones de programación de la página de aterrizaje.](assets/lp-schedule.png){zoomable="yes"}
 
@@ -182,17 +182,17 @@ Para comprobar la configuración del captcha, haga clic en el botón **[!UICONTR
 >El widget captcha en Adobe Campaign v8 es ALTCHA y funciona en modo flotante. Aparece durante la validación y desaparece una vez completado el proceso.
 
 
-## Prueba de la página de aterrizaje {#test-landing-page}
+## Prueba de la página de destino {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Simulación de la página de aterrizaje"
->abstract="Puede ver una vista previa de la página de aterrizaje en la interfaz de usuario web de Campaign o abrirla en una nueva pestaña del explorador web."
+>title="Simulación de la página de destino"
+>abstract="Puede ver una vista previa de la página de destino en la interfaz de usuario web de Campaign o abrirla en una nueva pestaña del explorador web."
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
->title="Previsualizar y probar la página de aterrizaje"
->abstract="Una vez que haya definido la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlos."
+>title="Previsualizar y probar la página de destino"
+>abstract="Una vez que haya definido la configuración y el contenido de la página de destino, puede utilizar perfiles de prueba para previsualizarlos."
 
 Una vez definida la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado [contenido personalizado](../personalization/gs-personalization.md), podrá comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos del perfil de prueba.
 
@@ -226,7 +226,7 @@ Para probar la página de aterrizaje, siga estos pasos:
 
 <!--Can you preview Confirmation/Error/Expiration pages?-->
 
-## Publicar la página de aterrizaje {#publish-landing-page}
+## Publicar la página de destino {#publish-landing-page}
 
 Una vez que la página de aterrizaje esté lista y validada, publíquela para que esté disponible para su uso en una entrega con el botón correspondiente.
 
@@ -238,7 +238,7 @@ Una vez publicado:
 
 >[!CAUTION]
 >
->Para probar o aprovechar al máximo la página de aterrizaje, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, use la función [Simular contenido](#test-landing-page) para probarla y siga los pasos descritos en [esta sección](lp-use-cases.md) para usar correctamente su página de aterrizaje.
+>Para probar o aprovechar al máximo la página de destino, no puede copiar y pegar este vínculo directamente en un explorador web o en los envíos. En su lugar, use la función [Simular contenido](#test-landing-page) para probarla y siga los pasos descritos en [esta sección](lp-use-cases.md) para usar correctamente su página de aterrizaje.
 
 ![Captura de pantalla que muestra la URL de la página de aterrizaje](assets/lp-published.png){zoomable="yes"}
 
