@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, editor, resumen, correo electrónico
-source-git-commit: 4ebe0990f086d6d9ea54ea68c3061e8361344b5c
+source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '649'
 ht-degree: 1%
 
 ---
@@ -238,16 +238,19 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
 * Asegúrese de que su CSS se agrega a la etiqueta `<style>` con el atributo `data-name="global-custom"` y que `data-disabled` no se aplica a `global-custom`. [Más información](#implementation)
 
-* Asegúrese de que otras reglas CSS no anulen su CSS, incluido cualquier [tema](apply-email-themes.md) aplicado al contenido.
+<!--
+* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
+ 
+  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
+  
+  * Consider adding `!important` to your declarations to ensure they take precedence. 
+    
+    For example:
 
-   * Utilice las herramientas para desarrolladores del navegador para inspeccionar el contenido y comprobar que el CSS está dirigido a los selectores correctos.
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
+    -->
 
-   * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
-
-     Por ejemplo:
-
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
