@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 99%
 
 ---
 
@@ -121,21 +121,22 @@ ht-degree: 100%
          + [Ajustar alineación vertical y relleno](email/alignment-and-padding.md)
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
+         + [Añadir un CSS personalizado](email/custom-css.md)
    + Asistente de IA {#ai-assistant}
       + [Trabajo con el Asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con IA](email/generative-content.md)
       + [Generación de SMS con IA](email/generative-sms.md)
       + [Generación de notificaciones push con IA](email/generative-push.md)
-      + [Generación de la página de aterrizaje con IA](email/generative-lp.md)
+      + [Generación de la página de destino con IA](email/generative-lp.md)
       + [Casos de uso del Asistente de IA](email/generative-uc.md)
       + Marcas (beta) {#ai-assistant}
          + [Creación y administración de sus marcas](content/brands.md)
          + [Evaluación de la puntuación de alineación con la marca](content/brands-score.md)
-+ Páginas de aterrizaje {#landing-pages}
-   + [Introducción a las páginas de aterrizaje](landing-pages/get-started-lp.md)
-   + [Creación y edición de una página de aterrizaje](landing-pages/create-lp.md)
-   + [Diseño del contenido de la página de aterrizaje](landing-pages/lp-content.md)
-   + [Trabajo con plantillas de la página de aterrizaje](landing-pages/lp-templates.md)
++ Páginas de destino {#landing-pages}
+   + [Introducción a las páginas de destino](landing-pages/get-started-lp.md)
+   + [Creación y edición de una página de destino](landing-pages/create-lp.md)
+   + [Diseño del contenido de la página de destino](landing-pages/lp-content.md)
+   + [Trabajo con plantillas de la página de destino](landing-pages/lp-templates.md)
    + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
 + Perfiles y públicos {#audiences}
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
