@@ -84,7 +84,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** proporciona una descripc
 >title="Causas de exclusión de entrega"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
-El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusión que muestra la distribución de mensajes rechazados por regla.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
