@@ -2,10 +2,10 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Notas de la versión de la interfaz de usuario web de Campaign 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '2470'
-ht-degree: 100%
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 98%
 
 ---
 
@@ -113,16 +113,16 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 >
 >Consulte las siguientes páginas de documentación: [Campaign Standard de la transición a Campaign v8](../rn/acs-migration.md) y [Funciones para usuarios de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}.
 
-* **Promoción de la marca para correo directo**: ahora los administradores técnicos pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Ahora puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/branding/branding-assign)
+* **Promoción de la marca para correo directo**: ahora los administradores técnicos pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de destino o la configuración del seguimiento de mensajes. Ahora puede crear estas marcas y vincularlas a mensajes o páginas de destino. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/branding/branding-assign)
 
-* **Suscripciones con páginas de aterrizaje**: ahora puede vincular una página de aterrizaje a un servicio y enviar un mensaje de confirmación cuando los usuarios la validen. [Más información](../landing-pages/lp-content.md#lp-message){target="_blank"}.
+* **Suscripciones con páginas de destino**: ahora puede vincular una página de destino a un servicio y enviar un mensaje de confirmación cuando los usuarios la validen. [Más información](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
 * **Fragmentos visuales**: ahora puede archivar fragmentos de contenido visual. [Más información](../content/create-fragment.md#archive)
 
-* **Captcha en páginas de aterrizaje**: ahora puede añadir captcha para proteger su página de aterrizaje contra spam y abusos causados por bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. [Más información](../landing-pages/create-lp.md#captcha)
+* **Captcha en páginas de destino**: ahora puede añadir captcha para proteger su página de destino contra spam y abusos causados por bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. [Más información](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=es){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notas de la versión de julio {#24-7-release}
@@ -168,9 +168,6 @@ Ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enr
 
 Las siguientes funciones y mejoras están disponibles para todos los usuarios a partir de la versión de junio.
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### Planes y programas {#24-6-4}
 
@@ -179,6 +176,18 @@ Ahora puede crear planes y programas para organizar sus campañas. Al definir un
 ### Mejoras {#improvements-24-6}
 
 * **Reconciliación en la actividad de enriquecimiento**: la actividad de **enriquecimiento** se puede utilizar ahora para reconciliar los datos del esquema de la base de datos de Campaign con los datos de otro esquema o con los datos procedentes de un esquema temporal como, por ejemplo, los datos cargados mediante una actividad Cargar archivo. Por ejemplo, puede utilizar esta opción para reconciliar el país de un perfil, especificado en un archivo cargado, con uno de los países disponibles en la tabla dedicada de la base de datos de Campaign. [Más información](../workflows/activities/enrichment.md)
+
+
+### Nueva función en disponibilidad limitada {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>La siguiente capacidad está en disponibilidad limitada (LA). Se restringió a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se puede implementar en ningún otro entorno.
+
+* **Alertas de envío**
+
+La función de alertas de envío es un sistema de administración de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contienen información sobre la ejecución de sus envíos. [Más información](../msg/delivery-alerting.md)
+
 
 ## Notas de la versión de mayo {#24-5-release}
 
@@ -241,19 +250,19 @@ Tenga en cuenta que esta función se encuentra en **Disponibilidad limitada** (L
 >
 >Consulte las siguientes páginas de documentación: [Campaign Standard de la transición a Campaign v8](../rn/acs-migration.md) y [Funciones para usuarios de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es).
 
-* **Personalización de marca**: como usuario Campaign Standard migrado, los administradores técnicos ahora pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es)
+* **Personalización de marca**: como usuario Campaign Standard migrado, los administradores técnicos ahora pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de destino o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de destino. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es)
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y generar su propio ecosistema interconectando Adobe Campaign con el panel de tecnologías que emplea. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=es)
 
 * **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es)
 
-* **Páginas de aterrizaje**: las siguientes mejoras para las páginas de aterrizaje solo están disponibles para los usuarios que realizan la transición desde Campaign Standard:
+* **Páginas de destino**: las siguientes mejoras para las páginas de destino solo están disponibles para los usuarios que realizan la transición desde Campaign Standard:
 
-   * Ahora puede hacer referencia a una página de aterrizaje de suscripción/baja predeterminada al configurar un servicio. Al diseñar un correo electrónico, si define un vínculo a esa página de aterrizaje, los usuarios que envíen el formulario de página de aterrizaje se suscriben o cancelan su suscripción automáticamente a este servicio. [Más información](../audience/manage-services.md#create-service)
-   * Una nueva opción en la configuración de la página de aterrizaje permite a los visitantes anónimos acceder a la página de aterrizaje. Si anula la selección de esta opción, solo los usuarios identificados pueden acceder al formulario y enviarlo. [Más información](../landing-pages/create-lp.md#create-landing-page)
-   * Una nueva opción en la configuración de la página de aterrizaje permite almacenar datos internos adicionales cuando se envía la página de aterrizaje. [Más información](../landing-pages/create-lp.md#create-landing-page)
-   * Una nueva opción permite utilizar una página de aterrizaje para varios servicios, lo que la hace dinámica. Al añadir un vínculo a un correo electrónico, si selecciona una página de aterrizaje dinámica, puede seleccionar cualquier servicio. Si selecciona una página de aterrizaje que tiene un servicio específico asociado, este servicio se utilizará automáticamente (no puede seleccionar otro). [Más información](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * Ahora se admite contenido condicional en las páginas de aterrizaje. [Más información](../landing-pages/lp-content.md)
+   * Ahora puede hacer referencia a una página de destino de suscripción/baja predeterminada al configurar un servicio. Al diseñar un correo electrónico, si define un vínculo a esa página de destino, los usuarios que envíen el formulario de página de destino se suscriben o cancelan su suscripción automáticamente a este servicio. [Más información](../audience/manage-services.md#create-service)
+   * Una nueva opción en la configuración de la página de destino permite a los visitantes anónimos acceder a la página de destino. Si anula la selección de esta opción, solo los usuarios identificados pueden acceder al formulario y enviarlo. [Más información](../landing-pages/create-lp.md#create-landing-page)
+   * Una nueva opción en la configuración de la página de destino permite almacenar datos internos adicionales cuando se envía la página de destino. [Más información](../landing-pages/create-lp.md#create-landing-page)
+   * Una nueva opción permite utilizar una página de destino para varios servicios, lo que la hace dinámica. Al añadir un vínculo a un correo electrónico, si selecciona una página de destino dinámica, puede seleccionar cualquier servicio. Si selecciona una página de destino que tiene un servicio específico asociado, este servicio se utilizará automáticamente (no puede seleccionar otro). [Más información](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * Ahora se admite contenido condicional en las páginas de destino. [Más información](../landing-pages/lp-content.md)
 
 ### Mejoras generales {#improvements-24-4}
 
