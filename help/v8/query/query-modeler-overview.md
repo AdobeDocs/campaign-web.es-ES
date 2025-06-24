@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 22%
@@ -43,12 +43,12 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 
 | Uso | Ejemplo |
 |  ---  |  ---  |
-| **Definir audiencias**: especifique la población a la que desee dirigirse en sus mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. [Aprenda a crear audiencias](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagen que muestra cómo acceder a la interfaz de creación de audiencias] |
-| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades de flujo de trabajo](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo acceder a las opciones de personalización del flujo de trabajo] |
-| **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante diversas operaciones de filtrado, tanto si está trabajando con listas de datos como formando la audiencia para una entrega. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo acceder a los filtros predefinidos] |
-| **Filtrar datos de informes**: agregue reglas para filtrar los datos mostrados en los informes. [Aprenda a trabajar con informes](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [Imagen que muestra cómo filtrar datos en los informes] |
-| **Personalizar listas**: cree reglas personalizadas para filtrar los datos mostrados en listas como las de destinatarios o entregas. [Aprenda a filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [imagen que muestra cómo personalizar filtros de lista] |
-| **Generar contenido condicional**: haga que el contenido del correo electrónico sea dinámico al crear condiciones que definan qué contenido debe mostrarse a distintos destinatarios, lo que garantiza mensajes personalizados y relevantes. [Aprenda a crear contenido condicional](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} [imagen que muestra cómo crear contenido condicional] |
+| **Definir audiencias**: especifique la población a la que desee dirigirse en sus mensajes o flujos de trabajo y cree nuevas audiencias adaptadas a sus necesidades sin esfuerzo. [Aprenda a crear audiencias](../audience/one-time-audience.md) | ![Imagen que muestra cómo acceder a la interfaz de creación de audiencias](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Personalizar actividades de flujo de trabajo**: aplique reglas dentro de las actividades de flujo de trabajo, como **División** y **Reconciliación**, para alinearlas con sus requisitos específicos. [Más información sobre las actividades de flujo de trabajo](../workflows/activities/about-activities.md) | ![Imagen que muestra cómo acceder a las opciones de personalización del flujo de trabajo](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Filtros predefinidos**: Cree filtros predefinidos que sirvan de accesos directos durante diversas operaciones de filtrado, tanto si está trabajando con listas de datos como formando la audiencia para una entrega. [Aprenda a trabajar con filtros predefinidos](../get-started/predefined-filters.md) | ![Imagen que muestra cómo acceder a los filtros predefinidos](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Filtrar datos de informes**: agregue reglas para filtrar los datos mostrados en los informes. [Aprenda a trabajar con informes](../reporting/gs-reports.md) | ![Imagen que muestra cómo filtrar datos en los informes](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Personalizar listas**: cree reglas personalizadas para filtrar los datos mostrados en listas como las de destinatarios o entregas. [Aprenda a filtrar listas](../get-started/list-filters.md#list-built-in-filters) | ![Imagen que muestra cómo personalizar filtros de lista](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **Generar contenido condicional**: haga que el contenido del correo electrónico sea dinámico al crear condiciones que definan qué contenido debe mostrarse a distintos destinatarios, lo que garantiza mensajes personalizados y relevantes. [Aprenda a crear contenido condicional](../personalization/conditions.md) | ![Imagen que muestra cómo crear contenido condicional](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ El modelador de consultas proporciona un lienzo central en el que generar la con
 >[!IMPORTANT]
 >
 >Hay disponible una interfaz completamente nueva para el modelador de consultas. El nuevo generador de reglas le permite crear la consulta con mayor facilidad gracias a su interfaz simplificada. Para cambiar a esta experiencia, pulse el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
