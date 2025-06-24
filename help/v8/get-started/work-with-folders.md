@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="Seguridad de carpetas"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Restricciones de carpetas"
->abstract="Restricciones de carpetas"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Programación de carpetas"
 >abstract="Programación de carpetas"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favoritos"
->abstract="Favoritos"
 
 ## Acerca de las carpetas {#about-folders}
 
@@ -46,6 +36,16 @@ Puede crear, cambiar el nombre, reordenar y mover carpetas en el árbol de naveg
 ![Interfaz de carpetas que muestra la organización de carpetas](assets/folders.png){zoomable="yes"}
 
 Puede configurar un tipo de carpeta. Por ejemplo: una carpeta de envíos. El icono de carpeta cambia según su tipo.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Restricciones de carpetas"
+>abstract="Las carpetas Objetos creados automáticamente y Flujos de trabajo técnicos están restringidos y no se pueden ver en el panel lateral izquierdo."
+
+>[!IMPORTANT]
+>
+>Las carpetas **[!UICONTROL Objetos creados automáticamente]** y **[!UICONTROL Flujos de trabajo técnicos]** están restringidas y no se pueden ver en el panel lateral izquierdo.
+
 
 ## Creación de una nueva carpeta {#create-a-folder}
 
@@ -80,6 +80,19 @@ En este ejemplo, la carpeta **Envíos** contiene cuatro subcarpetas.
 Puede cambiar el orden de las carpetas mediante la acción de **arrastrar y soltar** o usando las **flechas arriba y abajo**
 
 ![Funcionalidad Arrastrar y soltar para reordenar las carpetas](assets/folder-draganddrop.png){zoomable="yes"}
+
+### Carpetas favoritas {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favoritos"
+>abstract="Sus carpetas favoritas se mostrarán en la parte superior de la pestaña izquierda."
+
+Las carpetas que se han marcado como &quot;Favorito&quot; siempre se mostrarán en la parte superior de la pestaña izquierda.
+
+Puede añadir carpetas como favoritas haciendo clic en el botón de inicio en la esquina superior derecha cuando vea una carpeta.
+
+![Captura de pantalla de ubicación de carpetas favoritas](assets/folders-favorite.png){zoomable="yes"}
 
 ## Eliminación de una carpeta {#delete-a-folder}
 
