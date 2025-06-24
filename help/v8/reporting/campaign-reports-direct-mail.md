@@ -3,16 +3,18 @@ audience: end-user
 title: Informes de campaña para el canal de correo postal
 description: Comprender los informes de campaña del canal de correo directo
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 19%
 
 ---
 
-# Informes de campaña para el canal de correo postal {#campaign-reports-direct-mail}
+# Informes de campaña para canales de envío externos {#campaign-reports-direct-mail}
 
-Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo postal. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas de los canales de envío externos. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).
+
+El siguiente informe se describe en el contexto del correo postal. También está disponible para el centro de llamadas y para canales externos personalizados.
 
 ## Resumen de envíos {#delivery-summary-direct}
 

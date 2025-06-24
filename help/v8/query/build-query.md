@@ -3,9 +3,9 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2863'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ Para empezar a crear una consulta, acceda al modelador de consultas desde la ubi
 >[!IMPORTANT]
 >
 >Hay disponible una interfaz completamente nueva para el modelador de consultas. El nuevo generador de reglas le permite crear la consulta con mayor facilidad gracias a su interfaz simplificada. Para cambiar a esta experiencia, pulse el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 Se pueden añadir dos tipos de elementos:
 
@@ -70,7 +70,7 @@ Para acceder a esta opción, en la consulta, haga clic en el botón de selecció
 >
 >* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En estos casos, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos. [Aprenda a seleccionar atributos](../get-started/attributes.md)
->* Puede agregar condiciones a los resultados usando los **[ !Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
+>* Puede agregar condiciones a los resultados usando los **[!Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adición de componentes de filtrado {#filtering}
 
@@ -122,7 +122,7 @@ Para filtrar la consulta mediante una condición personalizada, siga estos pasos
    | Como | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Jon%s&quot;. El carácter comodín actúa como un &quot;joker&quot; para encontrar nombres como &quot;Jones&quot;. |
    | Not like | De forma similar al operador Contains, permite insertar un carácter comodín % en el valor. | Apellido (@lastName) como &quot;Smi%h&quot;. Los destinatarios cuyo apellido sea &quot;Smith&quot; no se devolverán. |
 
-   +++
++++
 
 1. En el campo **Value**, defina el valor esperado. También puede utilizar el editor de expresiones web de Campaign para definir manualmente una expresión utilizando los campos de la base de datos y las funciones de ayuda. Para ello, haga clic en el botón **Editar expresión**. [Obtenga información sobre cómo editar expresiones](expression-editor.md)
 
@@ -318,6 +318,18 @@ Para copiar y pegar componentes de filtrado, siga estos pasos:
 1. Para pegar los componentes, haga clic en el botón + al final de la transición deseada y seleccione **Pegar n elementos**.
 
    ![Ejemplo de pegado de los componentes](assets/copy-paste.png){zoomable="yes"}
+
+## Arrastrar y soltar componentes {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>Esta función solo está disponible para la nueva experiencia del generador de reglas.
+
+Al agregar componentes a la consulta, puede moverlos hacia arriba y hacia abajo mediante la función de arrastrar y soltar.
+
+A la izquierda de cada componente, puede hacer clic en los puntos y mantenerlos presionados para arrastrar el componente hacia arriba y hacia abajo, según dónde desee colocar y agrupar los componentes.
+
+![Gif que muestra cómo arrastrar y soltar los componentes en el nuevo generador de reglas](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## Combinación de componentes de filtrado con operadores {#operators}
 

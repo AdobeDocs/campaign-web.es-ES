@@ -3,16 +3,18 @@ audience: end-user
 title: Informes de correo directo
 description: Obtenga información sobre cómo acceder y utilizar los informes de correo directo
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 20%
+source-wordcount: '696'
+ht-degree: 19%
 
 ---
 
-# Informe de envíos de correo directo {#direct-mail-report}
+# Informe de envío externo {#direct-mail-report}
 
-El **informe de envío por correo postal** proporciona información y datos completos específicos de su envío por correo postal. Incluye información detallada sobre el rendimiento, la eficacia y los resultados de los envíos individuales, y ofrece una visión general completa.
+El **informe de envío externo** proporciona información y datos completos específicos de su envío externo. Incluye información detallada sobre el rendimiento, la eficacia y los resultados de los envíos individuales, y ofrece una visión general completa.
+
+El siguiente informe se describe en el contexto del correo postal. También está disponible para el centro de llamadas y para canales externos personalizados.
 
 ## Resumen de envíos {#delivery-summary-direct-mail}
 
@@ -82,7 +84,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** proporciona una descripc
 >title="Causas de exclusión de entrega"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
-El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){_blank}.
+El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusión que muestra la distribución de mensajes rechazados por regla.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

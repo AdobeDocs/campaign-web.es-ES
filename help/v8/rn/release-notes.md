@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 
 Los cambios y mejoras disponibles con las versiones anteriores se recogen en las versiones de [2024](release-notes-24.md) y [2025](release-notes-25.md).
 
-## Versión de mayo de 2025 {#25-5-release}
+## Versión de junio de 2025 {#25-6-release}
 
-Las siguientes funciones están disponibles para todos los usuarios a partir de la versión de mayo.
+### Mejoras {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La función de puntuación de alineación con la marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
-<p>Para obtener más información, consulte la <a href="../content/brands-score.md">documentación detallada</a>.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* El informe Resumen de entrega ya está disponible tanto para el centro de llamadas como para los canales personalizados. [Más información](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Canal personalizado para envíos externos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora, directamente desde la interfaz de usuario de Adobe Campaign Web, puede organizar y ejecutar envíos basados en canales externos personalizados. Estos envíos pueden ser independientes o formar parte de un flujo de trabajo. La creación del canal externo personalizado integrado con un tercero se realiza en la consola.</p>
-<p>Nota: La creación de informes no está disponible en la interfaz de usuario web para el canal personalizado. Debe navegar a la consola del cliente para acceder a los informes.</p>
-<p>Para obtener más información, consulte la <a href="../call-center/gs-custom-channel.md">documentación detallada</a>.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Al configurar una entrega SMS, ahora tiene acceso a los parámetros específicos del SMS. Son los mismos parámetros disponibles en la consola del cliente. [Más información](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Mejoras {#25-5-improvements}
+* Sus carpetas favoritas ahora aparecen en la parte superior del panel izquierdo en la página del Explorador, lo que facilita el acceso a ellas. [Más información](../get-started/work-with-folders.md#favorite-folders)
 
-La pantalla de creación de reglas de tipología se ha actualizado para facilitar la selección del tipo de regla.
+* El Generador de reglas ahora admite arrastrar y soltar, lo que le permite reorganizar los componentes de la consulta de forma más eficaz. [Más información](../query/build-query.md#drag-and-drop)
+
+* Se ha mejorado la &quot;condición humana&quot; en el Generador de reglas. Esta es la versión escrita y en lenguaje simple de las reglas que se muestra en la parte inferior de la pantalla:
+
+   * Ahora los atributos se resaltan y se muestra el esquema asociado.
+   * Puede hacer clic en estos elementos para ver información más detallada.
+   * Ahora puede copiar la condición humana con el botón correspondiente.
+
+* El acceso a las carpetas &quot;Flujos de trabajo técnicos&quot; y &quot;Objetos creados automáticamente&quot; está ahora restringido para evitar que se visualicen. [Más información](../get-started/work-with-folders.md#about-folders)
