@@ -2,9 +2,9 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
-workflow-type: ht
-source-wordcount: '1281'
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
+workflow-type: tm+mt
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # Notas de la versión de 2025 {#2025-release}
 
 Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2025**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
+
+## Versión de mayo de 2025 {#25-5-release}
+
+Las siguientes funciones están disponibles para todos los usuarios a partir de la versión de mayo.
+
+<table>
+<thead>
+<tr>
+<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La función de puntuación de alineación con la marca proporciona comentarios claros directamente en el diseñador de correo electrónico, lo que le ayuda a ver si el contenido se ajusta al tono, el estilo y las directrices de la marca. Esta función está disponible en Beta.</p>
+<p>Para obtener más información, consulte la <a href="../content/brands-score.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal personalizado para envíos externos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, directamente desde la interfaz de usuario de Adobe Campaign Web, puede organizar y ejecutar envíos basados en canales externos personalizados. Estos envíos pueden ser independientes o formar parte de un flujo de trabajo. La creación del canal externo personalizado integrado con un tercero se realiza en la consola.</p>
+<p>Nota: La creación de informes no está disponible en la interfaz de usuario web para el canal personalizado. Debe navegar a la consola del cliente para acceder a los informes.</p>
+<p>Para obtener más información, consulte la <a href="../call-center/gs-custom-channel.md">documentación detallada</a>.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#25-5-improvements}
+
+La pantalla de creación de reglas de tipología se ha actualizado para facilitar la selección del tipo de regla.
 
 ## Versión de abril de 2025 {#25-4-release}
 
@@ -269,13 +312,13 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Generación de la página de aterrizaje con el Asistente de IA</strong><br/></th>
+<th><strong>Generación de la página de destino con el Asistente de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Asistente de IA ya está disponible con los envíos de la página de aterrizaje, lo que le permite generar texto, imágenes o diseños de página completos.</p>
+<p>El Asistente de IA ya está disponible con los envíos de la página de destino, lo que le permite generar texto, imágenes o diseños de página completos.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información sobre el Asistente de IA, consulte la <a href="../email/generative-lp.md">documentación detallada</a>.</p>
 </td>
