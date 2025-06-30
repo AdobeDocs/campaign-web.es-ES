@@ -1,5 +1,5 @@
 ---
-title: Añadir CSS personalizado al contenido del correo electrónico
+title: Añadir CSS personalizadas al contenido del correo electrónico
 description: Aprenda a añadir CSS personalizado al contenido del correo electrónico directamente en el Designer de correo electrónico en Adobe Campaign
 feature: Email Design
 topic: Content Management
@@ -8,19 +8,20 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, editor, resumen, correo electrónico
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Añadir CSS personalizado al contenido del correo electrónico {#email-metadata}
+# Añadir CSS personalizadas al contenido del correo electrónico {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
->title="Introduzca su propio CSS"
->abstract="Para obtener una mayor flexibilidad y control sobre el aspecto del contenido, puede agregar CSS personalizado directamente dentro del Designer de correo electrónico para aplicar un estilo avanzado y específico."
+>title="Introduzca sus propias CSS"
+>abstract="Para obtener una mayor flexibilidad y control sobre el aspecto del contenido, puede añadir CSS personalizadas directamente dentro del Diseñador de correo electrónico para aplicar un estilo avanzado y específico."
 
 Al diseñar los correos electrónicos, puede agregar su propio código CSS personalizado directamente en [Email Designer](get-started-email-designer.md). Esta capacidad le permite aplicar estilos avanzados y específicos para obtener una mayor flexibilidad y control sobre el aspecto del contenido.
 
@@ -253,4 +254,3 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
     }
     ```
     -->
-
