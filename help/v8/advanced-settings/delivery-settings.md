@@ -6,8 +6,8 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 45%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -103,7 +103,7 @@ El campo **[!UICONTROL Importancia del destinatario]** es una fórmula que se us
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las asignaciones de destino](../audience/targeting-dimensions.md).
 
-En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=es){target="_blank"}
+En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Envío {#delivery}
 
@@ -159,7 +159,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 
 >[!NOTE]
 >
->Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=es#external-account-ac){target="_blank"}.
+>Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Reintentos {#retries}
 
@@ -283,10 +283,10 @@ También puede personalizar la etiqueta de las pruebas:
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
->title="Configuración de envío de SMS"
->abstract="Los parámetros de envío SMS son ajustes técnicos que se aplican a su envío SMS. Puede definir la dirección del remitente, los parámetros de servicio, el modo de transmisión y mucho más. Estas opciones están restringidas únicamente a usuarios expertos."
+>title="Configuración del envío de SMS"
+>abstract="Los parámetros de envío son las configuraciones técnicas que se aplican al envío de SMS. Puede definir la dirección del remitente, los parámetros de servicio, el modo de transmisión y mucho más. Estas opciones están restringidas únicamente a usuarios expertos."
 
-Los parámetros de envío SMS son ajustes técnicos que se aplican a su envío SMS. Puede definir la dirección del remitente, los parámetros de servicio, el modo de transmisión y mucho más. Estas opciones están restringidas únicamente a usuarios expertos.
+Los parámetros de envío son las configuraciones técnicas que se aplican al envío de SMS. Puede definir la dirección del remitente, los parámetros de servicio, el modo de transmisión y mucho más. Estas opciones están restringidas únicamente a usuarios expertos.
 
 <!--
 

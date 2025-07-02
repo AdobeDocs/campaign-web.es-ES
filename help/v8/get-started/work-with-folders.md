@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo administrar una carpeta en Adobe C
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Puede configurar un tipo de carpeta. Por ejemplo: una carpeta de envíos. El ico
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="Restricciones de carpetas"
->abstract="Las carpetas Objetos creados automáticamente y Flujos de trabajo técnicos están restringidos y no se pueden ver en el panel lateral izquierdo."
+>abstract="Las carpetas Objetos creados automáticamente y los flujos de trabajo técnicos están restringidos y no se pueden ver en el panel lateral izquierdo."
 
 >[!IMPORTANT]
 >
