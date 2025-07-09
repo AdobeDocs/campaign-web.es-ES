@@ -47,7 +47,7 @@ Ahora puede utilizar esta plantilla para realizar envíos.
 
 >[!TAB Adobe Campaign V8]
 
-Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
+Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es)
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
