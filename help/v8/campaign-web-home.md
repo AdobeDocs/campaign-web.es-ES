@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Elemento 3"
->abstract="Experiencia de usuario rediseñada para públicos, suscripción, AEM Assets, páginas de aterrizaje"
+>abstract="Experiencia de usuario rediseñada para públicos, suscripción, AEM Assets, páginas de destino"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
@@ -52,9 +52,9 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 >[!BEGINTABS]
 
 
->[!TAB Versión de mayo de 2025]
+>[!TAB Actualizaciones del 25 de julio]
 
-La versión de mayo ya está activa, incluidos el nuevo canal personalizado, la puntuación de alineación con la marca y la mejora de las reglas de tipología.
+Ahora hay nuevas funciones y mejoras disponibles en la interfaz de usuario web de Campaign. Para aprovechar estas mejoras, asegúrese de actualizar su entorno de Campaign a la versión 8.8. Para obtener una descripción general completa, consulte las notas de la versión.
 
 [![Botón Más información](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
