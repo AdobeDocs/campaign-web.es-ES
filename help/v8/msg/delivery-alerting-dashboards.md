@@ -77,7 +77,7 @@ Para crear un panel de envío, siga estos pasos:
    * **Rendimiento mínimo esperado (en mensajes enviados por hora)**: Para los envíos con un criterio de rendimiento bajo solo se tienen en cuenta los envíos con un rendimiento inferior al valor especificado.
    * **Proporción mínima procesada requerida para el criterio &quot;Envíos en curso&quot;**: solo se tienen en cuenta los envíos con un porcentaje de mensajes procesados superior al porcentaje especificado.
 
-+++
+   +++
 
 1. De forma predeterminada, los paneles de alertas están desactivados, lo que significa que las alertas de correo electrónico vinculadas a este panel no se envían. Para habilitar el panel inmediatamente, active la opción **Enabled** en la sección **General**, junto al campo de selección del grupo de alertas.
 
