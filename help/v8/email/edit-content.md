@@ -3,7 +3,7 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 24%
@@ -113,7 +113,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
 1. Una vez definido el contenido del correo electrónico, utilice el botón **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. [Obtenga información sobre cómo obtener una vista previa y probar tu correo electrónico](../preview-test/preview-test.md).
 
-## Configuración de un envío multilingüe
+## Configuración de un envío multilingüe {#multilingual-delivery}
 
 En la interfaz de usuario web de Campaign, puede configurar los envíos de correo electrónico como multilingües, lo que le permite enviar mensajes en función del idioma preferido de un perfil. Cuando no se define ninguna preferencia, el mensaje se envía en el idioma predeterminado.
 
@@ -129,7 +129,7 @@ Para crear variantes de idioma, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >El botón **[!UICONTROL Agregar idioma]** solo está disponible si la dimensión de destino contiene el esquema de idioma. Para obtener más información sobre los esquemas y las dimensiones de Target, consulte la [documentación detallada](https://experienceleague.adobe.com/es/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >El botón **[!UICONTROL Agregar idioma]** solo está disponible si la dimensión de destino contiene el esquema de idioma. Para obtener más información sobre los esquemas y las dimensiones de Target, consulte la [documentación detallada](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Para crear variantes de idioma, siga estos pasos:
 
    >[!NOTE]
    >
-   >Los idiomas disponibles a través de esta lista dependen de los valores definidos por el atributo Language (valores como: system, user, dbenum, etc.) Obtenga más información acerca de la administración de la enumeración en esta [sección](https://experienceleague.adobe.com/es/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Los idiomas disponibles a través de esta lista dependen de los valores definidos por el atributo Language (valores como: system, user, dbenum, etc.) Obtenga más información acerca de la administración de la enumeración en esta [sección](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

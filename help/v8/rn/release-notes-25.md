@@ -2,16 +2,36 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # Notas de la versión de 2025 {#2025-release}
 
 Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2025**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
+
+## Versión de junio de 2025 {#25-6-release}
+
+### Mejoras {#25-6-improvements}
+
+* El informe Resumen del envío ya está disponible, tanto para el centro de llamadas como para los canales personalizados. [Más información](../reporting/direct-mail.md)
+
+* Al configurar un envío por SMS, ahora tiene acceso a los parámetros específicos del SMS. Son los mismos parámetros que están disponibles en la consola del cliente. [Más información](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Sus carpetas favoritas ahora aparecen en la parte superior del panel izquierdo en la página del explorador, lo que facilita su acceso. [Más información](../get-started/work-with-folders.md#favorite-folders)
+
+* El Generador de reglas ahora admite la función de arrastrar y soltar, lo que le permite reorganizar los componentes de la consulta de forma más eficaz. [Más información](../query/build-query.md#drag-and-drop)
+
+* Se ha mejorado la &quot;condición humana&quot; en el Generador de reglas. Esta es la versión escrita en lenguaje simple de sus reglas, que se muestra en la parte inferior de la pantalla:
+
+   * Ahora los atributos se resaltan y se muestra el esquema asociado.
+   * Puede hacer clic en estos elementos para ver información más detallada.
+   * Ahora puede copiar la condición humana con el botón correspondiente.
+
+* El acceso y la visualización de las carpetas &quot;Flujos de trabajo técnicos&quot; y &quot;Objetos creados automáticamente&quot; está ahora restringido. [Más información](../get-started/work-with-folders.md#about-folders)
 
 ## Versión de mayo de 2025 {#25-5-release}
 
@@ -153,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **Informes dinámicos para envíos multilingües**: ahora los informes dinámicos están disponibles para los envíos de correo electrónico multilingües. Para obtener más información, consulte la [documentación detallada](../reporting/global-reports.md).
 
-* **Compatibilidad con la API REST de SMS (LA)**: la API REST de mensajería transaccional ya está disponible para el canal de SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo &quot;wishedChannel&quot; para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS. Para obtener más información, consulte la [documentación detallada](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **Compatibilidad con la API REST de SMS (LA)**: la API REST de mensajería transaccional ya está disponible para el canal de SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo &quot;wishedChannel&quot; para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS. Para obtener más información, consulte la [documentación detallada](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}.
 
 ## Versión de febrero de 2025 {#25-2-release}
 

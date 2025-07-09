@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 30%
+source-wordcount: '1127'
+ht-degree: 29%
 
 ---
 
@@ -87,10 +87,6 @@ Para crear un servicio de suscripción, siga los pasos a continuación.
 1. Haz clic en **[!UICONTROL Guardar y revisar]**. El nuevo servicio se agrega a la lista **[!UICONTROL Servicios de suscripción]**.
 
 1. Seleccione las páginas de aterrizaje predeterminadas de suscripción y de cancelación de suscripción asociadas a este servicio.
-
-   >[!AVAILABILITY]
-   >
-   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
    ![Captura de pantalla que muestra la configuración predeterminada de la página de aterrizaje para un servicio de suscripción](assets/service-create-default-lp.png){zoomable="yes"}
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
-badge: label="Disponibilidad limitada"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 8%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -17,11 +16,7 @@ Las alertas de envío son un sistema de administración de alertas que permite a
 
 Las notificaciones se personalizan según criterios de alerta específicos definidos a través de la interfaz de usuario web de Adobe Campaign.
 
-Para obtener más información sobre la administración de errores de entrega, consulte la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
-
->[!AVAILABILITY]
->
->Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
+Para obtener más información sobre la administración de errores de entrega, consulte la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Contenido de notificación por correo electrónico {#content}
 

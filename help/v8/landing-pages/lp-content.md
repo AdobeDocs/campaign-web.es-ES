@@ -3,10 +3,10 @@ title: Definición del contenido específico de la página de destino
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 16%
+source-wordcount: '1161'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,6 @@ Para diseñar aún más el contenido de la página de aterrizaje:
 * Utilice los mismos componentes que los utilizados para diseñar un correo electrónico. [Más información](../email/content-components.md#add-content-components)
 
 * Añada contenido condicional a sus páginas de aterrizaje del mismo modo que para un correo electrónico. [Más información](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 ## Uso del componente del formulario {#use-form-component}
 
@@ -125,10 +121,6 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 
 1. Seleccione la opción **[!UICONTROL Servicio de la URL]** para permitir que la página de aterrizaje se use en varios servicios, por lo que es dinámica. Defina si desea incluir o excluir usuarios al enviar el formulario.
 
-   >[!AVAILABILITY]
-   >
-   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
-
    ![Servicio de la configuración de URL en el componente de formulario](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Al diseñar un correo electrónico, si define un vínculo de tipo **[!UICONTROL Página de aterrizaje]** a esta página de aterrizaje, puede seleccionar cualquier servicio de la lista. A continuación, puede seleccionar otros servicios al definir otros vínculos a esta página de aterrizaje. [Más información sobre cómo insertar vínculos](../email/message-tracking.md)
@@ -138,10 +130,6 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 1. Envíe un mensaje sobre el envío de su página de aterrizaje. [Obtenga más información aquí](#lp-message)
 
 ### Enviar un mensaje después del envío {#lp-message}
-
->[!AVAILABILITY]
->
->Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 Para enviar un mensaje de confirmación automáticamente después del envío de una página de aterrizaje, siga estos pasos:
 

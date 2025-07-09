@@ -2,12 +2,11 @@
 audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
-badge: label="Disponibilidad limitada"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 24%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 Los paneles de alertas de entrega le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellos desde el menú **Alerta de entrega** del panel de navegación izquierdo, en la pestaña **Paneles**.
 
 ![Captura de pantalla que muestra la lista de paneles de alertas en el menú Alerta de entrega.](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
 ## Crear un panel de envíos {#dashboards}
 
@@ -82,7 +77,7 @@ Para crear un panel de envío, siga estos pasos:
    * **Rendimiento mínimo esperado (en mensajes enviados por hora)**: Para los envíos con un criterio de rendimiento bajo solo se tienen en cuenta los envíos con un rendimiento inferior al valor especificado.
    * **Proporción mínima procesada requerida para el criterio &quot;Envíos en curso&quot;**: solo se tienen en cuenta los envíos con un porcentaje de mensajes procesados superior al porcentaje especificado.
 
-   +++
++++
 
 1. De forma predeterminada, los paneles de alertas están desactivados, lo que significa que las alertas de correo electrónico vinculadas a este panel no se envían. Para habilitar el panel inmediatamente, active la opción **Enabled** en la sección **General**, junto al campo de selección del grupo de alertas.
 

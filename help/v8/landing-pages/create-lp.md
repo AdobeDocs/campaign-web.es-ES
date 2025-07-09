@@ -3,10 +3,10 @@ title: Creación de una página de destino
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 26%
+source-wordcount: '1643'
+ht-degree: 25%
 
 ---
 
@@ -116,10 +116,6 @@ Para crear una página de aterrizaje, siga estos pasos:
 
    * La opción **[!UICONTROL Autorizar ausencia de ID]** permite que cualquier visitante acceda a la página de aterrizaje. Si se anula la selección de esta opción, se impide que los visitantes anónimos la utilicen, lo que significa que solo los usuarios identificados pueden acceder al formulario y enviarlo.
 
-     >[!AVAILABILITY]
-     >
-     >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
-
      Para las plantillas **[!UICONTROL Acquisition]** y **[!UICONTROL Subscription]**, esta opción está seleccionada de forma predeterminada. Para las plantillas **[!UICONTROL Baja]** y **[!UICONTROL Lista de bloqueados de la suscripción]**, esta opción no está seleccionada de forma predeterminada y no se puede modificar.
 
 1. Una página de aterrizaje puede tener páginas posteriores. Para agregar páginas, examine la sección **[!UICONTROL Páginas]** y haga clic en el botón **[!UICONTROL Editar contenido]** para cada página que desee diseñar para esta página de aterrizaje. El contenido de cada página ya está rellenado previamente. Edítelos según sea necesario. [Más información](lp-content.md).
@@ -133,10 +129,6 @@ Para crear una página de aterrizaje, siga estos pasos:
    ![Captura de pantalla que muestra las opciones de almacenamiento de la página de aterrizaje.](assets/lp-storage.png){zoomable="yes"}
 
 1. Cree **[!UICONTROL datos adicionales]** para almacenar datos internos cuando se envíe la página de aterrizaje. Estos datos no son visibles para los usuarios que visitan la página. Solo se tienen en cuenta los valores constantes.
-
-   >[!AVAILABILITY]
-   >
-   >Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 
    ![Captura de pantalla que muestra la sección de datos adicionales.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Para crear una página de aterrizaje, siga estos pasos:
 Una vez que haya definido toda la configuración y [diseñado](lp-content.md) todas las páginas, podrá [probar](#test-landing-page) y [publicar](#publish-landing-page) su página de aterrizaje como se detalla a continuación.
 
 ## Proteja su página de aterrizaje con un captcha {#captcha}
-
->[!AVAILABILITY]
->
->Esta capacidad se encuentra en disponibilidad limitada (LA). Está restringido a los clientes que usan **Adobe Campaign v8.7.2 actualizado con la última versión de corrección**, y no se puede implementar en ningún otro entorno.
 
 La configuración de un captcha le ayuda a proteger la página de aterrizaje del spam y los abusos.
 

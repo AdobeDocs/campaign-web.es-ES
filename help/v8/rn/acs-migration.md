@@ -3,10 +3,10 @@ audience: end-user
 title: Transición de Campaign Standard a la web de Adobe Campaign
 description: Interfaz de usuario web de Discover Campaign
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 99%
 
 ---
 
@@ -72,13 +72,13 @@ La mayoría de los conceptos son similares entre Campaign v8 y Campaign Standard
 
 Para garantizar una transición sin problemas a la versión 8 de Campaign, se han añadido funciones clave de Campaign Standard a la versión 8 de Campaign. Estas funciones se detallan en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target=&quot;_blank} y solo están disponibles para los usuarios que realicen la transición desde Campaign Standard.
 
-* **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes personalizables y en tiempo real para medir el impacto de las actividades de marketing. Incluye el acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}.
+* **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes personalizables y en tiempo real para medir el impacto de las actividades de marketing. Incluye el acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](../reporting/dynamic-reporting/get-started-reporting.md).
 
-* **Personalización de marca centralizada**: Adobe Campaign permite que las empresas definan directrices técnicas y visuales de marca. Los usuarios pueden presentar una marca coherente a los clientes, desde logotipos hasta aspectos técnicos como el remitente de correos electrónicos, la URL o los dominios. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es).
+* **Personalización de marca centralizada**: Adobe Campaign permite que las empresas definan directrices técnicas y visuales de marca. Los usuarios pueden presentar una marca coherente a los clientes, desde logotipos hasta aspectos técnicos como el remitente de correos electrónicos, la URL o los dominios. [Más información](../administration/branding/branding-gs.md).
 
-* **API de REST**: los usuarios migrados de Campaign Standard pueden usar las API de REST para crear integraciones para Adobe Campaign y construir ecosistemas al interconectar Adobe Campaign con otras tecnologías. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=es){target="_blank"}.
+* **API de REST**: los usuarios migrados de Campaign Standard pueden usar las API de REST para crear integraciones para Adobe Campaign y construir ecosistemas al interconectar Adobe Campaign con otras tecnologías. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
-* **Páginas de aterrizaje**: las páginas de aterrizaje de la versión 8 de Campaign incluyen mejoras para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de aterrizaje [documentación](../landing-pages/get-started-lp.md).
+* **Páginas de destino**: las páginas de destino de la versión 8 de Campaign incluyen mejoras para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de destino [documentación](../landing-pages/get-started-lp.md).
 
 * **Fragmentos visuales**: los fragmentos visuales son componentes visuales reutilizables a los que se puede hacer referencia en uno o varios envíos de correo electrónico o en plantillas de contenido. La modificación de un fragmento actualiza todo el contenido que lo utiliza. Esta funcionalidad permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados para ensamblar mensajes rápidamente en un proceso de diseño mejorado. [Más información](../content/use-visual-fragments.md).
 
