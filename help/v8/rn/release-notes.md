@@ -59,7 +59,7 @@ Publicadas anteriormente en Disponibilidad limitada, las siguientes funcionalida
 Además de las funciones enumeradas anteriormente, esta versión también incluye un conjunto de funcionalidades disponibles en la consola del cliente:
 
 * [Nuevo conector de envío de SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=es).
-* [API de REST](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [API de REST](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es)
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es){target="_blank"} de la consola del cliente.
 

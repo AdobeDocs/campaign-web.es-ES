@@ -76,7 +76,7 @@ Para garantizar una transición sin problemas a la versión 8 de Campaign, se ha
 
 * **Personalización de marca centralizada**: Adobe Campaign permite que las empresas definan directrices técnicas y visuales de marca. Los usuarios pueden presentar una marca coherente a los clientes, desde logotipos hasta aspectos técnicos como el remitente de correos electrónicos, la URL o los dominios. [Más información](../administration/branding/branding-gs.md).
 
-* **API de REST**: los usuarios migrados de Campaign Standard pueden usar las API de REST para crear integraciones para Adobe Campaign y construir ecosistemas al interconectar Adobe Campaign con otras tecnologías. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
+* **API de REST**: los usuarios migrados de Campaign Standard pueden usar las API de REST para crear integraciones para Adobe Campaign y construir ecosistemas al interconectar Adobe Campaign con otras tecnologías. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es){target="_blank"}.
 
 * **Páginas de destino**: las páginas de destino de la versión 8 de Campaign incluyen mejoras para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de destino [documentación](../landing-pages/get-started-lp.md).
 
