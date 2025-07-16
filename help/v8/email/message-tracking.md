@@ -3,10 +3,10 @@ audience: end-user
 title: Seguimiento de mensajes
 description: Obtenga información sobre cómo añadir vínculos y rastrear los mensajes enviados
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '568'
+ht-degree: 21%
 
 ---
 
@@ -31,10 +31,6 @@ Para insertar vínculos en el contenido del correo electrónico, siga estos paso
    ![Captura de pantalla que muestra la interfaz para insertar vínculos en la herramienta de seguimiento de mensajes](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL Vínculo externo]**: inserte un vínculo a una dirección URL externa.
-
-     >[!AVAILABILITY]
-     >
-     >Las siguientes capacidades (vínculo a **[!UICONTROL página de aterrizaje]**, **[!UICONTROL vínculo de suscripción]** y **[!UICONTROL vínculo de baja]**) están en disponibilidad limitada (LA). Están restringidos a los clientes que migran **de Adobe Campaign Standard a Adobe Campaign v8** y no se pueden implementar en ningún otro entorno.
 
    * **[!UICONTROL Página de aterrizaje]**: inserte un vínculo a una página de aterrizaje. Si selecciona una página de aterrizaje dinámica (con la opción **[!UICONTROL Service from URL]** seleccionada), puede seleccionar cualquier servicio de la lista. [Más información](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
