@@ -3,9 +3,9 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Notas de la versión de la interfaz de usuario web de Campaign 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 * **Captcha en páginas de destino**: ahora puede añadir captcha para proteger su página de destino contra spam y abusos causados por bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. [Más información](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notas de la versión de julio {#24-7-release}
@@ -254,7 +254,7 @@ Tenga en cuenta que esta función se encuentra en **Disponibilidad limitada** (L
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y generar su propio ecosistema interconectando Adobe Campaign con el panel de tecnologías que emplea. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es)
 
-* **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](../reporting/dynamic-reporting/get-started-reporting.md)
+* **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](../reporting/dynamic-reporting/get-started-reporting.md)
 
 * **Páginas de destino**: las siguientes mejoras para las páginas de destino solo están disponibles para los usuarios que realizan la transición desde Campaign Standard:
 

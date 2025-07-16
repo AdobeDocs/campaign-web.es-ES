@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -232,9 +232,9 @@ ht-degree: 97%
          + [Informe global de push](reporting/global-report-push.md)
          + [Informe global de SMS](reporting/global-report-sms.md)
          + [Informe global de correo directo](reporting/global-report-direct.md)
-   + Creación de informes dinámicos {#dynamic-reporting}
+   + Sistema de informes dinámicos {#dynamic-reporting}
       + [Introducción a los informes dinámicos](reporting/dynamic-reporting/get-started-reporting.md)
-      + Acerca de los informes {#about-reporting}
+      + Acerca del sistema de informes {#about-reporting}
          + [Acerca de los informes dinámicos](reporting/dynamic-reporting/about-dynamic-reports.md)
          + [Interfaz de informes](reporting/dynamic-reporting/reporting-interface.md)
          + [Lista de componentes](reporting/dynamic-reporting/list-of-components.md)
@@ -257,14 +257,14 @@ ht-degree: 97%
          + [Adición de visualizaciones](reporting/dynamic-reporting/adding-visualizations.md)
          + [Adición de componentes](reporting/dynamic-reporting/adding-components.md)
          + [Creación de una dimensión de perfil personalizada](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [Acuerdo de uso de creación de informes dinámicos](reporting/dynamic-reporting/pii-agreement.md)
+         + [Acuerdo de uso del sistema de informes dinámicos](reporting/dynamic-reporting/pii-agreement.md)
 + Integraciones {#integrations}
    + [Trabajar con otras soluciones de Adobe](integrations/integration.md)
    + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuración {#conf}
    + Promoción de la marca {#branding}
-      + [Acerca de la marca](administration/branding/branding-gs.md)
+      + [Acerca de la promoción de la marca](administration/branding/branding-gs.md)
       + [Configurar una marca](administration/branding/branding-configure.md)
       + [Asignar una marca](administration/branding/branding-assign.md)
    + [Trabajo con reglas empresariales (tipologías)](administration/typologies.md)
