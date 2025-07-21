@@ -4,14 +4,18 @@ description: Analice el éxito de sus campañas en informes dinámicos integrado
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '291'
 ht-degree: 14%
 
 ---
 
 # Introducción a la creación de informes dinámicos {#get-started-reporting}
+
+>[!AVAILABILITY]
+>
+>Esta capacidad solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics.
 
