@@ -3,10 +3,10 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push
 description: Obtenga información sobre cómo diseñar una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 43%
+source-wordcount: '1632'
+ht-degree: 42%
 
 ---
 
@@ -143,6 +143,7 @@ Las opciones avanzadas dependen del sistema operativo móvil: Android o iOS. Exa
 | **[!UICONTROL Recuento de notificaciones]** | Establezca un número que se mostrará directamente en el icono de la aplicación, indicando la cantidad de información nueva no leída. Esto proporciona una referencia visual rápida para el usuario. |
 | **[!UICONTROL Volumen]** | Volumen de su sonido de 0 a 100. |
 | **[!UICONTROL Contenido mutable]** | Active esta opción para permitir que la aplicación móvil descargue contenido multimedia asociado a la notificación. Para obtener más información, consulte la [documentación para desarrolladores de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). |
+| **[!UICONTROL Contenido disponible]** | Active esta opción para permitir que la notificación almacene en déclencheur las actualizaciones en segundo plano en los dispositivos iOS, incluso cuando la aplicación no esté abierta de forma activa. Esto garantiza que el contenido, como los mensajes o las actualizaciones de datos, se pueda procesar y almacenar en la bandeja de entrada de la aplicación sin que sea necesaria la interacción del usuario. Cuando se selecciona, el indicador `content-available: 1` se agrega a la carga útil `aps` de conformidad con los estándares del servicio de notificaciones push de Apple (APNS). |
 | **[!UICONTROL Puntuación de relevancia]** | Establezca una puntuación de relevancia de 0 a 100 para priorizar el orden de las notificaciones en el resumen de notificaciones. Las puntuaciones más altas indican notificaciones más importantes. |
 | **[!UICONTROL Nivel de interrupción]** | <ul> <li>**[!UICONTROL Activo]**: de forma predeterminada, el sistema presenta la notificación inmediatamente, enciende la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li>**[!UICONTROL Pasivo]**: el sistema agrega la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li>**[!UICONTROL Con distinción de tiempo]**: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere permisos especiales de Apple.</li> <li>**[!UICONTROL Crítico]**: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.</ul> |
 | **[!UICONTROL Id. de subproceso]** | Identificador utilizado para agrupar las notificaciones relacionadas. Las notificaciones con el mismo ID de hilo se organizan como una sola conversación o hilo en la lista de notificaciones. |

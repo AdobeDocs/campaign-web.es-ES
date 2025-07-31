@@ -3,9 +3,9 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push enriquecidas de iOS
 description: Aprenda a diseñar una entrega de notificaciones push enriquecidas con iOS con Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1625'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Antes de diseñar una notificación push enriquecida, debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para ver el procedimiento detallado.
+>Antes de diseñar una notificación push enriquecida, debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para ver el procedimiento detallado.
 
 ## Definición del contenido de la notificación {#push-message}
 
@@ -203,6 +203,7 @@ Una vez definido el contenido del mensaje, utilice los suscriptores de prueba pa
 | Parámetro | Descripción |
 |-----------|-------------|
 | **[!UICONTROL Contenido mutable]** | Active esta opción para permitir que la aplicación móvil descargue contenido multimedia. |
+| **[!UICONTROL Contenido disponible]** | Active esta opción para permitir que la notificación almacene en déclencheur las actualizaciones en segundo plano en los dispositivos iOS, incluso cuando la aplicación no esté abierta de forma activa. Esto garantiza que el contenido, como los mensajes o las actualizaciones de datos, se pueda procesar y almacenar en la bandeja de entrada de la aplicación sin que sea necesaria la interacción del usuario. Cuando se selecciona, el indicador `content-available: 1` se agrega a la carga útil `aps` de conformidad con los estándares del servicio de notificaciones push de Apple (APNS). |
 | **[!UICONTROL Puntuación de relevancia]** | Establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones. |
 | **[!UICONTROL Nivel de interrupción]** | <ul><li>**Activo**: de forma predeterminada, el sistema presenta la notificación inmediatamente, enciende la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de enfoque.</li><li>**Pasivo**: el sistema agrega la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de enfoque.</li><li>**Con distinción de tiempo**: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y rompe los modos de enfoque. Este nivel no requiere permisos especiales de Apple.</li><li>**Crítico**: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.</li></ul> |
 | **[!UICONTROL Id. de subproceso]** | Establezca el identificador utilizado para agrupar las notificaciones relacionadas. |
