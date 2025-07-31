@@ -3,9 +3,9 @@ audience: end-user
 title: Notificación push con el asistente de IA
 description: Introducción al asistente de IA
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
@@ -39,7 +39,7 @@ En el siguiente ejemplo, el asistente de IA se aprovecha para crear mensajes atr
 
    ![Captura de pantalla que muestra la interfaz de la biblioteca Prompt](assets/push-genai-2.png){zoomable="yes"}
 
-1. Elija el campo que desea generar: **[!UICONTROL Título]**, **[!UICONTROL Mensaje]** o **[!UICONTROL Imagen]**.
+1. Elija el campo que desea generar: **[!UICONTROL Título]**, **[!UICONTROL Subtítulo]**, **[!UICONTROL Mensaje]** o **[!UICONTROL Imagen]**.
 
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de texto]**:
 
@@ -63,7 +63,13 @@ En el siguiente ejemplo, el asistente de IA se aprovecha para crear mensajes atr
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](../content/brands-score.md).
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -75,10 +81,10 @@ En el siguiente ejemplo, el asistente de IA se aprovecha para crear mensajes atr
 
    ![Captura de pantalla que muestra las opciones de refinamiento](assets/push-genai-5.png){zoomable="yes"}
 
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](../content/brands.md).
+
 1. Haz clic en **[!UICONTROL Seleccionar]** cuando encuentres el contenido apropiado.
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos del perfil. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
-
-   ![Captura de pantalla que muestra el botón Simular contenido](assets/push-genai-6.png){zoomable="yes"}
 
 Al definir el contenido, la audiencia y la programación, prepare su envío push. [Más información](../monitor/prepare-send.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: Contenido generativo
 description: Introducción al asistente de IA
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1624'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
-></br>
+>></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
@@ -54,7 +54,7 @@ En el siguiente ejemplo, aproveche el asistente de IA en Adobe Campaign Web para
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
    * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
 
-   ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+   ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
@@ -64,15 +64,21 @@ En el siguiente ejemplo, aproveche el asistente de IA en Adobe Campaign Web para
    * **[!UICONTROL Iluminación]**: modifique la iluminación de la imagen para dar forma a su atmósfera y resaltar elementos específicos.
    * **[!UICONTROL Composición]**: organice los elementos dentro del marco de la imagen.
 
-   ![Captura de pantalla que muestra las opciones de configuración de imagen en Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
-
 1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Recursos de marca cargados]**. Cambie los recursos que desee incluir en la generación.
 
+   ![Captura de pantalla que muestra las opciones de configuración de marcas en Adobe Campaign Web](assets/full-email-3.png){zoomable="yes"}
+
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](../content/brands-score.md).
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -83,11 +89,11 @@ En el siguiente ejemplo, aproveche el asistente de IA en Adobe Campaign Web para
 
    ![Captura de pantalla que muestra las opciones de refinamiento en Adobe Campaign Web](assets/full-email-5.png){zoomable="yes"}
 
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](../content/brands.md).
+
 1. Haz clic en **[!UICONTROL Seleccionar]** cuando encuentres el contenido apropiado.
 
 1. Inserte campos de personalización para personalizar el contenido del correo electrónico en función de los datos del perfil. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y comprobar la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
-
-   ![Captura de pantalla que muestra el botón de simular contenido en Adobe Campaign Web](assets/full-email-6.png){zoomable="yes"}
 
 Al definir el contenido, la audiencia y la programación, prepare su envío por correo electrónico. [Más información](../monitor/prepare-send.md)
 
@@ -117,7 +123,7 @@ En el siguiente ejemplo, aproveche el asistente de IA para mejorar el contenido 
    * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
    * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
-   ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/text-genai-3.png){zoomable="yes"}
+   ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
 
@@ -125,7 +131,13 @@ En el siguiente ejemplo, aproveche el asistente de IA para mejorar el contenido 
 
 1. Una vez que la solicitud esté lista, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
+
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
+
+   Más información sobre [puntuación de alineación de marca](../content/brands-score.md).
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Vaya a la opción **[!UICONTROL Refinar]** en la ventana de **[!UICONTROL vista previa]** para obtener acceso a características de personalización adicionales:
 
@@ -137,7 +149,9 @@ En el siguiente ejemplo, aproveche el asistente de IA para mejorar el contenido 
 
    También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
-   ![Captura de pantalla que muestra las opciones de refinamiento en Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
+   ![Captura de pantalla que muestra las opciones de refinamiento en Adobe Campaign Web](assets/text-genai-5.png){zoomable="yes"}
+
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](../content/brands.md).
 
 1. Haz clic en **[!UICONTROL Seleccionar]** cuando encuentres el contenido apropiado.
 
@@ -171,14 +185,14 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de imagen]**:
 
-   * **[!UICONTROL Proporción de aspecto]**: determine la anchura y la altura del recurso. Elija entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o introduzca un tamaño personalizado.
+   * **[!UICONTROL Proporción de aspecto]**: determine la anchura y la altura del recurso. Elija entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o indique un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Categorice la naturaleza del elemento visual y distinga entre distintas formas de representación visual, como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: controla el impacto de la imagen ajustando su intensidad. Un ajuste más bajo (2) crea un aspecto más suave, mientras que un ajuste más alto (10) hace que la imagen sea más vibrante.
    * **[!UICONTROL Color y tono]**: ajusta el aspecto general de los colores y el estado de ánimo o atmósfera transmitidos.
    * **[!UICONTROL Iluminación]**: modifique la iluminación de la imagen para dar forma a su atmósfera y resaltar elementos específicos.
    * **[!UICONTROL Composición]**: organice los elementos dentro del marco de la imagen.
 
-   ![Captura de pantalla que muestra las opciones de configuración de imagen en Adobe Campaign Web](assets/image-genai-3.png){zoomable="yes"}
+   ![Captura de pantalla que muestra las opciones de configuración de imagen en Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
 1. En el menú **[!UICONTROL Brand assets]**, haga clic en **[!UICONTROL Cargar recurso de marca]** para agregar cualquier recurso de marca que proporcione contexto adicional al Asistente de IA o seleccione uno cargado anteriormente.
 
@@ -186,15 +200,17 @@ En el siguiente ejemplo, aprenda a aprovechar el asistente de IA para optimizar 
 
 1. Una vez que esté satisfecho con la configuración de la solicitud, haga clic en **[!UICONTROL Generar]**.
 
-1. Examine **[!UICONTROL sugerencias de variación]** para encontrar el recurso deseado.
+1. Examine las **[!UICONTROL variaciones]** generadas y haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada o en **[!UICONTROL Aplicar]** para reemplazar el contenido actual.
 
-   Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
 
-   ![Captura de pantalla que muestra sugerencias de variación para la generación de imágenes en Adobe Campaign Web](assets/image-genai-5.png){zoomable="yes"}
+   Más información sobre [puntuación de alineación de marca](../content/brands-score.md).
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Elija **[!UICONTROL Generar]** similar si desea ver imágenes relacionadas con esta variante.
 
-   ![Captura de pantalla que muestra una opción similar de generación en Adobe Campaign Web](assets/image-genai-6.png){zoomable="yes"}
+1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](../content/brands.md).
 
 1. Haz clic en **[!UICONTROL Seleccionar]** cuando encuentres el contenido apropiado.
 

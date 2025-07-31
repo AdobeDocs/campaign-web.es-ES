@@ -2,20 +2,15 @@
 audience: end-user
 title: Administrar marca
 description: Aprenda a crear y administrar las directrices de marca
-badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
 
 # Crear y administrar sus marcas {#brands}
-
->[!AVAILABILITY]
->
->Esta capacidad se presenta como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en próximas versiones.
 
 Las directrices de marca son un conjunto completo de reglas y estándares que definen la identidad visual y verbal de una marca. Sirven como referencia para garantizar una representación de marca coherente en todos los canales de marketing y comunicación.
 
@@ -25,7 +20,7 @@ En [!DNL Adobe Campaign Web], los usuarios pueden escribir y organizar manualmen
 
 Para acceder al menú **[!UICONTROL Marcas]** en [!DNL Adobe Campaign Web], los usuarios deben tener asignados los perfiles de producto **[!UICONTROL Administrador (administrador)]** y **[!UICONTROL Kit de marca]** para crear y administrar marcas. Para obtener acceso de solo lectura, los usuarios necesitan el perfil de producto [!UICONTROL Asistente de IA].
 
-[Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Aprenda a asignar permisos relacionados con la marca
 

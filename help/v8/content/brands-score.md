@@ -2,19 +2,18 @@
 audience: end-user
 title: Alineación con la marca
 description: Aprenda a crear, validar y administrar contenido de marca mediante la puntuación de marca.
-badge: label="Beta" type="Informative"
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 5%
 
 ---
 
-# Alineación de marca (Beta){#brands-score}
+# Alineación con la marca {#brands-score}
 
 >[!AVAILABILITY]
 >
->Esta capacidad se presenta como una versión beta privada. Estará disponible de forma progresiva para todos los clientes en futuras versiones.
 >Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente para IA. Para obtener más información, póngase en contacto con su representante Adobe.
 
 La función Alineación de marca se ha creado para ayudarle a crear, revisar y administrar contenido que se ajuste a las directrices de marca. Garantiza coherencia en el tono, la mensajería y la identidad visual en todas las campañas de correo electrónico, a la vez que sirve como una comprobación de calidad antes de que el contenido se publique.
