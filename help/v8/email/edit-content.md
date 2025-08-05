@@ -36,7 +36,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="Añadir idiomas"
->abstract="En esta pestaña, encontrará una lista de idiomas en los que se va a realizar el envío. Para añadir más idiomas, haga clic en el botón Añadir idioma o duplique otro idioma con esta pestaña."
+>abstract="En esta pestaña, encontrará una lista de idiomas en los que se va a realizar el envío. Para añadir más idiomas, haga clic en el botón Añadir idioma o duplique otro idioma desde esta pestaña."
 
 La pantalla del correo electrónico **[!UICONTROL Editar contenido]** le permite:
 
@@ -129,7 +129,7 @@ Para crear variantes de idioma, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >El botón **[!UICONTROL Agregar idioma]** solo está disponible si la dimensión de destino contiene el esquema de idioma. Para obtener más información sobre los esquemas y las dimensiones de Target, consulte la [documentación detallada](https://experienceleague.adobe.com/es/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >El botón **[!UICONTROL Agregar idioma]** solo está disponible si la dimensión de destino contiene el esquema de idioma. Para obtener más información sobre los esquemas y las dimensiones de Target, consulte la [documentación detallada](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Para crear variantes de idioma, siga estos pasos:
 
    >[!NOTE]
    >
-   >Los idiomas disponibles a través de esta lista dependen de los valores definidos por el atributo Language (valores como: system, user, dbenum, etc.) Obtenga más información acerca de la administración de la enumeración en esta [sección](https://experienceleague.adobe.com/es/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >Los idiomas disponibles a través de esta lista dependen de los valores definidos por el atributo Language (valores como: system, user, dbenum, etc.) Obtenga más información acerca de la administración de la enumeración en esta [sección](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

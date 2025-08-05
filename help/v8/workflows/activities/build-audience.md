@@ -14,7 +14,7 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="Actividad generar público"
+>title="Actividad Crear público"
 >abstract="La actividad **Generar público** le permite definir la actividad que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar publico**."
 
 La actividad **Generar público destinatario** es una actividad de **Segmentación**. Esta actividad le permite definir el público destinatario que entrará en el flujo de trabajo. Al enviar mensajes en el contexto de un flujo de trabajo, el público del mensaje no se define en la actividad del canal, sino en la actividad **Generar publico**.
