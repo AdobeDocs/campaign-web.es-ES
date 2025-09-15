@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
-source-wordcount: '909'
-ht-degree: 100%
+source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 99%
 
 ---
 
@@ -88,9 +88,9 @@ ht-degree: 100%
       + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
    + Alertas de envío {#delivery-alerting}
       + [Introducción a las alertas de envío](msg/delivery-alerting.md)
-      + [Paneles de alertas de envío](msg/delivery-alerting-dashboards.md)
+      + [Paneles de control de alertas de envío](msg/delivery-alerting-dashboards.md)
       + [Criterios de alertas de envío](msg/delivery-alerting-criteria.md)
-+ Gestión de contenido {#content}
++ Administración de contenido {#content}
    + Creación de contenido dinámico {#dynamic-content}
       + [¿Cómo hacer que su contenido sea dinámico?](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)
@@ -122,6 +122,8 @@ ht-degree: 100%
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
          + [Añadir CSS personalizado](email/custom-css.md)
+         + [Administrar contenido en modo oscuro](email/dark-mode.md)
+      + [Creación de contenido accesible](email/accessible-content.md)
    + Asistente de IA {#ai-assistant}
       + [Trabajo con el Asistente de IA](email/generative-gs.md)
       + [Generación de correo electrónico con IA](email/generative-content.md)
