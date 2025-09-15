@@ -160,7 +160,7 @@ Ahora puede seleccionar estos mensajes al [crear un servicio de suscripción](#c
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Evolución general de suscripciones"
->abstract="Este gráfico muestra el desglose por periodo, incluidas las suscripciones, bajas, la evolución en números y el porcentaje de fidelidad."
+>abstract="Este gráfico muestra el desglose por periodo, incluidas las suscripciones, bajas, la evolución en números y el porcentaje de lealtad."
 
 Para medir la eficacia de sus servicios de suscripción para canales de correo electrónico y SMS, acceda a los registros e informes de un servicio determinado.
 

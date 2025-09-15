@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selección del tipo de segmentación"
->abstract="Seleccione cómo combinar audiencias. La **Unión** reagrupa el resultado de varias actividades en un solo destinatario. La **Intersección** solo mantiene los elementos comunes a las diferentes poblaciones entrantes de la actividad. La **Exclusión** excluye los elementos de una población según determinados criterios."
+>abstract="Seleccione cómo combinar públicos. La **Unión** reagrupa el resultado de varias actividades en un solo destinatario. La **Intersección** solo mantiene los elementos comunes a las diferentes poblaciones entrantes de la actividad. La **Exclusión** excluye los elementos de una población según determinados criterios."
 
 Siga estos pasos comunes para configurar la actividad **Combine**:
 

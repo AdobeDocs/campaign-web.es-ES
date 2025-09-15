@@ -10,33 +10,33 @@ ht-degree: 22%
 
 ---
 
-# Paneles de alertas de envío {#delivery-alerting-dashboards}
+# Paneles de control de alertas de envío {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
->title="Paneles de alertas de envío"
->abstract="Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos. Los paneles de alertas de envío le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
+>title="Paneles de control de alertas de envío"
+>abstract="Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos. Los paneles de control de alertas de envío le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
 
 Los paneles de alertas de entrega le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellos desde el menú **Alerta de entrega** del panel de navegación izquierdo, en la pestaña **Paneles**.
 
 ![Captura de pantalla que muestra la lista de paneles de alertas en el menú Alerta de entrega.](assets/alerting-dashboard-list.png)
 
-## Crear un panel de envíos {#dashboards}
+## Crear un panel de control de envíos {#dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delery_alerting_dashboard_create"
->title="Crear panel de alertas de envío"
->abstract="La creación de un panel de alertas de envío permite especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
+>title="Crear panel de control de alertas de envío"
+>abstract="La creación de un panel de control de alertas de envío permite especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
 >title="Parámetros generales de alertas de envío"
->abstract="Especifique las propiedades generales del panel de alertas de envío. El campo **Seleccionar grupo de alertas** permite especificar el **grupo de operadores** que recibirá las alertas enviadas por este panel."
+>abstract="Especifique las propiedades generales del panel de control de alertas de envío. El campo **Seleccionar grupo de alertas** permite especificar el **grupo de operadores** que recibirá las alertas enviadas por este panel de control."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
 >title="Criterios de alertas de envío"
->abstract="En esta sección, añada los criterios que desee utilizar para enviar alertas desde este panel. Elija entre los criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas."
+>abstract="En esta sección, añada los criterios que desee utilizar para enviar alertas desde este panel de control. Elija entre los criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
@@ -91,7 +91,7 @@ El panel de alertas se abre con datos en blanco. Cuando esté listo para activar
 
 Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se envía una notificación de alerta al grupo de operadores especificado.
 
-## Administrar paneles de alertas
+## Administrar paneles de control de alertas
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_alerts"
@@ -101,7 +101,7 @@ Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
 >title="Historial de alertas de envío"
->abstract="El panel **Historial** contiene todas las alertas enviadas desde este panel. Haga clic en un elemento para acceder a las alertas correspondientes enviadas en ese momento concreto."
+>abstract="El panel de control **Historial** contiene todas las alertas enviadas desde este panel de control. Haga clic en un elemento para acceder a las alertas correspondientes enviadas en ese momento concreto."
 
 Se puede acceder a todos los paneles de alertas creados desde el menú **Alerta de entrega**, en la pestaña **Paneles**.
 

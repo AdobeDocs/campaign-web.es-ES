@@ -23,7 +23,7 @@ Para acceder y administrar sus campañas, haga clic en el menú **[!UICONTROL Ca
 
 En la lista de campañas, hay dos pestañas disponibles:
 
-* La pestaña **Examinar** enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel o crear una nueva campaña haciendo clic en el botón **Crear campaña**. Consulte esta [sección](create-campaigns.md#create-campaigns).
+* La pestaña **Examinar** enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel de control o crear una nueva campaña haciendo clic en el botón **Crear campaña**. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
 * La pestaña **Plantillas** contiene todas las plantillas de campaña disponibles. Puede ver una plantilla existente o crear una nueva. [Más información](#manage-campaign-templates).
 
@@ -39,7 +39,7 @@ Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de fil
 
 ![Descripción: el panel de filtro muestra las opciones para filtrar campañas por fechas de inicio y finalización](assets/campaign-filter-on-dates.png)
 
-## Panel de campañas {#campaign-dashboard}
+## Panel de control de campañas {#campaign-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"

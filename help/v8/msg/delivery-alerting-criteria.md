@@ -14,8 +14,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Panel de criterios de alertas de envío"
->abstract="La interfaz de usuario web de Campaign proporciona criterios de alertas predefinidos (envíos con bajo rendimiento, envíos cuya preparación ha fallado...) que puede añadir a su panel. También puede crear sus propios criterios para adaptarlos a sus necesidades."
+>title="Panel de control de criterios de alertas de envío"
+>abstract="La interfaz de usuario web de Campaign proporciona criterios de alertas predefinidos (envíos con bajo rendimiento, envíos cuya preparación ha fallado...) que puede añadir a su panel de control. También puede crear sus propios criterios para adaptarlos a sus necesidades."
 
 La interfaz de usuario web de Campaign proporciona criterios de alerta predefinidos, como envíos con bajo rendimiento o envíos cuya preparación ha fallado, que puede añadir al panel. También puede crear sus propios criterios para adaptarlos a sus necesidades.
 
