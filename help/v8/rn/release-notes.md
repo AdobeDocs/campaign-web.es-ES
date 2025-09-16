@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 875e60defa2d96a6d7b3663516b757f3cc8cd154
+source-git-commit: a10ec6bf3ec5675d62d4031660d5196babd55403
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 63%
+source-wordcount: '221'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 63%
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 Los cambios y mejoras disponibles con las versiones anteriores se listan en las páginas de [2024](release-notes-24.md) y [2025](release-notes-25.md).
+
+## Actualizaciones del 25 de septiembre {#25-9-updates}
+
+Se ha publicado la siguiente mejora:
+
+* Se ha añadido un conjunto de nuevos operadores al configurar una condición mediante la capacidad de contenido condicional de Email Designer.
 
 ## Versión de agosto de 2025 {#25-8-release}
 
