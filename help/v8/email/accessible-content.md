@@ -27,6 +27,7 @@ En esta página se trata de poner el contenido a disposición de todos los desti
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
+
 ## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
