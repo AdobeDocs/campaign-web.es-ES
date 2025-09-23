@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede previsualizar cómo se puede procesar y definir ajustes personalizados específicos. <br>El procesamiento final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro personalizado."
+>abstract="Cambie al modo oscuro, donde puede obtener una vista previa del renderizado y definir ajustes personalizados específicos. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>El procesamiento final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro."
+>abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro."
 
 Al diseñar los mensajes de correo electrónico, [!DNL Adobe Campaign] [Email Designer](get-started-email-designer.md) le permite cambiar a la vista **[!UICONTROL Modo oscuro]**.
 
@@ -138,7 +138,7 @@ Significa que detecta áreas con elementos claros y oscuros y los invierte, de m
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utilizar una imagen específica para el modo oscuro"
->abstract="Puede seleccionar otra imagen que se mostrará cuando el modo oscuro esté activado. <br>Añadir una imagen específica para el modo oscuro no garantiza que se represente correctamente en todos los clientes de correo electrónico. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro personalizado."
+>abstract="Puede seleccionar otra imagen que se mostrará cuando el modo oscuro esté activado. <br>Añadir una imagen específica para el modo oscuro no garantiza que se renderice correctamente en todos los clientes de correo electrónico. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 Después de cambiar a **[!UICONTROL Modo oscuro]**, puede elegir editar elementos de estilo específicos de su contenido que se mostrarán solo cuando el modo oscuro esté habilitado en el cliente de correo electrónico del destinatario, siempre que admita esa función.
 
