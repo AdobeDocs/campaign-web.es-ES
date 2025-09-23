@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 2835c114-0878-4c41-9071-165d71840941
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 30%
@@ -200,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451610?quality=12&captions=spa)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->
