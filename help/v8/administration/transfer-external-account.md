@@ -12,7 +12,7 @@ ht-degree: 29%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Captura de pantalla que muestra los campos de configuración de cuenta externa de Amazon Simple Storage Service S3.](assets/external-AWS.png)
 
@@ -42,7 +42,7 @@ Para saber dónde encontrar el ID de clave de acceso y la clave de acceso secret
 
 ## Azure Blob Storage {#azure-blob-external-account}
 
-La cuenta externa **[!UICONTROL Azure Blob Storage]** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transferir archivo]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
+La cuenta externa **[!UICONTROL Azure Blob Storage]** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transferir archivo]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}.
 
 ![Captura de pantalla que muestra los campos de configuración de cuenta externa de Azure Blob Storage.](assets/external-azure.png)
 
