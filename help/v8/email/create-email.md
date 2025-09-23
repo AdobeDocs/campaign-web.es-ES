@@ -3,7 +3,7 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 44%
@@ -19,7 +19,7 @@ ht-degree: 44%
 
 Aprenda a crear su primer correo electrónico de destino. En este caso de uso, se programa el envío de un correo electrónico a los miembros socios plata y oro en una fecha específica.
 
-En función de una [plantilla de diseño](../email/create-email-templates.md) predefinida, el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
+En función de una [plantilla de diseño](../content/create-email-templates.md) predefinida, el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -89,7 +89,7 @@ Encontrará instrucciones adicionales sobre cómo trabajar con públicos en [est
 
    >[!NOTE]
    >
-   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración de destino y Source en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Aprenda a trabajar con Campaign y Adobe Experience Platform en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=es){target="_blank"}.
+   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración de destino y Source en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Aprenda a trabajar con Campaign y Adobe Experience Platform en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Una vez seleccionado el público, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
 
@@ -117,7 +117,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 1. Para diseñar el contenido del correo electrónico, haga clic en el botón **[!UICONTROL Editar cuerpo del correo electrónico]**.
 
-   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, use [una plantilla de contenido predefinida](create-email-templates.md).
+   Elija el método que desee utilizar para crear el contenido del correo electrónico. En este ejemplo, use [una plantilla de contenido predefinida](../content/create-email-templates.md).
 
    ![Captura de pantalla que muestra la selección de una plantilla de contenido predefinida](assets/select-template.png){zoomable="yes"}
 
@@ -252,4 +252,4 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 Obtenga información sobre cómo crear un envío de correo electrónico desde cero, definir el público, diseñar el contenido, simular la previsualización y enviar una prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454008/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

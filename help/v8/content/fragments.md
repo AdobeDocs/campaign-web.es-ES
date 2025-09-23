@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a los fragmentos de contenido
 description: Aprenda a crear con fragmentos de contenido
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 58%
@@ -30,7 +30,7 @@ Hay dos tipos de fragmentos disponibles:
 
 * **Los fragmentos de expresión** son expresiones predefinidas disponibles en una entrada dedicada del editor de expresiones. Campaign incluye un conjunto de bloques de contenido predefinidos que contienen procesamientos específicos que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. También puede crear sus propios fragmentos de expresiones para adaptarlos a sus necesidades.
 
-* **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios [envíos de correo electrónico](../email/get-started-email-designer.md) o en [plantillas de contenido](../email/use-email-templates.md).
+* **Los fragmentos visuales** son bloques visuales predefinidos que se pueden reutilizar en varios [envíos de correo electrónico](../email/get-started-email-designer.md) o en [plantillas de contenido](../content/use-email-templates.md).
 
   >[!AVAILABILITY]
   >

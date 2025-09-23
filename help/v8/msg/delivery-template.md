@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 19%
@@ -35,7 +35,7 @@ Una plantilla incluye:
 
 >[!NOTE]
 >
->Las plantillas de envío difieren de las [plantillas de contenido](../email/create-email-templates.md), lo que le permite reutilizar solamente el contenido de sus correos electrónicos y comenzar a crear contenido con una de las plantillas de correo electrónico de ejemplo que se proporcionan de forma predeterminada.
+>Las plantillas de envío difieren de las [plantillas de contenido](../content/create-email-templates.md), lo que le permite reutilizar solamente el contenido de sus correos electrónicos y comenzar a crear contenido con una de las plantillas de correo electrónico de ejemplo que se proporcionan de forma predeterminada.
 
 ## Acceso y administración de plantillas de envíos {#access-manage-templates}
 

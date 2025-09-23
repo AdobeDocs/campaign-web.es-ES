@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '454'
+ht-degree: 57%
 
 ---
 
@@ -56,11 +56,12 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 Para crear su propia consulta, siga estos pasos:
 
 1. Seleccione **Crear su propia (consulta)**.
-1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
+1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#targeting)
+1. Seleccione la **dimensión de filtrado** haciendo clic en el icono situado junto a la dimensión de segmentación. La dimensión de filtrado permite aplicar filtros a la población objetivo haciendo referencia a criterios relacionados sin cambiar la dimensión de segmentación principal. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#filtering)
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 
->[!TAB Leer audiencia]
+>[!TAB Leer público]
 
 Para seleccionar un público destinatario existente, siga estos pasos:
 

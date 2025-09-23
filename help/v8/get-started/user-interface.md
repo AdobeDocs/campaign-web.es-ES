@@ -7,8 +7,8 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ En la sección **Administración de campañas**, puede acceder a campañas de ma
 
 * **Campañas**: esta es la lista de sus campañas y plantillas de campaña. De forma predeterminada, para cada campaña se pueden ver las fechas de inicio, finalización, creación y última modificación, el estado actual y el nombre del operador de Campaign que la creó. Puede filtrar la lista por estado, fechas de inicio/finalización, carpeta o crear un filtro avanzado para definir sus propios criterios de filtrado. Obtenga más información acerca de las campañas de [en esta sección](../campaigns/gs-campaigns.md).
 
-* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Puede obtener más información sobre los envíos [en esta sección](../msg/gs-messages.md).
+* **Envíos**: examine la lista de envíos. De forma predeterminada, puede ver su estado, la fecha de la última modificación y los KPI principales. Puede filtrar la lista por estado, fecha de contacto o canal. Haga clic en un envío de correo electrónico para abrir el panel de control y obtener una descripción general de los detalles del envío. Los envíos en otros canales son de solo lectura. Puede obtener más información sobre los envíos [en esta sección](../msg/gs-messages.md).
 
   Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
@@ -119,7 +119,7 @@ En la sección **Administración de campañas**, puede acceder a campañas de ma
 
 En la sección **Administración de contenido**, puede ver las plantillas y fragmentos de contenido.
 
-* **Plantillas de contenido**: para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Esta funcionalidad, que solo está disponible para correos electrónicos, permite a los usuarios orientados a contenido trabajar en plantillas independientes para que los usuarios de marketing puedan reutilizarlas y adaptarlas dentro de sus propias campañas de correo electrónico. Obtenga más información en [esta sección](../email/create-email-templates.md).
+* **Plantillas de contenido**: para un proceso de diseño acelerado y mejorado, puede crear plantillas independientes para reutilizar fácilmente el contenido personalizado en [!DNL Adobe Campaign]. Esta funcionalidad, que solo está disponible para correos electrónicos, permite a los usuarios orientados a contenido trabajar en plantillas independientes para que los usuarios de marketing puedan reutilizarlas y adaptarlas dentro de sus propias campañas de correo electrónico. Obtenga más información en [esta sección](../content/create-email-templates.md).
 
 * **Fragmentos**: un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios envíos de distintas campañas. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. [Aprenda a trabajar con fragmentos](../content/fragments.md)
 

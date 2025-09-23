@@ -3,8 +3,8 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo empezar a crear contenido con el Diseñador de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Al seguir estas prácticas recomendadas, puede ayudar a garantizar que los corre
 
 ## Comience a crear el contenido {#start-authoring}
 
-En el panel de envío de correo electrónico, vaya a la pantalla [Editar contenido](edit-content.md) para abrir la página principal del Diseñador de correo electrónico. A partir de ahí, elija cómo desea diseñar el correo electrónico entre las siguientes opciones:
+En el panel de control de envío de correo electrónico, vaya a la pantalla [Editar contenido](edit-content.md) para abrir la página principal del Diseñador de correo electrónico. A partir de ahí, elija cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
 * **Diseñe su correo electrónico desde cero** mediante la interfaz del diseñador de correo electrónico. Aprenda a diseñar el contenido de su correo electrónico en [esta sección](create-email-content.md).
 
@@ -45,6 +45,6 @@ En el panel de envío de correo electrónico, vaya a la pantalla [Editar conteni
 
 * **Importación de contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido de correo electrónico en [esta sección](existing-content.md).
 
-* **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](create-email-templates.md).
+* **Seleccionar contenido existente** de una lista de plantillas integradas o personalizadas. Aprenda a trabajar con plantillas de correo electrónico en [esta sección](../content/create-email-templates.md).
 
   ![Opciones disponibles en la interfaz del Diseñador de correo electrónico para crear correo electrónico contenido](assets/email_designer_create_options.png){zoomable="yes"}

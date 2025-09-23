@@ -3,7 +3,7 @@ audience: end-user
 title: Crear fragmentos de contenido
 description: Aprenda a crear fragmentos de contenido
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 22%
@@ -70,7 +70,7 @@ Para crear un fragmento de contenido desde cero, siga los pasos a continuación.
 
 1. Una vez que el contenido esté listo, haga clic en **Guardar**.
 
-El fragmento de contenido ya está listo para usarse al crear cualquier entrega o [plantilla de contenido](../email/use-email-templates.md) en Campaign. Aprenda a utilizar fragmentos visuales y de expresión en estas secciones:
+El fragmento de contenido ya está listo para usarse al crear cualquier entrega o [plantilla de contenido](../content/use-email-templates.md) en Campaign. Aprenda a utilizar fragmentos visuales y de expresión en estas secciones:
 * [Añadir fragmentos visuales a los correos electrónicos](use-visual-fragments.md)
 * [Añadir fragmentos de expresiones al editor de expresiones](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ El fragmento de contenido ya está listo para usarse al crear cualquier entrega 
 
 <!--pas vu dans l'UI-->
 
-Cualquier contenido del correo electrónico se puede guardar como un fragmento visual para su reutilización futura. Al diseñar una [plantilla de contenido](../email/use-email-templates.md) o un envío de [correo electrónico](../email/get-started-email-designer.md), guarde una parte del contenido como un fragmento visual. Para realizar esto, siga los pasos a continuación:
+Cualquier contenido del correo electrónico se puede guardar como un fragmento visual para su reutilización futura. Al diseñar una [plantilla de contenido](../content/use-email-templates.md) o un envío de [correo electrónico](../email/get-started-email-designer.md), guarde una parte del contenido como un fragmento visual. Para realizar esto, siga los pasos a continuación:
 
 1. En [Email Designer](../email/get-started-email-designer.md), haga clic en el botón **Más** en la parte superior derecha de la pantalla.
 
@@ -103,7 +103,7 @@ Cualquier contenido del correo electrónico se puede guardar como un fragmento v
 
    ![Guardar pantalla de confirmación para fragmentos visuales](assets/fragment-save-confirm.png)
 
-   Este contenido es ahora un fragmento independiente, agregado a la [lista de fragmentos](#manage-fragments) y accesible desde el menú dedicado. Utilice este fragmento al crear cualquier [correo electrónico](../email/get-started-email-designer.md) o [plantilla de contenido](../email/use-email-templates.md) en Campaign. [Descubra cómo](../content/use-visual-fragments.md)
+   Este contenido es ahora un fragmento independiente, agregado a la [lista de fragmentos](#manage-fragments) y accesible desde el menú dedicado. Utilice este fragmento al crear cualquier [correo electrónico](../email/get-started-email-designer.md) o [plantilla de contenido](../content/use-email-templates.md) en Campaign. [Descubra cómo](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

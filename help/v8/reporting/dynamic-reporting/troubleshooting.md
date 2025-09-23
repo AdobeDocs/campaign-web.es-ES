@@ -4,9 +4,9 @@ description: Aquí encontrará preguntas comunes relacionadas con la creación d
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Solución de problemas{#troubleshooting}
 
 En esta sección encontrará preguntas comunes relacionadas con la creación de informes dinámicos.
+
+## ¿En qué idiomas está disponible el sistema de informes dinámico? {#langages}
+
+Actualmente, la creación de informes dinámicos solo está disponible en inglés.
 
 ## Para las aperturas únicas y los clics únicos, el recuento de la fila agregada no coincide con los de las filas individuales {#unique-open-clicks-no-match}
 

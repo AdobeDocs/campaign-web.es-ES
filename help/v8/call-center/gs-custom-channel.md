@@ -1,43 +1,42 @@
 ---
 audience: end-user
-title: Introducción a los canales externos personalizados
-description: Obtenga información sobre cómo crear y enviar envíos de canales externos personalizados con Adobe Campaign Web
-source-git-commit: 7438ce1805cde00cf5b76f05d72bd19d2ef2343a
+title: Introducción a los canales personalizados
+description: Obtenga información sobre cómo crear y enviar envíos de canales personalizados con Adobe Campaign Web
+exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
-# Introducción a los canales externos personalizados {#gs-custom-channel}
+# Introducción a los canales personalizados {#gs-custom-channel}
 
-Puede, directamente desde la interfaz de usuario web de Adobe Campaign, organizar y ejecutar envíos basados en canales externos personalizados integrados con terceros. La creación del canal externo personalizado se realiza en la consola del cliente.
+Puede, directamente desde la interfaz de usuario web de Adobe Campaign, organizar y ejecutar envíos basados en canales personalizados integrados con terceros. La configuración del canal personalizado se realiza en la consola del cliente.
 
-Puede configurar envíos externos de canal personalizado en flujos de trabajo o como envíos independientes, definir la audiencia y generar archivos de exportación personalizables con todos los datos de contacto y personalización necesarios.
+Se admiten dos tipos de canales personalizados, externos y de API. Con canales externos, Campaign genera archivos de exportación personalizables con todos los datos de contacto y personalización necesarios. Con los canales de API, los mensajes se envían a los perfiles de destinatario a través de la API configurada.
 
->[!NOTE]
->
->Los informes no están disponibles en la interfaz de usuario web para las entregas externas del canal personalizado. Debe navegar a la consola del cliente para acceder a los informes.
+Puede añadir envíos de canales personalizados en flujos de trabajo o utilizarlos simplemente como envíos independientes.
 
 Los pasos siguientes detallan el procedimiento para un envío independiente (de una sola toma). La mayoría de los pasos son similares a los envíos del centro de llamadas. Para obtener más información, consulte esta [página](../call-center/create-call-center.md).
 
-Para crear y enviar un nuevo envío externo personalizado independiente, siga estos pasos principales:
+Para realizar un nuevo envío personalizado independiente, siga estos pasos principales:
 
-1. Crear el canal externo personalizado, [leer más](#create-channel)
+1. Configure el canal personalizado [leer más](#create-channel)
 1. Cree la entrega [leer más](#create-delivery)
 1. Defina la audiencia, [leer más](#select-audience)
 1. Editar el contenido, [leer más](#edit-content)
 1. Previsualice y envíe el envío, [leer más](#preview-send)
 
-## Creación del canal externo personalizado{#create-channel}
+## Configuración del canal personalizado{#create-channel}
 
-En primer lugar, debe configurar el canal externo personalizado. Estos son los pasos principales que se deben seguir en la consola del cliente:
+En primer lugar, debe configurar el canal personalizado. Estos son los pasos principales que se deben seguir en la consola del cliente. Estos pasos son comunes a los canales externos y API personalizados:
 
-1. Configure el esquema para añadir el nuevo canal a la lista de canales disponibles.
-1. Cree una nueva cuenta externa de enrutamiento.
-1. Cree una nueva plantilla de envío asociada al nuevo canal.
+1. Configure el esquema para añadir el nuevo canal a la lista de canales disponibles. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#configure-schema){target="_blank"}
+1. Cree una nueva cuenta externa de enrutamiento. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#reate-ext-account){target="_blank"}
+1. Cree una nueva plantilla de envío asociada al nuevo canal. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#create-template){target="_blank"}
 
-Para obtener más información, consulte la [documentación de la consola del cliente](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=es)
+Los canales de API personalizados requieren una configuración adicional. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional){target="_blank"}
 
 ## Creación del envío{#create-delivery}
 
@@ -45,10 +44,9 @@ Siga estos pasos para crear la entrega y configurar sus propiedades:
 
 1. Seleccione el menú **[!UICONTROL Envíos]** y haga clic en el botón **[!UICONTROL Crear envío]**.
 
-1. Elija el canal externo personalizado que desee, seleccione la plantilla asociada y haga clic en **[!UICONTROL Crear envío]** para confirmar.
+1. Elija el canal personalizado que desee, seleccione la plantilla asociada y haga clic en **[!UICONTROL Crear envío]** para confirmar.
 
    ![Captura de pantalla que muestra la creación de un envío personalizado](assets/cus-create.png){zoomable="yes"}
-
 
 1. En **[!UICONTROL Propiedades]**, escriba una **[!UICONTROL Etiqueta]** para la entrega.
 
@@ -58,9 +56,9 @@ Para obtener más información sobre la creación de envíos, consulte la [docum
 
 ## Definición del público{#select-audience}
 
-Ahora, debe definir la audiencia a la que se dirige el archivo de extracción.
+Ahora, debe definir la audiencia a la que desea dirigirse.
 
-1. En la sección **[!UICONTROL Audiencia]** de la página de entrega, haga clic en **[!UICONTROL Seleccionar audiencia]**.
+1. En la sección **[!UICONTROL Audiencia]** del panel de envío, haga clic en **[!UICONTROL Seleccionar audiencia]**.
 
 1. Elija una audiencia existente o cree la suya propia.
 
@@ -70,28 +68,58 @@ Para obtener más información sobre la definición de audiencia, consulte la [d
 
 ## Edición del contenido{#edit-content}
 
-Ahora, vamos a editar el contenido del archivo de extracción que se generará con la entrega del canal personalizado.
+Ahora, vamos a editar el contenido del envío.
 
-1. En la página de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
+>[!BEGINTABS]
+
+>[!TAB Canal externo personalizado]
+
+1. En el panel de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
 
 1. Especifique un **[!UICONTROL nombre de archivo]**, seleccione un **[!UICONTROL formato de archivo]** y agregue tantas columnas como sea necesario para el archivo de extracción.
 
    ![Captura de pantalla que muestra las opciones de configuración de atributos para el archivo de extracción.](assets/cc-content-attributes.png)
 
+>[!TAB Canal de API personalizado]
+
+1. En el panel de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
+
+1. Rellene los campos según sea necesario. Para aprender a configurar esta pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-screen){target="_blank"}.
+
+   ![Captura de pantalla que muestra los atributos y las opciones de configuración para el canal API.](assets/cc-content-attributes-api.png)
+
+>[!ENDTABS]
+
 Para obtener más información sobre la edición de contenido, consulte la [documentación](../call-center/create-call-center.md#edit-content) del centro de llamadas.
 
 ## Previsualización y envío de la entrega{#preview-send}
 
-Cuando el contenido de la entrega está listo, puede previsualizarlo con perfiles de prueba y enviar pruebas. A continuación, puede realizar la entrega para generar el archivo de extracción.
+Cuando el contenido de la entrega está listo, se puede obtener una vista previa con perfiles de prueba. A continuación, puede realizar la entrega para generar el archivo de extracción o enviar el mensaje mediante API.
+
+>[!BEGINTABS]
+
+>[!TAB Canal externo personalizado]
+
+1. En el panel de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
 
 1. En la página de contenido de la entrega, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione perfiles de prueba.
 
    ![Captura de pantalla que muestra la opción de simular contenido en la página de contenido de envío](assets/cus-simulate.png){zoomable="yes"}
 
-1. En la página de entrega, haga clic en **[!UICONTROL Revisar y enviar]** y luego en **[!UICONTROL Preparar]**. A continuación, confirme.
+>[!TAB Canal de API personalizado]
 
-   ![Captura de pantalla que muestra la opción de preparación y el menú de registros](assets/cus-prepare.png){zoomable="yes"}
+1. En el panel de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
 
-1. Haga clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final y confirme.
+1. En la página de contenido de la entrega, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione perfiles de prueba.
+
+1. En el lado derecho, haga clic en **Abrir vista previa**. Esta capacidad debe configurarse con JSSP. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-preview){target="_blank"}.
+
+   ![Captura de pantalla que muestra la opción de simular contenido en la página de entrega de contenido para la API](assets/cus-simulate-api.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+En el panel de entregas, haga clic en **[!UICONTROL Revisar y enviar]** y luego en **[!UICONTROL Preparar]**. A continuación, confirme. Haga clic en **[!UICONTROL Enviar]** para continuar con el proceso de envío final y confirme.
+
+![Captura de pantalla que muestra la opción de preparación y el menú de registros](assets/cus-prepare.png){zoomable="yes"}
 
 Para obtener más información sobre la vista previa y el envío, consulte la [documentación](../call-center/create-call-center.md#preview-send) del centro de llamadas.
