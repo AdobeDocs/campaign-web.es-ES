@@ -3,20 +3,14 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 22%
+source-wordcount: '888'
+ht-degree: 19%
 
 ---
 
 # Trabajar con el modelador de consultas {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Nuevo generador de reglas"
->abstract="Ahora hay disponible un nuevo generador de reglas para definir condiciones complejas en una interfaz de usuario mejorada. Puede cambiar del generador de reglas antiguo al nuevo según sea necesario."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -63,7 +57,7 @@ El modelador de consultas proporciona un lienzo central en el que generar la con
 >[!IMPORTANT]
 >
 >Hay disponible una interfaz completamente nueva para el modelador de consultas. El nuevo generador de reglas le permite crear la consulta con mayor facilidad gracias a su interfaz simplificada. Para cambiar a esta experiencia, pulse el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->&#x200B;>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
