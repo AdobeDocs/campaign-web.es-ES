@@ -3,7 +3,7 @@ audience: end-user
 title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -18,13 +18,13 @@ La mayoría de los vínculos del menú de navegación izquierdo muestran listas 
 
 Las listas se muestran en columnas. Puede mostrar información adicional cambiando la configuración de la columna. Para ello, haga clic en el icono **Configurar la columna para un diseño personalizado** en la esquina superior derecha de la lista.
 
-[La captura de pantalla muestra el icono Configurar columna, utilizado para personalizar el diseño de columnas de lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La captura de pantalla muestra el icono Configurar columna, utilizado para personalizar el diseño de columnas de lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 En la pantalla **Configuración de columnas**, agregue o quite columnas, y cambie el orden en el que se muestran.
 
 Puede cambiar el orden de la lista mediante **arrastrar y soltar** o usando las **flechas arriba y abajo**, tal como se muestra a continuación:
 
-[La captura de pantalla muestra cómo reordenar columnas de lista mediante los botones de arrastrar y soltar o de flecha.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La captura de pantalla muestra cómo reordenar columnas de lista mediante los botones de arrastrar y soltar o de flecha.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 Por ejemplo, para esta configuración:
 
@@ -32,7 +32,7 @@ Por ejemplo, para esta configuración:
 
 La lista muestra las siguientes columnas:
 
-[La captura de pantalla muestra la lista resultante con columnas configuradas según la configuración de ejemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La captura de pantalla muestra la lista resultante con columnas configuradas según la configuración de ejemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Ordenar datos {#sort-lists}
 
@@ -44,7 +44,7 @@ Para las columnas numéricas o de fecha, la flecha **Arriba** indica que la list
 
 Para buscar elementos más rápidamente, utilice la barra de búsqueda o filtros personalizados e integrados para adaptar la lista según criterios contextuales.
 
-[La captura de pantalla muestra las opciones de filtro disponibles para perfeccionar la vista de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[La captura de pantalla muestra las opciones de filtro disponibles para perfeccionar la vista de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 Encontrará información detallada sobre cómo utilizar los filtros y crear los suyos personalizados en [esta sección](../query/filter.md).
 
