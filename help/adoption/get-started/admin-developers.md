@@ -47,7 +47,7 @@ La consola del cliente de Campaign es una aplicación nativa que se comunica con
 
 En el siguiente vídeo se explica cómo descargar e instalar la consola del cliente de Adobe Campaign y administrar la conexión con la instancia.
 
->[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449884?quality=12&learn=on&captions=spa){transcript=true}
 
 Para obtener más información, consulte [Conectarse a Campaign con la consola del cliente](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
@@ -57,7 +57,7 @@ Tenga en cuenta que la consola de cliente debe instalarse en un entorno compatib
 
 Obtenga información acerca de la interfaz de usuario de Adobe Campaign v8 y cómo navegar por las funciones principales con este vídeo tutorial.
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426436?quality=12&learn=on&captions=spa){transcript=true}
 
 Consulte [Trabajar con la consola del cliente](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} para obtener más información.
 
@@ -156,7 +156,7 @@ Consulte los vínculos a otros recursos útiles a continuación:
 
 * Descubra cuáles son las dimensiones de segmentación y las tablas de trabajo, y cómo administra Adobe Campaign los datos en diferentes fuentes de datos en este vídeo:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452595?quality=12&learn=on&captions=spa){transcript=true}
 
 * Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.  Obtenga más información en la [documentación sobre importación de datos (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -214,7 +214,7 @@ Al igual que en Campaign Standard, como administrador, puede crear servicios de 
 
 Aprenda a configurar y administrar suscripciones, y a segmentar suscriptores.
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426556?quality=12&learn=on&captions=spa){transcript=true}
 
 * Consulte la [documentación de la interfaz de usuario web](../../v8/audience/manage-subscribers.md) de los servicios de suscripción.
 
@@ -272,7 +272,7 @@ Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados
 
 Con Campaign v8, como administrador, puede definir bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido de su envío de correo electrónico en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449009?quality=12&learn=on&captions=spa){transcript=true}
 
 Vínculos útiles:
 
