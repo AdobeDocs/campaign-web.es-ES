@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -159,7 +159,7 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 
 ### Mejoras {#25-9-improvements}
 
-* Se ha añadido un conjunto de nuevos operadores al configurar una condición mediante la capacidad de contenido condicional de Email Designer.
+* Se ha añadido un conjunto de operadores nuevos cuando se configura una condición mediante la capacidad de contenido condicional del diseñador de correo electrónico.
 * La dimensión de filtrado ya está disponible en la actividad de flujo de trabajo **Generar audiencia**. Para verla o cambiarla, haga clic en el icono situado junto a la dimensión de segmentación. [Más información](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
