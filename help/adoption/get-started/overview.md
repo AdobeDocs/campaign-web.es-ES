@@ -4,9 +4,9 @@ description: Conozca los pasos necesarios para empezar a utilizar la nueva aplic
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 29%
 
 ---
@@ -111,13 +111,13 @@ Como usuario de Campaign Standard que está realizando la transición a Adobe Ca
 
   La simplicidad y facilidad de uso de los SMS lo convierten en un canal de comunicación muy valioso además de su robustez y compatibilidad inigualable sobre miles de millones de terminales.
 
-  Adobe Campaign v8 viene con una nueva infraestructura que mejora el envío de SMS. [Más información sobre la nueva configuración de SMS](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 viene con una nueva infraestructura que mejora el envío de SMS. [Más información sobre la nueva configuración de SMS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Infraestructura push actualizada**
 
   La versión 8 de Adobe Campaign presenta nuestro último servicio de notificaciones push, con una estructura sólida basada en una tecnología moderna de vanguardia. Este servicio está diseñado para desbloquear nuevos niveles de escalabilidad, lo que garantiza que las notificaciones puedan llegar a una audiencia más grande con una eficiencia perfecta. Con nuestra infraestructura mejorada y los procesos optimizados, puede esperar una mayor escala y fiabilidad, lo que le permite interactuar y conectarse con los usuarios de sus aplicaciones móviles como nunca antes.
 
-  [Más información sobre la infraestructura push actualizada](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Más información sobre la infraestructura push actualizada](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -128,21 +128,19 @@ Adobe Campaign v8 está disponible como Managed Cloud Service y proporciona supe
 
 Para que pueda realizar la transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8. Se encuentran detalladas en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target="_blank"}.
 
-* **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}.
+* **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}.
 
 * **Personalización de marca centralizada**: cada compañía tiene directrices técnicas y visuales de marca. Con Adobe Campaign, puede definir un conjunto de especificaciones para presentar una marca coherente a sus clientes, desde logotipos hasta aspectos técnicos, como el remitente de correos electrónicos, la dirección URL o los dominios. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es)
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y construir su propio ecosistema al interconectar Adobe Campaign con el panel de tecnologías que utiliza. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=es){target="_blank"}.
 
-* **Páginas de aterrizaje**: se han introducido algunas mejoras en las páginas de aterrizaje de Campaign v8 para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../../v8/rn/release-notes.md#new-24-4) y la página de aterrizaje [documentación](../../v8/landing-pages/get-started-lp.md).
+* **Páginas de destino**: se han introducido algunas mejoras en las páginas de destino de Campaign v8 para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../../v8/rn/release-notes.md#new-24-4) y la página de destino [documentación](../../v8/landing-pages/get-started-lp.md).
 
 * **Fragmentos visuales**: los fragmentos visuales son componentes visuales reutilizables a los que se puede hacer referencia en uno o varios envíos de correo electrónico o en plantillas de contenido. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. Esta funcionalidad se utiliza para la construcción previa de múltiples bloques de contenido personalizado que pueden ser utilizados por los usuarios de marketing para combinar rápidamente los contenidos de los mensajes en un proceso de diseño mejorado. [Más información](../../v8//content/use-visual-fragments.md)
 
 ## Diferencias clave entre Campaign Standard y Campaign v8 {#experiences}
 
 La mayoría de los conceptos son similares entre Adobe Campaign v8 y Adobe Campaign Standard. Sin embargo, existen algunas diferencias, como se describe a continuación.
-
-### Cambios terminológicos {#terminology-changes}
 
 A continuación, se muestran algunas diferencias terminológicas entre Campaign Standard y la versión 8 de Campaign.
 
@@ -161,7 +159,8 @@ Además, como usuario de Campaign existente, tenga en cuenta que se ha cambiado 
 * La vista previa del correo electrónico ya está disponible a través del botón **Simular contenido.** [Más información](../../v8/preview-test/preview-test.md)
 * Las listas son ahora **Públicos**. [Más información](../../v8/audience/gs-audiences-recipients.md).
 
-## Nueva experiencia de usuario
+
+## Nueva experiencia del usuario
 
 Acceda a la guía de referencia pertinente para su función con el fin de descubrir la nueva experiencia del usuario con Adobe Campaign v8.
 
@@ -229,4 +228,4 @@ Acceda a la guía de referencia pertinente para su función con el fin de descub
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/es/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
