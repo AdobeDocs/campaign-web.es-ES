@@ -3,9 +3,9 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 <tbody>
 <tr>
 <td>
-<p>Ahora, directamente desde la interfaz de usuario web de Adobe Campaign, puede organizar y ejecutar envíos basados en canales de API personalizados. Estos envíos pueden ser independientes o formar parte de un flujo de trabajo. La configuración del canal de API personalizado se realiza en la consola.</p>
+<p>Ahora, directamente desde la interfaz de usuario de Adobe Campaign web, puede organizar y ejecutar envíos basados en canales de API personalizados. Estos envíos pueden ser independientes o formar parte de un flujo de trabajo. La configuración del canal de API personalizado se realiza en la consola.</p>
 <p>Para obtener más información, consulte la <a href="../call-center/gs-custom-channel.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -67,7 +67,7 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 <tbody>
 <tr>
 <td>
-<p>Ahora, Campaign le permite bloquear el contenido en las plantillas de correo electrónico, ya sea bloqueando la plantilla completa o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.</p>
+<p>Ahora Campaign le permite bloquear contenido en las plantillas de correo electrónico, ya sea bloqueando toda la plantilla o estructuras y componentes específicos. Esto le permite evitar ediciones o eliminaciones no intencionadas, lo que le proporciona un mayor control sobre la personalización de las plantillas y mejora la eficacia y fiabilidad de sus campañas de correo electrónico.</p>
 <p>Para obtener más información, consulte la <a href="../content/content-locking.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -159,8 +159,8 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 
 ### Mejoras {#25-9-improvements}
 
-* Se ha añadido un conjunto de operadores nuevos cuando se configura una condición mediante la capacidad de contenido condicional del diseñador de correo electrónico.
-* La dimensión de filtrado ya está disponible en la actividad de flujo de trabajo **Generar audiencia**. Para verla o cambiarla, haga clic en el icono situado junto a la dimensión de segmentación. [Más información](../workflows/activities/build-audience.md#build-audience-configuration).
+* Se ha añadido un conjunto de operadores nuevos al configurar una condición mediante la capacidad de contenido condicional del diseñador de correo electrónico.
+* La dimensión de filtrado ya está disponible en la actividad de flujo de trabajo **Generar público**. Para verla o cambiarla, haga clic en el icono situado junto a la dimensión de segmentación. [Más información](../workflows/activities/build-audience.md#build-audience-configuration).
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.
