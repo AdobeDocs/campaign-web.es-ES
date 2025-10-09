@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 98%
 
 ---
 
@@ -77,15 +77,17 @@ ht-degree: 100%
       + [Creación de un mensaje transaccional](transactional-messaging/create-transactional.md)
       + [Validación del mensaje transaccional](transactional-messaging/validate-transactional.md)
       + [Monitorización de mensajes transaccionales](transactional-messaging/monitor-transactional.md)
+      + [Enriquecimiento de los mensajes transaccionales con datos de perfil](transactional-messaging/profile-enrichment.md)
    + [Envíos externos](msg/send-external-deliveries.md)
    + [Añadir ofertas a los mensajes](msg/offers.md)
+   + [Configuración de un envío multilingüe](msg/multilingual.md)
    + [Enviar mensajes a los suscriptores](msg/send-to-subscribers.md)
    + [Configuración del envío](advanced-settings/delivery-settings.md)
    + Vista previa y prueba del envío {#preview-test}
       + [Acerca de la vista previa y las pruebas](preview-test/preview-test.md)
       + [Vista previa del contenido del mensaje.](preview-test/preview-content.md)
       + [Envío de pruebas](preview-test/test-deliveries.md)
-      + [Prueba del procesamiento de correo electrónico](preview-test/email-rendering.md)
+      + [Prueba de representación de correo electrónico](preview-test/email-rendering.md)
    + Alertas de envío {#delivery-alerting}
       + [Introducción a las alertas de envío](msg/delivery-alerting.md)
       + [Paneles de control de alertas de envío](msg/delivery-alerting-dashboards.md)
