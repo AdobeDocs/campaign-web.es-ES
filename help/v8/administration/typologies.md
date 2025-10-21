@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1503'
 ht-degree: 29%
 
 ---
@@ -88,69 +88,25 @@ Se abren los detalles de tipología. Desde esta pantalla, haga referencia direct
 >title="Propiedades de la regla de tipología"
 >abstract="Defina las propiedades de la regla de tipología. Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío, mientras que las reglas de **Filtrado** excluyen segmentos del público destinatario de acuerdo con criterios específicos.<br/><br/>También puede cambiar el orden de ejecución de la regla para administrar la secuencia en la que se ejecutarán las reglas de tipología cuando se ejecuten varias reglas del mismo tipo durante la misma fase de procesamiento de mensajes."
 
-Para crear una regla de tipología, vaya al menú **[!UICONTROL Reglas de negocio]** y luego seleccione la pestaña **[!UICONTROL Reglas de tipología]**.
+Hay dos tipos de reglas de tipología disponibles:
 
-Haga clic en el botón **[!UICONTROL Crear regla de tipología]** y luego siga los pasos detallados a continuación.
+* **Control**: garantiza la calidad del mensaje y la validez antes del envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la dirección URL. Estas reglas se crean mediante una interfaz de script para definir una lógica compleja para las comprobaciones y modificaciones de contenido.
 
-### Definición de las propiedades de la regla de tipología {#properties}
+* **Filtrado**: excluye segmentos de la audiencia de destino según criterios específicos, como edad, ubicación, país o números de teléfono. Estas reglas están vinculadas a una dimensión de segmentación.
 
-Defina las propiedades de la regla de tipología:
+>[!NOTE]
+>
+>Actualmente, solo se pueden crear reglas de tipología de **Control** y **Filtrado** desde la interfaz de usuario web. Para crear otros tipos de reglas, utilice la consola de cliente. [Aprenda a crear reglas de tipología en la consola del cliente](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. Escriba una **[!UICONTROL Etiqueta]** para la regla.
+Para crear una regla de tipología, siga estos pasos:
 
-   ![Interfaz de creación de reglas de control](assets/business-rules-control-rule.png)
+1. Vaya al menú **[!UICONTROL Reglas de negocio]** y, a continuación, seleccione la pestaña **[!UICONTROL Reglas de tipología]**.
 
-1. Seleccione el **[!UICONTROL Tipo]** de la regla de tipología:
+1. Haga clic en el botón **[!UICONTROL Crear regla de tipología]** y luego siga los pasos detallados a continuación.
 
-   * **Control**: garantiza la calidad del mensaje y la validez antes del envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la dirección URL. Estas reglas se crean mediante una interfaz de script para definir una lógica compleja para las comprobaciones y modificaciones de contenido.
+[Crear regla de tipología](assets/business-rules-create-typo.png)
 
-   * **Filtrado**: excluye segmentos de la audiencia de destino según criterios específicos, como edad, ubicación, país o números de teléfono. Estas reglas están vinculadas a una dimensión objetivo.
-
-   >[!NOTE]
-   >
-   >Actualmente, solo se pueden crear reglas de tipología de **Control** y **Filtrado** desde la interfaz de usuario web. Para crear otros tipos de reglas, utilice la consola de cliente. [Aprenda a crear reglas de tipología en la consola del cliente](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. Seleccione un **[!UICONTROL canal]** para asociarlo a la regla.
-
-1. Desactive la opción **[!UICONTROL Active]** si no desea que la regla esté activa inmediatamente después de su creación.
-
-1. Defina el **[!UICONTROL orden de ejecución]** de la regla.
-
-   De forma predeterminada, el orden de las reglas de tipología se establece en 50. Adapte este valor para administrar la secuencia en la que se ejecutarán las reglas de tipología cuando se ejecuten varias reglas del mismo tipo durante la misma fase de procesamiento de mensajes. Por ejemplo, una regla de filtrado con un orden de ejecución de 20 se ejecuta antes que una regla de filtrado con un orden de ejecución de 30.
-
-1. Expanda la sección **[!UICONTROL Opciones adicionales]** para obtener acceso a la configuración avanzada, como el nombre interno de la regla, el almacenamiento de carpetas y la descripción.
-
-1. Para las reglas de control, hay dos campos adicionales disponibles en las opciones adicionales. Especifique cuándo se debe aplicar la regla y su nivel de alerta:
-
-   * **[!UICONTROL Fase]**: especifique en qué punto del ciclo de vida de la entrega se aplicará la regla. Seleccione el valor en la lista desplegable **[!UICONTROL Fase]**. Expanda la sección siguiente para obtener más detalles sobre los valores posibles.
-
-   +++Fases de reglas de control:
-
-   **[!UICONTROL Al principio del destino]**: Impida que el paso de personalización se ejecute en caso de errores.
-
-   **[!UICONTROL Después del direccionamiento]**: seleccione esta fase si necesita conocer el volumen del destino para aplicar la regla de control. Por ejemplo, la regla de control **[!UICONTROL Comprobar tamaño de prueba]** se aplica después de cada fase de segmentación. Esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
-
-   **[!UICONTROL Al comienzo de la personalización]**: seleccione esta fase si el control afecta a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
-
-   **[!UICONTROL Al final del análisis]**: aplique comprobaciones que requieran una personalización completa del mensaje.
-
-   +++
-
-   * **[!UICONTROL Nivel]**: especifique el nivel de alerta para la regla. Expanda la sección siguiente para obtener más información.
-
-   +++Niveles de reglas de control:
-
-   **[!UICONTROL Error]**: detenga la preparación del mensaje.
-
-   **[!UICONTROL Advertencia]**: mostrar una advertencia en los registros de preparación.
-
-   **[!UICONTROL Información]**: muestra información en los registros de preparación.
-
-   **[!UICONTROL Detallado]**: muestra información en los registros del servidor.
-
-   +++
-
-### Creación del contenido de la regla {#build}
+### Definir las propiedades principales de la regla {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ Defina las propiedades de la regla de tipología:
 >title="Código"
 >abstract="Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío: por ejemplo: visualización de caracteres, longitud de SMS, formato de dirección o acortamiento de URL. Estas reglas se crean mediante el código de JavaScript."
 
-Una vez definidas las propiedades de la regla de tipología, cree el contenido de la regla.
+Estas son las propiedades principales al crear una nueva regla de tipología.
 
-* Para **Reglas de control**, haga clic en el botón **Editar código** e introduzca la lógica para la regla con JavaScript. En el ejemplo siguiente, se crea una regla para mostrar una advertencia en los registros si el destino está vacío.
+>[!BEGINTABS]
 
-  ![Editor de código de reglas de control](assets/business-rules-code.png)
+>[!TAB Reglas de control]
 
-* Para **Reglas de filtrado**, seleccione la dimensión de segmentación y haga clic en el botón **[!UICONTROL Agregar reglas]** para definir los criterios de filtrado con el [modelador de consultas](../query/query-modeler-overview.md).
+1. Escriba una **[!UICONTROL Etiqueta]** para la regla.
 
-  ![Modelador de consultas de reglas de filtrado](assets/business-rules-query.png)
+[Crear regla de control](assets/business-rules-create-typo1.png)
 
-Cuando la regla esté lista, haga clic en el botón **[!UICONTROL Crear]** para crear la regla de tipología. Cite la regla en una tipología para aplicarla a los mensajes.
+1. Expanda la sección **[!UICONTROL Opciones adicionales]** para obtener acceso a la configuración avanzada, como el nombre interno de la regla, el almacenamiento de carpetas y la descripción. También puede especificar cuándo se debe aplicar la regla y su nivel de alerta. Expanda las secciones siguientes para obtener más información.
+
+   +++Fases:
+
+   Especifique en qué punto del ciclo de vida de la entrega se aplica la regla. Seleccione el valor en la lista desplegable **[!UICONTROL Fase]**:
+
+   * **[!UICONTROL Al principio del destino]**: Impida que el paso de personalización se ejecute en caso de errores.
+
+   * **[!UICONTROL Después del direccionamiento]**: seleccione esta fase si necesita conocer el volumen del destino para aplicar la regla de control. Por ejemplo, la regla de control **[!UICONTROL Comprobar tamaño de prueba]** se aplica después de cada fase de segmentación. Esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
+
+   * **[!UICONTROL Al comienzo de la personalización]**: seleccione esta fase si el control afecta a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
+
+   * **[!UICONTROL Al final del análisis]**: aplique comprobaciones que requieran una personalización completa del mensaje.
+
+   +++
+
+   +++Nivel:
+
+   Especifique el nivel de alerta para la regla:
+
+   * **[!UICONTROL Error]**: detenga la preparación del mensaje.
+
+   * **[!UICONTROL Advertencia]**: mostrar una advertencia en los registros de preparación.
+
+   * **[!UICONTROL Información]**: muestra información en los registros de preparación.
+
+   * **[!UICONTROL Detallado]**: muestra información en los registros del servidor.
+
+   +++
+
+1. Para generar el contenido de la regla, haga clic en el botón **Editar código** e introduzca la lógica de la regla con JavaScript. En el ejemplo siguiente, se crea una regla para mostrar una advertencia en los registros si el destino está vacío.
+
+   ![Editor de código de reglas de control](assets/business-rules-code.png)
+
+1. Haga clic en **Crear**.
+
+
+>[!TAB Reglas de filtrado]
+
+1. Escriba una **[!UICONTROL Etiqueta]** para la regla.
+
+[Crear regla de filtrado](assets/business-rules-create-typo2.png)
+
+1. Expanda la sección **[!UICONTROL Opciones adicionales]** para obtener acceso a la configuración avanzada, como el nombre interno de la regla, el almacenamiento de carpetas y la descripción.
+
+1. Para generar el contenido de la regla, seleccione la dimensión de segmentación y haga clic en el botón **[!UICONTROL Agregar reglas]** para definir los criterios de filtrado mediante el [generador de reglas](../query/query-modeler-overview.md).
+
+   ![Modelador de consultas de reglas de filtrado](assets/business-rules-query.png)
+
+1. Haga clic en **Crear**
+
+>[!ENDTABS]
+
+### Defina las propiedades adicionales de la regla {#add-properties}
+
+Ahora, vamos a definir los parámetros adicionales. En esta pantalla, aún puede cambiar las propiedades principales definidas anteriormente.
+
+[Crear regla de filtrado adicional](assets/business-rules-create-typo2.png)
+
+1. Desactive la opción **[!UICONTROL Active]** si no desea que la regla esté activa inmediatamente después de su creación.
+
+1. Defina el **[!UICONTROL orden de ejecución]** de la regla.
+
+   De forma predeterminada, el orden de las reglas de tipología se establece en 50. Adapte este valor para administrar la secuencia en la que se ejecutarán las reglas de tipología cuando se ejecuten varias reglas del mismo tipo durante la misma fase de procesamiento de mensajes. Por ejemplo, una regla de filtrado con un orden de ejecución de 20 se ejecuta antes que una regla de filtrado con un orden de ejecución de 30.
+
+1. Seleccione un **[!UICONTROL canal]** para asociarlo a la regla.
+
+La regla está lista para ser referenciada en una tipología para aplicarla a los mensajes.
 
 ## Reglas de tipología de referencia en una tipología {#add-rules}
 
@@ -180,7 +203,7 @@ Para hacer referencia a una o varias reglas en una tipología, siga estos pasos:
 
 1. Vaya a la pestaña **[!UICONTROL Tipología]** y abra la tipología en la que desee hacer referencia a las reglas.
 
-1. Seleccione la pestaña **[!UICONTROL Reglas de tipología]** y haga clic en el botón **[!UICONTROL Agregar reglas de tipología&#39;]**.
+1. Seleccione la pestaña **[!UICONTROL Reglas de tipología]** y haga clic en el botón **[!UICONTROL Agregar reglas)]**.
 
    ![Agregar interfaz de reglas de tipología](assets/business-rules-reference.png)
 
