@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cambiar fuente de datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Cambiar fuente de datos
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 13%
+source-wordcount: '380'
+ht-degree: 12%
 
 ---
 
@@ -23,11 +23,15 @@ En los flujos de trabajo, los datos que pasan de una actividad a otra mediante t
 
 En algunos casos, los datos no están disponibles en la base de datos actual o no son lo suficientemente eficientes como para realizar operaciones unitarias. Por lo tanto, es posible que deba forzar el flujo de trabajo para que utilice una base de datos diferente para realizar estas operaciones agregando una actividad **[!UICONTROL Cambiar fuente de datos]**.
 
-Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=es).
+Encontrará información detallada sobre la arquitectura de Campaign en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
 >Tenga en cuenta que las actividades **[!UICONTROL Cambiar dimensión]** y **[!UICONTROL Cambiar fuente de datos]** no deben agregarse en una fila. Si necesita usar ambas actividades consecutivamente, incluya una actividad **[!UICONTROL Enrichment]** entre ellas. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+
+>[!NOTE]
+>
+>La actividad **Change Data Source** puede procesar un máximo de un millón de registros por ejecución. Póngase en contacto con su representante de Adobe si necesita aumentar este límite.
 
 <!--
 

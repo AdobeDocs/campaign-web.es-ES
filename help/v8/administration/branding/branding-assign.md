@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 19%
+source-wordcount: '617'
+ht-degree: 14%
 
 ---
 
@@ -126,3 +126,27 @@ Para crear un nuevo envío independiente, siga los pasos a continuación.
 1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Diseñar y enviar correos electrónicos](../../email/create-email.md).
 
 >[!ENDTABS]
+
+## Comprobar la marca asociada a los mensajes transaccionales {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>Esta sección se aplica solo a los mensajes transaccionales (Centro de mensajes).
+>
+>Aunque las funcionalidades transaccionales están disponibles en la interfaz de usuario web de Campaign, los pasos de verificación siguientes deben realizarse en la consola del cliente de Campaign v8 (instancia de control).
+
+Los envíos transaccionales sincronizados desde instancias de ejecución en tiempo real (RT) a la instancia de control no replican propiedades como enrutamiento o marca. Estos envíos sincronizados se generan semanalmente a partir de la misma plantilla para devolver los indicadores de envío en la instancia de control.
+
+Debido a esto, la instancia de control muestra la marca predeterminada. La marca real y la configuración de enrutamiento utilizada durante la ejecución del mensaje se definen en la plantilla de mensaje transaccional de la instancia de control.
+
+Para verificar qué marca se utilizó para un mensaje transaccional:
+
+1. Identifique el nombre interno de la plantilla transaccional publicada en tiempo real (por ejemplo, `TransactionalMessaging4768`).
+
+   ![](assets/branding-transactional.png)
+
+1. En la instancia de control, busque este nombre interno en **Plantillas de mensajes transaccionales**.
+
+   ![](assets/branding-transactional2.png)
+
+1. Abra la plantilla para ver la marca y otras propiedades relacionadas.

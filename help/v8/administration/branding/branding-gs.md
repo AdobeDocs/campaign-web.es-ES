@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 18%
+source-wordcount: '405'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ Los administradores técnicos pueden crear y administrar varias marcas en Adobe 
 
 Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
-1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [en esta página](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [en esta página](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -39,3 +39,13 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 1. **Crear una plantilla de envíos**: una vez que la nueva marca esté disponible, la práctica recomendada es crear al menos una nueva plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](branding-assign.md).
 
 1. **Compruebe las directrices de capacidad de entrega**. Antes de empezar a utilizar el nuevo dominio, la estrategia debe discutirse con el equipo de capacidad de entrega de Adobe. Ayudan a definir las prácticas recomendadas si, por ejemplo, se debe crear una nueva afinidad para dividir las IP entre dominios o si se debe definir un plan de ampliación.
+
+## Nota de compatibilidad {#compatibility-note}
+
+El nuevo modelo de promoción de marca centralizada no es compatible con la configuración de [promoción de marca heredada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} que se usaba anteriormente en la consola del cliente.
+
+En el método heredado, los clientes implementaron la promoción de la marca mediante la ampliación del formulario extAccount y el uso de la pestaña **Promoción de marca**.
+
+![](assets/branding-legacy.png)
+
+Si el entorno existente utiliza esta configuración heredada, no se puede migrar directamente al nuevo modelo de promoción de la marca centralizada. Se requiere una reimplementación completa de la configuración de marca para adoptar el nuevo sistema.
