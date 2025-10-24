@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: ht
-source-wordcount: '939'
+source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+workflow-type: tm+mt
+source-wordcount: '941'
 ht-degree: 100%
 
 ---
@@ -277,6 +277,7 @@ ht-degree: 100%
    + [Trabajo con esquemas](administration/schemas.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
    + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
+   + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)
       + [Integración de Adobe Solution](administration/integration-external-account.md)
