@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1287'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ Todas las actividades permiten administrar sus opciones de ejecución. Seleccion
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="Propiedades de actividad"
->abstract="Esta sección le permite definir cómo y dónde se ejecuta una actividad. Puede establecer la acción de ejecución, limitar la duración de la ejecución, elegir una zona horaria, asignar afinidad al equipo, administrar el comportamiento asincrónico y especificar qué sucede en caso de error."
+>abstract="Esta sección permite configurar los ajustes de ejecución de una actividad, incluida la acción que se va a realizar, la duración máxima, la zona horaria, la afinidad del equipo y el comportamiento asincrónico."
 
 El campo **Execution** le permite definir la acción que debe realizarse cuando se inicia la tarea.
 

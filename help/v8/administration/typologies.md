@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1506'
 ht-degree: 29%
 
 ---
@@ -45,7 +45,7 @@ Se puede acceder a las tipologías a través del menú **[!UICONTROL Administrac
 Los pasos principales para aplicar tipologías a los mensajes son los siguientes:
 
 1. [Crear una tipología](#typology).
-1. [Crear reglas de tipología](#typology-rules).
+1. [Crear reglas de tipología](#typology-rule).
 1. [Reglas de tipología de referencia en la tipología](#add-rules).
 1. [Aplicar la tipología a un mensaje](#message).
 
@@ -104,7 +104,7 @@ Para crear una regla de tipología, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Crear regla de tipología]** y luego siga los pasos detallados a continuación.
 
-[Crear regla de tipología](assets/business-rules-create-typo.png)
+   ![Crear regla de tipología](assets/business-rules-create-typo.png)
 
 ### Definir las propiedades principales de la regla {#properties}
 
@@ -118,7 +118,7 @@ Para crear una regla de tipología, siga estos pasos:
 >title="Código"
 >abstract="Las reglas de **Control** verifican la calidad y validez del mensaje previo al envío: por ejemplo: visualización de caracteres, longitud de SMS, formato de dirección o acortamiento de URL. Estas reglas se crean mediante el código de JavaScript."
 
-Estas son las propiedades principales al crear una nueva regla de tipología.
+Estas son las propiedades principales que se deben definir al crear una nueva regla de tipología:
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ Estas son las propiedades principales al crear una nueva regla de tipología.
 
 1. Escriba una **[!UICONTROL Etiqueta]** para la regla.
 
-[Crear regla de control](assets/business-rules-create-typo1.png)
+   ![Crear regla de control](assets/business-rules-create-typo1.png)
 
-1. Expanda la sección **[!UICONTROL Opciones adicionales]** para obtener acceso a la configuración avanzada, como el nombre interno de la regla, el almacenamiento de carpetas y la descripción. También puede especificar cuándo se debe aplicar la regla y su nivel de alerta. Expanda las secciones siguientes para obtener más información.
+1. La sección **[!UICONTROL Opciones adicionales]** le permite acceder a la configuración avanzada, como el nombre interno de la regla, el almacenamiento de carpetas y la descripción. También puede especificar cuándo se debe aplicar la regla y su nivel de alerta. Expanda las secciones siguientes para obtener más información.
 
-   +++Fases:
+   +++Fases
 
    Especifique en qué punto del ciclo de vida de la entrega se aplica la regla. Seleccione el valor en la lista desplegable **[!UICONTROL Fase]**:
 
@@ -144,17 +144,17 @@ Estas son las propiedades principales al crear una nueva regla de tipología.
 
    +++
 
-   +++Nivel:
+   +++Nivel
 
    Especifique el nivel de alerta para la regla:
 
-   * **[!UICONTROL Error]**: detenga la preparación del mensaje.
+   * **[!UICONTROL Error]**: Detenga la preparación del mensaje
 
-   * **[!UICONTROL Advertencia]**: mostrar una advertencia en los registros de preparación.
+   * **[!UICONTROL Advertencia]**: mostrar una advertencia en los registros de preparación
 
-   * **[!UICONTROL Información]**: muestra información en los registros de preparación.
+   * **[!UICONTROL Información]**: muestra información en los registros de preparación
 
-   * **[!UICONTROL Detallado]**: muestra información en los registros del servidor.
+   * **[!UICONTROL Detallado]**: muestra información en los registros del servidor
 
    +++
 
@@ -169,7 +169,7 @@ Estas son las propiedades principales al crear una nueva regla de tipología.
 
 1. Escriba una **[!UICONTROL Etiqueta]** para la regla.
 
-[Crear regla de filtrado](assets/business-rules-create-typo2.png)
+   ![Crear regla de filtrado](assets/business-rules-create-typo2.png)
 
 1. Expanda la sección **[!UICONTROL Opciones adicionales]** para obtener acceso a la configuración avanzada, como el nombre interno de la regla, el almacenamiento de carpetas y la descripción.
 
@@ -185,7 +185,7 @@ Estas son las propiedades principales al crear una nueva regla de tipología.
 
 Ahora, vamos a definir los parámetros adicionales. En esta pantalla, aún puede cambiar las propiedades principales definidas anteriormente.
 
-[Crear regla de filtrado adicional](assets/business-rules-create-typo2.png)
+![Crear regla de filtrado adicional](assets/business-rules-create-typo3.png)
 
 1. Desactive la opción **[!UICONTROL Active]** si no desea que la regla esté activa inmediatamente después de su creación.
 
