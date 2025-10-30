@@ -33,7 +33,7 @@ La diferencia principal está en la interfaz de usuario. A continuación, se mue
 
 En el siguiente vídeo, aprenderá a acceder a la interfaz de usuario web de Campaign y a navegar por ella, así como a personalizar las listas de inventario.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453425?captions=spa&quality=12&learn=on){transcript=true}
 
 Para obtener más información, consulte la siguiente documentación:
 
@@ -54,7 +54,7 @@ En Adobe Campaign, un perfil es un registro almacenado en la base de datos que s
 
 1. Obtenga información sobre cómo acceder, administrar y explorar perfiles mediante la interfaz de usuario web de Campaign en este vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448367?captions=spa&quality=12&learn=on){transcript=true}
 
    Obtenga más información en la documentación de [Introducción a los perfiles](../../v8/audience/about-recipients.md).
 
@@ -66,7 +66,7 @@ Las audiencias son conjuntos de perfiles que comparten comportamientos o caracte
 
 En este vídeo, aprenderá a crear y administrar audiencias, a seleccionar audiencias para una entrega y a definir grupos de control:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453205?captions=spa&quality=12&learn=on){transcript=true}
 
 Consulte [Introducción a las audiencias](../../v8/audience/manage-audience.md){target="_blank"} para obtener más información.
 
@@ -144,7 +144,7 @@ La interfaz de usuario del flujo de trabajo se ha reinventado completamente en l
 
 Descubra cómo funcionan los flujos de trabajo y cómo crear un flujo de trabajo de objetivo en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453974?captions=spa&quality=12&learn=on){transcript=true}
 
 Obtenga más información con la [documentación de flujo de trabajo](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +200,7 @@ Vínculos útiles:
 
 Obtenga información sobre cómo crear un envío de correo electrónico desde cero, definir la audiencia, diseñar el contenido, simular la previsualización y enviar una prueba en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454008?captions=spa&quality=12&learn=on){transcript=true}
 
 Aprenda a crear su primer correo electrónico de destino en [Crear su primera documentación de correo electrónico](../../v8/email/create-email.md)
 
@@ -212,13 +212,13 @@ En Campaign v8, los pasos detallados para crear, probar y enviar un envío de co
 
    Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Obtenga información sobre cómo estructurar y diseñar un correo electrónico desde cero, cómo personalizarlo y probarlo en el siguiente vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453568?captions=spa&quality=12&learn=on){transcript=true}
 
    El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz intuitiva para arrastrar y soltar. Obtenga más información en la [documentación de Designer por correo electrónico](../../v8/email/get-started-email-designer.md)
 
    Obtenga información sobre cómo crear un correo electrónico cargando HTML, cómo hacerlo compatible con el Designer de correo electrónico y cómo convertirlo en una plantilla en este vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447035?captions=spa&quality=12&learn=on){transcript=true}
 
    Un fragmento de contenido es un componente reutilizable al que se puede hacer referencia en uno o varios mensajes. Obtenga más información acerca de [fragmentos de contenido](../../v8/content/fragments.md) para simplificar la creación del envío de correo electrónico.
 
@@ -228,7 +228,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar un envío de co
 
    Obtenga información sobre cómo previsualizar el contenido y la personalización de los mensajes de correo electrónico, enviar entregas de prueba (pruebas) y comprobar el procesamiento de los correos electrónicos en clientes populares de escritorio, móviles y web en este vídeo:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450340?captions=spa&quality=12&learn=on){transcript=true}
 
 1. **Enviar correo electrónico y registros de comprobación**
 
