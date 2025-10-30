@@ -160,7 +160,7 @@ Use el componente **[!UICONTROL Image]** para insertar un archivo de imagen del 
 
 1. Haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos. También puedes elegir **[!UICONTROL Importar tus medios]**.
 
-   Para obtener más información sobre cómo cargar y agregar recursos en Adobe Experience Manager, consulte [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+   Para obtener más información sobre cómo cargar y agregar recursos en Adobe Experience Manager, consulte [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=es).
 
    ![Captura de pantalla que muestra la opción de examinar componentes de imagen en el correo electrónico Designer.](assets/email_designer_28.png){zoomable="yes"}
 
