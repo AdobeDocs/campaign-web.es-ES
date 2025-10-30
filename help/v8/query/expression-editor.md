@@ -22,7 +22,7 @@ La edición de una expresión implica la introducción manual de condiciones par
 >[!IMPORTANT]
 >
 >Hay disponible una nueva interfaz para el modelador de consultas. Para cambiar a esta nueva experiencia del generador de reglas, presione el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabajo con el editor de expresiones {#edit}
 

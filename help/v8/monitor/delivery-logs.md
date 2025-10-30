@@ -40,13 +40,13 @@ Se muestran todos los pasos, advertencias y errores de validación. Los iconos d
 * El icono amarillo indica un error de procesamiento no crítico.
 * El icono rojo indica un error crítico que impide realizar el envío. Deben corregirse los errores críticos para que se realice la entrega.
 
-![ La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
+![&#x200B; La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
 
 ## Envíos {#deliveries-tab}
 
 La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
-![ pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
+![&#x200B; pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusiones {#exclusion-tab}
 

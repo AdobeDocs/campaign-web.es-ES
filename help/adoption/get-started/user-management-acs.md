@@ -71,8 +71,8 @@ En Adobe Campaign Standard, el término **función de usuario** se denomina **de
 >[!IMPORTANT]
 >
 >Las unidades organizativas en Adobe Campaign Standard sin **All (all)** como elemento principal directo o indirecto no se migrarán a Campaign v8.
->></br>
->>A los usuarios de varios grupos de seguridad se les asigna la unidad organizativa del grupo de seguridad de mayor clasificación. Si varios grupos tienen unidades de nivel superior paralelas, el sistema selecciona la unidad organizativa del usuario en Campaign Standard y el usuario solo tendría acceso a la unidad organizativa seleccionada por el sistema y a sus elementos secundarios. En Campaign v8 después de la migración, el usuario tendría acceso a **todas las unidades organizativas asignadas y a sus elementos secundarios**, lo que podría escalar privilegios. Para evitarlo, evite asignar usuarios a grupos de seguridad con unidades organizativas paralelas. Más información sobre la [asignación paralela de unidades organizativas](#parallel-assignments).
+>&#x200B;></br>
+>&#x200B;>A los usuarios de varios grupos de seguridad se les asigna la unidad organizativa del grupo de seguridad de mayor clasificación. Si varios grupos tienen unidades de nivel superior paralelas, el sistema selecciona la unidad organizativa del usuario en Campaign Standard y el usuario solo tendría acceso a la unidad organizativa seleccionada por el sistema y a sus elementos secundarios. En Campaign v8 después de la migración, el usuario tendría acceso a **todas las unidades organizativas asignadas y a sus elementos secundarios**, lo que podría escalar privilegios. Para evitarlo, evite asignar usuarios a grupos de seguridad con unidades organizativas paralelas. Más información sobre la [asignación paralela de unidades organizativas](#parallel-assignments).
 
 
 En Adobe Campaign Standard, la **unidad organizativa** está asignada al modelo de jerarquía **Folder** existente en Campaign v8 para mantener un control de acceso similar. [Más información acerca de la administración de carpetas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
