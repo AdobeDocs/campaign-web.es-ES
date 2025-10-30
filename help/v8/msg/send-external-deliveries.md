@@ -6,7 +6,7 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -38,9 +38,9 @@ Una vez configurada la cuenta externa específica, cree la entrega externa. Siga
 
    Tiene tres opciones:
 
-   * **En un flujo de trabajo**: agrega una actividad de canal externo (correo electrónico, SMS o push) al flujo de trabajo. Para obtener instrucciones detalladas sobre la configuración de flujos de trabajo, consulte [esta página](../workflows/gs-workflow-creation.md).
+   * **En un flujo de trabajo**: agrega una actividad de canal externo (correo electrónico, SMS o push) al flujo de trabajo. Para obtener instrucciones detalladas sobre cómo configurar el flujo de trabajo, consulte [esta página](../workflows/gs-workflow-creation.md).
    * **En una campaña**: después de crear una campaña, puede crear un envío externo de correo electrónico, SMS o canal push. Para obtener más información sobre la configuración de la campaña, consulte [esta página](../campaigns/gs-campaigns.md).
-   * **Envío independiente**: Capte clientes de forma directa e instantánea con un envío externo individual. [Aprenda a crear una entrega](../msg/gs-deliveries.md)
+   * **Envío independiente**: Capte clientes de forma directa e instantánea con un envío externo individual. [Aprenda a crear un envío](../msg/gs-deliveries.md)
 
 1. En la entrega o plantilla de entrega [settings](../advanced-settings/delivery-settings.md), seleccione la cuenta externa creada para el canal de su elección (en este ejemplo, el canal SMS) y guarde.
 

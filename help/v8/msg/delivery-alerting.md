@@ -16,7 +16,7 @@ Las alertas de envío son un sistema de administración de alertas que permite a
 
 Las notificaciones se personalizan según criterios de alerta específicos definidos a través de la interfaz de usuario web de Adobe Campaign.
 
-Para obtener más información sobre la administración de errores de entrega, consulte la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Para obtener más información sobre la administración de errores de entrega, consulte la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## Contenido de notificación por correo electrónico {#content}
 

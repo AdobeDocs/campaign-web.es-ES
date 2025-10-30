@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # Introducción a los informes dinámicos {#about-dynamic-reports}
 
-El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
+El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
 
 ## Acceso a informes dinámicos {#accessing-dynamic-reports}
 

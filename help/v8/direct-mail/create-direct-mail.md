@@ -6,7 +6,7 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -28,13 +28,12 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
 
    ![Captura de pantalla que muestra la configuración de propiedades para una entrega de correo directo](assets/dm-properties.png){zoomable="yes"}
 
-   +++Configure la siguiente configuración según sus necesidades.
+   +++Configure las siguientes opciones según sus necesidades.
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
    * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
-
    +++
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para segmentar una audiencia existente o crear la suya propia.

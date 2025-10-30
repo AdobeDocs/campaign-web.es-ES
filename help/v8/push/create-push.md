@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo crear una entrega de notificacione
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 30%
+source-wordcount: '738'
+ht-degree: 28%
 
 ---
 
@@ -45,13 +45,12 @@ Configure las entregas como se detalla a continuación:
 
 1. Examine la lista desplegable **[!UICONTROL Opciones adicionales]** para personalizar las opciones, si es necesario. Si su entrega se basa en un esquema ampliado, hay **campos de opciones personalizadas** específicos disponibles.
 
-   +++Configure la siguiente configuración según sus necesidades.
+   +++Configure las siguientes opciones según sus necesidades.
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
    * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
-
    +++
 
 ## Seleccione el público del envío push {#create-audience-push}

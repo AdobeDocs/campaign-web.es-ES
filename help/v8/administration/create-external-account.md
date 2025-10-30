@@ -5,7 +5,7 @@ exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -28,7 +28,7 @@ Para crear una nueva cuenta externa, siga los pasos descritos a continuación. L
 1. Escriba su **[!UICONTROL Etiqueta]** y seleccione la cuenta externa **[!UICONTROL Tipo]**.
 
    * [Tipos específicos de campaña](external-account.md)
-   * [Integración de soluciones de Adobe](integration-external-account.md)
+   * [Integración de Adobe Solution](integration-external-account.md)
    * [Transferir datos](transfer-external-account.md)
    * [Base de datos externa](external-account-database.md)
 

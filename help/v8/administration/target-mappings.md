@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar las asignaciones de de
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '806'
 ht-degree: 16%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 ## Acerca de las asignaciones de destino {#about}
 
-Cada canal de comunicación utiliza una asignación de destino predeterminada para dirigirse a sus destinatarios. Por ejemplo, de forma predeterminada, las plantillas de envíos de correo electrónico y SMS tienen como destino **[!UICONTROL Destinatarios]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones del suscriptor (nms:appSubscriptionRcp)**, que está vinculada a la tabla de destinatarios.
+Cada canal de comunicación utiliza una asignación de destino predeterminada para dirigirse a sus destinatarios. Por ejemplo, de forma predeterminada, las plantillas de envíos de correo electrónico y SMS tienen como destino **[!UICONTROL Destinatarios]**. Por consiguiente, la asignación de destinatario utiliza los campos de la tabla **nms:recipient**. Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones de suscriptor (nms:appSubscriptionRcp)**, que está vinculada a la tabla de destinatarios.
 
 Se puede acceder a las asignaciones de destino desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Asignaciones de destino]**. Desde esta pantalla, puede acceder a los detalles de cada asignación de destino o crear nuevas asignaciones de destino para adaptarlas a sus necesidades.
 

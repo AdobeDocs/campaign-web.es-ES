@@ -5,8 +5,8 @@ description: Aprenda a crear y enviar envíos de correo directo con Adobe Campai
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '201'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 El correo directo es un canal sin conexión que le permite producir archivos para enviar de forma masiva cartas personalizadas a sus clientes, como postales, folletos o catálogos.
 
-Al crear un envío de correo directo, Adobe Campaign genera un archivo de extracción que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil. Este archivo se envía al servidor de su elección, lo que lo hace accesible para el proveedor de correo postal elegido, que gestiona el proceso de correo real.
+Al crear un envío de correo directo, Adobe Campaign genera un archivo de extracción que contiene todos los perfiles de destino y los datos seleccionados, como las direcciones postales y los atributos de perfil. Este archivo se envía al servidor de su elección, lo que lo hace accesible para el proveedor de correo directo elegido, que gestiona el proceso de correo real.
 
 Para crear envíos de correo directo, tiene estas tres opciones:
 

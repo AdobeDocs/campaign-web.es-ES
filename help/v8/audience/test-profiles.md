@@ -23,7 +23,7 @@ Los perfiles de prueba se utilizan para enviar pruebas y validar el contenido y 
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=es){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Los pasos para enviar pruebas a perfiles de prueba se detallan en [esta sección](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ El perfil de prueba que acaba de crear ya está listo para utilizarse para envia
 
 Obtenga información sobre cómo crear y administrar perfiles de prueba mediante la interfaz de usuario web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442898?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

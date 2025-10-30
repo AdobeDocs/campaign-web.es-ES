@@ -25,7 +25,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 ![Informe de descripción general de envío que muestra las métricas de SMS](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de SMS.
++++Obtenga más información sobre las métricas de informes de campaña de SMS.
 
 * **[!UICONTROL Total de mensajes enviados]**: Número total de mensajes procesados durante la preparación de la entrega.
 
@@ -48,7 +48,7 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 ![Tabla de estadísticas de audiencias de destino inicial que muestra los datos del destinatario](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de SMS.
++++Obtenga más información sobre las métricas de informes de campaña de SMS.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
@@ -69,7 +69,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 ![Tabla de estadísticas de ejecución que muestra las métricas de éxito de envío](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de SMS.
++++Obtenga más información sobre las métricas de informes de campaña de SMS.
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido), en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#sms-quarantines){target="_blank"}.
+  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -94,7 +94,7 @@ La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a c�
 
 ![Tabla de flujos de clics generados que muestra los datos de interacción del destinatario](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de SMS.
++++Obtenga más información sobre las métricas de informes de campaña de SMS.
 
 * **[!UICONTROL Clics distintos]**: Número total de destinatarios diferentes que hicieron clic en una entrega al menos una vez.
 

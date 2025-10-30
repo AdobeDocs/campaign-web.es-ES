@@ -7,7 +7,7 @@ exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->Esta capacidad solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe.
+>Esta funcionalidad solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics.
 

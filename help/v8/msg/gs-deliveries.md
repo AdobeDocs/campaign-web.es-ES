@@ -43,7 +43,7 @@ Para abrir una entrega, haga clic en su nombre en la lista. La entrega se abre, 
 
 ## Duplicación de un envío {#delivery-duplicate}
 
-Puede crear una copia de un envío existente, ya sea desde la lista de envíos o desde el panel de envíos.
+Puede crear una copia de un envío existente, ya sea desde la lista de envíos o desde el panel de control de envíos.
 
 Para duplicar un envío de la lista de envíos, siga estos pasos:
 
@@ -51,7 +51,7 @@ Para duplicar un envío de la lista de envíos, siga estos pasos:
 1. Seleccione **[!UICONTROL Duplicar]**.
 1. Confirme la duplicación. El nuevo panel de envío se abre en la pantalla central.
 
-Para duplicar un envío desde su panel, siga estos pasos:
+Para duplicar un envío desde su panel de control, siga estos pasos:
 
 1. Abra la entrega y haga clic en el botón **[!UICONTROL ...Más]** en la sección superior de la pantalla.
 1. Seleccione **[!UICONTROL Duplicar]**.

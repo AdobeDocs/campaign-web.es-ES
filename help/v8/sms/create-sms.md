@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -43,13 +43,12 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Escriba una **[!UICONTROL Etiqueta]** para la entrega y acceda a la lista desplegable de **[!UICONTROL Opciones adicionales]**. Si su entrega utiliza un esquema ampliado, hay **campos de opciones personalizadas** específicos disponibles.
 
-   +++Configure la siguiente configuración según sus necesidades.
+   +++Configure las siguientes opciones según sus necesidades.
    * **[!UICONTROL Nombre interno]**: asignar un identificador único al envío.
    * **[!UICONTROL Carpeta]**: almacene el envío en una carpeta específica.
    * **[!UICONTROL Código de envío]**: organice los envíos con su propia convención de nomenclatura.
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
-
    +++
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información sobre las audiencias](../audience/about-recipients.md).

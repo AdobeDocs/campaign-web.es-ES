@@ -26,7 +26,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Seguimiento de auditoría de esquemas de Source** le permite supervisar las actividades y las modificaciones recientes realizadas en los esquemas dentro de la consola del cliente de Campaign v8.
 
-  Para obtener información detallada sobre los esquemas, consulte [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Para obtener información detallada sobre los esquemas, consulte [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **Registro de auditoría de flujo de trabajo** le permite realizar un seguimiento de las actividades y los cambios recientes realizados en los flujos de trabajo, incluidos sus estados actuales, como:
 
@@ -43,7 +43,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Seguimiento de auditoría de opciones** le permite supervisar las actividades y las modificaciones recientes realizadas en las opciones de Campaign v8.
 
-  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Registro de auditoría de envíos** le permite comprobar las actividades y las últimas modificaciones realizadas en los envíos.
 
@@ -55,11 +55,11 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en la asignación de entregas en Campaign v8.
 
-  Para obtener más información sobre la asignación de envíos, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Para obtener más información sobre la asignación de envíos, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * **Aplicación web** le permite comprobar las modificaciones realizadas en los formularios web en Campaign v8, utilizados para crear páginas con campos de entrada y selección, y que pueden incluir datos de la base de datos.
 
-  Para obtener más información sobre las aplicaciones web, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/webapps).
+  Para obtener más información sobre las aplicaciones web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * **Oferta** le permite comprobar las actividades y las últimas modificaciones realizadas en sus ofertas.
 
@@ -67,7 +67,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Operador** le permite supervisar las actividades y las modificaciones recientes realizadas en sus Operadores en Campaign v8.
 
-  Para obtener más información sobre los operadores, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Para obtener más información sobre los operadores, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

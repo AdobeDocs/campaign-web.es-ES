@@ -10,7 +10,7 @@ exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -167,7 +167,7 @@ body {
 
 Su CSS personalizado se agrega al final de la sección `<head>` como parte de una etiqueta `<style>` con el atributo `data-name="global-custom"`, como en el ejemplo siguiente. Esto garantiza que los estilos personalizados se apliquen globalmente al contenido.
 
-+++ Ver muestra
++++ Ver muestra 
 
 ```html
 <!DOCTYPE html>
@@ -255,7 +255,7 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
    * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
 
-+++ Por ejemplo:
+     +++ Por ejemplo:
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
      }
      ```
 
-+++
+     +++

@@ -25,7 +25,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 ![Métricas de resumen de envío mostradas en el informe Información general de envío](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas push.
++++Obtenga más información sobre las métricas de informes de campañas push.
 
 * **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
@@ -48,7 +48,7 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 ![Estadísticas de audiencia de destinatario iniciales mostradas en el informe](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas push.
++++Obtenga más información sobre las métricas de informes de campañas push.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
@@ -69,7 +69,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 ![Estadísticas de ejecución mostradas en el informe](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas push.
++++Obtenga más información sobre las métricas de informes de campañas push.
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje o error de carga útil, por ejemplo) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){target="_blank"}.
+  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -94,7 +94,7 @@ La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a c�
 
 ![Flujos de clics generados mostrados en el informe](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas push.
++++Obtenga más información sobre las métricas de informes de campañas push.
 
 * **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en un envío al menos una vez.
 

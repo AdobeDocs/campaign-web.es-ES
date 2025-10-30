@@ -4,7 +4,7 @@ title: Introducción al canal del centro de llamadas
 description: Aprenda a crear y realizar envíos a los centros de llamadas con Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

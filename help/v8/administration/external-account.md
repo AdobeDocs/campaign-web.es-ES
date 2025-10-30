@@ -1,7 +1,8 @@
 ---
 title: Administrar cuenta externa
 description: Obtenga información sobre cómo configurar cuentas externas
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
@@ -104,6 +105,6 @@ Para configurar la cuenta externa **[!UICONTROL Execution instance]**:
 
 * **[!UICONTROL Método]** - Elija entre servicio Web o acceso de datos federado (FDA).
 
-  Para FDA, seleccione su cuenta de FDA. Tenga en cuenta que la conexión de Campaign a sistemas externos está restringida a usuarios avanzados y solo está disponible desde la consola del cliente. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/fda#_blank)
+  Para FDA, seleccione su cuenta de FDA. Tenga en cuenta que la conexión de Campaign a sistemas externos está restringida a usuarios avanzados y solo está disponible desde la consola del cliente. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Crear flujo de trabajo de archivado]**: para cada instancia de ejecución registrada en el Centro de mensajes, independientemente de si tiene una o varias instancias, cree un flujo de trabajo de archivado independiente para cada cuenta externa asociada a la instancia de ejecución.

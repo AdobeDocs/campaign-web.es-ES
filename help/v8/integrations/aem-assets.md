@@ -16,13 +16,13 @@ ht-degree: 3%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] es una plataforma integrada y colaborativa diseñada para optimizar su flujo de trabajo creativo y centralizar los recursos digitales para ofrecer una entrega de experiencias sin problemas. Simplifica la organización, el etiquetado y la recuperación de recursos de producción aprobados, lo que garantiza la coherencia de la marca en todos los equipos. Con su sencilla interfaz de usuario, [!DNL Assets as Cloud Service] le permite acceder y compartir recursos de manera instantánea dentro de sus aplicaciones de Adobe Creative y Experience Cloud.
 
-Obtenga más información en [Documentación de Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=es){target="_blank"}.
+Obtenga más información en [Documentación de Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"}.
 
 ## Carga e inserción de recursos{#add-asset}
 
 Para importar archivos a [!DNL Assets as Cloud Service], examine o cree la carpeta en la que se almacenarán los archivos. A continuación, insértelos en el contenido del correo electrónico.
 
-Para obtener más información sobre cómo cargar recursos, consulte [Documentación de Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo cargar recursos, consulte [Documentación de Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
 
 1. En la página de inicio, acceda al menú avanzado y seleccione [!DNL Experience Manager Assets].
 
@@ -46,11 +46,11 @@ Para obtener más información sobre cómo cargar recursos, consulte [Documentac
 
 1. Para acceder al menú avanzado de administración de recursos, seleccione el recurso que acaba de cargar.
 
-   Para obtener más información sobre la administración de recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=es).
+   Para obtener más información sobre la administración de recursos, consulte esta [página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
    ![Captura de pantalla que muestra el menú avanzado de administración de recursos en Adobe Experience Manager Assets](assets/assets_4.png){zoomable="yes"}
 
-1. Para editar aún más los recursos con Adobe Photoshop Express, haga doble clic en él. A continuación, en el menú de la derecha, seleccione el icono **[!UICONTROL Modo de edición]**. [Más información](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=es#edit-using-express){target="_blank"}.
+1. Para editar aún más los recursos con Adobe Photoshop Express, haga doble clic en él. A continuación, en el menú de la derecha, seleccione el icono **[!UICONTROL Modo de edición]**. [Más información](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. En [!DNL Adobe Campaign], seleccione el menú **[!UICONTROL Selector de recursos]** del panel izquierdo del diseñador de correo electrónico.
 

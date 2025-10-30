@@ -150,7 +150,7 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
 
    +++
 
-   +++Opciones adicionales para las actividades de tipo **[!UICONTROL Web download]**
+   +++Opciones adicionales para las actividades de tipo **[!UICONTROL Descarga web]**
 
    * **[!UICONTROL Seguir redirecciones]**: La redirección de archivos permite usar invalidaciones para dirigir la entrada o salida de datos a un dispositivo de un tipo diferente.
    * **[!UICONTROL Agregar los encabezados HTTP al archivo]**: en algunos casos, es posible que desee agregar encabezados HTTP adicionales a un archivo. Lo más habitual es que estos encabezados se utilicen para proporcionar información adicional para la resolución de problemas, para [Cross-origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o para establecer directivas específicas de almacenamiento en caché.

@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -32,7 +32,7 @@ Una vez añadidos los datos de enriquecimiento al flujo de trabajo, se pueden ut
 
 Por ejemplo, puede añadir información relacionada con las compras de los clientes a la tabla de flujo de trabajo y utilizar estos datos para personalizar correos electrónicos con su última compra o con la cantidad gastada en estas compras.
 
-## Añadir una actividad de enriquecimiento {#enrichment-configuration}
+## Añadir una actividad Enriquecimiento {#enrichment-configuration}
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 

@@ -10,7 +10,7 @@ ht-degree: 19%
 
 ---
 
-# Informe de envío externo {#direct-mail-report}
+# Informe del envío externo {#direct-mail-report}
 
 El **informe de envío externo** proporciona información y datos completos específicos de su envío externo. Incluye información detallada sobre el rendimiento, la eficacia y los resultados de los envíos individuales, y ofrece una visión general completa.
 
@@ -51,7 +51,7 @@ Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
 ![Vista detallada del gráfico inicial de población objetivo con funcionalidad de desplazamiento.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo directo.
++++Obtenga más información sobre las métricas de informes de envío de correo directo.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 * **[!UICONTROL Para entregar]**: Número total de mensajes que se enviarán después de la preparación de la entrega.
@@ -69,7 +69,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** proporciona una descripc
 
 ![Gráfico de estadísticas de envío que muestra tasas de éxito, errores y cuarentenas.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo directo.
++++Obtenga más información sobre las métricas de informes de campañas de correo directo.
 
 * **[!UICONTROL Mensaje enviado]**: Número total de mensajes que se enviarán después de la preparación del envío.
 * **[!UICONTROL Éxito]**: número de mensajes procesados correctamente comparado con el número de mensajes que se van a enviar.
@@ -84,7 +84,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** proporciona una descripc
 >title="Causas de exclusión de entrega"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
-El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){_blank}.
+El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusión que muestra la distribución de mensajes rechazados por regla.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

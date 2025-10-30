@@ -4,7 +4,7 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Una de las ventajas clave de flujos de trabajo es su capacidad para simplificar 
 
 ## Usos prácticos de los flujos de trabajo
 
-Los flujos de trabajo son muy versátiles y se pueden aplicar a varios contextos, como la segmentación para administrar audiencias o enviar mensajes, la administración de datos (ETL) para manipular datos e importarlos a la base de datos de Adobe Campaign.
+Los flujos de trabajo son muy versátiles y se pueden aplicar a varios contextos, como la segmentación para administrar públicos o enviar mensajes, la administración de datos (ETL) para manipular datos e importarlos a la base de datos de Adobe Campaign.
 
 Mediante el entorno gráfico de Adobe Campaign, se diseñan procesos como segmentación, ejecución de campaña y procesamiento de archivos. Los flujos de trabajo también involucran a los usuarios mediante la asignación de tareas o la necesidad de aprobación para las tareas realizadas, simplificando la gestión equipo y garantizando la precisión.
 
@@ -30,7 +30,7 @@ A continuación se muestran algunos ejemplos de cómo pueden utilizar flujos de 
 
 * Inicie una campaña de seguimiento para clientes inactivos,
 * Envíe un correo electrónico de bienvenida a todos los nuevos suscriptores de un servicio,
-* Personalice los envíos multicanal en función del estado del programa de fidelidad de los clientes o los puntos de interés.
+* Personalice los envíos multicanal en función del estado del programa de lealtad de los clientes o los puntos de interés.
 
 ## Vamos a profundizar
 

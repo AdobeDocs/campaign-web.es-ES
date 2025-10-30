@@ -27,7 +27,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 
 ![Captura de pantalla del informe Resumen de entrega](assets/campaign_report_email_1.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Mensajes para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 
@@ -52,7 +52,7 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 ![Captura de pantalla de la tabla de estadísticas de audiencia de destinatario inicial](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
@@ -73,7 +73,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 ![Captura de pantalla de la tabla de estadísticas de ejecución que detalla el éxito de la entrega](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Mensaje para entregar]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
@@ -83,7 +83,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de una entrega fallido (usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){target="_blank"}.
+  Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 +++
 
@@ -98,7 +98,7 @@ La tabla **[!UICONTROL Estadísticas de reacción]** contiene los datos disponib
 
 ![Captura de pantalla de la tabla de estadísticas de reacción que contiene los datos disponibles para la actividad del destinatario para la entrega](assets/campaign_report_email_4.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Aperturas únicas]**: Número total de destinatarios objetivo que abrieron un mensaje al menos una vez.
 
@@ -122,7 +122,7 @@ La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a c�
 
 ![Captura de pantalla de la tabla de flujos de clics generados](assets/campaign_report_email_5.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Clics únicos]**: Número total de destinatarios únicos que hicieron clic en un envío al menos una vez.
 
@@ -143,11 +143,11 @@ La tabla **[!UICONTROL Flujos de clics generados]** muestra datos relativos a c�
 
 La tabla y el gráfico **[!UICONTROL Desglose de errores por tipo]** contienen los datos disponibles para los posibles errores encontrados para cada tipo de dominio. Las métricas se detallan a continuación.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es){target="_blank"}.
+Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![Captura de pantalla del desglose de errores por tipo, gráfico y tabla](assets/campaign_report_email_6.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
@@ -187,7 +187,7 @@ Las métricas **[!UICONTROL Estadísticas de envío]** proporcionan indicadores 
 
 ![Captura de pantalla de las métricas de estadísticas de envío](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Mensaje(s) para entregar]**: número de mensajes procesados correctamente en relación con el número de mensajes que se desea enviar.
 
@@ -261,7 +261,7 @@ El gráfico y la tabla **[!UICONTROL Los 10 vínculos más visitados]** contiene
 
 ![Captura de pantalla del gráfico de los 10 vínculos más visitados](assets/campaign_report_email_10.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 
@@ -291,7 +291,7 @@ El informe **[!UICONTROL Actividades de usuario]** muestra el desglose de apertu
 
 ![Captura de pantalla del informe de actividades del usuario](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 

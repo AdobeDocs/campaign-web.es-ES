@@ -99,7 +99,7 @@ La tabla **[!UICONTROL Estadísticas de envío]** proporciona un desglose del é
 
 El gráfico y la tabla de exclusiones ilustran los motivos que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){target="_blank"}.
+Los tipos de error de correo electrónico se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -112,7 +112,7 @@ Los tipos de error de correo electrónico se enumeran en la [documentación de A
 
 El informe Delivery Throughput proporciona una visión detallada de la eficacia del proceso de entrega y presenta una visión general detallada de las tasas de éxito y error dentro de un periodo de tiempo especificado.
 
-+++Obtenga más información acerca de las métricas de rendimiento de envíos.
++++Más información sobre las Métricas de rendimiento de entrega.
 
 * **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
@@ -133,9 +133,9 @@ El informe Delivery Throughput proporciona una visión detallada de la eficacia 
 
 La tabla y el gráfico **[!UICONTROL Desglose de errores por tipo]** presentan los datos relacionados con posibles errores experimentados en varios dominios, con métricas específicas que se proporcionan a continuación.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es){target="_blank"}.
+Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-+++Obtenga más información sobre el desglose de errores por tipo de métrica.
++++Más información sobre el Desglose de errores por tipo de métricas.
 
 * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
@@ -231,7 +231,7 @@ El informe **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave 
 
 ![Métricas de URL y flujos de clics](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de URL y flujos de clics.
++++Obtenga más información sobre las métricas de URL y flujos de clics.
 
 * **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
@@ -283,7 +283,7 @@ El informe **[!UICONTROL Actividades de usuario]** muestra el desglose de apertu
 
 ![Métricas de actividades de usuario](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++Más información sobre las métricas de Actividades de usuario.
++++Más información sobre las Métricas de actividades de usuario.
 
 * **[!UICONTROL Clics totales]**: Número total de clics en los vínculos de los envíos.
 

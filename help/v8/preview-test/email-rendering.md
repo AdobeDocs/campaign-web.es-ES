@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Prueba del procesamiento de correo electrónico
+title: Prueba de representación de correo electrónico
 description: Obtenga información sobre cómo probar el procesamiento de correo electrónico en la interfaz de usuario web de Campaign
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
@@ -10,7 +10,7 @@ ht-degree: 2%
 
 ---
 
-# Prueba del procesamiento de correo electrónico {#email-rendering}
+# Prueba de representación de correo electrónico {#email-rendering}
 
 Antes de enviar el correo electrónico, asegúrese de que el mensaje se muestre de forma óptima para los destinatarios en varios clientes y dispositivos web.
 

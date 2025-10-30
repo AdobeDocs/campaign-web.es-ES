@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo configurar un envío multilingüe
 source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 

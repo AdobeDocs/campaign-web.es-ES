@@ -32,7 +32,7 @@ El informe **[!UICONTROL Resumen de entrega]** proporciona indicadores clave de 
 
 ![Esta captura de pantalla muestra el informe Resumen de entrega, que proporciona KPI sobre la participación de los visitantes con los mensajes push.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++ Obtenga más información sobre las métricas de informes de envío push.
++++Obtenga más información sobre las métricas de informes de envío push.
 
 * **[!UICONTROL Total de mensajes enviados]**: Número total de mensajes procesados durante la preparación de la entrega.
 * **[!UICONTROL Entregado]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
@@ -52,7 +52,7 @@ El gráfico y la tabla **Población de destino** muestran datos relativos a su a
 
 ![Esta captura de pantalla muestra el gráfico y la tabla de población objetivo, que muestran datos sobre los mensajes que se van a enviar y las exclusiones.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++ Obtenga más información sobre las métricas de informes de envío push.
++++Obtenga más información sobre las métricas de informes de envío push.
 
 * **[!UICONTROL Para entregar]**: Número total de mensajes procesados durante la preparación de la entrega.
 * **[!UICONTROL Exclusiones]**: número de perfiles que se han excluido del análisis.
@@ -70,7 +70,7 @@ El informe **Estadísticas generales** presenta datos para las notificaciones pu
 
 ![Esta captura de pantalla muestra el informe Estadísticas generales, que presenta datos sobre el éxito, los errores y las cuarentenas de las notificaciones push enviadas.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++ Obtenga más información sobre las métricas de informes de envío push.
++++Obtenga más información sobre las métricas de informes de envío push.
 
 * **[!UICONTROL Éxito]**: número de mensajes procesados correctamente.
 * **[!UICONTROL Errores]**: Número total de errores que se produjeron durante la entrega para evitar que los mensajes se enviaran a determinados perfiles.
@@ -85,7 +85,7 @@ El informe **Estadísticas generales** presenta datos para las notificaciones pu
 >title="Exclusiones push"
 >abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
-El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){_blank}.
+El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![Esta captura de pantalla muestra el gráfico y la tabla Exclusiones, que muestran motivos que impiden que los perfiles de usuario excluidos reciban mensajes.](assets/reporting_push_6.png){zoomable="yes"}
 

@@ -37,7 +37,7 @@ Para diseñar el contenido del archivo de extracción generado por su envío de 
 
 1. Expanda la sección **[!UICONTROL Formato de extracción]** para acceder a opciones específicas relacionadas con el formato del archivo de extracción. Los valores disponibles dependen del formato seleccionado.
 
-+++ Opciones de formato de extracción disponibles
+   +++ Opciones de formato de extracción disponibles
 
    * **[!UICONTROL Usar primera línea como encabezado de columna]** (formato de texto/CSV (Excel)): Active esta opción para usar la primera columna como encabezado.
    * **[!UICONTROL Separador de columnas]** (formato de texto): especifique el carácter que se utilizará como separador de columnas en el archivo de extracción.
@@ -48,7 +48,7 @@ Para diseñar el contenido del archivo de extracción generado por su envío de 
    * **[!UICONTROL Formato de número]**: especifique el formato de los números en el archivo de extracción.
    * **[!UICONTROL Exportar etiquetas en lugar de valores internos de enumeraciones]**: Active esta opción si exporta valores de enumeración y desea recuperar etiquetas de columna, que son más fáciles de entender, en lugar de identificadores internos.
 
-+++
+   +++
 
 1. Active la opción **[!UICONTROL Cantidad solicitada]** para restringir el número de destinatarios de su envío.
 

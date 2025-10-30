@@ -4,7 +4,7 @@ title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
 
@@ -150,10 +150,10 @@ Como usuario existente de Campaign, tenga en cuenta que se ha cambiado el nombre
 
 Las limitaciones siguientes se aplican a esta versión:
 
-* Los objetos editables son los destinatarios, envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos, plantillas y páginas de aterrizaje. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
+* Los objetos editables son los destinatarios, envíos, campañas, flujos de trabajo, públicos, servicios de suscripción, filtros predefinidos, plantillas y páginas de destino. Los demás son de solo lectura. Utilice filtros y cree reglas para explorarlos todos.
 * Las funcionalidades de administración y configuración avanzada no están disponibles en la interfaz de usuario web de Campaign.
 * Las métricas de creación de informes (como aperturas y datos de seguimiento) se actualizan cada hora.
-* Los KPI del panel de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
+* Los KPI del panel de control de envío se actualizan cada cinco minutos. Sin embargo, la preparación del envío es en tiempo real.
 * Las notificaciones de Adobe Experience Cloud y la Ayuda unificada disponibles en la barra superior aún no están integradas.
 
 A la hora de trabajar en la interfaz de usuario web de Campaign con flujos de trabajo creados o modificados en la consola del cliente de Campaign, se aplican mecanismos de protección y limitaciones específicos. Se muestran [en esta sección](../get-started/guardrails.md).

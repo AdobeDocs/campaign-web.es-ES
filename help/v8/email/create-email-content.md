@@ -5,8 +5,8 @@ description: Aprenda a diseñar el contenido de sus correos electrónicos desde 
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 54%
+source-wordcount: '650'
+ht-degree: 51%
 
 ---
 
@@ -72,7 +72,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![Captura de pantalla que muestra el panel de componentes de estructura en el Designer de correo electrónico.](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. Seleccione el componente **[!UICONTROL columna n:n]** para definir el número de columnas que elija (entre 3 y 10). Defina el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
+1. Seleccione el componente **[!UICONTROL n:n column]** para definir el número de columnas que desee (entre 3 y 10). Defina el ancho de cada columna moviendo las flechas en la parte inferior de cada columna.
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
    >
    >No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
 
-1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar el procesamiento del correo electrónico. Elija la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
+1. Una vez que el contenido esté listo, haga clic en **[!UICONTROL Simular contenido]** para comprobar la representación de correo electrónico. Elija la vista de escritorio o la vista móvil. [Obtenga más información sobre la vista previa del correo electrónico](../preview-test/preview-test.md)
 
    ![Captura de pantalla que muestra las opciones de simulación en el Designer de correo electrónico.](assets/email_designer-simulate.png){zoomable="yes"}
 
@@ -110,4 +110,4 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizarlo y probarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453568/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

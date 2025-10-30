@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Alineación con la marca
+title: Alineación de marca
 description: Aprenda a crear, validar y administrar contenido de marca mediante la puntuación de marca.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
@@ -10,7 +10,7 @@ ht-degree: 5%
 
 ---
 
-# Alineación con la marca {#brands-score}
+# Alineación de marca {#brands-score}
 
 >[!AVAILABILITY]
 >

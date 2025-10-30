@@ -52,7 +52,7 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 
 ![Estadísticas de la audiencia de destinatario inicial para campañas de correo directo](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de estadísticas de audiencia de destinatario inicial.
++++Más información sobre las Métricas de estadísticas de audiencia de destinatario inicial.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
@@ -96,7 +96,7 @@ La tabla **[!UICONTROL Execution statistics]** proporciona un desglose del éxit
 
 La tabla **Flujos de clics generados** ilustra las razones que impidieron que los perfiles de usuario, excluidos de los perfiles de destino, recibieran el mensaje.
 
-+++Obtenga más información acerca de las métricas de flujos de clics generados.
++++Obtenga más información sobre las métricas de flujos de clics generados.
 
 * **[!UICONTROL Clics únicos]**: Número total de destinatarios diferentes que hicieron clic en un envío al menos una vez.
 

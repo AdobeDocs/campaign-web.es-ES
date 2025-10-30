@@ -1,7 +1,8 @@
 ---
 title: Administrar cuenta externa
 description: Obtenga información sobre cómo configurar cuentas externas
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 8f41312e-422f-4be1-b874-1b143c500912
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '3892'
 ht-degree: 1%

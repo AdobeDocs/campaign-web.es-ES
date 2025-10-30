@@ -36,7 +36,7 @@ Pase el ratón sobre una parte del gráfico para ver el número exacto.
 
 ![Captura de pantalla de un gráfico con un ratón sobre una parte para mostrar el número exacto](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Audiencia inicial]**: Número total de destinatarios objetivo.
 
@@ -56,7 +56,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** detalla el éxito de su 
 
 ![Captura de pantalla de un gráfico que muestra los detalles de las estadísticas de envío](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de campañas de correo electrónico.
++++Más información sobre las métricas de informes de campañas de correo electrónico.
 
 * **[!UICONTROL Mensaje enviado]**: Número total de mensajes que se enviarán después de la preparación del envío.
 
@@ -75,11 +75,11 @@ El gráfico de **[!UICONTROL estadísticas de envío]** detalla el éxito de su 
 >title="Causas de exclusión de entrega"
 >abstract="El gráfico y la tabla **Causas de exclusión** muestran el desglose por regla de mensajes rechazados durante la preparación del envío."
 
-El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran el desglose por regla de mensajes rechazados durante la preparación de la entrega. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){_blank}.
+El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran el desglose por regla de mensajes rechazados durante la preparación de la entrega. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Captura de pantalla de la tabla y el gráfico de causas de exclusión](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
@@ -120,7 +120,7 @@ La tabla **[!UICONTROL Estadísticas de difusión]** contiene los datos disponib
 
 ![Captura de pantalla de las estadísticas de difusión](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Correos electrónicos procesados]**: Número total de mensajes procesados por el servidor de entrega.
 
@@ -153,11 +153,11 @@ La tabla **[!UICONTROL Estadísticas de difusión]** contiene los datos disponib
 
 El gráfico y la tabla **[!UICONTROL Breakdown of errors per type]** contienen los datos disponibles para el tipo de error. Las métricas se detallan a continuación.
 
-Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=es){target="_blank"}.
+Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de cuarentena, consulte la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![Captura de pantalla del desglose de errores por tipo](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Usuario desconocido]**: Tipo de error generado durante la entrega para indicar que la dirección de correo electrónico no es válida.
 
@@ -218,7 +218,7 @@ El informe **[!UICONTROL Estadísticas de envío]** proporciona indicadores clav
 
 ![Captura de pantalla de las estadísticas de envío](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Éxito]**: número de mensajes procesados correctamente en relación con el número de mensajes que se van a enviar.
 
@@ -246,7 +246,7 @@ La tabla **[!UICONTROL Tasa de clics y aperturas]** muestra datos relativos a su
 
 ![Captura de pantalla de la tabla de tasas de pulsaciones y aperturas](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Enviado]**: Número total de mensajes enviados.
 
@@ -271,7 +271,7 @@ El informe de **[!UICONTROL URL y flujos de clics]** proporciona indicadores cla
 
 ![Captura de pantalla del informe de URL y flujos de clics](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Reactividad]**: la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega.
 
@@ -296,7 +296,7 @@ El gráfico y la tabla **[!UICONTROL Los 10 vínculos más visitados]** contiene
 
 ![Captura de pantalla del gráfico de los 10 vínculos más visitados](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 
@@ -328,7 +328,7 @@ El informe **[!UICONTROL Actividades de usuario]** muestra el desglose de apertu
 
 ![Captura de pantalla del informe de actividades del usuario](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 
@@ -347,7 +347,7 @@ El gráfico **[!UICONTROL Estadísticas de seguimiento]** proporciona estadísti
 
 ![Captura de pantalla del gráfico de estadísticas de seguimiento](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Obtenga más información acerca de las métricas de informes de envío de correo electrónico.
++++Obtenga más información sobre las métricas de informes de envío de correo electrónico.
 
 * **[!UICONTROL Clics]**: Número total de clics en los vínculos de los envíos.
 

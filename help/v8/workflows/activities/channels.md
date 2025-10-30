@@ -94,7 +94,7 @@ Para configurar una entrega en el contexto de un flujo de trabajo, siga los paso
 
 1. Abra la actividad del canal para confirmar el envío desde el botón **Revisar y enviar**.
 
-1. En el panel de envíos, haga clic en **Enviar**.
+1. En el panel de control de envíos, haga clic en **Enviar**.
 
 ## Ejemplos {#cross-channel-workflow-sample}
 

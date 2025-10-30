@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo crear un mensaje transaccional en 
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 6%
 >
 >Esta función solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura. El servidor debe actualizarse a la versión 8.8.2 o posterior.
 >
->Actualmente, esta función solo está disponible para correos electrónicos.
+>Esta función solo está disponible actualmente en los correos electrónicos.
 
-Esta capacidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destino, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.
+Esta capacidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.
 
 * Los mensajes transaccionales basados en eventos utilizan datos contenidos en el propio evento.
 * Los mensajes transaccionales basados en perfiles utilizan datos contenidos en la base de datos de Adobe Campaign.

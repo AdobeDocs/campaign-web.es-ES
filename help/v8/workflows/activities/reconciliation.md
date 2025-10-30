@@ -94,7 +94,7 @@ De forma predeterminada, los datos no reconciliados se mantienen en la transici�
 
 ## Ejemplo {#reconciliation-example}
 
-En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de perfiles directamente desde un archivo importado que contiene nuevos clientes. Incluye las siguientes actividades:
+En el siguiente ejemplo se muestra un flujo de trabajo que crea un público de perfiles directamente desde un archivo importado que contiene nuevos clientes. Incluye las siguientes actividades:
 
 El flujo de trabajo está diseñado de la siguiente manera:
 

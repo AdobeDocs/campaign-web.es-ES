@@ -98,4 +98,4 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure las 
 
 Obtenga información sobre cómo crear y administrar audiencias, cómo seleccionar audiencias para una entrega y definir grupos de control.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453205?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

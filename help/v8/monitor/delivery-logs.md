@@ -17,9 +17,9 @@ ht-degree: 55%
 >title="Registros de envío"
 >abstract="Los registros de envío muestran los detalles del envío. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics."
 
-Una vez que la entrega esté preparada y haga clic en el botón **Enviar**, busque los registros de entrega para comprobar las advertencias, los errores, el estado, las exclusiones y los datos de seguimiento. Se puede acceder a estos registros directamente desde el panel de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
+Una vez que la entrega esté preparada y haga clic en el botón **Enviar**, busque los registros de entrega para comprobar las advertencias, los errores, el estado, las exclusiones y los datos de seguimiento. Se puede acceder a estos registros directamente desde el panel de control de mensajes. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
 
-Para ver los registros, acceda al panel del envío y haga clic en el botón **Registros**.
+Para ver los registros, acceda al panel de control del envío y haga clic en el botón **Registros**.
 
 Las pestañas disponibles son las siguientes:
 
@@ -40,13 +40,13 @@ Se muestran todos los pasos, advertencias y errores de validación. Los iconos d
 * El icono amarillo indica un error de procesamiento no crítico.
 * El icono rojo indica un error crítico que impide realizar el envío. Deben corregirse los errores críticos para que se realice la entrega.
 
-![&#x200B; La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
+![ La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
 
 ## Envíos {#deliveries-tab}
 
 La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
-![&#x200B; pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
+![ pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusiones {#exclusion-tab}
 

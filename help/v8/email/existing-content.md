@@ -56,4 +56,4 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
 Obtenga información sobre cómo crear un mensaje de correo electrónico cargando HTML, haciéndolo compatible con el Designer de correo electrónico y convirtiéndolo en una plantilla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447035/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
