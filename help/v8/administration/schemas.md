@@ -2,10 +2,10 @@
 title: Trabajo con esquemas
 description: Aprenda a trabajar con esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 18%
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Los esquemas desempeñan un papel clave en:
 
 Cada entidad de Adobe Campaign tiene un esquema específico que garantiza la coherencia y la organización de los datos.
 
-Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## Acceso a esquemas en la interfaz de usuario web {#access}
 
@@ -63,7 +63,9 @@ La ficha **[!UICONTROL Datos]** proporciona información sobre los datos del esq
 
 ![Pestaña de datos de esquema que muestra la estructura y los atributos de datos](assets/schemas-data.png)
 
-## Editar campos personalizados {#fields}
+## Configuración de la definición de pantalla {#screen-definition}
+
+### Editar campos personalizados {#fields}
 
 Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Permiten personalizar esquemas incluyendo nuevos atributos para adaptarlos a las necesidades de la organización.
 
@@ -74,3 +76,27 @@ Los campos personalizados se pueden mostrar en varias pantallas, como los detall
 Haga clic en **[!UICONTROL Vista previa]** para mostrar los campos personalizados en una pantalla de muestra.
 
 Para obtener información detallada sobre cómo editar campos personalizados en un esquema, consulte esta sección: [Configurar campos personalizados](../administration/custom-fields.md).
+
+### Agregar listas de colección {#collection-lists}
+
+Esta sección **Lista de listas personalizadas** le permite definir vínculos de colección, como compras. A continuación, los datos relacionados se muestran en pantallas de perfil a través de una pestaña dedicada.
+
+>[!NOTE]
+>
+>Actualmente, esta capacidad solo está disponible para el esquema Recipients.
+
+1. Para agregar una lista de colección a la interfaz, haga clic en el botón de puntos suspensivos y elija **Seleccionar listas personalizadas**.
+
+   ![Creación de listas de colección](assets/schemas-collection1.png)
+
+1. Seleccione una de las listas personalizadas disponibles, por ejemplo, compras, luego haga clic en **Confirmar**.
+
+   ![Creación de listas de colección](assets/schemas-collection2.png)
+
+1. Vaya al menú **Perfiles** y filtre los perfiles que hayan realizado compras.
+
+   ![Creación de listas de colección](assets/schemas-collection3.png)
+
+1. Haga clic en un perfil. Verá que se muestra la nueva pestaña. Puede agregar más columnas si es necesario.
+
+   ![Creación de listas de colección](assets/schemas-collection4.png)

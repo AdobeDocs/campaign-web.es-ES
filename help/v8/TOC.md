@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [Definición de un estilo para los vínculos](email/styling-links.md)
          + [Adición de atributos de estilo alineados](email/inline-styling.md)
          + [Añadir CSS personalizado](email/custom-css.md)
+         + [Administrar contenido en modo oscuro](email/dark-mode.md)
       + [Creación de contenido accesible](email/accessible-content.md)
    + Asistente de IA {#ai-assistant}
       + [Trabajo con el Asistente de IA](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [Trabajar con otras soluciones de Adobe](integrations/integration.md)
    + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Trabajo con GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuración {#conf}
    + Promoción de la marca {#branding}
       + [Acerca de la promoción de la marca](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [Base de datos externa](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Transferir datos](administration/transfer-external-account.md)
+      + [Cuenta externa de CRM](administration/external-crm.md)
    + [Administración de enumeraciones](administration/enumerations.md)
    + [Trabajo con códigos JavaScript](administration/javascript-codes.md)
 + [Documentación de Campaign v8 (consola) >](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home)

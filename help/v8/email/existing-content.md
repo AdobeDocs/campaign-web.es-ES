@@ -3,7 +3,7 @@ audience: end-user
 title: Importar el contenido de su correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 29%
@@ -46,9 +46,9 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
    ![Captura de pantalla que muestra la ficha Convertidor de HTML y el botón Convertir.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->El uso de una etiqueta `<table>` como primera capa de un archivo HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de la capa superior.
+   >[!NOTE]
+   >
+   >El uso de una etiqueta `<table>` como primera capa de un archivo HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de la capa superior.
 
 1. Personalice el archivo importado según sea necesario con las funcionalidades de Designer de correo electrónico. [Más información](content-components.md)
 
@@ -56,4 +56,4 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
 Obtenga información sobre cómo crear un mensaje de correo electrónico cargando HTML, haciéndolo compatible con el Designer de correo electrónico y convirtiéndolo en una plantilla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447035/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

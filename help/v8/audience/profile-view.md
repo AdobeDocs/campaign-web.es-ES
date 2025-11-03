@@ -2,10 +2,10 @@
 title: Exploración de los detalles de los perfiles
 description: Descubra cómo explorar los detalles de un perfil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ La información sobre el perfil se organiza de la siguiente manera:
 * La ficha **[!UICONTROL Suscripciones]** proporciona insight a los servicios a los que está suscrito el perfil. [Más información sobre los servicios de suscripción](manage-services.md)
 
   ![Captura de pantalla que muestra la ficha suscripciones, donde se enumeran los servicios a los que está suscrito el perfil.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* Puede mostrar pestañas personalizadas, como compras, definiendo vínculos de recopilación en la definición de pantalla del esquema Recipients. [Más información sobre los vínculos de colección](../administration/schemas.md#collection-lists)
+
+  ![Captura de pantalla que muestra la ficha personalizada](assets/schemas-collection4.png){zoomable="yes"}
 
 * Además, el botón **[!UICONTROL Registros]**, ubicado en la esquina superior derecha de la pantalla, le permite ver el historial de las interacciones del perfil mediante el envío, la exclusión y los registros de seguimiento. [Más información sobre los registros de envío](../monitor/delivery-logs.md)
 

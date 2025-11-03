@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 0%
+source-wordcount: '1623'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,6 @@ En línea con esto, las prácticas recomendadas para diseñar contenido accesibl
 
 En esta página se trata de poner el contenido a disposición de todos los destinatarios para garantizar que las personas con discapacidades puedan leer, comprender e interactuar con los mensajes de correo electrónico y las páginas de aterrizaje diseñados con [!DNL Adobe Campaign].
  
-
 ## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
@@ -137,19 +136,17 @@ Para comprobar de forma más coherente si el contenido es accesible de forma fia
 
 ## Usar modo oscuro {#dark-mode}
 
-Entre las prácticas recomendadas para diseñar contenido en modo oscuro, utilice archivos PNG o SVG transparentes, establezca etiquetas meta y CSS adecuadas y proporcione un estilo de reserva accesible si no se admite el modo oscuro.
+El modo oscuro mejora la accesibilidad visual para los usuarios con sensibilidad a la luz o deficiencias visuales, para una experiencia de visualización mejorada.
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED
-
-Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
+El Designer de correo electrónico le permite cambiar a la vista **[!UICONTROL Modo oscuro]** y definir la configuración personalizada específica que se mostrará en los clientes de correo electrónico de soporte. [Más información](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+Entre las prácticas recomendadas para diseñar contenido en modo oscuro, utilice archivos PNG o SVG transparentes, establezca etiquetas meta y CSS adecuadas y proporcione un estilo de reserva accesible si no se admite el modo oscuro. Finalmente, asegúrese de que los correos electrónicos se representan correctamente en el modo oscuro probando todo el contenido del correo electrónico y los elementos de la interfaz de usuario en los modos claro y oscuro.
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+Las prácticas recomendadas detalladas específicas del modo oscuro, incluidas las directrices para garantizar la accesibilidad, se enumeran en [esta sección](dark-mode.md#best-practices).
 
-KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## Utilizar atributos específicos para la accesibilidad {#attributes}
 

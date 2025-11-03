@@ -6,9 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: modo oscuro, correo electrónico, color, editor
-hide: true
-hidefromtoc: true
-source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 10%
