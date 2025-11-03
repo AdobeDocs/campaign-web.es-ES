@@ -26,6 +26,7 @@ En línea con esto, las prácticas recomendadas para diseñar contenido accesibl
 
 En esta página se trata de poner el contenido a disposición de todos los destinatarios para garantizar que las personas con discapacidades puedan leer, comprender e interactuar con los mensajes de correo electrónico y las páginas de aterrizaje diseñados con [!DNL Adobe Campaign].
  
+
 ## Garantizar la legibilidad del texto {#text-readability}
 
 Aproveche la pestaña **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
