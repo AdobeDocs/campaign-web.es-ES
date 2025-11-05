@@ -3,10 +3,10 @@ audience: end-user
 title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 15%
+source-wordcount: '1015'
+ht-degree: 13%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 15%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+## Acerca de la creación de audiencias
+
 La web de Campaign le permite crear nuevas audiencias en un lienzo de flujo de trabajo visual. Además de empezar desde cero para crear un público sencillo, también puede aprovechar las actividades del flujo de trabajo para perfeccionar su público. Por ejemplo, puede combinar varios públicos en uno solo, enriquecerlo con atributos externos o dividirlo en varios públicos en función de las reglas que elija.
 
 Una vez que haya creado el flujo de trabajo, las audiencias resultantes se almacenan automáticamente en la base de datos de Campaign junto con las existentes. Estas audiencias pueden segmentarse en flujos de trabajo o envíos independientes.
@@ -30,6 +32,14 @@ Una vez que haya creado el flujo de trabajo, las audiencias resultantes se almac
 La columna **[!UICONTROL Origin]** indica el origen de las audiencias: Las audiencias de **[!UICONTROL Adobe Campaign]** se crean en la consola de Adobe Campaign v8 o en la interfaz de usuario web, mientras que las audiencias de **[!UICONTROL Adobe Experience Platform:]** se crean en Adobe Experience Platform y se integran en Campaign mediante la integración de fuentes y destinos de Adobe.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
+
+## Permisos para grupos de operadores personalizados
+
+Al crear una audiencia nueva, se crea automáticamente un flujo de trabajo que se almacena en la carpeta **[!UICONTROL Perfiles y objetivos]** / **[!UICONTROL Trabajos]** / **[!UICONTROL Flujos de trabajo de segmentación]**.
+
+Si se le asigna un grupo de operadores personalizado y encuentra el error &quot;No tiene derechos&quot; al crear audiencias, debe asegurarse de que el grupo de operadores tenga los permisos necesarios para esta carpeta.
+
+Para resolver esto, un administrador debe agregar su grupo de operadores personalizados a la sección de seguridad de carpetas de la consola de Campaign. [Obtenga información sobre cómo administrar permisos en carpetas](../get-started/permissions.md#folder-permissions)
 
 ## Cree su primera audiencia {#create}
 
@@ -98,4 +108,4 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure las 
 
 Obtenga información sobre cómo crear y administrar audiencias, cómo seleccionar audiencias para una entrega y definir grupos de control.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453205?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
