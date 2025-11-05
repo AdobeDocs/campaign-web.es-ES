@@ -3,7 +3,7 @@ audience: end-user
 title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
+source-git-commit: ba7ba504a8ea62ad6ecea65f9b93ee5848077201
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 13%
@@ -108,4 +108,4 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure las 
 
 Obtenga información sobre cómo crear y administrar audiencias, cómo seleccionar audiencias para una entrega y definir grupos de control.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453205?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
