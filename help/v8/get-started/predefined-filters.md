@@ -3,7 +3,7 @@ title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
 ht-degree: 100%
 
