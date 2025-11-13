@@ -3,9 +3,9 @@ title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ _3 de noviembre de 2025_
 <tbody>
 <tr>
 <td>
-<p>Para mejorar la eficacia del marketing y mantener la coherencia de la marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Campaign. Esto le permite aprovechar la creación de contenido con potencia IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Campaign.<p>
+<p>Para mejorar la eficacia del marketing y mantener la uniformidad de la marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Campaign. Esto le permite aprovechar la creación de contenido con tecnología IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Campaign.<p>
 <p>Para obtener más información, consulte la <a href="../integrations/genstudio.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -87,7 +87,7 @@ _3 de noviembre de 2025_
 <tbody>
 <tr>
 <td>
-<p>Email Designer ahora permite cambiar a la vista de modo oscuro, donde también puede definir ajustes personalizados específicos. Tenga en cuenta que la renderización final depende del cliente de correo electrónico del destinatario y no todos los clientes de correo electrónico admiten el modo oscuro.</p>
+<p>El Diseñador de correo electrónico ahora permite cambiar a la vista de modo oscuro, donde también puede definir ajustes personalizados específicos. Tenga en cuenta que la representación final depende del cliente de correo electrónico del destinatario y no todos los clientes de correo electrónico son compatibles con el modo oscuro.</p>
 <p>Para obtener más información, consulte la <a href="../email/dark-mode.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -112,11 +112,11 @@ _3 de noviembre de 2025_
 
 ### Mejoras {#25-10-improvements}
 
-* En las entregas creadas en la consola del cliente, la sección **Audience** ahora indica si se ha definido una condición dinámica para los destinos de prueba. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* En los envíos creados en la consola del cliente, la sección **Público** ahora indica si se ha definido una condición dinámica para los destinos de prueba. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* Ahora puede cambiar entre el generador de reglas nuevo y el heredado al configurar una condición mediante la capacidad de contenido condicional de Email Designer. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* Ahora puede conmutar entre el generador de reglas nuevo y el heredado cuando vaya a configurar una condición mediante la funcionalidad de contenido condicional del Diseñador de correo electrónico. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* Ahora puede seleccionar vínculos de recopilación, como compras, en la definición de pantalla del esquema Recipients. Esto muestra los datos relacionados en las pantallas de perfil a través de una pestaña dedicada. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* Ahora puede seleccionar vínculos de colección, como compras, en la definición de pantalla del esquema Destinatarios. Se muestran los datos relacionados en las pantallas de perfil a través de una pestaña específica. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
 * Como administrador de Campaign, ahora puede configurar conexiones a Salesforce CRM y Microsoft Dynamics.
   [Más información](../administration/external-crm.md)

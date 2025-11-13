@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -192,7 +192,7 @@ ht-degree: 99%
       + [Combinar](workflows/activities/combine.md)
       + [Deduplicación](workflows/activities/deduplication.md)
       + [Correo electrónico, SMS, push, correo directo](workflows/activities/channels.md)
-      + [Enriquecimiento &#x200B;](workflows/activities/enrichment.md)
+      + [Enriquecimiento ](workflows/activities/enrichment.md)
       + [Señal externa](workflows/activities/external-signal.md)
       + [Extracción de archivos](workflows/activities/extract-file.md)
       + [Bifurcación](workflows/activities/fork.md)
@@ -278,7 +278,7 @@ ht-degree: 99%
    + [Administrar asignaciones de público destinatario](administration/target-mappings.md)
    + [Trabajo con esquemas](administration/schemas.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-   + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)
