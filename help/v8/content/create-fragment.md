@@ -139,7 +139,7 @@ Para eliminar un fragmento de contenido, siga estos pasos:
 
 >[!CAUTION]
 >
->Al eliminar un fragmento, se actualizan los envíos y las plantillas que lo utilizan. El fragmento se eliminará del contenido, pero se seguirá haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, interrumpa la herencia antes de eliminar el fragmento [&#x200B; tal como se detalla en esta sección &#x200B;](use-visual-fragments.md#break-inheritance).
+>Al eliminar un fragmento, se actualizan los envíos y las plantillas que lo utilizan. El fragmento se eliminará del contenido, pero se seguirá haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, interrumpa la herencia antes de eliminar el fragmento [ tal como se detalla en esta sección ](use-visual-fragments.md#break-inheritance).
 
 ### Archivar un fragmento de contenido {#archive}
 
