@@ -89,7 +89,7 @@ El informe **Estadísticas generales** presenta datos para los mensajes SMS envi
 >title="Exclusiones de SMS"
 >abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
-El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
+El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#sms-quarantines){_blank}.
 
 ![Descripción: la imagen muestra el gráfico y la tabla Exclusiones, que detallan los motivos por los que se excluyen los perfiles de usuario de la recepción de mensajes.](assets/reporting_sms_6.png){zoomable="yes"}
 
