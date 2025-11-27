@@ -2,7 +2,7 @@
 title: Administrar asignaciones de público destinatario
 description: Obtenga información sobre cómo administrar las asignaciones de destino.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 # Administrar asignaciones de público destinatario {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
+>id="acw_homepage_welcome_rn4"
 >title="Asignaciones de destino"
 >abstract="Ahora puede crear asignaciones de público destinatario en la interfaz de usuario de Campaign Web. Las asignaciones de destino definen cómo los distintos canales de envío (correo electrónico, SMS, notificaciones push) vinculan los campos de datos de un esquema. "
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
