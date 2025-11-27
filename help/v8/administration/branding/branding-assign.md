@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 13%
 
 ---
 
@@ -125,7 +125,10 @@ Para crear un nuevo envío independiente, siga los pasos a continuación.
 
 1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Diseñar y enviar correos electrónicos](../../email/create-email.md).
 
+1. También puede añadir información de marca con los campos personalizados. Vaya a **[!UICONTROL Personalización de marca]** y seleccione los bloques de personalización relacionados con la marca que desee insertar (como nombre de la marca, URL del logotipo, URL del sitio web, información del remitente, etc.).
+
 >[!ENDTABS]
+
 
 ## Comprobar la marca asociada a los mensajes transaccionales {#check-branding-transactional}
 

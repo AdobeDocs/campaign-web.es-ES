@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 29%
 
 ---
 
@@ -60,3 +60,29 @@ Una **[!UICONTROL marca]** se define con las siguientes características:
   Utilice el menú **[!UICONTROL Parámetros de URL adicionales]** para crear parámetros adicionales como pares clave-valor junto con sus condiciones de aplicabilidad. Cada nombre de parámetro debe ser único y no vacío, y cada valor de parámetro no debe estar vacío. La condición de aplicabilidad puede estar vacía, pero ninguno de estos valores puede incluir etiquetas JST.
 
   Estos parámetros se aplicarán a las direcciones URL rastreadas que coincidan con cualquier nombre de dominio especificado en la **[!UICONTROL Lista de nombres de dominio]**, que puede incluir expresiones regulares.
+
+  **Ejemplo:** Una dirección URL rastreada como `https://www.example.com` pasará a ser `https://www.example.com/?age=21&deliveryName=DM101` cuando los parámetros adicionales `age=21` y `deliveryName=DM101` estén configurados para ese dominio.
+
+## Configuración de la marca para la mensajería transaccional {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>Esta sección se aplica solo a los mensajes transaccionales (Centro de mensajes).
+>
+>Aunque las funcionalidades transaccionales están disponibles en la interfaz de usuario web de Campaign, los pasos siguientes deben realizarse en la consola del cliente de Campaign v8 (instancia de control).
+
+Si utiliza mensajes transaccionales (centro de mensajes) con marca, se requiere una configuración adicional.
+
+### Seguimiento de fórmulas para instancias en tiempo real
+
+Cuando la promoción de la marca se activa en una instancia de control en tiempo real (RT), se utilizan opciones de seguimiento específicas para administrar las fórmulas de seguimiento. Estas fórmulas se configuran de forma centralizada en la instancia de control de RT en lugar de individualmente en cada instancia de ejecución de RT.
+
+Las siguientes opciones definen las fórmulas de seguimiento utilizadas por los envíos RT:
+
+* **`NmsTracking_RT_ClickFormula`**: especifica la fórmula utilizada para el rastreo de clics en instancias RT
+
+* **`NmsTracking_RT_OpenFormula`**: especifica la fórmula utilizada para el seguimiento de aperturas en instancias RT
+
+Si su implementación requiere fórmulas de seguimiento personalizadas para la mensajería transaccional, utilice la siguiente opción:
+
+* **`Branding_RT_ListXtkOptions_toPublish`**: enumere aquí los nombres de las opciones XTK para las fórmulas personalizadas (separados por comas). Esto garantiza que los envíos de RT puedan aplicar las fórmulas de seguimiento personalizadas.
