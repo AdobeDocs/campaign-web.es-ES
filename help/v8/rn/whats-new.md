@@ -3,7 +3,7 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Despídase de la molestia de tener que crear contenido manualmente y adopte la n
 
 Redefina el envío de contenido con nuestro editor avanzado de arrastrar y soltar WYSIWYG, diseñado para mayor sencillez y eficacia. Gracias a su integración perfecta con AEM, capacidades de contenido dinámico y el revolucionario Asistente de IA, esta herramienta todo en uno hace que la creación de envíos sea intuitiva, eficiente y altamente personalizada.
 
-Aproveche el poder de los algoritmos avanzados del Asistente de IA para crear contenido atractivo y adaptado que genere resultados. Aumente sus tasas de apertura, tasa de clics y conversiones con la generación inteligente de contenido basado en IA. Obtenga más información en [esta sección](../email/generative-gs.md).
+Aproveche el poder de los algoritmos avanzados del Asistente de IA para crear contenido atractivo y adaptado que genere resultados. Aumente sus tasas de apertura, tasa de clics y conversiones con la generación inteligente de contenido basado en IA. Obtenga más información en [esta sección](../content/generative-gs.md).
 
 **Actividades de flujo de trabajo de campaña nuevas y rediseñadas**
 
