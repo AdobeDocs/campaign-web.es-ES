@@ -3,10 +3,11 @@ title: Personalización del contenido en Campaign
 description: Aprenda a personalizar el contenido en Adobe Campaign Web
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 4%
@@ -28,7 +29,7 @@ La personalización de la entrega mejora la experiencia del usuario y las tasas 
 
 ## Uso de datos de perfil para la personalización {#data-personalization}
 
-Puede personalizar cualquier envío con datos de perfil mediante el editor de expresiones, al que se puede acceder desde los campos con el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]**, como la línea de asunto, los vínculos de correo electrónico y los componentes de contenido de texto/botón. [Obtenga información sobre cómo acceder al editor de expresiones](gs-personalization.md/#access).
+Puede personalizar cualquier envío con datos de perfil mediante el editor de expresiones, al que se puede acceder desde los campos con el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]**, como la línea de asunto, los vínculos de correo electrónico y los componentes de contenido de texto/botón. [Obtenga información sobre cómo acceder al editor de expresiones](gs-personalization.md#access).
 
 ### Sintaxis de Personalization {#syntax}
 
@@ -42,7 +43,7 @@ Al cargar contactos desde un archivo externo para una entrega de correo electró
 
 Para añadir etiquetas de personalización a un envío, siga estos pasos:
 
-1. Abra el editor de expresiones mediante el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]**, al que se puede acceder desde campos de edición de tipo texto, como la línea de asunto o el cuerpo del SMS. [Obtenga información sobre cómo acceder al editor de expresiones](gs-personalization.md/#access).
+1. Abra el editor de expresiones mediante el icono **[!UICONTROL Abrir cuadro de diálogo de personalización]**, al que se puede acceder desde campos de edición de tipo texto, como la línea de asunto o el cuerpo del SMS. [Obtenga información sobre cómo acceder al editor de expresiones](gs-personalization.md#access).
 
    ![Captura de pantalla que muestra cómo acceder al diálogo de personalización](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 

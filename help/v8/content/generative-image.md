@@ -2,9 +2,9 @@
 audience: end-user
 title: Contenido generativo
 description: Obtenga información sobre cómo generar imágenes con el asistente de IA
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 2%
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-Utilice el asistente de IA en Adobe Campaign Web para crear contenido visual convincente que mejore sus mensajes en correos electrónicos, páginas web, páginas de aterrizaje y notificaciones push. El asistente de IA le ayuda a generar y optimizar imágenes, lo que garantiza que el contenido sea visualmente atractivo y esté alineado con la marca.
+Utilice el asistente de IA en Adobe Campaign Web para crear contenido visual atractivo que mejore los mensajes en el correo electrónico, las páginas de aterrizaje y las notificaciones push. El asistente de IA le ayuda a generar y optimizar imágenes, lo que garantiza que el contenido sea visualmente atractivo y esté alineado con la marca.
 
 ## Para correo electrónico y páginas de destino {#email-web-channels}
 
-El asistente de IA puede generar experiencias visuales completas para sus campañas de correo electrónico y páginas de aterrizaje. Esta capacidad le permite producir imágenes de marca y que llamen la atención y que resuenen con la audiencia en puntos de contacto digitales.
+El asistente de IA puede generar experiencias visuales completas para sus envíos de correo electrónico y páginas de aterrizaje. Esta capacidad le permite producir imágenes de marca y que llamen la atención y que resuenen con la audiencia en puntos de contacto digitales.
 
 ### Acceso y configuración {#access-configure}
 
@@ -68,6 +68,8 @@ Para empezar a generar imágenes con el asistente de IA, primero configure la en
 
 ### Refinamiento y finalización {#refine-finalize}
 
+Después de generar variaciones de imagen, puede revisar los resultados, comprobar la alineación de la marca y seleccionar la mejor opción para el contenido.
+
 1. Examine las **[!UICONTROL variaciones]** generadas.
 
 1. Haga clic en el icono de porcentaje para ver su **[!UICONTROL puntuación de alineación de marca]** e identificar cualquier desalineación con su marca.
@@ -92,23 +94,13 @@ Para empezar a generar imágenes con el asistente de IA, primero configure la en
 
 ## Para canales móviles {#mobile-channels}
 
-El asistente de IA le permite generar texto atractivo para notificaciones push y mensajes SMS, lo que le ayuda a crear comunicaciones móviles que capturan la atención y resuenan con su audiencia en todos los puntos de contacto móviles.
+El asistente de IA le permite generar imágenes atractivas para las notificaciones push, lo que le ayuda a crear comunicaciones móviles visualmente atractivas que capturan la atención y resuenan en su audiencia.
 
 ### Acceso y configuración {#mobile-access-configure}
 
-Para empezar a generar texto para canales móviles con el asistente de IA, configure primero el envío y abra el asistente de IA. Los pasos para acceder al asistente de IA difieren ligeramente en función de si trabaja con notificaciones push o mensajes SMS.
+Para empezar a generar imágenes para notificaciones push con el asistente de IA, configure primero el envío y abra el asistente de IA.
 
-1. Cree y configure su envío móvil:
-
-   * **Notificaciones push**: después de crear y configurar la entrega de notificaciones push, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../push/create-push.md)
-   * **SMS**: después de crear y configurar tu envío de SMS, haz clic en **[!UICONTROL Editar contenido]**. [Más información](../sms/create-sms.md)
-
-1. Complete **[!UICONTROL detalles básicos]** para su envío. Una vez finalizado, haga clic en **[!UICONTROL Editar contenido]**.
-
-1. Personalice el mensaje según sea necesario:
-
-   * **Notificaciones push**: [Más información](../push/content-push.md)
-   * **SMS**: [Más información](../sms/content-sms.md)
+1. Después de crear y configurar su entrega de notificaciones push, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../push/create-push.md)
 
 1. Acceda al menú **[!UICONTROL Mostrar asistente de IA]**.
 

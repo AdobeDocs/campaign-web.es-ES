@@ -3,9 +3,9 @@ audience: end-user
 title: Contenido generativo
 description: Obtenga información sobre cómo generar experiencias de contenido completas con AI Assistant en Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1606'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,6 @@ Antes de empezar a crear contenido con el asistente de IA, debe configurar la en
 
 Con el Asistente de IA abierto, ahora puede configurar los ajustes de generación para crear contenido que coincida con sus objetivos de marca y campaña. Personalice los parámetros de texto e imagen, añada recursos de marca y proporcione indicadores para guiar la IA en la generación de variaciones relevantes para su audiencia.
 
-1. Habilite la opción **[!UICONTROL Usar contenido original]** para el asistente de IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
-
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
 1. Ajuste el contenido describiendo lo que desea generar en el campo **[!UICONTROL Preguntar]**.
@@ -57,6 +55,7 @@ Con el Asistente de IA abierto, ahora puede configurar los ajustes de generació
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de texto]**:
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
+   * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
    * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
 
      ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/full-email-4.png){zoomable="yes"}
@@ -103,7 +102,7 @@ Después de generar variaciones de contenido, puede ajustar los resultados para 
 
    * **[!UICONTROL Cambiar estrategia de comunicación]**: modifique el enfoque de mensajería en función de sus objetivos, como crear urgencia o enfatizar atractivo interesante.
 
-   ![Refinar menú que muestra opciones](assets/full-email-5.png){zoomable="yes"}
+     ![Refinar menú que muestra opciones](assets/full-email-5.png){zoomable="yes"}
 
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
@@ -112,7 +111,7 @@ Después de generar variaciones de contenido, puede ajustar los resultados para 
 1. Inserte campos de personalización para personalizar el contenido en función de los datos de perfiles. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y compruebe la configuración de personalización con perfiles de prueba. [Más información](../preview-test/preview-content.md)
 
 1. Revise y active el contenido:
-   * **Correo electrónico**: Una vez definido el contenido, la audiencia y la programación, ya puede preparar su campaña de correo electrónico. [Más información](../monitor/prepare-send.md)
+   * **Correo electrónico**: Una vez que haya definido el contenido, la audiencia y la programación, estará listo para preparar su envío de correo electrónico. [Más información](../monitor/prepare-send.md)
    * **Página de aterrizaje**: Una vez que la página de aterrizaje esté lista, puede publicarla para que esté disponible para usarla en un mensaje. [Más información](../landing-pages/create-lp.md)
 
 ## Para canales móviles {#mobile-channels}
@@ -190,7 +189,8 @@ Después de revisar las variaciones de notificaciones push generadas, puede puli
    * **[!UICONTROL Reformular]**: reformula tu mensaje de diferentes maneras para mantener tu escritura fresca y atractiva para diversas audiencias.
    * **[!UICONTROL Use un lenguaje más sencillo]**: Simplifique su idioma para garantizar la claridad y accesibilidad para una audiencia más amplia.
    * **[!UICONTROL Traducir]**: Simplifique su idioma para garantizar la claridad y accesibilidad para una audiencia más amplia.
-También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
+
+   También puedes cambiar el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu texto.
 
    ![Refinar opciones para notificaciones push](assets/push-genai-5.png){zoomable="yes"}
 
