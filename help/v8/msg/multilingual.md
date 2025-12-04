@@ -2,9 +2,9 @@
 audience: end-user
 title: Configuración de un envío multilingüe
 description: Obtenga información sobre cómo configurar un envío multilingüe
-source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
+source-git-commit: 50a798abea166e89d58e8e46eb55590333071ef0
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '628'
 ht-degree: 8%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 8%
 >abstract="En esta pestaña, encontrará una lista de idiomas en los que se va a realizar el envío. Para añadir más idiomas, haga clic en el botón Añadir idioma o duplique otro idioma desde esta pestaña."
 
 >[!CONTEXTUALHELP]
->id=&quot;acw_multilingual_file_upload&quot;
->title=&quot;Importar variantes de idioma&quot;
->abstract=&quot;Utilice este cuadro de diálogo para añadir una variante de idioma importando un archivo CSV. El archivo rellena automáticamente todos los campos disponibles para el idioma seleccionado. Puede arrastrar y soltar el archivo o elegirlo en el equipo antes de confirmarlo&quot;.
+>id="acw_multilingual_file_upload"
+>title="Importar variantes de idioma"
+>abstract="Utilice este cuadro de diálogo para añadir una variante de idioma mediante la importación de un archivo CSV. El archivo rellena automáticamente todos los campos disponibles para el idioma seleccionado. Puede arrastrar y soltar el archivo o elegirlo en el equipo antes de confirmarlo."
 
 En la interfaz de usuario web de Campaign, puede configurar las entregas como multilingües, lo que le permite enviar mensajes en función del idioma preferido de un perfil. Cuando no se define ninguna preferencia, el mensaje se envía en el idioma predeterminado.
 
