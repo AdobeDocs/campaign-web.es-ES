@@ -16,7 +16,7 @@ ht-degree: 8%
 >title="Añadir idiomas"
 >abstract="En esta pestaña, encontrará una lista de idiomas en los que se va a realizar el envío. Para añadir más idiomas, haga clic en el botón Añadir idioma o duplique otro idioma desde esta pestaña."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=&quot;acw_multilingual_file_upload&quot;
 >title=&quot;Importar variantes de idioma&quot;
 >abstract=&quot;Utilice este cuadro de diálogo para añadir una variante de idioma importando un archivo CSV. El archivo rellena automáticamente todos los campos disponibles para el idioma seleccionado. Puede arrastrar y soltar el archivo o elegirlo en el equipo antes de confirmarlo&quot;.
