@@ -4,7 +4,7 @@ title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
 ht-degree: 100%
 
