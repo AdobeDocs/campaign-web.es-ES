@@ -3,9 +3,9 @@ title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Puede utilizar filtros integrados existentes para acceder a un subconjunto espec
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"
 >title="Guardar filtro"
->abstract="Esta pantalla le permite guardar la regla como un filtro predefinido. Puede crear un nuevo filtro predefinido o sobrescribir un filtro existente. Para guardar el filtro como favorito, active la opción **[!UICONTROL Filtro favorito]**. También puede habilitar la opción **[!UICONTROL Filtro compartido]** para que otros usuarios tengan acceso al filtro."
+>abstract="Esta pantalla le permite guardar su regla como un filtro predefinido. Puede crear un nuevo filtro predefinido o sobrescribir uno existente. Para guardar el filtro como favorito, active la opción **[!UICONTROL Filtro favorito]**. También puede activar la opción **[!UICONTROL Filtro compartido]** para que otros usuarios tengan acceso al filtro."
 
 ### Cree un filtro a partir del modelador de consultas {#create-from-rule-builder}
 

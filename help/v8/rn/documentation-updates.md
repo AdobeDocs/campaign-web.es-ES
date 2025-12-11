@@ -6,9 +6,9 @@ exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 hidefromtoc: true
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '56'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -20,5 +20,5 @@ Esta página incluye todas las actualizaciones de la documentación de Adobe Cam
 
 **Fecha: 1 de diciembre de 2025**
 
-* Se ha reorganizado la guía de documentación del Asistente de IA con páginas consolidadas para [generación de contenido completo](../content/generative-full-content.md), [generación de texto](../content/generative-text.md) y [generación de imágenes](../content/generative-image.md)
-* Se ha agregado la [guía de prácticas recomendadas del Asistente de inteligencia artificial](../content/ai-assistant-prompting-guide.md) para ayudar a los usuarios a crear instrucciones eficaces
+* Se ha reorganizado la guía de documentación del Asistente de IA con páginas consolidadas para la [generación de contenido completo](../content/generative-full-content.md), la [generación de texto](../content/generative-text.md) y la [generación de imágenes](../content/generative-image.md)
+* Se ha añadido la [guía de prácticas recomendadas de indicaciones del Asistente de inteligencia artificial](../content/ai-assistant-prompting-guide.md) para ayudar a los usuarios a crear indicaciones eficaces

@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Creación de contenido accesible](email/accessible-content.md)
    + Asistente de IA {#ai-assistant}
       + [Trabajo con el Asistente de IA](content/generative-gs.md)
-      + [Prácticas recomendadas para mensajes de IA](content/ai-assistant-prompting-guide.md)
+      + [Prácticas recomendadas de indicaciones de IA](content/ai-assistant-prompting-guide.md)
       + [Generación de contenido completo con IA](content/generative-full-content.md)
       + [Generación de texto con IA](content/generative-text.md)
       + [Generación de imágenes con IA](content/generative-image.md)
@@ -192,7 +192,7 @@ ht-degree: 98%
       + [Combinar](workflows/activities/combine.md)
       + [Deduplicación](workflows/activities/deduplication.md)
       + [Correo electrónico, SMS, push, correo directo](workflows/activities/channels.md)
-      + [Enriquecimiento &#x200B;](workflows/activities/enrichment.md)
+      + [Enriquecimiento ](workflows/activities/enrichment.md)
       + [Señal externa](workflows/activities/external-signal.md)
       + [Extracción de archivos](workflows/activities/extract-file.md)
       + [Bifurcación](workflows/activities/fork.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [Administrar asignaciones de público destinatario](administration/target-mappings.md)
    + [Trabajo con esquemas](administration/schemas.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-   + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)
