@@ -42,7 +42,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/es/ai.html){target="_blank"}.
 -->
 
 ## Preguntas sugeridas {#questions-ai}
