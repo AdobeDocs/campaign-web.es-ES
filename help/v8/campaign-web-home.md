@@ -74,7 +74,7 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
 
 >[!ENDTABS]
 
-## Empiece con los conceptos básicos
+## Empieza con los conceptos básicos
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -103,7 +103,7 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
     </tr>
 </table>
 
-## Explore la documentación
+## Explora la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">

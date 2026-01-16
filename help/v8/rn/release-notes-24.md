@@ -122,7 +122,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 * **Captcha en páginas de destino**: ahora puede añadir captcha para proteger su página de destino contra spam y abusos causados por bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. [Más información](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## Notas de la versión de julio {#24-7-release}
@@ -220,7 +220,7 @@ Ahora puede crear vínculos con otra tabla en la actividad de flujo de trabajo *
 
 **Fecha de lanzamiento**: 2 de mayo de 2024
 
-### Nuevas características {#new-24-4}
+### Nuevas funciones {#new-24-4}
 
 Las siguientes funciones están disponibles para todos los usuarios a partir de la versión de abril.
 
@@ -237,7 +237,7 @@ Las siguientes funciones están disponibles para todos los usuarios a partir de 
 
 **Plantillas de notificaciones push enriquecidas**
 
-Ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los mensajes de texto simples mediante la incorporación de elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. [Más información](../push/rich-push.md)
+Ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. [Más información](../push/rich-push.md)
 
 Tenga en cuenta que esta función se encuentra en **Disponibilidad limitada** (LA).
 
@@ -250,7 +250,7 @@ Tenga en cuenta que esta función se encuentra en **Disponibilidad limitada** (L
 >
 >Consulte las siguientes páginas de documentación: [Campaign Standard de la transición a Campaign v8](../rn/acs-migration.md) y [Funciones para usuarios de Campaign Standard](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es).
 
-* **Personalización de marca**: como usuario Campaign Standard migrado, los administradores técnicos ahora pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de destino o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de destino. Esta configuración se administra en plantillas. [Más información](../administration/branding/branding-gs.md)
+* **Promoción de la marca**: como usuario migrado de Campaign Standard, ahora los administradores técnicos pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de destino o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de destino. Esta configuración se administra en plantillas. [Más información](../administration/branding/branding-gs.md)
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y generar su propio ecosistema interconectando Adobe Campaign con el panel de tecnologías que emplea. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es)
 

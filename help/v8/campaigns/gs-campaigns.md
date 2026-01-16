@@ -4,7 +4,7 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 

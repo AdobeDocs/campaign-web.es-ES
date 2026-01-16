@@ -40,7 +40,7 @@ Puede hacer que el contenido del mensaje sea dinámico insertando construcciones
 
   [Descripción: Ejemplo de contenido condicional en un banner de correo electrónico basado en la suscripción del destinatario.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Acceso al editor de expresiones {#access}
 

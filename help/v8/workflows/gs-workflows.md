@@ -4,7 +4,7 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
 ht-degree: 100%
 

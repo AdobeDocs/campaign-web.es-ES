@@ -3,7 +3,7 @@ title: Introducción a perfiles y públicos
 description: Aprenda a trabajar con perfiles y públicos en la web de Campaign
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 

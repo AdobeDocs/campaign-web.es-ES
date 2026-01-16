@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <table>
 <thead>
 <tr>
-<th><strong>Asignaciones de público destinatario</strong><br/></th>
+<th><strong>Asignaciones de destino</strong><br/></th>
 </tr>
 </thead>
 <tbody>

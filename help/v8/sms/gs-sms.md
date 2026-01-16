@@ -4,7 +4,7 @@ title: Introducción a los envíos de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ El canal SMS ofrece tres métodos para crear envíos SMS:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Creación de un envío SMS" src="assets/do-not-localize/create_sms.png">
+<img alt="Creación de una entrega de SMS" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>Creación de un envío SMS</strong>
 </div>
