@@ -3,7 +3,7 @@ audience: end-user
 title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 36%
