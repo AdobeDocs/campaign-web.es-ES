@@ -8,7 +8,7 @@ robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
 
@@ -172,5 +172,5 @@ Obtenga información sobre cómo examinar, buscar y filtrar listas disponibles e
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_notification"
->title="Entrega continua"
->abstract="Entrega continua"
+>title="Envío continuo"
+>abstract="Envío continuo"
