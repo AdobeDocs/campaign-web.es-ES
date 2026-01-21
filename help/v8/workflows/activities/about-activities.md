@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 20%
 
 ---
 
@@ -58,6 +58,11 @@ Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en v
 >id="acw_orchestration_end"
 >title="Actividad final"
 >abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="Señal externa"
+>abstract="marcador de posición para la sección de señal externa en los parámetros de la actividad final. Disponible solo para campañas orquestadas. DO NOT DELETE"
 
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 
