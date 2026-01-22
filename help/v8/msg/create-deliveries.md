@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 53%
+source-wordcount: '956'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="Habilitar el enriquecimiento de perfiles"
->abstract="Seleccione los campos para el enriquecimiento de perfil."
+>abstract="Seleccione los campos para el enriquecimiento de perfil. Solo los campos con un índice pueden seleccionarse como claves de reconciliación. Los campos no compatibles aparecen atenuados."
 
 Puede crear envíos independientes desde el menú de la izquierda **[!UICONTROL Envíos]** o crear envíos en el contexto de un flujo de trabajo, incluidos o no en una campaña.
 
