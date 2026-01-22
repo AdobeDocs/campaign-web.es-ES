@@ -52,7 +52,7 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 
 ![Botones de acción de actividad](assets/activity-action.png){zoomable="yes"}
 
-Puede hacer lo siguiente:
+Se puede:
 
 * **Eliminar** la actividad del lienzo.
 * **Deshabilitar/Habilitar** la actividad. Cuando se ejecuta el flujo de trabajo, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y el flujo de trabajo se detiene.
@@ -127,16 +127,16 @@ El campo **Comportamiento** le permite definir el procedimiento a seguir si se u
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
->title="Script de inicialización"
+>title="Secuencia de comandos de inicialización"
 >abstract="Esta sección permite definir qué sucede si falla una actividad. Puede elegir acciones como detener el flujo de trabajo, pasar a la siguiente actividad o activar un proceso de gestión de errores personalizado."
 
 El campo **En caso de error** le permite especificar la acción que debe realizarse si la actividad encuentra un error. Consulte esta [sección](workflow-settings.md#error-settings).
 
-### Script de inicialización {#initialization-options}
+### Secuencia de comandos de inicialización {#initialization-options}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
->title="Script de inicialización"
+>title="Secuencia de comandos de inicialización"
 >abstract="Esta sección le permite añadir la JavaScript que se ejecuta cuando se inicia la actividad. Utilícelo para inicializar variables, establecer parámetros o preparar datos específicos para la ejecución de esa actividad."
 
 El **script de inicialización** le permite inicializar variables o modificar propiedades de actividad. Haga clic en el botón **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad. Consulte la sección relacionada con [variables de eventos](../workflows/event-variables.md).

@@ -16,7 +16,7 @@ El **informe de envío externo** proporciona información y datos completos espe
 
 El siguiente informe se describe en el contexto del correo postal. También está disponible para el centro de llamadas y para canales externos personalizados.
 
-## Resumen de envíos {#delivery-summary-direct-mail}
+## Resumen de entregas {#delivery-summary-direct-mail}
 
 ### Información general sobre el envío {#delivery-overview-direct-mail}
 
@@ -84,7 +84,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** proporciona una descripc
 >title="Causas de exclusión de entrega"
 >abstract="El gráfico **Causas de exclusión** ilustra la distribución de mensajes rechazados durante la preparación de la entrega, clasificados por cada regla."
 
-El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){_blank}.
+El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los motivos del rechazo del mensaje durante la preparación de la entrega. Este desglose está organizado por varias reglas, lo que ofrece una vista detallada de los factores que contribuyen a la exclusión de mensajes. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Gráfico de causas de exclusión que muestra la distribución de mensajes rechazados por regla.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -104,7 +104,7 @@ El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="Exclusiones"
->abstract="El gráfico **[!UICONTROL Exclusiones]** muestra un desglose detallado, por regla, de los mensajes rechazados durante el proceso de preparación de la entrega."
+>abstract="La tabla **[!UICONTROL Exclusiones]** muestra un desglose detallado, por regla, de los mensajes rechazados durante el proceso de preparación de la entrega."
 
 La tabla **[!UICONTROL Exclusions]** proporciona un desglose detallado, clasificado por reglas específicas, de los mensajes rechazados durante la preparación de la entrega. Este desglose ofrece una comprensión clara de los motivos que subyacen a las exclusiones de mensajes.
 

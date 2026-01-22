@@ -16,7 +16,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 
 El siguiente informe se describe en el contexto del correo postal. También está disponible para el centro de llamadas y para canales externos personalizados.
 
-## Resumen de envíos {#delivery-summary-direct}
+## Resumen de entregas {#delivery-summary-direct}
 
 ### Información general sobre el envío {#delivery-overview-direct}
 
@@ -67,7 +67,7 @@ La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muest
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Estadísticas de envío"
->abstract="El gráfico **Estadísticas de ejecución** detalla el éxito de su envío de correo directo y los errores que se han producido."
+>abstract="La tabla **Estadísticas de ejecución** detalla el éxito de su envío de correo directo y los errores que se han producido."
 
 ![Estadísticas de ejecución para campañas de correo directo](assets/direct-mail-campaign-exec.png)
 

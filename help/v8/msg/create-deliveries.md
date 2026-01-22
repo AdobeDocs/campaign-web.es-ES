@@ -13,7 +13,7 @@ ht-degree: 53%
 
 ---
 
-# Creación de un envío {#create-delivery}
+# Creación de una entrega {#create-delivery}
 
 <!-- /NEO-92684 / DOCAC-13767-->
 
