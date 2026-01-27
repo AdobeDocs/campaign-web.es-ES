@@ -254,4 +254,4 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 Obtenga información sobre cómo crear un envío de correo electrónico desde cero, definir el público, diseñar el contenido, simular la previsualización y enviar una prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3454008/?captions=spa&quality=12)
