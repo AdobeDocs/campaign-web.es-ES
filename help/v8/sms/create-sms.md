@@ -3,14 +3,14 @@ audience: end-user
 title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 39%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
-# Creación de un envío SMS {#create-sms}
+# Creación de una entrega de SMS {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
@@ -27,7 +27,7 @@ ht-degree: 39%
 >id="acw_deliveries_sms_template_selection"
 >title="Selección de plantilla de SMS"
 >abstract="Seleccione una plantilla predefinida para iniciar el envío del SMS. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envío"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envíos"
 
 Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes explican el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se explican en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -60,6 +60,8 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
    Aprenda a crear una audiencia nueva en [esta página](../audience/one-time-audience.md).
 
 1. Active la opción **[!UICONTROL Habilitar grupo de control]** para establecer un grupo de control y medir el impacto de su envío. Los mensajes no se envían a ese grupo de control, por lo que puede comparar el comportamiento de la población que recibió el mensaje con el comportamiento de los contactos que no lo recibieron. [Más información](../audience/control-group.md)
+
+1. Puede configurar su envío de SMS como un envío multilingüe para enviar mensajes en función del idioma preferido de un perfil. [Más información](../msg/multilingual.md).
 
 1. Haz clic en **[!UICONTROL Editar contenido]** para empezar a diseñar el contenido de tu mensaje SMS. [Más información](content-sms.md)
 

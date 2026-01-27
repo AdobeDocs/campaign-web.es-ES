@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [De Campaign Standard a v8](rn/acs-migration.md)
    + [Ayuda contextual con tecnología de IA](get-started/using-ai.md)
    + [Preguntas frecuentes](get-started/faq.md)
-+ Mensajes y envíos {#msg}
+   + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
    + [Acceso a los envíos](msg/gs-deliveries.md)
    + [Creación de una entrega](msg/create-deliveries.md)
@@ -45,6 +45,7 @@ ht-degree: 100%
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
       + [Configurar el contenido de correo electrónico](email/edit-content.md)
+      + [Creación de experimentos de contenido](email/ab-testing.md)
       + Envío y supervisión del correo electrónico {#monitor}
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
          + [Envío mediante múltiples olas](advanced-settings/send-using-waves.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [Casos de uso del Asistente de IA](content/generative-uc.md)
       + Marcas {#ai-assistant}
          + [Creación y administración de sus marcas](content/brands.md)
-         + [Evaluación de la puntuación de alineación con la marca](content/brands-score.md)
+         + [Personalice su marca](content/brands-personalize.md)
+         + [Evaluar el contenido](content/brands-score.md)
 + Páginas de destino {#landing-pages}
    + [Introducción a las páginas de destino](landing-pages/get-started-lp.md)
    + [Creación y edición de una página de destino](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 100%
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
    + [Cree su primera campaña](campaigns/create-campaigns.md)
+   + [Configuración y administración del proceso de aprobación](campaigns/campaign-approvals.md)
    + [Planes y programas](administration/plans-programs.md)
 + Flujos de trabajo {#wf}
    + [Introducción a los flujos de trabajo](workflows/gs-workflows.md)
@@ -190,6 +193,7 @@ ht-degree: 100%
       + [Cambio de la fuente de datos](workflows/activities/change-data-source.md)
       + [Dimensión cambiante](workflows/activities/change-dimension.md)
       + [Combinar](workflows/activities/combine.md)
+      + [Envío continuo](workflows/activities/continuous-delivery.md)
       + [Deduplicación](workflows/activities/deduplication.md)
       + [Correo electrónico, SMS, push, correo directo](workflows/activities/channels.md)
       + [Enriquecimiento](workflows/activities/enrichment.md)
@@ -268,6 +272,7 @@ ht-degree: 100%
    + [Trabajar con otras soluciones de Adobe](integrations/integration.md)
    + [Administración de recursos con Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Administración de plantillas con Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Administración de copias de idioma con Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Trabajo con GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuración {#conf}
    + Promoción de la marca {#branding}

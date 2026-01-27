@@ -3,10 +3,10 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 51%
+source-wordcount: '673'
+ht-degree: 49%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 51%
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al añadir y mover elementos estructurales con sencillas acciones de arrastrar y soltar, diseña el cuerpo del correo electrónico en cuestión de segundos.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 Para empezar a crear el contenido del correo electrónico, siga los pasos a continuación.
 
@@ -104,10 +104,12 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    ![Captura de pantalla que muestra las opciones de simulación en el Designer de correo electrónico.](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. También puede validar la calidad del contenido para evaluar la legibilidad, la eficacia de CTA, la calidad de la línea de asunto y mucho más. [Más información acerca de la validación de calidad del contenido](../content/brands-score.md#validate-quality)
+
 1. Cuando el correo electrónico esté listo, haga clic en **[!UICONTROL Guardar]**.
 
 ## Vídeos explicativos {#video}
 
 Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizarlo y probarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453568/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

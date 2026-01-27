@@ -3,10 +3,10 @@ audience: end-user
 title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 36%
+source-wordcount: '683'
+ht-degree: 35%
 
 ---
 
@@ -106,4 +106,6 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
 
 1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**. [Aprenda a añadir vínculos y a administrar el seguimiento](message-tracking.md)
 
-1. Una vez definido el contenido del correo electrónico, utilice el botón **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. [Obtenga información sobre cómo obtener una vista previa y probar tu correo electrónico](../preview-test/preview-test.md).
+1. Una vez definido el contenido del correo electrónico, utilice el botón **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. También puede validar la calidad del contenido para evaluar la legibilidad, la eficacia de CTA y la calidad general. [Más información acerca de la validación de calidad del contenido](../content/brands-score.md#validate-quality)
+
+1. [Obtenga información sobre cómo obtener una vista previa y probar tu correo electrónico](../preview-test/preview-test.md).

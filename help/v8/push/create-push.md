@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 28%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="Plantilla de notificaciones push"
 >abstract="Seleccione una plantilla de notificación push para iniciar el envío push. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envío"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envíos"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -52,6 +52,8 @@ Configure las entregas como se detalla a continuación:
    * **[!UICONTROL Descripción]**: especifique una descripción para el envío.
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
    +++
+
+1. Puede configurar la notificación push como un envío multilingüe para enviar mensajes en función del idioma preferido de un perfil. [Más información](../msg/multilingual.md).
 
 ## Seleccione el público del envío push {#create-audience-push}
 

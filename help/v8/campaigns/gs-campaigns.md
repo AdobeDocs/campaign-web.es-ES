@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '214'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,5 @@ Aprenda a crear, administrar y monitorizar campañas en las siguientes secciones
 
 * [Acceso y administración de campañas](manage-campaigns.md)
 * [Cree su primera campaña](create-campaigns.md)
+* [Configuración y administración del proceso de aprobación](campaign-approvals.md)
 * [Examine sus informes de campaña](../reporting/campaign-reports.md).

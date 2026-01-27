@@ -2,9 +2,9 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '2667'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '3052'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,111 @@ ht-degree: 100%
 # Notas de la versión de 2025 {#2025-release}
 
 Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2025**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
+
+## Versión de octubre de 2025 {#25-10-updates}
+
+_3 de noviembre de 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Funciones multilingües para la mensajería transaccional, notificaciones push y SMS (LA-Disponibilidad limitada)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede enviar varios mensajes transaccionales, notificaciones push y mensajes SMS en diferentes idiomas en la interfaz de usuario web de Adobe Campaign. La función Envío multilingüe le permite elegir el idioma predeterminado de su entrega, así como los diferentes idiomas en los que se puede realizar el envío. También puede obtener una vista previa de estos envíos en los idiomas que haya elegido. </p>
+<p>Nota: esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
+<p>Para obtener más información, consulte la <a href="../msg/multilingual.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Enriquecimiento del perfil en mensajes transaccionales (LA-Disponibilidad limitada)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Esta funcionalidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.</p>
+<p>Nota: Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará a nivel global en una versión futura. Esta función solo está disponible actualmente en los correos electrónicos.</p>
+<p>Para obtener más información, consulte la <a href="../transactional-messaging/profile-enrichment.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integración con Adobe GenStudio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Para mejorar la eficacia del marketing y mantener la uniformidad de la marca, ahora puede integrar sin problemas las experiencias de GenStudio for Performance Marketing con Campaign. Esto le permite aprovechar la creación de contenido con tecnología IA de GenStudio junto con las funcionalidades de orquestación avanzadas de Campaign.<p>
+<p>Para obtener más información, consulte la <a href="../integrations/genstudio.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con el modo oscuro en el Diseñador de correo electrónico</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Diseñador de correo electrónico ahora permite cambiar a la vista de modo oscuro, donde también puede definir ajustes personalizados específicos. Tenga en cuenta que la representación final depende del cliente de correo electrónico del destinatario y no todos los clientes de correo electrónico son compatibles con el modo oscuro.</p>
+<p>Para obtener más información, consulte la <a href="../email/dark-mode.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Continuous delivery activity</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Mejoras {#25-10-improvements}
+
+* En los envíos creados en la consola del cliente, la sección **Público** ahora indica si se ha definido una condición dinámica para los destinos de prueba. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+
+* Ahora puede conmutar entre el generador de reglas nuevo y el heredado cuando vaya a configurar una condición mediante la funcionalidad de contenido condicional del Diseñador de correo electrónico. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+
+* Ahora puede seleccionar vínculos de colección, como compras, en la definición de pantalla del esquema Destinatarios. Se muestran los datos relacionados en las pantallas de perfil a través de una pestaña específica. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+
+* Como administrador de Campaign, ahora puede configurar conexiones a Salesforce CRM y Microsoft Dynamics.
+  [Más información](../administration/external-crm.md)
+
+<!--
+* Stop button for deliveries not linked to release and no info
+-->
 
 ## Versión de septiembre de 2025 {#25-9-release}
 
@@ -190,7 +295,7 @@ Las siguientes funciones están disponibles a partir de la versión de julio.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -334,14 +439,14 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=es){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,10 +473,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=es) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1648'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ Aprenda a crear su primer correo electrónico de destino. En este caso de uso, s
 
 En función de una [plantilla de diseño](../content/create-email-templates.md) predefinida, el correo electrónico también incluye contenido personalizado basado en atributos de perfil del cliente.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Creación del envío de correo electrónico {#create-email}
 
@@ -89,7 +89,7 @@ Encontrará instrucciones adicionales sobre cómo trabajar con públicos en [est
 
    >[!NOTE]
    >
-   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración de destino y Source en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Aprenda a trabajar con Campaign y Adobe Experience Platform en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=es){target="_blank"}.
+   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración de destino y Source en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Aprenda a trabajar con Campaign y Adobe Experience Platform en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Una vez seleccionado el público, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
 
@@ -152,6 +152,8 @@ Obtenga más información acerca de la programación de entregas en [esta secci�
 Antes de enviar el correo electrónico, puede obtener una vista previa y probarlo para asegurarse de que cumpla con sus expectativas.
 
 En este caso de uso, puede previsualizar el correo electrónico y enviar pruebas a direcciones de correo electrónico específicas al suplantar algunos de los perfiles de destino.
+
+También puede validar la calidad del contenido para comprobar la legibilidad, la eficacia de CTA, la calidad de la línea de asunto y mucho más. [Más información acerca de la validación de calidad del contenido](../content/brands-score.md#validate-quality)
 
 Encontrará información adicional sobre cómo obtener una vista previa de un correo electrónico y enviar pruebas en [esta sección](../preview-test/preview-test.md).
 
@@ -252,4 +254,4 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 Obtenga información sobre cómo crear un envío de correo electrónico desde cero, definir el público, diseñar el contenido, simular la previsualización y enviar una prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454008/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

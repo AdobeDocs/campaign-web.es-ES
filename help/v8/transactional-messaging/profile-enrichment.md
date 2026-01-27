@@ -2,21 +2,15 @@
 audience: end-user
 title: Enriquecimiento de perfil en mensajes transaccionales
 description: Obtenga información sobre cómo crear un mensaje transaccional en la interfaz de usuario web de Campaign
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 11%
 
 ---
 
 
 # Enriquecimiento de los mensajes transaccionales con datos de perfil{#profile-enrichment}
-
->[!AVAILABILITY]
->
->Esta función solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura. El servidor debe actualizarse a la versión 8.8.2 o posterior.
->
->Esta función solo está disponible actualmente en los correos electrónicos.
 
 Esta capacidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.
 
@@ -31,6 +25,12 @@ Para configurar el enriquecimiento de perfil, siga estos pasos principales:
 1. Defina el contenido, [leer más](#content-enrichment)
 1. Validar y enviar, [leer más](#send-enrichment)
 
+>[!NOTE]
+>
+>El servidor debe actualizarse a la versión 8.8.2 o posterior.
+>
+>Actualmente, esta función solo está disponible para correos electrónicos, SMS y notificaciones push.
+
 ## Creación del mensaje transaccional{#create-enrichment}
 
 En primer lugar, debe crear un nuevo mensaje transaccional.
@@ -39,7 +39,7 @@ En primer lugar, debe crear un nuevo mensaje transaccional.
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. Elija una plantilla y defina las propiedades. Para obtener más información, consulte esta [página](create-transactional.md#transactional-message).
+1. Elija una plantilla y defina las propiedades. Para obtener más información, consulte [esta página](create-transactional.md#transactional-message).
 
 ## Definición del tipo de evento{#event-enrichment}
 

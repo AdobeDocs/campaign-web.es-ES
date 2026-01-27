@@ -3,10 +3,10 @@ audience: end-user
 title: Acerca de la previsualización y prueba de envíos
 description: Obtenga información sobre cómo previsualizar y probar entregas
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '206'
+ht-degree: 16%
 
 ---
 
@@ -26,6 +26,7 @@ Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles 
 * [Previsualización del contenido y la personalización del mensaje](preview-content.md)
 * [Enviar pruebas](test-deliveries.md) a destinatarios o suscriptores específicos para pruebas y validación
 * [Compruebe el procesamiento del correo electrónico](email-rendering.md) en clientes populares de escritorio, móviles y basados en la web
+* [Valide la calidad de su contenido](../content/brands-score.md#validate-quality) para evaluar la legibilidad, la efectividad de CTA, la calidad de la línea de asunto y mucho más
 * [Previsualización y prueba de las páginas de aterrizaje](../landing-pages/create-lp.md#test-landing-page)
 
 Realice estas acciones con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla Editar contenido de su envío o desde el [Designer de correo electrónico](../email/get-started-email-designer.md).
