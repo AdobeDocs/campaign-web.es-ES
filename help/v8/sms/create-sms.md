@@ -27,7 +27,7 @@ ht-degree: 37%
 >id="acw_deliveries_sms_template_selection"
 >title="Selección de plantilla de SMS"
 >abstract="Seleccione una plantilla predefinida para iniciar el envío del SMS. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Uso de plantillas de envíos"
+>additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/delivery-template" text="Uso de plantillas de envíos"
 
 Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes explican el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se explican en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
