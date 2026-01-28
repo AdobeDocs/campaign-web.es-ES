@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
+source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -140,7 +140,7 @@ En la sección **Administración de clientes**, puede ver los perfiles, los púb
 >id="acw_offers_list"
 >title="Ofertas"
 >abstract="Examine las listas de ofertas y las plantillas de ofertas que se han creado en la consola utilizando el módulo **Interacción**. Estas listas son de solo lectura."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=es" text="Adición de ofertas a un envío"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="Adición de ofertas a un envío"
 
 En la sección **Gestión de decisiones**, puede ver las ofertas y sus plantillas. Estas listas son de solo lectura.
 
