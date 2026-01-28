@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="Plantilla de notificaciones push"
 >abstract="Seleccione una plantilla de notificación push para iniciar el envío push. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="Uso de plantillas de envíos"
+>additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/delivery-template" text="Uso de plantillas de envíos"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
