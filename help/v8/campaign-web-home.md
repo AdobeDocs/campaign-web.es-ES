@@ -3,7 +3,7 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 43bf37b2886afb7ba64f06f699637b8a3019f861
+source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 99%
