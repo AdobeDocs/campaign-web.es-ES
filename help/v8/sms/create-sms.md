@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 7f7063572b95df9c289e614cb217239f579ddb27
+source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 37%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 37%
 >id="acw_deliveries_sms_template_selection"
 >title="Selección de plantilla de SMS"
 >abstract="Seleccione una plantilla predefinida para iniciar el envío del SMS. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/delivery-template" text="Uso de plantillas de envíos"
 
 Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes explican el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se explican en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
+source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '755'
 ht-degree: 28%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="Plantilla de notificaciones push"
 >abstract="Seleccione una plantilla de notificación push para iniciar el envío push. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
->additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/delivery-template" text="Uso de plantillas de envíos"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
