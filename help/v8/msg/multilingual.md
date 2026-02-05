@@ -2,14 +2,20 @@
 audience: end-user
 title: Configuración de un envío multilingüe
 description: Obtenga información sobre cómo configurar un envío multilingüe
-source-git-commit: 926ebfbe775a7af809fa80175c6baed15fd761f5
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---
 
 # Configuración de un envío multilingüe {#multilingual-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Envíos multilingües"
+>abstract="Ahora puede enviar mensajes en varios idiomas en la interfaz de usuario web de Campaign. Para las notificaciones push, rellene todas las variantes de idioma cargando un archivo CSV."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"

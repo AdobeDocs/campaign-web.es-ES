@@ -2,15 +2,21 @@
 audience: end-user
 title: Enriquecimiento de perfil en mensajes transaccionales
 description: Obtenga información sobre cómo crear un mensaje transaccional en la interfaz de usuario web de Campaign
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 11%
+source-wordcount: '470'
+ht-degree: 12%
 
 ---
 
 
 # Enriquecimiento de los mensajes transaccionales con datos de perfil{#profile-enrichment}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Enriquecimiento de perfil"
+>abstract=You can now personalize transactional messages by linking Campaign database fields to content. Select target mappings, enrichment columns, and reconciliation keys for accurate real-time personalization."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 Esta capacidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.
 

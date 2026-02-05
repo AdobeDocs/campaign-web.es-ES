@@ -3,20 +3,14 @@ audience: end-user
 title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 29%
+source-wordcount: '1475'
+ht-degree: 27%
 
 ---
 
 # Trabajo con reglas empresariales (tipologías) {#typologies}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Reglas empresariales"
->abstract="Ahora puede crear tipologías y reglas de tipología en la interfaz de usuario de Adobe Campaign Web. La tipología permite controlar, filtrar y priorizar los envíos."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -211,7 +205,7 @@ Para hacer referencia a una o varias reglas en una tipología, siga estos pasos:
 
    ![Guardar interfaz de reglas de tipología](assets/business-rules-typology-save.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 Ahora puede aplicar la tipología a los mensajes. Una vez finalizado, todas las reglas de tipología seleccionadas se ejecutarán para realizar las comprobaciones definidas.
 
