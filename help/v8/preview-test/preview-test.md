@@ -16,7 +16,7 @@ ht-degree: 16%
 >id="acw_deliveries_simulate"
 >title="Previsualización y prueba del contenido"
 >abstract="Una vez definido el contenido, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo. "
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Envío de pruebas"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html?lang=es" text="Envío de pruebas"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=es#test-landing-page" text="Páginas de destino de prueba"
 
 Una vez definido el contenido de la entrega, puede utilizar perfiles y perfiles de prueba para previsualizarlo y probarlo antes de enviar el mensaje. Este paso garantiza la precisión y elimina los errores tanto en la configuración de contenido como de personalización.
