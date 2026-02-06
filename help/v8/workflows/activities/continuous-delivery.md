@@ -2,7 +2,8 @@
 audience: end-user
 title: Uso de una actividad de flujo de trabajo Entrega continua
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Entrega continua
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 4%

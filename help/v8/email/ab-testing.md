@@ -2,7 +2,8 @@
 audience: end-user
 title: Creación de experimentos de contenido
 description: Aprenda a crear experimentos de contenido en la web de Adobe Campaign
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 2%
@@ -90,7 +91,7 @@ Defina cuánto tiempo debe ejecutarse el experimento y seleccione el método de 
 1. Elija cómo se debe enviar la variante ganadora a la población restante:
 
    * **[!UICONTROL Envío automático]** activado: el sistema envía automáticamente la variante ganadora a la audiencia restante una vez que finaliza el experimento.
-   * Se desactivó el envío automático **[!UICONTROL 1&rbrace;: debe hacer clic manualmente en el botón]** Enviar **[!UICONTROL para enviar la variante ganadora después de revisar los resultados del experimento.]**
+   * Se desactivó el envío automático **[!UICONTROL 1}: debe hacer clic manualmente en el botón]** Enviar **[!UICONTROL para enviar la variante ganadora después de revisar los resultados del experimento.]**
 
 Si ninguna variante logra resultados significativamente mejores que las demás al final del experimento, el sistema envía la primera variante a la población restante. Consulte esta [sección](#send-deliveries).
 

@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 2%
 
 ---
-
 
 # Creación de correos electrónicos multilingües con Adobe Experience Manager {#aem-multilingual}
 
@@ -29,7 +29,7 @@ La integración de Adobe Experience Manager le permite crear envíos de correo e
 Antes de crear un envío multilingüe de correo electrónico, asegúrese de lo siguiente:
 
 * Acceso a una instancia de Adobe Experience Manager configurada para la integración de la interfaz web de Adobe Campaign.
-* Contenido de Adobe Experience Manager con copias de idioma ya creadas y aprobadas. Obtenga más información acerca del Asistente para copia de idioma en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Contenido de Adobe Experience Manager con copias de idioma ya creadas y aprobadas. Obtenga más información acerca del Asistente para copia de idioma en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Plantilla de envíos de correo electrónico configurada para recibir contenido de Adobe Experience Manager. Consulte los pasos detallados en la sección [Habilitar el modo multilingüe](#enable-multilingual).
 
 ## Creación de una entrega multilingüe
@@ -116,5 +116,3 @@ Después de crear variantes de contenido, puede administrarlas directamente en l
    >[!CAUTION]
    >
    >Después de desvincularlo, no puede actualizar el contenido de Adobe Experience Manager ni crear nuevas variantes. El contenido se vuelve independiente de Adobe Experience Manager.
-
-
