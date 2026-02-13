@@ -2,10 +2,10 @@
 title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la interfaz de usuario web de Campaign
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Ad
 
 +++ ¿Significa esto que se ha terminado la compatibilidad con la versión 7 de Adobe Campaign Classic?
 
-La versión 7 de Adobe Campaign Classic será compatible hasta el 31 de marzo de 2027. Visite la página [Productos y periodos de servicio técnico](https://helpx.adobe.com/es/support/programs/eol-matrix.html){target="_blank"}.
+Visite la página [Productos y periodos de asistencia técnica](https://helpx.adobe.com/es/support/programs/eol-matrix.html){target="_blank"} para ver las fechas de finalización de la versión 7 de Adobe Campaign Classic.
 
 +++
 
