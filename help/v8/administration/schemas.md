@@ -1,22 +1,20 @@
 ---
-title: Trabajo con esquemas
+title: Acerca de los esquemas
 description: Aprenda a trabajar con esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 14%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
-# Trabajo con esquemas {#schemas}
+# Acerca de los esquemas {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Esquemas"
->abstract="**[!DNL Adobe Campaign]** utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Desde esta pantalla, puede ver todos los esquemas existentes y acceder a los detalles de un esquema seleccionando su nombre en la lista. Hay filtros disponibles para ayudarle a restringir la lista, como mostrar solo los esquemas editables."
-
-## Acerca de los esquemas {#about}
+>abstract="Adobe Campaign utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Desde esta pantalla, puede ver todos los esquemas existentes, acceder a los detalles del esquema, configurar formularios personalizados y crear o ampliar esquemas directamente desde la interfaz de usuario web."
 
 **[!DNL Adobe Campaign]** utiliza esquemas basados en XML para definir la estructura física y lógica de los datos dentro de la aplicación. Un esquema es un documento XML vinculado a una tabla de base de datos que define lo siguiente:
 
@@ -31,72 +29,18 @@ Los esquemas desempeñan un papel clave en:
 
 Cada entidad de Adobe Campaign tiene un esquema específico que garantiza la coherencia y la organización de los datos.
 
-Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+La interfaz de esquemas permite:
 
-## Acceso a esquemas en la interfaz de usuario web {#access}
-
-Se puede acceder a los esquemas desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Esquemas]**.
-
-![Pantalla de lista de esquemas que muestra los esquemas y filtros disponibles](assets/schemas-list.png)
-
-Desde esta pantalla, puede ver todos los esquemas existentes. Hay filtros disponibles para ayudarle a restringir la lista, como mostrar solo los esquemas editables.
-
-Para abrir un esquema, seleccione su nombre. Se muestra una vista de esquema detallada.
-
-![Pantalla de detalles del esquema que muestra propiedades y contenido del esquema](assets/schema-details.png)
-
-### Resumen del esquema {#overview}
-
-La ficha **[!UICONTROL Información general]** proporciona una vista general del esquema:
-
-* La sección **[!UICONTROL Properties]** muestra información clave, como el nombre del esquema, el área de nombres y el nombre de la tabla asociada.
-
-* La sección **[!UICONTROL Definición de esquema]** muestra detalles sobre la definición de esquema, incluida la clave principal utilizada para la reconciliación de datos y sus vínculos con otras tablas.
-
-  Haga clic en el botón **[!UICONTROL Vista previa del esquema]** para ver los diferentes campos y vínculos que componen el esquema. Esto permite comprobar la estructura completa de un esquema. Si el esquema se ha ampliado con campos personalizados, puede visualizar todas sus extensiones.
-
-* La sección **[!UICONTROL Content]** muestra el contenido XML del esquema, lo que le permite alternar entre el origen y la sintaxis generada.
-
-### Datos de esquema {#data}
-
-La ficha **[!UICONTROL Datos]** proporciona información sobre los datos del esquema.
-
-![Pestaña de datos de esquema que muestra la estructura y los atributos de datos](assets/schemas-data.png)
-
-## Configuración de la definición de pantalla {#screen-definition}
-
-### Editar campos personalizados {#fields}
-
-Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Permiten personalizar esquemas incluyendo nuevos atributos para adaptarlos a las necesidades de la organización.
-
-Los campos personalizados se pueden mostrar en varias pantallas, como los detalles de perfil en la interfaz web de Campaign. Puede controlar qué campos son visibles y cómo aparecen en la interfaz. Para ello, haga clic en el botón **[!UICONTROL Edición de pantalla]** del menú **[!UICONTROL Esquemas]**.
-
-![Pantalla de campos personalizados que muestra atributos editables](assets/schemas-custom.png)
-
-Haga clic en **[!UICONTROL Vista previa]** para mostrar los campos personalizados en una pantalla de muestra.
-
-Para obtener información detallada sobre cómo editar campos personalizados en un esquema, consulte esta sección: [Configurar campos personalizados](../administration/custom-fields.md).
-
-### Agregar listas de colección {#collection-lists}
-
-Esta sección **Lista de listas personalizadas** le permite definir vínculos de colección, como compras. A continuación, los datos relacionados se muestran en pantallas de perfil a través de una pestaña dedicada.
+* [Acceder y personalizar esquemas](schemas-browse-access.md): vea los esquemas disponibles, explore sus detalles y personalice la visualización de la pantalla
+* [Configurar columnas de lista](schemas-list-columns.md) - Configurar qué columnas se muestran de forma predeterminada en las vistas de lista.
+* [Editar campos personalizados](schemas-custom-fields.md): configure qué campos personalizados se muestran en pantallas de detalles y organícelos en secciones.
+* [Agregar listas de colección](schemas-collection-lists.md) - Agregar listas de colección para mostrar datos relacionados en pantallas de perfil.
+* [Crear y administrar esquemas](schemas-create-publish.md#create-schemas): cree nuevos esquemas y amplíe los existentes
+* [Publicar y sincronizar esquemas](schemas-create-publish.md#publish): sincronice los cambios de esquema con la estructura de la base de datos.
+* [Trabajar con formularios personalizados](schemas-custom-forms.md): cree, edite y administre registros en esquemas personalizados mediante formularios de entrada de datos.
 
 >[!NOTE]
 >
->Actualmente, esta capacidad solo está disponible para el esquema Recipients.
+>Debe tener derechos de administrador para administrar esquemas.
 
-1. Para agregar una lista de colección a la interfaz, haga clic en el botón de puntos suspensivos y elija **Seleccionar listas personalizadas**.
-
-   ![Creación de listas de colección](assets/schemas-collection1.png)
-
-1. Seleccione una de las listas personalizadas disponibles, por ejemplo, compras, luego haga clic en **Confirmar**.
-
-   ![Creación de listas de colección](assets/schemas-collection2.png)
-
-1. Vaya al menú **Perfiles** y filtre los perfiles que hayan realizado compras.
-
-   ![Creación de listas de colección](assets/schemas-collection3.png)
-
-1. Haga clic en un perfil. Verá que se muestra la nueva pestaña. Puede agregar más columnas si es necesario.
-
-   ![Creación de listas de colección](assets/schemas-collection4.png)
+Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.

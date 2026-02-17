@@ -2,7 +2,7 @@
 title: Exploración de los detalles de los perfiles
 description: Descubra cómo explorar los detalles de un perfil.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 7%
@@ -28,7 +28,7 @@ La información sobre el perfil se organiza de la siguiente manera:
 
   ![Captura de pantalla que muestra la ficha suscripciones, donde se enumeran los servicios a los que está suscrito el perfil.](assets/profile-subscriptions.png){zoomable="yes"}
 
-* Puede mostrar pestañas personalizadas, como compras, definiendo vínculos de recopilación en la definición de pantalla del esquema Recipients. [Más información sobre los vínculos de colección](../administration/schemas.md#collection-lists)
+* Puede mostrar pestañas personalizadas, como compras, definiendo vínculos de recopilación en la definición de pantalla del esquema Recipients. [Más información sobre los vínculos de colección](../administration/schemas-collection-lists.md)
 
   ![Captura de pantalla que muestra la ficha personalizada](assets/schemas-collection4.png){zoomable="yes"}
 
