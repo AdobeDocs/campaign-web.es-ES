@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 36%
+source-wordcount: '995'
+ht-degree: 26%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 36%
 >title="Programación de campañas"
 >abstract="Establezca o modifique la programación de campañas."
 
-Para acceder y administrar sus campañas, haga clic en el menú **[!UICONTROL Campañas]** en el panel de navegación izquierdo.
-
-## Lista de campañas {#access-campaigns}
-
-En la lista de campañas, hay dos pestañas disponibles:
+Para acceder y administrar sus campañas, haga clic en el menú **[!UICONTROL Campañas]** en el panel de navegación izquierdo. Hay dos pestañas disponibles:
 
 * La pestaña **Examinar** enumera todas las campañas existentes. Puede hacer clic en una campaña para abrir su panel de control o crear una nueva campaña haciendo clic en el botón **Crear campaña**. Consulte esta [sección](create-campaigns.md#create-campaigns).
 
@@ -29,15 +25,31 @@ En la lista de campañas, hay dos pestañas disponibles:
 
 ![Descripción: la pantalla de la lista de campañas que muestra las fichas Examinar y Plantillas, junto con las opciones para crear o ver campañas](assets/campaign-list.png)
 
-De forma predeterminada, cada campaña de la lista muestra información sobre su estado actual, las fechas de inicio y finalización, la fecha de creación, la última vez que se modificó, etc.
+## Inventario de campañas {#inventory}
 
-Puede personalizar las columnas mostradas haciendo clic en el icono **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar o quitar columnas y reordenar la información en la lista de campañas.
+La pestaña **[!UICONTROL Examinar]** proporciona información sobre el estado actual de las campañas, las fechas de inicio y finalización, la fecha de creación, la última vez que se modificaron, etc. Puede personalizar las columnas mostradas haciendo clic en el icono **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar o quitar columnas y reordenar la información en la lista de campañas.
 
-Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens).
+### Buscar y filtrar el inventario {#search}
 
-Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de filtro y utilice la sección **Fecha de inicio y de finalización**:
+Hay disponible una barra de búsqueda y filtros para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens). Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de filtro y utilice la sección **Fecha de inicio y de finalización**:
 
 ![Descripción: el panel de filtro muestra las opciones para filtrar campañas por fechas de inicio y finalización](assets/campaign-filter-on-dates.png)
+
+### Vista Cronología {#timeline}
+
+De manera predeterminada, la pantalla de la campaña muestra **Vista de lista** (inventario). Puede cambiar a la **vista Cronología** en cualquier momento mediante el conmutador de vista. Ambas vistas muestran las mismas campañas y comparten los mismos filtros y búsquedas: al cambiar filtros o buscar en una vista, la otra vista refleja la misma selección.
+
+La vista Cronología le ayuda a visualizar y administrar sus campañas a lo largo del tiempo. Puede ver todas las campañas en un formato basado en el tiempo, lo que facilita la planificación, programación y coordinación de las actividades de marketing.
+
+![](assets/timeline-view.png)
+
+**Funcionamiento de la escala de tiempo:**
+
+* La cronología muestra las campañas según sus fechas de inicio y finalización. Las campañas que abarcan varios días aparecen en las fechas relevantes.
+* Puede navegar por semana, mes o día. Utilice el selector de fecha o los botones de flecha para moverse entre periodos. Use el botón **Hoy** para regresar rápidamente a la fecha actual.
+* Al seleccionar una campaña, se abre un panel derecho con detalles de la campaña: estado, fechas de inicio y finalización, lista de flujos de trabajo y lista de envíos. Puede navegar a esos flujos de trabajo y envíos desde el panel.
+* Las campañas en curso se priorizan en la pantalla cuando muchas campañas caen en la misma fecha.
+* Cuando muchas campañas caen en un solo día (por ejemplo, en la vista de mes), un control **More** le permite expandir para ver el conjunto completo de ese día, o cambiar a la vista de semana o de día para obtener más detalles.
 
 ## Panel de control de campañas {#campaign-dashboard}
 
