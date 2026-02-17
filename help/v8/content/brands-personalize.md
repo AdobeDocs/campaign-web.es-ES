@@ -4,9 +4,10 @@ title: Administrar marca
 description: Aprenda a personalizar las directrices de marca
 role: User
 level: Beginner, Intermediate
-source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
+exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
+source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,7 @@ Para crear un kit de marca completo que garantice la coherencia en todo el conte
 * **[!UICONTROL Acerca de la marca]** establece la identidad y los valores centrales de tu marca.
 * **[!UICONTROL El estilo de escritura]** define los estándares de idioma y contenido.
 * **[!UICONTROL Contenido visual]** establece directrices de diseño e imágenes.
+* **[!UICONTROL Colores]** administra el sistema de color y el uso de tu marca.
 
 Una vez configuradas, puede utilizar las directrices de marca para validar la calidad del contenido y la alineación de la marca. [Más información acerca de la validación de calidad del contenido](brands-score.md#validate-quality)
 
@@ -248,61 +250,60 @@ Para personalizar tu **[!UICONTROL contenido visual]**:
 
 Ahora puedes personalizar aún más tu marca o [publicar tu marca](#create-brand-kit).
 
-<!--
-## Colors {#colors}
+## Colores {#colors}
 
-The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
+La sección **[!UICONTROL Colores]** contiene los estándares del sistema de colores de su marca, y describe cómo se seleccionan, organizan y aplican los colores en todas las experiencias. Garantiza el uso coherente de los colores primarios, secundarios, acentuados y neutros para mantener una identidad de marca coherente, accesible y reconocible.
 
-+++ Available categories and examples
++++ Categorías y ejemplos disponibles
 
 <table>
   <thead>
     <tr>
-      <th>Category</th>
-      <th>Guidelines Example</th>
-      <th>Exclusions Example</th>
+      <th>Categoría</th>
+      <th>Ejemplo de directrices</th>
+      <th>Ejemplo de exclusiones</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Primary colors</td>
-      <td>Use primary brand colors for logos, headers, and main call-to-action elements.</td>
-      <td>Do not substitute or modify primary brand colors.</td>
+      <td>Colores principales</td>
+      <td>Utilice colores de marca principales para logotipos, encabezados y elementos principales de call-to-action.</td>
+      <td>No sustituir ni modificar los colores de marca principales.</td>
     </tr>
     <tr>
-      <td>Secondary colors</td>
-      <td>Use secondary colors to support layouts, illustrations, and UI components.</td>
-      <td>Do not let secondary colors overpower primary brand colors.</td>
+      <td>Colores secundarios</td>
+      <td>Utilice colores secundarios para admitir diseños, ilustraciones y componentes de la interfaz de usuario.</td>
+      <td>No permita que los colores secundarios prevalezcan sobre los colores primarios de la marca.</td>
     </tr>
     <tr>
-      <td>Accent colors</td>
-      <td>Use accent colors sparingly for buttons, links, and alerts.</td>
-      <td>Do not use accent colors for large background areas.</td>
+      <td>Realzar colores</td>
+      <td>Utilice colores de énfasis con moderación para botones, vínculos y alertas.</td>
+      <td>No utilice colores de énfasis en áreas de fondo grandes.</td>
     </tr>
     <tr>
-      <td>Neutral colors</td>
-      <td>Use neutral colors for text, dividers, borders, and subtle UI elements.</td>
-      <td>Avoid using neutrals with poor contrast or heavy color casts.</td>
+      <td>Colores neutros</td>
+      <td>Utilice colores neutros para el texto, los divisores, los bordes y los elementos sutiles de la interfaz de usuario.</td>
+      <td>Evite utilizar neutrales con poco contraste o tonos de color intensos.</td>
     </tr>
     <tr>
-      <td>Background colors</td>
-      <td>Use light or neutral backgrounds to ensure readability and visual clarity.</td>
-      <td>Do not place text or logos on low-contrast backgrounds.</td>
+      <td>Colores de fondo</td>
+      <td>Utilice fondos claros o neutros para garantizar la legibilidad y la claridad visual.</td>
+      <td>No coloque texto o logotipos en fondos de bajo contraste.</td>
     </tr>
     <tr>
-      <td>Additional colors</td>
-      <td>Use additional colors only for data visualization or approved campaigns.</td>
-      <td>Do not introduce unapproved or off-brand colors.</td>
+      <td>Colores adicionales</td>
+      <td>Utilice colores adicionales solo para la visualización de datos o campañas aprobadas.</td>
+      <td>No introduzca colores no aprobados o que no sean de marca.</td>
     </tr>
     <tr>
-      <td>Color scales</td>
-      <td>Use approved tints and shades for UI states such as hover, active, and disabled.</td>
-      <td>Do not create unofficial shades or gradients.</td>
+      <td>Escalas de color</td>
+      <td>Utilice tintes y sombras aprobados para los estados de la interfaz de usuario como Desplazamiento, Activo y Desactivado.</td>
+      <td>No cree sombras o degradados no oficiales.</td>
     </tr>
     <tr>
-      <td>Usage guidelines</td>
-      <td>Maintain consistent color usage and accessible contrast across all assets.</td>
-      <td>Do not mix conflicting palettes or apply colors inconsistently.</td>
+      <td>Directrices de uso</td>
+      <td>Mantenga un uso coherente del color y un contraste accesible en todos los recursos.</td>
+      <td>No mezcle paletas en conflicto ni aplique colores de forma incoherente.</td>
     </tr>
 </table>
 
@@ -310,40 +311,39 @@ The **[!UICONTROL Colors]** section the standards for your brand's color system,
 
 </br>
 
-To personalize your **[!UICONTROL Colors]**:
+Para personalizar **[!UICONTROL Colores]**:
 
-1. From the **[!UICONTROL Colors]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a color, guideline or exclusion. 
+1. En la ficha **[!UICONTROL Colores]**, haga clic en ![](assets/do-not-localize/Smock_Add_18_N.svg) para agregar un color, una directriz o una exclusión.
 
-1. Enter your color information to define it accurately:
+1. Introduzca la información de color para definirla con precisión:
 
-    * **Color name**: Provide a clear, descriptive name to identify the color within your brand system.
+   * **Nombre de color**: proporcione un nombre claro y descriptivo para identificar el color dentro del sistema de marca.
 
-    * **Color value**: Choose your color using the hue picker or enter precise values using RGB, HEX, or Pantone name/code to ensure consistency across digital and print assets.
+   * **Valor de color**: elija el color con el selector de tono o escriba valores precisos con el nombre o código RGB, HEX o Pantone para garantizar la coherencia en los recursos digitales y de impresión.
 
-    ![](assets/brands-color-1.png)
+   ![](assets/brands-color-1.png)
 
-1. Review your selection to confirm accuracy and visual consistency and click **[!UICONTROL Add]** to save your color.
+1. Revisa tu selección para confirmar la precisión y la coherencia visual y haz clic en **[!UICONTROL Agregar]** para guardar el color.
 
-1. Then, enter your guideline or exclusion.
+1. A continuación, introduzca la directriz o exclusión.
 
-1. Specify the Usage context for your guideline or exclusion:
+1. Especifique el Contexto de uso para la directriz o exclusión:
 
-    * **[!UICONTROL Channel type]**: Choose where this guideline, exception, or exclusion should apply. For example, you may want a specific writing style to appear only in Email, Mobile, Prints, or other communication channels.
+   * **[!UICONTROL Tipo de canal]**: elija dónde se debe aplicar esta directriz, excepción o exclusión. Por ejemplo, es posible que desee que un estilo de escritura específico aparezca solo en correos electrónicos, móviles, impresiones u otros canales de comunicación.
 
-    * **[!UICONTROL Element type]**: Specify which content element the rule applies to. This could include elements such as Headings, Buttons, Links, or other components within your content.
+   * **[!UICONTROL Tipo de elemento]**: especifique a qué elemento de contenido se aplica la regla. Esto puede incluir elementos como encabezados, botones, vínculos u otros componentes dentro del contenido.
 
-      ![](assets/brands-color-2.png)
-  
-1. Once your guideline, exception, or exclusion is set up, click **[!UICONTROL Add]**. 
+     ![](assets/brands-color-2.png)
 
-1. If needed, select one of your guideline or exclusion to update or delete.
+1. Una vez configurada la guía, excepción o exclusión, haga clic en **[!UICONTROL Agregar]**.
 
-1. Select one your guideline or exclusion to update it. Click the ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")icon to delete it. 
+1. Si es necesario, seleccione una de las directrices o exclusión para actualizar o eliminar.
 
-    ![](assets/brands-color-3.png)
+1. Seleccione una de las directrices o exclusiones para actualizarla. Haga clic en el icono ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")para eliminarlo.
 
-1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
+   ![](assets/brands-color-3.png)
 
-You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
+1. Haga clic en **[!UICONTROL Agregar grupo]** para definir colores adicionales para su marca o para agregar un grupo de escala de colores.
 
--->
+Ahora puedes personalizar aún más tu marca o [publicar tu marca](brands.md#create-brand-kit).
+
