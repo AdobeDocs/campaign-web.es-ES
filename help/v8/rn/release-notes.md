@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 42%
+source-wordcount: '274'
+ht-degree: 46%
 
 ---
 
@@ -66,7 +66,7 @@ _17 de febrero de 2026_
 <tr>
 <td>
 <p>El inventario de campañas ahora incluye una vista Cronología que le permite visualizar y administrar las campañas a lo largo del tiempo: cambie entre una lista y una cronología, navegue por semana, mes o día, utilice el botón Hoy para ir a la fecha actual y abra los detalles de la campaña (estado, flujos de trabajo, envíos) en un panel derecho, con los mismos filtros y búsquedas que la vista de lista.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>Para obtener más información, consulte la <a href="../campaigns/manage-campaigns.md#timeline">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _17 de febrero de 2026_
 <tr>
 <td>
 <p>Ahora puede crear y administrar esquemas directamente desde la interfaz de usuario web de Campaign. Esta función le permite crear nuevas tablas, ampliar esquemas existentes y crear formularios personalizados. Puede definir estructuras de datos personalizadas para satisfacer sus necesidades empresariales específicas sin necesidad de acceder a la consola del cliente.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Mejoras {#26-2-improvements}
+### Mejora {#26-2-improvements}
 
 * Las directrices de marca ahora incluyen una sección Colores que define los estándares del sistema de colores de su marca, lo que garantiza un uso coherente de los colores primarios, secundarios, acentuados y neutros en todas las experiencias.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [Más información](../content/brands-personalize.md)
 
 
 
