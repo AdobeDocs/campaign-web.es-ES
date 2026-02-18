@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 97%
+source-wordcount: '998'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 97%
    + [Versión preliminar](rn/e-release-notes.md)
    + [Último lanzamiento](rn/release-notes.md)
    + Versiones anteriores {#previous-release-notes}
+      + [Versiones de 2026](rn/release-notes-26.md)
       + [Versiones de 2025](rn/release-notes-25.md)
       + [Versiones de 2024](rn/release-notes-24.md)
    + [Actualizaciones de la documentación](rn/documentation-updates.md)
@@ -281,9 +282,16 @@ ht-degree: 97%
       + [Asignar una marca](administration/branding/branding-assign.md)
    + [Trabajo con reglas empresariales (tipologías)](administration/typologies.md)
    + [Administrar asignaciones de público destinatario](administration/target-mappings.md)
-   + [Trabajo con esquemas](administration/schemas.md)
+   + Trabajo con esquemas {#schemas}
+      + [Acerca de los esquemas](administration/schemas.md)
+      + [Acceso y configuración de esquemas](administration/schemas-browse-access.md)
+      + [Configuración de columnas de lista](administration/schemas-list-columns.md)
+      + [Editar campos personalizados](administration/schemas-custom-fields.md)
+      + [Agregar listas de colección](administration/schemas-collection-lists.md)
+      + [Creación y publicación de esquemas](administration/schemas-create-publish.md)
+      + [Trabajar con formularios personalizados](administration/schemas-custom-forms.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-   + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)
