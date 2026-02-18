@@ -46,11 +46,11 @@ Las tipologías son conjuntos de **reglas de tipología** que se ejecutan durant
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_weight"
 >title="Peso del envío"
->abstract="El peso del envío le permite identificar los envíos de mayor prioridad dentro del marco de la administración de presión. Los mensajes con mayor peso tienen prioridad."
+>abstract="El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso tienen prioridad."
 
 En esta sección, los parámetros de presión le permiten definir un **umbral** para configurar las reglas de administración de fatiga, que es el número máximo de mensajes que se pueden enviar a un perfil durante un periodo determinado.
 
-Una vez alcanzado este umbral, no se pueden realizar más envíos hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de un envío si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
+Una vez alcanzado este umbral, no se pueden realizar más entregas hasta el final del periodo. Este proceso permite excluir automáticamente un perfil de un envío si un mensaje supera el umbral establecido, evitando así saturar al destinatario.
 
 Los valores de umbral pueden ser constantes o variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un perfil a otro o incluso en un mismo perfil.
 
@@ -60,7 +60,7 @@ En el campo **[!UICONTROL Tipo de peso]**, hay tres opciones disponibles:
 * **[!UICONTROL Según el destinatario]**
 * **[!UICONTROL Definido en cada regla]**
 
-Utilice el campo **[!UICONTROL Peso del envío]** para definir la prioridad de envío. Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de un envío se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de un envío en función de los intereses del destinatario.
+Utilice el campo **[!UICONTROL Peso del envío]** para definir la prioridad de envío. Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de una entrega se establece en 5. Las reglas de presión permiten definir el peso de los envíos a los que se aplican. El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de un envío en función de los intereses del destinatario.
 
 Utilice el campo **[!UICONTROL Modo de envío]** para seleccionar el modo de evaluación de destino.
 
@@ -103,9 +103,9 @@ El campo **[!UICONTROL Importancia del destinatario]** es una fórmula que se us
 
 En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las asignaciones de destino](../audience/targeting-dimensions.md).
 
-En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=es){target="_blank"}
+En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
-## Envío {#delivery}
+## Entrega {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
@@ -159,7 +159,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 
 >[!NOTE]
 >
->Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=es#external-account-ac){target="_blank"}.
+>Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Reintentos {#retries}
 
@@ -232,7 +232,7 @@ Obtenga más información acerca del período de validez de la entrega en la [do
 
 ### Administración de páginas espejo (canal de correo electrónico) {#mirror}
 
-La página espejo es una página HTML a la que se puede acceder en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo electrónico.
+La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo electrónico.
 
 Además del modo predeterminado, también están disponibles las siguientes opciones:
 
@@ -254,7 +254,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 >title="Período de validez"
 >abstract="El período de vigencia establece la duración durante la cual se activa el seguimiento en las direcciones URL de los mensajes."
 
-Los parámetros **[!UICONTROL Tracking]** se definen en la sección relacionada. Las opciones posibles son las siguientes:
+Los parámetros **[!UICONTROL Tracking]** se definen en la sección relacionada. Las opciones posibles son:
 
 * **[!UICONTROL Límite de validez de seguimiento]**: utilice esta opción para cambiar la duración durante la cual se activa el seguimiento en las direcciones URL.
 * **[!UICONTROL URL de sustitución para direcciones URL caducadas]**: utilice esta opción para introducir una dirección URL en una página web de reserva: se muestra una vez que ha caducado el seguimiento.

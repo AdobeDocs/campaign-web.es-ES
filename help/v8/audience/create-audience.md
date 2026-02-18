@@ -31,7 +31,7 @@ Una vez que haya creado el flujo de trabajo, las audiencias resultantes se almac
 
 La columna **[!UICONTROL Origin]** indica el origen de las audiencias: Las audiencias de **[!UICONTROL Adobe Campaign]** se crean en la consola de Adobe Campaign v8 o en la interfaz de usuario web, mientras que las audiencias de **[!UICONTROL Adobe Experience Platform:]** se crean en Adobe Experience Platform y se integran en Campaign mediante la integración de fuentes y destinos de Adobe.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Permisos para grupos de operadores personalizados
 
@@ -108,4 +108,4 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure las 
 
 Obtenga información sobre cómo crear y administrar audiencias, cómo seleccionar audiencias para una entrega y definir grupos de control.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453205?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

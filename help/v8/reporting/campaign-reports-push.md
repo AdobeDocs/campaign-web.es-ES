@@ -14,7 +14,7 @@ ht-degree: 17%
 
 Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal push. Obtenga información sobre cómo acceder a los informes de campaña en [esta página](campaign-reports.md).
 
-## Resumen de envíos {#delivery-summary-push}
+## Resumen de entregas {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
@@ -79,7 +79,7 @@ La tabla **[!UICONTROL Estadísticas de ejecución]** detalla el éxito de su en
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje o error de carga útil, por ejemplo) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){target="_blank"}.
+  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 

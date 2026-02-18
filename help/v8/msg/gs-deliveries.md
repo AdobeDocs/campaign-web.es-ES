@@ -17,7 +17,7 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="Envíos"
+>title="Entregas"
 >abstract="Un envío es una comunicación que se envía a un público a través de un canal específico: correo electrónico, SMS o Push. En esta pantalla, puede editar, duplicar y eliminar los envíos existentes. También puede ver los informes de los envíos completados. Haga clic en el botón **Crear envío** para añadir un nuevo envío."
 
 ## Acceso a los envíos {#access}
