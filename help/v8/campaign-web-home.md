@@ -3,10 +3,10 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
+source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 99%
+source-wordcount: '468'
+ht-degree: 98%
 
 ---
 
@@ -52,9 +52,9 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 >[!BEGINTABS]
 
 
->[!TAB Versión de enero de 2026]
+>[!TAB Versión de febrero de 2026]
 
-Ya está aquí la versión de octubre. Ahora hay nuevas funciones y mejoras disponibles en la interfaz de usuario web de Campaign, incluidas las funciones multilingües para mensajería transaccional, notificaciones push y SMS, la integración con Adobe GenStudio y el enriquecimiento del perfil en los mensajes transaccionales. Para obtener una descripción general completa, consulte las notas de la versión.
+La versión de febrero está activa. Ahora hay nuevas funciones y mejoras disponibles en la interfaz de usuario web de Campaign. Para obtener una descripción general completa, consulte las notas de la versión.
 
 [![Botón Más información](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
