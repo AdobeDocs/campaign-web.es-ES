@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 51%
+source-wordcount: '267'
+ht-degree: 55%
 
 ---
 
@@ -75,13 +75,14 @@ _17 de febrero de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Creación de esquemas</strong><br/></th> 
+<th><strong>Creación de esquemas (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Ahora puede crear y administrar esquemas directamente desde la interfaz de usuario web de Campaign. Esta función le permite crear nuevas tablas, ampliar esquemas existentes y crear formularios personalizados. Puede definir estructuras de datos personalizadas para satisfacer sus necesidades empresariales específicas sin necesidad de acceder a la consola del cliente.</p>
+<p>Nota: esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
 <p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
 </td>
 </tr>

@@ -1,9 +1,10 @@
 ---
 title: Creación y publicación de esquemas
 description: Obtenga información sobre cómo crear, ampliar y publicar esquemas.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 ## Creación y administración de esquemas {#create-schemas}
 
 Puede crear nuevos esquemas, ampliar los esquemas existentes y acceder a bases de datos externas.
+
+>[!NOTE]
+>
+>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.
 
 ### Creación o ampliación de un esquema {#create-new}
 
