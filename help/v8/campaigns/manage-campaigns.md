@@ -3,7 +3,7 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 26%
@@ -29,7 +29,7 @@ Para acceder y administrar sus campañas, haga clic en el menú **[!UICONTROL Ca
 
 La pestaña **[!UICONTROL Examinar]** proporciona información sobre el estado actual de las campañas, las fechas de inicio y finalización, la fecha de creación, la última vez que se modificaron, etc. Puede personalizar las columnas mostradas haciendo clic en el icono **Configurar la columna para un diseño personalizado** situado en la esquina superior derecha de la lista. Esto le permite agregar o quitar columnas y reordenar la información en la lista de campañas.
 
-### Buscar y filtrar el inventario {#search}
+### Buscar y filtrar el inventario {#search-and-filter}
 
 Hay disponible una barra de búsqueda y filtros para facilitar la búsqueda dentro de la lista. [Más información](../get-started/user-interface.md#list-screens). Por ejemplo, puede filtrar la programación de su campaña. Abra el panel de filtro y utilice la sección **Fecha de inicio y de finalización**:
 

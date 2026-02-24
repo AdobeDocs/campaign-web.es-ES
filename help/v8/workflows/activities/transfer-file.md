@@ -3,18 +3,18 @@ audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 29%
 
 ---
 
-# Transferir archivo {#transfer-file}
+# Transferencia de archivo {#transfer-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
->title="Transferir archivo"
+>title="Transferencia de archivo"
 >abstract="La actividad **Transferir archivo** permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP."
 
 >[!CONTEXTUALHELP]
@@ -155,6 +155,8 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
    * **[!UICONTROL Seguir redirecciones]**: La redirección de archivos permite usar invalidaciones para dirigir la entrada o salida de datos a un dispositivo de un tipo diferente.
    * **[!UICONTROL Agregar los encabezados HTTP al archivo]**: en algunos casos, es posible que desee agregar encabezados HTTP adicionales a un archivo. Lo más habitual es que estos encabezados se utilicen para proporcionar información adicional para la resolución de problemas, para [Cross-origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o para establecer directivas específicas de almacenamiento en caché.
    * **[!UICONTROL Ignore el código de retorno HTTP]**: los códigos de retorno HTTP, también conocidos como códigos de estado HTTP, indican el resultado de una solicitud HTTP.
+
+   +++
 
 1. La opción **[!UICONTROL Process errors]** le permite activar una transición saliente de &quot;Error&quot; después de la actividad si se produce algún error durante la transferencia.
 
