@@ -29,7 +29,7 @@ La integración de Adobe Experience Manager le permite crear envíos de correo e
 Antes de crear un envío multilingüe de correo electrónico, asegúrese de lo siguiente:
 
 * Acceso a una instancia de Adobe Experience Manager configurada para la integración de la interfaz web de Adobe Campaign.
-* Contenido de Adobe Experience Manager con copias de idioma ya creadas y aprobadas. Obtenga más información acerca del Asistente para copia de idioma en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Contenido de Adobe Experience Manager con copias de idioma ya creadas y aprobadas. Obtenga más información acerca del Asistente para copia de idioma en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Plantilla de envíos de correo electrónico configurada para recibir contenido de Adobe Experience Manager. Consulte los pasos detallados en la sección [Habilitar el modo multilingüe](#enable-multilingual).
 
 ## Creación de una entrega multilingüe
