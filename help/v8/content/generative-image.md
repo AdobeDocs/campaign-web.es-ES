@@ -2,10 +2,11 @@
 audience: end-user
 title: Contenido generativo
 description: Obtenga información sobre cómo generar imágenes con el asistente de IA
-source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
+exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
+source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 1%
+source-wordcount: '1200'
+ht-degree: 2%
 
 ---
 
@@ -53,6 +54,7 @@ Aprenda a crear indicadores eficaces y a configurar los ajustes de la imagen par
 
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de imagen]**:
 
+   * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md)
    * **[!UICONTROL Proporción de aspecto]**: determine la anchura y la altura del recurso. Elija entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o indique un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Categorice la naturaleza del elemento visual y distinga entre distintas formas de representación visual, como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: controla el impacto de la imagen ajustando su intensidad. Un ajuste más bajo (2) crea un aspecto más suave, mientras que un ajuste más alto (10) hace que la imagen sea más vibrante.
@@ -124,6 +126,7 @@ Después de acceder a AI Assistant, puede ajustar la configuración de generaci�
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
+   * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md)
    * **[!UICONTROL Tipo de contenido]**: Categorice la naturaleza del elemento visual y distinga entre distintas formas de representación visual, como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: controla el impacto de la imagen ajustando su intensidad. Un ajuste más bajo (2) crea un aspecto más suave y restringido, mientras que un ajuste más alto (10) hace que la imagen sea más vibrante y visualmente potente.
    * **[!UICONTROL Iluminación]**: ajusta la iluminación de la imagen para dar forma a su atmósfera y resaltar elementos específicos.
