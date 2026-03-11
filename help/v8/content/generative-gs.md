@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción al Asistente de IA
 description: Introducción al Asistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '775'
 ht-degree: 22%
 
 ---
@@ -33,6 +33,39 @@ ht-degree: 22%
 >Sumérjase en una experiencia práctica con [nuestra vista previa de características en vivo](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator), diseñada para permitirle explorar sus características de primera mano y comprender plenamente sus capacidades.
 
 A medida que la industria del marketing se vuelve más competitiva, las marcas buscan formas eficientes de generar contenido impactante rápidamente. AI Assistant de Adobe Campaign Web, con tecnología Microsoft Azure OpenAI y Adobe Firefly, es la capacidad de generación de contenido de IA de Adobe que transforma la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y notificaciones push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, optimizando el contenido para los estilos, diseños, tonos y más descritos por la marca.
+
+El Asistente de IA admite la generación **en varios idiomas**, lo que le permite llegar a diversas audiencias globales y participar en ellas. El asistente de IA está disponible en los siguientes idiomas:
+
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+  <tbody>
+    <tr style="border: 0;background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>Chino (Hong Kong)</li>
+          <li>Chino (simplificado)</li>
+          <li>Chino (Taiwán)</li>
+          <li>Neerlandés</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Francés</li>
+          <li>Alemán</li>
+          <li>Italiano</li>
+          <li>Japonés</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Noruego</li>
+          <li>Portugués</li>
+          <li>Español</li>
+          <li>Sueco</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 AI Assistant simplifica la creación y ejecución de campañas de marketing en varios canales, como correo electrónico, SMS y notificaciones push, lo que ahorra tiempo, mejora la eficacia y genera mejores resultados.
 
@@ -69,7 +102,7 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 * Use [plantillas de correo electrónico](../content/create-email-templates.md), plantillas específicas de la marca o plantillas personalizadas para crear el contenido de su correo electrónico con el Ayudante de IA. Se recomiendan plantillas de correo electrónico con hasta 8-10 imágenes.
 * Informe de cualquier salida problemática mediante los iconos de miniaturas hacia arriba, miniaturas hacia abajo o indicadores al seleccionar variantes.
 * El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html).
+* Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Las siguientes limitaciones se aplican a AI Assistant en Adobe Campaign Web:
 
