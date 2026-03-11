@@ -3,19 +3,24 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinación-Y
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinación-Y
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: f0929390f9873516afec641d2febf3e58cb67e3d
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 50%
+source-wordcount: '268'
+ht-degree: 48%
 
 ---
 
-# Combinación-Y {#join}
+# AND-join {#join}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="Actividad AND-join"
 >abstract="La actividad **AND-join** le permite sincronizar varias ramas de ejecución de un flujo de trabajo. Se activa una vez que hayan finalizado todas las actividades anteriores. Esto garantiza que determinadas actividades se completen antes de continuar ejecutando el flujo de trabajo."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_join"
+>title="Unirse a actividad"
+>abstract="Marcador de posición para la actividad Unirse."
 
 La actividad **Combinación-Y** es una actividad de **Control de flujo**. Sincroniza varias ramas de ejecución de un flujo de trabajo.
 
