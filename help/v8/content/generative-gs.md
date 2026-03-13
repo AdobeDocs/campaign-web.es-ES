@@ -107,7 +107,7 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 * Use [plantillas de correo electrónico](../content/create-email-templates.md), plantillas específicas de la marca o plantillas personalizadas para crear el contenido de su correo electrónico con el Ayudante de IA. Se recomiendan plantillas de correo electrónico con hasta 8-10 imágenes.
 * Informe de cualquier salida problemática mediante los iconos de miniaturas hacia arriba, miniaturas hacia abajo o indicadores al seleccionar variantes.
 * El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* As part of Adobe&#39;s commitment to transparency in the use of generative AI tools in media creation, Adobe applies Content Credentials when content or a project that includes a Firefly-generated asset is downloaded or exported. [Más información](https://helpx.adobe.com/firefly/using/content-credentials.html).
+* As part of Adobe&#39;s commitment to transparency in the use of generative AI tools in media creation, Adobe applies Content Credentials when content or a project that includes a Firefly-generated asset is downloaded or exported. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html).
 
 The following limitations apply to AI Assistant in Adobe Campaign Web:
 
