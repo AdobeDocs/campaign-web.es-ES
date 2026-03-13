@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción al Asistente de IA
 description: Introducción al Asistente de IA
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
+source-git-commit: dbaf192b6d5200d8606859a1a09972df6bb3c26b
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 22%
+source-wordcount: '828'
+ht-degree: 21%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 22%
 
 A medida que la industria del marketing se vuelve más competitiva, las marcas buscan formas eficientes de generar contenido impactante rápidamente. AI Assistant de Adobe Campaign Web, con tecnología Microsoft Azure OpenAI y Adobe Firefly, es la capacidad de generación de contenido de IA de Adobe que transforma la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y notificaciones push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, optimizando el contenido para los estilos, diseños, tonos y más descritos por la marca.
 
-El Asistente de IA admite la generación **en varios idiomas**, lo que le permite llegar a diversas audiencias globales y participar en ellas. El asistente de IA está disponible en los siguientes idiomas:
+AI Assistant supports generation **in multiple languages** enabling you to reach and engage diverse global audiences. AI Assistant is available in the following languages:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>Chino (Hong Kong)</li>
+          <li>Chinese (Hong Kong)</li>
           <li>Chino (simplificado)</li>
-          <li>Chino (Taiwán)</li>
+          <li>Chinese (Taiwan)</li>
           <li>Neerlandés</li>
         </ul>
       </td>
@@ -57,7 +57,7 @@ El Asistente de IA admite la generación **en varios idiomas**, lo que le permit
       </td>
       <td>
         <ul>
-          <li>Noruego</li>
+          <li>Norwegian</li>
           <li>Portugués</li>
           <li>Español</li>
           <li>Sueco</li>
@@ -75,20 +75,25 @@ AI Assistant simplifica la creación y ejecución de campañas de marketing en v
 >
 >* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-## Acceder al asistente de IA {#generative-access}
+## Access AI Assistant {#generative-access}
 
 El asistente de IA para correos electrónicos, notificaciones push, páginas de aterrizaje y SMS ahora está en General Availability (GA) y disponible para todos los usuarios. A continuación se detallan los permisos y pasos necesarios para conceder acceso a los usuarios.
 
-+++ Obtenga información sobre cómo asignar permisos relacionados con la generación de contenido
++++ Aprenda a asignar permisos relacionados con la generación de contenido
 
-1. **Crear perfil de producto** - En [Admin Console](https://stage.adminconsole.adobe.com/), cree un perfil de producto con el siguiente patrón específico:
+1. **Acceda a [Admin Console](https://adminconsole.adobe.com/)**, vaya al menú de **Productos** y, a continuación, seleccione **Nube administrada de Adobe Campaign**.
+
+1. Acceda a la instancia para la que desea conceder permisos y, a continuación, haga clic en **Nuevo perfil** para crear un nuevo perfil de producto con el siguiente nombre de perfil de producto específico:
+
    `Campaign - <instance-name> - AIAssistant`
 
-1. **Agregar usuarios** - Agregue el usuario requerido a ese perfil de producto,\
-   o\
-   **Crear grupo de usuarios** y agregue ese grupo de usuarios al perfil de productos; a continuación, agregue usuarios a ese perfil de productos.
+1. Set up the product profile with the required permissions for AI Assistant access.
 
-Obtenga información sobre cómo definir permisos en Campaign en [esta sección](../get-started/permissions.md).
+1. **Add Users or User Groups**. Choose one of the following options:
+   * **Add individual users**: Add the required users directly to the product profile.
+   * **Add user groups**: Create a user group, add users to that group, then add the user group to the product profile.
+
+Learn how to define permissions in Campaign in [this section](../get-started/permissions.md).
 
 +++
 
@@ -98,28 +103,28 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 
 * La calidad del contenido generado depende en gran medida del objetivo de marketing o del prompt que defina. Utilice un indicador bien definido para que el modelo GenAI interprete con precisión.
 * Cargue recursos de marca para garantizar un contenido preciso y sin marca. De lo contrario, el contenido se basa en información disponible públicamente. El contenido cargado puede tener los siguientes formatos: archivos PDF, JPEG, PNG o ZIP (con formatos de archivo compatibles).
-* El tamaño máximo de los recursos de marca cargados es de 50 MB. Los archivos de mayor tamaño o las numerosas imágenes pueden aumentar el tiempo de procesamiento.
+* The maximum size for uploaded brand assets is 50MB. Los archivos de mayor tamaño o las numerosas imágenes pueden aumentar el tiempo de procesamiento.
 * Use [plantillas de correo electrónico](../content/create-email-templates.md), plantillas específicas de la marca o plantillas personalizadas para crear el contenido de su correo electrónico con el Ayudante de IA. Se recomiendan plantillas de correo electrónico con hasta 8-10 imágenes.
 * Informe de cualquier salida problemática mediante los iconos de miniaturas hacia arriba, miniaturas hacia abajo o indicadores al seleccionar variantes.
 * El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html).
+* As part of Adobe&#39;s commitment to transparency in the use of generative AI tools in media creation, Adobe applies Content Credentials when content or a project that includes a Firefly-generated asset is downloaded or exported. [Más información](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
-Las siguientes limitaciones se aplican a AI Assistant en Adobe Campaign Web:
+The following limitations apply to AI Assistant in Adobe Campaign Web:
 
-* Actualmente, el asistente de IA en la web de Adobe Campaign solo está disponible en inglés. Las entradas que no sean en inglés pueden producir resultados incoherentes o erróneos. Los problemas que surjan de las respuestas que no sean en inglés no se abordarán ni mejorarán en este momento.
-* Solo disponible para los canales de correo electrónico, push y SMS.
-* Puede que el contenido de GenAI no siempre sea preciso. Comparta sus comentarios para que los ingenieros puedan refinar los modelos.
-* Puede cargar varios recursos de marca, pero solo puede aprovechar uno para una generación específica.
+* AI Assistant in Adobe Campaign Web is currently supported in English only. Non-English inputs may produce inconsistent or erroneous results. Issues arising from non-English responses will not be addressed or improved at this time.
+* Only available for the email, push, and SMS channels.
+* GenAI content might not always be accurate. Share your feedback so engineers can refine the models.
+* You may upload multiple brand assets but can leverage only one for a specific generation.
 
-## Funcionalidades de generación de contenido del asistente de IA {#generative-features}
+## AI Assistant content generation capabilities {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[Generación de contenido completo con el asistente de IA]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[Full content generation with AI Assistant]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Generación de contenido completo con el Asistente de IA</strong></a>
+<a href="generative-full-content.md"><strong>Full content generation with AI Assistant</strong></a>
 </div>
 <p>
 </td>
