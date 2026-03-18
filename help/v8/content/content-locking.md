@@ -201,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451610?captions=spa&quality=12)-->
