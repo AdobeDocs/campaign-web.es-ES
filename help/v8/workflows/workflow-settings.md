@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
 source-wordcount: '1083'
-ht-degree: 25%
+ht-degree: 28%
 
 ---
 
@@ -104,6 +104,6 @@ Cuando el flujo de trabajo está [asociado con una campaña](create-workflow.md)
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_initialization"
 >title="Secuencia de comandos de inicialización"
->abstract="Esta sección permite definir el código JavaScript que se ejecuta al principio del flujo de trabajo. Se puede utilizar para inicializar variables, establecer parámetros o preparar datos antes de ejecutar cualquier actividad de flujo de trabajo."
+>abstract="Esta sección permite definir el código JavaScript que se ejecuta al iniciarse el flujo de trabajo. Se puede utilizar para inicializar variables, establecer parámetros o preparar datos antes de ejecutar cualquier actividad de flujo de trabajo."
 
 El **script de inicialización** le permite inicializar variables o modificar propiedades de actividad. Haga clic en el botón **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta el flujo de trabajo. Consulte la sección relacionada con [variables de eventos](../workflows/event-variables.md).

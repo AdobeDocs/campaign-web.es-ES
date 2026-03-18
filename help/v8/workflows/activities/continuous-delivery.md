@@ -6,7 +6,7 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 26%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Actividad de envío continuo"
->abstract="Ahora puede agregar nuevos destinatarios a una entrega existente. Este tipo de entrega evita tener que crear una nueva cada vez, lo que lo hace más eficiente para alertas de bajo volumen o notificaciones enviadas según sea necesario."
+>abstract="Ahora puede añadir nuevos destinatarios a un envío existente. Este tipo de envío evita tener que crear uno nuevo cada vez, lo que resulta más eficaz para las alertas de bajo volumen o las notificaciones enviadas cuando es necesario."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
-La actividad **Envío continuo** le permite agregar nuevos destinatarios a un envío existente. Este tipo de entrega evita tener que crear una nueva cada vez, lo que lo hace más eficiente para alertas de bajo volumen o notificaciones enviadas según sea necesario.
+La actividad **Envío continuo** le permite agregar nuevos destinatarios a un envío existente. Este tipo de envío evita tener que crear uno nuevo cada vez, lo que resulta más eficaz para las alertas de bajo volumen o las notificaciones enviadas cuando es necesario.
 
 Un envío continuo crea una sola instancia de envío. Todos los registros de envío (broadLog) y los registros de seguimiento hacen referencia a este envío, lo que simplifica la monitorización y la creación de informes.
 

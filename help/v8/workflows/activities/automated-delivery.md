@@ -16,4 +16,4 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Actividad de envío automatizado"
->abstract="La actividad **Envío automatizado** le permite crear, configurar y ejecutar acciones de envío dentro del flujo de trabajo. Puede crear una nueva entrega a partir de una plantilla, seleccionar una entrega explícita existente que se haya creado por separado o utilizar una entrega especificada en la transición entrante. Configure los destinatarios y el contenido y, a continuación, elija la acción de ejecución."
+>abstract="La actividad **Envío automatizado** le permite crear, configurar y ejecutar acciones de envío dentro del flujo de trabajo. Puede crear una nueva entrega a partir de una plantilla, seleccionar una entrega explícita existente que se haya creado por separado o utilizar una entrega especificada en la transición entrante. Configure los destinatarios y el contenido y, a continuación, elija la acción de ejecución.

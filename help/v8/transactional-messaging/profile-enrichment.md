@@ -6,7 +6,7 @@ exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Enriquecimiento de perfil"
+>title="Enriquecimiento de perfiles"
 >abstract="Ahora puede personalizar los mensajes transaccionales vinculando los campos de la base de datos de Campaign al contenido. Seleccione asignaciones de destino, columnas de enriquecimiento y claves de reconciliación para una personalización precisa en tiempo real."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 

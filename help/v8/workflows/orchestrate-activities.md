@@ -6,7 +6,7 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
 source-wordcount: '1287'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -137,7 +137,7 @@ El campo **En caso de error** le permite especificar la acción que debe realiza
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="Secuencia de comandos de inicialización"
->abstract="Esta sección le permite añadir la JavaScript que se ejecuta cuando se inicia la actividad. Utilícelo para inicializar variables, establecer parámetros o preparar datos específicos para la ejecución de esa actividad."
+>abstract="Esta sección permite añadir JavaScript que se ejecuta cuando se inicia la actividad. Utilícela para inicializar variables, establecer parámetros o preparar datos específicos para la ejecución de esa actividad."
 
 El **script de inicialización** le permite inicializar variables o modificar propiedades de actividad. Haga clic en el botón **Editar código** y escriba el fragmento de código que desea ejecutar. Se llama al script cuando se ejecuta la actividad. Consulte la sección relacionada con [variables de eventos](../workflows/event-variables.md).
 

@@ -10,7 +10,7 @@ exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Experience Manager live y copias de idioma"
->abstract="Ahora puede acceder al idioma de Adobe Experience Manager y a las Live Copies directamente en Campaign. La actualización de contenido en tiempo real elimina la sincronización manual para flujos de trabajo optimizados en varios idiomas."
+>abstract="Ahora puede acceder al idioma de Adobe Experience Manager y a Live Copy directamente en Campaign. La actualización de contenido en tiempo real elimina la sincronización manual para flujos de trabajo optimizados en varios idiomas."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 La integración de Adobe Experience Manager le permite crear envíos de correo electrónico multilingües utilizando copias de idioma de Adobe Experience Manager. Esto le permite administrar variantes de contenido en diferentes idiomas y enviar correos electrónicos personalizados en función de las preferencias de idioma del destinatario.
@@ -29,7 +29,7 @@ La integración de Adobe Experience Manager le permite crear envíos de correo e
 Antes de crear un envío multilingüe de correo electrónico, asegúrese de lo siguiente:
 
 * Acceso a una instancia de Adobe Experience Manager configurada para la integración de la interfaz web de Adobe Campaign.
-* Contenido de Adobe Experience Manager con copias de idioma ya creadas y aprobadas. Obtenga más información acerca del Asistente para copia de idioma en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Contenido de Adobe Experience Manager con copias de idioma ya creadas y aprobadas. Obtenga más información acerca del Asistente para copia de idioma en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Plantilla de envíos de correo electrónico configurada para recibir contenido de Adobe Experience Manager. Consulte los pasos detallados en la sección [Habilitar el modo multilingüe](#enable-multilingual).
 
 ## Creación de una entrega multilingüe

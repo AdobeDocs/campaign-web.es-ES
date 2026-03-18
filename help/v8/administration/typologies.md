@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -100,7 +100,7 @@ Para crear una regla de tipología, siga estos pasos:
 
    ![Crear regla de tipología](assets/business-rules-create-typo.png)
 
-### Definir las propiedades principales de la regla {#properties}
+### Defina las principales propiedades de la regla {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
