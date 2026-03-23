@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de experimentos de contenido
 description: Aprenda a crear experimentos de contenido en la web de Adobe Campaign
 exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 6ed7b0bc20d456b781339eb2d82607691e9e7dd7
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1198'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 5%
 >title="Experimentos de contenido: pruebas A/B"
 >abstract="Ahora puede definir varias variantes de envío para probar cuál funciona mejor. Varíe el contenido, el asunto o el remitente entre los elementos de correo electrónico para determinar los resultados óptimos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content_experiment"
+>title="Experimentos de contenido"
+>abstract="Los experimentos de contenido permiten definir varias variantes de envío de pruebas A/B para medir cuál ofrece el mejor rendimiento para la audiencia de destino. Puede variar el contenido, el asunto o el remitente de la entrega para probar diferentes versiones y determinar qué variante produce los mejores resultados."
 
 ## Acerca de los experimentos de contenido {#about-content-experiment}
 
@@ -91,7 +96,7 @@ Defina cuánto tiempo debe ejecutarse el experimento y seleccione el método de 
 1. Elija cómo se debe enviar la variante ganadora a la población restante:
 
    * **[!UICONTROL Envío automático]** activado: el sistema envía automáticamente la variante ganadora a la audiencia restante una vez que finaliza el experimento.
-   * Se desactivó el envío automático **[!UICONTROL 1&rbrace;: debe hacer clic manualmente en el botón]** Enviar **[!UICONTROL para enviar la variante ganadora después de revisar los resultados del experimento.]**
+   * Se desactivó el envío automático **[!UICONTROL 1}: debe hacer clic manualmente en el botón]** Enviar **[!UICONTROL para enviar la variante ganadora después de revisar los resultados del experimento.]**
 
 Si ninguna variante logra resultados significativamente mejores que las demás al final del experimento, el sistema envía la primera variante a la población restante. Consulte esta [sección](#send-deliveries).
 
