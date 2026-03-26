@@ -3,20 +3,14 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo Entrega continua
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Entrega continua
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 26%
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
 # Envío continuo {#continuous-delivery}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Actividad de envío continuo"
->abstract="Ahora puede añadir nuevos destinatarios a un envío existente. Este tipo de envío evita tener que crear uno nuevo cada vez, lo que resulta más eficaz para las alertas de bajo volumen o las notificaciones enviadas cuando es necesario."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 La actividad **Envío continuo** le permite agregar nuevos destinatarios a un envío existente. Este tipo de envío evita tener que crear uno nuevo cada vez, lo que resulta más eficaz para las alertas de bajo volumen o las notificaciones enviadas cuando es necesario.
 
@@ -45,5 +39,6 @@ La actividad envío continuo genera automáticamente una transición saliente pa
 ## Temas relacionados {#related}
 
 * [Acerca de las actividades de flujo de trabajo](about-activities.md)
+* [Envío automatizado](automated-delivery.md)
 * [Actividades de correo electrónico, SMS, push, correo directo](channels.md)
 * [Plantillas de envíos](../../msg/delivery-template.md)

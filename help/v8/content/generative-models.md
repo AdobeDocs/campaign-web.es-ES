@@ -4,14 +4,21 @@ description: Aprenda a crear y administrar sus modelos generativos
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # Creación y administración de modelos generativos {#generative-models}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Integración de modelos de generación de imágenes"
+>abstract="Permita la integración total de modelos de Firefly estándar y personalizados, junto con modelos de imagen de terceros aprobados, para proporcionar mayor flexibilidad, control y alineación de marca al generar imágenes."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 Amplíe sus capacidades de creación de imágenes de IA con modelos integrados, modelos de Firefly personalizados y proveedores de generación de imágenes de terceros para satisfacer sus necesidades específicas y mejorar la alineación de marca.
 
@@ -21,7 +28,7 @@ Elija el modelo adecuado para sus necesidades:
 - **[!UICONTROL Modelo de socio]**, con tecnología Gemini 2.5 Flash, ofrece capacidades especializadas para casos de uso específicos.
 - **[!UICONTROL Los modelos personalizados]** son modelos específicos de tu marca, entrenados en tus propios recursos y añadidos por tu organización.
 
-  Obtenga más información sobre **[!UICONTROL modelos personalizados]** en [documentación de Adobe Firefly](https://helpx.adobe.com/es/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Obtenga más información sobre **[!UICONTROL modelos personalizados]** en [documentación de Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Una vez configurado, puede seleccionar cualquiera de los modelos generativos al crear imágenes en el contenido. [Más información acerca de la generación de imágenes](generative-image.md).
 
@@ -59,7 +66,7 @@ Los modelos de Firefly personalizados son modelos de IA específicos de la marca
 
 Al crear proveedores de modelos de Firefly personalizados, puede ampliar las capacidades de IA más allá de los modelos predeterminados y garantizar que el contenido generado refleje de forma coherente la estética y los requisitos únicos de su marca.
 
-➡️ [Aprenda a entrenar su modelo personalizado](https://helpx.adobe.com/es/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Aprenda a entrenar su modelo personalizado](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Desde el menú **[!UICONTROL Marcas]**, accede a la pestaña **[!UICONTROL Modelos generativos]** y haz clic en **[!UICONTROL Agregar modelo]**.
 
@@ -69,7 +76,7 @@ Al crear proveedores de modelos de Firefly personalizados, puede ampliar las cap
 
 1. Escriba su **[!UICONTROL ID de modelo]**.
 
-   Para encontrar su ID de modelo de Firefly, acceda al sitio web de Firefly y vaya a sus modelos formados. El identificador único está disponible en la sección de administración del modelo una vez publicado. Para obtener más información, consulte la [documentación de modelos personalizados de Firefly](https://helpx.adobe.com/es/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Para encontrar su ID de modelo de Firefly, acceda al sitio web de Firefly y vaya a sus modelos formados. El identificador único está disponible en la sección de administración del modelo una vez publicado. Para obtener más información, consulte la [documentación de modelos personalizados de Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
