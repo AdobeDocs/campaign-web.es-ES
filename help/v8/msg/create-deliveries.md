@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 55%
+source-wordcount: '983'
+ht-degree: 48%
 
 ---
 
@@ -113,11 +113,18 @@ Una vez definido el contenido del mensaje, puede previsualizarlo para controlar 
 
 Puede establecer la fecha y la hora exacta para enviar los mensajes. Al elegir el momento más apropiado para el mensaje de marketing, puede maximizar las tasas de apertura.
 
-Para programar el envío de una entrega, abra su entrega y vaya a la sección **[!UICONTROL Programar]**. Utilice la opción **[!UICONTROL Habilitar programación]** para activarlo y establezca la fecha y hora deseadas para el envío. Una vez realizada la entrega, el envío real comienza en la fecha de contacto definida.
+Para programar el envío de una entrega, siga estos pasos:
+
+1. Abra su envío y vaya a la sección **[!UICONTROL Programar]**.
+1. Utilice la opción **[!UICONTROL Habilitar programación]** para activarla.
+1. En el campo **[!UICONTROL Fecha de contacto]**, haga clic en el icono de calendario y establezca la fecha y la hora deseadas para el envío.
+1. En el campo **[!UICONTROL Zona horaria]**, utilice el menú desplegable para seleccionar la zona horaria que desee.
+
+Una vez realizada la entrega, el envío real comienza en la fecha de contacto definida.
 
 ![Captura de pantalla que muestra la interfaz de programación de un envío](assets/schedule.png){zoomable="yes"}
 
-De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que el correo electrónico se envíe en la fecha y hora programadas. Si necesita enviar el correo electrónico automáticamente en la fecha y hora programadas, puede deshabilitar esta opción.
+De forma predeterminada, está activada la opción **[!UICONTROL Habilitar confirmación antes de enviar]**. Esta opción requiere que confirme el envío antes de que se realice la entrega en la fecha programada y si necesita realizar la entrega automáticamente en la fecha y hora programadas, puede deshabilitar esta opción.me.
 
 Obtenga información sobre los pasos para realizar un envío programado en [esta sección](../monitor/prepare-send.md#schedule-the-send).
 

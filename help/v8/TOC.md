@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1011'
 ht-degree: 95%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 95%
 + Mensajes y envíos {#msg}
    + [Introducción a los mensajes](msg/gs-messages.md)
    + [Acceso a los envíos](msg/gs-deliveries.md)
-   + [Creación de una entrega](msg/create-deliveries.md)
+   + [Creación de un envío](msg/create-deliveries.md)
    + [Uso de plantillas de envíos](msg/delivery-template.md)
    + Correos electrónicos {#email}
       + [Creación de su primer correo electrónico](email/create-email.md)
@@ -115,6 +115,7 @@ ht-degree: 95%
          + [Empezar desde cero](email/create-email-content.md)
          + [Importar el contenido de su correo electrónico](email/existing-content.md)
          + [Programe su propio contenido](email/code-content.md)
+         + [Aplicar temáticas al contenido del correo electrónico](email/apply-email-themes.md)
       + Diseño del contenido {#design-content}
          + [Usar componentes de contenido](email/content-components.md)
          + [Adición de vínculos y seguimiento de mensajes](email/message-tracking.md)
@@ -190,7 +191,7 @@ ht-degree: 95%
       + [Iniciar y monitorizar sus flujos de trabajo](workflows/start-monitor-workflows.md)
    + Trabajo con actividades del flujo de trabajo {#design-workflows}
       + [Acerca de las actividades de flujo de trabajo](workflows/activities/about-activities.md)
-      + [And-join](workflows/activities/and-join.md)
+      + [Envío automatizado](workflows/activities/automated-delivery.md)
       + [Generar público destinatario](workflows/activities/build-audience.md)
       + [Cambio de la fuente de datos](workflows/activities/change-data-source.md)
       + [Dimensión cambiante](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 95%
       + [Bifurcación (Fork)](workflows/activities/fork.md)
       + [Consulta incremental](workflows/activities/incremental-query.md)
       + [Código JavaScript](workflows/activities/javascript-code.md)
+      + [Unirse](workflows/activities/join.md)
       + [Carga de archivo](workflows/activities/load-file.md)
       + [Reconciliación](workflows/activities/reconciliation.md)
       + [Guardado de público](workflows/activities/save-audience.md)
@@ -292,7 +294,7 @@ ht-degree: 95%
       + [Creación y publicación de esquemas](administration/schemas-create-publish.md)
       + [Trabajar con formularios personalizados](administration/schemas-custom-forms.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-   + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)

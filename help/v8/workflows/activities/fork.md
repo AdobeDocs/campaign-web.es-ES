@@ -3,15 +3,15 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Tenedor
 description: Aprenda a utilizar la actividad de flujo de trabajo Tenedor
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 51%
+source-wordcount: '184'
+ht-degree: 46%
 
 ---
 
 
-# Bifurcación {#fork}
+# Bifurcación (Fork) {#fork}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
@@ -24,6 +24,8 @@ ht-degree: 51%
 >abstract="De forma predeterminada, se crean dos transiciones con una actividad de **bifurcación**. Haga clic en el botón **Añadir transición** para definir una transición de salida adicional e introducir su etiqueta."
 
 La actividad **Fork** es una actividad de **control de flujo**. Permite crear transiciones de salida para el inicio de varias actividades simultáneamente.
+
+También puede crear una rama independiente con el botón de barra de herramientas **Agregar rama** (**+**). Consulte [Organizar actividades](../orchestrate-activities.md#toolbar).
 
 ## Configuración de la actividad Fork {#fork-configuration}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 10%
+source-wordcount: '1321'
+ht-degree: 9%
 
 ---
 
@@ -39,6 +39,7 @@ Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono **
 La barra de herramientas, situada en la esquina superior derecha del lienzo, proporciona opciones para manipular fácilmente las actividades y navegar en el lienzo:
 
 * **Modo de selección múltiple**: seleccione varias actividades para eliminarlas todas a la vez o cópielas y péguelas. Consulte [esta sección](#copy).
+* **Agregar rama**: haga clic en el botón **+** de la barra de herramientas para crear una rama de ejecución independiente en el lienzo. El resultado equivale a usar [Fork](activities/fork.md) para rutas paralelas, pero el diagrama es gráficamente más claro.
 * **Rotar**: cambie el lienzo verticalmente.
 * **Ajustar a pantalla**: adapta el nivel de zoom del lienzo a la pantalla.
 * **Alejar** / **Acercar**: Aleja o en el lienzo.
