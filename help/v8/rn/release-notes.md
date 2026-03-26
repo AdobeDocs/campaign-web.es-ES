@@ -2,10 +2,10 @@
 title: Notas de la versión de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la última versión de la interfaz de usuario web de Campaign
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+source-git-commit: 304e3771ee55777d2eaf7a6c83ee4af3c97aa3b6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 42%
+source-wordcount: '568'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,42 @@ ht-degree: 42%
 
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
-## Actualización de marzo de 2026 {#26-3-release}
+## Versión de marzo de 2026 {#26-3-release}
+
+### Nuevas funciones {#26-3-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Creación de esquemas (GA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La función de creación de esquemas ya está disponible para todos los clientes (GA). Esta capacidad le permite crear y administrar esquemas directamente desde la interfaz de usuario web de Campaign. Puede crear nuevas tablas, ampliar los esquemas existentes y crear formularios personalizados. Puede definir estructuras de datos personalizadas para satisfacer sus necesidades empresariales específicas sin necesidad de acceder a la consola del cliente.</p>
+<p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Temas en el correo electrónico Designer (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los temas proporcionan una experiencia de creación mejorada para los correos electrónicos, ya que le permiten definir estilos de temas reutilizables que se ajusten a las directrices de su marca. Ahora puede utilizar variables de temáticas en fragmentos, lo que garantiza un estilo coherente en todas las plantillas de correo electrónico. Esta función le permite crear correos electrónicos más rápido con módulos predefinidos que abstraen elementos de contenido como títulos, descripciones, imágenes y vínculos, a la vez que mantienen la coherencia de la marca.</p>
+<p>Nota: esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
+<p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -38,55 +73,18 @@ Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un m
 </tbody>
 </table>
 
-## Versión de febrero de 2026 {#26-2-release}
-
-_17 de febrero de 2026_
-
-### Nuevas funciones {#26-2-features}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Delivery scheduling compute process</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>Vista de cronología en el inventario de campañas</strong><br/></th> 
+<th><strong>Actividad de envío automatizado</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El inventario de campañas ahora incluye una vista Cronología que le permite visualizar y administrar las campañas a lo largo del tiempo: cambie entre una lista y una cronología, navegue por semana, mes o día, utilice el botón Hoy para ir a la fecha actual y abra los detalles de la campaña (estado, flujos de trabajo, envíos) en un panel derecho, con los mismos filtros y búsquedas que la vista de lista.</p>
-<p>Para obtener más información, consulte la <a href="../campaigns/manage-campaigns.md#timeline">documentación detallada</a>.</p>
+<p>La actividad de flujo de trabajo <strong>Envío automatizado</strong> ya está disponible en la paleta de flujos de trabajo. Puede utilizarlo para crear o ejecutar acciones de envío (preparar, enviar una prueba, preparar e iniciar, etc.) directamente dentro del flujo de trabajo. Seleccione una entrega existente creada fuera del flujo de trabajo para reutilizarla en cada ejecución o cree una nueva entrega a partir de una plantilla cada vez que se ejecute la actividad.</p>
+<p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
+<p>Para obtener más información, consulte <a href="../workflows/activities/automated-delivery.md">documentación detallada.</p>
 </td>
 </tr>
 </tbody>
@@ -95,26 +93,23 @@ _17 de febrero de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Creación de esquemas (LA)</strong><br/></th> 
+<th><strong>Varias ramas de flujo de trabajo y una actividad</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y administrar esquemas directamente desde la interfaz de usuario web de Campaign. Esta función le permite crear nuevas tablas, ampliar esquemas existentes y crear formularios personalizados. Puede definir estructuras de datos personalizadas para satisfacer sus necesidades empresariales específicas sin necesidad de acceder a la consola del cliente.</p>
-<p>Nota: esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
-<p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
+
+<p>Ahora se admiten <strong>varias ramas</strong>. En lugar de usar <strong>Fork</strong>, puedes hacer clic en <strong>Agregar rama</strong> en la barra de herramientas. La actividad <strong>AND-join</strong> también se ha mejorado. Ahora es una actividad <strong>Join</strong> genérica que le permite elegir entre las opciones de unión AND y OR.</p>
+<p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
+<p>Para obtener más información, consulte las páginas de documentación de <a href="../workflows/orchestrate-activities.md#toolbar">Organizar actividades</a> y <a href="../workflows/activities/join.md">Unirse</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+### Mejoras {#26-3-improvements}
 
-### Improvement {#26-2-improvements}
-
-* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
-
-
-
+* La actividad de flujo de trabajo **Start** se ha agregado para mejorar la compatibilidad con la consola del cliente. Esta actividad es opcional y no se inserta de forma predeterminada en los nuevos flujos de trabajo. Sin embargo, se añade automáticamente a los flujos de trabajo existentes.
+  [Más información](../workflows/activities/about-activities.md#flow-control)
+* El campo de selección de zona horaria de la configuración **Programar** de una entrega se ha movido debajo del campo **Fecha de contacto**. [Más información](../msg/create-deliveries.md#gs-schedule)
