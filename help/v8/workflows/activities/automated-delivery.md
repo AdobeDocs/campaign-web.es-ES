@@ -3,7 +3,7 @@ audience: end-user
 title: Actividad del flujo de trabajo Entrega automatizada
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Envío automatizado
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -26,7 +26,8 @@ ht-degree: 4%
 La actividad **Envío automatizado** le permite crear, configurar y ejecutar acciones de envío directamente en el flujo de trabajo. Utilícelo cuando desee ejecutar una entrega predefinido en una programación o como parte de un flujo automatizado, o cuando desee generar una nueva entrega a partir de una plantilla cada vez que se ejecute la actividad.
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 Para configurar esta actividad, siga estos pasos:
 
@@ -51,7 +52,7 @@ Al configurar la actividad, puede elegir de dónde proviene la entrega. Hay dos 
 
 >[!NOTE]
 >
->Las opciones **Especificadas en la transición** y **Calculadas por script**, utilizadas para casos de uso avanzados, solo se pueden configurar en la consola del cliente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>Las opciones **Especificadas en la transición** y **Calculadas por script**, utilizadas para casos de uso avanzados, solo se pueden configurar en la consola del cliente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Seleccione la acción que desea realizar {#action-to-execute}
 

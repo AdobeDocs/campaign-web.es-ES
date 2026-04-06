@@ -3,7 +3,7 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 68%
@@ -22,7 +22,7 @@ La edición de una expresión implica la introducción manual de condiciones par
 >[!IMPORTANT]
 >
 >Hay disponible una nueva interfaz para el modelador de consultas. Para cambiar a esta nueva experiencia del generador de reglas, presione el botón de alternancia en la esquina superior derecha. Puede volver al modelador de consultas clásico en cualquier momento simplemente pulsando la tecla de retroceso para desactivar la nueva interfaz. Puede aplicar los mismos principios que el modelador de consultas en esta nueva interfaz.
->&#x200B;>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Imagen que muestra el conmutador para la nueva interfaz del generador de reglas](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Trabajo con el editor de expresiones {#edit}
 
@@ -69,7 +69,7 @@ Las funciones agregadas realizan cálculos en un conjunto de valores.
 <table>
 <tbody>
 <tr>
-<td><strong>Nombre</strong></td>
+<td><strong>Name</strong></td>
 <td><strong>Descripción</strong></td>
 <td><strong>Sintaxis</strong></td>
 </tr>
@@ -128,7 +128,7 @@ Las funciones de fecha manipulan los valores de fecha y hora.
 <table>
 <tbody>
 <tr>
-<td><strong>Nombre</strong></td>
+<td><strong>Name</strong></td>
 <td><strong>Descripción</strong></td>
 <td><strong>Sintaxis</strong></td>
 </tr>
@@ -502,7 +502,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> Cifrar la cadena proporcionada en el argumento <br /> </td> 
-   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -524,11 +524,13 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> Devuelve el valor 3 si el valor 1 = valor 2. Si no devuelve el valor 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Devuelve el valor 1 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
@@ -676,7 +678,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Devuelve la cadena en minúscula<br /> </td> 
-   <td> Lower(&lt;cadena&gt;)<br /></td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
@@ -716,12 +718,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Devuelve la cadena completa a la derecha<br /> </td> 
-   <td> RPad(&lt;cadena&gt;, &lt;número&gt;, &lt;carácter&gt;)<br /></td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Elimina los espacios a la derecha de la cadena<br /> </td> 
-   <td> Rtrim(&lt;cadena&gt;)<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
@@ -761,7 +763,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Devuelve la clave externa (texto) de un enlace transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> VirtualLinkStr(&lt;cadena&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -778,7 +780,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Ejecute la llamada a la función SQL introducida como primer parámetro, sobre Partición u Ordenar por los campos introducidos como segundo parámetro<br /> </td> 
-   <td> _Over_ (&lt;Valor&gt;, &lt;Valor&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

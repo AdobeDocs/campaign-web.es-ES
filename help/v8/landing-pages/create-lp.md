@@ -3,7 +3,7 @@ title: Creación de una página de destino
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 25%
@@ -74,9 +74,11 @@ Puede duplicar o eliminar una página de aterrizaje. Haga clic en los puntos sus
 >title="Definir opciones de almacenamiento"
 >abstract="La sección de precarga le permite indicar cómo buscar el registro que se actualiza en la base de datos."
 
-<!--The main steps to create landing pages are as follows:
+<!--
+The main steps to create landing pages are as follows:
 
-![](assets/lp-creation-process.png){zoomable="yes"}-->
+![](assets/lp-creation-process.png){zoomable="yes"}
+-->
 
 Para crear una página de aterrizaje, siga estos pasos:
 

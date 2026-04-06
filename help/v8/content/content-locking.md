@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 30%
@@ -46,7 +46,8 @@ Adobe Campaign permite bloquear el contenido en plantillas de correo electrónic
 <!--
 >[!IMPORTANT]
 >
->Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
+>Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.
+-->
 
 El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel **component**. A continuación se muestran los principios principales que se aplican en el nivel de estructura y componente al bloquear contenido en la plantilla:
 
@@ -67,7 +68,8 @@ El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel
 >Los usuarios con permisos para crear plantillas de contenido pueden activar el bloqueo de contenido.
 
 <!--
-➡️ [Discover this feature in video](#video)-->
+➡️ [Discover this feature in video](#video)
+-->
 
 ## Bloquear una plantilla de correo electrónico {#define}
 
@@ -201,4 +203,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451610?captions=spa&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+-->

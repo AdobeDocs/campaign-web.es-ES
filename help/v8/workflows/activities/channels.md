@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
 description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS, correo directo)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 40%
@@ -115,7 +115,8 @@ example of a configured activity within a workflow
 The Email delivery activity allows you to configure the sending of an email in a workflow. 
 -->
 
-<!-- Scheduled emails available?
+<!--
+ Scheduled emails available?
 
 This can be a single send email and sent just once, or it can be a recurring email.
 * Single send emails are standard emails, sent once.

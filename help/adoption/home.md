@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 description: Usuarios de Campaign Standard en transición a Campaign v8, obtengan información sobre cómo empezar.
 title: Guía de adopción de Adobe Campaign
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -89,7 +89,8 @@ Comprenda las diferencias de experiencia entre Adobe Campaign Standard y Adobe C
       <strong>Developer resources</strong><br/><a href="../v8/dev/datamodel.md">Campaign v8 datamodel</a> - <a href="../v8/dev/schemas.md">Schemas</a> - <a href="../v8/dev/api.md">APIs</a>
     </td>
   </tr>
-</table> -->
+</table> 
+-->
 
 ## Recursos adicionales
 

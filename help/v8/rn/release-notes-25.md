@@ -2,7 +2,7 @@
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '3052'
 ht-degree: 100%
@@ -87,7 +87,8 @@ _3 de noviembre de 2025_
 </tbody>
 </table>
 
-<!-- table>
+<!--
+ table>
 <thead>
 <tr>
 <th><strong>Continuous delivery activity</strong><br/></th> not ready
@@ -101,7 +102,8 @@ _3 de noviembre de 2025_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 ### Mejoras {#25-10-improvements}
 
@@ -172,7 +174,8 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Integration with Adobe GenStudio</strong><br/></th>  LA? sort? Juliette
@@ -186,9 +189,11 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Dark mode support in the Email designer</strong><br/></th> -> pas sept, modifier composant... -> Juliette
@@ -202,9 +207,11 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Multilingual capabilities for transactional messaging and push notifications (LA)</strong><br/></th> 
@@ -219,9 +226,11 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Profile enrichment in Transactional Messages (LA)</strong><br/></th> 
@@ -236,9 +245,11 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Dynamic reporting for transactional messaging (LA)</strong><br/></th> 
@@ -252,7 +263,8 @@ Las siguientes funciones están disponibles a partir de la versión de septiembr
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 
 ### Mejoras {#25-9-improvements}
@@ -284,7 +296,8 @@ Esta versión incluye una serie de correcciones de errores, que incluyen:
 
 Las siguientes funciones están disponibles a partir de la versión de julio.
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Multilingual email and SMS</strong><br/></th>
@@ -295,14 +308,16 @@ Las siguientes funciones están disponibles a partir de la versión de julio.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Custom channel for API deliveries</strong><br/></th>
@@ -316,7 +331,8 @@ Las siguientes funciones están disponibles a partir de la versión de julio.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 <table>
 <thead>
@@ -367,7 +383,8 @@ Las siguientes funciones están disponibles a partir de la versión de julio.
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Landing pages improvements</strong><br/></th>
@@ -389,7 +406,8 @@ Las siguientes funciones están disponibles a partir de la versión de julio.
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 
 <table>
@@ -439,14 +457,14 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=es){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -473,10 +491,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=es) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 

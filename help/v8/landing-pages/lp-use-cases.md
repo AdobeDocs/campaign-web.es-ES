@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 9%
@@ -137,7 +137,8 @@ Uno de los casos de uso más comunes consiste en invitar a tus clientes a [suscr
 
    ![Captura de pantalla que muestra la interfaz de casilla de verificación de suscripción.](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
-1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
+1. You can add an additional checkbox to offer subscription to your newsletter for example.
+-->
 
 1. Ajuste el contenido según sea necesario y guarde los cambios.
 
@@ -187,7 +188,7 @@ Puede configurar una página de aterrizaje de **[!UICONTROL Lista de bloqueados]
 
 1. Cuando [cree su página de aterrizaje](create-lp.md#create-landing-page), seleccione la plantilla **[!UICONTROL Incluir en la lista de bloqueados]** de la.
 
-1. Incluir en la lista de bloqueados Seleccione la página **&#x200B;**&#x200B;para editar su contenido.
+1. Seleccione la página **** para editar su contenido.
 
 1. Expanda la sección **[!UICONTROL Call to action]** y seleccione la opción **[!UICONTROL Actualizaciones adicionales]**.
 
