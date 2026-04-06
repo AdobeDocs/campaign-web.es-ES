@@ -71,7 +71,8 @@ You can check if a profile is on the denylist for one or more channels in the **
 
 ![Check denylist status in profile details](assets/profile-no-longer-contact.png)
 
-<!--Denylisted status on quarantine list
+<!--
+Denylisted status on quarantine list
 
 Additionally, when recipients report your message as spam, or reply to an SMS message with a keyword such as "STOP", their address or phone number is quarantined with the **[!UICONTROL Denylisted]** status. Their profile is updated accordingly.
 
@@ -83,4 +84,5 @@ QUESTION: When a user marks an email as spam, is the profile's No longer contact
 
 Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
-Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html#non-deliverable-bounces){target="_blank"}.-->
+Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html#non-deliverable-bounces){target="_blank"}.
+-->
