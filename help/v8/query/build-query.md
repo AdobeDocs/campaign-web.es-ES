@@ -70,7 +70,7 @@ Para acceder a esta opción, en la consulta, haga clic en el botón de selecció
 >
 >* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En estos casos, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos. [Aprenda a seleccionar atributos](../get-started/attributes.md)
->* Puede agregar condiciones a los resultados usando los **[ !Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
+>* Puede agregar condiciones a los resultados usando los **[!Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adición de componentes de filtrado {#filtering}
 
