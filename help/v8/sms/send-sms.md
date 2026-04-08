@@ -3,7 +3,7 @@ audience: end-user
 title: Envío de SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 2bcb1c890ca90b73183fe5e168fb3ec3b08dea1f
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 12%
@@ -32,7 +32,7 @@ Los pasos principales para previsualizar su envío de SMS son los siguientes. En
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
     ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
-—>
+    -->
 
 1. En el panel derecho, vea una vista previa del envío SMS, donde los elementos personalizados se sustituyen dinámicamente por datos del perfil seleccionado.
 
