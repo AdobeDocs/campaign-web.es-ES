@@ -1,13 +1,13 @@
 ---
 audience: end-user
-user-guide-title: Interfaz de usuario web de Adobe Campaign
+user-guide-title: Interfaz de usuario de Adobe Campaign Web
 user-guide-description: Documentación del producto para la interfaz de usuario web de Adobe Campaign.
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1006'
 ht-degree: 95%
 
 ---
@@ -147,7 +147,6 @@ ht-degree: 95%
    + [Introducción a las páginas de destino](landing-pages/get-started-lp.md)
    + [Creación y edición de una página de destino](landing-pages/create-lp.md)
    + [Diseño del contenido de la página de destino](landing-pages/lp-content.md)
-   + [Trabajo con plantillas de la página de destino](landing-pages/lp-templates.md)
    + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
 + Perfiles y públicos {#audiences}
    + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
@@ -294,7 +293,7 @@ ht-degree: 95%
       + [Creación y publicación de esquemas](administration/schemas-create-publish.md)
       + [Trabajar con formularios personalizados](administration/schemas-custom-forms.md)
    + [Configuración de los campos personalizados](administration/custom-fields.md)
-   + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)

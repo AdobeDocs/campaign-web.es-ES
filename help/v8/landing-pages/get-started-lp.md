@@ -4,10 +4,10 @@ title: Introducción a las páginas de destino
 description: Obtenga información sobre las páginas de destino en la web de Campaign
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,11 +61,11 @@ A continuación, se enumeran las funciones clave de las páginas de destino:
 <p>
 </td>
 <td>
-<a href="lp-templates.md">
-<img alt="Trabajo con plantillas de contenido para páginas de destino" src="../assets/do-not-localize/lp-reporting.jpg">
+<a href="lp-use-cases.md">
+<img alt="Casos de uso de la página de aterrizaje y plantillas integradas" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>Trabajo con plantillas de contenido</strong></a>
+<a href="lp-use-cases.md"><strong>Casos de uso de página de aterrizaje</strong></a>
 </div>
 <p>
 </td>
