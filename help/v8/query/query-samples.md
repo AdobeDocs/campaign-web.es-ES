@@ -4,7 +4,7 @@ title: Ejemplos de consultas
 description: Aprenda a trabajar con el modelador de consultas.
 hide: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 41%
