@@ -56,7 +56,7 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 Para crear su propia consulta, siga estos pasos:
 
 1. Seleccione **Crear su propia (consulta)**.
-1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#targeting)
+1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el objetivo se selecciona en los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#targeting)
 1. Seleccione la **dimensión de filtrado** haciendo clic en el icono situado junto a la dimensión de segmentación. La dimensión de filtrado permite aplicar filtros a la población objetivo haciendo referencia a criterios relacionados sin cambiar la dimensión de segmentación principal. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#filtering)
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)

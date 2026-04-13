@@ -11,7 +11,7 @@ ht-degree: 37%
 ---
 
 
-# Enriquecimiento  {#enrichment}
+# Enriquecimiento {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"

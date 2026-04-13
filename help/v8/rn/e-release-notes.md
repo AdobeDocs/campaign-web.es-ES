@@ -2,10 +2,9 @@
 title: Notas de la versión preliminar de la interfaz de usuario web de Campaign v8
 description: Descubra las nuevas funciones incluidas en la próxima versión de la interfaz de usuario web de Campaign
 hide: true
-hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 

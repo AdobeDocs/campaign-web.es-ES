@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Los perfiles de prueba se utilizan para enviar pruebas y validar el contenido y la configuración del mensaje. Estos perfiles son destinatarios adicionales que le permiten previsualizar y probar la personalización y el procesamiento antes de enviar los mensajes. Puede seleccionar un perfil de prueba al obtener una vista previa del contenido de un mensaje y enviar pruebas a los perfiles de prueba para controlar y validar el contenido y la configuración del mensaje.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 <!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=es){target="_blank"}.-->
 

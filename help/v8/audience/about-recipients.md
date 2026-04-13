@@ -24,7 +24,7 @@ Además, los **[!UICONTROL perfiles de prueba]**, identificados como &quot;perfi
 
 Tanto los perfiles como los perfiles de prueba son útiles para probar los envíos antes de que lleguen a la audiencia deseada. Esto permite obtener una vista previa del contenido y la personalización de los mensajes, enviar pruebas para pruebas y validación, evaluar el procesamiento de los correos electrónicos en varias plataformas y dispositivos y probar las páginas de aterrizaje. [Obtenga información sobre cómo previsualizar y probar envíos](../preview-test/preview-test.md)
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Acceso a la lista de perfiles {#access}
 

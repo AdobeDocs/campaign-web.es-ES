@@ -93,7 +93,7 @@ El gráfico **[!UICONTROL Causas de exclusión]** proporciona un desglose de los
 * **[!UICONTROL Dirección en cuarentena]**: Tipo de error generado cuando una dirección se pone en cuarentena.
 * **[!UICONTROL Dirección no especificada]**: Tipo de error generado cuando una dirección no existe.
 * **[!UICONTROL Dirección de mala calidad]**: Tipo de error generado cuando la clasificación de calidad de la dirección postal es demasiado baja.
-* **[!UICONTROL Dirección Incluir en la lista de bloqueados incluida en la lista de bloqueados]**: Tipo de error generado cuando el destinatario se durante la entrega.
+* **[!UICONTROL Dirección Incluida en la lista de bloqueados]**: Tipo de error generado cuando el destinatario se durante la entrega.
 * **[!UICONTROL Double]**: Tipo de error generado cuando se excluyó al destinatario debido a valores de clave no únicos.
 * **[!UICONTROL Grupo de control]**: la dirección del destinatario forma parte del grupo de control.
 * **[!UICONTROL Destino de tamaño limitado]**: Se alcanzó el tamaño máximo de envío para el destinatario.

@@ -78,7 +78,7 @@ En la actividad **Combinar**, configure una **intersección** siguiendo estos pa
 1. Seleccione el **Tipo de reconciliación** para definir cómo se gestionan los duplicados. Consulte la sección [Unión](#union).
 1. Seleccione la opción **Generate complement** si desea procesar la población restante. El complemento contiene la unión de los resultados de todas las actividades entrantes menos la intersección. A continuación, se añade una transición saliente adicional a la actividad.
 
-## Exclusión  {#combine-exclusion}
+## Exclusión {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"

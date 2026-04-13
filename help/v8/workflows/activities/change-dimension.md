@@ -10,7 +10,7 @@ ht-degree: 25%
 
 ---
 
-# Cambio de dimensión {#change-dimension}
+# Dimensión cambiante {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"

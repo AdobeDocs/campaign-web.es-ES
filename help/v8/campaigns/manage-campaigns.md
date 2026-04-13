@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -35,7 +35,7 @@ Hay disponible una barra de búsqueda y filtros para facilitar la búsqueda dent
 
 ![Descripción: el panel de filtro muestra las opciones para filtrar campañas por fechas de inicio y finalización](assets/campaign-filter-on-dates.png)
 
-### Vista Cronología {#timeline}
+### Vista de cronología {#timeline}
 
 De manera predeterminada, la pantalla de la campaña muestra **Vista de lista** (inventario). Puede cambiar a la **vista Cronología** en cualquier momento mediante el conmutador de vista. Ambas vistas muestran las mismas campañas y comparten los mismos filtros y búsquedas: al cambiar filtros o buscar en una vista, la otra vista refleja la misma selección.
 

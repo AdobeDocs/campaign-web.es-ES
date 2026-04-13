@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ## Introducción a GenStudio {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} es una aplicación generativa con prioridad de IA que permite a los equipos de marketing crear sus propios anuncios y correos electrónicos para impulsar campañas de marketing personalizadas e impactantes que se ajusten a los estándares de su marca y a las políticas de su empresa. Al aprovechar la tecnología de IA de Adobe, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} es una aplicación generativa con prioridad de IA que permite a los equipos de marketing crear sus propios anuncios y correos electrónicos para impulsar campañas de marketing personalizadas e impactantes que se ajusten a los estándares de su marca y a las políticas de su empresa. Al aprovechar la tecnología de Adobe AI, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
 
 >[!AVAILABILITY]
 >
@@ -32,7 +32,7 @@ Para mejorar la eficacia del marketing y mantener la coherencia de la marca, pue
 
 >[!INFO]
 >
->Para ir más lejos, mira esta [descripción general](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} y una [demostración](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Para ir más lejos, mira esta [descripción general](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} y una [demostración](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ## Uso de las funcionalidades de GenStudio en Adobe Campaign {#use-genstudio}
 

@@ -16,7 +16,7 @@ Los informes globales de correo directo proporcionan a los usuarios una visión 
 
 Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Informes]**. Puede filtrar los datos según la fecha, la carpeta o las reglas del informe. [Más información](global-reports.md)
 
-## Resumen de envíos {#delivery-summary-direct}
+## Resumen de entregas {#delivery-summary-direct}
 
 ### Información general sobre el envío {#delivery-overview-direct}
 
@@ -117,7 +117,7 @@ El gráfico y la tabla Exclusiones ilustran los motivos que impidieron que los p
 
 * **[!UICONTROL Dirección de mala calidad]**: Tipo de error generado cuando la clasificación de calidad de la dirección postal es demasiado baja.
 
-* **[!UICONTROL Dirección Incluir en la lista de bloqueados incluida en la lista de bloqueados]**: Tipo de error generado cuando se realizó el envío y se creó el destinatario cuando se realizó el envío. Se ha generado un error al crear la dirección de correo electrónico del destinatario. Se ha generado un error de tipo de error cuando el destinatario se ha.
+* **[!UICONTROL Dirección Incluida en la lista de bloqueados]**: Tipo de error generado cuando se realizó el envío y se creó el destinatario cuando se realizó el envío. Se ha generado un error al crear la dirección de correo electrónico del destinatario. Se ha generado un error de tipo de error cuando el destinatario se ha.
 
 * **[!UICONTROL Double]**: Tipo de error generado cuando se excluyó al destinatario porque sus valores clave no eran únicos.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 43%
+source-wordcount: '1648'
+ht-degree: 44%
 
 ---
 
@@ -173,10 +173,7 @@ Encontrará información adicional sobre cómo obtener una vista previa de un co
 
    ![Captura de pantalla que muestra la vista previa del correo electrónico según los perfiles seleccionados](assets/preview.png){zoomable="yes"}
 
-   <!--
-Además, el botón **[!UICONTROL Procesar correo electrónico]** le permite obtener una vista previa del correo electrónico mediante varios dispositivos o proveedores de correo. Obtenga información sobre cómo previsualizar el procesamiento de correo electrónico
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. Para enviar pruebas, haga clic en el botón **[!UICONTROL Enviar pruebas]** y, a continuación, elija el modo que desee utilizar.
 

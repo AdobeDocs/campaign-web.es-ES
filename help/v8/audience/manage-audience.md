@@ -42,9 +42,9 @@ Las audiencias pueden proceder de varias fuentes. La columna **[!UICONTROL Orige
 
 * **[!UICONTROL Adobe Experience Platform:]** Estas audiencias se han creado en Adobe Experience Platform y se integran en el sitio web de Campaign mediante la integración de orígenes y destinos de Adobe. Aprenda a configurar esta integración en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=es){target="_blank"}.
 
-  ➡️ [Descubra esta funcionalidad en vídeo](#video)
+  ➡️ [Descubra esta función en vídeo](#video)
 
-Para obtener información adicional sobre una audiencia, ábrala en la lista. Se muestran las propiedades de la audiencia junto con el número de perfiles incluidos en la audiencia. Actualice el recuento de audiencias en cualquier momento con el botón **[!UICONTROL Calcular]**.
+Para obtener información adicional sobre una audiencia, ábrala en la lista. Se muestran las propiedades de la audiencia junto con el número de perfiles incluidos en la audiencia. Actualice la recuento de público en cualquier momento con el botón **[!UICONTROL Calcular]**.
 
 Para obtener una vista previa del esquema temporal de una audiencia, haga clic en el botón **[!UICONTROL Vista previa del esquema]** en la sección Propiedades.
 
