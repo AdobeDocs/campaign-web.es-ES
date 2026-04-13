@@ -10,7 +10,7 @@ ht-degree: 47%
 
 ---
 
-# Esperar {#wait}
+# Espera {#wait}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"

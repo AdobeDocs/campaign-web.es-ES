@@ -29,7 +29,7 @@ ht-degree: 99%
 
 Adobe Campaign ofrece una plataforma para diseñar experiencias de canales múltiples para clientes, y proporciona un entorno para la orquestación de campañas visual, la administración de interacciones en tiempo real y la ejecución multicanal.
 
-La versin 8 de Adobe Campaign es la herramienta de campañas de última generación creada para diversos canales de marketing como el correo electrónico, las notificaciones push, los SMS y el correo directo. Proporciona sólidas capacidades de ETL y de administración de datos para diseñar y depurar la campaña perfecta. Su motor de orquestación permite programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También incluye un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para comunicaciones como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
+La versin 8 de Adobe Campaign es la herramienta de campañas de última generación creada para diversos canales de marketing como el correo electrónico, las notificaciones push, los SMS y el correo directo. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación permite programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También incluye un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para comunicaciones como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
 
 Utilice Campaign para lo siguiente:
 
@@ -66,7 +66,7 @@ Para obtener más información sobre el uso de la versión 8 de Campaign con su 
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453425?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448367?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 

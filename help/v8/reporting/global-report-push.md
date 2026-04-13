@@ -16,7 +16,7 @@ Los informes globales proporcionan a los usuarios una visión general completa d
 
 Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Informes]**. Puede filtrar los datos según la fecha, la carpeta o las reglas del informe. [Más información](global-reports.md)
 
-## Resumen de envíos {#delivery-summary-push}
+## Resumen de entregas {#delivery-summary-push}
 
 ### Información general sobre el envío {#delivery-overview-push}
 
@@ -83,7 +83,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (registro no válido, rechazo de mensaje, error de carga útil y motivos similares) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){target="_blank"}.
+  Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran los motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje.
 
-Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#push-error-types){target="_blank"}.
+Los tipos de error de notificaciones push se enumeran en [Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Rendimiento del envío {#delivery-throughput-sms}
 

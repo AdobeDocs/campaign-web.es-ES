@@ -32,9 +32,9 @@ De forma predeterminada, las plantillas de entrega de correo electrónico y SMS 
 
 Utilice otras asignaciones de destino integradas en flujos de trabajo y envíos, como se muestra a continuación:
 
-| Nombre | Usar para enviar a | Esquema |
+| Name | Usar para enviar a | Esquema |
 |-----------------------|-------------------------------------------------------|-------------------------|
-| Destinatarios | Perfiles/destinatarios (tabla de destinatarios integrada) | nms:recipient |
+| Recipients | Perfiles/destinatarios (tabla de destinatarios integrada) | nms:recipient |
 | Visitantes | Visitantes cuyos perfiles se recopilaron mediante recomendación (marketing viral para ex) | mns:visitor |
 | Suscripciones | Perfiles suscritos a un servicio informativo, como un boletín informativo | nms:subscription |
 | Suscripciones de visitantes | Visitantes suscritos a un servicio informativo | nms:visitorSub |
@@ -42,7 +42,7 @@ Utilice otras asignaciones de destino integradas en flujos de trabajo y envíos,
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 | Aplicaciones del suscriptor | Perfiles suscritos a una aplicación | nms:appSubscriptionRcp |
 
-Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es#new-mapping){target="_blank"}.
+Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
 
 ## Filtrado de dimensiones {#filtering}
 

@@ -34,16 +34,16 @@ ht-degree: 21%
 
 A medida que la industria del marketing se vuelve más competitiva, las marcas buscan formas eficientes de generar contenido impactante rápidamente. AI Assistant de Adobe Campaign Web, con tecnología Microsoft Azure OpenAI y Adobe Firefly, es la capacidad de generación de contenido de IA de Adobe que transforma la forma en que los especialistas en marketing crean contenido profesional y coherente con la marca en canales como correo electrónico, SMS y notificaciones push. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, optimizando el contenido para los estilos, diseños, tonos y más descritos por la marca.
 
-AI Assistant supports generation **in multiple languages** enabling you to reach and engage diverse global audiences. AI Assistant is available in the following languages:
+El Asistente de IA admite la generación **en varios idiomas**, lo que le permite llegar a diversas audiencias globales y participar en ellas. El asistente de IA está disponible en los siguientes idiomas:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>Chinese (Hong Kong)</li>
+          <li>Chino (Hong Kong)</li>
           <li>Chino (simplificado)</li>
-          <li>Chinese (Taiwan)</li>
+          <li>Chino (Taiwán)</li>
           <li>Neerlandés</li>
         </ul>
       </td>
@@ -57,7 +57,7 @@ AI Assistant supports generation **in multiple languages** enabling you to reach
       </td>
       <td>
         <ul>
-          <li>Norwegian</li>
+          <li>Noruego</li>
           <li>Portugués</li>
           <li>Español</li>
           <li>Sueco</li>
@@ -75,7 +75,7 @@ AI Assistant simplifica la creación y ejecución de campañas de marketing en v
 >
 >* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-## Access AI Assistant {#generative-access}
+## Acceder al asistente de IA {#generative-access}
 
 El asistente de IA para correos electrónicos, notificaciones push, páginas de aterrizaje y SMS ahora está en General Availability (GA) y disponible para todos los usuarios. A continuación se detallan los permisos y pasos necesarios para conceder acceso a los usuarios.
 
@@ -87,13 +87,13 @@ El asistente de IA para correos electrónicos, notificaciones push, páginas de 
 
    `Campaign - <instance-name> - AIAssistant`
 
-1. Set up the product profile with the required permissions for AI Assistant access.
+1. Configure el perfil del producto con los permisos necesarios para acceder al asistente de IA.
 
-1. **Add Users or User Groups**. Choose one of the following options:
-   * **Add individual users**: Add the required users directly to the product profile.
-   * **Add user groups**: Create a user group, add users to that group, then add the user group to the product profile.
+1. **Agregar usuarios o grupos de usuarios**. Elija una de las siguientes opciones:
+   * **Agregar usuarios individuales**: Agregue los usuarios necesarios directamente al perfil del producto.
+   * **Agregar grupos de usuarios**: cree un grupo de usuarios, agregue usuarios a ese grupo y, a continuación, agregue el grupo de usuarios al perfil de producto.
 
-Learn how to define permissions in Campaign in [this section](../get-started/permissions.md).
+Obtenga información sobre cómo definir permisos en Campaign en [esta sección](../get-started/permissions.md).
 
 +++
 
@@ -103,28 +103,28 @@ A continuación, se enumeran las directrices generales para utilizar el asistent
 
 * La calidad del contenido generado depende en gran medida del objetivo de marketing o del prompt que defina. Utilice un indicador bien definido para que el modelo GenAI interprete con precisión.
 * Cargue recursos de marca para garantizar un contenido preciso y sin marca. De lo contrario, el contenido se basa en información disponible públicamente. El contenido cargado puede tener los siguientes formatos: archivos PDF, JPEG, PNG o ZIP (con formatos de archivo compatibles).
-* The maximum size for uploaded brand assets is 50MB. Los archivos de mayor tamaño o las numerosas imágenes pueden aumentar el tiempo de procesamiento.
+* El tamaño máximo de los recursos de marca cargados es de 50 MB. Los archivos de mayor tamaño o las numerosas imágenes pueden aumentar el tiempo de procesamiento.
 * Use [plantillas de correo electrónico](../content/create-email-templates.md), plantillas específicas de la marca o plantillas personalizadas para crear el contenido de su correo electrónico con el Ayudante de IA. Se recomiendan plantillas de correo electrónico con hasta 8-10 imágenes.
 * Informe de cualquier salida problemática mediante los iconos de miniaturas hacia arriba, miniaturas hacia abajo o indicadores al seleccionar variantes.
 * El uso del asistente de IA está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* As part of Adobe&#39;s commitment to transparency in the use of generative AI tools in media creation, Adobe applies Content Credentials when content or a project that includes a Firefly-generated asset is downloaded or exported. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html).
+* Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
-The following limitations apply to AI Assistant in Adobe Campaign Web:
+Las siguientes limitaciones se aplican a AI Assistant en Adobe Campaign Web:
 
-* AI Assistant in Adobe Campaign Web is currently supported in English only. Non-English inputs may produce inconsistent or erroneous results. Issues arising from non-English responses will not be addressed or improved at this time.
-* Only available for the email, push, and SMS channels.
-* GenAI content might not always be accurate. Share your feedback so engineers can refine the models.
-* You may upload multiple brand assets but can leverage only one for a specific generation.
+* Actualmente, el asistente de IA en la web de Adobe Campaign solo está disponible en inglés. Las entradas que no sean en inglés pueden producir resultados incoherentes o erróneos. Los problemas que surjan de las respuestas que no sean en inglés no se abordarán ni mejorarán en este momento.
+* Solo disponible para los canales de correo electrónico, push y SMS.
+* Puede que el contenido de GenAI no siempre sea preciso. Comparta sus comentarios para que los ingenieros puedan refinar los modelos.
+* Puede cargar varios recursos de marca, pero solo puede aprovechar uno para una generación específica.
 
-## AI Assistant content generation capabilities {#generative-features}
+## Funcionalidades de generación de contenido del asistente de IA {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[Full content generation with AI Assistant]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[Generación de contenido completo con el asistente de IA]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Full content generation with AI Assistant</strong></a>
+<a href="generative-full-content.md"><strong>Generación de contenido completo con el Asistente de IA</strong></a>
 </div>
 <p>
 </td>

@@ -26,7 +26,7 @@ Puede importar contenido existente de HTML en Designer de correo electrónico. E
 >
 >No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
@@ -56,4 +56,4 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
 Obtenga información sobre cómo crear un mensaje de correo electrónico cargando HTML, haciéndolo compatible con el Designer de correo electrónico y convirtiéndolo en una plantilla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447035/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

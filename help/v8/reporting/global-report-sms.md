@@ -16,7 +16,7 @@ Los informes globales proporcionan a los usuarios una visión general completa d
 
 Vaya al menú **[!UICONTROL Informes]** dentro de la sección **[!UICONTROL Informes]**. Puede filtrar los datos según la fecha, la carpeta o las reglas del informe. [Más información](global-reports.md)
 
-## Resumen de envíos {#delivery-summary-sms}
+## Resumen de entregas {#delivery-summary-sms}
 
 ### Información general sobre el envío {#delivery-overview-sms}
 
@@ -83,7 +83,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 * **[!UICONTROL Nuevas cuarentenas]**: Número total de direcciones en cuarentena después de un envío fallido (por ejemplo, usuario desconocido, dominio no válido) en relación con el número de mensajes que se van a enviar.
 
-  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#sms-quarantines){target="_blank"}.
+  Los tipos de error de SMS se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ La tabla **[!UICONTROL Delivery statistics]** detalla el éxito de cada envío d
 
 El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran las razones que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran sus envíos SMS.
 
-Los tipos de error se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=es#email-error-types){target="_blank"}.
+Los tipos de error se enumeran en la [documentación de Adobe Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ![Captura de pantalla del informe Causas de exclusión que muestra los motivos de las exclusiones de envíos de SMS.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

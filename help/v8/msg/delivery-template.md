@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Uso de plantillas de envío
+title: Uso de plantillas de envíos
 description: Obtenga información sobre cómo crear y utilizar plantillas de envío en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# Uso de plantillas de envío {#work-with-delivery-templates}
+# Uso de plantillas de envíos {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
@@ -69,7 +69,7 @@ Para eliminar o [duplicar](#copy-an-existing-template) una plantilla, seleccione
 >
 >Cuando se edita o elimina una plantilla, los envíos creados con esta plantilla no se ven afectados.
 
-## Crear una plantilla de envíos {#create-a-delivery-template}
+## Creación de una plantilla de entrega {#create-a-delivery-template}
 
 Para crear una plantilla de envíos, puede:
 

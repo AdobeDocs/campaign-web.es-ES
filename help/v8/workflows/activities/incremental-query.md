@@ -53,7 +53,7 @@ Siga estos pasos para configurar la actividad **Incremental query**:
 
 1. En la sección **[!UICONTROL Audiencia]**, elija la **Dimensión de segmentación** y luego haga clic en **[!UICONTROL Continuar]**.
 
-   La dimensión de segmentación define la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el público destinatario se selecciona entre los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
+   La dimensión de segmentación define la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el objetivo se selecciona en los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/about-recipients.md#targeting-dimensions)
 
 1. Utilice el modelador de consultas para definir la consulta, de forma similar a como crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
 

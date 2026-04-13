@@ -38,7 +38,7 @@ Para insertar un fragmento visual en el contenido del correo electrónico, siga 
 
    ![Captura de pantalla que muestra el icono Fragmentos en la interfaz de Designer de correo electrónico](assets/fragments-in-designer.png)
 
-1. Se muestra la lista de todos los fragmentos visuales creados en la zona protegida actual. Puede hacer lo siguiente:
+1. Se muestra la lista de todos los fragmentos visuales creados en la zona protegida actual. Se puede:
 
    * Busque un fragmento específico escribiendo su etiqueta.
    * Ordene los fragmentos en orden ascendente o descendente.
