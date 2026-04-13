@@ -52,4 +52,4 @@ Los flujos de trabajo técnicos integrados son de solo lectura para todos los us
 
 ![Interfaz técnica de flujo de trabajo en modo de solo lectura, que muestra opciones para pausar o detener flujos de trabajo.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Obtenga más información acerca de los flujos de trabajo técnicos en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Obtenga más información acerca de los flujos de trabajo técnicos en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
