@@ -1,18 +1,18 @@
 ---
 audience: end-user
 title: Uso de una actividad de flujo de trabajo de envío
-description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS, correo directo)
+description: Obtenga información sobre cómo añadir una actividad de flujo de trabajo de entrega (correo electrónico, push, SMS, WhatsApp, correo directo)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '974'
 ht-degree: 40%
 
 ---
 
-# Actividades de correo electrónico, SMS, push, correo directo {#channel}
+# Correo electrónico, SMS, WhatsApp, push, actividades de correo directo {#channel}
 
-Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, correo directo y canales push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente.
+Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, WhatsApp, correo directo y canales push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente.
 
 Por ejemplo, cree una campaña de correo electrónico de bienvenida que incluya una serie de mensajes en diferentes canales, como correo electrónico, SMS, push y correo directo. También puede enviar un correo electrónico de seguimiento después de que un cliente complete una compra o enviar un mensaje de cumpleaños personalizado a un cliente a través de SMS.
 
@@ -25,6 +25,7 @@ Mediante actividades de canal, cree campañas completas y personalizadas que inv
 >* [Crear envío de SMS independiente](../../sms/create-sms.md)
 >* [Crear envío push independiente](../../push/create-push.md)
 >* [Crear envío de correo postal independiente](../../direct-mail/create-direct-mail.md)
+>* [Crear envío independiente de WhatsApp](../../whatsapp/create-whatsapp.md)
 
 ## Requisitos previos {#channel-activity-prereq}
 
@@ -71,7 +72,7 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 
 Para configurar una entrega en el contexto de un flujo de trabajo, siga los pasos a continuación:
 
-1. Agregue una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push (Android)]**, **[!UICONTROL Notificación push (iOS)]** o **[!UICONTROL Correo directo]**.
+1. Agregue una actividad de canal: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL Notificación push (Android)]**, **[!UICONTROL Notificación push (iOS)]** o **[!UICONTROL Correo directo]**.
 
 1. Seleccione **Tipo de entrega**: individual o recurrente.
 

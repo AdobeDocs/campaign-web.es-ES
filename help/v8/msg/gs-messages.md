@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Introducción a mensajes y envíos en Adobe Campaign Web
-description: Aprenda a trabajar con envíos y a enviar mensajes con la web de Campaign
+description: Aprenda a trabajar con envíos y enviar mensajes con la interfaz de usuario web de Adobe Campaign
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 75%
 
 ---
 
 
 # Introducción a los mensajes{#gs-messages}
 
-Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, y medir su impacto mediante varios informes dedicados.
+Con Adobe Campaign, puede enviar campañas en canales múltiples, incluidos correos electrónicos, SMS, notificaciones push, [WhatsApp](../whatsapp/get-started-whatsapp.md) y correo directo, y medir su impacto mediante varios informes dedicados.
 
 Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario. Estos envíos pueden ser independientes o incluirse en flujos de trabajo en el contexto de una campaña de marketing. Aprenda a crear y administrar envíos en Adobe Campaign en [esta sección](gs-deliveries.md).
 
