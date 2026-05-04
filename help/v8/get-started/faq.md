@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Preguntas frecuentes sobre la interfaz de usuario web de Campaign
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
-workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Para saber por dónde empezar, visite [esta página](../get-started/get-started.
 
 +++ ¿Cuáles son las nuevas funciones y capacidades de la nueva interfaz de usuario web?
 
-La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de público, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP.  Estimule la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con el Asistente de IA, integrado de forma nativa en el diseñador de mensajes WYSIWYG.
+La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de público, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP. Estimule la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con el Asistente de IA, integrado de forma nativa en el diseñador de mensajes WYSIWYG.
 
 Los especialistas en marketing pueden utilizar la IA generativa para elaborar correos electrónicos HTML completos y generar texto e imágenes con sugerencias de ajustes y variantes. Las nuevas características y capacidades se pueden consultar en [esta página](../rn/whats-new.md). Para obtener más información sobre la nueva interfaz y verla en acción, visite [esta página](../get-started/user-interface.md). Además, puede visitar los [Tutoriales](https://experienceleague.adobe.com/es/docs/campaign-web-learn/tutorials/overview){target="_blank"} para obtener más información sobre la nueva interfaz mediante un conjunto de vídeos explicativos.
 
@@ -59,13 +59,13 @@ Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Ad
 
 +++ ¿Significa esto que se ha terminado la compatibilidad con la versión 7 de Adobe Campaign Classic?
 
-Visite la página [Productos y periodos de asistencia técnica](https://helpx.adobe.com/es/support/programs/eol-matrix.html){target="_blank"} para ver las fechas de finalización de la versión 7 de Adobe Campaign Classic.
+Visite la página [Productos y periodos de asistencia técnica](https://helpx.adobe.com/es/support/programs/eol-matrix.html){target="_blank"} para ver las fechas de fin de asistencia técnica de la versión 7 de Adobe Campaign Classic.
 
 +++
 
 +++ Actualmente estoy en Adobe Campaign Standard. ¿Cuál es mi ruta para acceder a la nueva interfaz de usuario?
 
-Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Adobe Campaign. El primer paso es obtener una licencia de Managed Cloud Services, SKU Advanced o Enterprise. Póngase en contacto con el punto de contacto de Adobe. Si ya está en Managed Cloud Services Advanced o Enterprise, póngase en contacto con su administrador de transición para programar la transición a la versión 8. Obtenga más información en la [Guía de adopción](../../adoption/home.md).
+Para acceder a la nueva interfaz de usuario, debe estar en la versión 8.6 de Adobe Campaign.El primer paso es obtener una licencia de Managed Cloud Services, SKU Advanced o Enterprise. Póngase en contacto con el punto de contacto de Adobe. Si ya está en Managed Cloud Services Advanced o Enterprise, póngase en contacto con su administrador de transición para programar la transición a la versión 8. Obtenga más información en la [Guía de adopción](../../adoption/home.md).
 
 +++
 

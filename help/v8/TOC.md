@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 # Documentación de Adobe Campaign web {#v8}
 
 + [Documentación de la interfaz de usuario web de Adobe Campaign](campaign-web-home.md)
-+ Notas de la versión  {#release-notes}
++ Notas de la versión {#release-notes}
    + [Novedades](rn/whats-new.md)
    + {hide-from-toc}[Versión preliminar](rn/e-release-notes.md)
    + [Último lanzamiento](rn/release-notes.md)
@@ -24,7 +24,7 @@ ht-degree: 93%
       + [Versiones de 2026](rn/release-notes-26.md)
       + [Versiones de 2025](rn/release-notes-25.md)
       + [Versiones de 2024](rn/release-notes-24.md)
-   + {hide-from-toc}[Actualizaciones de documentación](rn/documentation-updates.md)
+   + {hide-from-toc}[Actualizaciones de la documentación](rn/documentation-updates.md)
 + Introducción a Adobe Campaign {#start}
    + [Introducción](get-started/get-started.md)
    + [Conexión a Campaign](get-started/connect-to-campaign.md)
@@ -51,7 +51,7 @@ ht-degree: 93%
          + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
          + [Envío mediante múltiples olas](advanced-settings/send-using-waves.md)
          + [Monitorización de los registros de envío](monitor/delivery-logs.md)
-         + [Programar el envío de una entrega](monitor/schedule-sending.md)
+         + [Programar la entrega de un envío](monitor/schedule-sending.md)
    + Notificaciones push {#push}
       + [Introducción a las notificaciones push](push/gs-push.md)
       + [Creación de un envío de notificación push](push/create-push.md)
@@ -74,7 +74,7 @@ ht-degree: 93%
       + [Introducción a los envíos de centros de llamadas](call-center/gs-call-center.md)
       + [Creación y envío de un envío al centro de llamadas](call-center/create-call-center.md)
    + {hide-from-toc}[Introducción a WhatsApp](whatsapp/get-started-whatsapp.md)
-   + {hide-from-toc}[Crear un envío de WhatsApp](whatsapp/create-whatsapp.md)
+   + {hide-from-toc}[Creación de un envío de WhatsApp](whatsapp/create-whatsapp.md)
    + [Canales personalizados](call-center/gs-custom-channel.md)
    + Mensajes transaccionales {#transactional-messages}
       + [Introducción a los mensajes transaccionales](transactional-messaging/transactional.md)
@@ -101,7 +101,7 @@ ht-degree: 93%
       + [¿Cómo hacer que su contenido sea dinámico?](personalization/gs-personalization.md)
       + [Adición de personalización](personalization/personalize.md)
       + [Generación de contenido condicional](personalization/conditions.md)
-   + Reutilizar contenido  {#manage-reusable-content}
+   + Reutilizar contenido {#manage-reusable-content}
       + Plantillas de contenido {#content-templates}
          + [Trabajo con plantillas de contenido](content/create-email-templates.md)
          + [Uso de plantillas de contenido de correo electrónico](content/use-email-templates.md)
@@ -172,7 +172,7 @@ ht-degree: 93%
    + Trabajar con servicios de suscripción {#work-with-services}
       + [Crear y administrar servicios de suscripción](audience/manage-services.md)
       + [Administrar suscriptores](audience/manage-subscribers.md)
-+ Campañas en canales múltiples  {#campaigns}
++ Campañas en canales múltiples {#campaigns}
    + [Introducción a las campañas](campaigns/gs-campaigns.md)
    + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
    + [Cree su primera campaña](campaigns/create-campaigns.md)
@@ -289,13 +289,13 @@ ht-degree: 93%
    + Trabajo con esquemas {#schemas}
       + [Acerca de los esquemas](administration/schemas.md)
       + [Acceso y configuración de esquemas](administration/schemas-browse-access.md)
-      + [Configuración de columnas de lista](administration/schemas-list-columns.md)
+      + [Configurar columnas de lista](administration/schemas-list-columns.md)
       + [Editar campos personalizados](administration/schemas-custom-fields.md)
-      + [Agregar listas de colección](administration/schemas-collection-lists.md)
+      + [Añadir listas de colección](administration/schemas-collection-lists.md)
       + [Creación y publicación de esquemas](administration/schemas-create-publish.md)
       + [Trabajar con formularios personalizados](administration/schemas-custom-forms.md)
-   + {hide-from-toc}[Configurar campos personalizados](administration/custom-fields.md)
-   + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+   + {hide-from-toc}[Configuración de los campos personalizados](administration/custom-fields.md)
+   + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
    + [Administración de zonas horarias](administration/timezone-management.md)
    + Cuentas externas {#external-accounts}
       + [Crear cuentas externas](administration/create-external-account.md)

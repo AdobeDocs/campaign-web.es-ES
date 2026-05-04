@@ -3,8 +3,8 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Versiones de la interfaz de usuario web de Campaign de 2025
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '3052'
+workflow-type: ht
+source-wordcount: '3136'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ _3 de noviembre de 2025_
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar varios mensajes transaccionales, notificaciones push y mensajes SMS en diferentes idiomas en la interfaz de usuario web de Adobe Campaign. La función Envío multilingüe le permite elegir el idioma predeterminado de su entrega, así como los diferentes idiomas en los que se puede realizar el envío. También puede obtener una vista previa de estos envíos en los idiomas que haya elegido. </p>
+<p>Ahora puede enviar varios mensajes transaccionales, notificaciones push y mensajes SMS en diferentes idiomas en la interfaz de usuario web de Adobe Campaign. La función Envío multilingüe le permite elegir el idioma predeterminado de su entrega, así como los diferentes idiomas en los que se puede realizar el envío. También puede previsualizar estos envíos en los idiomas que haya elegido.</p>
 <p>Nota: esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
 <p>Para obtener más información, consulte la <a href="../msg/multilingual.md">documentación detallada</a>.</p>
 </td>
@@ -288,7 +288,7 @@ Esta versión incluye una serie de correcciones de errores, que incluyen:
 
 * El proceso de duplicación de perfiles se ha mejorado para que coincida con el comportamiento de la consola del cliente, lo que garantiza una experiencia coherente en ambas interfaces. Esto corrige un problema que podría evitar la creación de perfiles duplicados.
 
-* La opción **[!UICONTROL CCO del correo electrónico]**, en la pantalla de configuración de envío, ahora funciona con Momentum (MTA mejorado). Antes, esta funcionalidad solo estaba disponible en la consola del cliente.  
+* La opción **[!UICONTROL CCO del correo electrónico]**, en la pantalla de configuración de envío, ahora funciona con Momentum (MTA mejorado). Antes, esta funcionalidad solo estaba disponible en la consola del cliente.
 
 ## Versión de julio de 2025 {#25-7-release}
 
@@ -633,7 +633,7 @@ Las siguientes funciones están disponibles para todos los usuarios a partir de 
 <tbody>
 <tr>
 <td>
-<p>Como administrador de Campaign, ahora puede configurar nuevas conexiones con sistemas externos desde la interfaz de usuario de Campaign Web.
+<p>Como administrador de Campaign, ahora puede configurar nuevas conexiones con sistemas externos desde la interfaz de usuario web de Campaign.
 También puede ver, actualizar y administrar cuentas externas existentes.</p>
 <p>Para obtener más información, consulte la <a href="../administration/external-account.md">documentación detallada</a>.</p>
 </td>

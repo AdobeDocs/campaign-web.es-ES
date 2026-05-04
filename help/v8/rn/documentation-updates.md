@@ -5,8 +5,8 @@ description: Actualizaciones de la documentación de Adobe Campaign Web
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
-workflow-type: tm+mt
-source-wordcount: '56'
+workflow-type: ht
+source-wordcount: '59'
 ht-degree: 100%
 
 ---

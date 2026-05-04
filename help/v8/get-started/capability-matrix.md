@@ -4,8 +4,8 @@ title: Matriz de funciones de la interfaz de usuario web y consola de cliente de
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '2134'
+workflow-type: ht
+source-wordcount: '2548'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ Algunas funciones solo están disponibles desde la consola del cliente. Examine 
 
 ## Modelado de datos e ingesta de datos {#data-capabilities}
 
-La interfaz de usuario web de Campaign no muestra las siguientes funcionalidades. Solo están disponibles en la consola del cliente. 
+La interfaz de usuario web de Campaign no muestra las siguientes funcionalidades. Solo están disponibles en la consola del cliente.
 
 ### Cuentas externas {#external}
 
@@ -179,7 +179,7 @@ La administración de datos combina un conjunto de actividades para resolver pro
 
 >[!NOTE]
 >
->Aunque algunas de estas actividades solo están disponibles en la consola del cliente, otras están disponibles en la interfaz de usuario web de Campaign, como las actividades de **Enriquecimiento**, **Cargar archivos**, **Cambiar fuente de datos** o **Cambiar dimensión**.  [Obtenga más información sobre las actividades de segmentación y administración de datos en la interfaz de usuario web de Campaign](../workflows/activities/about-activities.md#targeting)
+>Aunque algunas de estas actividades solo están disponibles en la consola del cliente, otras están disponibles en la interfaz de usuario web de Campaign, como las actividades de **Enriquecimiento**, **Cargar archivos**, **Cambiar fuente de datos** o **Cambiar dimensión**. [Obtenga más información sobre las actividades de segmentación y administración de datos en la interfaz de usuario web de Campaign](../workflows/activities/about-activities.md#targeting)
 
 ### Configuración del acceso de datos federado (FDA) {#fda}
 
@@ -210,10 +210,10 @@ Las funciones de monitorización de la plataforma de Campaign solo están dispon
 
 Para obtener más información, examine los vínculos proporcionados en la documentación de la versión 8 de Campaign (consola de cliente) y en el Panel de control.
 
-* [Monitorización de flujos de trabajos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}
+* [Monitorización de los flujos de trabajos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}
 * [Mapa de calor del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=es){target="_blank"}
 * [Monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
-* [Monitorización de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es){target="_blank"}
+* [Seguimiento de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es){target="_blank"}
 
 ## Administración de husos horarios {#timezone-management}
 

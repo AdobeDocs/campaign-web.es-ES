@@ -1,17 +1,17 @@
 ---
 title: Notas de la versión anterior de la interfaz de usuario web de Campaign v8
-description: Versiones de la interfaz de usuario web de Campaign de 2026
+description: Notas de la versión de la interfaz de usuario web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 22%
+workflow-type: ht
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
-# Notas de la versión de 2026 {#2026-release}
+# Notas de la versión 2026 {#2026-release}
 
-Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2026**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
+Esta página enumera todos los cambios y mejoras disponibles en las **versiones de 2026**.Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).
 
 ## Versión de febrero de 2026 {#26-2-release}
 
@@ -64,7 +64,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>El inventario de campañas ahora incluye una vista Cronología que le permite visualizar y administrar las campañas a lo largo del tiempo: cambie entre una lista y una cronología, navegue por semana, mes o día, utilice el botón Hoy para ir a la fecha actual y abra los detalles de la campaña (estado, flujos de trabajo, envíos) en un panel derecho, con los mismos filtros y búsquedas que la vista de lista.</p>
+<p>El inventario de campañas ahora incluye una vista de Cronología que le permite visualizar y administrar las campañas a lo largo del tiempo: cambie entre una lista y una cronología, navegue por semana, mes o día, utilice el botón Hoy para ir a la fecha actual y abra los detalles de la campaña (estado, flujos de trabajo, envíos) en un panel derecho, con los mismos filtros y búsquedas que la vista de lista.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/manage-campaigns.md#timeline">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -80,7 +80,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y administrar esquemas directamente desde la interfaz de usuario web de Campaign. Esta función le permite crear nuevas tablas, ampliar esquemas existentes y crear formularios personalizados. Puede definir estructuras de datos personalizadas para satisfacer sus necesidades empresariales específicas sin necesidad de acceder a la consola del cliente.</p>
+<p>Ahora puede crear y administrar esquemas directamente desde la interfaz de usuario web de Campaign. Esta función le permite crear nuevas tablas, ampliar esquemas existentes y crear formularios personalizados. Puede definir estructuras de datos personalizados para satisfacer sus necesidades empresariales específicas sin necesidad de acceder a la consola del cliente.</p>
 <p>Nota: esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una versión futura.</p>
 <p>Para obtener más información, consulte la <a href="../administration/schemas.md">documentación detallada</a>.</p>
 </td>
@@ -111,7 +111,7 @@ _27 de enero de 2026_
 <tbody>
 <tr>
 <td>
-<p>La función Entrega multilingüe ya está disponible para todos los clientes (GA). Esta función le permite enviar varios mensajes en diferentes idiomas en la interfaz de usuario web de Adobe Campaign. Puede elegir el idioma predeterminado de la entrega, así como los diferentes idiomas en los que se puede realizar la entrega. También puede obtener una vista previa de estos envíos en los idiomas que haya elegido.  
+<p>La función de envío multilingüe ya está disponible para todos los clientes (GA). Esta función le permite enviar varios mensajes en diferentes idiomas en la interfaz de usuario web de Adobe Campaign. Puede elegir el idioma predeterminado de su envío, así como los diferentes idiomas en los que se puede realizar el envío. También puede previsualizar estos envíos en los idiomas que haya elegido. 
 <p>Para obtener más información, consulte la <a href="../msg/multilingual.md">documentación detallada</a>.</p>
 <p>Se han realizado las siguientes mejoras en las notificaciones push multilingües:</p>
 <ul>
@@ -126,13 +126,13 @@ _27 de enero de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Enriquecimiento de perfil en mensajes transaccionales (GA)</strong><br/></th> 
+<th><strong>Enriquecimiento del perfil en mensajes transaccionales (GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El enriquecimiento de perfil en la capacidad de mensajes transaccionales ya está disponible para todos los clientes (GA). Además de los correos electrónicos, ahora también se admiten notificaciones push y SMS. Esta función le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.</p>
+<p>El enriquecimiento de perfil en la capacidad de mensajes transaccionales ya está disponible para todos los clientes (GA). Además de los correos electrónicos, ahora también se admiten notificaciones push y SMS. Esta funcionalidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.</p>
 <p>Para obtener más información, consulte la <a href="../transactional-messaging/profile-enrichment.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -142,13 +142,13 @@ _27 de enero de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager Live y copias de idioma</strong><br/></th> 
+<th><strong>Copias en tiempo real y de idioma de Adobe Experience Manager</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La integración de contenido de Adobe Experience Manager le permite acceder a todos los idiomas y Live Copies creados en Adobe Experience Manager directamente en Campaign al crear envíos. Puede actualizar el contenido en tiempo real para recuperar las últimas versiones de Adobe Experience Manager. Esta integración elimina la sincronización manual de contenido entre Adobe Experience Manager y Campaign, lo que optimiza el flujo de trabajo de la campaña en varios idiomas.</p>
+<p>La integración de contenido de Adobe Experience Manager le permite acceder a todas las copias de idiomas y en tiempo real creadas en Adobe Experience Manager directamente en Campaign al crear envíos. Puede actualizar el contenido en tiempo real para recuperar las últimas versiones de Adobe Experience Manager. Esta integración elimina la sincronización manual de contenido entre Adobe Experience Manager y Campaign, lo que optimiza el flujo de trabajo de la campaña en varios idiomas.</p>
 <p>Para obtener más información, consulte la <a href="../integrations/aem-multilingual.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -164,7 +164,7 @@ _27 de enero de 2026_
 <tbody>
 <tr>
 <td>
-<p>Los experimentos de contenido en la web de Adobe Campaign le permiten definir varias variantes de envío de pruebas A/B para medir cuál ofrece el mejor rendimiento para la audiencia de destino. Puede variar el contenido, el asunto o el remitente de la entrega para probar diferentes versiones y determinar qué variante produce los mejores resultados. Puede realizar pruebas A/B en varios elementos de correo electrónico, como la línea de asunto, el nombre del remitente y el contenido del cuerpo del correo electrónico.</p>
+<p>Los experimentos de contenido en la web de Adobe Campaign le permiten definir varias variantes de envío de pruebas A/B para medir cuál ofrece el mejor rendimiento para el público destinatario. Puede modificar el contenido, el asunto o el remitente del correo para probar diferentes versiones y determinar cuál de ellas ofrece los mejores resultados. Puede realizar pruebas A/B en varios elementos de correo electrónico, como la línea de asunto, el nombre del remitente y el contenido del cuerpo del correo electrónico.</p>
 <p>Para obtener más información, consulte la <a href="../email/ab-testing.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -180,7 +180,7 @@ _27 de enero de 2026_
 <tbody>
 <tr>
 <td>
-<p>La actividad Continuous delivery permite agregar nuevos destinatarios a una entrega existente. Este tipo de entrega evita tener que crear una nueva cada vez, lo que lo hace más eficiente para alertas de bajo volumen o notificaciones enviadas según sea necesario. Un envío continuo crea una sola instancia de envío. Todos los registros de envío (broadLog) y los registros de seguimiento hacen referencia a este envío, lo que simplifica la monitorización y la creación de informes.</p>
+<p>La función de envío continuo le permite añadir nuevos destinatarios a un envío ya existente.Este tipo de envío evita tener que crear uno nuevo cada vez, lo que resulta más eficaz para las alertas de bajo volumen o las notificaciones enviadas cuando es necesario. Un envío continuo crea una sola instancia de envío. Todos los registros de envío (broadLog) y los registros de seguimiento hacen referencia a este envío, lo que simplifica la monitorización y la creación de informes.</p>
 <p>Para obtener más información, consulte la <a href="../workflows/activities/continuous-delivery.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -196,7 +196,7 @@ _27 de enero de 2026_
 <tbody>
 <tr>
 <td>
-<p>El proceso de aprobación ayuda a coordinar varias partes interesadas y garantiza el control de calidad antes de realizar las entregas. Utilice aprobaciones cuando su organización requiera que equipos diferentes lo validen, como administradores de marketing que revisan contenido o analistas de datos que validan audiencias de destino.</p>
+<p>El proceso de aprobación ayuda a coordinar varias partes interesadas y garantiza el control de calidad antes de realizar los envíos. Utilice aprobaciones cuando su organización requiera que equipos diferentes lo validen, como administradores de marketing que revisan contenido o analistas de datos que validan públicos destinatarios.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/campaign-approvals.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -206,6 +206,6 @@ _27 de enero de 2026_
 ### Mejoras {#26-1-improvements}
 
 * Los informes dinámicos ahora admiten notificaciones push y SMS. [Más información](../reporting/dynamic-reporting/get-started-reporting.md)
-* Filtros predefinidos: una nueva opción &quot;Filtro compartido&quot; permite poner un filtro predefinido a disposición de otros usuarios de la organización. [Más información](../get-started/predefined-filters.md#share-filter)
+* Filtros predefinidos: una nueva opción “Filtro compartido” permite poner un filtro predefinido a disposición de otros usuarios de la organización. [Más información](../get-started/predefined-filters.md#share-filter)
 * Los campos de personalización creados en Adobe Experience Manager, como Nombre, Correo electrónico, Fecha y Dirección, ahora se incluyen y están disponibles al utilizar la plantilla de contenido.
 * La evaluación de la calidad del contenido ahora comprueba los problemas de legibilidad, coherencia y eficacia independientemente de las directrices de marca, identificando mensajes poco claros, tono incoherente o lagunas estructurales. [Más información](../content/brands-score.md)

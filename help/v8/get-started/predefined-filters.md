@@ -3,9 +3,9 @@ title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ Guarde un filtro personalizado desde el [modelador de consultas](../query/query-
 
    ![Guardar interfaz de detalles del filtro](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter). También puede habilitar la opción **[!UICONTROL Filtro compartido]** para que otros usuarios tengan acceso al filtro. Obtenga más información en [esta sección](#share-filter).
+   Puede guardar el filtro como favorito si lo necesita. Obtenga más información en [esta sección](#fav-filter). También puede activar la opción **[!UICONTROL Filtro compartido]** para que otros usuarios tengan acceso al filtro. Obtenga más información en [esta sección](#share-filter).
 
 1. Haga clic en **Confirmar** para guardar los cambios.
 
-El filtro personalizado está ahora disponible en la lista **Filtros predefinidos**.
+El filtro personalizado ahora está disponible en la lista **Filtros predefinidos**.
 
 ### Creación de filtros a partir de la lista de filtros {#create-filter-from-list}
 
@@ -99,9 +99,9 @@ Cuando un filtro se guarda como favorito, está disponible para todos los usuari
 
 ![Sección de filtros favoritos](assets/predefined-filters-favorite.png){zoomable="yes"}
 
-## Uso compartido de un filtro predefinido {#share-filter}
+## Compartir un filtro predefinido {#share-filter}
 
-De forma predeterminada, los filtros predefinidos que cree serán privados y solo podrán verlos los suyos. Para que otros operadores de su organización puedan acceder a un filtro, habilite la opción **[!UICONTROL Filtro compartido]**.
+De forma predeterminada, los filtros predefinidos que cree serán privados y visibles solo para usted.Para que otros operadores de su organización puedan acceder a un filtro, habilite la opción **[!UICONTROL Filtro compartido]**.
 
 ![Opción de filtro compartido](assets/predefined-filters-shared.png){zoomable="yes"}
 
@@ -151,7 +151,7 @@ A partir de esa lista, puede crear un nuevo filtro tal como se explica más arri
 * Duplique un filtro predefinido.
 * Elimine un filtro predefinido.
 
-También puede editar o eliminar un filtro predefinido directamente desde el generador de reglas. En la ventana de selección de filtros predefinidos, use el botón **Más acciones**. Puede eliminar el filtro o editarlo. Puede cambiar la etiqueta, agregar una descripción, agregarla como favorita o alternar la opción **[!UICONTROL Filtro compartido]** para controlar quién puede acceder al filtro.
+También puede editar o eliminar un filtro predefinido directamente desde el generador de reglas. En la ventana de selección de filtros predefinidos, use el botón **Más acciones**. Puede eliminar el filtro o editarlo. Puede cambiar la etiqueta, añadir una descripción, añadirla como favorita o alternar la opción **[!UICONTROL Filtro compartido]** para controlar quién puede acceder al filtro.
 
 ![Edición de filtros predefinidos](assets/filter-edit.png){zoomable="yes"}
 

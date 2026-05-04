@@ -4,9 +4,9 @@ title: Introducción a Adobe Campaign Web
 description: Introducción a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Como administrador o usuario experto, si necesita acceder a las funciones de la 
 
 Obtenga información sobre cómo conectarse a la web de Adobe Campaign en [esta página](connect-to-campaign.md).
 
-➡️ [Descubra la web de Campaign en vídeo](#video)
+➡️ [Descubra Campaign Web en vídeo](#video)
 
 ## Acerca de la consola del cliente de Campaign {#ac-client}
 
