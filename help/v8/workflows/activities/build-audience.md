@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 57%
+source-wordcount: '514'
+ht-degree: 53%
 
 ---
 
@@ -60,6 +60,7 @@ Para crear su propia consulta, siga estos pasos:
 1. Seleccione la **dimensión de filtrado** haciendo clic en el icono situado junto a la dimensión de segmentación. La dimensión de filtrado permite aplicar filtros a la población objetivo haciendo referencia a criterios relacionados sin cambiar la dimensión de segmentación principal. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#filtering)
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
+1. Utilice la sección **Datos de enriquecimiento** para mejorar los datos de destino con información adicional de la base de datos, por ejemplo, referencias de contratos o suscripciones a boletines. Esos datos se almacenan con la audiencia en el flujo de trabajo **tabla de trabajo** y están disponibles para las actividades siguientes. Puede agregar atributos de enriquecimiento únicos, vínculos de colección o expresiones. Para ver ejemplos y pasos detallados, consulte [Agregar datos de enriquecimiento](enrichment.md#enrichment-add).
 
 >[!TAB Leer público]
 
@@ -67,7 +68,7 @@ Para seleccionar un público destinatario existente, siga estos pasos:
 
 1. Seleccione **Leer público destinatario**.
 1. Haga clic en **Continuar**.
-1. Seleccione la audiencia, del mismo modo que utiliza una audiencia para diseñar una nueva entrega. Consulte esta [sección](../../audience/add-audience.md).
+1. Seleccione el público, del mismo modo que utiliza un público a la hora de diseñar un nuevo envío. Consulte esta [sección](../../audience/add-audience.md).
 
 >[!ENDTABS]
 

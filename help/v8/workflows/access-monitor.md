@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: a84d816e87bcbe05837c502b7e3c4e8d898752fe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 17%
+source-wordcount: '363'
+ht-degree: 16%
 
 ---
 
@@ -40,8 +40,7 @@ Los flujos de trabajo pueden tener varios estados:
 * **[!UICONTROL Borrador]**: el flujo de trabajo se ha creado y guardado.
 * **[!UICONTROL En curso]**: el flujo de trabajo se está ejecutando.
 * **[!UICONTROL Finalizado]**: la ejecución del flujo de trabajo ha finalizado.
-* **[!UICONTROL En pausa]**: el flujo de trabajo se ha pausado.
-* **[!UICONTROL Erróneo]**: el flujo de trabajo encontró un error. Abra el flujo de trabajo y acceda a los registros y tareas para identificar el error y resolverlo. [Obtenga información sobre cómo supervisar registros y tareas](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Pausado]**: el flujo de trabajo se ha pausado, ya sea de forma manual o automática después de encontrar un error. Si el flujo de trabajo se ha pausado debido a un error, ábralo y acceda a los registros y tareas para identificar el problema y resolverlo. [Obtenga información sobre cómo supervisar registros y tareas](start-monitor-workflows.md#logs-tasks)
 
 Encontrará información detallada sobre cómo iniciar y supervisar la ejecución del flujo de trabajo en [esta página](start-monitor-workflows.md).
 
