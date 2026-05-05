@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Enriquecimiento
 description: Aprenda a utilizar la actividad de flujo de trabajo Enriquecimiento
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 37%
+source-wordcount: '2064'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 37%
 >abstract="La actividad de **enriquecimiento** permite mejorar los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación."
 
 La actividad **Enriquecimiento** es una actividad de **Segmentación**. Mejora los datos de destino con información adicional de la base de datos. Normalmente se utiliza en un flujo de trabajo después de actividades de segmentación.
+
+>[!NOTE]
+>
+>La actividad **Generar audiencia** también le permite agregar **datos adicionales**. Ver [Usar la actividad Generar audiencia](build-audience.md#build-audience-configuration).
 
 Los datos de enriquecimiento pueden provenir de:
 

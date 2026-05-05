@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 22%
+source-wordcount: '629'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ Todas las actividades se detallan en las secciones siguientes:
 
 Estas actividades son específicas de la segmentación. Permiten crear una o más audiencias de destino definiendo una audiencia y dividiendo o combinando estas audiencias mediante operaciones de intersección, unión o exclusión.
 
-* [Generar audiencia](build-audience.md): defina la población objetivo. Seleccione una audiencia existente o utilice el modelador de consultas para definir su propia consulta.
+* [Generar audiencia](build-audience.md): defina la población objetivo. Seleccione una audiencia existente o utilice el modelador de consultas para definir su propia consulta. También puede configurar **datos de enriquecimiento** (disponibles para consultas).
 * [Cambiar origen de datos](change-data-source.md): cambie el origen de datos de la tabla de trabajo del flujo de trabajo.
 * [Cambiar dimensión](change-dimension.md): cambie la dimensión de segmentación al crear el flujo de trabajo.
 * [Combinar](combine.md): realice la segmentación en la población entrante. Utilice una unión, una intersección o una exclusión.
@@ -46,7 +46,7 @@ Estas actividades son específicas para manipular y enriquecer datos de poblaci�
 * [Transferir archivo](transfer-file.md): Reciba o envíe archivos, pruebe la presencia de archivos o enumere archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.
 * [JavaScript code](javascript-code.md): ejecute un fragmento de código JavaScript en el contexto de un flujo de trabajo.
 * [Servicios de suscripción](subscription-services.md): suscriba o cancele la suscripción de varios perfiles a o desde un servicio en una sola acción.
-* [Actualizar datos](update-data.md): realice actualizaciones masivas en los campos de la base de datos. Varias opciones permiten personalizar la actualización de datos.
+* [Actualizar datos](update-data.md): realice actualizaciones masivas en los campos de la base de datos. Varias opciones permiten personalizar la actualización de los datos.
 
 ## Actividades del canal {#channel}
 
@@ -61,7 +61,7 @@ Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en v
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
->title="Actividad final"
+>title="Actividad Finalizar"
 >abstract="La actividad **Start** le permite marcar de forma gráfica el inicio de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
 >[!CONTEXTUALHELP]
