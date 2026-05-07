@@ -2,10 +2,10 @@
 title: Conexión con la interfaz web de Adobe Campaign
 description: Obtenga información sobre cómo conectarse a la interfaz de usuario de Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
+source-git-commit: ff5aee62c18b435addba10fa982b385be23931e7
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 95%
 
 ---
 
@@ -94,16 +94,18 @@ Puede aprender a [ver y administrar los permisos aquí](permissions.md).
 
 ## Navegación superior de Adobe Experience Cloud {#top-bar}
 
-Examine la barra superior de la interfaz para lo siguiente:
+La barra superior de la interfaz le permite acceder rápidamente a las principales funciones de Experience Cloud.
+
+![Captura de pantalla que muestra la barra de navegación superior de Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+
+Utilice la barra superior para lo siguiente:
 
 * Compartir comentarios sobre la interfaz de usuario web de Campaign
 * Cambie entre sus organizaciones.
 * Cambie entre sus soluciones y aplicaciones de Adobe Experience Cloud.
 * Busque ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}.
-* Compruebe las notificaciones del producto.
-* Edite el perfil de Adobe y administre la configuración, como [actualizar su idioma favorito](#language-pref) o [cambiar a la temática clara/oscura](#dark-theme).
-
-![Captura de pantalla que muestra la barra de navegación superior de Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+* Ver las notificaciones de productos.
+* Edite su perfil de Adobe y administre la configuración, como [actualizar su idioma preferido](#language-pref) o [cambiar entre los temas claro y oscuro](#dark-theme).
 
 ## Navegadores admitidos {#browsers}
 
