@@ -11,7 +11,7 @@ feature-set: Campaign
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
 type: Documentation
-git-repo: https://github.com/AdobeDocs/campaign-web.en
+git-repo: https://github.com/AdobeDocs/campaign-web.es-ES
 index: true
 source-git-commit: 07d4f6fad817b2941a02de00d01eb27650b8a75f
 workflow-type: tm+mt
