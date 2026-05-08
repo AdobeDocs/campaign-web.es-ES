@@ -3,9 +3,9 @@ audience: end-user
 title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2199'
 ht-degree: 68%
 
 ---
@@ -502,7 +502,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> Cifrar la cadena proporcionada en el argumento <br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -525,12 +525,12 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
   <!--
-<tr> 
+  <tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
--->
+  -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Devuelve el valor 1 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
@@ -780,7 +780,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Ejecute la llamada a la función SQL introducida como primer parámetro, sobre Partición u Ordenar por los campos introducidos como segundo parámetro<br /> </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Valor&gt;, &lt;Valor&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
