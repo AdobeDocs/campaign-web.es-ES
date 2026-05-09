@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de correo directo
 description: Obtenga información sobre cómo acceder y utilizar los informes de correo directo
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '710'
 ht-degree: 19%
 
 ---

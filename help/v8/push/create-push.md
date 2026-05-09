@@ -3,10 +3,10 @@ audience: end-user
 title: Creación de un envío de notificación push
 description: Obtenga información sobre cómo crear una entrega de notificaciones push con Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 28%
+source-wordcount: '779'
+ht-degree: 32%
 
 ---
 
@@ -65,7 +65,7 @@ Configure las entregas como se detalla a continuación:
 
 Primero debe seleccionar la aplicación y, a continuación, puede refinar la audiencia de notificaciones push como se detalla a continuación:
 
-1. En la sección **[!UICONTROL Audience]**, seleccione la aplicación que desee utilizar para este envío. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede ajustar la audiencia a una audiencia específica haciendo clic en el botón **[!UICONTROL Seleccionar audiencia]**.
+1. En la sección **[!UICONTROL Audience]**, seleccione la aplicación que desee utilizar para este envío. De forma predeterminada, la notificación push se envía a todos los suscriptores de la aplicación. Puede restringirla a un público específico haciendo clic en el botón **[!UICONTROL Seleccionar público]**.
 
    ![Captura de pantalla que muestra la selección de audiencias para la entrega push](assets/push_create_2.png){zoomable="yes"}
 

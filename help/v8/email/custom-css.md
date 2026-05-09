@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: css, editor, resumen, correo electrónico
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 10%

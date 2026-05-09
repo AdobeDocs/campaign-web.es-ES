@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 13%
+source-wordcount: '1096'
+ht-degree: 14%
 
 ---
 
@@ -104,7 +104,7 @@ Para crear una nueva plantilla de contenido desde el panel de plantillas de cont
 
    * [Diseñe su contenido desde cero](../email/create-email-content.md) a través de la interfaz de Designer de correo electrónico.
    * [Codifique o copie y pegue HTML sin procesar](../email/code-content.md) directamente en el Designer de correo electrónico.
-   * [Importe contenido existente de HTML](../email/existing-content.md) desde un archivo o una carpeta .zip.
+   * [Importación de contenido de HTML existente](../email/existing-content.md) desde un archivo o una carpeta .zip.
    * Utilice contenido existente de una lista de plantillas integradas o personalizadas. Los pasos para usar una plantilla de contenido en un correo electrónico se describen en [esta sección](use-email-templates.md).
 
    ![Opciones de Designer de correo electrónico para crear plantillas](assets/email_designer-templates.png){zoomable="yes"}

@@ -7,9 +7,9 @@ old-role: Data Engineer
 role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---

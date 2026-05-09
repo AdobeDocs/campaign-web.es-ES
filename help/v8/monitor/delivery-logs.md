@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorización de los registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 55%
+source-wordcount: '429'
+ht-degree: 58%
 
 ---
 

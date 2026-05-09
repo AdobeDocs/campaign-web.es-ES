@@ -3,10 +3,10 @@ audience: end-user
 title: Informes globales del canal de correo electrónico
 description: Más información sobre los informes globales del canal de correo electrónico
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 26%
+source-wordcount: '1689'
+ht-degree: 27%
 
 ---
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal de correo electrónico
 description: Más información sobre los informes de campaña para el canal de correo electrónico
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 22%
+source-wordcount: '1707'
+ht-degree: 25%
 
 ---
 
@@ -48,7 +48,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 >title="Estadísticas de público destinatario inicial"
 >abstract="La tabla Estadísticas del público destinatario muestra los datos relativos a los destinatarios."
 
-La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
+La tabla **[!UICONTROL Estadísticas de público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![Captura de pantalla de la tabla de estadísticas de audiencia de destinatario inicial](assets/campaign_report_email_2.png){zoomable="yes"}
 
@@ -234,7 +234,7 @@ La tabla **[!UICONTROL Tasa de clics y aperturas]** muestra datos relativos a su
 >title="URL y flujos de clics"
 >abstract="El informe de **URL y flujos de clics** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante un envío."
 
-El informe **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las URL en las que se hizo clic con mayor frecuencia durante una entrega. Las métricas se detallan a continuación.
+El informe de **[!UICONTROL URL y flujos de clics]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre las direcciones URL en las que se hizo clic con mayor frecuencia durante un envío. Las métricas se detallan a continuación.
 
 ![Captura de pantalla de las direcciones URL y del informe de flujos de clics](assets/campaign_report_email_9.png){zoomable="yes"}
 

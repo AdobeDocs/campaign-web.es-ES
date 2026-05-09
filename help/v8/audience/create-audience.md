@@ -3,9 +3,9 @@ audience: end-user
 title: Crear públicos
 description: Obtenga información sobre cómo crear audiencias en Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1018'
 ht-degree: 15%
 
 ---

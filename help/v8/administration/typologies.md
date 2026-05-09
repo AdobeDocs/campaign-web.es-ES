@@ -3,10 +3,10 @@ audience: end-user
 title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 28%
+source-wordcount: '1500'
+ht-degree: 29%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_type"
 >title="Filtrado"
->abstract=" Hay dos tipos de reglas de tipología disponibles: las reglas de <br/><br/>**Control**, que garantizan la calidad y validez del mensaje antes del envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la dirección URL. Las reglas de <br/><br/>**Filtrado**, que excluyen segmentos del público destinatario de acuerdo con criterios específicos, como la edad, la ubicación, el país o los números de teléfono. "
+>abstract=" Hay dos tipos de reglas de tipología disponibles: las reglas de <br/><br/>**Control**, que garantizan la calidad y validez del mensaje antes del envío, como la visualización de caracteres, la longitud del SMS, el formato de la dirección o el acortamiento de la dirección URL. Las reglas de <br/><br/>**Filtrado**, que excluyen segmentos del público destinatario de acuerdo con criterios específicos, como la edad, la ubicación, el país o los números de teléfono."
 
 ## Acerca de las tipologías
 

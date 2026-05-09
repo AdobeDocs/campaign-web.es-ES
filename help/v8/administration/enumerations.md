@@ -2,10 +2,10 @@
 title: Administración de enumeraciones
 description: Aprenda a trabajar con enumeraciones
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 26%
+source-wordcount: '646'
+ht-degree: 29%
 
 ---
 
@@ -47,7 +47,7 @@ Para crear una enumeración, siga estos pasos:
 1. Seleccione la enumeración **[!UICONTROL Type]**:
 
    * Las enumeraciones **[!UICONTROL Cerradas]** tienen una lista fija de valores, que solo se pueden modificar desde el menú **[!UICONTROL Enumeraciones]**.
-   * Las enumeraciones **[!UICONTROL Open]** permiten a los usuarios agregar nuevos valores directamente en los campos basándose en esta enumeración.
+   * Las enumeraciones **[!UICONTROL Abiertas]** permiten a los usuarios añadir nuevos valores directamente en los campos basándose en esta enumeración.
    * Las enumeraciones **[!UICONTROL System]** están asociadas a campos del sistema.
    * Las enumeraciones de tipo **[!UICONTROL Emoticono]** se usan para actualizar la lista de emoticonos.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 19%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
 >title="Refinamiento de destinatarios"
->abstract="Estas reglas solo pueden modificarse en la consola del cliente. "
+>abstract="Estas reglas solo pueden modificarse en la consola del cliente."
 
 La interfaz de usuario web de Adobe Campaign incluye un modelador de consultas que simplifica el proceso de filtrado de la base de datos en función de diversos criterios. Garantiza la compatibilidad total con las consultas creadas en la consola del cliente, lo que facilita una transición sin problemas a la interfaz de usuario web.
 
@@ -50,7 +50,7 @@ El modelador de consultas está disponible en todos los contextos en los que nec
 >
 >![Imagen que muestra una advertencia sobre el refinamiento de destinos](assets/target-warning.png){zoomable="yes"}
 
-## Interfaz del modelador de consultas  {#interface}
+## Interfaz del modelador de consultas {#interface}
 
 El modelador de consultas proporciona un lienzo central en el que generar la consulta y un panel derecho que proporciona información sobre la misma.
 

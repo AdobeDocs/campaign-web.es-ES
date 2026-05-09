@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 17%
+source-wordcount: '545'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >title="Información general sobre el envío"
 >abstract="El informe **Información general del envío** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push."
 
-El informe **[!UICONTROL Información general de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
+El informe **[!UICONTROL Información general del envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de notificaciones push. Las métricas se detallan a continuación.
 
 ![Métricas de resumen de envío mostradas en el informe Información general de envío](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 >title="Estadísticas de público destinatario inicial"
 >abstract="La tabla **Estadísticas de público destinatario inicial** muestra datos relativos a los destinatarios."
 
-La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
+La tabla **[!UICONTROL Estadísticas de público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![Estadísticas de audiencia de destinatario iniciales mostradas en el informe](assets/campaign-reporting-push-target.png){zoomable="yes"}
 

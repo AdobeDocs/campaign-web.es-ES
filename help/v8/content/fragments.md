@@ -3,9 +3,9 @@ audience: end-user
 title: Introducción a los fragmentos de contenido
 description: Aprenda a crear con fragmentos de contenido
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '379'
 ht-degree: 58%
 
 ---

@@ -3,7 +3,7 @@ audience: end-user
 title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 23%

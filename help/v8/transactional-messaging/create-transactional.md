@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de mensajes transaccionales
 description: Obtenga información sobre cómo crear un mensaje transaccional en la interfaz de usuario web de Campaign
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 18%
 
 ---

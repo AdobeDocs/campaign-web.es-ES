@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de campaña para el canal SMS
 description: Comprensión de los informes de campaña del canal SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 17%
+source-wordcount: '532'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ Cada informe de campaña se divide en diferentes widgets que detallan el éxito 
 >title="Información general sobre el envío"
 >abstract="El informe **Información general sobre el envío** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de los SMS."
 
-El informe **[!UICONTROL Información general de entrega]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de SMS. Las métricas se detallan a continuación.
+El informe **[!UICONTROL Información general sobre el envío]** proporciona indicadores clave de rendimiento (KPI) que proporcionan información detallada sobre cómo los visitantes interactúan con el envío de los SMS. Las métricas se detallan a continuación.
 
 ![Informe de descripción general de envío que muestra las métricas de SMS](assets/campaign_report_sms_1.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ El informe **[!UICONTROL Información general de entrega]** proporciona indicado
 >title="Estadísticas de público destinatario inicial"
 >abstract="La tabla **Estadísticas de público destinatario inicial** muestra datos relativos a los destinatarios."
 
-La tabla **[!UICONTROL Estadísticas iniciales de audiencias de destino]** muestra datos relativos a sus destinatarios. Las métricas se detallan a continuación.
+La tabla **[!UICONTROL Estadísticas de público destinatario inicial]** muestra datos relativos a los destinatarios. Las métricas se detallan a continuación.
 
 ![Tabla de estadísticas de audiencias de destino inicial que muestra los datos del destinatario](assets/campaign_report_sms_2.png){zoomable="yes"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Crear fragmentos de contenido
 description: Aprenda a crear fragmentos de contenido
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 22%
+source-wordcount: '1038'
+ht-degree: 24%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Propiedades de fragmentos"
->abstract="Introduzca la etiqueta del fragmento.  Si es necesario, puede definir opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción."
+>abstract="Introduzca la etiqueta del fragmento. Si es necesario, puede definir opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
@@ -48,7 +48,7 @@ Para crear un fragmento de contenido desde cero, siga los pasos a continuación.
 
    ![Pantalla de lista de fragmentos que muestra la opción Crear fragmento](assets/fragments-list.png)
 
-1. Introduzca la etiqueta del fragmento.  Si es necesario, defina opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción.
+1. Introduzca la etiqueta del fragmento. Si es necesario, defina opciones adicionales, como el nombre interno del fragmento, su carpeta y una descripción.
 
 1. Elija el tipo de fragmento que desea crear: **Fragmento visual** o **Fragmento de expresión**. [Conozca las diferencias entre los fragmentos visuales y de expresión](fragments.md)
 

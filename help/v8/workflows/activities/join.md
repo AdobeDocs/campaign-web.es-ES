@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Unirse
 description: Aprenda a utilizar la actividad del flujo de trabajo Unirse
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 20%
+source-wordcount: '489'
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="Varias ramas de flujo de trabajo y una actividad"
+>title="Varias ramas de flujo de trabajo y Unirse a la actividad"
 >abstract="Ahora se admiten varias ramas. En lugar de utilizar una bifurcación, puede hacer clic en Agregar rama en la barra de herramientas. También se ha mejorado la actividad AND-join. Ahora es una actividad de unión genérica que le permite elegir entre las opciones de unión AND y OR."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 

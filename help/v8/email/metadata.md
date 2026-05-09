@@ -3,7 +3,7 @@ audience: end-user
 title: Añadir metadatos al contenido del correo electrónico
 description: Aprenda a mejorar la legibilidad y accesibilidad del contenido del correo electrónico con metadatos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 26%

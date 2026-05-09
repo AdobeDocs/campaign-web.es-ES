@@ -3,10 +3,10 @@ audience: end-user
 title: Introducción a los públicos
 description: Aprenda a trabajar con audiencias en Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 25%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 

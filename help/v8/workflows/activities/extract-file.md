@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Extraer archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Extraer archivo
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 16%
+source-wordcount: '951'
+ht-degree: 17%
 
 ---
 

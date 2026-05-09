@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 9%
+source-wordcount: '1445'
+ht-degree: 10%
 
 ---
 

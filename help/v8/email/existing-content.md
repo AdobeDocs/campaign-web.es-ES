@@ -3,9 +3,9 @@ audience: end-user
 title: Importar el contenido de su correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 29%
 
 ---

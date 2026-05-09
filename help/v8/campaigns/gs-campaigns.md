@@ -3,8 +3,8 @@ audience: end-user
 title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 

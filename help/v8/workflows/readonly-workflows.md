@@ -3,10 +3,10 @@ audience: end-user
 title: Acerca de los flujos de trabajo solo de lectura
 description: Descubra por qué los flujos de trabajo están en modo de solo lectura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 11%
+source-wordcount: '295'
+ht-degree: 10%
 
 ---
 

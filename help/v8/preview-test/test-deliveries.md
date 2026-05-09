@@ -3,9 +3,9 @@ audience: end-user
 title: Envío de pruebas
 description: Obtenga información sobre cómo definir y enviar pruebas
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1215'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="Público destinatario de prueba adicional"
->abstract="Estas reglas solo pueden modificarse en la consola del cliente. "
+>abstract="Estas reglas solo pueden modificarse en la consola del cliente."
 
 Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo enviando pruebas a los perfiles de prueba. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorización de mensajes transaccionales
 description: Obtenga información sobre cómo monitorizar un mensaje transaccional en la interfaz de usuario web de Campaign
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ Busque su mensaje y haga clic en él para ver sus detalles.
 >title="Vista previa del historial de eventos de la mensajería transaccional"
 >abstract="Puede obtener una vista de los eventos que activan el mensaje transaccional."
 
-Puede ver los eventos que almacenan en déclencheur el mensaje transaccional. Para acceder a ellos, vaya a la sección **[!UICONTROL Historial de eventos]**.
+Puede obtener una vista de los eventos que activan el mensaje transaccional. Para acceder a ellos, vaya a la sección **[!UICONTROL Historial de eventos]**.
 
 Los eventos se muestran con su nombre de tipo de evento.
 
