@@ -33,7 +33,7 @@ La actividad **Señal externa** es una actividad **Control de flujo**. Permite a
 
 >[!NOTE]
 >
->En esta página se explican los pasos principales para configurar una actividad **[!UICONTROL Señal externa]** en la interfaz de usuario web de Campaign y almacenarla en déclencheur desde otro flujo de trabajo o una llamada de API. Encontrará información detallada sobre cómo almacenar en déclencheur un flujo de trabajo, prácticas recomendadas y cómo trabajar con las API de Campaign en [Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>En esta página se explican los pasos principales para configurar una actividad **[!UICONTROL Señal externa]** en la interfaz de usuario web de Campaign y almacenarla en déclencheur desde otro flujo de trabajo o una llamada de API. Encontrará información detallada sobre cómo almacenar en déclencheur un flujo de trabajo, prácticas recomendadas y cómo trabajar con las API de Campaign en [Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Siga estos pasos para configurar la actividad **Señal externa** y déclencheur su ejecución:
 
