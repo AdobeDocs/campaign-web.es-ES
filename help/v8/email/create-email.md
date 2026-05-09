@@ -3,10 +3,10 @@ audience: end-user
 title: Enviar su primer correo electrónico
 description: Obtenga información sobre cómo enviar el primer correo electrónico con la interfaz de usuario web de Campaign
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 44%
+source-wordcount: '1695'
+ht-degree: 45%
 
 ---
 
@@ -89,7 +89,7 @@ Encontrará instrucciones adicionales sobre cómo trabajar con públicos en [est
 
    >[!NOTE]
    >
-   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración de destino y Source en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Aprenda a trabajar con Campaign y Adobe Experience Platform en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=es){target="_blank"}.
+   >Las audiencias disponibles en la lista proceden de la instancia de Campaign v8 o de Adobe Experience Platform si se ha configurado la integración de destino y Source en la instancia. Esta integración le permite enviar segmentos de Experience Platform a Adobe Campaign y enviar registros de envío y seguimiento de Campaign a Adobe Experience Platform. Aprenda a trabajar con Campaign y Adobe Experience Platform en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 1. Una vez seleccionado el público, puede refinar aún más el objetivo mediante la aplicación de reglas adicionales.
 
@@ -254,4 +254,4 @@ Después de revisar y probar el correo electrónico, puede prepararlo y enviarlo
 
 Obtenga información sobre cómo crear un envío de correo electrónico desde cero, definir el público, diseñar el contenido, simular la previsualización y enviar una prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454008/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

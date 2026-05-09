@@ -3,10 +3,10 @@ audience: end-user
 title: Informes globales para el canal SMS
 description: Comprensión de los informes globales del canal SMS
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 27%
+source-wordcount: '689'
+ht-degree: 26%
 
 ---
 

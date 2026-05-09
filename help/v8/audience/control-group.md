@@ -3,9 +3,9 @@ audience: end-user
 title: Establecer un grupo de control
 description: Obtenga información sobre cómo establecer un grupo de control para los mensajes en la interfaz de usuario web de Campaign
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 22%
 
 ---

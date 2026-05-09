@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 35%
+source-wordcount: '1402'
+ht-degree: 34%
 
 ---
 
@@ -94,7 +94,7 @@ Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones
 
 ## Texto {#text}
 
-Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) con las fichas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
+Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) usando las fichas **[!UICONTROL Configuración]** y **[!UICONTROL Estilos]**.
 
 1. En el menú **[!UICONTROL Contenido]**, arrastre y suelte **[!UICONTROL Texto]** en un componente **[!UICONTROL Estructura]**.
 
@@ -160,7 +160,7 @@ Use el componente **[!UICONTROL Image]** para insertar un archivo de imagen del 
 
 1. Haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos. También puedes elegir **[!UICONTROL Importar tus medios]**.
 
-   Para obtener más información sobre cómo cargar y agregar recursos en Adobe Experience Manager, consulte [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=es).
+   Para obtener más información sobre cómo cargar y agregar recursos en Adobe Experience Manager, consulte [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![Captura de pantalla que muestra la opción de examinar componentes de imagen en el correo electrónico Designer.](assets/email_designer_28.png){zoomable="yes"}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Envío de pruebas
 description: Obtenga información sobre cómo definir y enviar pruebas
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1215'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="Público destinatario de prueba adicional"
->abstract="Estas reglas solo pueden modificarse en la consola del cliente. "
+>abstract="Estas reglas solo pueden modificarse en la consola del cliente."
 
 Una vez definido el contenido del mensaje, puede previsualizarlo y probarlo enviando pruebas a los perfiles de prueba. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
@@ -49,7 +49,7 @@ Para comenzar a probar el contenido del mensaje:
 
    * Para SMS y correos electrónicos, puedes usar [perfiles de prueba](#test-profiles), que son destinatarios adicionales específicos en la base de datos. También puede usar el modo [substitution from main target](#substitution-profiles), que envía la prueba a una dirección de prueba de correo electrónico o a un número de teléfono, y usa datos de personalización de un perfil existente. Esto le permite experimentar el mensaje como lo harían los destinatarios, lo que le ofrece una representación precisa del contenido que recibirá el perfil.
 
-   * Para los mensajes push, puede usar [suscriptores](#subscribers), que son suscriptores ficticios agregados a la base de datos. Se crean en la consola [!DNL Campaign]. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=es){target="_blank"}
+   * Para los mensajes push, puede usar [suscriptores](#subscribers), que son suscriptores ficticios agregados a la base de datos. Se crean en la consola [!DNL Campaign]. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    A continuación, encontrará la configuración detallada para cada modo.
 

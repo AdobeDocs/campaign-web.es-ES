@@ -2,10 +2,10 @@
 title: Administrar asignaciones de público destinatario
 description: Obtenga información sobre cómo administrar las asignaciones de destino.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 12%
+source-wordcount: '781'
+ht-degree: 13%
 
 ---
 

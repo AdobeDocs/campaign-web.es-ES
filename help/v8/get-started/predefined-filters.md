@@ -2,8 +2,8 @@
 title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Cuando un filtro se guarda como favorito, está disponible para todos los usuari
 
 ## Compartir un filtro predefinido {#share-filter}
 
-De forma predeterminada, los filtros predefinidos que cree serán privados y visibles solo para usted.Para que otros operadores de su organización puedan acceder a un filtro, habilite la opción **[!UICONTROL Filtro compartido]**.
+De forma predeterminada, los filtros predefinidos que cree serán privados y visibles solo para usted. Para que otros operadores de su organización puedan acceder a un filtro, habilite la opción **[!UICONTROL Filtro compartido]**.
 
 ![Opción de filtro compartido](assets/predefined-filters-shared.png){zoomable="yes"}
 

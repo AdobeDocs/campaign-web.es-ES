@@ -3,7 +3,7 @@ audience: end-user
 title: Añadir fragmentos de expresiones en el editor de expresiones
 description: Aprenda a crear con fragmentos de contenido
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 26%

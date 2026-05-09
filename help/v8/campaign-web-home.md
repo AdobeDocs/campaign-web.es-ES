@@ -3,8 +3,8 @@ keywords: Campaign Web;inicio;temas populares
 description: Centro de ayuda de Campaign Web
 title: Documentación del producto Adobe Campaign Web
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Eche un vistazo a las mejoras más recientes del producto Adobe Campaign Web y a
 
 >[!TAB Versión de marzo de 2026]
 
-Ya está aquí la versión de marzo.Ahora hay nuevas funciones y mejoras disponibles en la interfaz de usuario web de Campaign. Los aspectos destacados incluyen:
+Ya está aquí la versión de marzo. Ahora hay nuevas funciones y mejoras disponibles en la interfaz de usuario web de Campaign. Los aspectos destacados incluyen:
 
 * **Creación de esquemas (GA)**: cree y administre esquemas directamente en la interfaz de usuario web de Campaign.
 * **Temas en el Diseñador de correo electrónico (LA)**: aplique estilos y variables de temas reutilizables para mantener el contenido del correo electrónico coherente con su marca.
@@ -126,7 +126,7 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensajes</strong><br/><a href="msg/gs-deliveries.md">Crear un envío</a> - <a href="email/create-email.md">Correo electrónico</a> -  <a href="push/gs-push.md">Notificaciones push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Plantillas de envío</a> - <a href="preview-test/preview-test.md">Vista previa y prueba</a>  
+      <strong>Enviar mensajes</strong><br/><a href="msg/gs-deliveries.md">Crear un envío</a> - <a href="email/create-email.md">Correo electrónico</a> -  <a href="push/gs-push.md">Notificaciones push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Plantillas de envío</a> - <a href="preview-test/preview-test.md">Vista previa y prueba</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

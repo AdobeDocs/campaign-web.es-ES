@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 41%
+source-wordcount: '582'
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ Siga estos pasos para configurar la actividad **Deduplication**:
 
 1. Agregue una actividad **Deduplication** a su flujo de trabajo.
 
-1. En la sección **Campos para identificar duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre y apellidos, etc. El orden de los campos especifica los que se procesarán primero. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
+1. En la sección **Campos para identificar duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre y apellidos, etc. El orden de los campos especifica los que se procesarán en primer lugar. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
 
 1. En la sección **Configuración de anulación de duplicación**, seleccione el número de **duplicados únicos que desea conservar**. El valor predeterminado de este campo es 1. El valor 0 mantiene todos los duplicados.
 

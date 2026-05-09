@@ -2,10 +2,10 @@
 title: Establecimiento de objetivos y filtrado de dimensiones
 description: Obtenga más información acerca de las dimensiones de segmentación y filtrado en la IU web de Adobe Campaign
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 18%
+source-wordcount: '587'
+ht-degree: 15%
 
 ---
 
@@ -42,11 +42,11 @@ Utilice otras asignaciones de destino integradas en flujos de trabajo y envíos,
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 | Aplicaciones del suscriptor | Perfiles suscritos a una aplicación | nms:appSubscriptionRcp |
 
-Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es#new-mapping){target="_blank"}.
+Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
 
 ## Filtrado de dimensiones {#filtering}
 
-La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite aplicar filtros a esta población haciendo referencia a datos relacionados sin cambiar la dimensión de segmentación principal. Por ejemplo, puede seleccionar la población en función de criterios específicos como titulares de contrato o suscriptores a boletines informativos.
+La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite aplicar filtros a esta población haciendo referencia a datos relacionados sin cambiar la dimensión de segmentación principal. Por ejemplo, puede seleccionar la población en función de criterios específicos como titulares de contrato o suscriptores a boletines informativos.
 
 Las dimensiones de filtrado solo están disponibles en la actividad **Generar audiencia**.
 

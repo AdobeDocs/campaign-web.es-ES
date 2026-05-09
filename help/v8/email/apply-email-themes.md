@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 2%
+source-wordcount: '2077'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="Temas en el correo electrónico Designer (LA)"
+>title="Temas en el Diseñador de correo electrónico (LA)"
 >abstract="Aplique estilos y variables de temas reutilizables para mantener el contenido del correo electrónico coherente con su marca. Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
@@ -261,7 +261,7 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Asigne un nombre a la temática.
 
-1. Realice sus propios ajustes según sea necesario, tal como lo hace al crear una temática desde cero, como añadir una variante de color, editar fuentes, etc. [Descubra cómo](#create-and-edit-themes)
+1. Realice sus propios ajustes según sea necesario, tal como lo hace al crear un tema desde cero, como agregar una variante de color, editar fuentes, etc. [Obtenga información](#create-and-edit-themes)
 
    ![Tema generado en el editor que muestra la paleta de colores y los controles de variante](assets/generate-theme-colors.png){width=90%}
 

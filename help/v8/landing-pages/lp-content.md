@@ -3,9 +3,9 @@ title: Definición del contenido específico de la página de destino
 description: Aprenda a diseñar contenido específico de páginas de aterrizaje en Campaign Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1170'
 ht-degree: 11%
 
 ---
@@ -88,7 +88,7 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
    * **[!UICONTROL Sí si está marcado]**.
    * **[!UICONTROL No si está marcado]**.
 
-1. Elimine y agregue tantos campos (como campos de texto, botones de opción, casillas de verificación, listas desplegables, etc.) como sea necesario.
+1. Elimine y agregue tantos campos (como campos de texto, botones de opción, casillas de verificación, listas desplegables, etc.) según sea necesario.
 
 1. Una vez que se hayan agregado o actualizado todos los campos, haga clic en **[!UICONTROL Call to action]** para expandir la sección correspondiente. Permite definir el comportamiento del botón en el componente **[!UICONTROL Form]**. [Descubra cómo](#define-actions-on-form-submission)
 
@@ -151,7 +151,7 @@ Para enviar un mensaje de confirmación automáticamente después del envío de 
 
    ![Configuración de estilo de casilla de verificación](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Expanda y edite cualquier otra sección correspondiente a otros campos que haya agregado (botón de opción, lista desplegable, fecha y hora, etc.) al formulario.
+1. Expanda y edite cualquier otra sección correspondiente a otros campos que haya agregado (botón de opción, lista desplegable, fecha y hora, etc.) a su formulario.
 
 1. Expanda la sección **[!UICONTROL Call to action]** para modificar el aspecto del botón en el formulario de componente. Por ejemplo, cambie la fuente, agregue un borde, edite el color de la etiqueta al pasar el ratón por encima o ajuste la alineación del botón.
 

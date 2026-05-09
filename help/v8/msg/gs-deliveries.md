@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 36%
@@ -25,7 +25,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
 >title="Destino adicional"
->abstract="Estas reglas solo pueden modificarse en la consola del cliente. "
+>abstract="Estas reglas solo pueden modificarse en la consola del cliente."
 
 Se puede acceder a los envíos desde el menú **[!UICONTROL Envíos]** del panel de navegación izquierdo. Todos los envíos creados desde la consola de cliente o la interfaz de usuario web aparecen en esta lista. Desde esta pantalla, puede monitorizar todas las entregas existentes, duplicarlas o eliminarlas, o crear otras nuevas.
 

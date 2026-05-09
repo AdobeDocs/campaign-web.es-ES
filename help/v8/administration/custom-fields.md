@@ -3,10 +3,10 @@ title: Campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados y su visibilidad en la interfaz.
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 28%
 
 ---
 
@@ -66,7 +66,7 @@ Los campos personalizados están disponibles para los siguientes esquemas:
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="Definición de pantalla"
->abstract="Defina la lista de campos personalizados que desea editar para el esquema y sus propiedades. Haga clic en el botón **Vista previa** para mostrar los campos personalizados en una pantalla de ejemplo."
+>abstract="Defina la lista de campos personalizados que desea editar para el esquema y sus propiedades. Haga clic en el botón **Previsualización** para mostrar los campos personalizados en una pantalla de ejemplo."
 
 
 Para mostrar campos personalizados en la interfaz, siga estos pasos:
@@ -83,7 +83,7 @@ Para mostrar campos personalizados en la interfaz, siga estos pasos:
 
    Aparecerá la lista de campos personalizados que se muestran en la interfaz para el esquema.
 
-1. Haga clic en el botón **[!UICONTROL Vista previa]** para mostrar los campos personalizados en una pantalla de ejemplo.
+1. Haga clic en el botón **[!UICONTROL Previsualización]** para mostrar los campos personalizados en una pantalla de ejemplo.
 
    ![](assets/custom-fields-edit2.png)
 

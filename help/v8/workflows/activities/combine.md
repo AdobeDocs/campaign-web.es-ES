@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Combinar
 description: Aprenda a utilizar la actividad de flujo de trabajo Combinar
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 64%
 >title="Actividad de combinación"
 >abstract="La actividad **Combinar** permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios destinatarios."
 
-La actividad **Combinar** es una actividad **Segmentación**. Esta actividad le permite realizar la segmentación de la población entrante. Puede combinar varias poblaciones, excluir parte de ellas o mantener solo los datos comunes a varios objetivos. Estos son los tipos de segmentación disponibles:
+La actividad **Combinar** es una actividad **Segmentación**. Esta actividad le permite realizar la segmentación de la población entrante. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios destinatarios. Estos son los tipos de segmentación disponibles:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* **Union** reagrupa el resultado de varias actividades en un solo destino.
-* La **intersección** mantiene solamente los elementos comunes a las diferentes poblaciones de entrada de la actividad.
+* La **Unión** reagrupa el resultado de varias actividades en un solo destinatario.
+* La **Intersección** solo mantiene los elementos comunes a las diferentes poblaciones entrantes de la actividad.
 * La **Exclusión** excluye los elementos de una población según determinados criterios.
 
 ## Configuración de la actividad de combinación {#combine-configuration}

@@ -4,10 +4,10 @@ title: Configuración de la entrega
 description: Obtenga información sobre cómo configurar las opciones de entrega en Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3449'
-ht-degree: 43%
+source-wordcount: '3516'
+ht-degree: 44%
 
 ---
 
@@ -101,7 +101,7 @@ El campo **[!UICONTROL Importancia del destinatario]** es una fórmula que se us
 >title="Configuración del público del envío"
 >abstract="Seleccione una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. También puede definir los parámetros de exclusión del envío."
 
-En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información sobre las asignaciones de destino](../audience/targeting-dimensions.md).
+En esta sección, puede seleccionar una **asignación de destino** entre las disponibles. Las asignaciones de destino se definen en la consola de la versión 8 de Adobe Campaign. La asignación de destino es el tipo de datos que administra una operación. Permite definir la población objetivo: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. [Más información acerca de las asignaciones de destino](../audience/targeting-dimensions.md).
 
 En el campo **[!UICONTROL Exclusión]**, puede seleccionar excluir perfiles que ya no desean que se les contacte o que están en cuarentena. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
@@ -159,7 +159,7 @@ También puede definir las etiquetas compartidas con la herramienta de análisis
 
 >[!NOTE]
 >
->Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=es#external-account-ac){target="_blank"}.
+>Las funcionalidades de Web Analytics se configuran en la consola del cliente de Campaign. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Reintentos {#retries}
 
@@ -418,7 +418,7 @@ Los valores se codifican automáticamente si es necesario.
 >title="Variables"
 >abstract="Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido del envío y los flujos de trabajo."
 
-Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido de la entrega y los flujos de trabajo. Las variables almacenadas se utilizan para establecer valores que permanecen constantes en todos los mensajes dentro de la entrega. También se pueden configurar en plantillas de envío.
+Puede añadir variables al envío, que pueden ser útiles para el seguimiento y la personalización. Se puede acceder a estas variables desde el contenido del envío y los flujos de trabajo. Las variables almacenadas se utilizan para establecer valores que permanecen constantes en todos los mensajes dentro de la entrega. También se pueden configurar en plantillas de envío.
 
 Para agregar una variable, vaya a la pestaña **[!UICONTROL Variables]**, como se muestra a continuación.
 

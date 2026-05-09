@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 19%
 
 ---
@@ -184,7 +184,7 @@ Puede probar la renderización de cualquier plantilla de envío, ya se cree desd
 
 1. Alterne entre los distintos perfiles para obtener una representación personalizada del mensaje según el perfil seleccionado. También puede ajustar el nivel de zoom y elegir la vista de escritorio o la vista móvil.
 
-[Más información sobre la previsualización de contenido](../preview-test/preview-content.md)
+   [Más información sobre la previsualización de contenido](../preview-test/preview-content.md)
 
    ![Vista previa de contenido simulado](assets/templates-stimulate.png){zoomable="yes"}
 

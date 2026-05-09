@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 15%
 
 ---
@@ -23,7 +23,7 @@ Los perfiles de prueba se utilizan para enviar pruebas y validar el contenido y 
 
 ➡️ [Descubra esta función en vídeo](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=es){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 Los pasos para enviar pruebas a perfiles de prueba se detallan en [esta sección](../preview-test/test-deliveries.md#test-profiles).
 
@@ -112,4 +112,4 @@ El perfil de prueba que acaba de crear ya está listo para utilizarse para envia
 
 Obtenga información sobre cómo crear y administrar perfiles de prueba mediante la interfaz de usuario web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442898?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

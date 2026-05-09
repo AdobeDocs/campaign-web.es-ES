@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 29%
+source-wordcount: '1266'
+ht-degree: 30%
 
 ---
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Selección de un público existente
 description: Obtenga información sobre cómo seleccionar un público
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 18%
 
 ---

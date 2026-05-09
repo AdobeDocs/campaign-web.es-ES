@@ -2,10 +2,10 @@
 title: Indicadores clave de rendimiento
 description: Descubra cómo comprender los indicadores de rendimiento clave
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 38%
+source-wordcount: '1204'
+ht-degree: 37%
 
 ---
 

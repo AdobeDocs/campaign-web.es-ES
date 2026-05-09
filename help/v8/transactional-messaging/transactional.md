@@ -3,9 +3,9 @@ audience: end-user
 title: Mensajería transaccional
 description: Acerca de la mensajería transaccional con Adobe Campaign Web
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 13%
 
 ---

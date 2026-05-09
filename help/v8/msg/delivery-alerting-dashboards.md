@@ -3,10 +3,10 @@ audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 22%
+source-wordcount: '1130'
+ht-degree: 27%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >title="Paneles de control de alertas de envío"
 >abstract="Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre la ejecución de sus envíos. Los paneles de control de alertas de envío le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas."
 
-Los paneles de alertas de entrega le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellos desde el menú **Alerta de entrega** del panel de navegación izquierdo, en la pestaña **Paneles**.
+Los paneles de control de alertas de envío le permiten especificar quién recibirá alertas por correo electrónico, elegir y configurar los criterios de alerta que se utilizarán para enviar esas alertas y acceder al historial de todas las notificaciones enviadas. Se puede acceder a ellos desde el menú **Alerta de entrega** del panel de navegación izquierdo, en la pestaña **Paneles**.
 
 ![Captura de pantalla que muestra la lista de paneles de alertas en el menú Alerta de entrega.](assets/alerting-dashboard-list.png)
 
@@ -55,7 +55,7 @@ Para crear un panel de envío, siga estos pasos:
 
    Obtenga más información acerca de permisos y grupos de operadores en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
-1. En la sección **Criterios de alerta de envío**, agregue los criterios que desee utilizar para enviar alertas. Elija entre criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas. [Aprenda a trabajar con criterios](../msg/delivery-alerting-criteria.md)
+1. En la sección **Criterios de alerta de envío**, agregue los criterios que desee utilizar para enviar alertas. Elija entre los criterios predefinidos o cree sus propios criterios para adaptarlos a necesidades específicas. [Aprenda a trabajar con criterios](../msg/delivery-alerting-criteria.md)
 
 1. Los criterios tienen valores de parámetro predeterminados que definen cómo se deben aplicar. Puede cambiar estos valores para adaptarlos a sus necesidades desde la sección **Parámetros de criterios**.
 

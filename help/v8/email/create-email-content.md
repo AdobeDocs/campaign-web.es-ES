@@ -3,9 +3,9 @@ audience: end-user
 title: Diseñar correos electrónicos en el Diseñador de correo electrónico
 description: Aprenda a diseñar el contenido de sus correos electrónicos desde cero
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
@@ -90,7 +90,7 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
    Haga clic en la ficha **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realizará un seguimiento. Modifique su **[!UICONTROL Tipo de seguimiento]** o **[!UICONTROL Etiqueta]** y agregue **[!UICONTROL Categorías]** si es necesario.
 
-[Más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
+   [Más información sobre los vínculos y el seguimiento de mensajes](message-tracking.md)
 
    ![Captura de pantalla que muestra la pestaña de vínculos en el Designer de correo electrónico.](assets/email_designer-links.png){zoomable="yes"}
 
@@ -112,4 +112,4 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizarlo y probarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453568/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

@@ -3,10 +3,10 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 32%
+source-wordcount: '579'
+ht-degree: 39%
 
 ---
 
@@ -85,7 +85,7 @@ El informe **Estadísticas generales** presenta datos para las notificaciones pu
 >title="Exclusiones push"
 >abstract="El gráfico y la tabla **Exclusiones** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje."
 
-El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los distintos motivos que impidieron que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+El gráfico y la tabla **[!UICONTROL Exclusiones]** muestran los distintos motivos que impedían que los perfiles de usuario, que se excluyeron de los perfiles de destino, recibieran el mensaje. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![Esta captura de pantalla muestra el gráfico y la tabla Exclusiones, que muestran motivos que impiden que los perfiles de usuario excluidos reciban mensajes.](assets/reporting_push_6.png){zoomable="yes"}
 
@@ -96,6 +96,6 @@ El gráfico y la tabla **[!UICONTROL Exclusions]** muestran los distintos motivo
 >title="Informe de rendimiento del envío"
 >abstract="El informe Rendimiento del envío presenta información detallada sobre el rendimiento del envío de toda la plataforma dentro de un período de tiempo especificado."
 
-El informe **Rendimiento de entrega** presenta información detallada con respecto al rendimiento de entrega de toda la plataforma dentro de un intervalo de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
+El informe **Rendimiento del envío** presenta información detallada sobre el rendimiento del envío de toda la plataforma en un período de tiempo especificado. La métrica principal utilizada para medir la velocidad de envío de mensajes es el número de mensajes enviados por hora.
 
 ![Esta captura de pantalla muestra el informe Rendimiento de entrega, que proporciona detalles sobre la velocidad de entrega de mensajes de la plataforma dentro de un intervalo de tiempo especificado.](assets/reporting_push_2.png){zoomable="yes"}

@@ -3,7 +3,7 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 53%

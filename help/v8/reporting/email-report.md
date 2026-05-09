@@ -3,9 +3,9 @@ audience: end-user
 title: Informes de envío de correo electrónico
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío por correo electrónico
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2481'
 ht-degree: 39%
 
 ---
@@ -75,7 +75,7 @@ El gráfico de **[!UICONTROL estadísticas de envío]** detalla el éxito de su 
 >title="Causas de exclusión de entrega"
 >abstract="El gráfico y la tabla **Causas de exclusión** muestran el desglose por regla de mensajes rechazados durante la preparación del envío."
 
-El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran el desglose por regla de mensajes rechazados durante la preparación de la entrega. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+El gráfico y la tabla **[!UICONTROL Causas de exclusión]** muestran el desglose por regla de mensajes rechazados durante la preparación del envío. Las reglas de exclusión se detallan en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![Captura de pantalla de la tabla y el gráfico de causas de exclusión](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -322,7 +322,7 @@ El gráfico **[!UICONTROL Desglose de clics a lo largo del tiempo]** contiene lo
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Actividades del usuario"
->abstract="El gráfico **Actividades de usuario** muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el período de tiempo para el que desea obtener los datos: último día, última hora o últimos 30 minutos."
+>abstract="El gráfico **Actividades del usuario** muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el período de tiempo para el que desea obtener los datos: último día, última hora o últimos 30 minutos."
 
 El informe **[!UICONTROL Actividades de usuario]** muestra el desglose de aperturas y clics en forma de gráfico. Puede elegir el período de tiempo para el que desea obtener los datos: último día, última hora o últimos 30 minutos.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Uso de la actividad Señal externa
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Señal externa
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 10%
+source-wordcount: '411'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,7 @@ La actividad **Señal externa** es una actividad **Control de flujo**. Permite a
 
 >[!NOTE]
 >
->En esta página se explican los pasos principales para configurar una actividad **[!UICONTROL Señal externa]** en la interfaz de usuario web de Campaign y almacenarla en déclencheur desde otro flujo de trabajo o una llamada de API. Encontrará información detallada sobre cómo almacenar en déclencheur un flujo de trabajo, prácticas recomendadas y cómo trabajar con las API de Campaign en [Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>En esta página se explican los pasos principales para configurar una actividad **[!UICONTROL Señal externa]** en la interfaz de usuario web de Campaign y almacenarla en déclencheur desde otro flujo de trabajo o una llamada de API. Encontrará información detallada sobre cómo almacenar en déclencheur un flujo de trabajo, prácticas recomendadas y cómo trabajar con las API de Campaign en [Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Siga estos pasos para configurar la actividad **Señal externa** y déclencheur su ejecución:
 

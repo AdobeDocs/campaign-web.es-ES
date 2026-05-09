@@ -3,10 +3,10 @@ audience: end-user
 title: Monitorización de los registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 55%
+source-wordcount: '429'
+ht-degree: 58%
 
 ---
 
@@ -40,13 +40,13 @@ Se muestran todos los pasos, advertencias y errores de validación. Los iconos d
 * El icono amarillo indica un error de procesamiento no crítico.
 * El icono rojo indica un error crítico que impide realizar el envío. Deben corregirse los errores críticos para que se realice la entrega.
 
-![&#x200B; La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
+![ La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
 
 ## Entregas {#deliveries-tab}
 
 La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
-![&#x200B; pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
+![ pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusiones {#exclusion-tab}
 
