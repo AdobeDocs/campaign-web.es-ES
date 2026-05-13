@@ -3,16 +3,19 @@ audience: end-user
 title: Añadir un vínculo a la página espejo
 description: Aprenda a añadir y administrar el vínculo a la página espejo
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 16%
+source-wordcount: 397
+ht-degree: 19%
 
 ---
 
 # Página espejo {#mirror-page}
 
-La página espejo es una versión en línea del correo electrónico. Añadir un vínculo a la página espejo es una buena práctica para el marketing por correo electrónico. Los usuarios pueden acceder a la página espejo de un correo electrónico, por ejemplo, si experimentan problemas de procesamiento o imágenes rotas al verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en medios sociales.
+La página espejo es una versión en línea de su correo electrónico. Añadir un vínculo a la página espejo es una buena práctica para el marketing por correo electrónico. Los usuarios pueden acceder a la página espejo de un correo electrónico, por ejemplo, si experimentan problemas de procesamiento o imágenes rotas al verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en medios sociales.
 
 La página espejo generada por Adobe Campaign incluye todos los datos de personalización.
 

@@ -1,9 +1,13 @@
 ---
 title: Administrar cuenta externa
 description: Obtenga información sobre cómo configurar cuentas externas de CRM
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
+TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: 863
 ht-degree: 3%
 
 ---
@@ -147,4 +151,3 @@ Para configurar la cuenta externa de Salesforce para que funcione con Adobe Camp
    Para reemplazar valores Adobe Campaign por valores Salesforce, habilite la opción **[!UICONTROL Reemplazar]**.
 
    ![Captura de pantalla que muestra los campos de configuración de cuenta externa de Salesforce CRM.](assets/crm-salesforce-5.png)
-

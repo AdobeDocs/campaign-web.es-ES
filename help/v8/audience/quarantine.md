@@ -3,10 +3,13 @@ audience: end-user
 title: Acerca de la cuarentena
 description: Comprensión de la administración de direcciones en cuarentena
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/HRR7lWqh4GbMQiZ-Wm7EHr60452-HusFd0e4cG2G11E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: 431
+ht-degree: 2%
 
 ---
 
@@ -24,13 +27,13 @@ La cuarentena solo se aplica a una **dirección de correo electrónico**, un **n
 
 La cuarentena es el método usado para **administrar direcciones no válidas en las entregas**.
 
-Si una entrega tiene una alta tasa de direcciones no válidas, puede considerarse correo no deseado. Incluir en la lista de bloqueados La administración de esas direcciones con cuarentena ayuda a evitar que los proveedores de Internet las. Esto es importante para mantener su reputación.
+Si una entrega tiene una alta tasa de direcciones no válidas, puede considerarse correo no deseado. La administración de esas direcciones con cuarentena ayuda a evitar que los proveedores de Internet las. Esto es importante para mantener su reputación.
 
 Cuando una dirección está en cuarentena en Adobe Campaign, el perfil se excluye automáticamente del destinatario durante el análisis de la entrega.
 
 La cuarentena reduce los costes de envío de SMS al excluir de las entregas los números de teléfono incorrectos.
 
-Obtenga más información acerca de las cuarentenas en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
+Obtenga más información acerca de las cuarentenas en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
 
 ## Por qué se envía una dirección a cuarentena {#quarantines-why}
 
@@ -38,10 +41,10 @@ Muchas razones pueden enviar una dirección a cuarentena:
 
 * Para SMS, números de teléfono erróneos
 * En el caso de los SMS, cuando el perfil responde a un mensaje SMS con una palabra clave como &quot;STOP&quot;
-* En el caso del correo electrónico, cuando el mensaje se clasifica como correo no deseado. El mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. Incluir en la lista de bloqueados A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado.
+* En el caso del correo electrónico, cuando el mensaje se clasifica como correo no deseado. El mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado.
 * Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno, si la dirección no existe o si el servidor de correo electrónico no está disponible.
 
-Obtenga más información acerca de los errores de entrega en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
+Obtenga más información acerca de los errores de entrega en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Dónde encontrar las direcciones en cuarentena {#quarantines-where}
 
@@ -57,4 +60,4 @@ Para cada entrega, puede consultar el Delivery summary report. Muestra el númer
 
 ![Informe de resumen de entrega que muestra direcciones en cuarentena](assets/quarantine_delivery.png){zoomable="yes"}
 
-Puede explorar más opciones para administrar las direcciones en cuarentena en la consola de Adobe Campaign. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).
+Puede explorar más opciones para administrar las direcciones en cuarentena en la consola de Adobe Campaign. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

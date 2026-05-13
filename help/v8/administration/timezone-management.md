@@ -1,9 +1,13 @@
 ---
 title: Administración de husos horarios
 description: Descubra cómo la interfaz de usuario web de Adobe Campaign muestra valores de fecha y hora en función del explorador, el operador, el flujo de trabajo y las zonas horarias del servidor.
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
+TQID: https://experienceleague.adobe.com/Fn3O9rjM5mkBzfTZbKeV5aZUF2XmfQ87JGUZP7V-RR8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 374
 ht-degree: 4%
 
 ---

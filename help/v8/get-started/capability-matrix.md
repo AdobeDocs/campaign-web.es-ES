@@ -3,9 +3,14 @@ audience: end-user
 title: Matriz de funciones de la interfaz de usuario web y consola de cliente de Campaign
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/-7-B1Z-kUsbPoNU87RmyG6FUA0Cw5KGtyc4h2MZi-rY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: a658c786-869b-4194-a780-2594d663addaid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: ce296ecd-3d06-45ab-83c3-37214e8ce31cid: d1110311-2ca4-442b-be37-088a6db845eeid: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48id: ee3dfd63-9a21-4961-9f24-ea3385284a21id: f391046b-0cf3-4e76-bd3b-97fe06654506id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: 2548
 ht-degree: 100%
 
 ---
@@ -52,7 +57,7 @@ Adobe Campaign le permite crear, diseñar y compartir páginas de destino. La ex
 
 Como consecuencia, en la consola del cliente de Campaign, no se puede editar, actualizar ni modificar una página de destino creada en la interfaz web, y a la inversa. Los siguientes tipos de aplicaciones web no están disponibles en la interfaz de usuario web de Campaign. Sin embargo, se pueden ver en la lista de páginas de destino. Utilice los vínculos proporcionados para examinar la documentación de la versión 7 de Campaign Classic y obtener más información sobre estas aplicaciones web:
 
-* **Aplicaciones web**. Adobe Campaign permite crear y publicar aplicaciones web dinámicas e interactivas con datos precargados de la base de datos y contenido adaptado a los derechos del usuario conectado. Esta funcionalidad solo está disponible en la consola de cliente. [Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=es){target="_blank"}
+* **Aplicaciones web**. Adobe Campaign permite crear y publicar aplicaciones web dinámicas e interactivas con datos precargados de la base de datos y contenido adaptado a los derechos del usuario conectado. Esta funcionalidad solo está disponible en la consola de cliente. [Obtenga más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=es){target="_blank"}
 * **Formularios web**. Las páginas web y de destino concebidas en la consola del cliente son visibles en la interfaz de usuario web de Campaign, pero no se pueden editar ni modificar. Algunas opciones pueden diferir entre el diseñador de páginas web de la consola del cliente y el diseñador de páginas de destino que se incluyen con la interfaz de usuario web de Campaign. [Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target="_blank"}
 * **Encuestas en línea**. Puede crear encuestas en línea y recopilar respuestas solo de la consola del cliente. Esta funcionalidad no está disponible en la interfaz de usuario web de Campaign. [Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html?lang=es){target="_blank"}
 
@@ -73,7 +78,7 @@ Los trabajos de importación y exportación en un solo paso que se describen en 
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=es){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -106,16 +111,16 @@ Se pueden seleccionar reglas de tipología para un envío o una plantilla de env
 Utilice los vínculos proporcionados para examinar la documentación de la versión 8 de Campaign (consola de cliente) y obtener más información sobre las reglas de tipología:
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * Creación de reglas de fatiga/presión. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=es){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=es){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * Simulación de campaña. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=es){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## Flujos de trabajo {#wf-capabilities}
@@ -183,7 +188,7 @@ La administración de datos combina un conjunto de actividades para resolver pro
 
 ### Configuración del acceso de datos federado (FDA) {#fda}
 
-La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es){target="_blank"}
+La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Aprobaciones {#approvals-capabilities}
 

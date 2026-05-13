@@ -3,9 +3,11 @@ audience: end-user
 title: Definición de un estilo para los vínculos
 description: Aprenda a definir un estilo para los vínculos
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/GW1s2IJjSH-7ZygfvRCNzzfMZIIWibjPBvmr69sT6LU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 170
 ht-degree: 43%
 
 ---

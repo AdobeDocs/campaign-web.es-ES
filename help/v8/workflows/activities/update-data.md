@@ -3,9 +3,12 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Actualizar datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Actualización de datos
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/XEGIeWi9D0dUYRFTD-fRY3P2BEpbOTvmm9aD06uq8RA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 480
 ht-degree: 22%
 
 ---

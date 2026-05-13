@@ -3,9 +3,12 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cargar archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cargar archivo
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/-7DovWUpzIiPRL7E-qtcD5wZ6EHg1BUA9VwJwNQo9A4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: 1281
 ht-degree: 36%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 36%
 La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilice esta actividad para trabajar con perfiles y datos almacenados en un archivo externo. Los perfiles y los datos no se agregan a la base de datos, pero todos los campos del archivo de entrada están disponibles para [personalización](../../personalization/gs-personalization.md), para actualizar perfiles o cualquier otra tabla.
 
 >[!NOTE]
->Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Con la consola Interfaz de usuario web, puede cargar archivos de hasta un tamaño máximo de 50 MB. En la consola del cliente, la actividad Data Loading tiene un límite de 150 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=es){target="_blank"}
+>Los formatos de archivo admitidos son: texto (TXT) y valor separado por comas (CSV). Con la consola Interfaz de usuario web, puede cargar archivos de hasta un tamaño máximo de 50 MB. En la consola del cliente, la actividad Data Loading tiene un límite de 150 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Esta actividad se puede usar con una actividad [Reconciliation](reconciliation.md) para vincular datos no identificados a recursos existentes. Por ejemplo, la actividad **Cargar archivo** se puede colocar antes de una actividad **Reconciliación** si se importan datos no estándar en la base de datos.
 

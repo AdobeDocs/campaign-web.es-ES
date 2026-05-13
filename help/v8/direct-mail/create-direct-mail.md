@@ -1,16 +1,18 @@
 ---
 audience: end-user
-title: Creación de un envío de correo directo
+title: Creación de una entrega de correo directo
 description: Obtenga información sobre cómo crear una entrega de correo directo con Adobe Campaign Web
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 22%
+source-wordcount: 504
+ht-degree: 24%
 
 ---
 
-# Creación de un envío de correo directo {#create-direct-mail}
+# Creación de una entrega de correo directo {#create-direct-mail}
 
 Puede crear una entrega de correo postal independiente o crear una entrega de correo directo en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo postal independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
@@ -36,7 +38,7 @@ Para crear un nuevo envío de correo postal independiente, siga estos pasos:
    * **[!UICONTROL Naturaleza]**: especifique la naturaleza de la entrega con fines de clasificación.
    +++
 
-1. Haga clic en el botón **[!UICONTROL Seleccionar audiencia]** para segmentar una audiencia existente o crear la suya propia.
+1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio.
 
    * [Obtenga información sobre cómo seleccionar una audiencia existente](../audience/add-audience.md)
    * [Obtenga información sobre cómo crear una audiencia nueva](../audience/one-time-audience.md)

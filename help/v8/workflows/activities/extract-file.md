@@ -3,9 +3,12 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Extraer archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Extraer archivo
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/gAN2-cZkP5QpQoZ-V5-TyAf-SyWi9l-sH-ZTeGbIAVM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: 951
 ht-degree: 17%
 
 ---
