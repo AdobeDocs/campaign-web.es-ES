@@ -4,8 +4,10 @@ title: Uso de la actividad Test workflow
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Prueba
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 TQID: https://experienceleague.adobe.com/jnAhePpujy5tIqTwJEND6sogE5Qocgq7yFdml38wPgs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 382

@@ -4,8 +4,11 @@ title: Informes de correo directo
 description: Obtenga información sobre cómo acceder y utilizar los informes de correo directo
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 TQID: https://experienceleague.adobe.com/1HplEC3KMsKLbAMeYgCLlFo5oIJI2gJUhksr2mmOv5o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 710

@@ -4,8 +4,10 @@ title: Crear fragmentos de contenido
 description: Aprenda a crear fragmentos de contenido
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 TQID: https://experienceleague.adobe.com/ZUkswLXR1inqS45Gt9H7BlaJGkMQbTc22RM9vz5k174
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1038
@@ -142,7 +144,7 @@ Para eliminar un fragmento de contenido, siga estos pasos:
 
 >[!CAUTION]
 >
->Al eliminar un fragmento, se actualizan los envíos y las plantillas que lo utilizan. El fragmento se eliminará del contenido, pero se seguirá haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, interrumpa la herencia antes de eliminar el fragmento [ tal como se detalla en esta sección ](use-visual-fragments.md#break-inheritance).
+>Al eliminar un fragmento, se actualizan los envíos y las plantillas que lo utilizan. El fragmento se eliminará del contenido, pero se seguirá haciendo referencia a él. Para mantener el contenido del fragmento en esas entregas y plantillas, interrumpa la herencia antes de eliminar el fragmento [&#x200B; tal como se detalla en esta sección &#x200B;](use-visual-fragments.md#break-inheritance).
 
 ### Archivar un fragmento de contenido {#archive}
 

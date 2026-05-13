@@ -4,8 +4,10 @@ title: Informes de campaña para el canal SMS
 description: Comprensión de los informes de campaña del canal SMS
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 532

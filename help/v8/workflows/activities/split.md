@@ -4,7 +4,8 @@ title: Uso de la actividad del flujo de trabajo División
 description: Aprenda a utilizar la actividad del flujo de trabajo División
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 TQID: https://experienceleague.adobe.com/EjGgtbMOx1hN-tlD56Fj6SsmGt3jI-rC7ehiKtr1yy4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1076

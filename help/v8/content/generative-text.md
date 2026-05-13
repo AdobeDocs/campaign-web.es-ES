@@ -4,8 +4,11 @@ title: Contenido generativo
 description: Aprenda a generar experiencias de contenido de texto con el asistente de IA
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1462

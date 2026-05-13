@@ -3,8 +3,10 @@ title: Administrar cuenta externa
 description: Obtenga información sobre cómo configurar cuentas externas
 exl-id: 99648377-112b-428a-8faf-5268d730f19a
 TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 213

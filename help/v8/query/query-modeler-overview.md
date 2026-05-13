@@ -4,7 +4,8 @@ title: Trabajar con el modelador de consultas
 description: Aprenda a trabajar con el modelador de consultas web de Adobe Campaign.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 TQID: https://experienceleague.adobe.com/lT-df-KAmZo0z77wk9iB882eSxmrW60-a-WYnHd0RzE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 892

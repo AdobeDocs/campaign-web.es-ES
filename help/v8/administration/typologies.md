@@ -4,8 +4,12 @@ title: Trabajo con reglas empresariales (tipologías)
 description: Aprenda a trabajar con tipologías y reglas de tipología para controlar, filtrar y monitorizar la entrega de envíos.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 TQID: https://experienceleague.adobe.com/LUgINZylWuInxi4LabDWk5-xp6wAv01gsNYT8dnNdx8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1500

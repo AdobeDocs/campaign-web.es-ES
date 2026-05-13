@@ -4,9 +4,12 @@ title: Principios clave de la creación de un flujo de trabajo
 description: Aprenda principios clave de los flujos de trabajo con la web de Adobe Campaign
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 TQID: https://experienceleague.adobe.com/xP4Ed9-RkYwwlb5M9-MOhoB60-f1PnqfGf-7fmWy-oY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 301

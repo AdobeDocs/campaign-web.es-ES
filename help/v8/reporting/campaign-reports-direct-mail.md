@@ -4,9 +4,13 @@ title: Informes de campaña para el canal de correo postal
 description: Comprender los informes de campaña del canal de correo directo
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 TQID: https://experienceleague.adobe.com/QKxR-bOuqjwx6Rmn0ncEESNE-A1-1yH2bDFPhzfDPXE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 576

@@ -3,9 +3,12 @@ title: Administración de enumeraciones
 description: Aprenda a trabajar con enumeraciones
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 TQID: https://experienceleague.adobe.com/NkMLNqbuSnsKYhzseiS6EiThFcFyVM-AGFTVJEP3S-0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 646

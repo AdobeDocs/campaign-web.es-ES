@@ -4,8 +4,10 @@ title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 2199

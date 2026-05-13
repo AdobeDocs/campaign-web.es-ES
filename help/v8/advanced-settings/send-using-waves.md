@@ -5,8 +5,10 @@ description: Obtenga más información sobre la configuración de envíos en Cam
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 TQID: https://experienceleague.adobe.com/Pfhv5YT7hzeM-rEPpa0Brj0ir4PfB2IarnIsHhhPgcU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 815

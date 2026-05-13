@@ -4,8 +4,12 @@ title: Añadir metadatos al contenido del correo electrónico
 description: Aprenda a mejorar la legibilidad y accesibilidad del contenido del correo electrónico con metadatos
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 TQID: https://experienceleague.adobe.com/sFEZ5L0FKiKvjqt6YX6op20hDr8cHGFJR0B4UtxL02c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 326

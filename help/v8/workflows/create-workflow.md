@@ -4,8 +4,10 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Obtenga información sobre cómo crear un flujo de trabajo con Adobe Campaign Web
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 TQID: https://experienceleague.adobe.com/fvzcmlyfvj6XhDjAMl23jjP5hYOEfLF9uWr-XUP3LLU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 806

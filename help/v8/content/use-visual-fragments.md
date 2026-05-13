@@ -5,7 +5,8 @@ description: Aprenda a añadir fragmentos visuales a los correos electrónicos
 badge: label="Disponibilidad limitada"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 TQID: https://experienceleague.adobe.com/0ToLS9KSS60CgXGExzD633W-tSMQy3aOAX2byjsw-ck
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 623

@@ -4,9 +4,13 @@ title: Administración de recursos con Adobe Experience Manager as a Cloud Servi
 description: Obtenga información sobre cómo administrar contenido con Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 615
@@ -20,7 +24,7 @@ ht-degree: 6%
 
 La integración de la interfaz web de Adobe Campaign con Adobe Experience Manager permite una administración optimizada del contenido y los formularios de los envíos de correos electrónicos directamente en la plataforma de Adobe Experience Manager.
 
-![](assets/do-not-localize/book.png)[Más información sobre Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [Más información sobre Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## Crear una plantilla en [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 

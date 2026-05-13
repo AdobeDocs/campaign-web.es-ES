@@ -4,8 +4,10 @@ title: Uso de los componentes de contenido del diseñador de correo electrónico
 description: Aprenda a utilizar los componentes de contenido en los correos electrónicos
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1402

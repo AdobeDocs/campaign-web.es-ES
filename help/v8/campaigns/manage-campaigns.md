@@ -4,8 +4,10 @@ title: Introducción a las campañas
 description: Obtenga información sobre cómo empezar con campañas en canales múltiples
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 TQID: https://experienceleague.adobe.com/NdMs2Mumy0egiadRyHl-WPswHGxcWhhnPH7glT6xstM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1002

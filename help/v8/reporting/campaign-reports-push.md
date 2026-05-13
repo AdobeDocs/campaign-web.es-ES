@@ -4,8 +4,10 @@ title: Informes de campaña para el canal push
 description: Comprender los informes de campaña del canal push
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 TQID: https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 545

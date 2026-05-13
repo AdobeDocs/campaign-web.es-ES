@@ -5,7 +5,8 @@ description: Aprenda a trabajar con el modelador de consultas.
 hide: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 TQID: https://experienceleague.adobe.com/ho7HNrKlPzv5i-ar4T-GZpVQPLpHzzbH4xrAUdJAXYA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 180

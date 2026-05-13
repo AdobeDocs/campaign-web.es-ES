@@ -4,8 +4,10 @@ title: Envío de pruebas
 description: Obtenga información sobre cómo definir y enviar pruebas
 exl-id: b2677579-c95d-443d-b207-466af364c208
 TQID: https://experienceleague.adobe.com/ihLIbOoruy21sAEFjbSIwxXm96vOMz9FfiNegHLrmVo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1215

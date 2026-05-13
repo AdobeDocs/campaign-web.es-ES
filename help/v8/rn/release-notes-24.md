@@ -3,10 +3,20 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Notas de la versión de la interfaz de usuario web de Campaign 2024
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 TQID: https://experienceleague.adobe.com/N4YGqWeKVOfakNNxhRekN1TsH4vyLhYav47axHu5O08
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 2612
