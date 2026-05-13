@@ -3,9 +3,14 @@ audience: end-user
 title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 325
 ht-degree: 100%
 
 ---

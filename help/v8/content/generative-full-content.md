@@ -3,10 +3,16 @@ audience: end-user
 title: Contenido generativo
 description: Obtenga información sobre cómo generar experiencias de contenido completas con AI Assistant en Journey Optimizer.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 1%
+source-wordcount: 1626
+ht-degree: 2%
 
 ---
 

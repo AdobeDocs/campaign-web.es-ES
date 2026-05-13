@@ -3,9 +3,14 @@ audience: end-user
 title: Usar un grupo de reventado
 description: Aprenda a utilizar un grupo de reventado para su envío en la interfaz de usuario web de Campaign
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 4%
 
 ---
@@ -41,29 +46,29 @@ Para configurar un **[!UICONTROL grupo de reventado]**, ve a la configuración d
 * [Seleccionar perfiles de prueba](#select-test-profiles)
 * [Crear condición](#create-condition)
 
-[Captura de pantalla de la interfaz de configuración de grupos de reventado](assets/trap-group.png){zoomable="yes"}
+[Captura de pantalla de interfaz de configuración de grupo de reventado](assets/trap-group.png){zoomable="yes"}
 
 ### Seleccionar perfiles de prueba {#select-test-profiles}
 
 Cuando elija **Seleccionar perfiles de prueba**, use el botón **Agregar perfiles de prueba** como se muestra a continuación:
 
-[Agregar captura de pantalla del botón de perfil de prueba](assets/trap-no-test-profile.png){zoomable="yes"}
+[Captura de pantalla del botón Añadir perfil de prueba](assets/trap-no-test-profile.png){zoomable="yes"}
 
 Al hacer clic en el botón, puede acceder a los perfiles de prueba para agregarlos a su **[!UICONTROL grupo de captura]**. Seleccione los que desee utilizar.
 
 También puede crear nuevos perfiles de prueba. [Más información](#create-seed)
 
-[Seleccionar la captura de pantalla de la interfaz de perfiles de prueba](assets/trap-select-test-profiles.png){zoomable="yes"}
+[Captura de pantalla de interfaz Seleccionar perfiles de prueba](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 Después de confirmar los perfiles de prueba, compruebe que aparece el número correcto en **[!UICONTROL Grupo de reventado]**.
 
-[Captura de pantalla de confirmación de grupo de captura](assets/trap-check.png){zoomable="yes"}
+[Captura de pantalla de confirmación de grupo de reventado](assets/trap-check.png){zoomable="yes"}
 
 ### Crear condición {#create-condition}
 
 Con la opción **[!UICONTROL Crear condición]**, cree una consulta para definir los perfiles de prueba que desee utilizar:
 
-[Crear captura de pantalla de interfaz de condición](assets/trap-create-condition.png){zoomable="yes"}
+[Crear interfaz de condición, captura de pantalla](assets/trap-create-condition.png){zoomable="yes"}
 
 Su consulta se muestra en **[!UICONTROL Grupo de reventado]**.
 
@@ -73,7 +78,7 @@ Su consulta se muestra en **[!UICONTROL Grupo de reventado]**.
 
 Puede crear un nuevo **[!UICONTROL perfil de prueba]** desde la carpeta **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]**.
 
-[Crear captura de pantalla de navegación de perfil de prueba](assets/trap-create.png){zoomable="yes"}
+[Crear perfil de prueba - captura de pantalla](assets/trap-create.png){zoomable="yes"}
 
 Configure todas las opciones de su **[!UICONTROL perfil de prueba]** tal como lo haría para cualquier perfil:
 

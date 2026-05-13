@@ -3,9 +3,14 @@ audience: end-user
 title: Alertas de envío
 description: Aprenda a trabajar con las alertas de entrega.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/9HdZb1blsFVSi1LR7HQPVJk6zsiieySt3b2gnRCn5XQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: 718
 ht-degree: 24%
 
 ---

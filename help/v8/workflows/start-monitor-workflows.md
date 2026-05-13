@@ -3,9 +3,12 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+TQID: https://experienceleague.adobe.com/82in9AqdvERH39JBxOfB5B6yFjo9dFyVpvTRY3QxUCg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: 567
 ht-degree: 5%
 
 ---
@@ -61,7 +64,7 @@ En ambas pestañas, puede elegir las columnas mostradas y su orden, aplicar filt
 
 ## Comandos de ejecución de flujo de trabajo {#execution-commands}
 
-La barra de acciones de la esquina superior derecha proporciona comandos para administrar la ejecución del flujo de trabajo. Puede hacer lo siguiente:
+La barra de acciones de la esquina superior derecha proporciona comandos para administrar la ejecución del flujo de trabajo. Se puede:
 
 * **[!UICONTROL Iniciar]** / **[!UICONTROL Reanudar]** la ejecución del flujo de trabajo. Si el flujo de trabajo estaba en pausa, se reanuda. De lo contrario, se inicia y se activan las actividades iniciales.
 * **[!UICONTROL Pausar]** la ejecución del flujo de trabajo. A continuación, el flujo de trabajo adquiere el estado Paused. No se activan nuevas actividades hasta que se reanuda, pero las operaciones en curso no se suspenden.

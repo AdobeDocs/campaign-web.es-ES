@@ -3,9 +3,14 @@ audience: end-user
 title: Codifique su propio contenido de correo electrónico
 description: Aprenda a codificar su propio contenido de correo electrónico
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/PPrenfLb4utuqvAsrSitbtZzDHcCehzrOMK4R7L2EMw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: 131
 ht-degree: 16%
 
 ---

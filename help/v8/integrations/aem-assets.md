@@ -3,9 +3,14 @@ audience: end-user
 title: Administración de recursos con Adobe Experience Manager Assets as a Cloud Service
 description: Obtenga información sobre cómo administrar recursos con Adobe Experience Manager Assets as a Cloud Service
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/19ACKL1Wbosl3o2plsBkdlOZQtjK1meaH3k-UBoQ8UE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 494
 ht-degree: 3%
 
 ---

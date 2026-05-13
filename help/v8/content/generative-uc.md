@@ -2,9 +2,12 @@
 title: Casos de uso del Asistente de IA
 description: Descubra, a través de casos de uso, cómo utilizar el asistente de IA
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 1580057d519aa1c9b2822cefc7fcf4c363c7a7e6
+TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: 1244
 ht-degree: 0%
 
 ---

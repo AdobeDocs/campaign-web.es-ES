@@ -3,9 +3,12 @@ audience: end-user
 title: Creación de un envío de SMS
 description: Aprenda a crear y enviar SMS con la web de Adobe Campaign
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3BgrL0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: 552
 ht-degree: 39%
 
 ---

@@ -3,10 +3,15 @@ audience: end-user
 title: Introducción a las notificaciones push
 description: Aprenda a crear y enviar notificaciones push con la web de Adobe Campaign
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 206
+ht-degree: 98%
 
 ---
 
@@ -38,7 +43,7 @@ Para crear notificaciones push, tiene tres opciones:
 <img alt="Diseño de un envío push" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>Diseño de un envío push<strong></strong></a>
+<a href="content-push.md"><strong>Diseñar un envío push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -52,7 +57,7 @@ Para crear notificaciones push, tiene tres opciones:
 </td>
 <td>
 <a href="send-push.md">
-<img alt="Informe de envío push" src="assets/do-not-localize/push_report.jpeg">
+<img alt="Informe de envío de push" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
 <a href="send-push.md"><strong>Informe de envío push</strong></a>

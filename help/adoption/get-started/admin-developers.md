@@ -4,10 +4,47 @@ description: Este tutorial ofrece una descripción general de la funcionalidad c
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: b176928b105c1ce2f5fe4b87d5e92144af8a5259
+TQID: https://experienceleague.adobe.com/-hVxbMvBihOVGmmQxQ2eCpa-mL-yRWHX2J1vkSSMZaE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+  - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 10%
+source-wordcount: 3258
+ht-degree: 15%
 
 ---
 
@@ -43,7 +80,7 @@ Vínculo útil para empezar:
 
 Las tareas de administración y configuración se realizan en la consola del cliente. El primer paso es configurar su entorno.
 
-La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
+La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar su implementación, la consola de cliente de Campaign se puede implementar desde un explorador de internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
 
 En el siguiente vídeo se explica cómo descargar e instalar la consola del cliente de Adobe Campaign y administrar la conexión con la instancia.
 
@@ -71,7 +108,7 @@ Las prácticas de seguridad están profundamente arraigadas en nuestros procesos
 
 Adobe Campaign permite definir y administrar los derechos asignados a los usuarios. Estos permisos se definen combinando permisos de grupos de operadores, derechos asignados y permisos en carpetas.
 
-Como usuario de Campaign Standard que está realizando la transición a la versión 8 de Campaign, sus permisos y derechos de acceso siguen siendo los mismos. Adobe ha movido los grupos de seguridad a los grupos de operadores de Campaign v8 y los permisos por unidades organizativas se han trasladado a permisos de carpeta. Usuarios de Campaign   utilice su Adobe ID para conectarse a Campaign v8 y, a continuación, pueda utilizar el mismo inicio de sesión y contraseña que en Campaign Standard.
+Como usuario de Campaign Standard que está realizando la transición a la versión 8 de Campaign, sus permisos y derechos de acceso siguen siendo los mismos. Adobe ha movido los grupos de seguridad a los grupos de operadores de Campaign v8 y los permisos por unidades organizativas se han trasladado a permisos de carpeta. Los usuarios de Campaign utilizan su Adobe ID para conectarse a Campaign v8 y, a continuación, pueden utilizar el mismo inicio de sesión y contraseña que en Campaign Standard.
 
 Las [carpetas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} de la campaña son nodos en el árbol del explorador de la consola del cliente. Según su tipo, contienen ciertos tipos de datos. Los programas se materializan mediante carpetas en Campaign v8. Puede crear carpetas y administrar permisos para restringirles el acceso. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
@@ -151,7 +188,7 @@ De forma similar a las capacidades disponibles en Campaign Standard, puede crear
 
 ## Flujos de trabajo y administración de datos {#acs-gs-admin-data-management}
 
-Al igual que con Adobe Campaign Standard, Adobe Campaign v8 incluye un módulo de flujo de trabajo que le permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos, incluida la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujos de trabajo se ejecuta y rastrea estos procesos. Obtenga información sobre cómo iniciar flujos de trabajo en Campaign v8 en [esta documentación](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
+Al igual que con Adobe Campaign Standard, Adobe Campaign v8 incluye un módulo de flujo de trabajo que le permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos que incluyen la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos. Obtenga información sobre cómo iniciar flujos de trabajo en Campaign v8 en [esta documentación](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
 
 Consulte los vínculos a otros recursos útiles a continuación:
 
@@ -279,8 +316,8 @@ Con Campaign v8, como administrador, puede definir bloques de contenido dinámic
 Vínculos útiles:
 
 * [Introducción a la personalización](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
-* [Usar bloques de personalización](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
-* [Crear contenido condicional](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [Utilizar bloques de personalización](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [Creación de contenido condicional](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
 * [Fuentes de datos de Personalization](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
 
 ### Plantillas de envíos {#acs-gs-templates}
@@ -295,7 +332,7 @@ Como administrador, es responsable de crear y mantener reglas de tipología para
 
 Al realizar la transición a Campaign v8 desde un entorno de Campaign Standard, las reglas de tipografía se mueven a Campaign v8.
 
-En Campaign v8, las reglas de tipología incluyen un complemento de optimización de campaña específico. Este módulo permite controlar, filtrar y monitorizar la entrega de envíos. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados satisfagan las necesidades y expectativas de los clientes y las políticas de comunicación de la empresa. Obtenga más información en la [Documentación de reglas de tipología](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
+En Campaign v8, las reglas de tipología incluyen un complemento de optimización de campaña específico. Este módulo permite controlar, filtrar y monitorizar la entrega de envíos. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía. Obtenga más información en la [Documentación de reglas de tipología](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Administración de cuarentena {#acs-gs-admin-quarantine}
 

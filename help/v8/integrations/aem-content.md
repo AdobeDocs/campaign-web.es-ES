@@ -3,10 +3,18 @@ audience: end-user
 title: Administración de recursos con Adobe Experience Manager as a Cloud Service
 description: Obtenga información sobre cómo administrar contenido con Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 5%
+source-wordcount: 615
+ht-degree: 6%
 
 ---
 
@@ -86,10 +94,10 @@ Una vez que la plantilla de Experience Manager esté disponible en Adobe Campaig
 
 1. Si agregó contenido personalizado a la plantilla de Experience Manager, haga clic en **[!UICONTROL Simular contenido]** para obtener una vista previa del aspecto que tendrá el mensaje mediante perfiles de prueba.
 
-[Más información sobre la vista previa y los perfiles de prueba](../preview-test/preview-content.md)
+   [Más información sobre la vista previa y los perfiles de prueba](../preview-test/preview-content.md)
 
 1. Al ver la vista previa del mensaje, los elementos personalizados se sustituyen automáticamente por los datos correspondientes del perfil de prueba seleccionado.
 
    Si es necesario, agregue perfiles de prueba adicionales mediante el botón **[!UICONTROL Administrar perfiles de prueba]**.
 
-La entrega ya está listo para realizarse.
+Su envío está ahora listo para ejecutarse.

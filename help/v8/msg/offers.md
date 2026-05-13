@@ -3,9 +3,14 @@ audience: end-user
 title: Adición de ofertas en los mensajes
 description: Obtenga información sobre cómo añadir y enviar ofertas
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: 825
 ht-degree: 23%
 
 ---

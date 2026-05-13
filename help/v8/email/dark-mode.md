@@ -7,9 +7,23 @@ role: User
 level: Beginner, Intermediate
 keywords: modo oscuro, correo electrónico, color, editor
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/QE0TMgusTCuEYsVi2Gf8X2cV7tlvAJJw6-D-b8eXylM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: 1519
 ht-degree: 10%
 
 ---

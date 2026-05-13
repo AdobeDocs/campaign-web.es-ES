@@ -3,9 +3,14 @@ audience: end-user
 title: Uso de la actividad Servicios de suscripción
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Servicios de suscripción
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: 1135
 ht-degree: 28%
 
 ---

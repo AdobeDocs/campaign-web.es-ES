@@ -3,9 +3,14 @@ audience: end-user
 title: Acerca de los flujos de trabajo solo de lectura
 description: Descubra por qué los flujos de trabajo están en modo de solo lectura
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/7yCq55pTgMBqdDxeRXmvHeVQLeGCFUIaxCUcdJlmYik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 295
 ht-degree: 10%
 
 ---

@@ -3,9 +3,12 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Esperar
 description: Aprenda a utilizar la actividad de flujo de trabajo Esperar
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/pe-T3-3w5HaS0pNOZITNC1YS5hiJpj3H3P1eM0GmXb8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 47%
 
 ---

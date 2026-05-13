@@ -3,9 +3,12 @@ audience: end-user
 title: Introducción a los fragmentos de contenido
 description: Aprenda a crear con fragmentos de contenido
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/U-EF1-B9KZ1bbmh5Khlw-89zuo5garZiWeC-lHx130k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 379
 ht-degree: 58%
 
 ---

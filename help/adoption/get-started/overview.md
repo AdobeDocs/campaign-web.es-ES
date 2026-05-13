@@ -4,10 +4,31 @@ description: Conozca los pasos necesarios para empezar a utilizar la nueva aplic
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 29%
+source-wordcount: 1621
+ht-degree: 30%
 
 ---
 
@@ -136,7 +157,7 @@ Para que pueda realizar la transición sin problemas a Campaign v8, se han añad
 
 * **Páginas de destino**: se han introducido algunas mejoras en las páginas de destino de Campaign v8 para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../../v8/rn/release-notes.md#new-24-4) y la página de destino [documentación](../../v8/landing-pages/get-started-lp.md).
 
-* **Fragmentos visuales**: los fragmentos visuales son componentes visuales reutilizables a los que se puede hacer referencia en uno o varios envíos de correo electrónico o en plantillas de contenido. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. Esta funcionalidad se utiliza para la construcción previa de múltiples bloques de contenido personalizado que pueden ser utilizados por los usuarios de marketing para combinar rápidamente los contenidos de los mensajes en un proceso de diseño mejorado. [Más información](../../v8//content/use-visual-fragments.md)
+* **Fragmentos visuales**: los fragmentos visuales son componentes visuales reutilizables a los que se puede hacer referencia en uno o varios envíos de correo electrónico o en plantillas de contenido. Al modificar un fragmento, se actualiza todo el contenido que lo utiliza. Esta funcionalidad se utiliza para la construcción previa de múltiples bloques de contenido personalizado que pueden ser utilizados por los usuarios de marketing para combinar rápidamente los contenidos de correo electrónico en un proceso de diseño mejorado. [Más información](../../v8//content/use-visual-fragments.md)
 
 ## Diferencias clave entre Campaign Standard y Campaign v8 {#experiences}
 

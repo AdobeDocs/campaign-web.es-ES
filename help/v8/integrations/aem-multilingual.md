@@ -7,9 +7,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 527
 ht-degree: 4%
 
 ---

@@ -3,9 +3,14 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo JavaScript code
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo JavaScript code
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/zqJ-brqwxUX9X45oLRQLkE6VDJo2AdhG2qEWEn45hPg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: 966
 ht-degree: 32%
 
 ---

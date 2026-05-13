@@ -3,13 +3,26 @@ audience: end-user
 title: Novedades de la interfaz de usuario web de Campaign
 description: Descubra la nueva función que se incluye con la interfaz de usuario web de Campaign
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: ht
-source-wordcount: '1311'
+TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 1327
 ht-degree: 100%
 
 ---
-
 
 # Novedades {#new}
 

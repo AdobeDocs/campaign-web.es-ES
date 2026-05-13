@@ -3,10 +3,17 @@ audience: end-user
 title: Administrar marca
 description: Aprenda a crear y administrar las directrices de marca
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2:
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 3%
+source-wordcount: 542
+ht-degree: 2%
 
 ---
 

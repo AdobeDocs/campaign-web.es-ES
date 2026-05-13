@@ -3,13 +3,18 @@ title: Creación de una página de destino
 description: Obtenga información sobre cómo configurar y publicar una página de destino en Campaign Web
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/qoRSCg0-BzcmBJ6-NapGqdg2pUrkXq4QXbb2OPx-new
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: 1661
 ht-degree: 26%
 
 ---
-
 
 # Creación y publicación de páginas de destino {#create-lp}
 

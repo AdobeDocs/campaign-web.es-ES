@@ -3,9 +3,12 @@ audience: end-user
 title: Creación de una entrega de centro de llamadas
 description: Obtenga información sobre cómo crear una entrega de centro de llamadas con Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
+TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 759
 ht-degree: 4%
 
 ---
@@ -21,7 +24,7 @@ Para crear y enviar una nueva entrega independiente del centro de llamadas, siga
 1. Editar el contenido, [leer más](#edit-content)
 1. Previsualice y envíe el envío, [leer más](#preview-send)
 
-## Creación del envío{#create-delivery}
+## Creación de la entrega{#create-delivery}
 
 Siga estos pasos para crear la entrega y configurar sus propiedades:
 
@@ -92,7 +95,7 @@ Ahora, vamos a editar el contenido del archivo de extracción que generará el e
 
 1. Repita estos pasos para agregar tantas columnas como sea necesario para el archivo de extracción.
 
-   A continuación, puede editar los atributos, ordenar el archivo de extracción o cambiar la posición de las columnas. Para obtener más información, consulte esta [página](../direct-mail/content-direct-mail.md#content).
+   A continuación, puede editar los atributos, ordenar el archivo de extracción o cambiar la posición de las columnas. Para obtener más información, consulte [esta página](../direct-mail/content-direct-mail.md#content).
 
    ![Captura de pantalla que muestra las opciones de configuración de atributos para el archivo de extracción.](assets/cc-content-attributes.png)
 

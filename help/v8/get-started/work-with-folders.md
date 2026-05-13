@@ -3,9 +3,12 @@ audience: end-user
 title: Trabajar con carpetas
 description: Obtenga información sobre cómo administrar una carpeta en Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: 735
 ht-degree: 100%
 
 ---

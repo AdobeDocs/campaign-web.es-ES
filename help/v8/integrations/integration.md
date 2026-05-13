@@ -5,13 +5,26 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+TQID: https://experienceleague.adobe.com/IIloBQfXp9vdAyFlAT9i-ND86F-e6QuBF-6UNlMmSzI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 286
 ht-degree: 2%
 
 ---
-
 
 # Uso de Campaign y otras soluciones de Adobe {#gs-integration}
 
@@ -32,7 +45,7 @@ Esta conexión se administra mediante una cuenta externa dedicada configurada en
 
 ## GenStudio for Performance Marketing {#integration-genstudio}
 
-Adobe GenStudio for Performance Marketing es una aplicación generativa de IA-First que permite a los equipos de marketing crear sus propios anuncios y correos electrónicos para impulsar campañas de marketing personalizadas e impactantes que se ajusten a los estándares de su marca y a las políticas de su empresa. Al aprovechar la tecnología de IA de Adobe, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
+Adobe GenStudio for Performance Marketing es una aplicación generativa de IA-First que permite a los equipos de marketing crear sus propios anuncios y correos electrónicos para impulsar campañas de marketing personalizadas e impactantes que se ajusten a los estándares de su marca y a las políticas de su empresa. Al aprovechar la tecnología de Adobe AI, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
 
 Para mejorar la eficacia del marketing y mantener la coherencia de la marca, puedes integrar sin problemas las experiencias de [!DNL **GenStudio for Performance Marketing**] con [!DNL **Adobe Campaign**]. Esto le permite aprovechar la creación de contenido con potencia de IA de [!DNL GenStudio] junto con las capacidades de orquestación avanzadas de [!DNL Adobe Campaign].
 

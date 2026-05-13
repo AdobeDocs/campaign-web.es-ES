@@ -1,16 +1,19 @@
 ---
 audience: end-user
-title: Programar el envío de una entrega
+title: Programar la entrega de un envío
 description: Obtenga información sobre cómo programar una entrega
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: 534
+ht-degree: 8%
 
 ---
 
-# Programar el envío de una entrega {#schedule-sending}
+# Programar la entrega de un envío {#schedule-sending}
 
 Puede programar el envío de una entrega. Los pasos dependen de si es una entrega independiente (única) o si está trabajando en el contexto de un flujo de trabajo de campaña.
 

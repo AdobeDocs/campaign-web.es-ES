@@ -3,9 +3,12 @@ audience: end-user
 title: Diseño de una entrega de notificaciones push enriquecidas de iOS
 description: Aprenda a diseñar una entrega de notificaciones push enriquecidas con iOS con Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
+TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: 1653
 ht-degree: 5%
 
 ---
