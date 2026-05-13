@@ -65,7 +65,7 @@ Siga estos pasos para configurar la actividad **Cambiar fuente de datos**:
 
      >[!AVAILABILITY]
      >
-     >La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+     >La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es){target="_blank"}
 
 1. Configure el flujo de trabajo para que realice las operaciones deseadas utilizando la nueva fuente de datos.
 
