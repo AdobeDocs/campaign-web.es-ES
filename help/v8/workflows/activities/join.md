@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 23%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Varias ramas de flujo de trabajo y Unirse a la actividad"
->abstract="Ahora se admiten varias ramas. En lugar de utilizar una bifurcación, puede hacer clic en Agregar rama en la barra de herramientas. También se ha mejorado la actividad AND-join. Ahora es una actividad de unión genérica que le permite elegir entre las opciones de unión AND y OR."
+>abstract="Ahora se admiten varias ramas. En lugar de utilizar una bifurcación, puede hacer clic en Añadir rama en la barra de herramientas. También se ha mejorado la actividad AND-join. Ahora es una actividad Join genérica que le permite elegir entre las opciones de unión AND y OR."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="Unirse a actividad"
->abstract="La actividad **Join** le permite combinar varias transiciones de entrada. Elija si desea continuar cuando se completen todas las transiciones entrantes (Y) o cuando se complete cualquier transición entrante (O)."
+>abstract="La actividad **Join** le permite combinar varias transiciones de entrada. Elija si desea continuar cuando se completen todas las transiciones entrantes (AND) o cuando se complete cualquier transición entrante (OR)."
 
 La actividad **Join** es una actividad **Flow control**. Sincroniza varias ramas de ejecución de un flujo de trabajo.
 Puede elegir cómo se evalúan las transiciones entrantes:
@@ -38,7 +38,7 @@ Cuando se selecciona **AND**, esta actividad almacena en déclencheur su transic
 
 Cuando se selecciona **OR**, la ejecución continúa en cuanto se activa una de las transiciones de entrada seleccionadas. No espera a cada rama.
 
-## Configuración de la actividad de unión {#join-configuration}
+## Configurar la actividad Join {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"

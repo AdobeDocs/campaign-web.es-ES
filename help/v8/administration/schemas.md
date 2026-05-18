@@ -3,18 +3,14 @@ title: Acerca de los esquemas
 description: Aprenda a trabajar con esquemas.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 TQID: https://experienceleague.adobe.com/D7gEyOdvyADCac9T3By3KKnx7kpN8LuE2-rnRBJDyMA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 319
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 

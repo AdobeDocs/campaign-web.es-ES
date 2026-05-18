@@ -12,7 +12,7 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="Temas en el Diseñador de correo electrónico (LA)"
->abstract="Aplique estilos y variables de temas reutilizables para mantener el contenido del correo electrónico coherente con su marca. Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada)"
+>abstract="Aplique estilos y variables de temas reutilizables para mantener el contenido del correo electrónico coherente con su marca. Esta función solo está disponible para un conjunto de organizaciones (disponibilidad limitada)"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]
