@@ -6,7 +6,7 @@ exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 10%
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="Actividad de envío automatizado"
->abstract="La actividad Flujo de trabajo de envío automatizado ya está disponible en la paleta Flujo de trabajo. Puede utilizarlo para crear o ejecutar acciones de envío (preparar, enviar una prueba, preparar e iniciar, etc.) directamente en el flujo de trabajo."
+>abstract="La actividad del flujo de trabajo de envío automatizado ya está disponible en la paleta de flujo de trabajo. Puede utilizarlo para crear o ejecutar acciones de envío (preparar, enviar una prueba, preparar e iniciar, etc.) directamente en el flujo de trabajo."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es" text="Consulte las notas de la versión"
 
 >[!CONTEXTUALHELP]

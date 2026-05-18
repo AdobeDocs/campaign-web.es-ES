@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 629
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en v
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Actividad Finalizar"
->abstract="La actividad **Start** le permite marcar de forma gráfica el inicio de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
+>abstract="La actividad **Iniciar** le permite marcar de forma gráfica el inicio de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
