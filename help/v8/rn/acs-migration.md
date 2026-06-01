@@ -4,22 +4,14 @@ title: Transición de Campaign Standard a la web de Adobe Campaign
 description: Interfaz de usuario web de Discover Campaign
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 100%
+source-wordcount: 570
+ht-degree: 96%
 
 ---
 
@@ -60,18 +52,13 @@ La consola del cliente de Campaign está diseñada para que los administradores 
 >
 >Obtenga más información sobre las funcionalidades admitidas y no admitidas, así como la interoperabilidad entre la interfaz de usuario web de Campaign y la consola del cliente de Campaign [en esta página](../get-started/capability-matrix.md).
 
-## Terminología {#terminology}
-
-La mayoría de los conceptos son similares entre Campaign v8 y Campaign Standard. Sin embargo, hay algunas diferencias terminológicas. Algunos ejemplos son los siguientes:
-
 <!--
+## Terminology {#terminology}
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
--->
-
-<!--
 * Custom resources are **Schemas**
 * Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
@@ -83,7 +70,7 @@ La mayoría de los conceptos son similares entre Campaign v8 y Campaign Standard
 
 ## Funciones específicas {#new-features}
 
-Para garantizar una transición sin problemas a la versión 8 de Campaign, se han añadido funciones clave de Campaign Standard a la versión 8 de Campaign. Estas funciones se detallan en [esta documentación](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=es){target=&quot;_blank} y solo están disponibles para los usuarios que realicen la transición desde Campaign Standard.
+Para garantizar una transición sin problemas a Campaign v8, se han añadido funciones clave de Campaign Standard a Campaign v8:
 
 * **Creación de informes dinámicos**: la creación de informes dinámicos proporciona informes personalizables y en tiempo real para medir el impacto de las actividades de marketing. Incluye el acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](../reporting/dynamic-reporting/get-started-reporting.md).
 

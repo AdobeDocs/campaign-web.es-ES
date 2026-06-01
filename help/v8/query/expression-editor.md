@@ -4,14 +4,12 @@ title: Cree su primera consulta con el modelador de consultas
 description: Aprenda a crear la primera consulta en el modelador de consultas web de Adobe Campaign.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 68%
+source-wordcount: 2152
+ht-degree: 70%
 
 ---
 
@@ -533,7 +531,7 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> 
+  </tr>
   -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
