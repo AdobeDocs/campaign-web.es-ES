@@ -8,7 +8,7 @@ product_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 95%
@@ -35,7 +35,7 @@ Para iniciar sesión en Adobe Experience Cloud, los pasos básicos son los sigui
 
 1. Compruebe que se encuentra en la organización correcta.
 
-   ![Captura de pantalla que muestra la selección de la organización en Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![Captura de pantalla que muestra la selección de la organización en Adobe Experience Cloud](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
    Obtenga más información sobre las organizaciones de Adobe Experience Cloud en [este artículo](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){target="_blank"}.
 

@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 48%
@@ -50,7 +50,7 @@ Para crear un envío independiente, siga estos pasos:
 1. Elija un canal para el envío.
 1. Defina la audiencia de envío para el destinatario principal y el grupo de control. [Más información sobre las audiencias](../audience/about-recipients.md).
 
-   ![Captura de pantalla que muestra la interfaz de selección de audiencias](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![Captura de pantalla que muestra la interfaz de selección de audiencias](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. Definición del contenido del mensaje. Obtenga más información sobre los canales de envío y cómo definir el contenido de envío en estas secciones:
 

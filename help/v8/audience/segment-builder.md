@@ -3,9 +3,9 @@ audience: end-user
 title: Creación de una audiencia con el generador de reglas de Campaign
 description: Aprenda a trabajar con el generador de reglas
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '624'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ El generador de reglas permite definir la población objetivo de la entrega filt
 
 La paleta, situada en el lado izquierdo, contiene todos los elementos por los que puede filtrar para crear su audiencia. Utilice la barra de búsqueda para buscar elementos rápidamente. Mueva los mosaicos contenidos en la paleta al lienzo central para configurarlos y tenerlos en cuenta.
 
-![Interfaz de paleta que muestra opciones de filtrado y fichas](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaz de paleta que muestra opciones de filtrado y fichas](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 La paleta se divide en dos pestañas:
 
@@ -37,13 +37,13 @@ La paleta se divide en dos pestañas:
 
 El lienzo es la zona central donde se pueden configurar y combinar reglas basadas en los elementos agregados desde la paleta. Para agregar una regla nueva, arrastre un mosaico desde la paleta y suéltelo en el lienzo. Las opciones específicas del contexto se presentan en función del tipo de datos que se agregan.
 
-![Interfaz de lienzo que muestra las opciones de configuración de regla](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![Interfaz de lienzo que muestra las opciones de configuración de regla](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## El panel Propiedades de regla
 
 A la derecha, el panel **Propiedades de regla** le permite realizar las acciones que se indican a continuación.
 
-![Panel de propiedades de la regla que muestra las acciones disponibles](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![Panel de propiedades de la regla que muestra las acciones disponibles](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **Ver resultados:** Muestra la lista de perfiles dirigidos por la audiencia.
 * **Vista de código**: muestra una versión basada en código de la audiencia en SQL.

@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ En la sección **Administración de campañas**, puede acceder a campañas de ma
 
   Utilice el botón **Más acciones** para eliminar o duplicar un envío.
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}[Captura de pantalla que muestra botón de Más acciones con opciones para eliminar o duplicar un envío.]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"}[Captura de pantalla que muestra botón de Más acciones con opciones para eliminar o duplicar un envío.]
 
 * **Flujos de trabajo**: en esta pantalla, puede acceder a la lista completa de flujos de trabajo y plantillas de flujo de trabajo. Puede comprobar su estado, las fechas de última/siguiente ejecución y crear un nuevo flujo de trabajo o una nueva plantilla de flujo de trabajo. Puede filtrar la lista con los mismos criterios que para otros objetos. Además, puede filtrar los flujos de trabajo que pertenecen o no a una campaña. Puede obtener más información sobre los flujos de trabajo [en esta sección](../workflows/gs-workflows.md).
 

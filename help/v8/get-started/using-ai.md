@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 525
 ht-degree: 100%
@@ -58,7 +58,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 En el campo de entrada, la ayuda contextual con tecnología de IA de Adobe Campaign proporciona tres preguntas sugeridas. Estas preguntas son generadas por IA, están relacionadas con el cuadro de ayuda y se alinean con el contexto del producto actual. Seleccione una pregunta para obtener la respuesta.
 
-[Ejemplo de preguntas sugeridas en la ayuda contextual](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[Ejemplo de preguntas sugeridas en la ayuda contextual](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## Respuestas {#answers-ai}
 
@@ -66,7 +66,7 @@ La ayuda contextual con tecnología de IA de Adobe Campaign ofrece asistencia, p
 
 Puede copiar una respuesta en el portapapeles utilizando el icono **Copiar** en la parte inferior de la ventana emergente de ayuda.
 
-[Ejemplo de copia de una respuesta en la ayuda contextual](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[Ejemplo de copia de una respuesta en la ayuda contextual](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## Comentarios {#feedback-ai}
 
