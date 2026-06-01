@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2877
+source-wordcount: 2803
 ht-degree: 17%
 
 ---
@@ -216,7 +216,7 @@ Vínculos útiles:
 >
 >* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/cancelación de suscripción funcionan como en Campaign Standard.
 >
->Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} en Adobe Campaign.
+>Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](../../v8/administration/branding/branding-gs.md) en Adobe Campaign.
 
 ### Envío de correo electrónico {#acs-gs-marketers-email}
 
@@ -316,7 +316,7 @@ En Campaign v8, los pasos detallados para crear, probar y enviar una entrega de 
 <img alt="Poco frecuente" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/msg/push/content-push"><strong>Diseñar un envío push<strong></strong></a>
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/msg/push/content-push"><strong>Diseño de un envío push<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -398,11 +398,11 @@ Adobe Campaign proporciona un conjunto de [herramientas de informes](https://exp
 
 El conjunto de herramientas de creación de informes de Adobe Campaign proporciona información valiosa sobre la eficacia de sus esfuerzos de marketing, lo que le permite optimizar sus campañas para obtener el máximo impacto. Obtenga más información en la [documentación de informes](../../v8/reporting/gs-reports.md).
 
-Además, alineado con la experiencia de Adobe Campaign Standard, el sistema de informes dinámico está disponible en Campaign v8 para sus envíos de correo electrónico. Proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Obtenga más información en la [documentación de informes dinámicos](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+Además, alineado con la experiencia de Adobe Campaign Standard, el sistema de informes dinámico está disponible en Campaign v8 para sus envíos de correo electrónico. Proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Obtenga más información en la [documentación de informes dinámicos](../../v8/reporting/dynamic-reporting/get-started-reporting.md).
 
 >[!AVAILABILITY]
 >
->* [Los informes dinámicos](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} se pueden usar para informar sobre envíos de correo electrónico, campañas con envíos de correo electrónico y mensajes transaccionales. También está disponible el análisis demográfico por dimensión de Perfil.
+>* [Los informes dinámicos](../../v8/reporting/dynamic-reporting/get-started-reporting.md) se pueden usar para informar sobre envíos de correo electrónico, campañas con envíos de correo electrónico y mensajes transaccionales. También está disponible el análisis demográfico por dimensión de Perfil.
 >
 > * Los informes de la [interfaz de usuario web de Adobe Campaign](../../v8/reporting/campaign-reports.md) también están disponibles para todos los usuarios que realizan la transición de Adobe Campaign Standard a Adobe Campaign v8.
 

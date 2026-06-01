@@ -41,10 +41,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3258
-ht-degree: 15%
+source-wordcount: 3217
+ht-degree: 16%
 
 ---
 
@@ -164,7 +164,7 @@ Hay varias opciones disponibles para personalizar la interfaz de usuario en la c
 
 Cada empresa tiene directrices de marca que definen tanto elementos visuales como detalles técnicos. En cuanto a Adobe Campaign Standard, Adobe Campaign v8 le ayuda a administrar estas directrices de forma centralizada, para que pueda presentar una imagen de marca coherente a sus clientes en todo lo que haga, desde logotipos en correos electrónicos hasta URL y dominios utilizados en sus campañas. Como administrador técnico, puede crear y administrar varias marcas en Adobe Campaign.
 
-Obtenga más información en la [documentación de promoción de marca](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
+Obtenga más información en la [documentación de promoción de marca](../../v8/administration/branding/branding-gs.md)
 
 ## Comprender la creación del modelo de datos {#acs-gs-admin-data-model-creation}
 
@@ -206,9 +206,9 @@ Las API de REST de Campaign están destinadas a permitirle crear integraciones p
 
 Como usuario de Campaign Standard que está realizando la transición a la versión 8 de Campaign, puede disponer de las API de REST.
 
-Obtenga más información en la [Documentación de la API de REST](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+Obtenga más información en la [Documentación de la API de REST](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es){target="_blank"}.
 
-Tenga en cuenta que algunas recomendaciones y limitaciones se aplican a las API de REST al realizar la transición de Campaign Standard a Campaign v8. Están listados en [esta página](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. También se aplican restricciones específicas al realizar la transición a Campaign v8, como se indica en la Nota de disponibilidad siguiente:
+Tenga en cuenta que algunas recomendaciones y limitaciones se aplican a las API de REST al realizar la transición de Campaign Standard a Campaign v8. Están listados en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}. También se aplican restricciones específicas al realizar la transición a Campaign v8, como se indica en la Nota de disponibilidad siguiente:
 
 >[!AVAILABILITY]
 >
