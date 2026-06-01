@@ -4,11 +4,9 @@ title: Examen y filtrado de listas
 description: Descubra cómo examinar y filtrar listas Campaign Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 100%
@@ -23,21 +21,21 @@ La mayoría de los vínculos del menú de navegación izquierdo muestran listas 
 
 Las listas se muestran en columnas. Puede mostrar información adicional cambiando la configuración de la columna. Para ello, haga clic en el icono **Configurar la columna para un diseño personalizado** en la esquina superior derecha de la lista.
 
-![La captura de pantalla muestra el icono Configurar columna, utilizado para personalizar el diseño de columnas de lista.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![La captura de pantalla muestra el icono Configurar columna, utilizado para personalizar el diseño de columnas de lista.](assets/config-columns.png){zoomable="yes"}{width="70%"}
 
 En la pantalla **Configuración de columnas**, agregue o quite columnas, y cambie el orden en el que se muestran.
 
 Puede cambiar el orden de la lista mediante **arrastrar y soltar** o usando las **flechas arriba y abajo**, tal como se muestra a continuación:
 
-![La captura de pantalla muestra cómo reordenar columnas de lista mediante los botones de arrastrar y soltar o de flecha.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![La captura de pantalla muestra cómo reordenar columnas de lista mediante los botones de arrastrar y soltar o de flecha.](assets/list-reorder.png){zoomable="yes"}{width="70%"}
 
 Por ejemplo, para esta configuración:
 
-![La captura de pantalla muestra un ejemplo de configuración de columna en la pantalla Configurar columnas.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![La captura de pantalla muestra un ejemplo de configuración de columna en la pantalla Configurar columnas.](assets/columns.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 La lista muestra las siguientes columnas:
 
-![La captura de pantalla muestra la lista resultante con columnas configuradas según la configuración de ejemplo.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![La captura de pantalla muestra la lista resultante con columnas configuradas según la configuración de ejemplo.](assets/column-sample.png){zoomable="yes"}{width="70%"}
 
 ## Ordenar datos {#sort-lists}
 
@@ -49,7 +47,7 @@ Para las columnas numéricas o de fecha, la flecha **Arriba** indica que la list
 
 Para buscar elementos más rápidamente, utilice la barra de búsqueda o filtros personalizados e integrados para adaptar la lista según criterios contextuales.
 
-![La captura de pantalla muestra las opciones de filtro disponibles para perfeccionar la vista de lista.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![La captura de pantalla muestra las opciones de filtro disponibles para perfeccionar la vista de lista.](assets/filter.png){zoomable="yes"}{width="70%"}
 
 Encontrará información detallada sobre cómo utilizar los filtros y crear los suyos personalizados en [esta sección](../query/filter.md).
 
@@ -75,5 +73,5 @@ Only the most common attributes are displayed by default in the attribute list a
 
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list updates instantly.
 
-[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" zoomable="yes"}
 -->

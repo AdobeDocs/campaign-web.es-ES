@@ -4,14 +4,9 @@ title: Añadir un vínculo a la página espejo
 description: Aprenda a añadir y administrar el vínculo a la página espejo
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 397
 ht-degree: 19%
@@ -24,7 +19,7 @@ La página espejo es una versión en línea de su correo electrónico. Añadir u
 
 La página espejo generada por Adobe Campaign incluye todos los datos de personalización.
 
-![Muestra de un vínculo reflejado en un correo electrónico](assets/mirror-page-link.png){width="600" align="left"}
+![Muestra de un vínculo reflejado en un correo electrónico](assets/mirror-page-link.png){width="600"}
 
 ## Añadir un vínculo a la página espejo {#link-to-mirror-page}
 
