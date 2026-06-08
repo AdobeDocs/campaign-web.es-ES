@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 206
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Para crear notificaciones push, tiene tres opciones:
 <img alt="Diseño de un envío push" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>Diseñar un envío push<strong></strong></a>
+<a href="content-push.md"><strong>Diseño de un envío push<strong></strong></a>
 </div>
 <p></td>
 <td>

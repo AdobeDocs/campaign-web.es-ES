@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: 610
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ _29 de abril de 2026_
 
 ### Mejora {#26-4-improvement}
 
-La sección **Datos de enriquecimiento** ya está disponible en la actividad de flujo de trabajo **Generar audiencia** (tipo de consulta). Puede ver, agregar, editar y eliminar **datos adicionales** directamente desde la interfaz de usuario web de Campaign. Al igual que en la actividad **Enrichment**, puede agregar atributos de enriquecimiento únicos, vínculos de colección y expresiones.
+La sección **Datos de enriquecimiento** ya está disponible en la actividad de flujo de trabajo **Generar público** (tipo de consulta). Puede ver, añadir, editar y quitar **datos adicionales** directamente desde la interfaz de usuario web de Campaign. Al igual que en la actividad **Enriquecimiento**, puede añadir atributos de enriquecimiento únicos, vínculos de colección y expresiones.
 
 [Más información](../workflows/activities/build-audience.md)
 
@@ -132,6 +132,6 @@ _24 de marzo_ de 2026_
 
 ### Mejoras {#26-3-improvements}
 
-* La actividad de flujo de trabajo **Start** se ha añadido para mejorar la compatibilidad con la consola del cliente. Esta actividad es opcional y no se inserta de forma predeterminada en los nuevos flujos de trabajo. Sin embargo, se añade automáticamente a los flujos de trabajo existentes.
+* La actividad **Iniciar** flujo de trabajo se ha añadido para mejorar la compatibilidad con la consola del cliente. Esta actividad es opcional y no se inserta de forma predeterminada en los flujos de trabajo nuevos. Sin embargo, se añade automáticamente a los flujos de trabajo existentes.
   [Más información](../workflows/activities/about-activities.md#flow-control)
 * El campo de selección de zona horaria de la configuración **Programar** de un envío se ha movido debajo del campo **Fecha de contacto**. [Más información](../msg/create-deliveries.md#gs-schedule)

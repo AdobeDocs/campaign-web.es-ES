@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y personalizar sus propias marcas para definir claramente su identidad visual y verbal en todas las comunicaciones. Con la puntuación de alineación de marca, puede recibir comentarios en tiempo real sobre cómo el contenido refleja el tono, el estilo y las directrices de su marca, lo que le ayuda a mantenerse constantemente al día con la marca con cada mensaje que envía.
+<p>Ahora puede crear y personalizar sus propias marcas para definir claramente su identidad visual y verbal en todas las comunicaciones. Con la puntuación de alineación con la marca, puede recibir comentarios en tiempo real sobre cómo el contenido refleja el tono, el estilo y las directrices de su marca, lo que le ayuda a ser siempre coherente con la marca en cada mensaje que envía.
 </p>
 <p>Para obtener más información, consulte la <a href="../content/brands.md">documentación detallada</a>.</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>Ahora puede acceder al sistema de informes dinámicos que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. El sistema de informes dinámicos también está disponible para envíos de correo electrónico multilingües y mensajes transaccionales.</p>
-<p>Esta capacidad solo está disponible bajo demanda. Para obtener acceso, póngase en contacto con su representante de Adobe. El servidor debe actualizarse a la versión 8.8.1 como mínimo. Consulte las <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es" target="_blank">notas de la versión</a> de la consola del cliente.
+<p>Esta capacidad solo está disponible a la carta. Para obtener acceso, póngase en contacto con su representante de Adobe. El servidor debe actualizarse a la versión 8.8.1 como mínimo. Consulte las <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es" target="_blank">Notas de la versión</a> de la consola del cliente.
 <p>Para obtener más información, consulte la <a href="../reporting/dynamic-reporting/get-started-reporting.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>Ahora los administradores técnicos pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de destino o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de destino. Esta configuración se administra en plantillas. Las opciones de promoción de la marca ya están disponibles en todos los canales, incluidos SMS y correo directo.</p>
-<p>Esta capacidad solo está disponible bajo demanda para nuevas implementaciones. Para obtener acceso, póngase en contacto con su representante de Adobe. El servidor debe actualizarse a la versión 8.8.1 como mínimo. Consulte las <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es" target="_blank">notas de la versión</a> de la consola del cliente.
+<p>Esta capacidad solo está disponible a la carta para nuevas implementaciones. Para obtener acceso, póngase en contacto con su representante de Adobe. El servidor debe actualizarse a la versión 8.8.1 como mínimo. Consulte las <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=es" target="_blank">Notas de la versión</a> de la consola del cliente.
 <p>Para obtener más información, consulte la <a href="../administration/branding/branding-gs.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -649,8 +649,8 @@ Las siguientes funciones están disponibles para todos los usuarios a partir de 
 <tbody>
 <tr>
 <td>
-<p>Como administrador de Campaign, ahora puede configurar nuevas conexiones con sistemas externos desde la interfaz de usuario web de Campaign.
-También puede ver, actualizar y administrar cuentas externas existentes.</p>
+<p>Como administrador de Campaign, ahora puede establecer nuevas conexiones con sistemas externos desde la interfaz de usuario web de Campaign.
+También puede ver, actualizar y administrar las cuentas externas existentes.</p>
 <p>Para obtener más información, consulte la <a href="../administration/external-account.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -688,7 +688,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >Las siguientes capacidades están en disponibilidad limitada (LA). Están restringidos a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se pueden implementar en ningún otro entorno. Estos requieren actualizar el servidor de Campaign a la versión 8.7.4.
 >
->Consulte la siguiente página de documentación: [Transición de Campaign Standard a Campaign v8](../rn/acs-migration.md)
+>Consulte la siguiente página de documentación: [transición de Campaign Standard a Campaign v8](../rn/acs-migration.md)
 
 * **Creación de envíos multilingües**: ahora puede mandar varios envíos de correo electrónico en diferentes idiomas en la interfaz de usuario de Adobe Campaign Web. La función Envío multilingüe le permite elegir el idioma predeterminado de su entrega, así como los diferentes idiomas en los que se puede realizar el envío. También puede previsualizar estos envíos en los idiomas que haya elegido. Para obtener más información, consulte la [documentación detallada](../email/edit-content.md).
 

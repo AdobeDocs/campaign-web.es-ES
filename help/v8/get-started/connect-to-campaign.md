@@ -9,9 +9,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 964
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -104,14 +104,14 @@ La barra superior de la interfaz le permite acceder rápidamente a las principal
 
 ![Captura de pantalla que muestra la barra de navegación superior de Adobe Experience Cloud](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
-Utilice la barra superior para lo siguiente:
+Utilice la barra superior para:
 
 * Compartir comentarios sobre la interfaz de usuario web de Campaign
 * Cambie entre sus organizaciones.
 * Cambie entre sus soluciones y aplicaciones de Adobe Experience Cloud.
 * Busque ayuda sobre [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=es){target="_blank"}.
-* Ver las notificaciones de productos.
-* Edite su perfil de Adobe y administre la configuración, como [actualizar su idioma preferido](#language-pref) o [cambiar entre los temas claro y oscuro](#dark-theme).
+* Vea las notificaciones del producto.
+* Edite el perfil de Adobe y administre la configuración, como [actualizar su idioma preferido](#language-pref) o [cambiar entre las temáticas clara y oscura](#dark-theme).
 
 ## Navegadores admitidos {#browsers}
 

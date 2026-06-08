@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 262
 ht-degree: 100%
 
