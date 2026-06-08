@@ -4,10 +4,18 @@ title: Transición de Campaign Standard a la web de Adobe Campaign
 description: Interfaz de usuario web de Discover Campaign
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: ht
 source-wordcount: 570

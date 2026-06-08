@@ -4,10 +4,16 @@ title: Introducción a los flujos de trabajo
 description: Obtenga información sobre cómo empezar con flujos de trabajo
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 TQID: https://experienceleague.adobe.com/4AUNdhdd11mrWAzHtjAJpPjOrWhHTzTEtV6KLcqL3Es
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2: id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: ht
 source-wordcount: 318

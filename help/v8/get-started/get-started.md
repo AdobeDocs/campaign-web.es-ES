@@ -4,10 +4,19 @@ title: Introducción a Adobe Campaign Web
 description: Introducción a Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 TQID: https://experienceleague.adobe.com/VrZVKKoEj-0Fs2Z5LUfM9N1R9TK-Ae-4b1BlxS-pGiw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a658c786-869b-4194-a780-2594d663addaid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: e739ee2b-6228-412e-878f-45de0791417d
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: ht
 source-wordcount: 582
