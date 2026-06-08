@@ -4,12 +4,10 @@ title: Introducción a los envíos de correo directo
 description: Aprenda a crear y enviar envíos de correo directo con Adobe Campaign Web
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 TQID: https://experienceleague.adobe.com/hpwPpLBk28eQ58sahnuBCostJpXhW7PDssUgjxainYY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 202
 ht-degree: 100%
 
