@@ -148,4 +148,4 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
 
 * [Descripción del producto Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Documentación de la versión 8 de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es){target="_blank"}
-* [Píxeles de seguimiento de correo electrónico y guía de CNIL](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+* [Píxeles de seguimiento de correo electrónico y guía de CNIL](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
