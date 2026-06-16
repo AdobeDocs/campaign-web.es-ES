@@ -6,10 +6,10 @@ exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: bf9d5d07ffca9c79821559e7fc75a930728e2f5a
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 43%
+source-wordcount: 769
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Actividad de deduplicación"
->abstract="La actividad **Deduplicación** elimina los duplicados de los resultados de las actividades entrantes. Se utiliza principalmente después de las actividades de segmentación y antes de las actividades que permiten el uso de datos segmentados."
+>abstract="La actividad **Deduplicación** elimina los duplicados de los resultados de las actividades entrantes. Se utiliza principalmente después de las actividades de segmentación y antes de las actividades que permiten el uso de datos segmentados. Cuando haya más de una transición entrante disponible, utilice la sección **Sets to join** para seleccionar qué transiciones conectarse a la actividad."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_sets"
+>title="Conjuntos que unir"
+>abstract="Compruebe las actividades anteriores que desea conectar como transiciones entrantes de la actividad **Deduplication**. Las actividades seleccionadas se conectarán a la **anulación de duplicación**. Esta sección solo se muestra cuando hay más de una transición entrante disponible para conectarse a la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -37,6 +42,8 @@ ht-degree: 43%
 
 La actividad **Deduplication** es una actividad de **segmentación**. Esta actividad elimina los duplicados en los resultados de las actividades entrantes, como los perfiles duplicados en la lista de destinatarios. La actividad **Deduplication** se utiliza generalmente después de las actividades de segmentación y antes de las actividades que utilizan datos de objetivo.
 
+La actividad admite varias transiciones de entrada. Cuando haya más de una transición entrante disponible, utilice la sección **Sets to join** en las propiedades de la actividad para seleccionar qué transiciones conectar con la actividad. Las transiciones seleccionadas se vincularán a continuación a la **anulación de duplicación** en el lienzo del flujo de trabajo.
+
 ## Configuración de la actividad de anulación de duplicación {#deduplication-configuration}
 
 Siga estos pasos para configurar la actividad **Deduplication**:
@@ -44,6 +51,12 @@ Siga estos pasos para configurar la actividad **Deduplication**:
 ![Proceso de configuración de anulación de duplicación del flujo de trabajo](../assets/workflow-deduplication.png)
 
 1. Agregue una actividad **Deduplication** a su flujo de trabajo.
+
+1. En la sección **Conjuntos para unirse**, compruebe las actividades anteriores que desea conectar como transiciones entrantes de la actividad **Deduplication**. Las actividades seleccionadas se enlazan a continuación con la **anulación de duplicación** en el lienzo del flujo de trabajo. Utilice el campo **Conjunto principal** para definir la transición entrante de referencia. Los registros de los demás conjuntos se comparan con el conjunto principal para identificar duplicados.
+
+   >[!NOTE]
+   >
+   >Esta sección solo se muestra cuando hay más de una transición entrante disponible.
 
 1. En la sección **Campos para identificar duplicados**, haga clic en el botón **Añadir atributo** para especificar los campos para los que los valores idénticos permiten identificar los duplicados, tales como: dirección de correo electrónico, nombre y apellidos, etc. El orden de los campos especifica los que se procesarán en primer lugar. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
 
