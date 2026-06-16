@@ -4,20 +4,14 @@ title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 25%
+source-wordcount: 583
+ht-degree: 19%
 
 ---
 
@@ -66,19 +60,9 @@ Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en v
 ## Actividades de control de flujo {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="Actividad final"
->abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Actividad Finalizar"
 >abstract="La actividad **Iniciar** le permite marcar de forma gráfica el inicio de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="Señal externa"
->abstract="marcador para la sección de señal externa en los parámetros de la actividad de finalización. Disponible solo para campañas orquestadas. NO ELIMINAR"
 
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 
@@ -86,7 +70,7 @@ Las siguientes actividades son específicas para organizar y ejecutar flujos de 
 * [Bifurcación](fork.md): cree transiciones salientes para iniciar varias actividades simultáneamente.
 * [Unirse](join.md): sincronice varias ramas de ejecución de un flujo de trabajo.
 * [Programador](scheduler.md): Programe cuando se inicie el flujo de trabajo.
-* **Inicio** y **Fin**: marcan gráficamente el comienzo y el final de un flujo de trabajo. Son opcionales y no tienen impacto funcional por sí solas.
+* **Inicio** y [Fin](end.md): marcan gráficamente el comienzo y el final de un flujo de trabajo. Son opcionales y no tienen impacto funcional por sí solas.
 
   >[!NOTE]
   >
