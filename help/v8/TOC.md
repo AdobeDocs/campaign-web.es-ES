@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la interfaz de usuario 
 title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
-source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: ht
-source-wordcount: '1027'
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+workflow-type: tm+mt
+source-wordcount: '1028'
 ht-degree: 100%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 100%
       + [Envío continuo](workflows/activities/continuous-delivery.md)
       + [Deduplicación](workflows/activities/deduplication.md)
       + [Correo electrónico, SMS, push, correo directo](workflows/activities/channels.md)
+      + [Finalizar](workflows/activities/end.md)
       + [Enriquecimiento](workflows/activities/enrichment.md)
       + [Señal externa](workflows/activities/external-signal.md)
       + [Extracción de archivos](workflows/activities/extract-file.md)

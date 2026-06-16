@@ -10,10 +10,10 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2064
-ht-degree: 36%
+source-wordcount: 2327
+ht-degree: 32%
 
 ---
 
@@ -28,7 +28,7 @@ La actividad **Enriquecimiento** es una actividad de **Segmentación**. Mejora l
 
 >[!NOTE]
 >
->La actividad **Generar audiencia** también le permite agregar **datos adicionales**. Ver [Usar la actividad Generar audiencia](build-audience.md#build-audience-configuration).
+>La actividad **Generar audiencia** (tipo de consulta) también admite **datos de enriquecimiento**. Ver [Más información](build-audience.md#build-audience-configuration).
 
 Los datos de enriquecimiento pueden provenir de:
 
@@ -62,19 +62,50 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
 >title="Actividad de enriquecimiento"
 >abstract="Una vez añadidos los datos de enriquecimiento al flujo de trabajo, estos se pueden utilizar en las actividades añadidas para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades o para crear mensajes y campañas de marketing personalizados que resuenen con el público destinatario."
 
+La sección **Datos de enriquecimiento** está disponible en las actividades **Enriquecimiento** y **Generar audiencia** (tipo de consulta). Permite mejorar los datos de destino con información adicional de la base de datos, como referencias de contratos o suscripciones a boletines informativos. Esos datos se almacenan con la audiencia en el flujo de trabajo **tabla de trabajo** y están disponibles para las actividades siguientes. Puede añadir atributos de enriquecimiento únicos, vínculos de colección o expresiones y acceder a las opciones avanzadas.
 
+Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que desee usar para el enriquecimiento. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
 
-1. Haga clic en **Agregar datos de enriquecimiento** y seleccione el atributo que desee usar para el enriquecimiento. [Aprenda a seleccionar atributos y agregarlos a favoritos](../../get-started/attributes.md).
+Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada tipo se detalla en los ejemplos siguientes:
 
-   Puede seleccionar dos tipos de datos de enriquecimiento: un único atributo de enriquecimiento de la dimensión de destino o un vínculo de recopilación. Cada tipo se detalla en los ejemplos siguientes:
-   * [Atributo de enriquecimiento único](#single-attribute)
-   * [Vínculo de colección](#collection-link)
+* [Atributo de enriquecimiento único](#single-attribute)
+* [Vínculo de colección](#collection-link)
 
-   >[!NOTE]
-   >
-   >El **botón Editar expresión** de la pantalla de selección de atributos le permite generar expresiones avanzadas para seleccionar el atributo. [Aprenda a trabajar con el editor de expresiones](../../query/expression-editor.md).
+>[!NOTE]
+>
+>El **botón Editar expresión** de la pantalla de selección de atributos le permite generar expresiones avanzadas para seleccionar el atributo. [Aprenda a trabajar con el editor de expresiones](../../query/expression-editor.md).
 
-   ![Captura de pantalla que muestra la pantalla de selección de datos enriquecidos](../assets/workflow-enrichment1.png)
+![Captura de pantalla que muestra la pantalla de selección de datos enriquecidos](../assets/workflow-enrichment1.png)
+
+Después de agregar al menos un atributo de enriquecimiento, haga clic en **[!UICONTROL Parámetros avanzados]** para configurar cómo se generan los datos de enriquecimiento, incluidos la agrupación, la deduplicación, la administración de claves principales y los datos de eventos entrantes. Estas opciones reflejan la consola del cliente y están pensadas para escenarios de flujo de trabajo avanzados.
+
+![Captura de pantalla que muestra los parámetros avanzados de enriquecimiento](../assets/workflow-query-advanced-parameters.png)
+
+>[!NOTE]
+>
+>Las opciones disponibles difieren entre las actividades **Generar audiencia** y **Enriquecimiento**.
+
+Las siguientes opciones están disponibles para cada actividad:
+
++++ Actividad de creación de audiencia (tipo de consulta)
+
+* **[!UICONTROL Conservar todos los datos adicionales del conjunto principal]**: conserva las columnas adicionales del conjunto de entrada principal en la transición de salida.
+* **[!UICONTROL Agrupar datos por elemento de dimensión de destino]**: agrupa el resultado para que cada registro de destino aparezca solo una vez.
+* **[!UICONTROL Quitar filas duplicadas (DISTINCT)]**: quita las filas duplicadas del conjunto de resultados.
+* **[!UICONTROL Deshabilitar la adición automática de las claves principales de la dimensión de segmentación]**: Impide que la actividad agregue automáticamente las claves principales de la dimensión de segmentación al resultado.
+* **[!UICONTROL Deshabilitar el filtrado automático de 0 registros de ID]**: Mantiene los registros cuyo valor de identificador es 0 en lugar de filtrarlos automáticamente.
+* **[!UICONTROL Usar datos de evento de entrada]**: utiliza datos de la transición de entrada como entrada de trabajo de la actividad.
+
++++
+
++++ Actividad de enriquecimiento
+
+* **[!UICONTROL Agrupar datos por elemento de dimensión de destino]**: agrupa el resultado para que cada registro de destino aparezca solo una vez.
+* **[!UICONTROL Quitar filas duplicadas (DISTINCT)]**: quita las filas duplicadas del conjunto de resultados.
+* **[!UICONTROL Deshabilitar el filtrado automático de 0 registros de ID]**: Mantiene los registros cuyo valor de identificador es 0 en lugar de filtrarlos automáticamente.
+* **[!UICONTROL Agregar un identificador para cada línea del resultado]**: Agrega un identificador único a cada fila de salida.
+
++++
 
 ## Creación de vínculos entre tablas {#create-links}
 

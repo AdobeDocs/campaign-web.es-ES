@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 25%
+source-wordcount: 583
+ht-degree: 19%
 
 ---
 
@@ -66,19 +66,9 @@ Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en v
 ## Actividades de control de flujo {#flow-control}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_end"
->title="Actividad final"
->abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_start"
 >title="Actividad Finalizar"
 >abstract="La actividad **Iniciar** le permite marcar de forma gráfica el inicio de un flujo de trabajo. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_signal"
->title="Señal externa"
->abstract="marcador para la sección de señal externa en los parámetros de la actividad de finalización. Disponible solo para campañas orquestadas. NO ELIMINAR"
 
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 
@@ -86,7 +76,7 @@ Las siguientes actividades son específicas para organizar y ejecutar flujos de 
 * [Bifurcación](fork.md): cree transiciones salientes para iniciar varias actividades simultáneamente.
 * [Unirse](join.md): sincronice varias ramas de ejecución de un flujo de trabajo.
 * [Programador](scheduler.md): Programe cuando se inicie el flujo de trabajo.
-* **Inicio** y **Fin**: marcan gráficamente el comienzo y el final de un flujo de trabajo. Son opcionales y no tienen impacto funcional por sí solas.
+* **Inicio** y [Fin](end.md): marcan gráficamente el comienzo y el final de un flujo de trabajo. Son opcionales y no tienen impacto funcional por sí solas.
 
   >[!NOTE]
   >
