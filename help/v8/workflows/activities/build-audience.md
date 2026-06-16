@@ -4,12 +4,11 @@ title: Uso de la actividad de flujo de trabajo Generar público destinatario
 description: Aprenda a utilizar la actividad de flujo de trabajo Generar público destinatario
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 53%
+source-wordcount: 518
+ht-degree: 52%
 
 ---
 
@@ -63,7 +62,7 @@ Para crear su propia consulta, siga estos pasos:
 1. Seleccione la **dimensión de filtrado** haciendo clic en el icono situado junto a la dimensión de segmentación. La dimensión de filtrado permite aplicar filtros a la población objetivo haciendo referencia a criterios relacionados sin cambiar la dimensión de segmentación principal. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#filtering)
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
-1. Utilice la sección **Datos de enriquecimiento** para mejorar los datos de destino con información adicional de la base de datos, por ejemplo, referencias de contratos o suscripciones a boletines. Esos datos se almacenan con la audiencia en el flujo de trabajo **tabla de trabajo** y están disponibles para las actividades siguientes. Puede agregar atributos de enriquecimiento únicos, vínculos de colección o expresiones. Para ver ejemplos y pasos detallados, consulte [Agregar datos de enriquecimiento](enrichment.md#enrichment-add).
+1. Utilice la sección **Datos de enriquecimiento** para mejorar los datos de destino con información adicional de la base de datos, por ejemplo, referencias de contratos o suscripciones a boletines. Esos datos se almacenan con la audiencia en el flujo de trabajo **tabla de trabajo** y están disponibles para las actividades siguientes. Puede añadir atributos de enriquecimiento únicos, vínculos de colección o expresiones y acceder a las opciones avanzadas. Para ver ejemplos y pasos detallados, consulte [Agregar datos de enriquecimiento](enrichment.md#enrichment-add).
 
 >[!TAB Leer público]
 
