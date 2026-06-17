@@ -6,10 +6,10 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 58%
+source-wordcount: 456
+ht-degree: 54%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 58%
 Una vez que la entrega esté preparada y haga clic en el botón **Enviar**, busque los registros de entrega para comprobar las advertencias, los errores, el estado, las exclusiones y los datos de seguimiento. Se puede acceder a estos registros directamente desde el panel de control de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
 Para ver los registros, acceda al panel de control del envío y haga clic en el botón **Registros**.
+
+>[!TIP]
+>
+>Cada ficha de registro se puede exportar como archivo CSV con el botón **Exportar filas cargadas como CSV** situado sobre la lista. Obtenga más información en [Exportar datos de lista](../get-started/list-filters.md#export-list).
 
 Las pestañas disponibles son las siguientes:
 
