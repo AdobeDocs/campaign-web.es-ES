@@ -14,7 +14,8 @@ landing-page-breadcrumb-title: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.es-ES
 index: true
-source-git-commit: fbf284eda7085f8dd6d66d20e7fc32d58b52346f
+nudge: true
+source-git-commit: 52748048eb2c856744d37cf8f0fea08caf9d94f3
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 92%
