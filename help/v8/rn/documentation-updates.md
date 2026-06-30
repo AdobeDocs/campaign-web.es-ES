@@ -5,18 +5,21 @@ description: Actualizaciones de la documentación de Adobe Campaign Web
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 59
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+workflow-type: tm+mt
+source-wordcount: 90
+ht-degree: 80%
 
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página incluye todas las actualizaciones de la documentación de Adobe Campaign Web.
+
+## Junio de 2026 {#june-2026}
+
+* Se ha añadido una página sobre las directrices de CNIL para los píxeles de seguimiento de correo electrónico y las funciones de Adobe Campaign relacionadas. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
 
 ## Diciembre de 2025 {#december-2025}
 
