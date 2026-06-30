@@ -9,15 +9,15 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 433
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Examen y filtrado de listas {#list-screens}
 
-La mayoría de los vínculos del menú de navegación izquierdo muestran listas de objetos, como la lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista, filtrar estas listas y exportar los datos de la lista como archivos CSV, tal y como se detalla a continuación.
+La mayoría de los vínculos del menú de navegación izquierdo muestran listas de objetos, como la lista de **Envíos** o **Campañas**. Algunas de estas pantallas de lista son de solo lectura. Puede personalizar la visualización de la lista, filtrar estas listas y exportar los datos de las listas como CSV, como se detalla a continuación.
 
 ## Personalizar pantallas de lista {#custom-lists}
 
@@ -53,12 +53,12 @@ Para buscar elementos más rápidamente, utilice la barra de búsqueda o filtros
 
 Encontrará información detallada sobre cómo utilizar los filtros y crear los suyos personalizados en [esta sección](../query/filter.md).
 
-## Exportación de datos de lista {#export-list}
+## Exportar datos de las listas {#export-list}
 
 Puede exportar datos desde cualquier pantalla de la lista, incluidos los registros de seguimiento. Para exportar una lista, siga estos pasos:
 
 1. Abra la lista que desee exportar.
-1. Ajuste las columnas mostradas y aplique la búsqueda o los filtros deseados. La exportación tiene en cuenta las columnas mostradas en pantalla y cualquier búsqueda o filtro activo.
+1. Ajuste las columnas mostradas y aplique la búsqueda o los filtros deseados. La exportación tiene en cuenta las columnas mostradas en pantalla y cualquier búsqueda o filtro activos.
 1. Desplácese hacia abajo para mostrar más filas si es necesario. Solo se exportan las filas cargadas actualmente en la lista.
 1. Haga clic en el botón **Exportar filas cargadas como CSV** situado encima de la lista. El archivo se guardará en la carpeta de descarga predeterminada del explorador.
 

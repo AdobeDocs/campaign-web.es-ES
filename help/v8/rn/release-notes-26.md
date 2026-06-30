@@ -3,9 +3,9 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Notas de la versión de la interfaz de usuario web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -219,11 +219,11 @@ _27 de enero de 2026_
 <tbody>
 <tr>
 <td>
-<p>La función Entrega multilingüe ya está disponible para todos los clientes (GA). Esta función le permite enviar varios mensajes en diferentes idiomas en la interfaz de usuario web de Adobe Campaign. Puede elegir el idioma predeterminado de la entrega, así como los diferentes idiomas en los que se puede realizar la entrega. También puede previsualizar estos envíos en los idiomas que haya elegido. 
+<p>La función Envío multilingüe ya está disponible para todos los clientes (disponibilidad general). Esta función permite enviar varios mensajes en diferentes idiomas desde la interfaz de usuario web de Adobe Campaign. Puede elegir el idioma predeterminado de su envío, así como los diferentes idiomas en los que se puede realizar el envío. También puede obtener una vista previa de estos envíos en los idiomas que haya elegido. 
 <p>Para obtener más información, consulte la <a href="../msg/multilingual.md">documentación detallada</a>.</p>
 <p>Se han realizado las siguientes mejoras en las notificaciones push multilingües:</p>
 <ul>
-<li>Ahora puede rellenar rápidamente todas las variantes de idioma cargando un archivo CSV que contenga su contenido multilingüe. <a href="../msg/multilingual.md#csv-upload">Más información</a>
+<li>Ahora puede rellenar rápidamente todas las variantes de idioma cargando un archivo CSV con su contenido multilingüe. <a href="../msg/multilingual.md#csv-upload">Leer más</a>
 </li>
 <li>Ahora se admiten notificaciones push enriquecidas.</li>
 </td>
