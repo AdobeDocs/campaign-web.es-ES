@@ -4,12 +4,11 @@ title: Uso de la actividad de flujo de trabajo Deduplication
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Deduplicación
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 33%
+ht-degree: 42%
 
 ---
 
@@ -23,12 +22,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Actividad de deduplicación"
->abstract="La actividad **Deduplicación** elimina los duplicados de los resultados de las actividades entrantes. Se utiliza principalmente después de las actividades de segmentación y antes de las actividades que permiten el uso de datos segmentados. Cuando haya más de una transición entrante disponible, utilice la sección **Sets to join** para seleccionar qué transiciones conectarse a la actividad."
+>abstract="La actividad **Deduplicación** elimina los duplicados de los resultados de las actividades entrantes. Se utiliza principalmente después de las actividades de segmentación y antes de las actividades que permiten el uso de datos segmentados. Cuando haya más de una transición entrante disponible, utilice la sección **Conjuntos que unir** para seleccionar qué transiciones conectar a la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
 >title="Conjuntos que unir"
->abstract="Compruebe las actividades anteriores que desea conectar como transiciones entrantes de la actividad **Deduplication**. Las actividades seleccionadas se conectarán a la **anulación de duplicación**. Esta sección solo se muestra cuando hay más de una transición entrante disponible para conectarse a la actividad."
+>abstract="Compruebe las actividades anteriores que desea conectar como transiciones entrantes de la actividad **Deduplicación**. Las actividades seleccionadas se conectarán entonces a la **deduplicación**. Esta sección solo se muestra cuando hay más de una transición entrante disponible para conectar a la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
