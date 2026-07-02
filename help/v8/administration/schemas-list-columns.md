@@ -1,14 +1,20 @@
 ---
 title: Configurar columnas de lista predeterminadas
 description: Obtenga información sobre cómo configurar qué columnas se muestran de forma predeterminada en las vistas de lista.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
-# Configuración de columnas de lista {#list-columns}
+# Configurar columnas de lista {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="Configuración de lista de inventario"
+>abstract="Configure qué columnas se muestran de forma predeterminada en las vistas de lista. Cada columna muestra su etiqueta y el atributo correspondiente."
 
 La sección **[!UICONTROL Configuración de lista de inventario]** le permite configurar qué columnas se muestran de forma predeterminada en las vistas de lista. Cada columna muestra su etiqueta y el atributo correspondiente.
 

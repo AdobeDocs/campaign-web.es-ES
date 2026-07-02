@@ -1,14 +1,21 @@
 ---
 title: Editar campos personalizados
 description: Obtenga información sobre cómo configurar campos personalizados y su visibilidad en la interfaz.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1b531722-0935-4787-a673-60d97f776936
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '745'
+ht-degree: 8%
 
 ---
 
 # Editar campos personalizados {#fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_detail_screen_configuration"
+>title="Configuración de pantalla de detalles"
+>abstract="Configure qué campos personalizados se muestran en pantallas de detalles y organícelos en secciones. Agregue listas de recopilación para mostrar los datos relacionados en las pantallas de perfil."
+>additional-url="https://experienceleague.adobe.com/es/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="Añadir listas de colección"
 
 Los campos personalizados son atributos adicionales añadidos a los esquemas predeterminados a través de la consola de Adobe Campaign. Permiten personalizar esquemas incluyendo nuevos atributos para adaptarlos a las necesidades de la organización.
 
