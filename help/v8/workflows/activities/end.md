@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo utilizar la actividad End wo
 source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 20%
+ht-degree: 54%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="Actividad final"
->abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Cuando haya más de una transición entrante disponible, utilice la sección **Sets to join** para seleccionar qué transiciones conectarse a la actividad."
+>abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de un flujo de trabajo. Cuando haya más de una transición entrante disponible, utilice la sección **Conjuntos que unir** para seleccionar qué transiciones conectar a la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"
 >title="Conjuntos que unir"
->abstract="Compruebe las actividades anteriores que desea conectar como transiciones entrantes de la actividad **End**. Las actividades seleccionadas se conectan a continuación a **End**. Esta sección solo se muestra cuando hay más de una transición entrante disponible para conectarse a la actividad."
+>abstract="Compruebe las actividades anteriores que desea conectar como transiciones entrantes de la actividad de **Finalización**. Las actividades seleccionadas se conectan entonces a **Finalización**. Esta sección solo se muestra cuando hay más de una transición entrante disponible para conectar a la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"
