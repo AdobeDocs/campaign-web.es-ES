@@ -4,11 +4,9 @@ title: Diseño de una entrega de correo directo
 description: Aprenda a diseñar su envío de correo postal con Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
 workflow-type: tm+mt
 source-wordcount: 648
 ht-degree: 18%
