@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 93bc914bca3d6f729cbb92a925a8ba19fd120bb5
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 3%
+source-wordcount: 535
+ht-degree: 2%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="Códigos JavaScript"
->abstract="Códigos JavaScript"
+>abstract="Los códigos JavaScript son funciones reutilizables que se pueden utilizar en todos los flujos de trabajo, de forma similar a una biblioteca. Desde esta lista, puede crear, modificar, duplicar o eliminar un código JavaScript."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="Crear código JavaScript"
->abstract="Crear código JavaScript"
+>abstract="Defina un área de nombres, un nombre y una etiqueta para su código JavaScript y, a continuación, escriba su contenido utilizando las funciones predefinidas disponibles para las condiciones y el formato de fecha. Una vez creados, el área de nombres y el nombre no se pueden modificar."
 
 ## Acerca de los códigos JavaScript {#about}
 
