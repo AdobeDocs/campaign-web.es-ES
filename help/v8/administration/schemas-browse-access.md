@@ -1,14 +1,20 @@
 ---
 title: Examen y acceso a esquemas
 description: Aprenda a examinar y acceder a los esquemas en la interfaz.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
+source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
 
 # Acceso y configuración de esquemas {#access}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_action_data"
+>title="Acciones sobre los datos"
+>abstract="Configure las acciones disponibles para las pantallas de detalles y listas del esquema. Habilite **[!UICONTROL Solo lectura]** para establecer la pantalla de detalles como de solo lectura y quitar acciones de la lista. Habilitar **[!UICONTROL No permitir eliminación]** para quitar la acción de eliminación de las pantallas de detalles y lista."
 
 Se puede acceder a los esquemas desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Esquemas]**.
 

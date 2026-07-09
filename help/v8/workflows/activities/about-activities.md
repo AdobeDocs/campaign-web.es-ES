@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +51,11 @@ Estas actividades son específicas de la segmentación. Permiten crear una o má
 ## Actividades de administración de datos {#data}
 
 Estas actividades son específicas para manipular y enriquecer datos de población.
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="Actividad de carga de datos (RDBMS)"
+>abstract="La actividad **Carga de datos (RDBMS)** es una actividad **Administración de datos**. Utilice esta actividad para cargar datos directamente desde una base de datos relacional externa en el flujo de trabajo, sin cambiar a la consola del cliente. Los datos extraídos están disponibles en todo el flujo de trabajo y se pueden utilizar para el direccionamiento, el enriquecimiento o el procesamiento posterior de datos."
 
 * [Extraer archivo](extract-file.md): Exporte datos de Adobe Campaign a otro sistema como un archivo externo.
 * [Cargar archivo](load-file.md): Trabaje con perfiles y datos almacenados en un archivo externo.
