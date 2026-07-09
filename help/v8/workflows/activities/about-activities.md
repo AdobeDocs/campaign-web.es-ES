@@ -4,20 +4,14 @@ title: Trabajar con actividades de flujos de trabajo
 description: Aprenda a trabajar con las actividades de flujo de trabajo
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: d1110311-2ca4-442b-be37-088a6db845eeid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +45,11 @@ Estas actividades son específicas de la segmentación. Permiten crear una o má
 ## Actividades de administración de datos {#data}
 
 Estas actividades son específicas para manipular y enriquecer datos de población.
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="Actividad de carga de datos (RDBMS)"
+>abstract="La actividad **Carga de datos (RDBMS)** es una actividad **Administración de datos**. Utilice esta actividad para cargar datos directamente desde una base de datos relacional externa en el flujo de trabajo, sin cambiar a la consola del cliente. Los datos extraídos están disponibles en todo el flujo de trabajo y se pueden utilizar para el direccionamiento, el enriquecimiento o el procesamiento posterior de datos."
 
 * [Extraer archivo](extract-file.md): Exporte datos de Adobe Campaign a otro sistema como un archivo externo.
 * [Cargar archivo](load-file.md): Trabaje con perfiles y datos almacenados en un archivo externo.
