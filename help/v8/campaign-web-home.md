@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e6737eef2f3566d5a62f36e54ae02d81fbb1716c
-workflow-type: ht
-source-wordcount: 523
+source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+workflow-type: tm+mt
+source-wordcount: 707
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="get-started/get-started.md#web"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>Descubra la nueva interfaz de usuario</strong><br/>Explore la nueva interfaz de Adobe Campaign Web y la experiencia de navegación integrada con Adobe Experience Platform.</div>
     </td>
     <td>
@@ -110,7 +110,7 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="get-started/get-started.md#web"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
@@ -124,17 +124,17 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introducción</strong><br/><a href="get-started/user-interface.md">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conectarse a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
+      <strong>Introducción</strong><br/><a href="get-started/get-started.md#web">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conectarse a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiencia del cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatización con flujos de trabajo</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestación de campañas</a> - <a href="personalization/gs-personalization.md">Contenido dinámico</a> - <a href="reporting/gs-reports.md">Creación de informes y análisis</a>
+      <strong>Experiencia del cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatización mediante flujos de trabajo</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestación de campañas</a> - <a href="personalization/gs-personalization.md">Contenido dinámico</a> - <a href="reporting/gs-reports.md">Creación de informes y análisis</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensajes</strong><br/><a href="msg/gs-deliveries.md">Creación de un envío</a> - <a href="email/create-email.md">Correo electrónico</a> - <a href="push/gs-push.md">Notificaciones push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Plantillas de envío</a> - <a href="preview-test/preview-test.md">Previsualizar y probar</a> 
+      <strong>Enviar mensajes</strong><br/><a href="msg/gs-deliveries.md">Crear un envío</a> - <a href="email/create-email.md">Correo electrónico</a> -  <a href="push/gs-push.md">Notificaciones push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Plantillas de envío</a> - <a href="preview-test/preview-test.md">Vista previa y prueba</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

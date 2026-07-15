@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
-workflow-type: ht
+source-git-commit: b8cf1d45b1a69efbe8e055d57b430d0fa04f8494
+workflow-type: tm+mt
 source-wordcount: 243
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -40,8 +40,7 @@ _16 de junio de 2026_
 
 * Ahora puede exportar datos desde cualquier pantalla de lista, incluidos los registros de seguimiento. Busque la lista y simplemente haga clic en el botón exportar. La exportación incluye las filas cargadas actualmente y tiene en cuenta las columnas mostradas en pantalla y cualquier búsqueda o filtro activos. [Más información](../get-started/list-filters.md)
 
-* Las actividades de flujo de trabajo **Deduplicación** y **Fin** ahora admiten varias transiciones entrantes. Cuando
-hay más de una transición entrante disponible, use la sección **Conjuntos que unir** en las propiedades de la actividad
+* Las actividades de flujo de trabajo **Deduplicación** y **Fin** ahora admiten varias transiciones entrantes. Cuando haya más de una transición entrante disponible, use la sección **Conjuntos para unirse** en la actividad
 para seleccionar qué transiciones conectar. Obtenga más información en estas páginas: [Deduplicación](../workflows/activities/deduplication.md), [Fin](../workflows/activities/end.md)
 
 * Los parámetros avanzados ahora se exponen en la sección **Datos de enriquecimiento** de las actividades de flujo de trabajo **Generar público** (tipo de consulta) y **Enriquecimiento**. Estos parámetros le permiten ajustar con precisión cómo se generan los datos de enriquecimiento, lo que incluye la agrupación, la deduplicación, la administración de claves principales y los datos de evento entrantes. [Más información](../workflows/activities/enrichment.md)
