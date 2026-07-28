@@ -4,12 +4,11 @@ title: Personalice el fondo del correo electrónico
 description: Obtenga información sobre cómo personalizar el fondo del correo electrónico
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 44%
+source-wordcount: 366
+ht-degree: 43%
 
 ---
 
@@ -30,34 +29,29 @@ A continuación se muestran las opciones de configuración de fondo disponibles 
 
 * Configure un **[!UICONTROL Color de fondo]** para todo el correo electrónico. Seleccione la configuración del cuerpo en el árbol de navegación accesible desde el panel izquierdo.
 
-  [Establece un color de fondo para todo el cuerpo del correo electrónico, al que se puede acceder mediante el árbol de navegación.]\
-  ![](assets/background_1.png){zoomable="yes"}
+  ![Establece un color de fondo para todo el cuerpo del correo electrónico, al que se puede acceder mediante el árbol de navegación.](assets/background_1.png){zoomable="yes"}
 
 * Establezca el mismo color de fondo para todos los componentes de estructura seleccionando **[!UICONTROL Color de fondo de la ventanilla]**. Esta opción le permite elegir una configuración diferente del color de fondo.
 
-  [Establezca un color de fondo uniforme para todos los componentes de la estructura mediante la opción de color de fondo de ventanilla.]\
-  ![](assets/background_2.png){zoomable="yes"}
+  ![Establezca un color de fondo uniforme para todos los componentes de la estructura mediante la opción de color de fondo de ventanilla.](assets/background_2.png){zoomable="yes"}
 
 * Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación del panel izquierdo para aplicar un color de fondo específico solo a esa estructura.
 
-  [Aplique colores de fondo únicos a los componentes de estructura individuales a través del árbol de navegación.]\
-  ![](assets/background_3.png){zoomable="yes"}
+  ![Aplique colores de fondo únicos a los componentes de estructura individuales a través del árbol de navegación.](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >Asegúrese de no definir un color de fondo de ventanilla móvil, ya que puede ocultar los colores de fondo de la estructura.
 
-* Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura.
+* Configure una **[!UICONTROL Imagen de fondo]** para el contenido de un componente de estructura. Elija una imagen con **[!UICONTROL Seleccionar un recurso]**, **[!UICONTROL Importar medios]** o **[!UICONTROL Importar recurso público]**. [Más información](content-components.md#image)
 
-  [Agregar una imagen de fondo al contenido de un componente de estructura específico.]\
-  ![](assets/background_4.png){zoomable="yes"}
+  ![Agregar una imagen de fondo al contenido de un componente de estructura específico.](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utiliza el color de fondo de fila en su lugar. Seleccione un color de fondo de reserva adecuado en caso de que no se pueda mostrar la imagen.
 
 * Establezca un color de fondo en el nivel de columna.
 
-  [Aplique un color de fondo en el nivel de columna para obtener mayor flexibilidad.]\
-  ![](assets/background_5.png){zoomable="yes"}
+  ![Aplique un color de fondo en el nivel de columna para obtener mayor flexibilidad.](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto proporciona más flexibilidad al editar todo el contenido del correo electrónico.

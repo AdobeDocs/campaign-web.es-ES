@@ -3,16 +3,13 @@ title: 'Configurar opciones de  [!DNL Campaign] '
 description: Obtenga información sobre cómo configurar las opciones de Campaign y crear sus propias opciones personalizadas.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 2%
+source-wordcount: 592
+ht-degree: 1%
 
 ---
 
@@ -41,7 +38,7 @@ Las opciones están disponibles en el menú **[!UICONTROL Administración]** / *
 [Lista de opciones mostrada en el menú Administración / Opciones]
 
 >[!NOTE]
->Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario web, la lista es idéntica y funciona como un reflejo. Para obtener más información sobre las opciones disponibles, consulte la lista de opciones en [Documentación de Campaign v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario web, la lista es idéntica y funciona como un reflejo. Para obtener más información sobre las opciones disponibles, consulte la lista de opciones en [Documentación de Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 En la lista de opciones, puede:
 
@@ -83,3 +80,17 @@ En el ejemplo siguiente, se crea una opción personalizada denominada `sampleOpt
 1. El valor actualizado ahora está visible en el menú **[!UICONTROL Opciones]**.
 
    ![Menú de opciones que muestra el valor actualizado de la opción personalizada](assets/options-sample-updated.png)
+
+## Restringir la dirección de correo electrónico del remitente para las entregas {#restrict-sender-address}
+
+De manera predeterminada, los especialistas en marketing pueden escribir cualquier dirección en el campo **[!UICONTROL De correo electrónico]** de una entrega de correo electrónico. Para restringir este campo a una lista predefinida de direcciones, cree o edite la opción `NmsDelivery_senderAddressMask` integrada y establezca su valor en una lista separada por comas de las direcciones de remitente permitidas, por ejemplo `abc@adobe.com,bcd@adobe.com`.
+
+![Opción para restringir valores en el menú Desde](assets/option-restrict-from.png)
+
+Una vez que esta opción tiene un valor, el campo **[!UICONTROL Del correo electrónico]** se convierte en una lista desplegable que contiene solo estas direcciones, en lugar de un campo de texto libre. Si la opción no existe o su valor está vacío, el campo permanece como de texto libre, como antes.
+
+![Valores disponibles en un correo electrónico](assets/option-restrict-from2.png)
+
+Esta restricción es global. Se aplica a cada marca y plantilla de envíos y no admite campos de personalización, solo direcciones estáticas.
+
+Para obtener más información sobre el campo **[!UICONTROL Del correo electrónico]**, consulte [Configurar el contenido del correo electrónico](../email/edit-content.md#edit-content).

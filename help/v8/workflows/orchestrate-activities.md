@@ -4,18 +4,17 @@ title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 10%
+source-wordcount: 1720
+ht-degree: 8%
 
 ---
 
 # Organización de actividades {#orchestrate}
 
-Una vez que haya [creado un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que realiza. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de flujo de trabajo. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial.
+Una vez que haya [creado un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que realiza. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de flujo de trabajo. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial. Las barras de desplazamiento horizontales y verticales se muestran alrededor del lienzo, lo que permite desplazarse por flujos de trabajo grandes arrastrando directamente al área que desea ver.
 
 ## Añadir actividades {#add}
 
@@ -31,7 +30,7 @@ Una vez que se agrega una actividad al diagrama, aparece un panel derecho que le
 
 Repita este proceso para agregar tantas actividades como sea necesario, según las tareas que realice el flujo de trabajo. También puede insertar una nueva actividad entre dos actividades. Para ello, haga clic en el botón **+** en la transición entre las actividades, seleccione la actividad deseada y configúrela en el panel derecho.
 
-Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono **Eliminar** en las propiedades de la actividad.
+Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono **Eliminar** en las propiedades de la actividad. Consulte [Eliminar y desconectar actividades](#delete) para ver las opciones disponibles.
 
 >[!TIP]
 >
@@ -39,7 +38,7 @@ Para quitar una actividad, selecciónela en el lienzo y haga clic en el icono **
 
 ## La barra de herramientas {#toolbar}
 
-La barra de herramientas, situada en la esquina superior derecha del lienzo, proporciona opciones para manipular fácilmente las actividades y navegar en el lienzo:
+La barra de herramientas, situada en la esquina superior derecha del lienzo, proporciona opciones para manipular fácilmente las actividades y navegar en el lienzo.
 
 * **Modo de selección múltiple**: seleccione varias actividades para eliminarlas todas a la vez o cópielas y péguelas. Consulte [esta sección](#copy).
 * **Agregar rama**: haga clic en el botón **+** de la barra de herramientas para crear una rama de ejecución independiente en el lienzo. El resultado equivale a usar [Fork](activities/fork.md) para rutas paralelas, pero el diagrama es gráficamente más claro.
@@ -58,7 +57,7 @@ Al agregar actividades, los botones de acción están disponibles en el panel de
 
 Se puede:
 
-* **Eliminar** la actividad del lienzo.
+* **Eliminar** la actividad del lienzo. Consulte [esta sección](#delete-activity).
 * **Deshabilitar/Habilitar** la actividad. Cuando se ejecuta el flujo de trabajo, las actividades desactivadas y las siguientes actividades en la misma ruta no se ejecutan y el flujo de trabajo se detiene.
 * **Pausar/reanudar** la actividad. Cuando se ejecuta el flujo de trabajo, se detiene en la actividad pausada. La tarea correspondiente, así como todas las que la siguen en la misma ruta, no se ejecutan.
 * **Copie** la actividad. Consulte [esta sección](#copy).
@@ -103,6 +102,58 @@ Para mover una actividad:
 1. Seleccione la transición en la que desea colocar la actividad y su transición saliente y, a continuación, confirme la selección.
 
 ![Mover actividad y nodos secundarios](assets/activity-move.png)
+
+## Eliminar y desconectar actividades {#delete}
+
+### Eliminar una actividad {#delete-activity}
+
+Para eliminar una actividad, selecciónela en el lienzo y haga clic en el icono **Eliminar** en las propiedades de la actividad. Aparecerá un cuadro de diálogo de confirmación.
+
+* Si la actividad no está conectada a ninguna otra, confirme que desea eliminarla.
+
+  ![Eliminar actividad simple](assets/workflow-delete.png)
+
+* Si la actividad está conectada a una o más actividades subsiguientes, elija cómo administrarlas:
+
+  ![Eliminar actividad múltiple](assets/workflow-delete2.png)
+
+  * **Eliminar todas las actividades subsiguientes**: quita la actividad y todas las actividades que la siguen en la misma ruta.
+  * **Eliminar solo esta actividad**: quita solo la actividad seleccionada y vuelve a conectar la ruta de acceso restante. Esta opción solo está disponible cuando la actividad tiene una única sucesora.
+  * **Eliminar y crear una nueva rama**: quita la actividad seleccionada pero mantiene sus actividades subsiguientes, moviéndolas a una rama nueva e independiente.
+
+Haga clic en **Eliminar** para confirmar su elección o en **Cancelar** para cerrar el cuadro de diálogo sin eliminar nada.
+
+### Desconexión de una transición {#disconnect-transition}
+
+Puede desconectar dos actividades sin eliminar ninguna de ellas. Las actividades colocadas después de la transición desconectada no se eliminan: se mueven a una rama nueva e independiente del flujo de trabajo.
+
+Esto permite reorganizar un diagrama de flujo de trabajo, por ejemplo, para dejar temporalmente a un lado un grupo de actividades que desee conservar, sin tener que eliminarlas y volver a crearlas.
+
+Puede hacerlo en una sola transición:
+
+1. Seleccione la transición que desee desconectar.
+
+1. Haga clic en el icono **Desconectar** en las propiedades de transición.
+
+   ![Desconectar icono en el panel de propiedades de transición](assets/workflow-transition.png)
+
+   Este icono solo está disponible cuando la transición conduce a una actividad de flujo descendente. Aparecerá un cuadro de diálogo de confirmación.
+
+1. Haga clic en **Desconectar** para confirmar o en **Cancelar** para cerrar el cuadro de diálogo sin desconectar nada.
+
+   ![Desconectar el cuadro de diálogo de confirmación de transición](assets/workflow-transition2.png)
+
+Si la actividad de origen tiene varias transiciones salientes (por ejemplo, una actividad **Split** con varias ramas de resultados o una actividad **Fork**), puede quitar cualquiera de ellas de forma individual del panel de propiedades de la actividad:
+
+1. Seleccione la actividad y luego busque la transición que desee eliminar en la sección **Segmento**.
+
+1. Haga clic en el icono de papelera junto a esa transición. Aparecerá un cuadro de diálogo de confirmación.
+
+   ![Icono de papelera junto a un resultado de segmento](assets/workflow-transition3.png)
+
+1. Haga clic en **Quitar** para confirmar o en **Cancelar** para cerrar el cuadro de diálogo sin quitar nada.
+
+   ![Quitar cuadro de diálogo de confirmación de transición](assets/workflow-transition4.png)
 
 ## Opciones de ejecución {#execution}
 
@@ -155,9 +206,9 @@ Para lograrlo, se han agregado las siguientes actividades:
 
 * Una actividad **[!UICONTROL Fork]** que divide el flujo de trabajo en tres rutas (una para cada conjunto de clientes),
 * **[!UICONTROL Cree audiencias]** para segmentar los tres grupos de clientes:
-   * Clientes con un correo electrónico,
-   * Clientes que pertenecen a la audiencia preexistente &quot;Interesados en las máquinas de café&quot;,
-   * Clientes que pertenecen a la audiencia preexistente &quot;VIP para recompensar&quot;.
+  * Clientes con un correo electrónico,
+  * Clientes que pertenecen a la audiencia preexistente &quot;Interesados en las máquinas de café&quot;,
+  * Clientes que pertenecen a la audiencia preexistente &quot;VIP para recompensar&quot;.
 * Una actividad **[!UICONTROL Combine]** que agrupa a clientes con un mensaje de correo electrónico y a aquellos interesados en las máquinas de café,
 * Una actividad **[!UICONTROL Combine]** que excluye clientes de VIP,
 * Una actividad **[!UICONTROL Email delivery]** que envía un mensaje de correo electrónico a los clientes resultantes.

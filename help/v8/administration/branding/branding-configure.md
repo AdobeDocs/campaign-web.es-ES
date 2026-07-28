@@ -6,62 +6,111 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
+source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 29%
+source-wordcount: '809'
+ht-degree: 4%
 
 ---
 
 # Configurar marcas {#branding-configure}
 
+Los administradores técnicos pueden crear y administrar varias marcas directamente desde la interfaz de usuario web. Esto le permite definir todos los elementos que componen su identidad de marca, incluidos los logotipos e incluso la configuración del seguimiento de correo electrónico.
+
+>[!NOTE]
+>
+>Esta capacidad requiere el paquete de promoción de la marca en su instancia. Póngase en contacto con su representante de Adobe si no ve el menú **Marca**.
+
+## Crear o editar una marca {#create-edit-brand}
+
+>[!CONTEXTUALHELP]
+>id="acw_branding_create"
+>title="Crear una marca"
+>abstract="Haga clic en **Crear marca** para definir una nueva identidad de marca. Rellene los detalles de marca en las fichas de configuración y haga clic en **Crear marca** para guardar. La marca está disponible para vincularse a plantillas de envío y envíos independientes."
+
+Para crear una nueva marca, siga estos pasos:
+
+1. Vaya a **[!UICONTROL Administración > Marca]** desde el menú de la izquierda o a **[!UICONTROL Administración > Plataforma > Marca]** desde el **[!UICONTROL Explorador]**.
+
+1. Haga clic en el botón **[!UICONTROL Crear marca]** situado encima de la lista.
+
+   ![Captura de pantalla que muestra la creación de la marca](assets/branding-create.png)
+
+1. Rellene los detalles de marca en las diferentes secciones. Cada campo se describe en la sección [Atributos de marca](#brand-attributes) a continuación.
+
+   ![Captura de pantalla que muestra los campos de creación de marca](assets/branding-create2.png)
+
+1. Haga clic en **[!UICONTROL Crear marca]** para guardar. La marca ya está disponible para vincularse a plantillas de envío y envíos independientes. [Aprenda a asignar una marca](branding-assign.md).
+
+Para editar una marca existente, selecciónela en la lista, actualice los campos y guarde los cambios.
+
+## Atributos de marca {#brand-attributes}
+
+Una **[!UICONTROL marca]** está configurada en cuatro secciones: **[!UICONTROL Identidad]**, **[!UICONTROL Configuraciones de marca]**, **[!UICONTROL Parámetros de encabezado de correo electrónico]** y **[!UICONTROL Parámetros de seguimiento de URL]**.
+
+### Identidad {#identity}
+
+La sección **[!UICONTROL Identidad]** le permite definir y personalizar su marca.
+
+![Captura de pantalla que muestra la ficha Identidad al crear una marca](assets/branding-create3.png)
+
+Esta sección contiene los campos siguientes:
+
+* **[!UICONTROL Nombre de marca]**: El nombre de su marca. Este campo es obligatorio.
+* **[!UICONTROL Etiqueta]**: La etiqueta visible en la interfaz.
+* **[!UICONTROL ID]**: El identificador interno generado automáticamente. Puedes cambiarlo... Solo se permiten letras, dígitos y guiones bajos. Los caracteres especiales se sustituyen por guiones bajos.
+* **[!UICONTROL URL del logotipo]**: URL de la imagen del logotipo de la marca.
+* **[!UICONTROL Dirección URL del sitio web]** y **[!UICONTROL Etiqueta del sitio web]**: La dirección URL del sitio web y la etiqueta asociadas con la marca.
+
+
+### Configuraciones de marca {#brand-configs}
+
+En la sección **[!UICONTROL Configuraciones de marca]**, define los protocolos de subdominio y URL utilizados para el seguimiento y el acceso a la página de aterrizaje.
+
+![Captura de pantalla que muestra la pestaña Configuraciones de marca](assets/branding-create4.png)
+
+Esta sección contiene los campos siguientes:
+
+* **[!UICONTROL Subdominio de marca]**: URL del subdominio específica de esta marca, solicitada para delegación desde Adobe.
+* **[!UICONTROL Protocolo de URL de seguimiento]**, **[!UICONTROL Protocolo de URL de página espejo]** y **[!UICONTROL Protocolo de URL de aplicación]**: El protocolo usado para cada tipo de URL (por ejemplo, **Segura (https)**).
+
+>[!NOTE]
+>
+>La configuración de los servidores de seguimiento, réplica y aplicaciones se almacena en cuentas externas independientes asociadas con el enrutamiento. Esta configuración se aplica durante el aprovisionamiento y no debe modificarse. Para mostrar las direcciones URL, acceda a la pestaña **[!UICONTROL Prefijos de marca]** desde su cuenta externa.
+
+### Parámetros de encabezado de correo electrónico {#header-param}
+
+Los **[!UICONTROL parámetros de encabezado de correo electrónico]** le permiten personalizar lo que los destinatarios verán en la sección de encabezado de sus campañas.
+
+![Captura de pantalla que muestra la pestaña Parámetros de encabezado con campos de encabezado de correo electrónico](assets/branding-create5.png)
+
+Esta sección contiene los campos siguientes:
+
+* **[!UICONTROL Remitente (dirección de correo electrónico)]**: La dirección de correo electrónico de la marca.
+* **[!UICONTROL Remitente (nombre)]**: El nombre de la marca.
+* **[!UICONTROL Responder a (dirección de correo electrónico)]**: La dirección de correo electrónico a la que el cliente puede responder.
+* **[!UICONTROL Responder a (nombre)]**: El nombre para mostrar de las respuestas.
+* **[!UICONTROL Error (dirección de correo electrónico)]**: La dirección de correo electrónico que se usará en caso de error.
+
+<!--
 >[!IMPORTANT]
 >
->Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier pregunta, póngase en contacto con el servicio de atención al cliente de Adobe.
+>After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
+-->
 
-En Adobe Campaign V8, las marcas se encuentran en el menú **[!UICONTROL Administración > Plataforma > Marca]**.
+### Parámetros de seguimiento de URL {#tracking-param}
 
-Una **[!UICONTROL marca]** se define con las siguientes características:
+En la sección **[!UICONTROL parámetros de seguimiento de URL]**, puede mejorar el seguimiento de URL definiendo parámetros adicionales para la integración con herramientas de Web Analytics como Adobe Analytics y Google Analytics.
 
-* Una **[!UICONTROL identidad]**, que define y personaliza su marca. Esta sección contiene los campos siguientes:
+![Captura de pantalla que muestra los parámetros de seguimiento de URL en la ficha Parámetros de encabezado](assets/branding-create6.png)
 
-   * **[!UICONTROL Etiqueta]** visible en la interfaz.
-   * **[!UICONTROL ID]**
-   * **[!UICONTROL Nombre de la marca]**.
-   * **[!UICONTROL Dirección URL]** y **[!UICONTROL etiqueta del sitio web]** de la marca.
-   * **[!UICONTROL Logotipo de marca]**.
+Esta sección contiene los campos siguientes:
 
-  ![](assets/branding_1.png)
+* **[!UICONTROL Parámetros de URL adicionales]**: Agregue parámetros como pares clave-valor junto con sus condiciones de aplicabilidad. Cada nombre de parámetro debe ser único y no vacío, y cada valor de parámetro no debe estar vacío. La condición de aplicabilidad puede estar vacía, pero ninguno de estos valores puede incluir etiquetas JST.
 
-* **[!UICONTROL Parámetros de encabezado de correos electrónicos enviados]** que personalizan lo que verán los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
+* **[!UICONTROL Lista de permitidos de nombres de dominio]**: agregue nombres de dominio o expresiones regulares para que coincidan con las direcciones URL a las que se agregarán parámetros de seguimiento.
 
-   * **[!UICONTROL Remitente (dirección de correo electrónico)]** con la dirección de correo electrónico de la marca.
-   * **[!UICONTROL Remitente (nombre)]** con el nombre de la marca.
-   * **[!UICONTROL Responder a (dirección de correo electrónico)]** con la dirección de correo electrónico a la que el cliente puede responder.
-   * **[!UICONTROL Responder a (nombre)]** con el nombre de la marca.
-   * **[!UICONTROL Error (dirección de correo electrónico)]** con la dirección de correo electrónico que se utiliza en caso de error.
-
-  >[!IMPORTANT]
-  >
-  >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de esta.
-
-  ![](assets/branding_2.png)
-
-* **[!UICONTROL Configuraciones de marca]** define los servidores que se usan para realizar el seguimiento también para el acceso a la página de aterrizaje. Esta sección contiene los campos siguientes:
-
-   * **[!UICONTROL Subdominio de marca]** hace referencia a la dirección URL de subdominio designada específica de esta marca, solicitada para delegación desde Adobe.
-
-  Tenga en cuenta que la configuración de los servidores de seguimiento, réplica y aplicaciones se almacena en cuentas externas independientes asociadas con el enrutamiento. Esta configuración se aplica durante el aprovisionamiento y no debe modificarse. Para mostrar las direcciones URL, acceda a la pestaña **[!UICONTROL Prefijos de marca]** desde su cuenta externa.
-
-  ![](assets/branding_3.png)
-
-* El menú **[!UICONTROL Configuraciones de URL de seguimiento]** le permite mejorar el seguimiento de URL mediante la definición de parámetros adicionales para la integración con herramientas de Web Analytics como Adobe Analytics y Google Analytics.
-
-  Utilice el menú **[!UICONTROL Parámetros de URL adicionales]** para crear parámetros adicionales como pares clave-valor junto con sus condiciones de aplicabilidad. Cada nombre de parámetro debe ser único y no vacío, y cada valor de parámetro no debe estar vacío. La condición de aplicabilidad puede estar vacía, pero ninguno de estos valores puede incluir etiquetas JST.
-
-  Estos parámetros se aplicarán a las direcciones URL rastreadas que coincidan con cualquier nombre de dominio especificado en la **[!UICONTROL Lista de nombres de dominio]**, que puede incluir expresiones regulares.
-
-  **Ejemplo:** Una dirección URL rastreada como `https://www.example.com` pasará a ser `https://www.example.com/?age=21&deliveryName=DM101` cuando los parámetros adicionales `age=21` y `deliveryName=DM101` estén configurados para ese dominio.
+**Ejemplo:** Una dirección URL rastreada como `https://www.luma.com` pasará a ser `https://www.luma.com/?age=21&deliveryName=DM101` cuando los parámetros adicionales `age=21` y `deliveryName=DM101` estén configurados para ese dominio.
 
 ## Configuración de la marca para la mensajería transaccional {#branding-transactional-config}
 

@@ -4,13 +4,11 @@ title: Filtrar listas
 description: Obtenga información sobre cómo filtrar listas web de Adobe Campaign mediante filtros integrados y personalizados.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 365
 ht-degree: 1%
 
 ---
@@ -33,6 +31,10 @@ Se abre el panel Filtros, que muestra los filtros disponibles para la lista sele
 ![El panel Filtros muestra los filtros disponibles para las listas](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 Para filtrar una lista según sus propios criterios, cree un filtro personalizado. Para ello, vaya a la parte inferior del panel de filtros y haga clic en el botón **Agregar reglas**. [Aprenda a crear filtros personalizados](#custom).
+
+>[!NOTE]
+>
+>Para los esquemas personalizados, los administradores pueden agregar sus propios campos de acceso rápido al panel de filtros, encima del botón **Agregar reglas**. Para obtener más información, consulte [Agregar filtros personalizados](../administration/schemas-custom-filters.md).
 
 Una vez aplicados a una lista, los filtros son visibles debajo de la barra de búsqueda. Puede quitar un filtro individual en cualquier momento o quitar todos los filtros haciendo clic en el botón **Borrar todo**.
 
