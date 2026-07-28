@@ -175,7 +175,7 @@ Utilice el componente **[!UICONTROL Image]** para insertar una imagen en el corr
 
    ![Captura de pantalla que muestra el proceso de selección de recursos en el Designer de correo electrónico.](assets/email_designer_29.png){zoomable="yes"}
 
-   Para obtener más información sobre cómo cargar y agregar recursos en Adobe Experience Manager, consulte [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+   Para obtener más información sobre cómo cargar y agregar recursos en Adobe Experience Manager, consulte [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=es).
 
    +++
 

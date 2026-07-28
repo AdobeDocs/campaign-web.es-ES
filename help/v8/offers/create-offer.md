@@ -66,7 +66,7 @@ Esta sección le permite controlar cuándo y a quién se puede presentar la ofer
 
 >[!NOTE]
 >
->El motor de oferta clasifica las ofertas aptas por peso descendente y devuelve primero las propuestas con peso más alto. La lógica de selección (denominada **arbitraje**) también tiene en cuenta las reglas de elegibilidad y las ponderaciones configuradas en la categoría principal y en el entorno. Obtenga más información acerca del principio de arbitraje en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+>El motor de oferta clasifica las ofertas aptas por peso descendente y devuelve primero las propuestas con peso más alto. La lógica de selección (denominada **arbitraje**) también tiene en cuenta las reglas de elegibilidad y las ponderaciones configuradas en la categoría principal y en el entorno. Obtenga más información acerca del principio de arbitraje en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=es){target="_blank"}.
 
 ### Definición del contenido {#content}
 
@@ -136,5 +136,5 @@ Una vez que una oferta está activa, la modificación de cualquier configuració
 
 Cuando la oferta está activa, se puede seleccionar desde cualquier entrega orientado al espacio de oferta coincidente. Aprenda a configurar ofertas en una entrega de [Agregar ofertas a sus mensajes](../msg/offers.md).
 
-Para obtener la integración de la entrega saliente completa, incluido cómo se crea la llamada al motor y cómo se aplica el seguimiento a los vínculos de oferta, consulte las [ofertas de documentación de Campaign v8 en las entregas salientes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
+Para obtener la integración de la entrega saliente completa, incluido cómo se crea la llamada al motor y cómo se aplica el seguimiento a los vínculos de oferta, consulte las [ofertas de documentación de Campaign v8 en las entregas salientes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=es){target="_blank"}.
 
