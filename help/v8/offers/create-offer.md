@@ -3,8 +3,10 @@ audience: end-user
 title: Creación y publicación de una oferta
 description: Obtenga información sobre cómo crear, configurar, aprobar e implementar una oferta en Campaign Web
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
 source-wordcount: 1057

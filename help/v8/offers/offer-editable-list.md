@@ -3,8 +3,10 @@ audience: end-user
 title: Añadir una lista editable al esquema de oferta
 description: Obtenga información sobre cómo exponer un vínculo de colección personalizado como una lista editable directamente en la pantalla de detalles de la oferta.
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
 source-wordcount: 449
