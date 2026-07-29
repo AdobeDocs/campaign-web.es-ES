@@ -2,8 +2,11 @@
 title: Trabajo con páginas dinámicas de JavaScript
 description: Aprenda a trabajar con páginas dinámicas de JavaScript.
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
