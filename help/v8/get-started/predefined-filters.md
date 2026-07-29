@@ -3,10 +3,9 @@ title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo crear y administrar filtros predefinidos en Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: a6d831e2fd3abf7701aac09b112baa6c0ef239cb
+workflow-type: tm+mt
 source-wordcount: 1061
 ht-degree: 100%
 
@@ -86,7 +85,7 @@ Cree un filtro desde la entrada **Filtros predefinidos** en el menú de la izqui
 
 1. Defina la regla para el filtro. Por ejemplo, perfiles de personas de más de 30 años.
 
-   ![Filtrar regla para perfiles de más de 30](assets/filter-30+.png){zoomable="yes"}
+   ![Filtrar regla para perfiles de más de 30](assets/filter-30-plus.png){zoomable="yes"}
 
 1. Guarde los cambios.
 
