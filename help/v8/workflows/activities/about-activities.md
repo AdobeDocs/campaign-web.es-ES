@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 18%
+source-wordcount: 597
+ht-degree: 19%
 
 ---
 
@@ -52,11 +52,7 @@ Estas actividades son específicas de la segmentación. Permiten crear una o má
 
 Estas actividades son específicas para manipular y enriquecer datos de población.
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_data_loading_rdbms"
->title="Actividad de carga de datos (RDBMS)"
->abstract="La actividad **Carga de datos (RDBMS)** es una actividad **Administración de datos**. Utilice esta actividad para cargar datos directamente desde una base de datos relacional externa en el flujo de trabajo, sin cambiar a la consola del cliente. Los datos extraídos están disponibles en todo el flujo de trabajo y se pueden utilizar para el direccionamiento, el enriquecimiento o el procesamiento posterior de datos."
-
+* [Carga de datos (RDBMS)](data-loading-rdbms.md): Cargue datos directamente de una base de datos relacional externa en el flujo de trabajo.
 * [Extraer archivo](extract-file.md): Exporte datos de Adobe Campaign a otro sistema como un archivo externo.
 * [Cargar archivo](load-file.md): Trabaje con perfiles y datos almacenados en un archivo externo.
 * [Transferir archivo](transfer-file.md): Reciba o envíe archivos, pruebe la presencia de archivos o enumere archivos en un servidor. El protocolo que se utiliza puede ser un protocolo de servidor a servidor o el protocolo HTTP.

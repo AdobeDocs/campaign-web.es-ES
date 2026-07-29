@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 36%
+source-wordcount: 728
+ht-degree: 35%
 
 ---
 
@@ -76,6 +76,10 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
    >[!NOTE]
    >
    >Puede cambiar la parte que precede a &#39;@&#39;, pero no la dirección de dominio.
+
+   >[!NOTE]
+   >
+   >Los administradores pueden restringir este campo a una lista predefinida de direcciones de remitente. En este caso, se selecciona una dirección de una lista desplegable en lugar de escribirla. [Más información](../administration/options.md#restrict-sender-address)
 
 1. Expanda la sección **[!UICONTROL Campos de respuesta]**. El nombre y las direcciones del remitente se utilizan de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el equipo de atención al cliente podrá atenderla.
 

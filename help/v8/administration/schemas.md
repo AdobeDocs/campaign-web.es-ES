@@ -11,10 +11,10 @@ subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 33%
+source-wordcount: 348
+ht-degree: 30%
 
 ---
 
@@ -48,8 +48,10 @@ La interfaz de esquemas permite:
 
 * [Acceder y personalizar esquemas](schemas-browse-access.md): vea los esquemas disponibles, explore sus detalles y personalice la visualización de la pantalla
 * [Configurar columnas de lista](schemas-list-columns.md) - Configurar qué columnas se muestran de forma predeterminada en las vistas de lista.
+* [Agregar filtros personalizados](schemas-custom-filters.md) - Agregar campos de filtro de acceso rápido en el panel de filtros de una vista de lista.
 * [Editar campos personalizados](schemas-custom-fields.md): configure qué campos personalizados se muestran en pantallas de detalles y organícelos en secciones.
 * [Agregar listas de colección](schemas-collection-lists.md) - Agregar listas de colección para mostrar datos relacionados en pantallas de perfil.
+* [Acciones de control en los datos](schemas-action-data.md): restringe las acciones de creación, edición y eliminación para esquemas personalizados.
 * [Crear y administrar esquemas](schemas-create-publish.md#create-schemas): cree nuevos esquemas y amplíe los existentes
 * [Publicar y sincronizar esquemas](schemas-create-publish.md#publish): sincronice los cambios de esquema con la estructura de la base de datos.
 * [Trabajar con formularios personalizados](schemas-custom-forms.md): cree, edite y administre registros en esquemas personalizados mediante formularios de entrada de datos.
