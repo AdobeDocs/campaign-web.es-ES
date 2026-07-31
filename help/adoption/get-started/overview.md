@@ -5,27 +5,13 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
 ht-degree: 29%
@@ -67,14 +53,14 @@ A continuación, se enumeran las mejoras clave incluidas en Adobe Campaign v8.
 
   Adobe Campaign v8 aprovecha las tecnologías avanzadas de bases de datos a escala de nube, lo que mejora significativamente el rendimiento y la eficacia. Esta arquitectura rediseñada ofrece varias ventajas clave:
 
-   * *Escala*: El sistema ahora admite un aumento sustancial en las capacidades de procesamiento, con un rendimiento de procesamiento por lotes que alcanza hasta **20 millones de operaciones por hora**. Con esta nueva arquitectura, se pueden administrar perfiles aún más altos con un rendimiento predecible.
-   * *Velocidad*: El sistema se ha mejorado para cualquier actividad de marketing: segmentación, preparación de envíos o rendimiento para mensajes transaccionales, que ahora es de **1 millón por hora**.
+  * *Escala*: El sistema ahora admite un aumento sustancial en las capacidades de procesamiento, con un rendimiento de procesamiento por lotes que alcanza hasta **20 millones de operaciones por hora**. Con esta nueva arquitectura, se pueden administrar perfiles aún más altos con un rendimiento predecible.
+  * *Velocidad*: El sistema se ha mejorado para cualquier actividad de marketing: segmentación, preparación de envíos o rendimiento para mensajes transaccionales, que ahora es de **1 millón por hora**.
 
   Los servicios en la nube completamente administrados proporcionan al usuario lo siguiente:
 
-   * Exploración de datos en tiempo real: Acceda y analice datos instantáneamente para obtener perspectivas rápidas y una toma de decisiones más informada.
+  * Exploración de datos en tiempo real: Acceda y analice datos instantáneamente para obtener perspectivas rápidas y una toma de decisiones más informada.
 
-   * Creación rápida de audiencias: Cree audiencias segmentadas fácilmente en cuestión de minutos para una segmentación de campaña más eficaz.
+  * Creación rápida de audiencias: Cree audiencias segmentadas fácilmente en cuestión de minutos para una segmentación de campaña más eficaz.
 
   En general, la sólida arquitectura de Adobe Campaign v8 proporciona una base sólida para administrar campañas de marketing extensas y complejas con una velocidad y eficiencia mejoradas.
 
@@ -92,9 +78,9 @@ Como usuario de Campaign Standard que está realizando la transición a Adobe Ca
 
   Puede adaptar las notificaciones en función del sistema del cliente:
 
-   * Para [Android](../../v8/push/rich-push.md) plantillas
+  * Para [Android](../../v8/push/rich-push.md) plantillas
 
-   * Para [iOS](../../v8/push/rich-push.md) plantillas
+  * Para [iOS](../../v8/push/rich-push.md) plantillas
 
   Las notificaciones push son una herramienta crucial para atraer a los usuarios de aplicaciones móviles, lo que le permite llegar a ellos incluso cuando no utilizan activamente la aplicación.
 
@@ -104,41 +90,41 @@ Como usuario de Campaign Standard que está realizando la transición a Adobe Ca
 
   Estas son las funciones clave que habilita esta integración:
 
-   * *Administración de recursos*: en Adobe Campaign v8, el diseñador de correo electrónico proporciona un selector para acceder y administrar recursos. Esta función simplifica la integración de elementos de Adobe Experience Manager en el envío, lo que hace que la administración de contenido sea más eficiente. [Más información acerca de la administración de recursos](../../v8/integrations/aem-assets.md)
+  * *Administración de recursos*: en Adobe Campaign v8, el diseñador de correo electrónico proporciona un selector para acceder y administrar recursos. Esta función simplifica la integración de elementos de Adobe Experience Manager en el envío, lo que hace que la administración de contenido sea más eficiente. [Más información acerca de la administración de recursos](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *Importación de plantillas de correo electrónico*: Adobe Campaign v8 permite examinar e importar plantillas de correo electrónico de Adobe Experience Manager directamente en Campaign. [Más información acerca de la importación de plantillas de correo electrónico](../../v8/integrations/aem-content.md)
+  * *Importación de plantillas de correo electrónico*: Adobe Campaign v8 permite examinar e importar plantillas de correo electrónico de Adobe Experience Manager directamente en Campaign. [Más información acerca de la importación de plantillas de correo electrónico](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service ofrece agilidad nativa de la nube, lo que le permite acelerar su tiempo de respuesta al valor y adaptarse a las cambiantes necesidades empresariales. Esta integración no solo mejora las funciones de administración de contenido, sino que también le permite ofrecer experiencias más personalizadas y atractivas a sus clientes en todos los puntos de contacto.
 
-* **Asistente de IA**
+* **Generar contenido**
 
-  El Asistente de IA de Campaign hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
+  La generación de contenido de Campaign hace que la creación y ejecución de campañas de marketing en canales como correo electrónico, SMS y push sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant revoluciona la forma de crear contenido profesional y coherente con la marca en todos los canales. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, AI Assistant genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para estilos, diseños, tonos y mucho más definidos por la marca.
+  Generar contenido revoluciona la forma de crear contenido profesional y coherente con la marca en todos los canales. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, Generar contenido genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca.
 
-  El asistente de IA hace que la creación y ejecución de campañas de marketing sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficiencia y obtiene mejores resultados.
+  Generate Content hace que la creación y ejecución de campañas de marketing sea intuitiva, sencilla y sin complicaciones, a la vez que ahorra tiempo, mejora la eficacia y obtiene mejores resultados.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Proporciona una variante de plantillas de correo electrónico y genera y vuelve a generar imágenes. Obtenga más información acerca del Asistente de IA en [esta sección](../../v8/content/generative-full-content.md). Adobe Campaign v8 tiene un asistente de IA disponible para [correo electrónico](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) y [push](../../v8/content/generative-full-content.md).
+  Proporciona una variante de plantillas de correo electrónico y genera y vuelve a generar imágenes. Obtenga más información acerca de Generar contenido en [esta sección](../../v8/content/generative-full-content.md). Adobe Campaign v8 tiene disponible la opción Generar contenido para [correo electrónico](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) y [push](../../v8/content/generative-full-content.md).
 
 * **Infraestructura de SMS actualizada: SMS v2.0**
 
   La simplicidad y facilidad de uso de los SMS lo convierten en un canal de comunicación muy valioso además de su robustez y compatibilidad inigualable sobre miles de millones de terminales.
 
-  Adobe Campaign v8 viene con una nueva infraestructura que mejora el envío de SMS. [Más información sobre la nueva configuración de SMS](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 viene con una nueva infraestructura que mejora el envío de SMS. [Más información sobre la nueva configuración de SMS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Infraestructura push actualizada**
 
   La versión 8 de Adobe Campaign presenta nuestro último servicio de notificaciones push, con una estructura sólida basada en una tecnología moderna de vanguardia. Este servicio está diseñado para desbloquear nuevos niveles de escalabilidad, lo que garantiza que las notificaciones puedan llegar a una audiencia más grande con una eficiencia perfecta. Con nuestra infraestructura mejorada y los procesos optimizados, puede esperar una mayor escala y fiabilidad, lo que le permite interactuar y conectarse con los usuarios de sus aplicaciones móviles como nunca antes.
 
-  [Más información sobre la infraestructura push actualizada](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [Más información sobre la infraestructura push actualizada](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -249,5 +235,5 @@ Acceda a la guía de referencia pertinente para su función con el fin de descub
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/es/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

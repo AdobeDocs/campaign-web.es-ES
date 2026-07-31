@@ -4,13 +4,10 @@ title: Administrar marca
 description: Aprenda a crear y administrar las directrices de marca
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 542
 ht-degree: 2%
@@ -25,7 +22,7 @@ En [!DNL Adobe Campaign Web], los usuarios pueden escribir y organizar manualmen
 
 ## Acceso a marcas {#generative-access}
 
-Para acceder al menú **[!UICONTROL Marcas]** en [!DNL Adobe Campaign Web], los usuarios deben tener asignados los perfiles de producto **[!UICONTROL Administrador (administrador)]** y **[!UICONTROL Kit de marca]** para crear y administrar marcas. Para obtener acceso de solo lectura, los usuarios necesitan el perfil de producto [!UICONTROL Asistente de IA]. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Para acceder al menú **[!UICONTROL Marcas]** en [!DNL Adobe Campaign Web], los usuarios deben tener asignados los perfiles de producto **[!UICONTROL Administrador (administrador)]** y **[!UICONTROL Kit de marca]** para crear y administrar marcas. Para obtener acceso de solo lectura, los usuarios necesitan el perfil de producto [!UICONTROL Asistente de IA]. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Aprenda a asignar permisos relacionados con la marca
 
@@ -75,7 +72,7 @@ Los usuarios pueden introducir los detalles manualmente o cargar un documento de
 
    ![](assets/brands-15.png)
 
-1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el Asistente de IA.
+1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que las directrices de marca estén disponibles en Generar contenido.
 
 1. Para hacer modificaciones a tu marca publicada, haz clic en **[!UICONTROL Editar marca]**.
 
@@ -97,7 +94,7 @@ Los usuarios pueden introducir los detalles manualmente o cargar un documento de
 
    ![Opciones de menú avanzadas en el panel Marcas](assets/brands-6.png)
 
-Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú Asistente de IA. Esto permite al asistente de IA generar contenido y recursos alineados con las especificaciones. [Más información sobre el Asistente de IA](../content/generative-gs.md)
+Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú Generar contenido. Esto permite a la IA generar contenido y recursos alineados con las especificaciones. [Más información acerca de Generar contenido](../content/generative-gs.md)
 
 También puede utilizar las directrices de marca para evaluar la calidad del contenido y la alineación de la marca. [Más información acerca de la validación de calidad del contenido](brands-score.md#validate-quality)
 

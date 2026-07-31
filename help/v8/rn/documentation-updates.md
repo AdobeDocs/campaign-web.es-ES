@@ -5,12 +5,11 @@ description: Actualizaciones de la documentación de Adobe Campaign Web
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 53%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +26,5 @@ Esta página incluye todas las actualizaciones de la documentación de Adobe Cam
 
 **Fecha: 1 de diciembre de 2025**
 
-* Se ha reorganizado la guía de documentación del Asistente de IA con páginas consolidadas para la [generación de contenido completo](../content/generative-full-content.md), la [generación de texto](../content/generative-text.md) y la [generación de imágenes](../content/generative-image.md)
-* Se ha añadido la [guía de prácticas recomendadas de indicaciones del Asistente de inteligencia artificial](../content/ai-assistant-prompting-guide.md) para ayudar a los usuarios a crear indicaciones eficaces
+* Se ha reorganizado la guía de documentación de generación de contenido con páginas consolidadas para [generación de contenido completo](../content/generative-full-content.md), [generación de texto](../content/generative-text.md) y [generación de imágenes](../content/generative-image.md)
+* Se agregó [Guía de prácticas recomendadas para generar mensajes de contenido](../content/ai-assistant-prompting-guide.md) para ayudar a los usuarios a crear mensajes eficaces

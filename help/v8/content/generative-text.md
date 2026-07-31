@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: Contenido generativo
-description: Aprenda a generar experiencias de contenido de texto con el asistente de IA
+description: Obtenga información sobre cómo generar experiencias de contenido de texto mediante IA
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: 1450
 ht-degree: 2%
 
 ---
 
-# Generación de texto con el Asistente de IA {#generative-text}
+# Generar texto {#generative-text}
 
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-Utilice el Asistente de IA en Adobe Campaign Web para generar texto atractivo que resuene con su audiencia. Tanto si mejora la copia de correo electrónico, crea contenido de página de aterrizaje persuasivo, escribe mensajes de notificación push o redacta texto SMS, el asistente de IA le ayuda a proporcionar una comunicación clara e impactante.
+Utilice IA en la web de Adobe Campaign para generar texto atractivo que resuene con la audiencia. Tanto si mejora la copia de correo electrónico, crea contenido de página de aterrizaje persuasivo, escribe mensajes de notificación push o redacta texto SMS, la IA le ayuda a proporcionar una comunicación clara e impactante.
 
 ## Para correo electrónico y páginas de destino {#email-web-channels}
 
-El asistente de IA puede generar contenido de texto de alta calidad para sus envíos de correo electrónico y páginas de aterrizaje. Esta capacidad le permite crear mensajes atractivos y en la marca que se conectan con su audiencia en puntos de contacto digitales.
+Utilice IA para generar contenido de texto de alta calidad para sus envíos de correo electrónico y páginas de aterrizaje. Esta capacidad le permite crear mensajes atractivos y en la marca que se conectan con su audiencia en puntos de contacto digitales.
 
 ### Acceso y configuración {#access-configure}
 
-Para poder empezar a generar contenido de texto con el asistente de IA, debe configurar la entrega y acceder al editor de contenido. Siga estos pasos para preparar su espacio de trabajo y abrir el panel Asistente de IA.
+Antes de empezar a generar contenido de texto con IA, debe configurar la entrega y acceder al editor de contenido. Siga estos pasos para preparar su espacio de trabajo y abrir el panel Generar contenido.
 
 1. Cree y configure su envío:
 
    * **Correo electrónico**: Después de crear y configurar tu envío de correo electrónico, haz clic en **[!UICONTROL Editar contenido]**. [Más información](../email/create-email-content.md)
    * **Página de aterrizaje**: Después de crear y configurar la página de aterrizaje, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../landing-pages/create-lp.md)
 
-1. Seleccione un **[!UICONTROL componente Texto]** para segmentar contenido específico y acceda al menú **[!UICONTROL Asistente de IA]**.
+1. Seleccione un **[!UICONTROL componente Texto]** para segmentar contenido específico y acceda al menú **[!UICONTROL Generar contenido]**.
 
    ![Captura de pantalla que muestra la selección de componentes de texto en Adobe Campaign Web](assets/text-genai-1.png){zoomable="yes"}
 
-### Generar contenido {#generate-content}
+### Generar texto {#generate-content}
 
-Aprenda a crear mensajes claros, ajustar la configuración y generar texto adaptado mediante el asistente de IA, lo que garantiza que los mensajes se ajusten a los objetivos de comunicación y de marca.
+Aprenda a crear mensajes claros, ajustar la configuración y generar texto adaptado mediante IA, lo que garantiza que la mensajería se ajuste a los objetivos de comunicación y de marca.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -60,12 +57,12 @@ Aprenda a crear mensajes claros, ajustar la configuración y generar texto adapt
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
    * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
-   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, AI Assistant adapta el mensaje en consecuencia.
+   * **[!UICONTROL Tono]**: Asegúrese de que el tono del correo electrónico resuene en la audiencia. Tanto si desea sonar informativa, lúdica o persuasiva, AI adapta el mensaje en consecuencia.
    * **Longitud del texto**: utilice el control deslizante para seleccionar la longitud deseada del texto.
 
      ![Captura de pantalla que muestra las opciones de configuración de texto en Adobe Campaign Web](assets/text-genai-4.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Contenido de referencia cargado]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -110,11 +107,11 @@ Aprenda a revisar el texto generado, realizar refinamientos y aplicar personaliz
 
 ## Para canales móviles {#mobile-channels}
 
-El asistente de IA puede generar contenido de texto atractivo para sus notificaciones push y mensajes SMS, lo que le ayuda a crear comunicaciones móviles atractivas que se conectan con su audiencia en todos los puntos de contacto móviles.
+Utilice IA para generar contenido de texto atractivo para sus notificaciones push y mensajes SMS, lo que le ayuda a crear comunicaciones móviles atractivas que se conectan con su audiencia en todos los puntos de contacto móviles.
 
 ### Acceso y configuración {#mobile-access-configure}
 
-Antes de empezar a generar texto con el asistente de IA para canales móviles, debe configurar la entrega y acceder al asistente de AI.
+Antes de empezar a generar texto con IA para canales móviles, debe configurar la entrega y acceder a Generar contenido.
 
 1. Cree y configure su envío móvil:
    * **Notificaciones push**: después de crear y configurar la entrega de notificaciones push, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../push/create-push.md)
@@ -124,13 +121,13 @@ Antes de empezar a generar texto con el asistente de IA para canales móviles, d
    * **Notificaciones push**: [Más información](../push/content-push.md)
    * **SMS**: [Más información](../sms/content-sms.md)
 
-1. Acceda al menú **[!UICONTROL Mostrar asistente de IA]**.
+1. Acceda al menú **[!UICONTROL Mostrar contenido generado]**.
 
-   ![Captura de pantalla que muestra el menú Mostrar asistente de IA](assets/sms-genai-1.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el menú Mostrar contenido generado](assets/sms-genai-1.png){zoomable="yes"}
 
-### Generar contenido {#mobile-generate-content}
+### Generar texto {#mobile-generate-content}
 
-Una vez que haya accedido al asistente de IA, puede configurar los ajustes de generación para crear contenido móvil que coincida con su marca y los objetivos de entrega. Personalice los parámetros de texto, añada recursos de marca y proporcione indicadores para guiar a la IA en la generación de variaciones relevantes.
+Una vez que haya accedido a Generar contenido, puede configurar los ajustes de generación para crear contenido móvil que coincida con su marca y los objetivos de entrega. Personalice los parámetros de texto, añada recursos de marca y proporcione indicadores para guiar a la IA en la generación de variaciones relevantes.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -138,7 +135,7 @@ Una vez que haya accedido al asistente de IA, puede configurar los ajustes de ge
 
    Si está buscando ayuda para redactar el mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar su envío. [Más información sobre las prácticas recomendadas para los mensajes](ai-assistant-prompting-guide.md)
 
-   ![Asistente de IA con campo de solicitud y opciones](assets/sms-genai-2.png){zoomable="yes"}
+   ![Generar contenido con campo de solicitud y opciones](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **Para las notificaciones push**, elige el campo de texto que quieras generar: **[!UICONTROL Título]**, **[!UICONTROL Subtítulo]** y/o **[!UICONTROL Mensaje]**.
 
@@ -146,12 +143,12 @@ Una vez que haya accedido al asistente de IA, puede configurar los ajustes de ge
 
    * **[!UICONTROL Estrategia de comunicación]**: elige el estilo de comunicación más adecuado para el texto generado.
    * **[!UICONTROL Idiomas]**: elige el idioma del contenido generado.
-   * **[!UICONTROL Tono]**: el tono debería interesar a su audiencia. Tanto si desea sonar informativo, lúdico o persuasivo, el asistente de IA puede adaptar el mensaje en consecuencia.
+   * **[!UICONTROL Tono]**: el tono debería interesar a su audiencia. Tanto si desea sonar informativa, lúdica o persuasiva, la IA puede adaptar el mensaje en consecuencia.
    * **[!UICONTROL Longitud]**: seleccione la longitud del contenido mediante el regulador de intervalo.
 
      ![Panel de configuración de texto](assets/sms-genai-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Contenido de referencia cargado]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -177,7 +174,7 @@ Después de generar variaciones de texto para los mensajes móviles, puede ajust
 
    * **[!UICONTROL Reformular]**: vuelva a escribir el mensaje conservando su significado. Esta opción le ayuda a generar frases alternativas, mejorar el flujo o ajustar el estilo sin cambiar el mensaje principal.
 
-   * **[!UICONTROL Use un lenguaje más sencillo]**: aproveche el Asistente para IA a fin de simplificar su lenguaje y garantizar la claridad y accesibilidad para una audiencia más amplia.
+   * **[!UICONTROL Use un lenguaje más sencillo]**: Use IA para editar o perfeccionar su idioma, lo que garantiza claridad y accesibilidad para una audiencia más amplia.
 
    * **[!UICONTROL Traducir]**: Simplifique su idioma para garantizar la claridad y accesibilidad para una audiencia más amplia.
 
