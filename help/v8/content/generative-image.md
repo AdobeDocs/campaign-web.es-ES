@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Contenido generativo
-description: Obtenga información sobre cómo generar imágenes con el asistente de IA
+description: Obtenga información sobre cómo generar imágenes mediante IA
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
 product_v2:
@@ -10,46 +10,46 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: 1212
 ht-degree: 2%
 
 ---
 
-# Generación de imágenes con el asistente de IA {#generative-image}
+# Generación de imágenes {#generative-image}
 
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar el Asistente de IA en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
-Utilice el asistente de IA en Adobe Campaign Web para crear contenido visual atractivo que mejore los mensajes en el correo electrónico, las páginas de aterrizaje y las notificaciones push. El asistente de IA le ayuda a generar y optimizar imágenes, lo que garantiza que el contenido sea visualmente atractivo y esté alineado con la marca.
+Utilice IA en Adobe Campaign Web para crear contenido visual convincente que mejore los mensajes en el correo electrónico, las páginas de aterrizaje y las notificaciones push. La IA le ayuda a generar y optimizar imágenes, lo que garantiza que el contenido sea visualmente atractivo y esté alineado con la marca.
 
 ## Para correo electrónico y páginas de destino {#email-web-channels}
 
-El asistente de IA puede generar experiencias visuales completas para sus envíos de correo electrónico y páginas de aterrizaje. Esta capacidad le permite producir imágenes de marca y que llamen la atención y que resuenen con la audiencia en puntos de contacto digitales.
+Utilice IA para generar experiencias visuales completas para sus envíos de correo electrónico y páginas de aterrizaje. Esta capacidad le permite producir imágenes de marca y que llamen la atención y que resuenen con la audiencia en puntos de contacto digitales.
 
 ### Acceso y configuración {#access-configure}
 
-Para empezar a generar imágenes con el asistente de IA, primero configure la entrega y abra el editor de contenido. Siga los pasos a continuación para preparar su espacio de trabajo y acceder al panel Asistente de IA.
+Para empezar a generar imágenes con IA, primero configure la entrega y abra el editor de contenido. Siga los pasos a continuación para preparar su espacio de trabajo y acceder al panel Generar contenido.
 
 1. Cree y configure su envío:
 
    * **Correo electrónico**: Después de crear y configurar tu envío de correo electrónico, haz clic en **[!UICONTROL Editar contenido]**. [Más información](../email/create-email-content.md)
    * **Página de aterrizaje**: Después de crear y configurar la página de aterrizaje, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../landing-pages/create-lp.md)
 
-1. Seleccione el recurso que desea cambiar con el Asistente de IA y acceda al menú **[!UICONTROL Asistente de IA]**.
+1. Seleccione el recurso que desee cambiar y acceda al menú **[!UICONTROL Generar contenido]**.
 
    ![Captura de pantalla que muestra la selección de componentes de texto en Adobe Campaign Web](assets/image-genai-1.png){zoomable="yes"}
 
-### Generar contenido {#generate-content}
+### Generar imagen {#generate-content}
 
-Aprenda a crear indicadores eficaces y a configurar los ajustes de la imagen para generar imágenes visualmente atractivas con el asistente de IA. Personalice parámetros como la proporción de aspecto, la intensidad visual y la iluminación para crear imágenes que se alineen con los objetivos de su marca y campaña.
+Aprenda a crear indicadores efectivos y configurar ajustes de imagen para generar imágenes visualmente atractivas mediante IA. Personalice parámetros como la proporción de aspecto, la intensidad visual y la iluminación para crear imágenes que se alineen con los objetivos de su marca y campaña.
 
-1. Habilite la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA personalice el nuevo contenido en función del contenido seleccionado.
+1. Habilite la opción **[!UICONTROL Estilo de referencia]** para usar IA a fin de personalizar el nuevo contenido en función del contenido seleccionado.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -62,7 +62,7 @@ Aprenda a crear indicadores eficaces y a configurar los ajustes de la imagen par
 1. Adapte el mensaje utilizando la opción **[!UICONTROL Configuración de imagen]**:
 
    * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md)
-   * **[!UICONTROL Proporción de aspecto]**: determine la anchura y la altura del recurso. Elija entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o indique un tamaño personalizado.
+   * **[!UICONTROL Proporción de aspecto]**: determine la anchura y la altura del recurso. Elija entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o introduzca un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Categorice la naturaleza del elemento visual y distinga entre distintas formas de representación visual, como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: controla el impacto de la imagen ajustando su intensidad. Un ajuste más bajo (2) crea un aspecto más suave, mientras que un ajuste más alto (10) hace que la imagen sea más vibrante.
    * **[!UICONTROL Color y tono]**: ajusta el aspecto general de los colores y el estado de ánimo o atmósfera transmitidos.
@@ -71,7 +71,7 @@ Aprenda a crear indicadores eficaces y a configurar los ajustes de la imagen par
 
      ![Captura de pantalla que muestra las opciones de configuración de imagen en Adobe Campaign Web](assets/image-genai-4.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Contenido de referencia cargado]**. Simplemente, cambie los recursos que desee incluir en la generación.
 
@@ -105,21 +105,21 @@ Después de generar variaciones de imagen, puede revisar los resultados, comprob
 
 ## Para canales móviles {#mobile-channels}
 
-El asistente de IA le permite generar imágenes atractivas para las notificaciones push, lo que le ayuda a crear comunicaciones móviles visualmente atractivas que capturan la atención y resuenan en su audiencia.
+Utilice la IA para generar imágenes atractivas para las notificaciones push, lo que le ayuda a crear comunicaciones móviles visualmente atractivas que capturan la atención y resuenan en su audiencia.
 
 ### Acceso y configuración {#mobile-access-configure}
 
-Para empezar a generar imágenes para notificaciones push con el asistente de IA, configure primero el envío y abra el asistente de IA.
+Para empezar a generar imágenes para notificaciones push con IA, primero configure la entrega y abra Generar contenido.
 
 1. Después de crear y configurar su entrega de notificaciones push, haga clic en **[!UICONTROL Editar contenido]**. [Más información](../push/create-push.md)
 
-1. Acceda al menú **[!UICONTROL Mostrar asistente de IA]**.
+1. Acceda al menú **[!UICONTROL Mostrar contenido generado]**.
 
-   ![Captura de pantalla que muestra el menú Mostrar asistente de IA](assets/push-img-1.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el menú Mostrar contenido generado](assets/push-img-1.png){zoomable="yes"}
 
-### Generar contenido {#mobile-generate-content}
+### Generar imagen {#mobile-generate-content}
 
-Después de acceder a AI Assistant, puede ajustar la configuración de generación para crear imágenes que se alineen con su marca y admitan sus objetivos de notificaciones push. Configure los parámetros de solicitud e imagen para generar imágenes optimizadas para pantallas móviles.
+Después de acceder a Generar contenido, puede ajustar la configuración de generación para crear imágenes que se alineen con su marca y admitan los objetivos de las notificaciones push. Configure los parámetros de solicitud e imagen para generar imágenes optimizadas para pantallas móviles.
 
 1. Seleccione su **[!UICONTROL marca]** para asegurarse de que el contenido generado por IA se ajuste a las especificaciones de su marca. [Más información](brands.md) sobre marcas.
 
@@ -127,7 +127,7 @@ Después de acceder a AI Assistant, puede ajustar la configuración de generaci�
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas. [Más información sobre las prácticas recomendadas para los mensajes](ai-assistant-prompting-guide.md)
 
-   ![Asistente de IA con campo de solicitud y opciones](assets/push-img-2.png){zoomable="yes"}
+   ![Generar contenido con campo de solicitud y opciones](assets/push-img-2.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Image]** para generar solamente recursos.
 
@@ -141,7 +141,7 @@ Después de acceder a AI Assistant, puede ajustar la configuración de generaci�
 
      ![Captura de pantalla que muestra las opciones de configuración de imagen](assets/push-img-3.png){zoomable="yes"}
 
-1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar un asistente de IA de contexto adicional o seleccione uno cargado anteriormente.
+1. En el menú **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso de marca que contenga contenido que pueda proporcionar IA de contexto adicional o seleccione uno cargado anteriormente.
 
    Los archivos cargados anteriormente están disponibles en la lista desplegable **[!UICONTROL Contenido de referencia cargado]**. Simplemente, cambie los recursos que desee incluir en la generación.
 

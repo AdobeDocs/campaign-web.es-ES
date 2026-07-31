@@ -7,10 +7,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Para saber por dónde empezar, visite [esta página](../get-started/get-started.
 
 +++ ¿Cuáles son las nuevas funciones y capacidades de la nueva interfaz de usuario web?
 
-La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de público, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP. Estimule la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con el Asistente de IA, integrado de forma nativa en el diseñador de mensajes WYSIWYG.
+La nueva interfaz de usuario de Adobe Campaign v8 ofrece coherencia con Adobe Experience Platform y está diseñada para mejorar la eficacia del marketing. El nuevo lienzo de flujo de trabajo proporciona un espacio de trabajo intuitivo y avanzado para la composición de público, la administración de flujos de trabajo y el diseño de contenido, así como casos de uso integrados con aplicaciones nativas de Adobe Experience Platform como Journey Optimizer y Real-Time CDP. Active la creatividad, aumente la productividad y personalice campañas en canales múltiples a escala con Generar contenido, integrado de forma nativa en el diseñador de mensajes de WYSIWYG.
 
 Los especialistas en marketing pueden utilizar la IA generativa para elaborar correos electrónicos HTML completos y generar texto e imágenes con sugerencias de ajustes y variantes. Las nuevas características y capacidades se pueden consultar en [esta página](../rn/whats-new.md). Para obtener más información sobre la nueva interfaz y verla en acción, visite [esta página](../get-started/user-interface.md). Además, puede visitar los [Tutoriales](https://experienceleague.adobe.com/es/docs/campaign-web-learn/tutorials/overview){target="_blank"} para obtener más información sobre la nueva interfaz mediante un conjunto de vídeos explicativos.
 

@@ -1,5 +1,5 @@
 ---
-title: Guía de solicitud de contenido del Ayudante AI
+title: Guía de solicitud de generación de contenido
 description: Aprenda a crear indicadores eficaces para la generación de contenido con tecnología de IA mediante el marco de trabajo CO-STAR para crear contenido de marketing de alta conversión y alineado con la marca.
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2111
-ht-degree: 1%
+source-wordcount: 2054
+ht-degree: 0%
 
 ---
 
-# Prácticas recomendadas de indicaciones del Asistente de IA {#ai-assistant-prompting-guide}
+# Prácticas recomendadas de generación de mensajes de contenido {#ai-assistant-prompting-guide}
 
 Esta guía le ayuda a estructurar sus solicitudes, comunicar la intención con claridad y asegurarse de que la IA produzca mensajes que se ajusten a las directrices de marca, las necesidades de audiencia y los objetivos de las campañas.
-Aprenda a escribir indicadores eficaces que permitan al asistente de IA generar contenido de marketing de alta calidad y de marca adaptado a sus objetivos.
+Aprenda a escribir indicadores eficaces que permitan a la IA generar contenido de marketing de alta calidad y de marca adaptado a sus objetivos.
 
 ## Uso del marco CO-STAR {#costar-framework}
 
-Para obtener los mejores resultados con el asistente de IA, organice las indicaciones mediante el marco de trabajo CO-STAR. Este enfoque estructurado garantiza que la IA entienda exactamente lo que necesita.
+Para obtener los mejores resultados con Generar contenido, organice las indicaciones mediante el marco de trabajo CO-STAR. Este enfoque estructurado garantiza que la IA entienda exactamente lo que necesita.
 
 | Componente | Lo que significa | Por qué importa |
 |-|-|-|

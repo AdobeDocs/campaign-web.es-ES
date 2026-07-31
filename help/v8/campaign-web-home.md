@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 100%
+source-wordcount: 523
+ht-degree: 94%
 
 ---
 
@@ -73,9 +73,9 @@ Para obtener una descripción general completa, consulte las notas de la versió
 [![Botón Más información](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB Asistente de IA]
+>[!TAB Generar contenido]
 
-✨ Sumérjase en una experiencia práctica con la previsualización de las funciones en vivo del [Asistente de IA](../v8/content/generative-gs.md), diseñada para que explore las funciones en primera persona y comprenda plenamente todo su potencial.
+✨ sumérjase en una experiencia práctica con nuestra vista previa de características en vivo [Generar contenido](../v8/content/generative-gs.md), diseñada para permitirle explorar sus características de primera mano y comprender plenamente sus capacidades.
 
 [![Botón Más información](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -124,17 +124,17 @@ Las preguntas más frecuentes sobre la interfaz de usuario web de Campaign se in
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introducción</strong><br/><a href="get-started/get-started.md#web">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conectarse a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
+      <strong>Introducción</strong><br/><a href="get-started/get-started.md#web">Interfaz de usuario</a> - <a href="get-started/connect-to-campaign.md">Conectarse a Campaign</a> - <a href="get-started/permissions.md">Acceso y permisos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiencia del cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatización mediante flujos de trabajo</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestación de campañas</a> - <a href="personalization/gs-personalization.md">Contenido dinámico</a> - <a href="reporting/gs-reports.md">Creación de informes y análisis</a>
+      <strong>Experiencia del cliente</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatización con flujos de trabajo</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Orquestación de campañas</a> - <a href="personalization/gs-personalization.md">Contenido dinámico</a> - <a href="reporting/gs-reports.md">Creación de informes y análisis</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>Enviar mensajes</strong><br/><a href="msg/gs-deliveries.md">Crear un envío</a> - <a href="email/create-email.md">Correo electrónico</a> -  <a href="push/gs-push.md">Notificaciones push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Plantillas de envío</a> - <a href="preview-test/preview-test.md">Vista previa y prueba</a> 
+      <strong>Enviar mensajes</strong><br/><a href="msg/gs-deliveries.md">Creación de un envío</a> - <a href="email/create-email.md">Correo electrónico</a> - <a href="push/gs-push.md">Notificaciones push</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Plantillas de envío</a> - <a href="preview-test/preview-test.md">Previsualizar y probar</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

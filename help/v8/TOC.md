@@ -6,10 +6,10 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 nudge: true
-source-git-commit: 68812d0fd77a150e21c40bbae2bb930ddf84a8a0
+source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 96%
       + [Añadir CSS personalizado](email/custom-css.md)
       + [Administrar contenido en modo oscuro](email/dark-mode.md)
     + [Creación de contenido accesible](email/accessible-content.md)
-  + Asistente de IA {#ai-assistant}
-    + [Trabajo con el Asistente de IA](content/generative-gs.md)
+  + Generar contenido {#ai-assistant}
+    + [Trabajo con Generar contenido](content/generative-gs.md)
     + [Prácticas recomendadas de indicaciones de IA](content/ai-assistant-prompting-guide.md)
     + [Generación de contenido completo con IA](content/generative-full-content.md)
     + [Generación de texto con IA](content/generative-text.md)
     + [Generación de imágenes con IA](content/generative-image.md)
-    + [Casos de uso del Asistente de IA](content/generative-uc.md)
+    + [Generar casos de uso de contenido](content/generative-uc.md)
     + Marcas {#ai-assistant}
       + [Creación y administración de sus marcas](content/brands.md)
       + [Personalice su marca](content/brands-personalize.md)

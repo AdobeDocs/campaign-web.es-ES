@@ -1,18 +1,18 @@
 ---
-title: Casos de uso del Asistente de IA
-description: Descubra, a través de casos de uso, cómo utilizar el asistente de IA
+title: Generar casos de uso de contenido
+description: Descubra, a través de casos de uso, cómo utilizar la IA para generar contenido
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1244
+source-wordcount: 1243
 ht-degree: 0%
 
 ---
 
-# Casos de uso del Asistente de IA {#generative-uc}
+# Generar casos de uso de contenido {#generative-uc}
 
 >[!NOTE]
 >
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 ## Usar contenido existente
 
-![Demostración de la reutilización del contenido existente con el asistente de IA](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Demostración de cómo reutilizar contenido existente con Generar contenido](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 Genere variaciones a partir del contenido y el contexto que ya se encuentran en la campaña para que sean coherentes con el mensaje y la audiencia.
 
 1. Después de configurar su envío, seleccione **[!UICONTROL Editar contenido]**.
 
-1. Abra la sección **[!UICONTROL Asistente de IA]**.
+1. Abra la sección **[!UICONTROL Generar contenido]**.
 
-1. Active la función **[!UICONTROL Usar contenido original]** del asistente de IA para adaptar el nuevo contenido según los detalles de la entrega, incluidos el nombre de la entrega y la audiencia de destino.
+1. Active la función **[!UICONTROL Usar contenido original]** en Generar contenido para adaptar el nuevo contenido según los detalles de la entrega, incluidos el nombre de la entrega y la audiencia de destino.
 
 1. Ajuste el contenido especificando la solicitud en el cuadro **[!UICONTROL Preguntar]** y personalice la configuración según sea necesario.
 
@@ -40,13 +40,13 @@ Una vez definido el contenido, la audiencia y la programación, prepare el enví
 
 ## Refinar variación {#refine}
 
-![Demostración de refinar las variaciones de contenido con el Asistente de IA](assets/do-not-localize/gen-ai-variation.gif)
+![Demostración de refinar las variaciones de contenido con Generar contenido](assets/do-not-localize/gen-ai-variation.gif)
 
 Ajuste una variación generada por IA en el lugar, el tono, la longitud, la redacción y la estrategia antes de seleccionar el texto final.
 
 1. Una vez configurada la entrega, haz clic en **[!UICONTROL Editar contenido]**.
 
-1. Abra el menú **[!UICONTROL Asistente de IA]**.
+1. Abra el menú **[!UICONTROL Generar contenido]**.
 
 1. Ajuste el contenido introduciendo la solicitud deseada en el cuadro **[!UICONTROL Preguntar]** y modifique la configuración según sea necesario.
 
@@ -58,13 +58,13 @@ Ajuste una variación generada por IA en el lugar, el tono, la longitud, la reda
 
    * **[!UICONTROL Usar como contenido de referencia]**: La variación seleccionada actúa como referencia para generar más contenido.
 
-   * **[!UICONTROL Elaborar]**: permita que el Asistente de IA se expanda en ciertos puntos y ofrezca más profundidad y detalle para una mejor participación.
+   * **[!UICONTROL Elaborar]**: usa IA para profundizar ciertos puntos y ofrecer más profundidad y detalle para una mejor participación.
 
-   * **[!UICONTROL Resumir]**: Para obtener información detallada, use el Asistente para IA para crear resúmenes concisos que sean más fáciles de asimilar para los destinatarios de correo electrónico.
+   * **[!UICONTROL Resumir]**: para obtener información extensa, use IA para editar o refinar el contenido, creando resúmenes concisos que sean más fáciles de digerir para los destinatarios de correo electrónico.
 
-   * **[!UICONTROL Reformular]**: el Asistente de IA puede presentar el mensaje de diferentes maneras, lo que ayuda a mantener el contenido actualizado para una variedad de audiencias.
+   * **[!UICONTROL Reformular]**: usa IA para editar o refinar tu mensaje, presentándolo de diferentes maneras para ayudar a mantener el contenido fresco para una variedad de audiencias.
 
-   * **[!UICONTROL Use un idioma más sencillo]**: Simplifique el idioma con el Asistente de IA para asegurarse de que el mensaje sea claro y accesible para todos los lectores.
+   * **[!UICONTROL Use un idioma más sencillo]**: use IA para editar o refinar el idioma, asegurándose de que el mensaje sea claro y accesible para todos los lectores.
 
    Además, ajusta el **[!UICONTROL tono]** y la **[!UICONTROL estrategia de comunicación]** de tu contenido.
 
@@ -72,13 +72,13 @@ Ajuste una variación generada por IA en el lugar, el tono, la longitud, la reda
 
 ## Generar imagen similar
 
-![Demostración de la generación de imágenes similares con el Asistente de IA](assets/do-not-localize/uc-image-similar.gif)
+![Demostración de la generación de imágenes similares con Generar contenido](assets/do-not-localize/uc-image-similar.gif)
 
 Cuando una imagen sea casi adecuada, genere opciones adicionales que conserven el mismo aspecto y tema generales.
 
 1. Después de configurar su envío, seleccione **[!UICONTROL Editar contenido]**.
 
-1. Abra la sección **[!UICONTROL Asistente de IA]**.
+1. Abra la sección **[!UICONTROL Generar contenido]**.
 
 1. Ajuste el contenido especificando la solicitud en el cuadro **[!UICONTROL Preguntar]** y personalice la configuración según sea necesario.
 
@@ -94,17 +94,17 @@ Cuando una imagen sea casi adecuada, genere opciones adicionales que conserven e
 
 ## Cargar una referencia de estilo
 
-![Demostración de cómo cargar una referencia de estilo para el Asistente de IA](assets/do-not-localize/uc-image-reference.gif)
+![Demostración de cómo cargar una referencia de estilo para Generar contenido](assets/do-not-localize/uc-image-reference.gif)
 
 Cargue una imagen de referencia para que los nuevos elementos visuales sigan un estilo, una paleta o una composición deseados.
 
 1. Después de configurar su envío, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Seleccione el recurso que desea modificar mediante el Asistente de IA.
+1. Seleccione el recurso que desea modificar.
 
-1. En el menú del panel derecho, elija **[!UICONTROL Asistente de IA]**.
+1. En el menú del panel derecho, elija **[!UICONTROL Generar contenido]**.
 
-1. Active la opción **[!UICONTROL Estilo de referencia]** para que el Asistente de IA pueda generar contenido nuevo usando el material de referencia.
+1. Active la opción **[!UICONTROL Estilo de referencia]** para usar IA con el fin de generar contenido nuevo usando el material de referencia.
 
 1. Haga clic en **[!UICONTROL Cargar imagen]** para incluir una imagen que agregue contexto a la variación.
 
@@ -120,13 +120,13 @@ Cargue una imagen de referencia para que los nuevos elementos visuales sigan un 
 
 ## Generar contenido en los idiomas compatibles{#languages}
 
-![Demostración animada del asistente de IA que genera contenido en varios idiomas, incluidos francés, español y alemán](assets/do-not-localize/ai-language.gif)
+![Demostración animada de Generar contenido que genera contenido en varios idiomas, incluidos francés, español y alemán](assets/do-not-localize/ai-language.gif)
 
-Produzca texto en los idiomas compatibles con el Asistente de IA combinando el mensaje de solicitud con la configuración de idioma explícita.
+Produzca texto en los idiomas admitidos por IA, combinando el mensaje de solicitud con la configuración de idioma explícita.
 
 1. Una vez configurada la entrega, haz clic en **[!UICONTROL Editar contenido]**.
 
-1. Abra el menú **[!UICONTROL Asistente de IA]**.
+1. Abra el menú **[!UICONTROL Generar contenido]**.
 
 1. Ajuste el contenido introduciendo la solicitud deseada en el cuadro **[!UICONTROL Prompt]** en francés, español, alemán, italiano, japonés, sueco, holandés o noruego.
 
@@ -140,13 +140,13 @@ Produzca texto en los idiomas compatibles con el Asistente de IA combinando el m
 
 ## Usar contenido de referencia para la generación
 
-![Demostración animada del asistente de IA que genera contenido con contenido de referencia](assets/do-not-localize/gen-url.gif)
+![Demostración animada de Generar contenido que genera contenido con contenido de referencia](assets/do-not-localize/gen-url.gif)
 
-Puede dar más contexto al Asistente de inteligencia artificial agregando **contenido de referencia**, una página web o archivos cargados, de modo que la copia generada y las sugerencias permanezcan más cerca del material de origen.
+Puede dar más contexto a AI agregando **contenido de referencia**, una página web o archivos cargados, de modo que la copia generada y las sugerencias permanezcan más cerca del material de origen.
 
 1. Cuando la campaña esté lista, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Abra **[!UICONTROL Asistente de IA]**.
+1. Abrir **[!UICONTROL Generar contenido]**.
 
 1. Describa lo que desea en el campo **[!UICONTROL Preguntar]**.
 
@@ -164,9 +164,9 @@ Puede dar más contexto al Asistente de inteligencia artificial agregando **cont
 
 ## Utilice su modelo generativo {#generative-model}
 
-![Demostración animada del asistente de IA que genera contenido con el modelo personalizado](assets/do-not-localize/gen-ai-model.gif)
+![Demostración animada de Generar contenido que genera contenido con el modelo personalizado](assets/do-not-localize/gen-ai-model.gif)
 
-Registre un modelo generativo personalizado y enrute la generación de imágenes a través de él desde el Asistente de IA.
+Registre un modelo generativo personalizado y enrute la generación de imágenes a través de él desde Generar contenido.
 
 1. En el menú **[!UICONTROL Marcas]**, abra la pestaña **[!UICONTROL Modelos generativos]** y haga clic en **[!UICONTROL Agregar modelo]**.
 
@@ -178,7 +178,7 @@ Registre un modelo generativo personalizado y enrute la generación de imágenes
 
 1. En la campaña, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Seleccione el recurso que desea modificar con el Asistente de IA y abra el **[!UICONTROL Asistente de IA]**.
+1. Seleccione el recurso que desea modificar y abra el menú **[!UICONTROL Generar contenido]**.
 
 1. Especifique su solicitud en el campo **[!UICONTROL Preguntar]** y ajuste los ajustes restantes según corresponda.
 
@@ -190,13 +190,13 @@ Registre un modelo generativo personalizado y enrute la generación de imágenes
 
 ## Utilice Gemini como modelo generativo para la imagen de superposición de texto
 
-![Demostración animada del asistente de IA que genera contenido con Gemini como modelo generador](assets/do-not-localize/gen-nano.gif)
+![Demostración animada de Generar contenido que genera contenido con Gemini como modelo generador](assets/do-not-localize/gen-nano.gif)
 
-Con **Gemini 2.5** seleccionado como modelo generador, puede producir variantes de imagen en el Asistente de IA, agregar superposiciones de texto desde una dirección URL, un archivo o un mensaje generado por IA y, a continuación, colocar superposiciones antes de aplicar una variación final.
+Con **Gemini 2.5** seleccionado como modelo generador, puede producir variantes de imagen en Generar contenido, agregar superposiciones de texto desde una dirección URL, un archivo o un mensaje generado por IA y, a continuación, colocar superposiciones antes de aplicar una variación final.
 
 1. Cuando la campaña esté lista, haga clic en **[!UICONTROL Editar contenido]**.
 
-1. Seleccione el recurso que se usará como imagen base y abra **[!UICONTROL AI Assistant]**.
+1. Seleccione el recurso que se usará como imagen base y abra **[!UICONTROL Generar contenido]**.
 
 1. Haga clic en **[!UICONTROL Abrir configuración]** para ajustar las opciones de generación de imágenes.
 
