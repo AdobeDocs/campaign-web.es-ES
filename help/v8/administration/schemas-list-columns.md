@@ -15,7 +15,7 @@ ht-degree: 13%
 >id="acw_schema_inventory_list_configuration"
 >title="Configuración de lista de inventario"
 >abstract="Configure qué columnas se muestran de forma predeterminada en las vistas de lista. Cada columna muestra su etiqueta y el atributo correspondiente. Agregue filtros personalizados para mostrar los campos de filtro de acceso rápido en el panel Filtros de la vista de lista."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="Añadir filtros personalizados"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=es" text="Añadir filtros personalizados"
 
 La sección **[!UICONTROL Configuración de lista de inventario]** le permite configurar qué columnas se muestran de forma predeterminada en las vistas de lista. Cada columna muestra su etiqueta y el atributo correspondiente.
 
