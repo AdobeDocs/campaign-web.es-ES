@@ -25,8 +25,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="Unirse a actividad"
->abstract="La actividad **Join** le permite combinar varias transiciones de entrada. Elija si desea continuar cuando se completen todas las transiciones entrantes (AND) o cuando se complete cualquier transición entrante (OR)."
+>title="Actividad de unión"
+>abstract="La actividad **Unión** le permite combinar varias transiciones de entrada. Elija si desea continuar cuando se completen todas las transiciones entrantes (AND) o cuando se complete cualquier transición entrante (OR)."
 
 La actividad **Join** es una actividad **Flow control**. Sincroniza varias ramas de ejecución de un flujo de trabajo.
 Puede elegir cómo se evalúan las transiciones entrantes:
@@ -42,7 +42,7 @@ Cuando se selecciona **OR**, la ejecución continúa en cuanto se activa una de 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Combinación de opciones"
+>title="Opciones de combinación"
 >abstract="Seleccione las actividades que desea unir. En el menú desplegable **Conjunto principal**, elija qué población de transición entrante desea conservar."
 
 Siga estos pasos para configurar la actividad **Join**:
