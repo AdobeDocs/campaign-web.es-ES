@@ -7,9 +7,9 @@ description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 95%
       + [Administrar contenido en modo oscuro](email/dark-mode.md)
     + [Creación de contenido accesible](email/accessible-content.md)
   + Generar contenido {#ai-assistant}
-    + [Trabajo con Generar contenido](content/generative-gs.md)
+    + [Trabajar con Generar contenido](content/generative-gs.md)
     + [Prácticas recomendadas de indicaciones de IA](content/ai-assistant-prompting-guide.md)
     + [Generación de contenido completo con IA](content/generative-full-content.md)
     + [Generación de texto con IA](content/generative-text.md)
@@ -152,11 +152,11 @@ ht-degree: 95%
   + [Diseño del contenido de la página de destino](landing-pages/lp-content.md)
   + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
 + Gestión de ofertas {#offers}
-  + [Introducción a la administración de ofertas](offers/gs-offer-management.md)
+  + [Introducción a la gestión de ofertas](offers/gs-offer-management.md)
   + [Revisar configuración del entorno de ofertas](offers/offer-environment.md)
-  + [Creación y administración de espacios de oferta](offers/offer-space.md)
-  + [Creación y publicación de una oferta](offers/create-offer.md)
-  + [Añadir una lista editable al esquema de oferta](offers/offer-editable-list.md)
+  + [Crear y administrar espacios de ofertas](offers/offer-space.md)
+  + [Crear y publicar una oferta](offers/create-offer.md)
+  + [Añadir una lista editable al esquema de ofertas](offers/offer-editable-list.md)
 + Perfiles y públicos {#audiences}
   + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
   + [Dimensiones de segmentación](audience/targeting-dimensions.md)
@@ -302,11 +302,11 @@ ht-degree: 95%
     + [Añadir filtros personalizados](administration/schemas-custom-filters.md)
     + [Editar campos personalizados](administration/schemas-custom-fields.md)
     + [Añadir listas de colección](administration/schemas-collection-lists.md)
-    + [Acciones de control sobre los datos](administration/schemas-action-data.md)
+    + [Controlar las acciones sobre los datos](administration/schemas-action-data.md)
     + [Creación y publicación de esquemas](administration/schemas-create-publish.md)
     + [Trabajar con formularios personalizados](administration/schemas-custom-forms.md)
   + {hide-from-toc}[Configuración de los campos personalizados](administration/custom-fields.md)
-  + [Configurar opciones de  [!DNL Campaign] &#x200B;](administration/options.md)
+  + [Configurar opciones de  [!DNL Campaign] ](administration/options.md)
   + [Administración de zonas horarias](administration/timezone-management.md)
   + Cuentas externas {#external-accounts}
     + [Crear cuentas externas](administration/create-external-account.md)
@@ -318,5 +318,5 @@ ht-degree: 95%
     + [Cuenta externa de CRM](administration/external-crm.md)
   + [Administración de enumeraciones](administration/enumerations.md)
   + [Trabajo con códigos JavaScript](administration/javascript-codes.md)
-  + [Trabajo con páginas dinámicas de JavaScript](administration/dynamic-javascript-pages.md)
+  + [Trabajar con páginas dinámicas de JavaScript](administration/dynamic-javascript-pages.md)
 + [Documentación de Campaign v8 (consola) >](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home)

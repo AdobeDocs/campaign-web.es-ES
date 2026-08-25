@@ -3,9 +3,9 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Notas de la versión de la interfaz de usuario web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2025'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ _28 de julio de 2026_
 <tbody>
 <tr>
 <td>
-<p>Ahora puede administrar ofertas de extremo a extremo directamente desde la interfaz de usuario web de Campaign. Configure entornos de oferta y espacios de oferta, cree su catálogo de ofertas y categorías, cree ofertas con reglas de idoneidad y pesos de prioridad, y apruébelas e impleméntelas para usarlas en sus entregas. Las configuraciones avanzadas siguen estando disponibles en la consola del cliente.</p>
+<p>Ahora puede administrar ofertas directamente de extremo a extremo desde la interfaz de usuario web de Campaign. Configure entornos de ofertas y espacios de ofertas, cree su catálogo de ofertas y categorías, cree ofertas con reglas de idoneidad y pesos de prioridad, y apruébelas e impleméntelas para usarlas en sus envíos. Las configuraciones avanzadas siguen estando disponibles en la consola del cliente.</p>
 <p>Para obtener más información, consulte la <a href="../offers/gs-offer-management.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ _28 de julio de 2026_
 <tbody>
 <tr>
 <td>
-<p>Los administradores técnicos ahora pueden crear y configurar marcas directamente desde la interfaz de usuario web de Campaign, sin utilizar la consola de cliente. Todas las configuraciones de marca, incluidos los parámetros de identidad, subdominio y protocolos, parámetros de encabezado de correo electrónico y parámetros de seguimiento de URL, ya están disponibles en la interfaz de usuario web.</p>
+<p>Los administradores técnicos ahora pueden crear y configurar marcas directamente desde la interfaz de usuario web de Campaign, sin utilizar la consola de cliente. Todas las configuraciones de marca, incluidos identidad, subdominio y protocolos, parámetros de encabezado de correo electrónico y parámetros de seguimiento de URL, ya están disponibles en la interfaz de usuario web.</p>
 <p>Para obtener más información, consulte la <a href="../administration/branding/branding-configure.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -54,13 +54,13 @@ _28 de julio de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Recursos públicos en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Recursos públicos en el diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Al agregar imágenes a tus correos electrónicos, ahora puedes seleccionar <strong>recursos públicos</strong>. Esto le permite elegir una imagen ya disponible en la instancia de Adobe Campaign, como un archivo previamente importado en el Designer de correo electrónico o un recurso público cargado desde la consola del cliente.</p>
+<p>Al añadir imágenes a sus correos electrónicos, ahora puede seleccionar <strong>recursos públicos</strong>. Esto le permite elegir una imagen ya disponible en la instancia de Adobe Campaign, como un archivo importado previamente en el diseñador de correo electrónico o un recurso público cargado desde la consola del cliente.</p>
 <p>Para obtener más información, consulte la <a href="../email/content-components.md#image">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -70,13 +70,13 @@ _28 de julio de 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Actividad del flujo de trabajo Carga de datos (RDBMS)</strong><br/></th>
+<th><strong>Actividad del flujo de trabajo de carga de datos (RDBMS)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La actividad <strong>Data loading (RDBMS)</strong> ya está disponible en la interfaz de usuario web de Campaign. Utilice esta actividad para cargar datos directamente desde una base de datos relacional externa en el flujo de trabajo. Los datos extraídos están disponibles en todo el flujo de trabajo y se pueden utilizar para el direccionamiento, el enriquecimiento o el procesamiento posterior de datos.</p>
+<p>La actividad <strong>Carga de datos (RDBMS)</strong> ya está disponible en la interfaz de usuario web de Campaign. Utilice esta actividad para cargar datos directamente desde una base de datos relacional externa en el flujo de trabajo. Los datos extraídos están disponibles en todo el flujo de trabajo y se pueden utilizar para el direccionamiento, el enriquecimiento o un procesamiento de datos adicional.</p>
 <p>Para obtener más información, consulte la <a href="../workflows/activities/data-loading-rdbms.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -101,18 +101,18 @@ _28 de julio de 2026_
 
 ### Mejoras {#26-7-improvements}
 
-* Se han realizado las siguientes mejoras en la **configuración de esquema personalizada**:
-  * La nueva sección **Datos de acción** le permite restringir las acciones disponibles en los registros de un esquema personalizado, independientemente de las reglas de seguridad configuradas en carpetas individuales. [Más información](../administration/schemas-action-data.md)
-  * Se han agregado **filtros personalizados** en la sección **Configuración de lista de inventario**. Permiten elegir qué atributos se muestran como campos de acceso rápido en el panel de filtros de la vista de lista. [Más información](../administration/schemas-custom-filters.md)
+* Se han realizado las siguientes mejoras en la **configuración de esquema personalizado**:
+  * La nueva sección **Datos de la acción** le permite restringir las acciones disponibles en los registros de un esquema personalizado, independientemente de las reglas de seguridad configuradas en carpetas individuales. [Más información](../administration/schemas-action-data.md)
+  * Se han añadido **filtros personalizados** en la sección **Configuración de lista de inventario**. Permiten elegir qué atributos se muestran como campos de acceso rápido en el panel de filtros de la vista de lista. [Más información](../administration/schemas-custom-filters.md)
 
-* Se han realizado las siguientes mejoras en **flujos de trabajo**:
+* Se han realizado las siguientes mejoras en los **flujos de trabajo**:
   * La eliminación de una actividad de flujo de trabajo ahora es más flexible: cuando la actividad tiene actividades posteriores, puede elegir eliminarlas todas, eliminar solo la actividad seleccionada o eliminarla mientras mantiene sus actividades posteriores en una nueva rama. [Más información](../workflows/orchestrate-activities.md#delete-activity)
-  * Ahora puede desconectar una transición entre dos actividades de flujo de trabajo sin eliminar ninguna de ellas. Esto permite reorganizar un diagrama de flujo de trabajo, por ejemplo, para dejar temporalmente a un lado un grupo de actividades que desee conservar, sin tener que eliminarlas y volver a crearlas. [Más información](../workflows/orchestrate-activities.md#disconnect-transition)
-  * Ahora se muestran barras de desplazamiento horizontales y verticales alrededor del lienzo del flujo de trabajo, lo que permite desplazarse por flujos de trabajo grandes arrastrando directamente al área que desea ver. [Más información](../workflows/orchestrate-activities.md)
-  * Al guardar o iniciar o reiniciar un flujo de trabajo, ahora se muestra una advertencia si otro usuario ha modificado el flujo de trabajo en la interfaz de usuario web o en la consola del cliente desde que lo abrió. Puede optar por anular los demás cambios con el suyo, volver a cargar el flujo de trabajo para obtener la versión más reciente o cancelar.
+  * Ahora puede desconectar una transición entre dos actividades de flujo de trabajo sin eliminar ninguna de ellas. Esto le permite reorganizar un diagrama de flujo de trabajo, por ejemplo, para dejar temporalmente a un lado un grupo de actividades que desee conservar, sin tener que eliminarlas y volver a crearlas. [Más información](../workflows/orchestrate-activities.md#disconnect-transition)
+  * Ahora se muestran barras de desplazamiento horizontales y verticales alrededor del lienzo del flujo de trabajo, para que pueda desplazarse por los flujos de trabajo grandes arrastrando directamente hasta el área que desea ver. [Más información](../workflows/orchestrate-activities.md)
+  * Al guardar o iniciar/reiniciar un flujo de trabajo, ahora se muestra una advertencia si otro usuario ha modificado el flujo de trabajo en la interfaz de usuario web o en la consola del cliente desde que lo abrió. Puede optar por anular los demás cambios para conservar los suyos, volver a cargar el flujo de trabajo para obtener la versión más reciente o cancelar.
 
-* **Dirección de correo electrónico del remitente**: Ahora puede restringir el campo **De correo electrónico** de las entregas a una lista predefinida de direcciones, mediante la opción **NmsDelivery_senderAddressMask**. [Más información](../administration/options.md#restrict-sender-address)
-* Se han mejorado **mensajes de error de inicio de sesión**: cuando falla un intento de inicio de sesión, la interfaz de usuario web muestra ahora un mensaje de error más específico para varios escenarios (por ejemplo, cuando el usuario no tiene asignada ninguna zona de seguridad o su dirección IP está restringida).
+* **Dirección de correo electrónico del remitente**: ahora puede restringir el campo **Correo electrónico del remitente** de sus envíos a una lista predefinida de direcciones, mediante la opción **NmsDelivery_senderAddressMask**. [Más información](../administration/options.md#restrict-sender-address)
+* Se han mejorado los **mensajes de error de inicio de sesión**: cuando falla un intento de inicio de sesión, la interfaz de usuario web muestra ahora un mensaje de error más específico para varios escenarios (por ejemplo, cuando el usuario no tiene asignada ninguna zona de seguridad o su dirección IP está restringida).
 
 ## Versión de junio de 2026 {#26-6-release}
 
@@ -126,7 +126,7 @@ _16 de junio de 2026_
 
 * Ahora puede exportar datos desde cualquier pantalla de lista, incluidos los registros de seguimiento. Busque la lista y simplemente haga clic en el botón exportar. La exportación incluye las filas cargadas actualmente y tiene en cuenta las columnas mostradas en pantalla y cualquier búsqueda o filtro activos. [Más información](../get-started/list-filters.md)
 
-* Las actividades de flujo de trabajo **Deduplicación** y **Fin** ahora admiten varias transiciones entrantes. Cuando haya más de una transición entrante disponible, use la sección **Conjuntos para unirse** en la actividad
+* Las actividades de flujo de trabajo **Deduplicación** y **Fin** ahora admiten varias transiciones entrantes. Cuando hay más de una transición entrante disponible, use la sección **Conjuntos que unir** de la actividad
 para seleccionar qué transiciones conectar. Obtenga más información en estas páginas: [Deduplicación](../workflows/activities/deduplication.md), [Fin](../workflows/activities/end.md)
 
 * Los parámetros avanzados ahora se exponen en la sección **Datos de enriquecimiento** de las actividades de flujo de trabajo **Generar público** (tipo de consulta) y **Enriquecimiento**. Estos parámetros le permiten ajustar con precisión cómo se generan los datos de enriquecimiento, lo que incluye la agrupación, la deduplicación, la administración de claves principales y los datos de evento entrantes. [Más información](../workflows/activities/enrichment.md)

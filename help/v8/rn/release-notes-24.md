@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Las siguientes funciones y mejoras están disponibles a partir de la versión de
 <tbody>
 <tr>
 <td>
-<p>Una vez que haya creado y adaptado el mensaje, llévelo al siguiente nivel con Generar contenido en Adobe Campaign Web. Esta potente herramienta le permite optimizar el impacto de su contenido mediante la generación de una serie de atractivos textos, títulos principales e imágenes visualmente atractivas.</p>
+<p>Una vez que haya creado y adaptado su mensaje, llévelo al siguiente nivel con Generar contenido de Adobe Campaign Web. Esta potente herramienta le permite optimizar el impacto de su contenido mediante la generación de una serie de atractivos textos, títulos principales e imágenes visualmente atractivas.</p>
 <p>Sumérjase en una experiencia práctica con <a href="https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator">nuestra previsualización de funciones en vivo</a>, diseñada para que explore las funciones en primera persona y comprenda plenamente todo su potencial.</a>.</p>
 <p>Para obtener más información, consulte la <a href="../content/generative-gs.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
