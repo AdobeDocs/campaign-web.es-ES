@@ -6,10 +6,10 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 nudge: true
-source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: ht
-source-wordcount: '1072'
-ht-degree: 100%
+source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
     + [Creación de su primer correo electrónico](email/create-email.md)
     + [Configurar el contenido de correo electrónico](email/edit-content.md)
     + [Creación de experimentos de contenido](email/ab-testing.md)
-    + Envío y supervisión del correo electrónico {#monitor}
+    + Envío y monitorización del correo electrónico {#monitor}
       + [Preparación y envío de un correo electrónico](monitor/prepare-send.md)
       + [Envío mediante múltiples olas](advanced-settings/send-using-waves.md)
       + [Monitorización de los registros de envío](monitor/delivery-logs.md)
@@ -141,6 +141,7 @@ ht-degree: 100%
     + [Generación de texto con IA](content/generative-text.md)
     + [Generación de imágenes con IA](content/generative-image.md)
     + [Generar casos de uso de contenido](content/generative-uc.md)
+    + [Metadatos de C2PA en Designer de correo electrónico y página de aterrizaje](content/c2pa-metadata-email-designer.md)
     + Marcas {#ai-assistant}
       + [Creación y administración de sus marcas](content/brands.md)
       + [Personalice su marca](content/brands-personalize.md)
