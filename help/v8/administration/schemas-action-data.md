@@ -1,19 +1,19 @@
 ---
-title: Acciones de control sobre los datos
+title: Controlar las acciones sobre los datos
 description: Obtenga información sobre cómo restringir las acciones de creación, edición y eliminación en registros de esquema personalizados.
 source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Acciones de control sobre los datos {#action-data}
+# Controlar las acciones sobre los datos {#action-data}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_action_data"
 >title="Datos de acciones"
->abstract="Configure las acciones disponibles para las pantallas de detalles y listas del esquema. Habilite **[!UICONTROL Solo lectura]** para establecer la pantalla de detalles como de solo lectura y quitar acciones de la lista. Habilitar **[!UICONTROL No permitir eliminación]** para quitar la acción de eliminación de las pantallas de detalles y lista."
+>abstract="Configure las acciones disponibles para las pantallas de detalles y listas del esquema. Habilite **[!UICONTROL Solo lectura]** para establecer la pantalla de detalles como de solo lectura y quitar acciones de la lista. Habilite **[!UICONTROL No permitir eliminación]** para quitar la acción de eliminación de las pantallas de detalles y lista."
 
 La sección **[!UICONTROL Datos de acción]** le permite restringir las acciones disponibles en los registros de un esquema personalizado, independientemente de las [reglas de seguridad](../get-started/work-with-folders.md) configuradas en carpetas individuales. Esta restricción se aplica al nivel de esquema, en todas las carpetas, para cada usuario, incluidos los administradores.
 

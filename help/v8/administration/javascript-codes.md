@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 535
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="Crear código JavaScript"
->abstract="Defina un área de nombres, un nombre y una etiqueta para su código JavaScript y, a continuación, escriba su contenido utilizando las funciones predefinidas disponibles para las condiciones y el formato de fecha. Una vez creados, el área de nombres y el nombre no se pueden modificar."
+>abstract="Defina un espacio de nombres, un nombre y una etiqueta para su código JavaScript y, a continuación, escriba su contenido utilizando las funciones predefinidas disponibles para las condiciones y el formato de fecha. Una vez creados, el espacio de nombres y el nombre no se pueden modificar."
 
 ## Acerca de los códigos JavaScript {#about}
 

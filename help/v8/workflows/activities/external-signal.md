@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 2fbacd0b6e5c6bb88b7987f151bca514764e59f7
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 11%
+source-wordcount: 408
+ht-degree: 9%
 
 ---
 
@@ -86,4 +86,4 @@ Siga estos pasos para configurar la actividad **Señal externa** y déclencheur 
 
    +++
 
-   * Para almacenar en déclencheur una actividad **[!UICONTROL External signal]** desde una llamada API, siga los pasos detallados en la documentación de la API de Campaign. [Aprenda a utilizar el método `PostEvent` estático](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=es).
+   * Para almacenar en déclencheur una actividad **[!UICONTROL External signal]** desde una llamada API, siga los pasos detallados en la documentación de la API de Campaign. [Aprenda a utilizar el método `PostEvent` estático](https://experienceleague.adobe.com/es/tools/campaign-api).

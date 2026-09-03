@@ -1,5 +1,5 @@
 ---
-title: Trabajo con páginas dinámicas de JavaScript
+title: Trabajar con páginas dinámicas de JavaScript
 description: Aprenda a trabajar con páginas dinámicas de JavaScript.
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
 product_v2:
@@ -10,11 +10,11 @@ topic_v2:
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
-ht-degree: 1%
+ht-degree: 29%
 
 ---
 
-# Trabajo con páginas dinámicas de JavaScript {#dynamic-javascript-pages}
+# Trabajar con páginas dinámicas de JavaScript {#dynamic-javascript-pages}
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"
@@ -23,8 +23,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
->title="Crear página JavaScript dinámica"
->abstract="Defina un área de nombres, un nombre y una etiqueta para su página dinámica de JavaScript y, a continuación, escriba su contenido con el código JavaScript. Una vez creados, el área de nombres y el nombre no se pueden modificar."
+>title="Crear una página de dinámica de JavaScript"
+>abstract="Defina un espacio de nombres, un nombre y una etiqueta para su página dinámica de JavaScript y, a continuación, escriba su contenido con el código JavaScript. Una vez creados, el espacio de nombres y el nombre no se pueden modificar."
 
 ## Acerca de las páginas dinámicas de JavaScript {#about}
 
