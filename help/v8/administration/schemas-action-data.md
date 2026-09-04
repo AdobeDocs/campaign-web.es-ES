@@ -1,10 +1,10 @@
 ---
 title: Controlar las acciones sobre los datos
 description: Obtenga información sobre cómo restringir las acciones de creación, edición y eliminación en registros de esquema personalizados.
-source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 13%
+source-wordcount: '423'
+ht-degree: 12%
 
 ---
 
@@ -33,15 +33,17 @@ Para configurar los datos de acción, siga los pasos a continuación:
 
    ![Sección de datos de acción en la definición de pantalla](assets/schemas-action-data1.png)
 
-1. Seleccione una o ambas opciones disponibles:
+1. Seleccione una o varias de las opciones disponibles:
 
    * **[!UICONTROL Solo lectura]**: La pantalla de detalles se convierte en de solo lectura para todos los usuarios. No hay ninguna acción de creación, duplicado, actualización o eliminación disponible en la lista, y las acciones de eliminación y duplicado están ocultas en la pantalla de detalles. Seleccionar esta opción es similar a configurar una vista: los usuarios aún pueden abrir registros y reutilizarlos, por ejemplo al segmentar una entrega, pero no pueden modificarlos.
 
    * **[!UICONTROL No permitir eliminación]**: la acción de eliminación se quita de la pantalla de detalles y de la lista, en todas las carpetas. Otras acciones, como crear, duplicar y actualizar, siguen estando disponibles.
 
+   * **[!UICONTROL No permitir duplicados]**: la acción duplicar se quita de la pantalla de detalles y de la lista, en cada carpeta. Otras acciones, como crear, eliminar y actualizar, siguen estando disponibles.
+
      >[!NOTE]
      >
-     >Habilitar **[!UICONTROL Solo lectura]** también cubre automáticamente la eliminación, por lo que la opción **[!UICONTROL No permitir eliminación]** se deshabilita al seleccionar **[!UICONTROL Solo lectura]**.
+     >Habilitar **[!UICONTROL Solo lectura]** también cubre automáticamente la eliminación y la duplicación, por lo que las opciones **[!UICONTROL No permitir eliminación]** y **[!UICONTROL No permitir duplicados]** están deshabilitadas mientras que **[!UICONTROL Solo lectura]** está seleccionado.
 
 1. Haga clic en **[!UICONTROL Save]**.
 

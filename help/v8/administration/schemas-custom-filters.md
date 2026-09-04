@@ -2,10 +2,10 @@
 title: Añadir filtros personalizados
 description: Obtenga información sobre cómo agregar filtros personalizados como campos de acceso rápido en el panel de filtros de una vista de lista.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener más información sobre la pantalla de definición de pantalla y c�
 
    ![Selector de atributos que muestra atributos directos y subatributos de vínculos](assets/schemas-custom-filters2.png)
 
-1. Haga clic en **[!UICONTROL Save]**. Puede reordenar los filtros personalizados con las flechas arriba y abajo o arrastrándolos, y eliminar un filtro con el icono de papelera en su fila.
+1. Haga clic en **[!UICONTROL Save]**. Puede reordenar los filtros personalizados con las flechas arriba y abajo o arrastrándolos. Para quitar un filtro, haga clic en el icono de puntos suspensivos de su fila y seleccione **[!UICONTROL Eliminar]**.
 
 1. Busque la lista de registros de este esquema y abra el panel Filtros. Los atributos que seleccionó se muestran como **[!UICONTROL Filtros personalizados]**, encima del generador de reglas **[!UICONTROL Filtros avanzados]**.
 
@@ -47,15 +47,20 @@ Para obtener más información sobre la pantalla de definición de pantalla y c�
 
 1. Introduzca o seleccione un valor en uno de los filtros personalizados para restringir la lista.
 
-<!--
-## Configure a custom filter's settings {#settings}
+## Restringir valores para un filtro personalizado de tipo vínculo {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+Para un filtro personalizado basado en un atributo de vínculo, puede restringir qué valores están disponibles en el selector.
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>La opción **[!UICONTROL Edit]** descrita a continuación solo está disponible para filtros personalizados basados en un atributo de vínculo. Los filtros personalizados basados en otros tipos de atributos solo se pueden reordenar o eliminar.
 
-Available settings are:
+1. En la fila de un filtro personalizado de tipo vínculo, haga clic en el icono de puntos suspensivos y seleccione **[!UICONTROL Editar]**.
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![Editar opción en un filtro personalizado de tipo vínculo](assets/schemas-custom-filters4.png)
+
+1. En la ficha **[!UICONTROL Configuración del filtro]**, haga clic en **[!UICONTROL Editar filtro]** y use el modelador de consultas para definir una condición que restrinja los valores disponibles en el selector. Por ejemplo, restrinja un filtro de envío a las entregas que utilizan el canal de correo electrónico.
+
+   ![Ficha Configuración de filtro en el cuadro de diálogo Configuración de vínculo](assets/schemas-custom-filters5.png)
+
+1. Confirme los cambios.

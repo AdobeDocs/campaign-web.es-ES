@@ -4,14 +4,12 @@ title: Edición del contenido de correo electrónico
 description: Obtenga información sobre cómo editar el contenido del correo electrónico en la interfaz de usuario web de Campaign
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 35%
+source-wordcount: 734
+ht-degree: 33%
 
 ---
 
@@ -113,7 +111,7 @@ Para configurar o editar el contenido de un correo electrónico, siga los pasos 
    * [Crear correos electrónicos desde cero](create-email-content.md)
    * [Estilos del contenido](get-started-email-style.md)
 
-1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede desactivar esta opción desde **[!UICONTROL Funciones opcionales]**. [Aprenda a añadir vínculos y a administrar el seguimiento](message-tracking.md)
+1. De forma predeterminada, el seguimiento está habilitado para el envío. Puede deshabilitarlo o configurar el seguimiento de aperturas desde la ficha **[!UICONTROL Configuración]** > **[!UICONTROL Seguimiento]** de la entrega. [Más información](../advanced-settings/delivery-settings.md#tracking-tab). [Aprenda a añadir vínculos y a administrar el seguimiento](message-tracking.md)
 
 1. Una vez definido el contenido del correo electrónico, utilice el botón **[!UICONTROL Simular contenido]** para comprobar cómo se muestra antes de enviarlo. También puede validar la calidad del contenido para evaluar la legibilidad, la eficacia de CTA y la calidad general. [Más información acerca de la validación de calidad del contenido](../content/brands-score.md#validate-quality)
 
