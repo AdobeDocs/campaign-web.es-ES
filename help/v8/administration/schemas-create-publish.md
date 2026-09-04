@@ -2,10 +2,10 @@
 title: Creación y publicación de esquemas
 description: Obtenga información sobre cómo crear, ampliar y publicar esquemas.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,15 @@ El esquema se crea y se muestra la estructura de esquema generada.
 De forma predeterminada, el esquema está vacío. Ahora debe agregar los campos que desea incluir en el esquema mediante el editor de esquemas:
 
 1. Haga clic en el icono de lápiz en la sección **[!UICONTROL Contenido]** de la pantalla de detalles del esquema.
-2. Añada los elementos necesarios y guarde. Este es un ejemplo de estructura de esquema personalizada:
+1. Añada los elementos necesarios. Este es un ejemplo de estructura de esquema personalizada:
 
    ![Cuadro de diálogo de creación de esquemas](assets/schemas-create3.png)
 
-El sistema valida automáticamente la estructura XML y genera el esquema.
+1. Haga clic en el botón **[!UICONTROL Comprobar]** para comprobar la estructura XML del esquema antes de guardar. Los errores identificados se muestran en la parte inferior de la pantalla, por ejemplo, &quot;Formato XML no válido&quot;.
+
+   ![Errores del cuadro de diálogo de creación de esquemas](assets/schemas-create3bis.png)
+
+1. Corrija los errores y, a continuación, guarde los cambios para generar el esquema.
 
 ### Definición de la edición de pantalla {#define-attributes}
 

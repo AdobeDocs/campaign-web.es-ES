@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 nudge: true
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 99%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 99%
     + [Iniciar y monitorizar sus flujos de trabajo](workflows/start-monitor-workflows.md)
   + Trabajo con actividades del flujo de trabajo {#design-workflows}
     + [Acerca de las actividades de flujo de trabajo](workflows/activities/about-activities.md)
+    + [Aprobación](workflows/activities/approval.md)
     + [Envío automatizado](workflows/activities/automated-delivery.md)
     + [Generar público destinatario](workflows/activities/build-audience.md)
     + [Cambio de la fuente de datos](workflows/activities/change-data-source.md)

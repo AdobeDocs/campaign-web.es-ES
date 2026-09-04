@@ -6,10 +6,10 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 735
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 837
+ht-degree: 88%
 
 ---
 
@@ -49,6 +49,11 @@ Puede configurar un tipo de carpeta. Por ejemplo: una carpeta de envíos. El ico
 >
 >Las carpetas **[!UICONTROL Objetos creados automáticamente]** y **[!UICONTROL Flujos de trabajo técnicos]** están restringidas y no se pueden ver en el panel lateral izquierdo.
 
+Las acciones disponibles en una carpeta dependen de los derechos que se le hayan concedido. Es posible que el cuadro de diálogo **[!UICONTROL Configuración de carpeta]** se abra en **modo de solo lectura** y que algunas acciones o secciones no estén disponibles, según sus derechos.
+
+Póngase en contacto con el administrador si le faltan derechos en una carpeta. Consulte esta [sección](permissions.md#folder-permissions) para obtener información sobre cómo se administran los permisos de carpeta.
+
+Los derechos asignados como **[!UICONTROL Insertar carpetas]**, **[!UICONTROL Editar carpetas]** y **[!UICONTROL Eliminar carpeta]** también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=es#use-named-rights){target="_blank"}.
 
 ## Creación de una nueva carpeta {#create-a-folder}
 

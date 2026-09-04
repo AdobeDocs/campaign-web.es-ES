@@ -11,10 +11,10 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 6%
+source-wordcount: 640
+ht-degree: 5%
 
 ---
 
@@ -58,35 +58,35 @@ Configure las opciones personalizadas:
 
 ![Captura de pantalla que muestra la configuración de campos personalizados para un plan](assets/plan_customfields.png){zoomable="yes"}
 
-## Creación y configuración de un programa
+## Creación y configuración de un programa {#create-program}
 
-Para crear un programa en tu plan ([Más información sobre cómo crear un plan](#create-plan)), ve a tu plan y crea una carpeta con el tipo de carpeta **[!UICONTROL Programa]**. [Más información sobre cómo crear una carpeta](../get-started/work-with-folders.md).
+Los programas están disponibles en el menú de navegación de la izquierda, de forma similar a las vistas de lista de campañas, envíos y flujos de trabajo. La entrada **[!UICONTROL Programas]** permite crear un programa dentro de un programa existente, no bajo un plan.
 
-![Captura de pantalla que muestra la creación de una carpeta de programa](assets/program_create.png){zoomable="yes"}
+Para crear su primer programa de nivel superior en un plan, navegue hasta su plan en el Explorador (consulte esta [sección](#create-plan)) y cree una carpeta con el tipo de carpeta **[!UICONTROL Programa]**. [Más información sobre cómo crear una carpeta](../get-started/work-with-folders.md).
 
-Vaya a la **[!UICONTROL configuración de carpeta]** de su programa para administrarla.
+Para crear un programa dentro de uno existente, siga los pasos a continuación:
 
-![Captura de pantalla que muestra la configuración de carpeta de un programa](assets/program_settings.png){zoomable="yes"}
+1. Vaya a la entrada **[!UICONTROL Programas]** en el menú de navegación de la izquierda. Esta vista enumera todos los programas y le permite buscar y filtrar. Al hacer clic en un programa, se abre en la vista del explorador.
 
-Defina **[!UICONTROL opciones personalizadas]** y establezca la fecha de programación de su programa.
+   ![Captura de pantalla que muestra la vista de lista de programas](assets/program_view.png){zoomable="yes"}
 
-![Captura de pantalla que muestra las opciones personalizadas de un programa](assets/program_options.png){zoomable="yes"}
+1. Haga clic en **[!UICONTROL Crear programa]** y configure las siguientes opciones:
 
-Para administrar **[!UICONTROL opciones personalizadas]**:
+   ![Captura de pantalla que muestra la pantalla Crear programa](assets/program_create.png){zoomable="yes"}
 
-1. Vaya a **[!UICONTROL Esquemas]**.
-1. Elija los **[!UICONTROL esquemas editables]** en los filtros.
-1. Haga clic en el esquema.
+   * Escriba una **[!UICONTROL etiqueta]**.
+   * Seleccione el programa existente que se usará como **[!UICONTROL carpeta principal]**.
+   * De manera opcional, establezca un **[!UICONTROL Intervalo de fechas]** en la sección **[!UICONTROL Programar]**.
 
-![Captura de pantalla que muestra la edición de detalles personalizados para un programa](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >Si crea un programa desde la vista del explorador, la carpeta principal se establece automáticamente en el programa actual.
 
-1. Haga clic en el botón **[!UICONTROL Edición de pantalla]**.
+1. Vuelva a hacer clic en **[!UICONTROL Crear programa]** para guardar los cambios y crear el programa. A continuación, el programa se muestra en la vista del explorador. Puede cambiarle el nombre, eliminarlo y acceder a su configuración, como cualquier otra carpeta. También puede crear programas secundarios dentro de este programa.
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![Captura de pantalla que muestra el programa en la vista del explorador](assets/program_explorer.png){zoomable="yes"}
 
-Configure las opciones personalizadas:
-
-![Captura de pantalla que muestra la configuración de campos personalizados para un programa](assets/program_customfields.png){zoomable="yes"}
+Las opciones personalizadas de un programa se configuran del mismo modo que para un plan. Ver [Crear y configurar un plan](#create-plan).
 
 ## Vinculación de una campaña a un programa
 

@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 19%
+source-wordcount: 616
+ht-degree: 18%
 
 ---
 
@@ -73,6 +73,7 @@ Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing en v
 
 Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades:
 
+* [Aprobación](approval.md): asigne una tarea a un grupo o a un operador individual y enrute el flujo de trabajo según su respuesta.
 * [Señal externa](external-signal.md): Déclencheur la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada de API.
 * [Bifurcación](fork.md): cree transiciones salientes para iniciar varias actividades simultáneamente.
 * [Unirse](join.md): sincronice varias ramas de ejecución de un flujo de trabajo.
