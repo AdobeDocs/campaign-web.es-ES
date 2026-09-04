@@ -53,7 +53,7 @@ Las acciones disponibles en una carpeta dependen de los derechos que se le hayan
 
 Póngase en contacto con el administrador si le faltan derechos en una carpeta. Consulte esta [sección](permissions.md#folder-permissions) para obtener información sobre cómo se administran los permisos de carpeta.
 
-Los derechos asignados como **[!UICONTROL Insertar carpetas]**, **[!UICONTROL Editar carpetas]** y **[!UICONTROL Eliminar carpeta]** también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Los derechos asignados como **[!UICONTROL Insertar carpetas]**, **[!UICONTROL Editar carpetas]** y **[!UICONTROL Eliminar carpeta]** también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=es#use-named-rights){target="_blank"}.
 
 ## Creación de una nueva carpeta {#create-a-folder}
 

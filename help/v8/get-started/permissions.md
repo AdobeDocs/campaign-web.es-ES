@@ -55,6 +55,6 @@ Si la opción **[!UICONTROL Carpeta del sistema]** está habilitada, el acceso e
 
 Consulte esta [sección](work-with-folders.md#folder-access-rights) para conocer cómo estos derechos afectan las acciones disponibles en una carpeta.
 
-Los derechos asignados también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}.
+Los derechos asignados también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=es#use-named-rights){target="_blank"}.
 
 Todos los permisos de la interfaz de usuario web de Campaign se sincronizan con los permisos de la consola del cliente de Campaign.
