@@ -6,25 +6,25 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 887
-ht-degree: 20%
-
+source-wordcount: '887'
+ht-degree: 23%
 ---
-
 # Trabajar con Generar contenido {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="Generar contenido"
->abstract="Después de crear y personalizar su envío, utilice IA para mejorar su contenido. Esta función simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
+>abstract="Después de crear y personalizar su envío, utilice la IA para mejorar el contenido. Esta función simplifica el proceso de personalización y mejora del contenido, ya que le permite ajustar el contenido al describir lo que desea generar."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Defina el contexto con Generar contenido en Campaign"
+>title="Definir el contexto con Generar contenido en Campaign"
 >abstract="Para utilizar el contenido seleccionado como entrada para la generación de contenido, active el conmutador **Mejorar con el contenido actual**. También puede cargar los recursos de su marca para utilizarlos como fuente. Si no utiliza el contenido seleccionado, es obligatorio cargar y seleccionar los recursos de marca."
 
 >[!CONTEXTUALHELP]
