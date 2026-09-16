@@ -3,11 +3,11 @@
 <file original="help/v8/get-started/permissions.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions</target>
 </trans-unit>
 <trans-unit id="tu26" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=es#use-named-rights</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights</target>
 </trans-unit>
 <trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">

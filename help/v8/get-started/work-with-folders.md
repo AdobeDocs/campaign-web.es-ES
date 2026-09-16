@@ -3,7 +3,7 @@
 <file original="help/v8/get-started/work-with-folders.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu22" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=es#use-named-rights</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights</target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">

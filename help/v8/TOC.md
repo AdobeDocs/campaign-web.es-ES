@@ -1251,7 +1251,7 @@
 <target xml:lang="en-XX">Documentación de Campaign v8 (consola) ></target>
 </trans-unit>
 <trans-unit id="tu313" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home</target>
 </trans-unit>
 </body>
