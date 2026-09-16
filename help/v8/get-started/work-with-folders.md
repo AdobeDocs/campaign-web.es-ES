@@ -75,8 +75,8 @@
 <target xml:lang="en-XX">Las carpetas Objetos creados automáticamente y Flujos de trabajo técnicos están restringidas y no se pueden ver en el panel lateral izquierdo.</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
 <source xml:lang="en-US">The folders <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Objects created automatically<ph id="3" ctype="x-LINK_REF">]**</ph> and <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Technical workflows<ph id="7" ctype="x-LINK_REF">]**</ph> are restricted, and cannot be viewed on the left side panel.</source>
@@ -91,8 +91,8 @@
 <target xml:lang="en-XX">Póngase en contacto con su administrador si le faltan derechos sobre una carpeta. Consulte esta <ph id="1" ctype="x-LINK">[</ph>sección<ph id="2" ctype="x-LINK">](permissions.md#folder-permissions)</ph> para obtener información sobre cómo se administran los permisos de carpeta.</target>
 </trans-unit>
 <trans-unit id="tu21" xml:space="preserve">
-<source xml:lang="en-US">Named rights such as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insert Folders<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Edit Folders<ph id="7" ctype="x-LINK_REF">]**</ph>, and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Delete Folder<ph id="11" ctype="x-LINK_REF">]**</ph> also determine which folder actions are available to an operator. Refer to the <ph id="13" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Los derechos asignados como <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insertar carpetas<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Editar carpetas<ph id="7" ctype="x-LINK_REF">]**</ph> y <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Eliminar carpeta<ph id="11" ctype="x-LINK_REF">]**</ph> también determinan qué acciones de carpeta están disponibles para un operador. Consulte la <ph id="13" ctype="x-LINK">[</ph>documentación de Campaign v8<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Named rights such as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insert Folders<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Edit Folders<ph id="7" ctype="x-LINK_REF">]**</ph>, and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Delete Folder<ph id="11" ctype="x-LINK_REF">]**</ph> also determine which folder actions are available to an operator. Refer to the <ph id="13" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Los derechos asignados como <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insertar carpetas<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Editar carpetas<ph id="7" ctype="x-LINK_REF">]**</ph> y <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Eliminar carpeta<ph id="11" ctype="x-LINK_REF">]**</ph> también determinan qué acciones de carpeta están disponibles para un operador. Consulte la <ph id="13" ctype="x-LINK">&lbrack;</ph>documentación de Campaign v8<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
 <source xml:lang="en-US">Create a new folder</source>
@@ -135,8 +135,8 @@
 <target xml:lang="en-XX">Si desea crear una carpeta sin un tipo específico, elija el tipo <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Carpeta genérica<ph id="3" ctype="x-LINK_REF">]**</ph>.</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US">You can also <ph id="1" ctype="x-LINK">[</ph>create and manage folders in Adobe Campaign console<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</source>
-<target xml:lang="en-XX">También puede <ph id="1" ctype="x-LINK">[</ph>crear y administrar carpetas en la consola de Adobe Campaign<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</target>
+<source xml:lang="en-US">You can also <ph id="1" ctype="x-LINK">&lbrack;</ph>create and manage folders in Adobe Campaign console<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</source>
+<target xml:lang="en-XX">También puede <ph id="1" ctype="x-LINK">&lbrack;</ph>crear y administrar carpetas en la consola de Adobe Campaign<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
 <source xml:lang="en-US">Reorder folders</source>
@@ -191,8 +191,8 @@
 <target xml:lang="en-XX">Eliminación de una carpeta</target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
 <source xml:lang="en-US">When deleting a folder, all data stored in the folder is also deleted.</source>
@@ -243,8 +243,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>Distribución porcentual de los valores en la columna Canal<ph id="2" ctype="x-IMAGE">](assets/values_percentage.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu61" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu62" xml:space="preserve">
 <source xml:lang="en-US">For columns with many values, only the first twenty values are displayed. A notification <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Partial load<ph id="3" ctype="x-LINK_REF">]**</ph> warns you.</source>
