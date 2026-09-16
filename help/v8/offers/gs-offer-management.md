@@ -77,14 +77,14 @@ A través de **[!UICONTROL Explorer]**, se accede a los entornos de ofertas y a 
 
 Algunas funciones de oferta aún no se exponen en la interfaz de usuario web y deben configurarse desde la consola del cliente:
 
-* **Simulación de oferta** — El módulo **Simulación** que le permite probar la distribución de ofertas antes de enviarlas. Ver [simulación de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}.
+* **Simulación de oferta** — El módulo **Simulación** que le permite probar la distribución de ofertas antes de enviarlas. Ver [simulación de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=es#offer-simulation){target="_blank"}.
 
 * Administración de **filtros predefinidos**: reglas de filtro reutilizables a las que se puede hacer referencia desde cualquier oferta. Consulte [Administrar filtros predefinidos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
 
-* **Seguimiento de ofertas** — Configurando el seguimiento para las propuestas de ofertas para alimentar el historial de propuestas. Ver [Seguimiento de propuestas de ofertas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}.
+* **Seguimiento de ofertas** — Configurando el seguimiento para las propuestas de ofertas para alimentar el historial de propuestas. Ver [Seguimiento de propuestas de ofertas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=es){target="_blank"}.
 
 * **Funciones de operador** — Asignación de derechos de administrador de ofertas / administrador de entregas. Consulte [Operadores del módulo de interacción](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
 
-* **Prácticas recomendadas de interacción y reglas de arbitraje**. Consulte [Prácticas recomendadas de interacción de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+* **Prácticas recomendadas de interacción y reglas de arbitraje**. Consulte [Prácticas recomendadas de interacción de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=es){target="_blank"}.
 
 * **Informes**: los informes de ofertas y propuestas dedicados aún no están disponibles en la interfaz de usuario web.
