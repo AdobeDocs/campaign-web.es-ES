@@ -5,13 +5,12 @@ exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 TQID: https://experienceleague.adobe.com/llJ2lDbnfxJFqtpOTHQXzghd2OyIsZD5NtORIuRbSKY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '249'
 ht-degree: 7%
-
 ---
-
 # Exploración de los detalles de los perfiles {#profile-view}
 
 >[!CONTEXTUALHELP]

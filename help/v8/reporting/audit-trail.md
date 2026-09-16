@@ -7,24 +7,31 @@ exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 1%
-
 ---
-
 # Pista de auditoría {#audit-trail}
 
 En la interfaz de usuario web de Adobe Campaign, la función **[!UICONTROL Pista de auditoría]** proporciona a los usuarios una visibilidad completa de todas las modificaciones realizadas en entidades importantes de su instancia, normalmente aquellas que afectan significativamente al funcionamiento sin problemas de la instancia.
@@ -44,20 +51,20 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Registro de auditoría de flujo de trabajo** le permite realizar un seguimiento de las actividades y los cambios recientes realizados en los flujos de trabajo, incluidos sus estados actuales, como:
 
-   * Start
-   * Pause
-   * Stop
-   * Restart
-   * Limpieza, que es igual a la acción Purgar historial
-   * Simular, que es igual a la acción Iniciar en modo de simulación
-   * Activación, que es igual a la acción Ejecutar tareas pendientes ahora
-   * Interrupción incondicional
+  * Start
+  * Pause
+  * Stop
+  * Restart
+  * Limpieza, que es igual a la acción Purgar historial
+  * Simular, que es igual a la acción Iniciar en modo de simulación
+  * Activación, que es igual a la acción Ejecutar tareas pendientes ahora
+  * Interrupción incondicional
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../workflows/gs-workflows.md).
 
 * **Seguimiento de auditoría de opciones** le permite supervisar las actividades y las modificaciones recientes realizadas en las opciones de Campaign v8.
 
-  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Registro de auditoría de envíos** le permite comprobar las actividades y las últimas modificaciones realizadas en los envíos.
 
@@ -69,11 +76,11 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en la asignación de entregas en Campaign v8.
 
-  Para obtener más información sobre la asignación de envíos, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Para obtener más información sobre la asignación de envíos, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * **Aplicación web** le permite comprobar las modificaciones realizadas en los formularios web en Campaign v8, utilizados para crear páginas con campos de entrada y selección, y que pueden incluir datos de la base de datos.
 
-  Para obtener más información sobre las aplicaciones web, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/webapps).
+  Para obtener más información sobre las aplicaciones web, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
 
 * **Oferta** le permite comprobar las actividades y las últimas modificaciones realizadas en sus ofertas.
 
@@ -81,7 +88,7 @@ La función **[!UICONTROL Pista de auditoría]** registra constantemente un regi
 
 * **Operador** le permite supervisar las actividades y las modificaciones recientes realizadas en sus Operadores en Campaign v8.
 
-  Para obtener más información sobre los operadores, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Para obtener más información sobre los operadores, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

@@ -5,15 +5,15 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 TQID: https://experienceleague.adobe.com/rbY9lXMZ1uPMW8shn3-PdoPrdG51a-8rCgY6--pqKos
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: '1204'
 ht-degree: 37%
-
 ---
-
 # Indicadores clave de rendimiento {#kpis}
 
 >[!CONTEXTUALHELP]

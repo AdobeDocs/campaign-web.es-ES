@@ -5,13 +5,12 @@ exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 382
+workflow-type: tm+mt
+source-wordcount: '382'
 ht-degree: 100%
-
 ---
-
 # Mecanismos de protección y limitaciones de los flujos de trabajo {#guardrails-limitations}
 
 Al trabajar en la interfaz de usuario web de Campaign con flujos de trabajo creados o modificados en la consola del cliente de Campaign, se aplican los mecanismos de protección y limitaciones que se enumeran a continuación.

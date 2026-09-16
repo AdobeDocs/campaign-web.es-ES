@@ -7,9 +7,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 2%
-
 ---
-
 # Informe en la aplicación{#in-app-report}
 
 >[!CAUTION]

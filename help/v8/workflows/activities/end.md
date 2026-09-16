@@ -6,9 +6,7 @@ source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 54%
-
 ---
-
 # Finalizar {#end}
 
 >[!CONTEXTUALHELP]

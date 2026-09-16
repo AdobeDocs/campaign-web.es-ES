@@ -6,13 +6,12 @@ exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 TQID: https://experienceleague.adobe.com/zDt9wDMvygP9NTWF5c36g-7jzikNEaTPegCJMvN4dec
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: '141'
 ht-degree: 35%
-
 ---
-
 # Adición de atributos de estilo alineados {#adding-inline-styling-attributes}
 
 En la interfaz de Designer de correo electrónico, al seleccionar un elemento y mostrar su configuración en el panel derecho, se personalizan los atributos en línea y sus valores para ese elemento específico.

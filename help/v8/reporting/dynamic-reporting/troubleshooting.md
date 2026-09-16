@@ -8,9 +8,7 @@ source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 3%
-
 ---
-
 # Solución de problemas{#troubleshooting}
 
 En esta sección encontrará preguntas comunes relacionadas con la creación de informes dinámicos.

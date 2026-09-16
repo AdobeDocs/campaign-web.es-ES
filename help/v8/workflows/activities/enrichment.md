@@ -6,17 +6,18 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2327
+source-wordcount: '2370'
 ht-degree: 32%
-
 ---
-
 # Enriquecimiento {#enrichment}
 
 >[!CONTEXTUALHELP]
@@ -33,10 +34,10 @@ La actividad **Enriquecimiento** es una actividad de **Segmentación**. Mejora l
 Los datos de enriquecimiento pueden provenir de:
 
 * **La misma tabla de trabajo** que la que se segmentó en el flujo de trabajo:
-   * Dirija la actividad a un grupo de clientes y agregue el campo &quot;Fecha de nacimiento&quot; a la tabla de trabajo actual.
+  * Dirija la actividad a un grupo de clientes y agregue el campo &quot;Fecha de nacimiento&quot; a la tabla de trabajo actual.
 
 * **Otra tabla de trabajo**:
-   * Dirija la actividad a un grupo de clientes y añada los campos &quot;Cantidad&quot; y &quot;Tipo de producto&quot; desde la tabla &quot;Compra&quot;.
+  * Dirija la actividad a un grupo de clientes y añada los campos &quot;Cantidad&quot; y &quot;Tipo de producto&quot; desde la tabla &quot;Compra&quot;.
 
 Una vez añadidos los datos de enriquecimiento al flujo de trabajo, se pueden utilizar en actividades posteriores para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También se puede utilizar para crear mensajes de marketing personalizados y campañas que interesen a la audiencia objetivo.
 

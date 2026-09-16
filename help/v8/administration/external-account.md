@@ -4,11 +4,9 @@ description: Obtenga información sobre cómo configurar cuentas externas
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # Cuentas externas específicas de la campaña {#external-account}
 
 Siga los pasos a continuación para configurar las opciones de la cuenta según el tipo de cuenta externa seleccionada.
@@ -30,34 +28,34 @@ Para configurar la cuenta externa **[!UICONTROL Correos rechazados (POP3)]**, re
 * **[!UICONTROL Contraseña]** - Contraseña de la cuenta de usuario.
 
 * **[!UICONTROL Cifrado]** - Tipo de cifrado elegido, que incluye:
-   * De forma predeterminada (POP3 si puerto 110, POP3S si puerto 995).
-   * POP3 que cambia a SSL después de enviar un STARTTLS.
-   * POP3 no seguro (puerto 110 de forma predeterminada).
-   * POP3 secure above SSL (puerto 995 de forma predeterminada).
+  * De forma predeterminada (POP3 si puerto 110, POP3S si puerto 995).
+  * POP3 que cambia a SSL después de enviar un STARTTLS.
+  * POP3 no seguro (puerto 110 de forma predeterminada).
+  * POP3 secure above SSL (puerto 995 de forma predeterminada).
 
 * **[!UICONTROL Función]** - Seleccione **[!UICONTROL Correo electrónico entrante]** para configurar la cuenta para recibir correos electrónicos entrantes o **[!UICONTROL enrutador de SOAP]** para administrar solicitudes de SOAP.
 
 >[!IMPORTANT]
 >
->Antes de configurar la cuenta externa POP3 con Microsoft OAuth 2.0, primero debe registrar la aplicación en Azure Portal. Para obtener más información, consulte [esta página](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}.
+>Antes de configurar la cuenta externa POP3 con Microsoft OAuth 2.0, primero debe registrar la aplicación en el portal de Azure. Para obtener más información, consulte [esta página](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}.
 
 Para configurar un POP3 externo con Microsoft OAuth 2.0, marque la opción Microsoft OAuth 2.0 y rellene los campos siguientes:
 
 * **[!UICONTROL inquilino de Azure]**
 
-  Azure ID (o ID de directorio (inquilino)) se encuentra en la lista desplegable de Essentials de la descripción general de la aplicación en el portal de Azure.
+  Azure ID (o ID de directorio (inquilino)) se encuentra en la lista desplegable Essentials de la descripción general de la aplicación, en el portal de Azure.
 
 * **[!UICONTROL ID de cliente de Azure]**
 
-  El ID de cliente (o el ID de aplicación (cliente)) se pueden encontrar en la lista desplegable Essentials de la descripción general de la aplicación en el portal de Azure.
+  El ID de cliente (o el ID de aplicación (cliente) ) se encuentran en la lista desplegable Essentials de la descripción general de la aplicación, en el portal de Azure.
 
 * **[!UICONTROL Secreto de cliente de Azure]**
 
-  El ID de secreto de cliente se puede encontrar en la columna Secretos de cliente del menú Certificados y secretos de la aplicación en el portal de Azure.
+  El ID secreto de cliente se puede encontrar en la columna Secretos de cliente del menú Certificados y secretos de la aplicación en el portal de Azure.
 
 * **[!UICONTROL URL de redireccionamiento de Azure]**
 
-  La URL de redireccionamiento se encuentra en el menú Autenticación de la aplicación en el portal de Azure. Debe finalizar con la siguiente sintaxis nl/jsp/oauth.jsp, p. ej. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+  Redirect URL se encuentra en el menú Authentication de la aplicación, en el portal de Azure. Debe finalizar con la siguiente sintaxis nl/jsp/oauth.jsp, p. ej. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
 El acceso a Internet es necesario para la instalación y para utilizar el botón Probar conexión en la consola del cliente. Después de la configuración, el proceso de inMail puede comunicarse con los servidores de Microsoft sin Internet.
 
@@ -105,6 +103,6 @@ Para configurar la cuenta externa **[!UICONTROL Execution instance]**:
 
 * **[!UICONTROL Método]** - Elija entre servicio Web o acceso de datos federado (FDA).
 
-  Para FDA, seleccione su cuenta de FDA. Tenga en cuenta que la conexión de Campaign a sistemas externos está restringida a usuarios avanzados y solo está disponible desde la consola del cliente. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/fda#_blank)
+  Para FDA, seleccione su cuenta de FDA. Tenga en cuenta que la conexión de Campaign a sistemas externos está restringida a usuarios avanzados y solo está disponible desde la consola del cliente. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Crear flujo de trabajo de archivado]**: para cada instancia de ejecución registrada en el Centro de mensajes, independientemente de si tiene una o varias instancias, cree un flujo de trabajo de archivado independiente para cada cuenta externa asociada a la instancia de ejecución.

@@ -6,13 +6,12 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '366'
 ht-degree: 43%
-
 ---
-
 # Personalice el fondo del correo electrónico {#backgrounds}
 
 >[!CONTEXTUALHELP]

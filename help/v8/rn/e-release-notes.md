@@ -6,13 +6,12 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 262
+workflow-type: tm+mt
+source-wordcount: '262'
 ht-degree: 100%
-
 ---
-
 # Notas de la versión preliminar {#e-release}
 
 La interfaz de usuario web de Adobe Campaign ofrece continuamente nuevas funciones, mejoras de las funciones existentes y correcciones de errores. Todos los cambios se consolidan al final de cada mes en las [notas de la versión](release-notes.md).

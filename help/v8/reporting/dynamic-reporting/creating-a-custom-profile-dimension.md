@@ -9,9 +9,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 3%
-
 ---
-
 # Creación de una dimensión de perfil{#creating-a-custom-profile-dimension}
 
 Los informes también se pueden crear y administrar en función de los datos de perfil creados durante la extensión del esquema de destinatario.

@@ -6,15 +6,15 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 173
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 97%
 ---
-
 # Introducción a los envíos de SMS {#sms}
 
 Los envíos SMS proporcionan una forma práctica y eficaz de enviar mensajes de texto a los dispositivos móviles de los clientes. Con esta función, puede crear, personalizar y previsualizar mensajes basados en texto para una comunicación eficaz.

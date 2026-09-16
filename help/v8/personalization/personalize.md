@@ -10,19 +10,21 @@ exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 TQID: https://experienceleague.adobe.com/j6PlnXc9WwgLcXPJVHxBWvnbJLMzdJ6inWZP3G--Ejw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 4%
-
 ---
-
 # Personalización de su contenido {#add-personalization}
 
 >[!CONTEXTUALHELP]

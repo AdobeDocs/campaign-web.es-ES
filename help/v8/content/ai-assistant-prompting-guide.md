@@ -7,25 +7,32 @@ exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: '2109'
 ht-degree: 0%
-
 ---
-
 # Prácticas recomendadas de generación de mensajes de contenido {#ai-assistant-prompting-guide}
 
 Esta guía le ayuda a estructurar sus solicitudes, comunicar la intención con claridad y asegurarse de que la IA produzca mensajes que se ajusten a las directrices de marca, las necesidades de audiencia y los objetivos de las campañas.
@@ -129,19 +136,19 @@ Estas solicitudes no son compatibles y deben gestionarse mediante otras herramie
 
 Antes de generar contenido, asegúrese de lo siguiente:
 
-&comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
+&amp;comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
 
-&check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
+&amp;check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
 
-&check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
+&amp;check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
 
-&check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
+&amp;check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
 
-&comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
+&amp;comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
 
-&comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
+&amp;comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
 
-&check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
+&amp;check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
 
 ## Escribir objetivos de marketing efectivos {#marketing-objectives}
 
@@ -151,11 +158,11 @@ Al diseñar los objetivos de marketing, asegúrese de que sean claros, procesabl
 
 **Ejemplos de buenos objetivos:**
 
-&check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
+&amp;check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
 
-&check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
+&amp;check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
 
-&check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
+&amp;check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
 
 **Ejemplos que se deben evitar:**
 
@@ -172,11 +179,11 @@ Use esta fórmula para escribir objetivos efectivos: **Acción + Producto/Servic
 
 **Ejemplos de buenos objetivos:**
 
-&check; &quot;Fomente las descargas de nuestra nueva aplicación móvil que ayude a los usuarios a seguir hábitos de vida sostenibles con recomendaciones personalizadas y respetuosas con el medio ambiente&quot;
+&amp;check; &quot;Fomente las descargas de nuestra nueva aplicación móvil que ayude a los usuarios a seguir hábitos de vida sostenibles con recomendaciones personalizadas y respetuosas con el medio ambiente&quot;
 
-&check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
+&amp;check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
 
-&check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
+&amp;check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
 
 **Ejemplos que se deben evitar:**
 

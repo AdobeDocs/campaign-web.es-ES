@@ -5,11 +5,9 @@ level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '76'
 ht-degree: 5%
-
 ---
-
 # Informe SMS{#sms-report}
 
 El informe **SMS** proporciona detalles sobre las entregas de SMS, como las tasas de entrega y devolución.

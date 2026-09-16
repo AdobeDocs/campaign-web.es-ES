@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 20%
-
 ---
-
 # Envío automatizado {#automated-delivery}
 
 >[!CONTEXTUALHELP]
@@ -52,7 +50,7 @@ Al configurar la actividad, puede elegir de dónde proviene la entrega. Hay dos 
 
 >[!NOTE]
 >
->Las opciones **Especificadas en la transición** y **Calculadas por script**, utilizadas para casos de uso avanzados, solo se pueden configurar en la consola del cliente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>Las opciones **Especificadas en la transición** y **Calculadas por script**, utilizadas para casos de uso avanzados, solo se pueden configurar en la consola del cliente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Seleccione la acción que desea realizar {#action-to-execute}
 

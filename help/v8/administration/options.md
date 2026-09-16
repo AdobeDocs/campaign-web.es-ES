@@ -1,21 +1,22 @@
 ---
-title: 'Configurar opciones de  [!DNL Campaign] '
+title: Configurar opciones de [!DNL Campaign]
 description: Obtenga información sobre cómo configurar las opciones de Campaign y crear sus propias opciones personalizadas.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 1%
-
 ---
-
 # Configurar opciones de [!DNL Campaign] {#options}
 
 >[!CONTEXTUALHELP]
@@ -41,7 +42,7 @@ Las opciones están disponibles en el menú **[!UICONTROL Administración]** / *
 [Lista de opciones mostrada en el menú Administración / Opciones]
 
 >[!NOTE]
->Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario web, la lista es idéntica y funciona como un reflejo. Para obtener más información sobre las opciones disponibles, consulte la lista de opciones en [Documentación de Campaign v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Aunque la ubicación del menú de opciones difiere entre la consola de Adobe Campaign y la interfaz de usuario web, la lista es idéntica y funciona como un reflejo. Para obtener más información sobre las opciones disponibles, consulte la lista de opciones en [Documentación de Campaign v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 En la lista de opciones, puede:
 

@@ -6,13 +6,12 @@ exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 759
+source-wordcount: '759'
 ht-degree: 4%
-
 ---
-
 # Creación y envío de un envío al centro de llamadas {#create-call-center}
 
 Puede crear una entrega independiente del centro de llamadas o crear una en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío independiente (de una sola toma). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).

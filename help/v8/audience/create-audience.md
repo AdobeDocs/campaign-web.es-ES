@@ -6,15 +6,15 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 TQID: https://experienceleague.adobe.com/3uaqEhHU8Hn8OkHogqYfPMXfKSaexNrD-9Y94ZX-SA0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: '1018'
 ht-degree: 15%
-
 ---
-
 # Crear públicos {#create-audiences}
 
 >[!CONTEXTUALHELP]
@@ -114,4 +114,4 @@ Si prefiere no reemplazar los resultados de audiencia existentes, configure las 
 
 Aprenda a crear y administrar públicos, a seleccionar públicos para un envío y definir grupos de control.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453205?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

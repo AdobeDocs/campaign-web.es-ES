@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 206
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 98%
 ---
-
 # Introducción a las notificaciones push {#push}
 
 Las notificaciones push son esenciales para llegar a los usuarios de su aplicación móvil, incluso cuando no estén utilizando activamente la aplicación. Sirven para varios fines, como proporcionar actualizaciones, impulsar acciones específicas y notificar a los usuarios sobre ofertas. Tenga en cuenta que los usuarios deben suscribirse para recibir estas notificaciones.
@@ -43,7 +43,7 @@ Para crear notificaciones push, tiene tres opciones:
 <img alt="Diseño de un envío push" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>Diseño de un envío push<strong></strong></a>
+<a href="content-push.md"><strong>Diseñar un envío push<strong></strong></a>
 </div>
 <p></td>
 <td>

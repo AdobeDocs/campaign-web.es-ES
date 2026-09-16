@@ -6,15 +6,15 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 506
+workflow-type: tm+mt
+source-wordcount: '506'
 ht-degree: 100%
-
 ---
-
 # Seleccionar atributos y añadirlos a favoritos {#folders}
 
 La interfaz de usuario web de Campaign permite a los usuarios seleccionar atributos de la base de datos en varias ubicaciones, según la acción que se lleve a cabo. Por ejemplo, se pueden seleccionar atributos al definir columnas de salida para un envío de correo directo o un archivo que se desee extraer. Del mismo modo, puede seleccionar atributos al utilizar el modelador de consultas para crear reglas o filtros, o para generar públicos.

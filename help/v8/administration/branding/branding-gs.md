@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 24%
-
 ---
-
 # Introducción a la marca {#branding-gs}
 
 >[!AVAILABILITY]
@@ -25,7 +23,7 @@ Los administradores técnicos pueden crear y administrar varias marcas directame
 
 Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
-1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [en esta página](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [en esta página](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -37,7 +35,7 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
 ## Nota sobre la compatibilidad {#compatibility-note}
 
-El nuevo modelo de promoción de marca centralizada no es compatible con la configuración de [promoción de marca heredada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=es#configuring-multibranding){target="_blank"} que se usaba anteriormente en la consola del cliente.
+El nuevo modelo de promoción de marca centralizada no es compatible con la configuración de [promoción de marca heredada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} que se usaba anteriormente en la consola del cliente.
 
 En el método heredado, los clientes implementaron la promoción de la marca mediante la ampliación del formulario extAccount y el uso de la pestaña **Promoción de marca**.
 

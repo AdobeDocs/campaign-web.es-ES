@@ -5,15 +5,15 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 TQID: https://experienceleague.adobe.com/fY9Y7Fet1y7L09ELWUCEvlJNpPAFwx4dpMmAW6tOye0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '441'
 ht-degree: 14%
-
 ---
-
 # Introducción a los perfiles {#profiles}
 
 >[!CONTEXTUALHELP]
@@ -51,4 +51,4 @@ Para eliminar un perfil, seleccione la opción correspondiente en el menú **[!U
 
 Obtenga información sobre cómo acceder, administrar y explorar perfiles mediante la interfaz de usuario web de Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448367?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

@@ -6,15 +6,15 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 TQID: https://experienceleague.adobe.com/z3yAopnbrS2h1jYhH1EgQYU89rNTDQBwjXiDK0YeiLU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '676'
 ht-degree: 49%
-
 ---
-
 # Inicie el contenido del correo electrónico desde cero {#create-email-content}
 
 >[!CONTEXTUALHELP]
@@ -117,4 +117,4 @@ Para empezar a crear el contenido del correo electrónico, siga los pasos a cont
 
 Obtén información sobre cómo navegar por el Diseñador de correo electrónico. Aprenda a estructurar y diseñar un correo electrónico desde cero, personalizarlo y probarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453568/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

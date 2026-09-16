@@ -6,11 +6,9 @@ audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '236'
 ht-degree: 2%
-
 ---
-
 # Desglose por dominios{#breakdown-by-domains}
 
 Este informe contiene los datos de rendimiento de cada dominio representado en la audiencia de un envío de correo electrónico. Si se trata de un informe de campaña o de programa, los datos de rendimiento están disponibles para varias audiencias. Estos datos le permiten analizar el comportamiento de cada dominio en reacción a eventos específicos. Por ejemplo, visualización de vínculos, dirección URL en la lista de bloqueados de la, etc.

@@ -1,14 +1,13 @@
 ---
-title: Agregar listas de colección
+title: Añadir listas de colección
 description: Obtenga información sobre cómo agregar listas de recopilación para mostrar datos relacionados en pantallas de perfil.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 0%
-
+ht-degree: 3%
 ---
-
-# Agregar listas de colección {#collection-lists}
+# Añadir listas de colección {#collection-lists}
 
 La sección **Lista de listas personalizadas** le permite definir vínculos de colección, como compras. A continuación, los datos relacionados se muestran en pantallas de perfil a través de una pestaña dedicada.
 

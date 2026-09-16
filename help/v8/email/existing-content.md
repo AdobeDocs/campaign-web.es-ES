@@ -6,13 +6,12 @@ exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 TQID: https://experienceleague.adobe.com/tBeOFkGoxZ-QYEt6dse2-1KSiE318onNSEtGTYzTCO8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '291'
 ht-degree: 29%
-
 ---
-
 # Importar el contenido de su correo electrónico {#existing-content}
 
 >[!CONTEXTUALHELP]
@@ -59,4 +58,4 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
 Obtenga información sobre cómo crear un mensaje de correo electrónico cargando HTML, haciéndolo compatible con el Designer de correo electrónico y convirtiéndolo en una plantilla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447035/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

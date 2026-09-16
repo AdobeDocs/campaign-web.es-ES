@@ -6,18 +6,17 @@ exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: '1653'
 ht-degree: 5%
-
 ---
-
 # Diseño de un envío push enriquecido para iOS {#rich-push}
 
 >[!IMPORTANT]
 >
->Antes de diseñar una notificación push enriquecida, debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para ver el procedimiento detallado.
+>Antes de diseñar una notificación push enriquecida, debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para ver el procedimiento detallado.
 
 ## Definición del contenido de la notificación {#push-message}
 

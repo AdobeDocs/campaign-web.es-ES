@@ -6,15 +6,15 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: '995'
 ht-degree: 40%
-
 ---
-
 # Correo electrónico, SMS, WhatsApp, push, actividades de correo directo {#channel}
 
 Adobe Campaign Web le permite automatizar y ejecutar campañas de marketing por correo electrónico, SMS, WhatsApp, correo directo y canales push. Puede combinar actividades del canal en el lienzo del flujo de trabajo para crear flujos de trabajo entre canales que desencadenan acciones basadas en el comportamiento y los datos del cliente.
@@ -38,13 +38,13 @@ Comience a crear su flujo de trabajo con las actividades relevantes:
 
 * Antes de insertar una actividad de canal, defina la audiencia. La audiencia es el destinatario principal del envío: los perfiles que reciben los mensajes. Al enviar mensajes en el contexto de un flujo de trabajo de campaña, la audiencia del mensaje no se define en la actividad del canal sino dentro de una actividad dedicada, como:
 
-   * Una actividad **Generar audiencia**. [Más información](build-audience.md).
+  * Una actividad **Generar audiencia**. [Más información](build-audience.md).
 
-     ![Captura de pantalla que muestra la adición de una entrega en un flujo de trabajo](../../msg/assets/add-delivery-in-wf.png)
+    ![Captura de pantalla que muestra la adición de una entrega en un flujo de trabajo](../../msg/assets/add-delivery-in-wf.png)
 
-   * Una actividad **Load file** seguida de una actividad **Reconciliation**. [Más información](load-file.md).
+  * Una actividad **Load file** seguida de una actividad **Reconciliation**. [Más información](load-file.md).
 
-     ![Captura de pantalla que muestra los criterios de reconciliación](../assets/workflow-reconciliation-criteria.png) del flujo de trabajo
+    ![Captura de pantalla que muestra los criterios de reconciliación](../assets/workflow-reconciliation-criteria.png) del flujo de trabajo
 
 * Para realizar una entrega recurrente, inicie el flujo de trabajo con una actividad **Scheduler**. Utilice una actividad **Scheduler** para realizar envíos únicos con una sola toma a fin de establecer la fecha de contacto de ese envío. Esa fecha de contacto también se puede establecer en la configuración de envío. Consulte [esta sección](scheduler.md).
 

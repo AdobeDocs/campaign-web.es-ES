@@ -11,22 +11,26 @@ exl-id: 2835c114-0878-4c41-9071-165d71840941
 TQID: https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1244
+source-wordcount: '1244'
 ht-degree: 30%
-
 ---
-
 # Bloqueo del contenido en las plantillas de correo electrónico {#lock-content-email-templates}
 
 >[!CONTEXTUALHELP]
@@ -65,15 +69,15 @@ El bloqueo de contenido se puede aplicar en el nivel **structure** o en el nivel
 
 * Cuando una estructura está bloqueada:
 
-   * Todo el contenido de esa estructura también está bloqueado de forma predeterminada.
-   * No se puede añadir contenido a la estructura.
-   * De forma predeterminada, no se puede eliminar la estructura. Puede anular esta restricción activando la opción Permitir eliminación.
-   * Los componentes de contenido individuales dentro de la estructura bloqueada se pueden establecer como editables.
+  * Todo el contenido de esa estructura también está bloqueado de forma predeterminada.
+  * No se puede añadir contenido a la estructura.
+  * De forma predeterminada, no se puede eliminar la estructura. Puede anular esta restricción activando la opción Permitir eliminación.
+  * Los componentes de contenido individuales dentro de la estructura bloqueada se pueden establecer como editables.
 
 * Cuando una estructura es editable (estructura no bloqueada):
 
-   * Los componentes de contenido individuales se pueden bloquear dentro de esa estructura.
-   * De forma predeterminada, no se puede eliminar un componente si está bloqueado o si la opción &quot;Solo bloqueo de contenido editable&quot; está seleccionada. Puede anular esta restricción activando la opción Permitir eliminación.
+  * Los componentes de contenido individuales se pueden bloquear dentro de esa estructura.
+  * De forma predeterminada, no se puede eliminar un componente si está bloqueado o si la opción &quot;Solo bloqueo de contenido editable&quot; está seleccionada. Puede anular esta restricción activando la opción Permitir eliminación.
 
 >[!AVAILABILITY]
 >
@@ -215,5 +219,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451610?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
 -->

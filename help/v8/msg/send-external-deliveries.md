@@ -6,15 +6,15 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 TQID: https://experienceleague.adobe.com/PssWyAdLFJ02--DZtt2AOjtbyoVcYip-cJvSqrr0aH4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '466'
 ht-degree: 8%
-
 ---
-
 # Envíos externos {#gs-direct-mail}
 
 Adobe Campaign le permite administrar los envíos creados fuera de Campaign para enviar correos electrónicos personalizados, mensajes SMS o notificaciones push (iOS y Android) de forma masiva a través de un sistema externo.

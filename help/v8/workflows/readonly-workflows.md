@@ -6,15 +6,15 @@ exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 TQID: https://experienceleague.adobe.com/7yCq55pTgMBqdDxeRXmvHeVQLeGCFUIaxCUcdJlmYik
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: '295'
 ht-degree: 10%
-
 ---
-
 # Acerca de los flujos de trabajo solo de lectura {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
@@ -57,4 +57,4 @@ Los flujos de trabajo técnicos integrados son de solo lectura para todos los us
 
 ![Interfaz técnica de flujo de trabajo en modo de solo lectura, que muestra opciones para pausar o detener flujos de trabajo.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Obtenga más información acerca de los flujos de trabajo técnicos en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Obtenga más información acerca de los flujos de trabajo técnicos en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

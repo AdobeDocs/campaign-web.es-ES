@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Creación y publicación de una oferta
+title: Crear y publicar una oferta
 description: Obtenga información sobre cómo crear, configurar, aprobar e implementar una oferta en Campaign Web
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 2%
-
+source-wordcount: '1057'
+ht-degree: 3%
 ---
-
-# Creación y publicación de una oferta {#create-offer}
+# Crear y publicar una oferta {#create-offer}
 
 Una **oferta** es una propuesta individual con su propio período de elegibilidad, filtro de destinatario, peso y contenido. Las ofertas se organizan en el catálogo de ofertas a través de **categorías** y se presentan a los destinatarios a través de **espacio de ofertas**.
 
@@ -66,7 +66,7 @@ Esta sección le permite controlar cuándo y a quién se puede presentar la ofer
 
 >[!NOTE]
 >
->El motor de oferta clasifica las ofertas aptas por peso descendente y devuelve primero las propuestas con peso más alto. La lógica de selección (denominada **arbitraje**) también tiene en cuenta las reglas de elegibilidad y las ponderaciones configuradas en la categoría principal y en el entorno. Obtenga más información acerca del principio de arbitraje en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=es){target="_blank"}.
+>El motor de oferta clasifica las ofertas aptas por peso descendente y devuelve primero las propuestas con peso más alto. La lógica de selección (denominada **arbitraje**) también tiene en cuenta las reglas de elegibilidad y las ponderaciones configuradas en la categoría principal y en el entorno. Obtenga más información acerca del principio de arbitraje en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 ### Definición del contenido {#content}
 
@@ -136,5 +136,5 @@ Una vez que una oferta está activa, la modificación de cualquier configuració
 
 Cuando la oferta está activa, se puede seleccionar desde cualquier entrega orientado al espacio de oferta coincidente. Aprenda a configurar ofertas en una entrega de [Agregar ofertas a sus mensajes](../msg/offers.md).
 
-Para obtener la integración de la entrega saliente completa, incluido cómo se crea la llamada al motor y cómo se aplica el seguimiento a los vínculos de oferta, consulte las [ofertas de documentación de Campaign v8 en las entregas salientes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=es){target="_blank"}.
+Para obtener la integración de la entrega saliente completa, incluido cómo se crea la llamada al motor y cómo se aplica el seguimiento a los vínculos de oferta, consulte las [ofertas de documentación de Campaign v8 en las entregas salientes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}.
 

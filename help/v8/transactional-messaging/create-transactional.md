@@ -6,23 +6,24 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1334
+source-wordcount: '1334'
 ht-degree: 18%
-
 ---
-
 # Creación de mensajes transaccionales
 
 En la mensajería transaccional, un evento déclencheur el envío de un mensaje personalizado. Para habilitar esto, cree una plantilla de mensaje para cada tipo de evento. Estas plantillas contienen toda la información necesaria para personalizar el mensaje transaccional.
 
 ## Creación de una plantilla de mensaje transaccional {#transactional-template}
 
-En la interfaz de usuario web de Campaign, el primer paso en la configuración de la mensajería transaccional es la creación de la plantilla o la creación directa del mensaje. Esto difiere de [la configuración de los mensajes transaccionales en la consola del cliente](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional).
+En la interfaz de usuario web de Campaign, el primer paso en la configuración de la mensajería transaccional es la creación de la plantilla o la creación directa del mensaje. Esto difiere de [la configuración de los mensajes transaccionales en la consola del cliente](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Se puede utilizar una plantilla de mensaje transaccional para previsualizar el contenido de envío recibido por el perfil antes de que llegue a la audiencia final. Por ejemplo, un administrador puede configurar las plantillas, preparándolas para que las utilicen los usuarios de marketing.
 
@@ -175,10 +176,10 @@ Para crear un mensaje transaccional, siga los pasos a continuación:
   ![Captura de pantalla que muestra la página de configuración de los mensajes transaccionales.](assets/transactional-configuration.png){zoomable="yes"}
 
   Rellene la configuración del mensaje como para una plantilla:
-   * [Propiedades del mensaje transaccional](#transactional-properties)
-   * [Muestra de contexto](#context-sample)
-   * [Contenido del mensaje](#transactional-content)
-y [configure el tipo de evento](#event-type) como se detalla a continuación.
+  * [Propiedades del mensaje transaccional](#transactional-properties)
+  * [Muestra de contexto](#context-sample)
+  * [Contenido del mensaje](#transactional-content)
+    y [configure el tipo de evento](#event-type) como se detalla a continuación.
 
 * Después de [validar tu mensaje transaccional](validate-transactional.md), haz clic en el botón **[!UICONTROL Revisar y publicar]** para crear y publicar tu mensaje. Los déclencheur ahora pueden insertar el envío del mensaje transaccional.
 

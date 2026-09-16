@@ -5,16 +5,17 @@ exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
 TQID: https://experienceleague.adobe.com/Fn3O9rjM5mkBzfTZbKeV5aZUF2XmfQ87JGUZP7V-RR8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: '374'
 ht-degree: 4%
-
 ---
-
 # Administración de husos horarios {#timezone-management}
 
 La interfaz de usuario web de Adobe Campaign muestra todos los valores de fecha y hora según la **zona horaria local del explorador web del usuario**. Este comportamiento puede provocar diferencias al comparar marcas de tiempo entre la interfaz de usuario web y la consola de cliente.
