@@ -5,14 +5,14 @@ description: Descubra más información sobre cómo utilizar la actividad del fl
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 3%
+ht-degree: 8%
 ---
 # Aprobación {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_approval"
 >title="Actividad de aprobación"
->abstract="La actividad **Approval** requiere la participación de un operador. Asigne la tarea a un grupo o a un operador individual, personalice el título y el mensaje de la notificación y defina las posibles respuestas como ramas de salida."
+>abstract="Una actividad de **Aprobación** implica la participación de un operador. Asigne la tarea a un grupo o a un operador individual, personalice el título y el mensaje de la notificación, y defina las posibles respuestas como ramas de salida."
 
 La actividad del flujo de trabajo **Approval** le permite asignar una tarea a un grupo o a un operador individual, personalizar el título y el mensaje del correo electrónico de notificación y definir las posibles respuestas (por ejemplo, Sí/No) como ramas de salida.
 
