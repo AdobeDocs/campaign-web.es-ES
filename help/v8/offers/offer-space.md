@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Creación y administración de espacios de oferta
+title: Crear y administrar espacios de ofertas
 description: Obtenga información sobre cómo crear, configurar, implementar y previsualizar espacios de ofertas en Campaign Web
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 0%
-
+source-wordcount: '921'
+ht-degree: 1%
 ---
-
-# Creación y administración de espacios de oferta {#offer-space}
+# Crear y administrar espacios de ofertas {#offer-space}
 
 Un **espacio de ofertas** define dónde y cómo se expone una oferta a un contacto: qué canal utiliza (correo electrónico, correo directo, SMS, web entrante, etc.), qué campos de contenido puede utilizar la oferta y cómo se crea la representación final. Un solo entorno puede contener varios espacios de oferta, uno para cada punto de exposición.
 

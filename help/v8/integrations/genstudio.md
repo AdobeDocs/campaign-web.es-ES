@@ -10,9 +10,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 7%
-
 ---
-
 # Trabajo con GenStudio for Performance Marketing {#genstudio}
 
 >[!CONTEXTUALHELP]

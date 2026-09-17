@@ -6,13 +6,12 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: '504'
 ht-degree: 24%
-
 ---
-
 # Creación de una entrega de correo directo {#create-direct-mail}
 
 Puede crear una entrega de correo postal independiente o crear una entrega de correo directo en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes detallan el procedimiento para un envío de correo postal independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se detallan en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).

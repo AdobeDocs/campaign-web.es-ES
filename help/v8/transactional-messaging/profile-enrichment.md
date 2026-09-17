@@ -5,11 +5,9 @@ description: Obtenga información sobre cómo crear un mensaje transaccional en 
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '470'
 ht-degree: 11%
-
 ---
-
 # Enriquecimiento de los mensajes transaccionales con datos de perfil{#profile-enrichment}
 
 Esta capacidad le permite personalizar mensajes transaccionales vinculando campos de base de datos de Adobe Campaign al contenido del mensaje. Puede seleccionar asignaciones de destinatario, columnas de enriquecimiento y una clave de reconciliación para garantizar una personalización precisa y en tiempo real mientras mantiene los umbrales de rendimiento.

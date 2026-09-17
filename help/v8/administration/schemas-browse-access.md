@@ -6,9 +6,7 @@ source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # Acceso y configuración de esquemas {#access}
 
 Se puede acceder a los esquemas desde el menú **[!UICONTROL Administración]** > **[!UICONTROL Esquemas]**.

@@ -6,11 +6,9 @@ audience: end-user
 exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 17%
-
+source-wordcount: '71'
+ht-degree: 16%
 ---
-
 # Bajas{#unsubscriptions}
 
 El informe **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor cantidad de bajas.

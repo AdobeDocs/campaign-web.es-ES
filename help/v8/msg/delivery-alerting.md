@@ -6,20 +6,23 @@ exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 TQID: https://experienceleague.adobe.com/EGP8dJLZGnGqQDiDfeal6wv5UL0ygtw9Y6F9SKLGrC8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 2%
-
 ---
-
 # Introducción a las alertas de envío {#gs-delivery-alerting}
 
 Las alertas de envío son un sistema de administración de alertas que permite a grupos de usuarios recibir automáticamente notificaciones por correo electrónico con información sobre sus ejecuciones de envío. Los destinatarios monitorizan los envíos en curso procesados por Adobe Campaign y toman las medidas adecuadas si surgen problemas.

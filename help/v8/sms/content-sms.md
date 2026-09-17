@@ -6,15 +6,15 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 TQID: https://experienceleague.adobe.com/CZSfyKVl4NOWhNVcs8ZXj9b9o3EPaVjsDOz-7t2g20s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: '278'
 ht-degree: 50%
-
 ---
-
 # Diseño de un envío de SMS {#design-sms}
 
 >[!CONTEXTUALHELP]

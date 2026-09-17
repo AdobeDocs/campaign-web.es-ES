@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 20%
-
 ---
-
 # Envío automatizado {#automated-delivery}
 
 >[!CONTEXTUALHELP]

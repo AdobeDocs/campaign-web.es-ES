@@ -1,17 +1,15 @@
 ---
-title: Resumen de envíos
+title: Resumen de entregas
 description: Con el informe Resumen de entregas listo para usar, obtenga información acerca de las estadísticas de entregas, como el número de envíos, devoluciones y aperturas.
 level: Intermediate
 audience: end-user
 exl-id: 6c5c013c-014f-4d0c-9967-32ac0fbab4af
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
-# Resumen de envíos{#delivery-summary}
+# Resumen de entregas{#delivery-summary}
 
 El informe **[!UICONTROL Resumen de envío]** detalla la información principal relativa a un correo electrónico o a varios.
 

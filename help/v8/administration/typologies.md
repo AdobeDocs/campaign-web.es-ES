@@ -6,17 +6,19 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 TQID: https://experienceleague.adobe.com/LUgINZylWuInxi4LabDWk5-xp6wAv01gsNYT8dnNdx8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: '1500'
 ht-degree: 29%
-
 ---
-
 # Trabajo con reglas empresariales (tipologías) {#typologies}
 
 >[!CONTEXTUALHELP]

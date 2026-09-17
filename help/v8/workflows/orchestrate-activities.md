@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1720
-ht-degree: 8%
-
+source-wordcount: '1720'
+ht-degree: 10%
 ---
-
 # Organización de actividades {#orchestrate}
 
 Una vez que haya [creado un flujo de trabajo](create-workflow.md), ya sea desde el menú de flujo de trabajo o dentro de una campaña, puede empezar a organizar las diferentes tareas que realiza. Para ello, se proporciona un lienzo visual, que le permite construir un diagrama de flujo de trabajo. Dentro de este diagrama, puede añadir varias actividades y conectarlas en un orden secuencial. Las barras de desplazamiento horizontales y verticales se muestran alrededor del lienzo, lo que permite desplazarse por flujos de trabajo grandes arrastrando directamente al área que desea ver.
@@ -128,7 +127,7 @@ Haga clic en **Eliminar** para confirmar su elección o en **Cancelar** para cer
 
 Puede desconectar dos actividades sin eliminar ninguna de ellas. Las actividades colocadas después de la transición desconectada no se eliminan: se mueven a una rama nueva e independiente del flujo de trabajo.
 
-Esto permite reorganizar un diagrama de flujo de trabajo, por ejemplo, para dejar temporalmente a un lado un grupo de actividades que desee conservar, sin tener que eliminarlas y volver a crearlas.
+Esto le permite reorganizar un diagrama de flujo de trabajo, por ejemplo, para dejar temporalmente a un lado un grupo de actividades que desee conservar, sin tener que eliminarlas y volver a crearlas.
 
 Puede hacerlo en una sola transición:
 

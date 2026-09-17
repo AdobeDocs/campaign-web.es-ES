@@ -5,16 +5,17 @@ exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 TQID: https://experienceleague.adobe.com/TSbgkDH1v-9HH-szfGQx0z6-6fP8tny4s7Vx2SE8gUo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 964
+workflow-type: tm+mt
+source-wordcount: '964'
 ht-degree: 100%
-
 ---
-
 # Conexión a Adobe Campaign {#connect-to-campaign}
 
 Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign en esta página.

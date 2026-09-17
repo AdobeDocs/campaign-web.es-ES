@@ -9,9 +9,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 11%
-
 ---
-
 # Creación y administración de modelos generativos {#generative-models}
 
 >[!CONTEXTUALHELP]

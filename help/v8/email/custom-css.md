@@ -10,22 +10,27 @@ exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 TQID: https://experienceleague.adobe.com/BYB8FsX9FSRtosbA6MLTIiHgsQPnH-0FtYzcHFcFJFU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '692'
 ht-degree: 10%
-
 ---
-
 # Añadir CSS personalizadas al contenido del correo electrónico {#email-metadata}
 
 >[!CONTEXTUALHELP]
@@ -264,16 +269,16 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
 * Asegúrese de que otras reglas CSS no anulen el CSS.
 
-   * Utilice las herramientas para desarrolladores del navegador para inspeccionar el contenido y comprobar que el CSS está dirigido a los selectores correctos.
+  * Utilice las herramientas para desarrolladores del navegador para inspeccionar el contenido y comprobar que el CSS está dirigido a los selectores correctos.
 
-   * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
+  * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
 
-     +++ Por ejemplo:
+    +++ Por ejemplo:
 
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
 
-     +++
+    +++

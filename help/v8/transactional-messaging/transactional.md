@@ -6,15 +6,15 @@ exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
 TQID: https://experienceleague.adobe.com/7PS3KXngsimgWdtbGMNbW6SR2XGB-hYYjkletiJR0nM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '258'
 ht-degree: 13%
-
 ---
-
 # Acerca de la mensajería transaccional {#transactional-messaging}
 
 >[!CONTEXTUALHELP]

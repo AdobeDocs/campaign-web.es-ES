@@ -6,17 +6,18 @@ exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 TQID: https://experienceleague.adobe.com/xP4Ed9-RkYwwlb5M9-MOhoB60-f1PnqfGf-7fmWy-oY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 301
+workflow-type: tm+mt
+source-wordcount: '301'
 ht-degree: 100%
-
 ---
-
 # Principios clave de la creación de un flujo de trabajo {#gs-workflow-creation}
 
 Con la web de Adobe Campaign puede crear flujos de trabajo en un lienzo visual para diseñar procesos de canales múltiples como la segmentación, ejecución de campañas o procesamiento de archivos.

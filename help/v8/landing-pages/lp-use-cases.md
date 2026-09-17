@@ -11,17 +11,18 @@ exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 TQID: https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 10%
-
 ---
-
 # Cómo utilizar una página de destino {#lp-use-cases}
 
 >[!CONTEXTUALHELP]

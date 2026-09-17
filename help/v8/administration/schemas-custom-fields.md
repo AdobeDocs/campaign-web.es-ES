@@ -6,9 +6,7 @@ source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 12%
-
 ---
-
 # Editar campos personalizados {#fields}
 
 >[!CONTEXTUALHELP]

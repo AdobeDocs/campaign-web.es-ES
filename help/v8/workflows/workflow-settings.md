@@ -6,13 +6,12 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: '1087'
 ht-degree: 28%
-
 ---
-
 # Configuración del flujo de trabajo {#workflow-settings}
 
 >[!CONTEXTUALHELP]
@@ -44,10 +43,10 @@ Estas propiedades incluyen:
 * **[!UICONTROL Carpeta]** en la que se debe guardar el flujo de trabajo.
 * La **[!UICONTROL zona horaria]** predeterminada para usar en todas las actividades del flujo de trabajo. De forma predeterminada, la zona horaria del flujo de trabajo es la definida para el operador de Campaign actual.
 Los valores posibles son:
-   * **Zona horaria del servidor** para usar la del servidor de aplicaciones de Adobe Campaign.
-   * **Zona horaria del operador** para usar la zona horaria del operador de Adobe Campaign que ejecuta el flujo de trabajo, tal como se define en el perfil del operador en la consola del cliente.
-   * **Zona horaria de la base de datos** para usar la zona horaria del servidor de la base de datos.
-   * Una zona horaria específica.
+  * **Zona horaria del servidor** para usar la del servidor de aplicaciones de Adobe Campaign.
+  * **Zona horaria del operador** para usar la zona horaria del operador de Adobe Campaign que ejecuta el flujo de trabajo, tal como se define en el perfil del operador en la consola del cliente.
+  * **Zona horaria de la base de datos** para usar la zona horaria del servidor de la base de datos.
+  * Una zona horaria específica.
 * Cuando falla un flujo de trabajo, se notifica por correo electrónico a los operadores que pertenecen al grupo de operadores seleccionado en el campo **[!UICONTROL Supervisor(s)]**.
 * Escriba una **[!UICONTROL descripción]** de su flujo de trabajo.
 
@@ -96,9 +95,9 @@ Cuando el flujo de trabajo está [asociado con una campaña](create-workflow.md)
 
 * **[!UICONTROL Administración de errores]**: este campo permite definir las acciones que deben realizarse si una tarea de flujo de trabajo tiene errores. Hay tres opciones posibles:
 
-   * **[!UICONTROL Suspender el proceso]**: el flujo de trabajo se pone en pausa automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reanude el flujo de trabajo con los botones **[!UICONTROL Reanudar]**.
-   * **[!UICONTROL Ignorar]**: El estado de la tarea que activó el error cambia a **[!UICONTROL Fallido]**, pero el flujo de trabajo mantiene el estado **[!UICONTROL Iniciado]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Anular el proceso]**: el flujo de trabajo se detiene automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie el flujo de trabajo con los botones **[!UICONTROL Start]**.
+  * **[!UICONTROL Suspender el proceso]**: el flujo de trabajo se pone en pausa automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reanude el flujo de trabajo con los botones **[!UICONTROL Reanudar]**.
+  * **[!UICONTROL Ignorar]**: El estado de la tarea que activó el error cambia a **[!UICONTROL Fallido]**, pero el flujo de trabajo mantiene el estado **[!UICONTROL Iniciado]**. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL Anular el proceso]**: el flujo de trabajo se detiene automáticamente y su estado cambia a **[!UICONTROL Error]**. Una vez resuelto el problema, reinicie el flujo de trabajo con los botones **[!UICONTROL Start]**.
 
 * **[!UICONTROL Errores consecutivos]**: Este campo está disponible cuando el valor **[!UICONTROL Ignorar]** está seleccionado en el campo **[!UICONTROL En caso de errores]**. Especifique el número de errores que se pueden omitir antes de que se detenga el proceso. Una vez alcanzado este número, el estado del flujo de trabajo cambia a **[!UICONTROL Failed]**. Si el valor de este campo es 0, el flujo de trabajo nunca se detiene, independientemente del número de errores.
 

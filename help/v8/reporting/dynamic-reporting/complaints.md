@@ -6,11 +6,9 @@ level: Intermediate
 exl-id: dbbced99-85b3-4f88-b0cd-1fe1abc6bca8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 18%
-
+source-wordcount: '90'
+ht-degree: 17%
 ---
-
 # Reclamaciones{#complaints}
 
 El informe **[!UICONTROL Complaints]** identifica los envíos que reciben la mayoría de las declaraciones como correo no deseado.

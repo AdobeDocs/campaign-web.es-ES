@@ -6,16 +6,17 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 TQID: https://experienceleague.adobe.com/gAN2-cZkP5QpQoZ-V5-TyAf-SyWi9l-sH-ZTeGbIAVM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 951
+source-wordcount: '951'
 ht-degree: 17%
-
 ---
-
 # Extracción de archivos {#extract-file}
 
 >[!CONTEXTUALHELP]

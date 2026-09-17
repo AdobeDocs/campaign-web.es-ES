@@ -6,11 +6,9 @@ level: Intermediate
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '230'
 ht-degree: 3%
-
 ---
-
 # Definición del período de informe{#defining-the-report-period}
 
 >[!NOTE]

@@ -3,12 +3,10 @@ title: Notas de la versión anterior de la interfaz de usuario web de Campaign v
 description: Notas de la versión de la interfaz de usuario web de Campaign 2026
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 100%
-
 ---
-
 # Notas de la versión 2026 {#2026-release}
 
 Esta página enumera todos los cambios y mejoras disponibles en las **versiones de 2026**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).

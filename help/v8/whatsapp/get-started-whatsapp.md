@@ -9,11 +9,9 @@ level: Beginner
 hide: true
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '248'
 ht-degree: 1%
-
 ---
-
 # Introducción a los mensajes de WhatsApp {#get-started-whatsapp}
 
 Puede enviar mensajes de WhatsApp desde la **interfaz de usuario web de Adobe Campaign** mediante la [API en la nube](https://developers.facebook.com/docs/whatsapp/cloud-api/) de Meta. Utiliza WhatsApp en envíos independientes, en flujos de trabajo de campañas o dentro de campañas de marketing, junto con tus otros canales.
@@ -30,13 +28,13 @@ La integración de WhatsApp requiere lo siguiente:
 
 * Cuenta de Meta Business Manager
 * [Cuenta comercial de WhatsApp con nombre de remitente y número de teléfono verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
-* [Token de autorización de usuario con los permisos apropiados](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [Token de autorización de usuario con los permisos adecuados](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Plantillas de Meta aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 También debe reconocer lo siguiente antes de continuar:
 
 * [Reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
-* [Cumplimiento de las directivas de Meta](https://www.whatsapp.com/legal)
-* [Límites para las conversaciones de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Cumplimiento de las políticas de Meta](https://www.whatsapp.com/legal)
+* [Límites de conversación de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 

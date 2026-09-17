@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
-
 ---
-
 # Adición de visualizaciones{#adding-visualizations}
 
 La pestaña **Visualizaciones** le permite arrastrar y soltar elementos de visualización, como área, anillo y gráfico. Las visualizaciones le proporcionan representaciones gráficas de los datos.

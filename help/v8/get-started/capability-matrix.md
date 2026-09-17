@@ -6,35 +6,53 @@ exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 TQID: https://experienceleague.adobe.com/-7-B1Z-kUsbPoNU87RmyG6FUA0Cw5KGtyc4h2MZi-rY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
   - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+    internal-label: Data modeling
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 2548
+workflow-type: tm+mt
+source-wordcount: '2548'
 ht-degree: 100%
-
 ---
-
 # Web y consola de cliente de Campaign {#capabilities-matrix}
 
 Las funcionalidades clave de Campaign están disponibles en la interfaz de usuario web de Campaign. Esta interfaz fue diseñada principalmente para que los especialistas en marketing planificaran, iniciaran y midieran sus campañas de marketing. En [esta página](../rn/whats-new.md) se enumeran todas las funcionalidades.
@@ -238,7 +256,7 @@ Para obtener más información, examine los vínculos proporcionados en la docum
 * [Monitorización de los flujos de trabajos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}
 * [Mapa de calor del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=es){target="_blank"}
 * [Monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
-* [Seguimiento de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es){target="_blank"}
+* [Monitorización de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es){target="_blank"}
 
 ## Administración de husos horarios {#timezone-management}
 

@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 24%
-
 ---
-
 # Introducción a la marca {#branding-gs}
 
 >[!AVAILABILITY]

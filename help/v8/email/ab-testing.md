@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 10%
-
 ---
-
 # Creación de experimentos de contenido {#content-experiment}
 
 >[!CONTEXTUALHELP]
@@ -159,13 +157,13 @@ Al crear experimentos de contenido, tenga en cuenta las siguientes recomendacion
 * **Probar un elemento a la vez**: para obtener resultados más claros, pruebe las variaciones de un solo elemento (por ejemplo, solo línea de asunto o solo contenido) en lugar de varios elementos simultáneamente.
 
 * **Elija la duración apropiada**: Deje tiempo suficiente para que la relevancia estadística:
-   * Para las pruebas de tasa de apertura: 12-24 horas suele ser suficiente
-   * Para las pruebas de tasa de clics: puede que se necesiten entre 24 y 48 horas o más
-   * Las audiencias más grandes pueden requerir menos tiempo, mientras que las más pequeñas pueden necesitar más
+  * Para las pruebas de tasa de apertura: 12-24 horas suele ser suficiente
+  * Para las pruebas de tasa de clics: puede que se necesiten entre 24 y 48 horas o más
+  * Las audiencias más grandes pueden requerir menos tiempo, mientras que las más pequeñas pueden necesitar más
 
 * **Cambiar el tamaño de la audiencia** correctamente:
-   * Asegúrese de que la audiencia del experimento (el porcentaje asignado a las pruebas) sea lo suficientemente grande como para generar resultados significativos
-   * Directrices generales: Mínimo de 1.000 destinatarios por tratamiento para obtener resultados fiables
+  * Asegúrese de que la audiencia del experimento (el porcentaje asignado a las pruebas) sea lo suficientemente grande como para generar resultados significativos
+  * Directrices generales: Mínimo de 1.000 destinatarios por tratamiento para obtener resultados fiables
 
 * **Realizar pruebas con regularidad pero no de forma excesiva**: llevar a cabo experimentos en campañas importantes, pero evitar probar cada envío para enfocar los recursos en decisiones impactantes.
 

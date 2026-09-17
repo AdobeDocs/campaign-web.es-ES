@@ -6,21 +6,25 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 TQID: https://experienceleague.adobe.com/Yt-mvqKULJIMshitpuuU03U7Dl2m0DnhWoP8kdBoaUI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '616'
 ht-degree: 18%
-
 ---
-
 # Acerca de las actividades de flujo de trabajo {#workflow-activities}
 
 Las actividades de flujo de trabajo se agrupan en tres categorías. Dependiendo del contexto, las actividades disponibles pueden diferir.

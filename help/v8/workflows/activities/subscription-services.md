@@ -6,15 +6,15 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: '1135'
 ht-degree: 28%
-
 ---
-
 # Servicios de suscripción {#subscription-services}
 
 >[!CONTEXTUALHELP]
@@ -111,8 +111,8 @@ El flujo de trabajo siguiente muestra cómo importar un archivo que contiene per
   ```
 
   Como ha visto, la operación se especifica en el archivo como &quot;sub&quot; o &quot;unsub&quot;. El sistema espera que un valor **booleano** o **entero** reconozca la operación que se va a realizar: “0” para cancelar la suscripción y “1” para suscribirse. Para hacer coincidir este requisito:
-   * El **tipo de datos** de la columna &quot;operación&quot; está establecido en entero.
-   * Se debe realizar una **reasignación de valores** para que coincida con los valores &quot;sub&quot; y &quot;unsub&quot; con los valores &quot;1&quot; y &quot;0&quot;.
+  * El **tipo de datos** de la columna &quot;operación&quot; está establecido en entero.
+  * Se debe realizar una **reasignación de valores** para que coincida con los valores &quot;sub&quot; y &quot;unsub&quot; con los valores &quot;1&quot; y &quot;0&quot;.
 
   ![Captura de pantalla de la interfaz de asignación de servicios de suscripción de flujo de trabajo.](../assets/workflow-subscription-service-uc2-mapping.png)
 

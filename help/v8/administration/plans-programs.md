@@ -6,18 +6,20 @@ exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 5%
-
 ---
-
 # Planes y programas {#plan-and-programs}
 
 Adobe Campaign permite configurar la jerarquía de carpetas para planes y programas de marketing.

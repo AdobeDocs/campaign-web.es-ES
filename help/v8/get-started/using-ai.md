@@ -7,19 +7,22 @@ exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 TQID: https://experienceleague.adobe.com/TM3zkoJ6WmypzgJgCbMLtbRw-gP1iPROc-iOrUswOh4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 525
+workflow-type: tm+mt
+source-wordcount: '525'
 ht-degree: 100%
-
 ---
-
 # Ayuda contextual con tecnología de IA {#using-ai}
 
 Obtenga respuestas rápidas, generadas por IA en función de la documentación y del contexto actual del producto, con la ayuda contextual con tecnología de IA de preguntas y respuestas disponible en los cuadros de ayuda contextual.

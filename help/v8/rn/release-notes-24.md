@@ -5,25 +5,33 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 TQID: https://experienceleague.adobe.com/N4YGqWeKVOfakNNxhRekN1TsH4vyLhYav47axHu5O08
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 2580
+workflow-type: tm+mt
+source-wordcount: '2580'
 ht-degree: 100%
-
 ---
-
 # Notas de la versión 2024 {#2024-release}
 
 Esta página enumera todos los cambios y mejoras disponibles con las **versiones de 2024**. Las notas de la versión más recientes están disponibles en [esta página](release-notes.md).

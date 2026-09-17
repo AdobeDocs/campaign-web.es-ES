@@ -6,15 +6,15 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 88%
-
+source-wordcount: '342'
+ht-degree: 100%
 ---
-
 # Permisos {#permissions}
 
 Cada usuario de Adobe Campaign tiene permisos y restricciones específicos en la aplicación. El usuario puede pertenecer a un grupo de operadores y heredar los permisos del grupo.
@@ -53,8 +53,8 @@ Si la opción **[!UICONTROL Propagar]** está habilitada, todos los permisos def
 
 Si la opción **[!UICONTROL Carpeta del sistema]** está habilitada, el acceso está permitido a todos los operadores, independientemente de sus permisos.
 
-Consulte esta [sección](work-with-folders.md#folder-access-rights) para conocer cómo estos derechos afectan las acciones disponibles en una carpeta.
+Consulte esta [sección](work-with-folders.md#folder-access-rights) para conocer cómo estos derechos afectan las acciones que tiene disponibles sobre una carpeta.
 
-Los derechos asignados también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=es#use-named-rights){target="_blank"}.
+Los derechos asignados también determinan qué acciones de carpeta están disponibles para un operador. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"}.
 
 Todos los permisos de la interfaz de usuario web de Campaign se sincronizan con los permisos de la consola del cliente de Campaign.

@@ -7,25 +7,32 @@ exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: '2109'
 ht-degree: 0%
-
 ---
-
 # Prácticas recomendadas de generación de mensajes de contenido {#ai-assistant-prompting-guide}
 
 Esta guía le ayuda a estructurar sus solicitudes, comunicar la intención con claridad y asegurarse de que la IA produzca mensajes que se ajusten a las directrices de marca, las necesidades de audiencia y los objetivos de las campañas.

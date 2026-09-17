@@ -6,15 +6,15 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '805'
 ht-degree: 23%
-
 ---
-
 # Añadir ofertas a los mensajes {#offers-content}
 
 Puede añadir ofertas a los envíos directamente desde la interfaz de usuario de Campaign Web. Estas ofertas están disponibles en el menú de la izquierda **Ofertas**, que le permite acceder a la lista de ofertas.

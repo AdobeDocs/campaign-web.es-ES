@@ -6,18 +6,20 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 TQID: https://experienceleague.adobe.com/5UyJT1-bkt0XtqVkTQl7VobPRsxG36tJYe35KSk8n5c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: '1707'
 ht-degree: 25%
-
 ---
-
 # Informes de campaña para el canal de correo electrónico {#campaign-reports-email-channel}
 
 Cada informe de campaña se divide en diferentes widgets que detallan el éxito y los errores de la campaña. A continuación se describen los informes y las métricas del canal de correo electrónico. Obtenga información sobre cómo acceder a sus informes de campaña en [esta página](campaign-reports.md).

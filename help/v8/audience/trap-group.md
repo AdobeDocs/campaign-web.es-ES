@@ -6,15 +6,15 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 4%
-
 ---
-
 # Usar un grupo de reventado {#trap-group}
 
 Se usa un **[!UICONTROL grupo de reventado]** (también conocido como **[!UICONTROL lista semilla]**) para incluir direcciones específicas en las entregas a fin de supervisar y verificar el proceso de distribución mediante perfiles de destino que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del ámbito de la entrega pueden recibirlo, como cualquier otro destinatario objetivo.

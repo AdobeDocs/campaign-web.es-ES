@@ -6,16 +6,17 @@ exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 TQID: https://experienceleague.adobe.com/9TSWj4qGMvMRkNIT6zqMxXsYlxi4vNtUcNOnBKjjZ-g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: '288'
 ht-degree: 25%
-
 ---
-
 # Introducción a los informes de envío {#reports}
 
 >[!CONTEXTUALHELP]

@@ -6,15 +6,15 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 TQID: https://experienceleague.adobe.com/hYjYD7ofgUpXPUk21C-GqC6BFt-RwPNk3fi--s-iG6w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '382'
 ht-degree: 18%
-
 ---
-
 # Selección de un público existente {#add-audience}
 
 >[!CONTEXTUALHELP]

@@ -7,9 +7,7 @@ source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 24%
-
 ---
-
 # Trabajar con el generador de reglas {#segment-builder}
 
 El generador de reglas permite definir la población objetivo de la entrega filtrando los datos contenidos en la base de datos. Utilícelo para crear una audiencia a partir de un flujo de trabajo con una actividad **[!UICONTROL Generar audiencia]** o directamente al crear una entrega para crear una audiencia única.

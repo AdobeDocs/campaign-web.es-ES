@@ -6,11 +6,9 @@ audience: end-user
 exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '541'
 ht-degree: 3%
-
 ---
-
 # Acuerdo de uso del sistema de informes dinámicos {#pii-agreement}
 
 El propósito del acuerdo de uso de creación de informes dinámicos es funcionar como un consentimiento emergente para el procesamiento de datos. De forma predeterminada, el acuerdo solo es visible y solo lo pueden aceptar o rechazar los usuarios con derechos de administración.
@@ -36,8 +34,8 @@ La tabla siguiente muestra lo que sucede después de rechazar este acuerdo segú
 
 | Región | Sistema de informes dinámicos | Conector de Microsoft Dynamics 365 |
 |---|---|---|
-| América y APAC (Asia-Pacífico) | **Característica disponible**. <br> No se ha insertado información de perfiles personalizados y preestablecida en el centro de informes de EE. UU. con la excepción de ExternalID. | **Característica disponible**. <br>No se han enviado campos de perfil personalizados o predeterminados al centro de datos de EE. UU. con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign procesados en el centro de datos de EE. UU. excepto el ID de página espejo. |
-| EMEA (Europa, Oriente Medio y África) | **Característica disponible**. <br>No se ha insertado información de perfiles personalizados y preestablecida en el centro de informes de EMEA, con la excepción de ExternalID. | **Característica disponible.** <br>No se han enviado campos de perfil predeterminados o personalizados al centro de datos de EMEA, con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign procesados en el centro de datos de EMEA, excepto el ID de página espejo. |
+| América y APAC (Asia-Pacífico) | **Característica disponible**. <br> No se inserta información de perfiles personalizados y lista para usar en el centro de informes de EE. UU. con la excepción de ExternalID. | **Característica disponible**. <br>No se han enviado campos de perfil personalizados o predeterminados al centro de datos de EE. UU. con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign procesados en el centro de datos de EE. UU. excepto el ID de página espejo. |
+| EMEA (Europa, Oriente Medio y África) | **Característica disponible**. <br>No se ha insertado información de perfiles personalizados y preestablecida en el centro de informes de EMEA, con la excepción de ExternalID. | **Característica disponible.** <br>No se han enviado campos de perfil personalizados o predeterminados al centro de datos de EMEA, con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign procesados en el centro de datos de EMEA, excepto el ID de página espejo. |
 
 Esta opción no es final, siempre puede cambiarla seleccionando la opción **[!UICONTROL realtimeReporting_collectPII]** en **[!UICONTROL Administración]** > **[!UICONTROL Plataforma]** > **[!UICONTROL Opciones]**.
 

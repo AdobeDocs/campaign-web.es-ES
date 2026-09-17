@@ -6,13 +6,12 @@ exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 TQID: https://experienceleague.adobe.com/NEJlbFW9x99cIjqvDUzv01K2qhqwN0HWu3Bbwi542rM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1130
+source-wordcount: '1130'
 ht-degree: 27%
-
 ---
-
 # Paneles de control de alertas de envío {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]

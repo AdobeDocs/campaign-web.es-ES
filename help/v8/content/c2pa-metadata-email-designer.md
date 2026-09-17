@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: Metadatos de C2PA en Designer de correo electrónico y página de aterrizaje
+title: Metadatos de C2PA en el diseñador de correo electrónico y de páginas de destino
 description: Descubra qué sucede con los metadatos de C2PA ya adjuntos a una imagen a medida que se mueve a través del correo electrónico y el diseñador de páginas de aterrizaje en la interfaz de usuario web de Adobe Campaign.
 topic: Content Management
 role: User
@@ -9,12 +9,10 @@ level: Beginner
 source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 1%
-
+ht-degree: 4%
 ---
 
-
-# Metadatos de C2PA en Designer de correo electrónico y página de aterrizaje {#c2pa-email-landing-page-designer}
+# Metadatos de C2PA en el diseñador de correo electrónico y de páginas de destino {#c2pa-email-landing-page-designer}
 
 >[!BEGINSHADEBOX]
 

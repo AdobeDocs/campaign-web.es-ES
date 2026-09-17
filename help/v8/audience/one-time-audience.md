@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 13%
-
 ---
-
 # Crear un público único {#one-time}
 
 En esta sección se explica cómo crear una audiencia al crear una nueva entrega. En esta situación, los perfiles incluidos en la audiencia de envío se segmentan consultando la base de datos con el modelador de consultas. La audiencia resultante se utiliza una sola vez para este envío y no se guarda en la lista de audiencias.

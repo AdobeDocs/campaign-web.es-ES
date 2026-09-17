@@ -10,11 +10,9 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '472'
 ht-degree: 3%
-
 ---
-
 
 # Crear un mensaje de WhatsApp {#create-whatsapp}
 
@@ -83,7 +81,7 @@ Meta debe aprobar tu plantilla de WhatsApp antes de usarla. La aprobación suele
 
 1. Elija Marketing como su **categoría de plantilla**:
 
-   [Más información sobre las categorías de plantillas](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [Más información sobre las Categorías de plantilla](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 

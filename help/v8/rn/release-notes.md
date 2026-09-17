@@ -5,20 +5,24 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 78%
-
+source-wordcount: '332'
+ht-degree: 100%
 ---
-
 # Notas de la versión {#latest-release}
 
 >[!CONTEXTUALHELP]
@@ -56,8 +60,8 @@ _18 de agosto de 2026_
 * **Vista de lista de programas**: los programas ahora se enumeran en una vista dedicada, similar a la de campañas, envíos y flujos de trabajo. Puede examinar los programas existentes y crear programas nuevos directamente desde esta vista. [Más información](../administration/plans-programs.md#create-program)
 * **Configuración de esquema personalizado**: en la sección **Datos de la acción**, ahora puede no permitir la acción **Duplicar** en los registros de un esquema personalizado. [Más información](../administration/schemas-action-data.md#action-data)
 * **Filtros personalizados**: en el editor de esquemas, ahora puede restringir los valores disponibles en el selector para un filtro personalizado de tipo de vínculo mediante el nuevo cuadro de diálogo **Configuración de vínculos**. [Más información](../administration/schemas-custom-filters.md#settings)
-* **Validación de esquema**: ahora puede validar la estructura de un esquema directamente desde el editor de esquemas con el nuevo botón **Comprobar**. [Más información](../administration/schemas-create-publish.md#create-new)
-* **Seguridad de carpetas**: Las acciones disponibles en una carpeta ahora están regidas de manera consistente por los derechos del operador, que coinciden con el comportamiento de la consola del cliente. [Más información](../get-started/work-with-folders.md#about-folders).
+* **Validación de esquema**: ahora puede validar la estructura de un esquema directamente desde el editor de esquemas con el nuevo botón **Verificar**. [Más información](../administration/schemas-create-publish.md#create-new)
+* **Seguridad de carpetas**: las acciones disponibles sobre una carpeta ahora están regidas de manera coherente por los derechos del operador, que coinciden con el comportamiento de la consola del cliente. [Más información](../get-started/work-with-folders.md#about-folders).
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
   <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 

@@ -6,13 +6,12 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 TQID: https://experienceleague.adobe.com/C6e0KNg-R2nMDbliQtciQ8-SHRscbxaC91ol0L-cFfM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 998
+source-wordcount: '998'
 ht-degree: 33%
-
 ---
-
 # Preparación y envío de su correo electrónico {#prepare-send}
 
 ## Preparación del envío {#prepare}

@@ -8,11 +8,9 @@ level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 13%
-
+source-wordcount: '667'
+ht-degree: 14%
 ---
-
 # Asignar su marca {#branding-assign}
 
 ## Vinculación de una marca a una plantilla {#linking-a-brand-to-a-template}

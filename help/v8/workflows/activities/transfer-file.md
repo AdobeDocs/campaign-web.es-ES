@@ -6,16 +6,17 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 TQID: https://experienceleague.adobe.com/KUirsZa80G1TgwV8yjIqvxmSNG1MTQj1h0xVLywFa60
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: '1266'
 ht-degree: 30%
-
 ---
-
 # Transferencia de archivo {#transfer-file}
 
 >[!CONTEXTUALHELP]
@@ -55,7 +56,7 @@ Siga los pasos detallados a continuación para configurar la actividad **Transfe
 
 1. Agregue una actividad **Transferir archivo** al flujo de trabajo y, a continuación, especifique el tipo de transferencia que se realizará según el protocolo que desee utilizar:
 
-   * Para el protocolo HTTP, seleccione **[!UICONTROL Descarga web]**. Esto le permite realizar una operación GET o POST para descargar un archivo en una dirección URL explícita, una cuenta externa o una instancia de Adobe Campaign.
+   * Para el protocolo HTTP, seleccione **[!UICONTROL Descarga web]**. Esto le permite realizar una operación de GET o POST para descargar un archivo en una dirección URL explícita, una cuenta externa o una instancia de Adobe Campaign.
    * Para otros protocolos de servidor a servidor y acciones relacionadas, seleccione **[!UICONTROL Transferencia de archivos]**.
 
 1. Seleccione la acción que se realizará con la actividad. Las acciones disponibles dependen del tipo de transferencia seleccionado. Expanda las secciones siguientes para obtener más información.

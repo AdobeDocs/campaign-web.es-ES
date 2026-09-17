@@ -6,23 +6,29 @@ exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 570
+workflow-type: tm+mt
+source-wordcount: '570'
 ht-degree: 100%
-
 ---
-
 # Transición de Campaign Standard a Campaign v8 {#acs-to-ac}
 
 Los usuarios de Adobe Campaign Standard ahora pueden realizar la transición a la versión 8 de Adobe Campaign Managed Cloud Services. Esta transición ofrece varias ventajas:

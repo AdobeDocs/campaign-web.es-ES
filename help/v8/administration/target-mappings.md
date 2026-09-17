@@ -5,19 +5,21 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '781'
 ht-degree: 13%
-
 ---
-
 # Administrar asignaciones de público destinatario {#target-mappings}
 
 >[!CONTEXTUALHELP]
@@ -105,16 +107,16 @@ Una vez creada la asignación de destino, aparecen dos secciones adicionales en 
 
   ![Sección de almacenamiento que muestra opciones de tabla para los registros](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL Esquema del mensaje]**: identifica el esquema que se va a utilizar para almacenar los registros de envío.
-   * **[!UICONTROL Mensajes excluidos]**: especifica cómo administrar el almacenamiento de registros de envío y exclusión.
+  * **[!UICONTROL Esquema del mensaje]**: identifica el esquema que se va a utilizar para almacenar los registros de envío.
+  * **[!UICONTROL Mensajes excluidos]**: especifica cómo administrar el almacenamiento de registros de envío y exclusión.
 
-      * **[!UICONTROL Almacenar exclusiones y mensajes en la misma tabla]**
-      * **[!UICONTROL Almacenar solo mensajes]**: no almacene exclusiones.
-      * **[!UICONTROL Almacenar exclusiones y mensajes en tablas independientes]**: seleccione el esquema que se utilizará para almacenar los registros de exclusión en el campo **[!UICONTROL Esquema de rechazo]**.
+    * **[!UICONTROL Almacenar exclusiones y mensajes en la misma tabla]**
+    * **[!UICONTROL Almacenar solo mensajes]**: no almacene exclusiones.
+    * **[!UICONTROL Almacenar exclusiones y mensajes en tablas independientes]**: seleccione el esquema que se utilizará para almacenar los registros de exclusión en el campo **[!UICONTROL Esquema de rechazo]**.
 
-   * **[!UICONTROL Registros de seguimiento]**: elige dónde almacenar los registros de seguimiento y el origen de tráfico predeterminado.
-   * **[!UICONTROL Campos adicionales]**: especifique una lista de campos adicionales para almacenar en los registros de envío. Estos campos pueden almacenar permanentemente información sobre miembros individuales del destino (por ejemplo, `recipient/@firstName`) o almacenar datos adicionales calculados durante el flujo de trabajo (por ejemplo, `[targetData/@offeCode]`).
+  * **[!UICONTROL Registros de seguimiento]**: elige dónde almacenar los registros de seguimiento y el origen de tráfico predeterminado.
+  * **[!UICONTROL Campos adicionales]**: especifique una lista de campos adicionales para almacenar en los registros de envío. Estos campos pueden almacenar permanentemente información sobre miembros individuales del destino (por ejemplo, `recipient/@firstName`) o almacenar datos adicionales calculados durante el flujo de trabajo (por ejemplo, `[targetData/@offeCode]`).
 
-     Para ello, seleccione **[!UICONTROL Agregar campo]**. Identifique la información que desea guardar en el campo **[!UICONTROL Source]** y el atributo que se utilizará en los registros de envío para guardar esta información en el campo **[!UICONTROL Destino]**.
+    Para ello, seleccione **[!UICONTROL Agregar campo]**. Identifique la información que desea guardar en el campo **[!UICONTROL Source]** y el atributo que se utilizará en los registros de envío para guardar esta información en el campo **[!UICONTROL Destino]**.
 
-     ![Sección de campos adicionales que muestra opciones para almacenar datos adicionales](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![Sección de campos adicionales que muestra opciones para almacenar datos adicionales](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

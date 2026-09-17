@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
-
 ---
-
 # Añadir filtros personalizados {#custom-filters}
 
 La sección **[!UICONTROL Configuración de lista de inventario]** > **[!UICONTROL Filtros personalizados]** le permite elegir qué atributos se muestran como campos de acceso rápido en el [panel de filtros](../query/filter.md) de la vista de lista de un esquema, encima del generador de reglas **[!UICONTROL Filtros avanzados]**.

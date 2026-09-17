@@ -6,15 +6,15 @@ exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 TQID: https://experienceleague.adobe.com/HRR7lWqh4GbMQiZ-Wm7EHr60452-HusFd0e4cG2G11E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '431'
 ht-degree: 2%
-
 ---
-
 # Administración de cuarentena {#quarantines}
 
 Adobe Campaign administra las direcciones en cuarentena de los canales de correo electrónico, push y SMS.

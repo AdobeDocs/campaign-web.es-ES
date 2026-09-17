@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 52%
-
 ---
-
 # Aperturas{#opens}
 
 El informe **[!UICONTROL Opens]** identifica los envíos más vistos por los destinatarios.
@@ -19,7 +17,7 @@ El informe **[!UICONTROL Opens]** identifica los envíos más vistos por los des
 
 En cuatro tablas y gráficos se desglosa el número total de destinatarios que abrieron un correo electrónico en función de:
 
-* Explorador
+* Navegador
 * Dispositivo
 * Plataforma
 * Dominio

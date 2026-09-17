@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: Introducción a la administración de ofertas
+title: Introducción a la gestión de ofertas
 description: Obtenga información sobre cómo administrar ofertas en Adobe Campaign Web
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 3%
-
+source-wordcount: '763'
+ht-degree: 4%
 ---
-
-# Introducción a la administración de ofertas {#gs-offer-management}
+# Introducción a la gestión de ofertas {#gs-offer-management}
 
 Esta capacidad permite añadir ofertas personalizadas a las entregas y presentar la más relevante para cada perfil en un contexto determinado. Las ofertas pueden ser un mensaje de comunicación simple o promociones de uno o varios productos. En función de las reglas de idoneidad y las ponderaciones de prioridad, el motor de oferta selecciona la mejor propuesta para presentarla.
 

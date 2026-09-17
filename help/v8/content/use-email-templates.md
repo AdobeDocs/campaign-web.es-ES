@@ -11,17 +11,18 @@ exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 TQID: https://experienceleague.adobe.com/S2m5vtbGYiSLmuxr8-ZV7-UEQmbq4Rm-jatlOm86R30
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: '278'
 ht-degree: 6%
-
 ---
-
 # Uso de plantillas de contenido de correo electrónico {#use-email-templates}
 
 Al [crear un correo electrónico](../email/create-email.md), usa la sección **[!UICONTROL Seleccionar plantilla de diseño]** de la interfaz **[!UICONTROL Crear tu correo electrónico]** para empezar a crear tu contenido a partir de una plantilla.
