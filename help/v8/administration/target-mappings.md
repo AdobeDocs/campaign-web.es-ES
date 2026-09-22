@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 13%
+source-wordcount: '918'
+ht-degree: 11%
 ---
 # Administrar asignaciones de público destinatario {#target-mappings}
 
@@ -64,6 +64,21 @@ Para crear una nueva asignación de destino, acceda al menú **[!UICONTROL Admin
 1. En la sección **[!UICONTROL Propiedades]**, escriba una **[!UICONTROL Etiqueta]** para la asignación de destino.
 
 1. Expanda la sección **[!UICONTROL Opciones adicionales]** para definir la configuración avanzada, como el nombre interno, la carpeta de almacenamiento y la descripción de la asignación de destino.
+
+1. Habilite la opción **[!UICONTROL Asignación de destino para aplicaciones móviles]** si va a segmentar destinatarios de aplicaciones móviles.
+
+   ![Pantalla de propiedades de asignaciones de destino que muestra las opciones de población](assets/target-mappings-properties0.png)
+
+   A continuación, puede hacer lo siguiente:
+
+   * Deje vacío el campo **[!UICONTROL Esquema de las aplicaciones de suscriptor existentes]**. Adobe Campaign genera automáticamente el esquema de almacenamiento necesario en función de la plantilla de destinatario. Puede usar **[!UICONTROL Especificar campos adicionales]** para agregar campos personalizados al esquema generado.
+   * Seleccione un esquema de aplicación de suscriptor existente. En este caso, **[!UICONTROL Especifique campos adicionales]** está deshabilitado, ya que el esquema ya existe, y los campos **[!UICONTROL Dimensión de filtrado]** y **[!UICONTROL Dimensión de segmentación]** se rellenan automáticamente en función del esquema seleccionado.
+
+   Las asignaciones de destino móviles siempre utilizan sus propios esquemas de almacenamiento dedicados, con los registros de exclusión almacenados por separado. La opción **[!UICONTROL Exclusiones]**, descrita en la sección **[!UICONTROL Almacenamiento]** a continuación, no se aplica a las asignaciones de destino móviles.
+
+   >[!NOTE]
+   >
+   >El sufijo de esquema no puede contener espacios.
 
 1. Seleccione la población objetivo. Puede:
 

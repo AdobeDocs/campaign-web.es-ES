@@ -2,10 +2,10 @@
 title: Examen y acceso a esquemas
 description: Aprenda a examinar y acceder a los esquemas en la interfaz.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 3%
 ---
 # Acceso y configuración de esquemas {#access}
 
@@ -62,3 +62,5 @@ Desde la definición de pantalla, puede:
 * [Editar campos personalizados](schemas-custom-fields.md): configure qué campos personalizados se muestran en pantallas de detalles y organícelos en secciones.
 * [Agregar listas de colección](schemas-collection-lists.md) - Agregar listas de colección para mostrar datos relacionados en pantallas de perfil.
 * [Acciones de control en los datos](schemas-action-data.md): restringe las acciones de creación, edición y eliminación para esquemas personalizados.
+
+Para esquemas que alimentan una o más entradas en la navegación izquierda, como **nms:delivery** o **xtk:workflow**, la definición de pantalla también muestra una sección **[!UICONTROL Acceso de navegación lateral]**. Seleccione la casilla de verificación **[!UICONTROL Quitar el acceso al menú de]** correspondiente a una entrada de menú para ocultarla de la navegación izquierda para todos los usuarios de la instancia, independientemente de sus derechos de acceso individuales. Algunos esquemas activan varias entradas de menú: por ejemplo, **nms:delivery** se comparte mediante las entradas **[!UICONTROL Envíos]** y **[!UICONTROL Mensajes transaccionales]**, por lo que se muestra una casilla de verificación para cada una de ellas.

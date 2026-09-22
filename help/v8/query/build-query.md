@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
+source-wordcount: '3041'
 ht-degree: 10%
 ---
 # Genere su primera consulta {#build-query}
@@ -71,7 +71,7 @@ Para acceder a esta opción, en la consulta, haga clic en el botón de selecció
 >
 >* Para los campos con muchos valores, solo se muestran los veinte primeros valores. En estos casos, una notificación **[!UICONTROL Carga parcial]** le advierte.
 >* La opción **[!UICONTROL Distribution of values]** es accesible en todos los selectores de atributos. [Aprenda a seleccionar atributos](../get-started/attributes.md)
->* Puede agregar condiciones a los resultados usando los **[ !Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
+>* Puede agregar condiciones a los resultados usando los **[!Afiltros avanzados]**. [Más información aquí](../get-started/work-with-folders.md#filter-the-values).
 
 ## Adición de componentes de filtrado {#filtering}
 
@@ -155,9 +155,11 @@ Para los atributos de tipo fecha, hay valores predefinidos disponibles mediante 
 
 >[!ENDTABS]
 
-#### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
+### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
 Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla que utiliza actualmente la regla. Esto incluye tablas con un vínculo de cardinalidad 1-1 o tablas de recopilación (vínculo 1-N).
+
+#### Vínculo 1-1
 
 Para un vínculo **1-1**, vaya a la tabla vinculada, seleccione el atributo deseado y defina el valor esperado.
 
@@ -169,63 +171,51 @@ En este caso, la consulta está dirigida a marcas cuya etiqueta está &quot;en e
 
 1. Vaya dentro de la tabla **Brand** y seleccione el atributo **Label**.
 
-   ![Captura de pantalla de la tabla de marca](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de pantalla de la tabla de marca](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Defina el valor esperado para el atributo.
 
-   ![Ejemplo de un valor esperado definido](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![Captura de pantalla de la tabla de marca](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 Este es un ejemplo de consulta en el que se ha seleccionado directamente un vínculo de tabla. Los valores disponibles para esta tabla deben seleccionarse de un selector específico.
 
-![Ejemplo de una muestra de consulta](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![Captura de pantalla de la tabla de marca](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-Para un vínculo **1-N**, puede definir subcondiciones para restringir la consulta, como se muestra en el ejemplo siguiente.
+#### Vínculo 1-N
 
-+++Ejemplo de consulta
+Para un vínculo **1-N**, puede definir condiciones de dos maneras:
 
-En este caso, la consulta está dirigida a destinatarios que han realizado compras relacionadas con el producto BrewMaster, por un importe total de al menos 100 $.
+* **Seleccione la colección en sí**, como **Compras**. Esto crea una condición **[!UICONTROL exists como]** donde puede agregar subcondiciones.
 
-1. Seleccione la tabla **Purchases** y confirme.
+  +++Ejemplo de consulta
 
-   ![Captura de pantalla de la tabla de compra](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  En este caso, la consulta se dirige a los destinatarios que han realizado compras relacionadas con el producto BrewMaster, por más de 100$.
 
-1. Se añade una transición saliente, que le permite crear subcondiciones.
+  1. Seleccione la tabla **Purchases** y confirme.
 
-   ![Ejemplo de transición saliente](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. Haga clic en **[!UICONTROL Agregar condición]** para definir las subcondiciones que se aplicarán a la tabla seleccionada.
 
-1. Seleccione el atributo **Price** y el destino de compras de 1000$ o más
+     ![Captura de pantalla de la tabla de compra](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Captura de pantalla del atributo Price](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. Añada subcondiciones para adaptarlas a sus necesidades.
 
-1. Añada subcondiciones para adaptarlas a sus necesidades. Aquí hemos agregado una condición a los perfiles de destino que compraron un producto BrewMaster.
+     ![Captura de pantalla de la tabla de compra](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![Ejemplo de subcondiciones](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **Seleccione un atributo de la colección**, como **Precio** en **Compras**. Se le proporcionan tres opciones para definir la condición.
 
-#### Trabajo con datos agregados {#aggregate}
+  ![Captura de pantalla que muestra las opciones de condición de colección](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-Las condiciones personalizadas le permiten realizar operaciones acumuladas. Para ello, debe seleccionar directamente un atributo de una tabla de recopilación:
+  * **[!UICONTROL Predeterminado]**: la opción recomendada para la mayoría de los casos de uso. Crea automáticamente una condición **[!UICONTROL exists como]** para la colección. Esto equivale a seleccionar la colección directamente con el método descrito anteriormente y produce el mismo resultado. Por ejemplo, al seleccionar el atributo **Price** de **Purchases**, se crea una **Purchases exists such as** condition. Luego puede establecer el operador y el valor, como **igual a** `0`.
 
-1. Desplácese dentro de la tabla de recopilación deseada y seleccione el atributo en el que desea realizar una operación de acumulado.
+  * **[!UICONTROL Aggregate]**: aplica una función de agregado al atributo de colección seleccionado. Por ejemplo, seleccione **Count** para crear una condición como **Count(Price) igual a 0**. Puede utilizar la condición adicional para restringir los registros incluidos en la agregación.
 
-   ![Captura de pantalla de la lista de atributos](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL Avanzado]**: utiliza una unión directa al elemento de colección. El atributo seleccionado se evalúa directamente, por ejemplo **Precio (compras/@price)**. Utilice esta opción para una sola condición en el elemento de colección.
 
-1. En el panel de propiedades, active la opción **Agregar datos** y seleccione la función de agregado que desee.
-
->[!BEGINTABS]
-
->[!TAB Modelador de consultas clásico]
-
-![Captura de pantalla de la opción de datos agregados](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB Nuevo generador de reglas]
-
-![Captura de pantalla de la opción de datos agregados](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  La opción **[!UICONTROL Predeterminada]** está seleccionada de manera predeterminada. Use **[!UICONTROL Agregar]** cuando necesite contar o agregar registros de colección, o **[!UICONTROL Avanzado]** cuando necesite una unión directa a un atributo de colección.
 
 ### Selección de un público {#audiences}
 
