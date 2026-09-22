@@ -14,28 +14,32 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 10%
+source-wordcount: '932'
+ht-degree: 8%
 ---
 # Administración del proceso de aprobación {#campaign-approvals}
 
 >[!IMPORTANT]
 >
->Las aprobaciones solo están disponibles para las entregas creados dentro de una campaña. Esto no se aplica a los envíos independientes o a los envíos creados en flujos de trabajo fuera de un contexto de campaña.
+>Las aprobaciones solo están disponibles para campañas y envíos creados dentro de una campaña.
 
 El proceso de aprobación ayuda a coordinar varias partes interesadas y garantiza el control de calidad antes de realizar los envíos. Utilice aprobaciones cuando su organización requiera que equipos diferentes lo validen, como administradores de marketing que revisan contenido o analistas de datos que validan públicos destinatarios.
 
 Cuando las aprobaciones están habilitadas, debe enviar el contenido o el destino para la aprobación. Los revisores designados reciben notificaciones por correo electrónico que solicitan validación y pueden aprobarlas o rechazarlas directamente desde la interfaz de usuario web. No se pueden realizar envíos hasta que se hayan concedido todas las aprobaciones necesarias. Puede activar:
 
-* **Aprobación de contenido**: valide el contenido, el diseño y la personalización del mensaje
+* **Aprobación de contenido**: valide el contenido, el diseño y la personalización del mensaje. Puede añadir un paso de edición antes de la aprobación de contenido, gestionado por un operador designado, y un paso de aprobación para un revisor externo una vez que el contenido se haya aprobado internamente.
 * **Aprobación de destino**: valide la audiencia y los criterios de segmentación
+* **Aprobación de presupuesto**: valide el presupuesto del envío
+* **Inicio de la entrega**: restringir quién puede comenzar a enviar la entrega a un revisor específico
 * **Confirmación de envío**: se requiere una confirmación final antes de enviar
 
 ## Configuración de la aprobación {#configure-approvals}
 
-La configuración de aprobación se hereda de la plantilla de campaña y se puede modificar para campañas individuales. Siga estos pasos para configurar las opciones de aprobación:
+La configuración de aprobación se hereda de la plantilla de campaña y se puede modificar para campañas individuales. La misma sección **[!UICONTROL Aprobaciones]** también está disponible en la configuración de una entrega creada dentro de una campaña, lo que le permite anular la configuración de nivel de campaña solo para esa entrega.
+
+Siga estos pasos para configurar la aprobación en el nivel de campaña:
 
 1. Abra su campaña o plantilla de campaña o cree una nueva desde el menú **[!UICONTROL Campañas]**.
 
@@ -45,11 +49,22 @@ La configuración de aprobación se hereda de la plantilla de campaña y se pued
 
    ![Captura de pantalla que muestra la configuración de aprobación de la campaña](assets/approvals1.png){zoomable="yes"}
 
-   * **[!UICONTROL Habilitar aprobación de contenido]**: cuando está habilitado, el contenido de la entrega debe aprobarse antes de enviarlo. Haga clic en el icono de la carpeta en el campo **[!UICONTROL Revisor]** para seleccionar un operador o grupo de operadores.
+   >[!NOTE]
+   >
+   > Si decide habilitar una opción de aprobación, haga clic en el icono de carpeta en el campo **[!UICONTROL Revisor]** para seleccionar un operador o grupo de operadores.
 
-   * **[!UICONTROL Habilitar aprobación de destino]**: cuando está habilitada, la audiencia de destino de envío debe aprobarse. Haga clic en el icono de la carpeta en el campo **[!UICONTROL Revisor]** para seleccionar un operador o grupo de operadores.
+1. Configurar **[!UICONTROL aprobación de contenido]**: cuando está habilitado, el contenido de la entrega debe aprobarse antes de enviarse. Cuando esta opción está habilitada, se muestran dos campos:
 
-   * **[!UICONTROL Confirmar la entrega antes de enviarla]**: requiere una confirmación manual final antes de enviarla, incluso después de completar todas las demás aprobaciones.
+   * **[!UICONTROL Asignar edición de contenido]**: agrega un paso de edición antes de la aprobación de contenido. Se notifica a un operador designado, como un administrador web, que edite el contenido y, a continuación, lo pone a disposición para su aprobación.
+   * **[!UICONTROL Aprobación de contenido externo]**: agrega un paso de aprobación para un revisor externo, como un socio o proveedor, que valida la representación del envío (por ejemplo, la coherencia de la marca) una vez que el contenido se ha aprobado internamente.
+
+1. Defina la **[!UICONTROL aprobación de destino]**: cuando esté habilitada, la audiencia de destino de entrega debe aprobarse.
+
+1. Establezca **[!UICONTROL Budget approval]**: cuando esté habilitado, se debe aprobar el presupuesto de entrega. Esta opción requiere que ya se haya asignado un presupuesto a la campaña, que actualmente se realiza desde la consola del cliente.
+
+1. Establezca **[!UICONTROL Delivery start]**: restrinja el inicio de la entrega a un operador o grupo de operadores específico. Si un operador no autorizado intenta realizar la entrega, ve un error que indica que no está autorizado para realizar esta acción.
+
+1. Establezca **[!UICONTROL Confirmar la entrega antes de enviarla]**: requiere una confirmación manual final antes de enviarla, incluso después de completar todas las demás aprobaciones.
 
 >[!NOTE]
 >
@@ -61,13 +76,14 @@ La configuración de aprobación se hereda de la plantilla de campaña y se pued
 Después de crear la entrega, siga estos pasos para enviar contenido y destinatario para su aprobación.
 
 >[!NOTE]
->Las aprobaciones están disponibles tanto en los envíos del flujo de trabajo de la campaña como en los envíos independientes de la campaña.
+>
+>Las aprobaciones se aplican si la entrega se creó directamente en la campaña o a través de un flujo de trabajo de la campaña.
 
 1. En el panel de envío, haga clic en el botón **[!UICONTROL Enviar contenido]**. Los revisores designados pueden aprobarlo o rechazarlo. Consulte esta [sección](#approve-reject).
 
    ![Captura de pantalla que muestra el botón Enviar contenido](assets/approvals2.png){zoomable="yes"}
 
-   El estado de aprobación cambia a pendiente en la sección **[!UICONTROL Properties]** del panel de envío. Consulte esta [sección](#rack-approvals).
+   El estado de aprobación cambia a pendiente en la sección **[!UICONTROL Properties]** del panel de envío. Consulte esta [sección](#track-approvals).
 
 1. Una vez aprobado el contenido, haga clic en el botón **[!UICONTROL Preparar]** para preparar el objetivo de la entrega. El sistema prepara la audiencia y los criterios de segmentación.
 
@@ -75,16 +91,18 @@ Después de crear la entrega, siga estos pasos para enviar contenido y destinata
 
    ![Captura de pantalla que muestra el botón Enviar destino](assets/approvals5.png){zoomable="yes"}
 
-   El estado de aprobación cambia a pending. Consulte esta [sección](#rack-approvals).
+   El estado de aprobación cambia a pending. Consulte esta [sección](#track-approvals).
 
-1. Una vez aprobado el objetivo, la preparación se reanuda y se puede realizar el envío.
+1. Si la aprobación del presupuesto está habilitada, envíe el presupuesto para su aprobación siguiendo el mismo principio. Los revisores designados pueden aprobarlo o rechazarlo. Consulte esta [sección](#approve-reject).
+
+1. Una vez aprobado el objetivo y, si procede, el presupuesto, la preparación se reanuda y se puede realizar la entrega.
 
 >[!NOTE]
 >Si se rechaza una aprobación, el propietario de la entrega debe realizar todos los cambios necesarios en el contenido o el destino según los comentarios del revisor y volver a enviar para su aprobación.
 
 ## Aprobar o rechazar {#approve-reject}
 
-Los revisores designados pueden aprobar o rechazar el contenido y los envíos de destino. Consulte esta [sección](#submit-approval).
+Los revisores designados pueden aprobar o rechazar envíos de contenido, objetivos y presupuestos. Consulte esta [sección](#submit-approval).
 
 >[!NOTE]
 >Para que se envíe la notificación por correo electrónico, la dirección del revisor debe configurarse en la instancia de.
@@ -93,7 +111,7 @@ Los revisores designados pueden aprobar o rechazar el contenido y los envíos de
 
 1. Revise el contenido o la información de destino.
 
-1. Haga clic en el botón **[!UICONTROL Aprobar contenido]** o **[!UICONTROL Aprobar destino]**.
+1. Haga clic en el botón **[!UICONTROL Aprobar contenido]**, **[!UICONTROL Aprobar destino]** o **[!UICONTROL Aprobar presupuesto]**.
 
    ![Captura de pantalla que muestra el botón Aprobar contenido en el panel de envío](assets/approvals3.png){zoomable="yes"}
 
@@ -103,7 +121,7 @@ Los revisores designados pueden aprobar o rechazar el contenido y los envíos de
 
    ![Captura de pantalla que muestra el diálogo de aprobación con los botones Aprobar, Rechazar y el campo Comentario](assets/approvals4.png){zoomable="yes"}
 
-1. Confirme su decisión. El estado de aprobación se actualiza inmediatamente en el panel de envío. Consulte esta [sección](#rack-approvals).
+1. Confirme su decisión. El estado de aprobación se actualiza inmediatamente en el panel de envío. Consulte esta [sección](#track-approvals).
 
 ## Seguimiento del estado de aprobación {#track-approvals}
 

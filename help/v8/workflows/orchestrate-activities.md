@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 10%
+source-wordcount: '1791'
+ht-degree: 9%
 ---
 # Organización de actividades {#orchestrate}
 
@@ -48,6 +48,12 @@ La barra de herramientas, situada en la esquina superior derecha del lienzo, pro
 * **Mostrar mapa**: abre una instantánea del lienzo que muestra tu ubicación.
 
 ![Opciones de la barra de herramientas para lienzo de flujo de trabajo](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## Guarde o descarte los cambios {#save-cancel}
+
+Utilice el botón **[!UICONTROL Guardar]** de la parte superior de la pantalla para guardar los cambios realizados en el flujo de trabajo.
+
+Tan pronto como realice un cambio, también estará disponible un botón **[!UICONTROL Cancelar]** junto a **[!UICONTROL Guardar]**. Haga clic en él para descartar todos los cambios no guardados y restaurar el flujo de trabajo a la última versión guardada. Dado que esta acción no se puede deshacer, se muestra un mensaje de confirmación antes de que se descarten los cambios.
 
 ## Administrar actividades {#manage}
 

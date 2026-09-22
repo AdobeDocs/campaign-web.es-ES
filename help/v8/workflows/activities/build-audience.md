@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 52%
+source-wordcount: '528'
+ht-degree: 50%
 ---
 # Generar público destinatario {#build-audience}
 
@@ -58,11 +58,11 @@ Siga estos pasos para configurar la actividad **Generar público destinatario**:
 Para crear su propia consulta, siga estos pasos:
 
 1. Seleccione **Crear su propia (consulta)**.
-1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el objetivo se selecciona en los destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#targeting)
+1. Elija la **Dimensión de segmentación**. La dimensión de segmentación permite definir la población objetivo de la operación, como destinatarios, beneficiarios de contratos, operadores o suscriptores. De forma predeterminada, el objetivo es la dimensión de destinatarios. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#targeting)
 1. Seleccione la **dimensión de filtrado** haciendo clic en el icono situado junto a la dimensión de segmentación. La dimensión de filtrado permite aplicar filtros a la población objetivo haciendo referencia a criterios relacionados sin cambiar la dimensión de segmentación principal. [Más información sobre las dimensiones de segmentación](../../audience/targeting-dimensions.md#filtering)
 1. Haga clic en **Continuar**.
 1. Utilice el modelador de consultas para definir la consulta, del mismo modo que crea una audiencia al diseñar un nuevo correo electrónico. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md)
-1. Utilice la sección **Datos de enriquecimiento** para mejorar los datos de destino con información adicional de la base de datos, por ejemplo, referencias de contratos o suscripciones a boletines. Esos datos se almacenan con la audiencia en el flujo de trabajo **tabla de trabajo** y están disponibles para las actividades siguientes. Puede añadir atributos de enriquecimiento únicos, vínculos de colección o expresiones y acceder a las opciones avanzadas. Para ver ejemplos y pasos detallados, consulte [Agregar datos de enriquecimiento](enrichment.md#enrichment-add).
+1. Utilice la sección **Datos de enriquecimiento** para mejorar los datos de destino con información adicional de la base de datos, por ejemplo, referencias de contratos o suscripciones a boletines. Esos datos se almacenan con la audiencia en el flujo de trabajo **tabla de trabajo** y están disponibles para las actividades siguientes. Puede agregar atributos de enriquecimiento únicos, vínculos de colección, expresiones o campos de una base de datos externa y acceder a las opciones avanzadas. Para ver ejemplos y pasos detallados, consulte [Agregar datos de enriquecimiento](enrichment.md#enrichment-add) y [Enriquecer con datos de base de datos externos](enrichment.md#external-data).
 
 >[!TAB Leer público]
 

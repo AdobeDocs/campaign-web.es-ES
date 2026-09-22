@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 26%
+source-wordcount: '1012'
+ht-degree: 18%
 ---
 # Importación de un público de correo electrónico desde un archivo {#audience-from-file}
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
 La interfaz de usuario web de Adobe Campaign permite segmentar perfiles almacenados en un archivo externo. Una vez cargados los perfiles, todos los campos del archivo de entrada están disponibles para su uso para personalizar la entrega [Aprenda a personalizar el contenido](../personalization/personalize.md).
 
-Los perfiles del archivo de entrada no se agregan a la base de datos. Se cargan y están disponibles únicamente para este envío de correo electrónico independiente específico.
+Puede elegir cargar únicamente perfiles para este envío de correo electrónico independiente específico, sin añadirlos a la base de datos, o importarlos y reconciliarlos en la base de datos. [Más información](#upload).
 
 >[!NOTE]
 >
@@ -66,7 +66,61 @@ Para segmentar perfiles a partir de un archivo en los correos electrónicos, sig
    ![Captura de pantalla que muestra la vista previa de asignación de datos en la sección central](assets/select-from-file-map.png)
 
 1. Especifique la columna que contiene la dirección de correo electrónico de la lista desplegable **Campo de dirección**. También puede seleccionar la columna de lista de bloqueados de la si dispone de dicha información en el archivo de entrada.
-1. Ajuste la configuración de columna y defina cómo dar formato a los datos mediante las opciones disponibles.
+1. En la sección **[!UICONTROL Columnas]**, expanda una columna para ajustar su configuración y definir cómo dar formato a los datos mediante las opciones disponibles. Para cada columna que desee usar para la reconciliación, use **[!UICONTROL Seleccionar campo de destino]** para asignarlo a un atributo de esquema de destinatario.
+
+1. Use el modificador **[!UICONTROL Do not import the recipients into the database]** para controlar si los perfiles del archivo se importan y se reconcilian en la base de datos. Si decide importarlos, aparecerá la sección **[!UICONTROL Asignación de campos y reconciliación]**. Configure los siguientes parámetros:
+
+   ![Captura de pantalla que muestra la vista previa de asignación de datos en la sección central](assets/select-from-file-map2.png)
+
+   +++**[!UICONTROL Operación]**
+
+   Elija la acción que se realizará en la base de datos:
+
+   * **[!UICONTROL Actualizar o insertar]**: actualiza el registro si existe en la base de datos y lo crea en caso contrario.
+   * **[!UICONTROL Insertar]**: inserta registros en la base de datos.
+   * **[!UICONTROL Actualización]**: actualiza solo los registros existentes.
+   * **[!UICONTROL Solo reconciliación]**: busca el registro en la base de datos, pero no realiza ninguna actualización.
+   * **[!UICONTROL Eliminar]**: elimina registros de la base de datos.
+
+   +++
+
+   +++**[!UICONTROL Administración de duplicados]**
+
+   Elija cómo gestionar un registro que existe tanto en el archivo como en la base de datos:
+
+   * **[!UICONTROL Actualización]** (predeterminada): actualiza el registro.
+   * **[!UICONTROL Rechazar entidad]**: la excluye y registra un error.
+   * **[!UICONTROL Ignorar]**: lo excluye sin mantener un seguimiento.
+
+   +++
+
+   +++**[!UICONTROL Administración de dobles]**
+
+   Elija cómo gestionar un registro que aparece más de una vez en el propio archivo:
+
+   * **[!UICONTROL Actualización]** (predeterminada): no anula la duplicación; el último registro coincidente tiene prioridad.
+   * **[!UICONTROL Rechazar entidad]**: excluye los registros adicionales y registra un error.
+   * **[!UICONTROL Ignorar]**: excluye los registros adicionales sin mantener un seguimiento.
+
+   +++
+
+   +++**[!UICONTROL Tipo de rechazo]**
+
+   Elija cómo gestionar un error de nivel de campo durante la reconciliación:
+
+   * **[!UICONTROL Ignorar y registrar una advertencia]**: importa todos los demás campos y registra el error.
+   * **[!UICONTROL Rechazar elemento principal]**: rechaza todo el registro.
+   * **[!UICONTROL Rechazar todos los elementos]**: detiene la importación y rechaza todo.
+
+   +++
+
+   +++**[!UICONTROL Campos de clave de reconciliación]**
+
+   En la sección **[!UICONTROL Columnas]** ha asignado algunas columnas a un campo de destino. Aquí, seleccione cuál de esos campos asignados debe utilizarse para identificar un registro.
+
+   +++
+
+1. En la sección **[!UICONTROL Formatting]**, especifique la codificación, el delimitador de cadena y el separador de columnas que utiliza el archivo.
 1. Haga clic en **Confirmar** una vez que la configuración sea correcta.
 
 Al crear el contenido del mensaje, agregue personalización aprovechando los campos del archivo de entrada. [Obtenga información sobre cómo personalizar el contenido](../personalization/personalize.md)
@@ -86,14 +140,12 @@ Al cargar un archivo externo para segmentar perfiles en los envíos, asegúrese 
 * La primera línea del archivo es el encabezado de columna.
 * Alinee el formato del archivo con el archivo de ejemplo siguiente:
 
-  ```javascript
-  {
+  ```
   lastname,firstname,city,birthdate,email,denylist
   Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
   Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
   Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
   Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-  }
   ```
 
 ## Previsualización y prueba del correo electrónico {#test}

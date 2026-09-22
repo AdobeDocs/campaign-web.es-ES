@@ -13,10 +13,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 32%
+source-wordcount: '2702'
+ht-degree: 28%
 ---
 # Enriquecimiento {#enrichment}
 
@@ -38,6 +38,8 @@ Los datos de enriquecimiento pueden provenir de:
 
 * **Otra tabla de trabajo**:
   * Dirija la actividad a un grupo de clientes y añada los campos &quot;Cantidad&quot; y &quot;Tipo de producto&quot; desde la tabla &quot;Compra&quot;.
+
+* **Una base de datos externa**: agregue campos de una tabla almacenada en una base de datos externa. [Más información](#external-data).
 
 Una vez añadidos los datos de enriquecimiento al flujo de trabajo, se pueden utilizar en actividades posteriores para segmentar a los clientes en grupos distintos según sus comportamientos, preferencias y necesidades. También se puede utilizar para crear mensajes de marketing personalizados y campañas que interesen a la audiencia objetivo.
 
@@ -142,6 +144,42 @@ Para crear un vínculo, siga estos pasos:
    * **Unión avanzada**: cree una unión con condiciones avanzadas. Haga clic en **Agregar unión** y haga clic en el botón **Crear condición** para abrir el modelador de consultas.
 
 Hay disponible un ejemplo de flujo de trabajo con vínculos en la sección [Ejemplos](#link-example).
+
+## Enriquecimiento con datos de bases de datos externas {#external-data}
+
+Las actividades **Enrichment** y **Build audience** (query type) permiten agregar campos de una tabla almacenada en una base de datos externa, mediante una cuenta externa de **[!UICONTROL Acceso de datos federado (FDA)]**. [Aprenda a configurar una cuenta externa](../../administration/create-external-account.md).
+
+>[!NOTE]
+>
+>Solo hay disponible una unión simple para reconciliar campos de base de datos externos. Las condiciones de unión avanzadas no son compatibles con este tipo de enriquecimiento.
+
+Para añadir campos de base de datos externos, siga estos pasos:
+
+1. En la sección **[!UICONTROL Datos de enriquecimiento]** del panel de actividad, haga clic en **[!UICONTROL Agregar campo de base de datos externo]**.
+1. Seleccione la cuenta externa de FDA que desea utilizar y, a continuación, busque o introduzca el nombre de la tabla que desee utilizar.
+1. Seleccione las columnas que necesita y haga clic en **Agregar**.
+
+   ![Captura de pantalla que muestra el botón de base de datos externa](../assets/workflow-enrichment8.png)
+
+1. En la sección **[!UICONTROL Criterios de reconciliación]**, defina el atributo **[!UICONTROL Source]** y la columna externa **[!UICONTROL Destination]** para reconciliar los datos. Puede agregar varias uniones haciendo clic en **[!UICONTROL Agregar unión]**.
+
+1. En el menú desplegable **[!UICONTROL Datos recopilados]**, elija cómo se recopilan las filas coincidentes:
+
+   * **[!UICONTROL Recopilar todas las filas]**: recupera todas las filas coincidentes.
+   * **[!UICONTROL Limitar el número de filas]**: recupera hasta un número de filas que usted defina. Activar **[!UICONTROL Habilitar ordenación]** para definir el orden usado para decidir qué filas se conservan.
+   * **[!UICONTROL Una fila (experto)]**: optimiza la consulta suponiendo que una sola fila coincide. Si esta suposición no es correcta, el resultado puede ser erróneo (falta de datos o duplicados).
+   * **[!UICONTROL Filas agregadas]**: utilice esta opción cuando las columnas recopiladas ya contengan valores agregados, como un recuento o un promedio.
+   * **[!UICONTROL Combinar]**: combina las filas coincidentes en un solo resultado.
+
+   >[!NOTE]
+   >
+   >Para las opciones **[!UICONTROL Limit the number of rows]** and **[!UICONTROL Merge]**, puede activar **[!UICONTROL Habilitar la ordenación]** para definir el orden utilizado para decidir qué filas se conservan o definir el orden de combinación.
+
+1. Si lo desea, haga clic en **[!UICONTROL Crear filtro]** para filtrar los datos externos mediante el modelador de consultas. [Aprenda a trabajar con el modelador de consultas](../../query/query-modeler-overview.md).
+
+   ![Captura de pantalla que muestra la configuración de base de datos externa](../assets/workflow-enrichment8.png)
+
+Los campos añadidos se etiquetan con el nombre de la actividad y el nombre de la tabla.
 
 ## Reconciliación de datos {#reconciliation}
 
