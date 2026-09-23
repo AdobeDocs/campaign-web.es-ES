@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 39%
+source-wordcount: '574'
+ht-degree: 38%
 ---
 # Creación de una entrega de SMS {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 >abstract="Seleccione una plantilla predefinida para iniciar el envío del SMS. Las plantillas de envío permiten reutilizar fácilmente el contenido y la configuración personalizados en sus campañas y envíos."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=es" text="Uso de plantillas de envíos"
 
-Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes explican el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se explican en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+Puede crear una entrega de SMS independiente o crear un SMS en el contexto de un flujo de trabajo de la campaña. Los pasos siguientes explican el procedimiento para un envío de SMS independiente (único). Si está trabajando en el contexto de un flujo de trabajo de campaña, los pasos de creación se explican en [esta sección](../workflows/activities/channels.md#create-a-delivery-in-a-workflow).
 
 Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
@@ -55,6 +55,8 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL Seleccionar público]** para dirigirse a un público destinatario existente o crear el suyo propio. [Más información sobre las audiencias](../audience/about-recipients.md).
 
+   Además de la asignación de destino predeterminada **[!UICONTROL Destinatarios]**, los envíos SMS también pueden dirigirse a **[!UICONTROL Visitantes]** o **[!UICONTROL Suscripciones de visitantes]**. [Más información sobre las dimensiones de segmentación](../audience/targeting-dimensions.md#targeting).
+
    ![Captura de pantalla que muestra el botón Seleccionar audiencia](assets/sms_create_2.png){zoomable="yes"}
 
    Aprenda a seleccionar una audiencia existente en [esta página](../audience/add-audience.md).
@@ -71,7 +73,7 @@ Para crear un nuevo envío de SMS independiente, siga estos pasos:
 
    Desde esta pantalla, también puedes [simular tu contenido](../preview-test/preview-test.md) y [configurar ofertas](../msg/offers.md).
 
-1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas que defina para el destinatario. Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-deliveries.md#gs-schedule).
+1. Para programar su envío a una fecha y hora específicas, active la opción **[!UICONTROL Habilitar programación]**. Después de iniciar la entrega, el mensaje se envía automáticamente en la fecha y hora exactas que defina para el destinatario. Obtenga más información acerca de la programación de entregas en [esta sección](../msg/create-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >

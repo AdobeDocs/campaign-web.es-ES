@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 12%
@@ -69,7 +69,7 @@ El envío de pruebas es crucial para garantizar la calidad y la eficacia de su e
 
    ![Envío de SMS](assets/sms_send_5.png){zoomable="yes"}
 
-   Si la entrega de SMS está programada, haga clic en el botón **[!UICONTROL Enviar como programado]**. Obtenga más información acerca de la programación de entregas en [esta sección](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Si la entrega de SMS está programada, haga clic en el botón **[!UICONTROL Enviar como programado]**. Obtenga más información acerca de la programación de entregas en [esta sección](../msg/create-deliveries.md#gs-schedule).
 
 1. Confirme la acción de envío haciendo clic en el botón **[!UICONTROL Enviar]**.
 

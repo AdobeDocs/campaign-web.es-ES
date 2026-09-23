@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 3%
@@ -92,7 +92,7 @@ Un mensaje de vídeo permite enviar un vídeo a los destinatarios.
 
 1. Después de definir el contenido, haga clic en **Guardar** y luego haga clic en el icono Atrás para volver a la pantalla de configuración de la entrega.
 
-1. Habilitar **[!UICONTROL Habilitar la programación]** para enviar en una fecha y hora específicas. [Más información](../msg/gs-deliveries.md#gs-schedule).
+1. Habilitar **[!UICONTROL Habilitar la programación]** para enviar en una fecha y hora específicas. [Más información](../msg/create-deliveries.md#gs-schedule).
 
    ![Programación de mensajes de línea](assets/line-message9.png)
 

@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 15%
@@ -43,14 +43,14 @@ Utilice otras asignaciones de destino integradas en flujos de trabajo y envíos,
 | Name | Usar para enviar a | Esquema |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | Recipients | Perfiles/destinatarios (tabla de destinatarios integrada) | nms:recipient |
-| Visitantes | Visitantes cuyos perfiles se recopilaron mediante recomendación (marketing viral para ex) | mns:visitor |
+| Visitantes | Visitantes cuyos perfiles se recopilaron mediante recomendación (marketing viral para ex) | nms:visitor |
 | Suscripciones | Perfiles suscritos a un servicio informativo, como un boletín informativo | nms:subscription |
 | Suscripciones de visitantes | Visitantes suscritos a un servicio informativo | nms:visitorSub |
 | Operadores | Operadores de Adobe Campaign | nms:operator |
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 | Aplicaciones del suscriptor | Perfiles suscritos a una aplicación | nms:appSubscriptionRcp |
 
-Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es#new-mapping){target="_blank"}.
+Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
 
 ## Filtrado de dimensiones {#filtering}
 

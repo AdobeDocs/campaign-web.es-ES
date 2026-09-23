@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _22 de septiembre de 2026_
 
 ### Mejoras {#26-9-improvements}
 
-* **Acceso de navegación lateral**: Los administradores ahora pueden ocultar entradas de menú específicas de la navegación lateral. [Más información](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **Tipos de aprobación adicionales**: Ahora puede requerir aprobaciones de presupuesto y de inicio de entrega para los envíos de Campaign, además de aprobaciones de contenido y de destino. [Más información](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Acceso de navegación lateral**: Los administradores ahora pueden ocultar entradas de menú específicas de la navegación lateral. [Más información](../administration/schemas-browse-access.md#screen-def)
+* **Tipos de aprobación adicionales**: Ahora puede requerir aprobaciones de presupuesto y de inicio de entrega para los envíos de Campaign, además de aprobaciones de contenido y de destino. [Más información](../campaigns/campaign-approvals.md#configure-approvals)
 * **Segmentación de SMS basada en visitantes**: La asignación de destino de visitante ya está disponible para los envíos de SMS. [Más información](../sms/create-sms.md)
-* **Botón Cancelar del flujo de trabajo**: Un nuevo botón **Cancelar** le permite revertir los cambios no guardados en un flujo de trabajo. [Más información](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **Anulación de duplicación con varios valores**: La opción **Siguiendo una lista de valores** ahora admite varios atributos. [Más información](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **Asignación de destino móvil**: Ahora puede crear asignaciones de destino para destinos de aplicaciones móviles. [Más información](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Botón Cancelar del flujo de trabajo**: Un nuevo botón **Cancelar** le permite revertir los cambios no guardados en un flujo de trabajo. [Más información](../workflows/orchestrate-activities.md#save-cancel)
+* **Anulación de duplicación con varios valores**: La opción **Siguiendo una lista de valores** ahora admite varios atributos. [Más información](../workflows/activities/deduplication.md#deduplication-configuration)
+* **Asignación de destino móvil**: Ahora puede crear asignaciones de destino para destinos de aplicaciones móviles. [Más información](../administration/target-mappings.md#create-mapping)
 * **Enriquecimiento de la base de datos externa**: Ahora puede enriquecer datos de una base de datos externa en la actividad **Enrichment** o **Build audience**. [Más información](../workflows/activities/enrichment.md#external-data)
-* **Reconciliación de audiencias de archivo**: ahora puede configurar si desea importar destinatarios a la base de datos al segmentar una audiencia desde un archivo. [Más información](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **Uniones directas en colecciones**: Al seleccionar un atributo directamente de una colección, ahora puede elegir cómo se crea la condición: mediante la opción predeterminada recomendada, una función de agregado o una unión directa avanzada. [Más información](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **Reconciliación de audiencias de archivo**: ahora puede configurar si desea importar destinatarios a la base de datos al segmentar una audiencia desde un archivo. [Más información](../audience/file-audience.md#upload)
+* **Uniones directas en colecciones**: Al seleccionar un atributo directamente de una colección, ahora puede elegir cómo se crea la condición: mediante la opción predeterminada recomendada, una función de agregado o una unión directa avanzada. [Más información](../query/build-query.md#links)
 
