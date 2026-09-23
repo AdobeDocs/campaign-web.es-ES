@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # Notas de la versión {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Las versiones de la interfaz de usuario web de Adobe Campaign funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
-## Versión de agosto de 2026 {#26-8-release}
+## Versión de septiembre de 2026 {#26-9-release}
 
-_18 de agosto de 2026_
+_22 de septiembre de 2026_
 
-### Nuevas funciones {#26-8-features}
+### Nuevas funciones {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Actividad del flujo de trabajo de aprobación</strong><br/></th>
+<th><strong>Canal LINE</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La actividad del flujo de trabajo <strong>Aprobación</strong>, que antes solo estaba disponible en la consola del cliente, ahora está disponible en la interfaz de usuario web de Campaign. Asigne la tarea a un grupo o a un operador individual, personalice el título y el mensaje de la notificación, y defina las posibles respuestas (por ejemplo, Sí/No) como ramas de salida.</p>
-<p>Para obtener más información, consulte la <a href="../workflows/activities/approval.md">documentación detallada</a>.</p>
+<p>Adobe Campaign ahora es compatible con el canal <strong>LINE</strong>, una popular aplicación de mensajería instantánea. Cree y envíe mensajes de LINE mediante contenido de texto, imagen o vídeo, en envíos independientes o en flujos de trabajo, junto con sus otros canales. <a href="../line/get-started-line.md">Más información</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Mejoras {#26-8-improvements}
+### Mejoras {#26-9-improvements}
 
-* **Abre el seguimiento**: ahora puede habilitar o deshabilitar el seguimiento abierto directamente desde la interfaz de usuario web de Campaign. Esto le ayuda a cumplir con la normativa de protección de datos. [Más información](../advanced-settings/delivery-settings.md#tracking-tab)
-* **Vista de lista de programas**: los programas ahora se enumeran en una vista dedicada, similar a la de campañas, envíos y flujos de trabajo. Puede examinar los programas existentes y crear programas nuevos directamente desde esta vista. [Más información](../administration/plans-programs.md#create-program)
-* **Configuración de esquema personalizado**: en la sección **Datos de la acción**, ahora puede no permitir la acción **Duplicar** en los registros de un esquema personalizado. [Más información](../administration/schemas-action-data.md#action-data)
-* **Filtros personalizados**: en el editor de esquemas, ahora puede restringir los valores disponibles en el selector para un filtro personalizado de tipo de vínculo mediante el nuevo cuadro de diálogo **Configuración de vínculos**. [Más información](../administration/schemas-custom-filters.md#settings)
-* **Validación de esquema**: ahora puede validar la estructura de un esquema directamente desde el editor de esquemas con el nuevo botón **Verificar**. [Más información](../administration/schemas-create-publish.md#create-new)
-* **Seguridad de carpetas**: las acciones disponibles sobre una carpeta ahora están regidas de manera coherente por los derechos del operador, que coinciden con el comportamiento de la consola del cliente. [Más información](../get-started/work-with-folders.md#about-folders).
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **Acceso de navegación lateral**: Los administradores ahora pueden ocultar entradas de menú específicas de la navegación lateral. [Más información](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **Tipos de aprobación adicionales**: Ahora puede requerir aprobaciones de presupuesto y de inicio de entrega para los envíos de Campaign, además de aprobaciones de contenido y de destino. [Más información](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **Segmentación de SMS basada en visitantes**: La asignación de destino de visitante ya está disponible para los envíos de SMS. [Más información](../sms/create-sms.md)
+* **Botón Cancelar del flujo de trabajo**: Un nuevo botón **Cancelar** le permite revertir los cambios no guardados en un flujo de trabajo. [Más información](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **Anulación de duplicación con varios valores**: La opción **Siguiendo una lista de valores** ahora admite varios atributos. [Más información](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **Asignación de destino móvil**: Ahora puede crear asignaciones de destino para destinos de aplicaciones móviles. [Más información](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **Enriquecimiento de la base de datos externa**: Ahora puede enriquecer datos de una base de datos externa en la actividad **Enrichment** o **Build audience**. [Más información](../workflows/activities/enrichment.md#external-data)
+* **Reconciliación de audiencias de archivo**: ahora puede configurar si desea importar destinatarios a la base de datos al segmentar una audiencia desde un archivo. [Más información](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **Uniones directas en colecciones**: Al seleccionar un atributo directamente de una colección, ahora puede elegir cómo se crea la condición: mediante la opción predeterminada recomendada, una función de agregado o una unión directa avanzada. [Más información](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 
