@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: 8dcbcd5729840b3e6dc7c0f10cddd8ecc98774b9
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 16%
