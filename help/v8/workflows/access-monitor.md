@@ -3,11 +3,15 @@ audience: end-user
 title: Creación de flujos de trabajo con la web de Adobe Campaign
 description: Aprenda a crear flujos de trabajo con la web de Adobe Campaign
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA
+TQID: 'https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5zexYOA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 16%

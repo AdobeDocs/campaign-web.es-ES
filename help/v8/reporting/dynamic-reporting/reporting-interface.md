@@ -4,7 +4,17 @@ description: Obtenga más información sobre la base de la interfaz de informes 
 level: Beginner
 audience: end-user
 exl-id: 9b5a8b5f-2258-4861-b5c2-feefef67ccb3
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 4%

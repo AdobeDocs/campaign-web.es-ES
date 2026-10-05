@@ -2,11 +2,15 @@
 title: Generar casos de uso de contenido
 description: Descubra, a través de casos de uso, cómo utilizar la IA para generar contenido
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
+TQID: 'https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 0%

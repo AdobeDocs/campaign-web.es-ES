@@ -3,11 +3,15 @@ audience: end-user
 title: Monitorización de los registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
+TQID: 'https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 54%
@@ -46,13 +50,13 @@ Se muestran todos los pasos, advertencias y errores de validación. Los iconos d
 * El icono amarillo indica un error de procesamiento no crítico.
 * El icono rojo indica un error crítico que impide realizar el envío. Deben corregirse los errores críticos para que se realice la entrega.
 
-![&#x200B; La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
+![ La pestaña Registros muestra los pasos de validación, las advertencias y los errores con iconos de colores que indican los tipos de mensajes.](assets/logs.png){zoomable="yes"}
 
 ## Entregas {#deliveries-tab}
 
 La pestaña **Envío de registros** muestra el historial de cada ocurrencia del envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 
-![&#x200B; pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
+![ pestaña Envíos que muestra un historial de mensajes enviados y sus estados.](assets/logs2.png){zoomable="yes"}
 
 ## Exclusiones {#exclusion-tab}
 

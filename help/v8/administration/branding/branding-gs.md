@@ -6,7 +6,20 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 24%
@@ -23,7 +36,7 @@ Los administradores técnicos pueden crear y administrar varias marcas directame
 
 Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
-1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [en esta página](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [en esta página](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -35,7 +48,7 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
 ## Nota sobre la compatibilidad {#compatibility-note}
 
-El nuevo modelo de promoción de marca centralizada no es compatible con la configuración de [promoción de marca heredada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=es#configuring-multibranding){target="_blank"} que se usaba anteriormente en la consola del cliente.
+El nuevo modelo de promoción de marca centralizada no es compatible con la configuración de [promoción de marca heredada](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} que se usaba anteriormente en la consola del cliente.
 
 En el método heredado, los clientes implementaron la promoción de la marca mediante la ampliación del formulario extAccount y el uso de la pestaña **Promoción de marca**.
 

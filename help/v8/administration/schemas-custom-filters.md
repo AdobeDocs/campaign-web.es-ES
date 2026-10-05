@@ -2,7 +2,14 @@
 title: Añadir filtros personalizados
 description: Obtenga información sobre cómo agregar filtros personalizados como campos de acceso rápido en el panel de filtros de una vista de lista.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%

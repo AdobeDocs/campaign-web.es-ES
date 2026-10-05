@@ -4,10 +4,14 @@ description: Obtenga información sobre cómo migrar la administración de acces
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
+TQID: 'https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -15,6 +19,8 @@ feature_v2:
     internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
     internal-label: REST API
@@ -32,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 3%
@@ -54,7 +60,7 @@ En Adobe Campaign Standard y Campaign v8 se utilizan los siguientes conceptos pa
 
 >[!IMPORTANT]
 >
->Las capacidades de estas funciones/derechos asignados pueden variar en la implementación, lo que podría causar problemas de autorización (por ejemplo, elevación de privilegios o interrupciones en la funcionalidad). Recomendamos a los usuarios que revisen estas asignaciones después de la transición para garantizar un control de acceso adecuado. [Más información sobre los permisos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>Las capacidades de estas funciones/derechos asignados pueden variar en la implementación, lo que podría causar problemas de autorización (por ejemplo, elevación de privilegios o interrupciones en la funcionalidad). Recomendamos a los usuarios que revisen estas asignaciones después de la transición para garantizar un control de acceso adecuado. [Más información sobre los permisos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 En la tabla siguiente se describe el método de migración para grupos de funciones de usuario al realizar la transición de Adobe Campaign Standard a Campaign v8. En Campaign Standard, se usa un **grupo de seguridad**, denominado **grupo de operadores** en Campaign v8, para asignar un conjunto de funciones a un usuario. Aunque algunos grupos de operadores/grupos de seguridad están disponibles de forma predeterminada, los usuarios pueden crear grupos nuevos o modificar los existentes si es necesario.
 
@@ -62,7 +68,7 @@ En la tabla siguiente se describe el método de migración para grupos de funcio
 |---------|----------|---------|
 | **Terminología**  | Grupo de seguridad | Grupo de operadores |
 
-Tanto en Adobe Campaign Standard como en Campaign v8, **los grupos de seguridad** y **los grupos de operadores** están asignados a perfiles de producto en Admin Console. Si desea asignar un **grupo de seguridad** o **grupo de operadores** a un usuario, puede vincular el **perfil de producto** correspondiente en Admin Console. Esta asociación se sincroniza cuando el usuario inicia sesión. [Más información sobre el perfil del producto](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Tanto en Adobe Campaign Standard como en Campaign v8, **los grupos de seguridad** y **los grupos de operadores** están asignados a perfiles de producto en Admin Console. Si desea asignar un **grupo de seguridad** o **grupo de operadores** a un usuario, puede vincular el **perfil de producto** correspondiente en Admin Console. Esta asociación se sincroniza cuando el usuario inicia sesión. [Más información sobre el perfil del producto](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Grupo de seguridad de Campaign Standard** | **Grupo de operadores de Campaign v8** |
 |----------|---------|

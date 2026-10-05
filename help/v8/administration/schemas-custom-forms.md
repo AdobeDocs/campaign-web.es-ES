@@ -2,7 +2,14 @@
 title: Trabajar con formularios personalizados
 description: Aprenda a crear, editar y administrar registros en esquemas personalizados mediante formularios de entrada de datos.
 exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%

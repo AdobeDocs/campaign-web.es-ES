@@ -3,17 +3,21 @@ keywords: Campaign Classic;inicio;temas populares
 description: Usuarios de Campaign Standard en transición a Campaign v8, obtengan información sobre cómo empezar.
 title: Guía de adopción de Adobe Campaign
 exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
-TQID: https://experienceleague.adobe.com/OYw8d-1Yp38vJ-T6TZ3k1-F4j3KMbGzycBQEzDkwSuo
+TQID: 'https://experienceleague.adobe.com/OYw8d-1Yp38vJ-T6TZ3k1-F4j3KMbGzycBQEzDkwSuo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 63%

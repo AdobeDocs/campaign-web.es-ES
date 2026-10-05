@@ -7,10 +7,20 @@ role: User
 level: Intermediate
 keywords: css, editor, resumen, correo electrónico
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-TQID: https://experienceleague.adobe.com/BYB8FsX9FSRtosbA6MLTIiHgsQPnH-0FtYzcHFcFJFU
+TQID: 'https://experienceleague.adobe.com/BYB8FsX9FSRtosbA6MLTIiHgsQPnH-0FtYzcHFcFJFU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +36,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 10%

@@ -8,17 +8,29 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-TQID: https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw
+TQID: 'https://experienceleague.adobe.com/FtwipSab9w2JtgU-BcdadJDoDhgyh-4-W90u2XHjKHw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
+  - id: d4adbfcb-4ec0-5691-b003-d940294aa34c
+    internal-label: Subscriptions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 10%
@@ -196,7 +208,7 @@ Puede configurar una página de aterrizaje de **[!UICONTROL Lista de bloqueados]
 
 1. Cuando [cree su página de aterrizaje](create-lp.md#create-landing-page), seleccione la plantilla **[!UICONTROL Incluir en la lista de bloqueados]** de la.
 
-1. Seleccione la página **&#x200B;**&#x200B;para editar su contenido.
+1. Seleccione la página **** para editar su contenido.
 
 1. Expanda la sección **[!UICONTROL Call to action]** y seleccione la opción **[!UICONTROL Actualizaciones adicionales]**.
 

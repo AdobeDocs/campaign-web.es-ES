@@ -3,11 +3,15 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Cambiar fuente de datos
 description: Aprenda a utilizar la actividad del flujo de trabajo Cambiar fuente de datos
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-TQID: https://experienceleague.adobe.com/fJB0PL8T0B6A8aIFuLp8prh6-l28GQACQT91YR8hrBo
+TQID: 'https://experienceleague.adobe.com/fJB0PL8T0B6A8aIFuLp8prh6-l28GQACQT91YR8hrBo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 13%
@@ -64,7 +68,7 @@ Siga estos pasos para configurar la actividad **Cambiar fuente de datos**:
 
      >[!AVAILABILITY]
      >
-     >La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es){target="_blank"}
+     >La configuración de Campaign y la conexión a sistemas externos están restringidas a usuarios avanzados y solo están disponibles desde la consola del cliente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 1. Configure el flujo de trabajo para que realice las operaciones deseadas utilizando la nueva fuente de datos.
 

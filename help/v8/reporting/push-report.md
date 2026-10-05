@@ -3,16 +3,20 @@ audience: end-user
 title: Informes de envío push
 description: Obtenga información sobre cómo acceder y utilizar los informes de envío push
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-TQID: https://experienceleague.adobe.com/guXWmt9-cw6X5O897TQ9iZR4e7QccWG9iI-OK6XEIDQ
+TQID: 'https://experienceleague.adobe.com/guXWmt9-cw6X5O897TQ9iZR4e7QccWG9iI-OK6XEIDQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 39%

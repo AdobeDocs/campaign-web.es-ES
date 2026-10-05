@@ -3,11 +3,15 @@ audience: end-user
 title: Trabajar con servicios de suscripción
 description: Obtenga información sobre cómo acceder, crear y administrar servicios de suscripción en Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-TQID: https://experienceleague.adobe.com/2LQ-qBQhvcL1tBbL3EvnNIAhYOHkgNQrhnwaj3wmGh8
+TQID: 'https://experienceleague.adobe.com/2LQ-qBQhvcL1tBbL3EvnNIAhYOHkgNQrhnwaj3wmGh8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 29%

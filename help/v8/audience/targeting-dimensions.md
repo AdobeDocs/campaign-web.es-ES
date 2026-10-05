@@ -2,17 +2,21 @@
 title: Establecimiento de objetivos y filtrado de dimensiones
 description: Obtenga más información acerca de las dimensiones de segmentación y filtrado en la IU web de Adobe Campaign
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
+TQID: 'https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 15%
@@ -50,7 +54,7 @@ Utilice otras asignaciones de destino integradas en flujos de trabajo y envíos,
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 | Aplicaciones del suscriptor | Perfiles suscritos a una aplicación | nms:appSubscriptionRcp |
 
-Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es#new-mapping){target="_blank"}.
+Además, cree nuevas asignaciones de destino basadas en necesidades específicas. Realice esta operación únicamente desde la consola del cliente. Obtenga más información en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
 
 ## Filtrado de dimensiones {#filtering}
 

@@ -3,11 +3,15 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Change dimension
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Cambiar dimensión
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-TQID: https://experienceleague.adobe.com/MTG93NcnNoBW6COrBfMkYSk1lSUx3k3Tg7QBvttWrio
+TQID: 'https://experienceleague.adobe.com/MTG93NcnNoBW6COrBfMkYSk1lSUx3k3Tg7QBvttWrio'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 25%

@@ -4,10 +4,14 @@ description: Aprenda a crear indicadores eficaces para la generación de conteni
 role: User
 level: Intermediate
 exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
-TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
+TQID: 'https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -28,7 +32,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2109'
 ht-degree: 0%
@@ -136,19 +140,19 @@ Estas solicitudes no son compatibles y deben gestionarse mediante otras herramie
 
 Antes de generar contenido, asegúrese de lo siguiente:
 
-&comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
+&amp;comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
 
-&check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
+&amp;check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
 
-&check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
+&amp;check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
 
-&check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
+&amp;check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
 
-&comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
+&amp;comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
 
-&comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
+&amp;comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
 
-&check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
+&amp;check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
 
 ## Escribir objetivos de marketing efectivos {#marketing-objectives}
 
@@ -158,11 +162,11 @@ Al diseñar los objetivos de marketing, asegúrese de que sean claros, procesabl
 
 **Ejemplos de buenos objetivos:**
 
-&check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
+&amp;check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
 
-&check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
+&amp;check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
 
-&check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
+&amp;check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
 
 **Ejemplos que se deben evitar:**
 
@@ -179,11 +183,11 @@ Use esta fórmula para escribir objetivos efectivos: **Acción + Producto/Servic
 
 **Ejemplos de buenos objetivos:**
 
-&check; &quot;Fomente las descargas de nuestra nueva aplicación móvil que ayude a los usuarios a seguir hábitos de vida sostenibles con recomendaciones personalizadas y respetuosas con el medio ambiente&quot;
+&amp;check; &quot;Fomente las descargas de nuestra nueva aplicación móvil que ayude a los usuarios a seguir hábitos de vida sostenibles con recomendaciones personalizadas y respetuosas con el medio ambiente&quot;
 
-&check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
+&amp;check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
 
-&check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
+&amp;check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
 
 **Ejemplos que se deben evitar:**
 

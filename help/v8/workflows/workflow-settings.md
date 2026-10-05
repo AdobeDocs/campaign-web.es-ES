@@ -3,11 +3,15 @@ audience: end-user
 title: Configuración del flujo de trabajo
 description: Obtenga información sobre cómo configurar los ajustes del flujo de trabajo con Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
+TQID: 'https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 28%

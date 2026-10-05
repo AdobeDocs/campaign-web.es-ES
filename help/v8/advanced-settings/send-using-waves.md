@@ -4,14 +4,21 @@ title: Envío mediante olas
 description: Obtenga más información sobre la configuración de envíos en Campaign Web
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-TQID: https://experienceleague.adobe.com/Pfhv5YT7hzeM-rEPpa0Brj0ir4PfB2IarnIsHhhPgcU
+TQID: 'https://experienceleague.adobe.com/Pfhv5YT7hzeM-rEPpa0Brj0ir4PfB2IarnIsHhhPgcU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 38%

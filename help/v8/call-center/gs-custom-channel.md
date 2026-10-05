@@ -3,14 +3,18 @@ audience: end-user
 title: Introducción a los canales personalizados
 description: Obtenga información sobre cómo crear y enviar envíos de canales personalizados con Adobe Campaign Web
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
+TQID: 'https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 3%
@@ -37,11 +41,11 @@ Para realizar un nuevo envío personalizado independiente, siga estos pasos prin
 
 En primer lugar, debe configurar el canal personalizado. Estos son los pasos principales que se deben seguir en la consola del cliente. Estos pasos son comunes a los canales externos y API personalizados:
 
-1. Configure el esquema para añadir el nuevo canal a la lista de canales disponibles. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=es#configure-schema){target="_blank"}
-1. Cree una nueva cuenta externa de enrutamiento. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=es#create-ext-account){target="_blank"}
-1. Cree una nueva plantilla de envío asociada al nuevo canal. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=es#create-template){target="_blank"}
+1. Configure el esquema para añadir el nuevo canal a la lista de canales disponibles. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
+1. Cree una nueva cuenta externa de enrutamiento. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
+1. Cree una nueva plantilla de envío asociada al nuevo canal. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
 
-Los canales de API personalizados requieren una configuración adicional. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=es#api-additional){target="_blank"}
+Los canales de API personalizados requieren una configuración adicional. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
 
 ## Creación de la entrega{#create-delivery}
 
@@ -89,7 +93,7 @@ Ahora, vamos a editar el contenido del envío.
 
 1. En el panel de envío, haga clic en el botón **[!UICONTROL Editar contenido]**.
 
-1. Rellene los campos según sea necesario. Para aprender a configurar esta pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=es#api-additional-screen){target="_blank"}.
+1. Rellene los campos según sea necesario. Para aprender a configurar esta pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}.
 
    ![Captura de pantalla que muestra los atributos y las opciones de configuración para el canal API.](assets/cc-content-attributes-api.png)
 
@@ -117,7 +121,7 @@ Cuando el contenido de la entrega está listo, se puede obtener una vista previa
 
 1. En la página de contenido de la entrega, haga clic en el botón **[!UICONTROL Simular contenido]** y seleccione perfiles de prueba.
 
-1. En el lado derecho, haga clic en **Abrir vista previa**. Esta capacidad debe configurarse con JSSP. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=es#api-additional-preview){target="_blank"}.
+1. En el lado derecho, haga clic en **Abrir vista previa**. Esta capacidad debe configurarse con JSSP. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}.
 
    ![Captura de pantalla que muestra la opción de simular contenido en la página de entrega de contenido para la API](assets/cus-simulate-api.png){zoomable="yes"}
 
