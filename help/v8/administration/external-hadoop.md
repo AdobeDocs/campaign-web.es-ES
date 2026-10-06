@@ -2,14 +2,18 @@
 title: Administrar cuenta externa
 description: Obtenga información sobre cómo configurar cuentas externas de Hadoop
 exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
-TQID: https://experienceleague.adobe.com/cdc36G52XFAFGXD1JBAyeSIr06py47vZXh1ylx98nrk
+TQID: 'https://experienceleague.adobe.com/cdc36G52XFAFGXD1JBAyeSIr06py47vZXh1ylx98nrk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 5%

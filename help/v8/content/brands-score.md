@@ -3,17 +3,21 @@ audience: end-user
 title: Alineación de marca
 description: Aprenda a crear, validar y administrar contenido de marca mediante la puntuación de marca.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
-TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
+TQID: 'https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 4%

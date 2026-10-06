@@ -8,13 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-TQID: https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8
+TQID: 'https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: baf8e746-117b-5e73-b179-0a83edc0295f
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,7 +32,7 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 30%

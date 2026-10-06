@@ -3,7 +3,14 @@ audience: end-user
 title: Enriquecimiento de perfil en mensajes transaccionales
 description: Obtenga información sobre cómo crear un mensaje transaccional en la interfaz de usuario web de Campaign
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%

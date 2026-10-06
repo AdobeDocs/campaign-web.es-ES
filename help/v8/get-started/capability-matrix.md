@@ -3,10 +3,14 @@ audience: end-user
 title: Matriz de funciones de la interfaz de usuario web y consola de cliente de Campaign
 description: Lista de funciones admitidas en la interfaz de usuario web de Campaign
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-TQID: https://experienceleague.adobe.com/-7-B1Z-kUsbPoNU87RmyG6FUA0Cw5KGtyc4h2MZi-rY
+TQID: 'https://experienceleague.adobe.com/-7-B1Z-kUsbPoNU87RmyG6FUA0Cw5KGtyc4h2MZi-rY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -48,7 +52,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 100%
@@ -81,7 +85,7 @@ Utilice los vínculos proporcionados para examinar la documentación de la versi
 
 ## Canales de comunicación {#channels-capabilities}
 
-Con la interfaz web de Campaign, puede crear, diseñar y enviar **correos electrónicos**, **SMS**, **notificaciones push** y **correos directos**, además de medir su impacto utilizando varios informes específicos, tal como se detalla [en esta sección](../msg/gs-messages.md). Sin embargo, actualmente **no** están disponibles los siguientes canales: in-app, LINE, centro de llamadas/canal personalizado, marketing social con X (Twitter).
+Con la interfaz de usuario web de Campaign, puede crear, diseñar y enviar **correos electrónicos**, **SMS**, **notificaciones push** y **correos directos**, además de medir su impacto utilizando varios informes específicos, tal como se detalla [en esta sección](../msg/gs-messages.md). Sin embargo, actualmente **no** están disponibles los siguientes canales: in-app, LINE, centro de llamadas/canal personalizado, marketing social con X (Twitter).
 
 Utilice los vínculos proporcionados para examinar la documentación de la versión 8 de Campaign (consola de cliente) y obtener más información sobre estos canales.
 

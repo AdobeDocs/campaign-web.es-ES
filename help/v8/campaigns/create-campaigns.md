@@ -3,14 +3,18 @@ audience: end-user
 title: Creación de campañas con la web de Adobe Campaign
 description: Aprenda a crear campañas en canales múltiples con la web de Adobe Campaign
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-TQID: https://experienceleague.adobe.com/zc1QQ5042HqWicDXw6tJWcQ9T-INs3Fx4odaIXPlQcc
+TQID: 'https://experienceleague.adobe.com/zc1QQ5042HqWicDXw6tJWcQ9T-INs3Fx4odaIXPlQcc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 40%

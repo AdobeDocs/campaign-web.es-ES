@@ -4,7 +4,17 @@ description: Analice el éxito de sus campañas en informes dinámicos integrado
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 28%

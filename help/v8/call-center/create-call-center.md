@@ -3,11 +3,15 @@ audience: end-user
 title: Creación de una entrega de centro de llamadas
 description: Obtenga información sobre cómo crear una entrega de centro de llamadas con Adobe Campaign Web
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
+TQID: 'https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 4%

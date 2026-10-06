@@ -3,16 +3,20 @@ audience: end-user
 title: Uso de la actividad de flujo de trabajo Extraer archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Extraer archivo
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-TQID: https://experienceleague.adobe.com/gAN2-cZkP5QpQoZ-V5-TyAf-SyWi9l-sH-ZTeGbIAVM
+TQID: 'https://experienceleague.adobe.com/gAN2-cZkP5QpQoZ-V5-TyAf-SyWi9l-sH-ZTeGbIAVM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 17%

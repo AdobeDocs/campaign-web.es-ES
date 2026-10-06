@@ -3,11 +3,15 @@ audience: end-user
 title: Monitorización de los registros de envío
 description: Obtenga información sobre cómo monitorizar los registros de envío
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
+TQID: 'https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 54%

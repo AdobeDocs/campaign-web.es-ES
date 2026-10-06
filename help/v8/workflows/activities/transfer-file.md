@@ -3,16 +3,20 @@ audience: end-user
 title: Uso de la actividad Transferir archivo
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Transferir archivo
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-TQID: https://experienceleague.adobe.com/KUirsZa80G1TgwV8yjIqvxmSNG1MTQj1h0xVLywFa60
+TQID: 'https://experienceleague.adobe.com/KUirsZa80G1TgwV8yjIqvxmSNG1MTQj1h0xVLywFa60'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 30%

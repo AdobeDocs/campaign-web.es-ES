@@ -5,10 +5,14 @@ description: Aprenda a personalizar las directrices de marca
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
-TQID: https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4
+TQID: 'https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
@@ -20,7 +24,7 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 1%

@@ -3,14 +3,18 @@ audience: end-user
 title: Uso de la actividad Test workflow
 description: Descubra más información sobre cómo utilizar la actividad del flujo de trabajo Prueba
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-TQID: https://experienceleague.adobe.com/jnAhePpujy5tIqTwJEND6sogE5Qocgq7yFdml38wPgs
+TQID: 'https://experienceleague.adobe.com/jnAhePpujy5tIqTwJEND6sogE5Qocgq7yFdml38wPgs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 37%

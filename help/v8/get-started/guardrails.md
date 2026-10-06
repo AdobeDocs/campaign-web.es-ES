@@ -2,11 +2,15 @@
 title: Mecanismos de protección y limitaciones en los flujos de trabajo de la interfaz de usuario web de Campaign
 description: Mecanismos de protección y limitaciones al trabajar con flujos de trabajo en la interfaz de usuario web de Campaign
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
+TQID: 'https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%

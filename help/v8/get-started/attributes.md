@@ -3,14 +3,18 @@ audience: end-user
 title: Seleccionar atributos y añadirlos a favoritos
 description: Aprenda a trabajar con atributos y acceda fácilmente a los atributos favoritos y utilizados recientemente.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
+TQID: 'https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%

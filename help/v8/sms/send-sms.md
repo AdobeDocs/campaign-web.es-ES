@@ -3,14 +3,18 @@ audience: end-user
 title: Envío de SMS
 description: Obtenga información sobre cómo enviar SMS con Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-TQID: https://experienceleague.adobe.com/eIYGGNGkUw-wo4gXH98yQDlrFctGgW7jQSODv0BtkVI
+TQID: 'https://experienceleague.adobe.com/eIYGGNGkUw-wo4gXH98yQDlrFctGgW7jQSODv0BtkVI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 12%
