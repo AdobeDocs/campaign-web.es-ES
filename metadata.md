@@ -8,7 +8,7 @@ feature-set: Campaign
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
 type: Documentation
-git-repo: https://github.com/AdobeDocs/campaign-web.en
+git-repo: https://github.com/AdobeDocs/campaign-web.es-ES
 index: true
 nudge: true
 product_v2:
