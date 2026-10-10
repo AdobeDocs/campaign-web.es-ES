@@ -1,10 +1,6 @@
 ---
 cloud: Experience Cloud
 solution: Campaign, Campaign v8, Campaign v8 Web User Interface
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
-  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
 usetq: true
 version: Campaign v8 Web User Interface
 product: adobe campaign
@@ -15,13 +11,18 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign-web.es-ES
 index: true
 nudge: true
-source-git-commit: 52748048eb2c856744d37cf8f0fea08caf9d94f3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: c4223e48b60ce0c7699e488829cdf0fcd0a86c17
 workflow-type: tm+mt
-source-wordcount: 71
-ht-degree: 92%
-
+source-wordcount: '66'
+ht-degree: 100%
 ---
-
 
 # Metadatos para uso interno
 
