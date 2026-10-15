@@ -26,7 +26,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Señal externa"
->abstract="La actividad de **Señal externa** permite activar la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada de API."
+>abstract="La actividad de **Señal externa** permite activar la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada API."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"

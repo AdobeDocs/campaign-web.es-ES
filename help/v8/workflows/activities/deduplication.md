@@ -26,7 +26,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Actividad de deduplicación"
->abstract="La actividad **Deduplicación** elimina los duplicados de los resultados de las actividades entrantes. Se utiliza principalmente después de las actividades de segmentación y antes de las actividades que permiten el uso de datos segmentados. Cuando haya más de una transición entrante disponible, utilice la sección **Conjuntos que unir** para seleccionar qué transiciones conectar a la actividad."
+>abstract="La actividad **Deduplicación** elimina los duplicados de los resultados de las actividades entrantes. Se utiliza principalmente después de las actividades de segmentación y antes de las actividades que utilizan datos segmentados. Cuando haya más de una transición entrante disponible, utilice la sección **Conjuntos que unir** para seleccionar qué transiciones conectar a la actividad."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"

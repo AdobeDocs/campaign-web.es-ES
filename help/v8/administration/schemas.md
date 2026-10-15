@@ -66,4 +66,4 @@ La interfaz de esquemas permite:
 >
 >Debe tener derechos de administrador para administrar esquemas.
 
-Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+Encontrará información detallada sobre los esquemas en la [documentación de la consola de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
