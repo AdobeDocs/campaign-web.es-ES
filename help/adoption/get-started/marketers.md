@@ -233,7 +233,7 @@ Vínculos útiles:
 >
 >* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/cancelación de suscripción funcionan como en Campaign Standard.
 >
->Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](../../v8/administration/branding/branding-gs.md) en Adobe Campaign.
+>Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](../../v8/administration/branding/branding-gs.md) en Adobe Campaign.
 
 ### Envío de correo electrónico {#acs-gs-marketers-email}
 
@@ -427,11 +427,11 @@ Adobe Campaign ofrece tres informes diferentes:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="Validación" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>Informes de campaña</strong></a>
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>Informes de campaña</strong></a>
 </div>
 <p>
 <div>
@@ -440,10 +440,10 @@ Adobe Campaign ofrece tres informes diferentes:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="Posible cliente" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Informes de envío</strong>
+<div><a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Informes de envío</strong>
 </div>
 <p>
 <div>
@@ -452,11 +452,11 @@ Adobe Campaign ofrece tres informes diferentes:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="Informes globales" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong> Informes globales</strong></a>
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/reports/global-report/global-reports"><strong> Informes globales</strong></a>
 </div>
 <p>
 <div>

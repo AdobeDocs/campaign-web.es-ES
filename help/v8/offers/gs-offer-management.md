@@ -48,7 +48,7 @@ Antes de empezar a trabajar con ofertas, familiarícese con los objetos principa
 * **Catálogo de ofertas y categorías**: las ofertas se organizan en un catálogo jerárquico de **categorías** y subcategorías. Cada categoría puede compartir reglas de elegibilidad, fechas de validez y **temas de aplicación**. Se proporciona una categoría predeterminada en el entorno de diseño para recibir todas las ofertas.
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=es){target="_blank"}.
 -->
 
 * **Oferta**: una oferta individual con su propio período de elegibilidad, filtro de destinatario, peso y contenido. Las ofertas se aprueban e implementan antes de poder presentarse a los destinatarios. [Más información](create-offer.md)
@@ -86,11 +86,11 @@ Algunas funciones de oferta aún no se exponen en la interfaz de usuario web y d
 
 * **Simulación de oferta** — El módulo **Simulación** que le permite probar la distribución de ofertas antes de enviarlas. Ver [simulación de oferta](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=es#offer-simulation){target="_blank"}.
 
-* Administración de **filtros predefinidos**: reglas de filtro reutilizables a las que se puede hacer referencia desde cualquier oferta. Consulte [Administrar filtros predefinidos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}.
+* Administración de **filtros predefinidos**: reglas de filtro reutilizables a las que se puede hacer referencia desde cualquier oferta. Consulte [Administrar filtros predefinidos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=es){target="_blank"}.
 
 * **Seguimiento de ofertas** — Configurando el seguimiento para las propuestas de ofertas para alimentar el historial de propuestas. Ver [Seguimiento de propuestas de ofertas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=es){target="_blank"}.
 
-* **Funciones de operador** — Asignación de derechos de administrador de ofertas / administrador de entregas. Consulte [Operadores del módulo de interacción](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}.
+* **Funciones de operador** — Asignación de derechos de administrador de ofertas / administrador de entregas. Consulte [Operadores del módulo de interacción](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html?lang=es){target="_blank"}.
 
 * **Prácticas recomendadas de interacción y reglas de arbitraje**. Consulte [Prácticas recomendadas de interacción de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=es){target="_blank"}.
 

@@ -96,17 +96,17 @@ La consola del cliente de Campaign centraliza todas las funcionalidades y config
 
 ## Arquitectura de la versión 8 de Campaign {#acs-gs-admi-archi}
 
-La arquitectura de Campaign se detalla en la documentación de Campaign v8 (consola). Aprenda los conceptos básicos en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}.
+La arquitectura de Campaign se detalla en la documentación de Campaign v8 (consola). Aprenda los conceptos básicos en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}.
 
 Vínculo útil para empezar:
 
 * Los componentes de Adobe Campaign y la arquitectura global se describen en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
 
-* Consulte [Introducción a la arquitectura de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} para comprender la arquitectura de Campaign antes de comenzar a estructurar la instancia.
+* Consulte [Introducción a la arquitectura de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} para comprender la arquitectura de Campaign antes de comenzar a estructurar la instancia.
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* La mensajería transaccional (Centro de mensajes) es el módulo de Campaign v8 diseñado para administrar mensajes activados. Se basa en un modelo de arquitectura específico que se detalla en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
+* La mensajería transaccional (Centro de mensajes) es el módulo de Campaign v8 diseñado para administrar mensajes activados. Se basa en un modelo de arquitectura específico que se detalla en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}.
 
 ## Consola del cliente de Campaign {#acs-gs-console}
 
@@ -204,7 +204,7 @@ Obtenga más información en la [documentación de promoción de marca](../../v8
 
 Al igual que Campaign Standard, Adobe Campaign v8 viene con su modelo de datos predefinido. Adobe Campaign se basa en una base de datos en la nube que contiene tablas vinculadas entre sí. Obtenga más información en la [documentación del modelo de datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
-Un esquema es un documento XML asociado a una tabla de una base de datos. Define la estructura de datos y describe la definición SQL de la tabla. Consulte la [documentación de creación de esquemas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
+Un esquema es un documento XML asociado a una tabla de una base de datos. Define la estructura de datos y describe la definición SQL de la tabla. Consulte la [documentación de creación de esquemas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 Obtenga información sobre cómo crear un esquema y cómo ampliar uno existente en Campaign v8 en este vídeo:
 
@@ -212,17 +212,17 @@ Obtenga información sobre cómo crear un esquema y cómo ampliar uno existente 
 
 De forma similar a las capacidades disponibles en Campaign Standard, puede crear recursos personalizados. EN la versión 8 de Campaign, los recursos personalizados son **esquemas** personalizados o ampliados.
 
-* Aprenda a trabajar con el esquema en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+* Aprenda a trabajar con el esquema en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
-* Aprenda a ampliar un esquema existente en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
+* Aprenda a ampliar un esquema existente en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
 
-* Aprenda a crear un nuevo esquema en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}.
+* Aprenda a crear un nuevo esquema en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}.
 
-* Al crear o ampliar un esquema, debe crear o modificar los formularios de entrada asociados para que los usuarios finales puedan ver esos cambios. Un formulario de entrada permite editar una instancia asociada a un esquema de datos desde la consola del cliente de Adobe Campaign. El formulario se identifica con su nombre y área de nombres. Consulte la [documentación de creación de formularios de entrada](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}.
+* Al crear o ampliar un esquema, debe crear o modificar los formularios de entrada asociados para que los usuarios finales puedan ver esos cambios. Un formulario de entrada permite editar una instancia asociada a un esquema de datos desde la consola del cliente de Adobe Campaign. El formulario se identifica con su nombre y área de nombres. Consulte la [documentación de creación de formularios de entrada](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}.
 
 ## Flujos de trabajo y administración de datos {#acs-gs-admin-data-management}
 
-Al igual que con Adobe Campaign Standard, Adobe Campaign v8 incluye un módulo de flujo de trabajo que le permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos que incluyen la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos. Obtenga información sobre cómo iniciar flujos de trabajo en Campaign v8 en [esta documentación](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
+Al igual que con Adobe Campaign Standard, Adobe Campaign v8 incluye un módulo de flujo de trabajo que le permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos que incluyen la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos. Obtenga información sobre cómo iniciar flujos de trabajo en Campaign v8 en [esta documentación](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
 
 Consulte los vínculos a otros recursos útiles a continuación:
 
@@ -303,7 +303,7 @@ Como administrador, debe definir las configuraciones de canal. Consulte los vín
 * **Correo electrónico**: la configuración de correo electrónico se detalla en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
 * **SMS**: aprende a configurar tu canal SMS en [esta documentación](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 * **Notificaciones push**. Los pasos para configurar el canal de notificaciones push se detallan [en esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
-* **Mensajería transaccional**. Los pasos para configurar [Mensajería transaccional](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} en Campaign v8 se detallan [en esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **Mensajería transaccional**. Los pasos para configurar [Mensajería transaccional](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} en Campaign v8 se detallan [en esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### Cuentas externas {#acs-gs-ext-accounts}
 
@@ -372,7 +372,7 @@ En Campaign v8, las reglas de tipología incluyen un complemento de optimizació
 
 Todas las direcciones en cuarentena y las reglas de cuarentena se han migrado del entorno de Campaign Standard a Campaign v8. No se necesita ninguna acción específica para la administración de la cuarentena.
 
-Como administrador, familiarícese con la administración de cuarentena en Campaign v8 a partir de [esta página](../../v8/audience/quarantine.md). Consulte también la documentación detallada de la consola del cliente sobre la administración de cuarentena en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
+Como administrador, familiarícese con la administración de cuarentena en Campaign v8 a partir de [esta página](../../v8/audience/quarantine.md). Consulte también la documentación detallada de la consola del cliente sobre la administración de cuarentena en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
 
 
 ## Administración de integraciones de Adobe Campaign {#acs-gs-integrations}
