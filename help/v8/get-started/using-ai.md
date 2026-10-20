@@ -54,7 +54,7 @@ Campaign knowledge assistant embedded in the contextual help boxes uses AI. Your
 
 ## Privacy {#privacy-ai}
 
-Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/es/privacy/policy.html){target="_blank"}.
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 

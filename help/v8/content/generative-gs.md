@@ -82,7 +82,7 @@ Generar contenido simplifica la creación y ejecución de campañas de marketing
 >
 >* Antes de usar esta capacidad, revise las [protecciones y limitaciones](#generative-guardrails) relacionadas.
 >
->* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
 ## Acceder a Generar contenido {#generative-access}
 
@@ -115,7 +115,7 @@ A continuación, se enumeran las directrices generales para utilizar IA para gen
 * El tamaño máximo de los recursos de marca cargados es de 50 MB. Los archivos de mayor tamaño o las numerosas imágenes pueden aumentar el tiempo de procesamiento.
 * Use [plantillas de correo electrónico](../content/create-email-templates.md), plantillas específicas de la marca o plantillas personalizadas para crear el contenido de su correo electrónico mediante IA. Se recomiendan plantillas de correo electrónico con hasta 8-10 imágenes.
 * Informe de cualquier salida problemática mediante los iconos de miniaturas hacia arriba, miniaturas hacia abajo o indicadores al seleccionar variantes.
-* El uso de Generar contenido está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* El uso de Generar contenido está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Como parte del compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica Content Credentials cuando se descarga o exporta contenido o un proyecto que incluye un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html).
 
 Las siguientes limitaciones se aplican a Generar contenido en Adobe Campaign Web:

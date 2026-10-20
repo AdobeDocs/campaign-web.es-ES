@@ -28,7 +28,7 @@ ht-degree: 2%
 >Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
 Utilice IA en la web de Adobe Campaign para generar texto atractivo que resuene con la audiencia. Tanto si mejora la copia de correo electrónico, crea contenido de página de aterrizaje persuasivo, escribe mensajes de notificación push o redacta texto SMS, la IA le ayuda a proporcionar una comunicación clara e impactante.
 
