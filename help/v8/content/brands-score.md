@@ -26,7 +26,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar Generar contenido. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar el [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar Generar contenido. Para obtener más información, póngase en contacto con su representante Adobe.
 
 La función de revisión de contenido proporciona herramientas de evaluación completas para medir cómo se alinean las campañas con las directrices de marca y mantener los estándares de calidad de contenido en todas las comunicaciones:
 
