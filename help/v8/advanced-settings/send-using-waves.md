@@ -18,10 +18,10 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 38%
+source-wordcount: '846'
+ht-degree: 36%
 ---
 # Envío mediante olas {#send-using-waves}
 
@@ -61,6 +61,8 @@ Para realizar envíos mediante olas, siga los pasos a continuación.
    >Asegúrese de que las últimas olas no superen la fecha límite de entrega definida en la pestaña [Validez](delivery-settings.md#validity); de lo contrario, es posible que algunos mensajes no se envíen. Una regla de control de tipología específica, **[!UICONTROL Verificación de programación de ondas]**, garantiza que la última ola se programe antes del límite de validez de la entrega. Obtenga más información acerca de las reglas de control en la [documentación de Campaign v8 (consola de cliente)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=es).
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. [Más información](delivery-settings.md#retries)
+   >
+   >Las olas se programan desde la fecha de contacto de la entrega. Si la entrega se inicia después del tiempo planificado de algunas olas, esas olas se envían juntas en lugar de espaciarse.
 
 1. Para supervisar tus envíos, ve a [registros de envío](../monitor/delivery-logs.md). Se pueden ver los envíos que ya se han realizado en las olas procesadas (**[!UICONTROL Enviar]** estado) y las que se envían en las olas restantes (estado **[!UICONTROL Pendiente]**).
 
