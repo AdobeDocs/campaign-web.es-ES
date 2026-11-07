@@ -89,4 +89,4 @@ A continuación, se muestran algunos ejemplos sobre cómo acceder al editor de e
 
 Aprenda a hacer que el contenido del mensaje sea dinámico mediante el editor de expresiones para personalizar el mensaje o añadir contenido condicional.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505240?captions=spa&quality=12)
