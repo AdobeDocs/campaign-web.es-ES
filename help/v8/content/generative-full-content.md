@@ -217,4 +217,4 @@ Al definir el contenido, la audiencia y la programación, prepare su envío push
 
 Aprenda a utilizar IA para generar contenido, texto e imágenes completos de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505096?captions=spa)
