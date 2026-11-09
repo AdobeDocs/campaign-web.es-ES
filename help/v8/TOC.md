@@ -6,10 +6,10 @@ title: Documentación de Adobe Campaign Web
 description: Documentación de Campaign Web
 breadcrumb-title: Interfaz de usuario web de Adobe Campaign
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Documentación de Adobe Campaign web {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [Versiones de 2025](rn/release-notes-25.md)
     + [Versiones de 2024](rn/release-notes-24.md)
   + {hide-from-toc}[Actualizaciones de la documentación](rn/documentation-updates.md)
-+ Introducción a Adobe Campaign {#start}
++ Introducción {#start}
   + [Introducción](get-started/get-started.md)
   + [Conexión a Campaign](get-started/connect-to-campaign.md)
   + {hide-from-toc}[Descubra la interfaz](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [De Campaign Standard a v8](rn/acs-migration.md)
   + {hide-from-toc}[Ayuda contextual con tecnología de IA](get-started/using-ai.md)
   + [Preguntas frecuentes](get-started/faq.md)
-+ Mensajes y envíos {#msg}
++ Mensajes {#msg}
   + [Introducción a los mensajes](msg/gs-messages.md)
   + [Acceso a los envíos](msg/gs-deliveries.md)
   + [Creación de un envío](msg/create-deliveries.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
     + [Introducción a las alertas de envío](msg/delivery-alerting.md)
     + [Paneles de control de alertas de envío](msg/delivery-alerting-dashboards.md)
     + [Criterios de alertas de envío](msg/delivery-alerting-criteria.md)
-+ Administración de contenido {#content}
++ Contenido y personalización {#content}
   + Creación de contenido dinámico {#dynamic-content}
     + [¿Cómo hacer que su contenido sea dinámico?](personalization/gs-personalization.md)
     + [Adición de personalización](personalization/personalize.md)
@@ -148,18 +148,7 @@ ht-degree: 99%
       + [Personalice su marca](content/brands-personalize.md)
       + [Creación y administración de modelos generativos](content/generative-models.md)
       + [Evaluar el contenido](content/brands-score.md)
-+ Páginas de destino {#landing-pages}
-  + [Introducción a las páginas de destino](landing-pages/get-started-lp.md)
-  + [Creación y edición de una página de destino](landing-pages/create-lp.md)
-  + [Diseño del contenido de la página de destino](landing-pages/lp-content.md)
-  + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
-+ Gestión de ofertas {#offers}
-  + [Introducción a la gestión de ofertas](offers/gs-offer-management.md)
-  + [Revisar configuración del entorno de ofertas](offers/offer-environment.md)
-  + [Crear y administrar espacios de ofertas](offers/offer-space.md)
-  + [Crear y publicar una oferta](offers/create-offer.md)
-  + [Añadir una lista editable al esquema de ofertas](offers/offer-editable-list.md)
-+ Perfiles y públicos {#audiences}
++ Perfiles y audiencias {#audiences}
   + [Introducción a perfiles y públicos](audience/gs-audiences-recipients.md)
   + [Dimensiones de segmentación](audience/targeting-dimensions.md)
   + [Cuarentena](audience/quarantine.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + Trabajar con servicios de suscripción {#work-with-services}
     + [Crear y administrar servicios de suscripción](audience/manage-services.md)
     + [Administrar suscriptores](audience/manage-subscribers.md)
-+ Campañas en canales múltiples {#campaigns}
++ Páginas de aterrizaje y formularios {#landing-pages}
+  + [Introducción a las páginas de destino](landing-pages/get-started-lp.md)
+  + [Creación y edición de una página de destino](landing-pages/create-lp.md)
+  + [Diseño del contenido de la página de destino](landing-pages/lp-content.md)
+  + [Aprenda con los casos de uso](landing-pages/lp-use-cases.md)
++ Campañas {#campaigns}
   + [Introducción a las campañas](campaigns/gs-campaigns.md)
   + [Acceso y administración de campañas](campaigns/manage-campaigns.md)
   + [Cree su primera campaña](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [Transferencia de archivo](workflows/activities/transfer-file.md)
     + [Actualización de datos](workflows/activities/update-data.md)
     + [Espera](workflows/activities/wait.md)
-+ Consultar la base de datos {#query-database}
++ Ofertas {#offers}
+  + [Introducción a la gestión de ofertas](offers/gs-offer-management.md)
+  + [Revisar configuración del entorno de ofertas](offers/offer-environment.md)
+  + [Crear y administrar espacios de ofertas](offers/offer-space.md)
+  + [Crear y publicar una oferta](offers/create-offer.md)
+  + [Añadir una lista editable al esquema de ofertas](offers/offer-editable-list.md)
++ Consulta y datos {#query-database}
   + [Trabajar con el modelador de consultas](query/query-modeler-overview.md)
   + [Genere su primera consulta](query/build-query.md)
   + [Editar expresiones](query/expression-editor.md)
   + {hide-from-toc}[Muestras de consultas](query/query-samples.md)
   + [Filtrar listas](query/filter.md)
-+ Creación de informes {#reports}
++ Informes y seguimiento {#reports}
   + [Pista de auditoría](reporting/audit-trail.md)
   + [Indicadores clave de rendimiento](reporting/kpis.md)
   + Informes estándar {#standard-reports}
