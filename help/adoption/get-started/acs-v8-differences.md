@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '777'
 ht-degree: 2%
 ---
 # Diferencias entre Campaign Standard y Campaign v8 {#acs-v8-differences}
@@ -50,9 +50,9 @@ Los pasos para crear y enviar mensajes son similares en ambos productos, tal com
 |---|---|
 | El canal en la aplicación no está disponible en Campaign v8. | [Canal en la aplicación](marketers.md#acs-gs-marketers-in-app) |
 | Para realizar la transición de flujos de trabajo push y envíos existentes, póngase en contacto con su administrador de transición de Adobe Campaign. | [Notificaciones push](marketers.md#acs-gs-marketers-push) |
-| En Campaign Standard, un perfil de prueba podría marcarse como **trampa** para recibir el envío final. En Campaign v8, habilite la opción para incluir perfiles de prueba en la audiencia principal del envío. | [Envíos de prueba](../../v8/preview-test/test-deliveries.md) |
+| En Campaign Standard, un perfil de prueba podría marcarse como **trampa** para recibir el envío final. En la versión 8 de Campaign, agregue un **grupo de reventado** en la configuración Audiencia de la entrega. | [Grupo de reventado](../../v8/audience/trap-group.md) |
 | Las páginas de destino creadas en la interfaz de usuario web de Campaign no admiten campos de entrada ocultos ni JavaScript personalizados. | [Páginas de destino](../../v8/landing-pages/get-started-lp.md) |
-| En Campaign Standard, la transición saliente de una actividad de correo postal también llevaba el archivo generado. En Campaign v8, solo lleva la población de destino. Para enviar el archivo a un servidor, agregue una actividad **Extracción de datos** y luego una actividad **Transferencia de archivos**. | [Correo postal](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| En Campaign Standard, la transición saliente de una actividad de correo postal también llevaba el archivo generado. En Campaign v8, solo lleva la población de destino. Para enviar el archivo a un servidor, agregue una actividad **Extracción de datos** y luego una actividad **Transferencia de archivos**. | [Correo postal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiencias, flujos de trabajo y envíos {#data-and-workflows}
 
@@ -63,7 +63,6 @@ Estas diferencias afectan a las audiencias y los flujos de trabajo migrados desd
 | Las audiencias se transforman durante la transición. Por ejemplo, las audiencias creadas con la actividad de consulta se convierten en filtros predefinidos y las audiencias de tipo de archivo se convierten en audiencias de tipo lista sin dimensiones. | [Administrar audiencias](marketers.md#acs-gs-marketers-audiences) |
 | Los registros históricos de los flujos de trabajo ejecutados en Campaign Standard no se migran. | [Creación de un flujo de trabajo](marketers.md#acs-gs-marketers-wf) |
 | En Campaign Standard, puede seleccionar el periodo de acumulación de un correo electrónico recurrente. Esta opción no está disponible para Campaign v8. | [Actividades de canal](../../v8/workflows/activities/channels.md) |
-| En Campaign Standard, la actividad **Transferencia de archivos** podía ordenar los archivos alfanuméricamente. Esta opción no está disponible para Campaign v8. | [Transferir archivo](../../v8/workflows/activities/transfer-file.md) |
 | Los informes dinámicos abarcan las entregas de correo electrónico, las campañas con entregas de correo electrónico y los mensajes transaccionales. | [Creación de informes](marketers.md#acs-gs-marketers-reporting) |
 
 ## Acceso y seguridad {#access}
@@ -86,10 +85,7 @@ Estas diferencias afectan a los envíos realizados desde Campaign Standard antes
 |---|---|
 | Las páginas espejo de los envíos realizados desde Campaign Standard antes de la transición no están disponibles. Las páginas espejo de los envíos enviados desde Campaign v8 funcionan como de costumbre. | [Páginas espejo](../../v8/email/mirror-page.md) |
 | El seguimiento de datos de envíos transaccionales en tiempo real enviados desde Campaign Standard antes de la transición no se captura en Campaign v8. Los vínculos de estos mensajes se siguen redireccionando. | [Monitorizar mensajes transaccionales](../../v8/transactional-messaging/monitor-transactional.md) |
-| No se conserva la configuración de URL rastreada de los borradores de envíos. Después de la transición, los vínculos de seguimiento, página espejo y suscripción siguen el estándar de Campaign v8, y los vínculos se rastrean de forma predeterminada. | [Agregar vínculos y realizar el seguimiento de mensajes](../../v8/email/message-tracking.md) |
 | Las unidades geográficas no están disponibles. Se pierde el control de acceso basado en unidades geográficas. | [Control de acceso](../../v8/get-started/connect-to-campaign.md#access-control) |
-| La información de **Creado por** y **Modificado por** de entidades no está disponible después de la transición. | [Pista de auditoría](admin-developers.md#acs-gs-admin-audit-trail) |
-| Las direcciones URL de subdominios de promoción de la marca se ajustan al estándar de Campaign v8. Las configuraciones de marca no estándar no se migran y se proporcionan a través de la marca predeterminada. | [Marca](../../v8/administration/branding/branding-gs.md) |
 
 ## API e integraciones {#apis-and-integrations}
 
