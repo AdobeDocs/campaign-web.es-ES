@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '433'
 ht-degree: 1%
 ---
 # Comprobación y solución de problemas después de la transición {#post-transition-checks}
@@ -46,5 +46,4 @@ Después de realizar la transición de Campaign Standard a Campaign v8, algunas 
 | **Transferencia de archivos** no encuentra el archivo generado por una actividad de correo postal. | La transición saliente de una actividad de correo postal lleva la población objetivo, no el archivo de extracción. Agregue una actividad **Extracción de datos** y luego la actividad **Transferencia de archivos**. | [Correo postal](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 | Varias olas de una entrega se envían juntas. | Las olas se programan desde la fecha de contacto de la entrega. Si la entrega se inicia después del tiempo planificado de algunas olas, esas olas se envían juntas en lugar de espaciarse. | [Enviar mediante olas](../../v8/advanced-settings/send-using-waves.md) |
 | Una máscara de archivo con caracteres después del asterisco no encuentra ningún archivo en Azure Blob Storage. | Azure Blob Storage filtra los archivos por prefijo de nombre. Solo se admite un asterisco final. | [Transferir cuenta externa](../../v8/administration/transfer-external-account.md) |
-| No se abre una página espejo de un envío enviado antes de la transición. | Las páginas espejo de los envíos realizados desde Campaign Standard antes de la transición no están disponibles y no hay solución. Las páginas espejo de los envíos enviados desde Campaign v8 funcionan como de costumbre. | [Páginas espejo](../../v8/email/mirror-page.md) |
 | Una página de aterrizaje o bloque de contenido que utiliza JavaScript personalizado se comporta de forma diferente. | JavaScript personalizado se transforma durante la migración, pero se valida y ajusta, en particular si utiliza `queryDef`, las API de Campaign JavaScript, las escrituras de sesión, la administración de unidades organizativas o la generación de URL personalizada. | [Páginas de destino](../../v8/landing-pages/get-started-lp.md) |

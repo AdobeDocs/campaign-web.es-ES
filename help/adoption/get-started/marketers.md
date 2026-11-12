@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2849'
 ht-degree: 16%
 ---
 # Introducción para especialistas en marketing {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Vínculos útiles:
 >
 >* Los envíos que se encuentran en uno de los siguientes estados se han migrado como envíos cancelados: Para envíos cancelados/Reintento en curso.
 >
->* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/baja de suscripciones de los envíos enviados desde Campaign v8 siguen el estándar de Campaign v8. Las páginas espejo de los envíos realizados desde Campaign Standard antes de la transición no están disponibles. <!-- See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking).-->
+>* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/baja de suscripciones de los envíos enviados desde Campaign v8 siguen el estándar de Campaign v8.
 >
 >Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](../../v8/administration/branding/branding-gs.md) en Adobe Campaign.
 
