@@ -52,7 +52,7 @@ Los pasos para crear y enviar mensajes son similares en ambos productos, tal com
 | Para realizar la transición de flujos de trabajo push y envíos existentes, póngase en contacto con su administrador de transición de Adobe Campaign. | [Notificaciones push](marketers.md#acs-gs-marketers-push) |
 | En Campaign Standard, un perfil de prueba podría marcarse como **trampa** para recibir el envío final. En la versión 8 de Campaign, agregue un **grupo de reventado** en la configuración Audiencia de la entrega. | [Grupo de reventado](../../v8/audience/trap-group.md) |
 | Las páginas de destino creadas en la interfaz de usuario web de Campaign no admiten campos de entrada ocultos ni JavaScript personalizados. | [Páginas de destino](../../v8/landing-pages/get-started-lp.md) |
-| En Campaign Standard, la transición saliente de una actividad de correo postal también llevaba el archivo generado. En Campaign v8, solo lleva la población de destino. Para enviar el archivo a un servidor, agregue una actividad **Extracción de datos** y luego una actividad **Transferencia de archivos**. | [Correo postal](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| En Campaign Standard, la transición saliente de una actividad de correo postal también llevaba el archivo generado. En Campaign v8, solo lleva la población de destino. Para enviar el archivo a un servidor, agregue una actividad **Extracción de datos** y luego una actividad **Transferencia de archivos**. | [Correo postal](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## Audiencias, flujos de trabajo y envíos {#data-and-workflows}
 
