@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Transición de Campaign Standard a Campaign v8 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Para garantizar una transición sin problemas a Campaign versión 8, se han aña
 
 * **API de REST**: los usuarios migrados de Campaign Standard pueden usar las API de REST para crear integraciones para Adobe Campaign y construir ecosistemas al interconectar Adobe Campaign con otras tecnologías. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=es){target="_blank"}.
 
-* **Páginas de destino**: las páginas de destino de la versión 8 de Campaign incluyen mejoras para garantizar la paridad de las funciones con Campaign Standard. Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de destino [documentación](../landing-pages/get-started-lp.md).
+* **Páginas de aterrizaje**: Las páginas de aterrizaje de Campaign v8 incluyen mejoras para alinearlas con Campaign Standard. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> Obtenga más información en las [notas de la versión](../rn/release-notes.md#new-24-4) y la página de destino [documentación](../landing-pages/get-started-lp.md).
 
 * **Fragmentos visuales**: los fragmentos visuales son componentes visuales reutilizables a los que se puede hacer referencia en uno o varios envíos de correo electrónico o en plantillas de contenido. La modificación de un fragmento actualiza todo el contenido que lo utiliza. Esta funcionalidad permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados para ensamblar mensajes rápidamente en un proceso de diseño mejorado. [Más información](../content/use-visual-fragments.md).
 

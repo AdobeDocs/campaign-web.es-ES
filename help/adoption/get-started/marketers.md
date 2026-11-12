@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2863'
 ht-degree: 16%
 ---
 # Introducción para especialistas en marketing {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Vínculos útiles:
 >
 >* Los envíos que se encuentran en uno de los siguientes estados se han migrado como envíos cancelados: Para envíos cancelados/Reintento en curso.
 >
->* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/cancelación de suscripción funcionan como en Campaign Standard.
+>* Los vínculos de seguimiento, los vínculos de URL de páginas espejo y los vínculos de suscripción/baja de suscripciones de los envíos enviados desde Campaign v8 siguen el estándar de Campaign v8. Las páginas espejo de los envíos realizados desde Campaign Standard antes de la transición no están disponibles. <!-- See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking).-->
 >
 >Vea también las secciones siguientes: [Seguimiento y supervisión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [Promoción de marca](../../v8/administration/branding/branding-gs.md) en Adobe Campaign.
 
@@ -375,7 +375,7 @@ Tenga en cuenta que el canal en la aplicación no está disponible en Campaign v
 
 La interfaz de usuario web de Adobe Campaign v8 viene con una experiencia de usuario reimaginada para las páginas de aterrizaje. Campaign le permite crear, diseñar y compartir páginas de aterrizaje. Adobe Campaign le permite dirigir a los usuarios a formularios en línea, donde pueden actualizar sus datos, optar por suscribirse a darse de baja de la recepción de comunicaciones, o suscribirse a un servicio específico, como una Newsletter.
 
-Como usuario de Campaign Standard que realiza la transición a Campaign v8, las páginas de aterrizaje existentes se han migrado a la interfaz de usuario web de Campaign. Puede acceder a la misma gama de funcionalidades.
+Como usuario de Campaign Standard que está realizando la transición a Campaign v8, las páginas de destino existentes se han migrado a la interfaz de usuario web de Campaign. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 Obtenga más información acerca de las páginas de aterrizaje en las siguientes secciones:
 
