@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
@@ -91,7 +91,7 @@ Para obtener más información sobre el uso de la versión 8 de Campaign con su 
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453425?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -121,7 +121,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448367?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 
@@ -253,7 +253,7 @@ External accounts are used by technical processes such as technical workflows or
 
 **Manage Adobe Campaign integrations**
 
-You can connect your Campaign environment with Adobe Experience Cloud solutions and apps to combine capabilities.<br/>
+You can connect your Campaign environment with [!DNL Adobe CX Enterprise] solutions and apps to combine capabilities.<br/>
 Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, and share and synchronize data. These connections are configured by Adobe.
 
 Here are the possible integrations:

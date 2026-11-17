@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 16%
+source-wordcount: '170'
+ht-degree: 12%
 ---
 # Codifique su propio contenido de correo electrónico {#code-content}
 
@@ -26,6 +26,10 @@ Use el modo **[!UICONTROL Codifique su propio]** para importar HTML sin procesar
 >[!CAUTION]
 >
 >Este método requiere conocimientos de HTML.
+
+>[!IMPORTANT]
+>
+>No use la etiqueta HTML `<base>` en el contenido del correo electrónico. Por motivos de seguridad, esta etiqueta no es compatible y puede evitar que el contenido se cargue en el editor de contenido. En su lugar, utilice direcciones URL absolutas para los vínculos y los recursos externos.
 
 1. En la página de inicio de [Enviar correo electrónico a Designer](get-started-email-designer.md), seleccione **[!UICONTROL Codifique su propio código]**.
 

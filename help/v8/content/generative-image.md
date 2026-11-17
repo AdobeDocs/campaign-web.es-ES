@@ -17,9 +17,9 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1255'
 ht-degree: 2%
 ---
 # Generación de imágenes {#generative-image}
@@ -29,9 +29,13 @@ ht-degree: 2%
 >Antes de empezar a usar esta capacidad, lea las [Protecciones y limitaciones](generative-gs.md#generative-guardrails) relacionadas.
 ></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} antes de usar IA para generar contenido en Adobe Campaign Web. Para obtener más información, póngase en contacto con su representante Adobe.
 
 Utilice IA en Adobe Campaign Web para crear contenido visual convincente que mejore los mensajes en el correo electrónico, las páginas de aterrizaje y las notificaciones push. La IA le ayuda a generar y optimizar imágenes, lo que garantiza que el contenido sea visualmente atractivo y esté alineado con la marca.
+
+>[!IMPORTANT]
+>
+>Los vínculos a imágenes generadas por IA son temporales y no se pueden utilizar para ofrecer imágenes a los destinatarios. Al guardar la entrega, las imágenes generadas se guardan en la instancia de Campaign y los vínculos se sustituyen. Guarde la entrega antes de enviarla.
 
 ## Para correo electrónico y páginas de destino {#email-web-channels}
 

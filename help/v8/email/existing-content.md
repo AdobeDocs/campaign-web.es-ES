@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '330'
+ht-degree: 26%
 ---
 # Importar el contenido de su correo electrónico {#existing-content}
 
@@ -31,6 +31,10 @@ Puede importar contenido existente de HTML en Designer de correo electrónico. E
 >[!NOTE]
 >
 >No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
+
+>[!IMPORTANT]
+>
+>No use la etiqueta HTML `<base>` en el contenido del correo electrónico. Por motivos de seguridad, esta etiqueta no es compatible y puede evitar que el contenido se cargue en el editor de contenido. En su lugar, utilice direcciones URL absolutas para los vínculos y los recursos externos.
 
 ➡️ [Descubra esta función en vídeo](#video)
 
@@ -62,4 +66,4 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación.
 
 Obtenga información sobre cómo crear un mensaje de correo electrónico cargando HTML, haciéndolo compatible con el Designer de correo electrónico y convirtiéndolo en una plantilla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447035/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
