@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 8%
+source-wordcount: '477'
+ht-degree: 10%
 ---
 # Introducción a los informes de campaña {#campaign-reports}
 
@@ -64,3 +64,43 @@ Para acceder y administrar los informes de campaña, siga estos pasos:
 1. Entre las **[!UICONTROL URL y los flujos de clics]**, elija los **[!UICONTROL vínculos más visitados]** o el **[!UICONTROL período de tiempo]**.
 
    Las opciones de **[!UICONTROL Ver por]** permiten filtrar por direcciones URL, etiquetas o categorías.
+
+## Informes del canal LINE {#line-reports}
+
+A continuación, se describen los informes disponibles para el canal LINE.
+
+### Resumen de entregas {#line-delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_deliveries_overview"
+>title="Información general sobre el envío"
+>abstract="Ver mensajes para enviar, mensajes enviados y errores de entrega para LINE."
+
+El informe **[!UICONTROL Resumen de entrega]** muestra los mensajes que se van a enviar, los mensajes enviados y los errores de entrega de los envíos de LINE.
+
+#### Estadísticas de público destinatario inicial {#line-initial-target}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_target"
+>title="Estadísticas de público destinatario inicial"
+>abstract="Revise la población de destinatarios inicial y los perfiles excluidos antes de ejecutar la entrega LINE."
+
+La tabla **[!UICONTROL Estadísticas de audiencia de destinatario inicial]** muestra la población de destinatarios inicial y los perfiles excluidos antes de que se ejecutara la entrega LINE.
+
+#### Estadísticas de ejecución {#line-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_exec_stats"
+>title="Estadísticas de ejecución"
+>abstract="Revise los resultados de procesamiento y entrega de los mensajes de LINE, incluidos los mensajes enviados y los errores."
+
+La tabla **[!UICONTROL Execution statistics]** muestra los resultados de procesamiento y envío de los mensajes de LINE, incluidos los mensajes enviados y los errores.
+
+#### Flujos de clics generados {#line-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_click_streams"
+>title="Flujos de clics generados"
+>abstract="Vea la actividad de vínculo rastreado generada por los destinatarios de la entrega LINE."
+
+La tabla **[!UICONTROL Flujos de clics generados]** muestra la actividad de vínculos rastreados generada por los destinatarios de la entrega LINE.
