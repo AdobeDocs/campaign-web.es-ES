@@ -10,7 +10,7 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
@@ -63,7 +63,7 @@ A continuación, debe definir el evento como basado en perfiles para dirigirse a
    * Para un tipo de evento existente, selecciónelo en la lista.
    * Para una nueva, añada una etiqueta y un nombre.
 
-1. A continuación, elija **Perfil RT** en la lista desplegable **Tipo de evento**.
+1. A continuación, elija **Evento personalizado** en la lista desplegable **Tipo de evento**.
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 

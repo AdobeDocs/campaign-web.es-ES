@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '930'
+ht-degree: 22%
 ---
 # Trabajar con Generar contenido {#generative-gs}
 
@@ -124,6 +124,7 @@ Las siguientes limitaciones se aplican a Generar contenido en Adobe Campaign Web
 * Solo disponible para los canales de correo electrónico, push y SMS.
 * Puede que el contenido de GenAI no siempre sea preciso. Comparta sus comentarios para que los ingenieros puedan refinar los modelos.
 * Puede cargar varios recursos de marca, pero solo puede aprovechar uno para una generación específica.
+* Los vínculos a imágenes generadas por IA son temporales y no se pueden utilizar para ofrecer imágenes a los destinatarios. Al guardar la entrega, las imágenes generadas se guardan en la instancia de Campaign y los vínculos se sustituyen. Guarde la entrega antes de enviarla.
 
 ## Generar capacidades de contenido {#generative-features}
 

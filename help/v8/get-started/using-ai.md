@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/es/ai.html){target="_blank"}.
+For information specific to Adobe AI policies in [!DNL Adobe CX Enterprise] apps and solutions, refer to [this page](https://business.adobe.com/es/ai.html){target="_blank"}.
 -->
 
 ## Preguntas sugeridas {#questions-ai}

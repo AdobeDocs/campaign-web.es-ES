@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # Notas de la versión 2024 {#2024-release}
 
@@ -241,7 +241,7 @@ Ahora puede crear vínculos con otra tabla en la actividad de flujo de trabajo *
 
 * **Administración de carpetas**: ahora puede crear una subcarpeta de un tipo diferente a la carpeta principal. [Más información](../get-started/permissions.md#folders)
 
-* **Globalización**: como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología empleada en los productos y las aplicaciones de Adobe Experience Cloud. Esto afecta al término alemán “Titel”, que se ha cambiado a “Label” cuando está relacionado con el nombre de un objeto. Los cambios se implementarán progresivamente en la interfaz de usuario y en la documentación.
+* **Globalización**: como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología utilizada en los productos y aplicaciones de [!DNL Adobe CX Enterprise]. Esto afecta al término alemán “Titel”, que se ha cambiado a “Label” cuando está relacionado con el nombre de un objeto. Los cambios se implementarán progresivamente en la interfaz de usuario y en la documentación.
 
 
 ## Notas de la versión de abril {#april-24-4-release}
@@ -260,7 +260,7 @@ Las siguientes funciones están disponibles para todos los usuarios a partir de 
 * **Transferir archivo**: use esta actividad para recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado puede ser el protocolo servidor a servidor o el protocolo HTTP. [Más información](../workflows/activities/transfer-file.md)
 * **Prueba**: utilice esta actividad para habilitar transiciones basadas en condiciones especificadas. [Más información](../workflows/activities/test.md)
 * **Código JavaScript**: utilice esta actividad para ejecutar un fragmento de código JavaScript en el contexto de un flujo de trabajo. [Más información](../workflows/activities/javascript-code.md)
-* **Señal externa**: utilice esta actividad para activar la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada de API. [Más información](../workflows/activities/external-signal.md)
+* **Señal externa**: utilice esta actividad para activar la ejecución de un flujo de trabajo desde otro flujo de trabajo o una llamada API. [Más información](../workflows/activities/external-signal.md)
 * **Consulta incremental**: utilice esta actividad para consultar la base de datos de forma programada. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite segmentar solo elementos nuevos. [Más información](../workflows/activities/incremental-query.md)
 
 **Plantillas de notificaciones push enriquecidas**

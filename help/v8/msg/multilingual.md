@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1509'
 ht-degree: 6%
 ---
 # Configuración de un envío multilingüe {#multilingual-delivery}
@@ -32,6 +32,10 @@ En la interfaz de usuario web de Campaign, puede configurar las entregas como mu
 En un envío multilingüe, la administración de idiomas se basa en variantes. Cada variante representa un idioma. Durante la creación de la entrega, puede añadir varias variantes de idioma para que coincidan con el número de idiomas necesarios en el mensaje. También puede cambiar el idioma predeterminado en cualquier momento después de agregar estas variantes.
 
 Actualmente, la capacidad multilingüe está disponible para correos electrónicos, notificaciones push, mensajes transaccionales y SMS.
+
+>[!NOTE]
+>
+>No se admiten envíos multilingües de variante única. Si el mensaje solo necesita un idioma, cree un envío estándar (único).
 
 Para configurar envíos multilingües, siga estos pasos principales:
 
