@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1517'
 ht-degree: 6%
 ---
 # Configuración de un envío multilingüe {#multilingual-delivery}
@@ -27,7 +27,7 @@ ht-degree: 6%
 >title="Importar variantes de idioma"
 >abstract="Utilice este cuadro de diálogo para añadir una variante de idioma mediante la importación de un archivo CSV. El archivo rellena automáticamente todos los campos disponibles para el idioma seleccionado. Puede arrastrar y soltar el archivo o elegirlo en el equipo antes de confirmarlo."
 
-En la interfaz de usuario web de Campaign, puede configurar las entregas como multilingües, lo que le permite enviar mensajes en función del idioma preferido de un perfil. Cuando no se define ninguna preferencia, el mensaje se envía en el idioma predeterminado.
+En la interfaz de usuario web de Campaign, puede configurar las entregas como multilingües, lo que le permite enviar mensajes en función del idioma preferido de un perfil. Cuando no se define ninguna preferencia o cuando ninguna variante coincide con el idioma del perfil, el mensaje se envía en el idioma predeterminado.
 
 En un envío multilingüe, la administración de idiomas se basa en variantes. Cada variante representa un idioma. Durante la creación de la entrega, puede añadir varias variantes de idioma para que coincidan con el número de idiomas necesarios en el mensaje. También puede cambiar el idioma predeterminado en cualquier momento después de agregar estas variantes.
 
